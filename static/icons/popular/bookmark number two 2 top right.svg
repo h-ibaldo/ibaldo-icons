@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Bookmark Two</title>
+<desc id="iconDesc">A bookmark icon with the number two in the top right corner</desc>
+<path class="a" d="M13,3H6A1,1,0,0,0,5,4V22l7-4,7,4V13" aria-hidden="true"/>
+<path class="a" d="M17,4h0a2,2,0,0,1,2-2h0a2,2,0,0,1,2,2v.17a2,2,0,0,1-.59,1.42L17,9h4" aria-hidden="true"/>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs>
+  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+</defs>
+<title id="iconTitle">Geometric Box</title>
+<desc id="iconDesc">A geometric box with hexagonal shape, featuring clean lines and three-dimensional perspective</desc>
+<polygon class="a" points="12 2 2 7 2 17 12 22 22 17 22 7 12 2" aria-hidden="true"/>
+<polyline class="a" points="2 7 12 12 22 7" aria-hidden="true"/>
+<line class="a" x1="12" y1="22" x2="12" y2="12" aria-hidden="true"/></svg>

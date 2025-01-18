@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+    <title id="iconTitle">Bookmarked Book</title>
+    <desc id="iconDesc">An open book with a triangular bookmark ribbon and a vertical spine marker, featuring a decorative line detail at the top.</desc>
+    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+    <line class="a" x1="20" y1="17" x2="20" y2="22" aria-hidden="true"/>
+    <path class="a" d="M17,3h3a1,1,0,0,1,1,1V16a1,1,0,0,1-1,1H5.5A2.5,2.5,0,0,0,3,19.5H3A2.5,2.5,0,0,0,5.5,22H21" aria-hidden="true"/>
+    <path class="a" d="M3,19.5V5.5A2.5,2.5,0,0,1,5.5,3H11" aria-hidden="true"/>
+    <line class="a" x1="7" y1="3" x2="7" y2="17" aria-hidden="true"/>
+    <polygon class="a" points="11 2 11 10 14 8 17 10 17 2 11 2" aria-hidden="true"/>
+</svg>

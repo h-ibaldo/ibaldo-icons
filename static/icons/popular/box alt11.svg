@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs>
+  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+</defs>
+<title id="iconTitle">Split Box</title>
+<desc id="iconDesc">A three-dimensional box split into two halves, with curved edges and symmetrical design</desc>
+<polygon class="a" points="14 14 22 11 20 6 12 9 14 14" aria-hidden="true"/>
+<polyline class="a" points="12 21 20 18 20 11.75" aria-hidden="true"/>
+<line class="a" x1="20" y1="6" x2="12" y2="3" aria-hidden="true"/>
+<polygon class="a" points="10 14 2 11 4 6 12 9 10 14" aria-hidden="true"/>
+<polyline class="a" points="12 21 4 18 4 11.75" aria-hidden="true"/>
+<line class="a" x1="4" y1="6" x2="12" y2="3" aria-hidden="true"/></svg>

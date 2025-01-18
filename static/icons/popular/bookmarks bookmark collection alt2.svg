@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Bookmark Collection</title>
+<desc id="iconDesc">A second alternate style bookmark collection with a folded top edge</desc>
+<path class="a" d="M18,5H6A1,1,0,0,0,5,6V22l7-4,7,4V6A1,1,0,0,0,18,5Z" aria-hidden="true"/>
+<path class="a" d="M18,5V3a1,1,0,0,0-1-1H7A1,1,0,0,0,6,3V5" aria-hidden="true"/>
+</svg>

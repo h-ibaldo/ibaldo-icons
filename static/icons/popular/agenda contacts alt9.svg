@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Contact Folder</title>
+<desc id="iconDesc">A contact folder with a user profile icon showing a circular head and shoulders silhouette, and a tabbed spine on the right</desc>
+<circle class="a" cx="10" cy="10" r="3" aria-hidden="true"/>
+<path class="a" d="M14,17h0a4,4,0,0,0-4-4h0a4,4,0,0,0-4,4H6" aria-hidden="true"/>
+<rect class="a" x="2" y="2" width="16" height="20" rx="1.79" aria-hidden="true"/>
+<path class="a" d="M17.81,21H20a1.7,1.7,0,0,0,1.7-1.7V4.7A1.7,1.7,0,0,0,20,3H17.81" aria-hidden="true"/></svg>

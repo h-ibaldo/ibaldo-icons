@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Disabled Counter-Clockwise Refresh</title>
+<desc id="iconDesc">A circular arrow pointing counter-clockwise with a diagonal line through it, indicating a disabled or forbidden reverse refresh action</desc>
+<polyline class="a" points="20 21.91 20 17.91 16 17.91" aria-hidden="true"/>
+<line class="a" x1="2" y1="21.91" x2="22" y2="1.91" aria-hidden="true"/>
+<path class="a" d="M22,12.91c0-.32.05-.66.05-1a10,10,0,0,0-2.93-7.07" aria-hidden="true"/>
+<path class="a" d="M4.93,19A10,10,0,0,0,20,17.91" aria-hidden="true"/>
+<path class="a" d="M15.4,2.52A9.89,9.89,0,0,0,12,1.91a10,10,0,0,0-9.4,13.4" aria-hidden="true"/></svg>

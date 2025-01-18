@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clockwise Reload</title>
+<desc id="iconDesc">A circular arrow pointing clockwise with an arrowhead at the top, indicating a reload or repeat action</desc>
+<polyline class="a" points="20 1.91 20 5.91 16 5.91" aria-hidden="true"/>
+<path class="a" d="M22,10.91c0,.33.05.67.05,1a10,10,0,1,1-2-6" aria-hidden="true"/></svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Shopping Briefcase</title>
+  <desc id="iconDesc">A shopping bag style briefcase with curved handles and a detailed bottom section showing contents</desc>
+  <defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <path class="a" d="M9,6V4a2,2,0,0,1,2-2h2a2,2,0,0,1,2,2V6" aria-hidden="true"/>
+  <path class="a" d="M21,6.88A1,1,0,0,0,20,6H5.38a1,1,0,0,1,1,.88l.8,6.37a2,2,0,0,0,2,1.75H19.73a2,2,0,0,0,2-2.25Z" aria-hidden="true"/>
+  <path class="a" d="M5.38,6h-.5a1,1,0,0,0-1,.88L2.28,19.75a2,2,0,0,0,2,2.25H19.73a2,2,0,0,0,2-2.25L21.12,15" aria-hidden="true"/>
+  <path class="a" d="M8.39,15,9,19.75A2,2,0,0,1,7,22" aria-hidden="true"/>
+  <polygon class="a" points="13.99 17 15.88 17 15.38 13 13.49 13 13.99 17" aria-hidden="true"/>
+</svg>

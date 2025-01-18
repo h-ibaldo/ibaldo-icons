@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Divided Briefcase</title>
+  <desc id="iconDesc">A briefcase with a handle on top, horizontal dividing line across the middle, and a small vertical detail in the center</desc>
+  <defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <rect class="a" x="2" y="7" width="20" height="14" rx="1" aria-hidden="true"/>
+  <path class="a" d="M9,3h6a1,1,0,0,1,1,1V7a0,0,0,0,1,0,0H8A0,0,0,0,1,8,7V4A1,1,0,0,1,9,3Z" aria-hidden="true"/>
+  <line class="a" x1="2" y1="15" x2="22" y2="15" aria-hidden="true"/>
+  <line class="a" x1="12" y1="14" x2="12" y2="16" aria-hidden="true"/>
+</svg>

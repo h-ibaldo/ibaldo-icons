@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Rounded Light Bulb</title>
+  <desc id="iconDesc">A light bulb with curved bottom edges and a rounded base, featuring a horizontal line at the bottom</desc>
+  <defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <polyline class="a" points="9 20.05 10 22.05 14 22.05 15 20.05" aria-hidden="true"/>
+  <path class="a" d="M4,10.05a8,8,0,0,0,2.4,5.71,4.67,4.67,0,0,1,1.32,2.62h0a2,2,0,0,0,2,1.67h4.62a2,2,0,0,0,2-1.67h0a4.67,4.67,0,0,1,1.32-2.62A8,8,0,0,0,20,10.05" aria-hidden="true"/>
+  <path class="a" d="M20,10.05a8,8,0,0,0-16,0" aria-hidden="true"/>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs>
+  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+</defs>
+<title id="iconTitle">Square Box</title>
+<desc id="iconDesc">A square box with a centered opening at the top, shown as a simple rectangular shape with a vertical slot</desc>
+<rect class="a" x="2" y="2" width="20" height="20" rx="1" aria-hidden="true"/>
+<polyline class="a" points="15 2 15 8 9 8 9 2" aria-hidden="true"/></svg>

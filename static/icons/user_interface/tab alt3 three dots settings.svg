@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <polygon class="b" points="22 22 2 22 2 2 10 2 13 6 22 6 22 22"/>
+  <polyline class="b" points="15 2 22 2 22 6"/>
+  <line class="b" x1="8" y1="14.01" x2="8" y2="14"/>
+  <line class="b" x1="12" y1="14.01" x2="12" y2="14"/>
+  <line class="b" x1="16" y1="14.01" x2="16" y2="14"/>
+</svg>

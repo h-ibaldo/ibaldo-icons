@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Disabled Hexagonal Refresh</title>
+<desc id="iconDesc">A hexagonal frame with a diagonal line through it and an arrow pointing to the upper left, indicating a disabled refresh action</desc>
+<polyline class="a" points="2 6.03 2.97 9.91 6.85 8.94" aria-hidden="true"/>
+<line class="a" x1="22" y1="3.91" x2="2" y2="19.91" aria-hidden="true"/>
+<path class="a" d="M18.9,6.39,17.54,3.94a2,2,0,0,0-1.74-1H8.15a2,2,0,0,0-1.75,1l-3.32,6" aria-hidden="true"/>
+<line class="a" x1="3.08" y1="13.91" x2="5.06" y2="17.47" aria-hidden="true"/>
+<path class="a" d="M7.6,20.83a1.7,1.7,0,0,0,.55.08H15.8a2,2,0,0,0,1.74-1l3.89-7a2,2,0,0,0,0-2L21,10.13" aria-hidden="true"/></svg>

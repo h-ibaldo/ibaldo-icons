@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Split Panel Briefcase</title>
+  <desc id="iconDesc">A briefcase with a split front panel design, handle on top, and a small rectangular detail in the center</desc>
+  <defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <path class="a" d="M5.5,6h0A3.5,3.5,0,0,1,9,9.5V22a0,0,0,0,1,0,0H2a0,0,0,0,1,0,0V9.5A3.5,3.5,0,0,1,5.5,6Z" aria-hidden="true"/>
+  <path class="a" d="M9,22H22V9.5A3.5,3.5,0,0,0,18.5,6H6" aria-hidden="true"/>
+  <line class="a" x1="9" y1="16" x2="22" y2="16" aria-hidden="true"/>
+  <rect class="a" x="15" y="15" width="1" height="2" aria-hidden="true"/>
+  <path class="a" d="M8,6V4a2,2,0,0,1,2-2h4a2,2,0,0,1,2,2V6" aria-hidden="true"/>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="b" cx="17" cy="7.03275" r="3.5"/>
+    <line class="b" x1="17" y1="7.04275" x2="17" y2="7.03275"/>
+    <line class="b" x1="17" y1="2.03275" x2="17" y2="3.53275"/>
+    <line class="b" x1="17" y1="10.53275" x2="17" y2="12.03275"/>
+    <line class="b" x1="22" y1="7.03275" x2="20.5" y2="7.03275"/>
+    <line class="b" x1="13.5" y1="7.03275" x2="12" y2="7.03275"/>
+    <line class="b" x1="20.53553" y1="10.56829" x2="19.47487" y2="9.50763"/>
+    <line class="b" x1="14.52513" y1="4.55788" x2="13.46447" y2="3.49722"/>
+    <line class="b" x1="13.46447" y1="10.56829" x2="14.52513" y2="9.50763"/>
+    <line class="b" x1="19.47487" y1="4.55788" x2="20.53553" y2="3.49722"/>
+  </g>
+  <path class="b" d="m9,7.03275h-4c-.55228,0-1,.44772-1,1v9c0,.55228.44772,1,1,1h14c.55228,0,1-.44772,1-1v-3"/>
+  <line class="b" x1="2" y1="22.03275" x2="22" y2="22.03275"/>
+</svg>

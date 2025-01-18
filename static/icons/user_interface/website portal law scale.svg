@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <path class="b" d="m22,10V4c0-1.10457-.89543-2-2-2H4c-1.10457,0-2,.89543-2,2v16c0,1.10457.89543,2,2,2h2"/>
+  <line class="b" x1="5.03527" y1="4.99878" x2="5.02527" y2="4.99878"/>
+  <line class="b" x1="8.03527" y1="4.99878" x2="8.02527" y2="4.99878"/>
+  <line class="b" x1="19" y1="5" x2="11" y2="5"/>
+  <line class="b" x1="2" y1="8" x2="22" y2="8"/>
+  <path class="b" d="m18.02527,16.99878c0,1.10457.89543,2,2,2s2-.89543,2-2l-2-4-2,4Z"/>
+  <path class="b" d="m6.02527,16.99878c0,1.10457.89543,2,2,2s2-.89543,2-2l-2-4-2,4Z"/>
+  <line class="b" x1="10.02527" y1="21.99878" x2="18.02527" y2="21.99878"/>
+  <line class="b" x1="14.02527" y1="11.99878" x2="14.02527" y2="21.99878"/>
+  <polyline class="b" points="8.02527 12.99878 14.02527 11.99878 20.02527 12.99878"/>
+</svg>

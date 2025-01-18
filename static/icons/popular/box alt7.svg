@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs>
+  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+</defs>
+<title id="iconTitle">Open Box</title>
+<desc id="iconDesc">A box with open flaps on top and visible inner contents represented by lines</desc>
+<path class="a" d="M12,2,2,7v10l10,5,10-5V7Z" aria-hidden="true"/>
+<path class="a" d="M2,7l10,5,10-5" aria-hidden="true"/>
+<line class="a" x1="12" y1="12" x2="12" y2="22" aria-hidden="true"/></svg>

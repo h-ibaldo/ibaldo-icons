@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <rect class="b" x="1.94946" y="2" width="20" height="4" rx="2" ry="2"/>
+  <rect class="b" x="1.94946" y="10" width="20" height="4" rx="2" ry="2"/>
+  <rect class="b" x="1.94946" y="18" width="20" height="4" rx="2" ry="2"/>
+  <line class="b" x1="7.94946" y1="2" x2="7.94946" y2="6"/>
+  <line class="b" x1="15.94946" y1="10" x2="15.94946" y2="14"/>
+  <line class="b" x1="11.94946" y1="18" x2="11.94946" y2="22"/>
+  <line class="b" x1="3.93946" y1="4" x2="3.94946" y2="4"/>
+  <line class="b" x1="5.94946" y1="4" x2="5.93946" y2="4"/>
+  <line class="b" x1="3.94946" y1="12" x2="3.93946" y2="12"/>
+  <line class="b" x1="5.93946" y1="12" x2="5.94946" y2="12"/>
+  <line class="b" x1="7.93946" y1="12" x2="7.94946" y2="12"/>
+  <line class="b" x1="9.93946" y1="12" x2="9.94946" y2="12"/>
+  <line class="b" x1="11.94946" y1="12" x2="11.93946" y2="12"/>
+  <line class="b" x1="13.94946" y1="12" x2="13.93946" y2="12"/>
+  <line class="b" x1="3.93946" y1="20" x2="3.94946" y2="20"/>
+  <line class="b" x1="5.94946" y1="20" x2="5.93946" y2="20"/>
+  <line class="b" x1="7.93946" y1="20" x2="7.94946" y2="20"/>
+  <line class="b" x1="9.93946" y1="20" x2="9.94946" y2="20"/>
+</svg>

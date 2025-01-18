@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+    <title id="iconTitle">Binoculars Icon</title>
+    <desc id="iconDesc">A pair of binoculars with two circular lenses, connected by adjustable straps and featuring decorative curved elements at the top.</desc>
+    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+    <circle class="a" cx="6" cy="17.94" r="4" aria-hidden="true"/>
+    <circle class="a" cx="18" cy="17.94" r="4" aria-hidden="true"/>
+    <path class="a" d="M14,14.94a2,2,0,0,1-4,0" aria-hidden="true"/>
+    <path class="a" d="M10,9.94a2,2,0,0,1,4,0" aria-hidden="true"/>
+    <path class="a" d="M2,17.94H2a10.86,10.86,0,0,1,.18-2L3.51,8.62A3.27,3.27,0,0,1,6.73,5.94h0A3.26,3.26,0,0,1,10,9.21v8.73" aria-hidden="true"/>
+    <path class="a" d="M22,17.94h0a10.86,10.86,0,0,0-.18-2L20.49,8.62a3.27,3.27,0,0,0-3.22-2.68h0A3.26,3.26,0,0,0,14,9.21v8.73" aria-hidden="true"/>
+    <path class="a" d="M18,2.94a2.18,2.18,0,0,0-1.83-1h0a2.18,2.18,0,0,0-1.83,1" aria-hidden="true"/>
+    <path class="a" d="M6.34,2.94a2.18,2.18,0,0,1,1.83-1h0a2.18,2.18,0,0,1,1.83,1" aria-hidden="true"/>
+</svg>

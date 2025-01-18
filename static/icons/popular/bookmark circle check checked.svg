@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Bookmark Complete</title>
+<desc id="iconDesc">A bookmark icon with a circular checkmark button overlay</desc>
+<path class="a" d="M17,6V3a1,1,0,0,0-1-1H4A1,1,0,0,0,3,3V22l7-4,7,4V16" aria-hidden="true"/>
+<circle class="a" cx="17" cy="11" r="5" aria-hidden="true"/>
+<polyline class="a" points="15.5 11 16.5 12 18.5 10" aria-hidden="true"/>
+</svg>

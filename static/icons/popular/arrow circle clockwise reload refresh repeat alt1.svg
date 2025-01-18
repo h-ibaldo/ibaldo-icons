@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clockwise Refresh</title>
+<desc id="iconDesc">A circular arrow pointing clockwise with a curved path and arrowhead indicating refresh or reload action</desc>
+<polyline class="a" points="4 21.91 4 17.91 8 17.91" aria-hidden="true"/>
+<path class="a" d="M2.05,12.91c0-.32,0-.66,0-1a10,10,0,1,1,2,6" aria-hidden="true"/></svg>

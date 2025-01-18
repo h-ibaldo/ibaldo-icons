@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <title id="iconTitle">No Refresh</title>
+  <desc id="iconDesc">A horizontal refresh icon with arrows pointing in opposite directions and a diagonal line through it, indicating that refresh actions are disabled</desc>
+  <polyline class="a" points="17 1.91 20 4.91 17 7.91" aria-hidden="true"/>
+  <line class="a" x1="2" y1="1.91" x2="22" y2="21.91" aria-hidden="true"/>
+  <path class="a" d="M20,4.91H9a6.93,6.93,0,0,0-3.21.79" aria-hidden="true"/>
+  <path class="a" d="M3.15,8.07A7,7,0,0,0,2,11.91v1" aria-hidden="true"/>
+  <polyline class="a" points="7 21.91 4 18.91 7 15.91" aria-hidden="true"/>
+  <path class="a" d="M4,18.91H15a6.92,6.92,0,0,0,3.21-.78" aria-hidden="true"/>
+  <path class="a" d="M20.85,15.76A7,7,0,0,0,22,11.91v-1" aria-hidden="true"/>
+</svg> 

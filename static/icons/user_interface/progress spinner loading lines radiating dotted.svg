@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <line class="b" x1="11.94946" y1="2" x2="11.94946" y2="6"/>
+  <line class="b" x1="21.94946" y1="12" x2="17.94946" y2="12"/>
+  <line class="b" x1="16.1921" y1="16.24264" x2="19.02053" y2="19.07107"/>
+  <line class="b" x1="19.02053" y1="4.92893" x2="16.19211" y2="7.75736"/>
+  <line class="b" x1="11.95946" y1="18" x2="11.94946" y2="18"/>
+  <line class="b" x1="11.95946" y1="22" x2="11.94946" y2="22"/>
+  <line class="b" x1="7.71682" y1="16.24264" x2="7.70682" y2="16.24264"/>
+  <line class="b" x1="4.8884" y1="19.07107" x2="4.8784" y2="19.07107"/>
+  <line class="b" x1="5.95946" y1="12" x2="5.94946" y2="12"/>
+  <line class="b" x1="1.95946" y1="12" x2="1.94946" y2="12"/>
+  <line class="b" x1="7.71682" y1="7.75736" x2="7.70682" y2="7.75736"/>
+  <line class="b" x1="4.8884" y1="4.92893" x2="4.8784" y2="4.92893"/>
+</svg>

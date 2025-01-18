@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <circle class="b" cx="11.94946" cy="4" r="1"/>
+  <circle class="b" cx="11.94946" cy="20" r="1"/>
+  <circle class="b" cx="6.29261" cy="6.34315" r="1"/>
+  <circle class="b" cx="17.60632" cy="6.34315" r="1"/>
+  <circle class="b" cx="6.29261" cy="17.65685" r="1"/>
+  <rect class="b" x="19.94946" y="12"/>
+  <circle class="b" cx="3.94946" cy="12" r="1"/>
+  <polygon class="b" points="19.93946 12 19.94946 12 19.94946 12 19.94946 12 19.93946 12"/>
+  <rect class="b" x="17.60632" y="17.65685"/>
+  <polygon class="b" points="17.59632 17.65685 17.60632 17.65685 17.60632 17.65685 17.60632 17.65685 17.59632 17.65685"/>
+  <circle class="b" cx="3.94946" cy="12" r="1"/>
+</svg>

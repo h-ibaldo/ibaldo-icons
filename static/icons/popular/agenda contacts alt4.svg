@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Phone Directory</title>
+<desc id="iconDesc">A contact directory with tabs on the left side and a stylized telephone handset icon in the center with curved details</desc>
+<line class="a" x1="4" y1="12" x2="4" y2="10" aria-hidden="true"/>
+<line class="a" x1="4" y1="17" x2="4" y2="15" aria-hidden="true"/>
+<line class="a" x1="2" y1="7" x2="5" y2="7" aria-hidden="true"/>
+<line class="a" x1="2" y1="12" x2="5" y2="12" aria-hidden="true"/>
+<line class="a" x1="2" y1="17" x2="5" y2="17" aria-hidden="true"/>
+<rect class="a" x="11" y="9" width="4" height="6" rx="2" aria-hidden="true"/>
+<path class="a" d="M15,18H12a4,4,0,0,1-4-4V10a4,4,0,0,1,4-4h2a4,4,0,0,1,4,4v1" aria-hidden="true"/>
+<path class="a" d="M15,13v.5A1.5,1.5,0,0,0,16.5,15h0A1.5,1.5,0,0,0,18,13.5V11" aria-hidden="true"/>
+<path class="a" d="M4,7V4A2,2,0,0,1,6,2H20a2,2,0,0,1,2,2V20a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2" aria-hidden="true"/></svg>

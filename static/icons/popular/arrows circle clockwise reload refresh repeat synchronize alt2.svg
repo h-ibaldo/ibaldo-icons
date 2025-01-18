@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Corner Synchronize</title>
+<desc id="iconDesc">Two curved arrows in opposite corners, each with a right angle turn, indicating a synchronization or refresh action between two points</desc>
+<path class="a" d="M3,3.91H7v4" aria-hidden="true"/>
+<path class="a" d="M21,19.91H17v-4" aria-hidden="true"/>
+<path class="a" d="M17,19.4A9,9,0,0,0,12,2.91c-.34,0-.67,0-1,.06" aria-hidden="true"/>
+<path class="a" d="M7,4.43a9,9,0,0,0,5,16.48,8.26,8.26,0,0,0,1-.06" aria-hidden="true"/></svg>

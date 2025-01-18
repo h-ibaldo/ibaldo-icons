@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+    <title id="iconTitle">Bookmark Number One</title>
+    <desc id="iconDesc">A bookmark with rounded corners and the number one displayed in the center, indicating the first item in a bookmarked sequence.</desc>
+    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+    <path class="a" d="M16,2H8A3,3,0,0,0,5,5V22l7-4,7,4V5A3,3,0,0,0,16,2Z" aria-hidden="true"/>
+    <polyline class="a" points="11 7 12 7 12 14" aria-hidden="true"/>
+</svg>

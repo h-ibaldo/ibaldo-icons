@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Simple Briefcase</title>
+  <desc id="iconDesc">A minimalist briefcase with a handle on top and a single vertical line detail in the center</desc>
+  <defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <rect class="a" x="2" y="7" width="20" height="14" rx="1" aria-hidden="true"/>
+  <line class="a" x1="12" y1="14" x2="12" y2="15" aria-hidden="true"/>
+  <path class="a" d="M8,7V4A1,1,0,0,1,9,3h6a1,1,0,0,1,1,1V7" aria-hidden="true"/>
+</svg>

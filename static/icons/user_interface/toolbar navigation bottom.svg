@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <rect class="b" x="2.05054" y="2.9977" width="20" height="17.99986" rx="1" ry="1" transform="translate(24.10107 23.99526) rotate(-180)"/>
+  <line class="b" x1="2.05054" y1="14.99756" x2="22.05054" y2="14.99756"/>
+  <line class="b" x1="11.05054" y1="17.99756" x2="19.05054" y2="17.99756"/>
+  <line class="b" x1="5.06054" y1="17.99756" x2="5.05054" y2="17.99756"/>
+  <line class="b" x1="8.06054" y1="17.99756" x2="8.05054" y2="17.99756"/>
+</svg>

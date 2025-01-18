@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+    <title id="iconTitle">Bookmarked Book</title>
+    <desc id="iconDesc">A simple rectangular book with clean edges and a triangular bookmark ribbon protruding from the top center.</desc>
+    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+    <polyline class="a" points="15 2 15 11 12 9 9 11 9 2" aria-hidden="true"/>
+    <rect class="a" x="4" y="2" width="16" height="20" aria-hidden="true"/>
+</svg>

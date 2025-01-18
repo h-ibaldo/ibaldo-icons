@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Add Bookmark</title>
+<desc id="iconDesc">A bookmark icon with a large circular plus button overlay in the top right</desc>
+<circle class="a" cx="16" cy="8" r="6" aria-hidden="true"/>
+<line class="a" x1="14" y1="8" x2="18" y2="8" aria-hidden="true"/>
+<line class="a" x1="16" y1="6" x2="16" y2="10" aria-hidden="true"/>
+<path class="a" d="M16,2H3A1,1,0,0,0,2,3V22l7-4,7,4V14" aria-hidden="true"/>
+</svg>

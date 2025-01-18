@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Synchronize Arrows</title>
+<desc id="iconDesc">Two curved arrows pointing in opposite directions, forming a circular pattern to indicate synchronization or bidirectional refresh</desc>
+<polyline class="a" points="2 12.91 4 10.91 6 12.91" aria-hidden="true"/>
+<polyline class="a" points="22 10.91 20 12.91 18 10.91" aria-hidden="true"/>
+<path class="a" d="M5.58,7.14A8,8,0,0,1,20,11.91" aria-hidden="true"/>
+<path class="a" d="M18.42,16.69A8,8,0,0,1,4,11.91" aria-hidden="true"/></svg>

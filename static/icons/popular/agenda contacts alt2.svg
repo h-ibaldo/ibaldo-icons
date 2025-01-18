@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Address Book</title>
+<desc id="iconDesc">An address book with a spine on the left and a user profile icon in the center showing a circular head and shoulders silhouette</desc>
+<path class="a" d="M3,4H3A2,2,0,0,1,5,2H20a1,1,0,0,1,1,1V17a1,1,0,0,1-1,1H5a2,2,0,0,0-2,2H3a2,2,0,0,0,2,2H21" aria-hidden="true"/>
+<circle class="a" cx="12" cy="8.5" r="3" aria-hidden="true"/>
+<path class="a" d="M17,14.5a3,3,0,0,0-3-3H10a3,3,0,0,0-3,3" aria-hidden="true"/>
+<line class="a" x1="3" y1="4" x2="3" y2="20" aria-hidden="true"/></svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Blocked Counter Sync</title>
+<desc id="iconDesc">Two curved arrows with a diagonal line through them, indicating a blocked or disabled counter-rotating synchronization</desc>
+<polyline class="a" points="2 10.91 4 12.91 6 10.91" aria-hidden="true"/>
+<line class="a" x1="5" y1="1.91" x2="19" y2="21.91" aria-hidden="true"/>
+<path class="a" d="M4,11.91A8,8,0,0,1,7.42,5.36" aria-hidden="true"/>
+<path class="a" d="M11.13,4a8.46,8.46,0,0,1,.87,0,8,8,0,0,1,6.42,3.23" aria-hidden="true"/>
+<polyline class="a" points="22 12.91 20 10.91 18 12.91" aria-hidden="true"/>
+<path class="a" d="M20,11.91a8,8,0,0,1-3.42,6.55" aria-hidden="true"/>
+<path class="a" d="M12.87,19.87a8.44,8.44,0,0,1-.87,0,8,8,0,0,1-6.42-3.22" aria-hidden="true"/></svg>

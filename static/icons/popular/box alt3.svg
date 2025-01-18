@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs>
+  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+</defs>
+<title id="iconTitle">Angled Box</title>
+<desc id="iconDesc">A box with angled top edges and a horizontal line across the middle, featuring a distinctive sloped lid design</desc>
+<path class="a" d="M18.5,2H5.5a1,1,0,0,0-.8.4L2.2,5.73a1,1,0,0,0-.2.6V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V6.33a1,1,0,0,0-.2-.6L19.3,2.4A1,1,0,0,0,18.5,2Z" aria-hidden="true"/>
+<line class="a" x1="9" y1="12" x2="15" y2="12" aria-hidden="true"/>
+<path class="a" d="M22,8a1,1,0,0,0-1-1H3A1,1,0,0,0,2,8" aria-hidden="true"/></svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <line class="b" x1="11.94946" y1="4" x2="11.95946" y2="4"/>
+  <line class="b" x1="11.95946" y1="20" x2="11.94946" y2="20"/>
+  <line class="b" x1="3.95946" y1="12" x2="3.94946" y2="12"/>
+  <line class="b" x1="6.30261" y1="6.34315" x2="6.29261" y2="6.34315"/>
+  <line class="b" x1="17.60632" y1="17.65685" x2="17.61632" y2="17.65685"/>
+  <line class="b" x1="6.30261" y1="17.65685" x2="6.29261" y2="17.65685"/>
+  <line class="b" x1="17.60632" y1="6.34315" x2="17.61632" y2="6.34315"/>
+</svg>

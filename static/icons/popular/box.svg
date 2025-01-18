@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Shipping Box</title>
+  <desc id="iconDesc">A simple cardboard box icon with an open top flap</desc>
+  <defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <path class="a" d="M2,7l10,5,10-5" aria-hidden="true"/>
+  <path class="a" d="M2,7V17l10,5V12" aria-hidden="true"/>
+  <path class="a" d="M22,7V17L12,22V12" aria-hidden="true"/>
+  <path class="a" d="M2,7,12,2,22,7" aria-hidden="true"/>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+    <title id="iconTitle">Binoculars Icon</title>
+    <desc id="iconDesc">A pair of binoculars shown from the front with two circular lenses connected by a bridge and a curved support structure.</desc>
+    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+    <circle class="a" cx="6" cy="14.94" r="4" aria-hidden="true"/>
+    <circle class="a" cx="18" cy="14.94" r="4" aria-hidden="true"/>
+    <path class="a" d="M22,14.94v-.35a3.93,3.93,0,0,0-.21-1.27l-2.13-6.4A2.91,2.91,0,0,0,14,7.84v.1H10v-.1a2.91,2.91,0,0,0-5.66-.92l-2.13,6.4A3.93,3.93,0,0,0,2,14.59v.35" aria-hidden="true"/>
+    <line class="a" x1="9.86" y1="15.94" x2="14.14" y2="15.94" aria-hidden="true"/>
+</svg>

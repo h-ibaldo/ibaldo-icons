@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs>
+  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+</defs>
+<title id="iconTitle">Delivery Box</title>
+<desc id="iconDesc">A cardboard box with diagonal lines indicating sealed edges and a front panel</desc>
+<path class="a" d="M12,2,2,7v10l10,5,10-5V7Z" aria-hidden="true"/>
+<line class="a" x1="2" y1="7" x2="12" y2="12" aria-hidden="true"/>
+<line class="a" x1="12" y1="12" x2="22" y2="7" aria-hidden="true"/>
+<line class="a" x1="12" y1="12" x2="12" y2="22" aria-hidden="true"/></svg>

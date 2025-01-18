@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Remove Bookmark</title>
+<desc id="iconDesc">A bookmark icon with a minus symbol in the top right corner</desc>
+<path class="a" d="M10,3H6A1,1,0,0,0,5,4V22l7-4,7,4V10" aria-hidden="true"/>
+<line class="a" x1="14" y1="5" x2="20" y2="5" aria-hidden="true"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Counter-Clockwise Sync</title>
+<desc id="iconDesc">Two curved arrows forming a counter-clockwise circular pattern with arrowheads at both ends, indicating bidirectional synchronization</desc>
+<polyline class="a" points="13 1.91 11 3.91 13 5.91" aria-hidden="true"/>
+<polyline class="a" points="11 21.91 13 19.91 11 17.91" aria-hidden="true"/>
+<path class="a" d="M7.22,5.5A8,8,0,0,0,12,19.91" aria-hidden="true"/>
+<path class="a" d="M16.78,18.33A8,8,0,0,0,12,3.91" aria-hidden="true"/></svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Folded Bookmark</title>
+<desc id="iconDesc">A bookmark icon with a folded corner and extended bottom edge</desc>
+<path class="a" d="M5,2H18a4,4,0,0,1,4,4V17l-7-4L8,17V5" aria-hidden="true"/>
+<path class="a" d="M2,5A3,3,0,0,1,8,5" aria-hidden="true"/>
+<polyline class="a" points="2 5 2 22 16 22 16 13.57" aria-hidden="true"/>
+</svg>

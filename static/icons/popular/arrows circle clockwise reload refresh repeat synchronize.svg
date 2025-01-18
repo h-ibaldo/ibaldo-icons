@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Circular Sync</title>
+<desc id="iconDesc">Two curved arrows forming a circular pattern with arrowheads at both ends, indicating a bidirectional synchronization flow</desc>
+<polyline class="a" points="11 1.91 13 3.91 11 5.91" aria-hidden="true"/>
+<polyline class="a" points="13 21.91 11 19.91 13 17.91" aria-hidden="true"/>
+<path class="a" d="M16.78,5.5A8,8,0,0,1,12,19.91" aria-hidden="true"/>
+<path class="a" d="M7.22,18.33A8,8,0,0,1,12,3.91" aria-hidden="true"/></svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs>
+  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+</defs>
+<title id="iconTitle">Marked Box</title>
+<desc id="iconDesc">A geometric box with diagonal lines and a small mark on the side, showing detailed construction lines</desc>
+<polygon class="a" points="12 2 2 7 2 17 12 22 22 17 22 7 12 2" aria-hidden="true"/>
+<line class="a" x1="7" y1="4.5" x2="17" y2="9.5" aria-hidden="true"/>
+<polyline class="a" points="2 7 12 12 22 7" aria-hidden="true"/>
+<line class="a" x1="12" y1="22" x2="12" y2="12" aria-hidden="true"/>
+<line class="a" x1="16" y1="14" x2="18" y2="13" aria-hidden="true"/></svg>
