@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Certified Application</title>
+  <desc id="iconDesc">An application window with a decorative star medal or rosette badge in the top right corner, featuring three window control dots in the titlebar.</desc>
   <defs>
     <style>
       .b {
         fill: none;
-        stroke: #000;
+        stroke: currentColor;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
     </style>
   </defs>
-  <polygon class="b" points="17.5 10.97192 19.36396 10 19.99473 12.00527 22 12.63604 21.02808 14.5 22 16.36396 19.99473 16.99473 19.36396 19 17.5 18.02808 15.63604 19 15.00527 16.99473 13 16.36396 13.97192 14.5 13 12.63604 15.00527 12.00527 15.63604 10 17.5 10.97192"/>
-  <polyline class="b" points="15.00525 16.99475 15 16.9931 15 22 17.5 21 20 22 20 16.9931 19.99475 16.99475"/>
-  <path class="b" d="m11,22h-7c-1.10457,0-2-.89543-2-2V4c0-1.10457.89543-2,2-2h16c1.10457,0,2,.89543,2,2v3"/>
-  <line class="b" x1="5.01" y1="5" x2="5" y2="5"/>
-  <line class="b" x1="8.01" y1="5" x2="8" y2="5"/>
-  <line class="b" x1="11.01" y1="5" x2="11" y2="5"/>
+  <polygon class="b" points="17.5 10.97192 19.36396 10 19.99473 12.00527 22 12.63604 21.02808 14.5 22 16.36396 19.99473 16.99473 19.36396 19 17.5 18.02808 15.63604 19 15.00527 16.99473 13 16.36396 13.97192 14.5 13 12.63604 15.00527 12.00527 15.63604 10 17.5 10.97192" aria-hidden="true"/>
+  <polyline class="b" points="15.00525 16.99475 15 16.9931 15 22 17.5 21 20 22 20 16.9931 19.99475 16.99475" aria-hidden="true"/>
+  <path class="b" d="m11,22h-7c-1.10457,0-2-.89543-2-2V4c0-1.10457.89543-2,2-2h16c1.10457,0,2,.89543,2,2v3" aria-hidden="true"/>
+  <line class="b" x1="5.01" y1="5" x2="5" y2="5" aria-hidden="true"/>
+  <line class="b" x1="8.01" y1="5" x2="8" y2="5" aria-hidden="true"/>
+  <line class="b" x1="11.01" y1="5" x2="11" y2="5" aria-hidden="true"/>
 </svg>

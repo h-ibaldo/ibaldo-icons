@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Star Bookmark</title>
-<desc id="iconDesc">A bookmark icon with a large star shape in the top right corner</desc>
-<path class="a" d="M12,2H3A1,1,0,0,0,2,3V22l7-4,7,4V16" aria-hidden="true"/>
-<path class="a" d="M16,2l1.63,3a1.46,1.46,0,0,0,1,.73L22,6.36,19.65,8.84A1.4,1.4,0,0,0,19.26,10l.45,3.39-3.09-1.47a1.42,1.42,0,0,0-1.24,0l-3.09,1.47L12.74,10a1.4,1.4,0,0,0-.39-1.18L10,6.36l3.36-.62a1.46,1.46,0,0,0,1-.73Z" aria-hidden="true"/>
-</svg>
+<title id="iconTitle">Large Star Bookmark</title>
+<desc id="iconDesc">A bookmark with a large star symbol in the upper right corner, indicating a favorite or starred item</desc>
+<path class="a" aria-hidden="true" d="M12,2H3A1,1,0,0,0,2,3V22l7-4,7,4V16"/>
+<path class="a" aria-hidden="true" d="M16,2l1.63,3a1.46,1.46,0,0,0,1,.73L22,6.36,19.65,8.84A1.4,1.4,0,0,0,19.26,10l.45,3.39-3.09-1.47a1.42,1.42,0,0,0-1.24,0l-3.09,1.47L12.74,10a1.4,1.4,0,0,0-.39-1.18L10,6.36l3.36-.62a1.46,1.46,0,0,0,1-.73Z"/></svg>

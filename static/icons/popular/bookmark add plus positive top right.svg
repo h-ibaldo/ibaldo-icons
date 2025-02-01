@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-    <title id="iconTitle">Add Bookmark</title>
-    <desc id="iconDesc">A bookmark with a plus sign in the top right corner, indicating the action to add a new bookmark.</desc>
-    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-    <path class="a" d="M10,3H6A1,1,0,0,0,5,4V22l7-4,7,4V12" aria-hidden="true"/>
-    <line class="a" x1="14" y1="5" x2="20" y2="5" aria-hidden="true"/>
-    <line class="a" x1="17" y1="2" x2="17" y2="8" aria-hidden="true"/>
-</svg>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Add Bookmark Top Right</title>
+<desc id="iconDesc">A bookmark icon with a plus symbol in the top right corner, indicating the action to add a new bookmark</desc>
+<path class="a" d="M10,3H6A1,1,0,0,0,5,4V22l7-4,7,4V12"/><line class="a" x1="14" y1="5" x2="20" y2="5"/><line class="a" x1="17" y1="2" x2="17" y2="8"/></svg>

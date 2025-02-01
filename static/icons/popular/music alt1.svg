@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><ellipse class="a" cx="5.5" cy="19" rx="3.5" ry="3"/><ellipse class="a" cx="18.5" cy="17" rx="3.5" ry="3"/><polyline class="a" points="9 19 9 4 22 2 22 17"/><line class="a" x1="9" y1="8" x2="22" y2="6"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Music Note</title>
+<desc id="iconDesc">A musical note with two oval-shaped note heads connected by a vertical stem</desc>
+<ellipse class="a" cx="5.5" cy="19" rx="3.5" ry="3" aria-hidden="true"/>
+<ellipse class="a" cx="18.5" cy="17" rx="3.5" ry="3" aria-hidden="true"/>
+<polyline class="a" points="9 19 9 4 22 2 22 17" aria-hidden="true"/>
+<line class="a" x1="9" y1="8" x2="22" y2="6" aria-hidden="true"/></svg>

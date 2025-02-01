@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M13.37,22l-3.32-7.15L6.8,17.33a.5.5,0,0,1-.8-.39V2.47a.5.5,0,0,1,.82-.38l11,9.35a.49.49,0,0,1-.21.86l-4,.85L17,20.3Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Click Cursor</title>
+<desc id="iconDesc">A vertical mouse cursor with a bent tail, indicating a click or selection action</desc>
+<path class="a" d="M13.37,22l-3.32-7.15L6.8,17.33a.5.5,0,0,1-.8-.39V2.47a.5.5,0,0,1,.82-.38l11,9.35a.49.49,0,0,1-.21.86l-4,.85L17,20.3Z" aria-hidden="true"/></svg>

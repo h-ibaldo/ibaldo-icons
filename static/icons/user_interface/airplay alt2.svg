@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M18,16h2a2.19,2.19,0,0,0,2-2.33V4.33A2.19,2.19,0,0,0,20,2H4A2.19,2.19,0,0,0,2,4.33v9.34A2.19,2.19,0,0,0,4,16H6"/><polygon class="a" points="12 15 7 22 17 22 12 15"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Airplay Display</title>
+<desc id="iconDesc">A monitor screen with a triangular projection indicator below, symbolizing wireless display casting.</desc>
+<path class="a" d="M18,16h2a2.19,2.19,0,0,0,2-2.33V4.33A2.19,2.19,0,0,0,20,2H4A2.19,2.19,0,0,0,2,4.33v9.34A2.19,2.19,0,0,0,4,16H6" aria-hidden="true"/>
+<polygon class="a" points="12 15 7 22 17 22 12 15" aria-hidden="true"/></svg>

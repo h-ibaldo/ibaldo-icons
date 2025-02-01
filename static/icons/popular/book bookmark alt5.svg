@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-    <title id="iconTitle">Bookmarked Book</title>
-    <desc id="iconDesc">A rounded-corner book with a vertical spine line and a triangular bookmark ribbon extending from the top.</desc>
-    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-    <polyline class="a" points="17 2 17 11 14 9 11 11 11 2" aria-hidden="true"/>
-    <rect class="a" x="2.5" y="2" width="19" height="20" rx="2" aria-hidden="true"/>
-    <line class="a" x1="6" y1="2" x2="6" y2="22" aria-hidden="true"/>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Rounded Bookmarked Book</title>
+<desc id="iconDesc">A book with rounded corners, a vertical spine line, and a triangular bookmark extending from the top</desc>
+<polyline class="a" points="17 2 17 11 14 9 11 11 11 2" aria-hidden="true"/>
+<rect class="a" x="2.5" y="2" width="19" height="20" rx="2" aria-hidden="true"/>
+<line class="a" x1="6" y1="2" x2="6" y2="22" aria-hidden="true"/>
 </svg>

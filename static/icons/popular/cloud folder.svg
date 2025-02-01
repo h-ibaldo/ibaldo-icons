@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M19,16a4,4,0,0,0-8,0,3,3,0,0,0,0,6h8a3,3,0,0,0,0-6Z"/><path class="a" d="M5,16H4a2,2,0,0,1-2-2V4A2,2,0,0,1,4,2H7.46a1,1,0,0,1,.84.45l1.4,2.1a1,1,0,0,0,.84.45H17a2,2,0,0,1,2,2V9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud Folder</title>
+<desc id="iconDesc">A folder icon transitioning into a cloud shape, representing cloud storage</desc>
+<path class="a" d="M19,16a4,4,0,0,0-8,0,3,3,0,0,0,0,6h8a3,3,0,0,0,0-6Z" aria-hidden="true"/>
+<path class="a" d="M5,16H4a2,2,0,0,1-2-2V4A2,2,0,0,1,4,2H7.46a1,1,0,0,1,.84.45l1.4,2.1a1,1,0,0,0,.84.45H17a2,2,0,0,1,2,2V9" aria-hidden="true"/>
+</svg>

@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="12 7 12 12 17 12"/><line class="a" x1="2" y1="14" x2="2" y2="14"/><line class="a" x1="2" y1="18" x2="2" y2="18"/><line class="a" x1="2" y1="22" x2="2" y2="22"/><path class="a" d="M7,20.65A10,10,0,1,0,2.46,9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clock with Menu Dots</title>
+<desc id="iconDesc">A clock face with three vertical dots beside it, representing a time settings or options menu</desc>
+<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
+<line class="a" x1="2" y1="14" x2="2" y2="14" aria-hidden="true"/>
+<line class="a" x1="2" y1="18" x2="2" y2="18" aria-hidden="true"/>
+<line class="a" x1="2" y1="22" x2="2" y2="22" aria-hidden="true"/>
+<path class="a" d="M7,20.65A10,10,0,1,0,2.46,9" aria-hidden="true"/></svg>

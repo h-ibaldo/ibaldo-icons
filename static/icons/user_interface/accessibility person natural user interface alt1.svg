@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><circle class="a" cx="12.03" cy="4" r="2"/><line class="a" x1="9.03" y1="14" x2="15.03" y2="14"/><line class="a" x1="15.03" y1="9" x2="9.03" y2="9"/><circle class="a" cx="4.03" cy="7" r="2"/><circle class="a" cx="6.03" cy="20" r="2"/><polyline class="a" points="6.92 18.22 9.03 14 9.03 9 5.88 7.74"/><circle class="a" cx="20.03" cy="7" r="2"/><circle class="a" cx="18.03" cy="20" r="2"/><polyline class="a" points="17.13 18.22 15.03 14 15.03 9 18.17 7.74"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Accessibility Controls</title>
+<desc id="iconDesc">A stylized figure with extended arms and legs, showing movement controls with circular endpoints representing interactive points.</desc>
+<circle class="a" cx="12.03" cy="4" r="2" aria-hidden="true"/>
+<line class="a" x1="9.03" y1="14" x2="15.03" y2="14" aria-hidden="true"/>
+<line class="a" x1="15.03" y1="9" x2="9.03" y2="9" aria-hidden="true"/>
+<circle class="a" cx="4.03" cy="7" r="2" aria-hidden="true"/>
+<circle class="a" cx="6.03" cy="20" r="2" aria-hidden="true"/>
+<polyline class="a" points="6.92 18.22 9.03 14 9.03 9 5.88 7.74" aria-hidden="true"/>
+<circle class="a" cx="20.03" cy="7" r="2" aria-hidden="true"/>
+<circle class="a" cx="18.03" cy="20" r="2" aria-hidden="true"/>
+<polyline class="a" points="17.13 18.22 15.03 14 15.03 9 18.17 7.74" aria-hidden="true"/>
+</svg>

@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-    <title id="iconTitle">Binoculars Icon</title>
-    <desc id="iconDesc">A streamlined pair of binoculars with two circular lenses, connected by horizontal bars and featuring curved support arms.</desc>
-    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-    <circle class="a" cx="18" cy="15.94" r="4" aria-hidden="true"/>
-    <circle class="a" cx="6" cy="15.94" r="4" aria-hidden="true"/>
-    <path class="a" d="M10,8.94V7.19a3.25,3.25,0,0,0-6.45-.54L2.2,14.76" aria-hidden="true"/>
-    <path class="a" d="M21.8,14.76,20.45,6.65A3.25,3.25,0,0,0,14,7.19V8.94" aria-hidden="true"/>
-    <line class="a" x1="10" y1="15.94" x2="14" y2="15.94" aria-hidden="true"/>
-    <line class="a" x1="10" y1="8.94" x2="14" y2="8.94" aria-hidden="true"/>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Dual Bridge Binoculars</title>
+<desc id="iconDesc">A pair of binoculars with circular lenses and two parallel connecting bridges for enhanced stability</desc>
+<circle class="a" cx="18" cy="15.94" r="4" aria-hidden="true"/>
+<circle class="a" cx="6" cy="15.94" r="4" aria-hidden="true"/>
+<path class="a" d="M10,8.94V7.19a3.25,3.25,0,0,0-6.45-.54L2.2,14.76" aria-hidden="true"/>
+<path class="a" d="M21.8,14.76,20.45,6.65A3.25,3.25,0,0,0,14,7.19V8.94" aria-hidden="true"/>
+<line class="a" x1="10" y1="15.94" x2="14" y2="15.94" aria-hidden="true"/>
+<line class="a" x1="10" y1="8.94" x2="14" y2="8.94" aria-hidden="true"/>
 </svg>

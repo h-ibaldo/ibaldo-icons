@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><circle class="a" cx="5" cy="12" r="3"/><circle class="a" cx="19" cy="5" r="3"/><circle class="a" cx="19" cy="19" r="3"/><line class="a" x1="7.67" y1="13.34" x2="16.33" y2="17.66"/><line class="a" x1="16.33" y1="6.34" x2="7.67" y2="10.66"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Share Network</title>
+<desc id="iconDesc">Three large connected circles arranged in a triangular pattern with connecting diagonal lines</desc>
+<circle class="a" cx="5" cy="12" r="3" aria-hidden="true"/>
+<circle class="a" cx="19" cy="5" r="3" aria-hidden="true"/>
+<circle class="a" cx="19" cy="19" r="3" aria-hidden="true"/>
+<line class="a" x1="7.67" y1="13.34" x2="16.33" y2="17.66" aria-hidden="true"/>
+<line class="a" x1="16.33" y1="6.34" x2="7.67" y2="10.66" aria-hidden="true"/></svg>

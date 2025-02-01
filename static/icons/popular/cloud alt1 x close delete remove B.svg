@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="22" y1="3" x2="18" y2="7"/><line class="a" x1="18" y1="3" x2="22" y2="7"/><path class="a" d="M17.5,15H17V14a5,5,0,0,0-9.6-2c-.13,0-.26,0-.4,0A5,5,0,0,0,7,22H17.5a3.5,3.5,0,0,0,0-7Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud with External X</title>
+<desc id="iconDesc">A cloud shape with an X mark above it, formed by two intersecting diagonal lines indicating deletion or removal</desc>
+<line class="a" x1="22" y1="3" x2="18" y2="7" aria-hidden="true"/>
+<line class="a" x1="18" y1="3" x2="22" y2="7" aria-hidden="true"/>
+<path class="a" d="M17.5,15H17V14a5,5,0,0,0-9.6-2c-.13,0-.26,0-.4,0A5,5,0,0,0,7,22H17.5a3.5,3.5,0,0,0,0-7Z" aria-hidden="true"/></svg>

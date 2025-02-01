@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="b" x1="12" y1="11.99878" x2="12" y2="17.99878"/>
+    <line class="b" x1="15" y1="14.99878" x2="9" y2="14.99878"/>
+  </g>
+  <rect class="b" x="2" y="1.99878" width="20" height="20" rx="2" ry="2"/>
+  <line class="b" x1="2" y1="7.99878" x2="22" y2="7.99878"/>
+  <line class="b" x1="5.01" y1="4.99878" x2="5" y2="4.99878"/>
+  <line class="b" x1="8.01" y1="4.99878" x2="8" y2="4.99878"/>
+  <line class="b" x1="11.01" y1="4.99878" x2="11" y2="4.99878"/>
+</svg>

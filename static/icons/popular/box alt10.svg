@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs>
-  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-</defs>
-<title id="iconTitle">Dotted Box</title>
-<desc id="iconDesc">A three-dimensional box with a pattern of dots on its surface, shown in isometric view with detailed texture</desc>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">3D Box Dotted</title>
+<desc id="iconDesc">A three-dimensional box with a pattern of dots on its surface, showing depth and perspective with decorative elements</desc>
 <polygon class="a" points="12 2 2 6 2 18 12 22 22 18 22 6 12 2" aria-hidden="true"/>
 <polyline class="a" points="22 6 12 10 12 22" aria-hidden="true"/>
 <polyline class="a" points="17 4 7 8 7 11" aria-hidden="true"/>

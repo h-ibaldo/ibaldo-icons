@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><circle class="a" cx="12.03" cy="4" r="2"/><line class="a" x1="9.03" y1="14" x2="15.03" y2="14"/><line class="a" x1="15.03" y1="9" x2="9.03" y2="9"/><circle class="a" cx="9.03" cy="21" r="1"/><circle class="a" cx="4.03" cy="13" r="1"/><polyline class="a" points="9.03 21 9.03 14 9.03 9 4.03 13"/><circle class="a" cx="15.03" cy="21" r="1"/><circle class="a" cx="20.03" cy="13" r="1"/><polyline class="a" points="15.03 21 15.03 14 15.03 9 20.02 13"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">User Interface Controls</title>
+<desc id="iconDesc">A centered figure with symmetrical arms and legs extended, showing interactive control points at the ends of each limb.</desc>
+<circle class="a" cx="12.03" cy="4" r="2" aria-hidden="true"/>
+<line class="a" x1="9.03" y1="14" x2="15.03" y2="14" aria-hidden="true"/>
+<line class="a" x1="15.03" y1="9" x2="9.03" y2="9" aria-hidden="true"/>
+<circle class="a" cx="9.03" cy="21" r="1" aria-hidden="true"/>
+<circle class="a" cx="4.03" cy="13" r="1" aria-hidden="true"/>
+<polyline class="a" points="9.03 21 9.03 14 9.03 9 4.03 13" aria-hidden="true"/>
+<circle class="a" cx="15.03" cy="21" r="1" aria-hidden="true"/>
+<circle class="a" cx="20.03" cy="13" r="1" aria-hidden="true"/>
+<polyline class="a" points="15.03 21 15.03 14 15.03 9 20.02 13" aria-hidden="true"/>
+</svg>

@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M18.72,14,6.55,2.2A.91.91,0,0,0,5,2.85V19.78a.92.92,0,0,0,1.63.58L9.35,17,11.49,22l4.21-1.78-2.17-5.11,4.47.42A.91.91,0,0,0,18.72,14Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Click Pointer</title>
+<desc id="iconDesc">A diagonal mouse pointer with a bent tail and notched corner, indicating a click or selection state</desc>
+<path class="a" d="M18.72,14,6.55,2.2A.91.91,0,0,0,5,2.85V19.78a.92.92,0,0,0,1.63.58L9.35,17,11.49,22l4.21-1.78-2.17-5.11,4.47.42A.91.91,0,0,0,18.72,14Z" aria-hidden="true"/></svg>

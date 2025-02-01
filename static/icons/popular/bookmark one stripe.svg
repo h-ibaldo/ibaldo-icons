@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Striped Bookmark</title>
-<desc id="iconDesc">A bookmark icon with a single vertical stripe down the center</desc>
-<path class="a" d="M18,2H6A1,1,0,0,0,5,3V22l7-4,7,4V3A1,1,0,0,0,18,2Z" aria-hidden="true"/>
-<line class="a" x1="12" y1="2" x2="12" y2="18" aria-hidden="true"/>
-</svg>
+<title id="iconTitle">Single Stripe Bookmark</title>
+<desc id="iconDesc">A bookmark with a single vertical stripe down the center, creating a simple divided design</desc>
+<path class="a" aria-hidden="true" d="M18,2H6A1,1,0,0,0,5,3V22l7-4,7,4V3A1,1,0,0,0,18,2Z"/>
+<line class="a" aria-hidden="true" x1="12" y1="2" x2="12" y2="18"/></svg>

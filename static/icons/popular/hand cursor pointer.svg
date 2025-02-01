@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M17,22H10.66a4,4,0,0,1-2.83-1.17L2.59,15.59a1.89,1.89,0,0,1-.24-2.37h0a1.88,1.88,0,0,1,2.71-.46L8,15V4a2,2,0,0,1,2-2h0a2,2,0,0,1,2,2V9.66l5.73,1.43A3,3,0,0,1,20,14v5A3,3,0,0,1,17,22Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Click Hand</title>
+<desc id="iconDesc">A simple hand cursor with pointing finger, commonly used to indicate clickable elements</desc>
+<path class="a" d="M17,22H10.66a4,4,0,0,1-2.83-1.17L2.59,15.59a1.89,1.89,0,0,1-.24-2.37h0a1.88,1.88,0,0,1,2.71-.46L8,15V4a2,2,0,0,1,2-2h0a2,2,0,0,1,2,2V9.66l5.73,1.43A3,3,0,0,1,20,14v5A3,3,0,0,1,17,22Z" aria-hidden="true"/></svg>

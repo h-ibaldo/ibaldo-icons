@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-  <title id="iconTitle">Side Panel Briefcase</title>
-  <desc id="iconDesc">A briefcase with a distinct side panel, handle on top, and a horizontal line detail across the middle</desc>
-  <defs>
-    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-  </defs>
-  <rect class="a" x="2" y="7" width="20" height="14" rx="2" aria-hidden="true"/>
-  <path class="a" d="M8,21a2,2,0,0,1-2-2V9A2,2,0,0,0,4,7H4" aria-hidden="true"/>
-  <path class="a" d="M10,7V4a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1V7" aria-hidden="true"/>
-  <line class="a" x1="6" y1="16" x2="22" y2="16" aria-hidden="true"/>
-</svg>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Side Panel Briefcase</title>
+<desc id="iconDesc">A business briefcase with a rectangular body, top handle, side panel detail, and a horizontal dividing line</desc>
+<rect class="a" x="2" y="7" width="20" height="14" rx="2" aria-hidden="true"/>
+<path class="a" d="M8,21a2,2,0,0,1-2-2V9A2,2,0,0,0,4,7H4" aria-hidden="true"/>
+<path class="a" d="M10,7V4a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1V7" aria-hidden="true"/>
+<line class="a" x1="6" y1="16" x2="22" y2="16" aria-hidden="true"/></svg>

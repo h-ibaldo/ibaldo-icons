@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Browser Window</title>
+  <desc id="iconDesc">A window interface with a curved browser symbol resembling Internet Explorer's logo, indicating web browsing functionality.</desc>
   <defs>
     <style>
       .b {
         fill: none;
-        stroke: #000;
+        stroke: currentColor;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
     </style>
   </defs>
-  <rect class="b" x="2" y="2" width="20" height="20" rx="2" ry="2"/>
-  <path class="b" d="m8,14l5.9976-.00002c1.21802,0,1.94683-1.39096,1.22402-2.37133-.8977-1.21757-2.46913-1.90793-4.16418-1.52098-1.44563.33001-2.61985,1.50426-2.94981,2.94991-.59771,2.61877,1.37593,4.94242,3.89237,4.94242h.38197c.73525,0,1.4604-.17119,2.11803-.5h0"/>
-  <line class="b" x1="5.01" y1="5" x2="5" y2="5"/>
-  <line class="b" x1="8.01" y1="5" x2="8" y2="5"/>
-  <line class="b" x1="11.01" y1="5" x2="11" y2="5"/>
+  <rect class="b" x="2" y="2" width="20" height="20" rx="2" ry="2" aria-hidden="true"/>
+  <path class="b" d="m8,14l5.9976-.00002c1.21802,0,1.94683-1.39096,1.22402-2.37133-.8977-1.21757-2.46913-1.90793-4.16418-1.52098-1.44563.33001-2.61985,1.50426-2.94981,2.94991-.59771,2.61877,1.37593,4.94242,3.89237,4.94242h.38197c.73525,0,1.4604-.17119,2.11803-.5h0" aria-hidden="true"/>
+  <line class="b" x1="5.01" y1="5" x2="5" y2="5" aria-hidden="true"/>
+  <line class="b" x1="8.01" y1="5" x2="8" y2="5" aria-hidden="true"/>
+  <line class="b" x1="11.01" y1="5" x2="11" y2="5" aria-hidden="true"/>
 </svg>

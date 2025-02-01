@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M11.22,15,9.3,17.38A1,1,0,0,0,10.08,19h3.84a1,1,0,0,0,.78-1.62L12.78,15A1,1,0,0,0,11.22,15Z"/><circle class="a" cx="12" cy="12" r="10"/><path class="a" d="M10,12a2,2,0,0,1,4,0"/><path class="a" d="M17,15.28A5.94,5.94,0,0,0,18,12,6,6,0,0,0,6,12a5.94,5.94,0,0,0,1,3.28"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Circular Signal</title>
+<desc id="iconDesc">A triangular indicator surrounded by circular signal waves and a large circular border, representing wireless connectivity.</desc>
+<path class="a" d="M11.22,15,9.3,17.38A1,1,0,0,0,10.08,19h3.84a1,1,0,0,0,.78-1.62L12.78,15A1,1,0,0,0,11.22,15Z" aria-hidden="true"/>
+<circle class="a" cx="12" cy="12" r="10" aria-hidden="true"/>
+<path class="a" d="M10,12a2,2,0,0,1,4,0" aria-hidden="true"/>
+<path class="a" d="M17,15.28A5.94,5.94,0,0,0,18,12,6,6,0,0,0,6,12a5.94,5.94,0,0,0,1,3.28" aria-hidden="true"/></svg>

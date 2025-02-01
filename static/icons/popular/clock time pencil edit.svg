@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="12 7 12 12 17 12"/><path class="a" d="M2.59,13.76a2,2,0,0,0,0,2.83L8,22h3V19L5.59,13.59a2,2,0,0,0-2.83,0Z"/><line class="a" x1="7" y1="15" x2="4" y2="18"/><path class="a" d="M15,21.54A10,10,0,1,0,2.46,9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clock with Pencil</title>
+<desc id="iconDesc">A clock face with a pencil symbol below it, indicating time editing or scheduling functions</desc>
+<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
+<path class="a" d="M2.59,13.76a2,2,0,0,0,0,2.83L8,22h3V19L5.59,13.59a2,2,0,0,0-2.83,0Z" aria-hidden="true"/>
+<line class="a" x1="7" y1="15" x2="4" y2="18" aria-hidden="true"/>
+<path class="a" d="M15,21.54A10,10,0,1,0,2.46,9" aria-hidden="true"/></svg>

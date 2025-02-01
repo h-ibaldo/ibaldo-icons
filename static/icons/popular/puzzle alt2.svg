@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M21,14.82a3,3,0,1,1,0-5.64V6H16.82a3,3,0,1,0-5.64,0H7V9.18a3,3,0,1,0,0,5.64V18h4.18a3,3,0,1,0,5.64,0H21Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Puzzle Piece</title>
+<desc id="iconDesc">A rectangular jigsaw puzzle piece with rounded connectors on each edge forming a cross-like shape</desc>
+<path class="a" d="M21,14.82a3,3,0,1,1,0-5.64V6H16.82a3,3,0,1,0-5.64,0H7V9.18a3,3,0,1,0,0,5.64V18h4.18a3,3,0,1,0,5.64,0H21Z" aria-hidden="true"/></svg>

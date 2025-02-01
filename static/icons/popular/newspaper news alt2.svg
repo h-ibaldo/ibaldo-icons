@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M18,17.94v-16H2v17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3v-12"/><rect class="a" x="6" y="5.94" width="8" height="4"/><line class="a" x1="6" y1="13.94" x2="14" y2="13.94"/><line class="a" x1="6" y1="17.94" x2="14" y2="17.94"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Newspaper</title>
+<desc id="iconDesc">A newspaper with a large image box at the top and text lines below, featuring a folded corner</desc>
+<path class="a" d="M18,17.94v-16H2v17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3v-12" aria-hidden="true"/>
+<rect class="a" x="6" y="5.94" width="8" height="4" aria-hidden="true"/>
+<line class="a" x1="6" y1="13.94" x2="14" y2="13.94" aria-hidden="true"/>
+<line class="a" x1="6" y1="17.94" x2="14" y2="17.94" aria-hidden="true"/></svg>

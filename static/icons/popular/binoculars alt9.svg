@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-    <title id="iconTitle">Binoculars Icon</title>
-    <desc id="iconDesc">A simplified pair of binoculars with two circular lenses, an adjustable bridge, and compact mounting hardware at the top.</desc>
-    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-    <circle class="a" cx="6" cy="14.94" r="4" aria-hidden="true"/>
-    <circle class="a" cx="18" cy="14.94" r="4" aria-hidden="true"/>
-    <path class="a" d="M10,14.94v-1a2,2,0,1,1,4,0v1" aria-hidden="true"/>
-    <path class="a" d="M8,6.94a3,3,0,0,0-3,3v1.14" aria-hidden="true"/>
-    <path class="a" d="M19,11.08V9.94a3,3,0,0,0-3-3" aria-hidden="true"/>
-    <rect class="a" x="11" y="4.94" width="2" height="2" rx="0.82" aria-hidden="true"/>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Simplified Binoculars</title>
+<desc id="iconDesc">A simplified pair of binoculars with circular lenses, adjustable bridge, and minimal frame design</desc>
+<circle class="a" cx="6" cy="14.94" r="4" aria-hidden="true"/>
+<circle class="a" cx="18" cy="14.94" r="4" aria-hidden="true"/>
+<path class="a" d="M10,14.94v-1a2,2,0,1,1,4,0v1" aria-hidden="true"/>
+<path class="a" d="M8,6.94a3,3,0,0,0-3,3v1.14" aria-hidden="true"/>
+<path class="a" d="M19,11.08V9.94a3,3,0,0,0-3-3" aria-hidden="true"/>
+<rect class="a" x="11" y="4.94" width="2" height="2" rx="0.82" aria-hidden="true"/>
 </svg>

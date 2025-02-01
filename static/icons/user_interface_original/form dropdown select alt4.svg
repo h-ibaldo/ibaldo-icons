@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <rect class="b" x="1.97473" y="8" width="20" height="8" rx="1" ry="1"/>
+  <line class="b" x1="13.97473" y1="8" x2="13.97473" y2="16"/>
+  <line class="b" x1="17.96473" y1="12" x2="17.97473" y2="12"/>
+</svg>

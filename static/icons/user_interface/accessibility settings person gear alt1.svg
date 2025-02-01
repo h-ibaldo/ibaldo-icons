@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
   <defs>
     <style>
       .b {
         fill: none;
-        stroke: #000;
+        stroke: currentColor;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
     </style>
   </defs>
-  <circle class="b" cx="7.02527" cy="4.99757" r="1"/>
-  <polyline class="b" points="2.02527 5.99757 5.02527 8.99757 9.02527 8.99757 12.02527 5.99757"/>
-  <polyline class="b" points="5.02527 8.99757 5.02527 13.99757 3.02527 18.99757"/>
-  <polyline class="b" points="9.02527 8.99757 9.02527 13.99757 11.02527 18.99757"/>
-  <line class="b" x1="5.02527" y1="13.99757" x2="9.02527" y2="13.99757"/>
-  <g>
+  <title id="iconTitle">Accessibility Settings</title>
+  <desc id="iconDesc">A human figure combined with a gear icon, representing accessibility settings and customization options.</desc>
+  <circle class="b" cx="7.02527" cy="4.99757" r="1" aria-hidden="true"/>
+  <polyline class="b" points="2.02527 5.99757 5.02527 8.99757 9.02527 8.99757 12.02527 5.99757" aria-hidden="true"/>
+  <polyline class="b" points="5.02527 8.99757 5.02527 13.99757 3.02527 18.99757" aria-hidden="true"/>
+  <polyline class="b" points="9.02527 8.99757 9.02527 13.99757 11.02527 18.99757" aria-hidden="true"/>
+  <line class="b" x1="5.02527" y1="13.99757" x2="9.02527" y2="13.99757" aria-hidden="true"/>
+  <g aria-hidden="true">
     <circle class="b" cx="17.02527" cy="12.99757" r="3.5"/>
     <line class="b" x1="17.02527" y1="13.00757" x2="17.02527" y2="12.99757"/>
     <line class="b" x1="15.13203" y1="8.36986" x2="15.7" y2="9.75817"/>

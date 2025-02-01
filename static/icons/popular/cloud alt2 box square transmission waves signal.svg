@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M22,11v6a5,5,0,0,1-5,5H7a5,5,0,0,1-5-5V7A5,5,0,0,1,7,2h6"/><path class="a" d="M17,2a5,5,0,0,1,5,5"/><path class="a" d="M19,7a2,2,0,0,0-2-2"/><path class="a" d="M16,12v-.5a2,2,0,0,0-2-2,2,2,0,0,0-1.16.37,2.74,2.74,0,0,0-5.34.88v.46A2.5,2.5,0,0,0,8.5,16H16a2,2,0,0,0,0-4Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud in Box with Signal</title>
+<desc id="iconDesc">A rectangular box containing a cloud shape, with curved signal waves in the top right corner indicating transmission or connectivity</desc>
+<path class="a" d="M22,11v6a5,5,0,0,1-5,5H7a5,5,0,0,1-5-5V7A5,5,0,0,1,7,2h6" aria-hidden="true"/>
+<path class="a" d="M17,2a5,5,0,0,1,5,5" aria-hidden="true"/>
+<path class="a" d="M19,7a2,2,0,0,0-2-2" aria-hidden="true"/>
+<path class="a" d="M16,12v-.5a2,2,0,0,0-2-2,2,2,0,0,0-1.16.37,2.74,2.74,0,0,0-5.34.88v.46A2.5,2.5,0,0,0,8.5,16H16a2,2,0,0,0,0-4Z" aria-hidden="true"/></svg>

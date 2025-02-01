@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Blocked Circular Sync</title>
-<desc id="iconDesc">Two curved arrows with arrowheads intersected by a diagonal line, indicating blocked or disabled synchronization</desc>
+<title id="iconTitle">Synchronize Disabled</title>
+<desc id="iconDesc">Two curved arrows with arrow heads and a diagonal line through them indicating synchronization is disabled or forbidden</desc>
 <polyline class="a" points="22 10.91 20 12.91 18 10.91" aria-hidden="true"/>
 <line class="a" x1="19" y1="1.91" x2="5" y2="21.91" aria-hidden="true"/>
 <path class="a" d="M20,11.91a8,8,0,0,0-3.42-6.55" aria-hidden="true"/>

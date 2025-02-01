@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-  <title id="iconTitle">Classic Briefcase</title>
-  <desc id="iconDesc">A traditional briefcase with rounded corners and a curved handle on top</desc>
-  <defs>
-    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-  </defs>
-  <rect class="a" x="2" y="7" width="20" height="14" rx="2" aria-hidden="true"/>
-  <path class="a" d="M8,7V5a2,2,0,0,1,2-2h4a2,2,0,0,1,2,2V7" aria-hidden="true"/>
-</svg>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Classic Briefcase</title>
+<desc id="iconDesc">A simple business briefcase with a rectangular body and a classic top handle design</desc>
+<rect class="a" x="2" y="7" width="20" height="14" rx="2" aria-hidden="true"/>
+<path class="a" d="M8,7V5a2,2,0,0,1,2-2h4a2,2,0,0,1,2,2V7" aria-hidden="true"/></svg>

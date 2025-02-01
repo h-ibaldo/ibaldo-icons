@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
 <title id="iconTitle">Delete Bookmark</title>
-<desc id="iconDesc">A bookmark icon with an X symbol in the center</desc>
+<desc id="iconDesc">A bookmark icon with an X symbol in the center, indicating bookmark deletion functionality</desc>
 <path class="a" d="M18,2H6A1,1,0,0,0,5,3V22l7-4,7,4V3A1,1,0,0,0,18,2Z" aria-hidden="true"/>
 <line class="a" x1="10" y1="12" x2="14" y2="8" aria-hidden="true"/>
-<line class="a" x1="10" y1="8" x2="14" y2="12" aria-hidden="true"/>
-</svg>
+<line class="a" x1="10" y1="8" x2="14" y2="12" aria-hidden="true"/></svg>

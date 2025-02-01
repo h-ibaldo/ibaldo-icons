@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="22 12 22 15 19 15"/><polyline class="a" points="12 22 12 19 15 19"/><path class="a" d="M21.58,19a5,5,0,0,1-9.16,0"/><path class="a" d="M12.43,15a5,5,0,0,1,9.15,0"/><path class="a" d="M21,9a5,5,0,0,0-3-1.91,6,6,0,0,0-11.84,0A5,5,0,0,0,7,17H9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud with Double Sync</title>
+<desc id="iconDesc">A cloud shape with two large circular arrows below it, featuring opposing curved paths with arrow heads indicating full synchronization</desc>
+<polyline class="a" points="22 12 22 15 19 15" aria-hidden="true"/>
+<polyline class="a" points="12 22 12 19 15 19" aria-hidden="true"/>
+<path class="a" d="M21.58,19a5,5,0,0,1-9.16,0" aria-hidden="true"/>
+<path class="a" d="M12.43,15a5,5,0,0,1,9.15,0" aria-hidden="true"/>
+<path class="a" d="M21,9a5,5,0,0,0-3-1.91,6,6,0,0,0-11.84,0A5,5,0,0,0,7,17H9" aria-hidden="true"/></svg>

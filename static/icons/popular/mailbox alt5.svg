@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="16.95 12 16.95 3 21.95 3 21.95 7 16.95 7"/><path class="a" d="M6.45,7h0a4.5,4.5,0,0,1,4.5,4.5V21a0,0,0,0,1,0,0h-8a1,1,0,0,1-1-1V11.5A4.5,4.5,0,0,1,6.45,7Z"/><path class="a" d="M11,21H21a1,1,0,0,0,1-1V11.5a4.39,4.39,0,0,0-.28-1.5"/><line class="a" x1="13.95" y1="7" x2="6.45" y2="7"/><line class="a" x1="4.95" y1="17" x2="7.95" y2="17"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Mailbox</title>
+<desc id="iconDesc">A mailbox with a small door, folded flag indicator, and a mail slot</desc>
+<polyline class="a" points="16.95 12 16.95 3 21.95 3 21.95 7 16.95 7" aria-hidden="true"/>
+<path class="a" d="M6.45,7h0a4.5,4.5,0,0,1,4.5,4.5V21a0,0,0,0,1,0,0h-8a1,1,0,0,1-1-1V11.5A4.5,4.5,0,0,1,6.45,7Z" aria-hidden="true"/>
+<path class="a" d="M11,21H21a1,1,0,0,0,1-1V11.5a4.39,4.39,0,0,0-.28-1.5" aria-hidden="true"/>
+<line class="a" x1="13.95" y1="7" x2="6.45" y2="7" aria-hidden="true"/>
+<line class="a" x1="4.95" y1="17" x2="7.95" y2="17" aria-hidden="true"/></svg>

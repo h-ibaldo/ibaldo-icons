@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M19.24,2.67l2.17,2.17a2,2,0,0,1,0,2.83L9,20.09l-7,2,2-7L16.41,2.67A2,2,0,0,1,19.24,2.67Z"/><path class="a" d="M6.67,20.75l-.09-.34A4,4,0,0,0,3.67,17.5l-.34-.08"/><line class="a" x1="14" y1="5.09" x2="19" y2="10.09"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Edit Pencil</title>
+<desc id="iconDesc">A diagonal pencil icon with a curved eraser end and measurement marks</desc>
+<path class="a" d="M19.24,2.67l2.17,2.17a2,2,0,0,1,0,2.83L9,20.09l-7,2,2-7L16.41,2.67A2,2,0,0,1,19.24,2.67Z" aria-hidden="true"/>
+<path class="a" d="M6.67,20.75l-.09-.34A4,4,0,0,0,3.67,17.5l-.34-.08" aria-hidden="true"/>
+<line class="a" x1="14" y1="5.09" x2="19" y2="10.09" aria-hidden="true"/></svg>

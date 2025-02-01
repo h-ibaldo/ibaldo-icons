@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><circle class="a" cx="8" cy="17" r="3.5"/><line class="a" x1="8" y1="17" x2="8" y2="17"/><line class="a" x1="8" y1="12" x2="8" y2="13.5"/><line class="a" x1="8" y1="20.5" x2="8" y2="22"/><line class="a" x1="3.67" y1="14.5" x2="4.97" y2="15.25"/><line class="a" x1="11.03" y1="18.75" x2="12.33" y2="19.5"/><line class="a" x1="3.67" y1="19.5" x2="4.97" y2="18.75"/><line class="a" x1="11.03" y1="15.25" x2="12.33" y2="14.5"/><circle class="a" cx="17" cy="8" r="3.5"/><line class="a" x1="17" y1="8" x2="17" y2="8"/><line class="a" x1="17" y1="3" x2="17" y2="4.5"/><line class="a" x1="17" y1="11.5" x2="17" y2="13"/><line class="a" x1="12.67" y1="5.5" x2="13.97" y2="6.25"/><line class="a" x1="20.03" y1="9.75" x2="21.33" y2="10.5"/><line class="a" x1="12.67" y1="10.5" x2="13.97" y2="9.75"/><line class="a" x1="20.03" y1="6.25" x2="21.33" y2="5.5"/><line class="a" x1="5" y1="5" x2="5" y2="5"/><line class="a" x1="5" y1="10" x2="5" y2="8.5"/><line class="a" x1="9.33" y1="7.5" x2="8.03" y2="6.75"/><line class="a" x1="9.33" y1="2.5" x2="8.03" y2="3.25"/><path class="a" d="M2,6.78A3.49,3.49,0,1,0,6.78,2"/><line class="a" x1="20" y1="20" x2="20" y2="20"/><line class="a" x1="20" y1="15" x2="20" y2="16.5"/><line class="a" x1="15.67" y1="17.5" x2="16.97" y2="18.25"/><path class="a" d="M22,17.14a3.45,3.45,0,0,0-2-.64A3.5,3.5,0,0,0,16.5,20a3.45,3.45,0,0,0,.64,2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Multiple Gears</title>
+<desc id="iconDesc">Four interconnected gear wheels with spokes, representing complex system settings or services</desc>
+<circle class="a" cx="8" cy="17" r="3.5" aria-hidden="true"/>
+<line class="a" x1="8" y1="17" x2="8" y2="17" aria-hidden="true"/>
+<line class="a" x1="8" y1="12" x2="8" y2="13.5" aria-hidden="true"/>
+<line class="a" x1="8" y1="20.5" x2="8" y2="22" aria-hidden="true"/>
+<line class="a" x1="3.67" y1="14.5" x2="4.97" y2="15.25" aria-hidden="true"/>
+<line class="a" x1="11.03" y1="18.75" x2="12.33" y2="19.5" aria-hidden="true"/>
+<line class="a" x1="3.67" y1="19.5" x2="4.97" y2="18.75" aria-hidden="true"/>
+<line class="a" x1="11.03" y1="15.25" x2="12.33" y2="14.5" aria-hidden="true"/>
+<circle class="a" cx="17" cy="8" r="3.5" aria-hidden="true"/>
+<line class="a" x1="17" y1="8" x2="17" y2="8" aria-hidden="true"/>
+<line class="a" x1="17" y1="3" x2="17" y2="4.5" aria-hidden="true"/>
+<line class="a" x1="17" y1="11.5" x2="17" y2="13" aria-hidden="true"/>
+<line class="a" x1="12.67" y1="5.5" x2="13.97" y2="6.25" aria-hidden="true"/>
+<line class="a" x1="20.03" y1="9.75" x2="21.33" y2="10.5" aria-hidden="true"/>
+<line class="a" x1="12.67" y1="10.5" x2="13.97" y2="9.75" aria-hidden="true"/>
+<line class="a" x1="20.03" y1="6.25" x2="21.33" y2="5.5" aria-hidden="true"/>
+<line class="a" x1="5" y1="5" x2="5" y2="5" aria-hidden="true"/>
+<line class="a" x1="5" y1="10" x2="5" y2="8.5" aria-hidden="true"/>
+<line class="a" x1="9.33" y1="7.5" x2="8.03" y2="6.75" aria-hidden="true"/>
+<line class="a" x1="9.33" y1="2.5" x2="8.03" y2="3.25" aria-hidden="true"/>
+<path class="a" d="M2,6.78A3.49,3.49,0,1,0,6.78,2" aria-hidden="true"/>
+<line class="a" x1="20" y1="20" x2="20" y2="20" aria-hidden="true"/>
+<line class="a" x1="20" y1="15" x2="20" y2="16.5" aria-hidden="true"/>
+<line class="a" x1="15.67" y1="17.5" x2="16.97" y2="18.25" aria-hidden="true"/>
+<path class="a" d="M22,17.14a3.45,3.45,0,0,0-2-.64A3.5,3.5,0,0,0,16.5,20a3.45,3.45,0,0,0,.64,2" aria-hidden="true"/></svg>

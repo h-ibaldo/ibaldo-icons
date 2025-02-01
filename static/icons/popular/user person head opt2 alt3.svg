@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M6,12H6A11.8,11.8,0,0,0,16.3,8.7L17,8"/><path class="a" d="M18,12h0a9.4,9.4,0,0,1-4.06,9.37l-.11.08A3.3,3.3,0,0,1,12,22h0a3.3,3.3,0,0,1-1.83-.55l-.11-.08A9.4,9.4,0,0,1,6,12H6"/><path class="a" d="M15.26,20.28A26.93,26.93,0,0,1,22,22V12A10,10,0,0,0,2,12V22a26.93,26.93,0,0,1,6.74-1.72"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Person Icon</title>
+<desc id="iconDesc">An abstract representation of a person with a rounded head and flowing shoulder lines in a minimalist style</desc>
+<path class="a" d="M6,12H6A11.8,11.8,0,0,0,16.3,8.7L17,8" aria-hidden="true"/>
+<path class="a" d="M18,12h0a9.4,9.4,0,0,1-4.06,9.37l-.11.08A3.3,3.3,0,0,1,12,22h0a3.3,3.3,0,0,1-1.83-.55l-.11-.08A9.4,9.4,0,0,1,6,12H6" aria-hidden="true"/>
+<path class="a" d="M15.26,20.28A26.93,26.93,0,0,1,22,22V12A10,10,0,0,0,2,12V22a26.93,26.93,0,0,1,6.74-1.72" aria-hidden="true"/></svg>

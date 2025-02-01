@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Disabled Vertical Sync</title>
-<desc id="iconDesc">Two vertical arrows pointing in opposite directions with a diagonal line through them, indicating disabled synchronization</desc>
+<title id="iconTitle">Synchronize Disabled</title>
+<desc id="iconDesc">Two curved arrows with a diagonal line through them indicating synchronization is disabled or forbidden</desc>
 <polyline class="a" points="11 1.91 13 3.91 11 5.91" aria-hidden="true"/>
 <polyline class="a" points="13 21.91 11 19.91 13 17.91" aria-hidden="true"/>
 <line class="a" x1="4" y1="19.91" x2="20" y2="3.91" aria-hidden="true"/>

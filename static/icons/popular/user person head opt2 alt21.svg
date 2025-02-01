@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M5.84,12.38a2,2,0,0,0,.41,3.47,10,10,0,0,0,3.06,4.7l.93.8a2.71,2.71,0,0,0,3.52,0l.93-.8a10,10,0,0,0,3.06-4.7,2,2,0,0,0,.41-3.47"/><line class="a" x1="12" y1="5" x2="12" y2="2"/><line class="a" x1="15" y1="5" x2="16" y2="3"/><line class="a" x1="18" y1="6" x2="19" y2="6"/><line class="a" x1="18" y1="9" x2="20" y2="10"/><line class="a" x1="9" y1="5" x2="8" y2="3"/><line class="a" x1="6" y1="6" x2="5" y2="6"/><line class="a" x1="6" y1="9" x2="4" y2="10"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Crown Profile</title>
+<desc id="iconDesc">A minimalist head profile with crown-like radiating lines forming an elegant star pattern at the top</desc>
+<path class="a" d="M5.84,12.38a2,2,0,0,0,.41,3.47,10,10,0,0,0,3.06,4.7l.93.8a2.71,2.71,0,0,0,3.52,0l.93-.8a10,10,0,0,0,3.06-4.7,2,2,0,0,0,.41-3.47" aria-hidden="true"/>
+<line class="a" x1="12" y1="5" x2="12" y2="2" aria-hidden="true"/>
+<line class="a" x1="15" y1="5" x2="16" y2="3" aria-hidden="true"/>
+<line class="a" x1="18" y1="6" x2="19" y2="6" aria-hidden="true"/>
+<line class="a" x1="18" y1="9" x2="20" y2="10" aria-hidden="true"/>
+<line class="a" x1="9" y1="5" x2="8" y2="3" aria-hidden="true"/>
+<line class="a" x1="6" y1="6" x2="5" y2="6" aria-hidden="true"/>
+<line class="a" x1="6" y1="9" x2="4" y2="10" aria-hidden="true"/></svg>

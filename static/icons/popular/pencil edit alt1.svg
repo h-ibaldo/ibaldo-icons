@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M21.17,2.91h0a2.84,2.84,0,0,0-4,0L3,17.09l-1,5,5-1L21.17,6.91A2.82,2.82,0,0,0,21.17,2.91Z"/><line class="a" x1="15" y1="5.09" x2="19" y2="9.09"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Edit Pencil</title>
+<desc id="iconDesc">A diagonal pencil icon with a curved tip and highlighted editing area</desc>
+<path class="a" d="M21.17,2.91h0a2.84,2.84,0,0,0-4,0L3,17.09l-1,5,5-1L21.17,6.91A2.82,2.82,0,0,0,21.17,2.91Z" aria-hidden="true"/>
+<line class="a" x1="15" y1="5.09" x2="19" y2="9.09" aria-hidden="true"/></svg>

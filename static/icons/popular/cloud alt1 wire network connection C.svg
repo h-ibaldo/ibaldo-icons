@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="5" y1="21" x2="19" y2="21"/><line class="a" x1="12" y1="16" x2="12" y2="22"/><circle class="a" cx="12" cy="21" r="1"/><path class="a" d="M18,8h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,5H7.5a5.5,5.5,0,0,0,0,11H18a4,4,0,0,0,0-8Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud with Network Node</title>
+<desc id="iconDesc">A cloud shape with a network connection below it, featuring a vertical line extending to a horizontal base with a circular node at the intersection</desc>
+<line class="a" x1="5" y1="21" x2="19" y2="21" aria-hidden="true"/>
+<line class="a" x1="12" y1="16" x2="12" y2="22" aria-hidden="true"/>
+<circle class="a" cx="12" cy="21" r="1" aria-hidden="true"/>
+<path class="a" d="M18,8h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,5H7.5a5.5,5.5,0,0,0,0,11H18a4,4,0,0,0,0-8Z" aria-hidden="true"/></svg>

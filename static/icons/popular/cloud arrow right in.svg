@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="8 15 11 18 8 21"/><line class="a" x1="2" y1="18" x2="11" y2="18"/><path class="a" d="M16,18h1a5,5,0,0,0,.92-9.91,6,6,0,0,0-11.84,0A5,5,0,0,0,2,13"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud Import</title>
+<desc id="iconDesc">A cloud shape with a rightward-pointing arrow entering from the left, featuring a horizontal line with an arrow head pointing into the cloud</desc>
+<polyline class="a" points="8 15 11 18 8 21" aria-hidden="true"/>
+<line class="a" x1="2" y1="18" x2="11" y2="18" aria-hidden="true"/>
+<path class="a" d="M16,18h1a5,5,0,0,0,.92-9.91,6,6,0,0,0-11.84,0A5,5,0,0,0,2,13" aria-hidden="true"/></svg>

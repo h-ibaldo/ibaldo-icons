@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M6,12l-.39-1.94A6.76,6.76,0,0,1,7,4.54H7A6.75,6.75,0,0,1,12.25,2h1.31a2,2,0,0,1,1.9,1.37l.38,1.16a1,1,0,0,0,.63.63l.91.3a2,2,0,0,1,1.34,2.22L18,12"/><path class="a" d="M5.87,12A1,1,0,0,0,5,13v1a2,2,0,0,0,1.25,1.85,10,10,0,0,0,3.06,4.7l.93.8a2.71,2.71,0,0,0,3.52,0l.93-.8a10,10,0,0,0,3.06-4.7A2,2,0,0,0,19,14V13a1,1,0,0,0-.87-1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <title id="iconTitle">User Portrait</title>
+  <desc id="iconDesc">A stylized head and shoulders silhouette with a rounded helmet or cap design and a detailed neckline.</desc>
+  <path class="a" d="M6,12l-.39-1.94A6.76,6.76,0,0,1,7,4.54H7A6.75,6.75,0,0,1,12.25,2h1.31a2,2,0,0,1,1.9,1.37l.38,1.16a1,1,0,0,0,.63.63l.91.3a2,2,0,0,1,1.34,2.22L18,12" aria-hidden="true"/>
+  <path class="a" d="M5.87,12A1,1,0,0,0,5,13v1a2,2,0,0,0,1.25,1.85,10,10,0,0,0,3.06,4.7l.93.8a2.71,2.71,0,0,0,3.52,0l.93-.8a10,10,0,0,0,3.06-4.7A2,2,0,0,0,19,14V13a1,1,0,0,0-.87-1" aria-hidden="true"/></svg>

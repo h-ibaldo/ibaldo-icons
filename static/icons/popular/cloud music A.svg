@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="15 14 12 13 12 20"/><ellipse class="a" cx="10.5" cy="20" rx="1.5" ry="1"/><path class="a" d="M17,18a5,5,0,0,0,.92-9.91,6,6,0,0,0-11.84,0A5,5,0,0,0,5,17.57"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud Music Note</title>
+<desc id="iconDesc">A musical note floating within a cloud shape, representing cloud-based music services</desc>
+<polyline class="a" points="15 14 12 13 12 20" aria-hidden="true"/>
+<ellipse class="a" cx="10.5" cy="20" rx="1.5" ry="1" aria-hidden="true"/>
+<path class="a" d="M17,18a5,5,0,0,0,.92-9.91,6,6,0,0,0-11.84,0A5,5,0,0,0,5,17.57" aria-hidden="true"/>
+</svg>

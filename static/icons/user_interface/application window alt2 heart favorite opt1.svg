@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Favorite Window</title>
+  <desc id="iconDesc">A window interface with a centered heart symbol, representing favorites or liked items.</desc>
   <defs>
     <style>
       .b {
         fill: none;
-        stroke: #000;
+        stroke: currentColor;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
     </style>
   </defs>
-  <rect class="b" x="2" y="2" width="20" height="20" rx="2" ry="2"/>
-  <path class="b" d="m11.15666,17.65068l-3.33211-3.33211c-.98742-.98742-.98742-2.58835,0-3.57578l.00223-.00223c.98742-.98742,2.58835-.98742,3.57578,0l.59745.59745.59745-.59745c.98742-.98742,2.58835-.98742,3.57578,0l.00223.00223c.98742.98742.98742,2.58835,0,3.57578l-3.33211,3.33211c-.46577.46577-1.22092.46577-1.68669,0Z"/>
-  <line class="b" x1="5.01" y1="5" x2="5" y2="5"/>
-  <line class="b" x1="8.01" y1="5" x2="8" y2="5"/>
-  <line class="b" x1="11.01" y1="5" x2="11" y2="5"/>
+  <rect class="b" x="2" y="2" width="20" height="20" rx="2" ry="2" aria-hidden="true"/>
+  <path class="b" d="m11.15666,17.65068l-3.33211-3.33211c-.98742-.98742-.98742-2.58835,0-3.57578l.00223-.00223c.98742-.98742,2.58835-.98742,3.57578,0l.59745.59745.59745-.59745c.98742-.98742,2.58835-.98742,3.57578,0l.00223.00223c.98742.98742.98742,2.58835,0,3.57578l-3.33211,3.33211c-.46577.46577-1.22092.46577-1.68669,0Z" aria-hidden="true"/>
+  <line class="b" x1="5.01" y1="5" x2="5" y2="5" aria-hidden="true"/>
+  <line class="b" x1="8.01" y1="5" x2="8" y2="5" aria-hidden="true"/>
+  <line class="b" x1="11.01" y1="5" x2="11" y2="5" aria-hidden="true"/>
 </svg>

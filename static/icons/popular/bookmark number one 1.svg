@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Bookmark One</title>
-<desc id="iconDesc">A bookmark icon with the number one in the center</desc>
-<path class="a" d="M18,2H6A1,1,0,0,0,5,3V22l7-4,7,4V3A1,1,0,0,0,18,2Z" aria-hidden="true"/>
-<polyline class="a" points="11 7 12 7 12 14" aria-hidden="true"/>
-</svg>
+<title id="iconTitle">Number One Bookmark</title>
+<desc id="iconDesc">A bookmark with the number one displayed in the center, indicating a first item or primary bookmark</desc>
+<path class="a" aria-hidden="true" d="M18,2H6A1,1,0,0,0,5,3V22l7-4,7,4V3A1,1,0,0,0,18,2Z"/>
+<polyline class="a" aria-hidden="true" points="11 7 12 7 12 14"/></svg>

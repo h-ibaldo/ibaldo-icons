@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><rect class="a" x="8" y="16" width="8" height="6"/><path class="a" d="M19,16.58a5,5,0,0,0-1.08-9.49,6,6,0,0,0-11.84,0A5,5,0,0,0,5,16.58"/><path class="a" d="M14.22,12A3,3,0,0,0,9,14v2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Unlocked Cloud</title>
+<desc id="iconDesc">A cloud with an unlocked padlock symbol below it, representing unrestricted cloud access</desc>
+<rect class="a" x="8" y="16" width="8" height="6" aria-hidden="true"/>
+<path class="a" d="M19,16.58a5,5,0,0,0-1.08-9.49,6,6,0,0,0-11.84,0A5,5,0,0,0,5,16.58" aria-hidden="true"/>
+<path class="a" d="M14.22,12A3,3,0,0,0,9,14v2" aria-hidden="true"/>
+</svg>

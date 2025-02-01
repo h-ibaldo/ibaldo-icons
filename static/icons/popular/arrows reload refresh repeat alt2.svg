@@ -1,14 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" 
-    role="img"
-    aria-labelledby="iconTitle iconDesc"
-    focusable="false">
-    <defs>
-        <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-    </defs>
-    <title id="iconTitle">Refresh</title>
-    <desc id="iconDesc">Two curved arrows forming a circular pattern, indicating a refresh or reload action</desc>
-    <polyline class="a" points="22 16.91 19 19.91 16 16.91" aria-hidden="true"/>
-    <path class="a" d="M9,1.91h3a7,7,0,0,1,7,7v11" aria-hidden="true"/>
-    <polyline class="a" points="2 6.91 5 3.91 8 6.91" aria-hidden="true"/>
-    <path class="a" d="M15,21.91H12a7,7,0,0,1-7-7v-11" aria-hidden="true"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Vertical Refresh</title>
+<desc id="iconDesc">Two vertical curved arrows with arrow tips at opposite corners, forming a refresh or reload pattern</desc>
+<polyline class="a" points="22 16.91 19 19.91 16 16.91" aria-hidden="true"/>
+<path class="a" d="M9,1.91h3a7,7,0,0,1,7,7v11" aria-hidden="true"/>
+<polyline class="a" points="2 6.91 5 3.91 8 6.91" aria-hidden="true"/>
+<path class="a" d="M15,21.91H12a7,7,0,0,1-7-7v-11" aria-hidden="true"/>
 </svg>

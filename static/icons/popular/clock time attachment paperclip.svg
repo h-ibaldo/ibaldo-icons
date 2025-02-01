@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M2,17l4.17,4.17a2.82,2.82,0,0,0,4,0h0a2.82,2.82,0,0,0,0-4L4.41,11.41a1.41,1.41,0,0,0-2,0h0a1.41,1.41,0,0,0,0,2L7,18"/><polyline class="a" points="12 7 12 12 17 12"/><path class="a" d="M14,21.8A10,10,0,1,0,3.35,7"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clock with Angled Paperclip</title>
+<desc id="iconDesc">A clock face with an angled paperclip attachment symbol below it, featuring a curved design</desc>
+<path class="a" d="M2,17l4.17,4.17a2.82,2.82,0,0,0,4,0h0a2.82,2.82,0,0,0,0-4L4.41,11.41a1.41,1.41,0,0,0-2,0h0a1.41,1.41,0,0,0,0,2L7,18" aria-hidden="true"/>
+<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
+<path class="a" d="M14,21.8A10,10,0,1,0,3.35,7" aria-hidden="true"/></svg>

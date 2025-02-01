@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="12" y1="2.41" x2="12" y2="4.41"/><line class="a" x1="4.93" y1="5.34" x2="6.34" y2="6.76"/><line class="a" x1="2" y1="12.41" x2="4" y2="12.41"/><line class="a" x1="19.07" y1="5.34" x2="17.66" y2="6.76"/><line class="a" x1="22" y1="12.41" x2="20" y2="12.41"/><line class="a" x1="11" y1="21.41" x2="13" y2="21.41"/><path class="a" d="M17,12.41a5,5,0,1,0-7.58,4.27L10,18.41h4l.58-1.73A5,5,0,0,0,17,12.41Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Light Bulb with Rays</title>
+<desc id="iconDesc">A light bulb with radiating lines around it representing light rays, and a horizontal line at the base</desc>
+<line class="a" x1="12" y1="2.41" x2="12" y2="4.41" aria-hidden="true"/>
+<line class="a" x1="4.93" y1="5.34" x2="6.34" y2="6.76" aria-hidden="true"/>
+<line class="a" x1="2" y1="12.41" x2="4" y2="12.41" aria-hidden="true"/>
+<line class="a" x1="19.07" y1="5.34" x2="17.66" y2="6.76" aria-hidden="true"/>
+<line class="a" x1="22" y1="12.41" x2="20" y2="12.41" aria-hidden="true"/>
+<line class="a" x1="11" y1="21.41" x2="13" y2="21.41" aria-hidden="true"/>
+<path class="a" d="M17,12.41a5,5,0,1,0-7.58,4.27L10,18.41h4l.58-1.73A5,5,0,0,0,17,12.41Z" aria-hidden="true"/></svg>

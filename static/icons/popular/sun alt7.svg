@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polygon class="a" points="20.28 12 22 7.86 17.86 6.14 16.14 2 12 3.72 7.86 2 6.14 6.14 2 7.86 3.72 12 2 16.14 6.14 17.86 7.86 22 12 20.28 16.14 22 17.86 17.86 22 16.14 20.28 12"/><circle class="a" cx="12" cy="12" r="5"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Star Sun</title>
+<desc id="iconDesc">A sun icon designed with a star-shaped outer border and a central circle, creating a celestial star-burst effect.</desc>
+<polygon class="a" points="20.28 12 22 7.86 17.86 6.14 16.14 2 12 3.72 7.86 2 6.14 6.14 2 7.86 3.72 12 2 16.14 6.14 17.86 7.86 22 12 20.28 16.14 22 17.86 17.86 22 16.14 20.28 12" aria-hidden="true"/>
+<circle class="a" cx="12" cy="12" r="5" aria-hidden="true"/></svg>

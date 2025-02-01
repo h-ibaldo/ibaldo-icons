@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="8 20 10 22 12 20"/><line class="a" x1="10" y1="16" x2="10" y2="22"/><polyline class="a" points="16 13 14 11 12 13"/><line class="a" x1="14" y1="17" x2="14" y2="11"/><path class="a" d="M18,16.9a5,5,0,0,0-.08-9.81,6,6,0,0,0-11.84,0A5,5,0,0,0,6,16.9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud Traffic</title>
+<desc id="iconDesc">A cloud shape with two offset vertical arrows below it, one pointing up and one pointing down, indicating parallel data transfer</desc>
+<polyline class="a" points="8 20 10 22 12 20" aria-hidden="true"/>
+<line class="a" x1="10" y1="16" x2="10" y2="22" aria-hidden="true"/>
+<polyline class="a" points="16 13 14 11 12 13" aria-hidden="true"/>
+<line class="a" x1="14" y1="17" x2="14" y2="11" aria-hidden="true"/>
+<path class="a" d="M18,16.9a5,5,0,0,0-.08-9.81,6,6,0,0,0-11.84,0A5,5,0,0,0,6,16.9" aria-hidden="true"/></svg>

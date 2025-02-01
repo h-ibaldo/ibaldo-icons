@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="10" y1="11.5" x2="10" y2="10.5"/><line class="a" x1="14" y1="11.5" x2="14" y2="10.5"/><path class="a" d="M9,14.69a6,6,0,0,0,6,0"/><path class="a" d="M18,11h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,8H7.5a5.5,5.5,0,0,0,0,11H18a4,4,0,0,0,0-8Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud with Happy Face</title>
+<desc id="iconDesc">A cloud shape with a smiling face inside it, featuring two vertical eyes and an upward curved line for a happy expression</desc>
+<line class="a" x1="10" y1="11.5" x2="10" y2="10.5" aria-hidden="true"/>
+<line class="a" x1="14" y1="11.5" x2="14" y2="10.5" aria-hidden="true"/>
+<path class="a" d="M9,14.69a6,6,0,0,0,6,0" aria-hidden="true"/>
+<path class="a" d="M18,11h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,8H7.5a5.5,5.5,0,0,0,0,11H18a4,4,0,0,0,0-8Z" aria-hidden="true"/></svg>

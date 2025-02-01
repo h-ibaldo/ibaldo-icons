@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="9.24" y1="15" x2="9.24" y2="14"/><line class="a" x1="15.24" y1="15" x2="15.24" y2="14"/><path class="a" d="M22.24,22V12a10,10,0,0,0-10-10h0a10,10,0,0,0-10,10V22"/><path class="a" d="M5.24,15l.14.7a8.09,8.09,0,0,0,4.93,5.93h0a5.3,5.3,0,0,0,1.93.37h0a5.25,5.25,0,0,0,1.92-.37h0A8.13,8.13,0,0,0,19.1,15.7l.14-.7"/><path class="a" d="M6,10H6A10.22,10.22,0,0,0,16.47,7.53L17,7"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">User Avatar</title>
+<desc id="iconDesc">A minimalist user profile icon showing a head silhouette with simple facial features and a curved hairline detail.</desc>
+<line class="a" x1="9.24" y1="15" x2="9.24" y2="14" aria-hidden="true"/>
+<line class="a" x1="15.24" y1="15" x2="15.24" y2="14" aria-hidden="true"/>
+<path class="a" d="M22.24,22V12a10,10,0,0,0-10-10h0a10,10,0,0,0-10,10V22" aria-hidden="true"/>
+<path class="a" d="M5.24,15l.14.7a8.09,8.09,0,0,0,4.93,5.93h0a5.3,5.3,0,0,0,1.93.37h0a5.25,5.25,0,0,0,1.92-.37h0A8.13,8.13,0,0,0,19.1,15.7l.14-.7" aria-hidden="true"/>
+<path class="a" d="M6,10H6A10.22,10.22,0,0,0,16.47,7.53L17,7" aria-hidden="true"/></svg>

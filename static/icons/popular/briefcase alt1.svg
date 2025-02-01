@@ -1,9 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-  <title id="iconTitle">Simple Briefcase</title>
-  <desc id="iconDesc">A minimalist briefcase icon with a rectangular body and a curved handle on top</desc>
-  <defs>
-    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-  </defs>
-  <rect class="a" x="2" y="7" width="20" height="14" rx="1" aria-hidden="true"/>
-  <path class="a" d="M8,9V4A1,1,0,0,1,9,3h6a1,1,0,0,1,1,1V9" aria-hidden="true"/>
-</svg>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Simple Briefcase</title>
+<desc id="iconDesc">A classic briefcase with a rectangular body and a centered handle attachment on top.</desc>
+<rect class="a" x="2" y="7" width="20" height="14" rx="1" aria-hidden="true"/>
+<path class="a" d="M8,9V4A1,1,0,0,1,9,3h6a1,1,0,0,1,1,1V9" aria-hidden="true"/></svg>

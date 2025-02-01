@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Forbidden Bookmark</title>
-<desc id="iconDesc">A bookmark icon with a diagonal line through it indicating forbidden or disabled state</desc>
-<path class="a" d="M19,9V3a1,1,0,0,0-1-1H6" aria-hidden="true"/>
-<polyline class="a" points="5 5.75 5 22 12 18 19 22 19 13.35" aria-hidden="true"/>
-<line class="a" x1="2" y1="4" x2="22" y2="15" aria-hidden="true"/>
-</svg>
+<title id="iconTitle">Disabled Bookmark</title>
+<desc id="iconDesc">A bookmark icon with a diagonal line through it, indicating that bookmarking is disabled or not available</desc>
+<path class="a" aria-hidden="true" d="M18,2H6A1,1,0,0,0,5,3V22l7-4,7,4V3A1,1,0,0,0,18,2Z"/>
+<line class="a" aria-hidden="true" x1="4" y1="4" x2="20" y2="20"/></svg>

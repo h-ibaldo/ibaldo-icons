@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Remove from Bookmark Collection</title>
-<desc id="iconDesc">An alternate style bookmark collection with a minus symbol indicating the ability to remove a bookmark</desc>
+<title id="iconTitle">Remove from Bookmarks</title>
+<desc id="iconDesc">A bookmark with a curved top and a minus symbol in the center indicating the ability to remove a bookmark</desc>
 <path class="a" d="M15,6H5A1,1,0,0,0,4,7V22l6-4,6,4V7A1,1,0,0,0,15,6Z" aria-hidden="true"/>
 <path class="a" d="M20,18V5a3,3,0,0,0-3-3H8" aria-hidden="true"/>
-<line class="a" x1="7.51" y1="12.5" x2="12.51" y2="12.5" aria-hidden="true"/>
-</svg>
+<line class="a" x1="7.51" y1="12.5" x2="12.51" y2="12.5" aria-hidden="true"/></svg>

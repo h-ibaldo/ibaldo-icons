@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
   <defs>
     <style>
       .b {
         fill: none;
-        stroke: #000;
+        stroke: currentColor;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
     </style>
   </defs>
-  <polyline class="b" points="16.5798 18.96803 19.61174 22 20.2088 20.2088 22 19.61174 19.29276 16.90454"/>
-  <circle class="b" cx="16.02935" cy="15.43228" r="3.58239"/>
-  <polyline class="b" points="12.76593 16.90454 10.0587 19.61174 11.84989 20.2088 12.44696 22 15.47889 18.96803"/>
-  <path class="b" d="m7,22h-3c-1.10457,0-2-.89543-2-2V4c0-1.10457.89543-2,2-2h16c1.10457,0,2,.89543,2,2v7"/>
-  <line class="b" x1="5.01" y1="5" x2="5" y2="5"/>
-  <line class="b" x1="8.01" y1="5" x2="8" y2="5"/>
-  <line class="b" x1="11.01" y1="5" x2="11" y2="5"/>
+  <title id="iconTitle">Medal Window</title>
+  <desc id="iconDesc">An application window with a circular medal and decorative ribbons extending outward, symbolizing achievement or recognition</desc>
+  <polyline class="b" points="16.5798 18.96803 19.61174 22 20.2088 20.2088 22 19.61174 19.29276 16.90454" aria-hidden="true"/>
+  <circle class="b" cx="16.02935" cy="15.43228" r="3.58239" aria-hidden="true"/>
+  <polyline class="b" points="12.76593 16.90454 10.0587 19.61174 11.84989 20.2088 12.44696 22 15.47889 18.96803" aria-hidden="true"/>
+  <path class="b" d="m7,22h-3c-1.10457,0-2-.89543-2-2V4c0-1.10457.89543-2,2-2h16c1.10457,0,2,.89543,2,2v7" aria-hidden="true"/>
+  <line class="b" x1="5.01" y1="5" x2="5" y2="5" aria-hidden="true"/>
+  <line class="b" x1="8.01" y1="5" x2="8" y2="5" aria-hidden="true"/>
+  <line class="b" x1="11.01" y1="5" x2="11" y2="5" aria-hidden="true"/>
 </svg>

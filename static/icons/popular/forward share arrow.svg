@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M22,9,14,2V6.16A14,14,0,0,0,2,20v2l1.92-3.2A14,14,0,0,1,14,12.14V16Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Forward Share</title>
+<desc id="iconDesc">A curved arrow pointing right with a tail, indicating forward or share action</desc>
+<path class="a" d="M22,9,14,2V6.16A14,14,0,0,0,2,20v2l1.92-3.2A14,14,0,0,1,14,12.14V16Z" aria-hidden="true"/></svg>

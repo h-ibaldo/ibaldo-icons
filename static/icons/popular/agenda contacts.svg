@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Contact Directory</title>
-<desc id="iconDesc">A contact directory with side tabs and a centered user profile icon showing a circular head and shoulders silhouette</desc>
+<title id="iconTitle">Contact Book</title>
+<desc id="iconDesc">A contact book with lines on the left side and a circular profile avatar with a body silhouette in the center</desc>
 <rect class="a" x="4" y="3" width="18" height="18" rx="2" aria-hidden="true"/>
 <line class="a" x1="2" y1="7" x2="5" y2="7" aria-hidden="true"/>
 <line class="a" x1="2" y1="12" x2="5" y2="12" aria-hidden="true"/>

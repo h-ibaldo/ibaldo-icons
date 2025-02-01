@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="9 19 12 22 15 19"/><line class="a" x1="12" y1="11" x2="12" y2="22"/><path class="a" d="M17,16h.5a4.49,4.49,0,0,0,.42-9A6,6,0,0,0,6.08,7a4.49,4.49,0,0,0,.42,9H7"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud Download Extended</title>
+<desc id="iconDesc">A cloud shape with a long downward-pointing arrow below it, featuring a vertical line extending down with an arrow head</desc>
+<polyline class="a" points="9 19 12 22 15 19" aria-hidden="true"/>
+<line class="a" x1="12" y1="11" x2="12" y2="22" aria-hidden="true"/>
+<path class="a" d="M17,16h.5a4.49,4.49,0,0,0,.42-9A6,6,0,0,0,6.08,7a4.49,4.49,0,0,0,.42,9H7" aria-hidden="true"/></svg>

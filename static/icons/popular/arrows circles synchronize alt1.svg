@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Circular Node Sync</title>
-<desc id="iconDesc">Two circular nodes connected by curved arrows, indicating synchronization between two points with circular endpoints</desc>
+<title id="iconTitle">Synchronize Circles</title>
+<desc id="iconDesc">Two circular arrows with small circles at opposite corners, indicating a synchronization or data exchange process</desc>
 <polyline class="a" points="22 11 20 13 18 11" aria-hidden="true"/>
 <circle class="a" cx="8" cy="5" r="3" aria-hidden="true"/>
 <path class="a" d="M20,12a8,8,0,0,0-8-8,8.92,8.92,0,0,0-1.16.09" aria-hidden="true"/>
 <polyline class="a" points="2 13 4 11 6 13" aria-hidden="true"/>
 <circle class="a" cx="16" cy="19" r="3" aria-hidden="true"/>
-<path class="a" d="M4,12a8,8,0,0,0,8,8,8.92,8.92,0,0,0,1.16-.09" aria-hidden="true"/></svg>
+<path class="a" d="M4,12a8,8,0,0,0,8,8,8.92,8.92,0,0,0,1.16-.09" aria-hidden="true"/>
+</svg>

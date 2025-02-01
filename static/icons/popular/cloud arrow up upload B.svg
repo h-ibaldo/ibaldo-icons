@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="9 12 12 9 15 12"/><line class="a" x1="12" y1="15" x2="12" y2="9"/><path class="a" d="M17.92,9.09a6,6,0,0,0-11.84,0A5,5,0,0,0,7,19H17a5,5,0,0,0,.92-9.91Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud Upload Alt</title>
+<desc id="iconDesc">A cloud shape with a compact upward-pointing arrow inside it, featuring a short vertical line with an arrow head pointing up</desc>
+<polyline class="a" points="9 12 12 9 15 12" aria-hidden="true"/>
+<line class="a" x1="12" y1="15" x2="12" y2="9" aria-hidden="true"/>
+<path class="a" d="M17.92,9.09a6,6,0,0,0-11.84,0A5,5,0,0,0,7,19H17a5,5,0,0,0,.92-9.91Z" aria-hidden="true"/></svg>

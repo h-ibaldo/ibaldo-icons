@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M11,22c.33,0,.66.05,1,.05A10,10,0,1,0,2,12c0,.34,0,.67,0,1"/><polyline class="a" points="12 7 12 12 17 12"/><polyline class="a" points="3 17 7 17 3 22 7 22"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clock with Snooze</title>
+<desc id="iconDesc">A clock face with a zigzag snooze symbol below it, indicating alarm delay or sleep function</desc>
+<path class="a" d="M11,22c.33,0,.66.05,1,.05A10,10,0,1,0,2,12c0,.34,0,.67,0,1" aria-hidden="true"/>
+<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
+<polyline class="a" points="3 17 7 17 3 22 7 22" aria-hidden="true"/></svg>

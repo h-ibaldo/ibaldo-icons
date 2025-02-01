@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Advanced Settings Window</title>
+  <desc id="iconDesc">A window interface with a detailed gear wheel in the bottom right, featuring multiple radiating spokes and adjustment points.</desc>
   <defs>
     <style>
       .b {
         fill: none;
-        stroke: #000;
+        stroke: currentColor;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
     </style>
   </defs>
-  <circle class="b" cx="16" cy="16" r="4"/>
-  <path class="b" d="m9,22h-5c-1.10457,0-2-.89543-2-2V4c0-1.10457.89543-2,2-2h16c1.10457,0,2,.89543,2,2v5"/>
-  <line class="b" x1="16" y1="16.01" x2="16" y2="16"/>
-  <line class="b" x1="16" y1="12" x2="16" y2="10"/>
-  <line class="b" x1="16" y1="22" x2="16" y2="20"/>
-  <line class="b" x1="20" y1="16" x2="22" y2="16"/>
-  <line class="b" x1="10" y1="16" x2="12" y2="16"/>
-  <line class="b" x1="18.82843" y1="13.17157" x2="20.24264" y2="11.75736"/>
-  <line class="b" x1="11.75736" y1="20.24264" x2="13.17157" y2="18.82843"/>
-  <line class="b" x1="18.82843" y1="18.82843" x2="20.24264" y2="20.24264"/>
-  <line class="b" x1="11.75736" y1="11.75736" x2="13.17157" y2="13.17157"/>
-  <line class="b" x1="5.01" y1="5" x2="5" y2="5"/>
-  <line class="b" x1="8.01" y1="5" x2="8" y2="5"/>
-  <line class="b" x1="11.01" y1="5" x2="11" y2="5"/>
+  <circle class="b" cx="16" cy="16" r="4" aria-hidden="true"/>
+  <path class="b" d="m9,22h-5c-1.10457,0-2-.89543-2-2V4c0-1.10457.89543-2,2-2h16c1.10457,0,2,.89543,2,2v5" aria-hidden="true"/>
+  <line class="b" x1="16" y1="16.01" x2="16" y2="16" aria-hidden="true"/>
+  <line class="b" x1="16" y1="12" x2="16" y2="10" aria-hidden="true"/>
+  <line class="b" x1="16" y1="22" x2="16" y2="20" aria-hidden="true"/>
+  <line class="b" x1="20" y1="16" x2="22" y2="16" aria-hidden="true"/>
+  <line class="b" x1="10" y1="16" x2="12" y2="16" aria-hidden="true"/>
+  <line class="b" x1="18.82843" y1="13.17157" x2="20.24264" y2="11.75736" aria-hidden="true"/>
+  <line class="b" x1="11.75736" y1="20.24264" x2="13.17157" y2="18.82843" aria-hidden="true"/>
+  <line class="b" x1="18.82843" y1="18.82843" x2="20.24264" y2="20.24264" aria-hidden="true"/>
+  <line class="b" x1="11.75736" y1="11.75736" x2="13.17157" y2="13.17157" aria-hidden="true"/>
+  <line class="b" x1="5.01" y1="5" x2="5" y2="5" aria-hidden="true"/>
+  <line class="b" x1="8.01" y1="5" x2="8" y2="5" aria-hidden="true"/>
+  <line class="b" x1="11.01" y1="5" x2="11" y2="5" aria-hidden="true"/>
 </svg>

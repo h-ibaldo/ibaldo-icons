@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <polyline class="b" points="22.02527 21.99878 22.02527 16.99878 20.02527 18.99878 18.02527 16.99878 18.02527 21.99878"/>
+  <rect class="b" x="11.02527" y="16.99878" width="4" height="5" rx="1" ry="1"/>
+  <path class="b" d="m8.02527,16.99878h-2c-.55228,0-1,.44772-1,1v3c0,.55228.44772,1,1,1h2"/>
+  <line class="b" x1="2.03527" y1="21.99878" x2="2.02527" y2="21.99878"/>
+  <circle class="b" cx="11.66131" cy="6.99878" r="5"/>
+  <line class="b" x1="18.02527" y1="13.36274" x2="15.19684" y2="10.53432"/>
+</svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Phone Directory</title>
-<desc id="iconDesc">A contact directory with tabs on the left side and a stylized telephone handset icon in the center with curved details</desc>
+<title id="iconTitle">Contact Book</title>
+<desc id="iconDesc">A contact book or agenda with lines representing text entries on the left side and a profile silhouette on the right side</desc>
 <line class="a" x1="4" y1="12" x2="4" y2="10" aria-hidden="true"/>
 <line class="a" x1="4" y1="17" x2="4" y2="15" aria-hidden="true"/>
 <line class="a" x1="2" y1="7" x2="5" y2="7" aria-hidden="true"/>

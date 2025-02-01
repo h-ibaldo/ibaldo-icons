@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="12 22 12 19 15 19"/><path class="a" d="M12.42,19a5,5,0,1,0,0-4"/><path class="a" d="M19,9a4,4,0,0,0-4-4c-.14,0-.27,0-.4,0A5,5,0,0,0,5,7c0,.14,0,.27,0,.4A5,5,0,0,0,7,17H9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud with Circular Refresh</title>
+<desc id="iconDesc">A cloud shape with a circular refresh pattern below it, featuring a curved arrow and right angle indicating rotation or synchronization</desc>
+<polyline class="a" points="12 22 12 19 15 19" aria-hidden="true"/>
+<path class="a" d="M12.42,19a5,5,0,1,0,0-4" aria-hidden="true"/>
+<path class="a" d="M19,9a4,4,0,0,0-4-4c-.14,0-.27,0-.4,0A5,5,0,0,0,5,7c0,.14,0,.27,0,.4A5,5,0,0,0,7,17H9" aria-hidden="true"/></svg>

@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M2,22H13.15a5,5,0,0,0,3.25-1.2L22,16l-.06-.06a3,3,0,0,0-4-.19l-3.34,2.79a2,2,0,0,1-1.28.46H12"/><path class="a" d="M10,19h2a2,2,0,0,0,2-2V16H8.36a9.93,9.93,0,0,0-4.47,1.06L2,18"/><circle class="a" cx="12" cy="7" r="3.5"/><line class="a" x1="12" y1="7" x2="12" y2="7"/><line class="a" x1="12" y1="2" x2="12" y2="3.5"/><line class="a" x1="12" y1="10.5" x2="12" y2="12"/><line class="a" x1="17" y1="7" x2="15.5" y2="7"/><line class="a" x1="8.5" y1="7" x2="7" y2="7"/><line class="a" x1="15.54" y1="10.54" x2="14.47" y2="9.47"/><line class="a" x1="9.53" y1="4.53" x2="8.46" y2="3.46"/><line class="a" x1="8.46" y1="10.54" x2="9.53" y2="9.47"/><line class="a" x1="14.47" y1="4.53" x2="15.54" y2="3.46"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Hand with Gear</title>
+<desc id="iconDesc">A hand icon with a gear wheel above it, representing manual control and system settings</desc>
+<path class="a" d="M2,22H13.15a5,5,0,0,0,3.25-1.2L22,16l-.06-.06a3,3,0,0,0-4-.19l-3.34,2.79a2,2,0,0,1-1.28.46H12" aria-hidden="true"/>
+<path class="a" d="M10,19h2a2,2,0,0,0,2-2V16H8.36a9.93,9.93,0,0,0-4.47,1.06L2,18" aria-hidden="true"/>
+<circle class="a" cx="12" cy="7" r="3.5" aria-hidden="true"/>
+<line class="a" x1="12" y1="7" x2="12" y2="7" aria-hidden="true"/>
+<line class="a" x1="12" y1="2" x2="12" y2="3.5" aria-hidden="true"/>
+<line class="a" x1="12" y1="10.5" x2="12" y2="12" aria-hidden="true"/>
+<line class="a" x1="17" y1="7" x2="15.5" y2="7" aria-hidden="true"/>
+<line class="a" x1="8.5" y1="7" x2="7" y2="7" aria-hidden="true"/>
+<line class="a" x1="15.54" y1="10.54" x2="14.47" y2="9.47" aria-hidden="true"/>
+<line class="a" x1="9.53" y1="4.53" x2="8.46" y2="3.46" aria-hidden="true"/>
+<line class="a" x1="8.46" y1="10.54" x2="9.53" y2="9.47" aria-hidden="true"/>
+<line class="a" x1="14.47" y1="4.53" x2="15.54" y2="3.46" aria-hidden="true"/></svg>

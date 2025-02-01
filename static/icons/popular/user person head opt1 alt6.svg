@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="9.24" y1="15" x2="9.24" y2="14"/><line class="a" x1="15.24" y1="15" x2="15.24" y2="14"/><line class="a" x1="5.24" y1="22" x2="2.24" y2="22"/><line class="a" x1="22.24" y1="22" x2="19.24" y2="22"/><path class="a" d="M12.24,2c-6,0-10,7-10,16v4"/><path class="a" d="M12.24,2c6,0,10,7,10,16v4"/><path class="a" d="M6.24,12h0a2,2,0,0,1,2-2h8"/><line class="a" x1="6.24" y1="12" x2="6.24" y2="16"/><path class="a" d="M6.24,16a6,6,0,0,0,11.65,2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">User Portrait</title>
+<desc id="iconDesc">A minimalist portrait-style user icon with curved lines forming a head shape, simple facial features, and a distinctive neck design.</desc>
+<line class="a" x1="9.24" y1="15" x2="9.24" y2="14" aria-hidden="true"/>
+<line class="a" x1="15.24" y1="15" x2="15.24" y2="14" aria-hidden="true"/>
+<line class="a" x1="5.24" y1="22" x2="2.24" y2="22" aria-hidden="true"/>
+<line class="a" x1="22.24" y1="22" x2="19.24" y2="22" aria-hidden="true"/>
+<path class="a" d="M12.24,2c-6,0-10,7-10,16v4" aria-hidden="true"/>
+<path class="a" d="M12.24,2c6,0,10,7,10,16v4" aria-hidden="true"/>
+<path class="a" d="M6.24,12h0a2,2,0,0,1,2-2h8" aria-hidden="true"/>
+<line class="a" x1="6.24" y1="12" x2="6.24" y2="16" aria-hidden="true"/>
+<path class="a" d="M6.24,16a6,6,0,0,0,11.65,2" aria-hidden="true"/></svg>

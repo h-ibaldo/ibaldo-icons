@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M19,11l.48-2.39a3,3,0,0,0-2-3.45h0a1,1,0,0,1-.63-.63h0A3.69,3.69,0,0,0,13.34,2h0A10.47,10.47,0,0,0,5.93,5.07h0A4.82,4.82,0,0,0,4.66,9.65L5,11l-.15.15a2.91,2.91,0,0,0-.85,2H4a2.9,2.9,0,0,0,1.61,2.6L6,16H6a10.14,10.14,0,0,0,3.53,4.9l.67.5A3,3,0,0,0,12,22h0a3,3,0,0,0,1.8-.6l.67-.5A10.14,10.14,0,0,0,18,16h0l.39-.2A2.9,2.9,0,0,0,20,13.2h0a2.91,2.91,0,0,0-.85-2Z"/><path class="a" d="M5,11l1.82-.3A13.28,13.28,0,0,0,14,7h0l.25.37A9.23,9.23,0,0,0,19,11h0"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <title id="iconTitle">User Head</title>
+  <desc id="iconDesc">A stylized head silhouette with a curved top and detailed neck area, showing a person with a distinctive hairstyle or headwear.</desc>
+  <path class="a" d="M19,11l.48-2.39a3,3,0,0,0-2-3.45h0a1,1,0,0,1-.63-.63h0A3.69,3.69,0,0,0,13.34,2h0A10.47,10.47,0,0,0,5.93,5.07h0A4.82,4.82,0,0,0,4.66,9.65L5,11l-.15.15a2.91,2.91,0,0,0-.85,2H4a2.9,2.9,0,0,0,1.61,2.6L6,16H6a10.14,10.14,0,0,0,3.53,4.9l.67.5A3,3,0,0,0,12,22h0a3,3,0,0,0,1.8-.6l.67-.5A10.14,10.14,0,0,0,18,16h0l.39-.2A2.9,2.9,0,0,0,20,13.2h0a2.91,2.91,0,0,0-.85-2Z" aria-hidden="true"/>
+  <path class="a" d="M5,11l1.82-.3A13.28,13.28,0,0,0,14,7h0l.25.37A9.23,9.23,0,0,0,19,11h0" aria-hidden="true"/></svg>

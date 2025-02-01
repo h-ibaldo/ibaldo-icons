@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="9" y1="15" x2="9" y2="14"/><line class="a" x1="15" y1="15" x2="15" y2="14"/><path class="a" d="M4,14v.21A1.79,1.79,0,0,0,5.79,16h0a11.72,11.72,0,0,0,4.38,5.45,3.32,3.32,0,0,0,3.66,0A11.72,11.72,0,0,0,18.21,16h0A1.79,1.79,0,0,0,20,14.21V14"/><path class="a" d="M19,11V9a6.93,6.93,0,0,0-6.92-6.92h-.16A6.93,6.93,0,0,0,5,9v2"/><path class="a" d="M5,11H6A2,2,0,0,0,8,9H8A1,1,0,0,1,9,8h6a1,1,0,0,1,1,1h0a2,2,0,0,0,2,2h1"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs>
+    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
+</defs>
+<title id="iconTitle">User Avatar</title>
+<desc id="iconDesc">A stylized head silhouette with a symmetrical frame and connected curved elements</desc>
+<line class="a" x1="9" y1="15" x2="9" y2="14" aria-hidden="true"/>
+<line class="a" x1="15" y1="15" x2="15" y2="14" aria-hidden="true"/>
+<path class="a" d="M4,14v.21A1.79,1.79,0,0,0,5.79,16h0a11.72,11.72,0,0,0,4.38,5.45,3.32,3.32,0,0,0,3.66,0A11.72,11.72,0,0,0,18.21,16h0A1.79,1.79,0,0,0,20,14.21V14" aria-hidden="true"/>
+<path class="a" d="M19,11V9a6.93,6.93,0,0,0-6.92-6.92h-.16A6.93,6.93,0,0,0,5,9v2" aria-hidden="true"/>
+<path class="a" d="M5,11H6A2,2,0,0,0,8,9H8A1,1,0,0,1,9,8h6a1,1,0,0,1,1,1h0a2,2,0,0,0,2,2h1" aria-hidden="true"/></svg>

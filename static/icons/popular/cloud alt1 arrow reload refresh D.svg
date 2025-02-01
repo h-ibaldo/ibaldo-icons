@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="12 22 12 19 15 19"/><path class="a" d="M12.42,19a5,5,0,1,0,0-4"/><path class="a" d="M21.45,10A4,4,0,0,0,18,8h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,5H7.5a5.5,5.5,0,0,0,0,11H9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud Refresh Alternative</title>
+<desc id="iconDesc">A cloud shape with a curved arrow below it forming a circular refresh pattern with an L-shaped endpoint</desc>
+<polyline class="a" points="12 22 12 19 15 19" aria-hidden="true"/>
+<path class="a" d="M12.42,19a5,5,0,1,0,0-4" aria-hidden="true"/>
+<path class="a" d="M21.45,10A4,4,0,0,0,18,8h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,5H7.5a5.5,5.5,0,0,0,0,11H9" aria-hidden="true"/></svg>

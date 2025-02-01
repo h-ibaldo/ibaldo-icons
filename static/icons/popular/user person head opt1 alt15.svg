@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="9" y1="15" x2="9" y2="14"/><line class="a" x1="15" y1="15" x2="15" y2="14"/><path class="a" d="M19,22l1.21-2.42A16.93,16.93,0,0,0,22,12h0A10,10,0,0,0,12,2h0A10,10,0,0,0,2,12H2a16.93,16.93,0,0,0,1.79,7.58L5,22"/><path class="a" d="M17.79,10A2.54,2.54,0,0,0,15,8.49L8.21,9.63a3,3,0,0,0-2.49,2.59h0a9.44,9.44,0,0,0,4.13,9l.32.22a3.32,3.32,0,0,0,3.66,0l.32-.22a9.38,9.38,0,0,0,3-3.23"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Rounded Avatar Head</title>
+<desc id="iconDesc">A circular head design with two small vertical lines for eyes, featuring a rounded bottom frame and decorative side elements.</desc>
+<line class="a" x1="9" y1="15" x2="9" y2="14" aria-hidden="true"/>
+<line class="a" x1="15" y1="15" x2="15" y2="14" aria-hidden="true"/>
+<path class="a" d="M19,22l1.21-2.42A16.93,16.93,0,0,0,22,12h0A10,10,0,0,0,12,2h0A10,10,0,0,0,2,12H2a16.93,16.93,0,0,0,1.79,7.58L5,22" aria-hidden="true"/>
+<path class="a" d="M17.79,10A2.54,2.54,0,0,0,15,8.49L8.21,9.63a3,3,0,0,0-2.49,2.59h0a9.44,9.44,0,0,0,4.13,9l.32.22a3.32,3.32,0,0,0,3.66,0l.32-.22a9.38,9.38,0,0,0,3-3.23" aria-hidden="true"/></svg>

@@ -2,6 +2,17 @@ import { json } from '@sveltejs/kit';
 import { promises as fs } from 'fs';
 import { join } from 'path';
 
+function formatIconName(name) {
+    // Replace altX with Alternative X and optX with Option X
+    name = name.replace(/alt(\d+)/i, 'Alternative $1')
+               .replace(/opt(\d+)/i, 'Option $1');
+    
+    // Convert to title case by splitting on spaces and capitalizing each word
+    return name.split(' ').map(word => 
+        word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+    ).join(' ');
+}
+
 export async function GET({ url }) {
     const category = url.searchParams.get('category');
     const iconsDir = 'static/icons';
@@ -34,7 +45,8 @@ export async function GET({ url }) {
             files
                 .filter(file => file.endsWith('.svg'))
                 .map(async (file) => {
-                    const name = file.replace('.svg', '');
+                    const rawName = file.replace('.svg', '');
+                    const name = formatIconName(rawName);
                     const svg = await fs.readFile(join(categoryPath, file), 'utf-8');
                     return { name, svg };
                 })

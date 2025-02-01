@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="5" y1="14" x2="5" y2="22"/><polyline class="a" points="2 19 5 22 8 19"/><polyline class="a" points="12 7 12 12 17 12"/><path class="a" d="M11,22c.33,0,.66.05,1,.05A10,10,0,1,0,2.05,11"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clock with Download</title>
+<desc id="iconDesc">A clock face with a downward-pointing arrow below it, indicating a download or time-based download action</desc>
+<line class="a" x1="5" y1="14" x2="5" y2="22" aria-hidden="true"/>
+<polyline class="a" points="2 19 5 22 8 19" aria-hidden="true"/>
+<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
+<path class="a" d="M11,22c.33,0,.66.05,1,.05A10,10,0,1,0,2.05,11" aria-hidden="true"/></svg>

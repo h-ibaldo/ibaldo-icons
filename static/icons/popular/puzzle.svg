@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M22,14.46a3,3,0,0,0-2.42-2.41,3,3,0,0,0-2.75.95H16V9a1,1,0,0,0-1-1H11V7.22A3,3,0,0,0,12,4.47,3,3,0,0,0,6,5,3,3,0,0,0,7,7.22V8H3A1,1,0,0,0,2,9v4h.78a3,3,0,1,1,0,4H2v4a1,1,0,0,0,1,1H15a1,1,0,0,0,1-1V17h.78A3,3,0,0,0,19,18,3,3,0,0,0,22,14.46Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Puzzle Piece</title>
+<desc id="iconDesc">A jigsaw puzzle piece with curved edges and connectors on all sides, representing interconnectivity or problem-solving</desc>
+<path class="a" d="M22,14.46a3,3,0,0,0-2.42-2.41,3,3,0,0,0-2.75.95H16V9a1,1,0,0,0-1-1H11V7.22A3,3,0,0,0,12,4.47,3,3,0,0,0,6,5,3,3,0,0,0,7,7.22V8H3A1,1,0,0,0,2,9v4h.78a3,3,0,1,1,0,4H2v4a1,1,0,0,0,1,1H15a1,1,0,0,0,1-1V17h.78A3,3,0,0,0,19,18,3,3,0,0,0,22,14.46Z" aria-hidden="true"/></svg>

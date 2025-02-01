@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M17.09,14.11,22,12,17.09,9.89l2-5-5,2L12,2,9.89,6.91l-5-2,2,5L2,12l4.91,2.11-2,5,5-2L12,22l2.11-4.91,5,2Z"/><circle class="a" cx="12" cy="12" r="2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Sun</title>
+<desc id="iconDesc">A sun with eight pointed rays and a small circular center</desc>
+<path class="a" d="M17.09,14.11,22,12,17.09,9.89l2-5-5,2L12,2,9.89,6.91l-5-2,2,5L2,12l4.91,2.11-2,5,5-2L12,22l2.11-4.91,5,2Z" aria-hidden="true"/>
+<circle class="a" cx="12" cy="12" r="2" aria-hidden="true"/></svg>

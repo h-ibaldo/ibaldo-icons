@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M5,3.94H22v15a1,1,0,0,1-1,1H3.5"/><path class="a" d="M5,5.94H2v12.5a1.5,1.5,0,0,0,1.5,1.5h0A1.5,1.5,0,0,0,5,18.44V3.94"/><rect class="a" x="8" y="7.94" width="4" height="4"/><line class="a" x1="15" y1="7.94" x2="19" y2="7.94"/><line class="a" x1="15" y1="11.94" x2="19" y2="11.94"/><line class="a" x1="15" y1="15.94" x2="19" y2="15.94"/><line class="a" x1="8" y1="15.94" x2="12" y2="15.94"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Newspaper</title>
+<desc id="iconDesc">A newspaper with a folded spine, small image box on the left, and text lines on the right</desc>
+<path class="a" d="M5,3.94H22v15a1,1,0,0,1-1,1H3.5" aria-hidden="true"/>
+<path class="a" d="M5,5.94H2v12.5a1.5,1.5,0,0,0,1.5,1.5h0A1.5,1.5,0,0,0,5,18.44V3.94" aria-hidden="true"/>
+<rect class="a" x="8" y="7.94" width="4" height="4" aria-hidden="true"/>
+<line class="a" x1="15" y1="7.94" x2="19" y2="7.94" aria-hidden="true"/>
+<line class="a" x1="15" y1="11.94" x2="19" y2="11.94" aria-hidden="true"/>
+<line class="a" x1="15" y1="15.94" x2="19" y2="15.94" aria-hidden="true"/>
+<line class="a" x1="8" y1="15.94" x2="12" y2="15.94" aria-hidden="true"/></svg>

@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M17,13.05a5.5,5.5,0,0,0-11,0,4.49,4.49,0,0,0,.48,9h10A4.49,4.49,0,0,0,17,13.05Z"/><polyline class="a" points="16 4 18 6 22 2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud with Checkmark Above</title>
+<desc id="iconDesc">A cloud shape with a checkmark symbol above it, featuring a small tick mark indicating completion or success</desc>
+<path class="a" d="M17,13.05a5.5,5.5,0,0,0-11,0,4.49,4.49,0,0,0,.48,9h10A4.49,4.49,0,0,0,17,13.05Z" aria-hidden="true"/>
+<polyline class="a" points="16 4 18 6 22 2" aria-hidden="true"/></svg>

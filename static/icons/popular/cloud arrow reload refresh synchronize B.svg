@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="17 12 17 15 14 15"/><polyline class="a" points="7 22 7 19 10 19"/><path class="a" d="M16.58,19a5,5,0,0,1-9.16,0"/><path class="a" d="M7.43,15a5,5,0,0,1,9.15,0"/><path class="a" d="M20,16a5,5,0,0,0-2.08-8.89,6,6,0,0,0-11.84,0A5,5,0,0,0,4,16"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Cloud with Sync Arrows</title>
+<desc id="iconDesc">A cloud shape with two circular arrows below it, featuring opposing curved paths with arrow heads indicating bidirectional synchronization</desc>
+<polyline class="a" points="17 12 17 15 14 15" aria-hidden="true"/>
+<polyline class="a" points="7 22 7 19 10 19" aria-hidden="true"/>
+<path class="a" d="M16.58,19a5,5,0,0,1-9.16,0" aria-hidden="true"/>
+<path class="a" d="M7.43,15a5,5,0,0,1,9.15,0" aria-hidden="true"/>
+<path class="a" d="M20,16a5,5,0,0,0-2.08-8.89,6,6,0,0,0-11.84,0A5,5,0,0,0,4,16" aria-hidden="true"/></svg>

@@ -1,1 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="12" y1="7" x2="12" y2="5"/><line class="a" x1="12" y1="2" x2="12" y2="2"/><line class="a" x1="15" y1="8" x2="16" y2="6"/><line class="a" x1="17" y1="10" x2="18" y2="9"/><line class="a" x1="18" y1="13" x2="19" y2="12"/><line class="a" x1="9" y1="8" x2="8" y2="6"/><line class="a" x1="7" y1="10" x2="6" y2="9"/><line class="a" x1="6" y1="13" x2="5" y2="12"/><line class="a" x1="5" y1="22" x2="5" y2="21"/><line class="a" x1="19" y1="22" x2="19" y2="21"/><path class="a" d="M6,16H6a10.14,10.14,0,0,0,3.53,4.9l.67.5A3,3,0,0,0,12,22h0a3,3,0,0,0,1.8-.6l.67-.5A10.14,10.14,0,0,0,18,16h0"/><path class="a" d="M21.8,10c-.07-.34-.16-.67-.26-1"/><line class="a" x1="22" y1="14" x2="22" y2="13"/><line class="a" x1="22" y1="18" x2="22" y2="17"/><line class="a" x1="22" y1="22" x2="22" y2="21"/><path class="a" d="M16,2.84c-.33-.14-.66-.27-1-.38"/><path class="a" d="M20,6a11.78,11.78,0,0,0-.85-1"/><path class="a" d="M2.2,10c.07-.34.16-.67.26-1"/><line class="a" x1="2" y1="14" x2="2" y2="13"/><line class="a" x1="2" y1="18" x2="2" y2="17"/><line class="a" x1="2" y1="22" x2="2" y2="21"/><path class="a" d="M8,2.84c.33-.14.66-.27,1-.38"/><path class="a" d="M4,6a11.78,11.78,0,0,1,.85-1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Radiant Avatar</title>
+<desc id="iconDesc">A detailed head silhouette surrounded by radiating lines creating a star-like pattern around the profile</desc>
+<line class="a" x1="12" y1="7" x2="12" y2="5" aria-hidden="true"/>
+<line class="a" x1="12" y1="2" x2="12" y2="2" aria-hidden="true"/>
+<line class="a" x1="15" y1="8" x2="16" y2="6" aria-hidden="true"/>
+<line class="a" x1="17" y1="10" x2="18" y2="9" aria-hidden="true"/>
+<line class="a" x1="18" y1="13" x2="19" y2="12" aria-hidden="true"/>
+<line class="a" x1="9" y1="8" x2="8" y2="6" aria-hidden="true"/>
+<line class="a" x1="7" y1="10" x2="6" y2="9" aria-hidden="true"/>
+<line class="a" x1="6" y1="13" x2="5" y2="12" aria-hidden="true"/>
+<line class="a" x1="5" y1="22" x2="5" y2="21" aria-hidden="true"/>
+<line class="a" x1="19" y1="22" x2="19" y2="21" aria-hidden="true"/>
+<path class="a" d="M6,16H6a10.14,10.14,0,0,0,3.53,4.9l.67.5A3,3,0,0,0,12,22h0a3,3,0,0,0,1.8-.6l.67-.5A10.14,10.14,0,0,0,18,16h0" aria-hidden="true"/>
+<path class="a" d="M21.8,10c-.07-.34-.16-.67-.26-1" aria-hidden="true"/>
+<line class="a" x1="22" y1="14" x2="22" y2="13" aria-hidden="true"/>
+<line class="a" x1="22" y1="18" x2="22" y2="17" aria-hidden="true"/>
+<line class="a" x1="22" y1="22" x2="22" y2="21" aria-hidden="true"/>
+<path class="a" d="M16,2.84c-.33-.14-.66-.27-1-.38" aria-hidden="true"/>
+<path class="a" d="M20,6a11.78,11.78,0,0,0-.85-1" aria-hidden="true"/>
+<path class="a" d="M2.2,10c.07-.34.16-.67.26-1" aria-hidden="true"/>
+<line class="a" x1="2" y1="14" x2="2" y2="13" aria-hidden="true"/>
+<line class="a" x1="2" y1="18" x2="2" y2="17" aria-hidden="true"/>
+<line class="a" x1="2" y1="22" x2="2" y2="21" aria-hidden="true"/>
+<path class="a" d="M8,2.84c.33-.14.66-.27,1-.38" aria-hidden="true"/>
+<path class="a" d="M4,6a11.78,11.78,0,0,1,.85-1" aria-hidden="true"/></svg>

@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M19.16,9A7,7,0,0,0,12,2,7.08,7.08,0,0,0,5.17,8.74,7,7,0,0,0,7.25,14a6.16,6.16,0,0,1,1.91,4.38V20a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V18.36A6,6,0,0,1,17,14.05,7,7,0,0,0,19.16,9Z"/><line class="a" x1="15.65" y1="16" x2="8.66" y2="16"/><line class="a" x1="15.16" y1="19" x2="9.16" y2="19"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Light Bulb with Lines</title>
+<desc id="iconDesc">A light bulb with a rounded top, rectangular base, and two horizontal lines across the lower section</desc>
+<path class="a" d="M19.16,9A7,7,0,0,0,12,2,7.08,7.08,0,0,0,5.17,8.74,7,7,0,0,0,7.25,14a6.16,6.16,0,0,1,1.91,4.38V20a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V18.36A6,6,0,0,1,17,14.05,7,7,0,0,0,19.16,9Z" aria-hidden="true"/>
+<line class="a" x1="15.65" y1="16" x2="8.66" y2="16" aria-hidden="true"/>
+<line class="a" x1="15.16" y1="19" x2="9.16" y2="19" aria-hidden="true"/></svg>

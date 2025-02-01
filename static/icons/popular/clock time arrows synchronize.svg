@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="15 6 15 9 18 9"/><polyline class="a" points="2 12 2 15 5 15"/><polyline class="a" points="13 21 13 18 10 18"/><path class="a" d="M2.42,15A5,5,0,0,1,11,14"/><path class="a" d="M11.9,18a5,5,0,0,1-9.47,1"/><path class="a" d="M17,15.71A7,7,0,1,0,8.08,8"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clock with Sync Arrows</title>
+<desc id="iconDesc">A clock face with three circular arrows around it, indicating a synchronization or time update action</desc>
+<polyline class="a" points="15 6 15 9 18 9" aria-hidden="true"/>
+<polyline class="a" points="2 12 2 15 5 15" aria-hidden="true"/>
+<polyline class="a" points="13 21 13 18 10 18" aria-hidden="true"/>
+<path class="a" d="M2.42,15A5,5,0,0,1,11,14" aria-hidden="true"/>
+<path class="a" d="M11.9,18a5,5,0,0,1-9.47,1" aria-hidden="true"/>
+<path class="a" d="M17,15.71A7,7,0,1,0,8.08,8" aria-hidden="true"/></svg>

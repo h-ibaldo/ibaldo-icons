@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
 <title id="iconTitle">Disabled Hexagonal Sync</title>
-<desc id="iconDesc">Two arrows within a hexagonal frame crossed by a diagonal line, indicating disabled or blocked synchronization</desc>
-<line class="a" x1="19" y1="5" x2="5" y2="19" aria-hidden="true"/>
+<desc id="iconDesc">A hexagonal synchronization icon with a diagonal line through it, indicating a disabled or blocked sync operation</desc>
 <polyline class="a" points="22 10.91 20 12.91 18 10.91" aria-hidden="true"/>
-<path class="a" d="M20,12.91v-4a2,2,0,0,0-.8-1.6l-6-4.5a2,2,0,0,0-2.4,0L5,7.16" aria-hidden="true"/>
+<line class="a" x1="6" y1="1.91" x2="18" y2="21.91" aria-hidden="true"/>
+<line class="a" x1="7.86" y1="5.02" x2="5" y2="7.16" aria-hidden="true"/>
+<path class="a" d="M20,12.91v-4a2,2,0,0,0-.8-1.6l-6-4.5a2,2,0,0,0-2.4,0l0,0" aria-hidden="true"/>
 <polyline class="a" points="2 12.91 4 10.91 6 12.91" aria-hidden="true"/>
-<path class="a" d="M4,10.91v4a2,2,0,0,0,.8,1.6l6,4.5a2,2,0,0,0,2.4,0L19,16.66" aria-hidden="true"/></svg>
+<line class="a" x1="16.14" y1="18.81" x2="19" y2="16.66" aria-hidden="true"/>
+<path class="a" d="M4,10.91v4a2,2,0,0,0,.8,1.6l6,4.5a2,2,0,0,0,2.4,0l0,0" aria-hidden="true"/>
+</svg>

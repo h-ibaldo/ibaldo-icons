@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="3" y1="22" x2="3" y2="17"/><line class="a" x1="7" y1="22" x2="7" y2="17"/><path class="a" d="M11,22c.33,0,.66.05,1,.05A10,10,0,1,0,2,12c0,.34,0,.67,0,1"/><polyline class="a" points="12 7 12 12 17 12"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clock with Pause</title>
+<desc id="iconDesc">A clock face with two vertical pause bars below it, indicating a pause or stop action</desc>
+<line class="a" x1="3" y1="22" x2="3" y2="17" aria-hidden="true"/>
+<line class="a" x1="7" y1="22" x2="7" y2="17" aria-hidden="true"/>
+<path class="a" d="M11,22c.33,0,.66.05,1,.05A10,10,0,1,0,2,12c0,.34,0,.67,0,1" aria-hidden="true"/>
+<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/></svg>

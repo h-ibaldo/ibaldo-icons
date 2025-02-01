@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M22,21.94H7.83a2,2,0,0,1-1.42-.59L2.59,17.52A2,2,0,0,1,2,16.11V1.94l2,1,2-1,2,1,2-1,2,1,2-1,2,1,2-1,2,1,2-1Z"/><line class="a" x1="12" y1="13.94" x2="18" y2="13.94"/><line class="a" x1="12" y1="17.94" x2="18" y2="17.94"/><polyline class="a" points="2 15.94 8 15.94 8 21.94"/><rect class="a" x="6" y="6.94" width="12" height="3"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Newspaper</title>
+<desc id="iconDesc">A newspaper with a wavy top edge, image box, text lines, and a folded bottom corner</desc>
+<path class="a" d="M22,21.94H7.83a2,2,0,0,1-1.42-.59L2.59,17.52A2,2,0,0,1,2,16.11V1.94l2,1,2-1,2,1,2-1,2,1,2-1,2,1,2-1,2,1,2-1Z" aria-hidden="true"/>
+<line class="a" x1="12" y1="13.94" x2="18" y2="13.94" aria-hidden="true"/>
+<line class="a" x1="12" y1="17.94" x2="18" y2="17.94" aria-hidden="true"/>
+<polyline class="a" points="2 15.94 8 15.94 8 21.94" aria-hidden="true"/>
+<rect class="a" x="6" y="6.94" width="12" height="3" aria-hidden="true"/></svg>

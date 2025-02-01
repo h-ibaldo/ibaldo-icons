@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M9,21H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H7.93a2,2,0,0,1,1.66.89l.82,1.22A2,2,0,0,0,12.07,6H20a2,2,0,0,1,2,2V9"/><circle class="a" cx="16.5" cy="16.5" r="5.5"/><line class="a" x1="18" y1="15" x2="15" y2="18"/><line class="a" x1="15" y1="15" x2="18" y2="18"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Folder with Delete Badge</title>
+<desc id="iconDesc">A folder icon with a circular badge containing an X symbol, indicating deletion or removal options</desc>
+<path class="a" d="M9,21H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H7.93a2,2,0,0,1,1.66.89l.82,1.22A2,2,0,0,0,12.07,6H20a2,2,0,0,1,2,2V9" aria-hidden="true"/>
+<circle class="a" cx="16.5" cy="16.5" r="5.5" aria-hidden="true"/>
+<line class="a" x1="18" y1="15" x2="15" y2="18" aria-hidden="true"/>
+<line class="a" x1="15" y1="15" x2="18" y2="18" aria-hidden="true"/></svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <rect class="b" x="10.01663" y="11" width="11" height="11"/>
+  <polyline class="b" points="10.01663 18 6.01663 18 6.01663 7 17.01663 7 17.01663 11"/>
+  <polyline class="b" points="6.01663 13 2.01663 13 2.01663 2 13.01663 2 13.01663 7"/>
+  <line class="b" x1="2.01663" y1="13" x2="6.01663" y2="9"/>
+  <line class="b" x1="2.01663" y1="9" x2="9.01663" y2="2"/>
+  <line class="b" x1="2.01663" y1="5" x2="5.01663" y2="2"/>
+  <line class="b" x1="8.01663" y1="7" x2="13.01663" y2="2"/>
+  <line class="b" x1="12.02663" y1="16" x2="12.01663" y2="16"/>
+  <line class="b" x1="11.02663" y1="18" x2="11.01663" y2="18"/>
+  <line class="b" x1="12.02663" y1="20" x2="12.01663" y2="20"/>
+  <line class="b" x1="12.02663" y1="12" x2="12.01663" y2="12"/>
+  <line class="b" x1="11.02663" y1="14" x2="11.01663" y2="14"/>
+  <line class="b" x1="15.02663" y1="16" x2="15.01663" y2="16"/>
+  <line class="b" x1="14.02663" y1="18" x2="14.01663" y2="18"/>
+  <line class="b" x1="15.02663" y1="20" x2="15.01663" y2="20"/>
+  <line class="b" x1="15.02663" y1="12" x2="15.01663" y2="12"/>
+  <line class="b" x1="14.02663" y1="14" x2="14.01663" y2="14"/>
+  <line class="b" x1="18.02663" y1="16" x2="18.01663" y2="16"/>
+  <line class="b" x1="17.02663" y1="18" x2="17.01663" y2="18"/>
+  <line class="b" x1="18.02663" y1="20" x2="18.01663" y2="20"/>
+  <line class="b" x1="18.02663" y1="12" x2="18.01663" y2="12"/>
+  <line class="b" x1="17.02663" y1="14" x2="17.01663" y2="14"/>
+  <line class="b" x1="20.02663" y1="18" x2="20.01663" y2="18"/>
+  <line class="b" x1="20.02663" y1="14" x2="20.01663" y2="14"/>
+</svg>

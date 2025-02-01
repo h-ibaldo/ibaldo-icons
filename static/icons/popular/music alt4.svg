@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><ellipse class="a" cx="8" cy="18.5" rx="4" ry="3.5"/><polyline class="a" points="12 7 20 7 20 2 12 2 12 18"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Music Note</title>
+<desc id="iconDesc">A musical note with a straight stem and an oval note head at the bottom</desc>
+<ellipse class="a" cx="8" cy="18.5" rx="4" ry="3.5" aria-hidden="true"/>
+<polyline class="a" points="12 7 20 7 20 2 12 2 12 18" aria-hidden="true"/></svg>

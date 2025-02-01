@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs>
-  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-</defs>
-<title id="iconTitle">Arrow Box</title>
-<desc id="iconDesc">A square box with two downward-pointing arrows and a top opening, featuring directional indicators</desc>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Box with Arrows</title>
+<desc id="iconDesc">A square box with a handle at the top and two downward-pointing arrows in the lower section</desc>
 <rect class="a" x="2" y="2" width="20" height="20" rx="1" aria-hidden="true"/>
 <line class="a" x1="12" y1="18" x2="12" y2="14" aria-hidden="true"/>
 <polyline class="a" points="11 15 12 14 13 15" aria-hidden="true"/>

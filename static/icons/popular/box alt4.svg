@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs>
-  <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-</defs>
-<title id="iconTitle">Open Top Box</title>
-<desc id="iconDesc">A box with an open top and a vertical line down the middle, featuring angled upper edges and a flat base</desc>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Box with Fold</title>
+<desc id="iconDesc">A box with an angled top and a vertical fold line down the middle, showing the box structure</desc>
 <path class="a" d="M21,22H3a1,1,0,0,1-1-1V7.35a1,1,0,0,1,.22-.62L5.7,2.38A1,1,0,0,1,6.48,2h11a1,1,0,0,1,.78.38l3.48,4.35a1,1,0,0,1,.22.62V21A1,1,0,0,1,21,22Z" aria-hidden="true"/>
 <line class="a" x1="2" y1="8" x2="22" y2="8" aria-hidden="true"/>
 <line class="a" x1="12" y1="2" x2="12" y2="8" aria-hidden="true"/></svg>

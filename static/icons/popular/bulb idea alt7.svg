@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M15,11.76l.42-.83a1.31,1.31,0,0,0-.58-1.75h0a1.29,1.29,0,0,0-1.5.25L12,10.76,10.66,9.43a1.29,1.29,0,0,0-1.5-.25,1.31,1.31,0,0,0-.58,1.75l.42.83"/><polyline class="a" points="9 20.05 10 22.05 14 22.05 15 20.05"/><path class="a" d="M4,10.05a8,8,0,0,0,2.4,5.71,4.67,4.67,0,0,1,1.32,2.62h0a2,2,0,0,0,2,1.67h4.62a2,2,0,0,0,2-1.67h0a4.67,4.67,0,0,1,1.32-2.62A8,8,0,0,0,20,10.05"/><path class="a" d="M20,10.05a8,8,0,0,0-16,0"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Light Bulb with Heart</title>
+<desc id="iconDesc">A light bulb with a heart-shaped pattern in the center and an angled base design representing creative love or passion</desc>
+<path class="a" d="M15,11.76l.42-.83a1.31,1.31,0,0,0-.58-1.75h0a1.29,1.29,0,0,0-1.5.25L12,10.76,10.66,9.43a1.29,1.29,0,0,0-1.5-.25,1.31,1.31,0,0,0-.58,1.75l.42.83" aria-hidden="true"/>
+<polyline class="a" points="9 20.05 10 22.05 14 22.05 15 20.05" aria-hidden="true"/>
+<path class="a" d="M4,10.05a8,8,0,0,0,2.4,5.71,4.67,4.67,0,0,1,1.32,2.62h0a2,2,0,0,0,2,1.67h4.62a2,2,0,0,0,2-1.67h0a4.67,4.67,0,0,1,1.32-2.62A8,8,0,0,0,20,10.05" aria-hidden="true"/>
+<path class="a" d="M20,10.05a8,8,0,0,0-16,0" aria-hidden="true"/></svg>

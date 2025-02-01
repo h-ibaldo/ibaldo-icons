@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
 <title id="iconTitle">Search Bookmark</title>
-<desc id="iconDesc">A bookmark icon with a magnifying glass in the top right</desc>
+<desc id="iconDesc">A bookmark icon with a magnifying glass in the top right corner, indicating bookmark search functionality</desc>
 <circle class="a" cx="16" cy="11" r="4" aria-hidden="true"/>
 <path class="a" d="M16,7V3a1,1,0,0,0-1-1H3A1,1,0,0,0,2,3V22l7-4,7,4V15" aria-hidden="true"/>
 <line class="a" x1="18.83" y1="13.83" x2="22" y2="17" aria-hidden="true"/>

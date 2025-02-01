@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-    <title id="iconTitle">Binoculars Icon</title>
-    <desc id="iconDesc">A pair of binoculars with a boxy design, featuring two eyepieces with top mounting brackets and horizontal support bars.</desc>
-    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-    <polyline class="a" points="6 5.94 6 1.94 10 1.94 10 5.94" aria-hidden="true"/>
-    <polyline class="a" points="14 5.94 14 1.94 18 1.94 18 5.94" aria-hidden="true"/>
-    <line class="a" x1="2" y1="17.94" x2="10" y2="17.94" aria-hidden="true"/>
-    <line class="a" x1="14" y1="17.94" x2="22" y2="17.94" aria-hidden="true"/>
-    <path class="a" d="M20,10.94v-3a2,2,0,0,0-2-2H14v3H10v-3H6a2,2,0,0,0-2,2v3a2,2,0,0,0-2,2v8a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1v-7h4v7a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1v-8A2,2,0,0,0,20,10.94Z" aria-hidden="true"/>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Structured Binoculars</title>
+<desc id="iconDesc">A structured pair of binoculars with rectangular frames, mounting brackets, and a central connecting bridge</desc>
+<polyline class="a" points="6 5.94 6 1.94 10 1.94 10 5.94" aria-hidden="true"/>
+<polyline class="a" points="14 5.94 14 1.94 18 1.94 18 5.94" aria-hidden="true"/>
+<line class="a" x1="2" y1="17.94" x2="10" y2="17.94" aria-hidden="true"/>
+<line class="a" x1="14" y1="17.94" x2="22" y2="17.94" aria-hidden="true"/>
+<path class="a" d="M20,10.94v-3a2,2,0,0,0-2-2H14v3H10v-3H6a2,2,0,0,0-2,2v3a2,2,0,0,0-2,2v8a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1v-7h4v7a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1v-8A2,2,0,0,0,20,10.94Z" aria-hidden="true"/>
 </svg>

@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+  <title id="iconTitle">Close Window</title>
+  <desc id="iconDesc">An application window with an X symbol in the center, indicating the action to close or remove the window</desc>
   <defs>
     <style>
       .b {
         fill: none;
-        stroke: #000;
+        stroke: currentColor;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
     </style>
   </defs>
-  <g>
+  <g aria-hidden="true">
     <line class="b" x1="14" y1="12.99878" x2="10" y2="16.99878"/>
     <line class="b" x1="14" y1="16.99878" x2="10" y2="12.99878"/>
   </g>
-  <rect class="b" x="2" y="1.99878" width="20" height="20" rx="2" ry="2"/>
-  <line class="b" x1="2" y1="7.99878" x2="22" y2="7.99878"/>
-  <line class="b" x1="5.01" y1="4.99878" x2="5" y2="4.99878"/>
-  <line class="b" x1="8.01" y1="4.99878" x2="8" y2="4.99878"/>
-  <line class="b" x1="11.01" y1="4.99878" x2="11" y2="4.99878"/>
+  <rect class="b" x="2" y="1.99878" width="20" height="20" rx="2" ry="2" aria-hidden="true"/>
+  <line class="b" x1="2" y1="7.99878" x2="22" y2="7.99878" aria-hidden="true"/>
+  <line class="b" x1="5.01" y1="4.99878" x2="5" y2="4.99878" aria-hidden="true"/>
+  <line class="b" x1="8.01" y1="4.99878" x2="8" y2="4.99878" aria-hidden="true"/>
+  <line class="b" x1="11.01" y1="4.99878" x2="11" y2="4.99878" aria-hidden="true"/>
 </svg>

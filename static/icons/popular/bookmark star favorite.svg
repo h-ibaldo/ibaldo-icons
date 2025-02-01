@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
 <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Star Bookmark</title>
-<desc id="iconDesc">A bookmark icon with a star symbol in the center</desc>
+<title id="iconTitle">Favorite Bookmark</title>
+<desc id="iconDesc">A bookmark icon with a star symbol in the center, indicating favorite or starred bookmark status</desc>
 <path class="a" d="M18,2H6A1,1,0,0,0,5,3V22l7-4,7,4V3A1,1,0,0,0,18,2Z" aria-hidden="true"/>
-<path class="a" d="M12,6l1.13,2.08a1,1,0,0,0,.69.5L16.15,9l-1.63,1.71a1,1,0,0,0-.27.82l.31,2.35-2.13-1a1,1,0,0,0-.86,0l-2.13,1,.31-2.35a1,1,0,0,0-.27-.82L7.85,9l2.33-.43a1,1,0,0,0,.69-.5Z" aria-hidden="true"/>
-</svg>
+<path class="a" d="M12,6l1.13,2.08a1,1,0,0,0,.69.5L16.15,9l-1.63,1.71a1,1,0,0,0-.27.82l.31,2.35-2.13-1a1,1,0,0,0-.86,0l-2.13,1,.31-2.35a1,1,0,0,0-.27-.82L7.85,9l2.33-.43a1,1,0,0,0,.69-.5Z" aria-hidden="true"/></svg>

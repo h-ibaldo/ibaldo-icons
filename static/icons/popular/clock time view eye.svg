@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polyline class="a" points="12 7 12 12 17 12"/><ellipse class="a" cx="8" cy="18.5" rx="5.45" ry="3.5"/><circle class="a" cx="8" cy="18.5" r="0.5"/><path class="a" d="M17,20.65A10,10,0,1,0,2,12c0,.34,0,.67,0,1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Clock with Eye</title>
+<desc id="iconDesc">A clock face with an eye symbol below it, featuring an elliptical eye shape with a central pupil for visibility or viewing time</desc>
+<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
+<ellipse class="a" cx="8" cy="18.5" rx="5.45" ry="3.5" aria-hidden="true"/>
+<circle class="a" cx="8" cy="18.5" r="0.5" aria-hidden="true"/>
+<path class="a" d="M17,20.65A10,10,0,1,0,2,12c0,.34,0,.67,0,1" aria-hidden="true"/></svg>

@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><circle class="a" cx="17" cy="12" r="5"/><path class="a" d="M10,7.43a5,5,0,0,0,0,9.14"/><path class="a" d="M5,7.43a5,5,0,0,0,0,9.14"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Moving Circle</title>
+<desc id="iconDesc">A large circle with two curved motion trails behind it, suggesting movement from left to right with a fluid animation effect.</desc>
+<circle class="a" cx="17" cy="12" r="5" aria-hidden="true"/>
+<path class="a" d="M10,7.43a5,5,0,0,0,0,9.14" aria-hidden="true"/>
+<path class="a" d="M5,7.43a5,5,0,0,0,0,9.14" aria-hidden="true"/></svg>

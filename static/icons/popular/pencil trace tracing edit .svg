@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polygon class="a" points="22 6.17 18 2.17 2 18.17 2 22.17 6 22.17 22 6.17"/><line class="a" x1="15" y1="5.17" x2="19" y2="9.17"/><line class="a" x1="11" y1="22.17" x2="22" y2="22.17"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Tracing Pencil</title>
+<desc id="iconDesc">A diagonal pencil icon with a baseline for tracing and a highlighted editing area</desc>
+<polygon class="a" points="22 6.17 18 2.17 2 18.17 2 22.17 6 22.17 22 6.17" aria-hidden="true"/>
+<line class="a" x1="15" y1="5.17" x2="19" y2="9.17" aria-hidden="true"/>
+<line class="a" x1="11" y1="22.17" x2="22" y2="22.17" aria-hidden="true"/></svg>

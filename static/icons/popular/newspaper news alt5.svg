@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><rect class="a" x="6" y="5.94" width="4" height="4"/><line class="a" x1="14" y1="5.94" x2="18" y2="5.94"/><line class="a" x1="14" y1="9.94" x2="18" y2="9.94"/><line class="a" x1="14" y1="13.94" x2="18" y2="13.94"/><line class="a" x1="6" y1="13.94" x2="10" y2="13.94"/><line class="a" x1="14" y1="17.94" x2="18" y2="17.94"/><line class="a" x1="6" y1="17.94" x2="10" y2="17.94"/><rect class="a" x="2" y="1.94" width="20" height="20" rx="2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Newspaper</title>
+<desc id="iconDesc">A newspaper with a rounded border, small image box, and paired text lines</desc>
+<rect class="a" x="6" y="5.94" width="4" height="4" aria-hidden="true"/>
+<line class="a" x1="14" y1="5.94" x2="18" y2="5.94" aria-hidden="true"/>
+<line class="a" x1="14" y1="9.94" x2="18" y2="9.94" aria-hidden="true"/>
+<line class="a" x1="14" y1="13.94" x2="18" y2="13.94" aria-hidden="true"/>
+<line class="a" x1="6" y1="13.94" x2="10" y2="13.94" aria-hidden="true"/>
+<line class="a" x1="14" y1="17.94" x2="18" y2="17.94" aria-hidden="true"/>
+<line class="a" x1="6" y1="17.94" x2="10" y2="17.94" aria-hidden="true"/>
+<rect class="a" x="2" y="1.94" width="20" height="20" rx="2" aria-hidden="true"/></svg>

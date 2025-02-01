@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><circle class="a" cx="5" cy="10" r="3"/><circle class="a" cx="13" cy="19" r="3"/><circle class="a" cx="19" cy="5" r="3"/><line class="a" x1="14.18" y1="16.24" x2="17.82" y2="7.76"/><line class="a" x1="6.99" y1="12.23" x2="11.01" y2="16.77"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Random Network</title>
+<desc id="iconDesc">Three large circular nodes arranged asymmetrically and connected by straight lines in a random pattern</desc>
+<circle class="a" cx="5" cy="10" r="3" aria-hidden="true"/>
+<circle class="a" cx="13" cy="19" r="3" aria-hidden="true"/>
+<circle class="a" cx="19" cy="5" r="3" aria-hidden="true"/>
+<line class="a" x1="14.18" y1="16.24" x2="17.82" y2="7.76" aria-hidden="true"/>
+<line class="a" x1="6.99" y1="12.23" x2="11.01" y2="16.77" aria-hidden="true"/></svg>

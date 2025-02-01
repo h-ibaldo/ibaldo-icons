@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<svg id="a" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
   <defs>
     <style>
       .b {
         fill: none;
-        stroke: #000;
+        stroke: currentColor;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
     </style>
   </defs>
-  <path class="b" d="m9.02527,19.99757h-5c-1.10457,0-2-.89543-2-2V3.99757c0-1.10457.89543-2,2-2h12c1.10457,0,2,.89543,2,2v5"/>
-  <g>
+  <title id="iconTitle">Settings Square</title>
+  <desc id="iconDesc">A human figure within a square frame with an adjacent gear mechanism, representing user preferences and settings.</desc>
+  <path class="b" d="m9.02527,19.99757h-5c-1.10457,0-2-.89543-2-2V3.99757c0-1.10457.89543-2,2-2h12c1.10457,0,2,.89543,2,2v5" aria-hidden="true"/>
+  <g aria-hidden="true">
     <circle class="b" cx="17.02527" cy="16.99757" r="3.5"/>
     <line class="b" x1="17.02527" y1="17.00757" x2="17.02527" y2="16.99757"/>
     <line class="b" x1="15.13203" y1="12.36986" x2="15.7" y2="13.75817"/>
@@ -23,8 +25,8 @@
     <line class="b" x1="15.09171" y1="21.60857" x2="15.67178" y2="20.22527"/>
     <line class="b" x1="18.37876" y1="13.76986" x2="18.95882" y2="12.38656"/>
   </g>
-  <circle class="b" cx="10.02527" cy="6.99757" r="1"/>
-  <polyline class="b" points="6.02527 8.99757 9.02527 10.99757 11.02527 10.99757 14.02527 8.99757"/>
-  <polyline class="b" points="9.02527 10.99757 9.02527 12.99757 7.02527 15.99757"/>
-  <polyline class="b" points="9.02527 12.99757 11.02527 11.99757 11.02527 10.99757"/>
+  <circle class="b" cx="10.02527" cy="6.99757" r="1" aria-hidden="true"/>
+  <polyline class="b" points="6.02527 8.99757 9.02527 10.99757 11.02527 10.99757 14.02527 8.99757" aria-hidden="true"/>
+  <polyline class="b" points="9.02527 10.99757 9.02527 12.99757 7.02527 15.99757" aria-hidden="true"/>
+  <polyline class="b" points="9.02527 12.99757 11.02527 11.99757 11.02527 10.99757" aria-hidden="true"/>
 </svg>

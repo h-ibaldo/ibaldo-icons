@@ -1,12 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-  <defs>
-    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-  </defs>
-  <title id="iconTitle">Refresh Disabled</title>
-  <desc id="iconDesc">A circular refresh arrow with a diagonal line through it, indicating that refresh or reload functionality is disabled or forbidden</desc>
-  <polyline class="a" points="4 21.91 4 17.91 8 17.91" aria-hidden="true"/>
-  <line class="a" x1="22" y1="21.91" x2="2" y2="1.91" aria-hidden="true"/>
-  <path class="a" d="M2.05,12.91c0-.32,0-.66,0-1A10,10,0,0,1,4.93,4.84" aria-hidden="true"/>
-  <path class="a" d="M19.07,19A10,10,0,0,1,4,17.91" aria-hidden="true"/>
-  <path class="a" d="M8.6,2.52A9.89,9.89,0,0,1,12,1.91a10,10,0,0,1,9.4,13.4" aria-hidden="true"/>
-</svg>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Refresh Disabled</title>
+<desc id="iconDesc">A circular clockwise refresh arrow with a diagonal line through it indicating the action is disabled or forbidden</desc>
+<polyline class="a" points="4 21.91 4 17.91 8 17.91" aria-hidden="true"/>
+<line class="a" x1="22" y1="21.91" x2="2" y2="1.91" aria-hidden="true"/>
+<path class="a" d="M2.05,12.91c0-.32,0-.66,0-1A10,10,0,0,1,4.93,4.84" aria-hidden="true"/>
+<path class="a" d="M19.07,19A10,10,0,0,1,4,17.91" aria-hidden="true"/>
+<path class="a" d="M8.6,2.52A9.89,9.89,0,0,1,12,1.91a10,10,0,0,1,9.4,13.4" aria-hidden="true"/></svg>

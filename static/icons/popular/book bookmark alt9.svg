@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-    <title id="iconTitle">Bookmarked Book</title>
-    <desc id="iconDesc">An open book with a curved spine and a triangular bookmark ribbon at the top, featuring a horizontal line detail.</desc>
-    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-    <path class="a" d="M4,18V6A4,4,0,0,1,8,2H20V14H8a4,4,0,0,0-4,4H4a4,4,0,0,0,4,4H20" aria-hidden="true"/>
-    <line class="a" x1="8" y1="18" x2="20" y2="18" aria-hidden="true"/>
-    <polyline class="a" points="16 2 16 10 13 8 10 10 10 2" aria-hidden="true"/>
-</svg>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Inverted Bookmark</title>
+<desc id="iconDesc">A book with an inverted bookmark design, featuring a triangular ribbon marker pointing upward from the top of the book</desc>
+<path class="a" d="M4,18V6A4,4,0,0,1,8,2H20V14H8a4,4,0,0,0-4,4H4a4,4,0,0,0,4,4H20"/><line class="a" x1="8" y1="18" x2="20" y2="18"/><polyline class="a" points="16 2 16 10 13 8 10 10 10 2"/></svg>

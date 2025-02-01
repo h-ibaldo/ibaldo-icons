@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><line class="a" x1="12" y1="8" x2="12" y2="2"/><path class="a" d="M18.66,11.33,18,11V10A6,6,0,0,0,6,10v1l-.66.33a2.43,2.43,0,0,0,0,4.34L6,16a10.14,10.14,0,0,0,3.53,4.9l.67.5a3,3,0,0,0,3.6,0l.67-.5A10.14,10.14,0,0,0,18,16l.66-.33a2.43,2.43,0,0,0,0-4.34Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Simple Profile</title>
+<desc id="iconDesc">A clean and minimalist head profile with a vertical accent line and smooth curved frame</desc>
+<line class="a" x1="12" y1="8" x2="12" y2="2" aria-hidden="true"/>
+<path class="a" d="M18.66,11.33,18,11V10A6,6,0,0,0,6,10v1l-.66.33a2.43,2.43,0,0,0,0,4.34L6,16a10.14,10.14,0,0,0,3.53,4.9l.67.5a3,3,0,0,0,3.6,0l.67-.5A10.14,10.14,0,0,0,18,16l.66-.33a2.43,2.43,0,0,0,0-4.34Z" aria-hidden="true"/></svg>

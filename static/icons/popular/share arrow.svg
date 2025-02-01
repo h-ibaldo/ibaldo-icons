@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M2,2V19a3,3,0,0,0,3,3H22"/><polyline class="a" points="18 2 22 6 18 10"/><path class="a" d="M7,17V15a9,9,0,0,1,9-9h6"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Share Arrow</title>
+<desc id="iconDesc">A curved arrow pointing upward and outward with a horizontal base line</desc>
+<path class="a" d="M2,2V19a3,3,0,0,0,3,3H22" aria-hidden="true"/>
+<polyline class="a" points="18 2 22 6 18 10" aria-hidden="true"/>
+<path class="a" d="M7,17V15a9,9,0,0,1,9-9h6" aria-hidden="true"/></svg>

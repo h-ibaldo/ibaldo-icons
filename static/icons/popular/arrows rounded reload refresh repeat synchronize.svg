@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-    <defs>
-        <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-    </defs>
-    <title id="iconTitle">Refresh Icon</title>
-    <desc id="iconDesc">Two curved arrows forming a circular pattern, indicating a refresh or reload action</desc>
-    <polyline class="a" points="22 8.91 19 11.91 16 8.91" aria-hidden="true"/>
-    <path class="a" d="M19,11.91v-3a7,7,0,0,0-13.92-1" aria-hidden="true"/>
-    <polyline class="a" points="2 14.91 5 11.91 8 14.91" aria-hidden="true"/>
-    <path class="a" d="M5,11.91v3a7,7,0,0,0,13.92,1" aria-hidden="true"/></svg>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Rounded Sync</title>
+<desc id="iconDesc">Two curved arrows forming a rounded synchronization pattern with arrow tips at opposite ends</desc>
+<polyline class="a" points="22 8.91 19 11.91 16 8.91" aria-hidden="true"/>
+<path class="a" d="M19,11.91v-3a7,7,0,0,0-13.92-1" aria-hidden="true"/>
+<polyline class="a" points="2 14.91 5 11.91 8 14.91" aria-hidden="true"/>
+<path class="a" d="M5,11.91v3a7,7,0,0,0,13.92,1" aria-hidden="true"/>
+</svg>

@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M20,20H4a2,2,0,0,1-2-2V6A2,2,0,0,1,4,4H7a2,2,0,0,1,1.66.89l.82,1.22A2,2,0,0,0,11.14,7H17a2,2,0,0,1,2,2v9.5A1.5,1.5,0,0,0,20.5,20h0A1.5,1.5,0,0,0,22,18.5V9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Hooked Folder</title>
+<desc id="iconDesc">A folder icon with a curved hook at the top right, suggesting a connection or attachment point</desc>
+<path class="a" d="M20,20H4a2,2,0,0,1-2-2V6A2,2,0,0,1,4,4H7a2,2,0,0,1,1.66.89l.82,1.22A2,2,0,0,0,11.14,7H17a2,2,0,0,1,2,2v9.5A1.5,1.5,0,0,0,20.5,20h0A1.5,1.5,0,0,0,22,18.5V9" aria-hidden="true"/></svg>

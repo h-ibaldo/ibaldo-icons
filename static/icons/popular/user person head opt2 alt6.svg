@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M18,12h0a9,9,0,0,1-5.84-4.69L12,7l-.16.31A9,9,0,0,1,6,12H6a8.54,8.54,0,0,0,2.92,8.26l1.31,1.1A2.79,2.79,0,0,0,12,22h0a2.79,2.79,0,0,0,1.77-.64l1.31-1.1A8.54,8.54,0,0,0,18,12Z"/><path class="a" d="M15.37,20h.13A6.49,6.49,0,0,0,19.4,8.31a7.49,7.49,0,0,0-14.8,0A6.49,6.49,0,0,0,8.5,20h.13"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">User Head</title>
+<desc id="iconDesc">A geometric representation of a person's head with curved lines forming an abstract face and shoulder outline</desc>
+<path class="a" d="M18,12h0a9,9,0,0,1-5.84-4.69L12,7l-.16.31A9,9,0,0,1,6,12H6a8.54,8.54,0,0,0,2.92,8.26l1.31,1.1A2.79,2.79,0,0,0,12,22h0a2.79,2.79,0,0,0,1.77-.64l1.31-1.1A8.54,8.54,0,0,0,18,12Z" aria-hidden="true"/>
+<path class="a" d="M15.37,20h.13A6.49,6.49,0,0,0,19.4,8.31a7.49,7.49,0,0,0-14.8,0A6.49,6.49,0,0,0,8.5,20h.13" aria-hidden="true"/></svg>

@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M20,22V11a2,2,0,0,0-2-2H13V4a2,2,0,0,0-2-2h0A2,2,0,0,0,9,4v9L5.75,11.05a1.64,1.64,0,0,0-2.4.89h0a1.65,1.65,0,0,0,.51,1.78L9,18"/><polyline class="a" points="20 22 9 22 9 18"/><line class="a" x1="9" y1="18" x2="20" y2="18"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Click Pointer</title>
+<desc id="iconDesc">A hand cursor with pointing finger and rectangular base, indicating an interactive element</desc>
+<path class="a" d="M20,22V11a2,2,0,0,0-2-2H13V4a2,2,0,0,0-2-2h0A2,2,0,0,0,9,4v9L5.75,11.05a1.64,1.64,0,0,0-2.4.89h0a1.65,1.65,0,0,0,.51,1.78L9,18" aria-hidden="true"/>
+<polyline class="a" points="20 22 9 22 9 18" aria-hidden="true"/>
+<line class="a" x1="9" y1="18" x2="20" y2="18" aria-hidden="true"/></svg>

@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-  <title id="iconTitle">Simple Light Bulb</title>
-  <desc id="iconDesc">A light bulb icon with curved lines representing illumination and a small curved detail in the upper right</desc>
-  <defs>
-    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-  </defs>
-  <path class="a" d="M5,9a7,7,0,0,0,1.91,4.8A7.15,7.15,0,0,1,9,18.71V19h6v-.29a7.15,7.15,0,0,1,2.09-4.91A7,7,0,0,0,19,9" aria-hidden="true"/>
-  <path class="a" d="M19,9A7,7,0,0,0,5,9" aria-hidden="true"/>
-  <line class="a" x1="10" y1="22" x2="14" y2="22" aria-hidden="true"/>
-  <path class="a" d="M12,6A3,3,0,0,0,9,9" aria-hidden="true"/>
-</svg>
+<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+<title id="iconTitle">Simple Light Bulb</title>
+<desc id="iconDesc">A light bulb with a curved base and a small arc detail in the upper section representing illumination</desc>
+<path class="a" d="M5,9a7,7,0,0,0,1.91,4.8A7.15,7.15,0,0,1,9,18.71V19h6v-.29a7.15,7.15,0,0,1,2.09-4.91A7,7,0,0,0,19,9" aria-hidden="true"/>
+<path class="a" d="M19,9A7,7,0,0,0,5,9" aria-hidden="true"/>
+<line class="a" x1="10" y1="22" x2="14" y2="22" aria-hidden="true"/>
+<path class="a" d="M12,6A3,3,0,0,0,9,9" aria-hidden="true"/></svg>
