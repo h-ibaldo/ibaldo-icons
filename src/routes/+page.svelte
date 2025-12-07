@@ -11,6 +11,7 @@
   let isUpdatingWeight = false;
   let currentCategory = 'popular';
   let search = '';
+  let svgCache = {};
 
   function handleWeightChange(event) {
     if (event.type === 'change') {
@@ -28,9 +29,12 @@
 
   async function loadCategories() {
     try {
-        const res = await fetch('/api/icons');
-        if (!res.ok) throw new Error('Failed to fetch categories');
-        categories = (await res.json()).categories;
+        // Load the index directly from static folder (no API needed)
+        const res = await fetch('/icons-index.json?v=3');
+        if (!res.ok) throw new Error('Failed to fetch index');
+        const index = await res.json();
+        categories = index.categories || [];
+        console.log('Loaded categories:', categories);
     } catch (error) {
         console.error('Error loading categories:', error);
         categories = [];
@@ -39,14 +43,44 @@
     }
   }
 
+  async function loadSVG(path) {
+    if (svgCache[path]) return svgCache[path];
+    
+    try {
+        const res = await fetch(path);
+        if (!res.ok) throw new Error('Failed to fetch SVG');
+        const svg = await res.text();
+        svgCache[path] = svg;
+        return svg;
+    } catch (error) {
+        console.error(`Error loading SVG ${path}:`, error);
+        return '';
+    }
+  }
+
   async function loadCategory(category) {
     if (!category) return;
     
     try {
         loadingCategory = true;
-        const res = await fetch(`/api/icons?category=${category}`);
-        if (!res.ok) throw new Error('Failed to fetch icons');
-        iconsByCategory[category] = (await res.json())[category];
+        
+        // Load the index directly from static folder (no API needed)
+        const res = await fetch('/icons-index.json?v=3');
+        if (!res.ok) throw new Error('Failed to fetch index');
+        const index = await res.json();
+        
+        const iconList = index.icons?.[category] || [];
+        console.log(`Loaded ${iconList.length} icons for category: ${category}`);
+        
+        // Load SVG content for each icon
+        const iconsWithSVG = await Promise.all(
+            iconList.map(async (icon) => {
+                const svg = await loadSVG(icon.path);
+                return { ...icon, svg };
+            })
+        );
+        
+        iconsByCategory[category] = iconsWithSVG;
     } catch (error) {
         console.error(`Error loading ${category} icons:`, error);
     } finally {
