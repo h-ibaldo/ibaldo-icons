@@ -15,8 +15,8 @@ function formatIconName(name) {
 
 export async function GET({ url }) {
     const category = url.searchParams.get('category');
-    // Vite dev server cwd is project root.
-    const iconsDir = 'static/icons';
+    // Use absolute path for both dev and production
+    const iconsDir = join(process.cwd(), 'static', 'icons');
 
     try {
         if (!category) {
@@ -66,6 +66,12 @@ export async function GET({ url }) {
 
     } catch (error) {
         console.error('Error in icons API:', error);
-        return json({ error: 'Failed to load icons' }, { status: 500 });
+        console.error('Error details:', {
+            message: error.message,
+            stack: error.stack,
+            cwd: process.cwd(),
+            iconsDir: iconsDir
+        });
+        return json({ error: 'Failed to load icons', details: error.message }, { status: 500 });
     }
 }
