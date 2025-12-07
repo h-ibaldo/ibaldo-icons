@@ -20,6 +20,7 @@ function formatIconName(name) {
 async function generateManifest() {
     const iconsDir = join(__dirname, '..', 'static', 'icons');
     const manifestPath = join(__dirname, '..', 'src', 'lib', 'icons-manifest.json');
+    const staticManifestPath = join(__dirname, '..', 'static', 'icons-manifest.json');
     
     try {
         console.log('Generating icons manifest...');
@@ -59,9 +60,16 @@ async function generateManifest() {
             console.log(`  - ${category}: ${icons.length} icons`);
         }
         
-        // Write manifest file
-        await fs.writeFile(manifestPath, JSON.stringify(manifest, null, 2), 'utf-8');
+        const manifestJson = JSON.stringify(manifest, null, 2);
+        
+        // Write manifest file to src/lib (for import)
+        await fs.writeFile(manifestPath, manifestJson, 'utf-8');
         console.log(`✓ Manifest generated: ${manifestPath}`);
+        
+        // Also write to static folder as backup
+        await fs.writeFile(staticManifestPath, manifestJson, 'utf-8');
+        console.log(`✓ Manifest also copied to: ${staticManifestPath}`);
+        
         console.log(`✓ Total categories: ${manifest.categories.length}`);
         console.log(`✓ Total icons: ${Object.values(manifest.icons).reduce((sum, icons) => sum + icons.length, 0)}`);
         
