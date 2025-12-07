@@ -47,7 +47,6 @@ async function generateIndex() {
                 const rawName = file.replace('.svg', '');
                 const name = formatIconName(rawName);
                 
-                // Just store the path, not the content
                 icons.push({ 
                     name, 
                     path: `/icons/${category}/${file}`,
