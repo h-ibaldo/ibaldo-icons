@@ -1,17 +1,19 @@
-import { OPENAI_API_KEY } from '$env/static/private';
+import { env } from '$env/dynamic/private';
 import { error } from '@sveltejs/kit';
 import OpenAI from 'openai';
-
-const openai = new OpenAI({
-    apiKey: OPENAI_API_KEY
-});
 
 export const actions = {
     default: async ({ request }) => {
         try {
+            const OPENAI_API_KEY = env.OPENAI_API_KEY;
+            
             if (!OPENAI_API_KEY) {
                 throw error(500, 'OpenAI API key is not configured');
             }
+
+            const openai = new OpenAI({
+                apiKey: OPENAI_API_KEY
+            });
 
             const data = await request.formData();
             const prompt = data.get('prompt');
