@@ -11,6 +11,7 @@
   let isUpdatingWeight = false;
   let currentCategory = 'popular';
   let search = '';
+  let svgCache = {};
 
   function handleWeightChange(event) {
     if (event.type === 'change') {
@@ -39,6 +40,21 @@
     }
   }
 
+  async function loadSVG(path) {
+    if (svgCache[path]) return svgCache[path];
+    
+    try {
+        const res = await fetch(path);
+        if (!res.ok) throw new Error('Failed to fetch SVG');
+        const svg = await res.text();
+        svgCache[path] = svg;
+        return svg;
+    } catch (error) {
+        console.error(`Error loading SVG ${path}:`, error);
+        return '';
+    }
+  }
+
   async function loadCategory(category) {
     if (!category) return;
     
@@ -46,7 +62,17 @@
         loadingCategory = true;
         const res = await fetch(`/api/icons?category=${category}`);
         if (!res.ok) throw new Error('Failed to fetch icons');
-        iconsByCategory[category] = (await res.json())[category];
+        const iconList = (await res.json())[category];
+        
+        // Load SVG content for each icon
+        const iconsWithSVG = await Promise.all(
+            iconList.map(async (icon) => {
+                const svg = await loadSVG(icon.path);
+                return { ...icon, svg };
+            })
+        );
+        
+        iconsByCategory[category] = iconsWithSVG;
     } catch (error) {
         console.error(`Error loading ${category} icons:`, error);
     } finally {
@@ -179,10 +205,14 @@
                   {#each filteredIcons as icon}
                       <div class="flex flex-col items-center">
                           <div style={`width: ${size}px; height: ${size}px;`}>
-                              {@html icon.svg
-                                .replace('<svg', `<svg style="stroke-width: ${debouncedWeight}px"`)
-                                .replace('stroke-linecap:round', `stroke-width:${debouncedWeight};stroke-linecap:round`)
-                              }
+                              {#if icon.svg}
+                                  {@html icon.svg
+                                    .replace('<svg', `<svg style="stroke-width: ${debouncedWeight}px"`)
+                                    .replace('stroke-linecap:round', `stroke-width:${debouncedWeight};stroke-linecap:round`)
+                                  }
+                              {:else}
+                                  <div class="w-full h-full bg-gray-200 animate-pulse"></div>
+                              {/if}
                           </div>
                           <p class="text-xs mt-1 text-gray-600 text-center">{icon.name}</p>
                       </div>
