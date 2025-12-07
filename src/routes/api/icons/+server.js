@@ -1,77 +1,24 @@
 import { json } from '@sveltejs/kit';
-import { promises as fs } from 'fs';
-import { join } from 'path';
-
-function formatIconName(name) {
-    // Replace altX with Alternative X and optX with Option X
-    name = name.replace(/alt(\d+)/i, 'Alternative $1')
-               .replace(/opt(\d+)/i, 'Option $1');
-    
-    // Convert to title case by splitting on spaces and capitalizing each word
-    return name.split(' ').map(word => 
-        word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-    ).join(' ');
-}
+import iconsManifest from '$lib/icons-manifest.json';
 
 export async function GET({ url }) {
     const category = url.searchParams.get('category');
-    // Use absolute path for both dev and production
-    const iconsDir = join(process.cwd(), 'static', 'icons');
 
     try {
         if (!category) {
-            const categories = await fs.readdir(iconsDir);
-            
-            const validCategories = [];
-            for (const cat of categories) {
-                if (cat === '.DS_Store') continue;
-                
-                try {
-                    const stats = await fs.stat(join(iconsDir, cat));
-                    if (stats.isDirectory()) {
-                        validCategories.push(cat);
-                    }
-                } catch (err) {
-                    console.error(`Error processing category ${cat}:`, err);
-                }
-            }
-            
-            return json({ categories: validCategories });
+            // Return all categories
+            return json({ categories: iconsManifest.categories || [] });
         }
 
-        const categoryPath = join(iconsDir, category);
-        
-        try {
-            const stats = await fs.stat(categoryPath);
-            if (!stats.isDirectory()) {
-                return json({ error: 'Category not found' }, { status: 404 });
-            }
-        } catch (e) {
+        // Return icons for the specified category
+        if (!iconsManifest.icons || !iconsManifest.icons[category]) {
             return json({ error: 'Category not found' }, { status: 404 });
         }
 
-        const files = await fs.readdir(categoryPath);
-        
-        const icons = [];
-        for (const file of files) {
-            if (!file.endsWith('.svg')) continue;
-            
-            const rawName = file.replace('.svg', '');
-            const name = formatIconName(rawName);
-            const content = await fs.readFile(join(categoryPath, file), 'utf-8');
-            icons.push({ name, svg: content });
-        }
-        
-        return json({ [category]: icons });
+        return json({ [category]: iconsManifest.icons[category] });
 
     } catch (error) {
         console.error('Error in icons API:', error);
-        console.error('Error details:', {
-            message: error.message,
-            stack: error.stack,
-            cwd: process.cwd(),
-            iconsDir: iconsDir
-        });
         return json({ error: 'Failed to load icons', details: error.message }, { status: 500 });
     }
 }
