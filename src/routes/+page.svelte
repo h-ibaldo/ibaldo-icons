@@ -30,10 +30,12 @@
   async function loadCategories() {
     try {
         // Load the index directly from static folder (no API needed)
-        const res = await fetch('/icons-index.json');
+        // Add cache-busting query param to ensure fresh load
+        const res = await fetch('/icons-index.json?v=2');
         if (!res.ok) throw new Error('Failed to fetch index');
         const index = await res.json();
         categories = index.categories || [];
+        console.log('Loaded categories:', categories);
     } catch (error) {
         console.error('Error loading categories:', error);
         categories = [];
@@ -63,12 +65,14 @@
     try {
         loadingCategory = true;
         
-        // Load the index directly from static folder
-        const res = await fetch('/icons-index.json');
+        // Load the index directly from static folder (no API needed)
+        // Add cache-busting query param to ensure fresh load
+        const res = await fetch('/icons-index.json?v=2');
         if (!res.ok) throw new Error('Failed to fetch index');
         const index = await res.json();
         
         const iconList = index.icons?.[category] || [];
+        console.log(`Loaded ${iconList.length} icons for category: ${category}`);
         
         // Load SVG content for each icon
         const iconsWithSVG = await Promise.all(
