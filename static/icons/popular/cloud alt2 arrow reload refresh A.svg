@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Refresh Arrow</title>
-<desc id="iconDesc">A cloud shape with a curved arrow pattern below it, featuring a circular motion design indicating refresh or reload functionality</desc>
-<polyline class="a" points="10 12 12 13 11 15" aria-hidden="true"/>
-<path class="a" d="M15.45,15A4,4,0,1,1,12,13" aria-hidden="true"/>
-<path class="a" d="M20,17.45a4,4,0,0,0-1-7.31c0-.05,0-.09,0-.14a4,4,0,0,0-4-4c-.14,0-.27,0-.4,0A5,5,0,0,0,5,8c0,.14,0,.27,0,.4A5,5,0,0,0,4,17" aria-hidden="true"/></svg>

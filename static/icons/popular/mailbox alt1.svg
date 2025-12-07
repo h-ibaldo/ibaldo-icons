@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Mailbox</title>
-<desc id="iconDesc">A mailbox with a small door on the left side, a flag indicator, and a post mount</desc>
-<path class="a" d="M5.95,6h0a4,4,0,0,1,4,4V20a0,0,0,0,1,0,0h-8a0,0,0,0,1,0,0V10A4,4,0,0,1,5.95,6Z" aria-hidden="true"/>
-<line class="a" x1="4.95" y1="11" x2="6.95" y2="11" aria-hidden="true"/>
-<polyline class="a" points="14.95 10 14.95 4 17.95 4 17.95 5 14.95 5" aria-hidden="true"/>
-<line class="a" x1="10.95" y1="6" x2="5.95" y2="6" aria-hidden="true"/>
-<path class="a" d="M10,20H22V10a4,4,0,0,0-1.39-3" aria-hidden="true"/></svg>

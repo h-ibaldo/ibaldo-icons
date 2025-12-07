@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Rounded Corner Bookmark</title>
-<desc id="iconDesc">A book with rounded corners and a triangular bookmark ribbon, featuring a curved spine and elegant page design</desc>
-<polyline class="a" points="15 2 15 10 12 8 9 10 9 2"/><rect class="a" x="4" y="2" width="16" height="20" rx="2"/><path class="a" d="M4,20H4a2,2,0,0,1,2-2H18a2,2,0,0,0,2-2h0"/></svg>

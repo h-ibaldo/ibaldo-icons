@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Menu Dots Bookmark</title>
-<desc id="iconDesc">A bookmark with three vertical dots in the center, indicating a menu or settings option for the bookmark</desc>
-<path class="a" d="M18,2H6A1,1,0,0,0,5,3V22l7-4,7,4V3A1,1,0,0,0,18,2Z"/><line class="a" x1="12" y1="7.08" x2="12" y2="7.08"/><line class="a" x1="12" y1="10.08" x2="12" y2="10.08"/><line class="a" x1="12" y1="13.08" x2="12" y2="13.08"/></svg>

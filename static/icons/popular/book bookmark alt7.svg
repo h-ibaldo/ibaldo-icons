@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Curved Bookmark</title>
-<desc id="iconDesc">A book with a curved spine and a triangular bookmark ribbon, featuring a distinctive page marker design</desc>
-<path class="a" d="M20,2H7A3,3,0,0,0,4,5H4A3,3,0,0,0,7,8H20V22H7a3,3,0,0,1-3-3V5"/><line class="a" x1="7" y1="5" x2="20" y2="5"/><polyline class="a" points="10 8 10 16 13 14 16 16 16 8"/></svg>

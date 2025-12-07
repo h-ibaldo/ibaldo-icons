@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Blocked Cloud</title>
-<desc id="iconDesc">A cloud with a circle and diagonal line through it, indicating forbidden or blocked access</desc>
-<circle class="a" cx="12" cy="17" r="4" aria-hidden="true"/>
-<line class="a" x1="14.83" y1="14.17" x2="9.17" y2="19.83" aria-hidden="true"/>
-<path class="a" d="M19,18.58a5,5,0,0,0-1.08-9.49,6,6,0,0,0-11.84,0A5,5,0,0,0,5,18.58" aria-hidden="true"/>
-</svg>

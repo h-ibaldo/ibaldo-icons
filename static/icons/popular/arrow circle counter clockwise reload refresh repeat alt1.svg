@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Refresh Counter-clockwise</title>
-<desc id="iconDesc">A circular counter-clockwise refresh arrow with a small arrow pointing down at the bottom right</desc>
-<polyline class="a" points="20 21.91 20 17.91 16 17.91" aria-hidden="true"/>
-<path class="a" d="M22,12.91c0-.32.05-.66.05-1a10,10,0,1,0-2,6" aria-hidden="true"/></svg>

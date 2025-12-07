@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud Box Import</title>
-<desc id="iconDesc">A rectangular box with rounded corners containing a cloud shape and a right-pointing arrow, indicating cloud import to storage</desc>
-<path class="a" d="M2,9v8a5,5,0,0,0,5,5H17a5,5,0,0,0,5-5V7a5,5,0,0,0-5-5H12" aria-hidden="true"/>
-<polyline class="a" points="6 6 8 4 6 2" aria-hidden="true"/>
-<line class="a" x1="2" y1="4" x2="8" y2="4" aria-hidden="true"/>
-<path class="a" d="M16,12.05V10.5a3.49,3.49,0,0,0-6.95-.45,3.49,3.49,0,0,0,.45,7h6a2.5,2.5,0,0,0,.5-4.95Z" aria-hidden="true"/></svg>

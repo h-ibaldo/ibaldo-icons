@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Number Three Bookmark</title>
-<desc id="iconDesc">A bookmark with the number three displayed in the center, indicating a third item or tertiary bookmark</desc>
-<path class="a" aria-hidden="true" d="M18,2H6A1,1,0,0,0,5,3V22l7-4,7,4V3A1,1,0,0,0,18,2Z"/>
-<path class="a" aria-hidden="true" d="M10,7h4l-2,3,.84.42A2.1,2.1,0,0,1,14,12.29h0a1.7,1.7,0,0,1-.5,1.21h0a1.7,1.7,0,0,1-1.21.5h0a3.13,3.13,0,0,1-2.2-.91L10,13"/></svg>

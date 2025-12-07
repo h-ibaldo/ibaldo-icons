@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Advanced Binoculars</title>
-<desc id="iconDesc">A sophisticated pair of binoculars with circular lenses, angled support arms, and an adjustable central bridge</desc>
-<circle class="a" cx="6" cy="15.94" r="4" aria-hidden="true"/>
-<circle class="a" cx="18" cy="15.94" r="4" aria-hidden="true"/>
-<path class="a" d="M22,15.94v-.51a4,4,0,0,0-.12-1L20.57,9.21A3,3,0,0,0,18.63,7.1l-.28-1.4A2.2,2.2,0,0,0,14,6.13v.81H10V6.13A2.2,2.2,0,0,0,5.65,5.7L5.37,7.1A3,3,0,0,0,3.43,9.21L2.12,14.46a4,4,0,0,0-.12,1v.51" aria-hidden="true"/>
-<line class="a" x1="10" y1="15.94" x2="14" y2="15.94" aria-hidden="true"/>
-</svg>

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Lined Folder</title>
-<desc id="iconDesc">A folder icon with a horizontal line near the top and an extended tab, showing file organization</desc>
-<path class="a" d="M20,21H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9.76a2,2,0,0,1,1.79,1.11l.9,1.78A2,2,0,0,0,14.24,7H20a2,2,0,0,1,2,2V19A2,2,0,0,1,20,21Z" aria-hidden="true"/>
-<line class="a" x1="2" y1="7" x2="14" y2="7" aria-hidden="true"/></svg>

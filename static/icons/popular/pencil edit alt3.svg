@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Edit Pencil</title>
-<desc id="iconDesc">A diagonal pencil icon with highlighted editing areas at both ends</desc>
-<path class="a" d="M21.5,3.76,20.33,2.59a2,2,0,0,0-2.83,0L3,17.09l-1,5,5-1L21.5,6.59A2,2,0,0,0,21.5,3.76Z" aria-hidden="true"/>
-<line class="a" x1="15" y1="5.09" x2="19" y2="9.09" aria-hidden="true"/>
-<line class="a" x1="4" y1="16.09" x2="8" y2="20.09" aria-hidden="true"/></svg>

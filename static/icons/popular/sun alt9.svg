@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Angular Sun</title>
-<desc id="iconDesc">A sun icon with an angular octagonal border and a central circle, creating a geometric sunburst pattern.</desc>
-<path class="a" d="M19.72,15.2,22,12,19.72,8.8l-.65-3.87L15.2,4.28,12,2,8.8,4.28l-3.87.65L4.28,8.8,2,12l2.28,3.2.65,3.87,3.87.65L12,22l3.2-2.28,3.87-.65Z" aria-hidden="true"/>
-<circle class="a" cx="12" cy="12" r="5" aria-hidden="true"/></svg>

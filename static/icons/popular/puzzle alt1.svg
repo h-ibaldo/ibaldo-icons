@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Puzzle Piece</title>
-<desc id="iconDesc">A symmetrical jigsaw puzzle piece with four rounded connectors positioned at each side</desc>
-<path class="a" d="M19,11a3,3,0,0,0-1,.18V6H12.82A3,3,0,1,0,7.18,6H2v5.18a3,3,0,1,1,0,5.64V22H7.18a3,3,0,1,1,5.64,0H18V16.82A3,3,0,1,0,19,11Z" aria-hidden="true"/></svg>

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Chain Link</title>
-<desc id="iconDesc">A cloud shape with a horizontal chain link below it, showing two connected segments representing linked cloud resources</desc>
-<line class="a" x1="14" y1="18" x2="18" y2="18" aria-hidden="true"/>
-<path class="a" d="M14,21H13a3,3,0,0,1-3-3h0a3,3,0,0,1,3-3h1" aria-hidden="true"/>
-<path class="a" d="M18,15h1a3,3,0,0,1,3,3h0a3,3,0,0,1-3,3H18" aria-hidden="true"/>
-<path class="a" d="M21.86,12A4,4,0,0,0,18,9h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,6H7.5A5.5,5.5,0,0,0,6,16.79" aria-hidden="true"/></svg>

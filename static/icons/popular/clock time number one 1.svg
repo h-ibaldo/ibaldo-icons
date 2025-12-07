@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Clock with Number One</title>
-<desc id="iconDesc">A clock face with the number one below it, representing a first or primary time-based item</desc>
-<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
-<polyline class="a" points="3 15 4 15 4 22" aria-hidden="true"/>
-<path class="a" d="M9,21.54A10,10,0,1,0,12,2a10,10,0,0,0-9.8,8" aria-hidden="true"/></svg>

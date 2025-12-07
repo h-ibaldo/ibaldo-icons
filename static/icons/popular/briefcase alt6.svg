@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Briefcase with Panel</title>
-<desc id="iconDesc">A business briefcase with a rectangular body, top handle, and a central rectangular panel with curved side details</desc>
-<rect class="a" x="2" y="7" width="20" height="14" rx="1" aria-hidden="true"/>
-<path class="a" d="M8,7V4A1,1,0,0,1,9,3h6a1,1,0,0,1,1,1V7" aria-hidden="true"/>
-<rect class="a" x="10" y="12" width="4" height="5" rx="1" aria-hidden="true"/>
-<path class="a" d="M2.31,8.26,6.7,13.63a1,1,0,0,0,.77.37H10" aria-hidden="true"/>
-<path class="a" d="M14,14h2.53a1,1,0,0,0,.77-.37l4.39-5.37" aria-hidden="true"/></svg>

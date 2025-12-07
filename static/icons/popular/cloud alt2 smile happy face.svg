@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Happy Face</title>
-<desc id="iconDesc">A cloud shape with a smiling face inside it, featuring two vertical eyes and an upward curved smile</desc>
-<line class="a" x1="10" y1="11.5" x2="10" y2="10.5" aria-hidden="true"/>
-<line class="a" x1="14" y1="11.5" x2="14" y2="10.5" aria-hidden="true"/>
-<path class="a" d="M9,14.69a6,6,0,0,0,6,0" aria-hidden="true"/>
-<path class="a" d="M19,11.14c0-.05,0-.09,0-.14a4,4,0,0,0-4-4c-.14,0-.27,0-.4,0A5,5,0,0,0,5,9c0,.14,0,.27,0,.4A5,5,0,0,0,7,19H18a4,4,0,0,0,1-7.86Z" aria-hidden="true"/></svg>

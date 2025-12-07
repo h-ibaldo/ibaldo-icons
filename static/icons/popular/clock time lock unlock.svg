@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Clock with Unlock</title>
-<desc id="iconDesc">A clock face with an unlocked padlock symbol below it, showing an open shackle state</desc>
-<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
-<rect class="a" x="2" y="18" width="7" height="4" aria-hidden="true"/>
-<path class="a" d="M13,22A10,10,0,1,0,2.2,10" aria-hidden="true"/>
-<path class="a" d="M7.49,14A2.49,2.49,0,0,0,3,15.5V18" aria-hidden="true"/></svg>

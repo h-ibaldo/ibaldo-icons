@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Simple Bookmarked Book</title>
-<desc id="iconDesc">A minimalist book design with a triangular bookmark and a sturdy spine, shown in an open position</desc>
-<path class="a" d="M20,18H6a2,2,0,0,0-2,2H4a2,2,0,0,0,2,2H20" aria-hidden="true"/>
-<path class="a" d="M20,18V2H6A2,2,0,0,0,4,4H4" aria-hidden="true"/>
-<line class="a" x1="4" y1="4" x2="4" y2="20" aria-hidden="true"/>
-<polyline class="a" points="15 2 15 11 12 9 9 11 9 2" aria-hidden="true"/>
-</svg>

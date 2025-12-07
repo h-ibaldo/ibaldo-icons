@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud Print</title>
-<desc id="iconDesc">A printer icon combined with a cloud shape, representing cloud printing services</desc>
-<rect class="a" x="9" y="18" width="6" height="4" aria-hidden="true"/>
-<polyline class="a" points="9 14 9 11 15 11 15 14" aria-hidden="true"/>
-<path class="a" d="M9,20H7a1,1,0,0,1-1-1V15a1,1,0,0,1,1-1H17a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1H15" aria-hidden="true"/>
-<path class="a" d="M21,15a4.94,4.94,0,0,0,1-3,5,5,0,0,0-4.08-4.91,6,6,0,0,0-11.84,0A5,5,0,0,0,2,12a4.94,4.94,0,0,0,1,3" aria-hidden="true"/></svg>

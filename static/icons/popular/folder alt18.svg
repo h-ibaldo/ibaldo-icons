@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Flowing Folder</title>
-<desc id="iconDesc">A folder icon with flowing lines and curved bottom edge, creating a sense of motion and fluidity</desc>
-<path class="a" d="M19,10V8a2,2,0,0,0-2-2H11.29a2,2,0,0,1-1.41-.59l-.83-.82A2,2,0,0,0,7.64,4H4A2,2,0,0,0,2,6V19a1,1,0,0,0,1,1" aria-hidden="true"/>
-<path class="a" d="M7.35,10H20a2,2,0,0,1,1.85,2.74l-2.4,6A2,2,0,0,1,17.6,20H3.48a1,1,0,0,1-.93-1.37l3-7.37A2,2,0,0,1,7.35,10Z" aria-hidden="true"/></svg>

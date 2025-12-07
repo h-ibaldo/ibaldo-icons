@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud Import</title>
-<desc id="iconDesc">A cloud shape with a horizontal arrow pointing right, indicating data import or transfer into the cloud</desc>
-<polyline class="a" points="8 15 11 18 8 21" aria-hidden="true"/>
-<line class="a" x1="2" y1="18" x2="11" y2="18" aria-hidden="true"/>
-<path class="a" d="M16,18h2a4,4,0,0,0,0-8h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,7H7.5A5.5,5.5,0,0,0,2,12.5,4.21,4.21,0,0,0,2,13" aria-hidden="true"/></svg>

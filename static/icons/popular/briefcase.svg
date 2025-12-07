@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Classic Briefcase</title>
-<desc id="iconDesc">A simple business briefcase with a rectangular body and a classic top handle design</desc>
-<rect class="a" x="2" y="7" width="20" height="14" rx="2" aria-hidden="true"/>
-<path class="a" d="M8,7V5a2,2,0,0,1,2-2h4a2,2,0,0,1,2,2V7" aria-hidden="true"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-fcb04434-ae06-4326-916e-ac8a97d8cec6" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect x="2" y="6.999999999998181" width="20" height="14" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8,6.999999999998181v-2c0-1.104569499659192.895430500340808-2,2-2h4c1.104569499659192,0,2,.895430500340808,2,2v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Clock with Alert</title>
-<desc id="iconDesc">A clock face with an exclamation mark alert symbol, featuring a quarter-circle time indicator</desc>
-<polyline class="a" points="15 6 15 9 18 9" aria-hidden="true"/>
-<line class="a" x1="8" y1="14" x2="8" y2="15" aria-hidden="true"/>
-<line class="a" x1="8" y1="18" x2="8" y2="18" aria-hidden="true"/>
-<circle class="a" cx="8" cy="16" r="6" aria-hidden="true"/>
-<path class="a" d="M14,15.92A6.53,6.53,0,0,0,15,16,7,7,0,1,0,8,9a6.53,6.53,0,0,0,.08,1" aria-hidden="true"/></svg>

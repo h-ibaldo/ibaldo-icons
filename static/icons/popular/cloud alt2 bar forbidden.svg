@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Diagonal Bar</title>
-<desc id="iconDesc">A cloud shape with a diagonal line crossing through it from top right to bottom left, indicating forbidden or disabled status</desc>
-<line class="a" x1="3" y1="21" x2="21" y2="6" aria-hidden="true"/>
-<path class="a" d="M14.47,6.78A5,5,0,0,0,5,9c0,.14,0,.27,0,.4a5,5,0,0,0-2.31,7.16" aria-hidden="true"/>
-<path class="a" d="M5.65,18.79A5,5,0,0,0,7,19H18a4,4,0,0,0,1-7.86c0-.05,0-.09,0-.14a4,4,0,0,0-.94-2.55" aria-hidden="true"/></svg>

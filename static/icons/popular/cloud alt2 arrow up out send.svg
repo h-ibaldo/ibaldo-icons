@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Send Arrow</title>
-<desc id="iconDesc">A cloud shape with an upward-pointing arrow above it, featuring a vertical line and arrowhead indicating outgoing data or sending functionality</desc>
-<polyline class="a" points="16 5 19 2 22 5" aria-hidden="true"/>
-<line class="a" x1="19" y1="8" x2="19" y2="2" aria-hidden="true"/>
-<path class="a" d="M18,15.05V14.5A3.5,3.5,0,0,0,14.5,11a3.67,3.67,0,0,0-.75.08A4.49,4.49,0,0,0,5,12.5v.78A4.49,4.49,0,0,0,6.5,22h11a3.49,3.49,0,0,0,.5-6.95Z" aria-hidden="true"/></svg>

@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Folded Bookmark</title>
-<desc id="iconDesc">A book with a folded spine design and a triangular bookmark ribbon, showing a modern page marking system</desc>
-<path class="a" d="M4,6V18a4,4,0,0,0,4,4H20V10H8A4,4,0,0,1,4,6H4A4,4,0,0,1,8,2H20"/><line class="a" x1="8" y1="6" x2="20" y2="6"/><polyline class="a" points="10 10 10 18 13 16 16 18 16 10"/></svg>

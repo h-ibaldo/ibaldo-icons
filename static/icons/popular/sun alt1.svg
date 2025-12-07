@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Sun</title>
-<desc id="iconDesc">A decorative sun with a circular center and an ornate outer ring with curved edges</desc>
-<path class="a" d="M21,12.85,21.8,12,21,11.15A7,7,0,0,1,18.9,6.2V5H17.7a7,7,0,0,1-4.95-2L11.9,2.1,11.05,3A7,7,0,0,1,6.1,5H4.9V6.2a7,7,0,0,1-2.05,5L2,12l.85.85a7,7,0,0,1,2.05,5V19H6.1a7,7,0,0,1,5,2.05l.85.85.85-.85A7,7,0,0,1,17.7,19h1.2V17.8A7,7,0,0,1,21,12.85Z" aria-hidden="true"/>
-<circle class="a" cx="11.9" cy="12" r="5" aria-hidden="true"/></svg>

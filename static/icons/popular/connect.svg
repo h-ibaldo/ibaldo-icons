@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Connect Nodes</title>
-<desc id="iconDesc">Three circular nodes with one on the left connected to two on the right by lines and arrows, showing directional flow</desc>
-<circle class="a" cx="5" cy="12" r="3" aria-hidden="true"/>
-<line class="a" x1="8" y1="12" x2="13" y2="12" aria-hidden="true"/>
-<circle class="a" cx="19" cy="5" r="3" aria-hidden="true"/>
-<circle class="a" cx="19" cy="19" r="3" aria-hidden="true"/>
-<polyline class="a" points="17.06 7.27 13 12 17.06 16.73" aria-hidden="true"/></svg>

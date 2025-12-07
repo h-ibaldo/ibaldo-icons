@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Music Note</title>
-<desc id="iconDesc">A musical note with a curved stem and an oval note head at the bottom</desc>
-<ellipse class="a" cx="8" cy="18.5" rx="4" ry="3.5" aria-hidden="true"/>
-<path class="a" d="M21,12V11a4,4,0,0,0-4-4h0a5,5,0,0,1-5-5h0V18.5" aria-hidden="true"/></svg>

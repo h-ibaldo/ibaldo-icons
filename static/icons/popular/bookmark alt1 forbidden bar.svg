@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Disabled Bookmark Alternative 1</title>
-<desc id="iconDesc">An alternative bookmark design with a diagonal line through it, featuring a rounded top and indicating that bookmarking is disabled</desc>
-<path class="a" aria-hidden="true" d="M19,9V3a1,1,0,0,0-1-1H6"/>
-<polyline class="a" aria-hidden="true" points="5 5.75 5 22 12 18 19 22 19 13.35"/>
-<line class="a" aria-hidden="true" x1="2" y1="4" x2="22" y2="15"/></svg>

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Puzzle Square</title>
-<desc id="iconDesc">A square puzzle piece with rounded connectors on two sides and a partial rectangular frame</desc>
-<path class="a" d="M12,2V5.28a2,2,0,1,1,0,3.44V12h3.28a2,2,0,1,0,3.44,0H22" aria-hidden="true"/>
-<path class="a" d="M12,22V18.72a2,2,0,1,1,0-3.44V12H8.72a2,2,0,1,0-3.44,0H2" aria-hidden="true"/>
-<path class="a" d="M2,12v8a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H12" aria-hidden="true"/></svg>

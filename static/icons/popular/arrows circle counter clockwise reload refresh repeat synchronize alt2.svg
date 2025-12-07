@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Synchronize Counter-clockwise</title>
-<desc id="iconDesc">Two curved arrows with corner arrow heads at top right and bottom left indicating counter-clockwise synchronization</desc>
-<path class="a" d="M17,7.91v-4h4" aria-hidden="true"/>
-<path class="a" d="M7,15.91v4H3" aria-hidden="true"/>
-<path class="a" d="M7,19.4A9,9,0,0,1,12,2.91c.34,0,.67,0,1,.06" aria-hidden="true"/>
-<path class="a" d="M17,4.43a9,9,0,0,1-5,16.48,8.26,8.26,0,0,1-1-.06" aria-hidden="true"/></svg>

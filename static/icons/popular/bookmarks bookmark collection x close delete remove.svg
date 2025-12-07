@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Delete Bookmarks</title>
-<desc id="iconDesc">Two overlapping bookmarks with an X symbol indicating the ability to delete from bookmark collection</desc>
-<path class="a" d="M14,6H4A1,1,0,0,0,3,7V22l6-4,6,4V7A1,1,0,0,0,14,6Z" aria-hidden="true"/>
-<path class="a" d="M15,14l6,4V3a1,1,0,0,0-1-1H10A1,1,0,0,0,9,3V6" aria-hidden="true"/>
-<line class="a" x1="7" y1="14" x2="11" y2="10" aria-hidden="true"/>
-<line class="a" x1="11" y1="14" x2="7" y2="10" aria-hidden="true"/></svg>

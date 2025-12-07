@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Simple Toolbox</title>
-<desc id="iconDesc">A simple toolbox icon with a rectangular body, top handle, and two front compartments with sliding doors.</desc>
-<rect class="a" x="2" y="7" width="20" height="14" rx="1" aria-hidden="true"/>
-<polyline class="a" points="8 7 8 3 16 3 16 7" aria-hidden="true"/>
-<line class="a" x1="2" y1="12" x2="22" y2="12" aria-hidden="true"/>
-<polyline class="a" points="9 12 9 14 6 14 6 12" aria-hidden="true"/>
-<polyline class="a" points="18 12 18 14 15 14 15 12" aria-hidden="true"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-cb4b3fdd-9d28-477d-bffb-befd7309f900" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect x="2" y="6.999999999998181" width="20" height="14" rx="1" ry="1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="8 6.999999999998181 8 2.999999999998181 16 2.999999999998181 16 6.999999999998181" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="2" y1="11.999999999998181" x2="22" y2="11.999999999998181" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="9 11.999999999998181 9 13.999999999998181 6 13.999999999998181 6 11.999999999998181" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="18 11.999999999998181 18 13.999999999998181 15 13.999999999998181 15 11.999999999998181" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

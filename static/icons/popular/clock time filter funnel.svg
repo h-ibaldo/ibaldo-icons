@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Clock with Filter</title>
-<desc id="iconDesc">A clock face with a funnel-shaped filter symbol below it, representing time filtering or sorting options</desc>
-<path class="a" d="M2,15h8v1a2,2,0,0,1-.8,1.6L6,20,2.8,17.6A2,2,0,0,1,2,16Z" aria-hidden="true"/>
-<line class="a" x1="6" y1="20" x2="6" y2="22" aria-hidden="true"/>
-<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
-<path class="a" d="M11,22c.33,0,.66.05,1,.05A10,10,0,1,0,2.05,11" aria-hidden="true"/></svg>

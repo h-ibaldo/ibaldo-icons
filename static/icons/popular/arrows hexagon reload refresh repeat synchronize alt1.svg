@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Hexagonal Sync</title>
-<desc id="iconDesc">A hexagonal frame with bidirectional arrows on opposite sides, representing a synchronization or refresh process</desc>
-<polyline class="a" points="2 12.91 5 10.91 8 12.91" aria-hidden="true"/>
-<polyline class="a" points="22 10.91 19 12.91 16 10.91" aria-hidden="true"/>
-<path class="a" d="M19,12.91v-4a2,2,0,0,0-.84-1.62L13,3.66a2,2,0,0,0-2.15-.11L5,6.91" aria-hidden="true"/>
-<path class="a" d="M5,10.91v4a2,2,0,0,0,.84,1.63L11,20.17a2,2,0,0,0,2.15.11L19,16.91" aria-hidden="true"/>
-</svg>

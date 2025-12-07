@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Curved Briefcase</title>
-<desc id="iconDesc">A business briefcase with a rectangular body, top handle, and a curved line detail across the middle</desc>
-<rect class="a" x="2" y="7" width="20" height="14" rx="2" aria-hidden="true"/>
-<path class="a" d="M8,7V5a2,2,0,0,1,2-2h4a2,2,0,0,1,2,2V7" aria-hidden="true"/>
-<path class="a" d="M2,12l1.06.53a20,20,0,0,0,17.88,0L22,12" aria-hidden="true"/></svg>

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud Upload Extended</title>
-<desc id="iconDesc">A cloud shape with a long upward-pointing arrow below it, featuring a vertical line extending down with an arrow head pointing up</desc>
-<path class="a" d="M17,18a5,5,0,0,0,.92-9.91,6,6,0,0,0-11.84,0A5,5,0,0,0,7,18" aria-hidden="true"/>
-<polyline class="a" points="9 14 12 11 15 14" aria-hidden="true"/>
-<line class="a" x1="12" y1="22" x2="12" y2="11" aria-hidden="true"/></svg>

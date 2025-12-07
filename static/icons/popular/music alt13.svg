@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Music Notes</title>
-<desc id="iconDesc">Two musical notes with curved stems and detailed note heads with decorative endings</desc>
-<path class="a" d="M22,15.54l-2.53.64A1.94,1.94,0,0,0,18,18.06h0a1.94,1.94,0,0,0,2.41,1.88l.12,0A1.94,1.94,0,0,0,22,18V9.54l-8,2V20a1.94,1.94,0,0,1-1.47,1.88l-.12,0A1.94,1.94,0,0,1,10,20.06h0a1.94,1.94,0,0,1,1.47-1.88L14,17.54" aria-hidden="true"/>
-<path class="a" d="M6,11.54l-2.53.64A1.94,1.94,0,0,0,2,14.06H2a1.94,1.94,0,0,0,2.41,1.88l.12,0A1.94,1.94,0,0,0,6,14V4.54l6-2V3.66a4,4,0,0,1-2.74,3.8L6,8.54" aria-hidden="true"/></svg>

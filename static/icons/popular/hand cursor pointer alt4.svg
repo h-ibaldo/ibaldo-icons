@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Multi-Finger Pointer</title>
-<desc id="iconDesc">A hand cursor with multiple articulated fingers, suggesting a complex interaction or gesture</desc>
-<path class="a" d="M11,11V3.5A1.5,1.5,0,0,0,9.5,2h0A1.5,1.5,0,0,0,8,3.5V16L5.07,13.07a1.51,1.51,0,0,0-2.14,0h0a1.52,1.52,0,0,0-.14,2L6.2,19.6A6,6,0,0,0,11,22h3a6,6,0,0,0,6-6V13" aria-hidden="true"/>
-<path class="a" d="M14,10.5v-1A1.5,1.5,0,0,0,12.5,8h0A1.5,1.5,0,0,0,11,9.5" aria-hidden="true"/>
-<path class="a" d="M17,11.5v-1A1.5,1.5,0,0,0,15.5,9h0A1.5,1.5,0,0,0,14,10.5V12" aria-hidden="true"/>
-<path class="a" d="M20,13V11.5A1.5,1.5,0,0,0,18.5,10h0A1.5,1.5,0,0,0,17,11.5V13" aria-hidden="true"/></svg>

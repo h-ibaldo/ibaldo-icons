@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Signal Strength</title>
-<desc id="iconDesc">A triangular indicator with two curved signal arcs above it, showing wireless signal strength levels.</desc>
-<path class="a" d="M11.24,15.89,7.41,20.35A1,1,0,0,0,8.17,22h7.66a1,1,0,0,0,.76-1.65l-3.83-4.46A1,1,0,0,0,11.24,15.89Z" aria-hidden="true"/>
-<path class="a" d="M19.81,18.23a10,10,0,1,0-15.62,0" aria-hidden="true"/>
-<path class="a" d="M17.13,15.07a6,6,0,1,0-10.26,0" aria-hidden="true"/></svg>

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">User Profile</title>
-<desc id="iconDesc">A stylized head and shoulders silhouette with a curved neckline, representing a user or person profile</desc>
-<path class="a" d="M7,11H7A2,2,0,0,1,9,9h6a2,2,0,0,1,2,2h0" aria-hidden="true"/>
-<path class="a" d="M15,4V2H11A7,7,0,0,0,4,9v5a2,2,0,0,0,1.78,2v0a11.72,11.72,0,0,0,4.38,5.45,3.32,3.32,0,0,0,3.66,0A11.72,11.72,0,0,0,18.21,16v0A2,2,0,0,0,20,14V9A5,5,0,0,0,15,4Z" aria-hidden="true"/></svg>

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Box with Label Panel</title>
-<desc id="iconDesc">A square box with a wavy handle at the top and a rectangular label panel in the lower right section</desc>
-<rect class="a" x="2" y="2" width="20" height="20" rx="1" aria-hidden="true"/>
-<polyline class="a" points="15 2 15 8 14 7 13 8 12 7 11 8 10 7 9 8 9 2" aria-hidden="true"/>
-<rect class="a" x="11" y="14" width="7" height="4" aria-hidden="true"/></svg>

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Clock with X</title>
-<desc id="iconDesc">A clock face with an X symbol below it, formed by two intersecting lines to indicate deletion or removal of time entries</desc>
-<line class="a" x1="2" y1="22" x2="7" y2="17" aria-hidden="true"/>
-<line class="a" x1="2" y1="17" x2="7" y2="22" aria-hidden="true"/>
-<path class="a" d="M11,22c.33,0,.66.05,1,.05A10,10,0,1,0,2,12c0,.34,0,.67,0,1" aria-hidden="true"/>
-<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/></svg>

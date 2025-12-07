@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Arrow Cursor</title>
-<desc id="iconDesc">A symmetrical arrow cursor pointing upward with a split base, indicating direction or selection</desc>
-<path class="a" d="M10,22V15l-3.54.8a.76.76,0,0,1-.85-1L11.35,2.44a.75.75,0,0,1,1.36,0l5.65,12.28a.75.75,0,0,1-.84,1L14,15v7Z" aria-hidden="true"/></svg>

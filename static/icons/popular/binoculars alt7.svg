@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Professional Binoculars</title>
-<desc id="iconDesc">A professional pair of binoculars with large circular lenses and a sturdy frame design with extended support structure</desc>
-<circle class="a" cx="7" cy="16.94" r="5" aria-hidden="true"/>
-<circle class="a" cx="17" cy="16.94" r="5" aria-hidden="true"/>
-<path class="a" d="M22,16.94v-10a3,3,0,0,0-3-3,2,2,0,0,0-2-2H16a2,2,0,0,0-2,2H10a2,2,0,0,0-2-2H7a2,2,0,0,0-2,2,3,3,0,0,0-3,3v10" aria-hidden="true"/>
-</svg>

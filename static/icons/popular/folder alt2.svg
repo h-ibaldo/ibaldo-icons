@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Tabbed Folder</title>
-<desc id="iconDesc">A folder icon with a horizontal line across its middle, creating a tabbed or sectioned appearance</desc>
-<path class="a" d="M20,21H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H7.93a2,2,0,0,1,1.66.89l.82,1.22A2,2,0,0,0,12.07,6H20a2,2,0,0,1,2,2V19A2,2,0,0,1,20,21Z" aria-hidden="true"/>
-<line class="a" x1="2" y1="10" x2="22" y2="10" aria-hidden="true"/></svg>

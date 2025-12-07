@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Radiant Sun</title>
-<desc id="iconDesc">A sun icon with a wavy circular border and a central circle, creating a flowing radiant effect around the edges.</desc>
-<path class="a" d="M20.49,12.86,22,12l-1.51-.86a4,4,0,0,1-1.88-4.53l.46-1.68-1.68.46a4,4,0,0,1-4.53-1.88L12,2l-.86,1.51A4,4,0,0,1,6.61,5.39L4.93,4.93l.46,1.68a4,4,0,0,1-1.88,4.53L2,12l1.51.86a4,4,0,0,1,1.88,4.53l-.46,1.68,1.68-.46a4,4,0,0,1,4.53,1.88L12,22l.86-1.51a4,4,0,0,1,4.53-1.88l1.68.46-.46-1.68A4,4,0,0,1,20.49,12.86Z" aria-hidden="true"/>
-<circle class="a" cx="12" cy="12" r="4" aria-hidden="true"/></svg>

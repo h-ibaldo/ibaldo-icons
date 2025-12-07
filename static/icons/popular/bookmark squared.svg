@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Square Bookmark</title>
-<desc id="iconDesc">A bookmark icon inside a rounded square frame, representing a bookmarked item in a squared container</desc>
-<rect class="a" x="2" y="2" width="20" height="20" rx="5" aria-hidden="true"/>
-<path class="a" d="M15,7H9A1,1,0,0,0,8,8v9l4-2,4,2V8A1,1,0,0,0,15,7Z" aria-hidden="true"/></svg>

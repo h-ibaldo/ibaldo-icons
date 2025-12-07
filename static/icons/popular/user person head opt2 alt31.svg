@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-  <defs>
-    <style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style>
-  </defs>
-  <title id="iconTitle">User Profile</title>
-  <desc id="iconDesc">A detailed head silhouette with a distinctive hairstyle or headwear, featuring curved lines and a flowing design element at the top.</desc>
-  <path class="a" d="M5,11.28A2,2,0,0,0,4,13v1a2,2,0,0,0,1.78,2v0a11.72,11.72,0,0,0,4.38,5.45,3.32,3.32,0,0,0,3.66,0A11.72,11.72,0,0,0,18.21,16v0A2,2,0,0,0,20,14V13a2,2,0,0,0-1-1.72V8.45A7.75,7.75,0,0,0,22,5a3.1,3.1,0,0,1-3.58-.58A8.26,8.26,0,0,0,12.58,2h-.42a7,7,0,0,0-2.26.37A7.15,7.15,0,0,0,5,9.16v2.12" aria-hidden="true"/>
-  <path class="a" d="M19,8.45a7.84,7.84,0,0,1-8.88-.36L10,8l.12.09A7.84,7.84,0,0,0,19,8.45" aria-hidden="true"/></svg>

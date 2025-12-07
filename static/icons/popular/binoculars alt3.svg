@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Geometric Binoculars</title>
-<desc id="iconDesc">A stylized pair of binoculars with angular geometric shapes, featuring a central bridge and top mounting points</desc>
-<path class="a" d="M3,21.94H9a1,1,0,0,0,1-1v-7h4v7a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V12.77a2,2,0,0,0-.59-1.42L20,9.94v-3a1,1,0,0,0-1-1H15a1,1,0,0,0-1,1v2H10v-2a1,1,0,0,0-1-1H5a1,1,0,0,0-1,1v3L2.59,11.35A2,2,0,0,0,2,12.77v8.17A1,1,0,0,0,3,21.94Z" aria-hidden="true"/>
-<polyline class="a" points="6 2.94 6 1.94 9 1.94 9 2.94" aria-hidden="true"/>
-<polyline class="a" points="18 2.94 18 1.94 15 1.94 15 2.94" aria-hidden="true"/>
-</svg>

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Clock with Warning</title>
-<desc id="iconDesc">A clock face with a triangular warning symbol below it, containing an exclamation mark to indicate time-related alerts or warnings</desc>
-<polyline class="a" points="15 6 15 9 18 9" aria-hidden="true"/>
-<line class="a" x1="8.56" y1="19" x2="8.56" y2="19" aria-hidden="true"/>
-<line class="a" x1="8.56" y1="15" x2="8.56" y2="16" aria-hidden="true"/>
-<path class="a" d="M4,22h9.11a2,2,0,0,0,1.74-3l-4.16-7.28a2.46,2.46,0,0,0-4.27,0L2.27,19A2,2,0,0,0,4,22Z" aria-hidden="true"/>
-<path class="a" d="M13,15.69A7,7,0,1,0,8,9a6.49,6.49,0,0,0,.18,1.54" aria-hidden="true"/></svg>

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">User Profile</title>
-<desc id="iconDesc">A stylized user profile icon showing a head silhouette with curved shoulders and decorative lines</desc>
-<path class="a" d="M6,12H6a9.23,9.23,0,0,0,4.75-3.63L11,8h0a8.73,8.73,0,0,0,5.54,3.71L18,12" aria-hidden="true"/>
-<path class="a" d="M6,12H6a9.4,9.4,0,0,0,4.06,9.37l.11.08A3.3,3.3,0,0,0,12,22h0a3.3,3.3,0,0,0,1.83-.55l.11-.08A9.4,9.4,0,0,0,18,12h0" aria-hidden="true"/>
-<path class="a" d="M15.26,20.28A26.93,26.93,0,0,1,22,22V12A10,10,0,0,0,2,12V22a26.93,26.93,0,0,1,6.74-1.72" aria-hidden="true"/></svg>

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Eye</title>
-<desc id="iconDesc">A cloud shape with an eye symbol below it, featuring a central pupil and an elliptical outline representing visibility or viewing</desc>
-<rect class="a" x="14" y="16.5" width="2" height="2" rx="1" aria-hidden="true"/>
-<ellipse class="a" cx="15" cy="17.5" rx="6.53" ry="4.5" aria-hidden="true"/>
-<path class="a" d="M21.86,11A4,4,0,0,0,18,8h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,5H7.5A5.49,5.49,0,0,0,5,15.39" aria-hidden="true"/></svg>

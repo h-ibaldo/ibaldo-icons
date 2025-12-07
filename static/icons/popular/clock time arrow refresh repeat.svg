@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Clock with Refresh</title>
-<desc id="iconDesc">A clock face with a circular refresh arrow below it, indicating a time-based repeat or refresh action</desc>
-<polyline class="a" points="12 7 12 12 17 12" aria-hidden="true"/>
-<polyline class="a" points="2 14 2 17 5 17" aria-hidden="true"/>
-<path class="a" d="M3.89,21A3.88,3.88,0,0,0,6.5,22a4,4,0,1,0-3.86-5" aria-hidden="true"/>
-<path class="a" d="M13,22A10,10,0,1,0,2.2,10" aria-hidden="true"/></svg>

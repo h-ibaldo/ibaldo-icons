@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Moving Diamond</title>
-<desc id="iconDesc">A series of four interconnected diamond shapes creating a flowing pattern from left to right, suggesting continuous motion or animation.</desc>
-<polyline class="a" points="17 3 12 12 17 21" aria-hidden="true"/>
-<polyline class="a" points="12 3 7 12 12 21" aria-hidden="true"/>
-<polyline class="a" points="7 3 2 12 7 21" aria-hidden="true"/>
-<polyline class="a" points="17 21 22 12 17 3" aria-hidden="true"/></svg>

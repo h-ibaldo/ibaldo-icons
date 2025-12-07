@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Briefcase with Line</title>
-<desc id="iconDesc">A business briefcase with a rectangular body, top handle, and a horizontal line detail in the center</desc>
-<rect class="a" x="2" y="7" width="20" height="14" rx="1" aria-hidden="true"/>
-<path class="a" d="M22,13.58A2.42,2.42,0,0,1,19.58,16H4.42A2.42,2.42,0,0,1,2,13.58" aria-hidden="true"/>
-<path class="a" d="M9,3h6a1,1,0,0,1,1,1V7a0,0,0,0,1,0,0H8A0,0,0,0,1,8,7V4A1,1,0,0,1,9,3Z" aria-hidden="true"/>
-<line class="a" x1="11" y1="12" x2="13" y2="12" aria-hidden="true"/></svg>

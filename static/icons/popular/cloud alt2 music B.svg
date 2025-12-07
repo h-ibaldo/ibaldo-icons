@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Double Music Notes</title>
-<desc id="iconDesc">A cloud shape with two music notes below it, featuring note heads and stems with elliptical bases</desc>
-<polyline class="a" points="16 13 9 14 9 21" aria-hidden="true"/>
-<ellipse class="a" cx="7.5" cy="21" rx="1.5" ry="1" aria-hidden="true"/>
-<line class="a" x1="16" y1="13" x2="16" y2="20" aria-hidden="true"/>
-<ellipse class="a" cx="14.5" cy="20" rx="1.5" ry="1" aria-hidden="true"/>
-<path class="a" d="M20,16.45a4,4,0,0,0-1-7.31c0-.05,0-.09,0-.14a4,4,0,0,0-4-4c-.14,0-.27,0-.4,0A5,5,0,0,0,5,7c0,.14,0,.27,0,.4a5,5,0,0,0,0,9.18" aria-hidden="true"/></svg>

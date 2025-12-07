@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Download Arrow</title>
-<desc id="iconDesc">A cloud shape with a downward-pointing arrow inside it, featuring a vertical line with an arrowhead indicating download functionality</desc>
-<path class="a" d="M19,11.14c0-.05,0-.09,0-.14a4,4,0,0,0-4-4c-.14,0-.27,0-.4,0A5,5,0,0,0,5,9c0,.14,0,.27,0,.4A5,5,0,0,0,7,19H18a4,4,0,0,0,1-7.86Z" aria-hidden="true"/>
-<polyline class="a" points="10 13 12 15 14 13" aria-hidden="true"/>
-<line class="a" x1="12" y1="10" x2="12" y2="15" aria-hidden="true"/></svg>

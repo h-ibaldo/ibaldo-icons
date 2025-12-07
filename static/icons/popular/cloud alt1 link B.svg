@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Diagonal Link</title>
-<desc id="iconDesc">A cloud shape with a diagonal chain link below it, featuring two interlocking curved segments at an angle</desc>
-<path class="a" d="M20.5,17.5l.67-.67a2.82,2.82,0,0,0,0-4h0a2.82,2.82,0,0,0-4,0l-.67.67" aria-hidden="true"/>
-<path class="a" d="M13.5,16.5l-.67.67a2.82,2.82,0,0,0,0,4h0a2.82,2.82,0,0,0,4,0l.67-.67" aria-hidden="true"/>
-<line class="a" x1="18" y1="16" x2="16" y2="18" aria-hidden="true"/>
-<path class="a" d="M20.62,9A4,4,0,0,0,18,8h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,5H7.5a5.5,5.5,0,0,0,0,11H9" aria-hidden="true"/></svg>

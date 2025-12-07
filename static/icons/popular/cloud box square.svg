@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud in Box</title>
-<desc id="iconDesc">A rectangular box with rounded corners containing a simple cloud shape centered within it</desc>
-<rect class="a" x="2" y="2" width="20" height="20" rx="5" aria-hidden="true"/>
-<path class="a" d="M15.5,11H15a3,3,0,0,0-6,0H8.5a2.5,2.5,0,0,0,0,5h7a2.5,2.5,0,0,0,0-5Z" aria-hidden="true"/></svg>

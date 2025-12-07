@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud Warning</title>
-<desc id="iconDesc">A cloud shape with a warning triangle emerging from it, representing a cloud service alert or warning</desc>
-<path class="a" d="M12.65,22h6.7a1.5,1.5,0,0,0,1.29-2.27l-3.35-5.59a1.51,1.51,0,0,0-2.58,0l-3.35,5.59A1.5,1.5,0,0,0,12.65,22Z" aria-hidden="true"/>
-<path class="a" d="M21.9,14a5.47,5.47,0,0,0,.1-1,5,5,0,0,0-4.08-4.91,6,6,0,0,0-11.84,0A5,5,0,0,0,7,18H8" aria-hidden="true"/></svg>

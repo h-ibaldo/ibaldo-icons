@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Contact Book</title>
-<desc id="iconDesc">A contact book with a folded corner and a circular profile avatar with a body silhouette in the center</desc>
-<path class="a" d="M2,3V18a2,2,0,0,0,.8,1.6l2.93,2.2a1,1,0,0,0,.6.2H21a1,1,0,0,0,1-1V5.5a1,1,0,0,0-.4-.8L18.53,2.4a2,2,0,0,0-1.2-.4H3A1,1,0,0,0,2,3Z" aria-hidden="true"/>
-<path class="a" d="M2.18,18.81a1.74,1.74,0,0,0,.1.19H17a1,1,0,0,0,1-1V2.12l-.09,0" aria-hidden="true"/>
-<circle class="a" cx="10" cy="9" r="3" aria-hidden="true"/>
-<path class="a" d="M14,15h0a3,3,0,0,0-3-3H9a3,3,0,0,0-3,3H6" aria-hidden="true"/></svg>

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud with Unlocked Lock</title>
-<desc id="iconDesc">A cloud shape with an unlocked padlock below it, showing an open shackle and rectangular lock body</desc>
-<rect class="a" x="8" y="15" width="8" height="6" aria-hidden="true"/>
-<path class="a" d="M14.22,11A3,3,0,0,0,9,13v2" aria-hidden="true"/>
-<path class="a" d="M19,15.86A4,4,0,0,0,18,8h0a4.07,4.07,0,0,0,0-.5A5.5,5.5,0,0,0,7.6,5H7.5A5.49,5.49,0,0,0,5,15.39" aria-hidden="true"/></svg>

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Tracing Pencil</title>
-<desc id="iconDesc">A diagonal pencil icon with a squared tip and baseline for tracing</desc>
-<path class="a" d="M21.12,4.64,19.36,2.88a3,3,0,0,0-4.24,0L2,16v6H8L21.12,8.88A3,3,0,0,0,21.12,4.64Z" aria-hidden="true"/>
-<line class="a" x1="13" y1="5" x2="19" y2="11" aria-hidden="true"/>
-<line class="a" x1="13" y1="22" x2="22" y2="22" aria-hidden="true"/></svg>

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Cloud Network</title>
-<desc id="iconDesc">A cloud shape with a single connection line extending downward to a horizontal wire, representing cloud network connectivity</desc>
-<path class="a" d="M17.92,7.09a6,6,0,0,0-11.84,0A5,5,0,0,0,7,17H17a5,5,0,0,0,.92-9.91Z" aria-hidden="true"/>
-<line class="a" x1="5" y1="22" x2="19" y2="22" aria-hidden="true"/>
-<line class="a" x1="12" y1="17" x2="12" y2="22" aria-hidden="true"/></svg>

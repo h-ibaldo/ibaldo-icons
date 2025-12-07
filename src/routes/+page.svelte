@@ -83,7 +83,7 @@
 
 <div class="p-4">
   <header class="flex justify-between items-center mb-4">
-      <h1 class="text-2xl font-bold">Universal Icons</h1>
+      <h1 class="text-2xl font-bold">icon.design</h1>
       <nav class="space-x-4">
           <a href="/about" class="text-blue-500 hover:text-blue-600">About</a>
           <a href="/license" class="text-blue-500 hover:text-blue-600">License</a>
@@ -93,7 +93,7 @@
       </nav>
   </header>
 
-  <div class="mb-6 flex items-center space-x-4">
+  <div class="mb-6 flex items-center space-x-4 hidden">
       <div class="text-sm font-medium text-gray-500">Categories:</div>
       {#if loadingCategories}
           <div>Loading categories...</div>

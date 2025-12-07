@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="iconTitle iconDesc" focusable="false">
-<defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
-<title id="iconTitle">Circled Bookmark</title>
-<desc id="iconDesc">A bookmark icon enclosed within a large circle, featuring a simple bookmark shape in the center</desc>
-<circle class="a" cx="12" cy="12" r="10"/><path class="a" d="M14,7H10A1,1,0,0,0,9,8v9l3-2,3,2V8A1,1,0,0,0,14,7Z"/></svg>
