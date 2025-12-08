@@ -22,6 +22,28 @@
       }, 0);
     }
   }
+
+  function processSVGForDisplay(svgString, targetSize, strokeWeight) {
+    if (!svgString) return '';
+    
+    let processed = svgString;
+    
+    // Update width and height in the opening <svg> tag
+    // Be very careful - only match width/height attributes in the opening svg tag
+    processed = processed.replace(/(<svg[^>]*\s)width=["']\d+["']/gi, `$1width="${targetSize}"`);
+    processed = processed.replace(/(<svg[^>]*\s)height=["']\d+["']/gi, `$1height="${targetSize}"`);
+    
+    // Handle stroke-width like the original code did
+    // Add style attribute to svg tag if it doesn't exist
+    if (!processed.match(/<svg[^>]*\sstyle=/i)) {
+      processed = processed.replace(/<svg/i, `<svg style="stroke-width: ${strokeWeight}px"`);
+    }
+    
+    // Also handle the stroke-linecap:round replacement like the original
+    processed = processed.replace(/stroke-linecap:round/gi, `stroke-width:${strokeWeight};stroke-linecap:round`);
+    
+    return processed;
+  }
   
   function getCategoryFromHash() {
       return window.location.hash.slice(1) || 'popular';
@@ -114,6 +136,49 @@
   $: totalIcons = Object.values(iconsByCategory)
       .reduce((sum, icons) => sum + (Array.isArray(icons) ? icons.length : 0), 0);
 </script>
+
+<style>
+  :global(.icon-wrapper svg) {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .icon-container {
+    position: relative;
+  }
+  
+  .icon-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 10;
+  }
+  
+  .icon-container:hover .icon-tooltip {
+    opacity: 1;
+  }
+  
+  .icon-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid transparent;
+    border-top-color: rgba(0, 0, 0, 0.8);
+  }
+</style>
 
 <div class="p-4">
   <header class="flex justify-between items-center mb-4">
@@ -209,16 +274,15 @@
               {/if}
           </h2>
           {#if currentIcons.length > 0}
-              <div class="grid grid-cols-6 gap-4">
+              <div class="flex flex-wrap gap-4">
                   {#each filteredIcons as icon}
                       <div class="flex flex-col items-center">
-                          <div style={`width: ${size}px; height: ${size}px;`}>
-                              {@html icon.svg
-                                .replace('<svg', `<svg style="stroke-width: ${debouncedWeight}px"`)
-                                .replace('stroke-linecap:round', `stroke-width:${debouncedWeight};stroke-linecap:round`)
-                              }
+                          <div class="icon-container" style={`width: ${size}px; height: ${size}px; display: flex; align-items: center; justify-content: center;`}>
+                              <div style={`width: ${size}px; height: ${size}px;`} class="icon-wrapper">
+                                  {@html processSVGForDisplay(icon.svg, size, debouncedWeight)}
+                              </div>
+                              <div class="icon-tooltip">{icon.name}</div>
                           </div>
-                          <p class="text-xs mt-1 text-gray-600 text-center">{icon.name}</p>
                       </div>
                   {/each}
               </div>
