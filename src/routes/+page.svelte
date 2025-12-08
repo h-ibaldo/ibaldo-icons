@@ -44,6 +44,23 @@
     
     return processed;
   }
+
+  function downloadSVG(svgContent, filename) {
+    // Create a blob with the SVG content
+    const blob = new Blob([svgContent], { type: 'image/svg+xml' });
+    const url = URL.createObjectURL(blob);
+    
+    // Create a temporary anchor element and trigger download
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename || 'icon.svg';
+    document.body.appendChild(link);
+    link.click();
+    
+    // Clean up
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
   
   function getCategoryFromHash() {
       return window.location.hash.slice(1) || 'popular';
@@ -145,6 +162,16 @@
   
   .icon-container {
     position: relative;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .icon-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon-container:active {
+    transform: scale(0.95);
   }
   
   .icon-tooltip {
@@ -180,7 +207,7 @@
   }
 </style>
 
-<div class="p-4">
+<div class="p-4 w-full max-w-full overflow-x-hidden">
   <header class="flex justify-between items-center mb-4">
       <h1 class="text-2xl font-bold">icon.design</h1>
       <nav class="space-x-4">
@@ -274,10 +301,25 @@
               {/if}
           </h2>
           {#if currentIcons.length > 0}
-              <div class="flex flex-wrap gap-4">
+              <div class="flex flex-wrap justify-center gap-6 w-full max-w-full overflow-hidden">
                   {#each filteredIcons as icon}
-                      <div class="flex flex-col items-center">
-                          <div class="icon-container" style={`width: ${size}px; height: ${size}px; display: flex; align-items: center; justify-content: center;`}>
+                      <div class="flex flex-col items-center flex-shrink-0">
+                          <div 
+                              class="icon-container" 
+                              style={`width: ${size}px; height: ${size}px; display: flex; align-items: center; justify-content: center;`}
+                              on:click={() => {
+                                const processedSVG = processSVGForDisplay(icon.svg, size, debouncedWeight);
+                                downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
+                              }}
+                              role="button"
+                              tabindex="0"
+                              on:keydown={(e) => {
+                                if (e.key === 'Enter') {
+                                  const processedSVG = processSVGForDisplay(icon.svg, size, debouncedWeight);
+                                  downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
+                                }
+                              }}
+                          >
                               <div style={`width: ${size}px; height: ${size}px;`} class="icon-wrapper">
                                   {@html processSVGForDisplay(icon.svg, size, debouncedWeight)}
                               </div>
