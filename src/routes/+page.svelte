@@ -163,15 +163,6 @@
   .icon-container {
     position: relative;
     cursor: pointer;
-    transition: transform 0.2s;
-  }
-  
-  .icon-container:hover {
-    transform: scale(1.1);
-  }
-  
-  .icon-container:active {
-    transform: scale(0.95);
   }
   
   .icon-tooltip {
@@ -205,20 +196,58 @@
     border: 4px solid transparent;
     border-top-color: rgba(0, 0, 0, 0.8);
   }
+
+  .range-input {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 2px;
+    background: #000;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #0900FF;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+  .range-input::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #0900FF;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+  .range-input::-ms-thumb {
+    width: 12px;
+    height: 12px;
+    background: #0900FF;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+  .range-input::-moz-range-track {
+    height: 2px;
+    background: #000;
+  }
+
+  .range-input::-ms-track {
+    height: 2px;
+    background: #000;
+    color: transparent;
+  }
 </style>
 
 <div class="p-4 w-full max-w-full overflow-x-hidden">
-  <header class="flex justify-between items-center mb-4">
-      <h1 class="text-2xl font-bold">icon.design</h1>
-      <nav class="space-x-4">
-          <a href="/about" class="text-blue-500 hover:text-blue-600">About</a>
-          <a href="/license" class="text-blue-500 hover:text-blue-600">License</a>
-          <a href="/api/download" class="text-blue-500 hover:text-blue-600">Download</a>
-          <a href="/request-icon" class="text-blue-500 hover:text-blue-600">Request Icon</a>
-          <a href="https://github.com/your-repo" class="text-blue-500 hover:text-blue-600">GitHub</a>
-      </nav>
-  </header>
-
   <div class="mb-6 flex items-center space-x-4 hidden">
       <div class="text-sm font-medium text-gray-500">Categories:</div>
       {#if loadingCategories}
@@ -228,7 +257,7 @@
               {#each categories as category}
                   <a
                       href="#{category}"
-                      class="px-3 py-1 rounded-full text-sm transition-colors {currentCategory === category ? 'bg-blue-500 text-white' : 'bg-gray-100 hover:bg-gray-200 text-gray-700'}"
+                      class="px-3 py-1 rounded-full text-sm transition-colors {currentCategory === category ? 'bg-indigo-500 text-white' : 'bg-gray-100 hover:bg-gray-200 text-gray-700'}"
                   >
                       {category}
                   </a>
@@ -241,9 +270,9 @@
     <div class="relative mb-4">
       <input
           type="text"
-          placeholder="Search icons..."
+          placeholder="Search {totalIcons} icons..."
           bind:value={search}
-          class="border rounded p-2 w-full pr-10"
+          class="border-0 rounded-lg p-2.5 w-full pr-10 bg-gray-200 focus:bg-white focus:ring-0 focus:outline-none transition-colors duration-200 text-indigo-600 placeholder:text-gray-500"
       />
       {#if search}
         <button
@@ -258,9 +287,9 @@
         </button>
       {/if}
     </div>
-    <div class="flex space-x-4">
-        <div>
-            <label for="size" class="text-sm text-gray-600">Size</label>
+    <div class="flex flex-col space-y-4">
+        <div class="flex items-center gap-4">
+            <label for="size" class="text-sm font-medium min-w-[60px]">Size</label>
             <input
                 id="size"
                 type="range"
@@ -268,12 +297,12 @@
                 max="100"
                 step="4"
                 bind:value={size}
-                class="w-full"
+                class="range-input flex-1"
             />
-            <span class="text-sm text-gray-600">{size}px</span>
+            <span class="text-sm font-medium min-w-[50px] text-right">{size}px</span>
         </div>
-        <div>
-            <label for="weight" class="text-sm text-gray-600">Weight</label>
+        <div class="flex items-center gap-4">
+            <label for="weight" class="text-sm font-medium min-w-[60px]">Weight</label>
             <input
                 id="weight"
                 type="range"
@@ -282,9 +311,9 @@
                 step="0.5"
                 bind:value={weight}
                 on:change={handleWeightChange}
-                class="w-full"
+                class="range-input flex-1"
             />
-            <span class="text-sm text-gray-600">{weight}</span>
+            <span class="text-sm font-medium min-w-[50px] text-right">{weight}pt</span>
             {#if isUpdatingWeight}
               <span class="text-sm text-gray-600 ml-2">Updating...</span>
             {/if}
@@ -294,19 +323,19 @@
 
   {#if currentCategory}
       <div class="mb-8">
-          <h2 class="text-xl font-semibold mb-4 capitalize">
+          <h2 class="text-xl font-semibold mb-4 capitalize hidden">
               {currentCategory} Icons
               {#if loadingCategory}
                   <span class="text-sm text-gray-600 ml-2">Loading...</span>
               {/if}
           </h2>
           {#if currentIcons.length > 0}
-              <div class="flex flex-wrap justify-center gap-6 w-full max-w-full overflow-hidden">
+              <div class="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center">
                   {#each filteredIcons as icon}
-                      <div class="flex flex-col items-center flex-shrink-0">
+                      <div class="flex flex-col items-center">
                           <div 
-                              class="icon-container" 
-                              style={`width: ${size}px; height: ${size}px; display: flex; align-items: center; justify-content: center;`}
+                              class="icon-container rounded-lg p-1 transition-colors hover:bg-gray-200 active:bg-gray-300" 
+                              style={`width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;`}
                               on:click={() => {
                                 const processedSVG = processSVGForDisplay(icon.svg, size, debouncedWeight);
                                 downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
@@ -332,7 +361,7 @@
       </div>
   {/if}
 
-  <footer class="mt-4 text-sm text-gray-600">
+  <footer class="mt-4 text-sm text-gray-600 hidden">
       <p>{totalIcons} icons available.</p>
   </footer>
 </div>
