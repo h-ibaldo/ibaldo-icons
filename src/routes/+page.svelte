@@ -11,58 +11,81 @@
   let search = '';
   let svgCache = {};
   
-  // Memoization cache for processed SVGs: key = `${iconId}-${size}-${weight}`
-  let processedSvgCache = new Map();
-  
-  // Pre-computed SVG hashes stored with icons (computed once on load)
-  let svgHashes = new WeakMap();
+  // Cache for normalized SVGs (processed once on load, never re-processed)
+  let normalizedSvgCache = new WeakMap();
 
-  // Fast hash function using object reference + simple string hash
-  function getIconId(icon) {
-    if (!svgHashes.has(icon)) {
-      // Use a combination of path and name for unique ID
-      const id = `${icon.path || ''}-${icon.name || ''}`;
-      svgHashes.set(icon, id);
+  // Normalize SVG once on load: remove width/height, prepare for CSS control
+  // This is the key to Lucide's smooth performance - process once, control via CSS
+  function normalizeSVG(svgString) {
+    if (!svgString) return '';
+    
+    let normalized = svgString;
+    
+    // Remove width and height attributes (we'll control via CSS)
+    normalized = normalized.replace(/(<svg[^>]*\s)width=["'][^"']*["']/gi, '$1');
+    normalized = normalized.replace(/(<svg[^>]*\s)height=["'][^"']*["']/gi, '$1');
+    
+    // Ensure SVG has viewBox (required for CSS sizing)
+    if (!normalized.match(/viewBox=/i)) {
+      normalized = normalized.replace(/<svg/i, '<svg viewBox="0 0 24 24"');
     }
-    return svgHashes.get(icon);
+    
+    // Remove any existing stroke-width attributes from child elements
+    // We'll control this via CSS custom property - this is critical for performance
+    normalized = normalized.replace(/\sstroke-width=["'][^"']*["']/gi, '');
+    
+    // Add CSS variable to SVG element itself so it can be inherited by child elements
+    // This ensures the variable is available to all stroke elements
+    normalized = normalized.replace(/<svg([^>]*)>/i, (match, attrs) => {
+      // Check if style attribute exists
+      if (attrs.match(/style=/i)) {
+        // Add CSS variable to existing style
+        return match.replace(/style=["']([^"']*)["']/i, (styleMatch, styleContent) => {
+          if (!styleContent.includes('--stroke-width')) {
+            return `style="${styleContent}; --stroke-width: inherit"`;
+          }
+          return styleMatch;
+        });
+      } else {
+        // Add style attribute with CSS variable
+        return `<svg${attrs} style="--stroke-width: inherit">`;
+      }
+    });
+    
+    return normalized;
   }
 
-  function processSVGForDisplay(icon, targetSize, strokeWeight) {
+  // Get normalized SVG (processed once, cached forever)
+  function getNormalizedSVG(icon) {
     if (!icon || !icon.svg) return '';
     
-    // Create cache key using icon ID (pre-computed, no string hashing needed)
-    const iconId = getIconId(icon);
-    const cacheKey = `${iconId}-${targetSize}-${strokeWeight}`;
-    
-    // Check cache first - this is very fast
-    if (processedSvgCache.has(cacheKey)) {
-      return processedSvgCache.get(cacheKey);
+    if (!normalizedSvgCache.has(icon)) {
+      const normalized = normalizeSVG(icon.svg);
+      normalizedSvgCache.set(icon, normalized);
+      return normalized;
     }
+    
+    return normalizedSvgCache.get(icon);
+  }
+
+  // Process SVG for download (includes size and weight in the SVG itself)
+  function processSVGForDownload(icon, targetSize, strokeWeight) {
+    if (!icon || !icon.svg) return '';
     
     const svgString = icon.svg;
     let processed = svgString;
     
-    // Update width and height in the opening <svg> tag
-    // Be very careful - only match width/height attributes in the opening svg tag
+    // Update width and height
     processed = processed.replace(/(<svg[^>]*\s)width=["']\d+["']/gi, `$1width="${targetSize}"`);
     processed = processed.replace(/(<svg[^>]*\s)height=["']\d+["']/gi, `$1height="${targetSize}"`);
     
-    // Handle stroke-width like the original code did
-    // Add style attribute to svg tag if it doesn't exist
-    if (!processed.match(/<svg[^>]*\sstyle=/i)) {
-      processed = processed.replace(/<svg/i, `<svg style="stroke-width: ${strokeWeight}px"`);
-    }
-    
-    // Also handle the stroke-linecap:round replacement like the original
-    processed = processed.replace(/stroke-linecap:round/gi, `stroke-width:${strokeWeight};stroke-linecap:round`);
-    
-    // Cache the result (limit cache size to prevent memory issues)
-    if (processedSvgCache.size > 2000) {
-      // Clear oldest entries (simple FIFO - remove first 500)
-      const keysToDelete = Array.from(processedSvgCache.keys()).slice(0, 500);
-      keysToDelete.forEach(key => processedSvgCache.delete(key));
-    }
-    processedSvgCache.set(cacheKey, processed);
+    // Add stroke-width to all stroke elements
+    processed = processed.replace(/(<[^>]*\sstroke=["'][^"']*["'][^>]*)(>)/gi, (match, before, after) => {
+      if (!match.match(/stroke-width=/i)) {
+        return `${before} stroke-width="${strokeWeight}"${after}`;
+      }
+      return match.replace(/stroke-width=["'][^"']*["']/gi, `stroke-width="${strokeWeight}"`);
+    });
     
     return processed;
   }
@@ -180,6 +203,12 @@
   :global(.icon-wrapper svg) {
     width: 100% !important;
     height: 100% !important;
+  }
+  
+  /* Apply stroke-width to all stroke elements via CSS - this is the key to smooth performance */
+  /* Target all SVG elements that can have stroke - CSS will override any SVG attributes */
+  :global(.icon-wrapper svg *[stroke]) {
+    stroke-width: var(--stroke-width, 1px) !important;
   }
   
   .icon-container {
@@ -355,20 +384,41 @@
                               class="icon-container rounded-lg p-1 transition-colors hover:bg-gray-200 active:bg-gray-300" 
                               style={`width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;`}
                               on:click={() => {
-                                const processedSVG = processSVGForDisplay(icon, size, weight);
+                                const processedSVG = processSVGForDownload(icon, size, weight);
                                 downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
                               }}
                               role="button"
                               tabindex="0"
                               on:keydown={(e) => {
                                 if (e.key === 'Enter') {
-                                  const processedSVG = processSVGForDisplay(icon, size, weight);
+                                  const processedSVG = processSVGForDownload(icon, size, weight);
                                   downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
                                 }
                               }}
                           >
-                              <div style={`width: ${size}px; height: ${size}px;`} class="icon-wrapper">
-                                  {@html processSVGForDisplay(icon, size, weight)}
+                              <div 
+                                  style={`width: ${size}px; height: ${size}px;`} 
+                                  class="icon-wrapper"
+                              >
+                                  {@html getNormalizedSVG(icon).replace(
+                                    /<svg([^>]*)>/i,
+                                    (match, attrs) => {
+                                      // Update or add --stroke-width in style attribute
+                                      if (attrs.match(/style=["']/i)) {
+                                        return match.replace(
+                                          /style=["']([^"']*)["']/i,
+                                          (styleMatch, styleContent) => {
+                                            const updated = styleContent.replace(/--stroke-width:[^;]*/i, `--stroke-width: ${weight}px`);
+                                            return updated.includes('--stroke-width')
+                                              ? `style="${updated}"`
+                                              : `style="${styleContent}; --stroke-width: ${weight}px"`;
+                                          }
+                                        );
+                                      } else {
+                                        return `<svg${attrs} style="--stroke-width: ${weight}px">`;
+                                      }
+                                    }
+                                  )}
                               </div>
                               <div class="icon-tooltip">{icon.name}</div>
                           </div>
