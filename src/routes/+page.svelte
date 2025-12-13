@@ -7,25 +7,39 @@
   let loadingCategories = true;
   let size = 24;
   let weight = 1;
-  let debouncedWeight = weight;
-  let isUpdatingWeight = false;
   let currentCategory = 'popular';
   let search = '';
   let svgCache = {};
+  
+  // Memoization cache for processed SVGs: key = `${iconId}-${size}-${weight}`
+  let processedSvgCache = new Map();
+  
+  // Pre-computed SVG hashes stored with icons (computed once on load)
+  let svgHashes = new WeakMap();
 
-  function handleWeightChange(event) {
-    if (event.type === 'change') {
-      isUpdatingWeight = true;
-      setTimeout(() => {
-        debouncedWeight = weight;
-        isUpdatingWeight = false;
-      }, 0);
+  // Fast hash function using object reference + simple string hash
+  function getIconId(icon) {
+    if (!svgHashes.has(icon)) {
+      // Use a combination of path and name for unique ID
+      const id = `${icon.path || ''}-${icon.name || ''}`;
+      svgHashes.set(icon, id);
     }
+    return svgHashes.get(icon);
   }
 
-  function processSVGForDisplay(svgString, targetSize, strokeWeight) {
-    if (!svgString) return '';
+  function processSVGForDisplay(icon, targetSize, strokeWeight) {
+    if (!icon || !icon.svg) return '';
     
+    // Create cache key using icon ID (pre-computed, no string hashing needed)
+    const iconId = getIconId(icon);
+    const cacheKey = `${iconId}-${targetSize}-${strokeWeight}`;
+    
+    // Check cache first - this is very fast
+    if (processedSvgCache.has(cacheKey)) {
+      return processedSvgCache.get(cacheKey);
+    }
+    
+    const svgString = icon.svg;
     let processed = svgString;
     
     // Update width and height in the opening <svg> tag
@@ -41,6 +55,14 @@
     
     // Also handle the stroke-linecap:round replacement like the original
     processed = processed.replace(/stroke-linecap:round/gi, `stroke-width:${strokeWeight};stroke-linecap:round`);
+    
+    // Cache the result (limit cache size to prevent memory issues)
+    if (processedSvgCache.size > 2000) {
+      // Clear oldest entries (simple FIFO - remove first 500)
+      const keysToDelete = Array.from(processedSvgCache.keys()).slice(0, 500);
+      keysToDelete.forEach(key => processedSvgCache.delete(key));
+    }
+    processedSvgCache.set(cacheKey, processed);
     
     return processed;
   }
@@ -310,13 +332,9 @@
                 max="2.5"
                 step="0.5"
                 bind:value={weight}
-                on:change={handleWeightChange}
                 class="range-input flex-1"
             />
             <span class="text-sm font-medium min-w-[50px] text-right">{weight}pt</span>
-            {#if isUpdatingWeight}
-              <span class="text-sm text-gray-600 ml-2">Updating...</span>
-            {/if}
         </div>
     </div>
   </div>
@@ -337,20 +355,20 @@
                               class="icon-container rounded-lg p-1 transition-colors hover:bg-gray-200 active:bg-gray-300" 
                               style={`width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;`}
                               on:click={() => {
-                                const processedSVG = processSVGForDisplay(icon.svg, size, debouncedWeight);
+                                const processedSVG = processSVGForDisplay(icon, size, weight);
                                 downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
                               }}
                               role="button"
                               tabindex="0"
                               on:keydown={(e) => {
                                 if (e.key === 'Enter') {
-                                  const processedSVG = processSVGForDisplay(icon.svg, size, debouncedWeight);
+                                  const processedSVG = processSVGForDisplay(icon, size, weight);
                                   downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
                                 }
                               }}
                           >
                               <div style={`width: ${size}px; height: ${size}px;`} class="icon-wrapper">
-                                  {@html processSVGForDisplay(icon.svg, size, debouncedWeight)}
+                                  {@html processSVGForDisplay(icon, size, weight)}
                               </div>
                               <div class="icon-tooltip">{icon.name}</div>
                           </div>
