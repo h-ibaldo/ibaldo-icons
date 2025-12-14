@@ -1,8 +1,40 @@
 <script>
+    import { onMount, onDestroy } from 'svelte';
+    import { browser } from '$app/environment';
+    
     export let search = '';
     export let size = 24;
     export let weight = 1;
     export let totalIcons = 0;
+    
+    let isSmallScreen = false;
+    let maxSize = 100;
+    let searchFocused = false;
+    
+    function checkScreenSize() {
+        if (!browser) return;
+        
+        isSmallScreen = window.innerWidth <= 639;
+        maxSize = isSmallScreen ? 44 : 100;
+        
+        // Clamp size if it exceeds maxSize
+        if (size > maxSize) {
+            size = maxSize;
+        }
+    }
+    
+    onMount(() => {
+        checkScreenSize();
+        if (browser) {
+            window.addEventListener('resize', checkScreenSize);
+        }
+    });
+    
+    onDestroy(() => {
+        if (browser) {
+            window.removeEventListener('resize', checkScreenSize);
+        }
+    });
 </script>
 
 <style>
@@ -13,17 +45,17 @@
         /* background: black; */
         transition: all 0.3s ease;
         margin: auto;
-        width: 100%;
-        max-width: 660px;
+        max-width: 100%;
+        width: 660px;
     }
 
     .actions-bar {
         display: flex;
         align-items: center;
         gap: 2rem;
-        padding: 0.5rem 0.5rem;
+        padding: 0.25rem 0.25rem;
         max-width: 1200px;
-        margin: 20px auto 50px;
+        margin: 30px auto 40px;
     }
 
     .search-wrapper {
@@ -42,12 +74,20 @@
 
     .search-input {
         width: 100%;
-        background: transparent;
+        background-color: transparent;
         border: none;
         color: white;
         padding: 0.5rem 0.5rem 0.5rem 2.5rem;
         outline: none;
         font-size: 14px;
+        transition: width 0.3s ease, background-color 0.3s ease;
+        will-change: width, background-color;
+    }
+     
+    .search-input:focus {
+        width: calc(660px - 0.5rem);
+        background-color: #0700CC;
+        transition-delay: 0.1s;
     }
 
     .search-input::placeholder {
@@ -57,10 +97,16 @@
     .slider-group {
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: 0.5rem;
         flex: 1;
+        transition: opacity 0.3s ease;
+        transition-delay: 0.1s;
     }
 
+    .search-input-focused .slider-group {
+        opacity: 0;
+    }
+    
     .slider-label {
         color: white;
         font-size: 14px;
@@ -76,14 +122,13 @@
         color: white;
         font-size: 14px;
         min-width: 50px;
-        text-align: right;
     }
 
     .range-input {
         -webkit-appearance: none;
         appearance: none;
         width: 100%;
-        height: 2px;
+        height: 1px;
         background: white;
         outline: none;
         cursor: pointer;
@@ -95,7 +140,7 @@
         width: 12px;
         height: 12px;
         background: #0900FF;
-        border: none;
+        border: 1px solid white;
         cursor: pointer;
         border-radius: 0;
     }
@@ -118,10 +163,19 @@
     }
 
     @media (max-width: 768px) {
+        .actions-bar-container {
+            position: fixed;
+            bottom: 0;
+            top:auto;
+            left: 0;
+            right: 0;
+            z-index: 40;
+        }
         .actions-bar {
             flex-direction: column;
             gap: 1rem;
-            padding: 1rem;
+            padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+            margin: 0;
         }
 
         .search-wrapper {
@@ -140,7 +194,7 @@
 </style>
 
 <div class="actions-bar-container bg-slate-900">
-    <div class="actions-bar">
+    <div class="actions-bar {searchFocused? 'search-input-focused' : ''}">
         <!-- Search -->
         <div class="search-wrapper">
             <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -151,31 +205,33 @@
                 type="text"
                 placeholder="Search icon"
                 bind:value={search}
-                class="search-input"
+                onfocus={() => searchFocused = true}
+                onblur={() => searchFocused = false}
+                class="search-input focus:outline-none focus:ring-0 focus:bg-indigo-600"
             />
         </div>
 
         <!-- Size Slider -->
         <div class="slider-group">
-            <label for="size" class="slider-label">Size</label>
-            <div class="slider">
+            <label for="size" class="slider-label text-right">Size</label>
+            <div class="slider flex align-center">
                 <input
                     id="size"
                     type="range"
                     min="12"
-                    max="100"
+                    max={maxSize}
                     step="4"
                     bind:value={size}
                     class="range-input"
                 />
             </div>
-            <span class="slider-value">{size}px</span>
+            <span class="slider-value text-left">{size}px</span>
         </div>
 
         <!-- Weight Slider -->
         <div class="slider-group">
-            <label for="weight" class="slider-label">Weight</label>
-            <div class="slider">
+            <label for="weight" class="slider-label text-right">Weight</label>
+            <div class="slider flex align-center">
                 <input
                     id="weight"
                     type="range"

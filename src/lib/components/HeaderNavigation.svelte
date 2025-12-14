@@ -204,7 +204,7 @@
         <a href="/" class="text-inherit no-underline hover:opacity-80">icon.design</a>
     </h1>
 
-    <div class="flex items-center" style="overflow: visible;">
+    <div class="flex items-center overflow-hidden">
 
         <nav class="space-x-4 text-sm desktop-only nav-links {isScrolled ? 'hide' : ''}">
             <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
@@ -214,24 +214,24 @@
         </nav>
         
         <button
-        class="hamburger text-indigo-500 hover:text-indigo-600 mobile-only"
-        on:click={toggleDrawer}
-        aria-label="Toggle menu"
-        >
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-    
-    <button
-        class="hamburger text-indigo-500 hover:text-indigo-600 hamburger-scrolled {isScrolled ? '' : 'hide'}"
-        on:click={toggleDrawer}
-        aria-label="Toggle menu"
-        >
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+            class="hamburger text-indigo-500 hover:text-indigo-600 mobile-only"
+            on:click={toggleDrawer}
+            aria-label="Toggle menu"
+            >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <button
+            class="hamburger text-indigo-500 hover:text-indigo-600 hamburger-scrolled {isScrolled ? '' : 'hide'}"
+            on:click={toggleDrawer}
+            aria-label="Toggle menu"
+            >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </div>
 </header>
 

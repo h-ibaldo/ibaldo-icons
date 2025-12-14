@@ -213,6 +213,11 @@
   }
   
   .icon-container {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     cursor: pointer;
   }
@@ -277,10 +282,17 @@
     background: #000;
     color: transparent;
   }
+
+  @media (max-width: 639px) {
+    .icon-container {
+      width: 50px;
+      height: 50px;
+    }
+  }
 </style>
 
 <ActionsBar bind:search bind:size bind:weight {totalIcons} />
-<div class="p-4 w-full max-w-full">
+<div class="py-4 sm:px-14 w-full max-w-full">
 
   {#if currentCategory}
       <div class="mb-8">
@@ -291,12 +303,11 @@
               {/if}
           </h2>
           {#if currentIcons.length > 0}
-              <div class="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center">
+              <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center">
                   {#each filteredIcons as icon}
                       <div class="flex flex-col items-center">
                           <div 
                               class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-200 active:bg-slate-300" 
-                              style={`width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;`}
                               on:click={() => {
                                 const processedSVG = processSVGForDownload(icon, size, weight);
                                 downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
