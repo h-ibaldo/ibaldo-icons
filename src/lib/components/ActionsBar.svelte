@@ -182,6 +182,11 @@
             flex: 1 1 100%;
             width: 100%;
         }
+        .search-input:focus {
+            width: 100%;
+            background-color: #0700CC;
+            transition-delay: 0.1s;
+        }
 
         .slider-group {
             width: 100%;
@@ -189,6 +194,9 @@
 
         .slider {
             max-width: none;
+        }
+        .search-input-focused .slider-group {
+            opacity: 1;
         }
     }
 </style>
@@ -203,7 +211,7 @@
             </svg>
             <input
                 type="text"
-                placeholder="Search icon"
+                placeholder="Search {totalIcons} icons..."
                 bind:value={search}
                 onfocus={() => searchFocused = true}
                 onblur={() => searchFocused = false}

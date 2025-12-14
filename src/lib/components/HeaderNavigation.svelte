@@ -200,7 +200,7 @@
 </style>
 
 <header class="flex justify-between items-center p-4">
-    <h1 class="text-sm font-bold">
+    <h1 class="text-sm font-medium">
         <a href="/" class="text-inherit no-underline hover:opacity-80">icon.design</a>
     </h1>
 
