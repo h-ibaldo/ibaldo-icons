@@ -1,46 +1,92 @@
 <script>
   import { onMount } from 'svelte';
-  
+  import ActionsBar from '$lib/components/ActionsBar.svelte';
+
   let iconsByCategory = {};
   let categories = [];
   let loadingCategory = false;
   let loadingCategories = true;
   let size = 24;
   let weight = 1;
-  let debouncedWeight = weight;
-  let isUpdatingWeight = false;
   let currentCategory = 'popular';
   let search = '';
   let svgCache = {};
+  
+  // Cache for normalized SVGs (processed once on load, never re-processed)
+  let normalizedSvgCache = new WeakMap();
 
-  function handleWeightChange(event) {
-    if (event.type === 'change') {
-      isUpdatingWeight = true;
-      setTimeout(() => {
-        debouncedWeight = weight;
-        isUpdatingWeight = false;
-      }, 0);
-    }
-  }
-
-  function processSVGForDisplay(svgString, targetSize, strokeWeight) {
+  // Normalize SVG once on load: remove width/height, prepare for CSS control
+  // This is the key to Lucide's smooth performance - process once, control via CSS
+  function normalizeSVG(svgString) {
     if (!svgString) return '';
     
+    let normalized = svgString;
+    
+    // Remove width and height attributes (we'll control via CSS)
+    normalized = normalized.replace(/(<svg[^>]*\s)width=["'][^"']*["']/gi, '$1');
+    normalized = normalized.replace(/(<svg[^>]*\s)height=["'][^"']*["']/gi, '$1');
+    
+    // Ensure SVG has viewBox (required for CSS sizing)
+    if (!normalized.match(/viewBox=/i)) {
+      normalized = normalized.replace(/<svg/i, '<svg viewBox="0 0 24 24"');
+    }
+    
+    // Remove any existing stroke-width attributes from child elements
+    // We'll control this via CSS custom property - this is critical for performance
+    normalized = normalized.replace(/\sstroke-width=["'][^"']*["']/gi, '');
+    
+    // Add CSS variable to SVG element itself so it can be inherited by child elements
+    // This ensures the variable is available to all stroke elements
+    normalized = normalized.replace(/<svg([^>]*)>/i, (match, attrs) => {
+      // Check if style attribute exists
+      if (attrs.match(/style=/i)) {
+        // Add CSS variable to existing style
+        return match.replace(/style=["']([^"']*)["']/i, (styleMatch, styleContent) => {
+          if (!styleContent.includes('--stroke-width')) {
+            return `style="${styleContent}; --stroke-width: inherit"`;
+          }
+          return styleMatch;
+        });
+      } else {
+        // Add style attribute with CSS variable
+        return `<svg${attrs} style="--stroke-width: inherit">`;
+      }
+    });
+    
+    return normalized;
+  }
+
+  // Get normalized SVG (processed once, cached forever)
+  function getNormalizedSVG(icon) {
+    if (!icon || !icon.svg) return '';
+    
+    if (!normalizedSvgCache.has(icon)) {
+      const normalized = normalizeSVG(icon.svg);
+      normalizedSvgCache.set(icon, normalized);
+      return normalized;
+    }
+    
+    return normalizedSvgCache.get(icon);
+  }
+
+  // Process SVG for download (includes size and weight in the SVG itself)
+  function processSVGForDownload(icon, targetSize, strokeWeight) {
+    if (!icon || !icon.svg) return '';
+    
+    const svgString = icon.svg;
     let processed = svgString;
     
-    // Update width and height in the opening <svg> tag
-    // Be very careful - only match width/height attributes in the opening svg tag
+    // Update width and height
     processed = processed.replace(/(<svg[^>]*\s)width=["']\d+["']/gi, `$1width="${targetSize}"`);
     processed = processed.replace(/(<svg[^>]*\s)height=["']\d+["']/gi, `$1height="${targetSize}"`);
     
-    // Handle stroke-width like the original code did
-    // Add style attribute to svg tag if it doesn't exist
-    if (!processed.match(/<svg[^>]*\sstyle=/i)) {
-      processed = processed.replace(/<svg/i, `<svg style="stroke-width: ${strokeWeight}px"`);
-    }
-    
-    // Also handle the stroke-linecap:round replacement like the original
-    processed = processed.replace(/stroke-linecap:round/gi, `stroke-width:${strokeWeight};stroke-linecap:round`);
+    // Add stroke-width to all stroke elements
+    processed = processed.replace(/(<[^>]*\sstroke=["'][^"']*["'][^>]*)(>)/gi, (match, before, after) => {
+      if (!match.match(/stroke-width=/i)) {
+        return `${before} stroke-width="${strokeWeight}"${after}`;
+      }
+      return match.replace(/stroke-width=["'][^"']*["']/gi, `stroke-width="${strokeWeight}"`);
+    });
     
     return processed;
   }
@@ -160,18 +206,15 @@
     height: 100% !important;
   }
   
+  /* Apply stroke-width to all stroke elements via CSS - this is the key to smooth performance */
+  /* Target all SVG elements that can have stroke - CSS will override any SVG attributes */
+  :global(.icon-wrapper svg *[stroke]) {
+    stroke-width: var(--stroke-width, 1px) !important;
+  }
+  
   .icon-container {
     position: relative;
     cursor: pointer;
-    transition: transform 0.2s;
-  }
-  
-  .icon-container:hover {
-    transform: scale(1.1);
-  }
-  
-  .icon-container:active {
-    transform: scale(0.95);
   }
   
   .icon-tooltip {
@@ -205,123 +248,91 @@
     border: 4px solid transparent;
     border-top-color: rgba(0, 0, 0, 0.8);
   }
+
+  .range-input::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #0900FF;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+  .range-input::-ms-thumb {
+    width: 12px;
+    height: 12px;
+    background: #0900FF;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+  .range-input::-moz-range-track {
+    height: 2px;
+    background: #000;
+  }
+
+  .range-input::-ms-track {
+    height: 2px;
+    background: #000;
+    color: transparent;
+  }
 </style>
 
+<ActionsBar bind:search bind:size bind:weight {totalIcons} />
 <div class="p-4 w-full max-w-full overflow-x-hidden">
-  <header class="flex justify-between items-center mb-4">
-      <h1 class="text-2xl font-bold">icon.design</h1>
-      <nav class="space-x-4">
-          <a href="/about" class="text-blue-500 hover:text-blue-600">About</a>
-          <a href="/license" class="text-blue-500 hover:text-blue-600">License</a>
-          <a href="/api/download" class="text-blue-500 hover:text-blue-600">Download</a>
-          <a href="/request-icon" class="text-blue-500 hover:text-blue-600">Request Icon</a>
-          <a href="https://github.com/your-repo" class="text-blue-500 hover:text-blue-600">GitHub</a>
-      </nav>
-  </header>
-
-  <div class="mb-6 flex items-center space-x-4 hidden">
-      <div class="text-sm font-medium text-gray-500">Categories:</div>
-      {#if loadingCategories}
-          <div>Loading categories...</div>
-      {:else}
-          <nav class="flex flex-wrap gap-2">
-              {#each categories as category}
-                  <a
-                      href="#{category}"
-                      class="px-3 py-1 rounded-full text-sm transition-colors {currentCategory === category ? 'bg-blue-500 text-white' : 'bg-gray-100 hover:bg-gray-200 text-gray-700'}"
-                  >
-                      {category}
-                  </a>
-              {/each}
-          </nav>
-      {/if}
-  </div>
-
-  <div class="mb-4">
-    <div class="relative mb-4">
-      <input
-          type="text"
-          placeholder="Search icons..."
-          bind:value={search}
-          class="border rounded p-2 w-full pr-10"
-      />
-      {#if search}
-        <button
-          class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-700"
-          on:click={() => search = ''}
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
-            <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2;}</style></defs>
-            <line class="a" x1="8" y1="16" x2="16" y2="8"/>
-            <line class="a" x1="16" y1="16" x2="8" y2="8"/>
-          </svg>
-        </button>
-      {/if}
-    </div>
-    <div class="flex space-x-4">
-        <div>
-            <label for="size" class="text-sm text-gray-600">Size</label>
-            <input
-                id="size"
-                type="range"
-                min="12"
-                max="100"
-                step="4"
-                bind:value={size}
-                class="w-full"
-            />
-            <span class="text-sm text-gray-600">{size}px</span>
-        </div>
-        <div>
-            <label for="weight" class="text-sm text-gray-600">Weight</label>
-            <input
-                id="weight"
-                type="range"
-                min="0.5"
-                max="2.5"
-                step="0.5"
-                bind:value={weight}
-                on:change={handleWeightChange}
-                class="w-full"
-            />
-            <span class="text-sm text-gray-600">{weight}</span>
-            {#if isUpdatingWeight}
-              <span class="text-sm text-gray-600 ml-2">Updating...</span>
-            {/if}
-        </div>
-    </div>
-  </div>
 
   {#if currentCategory}
       <div class="mb-8">
-          <h2 class="text-xl font-semibold mb-4 capitalize">
+          <h2 class="text-xl font-semibold mb-4 capitalize hidden">
               {currentCategory} Icons
               {#if loadingCategory}
                   <span class="text-sm text-gray-600 ml-2">Loading...</span>
               {/if}
           </h2>
           {#if currentIcons.length > 0}
-              <div class="flex flex-wrap justify-center gap-6 w-full max-w-full overflow-hidden">
+              <div class="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center">
                   {#each filteredIcons as icon}
-                      <div class="flex flex-col items-center flex-shrink-0">
+                      <div class="flex flex-col items-center">
                           <div 
-                              class="icon-container" 
-                              style={`width: ${size}px; height: ${size}px; display: flex; align-items: center; justify-content: center;`}
+                              class="icon-container rounded-lg p-1 transition-colors hover:bg-gray-200 active:bg-gray-300" 
+                              style={`width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;`}
                               on:click={() => {
-                                const processedSVG = processSVGForDisplay(icon.svg, size, debouncedWeight);
+                                const processedSVG = processSVGForDownload(icon, size, weight);
                                 downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
                               }}
                               role="button"
                               tabindex="0"
                               on:keydown={(e) => {
                                 if (e.key === 'Enter') {
-                                  const processedSVG = processSVGForDisplay(icon.svg, size, debouncedWeight);
+                                  const processedSVG = processSVGForDownload(icon, size, weight);
                                   downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
                                 }
                               }}
                           >
-                              <div style={`width: ${size}px; height: ${size}px;`} class="icon-wrapper">
-                                  {@html processSVGForDisplay(icon.svg, size, debouncedWeight)}
+                              <div 
+                                  style={`width: ${size}px; height: ${size}px;`} 
+                                  class="icon-wrapper"
+                              >
+                                  {@html getNormalizedSVG(icon).replace(
+                                    /<svg([^>]*)>/i,
+                                    (match, attrs) => {
+                                      // Update or add --stroke-width in style attribute
+                                      if (attrs.match(/style=["']/i)) {
+                                        return match.replace(
+                                          /style=["']([^"']*)["']/i,
+                                          (styleMatch, styleContent) => {
+                                            const updated = styleContent.replace(/--stroke-width:[^;]*/i, `--stroke-width: ${weight}px`);
+                                            return updated.includes('--stroke-width')
+                                              ? `style="${updated}"`
+                                              : `style="${styleContent}; --stroke-width: ${weight}px"`;
+                                          }
+                                        );
+                                      } else {
+                                        return `<svg${attrs} style="--stroke-width: ${weight}px">`;
+                                      }
+                                    }
+                                  )}
                               </div>
                               <div class="icon-tooltip">{icon.name}</div>
                           </div>
@@ -332,7 +343,7 @@
       </div>
   {/if}
 
-  <footer class="mt-4 text-sm text-gray-600">
+  <footer class="mt-4 text-sm text-gray-600 hidden">
       <p>{totalIcons} icons available.</p>
   </footer>
 </div>
