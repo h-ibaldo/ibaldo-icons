@@ -11,7 +11,7 @@
         };
 
         const handleScroll = () => {
-            isScrolled = window.scrollY > 50;
+            isScrolled = window.scrollY > 5;
         };
 
         checkMobile();
@@ -79,20 +79,48 @@
     .hamburger {
         display: flex;
         flex-direction: column;
-        gap: 4px;
+        gap: 6px;
         cursor: pointer;
         padding: 4px;
     }
 
     .hamburger span {
-        width: 20px;
-        height: 2px;
+        width: 18px;
+        height: 1.5px;
         background: currentColor;
-        transition: all 0.3s ease;
+        transition: width 0.3s ease, opacity 0.3s ease;
+        will-change: width, opacity;
+        opacity: 1;
+    }
+
+    .hamburger.hide span {
+        width: 0;
+        opacity: 0;
+    }
+
+    .hamburger span:nth-child(1) {
+        transition-delay: 0.7s, 0.7s;
+    }
+    .hamburger span:nth-child(2) {
+        transition-delay: 0.6s, 0.6s;
+    }
+    .hamburger span:nth-child(3) {
+        transition-delay: 0.5s, 0.5s;
+    }
+
+    .hamburger.hide span:nth-child(1) {
+        transition-delay: 0.2s, 0.2s;
+    }
+    .hamburger.hide span:nth-child(2) {
+        transition-delay: 0.1s, 0.1s;
+    }
+    .hamburger.hide span:nth-child(3) {
+        transition-delay: 0s, 0s;
     }
 
     .nav-links {
         transition: opacity 0.3s ease, visibility 0.3s ease;
+        overflow: visible;
     }
 
     .nav-links.hidden {
@@ -103,6 +131,47 @@
     .hamburger-scrolled {
         transition: opacity 0.3s ease, visibility 0.3s ease;
     }
+
+    .nav-links a {
+        display: inline-block;
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: transform 0.4s ease, opacity 0.3s ease 0.1s;
+        will-change: transform, opacity;
+    }
+
+    .nav-links.hide a {
+        opacity: 0;
+        pointer-events: none;
+        transform: translate3d(50px, 0, 0);
+    }
+
+    .nav-links.hide a:nth-child(1) {
+        transition-delay: 0.3s, 0.3s;
+    }
+    .nav-links.hide a:nth-child(2) {
+        transition-delay: 0.2s, 0.2s;
+    }
+    .nav-links.hide a:nth-child(3) {
+        transition-delay: 0.1s, 0.1s;
+    }
+    .nav-links.hide a:nth-child(4) {
+        transition-delay: 0s, 0s;
+    }
+
+    .nav-links a:nth-child(1) {
+        transition-delay: 0.7s, 0.7s;
+    }
+    .nav-links a:nth-child(2) {
+        transition-delay: 0.6s, 0.6s;
+    }
+    .nav-links a:nth-child(3) {
+        transition-delay: 0.5s, 0.5s;
+    }
+    .nav-links a:nth-child(4) {
+        transition-delay: 0.4s, 0.4s;
+    }
+
 
     .hamburger-scrolled.hidden {
         opacity: 0;
@@ -135,32 +204,35 @@
         <a href="/" class="text-inherit no-underline hover:opacity-80">icon.design</a>
     </h1>
 
-    <nav class="space-x-4 text-sm desktop-only nav-links {isScrolled ? 'hidden' : ''}">
-        <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
-        <a href="/about" class="text-indigo-500 hover:text-indigo-600">About</a>
-        <a href="/license" class="text-indigo-500 hover:text-indigo-600">License</a>
-        <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600">Request icon</a>
-    </nav>
+    <div class="flex items-center" style="overflow: visible;">
 
-    <button
+        <nav class="space-x-4 text-sm desktop-only nav-links {isScrolled ? 'hide' : ''}">
+            <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
+            <a href="/about" class="text-indigo-500 hover:text-indigo-600">About</a>
+            <a href="/license" class="text-indigo-500 hover:text-indigo-600">License</a>
+            <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600">Request icon</a>
+        </nav>
+        
+        <button
         class="hamburger text-indigo-500 hover:text-indigo-600 mobile-only"
         on:click={toggleDrawer}
         aria-label="Toggle menu"
-    >
+        >
         <span></span>
         <span></span>
         <span></span>
     </button>
-
+    
     <button
-        class="hamburger text-indigo-500 hover:text-indigo-600 hamburger-scrolled {isScrolled ? '' : 'hidden'}"
+        class="hamburger text-indigo-500 hover:text-indigo-600 hamburger-scrolled {isScrolled ? '' : 'hide'}"
         on:click={toggleDrawer}
         aria-label="Toggle menu"
-    >
+        >
         <span></span>
         <span></span>
         <span></span>
     </button>
+    </div>
 </header>
 
 <!-- Drawer overlay -->

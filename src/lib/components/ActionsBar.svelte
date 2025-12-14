@@ -21,7 +21,7 @@
         display: flex;
         align-items: center;
         gap: 2rem;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.5rem;
         max-width: 1200px;
         margin: 20px auto 50px;
     }

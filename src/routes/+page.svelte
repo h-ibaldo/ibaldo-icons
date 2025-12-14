@@ -7,7 +7,7 @@
   let loadingCategory = false;
   let loadingCategories = true;
   let size = 24;
-  let weight = 1;
+  let weight = 1.5;
   let currentCategory = 'popular';
   let search = '';
   let svgCache = {};
@@ -224,7 +224,7 @@
     transform: translateX(-50%);
     margin-bottom: 8px;
     padding: 4px 8px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
     color: white;
     font-size: 12px;
     white-space: nowrap;
@@ -280,7 +280,7 @@
 </style>
 
 <ActionsBar bind:search bind:size bind:weight {totalIcons} />
-<div class="p-4 w-full max-w-full overflow-x-hidden">
+<div class="p-4 w-full max-w-full">
 
   {#if currentCategory}
       <div class="mb-8">
@@ -295,7 +295,7 @@
                   {#each filteredIcons as icon}
                       <div class="flex flex-col items-center">
                           <div 
-                              class="icon-container rounded-lg p-1 transition-colors hover:bg-gray-200 active:bg-gray-300" 
+                              class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-200 active:bg-slate-300" 
                               style={`width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;`}
                               on:click={() => {
                                 const processedSVG = processSVGForDownload(icon, size, weight);
