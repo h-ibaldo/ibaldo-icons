@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
-  
+  import ActionsBar from '$lib/components/ActionsBar.svelte';
+
   let iconsByCategory = {};
   let categories = [];
   let loadingCategory = false;
@@ -248,26 +249,6 @@
     border-top-color: rgba(0, 0, 0, 0.8);
   }
 
-  .range-input {
-    -webkit-appearance: none;
-    appearance: none;
-    height: 2px;
-    background: #000;
-    outline: none;
-    cursor: pointer;
-  }
-
-  .range-input::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 12px;
-    height: 12px;
-    background: #0900FF;
-    border: none;
-    cursor: pointer;
-    border-radius: 0;
-  }
-
   .range-input::-moz-range-thumb {
     width: 12px;
     height: 12px;
@@ -298,75 +279,8 @@
   }
 </style>
 
+<ActionsBar bind:search bind:size bind:weight {totalIcons} />
 <div class="p-4 w-full max-w-full overflow-x-hidden">
-  <div class="mb-6 flex items-center space-x-4 hidden">
-      <div class="text-sm font-medium text-gray-500">Categories:</div>
-      {#if loadingCategories}
-          <div>Loading categories...</div>
-      {:else}
-          <nav class="flex flex-wrap gap-2">
-              {#each categories as category}
-                  <a
-                      href="#{category}"
-                      class="px-3 py-1 rounded-full text-sm transition-colors {currentCategory === category ? 'bg-indigo-500 text-white' : 'bg-gray-100 hover:bg-gray-200 text-gray-700'}"
-                  >
-                      {category}
-                  </a>
-              {/each}
-          </nav>
-      {/if}
-  </div>
-
-  <div class="mb-4">
-    <div class="relative mb-4">
-      <input
-          type="text"
-          placeholder="Search {totalIcons} icons..."
-          bind:value={search}
-          class="border-0 rounded-lg p-2.5 w-full pr-10 bg-gray-200 focus:bg-white focus:ring-0 focus:outline-none transition-colors duration-200 text-indigo-600 placeholder:text-gray-500"
-      />
-      {#if search}
-        <button
-          class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-700"
-          on:click={() => search = ''}
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
-            <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2;}</style></defs>
-            <line class="a" x1="8" y1="16" x2="16" y2="8"/>
-            <line class="a" x1="16" y1="16" x2="8" y2="8"/>
-          </svg>
-        </button>
-      {/if}
-    </div>
-    <div class="flex flex-col space-y-4">
-        <div class="flex items-center gap-4">
-            <label for="size" class="text-sm font-medium min-w-[60px]">Size</label>
-            <input
-                id="size"
-                type="range"
-                min="12"
-                max="100"
-                step="4"
-                bind:value={size}
-                class="range-input flex-1"
-            />
-            <span class="text-sm font-medium min-w-[50px] text-right">{size}px</span>
-        </div>
-        <div class="flex items-center gap-4">
-            <label for="weight" class="text-sm font-medium min-w-[60px]">Weight</label>
-            <input
-                id="weight"
-                type="range"
-                min="0.5"
-                max="2.5"
-                step="0.5"
-                bind:value={weight}
-                class="range-input flex-1"
-            />
-            <span class="text-sm font-medium min-w-[50px] text-right">{weight}pt</span>
-        </div>
-    </div>
-  </div>
 
   {#if currentCategory}
       <div class="mb-8">
