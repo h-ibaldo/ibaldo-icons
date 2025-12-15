@@ -88,8 +88,7 @@
         width: calc(660px - 0.5rem);
         background-color: #0700CC;
         transition-delay: 0.1s;
-        outline: 2px solid #0900FF;
-        outline-offset: 2px;
+        /* Background color change is sufficient for accessibility */
     }
 
     .search-input::placeholder {
@@ -164,14 +163,21 @@
         background: #0700CC;
     }
     
-    .range-input:focus {
-        outline: 2px solid #0900FF;
-        outline-offset: 4px;
+    /* Enhanced focus state: larger thumb with white ring for better visibility */
+    .range-input:focus-visible::-webkit-slider-thumb {
+        width: 16px;
+        height: 16px;
+        background: #0900FF;
+        border: 2px solid white;
+        box-shadow: 0 0 0 2px #0900FF;
     }
     
-    .range-input:focus-visible {
-        outline: 2px solid #0900FF;
-        outline-offset: 4px;
+    .range-input:focus-visible::-moz-range-thumb {
+        width: 16px;
+        height: 16px;
+        background: #0900FF;
+        border: 2px solid white;
+        box-shadow: 0 0 0 2px #0900FF;
     }
     
     .sr-only {
