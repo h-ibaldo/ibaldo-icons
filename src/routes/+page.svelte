@@ -1,5 +1,5 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount, afterUpdate } from 'svelte';
   import ActionsBar from '$lib/components/ActionsBar.svelte';
 
   let iconsByCategory = {};
@@ -203,7 +203,20 @@
   function lazyLoadIcon(node, icon) {
     node.__icon = icon;
     if (observer) {
-      observer.observe(node);
+      // Check if element is already visible before observing
+      // This handles cases where icons are filtered and become visible immediately
+      const rect = node.getBoundingClientRect();
+      const isVisible = rect.top < window.innerHeight + 50 && rect.bottom > -50;
+      
+      if (isVisible && icon && !icon.svg) {
+        // Load immediately if already visible
+        ensureSVGLoaded(icon).then(() => {
+          iconsByCategory = { ...iconsByCategory };
+        });
+      } else {
+        // Otherwise observe for when it becomes visible
+        observer.observe(node);
+      }
     }
     return {
       destroy() {
@@ -261,6 +274,34 @@
   $: filteredIcons = currentIcons.filter(icon => 
     icon.name.toLowerCase().includes(search.toLowerCase())
   );
+
+  // Track previous search to detect changes
+  let previousSearch = '';
+  let previousFilteredLength = 0;
+
+  // When filtered icons change (e.g., due to search), preload first batch
+  afterUpdate(() => {
+    // Check if search changed or filtered icons changed
+    if (search !== previousSearch || filteredIcons.length !== previousFilteredLength) {
+      previousSearch = search;
+      previousFilteredLength = filteredIcons.length;
+      
+      // Load first batch of filtered icons that don't have SVG loaded yet
+      // This ensures icons are ready when they become visible
+      const iconsToLoad = filteredIcons
+        .filter(icon => !icon.svg && icon.path)
+        .slice(0, 50); // Preload first 50 unloaded filtered icons
+      
+      if (iconsToLoad.length > 0) {
+        // Use a small delay to avoid blocking the UI update
+        setTimeout(() => {
+          Promise.all(iconsToLoad.map(icon => ensureSVGLoaded(icon))).then(() => {
+            iconsByCategory = { ...iconsByCategory };
+          });
+        }, 0);
+      }
+    }
+  });
 
   $: totalIcons = Object.values(iconsByCategory)
       .reduce((sum, icons) => sum + (Array.isArray(icons) ? icons.length : 0), 0);
@@ -358,7 +399,7 @@
 </style>
 
 <ActionsBar bind:search bind:size bind:weight {totalIcons} />
-<div class="py-4 sm:px-14 w-full max-w-full">
+<div class="py-4 sm:px-14 w-full max-w-full overflow-hidden">
 
   {#if currentCategory}
       <div class="mb-8">
