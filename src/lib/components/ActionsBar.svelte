@@ -55,7 +55,7 @@
         gap: 2rem;
         padding: 0.25rem 0.25rem;
         max-width: 1200px;
-        margin: 30px auto 40px;
+        margin: 30px auto 0px;
     }
 
     .search-wrapper {

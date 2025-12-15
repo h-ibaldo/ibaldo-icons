@@ -399,7 +399,7 @@
 </style>
 
 <ActionsBar bind:search bind:size bind:weight {totalIcons} />
-<div class="py-4 sm:px-14 w-full max-w-full overflow-hidden">
+<div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden">
 
   {#if currentCategory}
       <div class="mb-8">
