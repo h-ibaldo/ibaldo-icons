@@ -88,6 +88,8 @@
         width: calc(660px - 0.5rem);
         background-color: #0700CC;
         transition-delay: 0.1s;
+        outline: 2px solid #0900FF;
+        outline-offset: 2px;
     }
 
     .search-input::placeholder {
@@ -161,6 +163,28 @@
     .range-input::-moz-range-thumb:hover {
         background: #0700CC;
     }
+    
+    .range-input:focus {
+        outline: 2px solid #0900FF;
+        outline-offset: 4px;
+    }
+    
+    .range-input:focus-visible {
+        outline: 2px solid #0900FF;
+        outline-offset: 4px;
+    }
+    
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+    }
 
     @media (max-width: 768px) {
         .actions-bar-container {
@@ -205,17 +229,20 @@
     <div class="actions-bar overflow-hidden {searchFocused? 'search-input-focused' : ''}">
         <!-- Search -->
         <div class="search-wrapper">
-            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <label for="icon-search" class="sr-only">Search icons</label>
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <circle cx="11" cy="11" r="8"></circle>
                 <path d="m21 21-4.35-4.35"></path>
             </svg>
             <input
+                id="icon-search"
                 type="text"
                 placeholder="Search {totalIcons} icons..."
                 bind:value={search}
                 onfocus={() => searchFocused = true}
                 onblur={() => searchFocused = false}
                 class="search-input focus:outline-none focus:ring-0 focus:bg-indigo-600"
+                aria-label="Search icons"
             />
         </div>
 
@@ -231,9 +258,13 @@
                     step="4"
                     bind:value={size}
                     class="range-input"
+                    aria-label="Icon size"
+                    aria-valuemin="12"
+                    aria-valuemax={maxSize}
+                    aria-valuenow={size}
                 />
             </div>
-            <span class="slider-value text-left">{size}px</span>
+            <span class="slider-value text-left" aria-hidden="true">{size}px</span>
         </div>
 
         <!-- Weight Slider -->
@@ -248,9 +279,13 @@
                     step="0.5"
                     bind:value={weight}
                     class="range-input"
+                    aria-label="Icon stroke weight"
+                    aria-valuemin="0.5"
+                    aria-valuemax="2.5"
+                    aria-valuenow={weight}
                 />
             </div>
-            <span class="slider-value">{weight}pt</span>
+            <span class="slider-value" aria-hidden="true">{weight}pt</span>
         </div>
     </div>
 </div>

@@ -37,19 +37,29 @@
     
     // Add CSS variable to SVG element itself so it can be inherited by child elements
     // This ensures the variable is available to all stroke elements
+    // Also add aria-hidden="true" for accessibility (icons are decorative)
     normalized = normalized.replace(/<svg([^>]*)>/i, (match, attrs) => {
+      // Ensure aria-hidden is set for accessibility
+      let updatedAttrs = attrs;
+      if (!updatedAttrs.match(/aria-hidden=/i)) {
+        updatedAttrs += ' aria-hidden="true"';
+      } else {
+        updatedAttrs = updatedAttrs.replace(/\saria-hidden=["'][^"']*["']/gi, ' aria-hidden="true"');
+      }
+      
       // Check if style attribute exists
-      if (attrs.match(/style=/i)) {
+      if (updatedAttrs.match(/style=["']/i)) {
         // Add CSS variable to existing style
-        return match.replace(/style=["']([^"']*)["']/i, (styleMatch, styleContent) => {
+        updatedAttrs = updatedAttrs.replace(/style=["']([^"']*)["']/i, (styleMatch, styleContent) => {
           if (!styleContent.includes('--stroke-width')) {
             return `style="${styleContent}; --stroke-width: inherit"`;
           }
           return styleMatch;
         });
+        return `<svg${updatedAttrs}>`;
       } else {
         // Add style attribute with CSS variable
-        return `<svg${attrs} style="--stroke-width: inherit">`;
+        return `<svg${updatedAttrs} style="--stroke-width: inherit">`;
       }
     });
     
@@ -199,6 +209,14 @@
 
   let observer;
   
+  // Handle icon download (used by both click and keyboard)
+  async function handleIconDownload(icon) {
+    await ensureSVGLoaded(icon);
+    iconsByCategory = { ...iconsByCategory };
+    const processedSVG = processSVGForDownload(icon, size, weight);
+    downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
+  }
+  
   // Action for lazy loading icons
   function lazyLoadIcon(node, icon) {
     node.__icon = icon;
@@ -329,6 +347,13 @@
     cursor: pointer;
   }
   
+  /* Visible focus indicator for keyboard navigation */
+  .icon-container:focus-visible {
+    outline: 3px solid #0900FF;
+    outline-offset: 2px;
+    border-radius: 8px;
+  }
+  
   .icon-tooltip {
     position: absolute;
     bottom: 100%;
@@ -347,7 +372,8 @@
     z-index: 10;
   }
   
-  .icon-container:hover .icon-tooltip {
+  .icon-container:hover .icon-tooltip,
+  .icon-container:focus-visible .icon-tooltip {
     opacity: 1;
   }
   
@@ -389,6 +415,19 @@
     background: #000;
     color: transparent;
   }
+  
+  /* Screen reader only class for accessible text */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
 
   @media (max-width: 639px) {
     .icon-container {
@@ -398,8 +437,17 @@
   }
 </style>
 
+<!-- Loading status announcement for screen readers -->
+<div aria-live="polite" aria-atomic="true" class="sr-only">
+  {#if loadingCategory}
+    Loading icons...
+  {:else if filteredIcons.length > 0}
+    {filteredIcons.length} {filteredIcons.length === 1 ? 'icon' : 'icons'} found
+  {/if}
+</div>
+
 <ActionsBar bind:search bind:size bind:weight {totalIcons} />
-<div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden">
+<div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden" id="main-content" tabindex="-1">
 
   {#if currentCategory}
       <div class="mb-8">
@@ -410,28 +458,20 @@
               {/if}
           </h2>
           {#if currentIcons.length > 0}
-              <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center">
-                  {#each filteredIcons as icon}
-                      <div class="flex flex-col items-center">
+              <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center" role="list" aria-label="Icon grid">
+                  {#each filteredIcons as icon (icon.path)}
+                      <div class="flex flex-col items-center" role="listitem">
                           <div 
                               class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-200 active:bg-slate-300" 
                               use:lazyLoadIcon={icon}
-                              on:click={async () => {
-                                // Ensure SVG is loaded before download
-                                await ensureSVGLoaded(icon);
-                                iconsByCategory = { ...iconsByCategory };
-                                const processedSVG = processSVGForDownload(icon, size, weight);
-                                downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
-                              }}
+                              on:click={() => handleIconDownload(icon)}
                               role="button"
                               tabindex="0"
-                              on:keydown={async (e) => {
-                                if (e.key === 'Enter') {
-                                  // Ensure SVG is loaded before download
-                                  await ensureSVGLoaded(icon);
-                                  iconsByCategory = { ...iconsByCategory };
-                                  const processedSVG = processSVGForDownload(icon, size, weight);
-                                  downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
+                              aria-label="Download {icon.name} icon"
+                              on:keydown={(e) => {
+                                if (e.key === 'Enter' || e.key === ' ') {
+                                  e.preventDefault();
+                                  handleIconDownload(icon);
                                 }
                               }}
                           >
@@ -444,8 +484,17 @@
                                         /<svg([^>]*)>/i,
                                         (match, attrs) => {
                                           // Update or add --stroke-width in style attribute
-                                          if (attrs.match(/style=["']/i)) {
-                                            return match.replace(
+                                          // Ensure aria-hidden is set (should already be set by normalizeSVG, but ensure it)
+                                          let updatedAttrs = attrs;
+                                          if (!updatedAttrs.match(/aria-hidden=/i)) {
+                                            updatedAttrs += ' aria-hidden="true"';
+                                          } else {
+                                            updatedAttrs = updatedAttrs.replace(/\saria-hidden=["'][^"']*["']/gi, ' aria-hidden="true"');
+                                          }
+                                          
+                                          if (updatedAttrs.match(/style=["']/i)) {
+                                            // Update style attribute with stroke-width
+                                            updatedAttrs = updatedAttrs.replace(
                                               /style=["']([^"']*)["']/i,
                                               (styleMatch, styleContent) => {
                                                 const updated = styleContent.replace(/--stroke-width:[^;]*/i, `--stroke-width: ${weight}px`);
@@ -454,16 +503,17 @@
                                                   : `style="${styleContent}; --stroke-width: ${weight}px"`;
                                               }
                                             );
+                                            return `<svg${updatedAttrs}>`;
                                           } else {
-                                            return `<svg${attrs} style="--stroke-width: ${weight}px">`;
+                                            return `<svg${updatedAttrs} style="--stroke-width: ${weight}px">`;
                                           }
                                         }
                                       )}
                                   {:else}
-                                      <div class="w-full h-full bg-gray-100 animate-pulse rounded"></div>
+                                      <div class="w-full h-full bg-gray-100 animate-pulse rounded" aria-hidden="true"></div>
                                   {/if}
                               </div>
-                              <div class="icon-tooltip">{icon.name}</div>
+                              <div class="icon-tooltip" aria-hidden="true">{icon.name}</div>
                           </div>
                       </div>
                   {/each}
