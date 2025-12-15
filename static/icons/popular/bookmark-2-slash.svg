@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-de22760f-50a0-4c86-a4dc-2b57fb686104" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <path d="M19,8.999999999998181v-4.000002999999197c0-1.656852592641371,1.343144416809082-2.999997000000803,2.999996999998984-2.999997000000803h.000003000001016H7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="5 5.649999999997817 5 21.999999999998181 12 17.999999995146936 19 21.999999999998181 19 13.349999999998545" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="2" y1="3.999999999998181" x2="22" y2="14.999999999998181" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M19,8.999999999998181v-4.000002999999197c0-1.656852592641371,1.343144416809082-2.999997000000803,2.999996999998984-2.999997000000803h.000003000001016H7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="5 5.649999999997817 5 21.999999999998181 12 17.999999995146936 19 21.999999999998181 19 13.349999999998545" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="2" y1="3.999999999998181" x2="22" y2="14.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-399b8020-38b7-4460-8b2a-197fa3f87e20" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g>
+    <line x1="13.999999993633537" y1="12.998779299956368" x2="9.999999993633537" y2="16.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="13.999999993633537" y1="16.998779299956368" x2="9.999999993633537" y2="12.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x="1.999999993633537" y="1.998779299956368" width="20" height="20" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1.999999993633537" y1="7.998779299956368" x2="21.999999993633537" y2="7.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="5.00999999364285" y1="4.998779299956368" x2="4.999999993642632" y2="4.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="8.00999999364285" y1="4.998779299956368" x2="7.999999993642632" y2="4.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11.00999999364285" y1="4.998779299956368" x2="10.999999993642632" y2="4.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

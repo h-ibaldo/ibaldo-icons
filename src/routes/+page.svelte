@@ -58,7 +58,8 @@
 
   // Get normalized SVG (processed once, cached forever)
   function getNormalizedSVG(icon) {
-    if (!icon || !icon.svg) return '';
+    if (!icon) return '';
+    if (!icon.svg) return ''; // SVG not loaded yet
     
     if (!normalizedSvgCache.has(icon)) {
       const normalized = normalizeSVG(icon.svg);
@@ -67,6 +68,19 @@
     }
     
     return normalizedSvgCache.get(icon);
+  }
+  
+  // Load SVG for an icon if not already loaded
+  async function ensureSVGLoaded(icon) {
+    if (icon.svg) return; // Already loaded
+    if (!icon.path) return;
+    
+    try {
+      const svg = await loadSVG(icon.path);
+      icon.svg = svg;
+    } catch (error) {
+      console.error(`Error loading SVG for ${icon.name}:`, error);
+    }
   }
 
   // Process SVG for download (includes size and weight in the SVG itself)
@@ -157,15 +171,25 @@
         const iconList = index.icons?.[category] || [];
         console.log(`Loaded ${iconList.length} icons for category: ${category}`);
         
-        // Load SVG content for each icon
-        const iconsWithSVG = await Promise.all(
-            iconList.map(async (icon) => {
-                const svg = await loadSVG(icon.path);
-                return { ...icon, svg };
-            })
-        );
+        // Store icons without SVG content initially (lazy loading)
+        // Only load SVG content when icons become visible
+        iconsByCategory[category] = iconList.map(icon => ({ ...icon, svg: null }));
         
-        iconsByCategory[category] = iconsWithSVG;
+        // Preload first batch of icons (first 50) for immediate display
+        const preloadBatch = iconList.slice(0, 50);
+        const preloadPromises = preloadBatch.map(async (icon) => {
+          const svg = await loadSVG(icon.path);
+          const iconObj = iconsByCategory[category].find(i => i.path === icon.path);
+          if (iconObj) iconObj.svg = svg;
+        });
+        
+        // Wait for preloads to complete and trigger reactivity
+        Promise.all(preloadPromises).then(() => {
+          iconsByCategory = { ...iconsByCategory };
+        }).catch(err => {
+          console.error('Error preloading icons:', err);
+        });
+        
     } catch (error) {
         console.error(`Error loading ${category} icons:`, error);
     } finally {
@@ -173,7 +197,43 @@
     }
   }
 
+  let observer;
+  
+  // Action for lazy loading icons
+  function lazyLoadIcon(node, icon) {
+    node.__icon = icon;
+    if (observer) {
+      observer.observe(node);
+    }
+    return {
+      destroy() {
+        if (observer) {
+          observer.unobserve(node);
+        }
+      }
+    };
+  }
+  
   onMount(async () => {
+    // Set up Intersection Observer for lazy loading
+    observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const iconElement = entry.target;
+          const icon = iconElement.__icon;
+          if (icon && !icon.svg) {
+            ensureSVGLoaded(icon).then(() => {
+              // Trigger reactivity by reassigning
+              iconsByCategory = { ...iconsByCategory };
+            });
+          }
+          observer.unobserve(iconElement);
+        }
+      });
+    }, {
+      rootMargin: '50px' // Start loading 50px before icon is visible
+    });
+    
     await loadCategories();
     currentCategory = getCategoryFromHash();
     await loadCategory(currentCategory);
@@ -187,6 +247,12 @@
             }
         }
     });
+    
+    return () => {
+      if (observer) {
+        observer.disconnect();
+      }
+    };
   });
 
   $: currentIcons = iconsByCategory[currentCategory] || [];
@@ -308,14 +374,21 @@
                       <div class="flex flex-col items-center">
                           <div 
                               class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-200 active:bg-slate-300" 
-                              on:click={() => {
+                              use:lazyLoadIcon={icon}
+                              on:click={async () => {
+                                // Ensure SVG is loaded before download
+                                await ensureSVGLoaded(icon);
+                                iconsByCategory = { ...iconsByCategory };
                                 const processedSVG = processSVGForDownload(icon, size, weight);
                                 downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
                               }}
                               role="button"
                               tabindex="0"
-                              on:keydown={(e) => {
+                              on:keydown={async (e) => {
                                 if (e.key === 'Enter') {
+                                  // Ensure SVG is loaded before download
+                                  await ensureSVGLoaded(icon);
+                                  iconsByCategory = { ...iconsByCategory };
                                   const processedSVG = processSVGForDownload(icon, size, weight);
                                   downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
                                 }
@@ -325,25 +398,29 @@
                                   style={`width: ${size}px; height: ${size}px;`} 
                                   class="icon-wrapper"
                               >
-                                  {@html getNormalizedSVG(icon).replace(
-                                    /<svg([^>]*)>/i,
-                                    (match, attrs) => {
-                                      // Update or add --stroke-width in style attribute
-                                      if (attrs.match(/style=["']/i)) {
-                                        return match.replace(
-                                          /style=["']([^"']*)["']/i,
-                                          (styleMatch, styleContent) => {
-                                            const updated = styleContent.replace(/--stroke-width:[^;]*/i, `--stroke-width: ${weight}px`);
-                                            return updated.includes('--stroke-width')
-                                              ? `style="${updated}"`
-                                              : `style="${styleContent}; --stroke-width: ${weight}px"`;
+                                  {#if icon.svg}
+                                      {@html getNormalizedSVG(icon).replace(
+                                        /<svg([^>]*)>/i,
+                                        (match, attrs) => {
+                                          // Update or add --stroke-width in style attribute
+                                          if (attrs.match(/style=["']/i)) {
+                                            return match.replace(
+                                              /style=["']([^"']*)["']/i,
+                                              (styleMatch, styleContent) => {
+                                                const updated = styleContent.replace(/--stroke-width:[^;]*/i, `--stroke-width: ${weight}px`);
+                                                return updated.includes('--stroke-width')
+                                                  ? `style="${updated}"`
+                                                  : `style="${styleContent}; --stroke-width: ${weight}px"`;
+                                              }
+                                            );
+                                          } else {
+                                            return `<svg${attrs} style="--stroke-width: ${weight}px">`;
                                           }
-                                        );
-                                      } else {
-                                        return `<svg${attrs} style="--stroke-width: ${weight}px">`;
-                                      }
-                                    }
-                                  )}
+                                        }
+                                      )}
+                                  {:else}
+                                      <div class="w-full h-full bg-gray-100 animate-pulse rounded"></div>
+                                  {/if}
                               </div>
                               <div class="icon-tooltip">{icon.name}</div>
                           </div>

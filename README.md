@@ -36,3 +36,17 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Managing Icons
+
+### After Deleting an Icon
+
+After deleting an icon from the `static/icons/` folder, you must regenerate the icons index:
+
+```bash
+node scripts/generate-icons-index.js
+```
+
+This script scans the icons folder and updates `static/icons-index.json` to reflect the current icons. The index is automatically regenerated before builds, but during development you should run it manually after deleting icons.
+
+**Note:** Refresh your browser after regenerating the index to see the changes.

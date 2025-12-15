@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-19258626-d5da-44d9-8402-16c75c39675c" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path d="M11.999999994010068,18.998779299956368h-5c-.552284749830505,0-1-.447715250171314-1-1V6.998779299956368c0-.552284749832324.447715250169495-1,1-1h11c.552284749830505,0,1,.447715250167676,1,1v5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1.999999994010068,13.998779299956368V2.998779299956368c0-.552284749832324.447715250169495-1,1-1h11" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <line x1="18.999999994010068" y1="15.998779299956368" x2="18.999999994010068" y2="21.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="21.999999994010068" y1="18.998779299865419" x2="15.999999994010068" y2="18.99877930004368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

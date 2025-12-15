@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-1231a140-e6b0-4928-a71d-df58272203d2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g>
+    <line x1="13.999999993642632" y1="12.998779299956368" x2="9.999999993642632" y2="16.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="13.999999993642632" y1="16.998779299956368" x2="9.999999993642632" y2="12.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x="1.999999993631718" y="1.998779299956368" width="20" height="20" rx="3" ry="3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1.999999993631718" y1="7.998779299956368" x2="21.999999993631718" y2="7.998779299956368" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

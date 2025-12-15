@@ -8,14 +8,14 @@
     export let totalIcons = 0;
     
     let isSmallScreen = false;
-    let maxSize = 100;
+    let maxSize = 92;
     let searchFocused = false;
     
     function checkScreenSize() {
         if (!browser) return;
         
         isSmallScreen = window.innerWidth <= 639;
-        maxSize = isSmallScreen ? 44 : 100;
+        maxSize = isSmallScreen ? 44 : 92;
         
         // Clamp size if it exceeds maxSize
         if (size > maxSize) {
@@ -202,7 +202,7 @@
 </style>
 
 <div class="actions-bar-container bg-slate-900">
-    <div class="actions-bar {searchFocused? 'search-input-focused' : ''}">
+    <div class="actions-bar overflow-hidden {searchFocused? 'search-input-focused' : ''}">
         <!-- Search -->
         <div class="search-wrapper">
             <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

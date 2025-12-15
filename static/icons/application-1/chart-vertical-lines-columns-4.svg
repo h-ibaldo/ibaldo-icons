@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-ab629cdf-8450-402a-8f1f-6246b46e160c" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <polyline points="2 2 2 22 22 22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7" y1="22" x2="7" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11" y1="22" x2="11" y2="12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="15" y1="22" x2="15" y2="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="19" y1="22" x2="19" y2="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

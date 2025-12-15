@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-a17be9f3-7ab8-4114-8d17-c1b0b83f3fbc" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <line x1="7.999999999959982" y1="15" x2="7.999999999959982" y2="12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11.999999999959982" y1="15" x2="11.999999999959982" y2="9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="15.999999999959982" y1="15" x2="15.999999999959982" y2="11" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="17" y1="5.000000000090949" x2="21.999999999909051" y2="5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13,2.05047607421875c-.328857421869543-.03289794921875-.662353515619543-.05047607421875-1-.05047607421875C6.47705078125,2,2,6.4771728515625,2,12c0,5.52294921875,4.47705078125,10,10,10s10-4.47705078125,10-10c0-.68505859375-.069580078119543-1.353759765625-.200927734369543-2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
