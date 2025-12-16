@@ -15,6 +15,10 @@
     let localSize = size;
     let localWeight = weight;
     
+    // Optimistic UI: track active state for visual feedback
+    let sizeActive = false;
+    let weightActive = false;
+    
     // Sync local values when props change externally
     $: if (size !== localSize) {
         localSize = size;
@@ -26,6 +30,9 @@
     function updateSize(newSize) {
         localSize = newSize;
         size = newSize; // Update prop for other components
+        
+        // Optimistic UI: trigger visual feedback
+        sizeActive = true;
         
         // Directly update CSS variable - NO Svelte re-render
         if (browser) {
@@ -40,6 +47,9 @@
         localWeight = newWeight;
         weight = newWeight; // Update prop for other components
         
+        // Optimistic UI: trigger visual feedback
+        weightActive = true;
+        
         // Directly update CSS variable - NO Svelte re-render
         if (browser) {
             const grid = document.querySelector('[role="list"]');
@@ -47,6 +57,14 @@
                 grid.style.setProperty('--stroke-width', `${newWeight}px`);
             }
         }
+    }
+    
+    // Reset active states after animation
+    $: if (sizeActive) {
+        setTimeout(() => sizeActive = false, 150);
+    }
+    $: if (weightActive) {
+        setTimeout(() => weightActive = false, 150);
     }
     
     function checkScreenSize() {
@@ -161,6 +179,22 @@
         color: white;
         font-size: 14px;
         min-width: 50px;
+        /* Optimistic UI: smooth value updates */
+        transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1),
+                    color 0.15s ease;
+        font-variant-numeric: tabular-nums; /* Prevent layout shift on number changes */
+    }
+    
+    /* Optimistic UI: active state for value display */
+    .slider-value.active {
+        animation: value-pulse 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+        color: #0900FF;
+    }
+    
+    /* Optimistic UI: pulse effect when value changes */
+    @keyframes value-pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.08); }
     }
 
     .range-input {
@@ -171,6 +205,8 @@
         background: white;
         outline: none;
         cursor: pointer;
+        /* Optimistic UI: instant visual feedback */
+        transition: opacity 0.1s ease;
     }
 
     .range-input::-webkit-slider-thumb {
@@ -182,6 +218,12 @@
         border: 1px solid white;
         cursor: pointer;
         border-radius: 0;
+        /* Optimistic UI: smooth thumb movement */
+        transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1),
+                    background-color 0.15s ease,
+                    width 0.15s ease,
+                    height 0.15s ease;
+        will-change: transform;
     }
 
     .range-input::-moz-range-thumb {
@@ -191,14 +233,33 @@
         border: none;
         cursor: pointer;
         border-radius: 0;
+        /* Optimistic UI: smooth thumb movement */
+        transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1),
+                    background-color 0.15s ease,
+                    width 0.15s ease,
+                    height 0.15s ease;
+        will-change: transform;
     }
 
     .range-input::-webkit-slider-thumb:hover {
         background: #0700CC;
+        transform: scale(1.1);
     }
 
     .range-input::-moz-range-thumb:hover {
         background: #0700CC;
+        transform: scale(1.1);
+    }
+    
+    /* Active state: visual feedback when dragging */
+    .range-input:active::-webkit-slider-thumb {
+        background: #0500AA;
+        transform: scale(1.15);
+    }
+    
+    .range-input:active::-moz-range-thumb {
+        background: #0500AA;
+        transform: scale(1.15);
     }
     
     /* Enhanced focus state: larger thumb with white ring for better visibility */
@@ -336,7 +397,7 @@
                     aria-valuenow={localSize}
                 />
             </div>
-            <span class="slider-value text-left" aria-hidden="true">{localSize}px</span>
+            <span class="slider-value text-left {sizeActive ? 'active' : ''}" aria-hidden="true">{localSize}px</span>
         </div>
 
         <!-- Weight Slider -->
@@ -358,7 +419,7 @@
                     aria-valuenow={localWeight}
                 />
             </div>
-            <span class="slider-value" aria-hidden="true">{localWeight}pt</span>
+            <span class="slider-value {weightActive ? 'active' : ''}" aria-hidden="true">{localWeight}pt</span>
         </div>
     </div>
 </div>
