@@ -242,6 +242,7 @@
             left: 0;
             right: 0;
             z-index: 40;
+            max-width: 100vw;
         }
         .actions-bar {
             flex-direction: column;
@@ -269,6 +270,27 @@
         }
         .search-input-focused .slider-group {
             opacity: 1;
+        }
+
+        /* Range input thumb size for smaller screens */
+        .range-input::-webkit-slider-thumb {
+            width: 42px;
+            height: 24px;
+        }
+
+        .range-input::-moz-range-thumb {
+            width: 42px;
+            height: 24px;
+        }
+
+        .range-input:focus-visible::-webkit-slider-thumb {
+            width: 42px;
+            height: 24px;
+        }
+
+        .range-input:focus-visible::-moz-range-thumb {
+            width: 42px;
+            height: 24px;
         }
     }
 </style>
