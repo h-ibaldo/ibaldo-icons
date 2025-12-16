@@ -255,6 +255,11 @@
             flex: 1 1 100%;
             width: 100%;
         }
+        
+        .search-input {
+            font-size: 16px; /* Prevent zoom on mobile when focusing */
+        }
+        
         .search-input:focus {
             width: 100%;
             background-color: #0700CC;
