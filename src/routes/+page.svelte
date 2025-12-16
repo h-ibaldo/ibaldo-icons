@@ -461,12 +461,16 @@
     border-radius: 8px;
   }
   
+  /* Icon item wrapper - positioning context for tooltip */
+  .icon-item {
+    position: relative;
+  }
+  
   .icon-tooltip {
     position: absolute;
-    bottom: 100%;
+    bottom: calc(100% + 8px);
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 8px;
     padding: 4px 8px;
     background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
     color: white;
@@ -479,8 +483,8 @@
     z-index: 10;
   }
   
-  .icon-container:hover .icon-tooltip,
-  .icon-container:focus-visible .icon-tooltip {
+  .icon-item:hover .icon-tooltip,
+  .icon-item:focus-within .icon-tooltip {
     opacity: 1;
   }
   
@@ -580,7 +584,7 @@
                   style="--icon-size: {size}px; --stroke-width: {weight}px;"
               >
                   {#each filteredIcons as icon (icon.path)}
-                      <div class="flex flex-col items-center" role="listitem">
+                      <div class="flex flex-col items-center icon-item" role="listitem">
                           <div 
                               class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-200 active:bg-slate-300" 
                               use:lazyLoadIcon={icon}
@@ -604,8 +608,8 @@
                                       <div class="icon-skeleton" aria-hidden="true"></div>
                                   {/if}
                               </div>
-                              <div class="icon-tooltip" aria-hidden="true">{icon.name}</div>
                           </div>
+                          <div class="icon-tooltip" aria-hidden="true">{icon.name}</div>
                       </div>
                   {/each}
               </div>
