@@ -391,7 +391,8 @@
     height: var(--icon-size, 24px);
     /* GPU acceleration hint */
     transform: translateZ(0);
-    will-change: width, height;
+    /* Smooth transition for size changes */
+    transition: width 0.15s ease-out, height 0.15s ease-out;
   }
   
   :global(.icon-wrapper svg) {
@@ -404,7 +405,8 @@
   /* Uses CSS variable from parent grid - cascades down automatically */
   :global(.icon-wrapper svg *[stroke]) {
     stroke-width: var(--stroke-width, 1px) !important;
-    will-change: stroke-width;
+    /* Smooth transition for weight changes */
+    transition: stroke-width 0.15s ease-out;
   }
   
   .icon-container {
@@ -527,6 +529,12 @@
     color: transparent;
   }
   
+  /* Optimize grid performance during size/weight changes */
+  :global([role="list"]) {
+    /* Hint to browser that size/weight will change */
+    will-change: auto;
+  }
+
   /* Screen reader only class for accessible text */
   .sr-only {
     position: absolute;
