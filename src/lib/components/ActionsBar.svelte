@@ -11,38 +11,41 @@
     let maxSize = 92;
     let searchFocused = false;
     
-    // Throttle updates using requestAnimationFrame for smooth 60fps updates
-    // Local values update immediately for responsive UI, but prop updates are throttled
+    // Local values for immediate slider feedback
     let localSize = size;
     let localWeight = weight;
-    let sizeRafId = null;
-    let weightRafId = null;
     
     // Sync local values when props change externally
-    $: if (size !== localSize && sizeRafId === null) {
+    $: if (size !== localSize) {
         localSize = size;
     }
-    $: if (weight !== localWeight && weightRafId === null) {
+    $: if (weight !== localWeight) {
         localWeight = weight;
     }
     
     function updateSize(newSize) {
-        localSize = newSize; // Update immediately for responsive slider
-        if (sizeRafId === null) {
-            sizeRafId = requestAnimationFrame(() => {
-                size = localSize; // Update prop (triggers re-render) on next frame
-                sizeRafId = null;
-            });
+        localSize = newSize;
+        size = newSize; // Update prop for other components
+        
+        // Directly update CSS variable - NO Svelte re-render
+        if (browser) {
+            const grid = document.querySelector('[role="list"]');
+            if (grid) {
+                grid.style.setProperty('--icon-size', `${newSize}px`);
+            }
         }
     }
     
     function updateWeight(newWeight) {
-        localWeight = newWeight; // Update immediately for responsive slider
-        if (weightRafId === null) {
-            weightRafId = requestAnimationFrame(() => {
-                weight = localWeight; // Update prop (triggers re-render) on next frame
-                weightRafId = null;
-            });
+        localWeight = newWeight;
+        weight = newWeight; // Update prop for other components
+        
+        // Directly update CSS variable - NO Svelte re-render
+        if (browser) {
+            const grid = document.querySelector('[role="list"]');
+            if (grid) {
+                grid.style.setProperty('--stroke-width', `${newWeight}px`);
+            }
         }
     }
     
@@ -68,13 +71,6 @@
     onDestroy(() => {
         if (browser) {
             window.removeEventListener('resize', checkScreenSize);
-        }
-        // Clean up any pending animation frames
-        if (sizeRafId !== null) {
-            cancelAnimationFrame(sizeRafId);
-        }
-        if (weightRafId !== null) {
-            cancelAnimationFrame(weightRafId);
         }
     });
 </script>

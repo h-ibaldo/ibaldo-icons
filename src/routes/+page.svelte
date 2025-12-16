@@ -255,6 +255,13 @@
   }
   
   onMount(async () => {
+    // Set initial CSS variables directly (avoids Svelte reactivity lag)
+    const grid = document.querySelector('[role="list"]');
+    if (grid) {
+        grid.style.setProperty('--icon-size', `${size}px`);
+        grid.style.setProperty('--stroke-width', `${weight}px`);
+    }
+
     // Detect mobile device
     isMobile = window.innerWidth <= 768;
     const handleResize = () => {
@@ -391,8 +398,7 @@
     height: var(--icon-size, 24px);
     /* GPU acceleration hint */
     transform: translateZ(0);
-    /* Smooth transition for size changes */
-    transition: width 0.15s ease-out, height 0.15s ease-out;
+    will-change: width, height;
   }
   
   :global(.icon-wrapper svg) {
@@ -405,8 +411,7 @@
   /* Uses CSS variable from parent grid - cascades down automatically */
   :global(.icon-wrapper svg *[stroke]) {
     stroke-width: var(--stroke-width, 1px) !important;
-    /* Smooth transition for weight changes */
-    transition: stroke-width 0.15s ease-out;
+    will-change: stroke-width;
   }
   
   .icon-container {
@@ -529,12 +534,6 @@
     color: transparent;
   }
   
-  /* Optimize grid performance during size/weight changes */
-  :global([role="list"]) {
-    /* Hint to browser that size/weight will change */
-    will-change: auto;
-  }
-
   /* Screen reader only class for accessible text */
   .sr-only {
     position: absolute;
@@ -589,7 +588,6 @@
                   class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center" 
                   role="list" 
                   aria-label="Icon grid"
-                  style="--icon-size: {size}px; --stroke-width: {weight}px;"
               >
                   {#each filteredIcons as icon (icon.path)}
                       <div class="flex flex-col items-center icon-item" role="listitem">
