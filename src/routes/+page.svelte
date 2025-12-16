@@ -11,9 +11,17 @@
   let currentCategory = 'popular';
   let search = '';
   let svgCache = {};
-  
+
   // Cache for normalized SVGs (processed once on load, never re-processed)
   let normalizedSvgCache = new WeakMap();
+
+  // Mobile optimization: detect mobile and adjust behavior
+  let isMobile = false;
+  let renderedIconsCount = 0;
+  let loadingMoreIcons = false;
+
+  // Passive event listeners for better scroll performance
+  let scrollTimeout;
 
   // Normalize SVG once on load: remove width/height, prepare for CSS control
   // This is the key to Lucide's smooth performance - process once, control via CSS
@@ -105,9 +113,9 @@
     processed = processed.replace(/(<svg[^>]*\s)height=["']\d+["']/gi, `$1height="${targetSize}"`);
     
     // Add stroke-width to all stroke elements
-    processed = processed.replace(/(<[^>]*\sstroke=["'][^"']*["'][^>]*)(>)/gi, (match, before, after) => {
+    processed = processed.replace(/(<[^>]*\sstroke=["'][^"']*["'][^>]*)(\/?)(>)/gi, (match, before, slash, after) => {
       if (!match.match(/stroke-width=/i)) {
-        return `${before} stroke-width="${strokeWeight}"${after}`;
+        return `${before} stroke-width="${strokeWeight}"${slash}${after}`;
       }
       return match.replace(/stroke-width=["'][^"']*["']/gi, `stroke-width="${strokeWeight}"`);
     });
@@ -184,15 +192,16 @@
         // Store icons without SVG content initially (lazy loading)
         // Only load SVG content when icons become visible
         iconsByCategory[category] = iconList.map(icon => ({ ...icon, svg: null }));
-        
-        // Preload first batch of icons (first 50) for immediate display
-        const preloadBatch = iconList.slice(0, 50);
+
+        // Mobile optimization: smaller preload batch for mobile devices
+        const preloadCount = isMobile ? 20 : 50;
+        const preloadBatch = iconList.slice(0, preloadCount);
         const preloadPromises = preloadBatch.map(async (icon) => {
           const svg = await loadSVG(icon.path);
           const iconObj = iconsByCategory[category].find(i => i.path === icon.path);
           if (iconObj) iconObj.svg = svg;
         });
-        
+
         // Wait for preloads to complete and trigger reactivity
         Promise.all(preloadPromises).then(() => {
           iconsByCategory = { ...iconsByCategory };
@@ -246,29 +255,69 @@
   }
   
   onMount(async () => {
+    // Detect mobile device
+    isMobile = window.innerWidth <= 768;
+    const handleResize = () => {
+      isMobile = window.innerWidth <= 768;
+    };
+    window.addEventListener('resize', handleResize);
+
     // Set up Intersection Observer for lazy loading
+    // Mobile optimization: smaller root margin for better performance
     observer = new IntersectionObserver((entries) => {
+      // Batch SVG loads to prevent blocking
+      const iconsToLoad = [];
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const iconElement = entry.target;
           const icon = iconElement.__icon;
           if (icon && !icon.svg) {
-            ensureSVGLoaded(icon).then(() => {
-              // Trigger reactivity by reassigning
-              iconsByCategory = { ...iconsByCategory };
-            });
+            iconsToLoad.push(icon);
           }
           observer.unobserve(iconElement);
         }
       });
+
+      // Load icons in small batches to prevent blocking scrolling
+      if (iconsToLoad.length > 0) {
+        loadingMoreIcons = true;
+        const batchSize = isMobile ? 5 : 10;
+        let currentBatch = 0;
+
+        const loadNextBatch = () => {
+          const start = currentBatch * batchSize;
+          const batch = iconsToLoad.slice(start, start + batchSize);
+
+          if (batch.length > 0) {
+            Promise.all(batch.map(icon => ensureSVGLoaded(icon))).then(() => {
+              iconsByCategory = { ...iconsByCategory };
+              currentBatch++;
+              if (currentBatch * batchSize < iconsToLoad.length) {
+                // Use requestIdleCallback if available, otherwise setTimeout
+                if ('requestIdleCallback' in window) {
+                  requestIdleCallback(() => loadNextBatch(), { timeout: 100 });
+                } else {
+                  setTimeout(loadNextBatch, 16); // ~60fps
+                }
+              } else {
+                loadingMoreIcons = false;
+              }
+            });
+          } else {
+            loadingMoreIcons = false;
+          }
+        };
+
+        loadNextBatch();
+      }
     }, {
-      rootMargin: '50px' // Start loading 50px before icon is visible
+      rootMargin: isMobile ? '100px' : '50px' // Load earlier on mobile for smoother scrolling
     });
-    
+
     await loadCategories();
     currentCategory = getCategoryFromHash();
     await loadCategory(currentCategory);
-    
+
     window.addEventListener('hashchange', async () => {
         const newCategory = getCategoryFromHash();
         if (newCategory !== currentCategory) {
@@ -278,11 +327,12 @@
             }
         }
     });
-    
+
     return () => {
       if (observer) {
         observer.disconnect();
       }
+      window.removeEventListener('resize', handleResize);
     };
   });
 
@@ -303,20 +353,29 @@
     if (search !== previousSearch || filteredIcons.length !== previousFilteredLength) {
       previousSearch = search;
       previousFilteredLength = filteredIcons.length;
-      
+
+      // Mobile optimization: smaller preload batch for search results
+      const preloadCount = isMobile ? 15 : 50;
+
       // Load first batch of filtered icons that don't have SVG loaded yet
       // This ensures icons are ready when they become visible
       const iconsToLoad = filteredIcons
         .filter(icon => !icon.svg && icon.path)
-        .slice(0, 50); // Preload first 50 unloaded filtered icons
-      
+        .slice(0, preloadCount);
+
       if (iconsToLoad.length > 0) {
-        // Use a small delay to avoid blocking the UI update
-        setTimeout(() => {
+        // Use requestIdleCallback to avoid blocking UI on mobile
+        const loadIcons = () => {
           Promise.all(iconsToLoad.map(icon => ensureSVGLoaded(icon))).then(() => {
             iconsByCategory = { ...iconsByCategory };
           });
-        }, 0);
+        };
+
+        if (isMobile && 'requestIdleCallback' in window) {
+          requestIdleCallback(loadIcons, { timeout: 200 });
+        } else {
+          setTimeout(loadIcons, 0);
+        }
       }
     }
   });
@@ -326,6 +385,15 @@
 </script>
 
 <style>
+  .icon-wrapper {
+    /* Use CSS variable from parent grid for size - no per-icon updates needed */
+    width: var(--icon-size, 24px);
+    height: var(--icon-size, 24px);
+    /* GPU acceleration hint */
+    transform: translateZ(0);
+    will-change: width, height;
+  }
+  
   :global(.icon-wrapper svg) {
     width: 100% !important;
     height: 100% !important;
@@ -333,8 +401,10 @@
   
   /* Apply stroke-width to all stroke elements via CSS - this is the key to smooth performance */
   /* Target all SVG elements that can have stroke - CSS will override any SVG attributes */
+  /* Uses CSS variable from parent grid - cascades down automatically */
   :global(.icon-wrapper svg *[stroke]) {
     stroke-width: var(--stroke-width, 1px) !important;
+    will-change: stroke-width;
   }
   
   .icon-container {
@@ -345,6 +415,43 @@
     justify-content: center;
     position: relative;
     cursor: pointer;
+    /* CSS containment for performance - isolates layout/style/paint calculations */
+    contain: layout style paint;
+    /* Content visibility - skip rendering off-screen icons */
+    content-visibility: auto;
+    contain-intrinsic-size: 100px 100px;
+  }
+
+  /* Improved loading skeleton with shimmer effect */
+  .icon-skeleton {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  /* Mobile-specific optimizations */
+  @media (max-width: 768px) {
+    .icon-container {
+      /* Stronger containment on mobile */
+      contain: strict;
+    }
+
+    /* Reduce animation on mobile for better performance */
+    .icon-skeleton {
+      animation: shimmer 2s infinite;
+    }
   }
   
   /* Visible focus indicator for keyboard navigation */
@@ -429,10 +536,18 @@
     border-width: 0;
   }
 
+  /* Mobile: add padding for fixed bottom actions bar */
+  @media (max-width: 768px) {
+    .mobile-content {
+      padding-bottom: 120px !important; /* Space for fixed bottom bar */
+    }
+  }
+
   @media (max-width: 639px) {
     .icon-container {
       width: 50px;
       height: 50px;
+      contain-intrinsic-size: 50px 50px;
     }
   }
 </style>
@@ -447,7 +562,7 @@
 </div>
 
 <ActionsBar bind:search bind:size bind:weight {totalIcons} />
-<div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden" id="main-content" tabindex="-1">
+<div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden mobile-content" id="main-content" tabindex="-1">
 
   {#if currentCategory}
       <div class="mb-8">
@@ -458,7 +573,12 @@
               {/if}
           </h2>
           {#if currentIcons.length > 0}
-              <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center" role="list" aria-label="Icon grid">
+              <div 
+                  class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center" 
+                  role="list" 
+                  aria-label="Icon grid"
+                  style="--icon-size: {size}px; --stroke-width: {weight}px;"
+              >
                   {#each filteredIcons as icon (icon.path)}
                       <div class="flex flex-col items-center" role="listitem">
                           <div 
@@ -475,42 +595,13 @@
                                 }
                               }}
                           >
-                              <div 
-                                  style={`width: ${size}px; height: ${size}px;`} 
+                              <div
                                   class="icon-wrapper"
                               >
                                   {#if icon.svg}
-                                      {@html getNormalizedSVG(icon).replace(
-                                        /<svg([^>]*)>/i,
-                                        (match, attrs) => {
-                                          // Update or add --stroke-width in style attribute
-                                          // Ensure aria-hidden is set (should already be set by normalizeSVG, but ensure it)
-                                          let updatedAttrs = attrs;
-                                          if (!updatedAttrs.match(/aria-hidden=/i)) {
-                                            updatedAttrs += ' aria-hidden="true"';
-                                          } else {
-                                            updatedAttrs = updatedAttrs.replace(/\saria-hidden=["'][^"']*["']/gi, ' aria-hidden="true"');
-                                          }
-                                          
-                                          if (updatedAttrs.match(/style=["']/i)) {
-                                            // Update style attribute with stroke-width
-                                            updatedAttrs = updatedAttrs.replace(
-                                              /style=["']([^"']*)["']/i,
-                                              (styleMatch, styleContent) => {
-                                                const updated = styleContent.replace(/--stroke-width:[^;]*/i, `--stroke-width: ${weight}px`);
-                                                return updated.includes('--stroke-width')
-                                                  ? `style="${updated}"`
-                                                  : `style="${styleContent}; --stroke-width: ${weight}px"`;
-                                              }
-                                            );
-                                            return `<svg${updatedAttrs}>`;
-                                          } else {
-                                            return `<svg${updatedAttrs} style="--stroke-width: ${weight}px">`;
-                                          }
-                                        }
-                                      )}
+                                      {@html getNormalizedSVG(icon)}
                                   {:else}
-                                      <div class="w-full h-full bg-gray-100 animate-pulse rounded" aria-hidden="true"></div>
+                                      <div class="icon-skeleton" aria-hidden="true"></div>
                                   {/if}
                               </div>
                               <div class="icon-tooltip" aria-hidden="true">{icon.name}</div>

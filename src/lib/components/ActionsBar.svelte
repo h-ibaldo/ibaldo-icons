@@ -11,6 +11,41 @@
     let maxSize = 92;
     let searchFocused = false;
     
+    // Throttle updates using requestAnimationFrame for smooth 60fps updates
+    // Local values update immediately for responsive UI, but prop updates are throttled
+    let localSize = size;
+    let localWeight = weight;
+    let sizeRafId = null;
+    let weightRafId = null;
+    
+    // Sync local values when props change externally
+    $: if (size !== localSize && sizeRafId === null) {
+        localSize = size;
+    }
+    $: if (weight !== localWeight && weightRafId === null) {
+        localWeight = weight;
+    }
+    
+    function updateSize(newSize) {
+        localSize = newSize; // Update immediately for responsive slider
+        if (sizeRafId === null) {
+            sizeRafId = requestAnimationFrame(() => {
+                size = localSize; // Update prop (triggers re-render) on next frame
+                sizeRafId = null;
+            });
+        }
+    }
+    
+    function updateWeight(newWeight) {
+        localWeight = newWeight; // Update immediately for responsive slider
+        if (weightRafId === null) {
+            weightRafId = requestAnimationFrame(() => {
+                weight = localWeight; // Update prop (triggers re-render) on next frame
+                weightRafId = null;
+            });
+        }
+    }
+    
     function checkScreenSize() {
         if (!browser) return;
         
@@ -33,6 +68,13 @@
     onDestroy(() => {
         if (browser) {
             window.removeEventListener('resize', checkScreenSize);
+        }
+        // Clean up any pending animation frames
+        if (sizeRafId !== null) {
+            cancelAnimationFrame(sizeRafId);
+        }
+        if (weightRafId !== null) {
+            cancelAnimationFrame(weightRafId);
         }
     });
 </script>
@@ -262,15 +304,16 @@
                     min="12"
                     max={maxSize}
                     step="4"
-                    bind:value={size}
+                    value={localSize}
+                    oninput={(e) => updateSize(Number(e.target.value))}
                     class="range-input"
                     aria-label="Icon size"
                     aria-valuemin="12"
                     aria-valuemax={maxSize}
-                    aria-valuenow={size}
+                    aria-valuenow={localSize}
                 />
             </div>
-            <span class="slider-value text-left" aria-hidden="true">{size}px</span>
+            <span class="slider-value text-left" aria-hidden="true">{localSize}px</span>
         </div>
 
         <!-- Weight Slider -->
@@ -283,15 +326,16 @@
                     min="0.5"
                     max="2.5"
                     step="0.5"
-                    bind:value={weight}
+                    value={localWeight}
+                    oninput={(e) => updateWeight(Number(e.target.value))}
                     class="range-input"
                     aria-label="Icon stroke weight"
                     aria-valuemin="0.5"
                     aria-valuemax="2.5"
-                    aria-valuenow={weight}
+                    aria-valuenow={localWeight}
                 />
             </div>
-            <span class="slider-value" aria-hidden="true">{weight}pt</span>
+            <span class="slider-value" aria-hidden="true">{localWeight}pt</span>
         </div>
     </div>
 </div>
