@@ -1,5 +1,6 @@
 <script>
     import { onMount, onDestroy } from 'svelte';
+    import { fade } from 'svelte/transition';
     import { browser } from '$app/environment';
     
     export let search = '';
@@ -10,6 +11,10 @@
     let isSmallScreen = false;
     let maxSize = 92;
     let searchFocused = false;
+    let searchInput;
+    let showClearButton = false;
+    let animationTimeout;
+    let placeholderText = 'Search icons...';
     
     // Local values for immediate slider feedback
     let localSize = size;
@@ -61,16 +66,87 @@
         }
     }
     
+    function clearSearch() {
+        search = '';
+        // Keep focus on input after clearing
+        if (searchInput) {
+            searchInput.focus();
+        }
+    }
+    
+    function handleFocus() {
+        searchFocused = true;
+        // Clear any existing timeout
+        if (animationTimeout) {
+            clearTimeout(animationTimeout);
+        }
+        // Show clear button after animation completes (0.1s delay + 0.3s duration = 400ms)
+        animationTimeout = setTimeout(() => {
+            showClearButton = true;
+        }, 400);
+    }
+    
+    function handleBlur() {
+        searchFocused = false;
+        showClearButton = false;
+        // Clear any pending timeout
+        if (animationTimeout) {
+            clearTimeout(animationTimeout);
+            animationTimeout = null;
+        }
+    }
+    
+    function handleKeyDown(e) {
+        // Cmd+K (Mac) or Ctrl+K (Windows/Linux)
+        if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) {
+            e.preventDefault();
+            if (searchInput) {
+                searchInput.focus();
+            }
+        }
+    }
+    
+    let windowWidth = 0;
+    
+    function getPlaceholderText() {
+        if (!browser) return 'Search icons...';
+        const showShortcut = windowWidth > 767;
+        const baseText = totalIcons > 0 ? `Search ${totalIcons} icons...` : 'Search icons...';
+        if (!showShortcut) {
+            return baseText;
+        }
+        const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0 || 
+                      navigator.userAgent.toUpperCase().indexOf('MAC') >= 0;
+        const shortcut = isMac ? '⌘K' : 'Ctrl+K';
+        return `${baseText} ${shortcut}`;
+    }
+    
+    $: if (browser) {
+        // Reference totalIcons explicitly for reactivity
+        const _ = totalIcons;
+        placeholderText = getPlaceholderText();
+    }
+    
     onMount(() => {
         checkScreenSize();
         if (browser) {
-            window.addEventListener('resize', checkScreenSize);
+            windowWidth = window.innerWidth;
+            placeholderText = getPlaceholderText();
+            window.addEventListener('resize', () => {
+                checkScreenSize();
+                windowWidth = window.innerWidth;
+            });
+            window.addEventListener('keydown', handleKeyDown);
         }
     });
     
     onDestroy(() => {
         if (browser) {
             window.removeEventListener('resize', checkScreenSize);
+            window.removeEventListener('keydown', handleKeyDown);
+        }
+        if (animationTimeout) {
+            clearTimeout(animationTimeout);
         }
     });
 </script>
@@ -90,7 +166,7 @@
     .actions-bar {
         display: flex;
         align-items: center;
-        gap: 2rem;
+        gap: 0.5rem;
         padding: 0.25rem 0.25rem;
         max-width: 1200px;
         margin: 30px auto 0px;
@@ -98,7 +174,7 @@
 
     .search-wrapper {
         position: relative;
-        flex: 0 0 200px;
+        flex: 0 0 240px;
     }
 
     .search-icon {
@@ -108,6 +184,35 @@
         transform: translateY(-50%);
         color: white;
         pointer-events: none;
+    }
+
+    .clear-button {
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 12px;
+        height: 12px;
+        color: white;
+        opacity: 0.7;
+        transition: opacity 0.2s ease;
+    }
+
+    .clear-button:hover {
+        opacity: 1;
+    }
+
+    .clear-button:focus-visible {
+        outline: 2px solid white;
+        outline-offset: 2px;
+        opacity: 1;
     }
 
     .search-input {
@@ -126,6 +231,7 @@
         width: calc(660px - 0.5rem);
         background-color: #0700CC;
         transition-delay: 0.1s;
+        padding-right: 2rem; /* Make room for clear button */
         /* Background color change is sufficient for accessibility */
     }
 
@@ -278,6 +384,7 @@
             width: 100%;
             background-color: #0700CC;
             transition-delay: 0.1s;
+            padding-right: 2rem; /* Make room for clear button */
         }
 
         .slider-group {
@@ -325,14 +432,37 @@
             </svg>
             <input
                 id="icon-search"
+                bind:this={searchInput}
                 type="text"
-                placeholder="Search {totalIcons} icons..."
+                placeholder={placeholderText || (totalIcons > 0 ? `Search ${totalIcons} icons...` : 'Search icons...')}
                 bind:value={search}
-                onfocus={() => searchFocused = true}
-                onblur={() => searchFocused = false}
+                onfocus={handleFocus}
+                onblur={handleBlur}
+                onkeydown={(e) => {
+                    if (e.key === 'Escape') {
+                        if (searchInput) {
+                            searchInput.blur();
+                        }
+                    }
+                }}
                 class="search-input focus:outline-none focus:ring-0 focus:bg-indigo-600"
                 aria-label="Search icons"
             />
+            {#if showClearButton && search}
+                <button
+                    type="button"
+                    class="clear-button"
+                    onclick={clearSearch}
+                    onmousedown={(e) => e.preventDefault()}
+                    aria-label="Clear search"
+                    transition:fade={{ duration: 200 }}
+                >
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="1.999999990790457" y1="22.000000000897671" x2="21.999999990790457" y2="2.000000000897671"></line>
+                        <line x1="21.999999990799552" y1="22.000000001345143" x2="1.999999991699951" y2="2.000000000448381"></line>
+                    </svg>
+                </button>
+            {/if}
         </div>
 
         <!-- Size Slider -->

@@ -1,7 +1,17 @@
-Support an indie developer by requesting an icon for your project.
-I’ll design and add your icon to the library within 48 hours.
+Have a missing concept?
 
-To request an icon, post on X or Threads using #iconsdesign and #iconrequest.
-Keep it brief and clear: describe the icon’s concept and purpose. Image references are welcome.
+You can request a new icon for this library.
+If it fits the system, it will be designed
+and added within 48 hours.
 
-I reserve the right to decline requests that aren’t a good fit for the library.
+How to request:
+
+– Post your request on X or Threads  
+– Use #iconsdesign and #iconrequest  
+– Describe the concept and its intended use  
+– Image references are welcome
+
+Notes:
+
+Requests are curated.
+Not every request will be accepted.
