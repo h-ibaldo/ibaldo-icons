@@ -255,13 +255,6 @@
   }
   
   onMount(async () => {
-    // Set initial CSS variables directly (avoids Svelte reactivity lag)
-    const grid = document.querySelector('[role="list"]');
-    if (grid) {
-        grid.style.setProperty('--icon-size', `${size}px`);
-        grid.style.setProperty('--stroke-width', `${weight}px`);
-    }
-
     // Detect mobile device
     isMobile = window.innerWidth <= 768;
     const handleResize = () => {
@@ -398,7 +391,8 @@
     height: var(--icon-size, 24px);
     /* GPU acceleration hint */
     transform: translateZ(0);
-    will-change: width, height;
+    /* Smooth transition for size changes */
+    transition: width 0.15s ease-out, height 0.15s ease-out;
   }
   
   :global(.icon-wrapper svg) {
@@ -411,7 +405,8 @@
   /* Uses CSS variable from parent grid - cascades down automatically */
   :global(.icon-wrapper svg *[stroke]) {
     stroke-width: var(--stroke-width, 1px) !important;
-    will-change: stroke-width;
+    /* Smooth transition for weight changes */
+    transition: stroke-width 0.15s ease-out;
   }
   
   .icon-container {
@@ -534,6 +529,12 @@
     color: transparent;
   }
   
+  /* Optimize grid performance during size/weight changes */
+  :global([role="list"]) {
+    /* Hint to browser that size/weight will change */
+    will-change: auto;
+  }
+
   /* Screen reader only class for accessible text */
   .sr-only {
     position: absolute;
@@ -547,10 +548,59 @@
     border-width: 0;
   }
 
+  /* Text grid cells styling */
+  .text-grid-cell {
+    min-height: 200px;
+  }
+
+  .attribution-grid-cell {
+    min-height: 100px;
+  }
+
+  .hero-text-cols {
+    grid-column: span 2;
+  }
+  
+  @media (max-width: 430px) {
+    .hero-text-cols {
+      grid-column: span 3;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .hero-text-cols {
+      grid-column: span 3;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .hero-text-cols {
+      grid-column: span 2;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .hero-text-cols {
+      grid-column: span 3;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    .hero-text-cols {
+      grid-column: span 2;
+    }
+  }
+  
+
   /* Mobile: add padding for fixed bottom actions bar */
   @media (max-width: 768px) {
     .mobile-content {
       padding-bottom: 120px !important; /* Space for fixed bottom bar */
+    }
+    
+    /* Adjust text cells on mobile */
+    .text-grid-cell {
+      min-height: 150px;
     }
   }
 
@@ -561,6 +611,7 @@
       contain-intrinsic-size: 50px 50px;
     }
   }
+  
 </style>
 
 <!-- Loading status announcement for screen readers -->
@@ -588,8 +639,32 @@
                   class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center" 
                   role="list" 
                   aria-label="Icon grid"
+                  style="--icon-size: {size}px; --stroke-width: {weight}px;"
               >
-                  {#each filteredIcons as icon (icon.path)}
+                  <!-- Hero text block - responsive column spans -->
+                  <div class="hero-text-cols row-span-2 flex items-center justify-center p-4 text-grid-cell">
+                    <p class="text-xl sm:text-2xl font-normal leading-tight text-black text-start">
+                      <span class="font-medium">Icons are opinions.</span><br>
+                      Choose variations,<br>
+                      not conclusions.
+                    </p>
+                  </div>
+                  
+                  {#each filteredIcons as icon, index (icon.path)}
+                      {#if index === 8}
+                        <!-- Attribution text - positioned based on grid columns -->
+                        <!-- 4 col: 2,4-4,4 | 6 col: 5,3-6,3 | 8 col: 7,3-8,3 | 12 col: 10,4-11,4 -->
+                        <div class="col-span-3 row-span-2 col-start-3 row-start-4
+                                    sm:col-span-2 sm:row-span-1 sm:col-start-3 sm:row-start-4
+                                    md:col-span-2 md:col-start-5 md:row-start-3
+                                    xl:col-span-2 xl:col-start-7 xl:row-start-3
+                                    2xl:col-span-2 2xl:col-start-10 2xl:row-start-4
+                                    flex items-center justify-start p-4 attribution-grid-cell">
+                          <p class="text-xs text-gray-600 leading-relaxed">
+                            Designed by <br class="sm:hidden">Henrique Ibaldo <br>as a long-term <br class="sm:hidden">design system.
+                          </p>
+                        </div>
+                      {/if}
                       <div class="flex flex-col items-center icon-item" role="listitem">
                           <div 
                               class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-200 active:bg-slate-300" 
