@@ -12,5 +12,8 @@ export default defineConfig({
 	},
 	ssr: {
 		noExternal: ['zip-a-folder']
+	},
+	server: {
+		allowedHosts: ['dissectible-dominick-unthickly.ngrok-free.dev']
 	}
 });
