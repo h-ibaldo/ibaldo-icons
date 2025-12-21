@@ -169,7 +169,7 @@
         gap: 0.5rem;
         padding: 0.25rem 0.25rem;
         max-width: 1200px;
-        margin: 30px auto 0px;
+        margin: 25px auto 10px;
     }
 
     .search-wrapper {
