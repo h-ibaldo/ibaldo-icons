@@ -631,13 +631,19 @@
               {/if}
           </h2>
           {#if currentIcons.length > 0}
-              <div 
-                  class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 sm:gap-x-4 justify-items-center" 
-                  role="list" 
+              {#if filteredIcons.length === 0 && search}
+                <div class="flex items-center justify-center py-16">
+                  <p class="text-gray-600 text-sm">No icons found for "{search}"</p>
+                </div>
+              {:else}
+              <div
+                  class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 sm:gap-x-4 justify-items-center"
+                  role="list"
                   aria-label="Icon grid"
                   style="--icon-size: {size}px; --stroke-width: {weight}px;"
               >
                   <!-- Hero text block - responsive column spans -->
+                  {#if !search}
                   <div class="hero-text-cols row-span-1 sm:row-span-2 flex items-center justify-center sm:p-4 text-grid-cell">
                     <p class="text-xs sm:text-2xl font-normal leading-relaxed text-black text-start">
                       <span class="font-medium">Icons are opinions.</span><br>
@@ -645,16 +651,17 @@
                       not conclusions.
                     </p>
                   </div>
-                  
+                  {/if}
+
                   {#each filteredIcons as icon, index (icon.path)}
-                      {#if index === 8}
+                      {#if index === 8 && !search}
                         <!-- Attribution text - positioned based on grid columns -->
                         <!-- 4 col: 2,4-4,4 | 6 col: 5,3-6,3 | 8 col: 7,3-8,3 | 12 col: 10,4-11,4 -->
                         <div class="col-span-2 row-span-2 col-start-3 row-start-4
-                                    sm:col-span-2 sm:row-span-1 sm:col-start-3 sm:row-start-4
-                                    md:col-span-2 md:col-start-5 md:row-start-3
-                                    xl:col-span-2 xl:col-start-7 xl:row-start-3
-                                    2xl:col-span-2 2xl:col-start-10 2xl:row-start-4
+                                    sm:col-span-2 sm:row-span-1 sm:col-start-3 sm:row-start-5
+                                    md:col-span-2 md:col-start-5 md:row-start-5
+                                    xl:col-span-2 xl:col-start-7 xl:row-start-4
+                                    2xl:col-span-2 2xl:col-start-11 2xl:row-start-4
                                     flex items-center justify-start p-4 attribution-grid-cell">
                           <p class="text-xs text-gray-600 leading-relaxed">
                             Designed by <br class="sm:hidden">Henrique Ibaldo <br>as a long-term <br class="sm:hidden">design system.
@@ -690,6 +697,7 @@
                       </div>
                   {/each}
               </div>
+              {/if}
           {/if}
       </div>
   {/if}
