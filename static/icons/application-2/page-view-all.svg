@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-1d994489-7e29-4801-a0c2-cb7171534a50" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <rect x="2" y="2" width="8" height="8" rx="1" ry="1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="14" y="2" width="8" height="8" rx="1" ry="1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="2" y="14" width="8" height="8" rx="1" ry="1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="14" y="14" width="8" height="8" rx="1" ry="1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="2" y1="4" x2="10" y2="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="2" y1="16.000000000000909" x2="10" y2="16.000000000000909" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="14" y1="4" x2="22" y2="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="14" y1="16.000000000000909" x2="22" y2="16.000000000000909" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2" y="2" width="8" height="8" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="14" y="2" width="8" height="8" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2" y="14" width="8" height="8" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="14" y="14" width="8" height="8" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="2" y1="4" x2="10" y2="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="2" y1="16.000000000000909" x2="10" y2="16.000000000000909" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="14" y1="4" x2="22" y2="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="14" y1="16.000000000000909" x2="22" y2="16.000000000000909" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

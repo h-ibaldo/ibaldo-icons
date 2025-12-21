@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-002554d5-27ab-4b60-a2c5-26630805ddf0" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <circle cx="12.000000004889444" cy="11.999999995256076" r="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="8.000000004889444" y1="7.999999995256076" x2="16.000000004889444" y2="7.999999995256076" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="8.000000004889444" y1="11.999999995256076" x2="16.000000004889444" y2="11.999999995256076" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="8.000000004889444" y1="15.999999995256076" x2="16.000000004889444" y2="15.999999995256076" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="12.000000004889444" cy="11.999999995256076" r="10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="8.000000004889444" y1="7.999999995256076" x2="16.000000004889444" y2="7.999999995256076" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="8.000000004889444" y1="11.999999995256076" x2="16.000000004889444" y2="11.999999995256076" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="8.000000004889444" y1="15.999999995256076" x2="16.000000004889444" y2="15.999999995256076" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

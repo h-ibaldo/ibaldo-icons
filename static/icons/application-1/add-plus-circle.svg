@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-d0f31e8b-595e-44f3-84df-e3d8e8042d14" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <line x1="11.974731445219732" y1="8.0000000004502" x2="11.974731445219732" y2="16.0000000004502" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="15.974731445219732" y1="12.0000000004502" x2="7.974731445219732" y2="12.0000000004502" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="11.974731445219732" cy="12.000000000446562" r="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11.974731445219732" y1="8.0000000004502" x2="11.974731445219732" y2="16.0000000004502" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="15.974731445219732" y1="12.0000000004502" x2="7.974731445219732" y2="12.0000000004502" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="11.974731445219732" cy="12.000000000446562" r="10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

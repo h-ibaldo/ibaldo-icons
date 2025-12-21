@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-cfb5aa74-5770-49c1-80a1-0a6613d5c8a2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <rect x="2.000000000183718" y="2.00000000044929" width="20" height="20" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="12.000000000183718 14.000000000448381 12.000000000183718 18.000000000448381 15.000000000183718 13.000000000448381 9.000000000183718 15.000000000448381 12.000000000183718 10.000000000448381 12.000000000183718 14.000000000448381" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="5.010000000183936" y1="5.000000000448381" x2="5.000000000183718" y2="5.000000000448381" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="8.010000000183936" y1="5.000000000448381" x2="8.000000000183718" y2="5.000000000448381" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11.010000000183936" y1="5.000000000448381" x2="11.000000000183718" y2="5.000000000448381" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2.000000000183718" y="2.00000000044929" width="20" height="20" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="12.000000000183718 14.000000000448381 12.000000000183718 18.000000000448381 15.000000000183718 13.000000000448381 9.000000000183718 15.000000000448381 12.000000000183718 10.000000000448381 12.000000000183718 14.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="5.010000000183936" y1="5.000000000448381" x2="5.000000000183718" y2="5.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="8.010000000183936" y1="5.000000000448381" x2="8.000000000183718" y2="5.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11.010000000183936" y1="5.000000000448381" x2="11.000000000183718" y2="5.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -520,12 +520,12 @@
 
   .range-input::-moz-range-track {
     height: 2px;
-    background: #000;
+    background: currentColor;
   }
 
   .range-input::-ms-track {
     height: 2px;
-    background: #000;
+    background: currentColor;
     color: transparent;
   }
   

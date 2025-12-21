@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-68bda120-deb1-4fc6-afec-2dc9f55f4973" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <rect x="4.0252685457599" y="6.000000001481567" width="16" height="3" rx="1" ry="1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18.0252685457599,9.000000001481567v11c0,1.104569499661011-.895430500338989,2-2,2h-8c-1.104569499659192,0-2-.895430500338989-2-2v-11" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="10.0252685457599" y1="13.000000001481567" x2="10.0252685457599" y2="18.000000001481567" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="14.0252685457599" y1="13.000000001481567" x2="14.0252685457599" y2="18.000000001481567" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M15.0252685457599,6.000000001481567v-2.353921007723329c0-.909104324451619-.736974667830509-1.64607899227849-1.646078992280309-1.64607899227849h-2.707842015450296c-.9091043244498,0-1.646078992269395.736974667826871-1.646078992269395,1.64607899227849v2.353921007723329" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="4.0252685457599" y="6.000000001481567" width="16" height="3" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.0252685457599,9.000000001481567v11c0,1.104569499661011-.895430500338989,2-2,2h-8c-1.104569499659192,0-2-.895430500338989-2-2v-11" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="10.0252685457599" y1="13.000000001481567" x2="10.0252685457599" y2="18.000000001481567" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="14.0252685457599" y1="13.000000001481567" x2="14.0252685457599" y2="18.000000001481567" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15.0252685457599,6.000000001481567v-2.353921007723329c0-.909104324451619-.736974667830509-1.64607899227849-1.646078992280309-1.64607899227849h-2.707842015450296c-.9091043244498,0-1.646078992269395.736974667826871-1.646078992269395,1.64607899227849v2.353921007723329" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

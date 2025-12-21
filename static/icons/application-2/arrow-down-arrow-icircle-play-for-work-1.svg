@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-b52558ff-f520-4bd7-88f5-7f6f08afe0fc" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <path d="M21.00000000018008,12.000000000842192c0,4.970562748196244-4.029437251800118,9-9,9S3.00000000018008,16.970562749038436,3.00000000018008,12.000000000842192" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="8.00000000018008 11.000000000842192 12.00000000018008 15.000000000842192 16.00000000018008 11.000000000842192" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="12.00000000018008" y1="3.000000000842192" x2="12.00000000018008" y2="15.000000000842192" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21.00000000018008,12.000000000842192c0,4.970562748196244-4.029437251800118,9-9,9S3.00000000018008,16.970562749038436,3.00000000018008,12.000000000842192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="8.00000000018008 11.000000000842192 12.00000000018008 15.000000000842192 16.00000000018008 11.000000000842192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="12.00000000018008" y1="3.000000000842192" x2="12.00000000018008" y2="15.000000000842192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

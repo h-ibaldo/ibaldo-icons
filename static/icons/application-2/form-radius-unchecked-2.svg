@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-7eb9d59a-a009-4cb8-8d44-d314e72583c5" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <line x1="18.000000000251021" y1="11.999999995703547" x2="22.000000000251021" y2="11.999999995703547" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="8.000000000251021" cy="11.999999995703547" r="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="18.000000000251021" y1="11.999999995703547" x2="22.000000000251021" y2="11.999999995703547" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="8.000000000251021" cy="11.999999995703547" r="6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

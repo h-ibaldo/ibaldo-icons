@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-2e408c8d-d623-48cd-b85a-0a748083b0ef" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <polyline points="9.999999977098923 16.999996563434252 9.999999977098923 6.999996563434252 5.999999977098923 6.999996563434252 5.999999977098923 16.999996563434252" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="5.999999977098923" y1="12.999996563434252" x2="9.999999977098923" y2="12.999996563434252" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="13.999999977098923 11.999996563434252 17.999999977098923 14.999996563434252 17.999999977098923 16.999996563434252" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="13.999999977098923 16.999996563434252 13.999999977098923 6.999996563434252 17.999999977098923 6.999996563434252 17.999999977098923 11.999996563434252 13.999999977098923 11.999996563434252" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="1.999999977098923" y="2.999996563434252" width="20" height="18" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="9.999999977098923 16.999996563434252 9.999999977098923 6.999996563434252 5.999999977098923 6.999996563434252 5.999999977098923 16.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="5.999999977098923" y1="12.999996563434252" x2="9.999999977098923" y2="12.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="13.999999977098923 11.999996563434252 17.999999977098923 14.999996563434252 17.999999977098923 16.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="13.999999977098923 16.999996563434252 13.999999977098923 6.999996563434252 17.999999977098923 6.999996563434252 17.999999977098923 11.999996563434252 13.999999977098923 11.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1.999999977098923" y="2.999996563434252" width="20" height="18" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

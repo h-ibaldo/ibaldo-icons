@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-f045e327-03a0-42d5-a6e0-e44e171d3da2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <circle cx="18.499999977098923" cy="6.499996563434252" r="3.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16.055603004439035,3.999996563434252H4.499999977098923c-1.380737304689319,0-2.5,1.1192626953125-2.5,2.5,0,1.38067626953125,1.119262695310681,2.5,2.5,2.5h11.555603027340112" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="5.499999977092557" cy="17.499996563728018" r="3.499999999999091" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M7.944396949749716,19.999996563434252h11.555603027349207c1.380737304680224,0,2.5-1.11932373046875,2.5-2.5,0-1.3807373046875-1.119262695319776-2.5-2.5-2.5H7.944396949749716" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="18.499999977098923" cy="6.499996563434252" r="3.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16.055603004439035,3.999996563434252H4.499999977098923c-1.380737304689319,0-2.5,1.1192626953125-2.5,2.5,0,1.38067626953125,1.119262695310681,2.5,2.5,2.5h11.555603027340112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="5.499999977092557" cy="17.499996563728018" r="3.499999999999091" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7.944396949749716,19.999996563434252h11.555603027349207c1.380737304680224,0,2.5-1.11932373046875,2.5-2.5,0-1.3807373046875-1.119262695319776-2.5-2.5-2.5H7.944396949749716" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

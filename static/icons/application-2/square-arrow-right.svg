@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-9b45e421-1fdf-4f0c-aafa-0c91a5307cf8" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <polyline points="13.025268536159274 8.9999999990996 16.025268535620853 11.999999999638021 13.025268535080613 14.9999999990996" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="8.025268535620853" y1="11.999999998201019" x2="16.025268535620853" y2="11.999999999638021" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="2.025268535625401" y="1.999999998828571" width="20" height="20" rx="1.999999999998408" ry="1.999999999998408" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="13.025268536159274 8.9999999990996 16.025268535620853 11.999999999638021 13.025268535080613 14.9999999990996" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="8.025268535620853" y1="11.999999998201019" x2="16.025268535620853" y2="11.999999999638021" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2.025268535625401" y="1.999999998828571" width="20" height="20" rx="1.999999999998408" ry="1.999999999998408" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

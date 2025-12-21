@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-bfda70e1-b0b5-4817-82cb-9fc328f966a2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <rect x="1.949462885140747" y="2.000000000480213" width="20" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="1.949462885140747" y="10.000000000480213" width="20" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="1.949462885140747" y="18.000000000480213" width="20" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="4.949462885142566" y1="2.000000000480213" x2="4.949462885142566" y2="6.000000000480213" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="7.949462885142566" y1="2.000000000480213" x2="7.949462885142566" y2="6.000000000480213" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="4.949462885142566" y1="18.000000000480213" x2="4.949462885142566" y2="22.000000000480213" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="7.949462885142566" y1="18.000000000480213" x2="7.949462885142566" y2="22.000000000480213" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="10.949462885142566" y1="18.000000000480213" x2="10.949462885142566" y2="22.000000000480213" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="4.949462885142566" y1="10.000000000480213" x2="4.949462885142566" y2="14.000000000480213" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="7.949462885142566" y1="10.000000000480213" x2="7.949462885142566" y2="14.000000000480213" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="10.949462885142566" y1="10.000000000480213" x2="10.949462885142566" y2="14.000000000480213" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="13.949462885142566" y1="10.000000000480213" x2="13.949462885142566" y2="14.000000000480213" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1.949462885140747" y="2.000000000480213" width="20" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1.949462885140747" y="10.000000000480213" width="20" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1.949462885140747" y="18.000000000480213" width="20" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="4.949462885142566" y1="2.000000000480213" x2="4.949462885142566" y2="6.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7.949462885142566" y1="2.000000000480213" x2="7.949462885142566" y2="6.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="4.949462885142566" y1="18.000000000480213" x2="4.949462885142566" y2="22.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7.949462885142566" y1="18.000000000480213" x2="7.949462885142566" y2="22.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="10.949462885142566" y1="18.000000000480213" x2="10.949462885142566" y2="22.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="4.949462885142566" y1="10.000000000480213" x2="4.949462885142566" y2="14.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7.949462885142566" y1="10.000000000480213" x2="7.949462885142566" y2="14.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="10.949462885142566" y1="10.000000000480213" x2="10.949462885142566" y2="14.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="13.949462885142566" y1="10.000000000480213" x2="13.949462885142566" y2="14.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

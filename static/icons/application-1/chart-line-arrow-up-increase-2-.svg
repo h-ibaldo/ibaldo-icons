@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-58da8550-9ff0-4eaf-a27a-b236b5b737ec" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <polyline points="2 18 10 11 14 15 22 7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="22 11 22 7 18 7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="2 18 10 11 14 15 22 7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="22 11 22 7 18 7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

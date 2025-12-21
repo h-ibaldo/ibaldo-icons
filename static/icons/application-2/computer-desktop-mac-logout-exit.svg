@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="uuid-29143962-0661-4df6-a27b-8b03550260b8" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <line x1="7.000000003159585" y1="21.998782736171052" x2="17.000000003159585" y2="21.998782736171052" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="16.000000003159585" y1="7.998782736171052" x2="8.000000003159585" y2="7.998782736171052" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="22.000000003159585" y1="13.998782736171052" x2="2.000000003159585" y2="13.998782736171052" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="14.000000003159585 5.998782736171052 16.000000003159585 7.998782736171052 14.000000003159585 9.998782736171052" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="2.000000003159585" y="1.998782736172871" width="20" height="14.999999999998181" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M8.000000003159585,21.998782736171052c1.380711874500776,0,2.5-1.119288125497405,2.5-2.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16.000000003159585,21.998782736116482c-1.380711874499866.000000000061846-2.500000000049113-1.119288125388266-2.500000000109139-2.499999999890861" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7.000000003159585" y1="21.998782736171052" x2="17.000000003159585" y2="21.998782736171052" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="16.000000003159585" y1="7.998782736171052" x2="8.000000003159585" y2="7.998782736171052" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="22.000000003159585" y1="13.998782736171052" x2="2.000000003159585" y2="13.998782736171052" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="14.000000003159585 5.998782736171052 16.000000003159585 7.998782736171052 14.000000003159585 9.998782736171052" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2.000000003159585" y="1.998782736172871" width="20" height="14.999999999998181" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8.000000003159585,21.998782736171052c1.380711874500776,0,2.5-1.119288125497405,2.5-2.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16.000000003159585,21.998782736116482c-1.380711874499866.000000000061846-2.500000000049113-1.119288125388266-2.500000000109139-2.499999999890861" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
