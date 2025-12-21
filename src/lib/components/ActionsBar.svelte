@@ -19,7 +19,12 @@
     // Local values for immediate slider feedback
     let localSize = size;
     let localWeight = weight;
-    
+
+    // Cache DOM reference and RAF IDs for performance
+    let gridElement = null;
+    let sizeRaf = null;
+    let weightRaf = null;
+
     // Sync local values when props change externally
     $: if (size !== localSize) {
         localSize = size;
@@ -27,31 +32,39 @@
     $: if (weight !== localWeight) {
         localWeight = weight;
     }
-    
+
     function updateSize(newSize) {
-        localSize = newSize;
-        size = newSize; // Update prop for other components
-        
-        // Directly update CSS variable - NO Svelte re-render
-        if (browser) {
-            const grid = document.querySelector('[role="list"]');
-            if (grid) {
-                grid.style.setProperty('--icon-size', `${newSize}px`);
+        localSize = newSize; // Instant visual feedback
+
+        // Cancel any pending animation frame
+        if (sizeRaf) cancelAnimationFrame(sizeRaf);
+
+        // Schedule update for next paint cycle
+        sizeRaf = requestAnimationFrame(() => {
+            size = newSize; // Update prop for other components
+
+            // Directly update CSS variable using cached reference
+            if (gridElement) {
+                gridElement.style.setProperty('--icon-size', `${newSize}px`);
             }
-        }
+        });
     }
-    
+
     function updateWeight(newWeight) {
-        localWeight = newWeight;
-        weight = newWeight; // Update prop for other components
-        
-        // Directly update CSS variable - NO Svelte re-render
-        if (browser) {
-            const grid = document.querySelector('[role="list"]');
-            if (grid) {
-                grid.style.setProperty('--stroke-width', `${newWeight}px`);
+        localWeight = newWeight; // Instant visual feedback
+
+        // Cancel any pending animation frame
+        if (weightRaf) cancelAnimationFrame(weightRaf);
+
+        // Schedule update for next paint cycle
+        weightRaf = requestAnimationFrame(() => {
+            weight = newWeight; // Update prop for other components
+
+            // Directly update CSS variable using cached reference
+            if (gridElement) {
+                gridElement.style.setProperty('--stroke-width', `${newWeight}px`);
             }
-        }
+        });
     }
     
     function checkScreenSize() {
@@ -130,6 +143,9 @@
     onMount(() => {
         checkScreenSize();
         if (browser) {
+            // Cache grid element reference for performance
+            gridElement = document.querySelector('[role="list"]');
+
             windowWidth = window.innerWidth;
             placeholderText = getPlaceholderText();
             window.addEventListener('resize', () => {
@@ -148,6 +164,9 @@
         if (animationTimeout) {
             clearTimeout(animationTimeout);
         }
+        // Cancel any pending animation frames
+        if (sizeRaf) cancelAnimationFrame(sizeRaf);
+        if (weightRaf) cancelAnimationFrame(weightRaf);
     });
 </script>
 

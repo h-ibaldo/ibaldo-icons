@@ -391,8 +391,6 @@
     height: var(--icon-size, 24px);
     /* GPU acceleration hint */
     transform: translateZ(0);
-    /* Smooth transition for size changes */
-    transition: width 0.15s ease-out, height 0.15s ease-out;
   }
   
   :global(.icon-wrapper svg) {
@@ -405,8 +403,6 @@
   /* Uses CSS variable from parent grid - cascades down automatically */
   :global(.icon-wrapper svg *[stroke]) {
     stroke-width: var(--stroke-width, 1px) !important;
-    /* Smooth transition for weight changes */
-    transition: stroke-width 0.15s ease-out;
   }
   
   .icon-container {
