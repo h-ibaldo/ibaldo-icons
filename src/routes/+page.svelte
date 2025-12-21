@@ -545,9 +545,9 @@
   }
 
   /* Text grid cells styling */
-  .text-grid-cell {
+  /* .text-grid-cell {
     min-height: 200px;
-  }
+  } */
 
   .attribution-grid-cell {
     min-height: 100px;
@@ -559,7 +559,7 @@
   
   @media (max-width: 430px) {
     .hero-text-cols {
-      grid-column: span 3;
+      grid-column: span 2;
     }
   }
 
@@ -595,9 +595,9 @@
     }
     
     /* Adjust text cells on mobile */
-    .text-grid-cell {
+    /* .text-grid-cell {
       min-height: 150px;
-    }
+    } */
   }
 
   @media (max-width: 639px) {
@@ -632,14 +632,14 @@
           </h2>
           {#if currentIcons.length > 0}
               <div 
-                  class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 gap-x-4 justify-items-center" 
+                  class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 sm:gap-x-4 justify-items-center" 
                   role="list" 
                   aria-label="Icon grid"
                   style="--icon-size: {size}px; --stroke-width: {weight}px;"
               >
                   <!-- Hero text block - responsive column spans -->
-                  <div class="hero-text-cols row-span-2 flex items-center justify-center p-4 text-grid-cell">
-                    <p class="text-xl sm:text-2xl font-normal leading-tight text-black text-start">
+                  <div class="hero-text-cols row-span-1 sm:row-span-2 flex items-center justify-center sm:p-4 text-grid-cell">
+                    <p class="text-xs sm:text-2xl font-normal leading-tight text-black text-start">
                       <span class="font-medium">Icons are opinions.</span><br>
                       Choose variations,<br>
                       not conclusions.
