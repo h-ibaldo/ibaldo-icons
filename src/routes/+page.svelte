@@ -654,10 +654,10 @@
                         <!-- Attribution text - positioned based on grid columns -->
                         <!-- 4 col: 2,4-4,4 | 6 col: 5,3-6,3 | 8 col: 7,3-8,3 | 12 col: 10,4-11,4 -->
                         <div class="col-span-2 row-span-2 col-start-3 row-start-4
-                                    sm:col-span-2 sm:row-span-1 sm:col-start-3 sm:row-start-4
-                                    md:col-span-2 md:col-start-5 md:row-start-3
-                                    xl:col-span-2 xl:col-start-7 xl:row-start-3
-                                    2xl:col-span-2 2xl:col-start-10 2xl:row-start-4
+                                    sm:col-span-2 sm:row-span-1 sm:col-start-3 sm:row-start-5
+                                    md:col-span-2 md:col-start-5 md:row-start-5
+                                    xl:col-span-2 xl:col-start-7 xl:row-start-4
+                                    2xl:col-span-2 2xl:col-start-11 2xl:row-start-4
                                     flex items-center justify-start p-4 attribution-grid-cell">
                           <p class="text-xs text-gray-600 leading-relaxed">
                             Designed by <br class="sm:hidden">Henrique Ibaldo <br>as a long-term <br class="sm:hidden">design system.
