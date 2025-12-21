@@ -176,7 +176,7 @@
         top: 0;
         z-index: 40;
         /* background: black; */
-        transition: all 0.3s ease;
+        /* transition: all 0.3s ease; */
         margin: auto;
         max-width: 100%;
         width: 660px;
