@@ -639,7 +639,7 @@
               >
                   <!-- Hero text block - responsive column spans -->
                   <div class="hero-text-cols row-span-1 sm:row-span-2 flex items-center justify-center sm:p-4 text-grid-cell">
-                    <p class="text-xs sm:text-2xl font-normal leading-tight text-black text-start">
+                    <p class="text-xs sm:text-2xl font-normal leading-relaxed text-black text-start">
                       <span class="font-medium">Icons are opinions.</span><br>
                       Choose variations,<br>
                       not conclusions.
