@@ -113,10 +113,13 @@
     processed = processed.replace(/(<svg[^>]*\s)height=["']\d+["']/gi, `$1height="${targetSize}"`);
     
     // Add stroke-width to all stroke elements
-    processed = processed.replace(/(<[^>]*\sstroke=["'][^"']*["'][^>]*)(\/?)(>)/gi, (match, before, slash, after) => {
+    // Match elements with stroke attribute, handling both self-closing (/>) and regular (>) tags
+    processed = processed.replace(/(<[^>]*\sstroke=["'][^"']*["'][^>]*?)(\/?>)/gi, (match, before, closing) => {
       if (!match.match(/stroke-width=/i)) {
-        return `${before} stroke-width="${strokeWeight}"${slash}${after}`;
+        // Insert stroke-width before the closing tag
+        return `${before} stroke-width="${strokeWeight}"${closing}`;
       }
+      // Replace existing stroke-width value
       return match.replace(/stroke-width=["'][^"']*["']/gi, `stroke-width="${strokeWeight}"`);
     });
     
