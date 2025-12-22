@@ -3,12 +3,21 @@
 	import HeaderNavigation from '$lib/components/HeaderNavigation.svelte';
 	let { children } = $props();
 </script>
+<div class="min-h-screen flex flex-col justify-between">
+<div>
+    <!-- Skip to main content link for keyboard users -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <HeaderNavigation />
+    {@render children()}
+</div>
 
-<!-- Skip to main content link for keyboard users -->
-<a href="#main-content" class="skip-link">Skip to main content</a>
-
-<HeaderNavigation />
-{@render children()}
+<footer class="mt-20 pb-8 px-4 sm:px-14 text-start leading-[2] w-100 flex items-center justify-start text-xs text-gray-600">
+	<p>
+		Designed by Henrique Ibaldo · MIT License · <a href="/privacy" class="hover:text-gray-900 underline">Privacy</a> · <a href="/terms" class="hover:text-gray-900 underline">Terms</a>
+	</p>
+</footer>
+</div>
 
 <style>
 	.skip-link {
@@ -21,7 +30,7 @@
 		text-decoration: none;
 		z-index: 100;
 	}
-	
+
 	.skip-link:focus {
 		top: 0;
 	}

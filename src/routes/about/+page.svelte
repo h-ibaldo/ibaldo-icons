@@ -1,51 +1,29 @@
-<h1>what is icon.design</h1>
+<div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-sm">
 
-<p>
-an icon library born from a simple question:
-what if icons offered *choices*, not assumptions?
-</p>
+    <h1 class="text-2xl font-medium mb-4">About icon.design</h1>
 
-<p>
-most icon sets give you a single design — a single answer.
-but products, people, and contexts aren’t singular.
-so neither should icons be.
-</p>
+    <p class="mb-4"><span class="font-medium">icon.design</span> is a line-based icon library built as a long-term design system.</p>
 
-<h2>a philosophy first</h2>
+    <p class="mb-4">Icons are not neutral.</p>
+    <p class="mb-4">They carry assumptions, defaults, and cultural shortcuts. Most libraries collapse those choices into a single “correct” form.</p>   
 
-<p>
-icons are opinions —  
-wireframes of meaning, not facts of meaning.
-this library collects multiple perspectives
-for each concept, so you can *choose* what fits.
-</p>
-
-<h2>why it matters</h2>
-
-<p>
-because design is not one-size-fits-all.  
-because interfaces reflect values.  
-because representation should be deliberate.
-</p>
-
-<h2>how it’s made</h2>
-
-<p>
-crafted by hand, not code generators;  
-consistent alignment, adaptable stroke weights,  
-tested across sizes, contexts, and needs.
-</p>
-
-<h2>open & free</h2>
-
-<p>
-every icon is open source and free for any project —
-no licensing walls, no surprise restrictions.
-just icons you can trust and tailor.
-</p>
-
-<p class="credits">
-designed by <strong>henrique ibaldo</strong>,  
-a long-term design practice exploring systems,
-plurality, and visual nuance.
-</p>
+    <p class="mb-4">This project takes a different position.</p>
+    <p class="mb-4">Instead of conclusions, it offers variations.</p>
+    <p class="mb-4">Many icons in the library exist in multiple forms — not as stylistic noise, but as alternative interpretations of the same idea. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter. There is no single “user” shape, no default identity.</p>
+    <p class="mb-4">The library is designed to be evolving.</p>
+    <p class="mb-4">It grows over time through use, observation, and requests, rather than predefined completeness. Missing icons are not gaps to be rushed, but signals of where the system should expand next.</p>
+    <p class="mb-4"><span class="font-medium">icon.design</span> is not a UI framework or a full design system.</p>
+    <p class="mb-4">It is a foundational layer: a flexible, opinionated icon set meant to adapt to different interfaces, products, and contexts without forcing a single visual conclusion.</p>
+    <p class="mb-4">The project is designed and maintained by Henrique Ibaldo as an ongoing exploration of systems, constraints, and long-term visual consistency.</p>
+    <p class="mb-4">Icons are opinions.<br>
+    Choose variations, not conclusions.</p>
+    <p class="mb-4">Occasional updates about the evolution of the library are shared by email.</p>
+    <form method="post" action="https://sendfox.com/form/36wvr9/3e2drp" class="sendfox-form flex gap-2" id="3e2drp" data-async="true" data-recaptcha="true">
+        <p><label class="hidden" for="sendfox_form_email">Email: </label><input class="border border-gray-300 p-2 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500" type="email" id="sendfox_form_email" placeholder="Email" name="email" required /></p>
+        <!-- no botz please -->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
+        <p><button class="bg-slate-900 text-white p-2 text-sm border border-gray-900 hover:bg-indigo-500 hover:border-indigo-500 transition-colors duration-200" type="submit">Submit</button></p>
+        </form>
+        <script src="https://cdn.sendfox.com/js/form.js" charset="utf-8"></script>
+                    
+</div>

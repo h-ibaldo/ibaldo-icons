@@ -704,8 +704,4 @@
           {/if}
       </div>
   {/if}
-
-  <footer class="mt-4 text-sm text-gray-600 hidden">
-      <p>{totalIcons} icons available.</p>
-  </footer>
 </div>

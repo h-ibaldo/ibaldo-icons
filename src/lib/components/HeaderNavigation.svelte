@@ -317,20 +317,21 @@
     on:keydown={handleDrawerKeydown}
 >
     <div class="flex justify-between items-center mb-8">
-        <h2 id="drawer-title" class="text-lg font-bold">Menu</h2>
+        <h2 id="drawer-title" class="text-xs font-">Menu</h2>
         <button
             bind:this={closeButton}
             on:click={closeDrawer}
-            class="text-gray-500 hover:text-gray-700"
+            class="text-indigo-500 hover:text-indigo-300 transition-colors "
             aria-label="Close menu"
         >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <line x1="18" y1="6" x2="6" y2="18"></line>
-                <line x1="6" y1="6" x2="18" y2="18"></line>
+
+            <svg id="uuid-05f3fc17-1443-46b8-a507-dad0f9bf96a9" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <line x1="5.999999991059667" y1="18.000000000626642" x2="17.999999990510332" y2="6.000000001168701" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <line x1="17.999999990250217" y1="18.000000000894943" x2="5.999999991330697" y2="6.0000000009004" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
             </svg>
         </button>
     </div>
-    <nav class="flex flex-col space-y-4 text-base" aria-label="Mobile navigation">
+    <nav class="flex flex-col space-y-4 text-md" aria-label="Mobile navigation">
         <a href="/" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Icons</a>
         <a href="/about" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>About</a>
         <a href="/license" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>License</a>
