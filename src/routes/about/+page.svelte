@@ -18,26 +18,15 @@
     <p class="mb-4">Icons are opinions.<br>
     Choose variations, not conclusions.</p>
     <p class="mb-4">Occasional updates about the evolution of the library are shared by email.</p>
-    <form method="post" action="https://sendfox.com/form/36wvr9/3e2drp" class="sendfox-form flex gap-2" id="3e2drp" data-async="true" data-recaptcha="true">
-        <p><label class="hidden" for="sendfox_form_email">Email: </label><input class="border border-gray-300 p-2 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500" type="email" id="sendfox_form_email" placeholder="Email" name="email" required /></p>
-        <!-- no botz please -->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
-        <p><button id="submit-button" class="bg-slate-900 text-white p-2 text-sm border border-gray-900 hover:bg-indigo-500 hover:border-indigo-500 transition-colors duration-200" type="submit">Submit</button></p>
-        </form>
-        <script src="https://cdn.sendfox.com/js/form.js" charset="utf-8"></script>
+        <form method="post" action="https://sendfox.com/form/36wvr9/3e2drp" class="sendfox-form flex gap-2" id="3e2drp" data-async="true" data-recaptcha="true">
+            <p><label style="display: none;" for="sendfox_form_email">Email: </label><input type="email" class="border border-gray-300 p-2 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500" id="sendfox_form_email" placeholder="Email" name="email" required /></p>
+            <!-- no botz please -->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
+            <p><button type="submit" id="submit-button" class="bg-slate-900 text-white p-2 text-sm border border-gray-900 hover:bg-indigo-500 hover:border-indigo-500 transition-colors duration-200">Submit</button></p>
+            </form>
+            <script src="https://cdn.sendfox.com/js/form.js" charset="utf-8"></script>
+                        
 
-<script>
-    const form = document.getElementById('3e2drp');
-    const submitButton = document.getElementById('submit-button');
 
-    if (form && submitButton) {
-        form.addEventListener('submit', function(e) {
-            submitButton.textContent = 'Thank you!';
-            submitButton.disabled = true;
-            submitButton.classList.remove('hover:bg-indigo-500', 'hover:border-indigo-500');
-            submitButton.classList.add('bg-indigo-500', 'border-indigo-500');
-        });
-    }
-</script>
                     
 </div>
