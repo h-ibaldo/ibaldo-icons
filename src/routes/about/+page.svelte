@@ -18,7 +18,7 @@
     <p class="mb-4">Icons are opinions.<br>
     Choose variations, not conclusions.</p>
     <p class="mb-4">Occasional updates about the evolution of the library are shared by email.</p>
-        <form method="post" action="https://sendfox.com/form/36wvr9/3e2drp" class="sendfox-form flex gap-2" id="3e2drp" data-async="true" data-recaptcha="true">
+        <form method="post" action="https://sendfox.com/form/36wvr9/3e2drp" class="sendfox-form flex gap-2" id="3e2drp" data-async="true" data-recaptcha="false">
             <p><label style="display: none;" for="sendfox_form_email">Email: </label><input type="email" class="border border-gray-300 p-2 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500" id="sendfox_form_email" placeholder="Email" name="email" required /></p>
             <!-- no botz please -->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
