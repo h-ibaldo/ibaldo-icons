@@ -1,7 +1,7 @@
-<div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-sm">
+<div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-2xl">
     <h1 class="text-2xl font-medium mb-4">License</h1>
 
-    <h2 class="text-lg font-medium mb-4">MIT License</h2>
+    <h2 class="text- font-medium mb-4">MIT License</h2>
     <p class="mb-4">
         Copyright (c) 2025 Henrique Ibaldo
     </p>

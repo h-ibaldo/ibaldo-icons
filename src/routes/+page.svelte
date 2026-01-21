@@ -611,6 +611,10 @@
     }
   }
   
+  .hero-text-cols a {
+    transition: color 0.25s ease-in-out !important;
+  }
+  
 </style>
 
 <!-- Loading status announcement for screen readers -->
@@ -649,9 +653,11 @@
                   {#if !search}
                   <div class="hero-text-cols row-span-1 sm:row-span-2 flex items-center justify-center sm:p-4 text-grid-cell">
                     <p class="text-xs sm:text-2xl font-normal leading-relaxed text-black text-start">
-                      <span class="font-medium">Icons are opinions.</span><br>
-                      Choose variations,<br>
-                      not conclusions.
+                        <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
+                            <span class="font-medium">Icons are opinions.</span><br>
+                            Choose variations,<br>
+                            not conclusions.
+                        </a><br>
                     </p>
                   </div>
                   {/if}
@@ -673,7 +679,7 @@
                       {/if}
                       <div class="flex flex-col items-center icon-item" role="listitem">
                           <div 
-                              class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-200 active:bg-slate-300" 
+                              class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-100 active:bg-slate-300" 
                               use:lazyLoadIcon={icon}
                               on:click={() => handleIconDownload(icon)}
                               role="button"

@@ -1,8 +1,18 @@
-<div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-sm">
+<style>
+    #submit-button {
+        transition: background-color 0.2s ease-in-out !important;
+    }
+    
+    #sendfox_form_email {
+        transition: box-shadow 0.2s ease-in-out !important;
+    }
+</style>
+
+<div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-2xl">
 
     <h1 class="text-2xl font-medium mb-4">About icon.design</h1>
 
-    <p class="mb-4"><span class="font-medium">icon.design</span> is a line-based icon library built as a long-term design system.</p>
+    <p class="mb-4"><span class="">icon.design</span> is a line-based icon library built as a long-term design system.</p>
 
     <p class="mb-4">Icons are not neutral.</p>
     <p class="mb-4">They carry assumptions, defaults, and cultural shortcuts. Most libraries collapse those choices into a single “correct” form.</p>   
@@ -17,12 +27,12 @@
     <p class="mb-4">The project is designed and maintained by Henrique Ibaldo as an ongoing exploration of systems, constraints, and long-term visual consistency.</p>
     <p class="mb-4">Icons are opinions.<br>
     Choose variations, not conclusions.</p>
-    <p class="mb-4">Occasional updates about the evolution of the library are shared by email.</p>
+    <p class="mb-8">Occasional updates about the evolution of the library are shared by email.</p>
         <form method="post" action="https://sendfox.com/form/36wvr9/3e2drp" class="sendfox-form flex gap-2" id="3e2drp" data-async="true" data-recaptcha="false">
-            <p><label style="display: none;" for="sendfox_form_email">Email: </label><input type="email" class="border border-gray-300 p-2 text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500" id="sendfox_form_email" placeholder="Email" name="email" required /></p>
+            <p><label style="display: none;" for="sendfox_form_email">Email: </label><input type="email" class="border border-gray-300 p-2 text-xl focus:outline-none focus:ring-1 focus:ring-indigo-500" id="sendfox_form_email" placeholder="Email" name="email" required /></p>
             <!-- no botz please -->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
-            <p><button type="submit" id="submit-button" class="bg-slate-900 text-white p-2 text-sm border border-gray-900 hover:bg-indigo-500 hover:border-indigo-500 transition-colors duration-200">Submit</button></p>
+            <p><button type="submit" id="submit-button" class="bg-slate-900 text-white p-2 border border-gray-900 hover:bg-indigo-500 hover:border-indigo-500 transition-all duration-200 ease-in-out text-xl">Submit</button></p>
             </form>
             <script src="https://cdn.sendfox.com/js/form.js" charset="utf-8"></script>
                         
