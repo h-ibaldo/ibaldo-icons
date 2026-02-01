@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-30f95f04-6b55-484d-9ee3-6b5844bba5c2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <circle cx="5" cy="11.999999999998181" r="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="19" cy="4.999999999998181" r="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="19" cy="18.999999999998181" r="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7.6728515625" y1="13.336425781248181" x2="16.3271484375" y2="17.663574218748181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="16.3271484375" y1="6.336425781248181" x2="7.6728515625" y2="10.663574218748181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="19" y1="7.999999999998181" x2="19" y2="15.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

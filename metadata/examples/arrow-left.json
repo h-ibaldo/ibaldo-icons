@@ -1,0 +1,63 @@
+{
+  "name": "ArrowLeft",
+  "filename": "arrow-left",
+  "description": "A simple left-pointing arrow for navigation and directional indication",
+  "tags": [
+    "arrow",
+    "left",
+    "back",
+    "previous",
+    "navigation",
+    "direction",
+    "return",
+    "undo"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "variations": {
+    "base": "arrow",
+    "style": "simple",
+    "related": [
+      "ArrowRight",
+      "ArrowUp",
+      "ArrowDown",
+      "ArrowLeftCircle"
+    ]
+  },
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Go back",
+    "description": "Navigate to the previous page or section"
+  },
+  "usage": {
+    "common": [
+      "Back buttons",
+      "Previous page navigation",
+      "Breadcrumb navigation",
+      "Carousel controls"
+    ],
+    "examples": [
+      "Browser back button",
+      "Return to previous page",
+      "Slide to previous item"
+    ]
+  },
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "aliases": [
+    "back",
+    "previous",
+    "chevron-left"
+  ]
+}

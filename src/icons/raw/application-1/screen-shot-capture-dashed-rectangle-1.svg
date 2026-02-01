@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-c7f3f459-9025-4b61-80b2-822453430a41" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path d="M2.041899007130269,4.000000000589353v-1c0-.552284749828686.447715250169495-1,1-1h1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="14.041899007130269" y1="2.00000000061118" x2="13.041899007130269" y2="2.00000000061118" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="9.041899007130269" y1="2.00000000061118" x2="8.041899007150278" y2="2.00000000061118" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="14.041899007130269" y1="20.000000000589353" x2="13.041899007130269" y2="20.000000000589353" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="9.041899007130269" y1="20.000000000589353" x2="8.041899007150278" y2="20.000000000589353" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M4.041899007130269,20.000000000589353l-1-.000000000043656c-.552284749830505-.000000000025466-.999999999979991-.447715250214969-.999999999949978-1.000000000047294l.000000000040018-1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="2.041899007690517" y1="8.000000000498403" x2="2.0418990076505" y2="9.000000000498403" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="2.04189900747042" y1="13.000000000498403" x2="2.041899007419488" y2="14.000000000476575" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="20.041899007130269" y1="8.000000000498403" x2="20.041899007080247" y2="9.000000000498403" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="20.041899006900167" y1="13.000000000498403" x2="20.041899006860149" y2="14.000000000476575" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.041899007180291,2.000000000589353l1,.000000000043656c.552284749829596.000000000025466.999999999979991.447715250214969.999999999949978,1.000000000043656l-.000000000040018,1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="20.041899007130269" y1="18.000000000589353" x2="20.041899007130269" y2="22.000000000589353" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="22.041899007130269" y1="20.000000000589353" x2="18.041899007130269" y2="20.000000000589353" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

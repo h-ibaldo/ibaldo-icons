@@ -1,0 +1,64 @@
+{
+  "name": "UserCircle",
+  "filename": "user-circle",
+  "description": "A circular user avatar icon representing a person's profile or account",
+  "tags": [
+    "user",
+    "profile",
+    "avatar",
+    "person",
+    "account",
+    "circle",
+    "head",
+    "identity"
+  ],
+  "categories": [
+    "people",
+    "interface"
+  ],
+  "variations": {
+    "base": "user",
+    "style": "circle",
+    "related": [
+      "UserSquare",
+      "UserHexagon",
+      "UserHead1",
+      "UserHead2"
+    ],
+    "number": 1
+  },
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "User profile",
+    "description": "Icon representing a user account or profile page"
+  },
+  "usage": {
+    "common": [
+      "Profile page links",
+      "Account menu buttons",
+      "User listings",
+      "Avatar placeholders"
+    ],
+    "examples": [
+      "Navigation bar user menu",
+      "Settings page",
+      "Comment author indicators"
+    ]
+  },
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "aliases": [
+    "avatar",
+    "profile-circle",
+    "account-circle"
+  ]
+}

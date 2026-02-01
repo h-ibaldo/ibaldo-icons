@@ -1,0 +1,28 @@
+{
+  "name": "AddPlusCircle2",
+  "description": "An icon representing add plus circle",
+  "tags": [
+    "add",
+    "plus",
+    "circle"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "add plus circle"
+  },
+  "filename": "add-plus-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

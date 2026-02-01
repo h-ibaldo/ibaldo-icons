@@ -1,0 +1,30 @@
+{
+  "name": "DownloadArrowDownBox1",
+  "filename": "download-arrow-down-box-1",
+  "description": "An icon representing download arrow down box",
+  "tags": [
+    "download",
+    "arrow",
+    "down",
+    "box"
+  ],
+  "categories": [
+    "interface",
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "download arrow down"
+  },
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

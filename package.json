@@ -5,19 +5,25 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
-		"prebuild": "node scripts/generate-icons-index.js",
+		"build:icons": "node scripts/build-icons.js",
+		"build:icons:all": "node scripts/build-icons.js --all",
+		"process": "bash scripts/process-folder.sh",
+		"prebuild": "npm run build:icons",
 		"build": "vite build",
 		"preview": "vite preview",
 		"format": "prettier --write .",
 		"lint": "prettier --check ."
 	},
 	"devDependencies": {
+		"@anthropic-ai/sdk": "^0.72.1",
 		"@sveltejs/adapter-vercel": "^5.2.2",
 		"@sveltejs/kit": "^2.15.2",
 		"@sveltejs/vite-plugin-svelte": "^4.0.4",
 		"autoprefixer": "^10.4.20",
+		"dotenv": "^17.2.3",
 		"prettier": "^3.3.2",
 		"prettier-plugin-svelte": "^3.2.6",
+		"sharp": "^0.34.5",
 		"svelte": "^5.17.3",
 		"tailwindcss": "^3.4.9",
 		"vite": "^5.0.0"
