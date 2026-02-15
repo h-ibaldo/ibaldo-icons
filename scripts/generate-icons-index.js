@@ -1,18 +1,44 @@
+import 'dotenv/config';
 import { promises as fs } from 'fs';
 import { join } from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import { generateSmartName } from './utils/smart-naming.js';
+import { generateAINames } from './utils/ai-naming.js';
+import { generateMetadata, saveMetadata, clearOldMetadata } from './utils/ai-metadata.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+// Choose naming strategy: 'ai' or 'algorithm'
+const NAMING_STRATEGY = process.env.NAMING_STRATEGY || 'ai';
+
+// Generate metadata alongside names
+const GENERATE_METADATA = process.env.GENERATE_METADATA !== 'false';
+
 function formatIconName(name) {
     name = name.replace(/alt(\d+)/i, 'Alternative $1')
                .replace(/opt(\d+)/i, 'Option $1');
-    
-    return name.split(/[-_\s]/).map(word => 
+
+    return name.split(/[-_\s]/).map(word =>
         word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
     ).join(' ');
+}
+
+/**
+ * Load metadata for an icon from the metadata directory
+ * @param {string} filename - SVG filename (without extension)
+ * @returns {Promise<object|null>} Metadata object or null if not found
+ */
+async function loadIconMetadata(filename) {
+    const metadataPath = join(__dirname, '..', 'metadata', 'icons', `${filename}.json`);
+    try {
+        const content = await fs.readFile(metadataPath, 'utf-8');
+        return JSON.parse(content);
+    } catch (error) {
+        // Metadata file doesn't exist yet - that's ok
+        return null;
+    }
 }
 
 async function generateIndex() {
@@ -24,7 +50,7 @@ async function generateIndex() {
     const popularFolders = ['popular', 'application-1', 'application-2'];
 
     try {
-        console.log('Generating icons index...');
+        console.log(`Generating icons index... (using ${NAMING_STRATEGY} naming)`);
 
         const index = {
             categories: [],
@@ -33,6 +59,12 @@ async function generateIndex() {
 
         // Collect all icons for the 'popular' category (legacy)
         const popularIcons = [];
+
+        // Collect all filenames for batch AI naming
+        const allFilenames = [];
+        const filenameToCategory = new Map();
+        const filenameToPath = new Map();
+        const existingNames = {};
 
         // 1. Scan optimized directory (new icons from src/icons/raw/)
         if (await fs.stat(optimizedIconsDir).catch(() => null)) {
@@ -48,29 +80,17 @@ async function generateIndex() {
                 if (!stats.isDirectory()) continue;
 
                 const files = await fs.readdir(categoryPath);
-                const icons = [];
 
                 for (const file of files) {
                     if (!file.endsWith('.svg')) continue;
 
                     const rawName = file.replace('.svg', '');
-                    const name = formatIconName(rawName);
-
-                    icons.push({
-                        name,
-                        path: `/icons/optimized/${category}/${file}`,
-                        filename: file
-                    });
+                    allFilenames.push(rawName);
+                    filenameToCategory.set(rawName, category);
+                    filenameToPath.set(rawName, `/icons/optimized/${category}/${file}`);
                 }
 
-                if (icons.length > 0) {
-                    if (!index.icons[category]) {
-                        index.categories.push(category);
-                        index.icons[category] = [];
-                    }
-                    index.icons[category].push(...icons);
-                    console.log(`  - ${category}: ${icons.length} icons (optimized)`);
-                }
+                console.log(`  - ${category}: ${files.filter(f => f.endsWith('.svg')).length} icons (optimized)`);
             }
         }
 
@@ -86,25 +106,69 @@ async function generateIndex() {
             if (!stats.isDirectory()) continue;
 
             const files = await fs.readdir(categoryPath);
-            const icons = [];
 
             for (const file of files) {
                 if (!file.endsWith('.svg')) continue;
 
                 const rawName = file.replace('.svg', '');
-                const name = formatIconName(rawName);
-
-                icons.push({
-                    name,
-                    path: `/icons/${category}/${file}`,
-                    filename: file
-                });
+                allFilenames.push(rawName);
+                filenameToCategory.set(rawName, category);
+                filenameToPath.set(rawName, `/icons/${category}/${file}`);
             }
+
+            console.log(`  - ${category}: ${files.filter(f => f.endsWith('.svg')).length} icons (legacy)`);
+        }
+
+        // Generate names using chosen strategy
+        let nameMap = {};
+        if (NAMING_STRATEGY === 'ai' && process.env.ANTHROPIC_API_KEY) {
+            console.log('\n🤖 Using AI naming strategy...');
+            nameMap = await generateAINames(allFilenames, existingNames);
+        } else {
+            if (NAMING_STRATEGY === 'ai' && !process.env.ANTHROPIC_API_KEY) {
+                console.warn('⚠️  ANTHROPIC_API_KEY not found, falling back to algorithm naming');
+            }
+            console.log('\n⚙️  Using algorithm naming strategy...');
+            for (const filename of allFilenames) {
+                nameMap[filename] = generateSmartName(filename);
+            }
+        }
+
+        // Build icon entries with generated names
+        // Track seen names to avoid duplicates
+        const seenNames = new Set();
+        const duplicateCount = { sameFile: 0, sameName: 0 };
+
+        for (const filename of allFilenames) {
+            const name = nameMap[filename] || generateSmartName(filename);
+            const category = filenameToCategory.get(filename);
+            const path = filenameToPath.get(filename);
+
+            // Skip if we've already added an icon with this exact name
+            // (This handles both: same file in multiple categories, and different files generating same name)
+            if (seenNames.has(name)) {
+                duplicateCount.sameName++;
+                continue;
+            }
+
+            seenNames.add(name);
+
+            // Convert PascalCase to Sentence case for display
+            const displayName = name.replace(/([A-Z])/g, ' $1').trim()
+                .replace(/(\d+)/g, ' $1').trim()
+                .replace(/\s+/g, ' ');
+            const sentenceCase = displayName.charAt(0).toUpperCase() + displayName.slice(1).toLowerCase();
+
+            const iconEntry = {
+                name,
+                displayName: sentenceCase,
+                path,
+                filename: filename + '.svg'
+            };
 
             // If this folder should be merged into 'popular', add to popularIcons
             if (popularFolders.includes(category)) {
-                popularIcons.push(...icons);
-                console.log(`  - ${category}: ${icons.length} icons (legacy, merged into 'popular')`);
+                popularIcons.push(iconEntry);
             } else {
                 // Otherwise, create a separate category
                 if (!index.categories.includes(category)) {
@@ -113,9 +177,12 @@ async function generateIndex() {
                 if (!index.icons[category]) {
                     index.icons[category] = [];
                 }
-                index.icons[category].push(...icons);
-                console.log(`  - ${category}: ${icons.length} icons (legacy)`);
+                index.icons[category].push(iconEntry);
             }
+        }
+
+        if (duplicateCount.sameName > 0) {
+            console.log(`\n⚠️  Skipped ${duplicateCount.sameName} duplicate icon names (kept first occurrence)`);
         }
 
         // Add 'popular' category with all merged legacy icons
@@ -133,6 +200,62 @@ async function generateIndex() {
 
         // Sort categories
         index.categories.sort();
+
+        // Generate metadata if enabled
+        if (GENERATE_METADATA && NAMING_STRATEGY === 'ai' && process.env.ANTHROPIC_API_KEY) {
+            console.log('\n📝 Generating fresh metadata for all icons...');
+
+            // Clear old metadata first
+            await clearOldMetadata();
+
+            // Collect all unique icons with their names
+            const iconsForMetadata = [];
+            const iconMap = {}; // filename -> icon data
+
+            for (const filename of allFilenames) {
+                const name = nameMap[filename];
+                if (name && seenNames.has(name) && !iconMap[filename]) {
+                    const iconData = {
+                        filename: filename + '.svg',
+                        name: name,
+                        path: filenameToPath.get(filename)
+                    };
+                    iconsForMetadata.push(iconData);
+                    iconMap[filename] = iconData;
+                }
+            }
+
+            // Generate metadata via AI
+            const metadata = await generateMetadata(iconsForMetadata);
+
+            // Save metadata files
+            await saveMetadata(metadata, iconMap);
+
+            console.log('✓ Metadata generation complete!');
+
+            // Add metadata to index for enhanced search
+            console.log('\n🔍 Adding metadata to index for enhanced search...');
+            for (const category in index.icons) {
+                for (const icon of index.icons[category]) {
+                    const filename = icon.filename.replace('.svg', '');
+                    const iconMetadata = metadata[filename];
+
+                    if (iconMetadata) {
+                        icon.tags = iconMetadata.tags;
+                        icon.description = iconMetadata.description;
+                        icon.searchText = [
+                            icon.name,
+                            icon.displayName,
+                            ...iconMetadata.tags,
+                            iconMetadata.description
+                        ].join(' ').toLowerCase();
+                    }
+                }
+            }
+            console.log('✓ Enhanced search metadata added to index');
+        } else if (GENERATE_METADATA && NAMING_STRATEGY === 'ai') {
+            console.log('\n⚠️  Skipping metadata generation (ANTHROPIC_API_KEY not found)');
+        }
 
         await fs.writeFile(indexPath, JSON.stringify(index, null, 2), 'utf-8');
         console.log(`✓ Index generated: ${indexPath}`);

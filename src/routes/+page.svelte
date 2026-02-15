@@ -3,12 +3,13 @@
   import ActionsBar from '$lib/components/ActionsBar.svelte';
 
   let iconsByCategory = {};
+  let allIcons = [];
   let categories = [];
   let loadingCategory = false;
   let loadingCategories = true;
   let size = 24;
   let weight = 1.5;
-  let currentCategory = 'popular';
+  let currentCategory = '';
   let search = '';
   let svgCache = {};
 
@@ -144,20 +145,56 @@
   }
   
   function getCategoryFromHash() {
-      return window.location.hash.slice(1) || 'popular';
+      return window.location.hash.slice(1) || '';
   }
 
   async function loadCategories() {
     try {
         // Load the index directly from static folder (no API needed)
-        const res = await fetch('/icons-index.json?v=3');
+        const res = await fetch('/icons-index.json?v=12');
         if (!res.ok) throw new Error('Failed to fetch index');
         const index = await res.json();
         categories = index.categories || [];
         console.log('Loaded categories:', categories);
+
+        // Load all icons from all categories
+        allIcons = [];
+        for (const category of categories) {
+            const iconList = index.icons?.[category] || [];
+            // Add category info to each icon and mark svg as not loaded
+            const categorizedIcons = iconList.map(icon => ({
+                ...icon,
+                category,
+                svg: null
+            }));
+            allIcons.push(...categorizedIcons);
+            iconsByCategory[category] = categorizedIcons;
+        }
+
+        // Sort all icons alphabetically by name after merging categories
+        allIcons.sort((a, b) => a.name.localeCompare(b.name));
+
+        console.log(`Loaded ${allIcons.length} total icons from ${categories.length} categories`);
+
+        // Preload first batch of icons
+        const preloadCount = isMobile ? 20 : 50;
+        const preloadBatch = allIcons.slice(0, preloadCount);
+        const preloadPromises = preloadBatch.map(async (icon) => {
+          const svg = await loadSVG(icon.path);
+          icon.svg = svg;
+        });
+
+        // Wait for preloads to complete and trigger reactivity
+        Promise.all(preloadPromises).then(() => {
+          allIcons = [...allIcons];
+        }).catch(err => {
+          console.error('Error preloading icons:', err);
+        });
+
     } catch (error) {
         console.error('Error loading categories:', error);
         categories = [];
+        allIcons = [];
     } finally {
         loadingCategories = false;
     }
@@ -180,12 +217,12 @@
 
   async function loadCategory(category) {
     if (!category) return;
-    
+
     try {
         loadingCategory = true;
-        
+
         // Load the index directly from static folder (no API needed)
-        const res = await fetch('/icons-index.json?v=3');
+        const res = await fetch('/icons-index.json?v=12');
         if (!res.ok) throw new Error('Failed to fetch index');
         const index = await res.json();
         
@@ -241,7 +278,7 @@
       if (isVisible && icon && !icon.svg) {
         // Load immediately if already visible
         ensureSVGLoaded(icon).then(() => {
-          iconsByCategory = { ...iconsByCategory };
+          allIcons = [...allIcons];
         });
       } else {
         // Otherwise observe for when it becomes visible
@@ -293,7 +330,7 @@
 
           if (batch.length > 0) {
             Promise.all(batch.map(icon => ensureSVGLoaded(icon))).then(() => {
-              iconsByCategory = { ...iconsByCategory };
+              allIcons = [...allIcons];
               currentBatch++;
               if (currentBatch * batchSize < iconsToLoad.length) {
                 // Use requestIdleCallback if available, otherwise setTimeout
@@ -318,18 +355,7 @@
     });
 
     await loadCategories();
-    currentCategory = getCategoryFromHash();
-    await loadCategory(currentCategory);
-
-    window.addEventListener('hashchange', async () => {
-        const newCategory = getCategoryFromHash();
-        if (newCategory !== currentCategory) {
-            currentCategory = newCategory;
-            if (!iconsByCategory[newCategory]) {
-                await loadCategory(newCategory);
-            }
-        }
-    });
+    // All icons are loaded at once, no need for category navigation
 
     return () => {
       if (observer) {
@@ -339,12 +365,26 @@
     };
   });
 
-  $: currentIcons = iconsByCategory[currentCategory] || [];
+  // Use all icons instead of category-specific icons
+  $: currentIcons = allIcons;
 
-  // Filter icons based on search
-  $: filteredIcons = currentIcons.filter(icon => 
-    icon.name.toLowerCase().includes(search.toLowerCase())
-  );
+  // Filter icons based on search (search name, displayName, tags, and description)
+  $: filteredIcons = currentIcons.filter(icon => {
+    if (!search) return true;
+
+    const searchLower = search.toLowerCase();
+
+    // Use pre-computed searchText if available (includes name, displayName, tags, description)
+    if (icon.searchText) {
+      return icon.searchText.includes(searchLower);
+    }
+
+    // Fallback to basic search
+    return icon.name.toLowerCase().includes(searchLower) ||
+           (icon.displayName && icon.displayName.toLowerCase().includes(searchLower)) ||
+           (icon.tags && icon.tags.some(tag => tag.toLowerCase().includes(searchLower))) ||
+           (icon.description && icon.description.toLowerCase().includes(searchLower));
+  });
 
   // Track previous search to detect changes
   let previousSearch = '';
@@ -370,7 +410,7 @@
         // Use requestIdleCallback to avoid blocking UI on mobile
         const loadIcons = () => {
           Promise.all(iconsToLoad.map(icon => ensureSVGLoaded(icon))).then(() => {
-            iconsByCategory = { ...iconsByCategory };
+            allIcons = [...allIcons];
           });
         };
 
@@ -383,8 +423,7 @@
     }
   });
 
-  $: totalIcons = Object.values(iconsByCategory)
-      .reduce((sum, icons) => sum + (Array.isArray(icons) ? icons.length : 0), 0);
+  $: totalIcons = allIcons.length;
 </script>
 
 <style>
@@ -629,20 +668,13 @@
 <ActionsBar bind:search bind:size bind:weight {totalIcons} />
 <div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden mobile-content" id="main-content" tabindex="-1">
 
-  {#if currentCategory}
-      <div class="mb-8">
-          <h2 class="text-xl font-semibold mb-4 capitalize hidden">
-              {currentCategory} Icons
-              {#if loadingCategory}
-                  <span class="text-sm text-gray-600 ml-2">Loading...</span>
-              {/if}
-          </h2>
-          {#if currentIcons.length > 0}
-              {#if filteredIcons.length === 0 && search}
-                <div class="flex items-center justify-center py-16">
-                  <p class="text-gray-600 text-sm">No icons found for "{search}"</p>
-                </div>
-              {:else}
+  <div class="mb-8">
+      {#if currentIcons.length > 0}
+          {#if filteredIcons.length === 0 && search}
+            <div class="flex items-center justify-center py-16">
+              <p class="text-gray-600 text-sm">No icons found for "{search}"</p>
+            </div>
+          {:else}
               <div
                   class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 sm:gap-x-4 justify-items-center"
                   role="list"
@@ -702,12 +734,11 @@
                                   {/if}
                               </div>
                           </div>
-                          <div class="icon-tooltip" aria-hidden="true">{icon.name}</div>
+                          <div class="icon-tooltip" aria-hidden="true">{icon.displayName || icon.name}</div>
                       </div>
                   {/each}
               </div>
               {/if}
-          {/if}
-      </div>
-  {/if}
+      {/if}
+  </div>
 </div>

@@ -180,8 +180,13 @@ async function generateIconsIndex() {
   console.log('\n📋 Generating icons index...');
 
   try {
-    await execAsync('node scripts/generate-icons-index.js', { cwd: projectRoot });
-    console.log('✅ Icons index generated');
+    // Use algorithm naming for regular builds (fast, no API calls)
+    // Run `npm run generate:index:full` manually for AI naming + metadata
+    await execAsync('NAMING_STRATEGY=algorithm GENERATE_METADATA=false node scripts/generate-icons-index.js', {
+      cwd: projectRoot
+    });
+    console.log('✅ Icons index generated (using fast algorithm naming)');
+    console.log('💡 Tip: Run `npm run generate:index:full` for AI naming + metadata');
   } catch (error) {
     console.error('❌ Icons index generation failed:', error.message);
     throw error;
