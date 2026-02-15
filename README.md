@@ -161,6 +161,8 @@ icon-design/
 
 - [QUICK-START.md](./QUICK-START.md) - Simple getting started guide
 - [WORKFLOW.md](./WORKFLOW.md) - Detailed workflow documentation
+- [SCRIPTS.md](./SCRIPTS.md) - Complete npm scripts reference
+- [CHANGELOG.md](./CHANGELOG.md) - Version history and release notes
 - [ROADMAP.md](./ROADMAP.md) - Competitive strategy & future plans
 
 ---
@@ -257,17 +259,19 @@ function MediaPlayer() {
 | `npm run build` | Build website (processes icons first) |
 | `npm run preview` | Preview production build |
 
+For complete documentation of all scripts, see [SCRIPTS.md](./SCRIPTS.md)
+
 ---
 
 ## 🤝 Contributing
 
-This is a private project. For internal use only.
+This project is not currently accepting external contributions.
 
 ---
 
 ## 📄 License
 
-Private - All rights reserved.
+MIT - See [LICENSE](./LICENSE) for details.
 
 ---
 
