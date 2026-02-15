@@ -1,6 +1,6 @@
 {
   "name": "@icon-design/svelte",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Svelte components for icon.design - A line-based icon library with variations, not conclusions",
   "type": "module",
   "svelte": "./dist/index.js",
