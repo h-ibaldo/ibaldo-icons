@@ -162,6 +162,7 @@ icon-design/
 - [QUICK-START.md](./QUICK-START.md) - Simple getting started guide
 - [WORKFLOW.md](./WORKFLOW.md) - Detailed workflow documentation
 - [SCRIPTS.md](./SCRIPTS.md) - Complete npm scripts reference
+- [PUBLISHING.md](./PUBLISHING.md) - Package publishing guide
 - [CHANGELOG.md](./CHANGELOG.md) - Version history and release notes
 - [ROADMAP.md](./ROADMAP.md) - Competitive strategy & future plans
 
