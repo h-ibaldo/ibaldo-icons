@@ -1,0 +1,37 @@
+{
+  "name": "ChartArrowUpCircleMinus",
+  "displayName": "Chart arrow up circle minus",
+  "originalTitle": "Chart Arrow Up Circle Negative Remove Minus Delete",
+  "description": "Growth chart with upward arrow and minus symbol for removing data points or negative adjustments. Used for data deletion or metric corrections.",
+  "tags": [
+    "chart",
+    "arrow",
+    "up",
+    "minus",
+    "remove",
+    "delete",
+    "analytics",
+    "correction"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Remove chart data"
+  },
+  "filename": "chart-arrow-up-circle-negative-remove-minus-delete",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.740Z"
+}

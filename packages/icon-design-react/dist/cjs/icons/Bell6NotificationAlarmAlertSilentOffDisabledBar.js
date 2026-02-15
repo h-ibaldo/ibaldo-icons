@@ -1,0 +1,35 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const Bell6NotificationAlarmAlertSilentOffDisabledBar = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M13.974731466400044,18.000000004136382v2.000002000000677c0,1.104568395087881-.895429604910532,1.999997999999323-1.999998000001142,1.999997999999323h-.000003999999535c-1.104568395079696,0-1.999997999999323-.895429604911442-1.999997999999323-1.999997999999323v-2.000002000000677" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="20.974731466400044" y1="3.000000004136382" x2="2.974731466400044" y2="21.000000004136382" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M5.974731466400044,18.000000004136382h12.381958007810681c.893615722668983,0,1.618041992189319-.724365234370453,1.618041992189319-1.618041992191138,0-.251220703121362-.058471679689319-.498901367179315-.170837402340112-.7236328125l-.658325195319776-1.316772460929315c-.112365722650793-.224609375-.170837402340112-.472412109379547-.170837402340112-.723510742192047v-4.6180419921875c0-1.1597900390625-.286560058590112-2.2509765625-.785827636720569-3.214111328120453" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M15.188903829679475,2.785888676015929c-.963195800779431-.499267578129547-2.054443359369543-.785888671879547-3.214172363279431-.785888671879547-3.865966796860448,0-7,3.134033203129547-7,7v4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+Bell6NotificationAlarmAlertSilentOffDisabledBar.displayName = 'Bell6NotificationAlarmAlertSilentOffDisabledBar';
+
+module.exports = Bell6NotificationAlarmAlertSilentOffDisabledBar;
+module.exports.Bell6NotificationAlarmAlertSilentOffDisabledBar = Bell6NotificationAlarmAlertSilentOffDisabledBar;
+module.exports.default = Bell6NotificationAlarmAlertSilentOffDisabledBar;

@@ -1,0 +1,34 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const Cloud2Refresh2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="12.000000000160071 21.999999973568265 12.000000000020009 18.999999973568265 15.000000000020009 18.999999973428203" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M12.422119140650466,18.999999973519152c.772216796869543,1.764404296867724,2.528686523430224,3,4.577880859369543,3,2.761413574220569,0,5-2.238586425792164,5-5,0-2.761413574220569-2.238586425779431-5-5-5-2.049194335939319,0-3.8056640625,1.235595703117724-4.577880859369543,3" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M19.000000000020009,8.999999999998181c0-2.209167480470569-1.790832519529431-4-4-4-.137084960939319,0-.266723632810681.02685546875-.400268554689319.040344238279431-.762390136711474-1.787048339839203-2.534118652340112-3.040344238279431-4.599731445310681-3.040344238279431-2.761413574220569,0-5,2.238586425779431-5,5,0,.137084960940228.029541015630457.265869140610448.040344238279431.400207519529431-1.787048339840112.762390136720569-3.040344238279431,2.5341796875-3.040344238279431,4.599792480470569,0,2.761413574209655,2.238586425779431,5,5,5h2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+Cloud2Refresh2.displayName = 'Cloud2Refresh2';
+
+module.exports = Cloud2Refresh2;
+module.exports.Cloud2Refresh2 = Cloud2Refresh2;
+module.exports.default = Cloud2Refresh2;

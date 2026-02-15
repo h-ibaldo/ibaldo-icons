@@ -1,0 +1,37 @@
+{
+  "name": "Door2ArrowIn",
+  "displayName": "Door 2 arrow in",
+  "originalTitle": "Door 2 Enter Login Arrow In",
+  "description": "Door with inward arrow representing login or entry functionality. Used for sign in actions and entering applications or rooms.",
+  "tags": [
+    "door",
+    "login",
+    "enter",
+    "sign in",
+    "arrow",
+    "in",
+    "entry",
+    "access"
+  ],
+  "categories": [
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Login or enter"
+  },
+  "filename": "door-2-enter-login-arrow-in",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.800Z"
+}

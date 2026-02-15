@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalColumnsRectangleX",
+  "displayName": "Chart vertical columns rectangle x",
+  "originalTitle": "Chart Vertical Columns Rectangle X Delete Error",
+  "description": "Column chart with X indicator for deletion or error states. Used for removing chart data or indicating chart processing errors in analytics applications.",
+  "tags": [
+    "chart",
+    "column",
+    "delete",
+    "error",
+    "remove",
+    "cancel",
+    "data",
+    "management"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Delete column chart or chart error"
+  },
+  "filename": "chart-vertical-columns-rectangle-x-delete-error",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.759Z"
+}

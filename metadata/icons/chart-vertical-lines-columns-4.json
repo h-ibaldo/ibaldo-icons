@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalLinesColumns4",
+  "displayName": "Chart vertical lines columns 4",
+  "originalTitle": "Chart Vertical Lines Columns 4",
+  "description": "Four-column vertical bar chart icon for displaying comparative data across four categories. Used to represent complex data visualization with multiple data sets.",
+  "tags": [
+    "chart",
+    "graph",
+    "data",
+    "analytics",
+    "columns",
+    "bars",
+    "statistics",
+    "visualization"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Four-column bar chart"
+  },
+  "filename": "chart-vertical-lines-columns-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.759Z"
+}

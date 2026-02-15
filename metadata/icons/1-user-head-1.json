@@ -1,16 +1,21 @@
 {
-  "name": "ShieldUserProfile",
-  "description": "User profile icon with shield shape",
+  "name": "User1",
+  "displayName": "User 1",
+  "originalTitle": "1 User Head 1",
+  "description": "Single user profile icon representing an individual person or account. Used for user profiles, account settings, and personal identification.",
   "tags": [
     "user",
     "profile",
-    "shield",
-    "secure",
-    "identity"
+    "person",
+    "account",
+    "individual",
+    "avatar",
+    "head",
+    "single"
   ],
   "categories": [
-    "interface",
-    "security"
+    "people",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +32,6 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.765Z"
 }

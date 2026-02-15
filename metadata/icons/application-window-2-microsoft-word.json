@@ -1,0 +1,37 @@
+{
+  "name": "ApplicationWindow2Word",
+  "displayName": "Application window 2 word",
+  "originalTitle": "Application Window 2 Microsoft Word",
+  "description": "Application window representing Microsoft Word document software. Used to indicate Word documents, text editing applications, or document processing.",
+  "tags": [
+    "window",
+    "application",
+    "word",
+    "microsoft",
+    "document",
+    "text",
+    "editor",
+    "office"
+  ],
+  "categories": [
+    "files",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Microsoft Word application window"
+  },
+  "filename": "application-window-2-microsoft-word",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.775Z"
+}

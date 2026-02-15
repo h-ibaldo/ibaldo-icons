@@ -1,0 +1,37 @@
+{
+  "name": "ChartLineSquare3ArrowIn",
+  "displayName": "Chart line square 3 arrow in",
+  "originalTitle": "Chart Line Square 3 Arrow In",
+  "description": "Alternative line chart with import arrow for data input functionality. Used for importing analytics data or adding datasets to reporting systems.",
+  "tags": [
+    "chart",
+    "import",
+    "arrow",
+    "data",
+    "input",
+    "analytics",
+    "upload",
+    "add"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Import chart data variant"
+  },
+  "filename": "chart-line-square-3-arrow-in",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.753Z"
+}

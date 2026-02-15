@@ -1,20 +1,24 @@
 {
-  "name": "ShieldUserProfileNested",
-  "description": "Nested user profile shield icon",
+  "name": "User11",
+  "displayName": "User 11",
+  "originalTitle": "1 User Head 11",
+  "description": "User profile icon representing a person or account. Commonly used for user accounts, profiles, and personal settings.",
   "tags": [
     "user",
     "profile",
-    "shield",
-    "layered",
-    "protection"
+    "person",
+    "account",
+    "avatar",
+    "individual",
+    "member"
   ],
   "categories": [
-    "interface",
-    "security"
+    "people",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "Nested user profile"
+    "suggestedLabel": "User profile"
   },
   "filename": "1-user-head-11",
   "technical": {
@@ -27,5 +31,6 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.765Z"
 }

@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalBarsArrowHorizontal1",
+  "displayName": "Chart vertical bars arrow horizontal 1",
+  "originalTitle": "Chart Vertival Bars Arrow Horizontal Neutral 1",
+  "description": "Vertical bar chart with horizontal arrow indicating data trends or direction. Used to show data analysis with directional movement or growth indicators.",
+  "tags": [
+    "chart",
+    "graph",
+    "arrow",
+    "trend",
+    "analytics",
+    "direction",
+    "growth",
+    "data"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Bar chart with trend arrow"
+  },
+  "filename": "chart-vertival-bars-arrow-horizontal-neutral-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.759Z"
+}

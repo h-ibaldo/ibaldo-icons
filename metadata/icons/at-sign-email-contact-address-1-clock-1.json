@@ -1,0 +1,37 @@
+{
+  "name": "AtSign1Clock1",
+  "displayName": "At sign 1 clock 1",
+  "originalTitle": "At Sign Email Contact Address 1 Clock 1",
+  "description": "Email address symbol with clock indicating scheduled emails, pending messages, or time-related email functions. Used for delayed sending, scheduling, or time-based email features.",
+  "tags": [
+    "email",
+    "scheduled",
+    "time",
+    "pending",
+    "clock",
+    "delayed",
+    "contact",
+    "timing"
+  ],
+  "categories": [
+    "communication",
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Scheduled email"
+  },
+  "filename": "at-sign-email-contact-address-1-clock-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.777Z"
+}

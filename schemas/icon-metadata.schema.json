@@ -1,0 +1,194 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://icon.design/schemas/icon-metadata.json",
+  "title": "Icon Metadata Schema",
+  "description": "Metadata structure for icon.design icons",
+  "type": "object",
+  "required": ["name", "filename", "description", "tags", "categories"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "PascalCase component name (e.g., 'UserCircle', 'ArrowLeft')",
+      "pattern": "^[A-Z][a-zA-Z0-9]*$"
+    },
+    "filename": {
+      "type": "string",
+      "description": "Kebab-case SVG filename without extension",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "description": {
+      "type": "string",
+      "description": "Clear, concise description of what the icon represents",
+      "minLength": 10,
+      "maxLength": 200
+    },
+    "tags": {
+      "type": "array",
+      "description": "Keywords for search and discovery",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      },
+      "minItems": 3,
+      "maxItems": 20,
+      "uniqueItems": true
+    },
+    "categories": {
+      "type": "array",
+      "description": "Primary categories this icon belongs to",
+      "items": {
+        "type": "string",
+        "enum": [
+          "interface",
+          "arrows",
+          "communication",
+          "media",
+          "files",
+          "business",
+          "social",
+          "weather",
+          "devices",
+          "health",
+          "education",
+          "transportation",
+          "food",
+          "people",
+          "accessibility",
+          "nature",
+          "sports",
+          "development",
+          "security",
+          "shopping",
+          "time",
+          "location"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 3,
+      "uniqueItems": true
+    },
+    "variations": {
+      "type": "object",
+      "description": "Related icon variations and their relationships",
+      "properties": {
+        "base": {
+          "type": "string",
+          "description": "Base concept name if this is a variation"
+        },
+        "style": {
+          "type": "string",
+          "description": "Style variant identifier (e.g., 'outlined', 'filled', 'rounded')"
+        },
+        "related": {
+          "type": "array",
+          "description": "Names of related icon variations",
+          "items": {
+            "type": "string"
+          }
+        },
+        "number": {
+          "type": "integer",
+          "description": "Variation number if part of a numbered series",
+          "minimum": 1
+        }
+      }
+    },
+    "accessibility": {
+      "type": "object",
+      "description": "Accessibility recommendations for this icon",
+      "properties": {
+        "role": {
+          "type": "string",
+          "enum": ["decorative", "informative", "interactive"],
+          "description": "Primary usage role for accessibility"
+        },
+        "suggestedLabel": {
+          "type": "string",
+          "description": "Recommended aria-label text when used interactively"
+        },
+        "description": {
+          "type": "string",
+          "description": "Longer description for screen reader context when needed"
+        }
+      },
+      "required": ["role"]
+    },
+    "usage": {
+      "type": "object",
+      "description": "Common usage patterns and recommendations",
+      "properties": {
+        "common": {
+          "type": "array",
+          "description": "Common use cases",
+          "items": {
+            "type": "string"
+          }
+        },
+        "examples": {
+          "type": "array",
+          "description": "Example contexts where this icon is used",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "technical": {
+      "type": "object",
+      "description": "Technical SVG metadata",
+      "properties": {
+        "viewBox": {
+          "type": "string",
+          "description": "SVG viewBox attribute",
+          "default": "0 0 24 24"
+        },
+        "strokeWidth": {
+          "type": "number",
+          "description": "Default stroke width",
+          "default": 1.5
+        },
+        "hasStroke": {
+          "type": "boolean",
+          "description": "Whether icon uses strokes",
+          "default": true
+        },
+        "hasFill": {
+          "type": "boolean",
+          "description": "Whether icon uses fills",
+          "default": false
+        }
+      }
+    },
+    "contributors": {
+      "type": "array",
+      "description": "People who created or contributed to this icon",
+      "items": {
+        "type": "string"
+      },
+      "default": ["Henrique Ibaldo"]
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of this icon",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "default": "1.0.0"
+    },
+    "deprecated": {
+      "type": "boolean",
+      "description": "Whether this icon is deprecated",
+      "default": false
+    },
+    "replacedBy": {
+      "type": "string",
+      "description": "Name of icon that replaces this one if deprecated"
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Alternative names users might search for",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}

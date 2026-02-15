@@ -1,0 +1,32 @@
+import { forwardRef } from 'react';
+
+const CustomerSupportPersonHead42 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M6.974731444798635,8.000000003892637v7.757422049679008c0,.795657382001082.316076790021725,1.558726041501359.878695802561197,2.121336489548412l3.242627311309661,3.242577950320992c.562607822520476.562599258209957,1.325662640390874.878663510451588,2.121304197440622.878663510451588h1.514745377379768c.795641557049748,0,1.558696374920146-.316064252241631,2.121304197439713-.878663510451588l3.242627311310571-3.242577950320992c.562619012539471-.562610448047053.878695802558468-1.32567910754733.878695802558468-2.121336489548412v-7.757422049679008c0-3.313708498979395-2.686291501008782-6-6-6h-2c-3.313708498978485,0-6,2.686291501020605-6,6Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M6.974731444798635,9.000000003892637l-2,1.5c-1.259029213329995.94427191000068-2,2.426213483340689-2,4v1.843145750510303c0,1.060865959359944.42142736146161,2.078281610949489,1.171572875251513,2.828427124739392l1.828427124748487,1.828427124750306h-1l-1-1h1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+CustomerSupportPersonHead42.displayName = 'CustomerSupportPersonHead42';
+
+export default CustomerSupportPersonHead42;
+export { CustomerSupportPersonHead42 };

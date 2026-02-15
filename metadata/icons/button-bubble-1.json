@@ -1,0 +1,37 @@
+{
+  "name": "ButtonBubble1",
+  "displayName": "Button bubble 1",
+  "originalTitle": "Button Bubble 1",
+  "description": "Speech bubble or chat bubble icon representing conversation or messaging functionality. Used for chat features, comments, or communication interfaces.",
+  "tags": [
+    "bubble",
+    "chat",
+    "message",
+    "conversation",
+    "speech",
+    "talk",
+    "comment",
+    "dialogue"
+  ],
+  "categories": [
+    "communication",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Chat bubble"
+  },
+  "filename": "button-bubble-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.790Z"
+}

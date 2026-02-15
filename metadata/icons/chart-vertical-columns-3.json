@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalColumns3",
+  "displayName": "Chart vertical columns 3",
+  "originalTitle": "Chart Vertical Columns 3",
+  "description": "Third variation of vertical column chart for displaying categorical data. Used in business intelligence and data presentation applications.",
+  "tags": [
+    "chart",
+    "columns",
+    "bars",
+    "vertical",
+    "categorical",
+    "data",
+    "business",
+    "analysis"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Vertical columns chart"
+  },
+  "filename": "chart-vertical-columns-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.755Z"
+}

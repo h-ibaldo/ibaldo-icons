@@ -1,0 +1,37 @@
+{
+  "name": "ApplicationWindow1Heart3",
+  "displayName": "Application window 1 heart 3",
+  "originalTitle": "Application Window 1 Heart Favorite 1",
+  "description": "Application window with heart icon representing favorites or liked items management. Used for bookmark applications or preference tracking software.",
+  "tags": [
+    "application",
+    "window",
+    "heart",
+    "favorite",
+    "bookmark",
+    "like",
+    "preference",
+    "saved"
+  ],
+  "categories": [
+    "interface",
+    "social"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Favorites application window"
+  },
+  "filename": "application-window-1-heart-favorite-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.768Z"
+}

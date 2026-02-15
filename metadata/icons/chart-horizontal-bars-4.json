@@ -1,0 +1,36 @@
+{
+  "name": "ChartHorizontalBars4",
+  "displayName": "Chart horizontal bars 4",
+  "originalTitle": "Chart Horizontal Bars 4",
+  "description": "Fourth horizontal bar chart variant for comparative data display. Used for rankings, surveys, and categorical comparisons.",
+  "tags": [
+    "bar",
+    "horizontal",
+    "comparison",
+    "ranking",
+    "survey",
+    "data",
+    "analytics",
+    "categories"
+  ],
+  "categories": [
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Horizontal bar chart option four"
+  },
+  "filename": "chart-horizontal-bars-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.745Z"
+}

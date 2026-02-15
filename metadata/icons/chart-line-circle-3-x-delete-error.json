@@ -1,0 +1,38 @@
+{
+  "name": "ChartLineCircle3X",
+  "displayName": "Chart line circle 3 x",
+  "originalTitle": "Chart Line Circle 3 X Delete Error",
+  "description": "Line chart with X mark for deleting chart data or indicating chart errors. Used to remove charts or show data validation errors.",
+  "tags": [
+    "chart",
+    "delete",
+    "error",
+    "remove",
+    "invalid",
+    "data",
+    "analytics",
+    "fail",
+    "cancel"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Delete chart or chart error"
+  },
+  "filename": "chart-line-circle-3-x-delete-error",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.751Z"
+}

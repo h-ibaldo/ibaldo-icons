@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-4f3f3fd1-ce83-4548-938f-b52db68930e1" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <rect x="2.016630450973025" y="17.000000000480213" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10.016630450973025" y="17.000000000480213" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10.016630450973025" y="3.000000000480213" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="18.016630450973025" y="17.000000000480213" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="4.016630450971206 17.000000000480213 4.016630450971206 12.000000000480213 20.016630450971206 12.000000000480213 20.016630450971206 17.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="12.016630450971206" y1="7.000000000480213" x2="12.016630450971206" y2="17.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

@@ -1,0 +1,44 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <rect x="1.999999988019908" y="5.999996563894001" width="20" height="12.000000004577942" rx="5.999993987784051" ry="5.999993987784051" transform="translate(23.999999973447217 23.999993134958544) rotate(-180)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15.999999977100742,17.999996563434252c-3.313708498801134,0-6-2.686291501198866-6-6,0-3.313708498797496,2.686291501198866-6,6-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <line x1="5.009999977100961" y1="7.999996563434252" x2="4.999999977100742" y2="7.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="8.009999977100961" y1="7.999996563434252" x2="7.999999977100742" y2="7.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="11.009999977100961" y1="7.999996563434252" x2="10.999999977100742" y2="7.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="3.009999977100961" y1="9.999996563434252" x2="2.999999977100742" y2="9.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="6.009999977100961" y1="9.999996563434252" x2="5.999999977100742" y2="9.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="5.009999977100961" y1="11.999996563434252" x2="4.999999977100742" y2="11.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="9.009999977100961" y1="9.999996563434252" x2="8.999999977100742" y2="9.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="8.009999977100961" y1="11.999996563434252" x2="7.999999977100742" y2="11.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="3.009999977100961" y1="13.999996563434252" x2="2.999999977100742" y2="13.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="6.009999977100961" y1="13.999996563434252" x2="5.999999977100742" y2="13.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="5.009999977100961" y1="15.999996563434252" x2="4.999999977100742" y2="15.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="9.009999977100961" y1="13.999996563434252" x2="8.999999977100742" y2="13.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="8.009999977100961" y1="15.999996563434252" x2="7.999999977100742" y2="15.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="11.009999977100961" y1="15.999996563434252" x2="10.999999977100742" y2="15.999996563434252" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

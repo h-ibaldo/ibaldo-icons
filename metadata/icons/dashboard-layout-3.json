@@ -1,0 +1,37 @@
+{
+  "name": "DashboardLayout3",
+  "displayName": "Dashboard layout 3",
+  "originalTitle": "Dashboard Layout 3",
+  "description": "Third dashboard layout variation showing different content organization. Used for dashboard templates or layout switching functionality.",
+  "tags": [
+    "dashboard",
+    "layout",
+    "template",
+    "interface",
+    "admin",
+    "analytics",
+    "organization",
+    "overview"
+  ],
+  "categories": [
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Dashboard layout option 3"
+  },
+  "filename": "dashboard-layout-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.798Z"
+}

@@ -1,17 +1,23 @@
 {
-  "name": "AddPlusCircle2",
-  "description": "An icon representing add plus circle",
+  "name": "AddCircle",
+  "displayName": "Add circle",
+  "originalTitle": "Add Plus Circle",
+  "description": "Circular plus icon for adding items with emphasis. Provides a contained add button for prominent placement.",
   "tags": [
     "add",
     "plus",
-    "circle"
+    "create",
+    "new",
+    "circle",
+    "button",
+    "insert"
   ],
   "categories": [
     "interface"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "add plus circle"
+    "suggestedLabel": "Add new item"
   },
   "filename": "add-plus-circle",
   "technical": {
@@ -24,5 +30,6 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.766Z"
 }

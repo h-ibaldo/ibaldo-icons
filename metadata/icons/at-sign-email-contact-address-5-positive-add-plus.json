@@ -1,0 +1,37 @@
+{
+  "name": "AtSign5Plus",
+  "displayName": "At sign 5 plus",
+  "originalTitle": "At Sign Email Contact Address 5 Positive Add Plus",
+  "description": "At symbol with plus sign for adding new email addresses or creating contacts. Used for contact creation or email address addition functions.",
+  "tags": [
+    "email",
+    "add",
+    "plus",
+    "new",
+    "create",
+    "contact",
+    "positive",
+    "additional"
+  ],
+  "categories": [
+    "communication",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Add email address"
+  },
+  "filename": "at-sign-email-contact-address-5-positive-add-plus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.764Z"
+}

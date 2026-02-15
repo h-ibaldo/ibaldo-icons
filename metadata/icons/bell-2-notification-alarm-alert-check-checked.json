@@ -1,0 +1,37 @@
+{
+  "name": "Bell2Check",
+  "displayName": "Bell 2 check",
+  "originalTitle": "Bell 2 Notification Alarm Alert Check Checked",
+  "description": "Notification bell with checkmark showing verified or enabled notification status. Used to indicate successful notification setup or acknowledged alerts.",
+  "tags": [
+    "bell",
+    "notification",
+    "check",
+    "verified",
+    "enabled",
+    "confirmed",
+    "success",
+    "acknowledged"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Notification bell verified"
+  },
+  "filename": "bell-2-notification-alarm-alert-check-checked",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.781Z"
+}

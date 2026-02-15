@@ -1,0 +1,36 @@
+{
+  "name": "ApplicationWindow2CircleDots",
+  "displayName": "Application window 2 circle dots",
+  "originalTitle": "Application Window 2 Circle Dots Other Menu",
+  "description": "Application window with three dots menu icon representing additional options or context menus. Used for overflow menus, more actions, or secondary navigation in applications.",
+  "tags": [
+    "window",
+    "application",
+    "dots",
+    "menu",
+    "options",
+    "more",
+    "overflow",
+    "context"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Application window with more options menu"
+  },
+  "filename": "application-window-2-circle-dots-other-menu",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.772Z"
+}

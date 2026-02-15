@@ -1,0 +1,36 @@
+{
+  "name": "Bell2Octagon",
+  "displayName": "Bell 2 octagon",
+  "originalTitle": "Bell 2 Notification Alarm Alert Octagon",
+  "description": "Notification bell enclosed in octagon shape for distinctive styling. Used in interface elements requiring octagonal button design for notifications.",
+  "tags": [
+    "bell",
+    "notification",
+    "octagon",
+    "shape",
+    "button",
+    "interface",
+    "alert"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Notification bell in octagon"
+  },
+  "filename": "bell-2-notification-alarm-alert-octagon",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.782Z"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalColumns7",
+  "displayName": "Chart vertical columns 7",
+  "originalTitle": "Chart Vertical Columns 7",
+  "description": "Seventh variation of vertical column chart for business reporting and analytics. Used to present numerical data in visual format.",
+  "tags": [
+    "chart",
+    "columns",
+    "bars",
+    "vertical",
+    "reporting",
+    "numerical",
+    "analytics",
+    "presentation"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Column chart style seven"
+  },
+  "filename": "chart-vertical-columns-7",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.755Z"
+}

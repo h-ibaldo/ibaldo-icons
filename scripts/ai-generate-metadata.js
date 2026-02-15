@@ -37,57 +37,31 @@ const CATEGORIES = [
 ];
 
 /**
- * Generate metadata for a batch of icons using AI vision
+ * Generate metadata for a batch of icons using AI (filename-based, no vision)
  * @param {string[]} svgPaths - Array of SVG file paths
  * @returns {Promise<Array>} Array of metadata objects
  */
 export async function generateMetadataWithAI(svgPaths) {
   console.log(`\n🤖 Generating AI metadata for ${svgPaths.length} icons...`);
 
-  // Convert SVGs to base64 PNGs
-  console.log('📸 Converting SVGs to images...');
-  const images = await batchSvgToBase64(svgPaths);
-
-  // Filter out any conversion errors
-  const validImages = images.filter(img => !img.error);
-
-  if (validImages.length === 0) {
-    console.error('❌ No valid images to process');
-    return [];
-  }
-
   // Get existing names to avoid duplicates
   const existingNames = Object.keys(loadNameIndex());
 
-  // Build the prompt with image content
-  const content = [
-    {
-      type: 'text',
-      text: buildPrompt(existingNames, validImages.length)
-    }
-  ];
+  // Extract filenames
+  const filenames = svgPaths.map(p => path.basename(p, '.svg'));
 
-  // Add all images to the content
-  for (const img of validImages) {
-    content.push({
-      type: 'image',
-      source: {
-        type: 'base64',
-        media_type: 'image/png',
-        data: img.base64
-      }
-    });
-  }
+  // Build text-only prompt (no images needed!)
+  const promptText = buildFilenameBasedPrompt(existingNames, filenames);
 
   try {
-    console.log('🔍 Analyzing icons with Claude Vision...');
+    console.log('✨ Generating metadata from filenames with Claude...');
 
     const message = await anthropic.messages.create({
-      model: 'claude-3-5-haiku-20241022',
+      model: 'claude-haiku-4-5-20251001',
       max_tokens: 4096,
       messages: [{
         role: 'user',
-        content
+        content: promptText
       }]
     });
 
@@ -114,25 +88,26 @@ export async function generateMetadataWithAI(svgPaths) {
 
     // Validate and enhance metadata
     const results = [];
-    for (let i = 0; i < validImages.length; i++) {
+    for (let i = 0; i < svgPaths.length; i++) {
       const meta = metadata[i];
-      const img = validImages[i];
+      const svgPath = svgPaths[i];
+      const filename = path.basename(svgPath, '.svg');
 
       // If metadata is missing for this icon, use fallback
       if (!meta || typeof meta !== 'object') {
-        console.warn(`⚠️  Missing metadata for ${img.filename}, using fallback`);
+        console.warn(`⚠️  Missing metadata for ${filename}, using fallback`);
         const fallbackMeta = {
-          name: suggestUniqueName(generateNameFromFilename(img.filename)),
-          description: `An icon representing ${path.basename(img.filename, '.svg').replace(/-/g, ' ')}`,
-          tags: path.basename(img.filename, '.svg').split('-').filter(w => !/^\d+$/.test(w)),
+          name: suggestUniqueName(generateNameFromFilename(filename)),
+          description: `An icon representing ${filename.replace(/-/g, ' ')}`,
+          tags: filename.split('-').filter(w => !/^\d+$/.test(w)),
           categories: ['interface'],
           accessibility: {
             role: 'informative',
-            suggestedLabel: path.basename(img.filename, '.svg').replace(/-/g, ' ')
+            suggestedLabel: filename.replace(/-/g, ' ')
           }
         };
 
-        fallbackMeta.filename = path.basename(img.filename, '.svg');
+        fallbackMeta.filename = filename;
         fallbackMeta.technical = {
           viewBox: '0 0 24 24',
           strokeWidth: 1.5,
@@ -143,9 +118,9 @@ export async function generateMetadataWithAI(svgPaths) {
         fallbackMeta.version = '1.0.0';
         fallbackMeta.deprecated = false;
 
-        addName(fallbackMeta.name, img.filename);
+        addName(fallbackMeta.name, `${filename}.svg`);
         results.push({
-          path: img.path,
+          path: svgPath,
           metadata: fallbackMeta
         });
         continue;
@@ -153,11 +128,11 @@ export async function generateMetadataWithAI(svgPaths) {
 
       // Ensure name is unique
       if (!meta.name || existingNames.includes(meta.name)) {
-        meta.name = suggestUniqueName(meta.name || generateNameFromFilename(img.filename));
+        meta.name = suggestUniqueName(meta.name || generateNameFromFilename(filename));
       }
 
       // Add technical details
-      meta.filename = path.basename(img.filename, '.svg');
+      meta.filename = filename;
       meta.technical = {
         viewBox: '0 0 24 24',
         strokeWidth: 1.5,
@@ -169,10 +144,10 @@ export async function generateMetadataWithAI(svgPaths) {
       meta.deprecated = false;
 
       // Add to name index
-      addName(meta.name, img.filename);
+      addName(meta.name, `${filename}.svg`);
 
       results.push({
-        path: img.path,
+        path: svgPath,
         metadata: meta
       });
     }
@@ -195,12 +170,128 @@ export async function generateMetadataWithAI(svgPaths) {
 }
 
 /**
- * Build the AI prompt for metadata generation
+ * Build filename-based prompt (no vision needed)
+ * @param {string[]} existingNames - Names to avoid
+ * @param {string[]} filenames - Icon filenames
+ * @returns {string}
+ */
+function buildFilenameBasedPrompt(existingNames, filenames) {
+  const filenameList = filenames.map((f, i) => `${i + 1}. ${f}`).join('\n');
+
+  return `You are generating metadata for ${filenames.length} icon(s) for a professional icon library called icon.design.
+
+IMPORTANT: These are FILENAME-BASED metadata generations. The filenames contain keywords in order of IMPORTANCE (most important first).
+
+For EACH filename below, generate metadata in this JSON array format:
+
+[
+  {
+    "name": "ComponentName",
+    "description": "Clear, concise description",
+    "tags": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"],
+    "categories": ["category1", "category2"],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Brief aria-label"
+    }
+  }
+]
+
+CRITICAL NAMING RULES:
+
+1. **name**: Create a COMPACT, PRACTICAL PascalCase component name from the filename
+
+   **MANDATORY: ALWAYS start with the first 1-2 words from the filename!**
+
+   - Take the FIRST 1-2 words (base concept - REQUIRED!)
+   - SKIP middle redundant/descriptive words
+   - From the END, pick 1-2 UNIQUE distinguishing concepts
+   - **Detect synonym groups - use ONLY ONE word per group!**
+   - Total: 2-4 words MAXIMUM
+
+   **SYNONYM GROUPS (pick ONE per group):**
+   - notification/alarm/alert → pick ONE
+   - remove/delete/minus/negative → pick ONE
+   - close/x → pick ONE
+   - add/plus/positive → pick ONE
+   - check/checked/checkmark → pick ONE
+
+   Examples:
+   - "bell-4-notification-alarm-alert-x-close-delete-remove-circle"
+     Step 1: Base = "Bell4" (first word + number)
+     Step 2: Skip "notification-alarm-alert" (all mean same thing)
+     Step 3: End = "x-close-delete-remove" + "circle"
+     Step 4: "x-close-delete-remove" are synonyms → pick ONE ("X" or "Close")
+     Step 5: Final concepts = "X" + "Circle" (or "Close" + "Circle")
+     ✅ Result: "Bell4XCircle" or "Bell4CloseCircle" (3 words)
+     ❌ WRONG: "Bell4NotificationAlarmAlertXCloseDeleteRemoveCircle"
+
+   - "bell-2-notification-alarm-alert-clock"
+     Base = "Bell2", Skip middle, End = "clock" (unique)
+     ✅ Result: "Bell2Clock" (2 words)
+
+   - "at-sign-email-contact-address-1-remove-negative-minus-delete"
+     Base = "AtSign" (compound), Skip "email-contact-address", End synonyms = pick "Remove"
+     ✅ Result: "AtSignRemove" (2 words)
+
+   Rules:
+   - Start: 1st word OR 1st-2nd if compound ("at-sign", "application-window")
+   - Middle: SKIP all descriptive/redundant words
+   - End: Pick 1-2 UNIQUE concepts (collapse synonyms to ONE word each)
+   - MAX 2-4 words total
+   - Must be unique - avoid: ${existingNames.slice(0, 50).join(', ')}${existingNames.length > 50 ? '...' : ''}
+
+2. **description**: One clear sentence (use all filename keywords for context)
+   - Example: "A bell notification icon with a clock indicating scheduled alerts"
+
+3. **tags**: Array of 5-10 keywords
+   - Use ALL words from the filename (this is where you include everything)
+   - Include synonyms and alternative terms
+
+4. **categories**: Array of 1-3 categories from this list ONLY:
+   ${CATEGORIES.join(', ')}
+
+5. **accessibility.role**: One of "decorative", "informative", or "interactive"
+
+6. **accessibility.suggestedLabel**: Brief aria-label (2-5 words)
+
+NAMING STRATEGY (ALWAYS START WITH FIRST 1-2 WORDS):
+
+- Filename: "bell-2-notification-alarm-alert-clock"
+  - MUST start with: "bell" (1st word) OR "bell-2" (1st word + variant)
+  - Add modifier: "clock" (distinguishes this variant)
+  - ✅ CORRECT: "BellClock" or "Bell2Clock"
+  - ❌ WRONG: "NotificationClock" (skipped 1st word "bell")
+
+- Filename: "at-sign-email-contact-address-1-remove-negative-minus-delete"
+  - MUST start with: "at-sign" (compound concept, need both words)
+  - Add action: "remove" (skip synonyms negative/minus/delete)
+  - ✅ CORRECT: "AtSignRemove"
+  - ❌ WRONG: "EmailRemove" (skipped 1st word "at-sign")
+
+- Filename: "application-window-1-chart-analytics-2"
+  - MUST start with: "application-window" (compound concept) OR shorten to "app-window"
+  - Add content: "chart"
+  - ✅ CORRECT: "ApplicationWindowChart" or "AppWindowChart"
+  - ❌ WRONG: "WindowChart" (skipped 1st word "application")
+
+Filenames:
+${filenameList}
+
+Return ONLY the JSON array, wrapped in \`\`\`json code blocks.`;
+}
+
+/**
+ * Build the AI prompt for metadata generation (OLD VISION-BASED - keeping for reference)
  * @param {string[]} existingNames - Names to avoid
  * @param {number} iconCount - Number of icons being processed
  * @returns {string}
  */
-function buildPrompt(existingNames, iconCount) {
+function buildPrompt(existingNames, iconCount, filenames = []) {
+  const filenameContext = filenames.length > 0
+    ? `\n\nFilename context (use ONLY for tags/description, NOT for component name):\n${filenames.map((f, i) => `${i + 1}. ${f}`).join('\n')}`
+    : '';
+
   return `You are analyzing ${iconCount} icon design(s) for a professional icon library called icon.design.
 
 For EACH icon image provided, generate metadata in this JSON array format:
@@ -218,21 +309,28 @@ For EACH icon image provided, generate metadata in this JSON array format:
   }
 ]
 
-REQUIREMENTS:
+CRITICAL NAMING RULES:
 
-1. **name**: PascalCase component name
-   - Clear and descriptive (e.g., "UserCircle", "ArrowLeft", "SettingsGear")
-   - NO generic names like "Icon1" or "Icon2"
+1. **name**: Create a COMPACT, PRACTICAL PascalCase component name
+   - Look at the ICON DESIGN and interpret what it represents
+   - Create SHORT, memorable names (2-3 words max)
+   - Examples of GOOD names: "UserCircle", "ArrowLeft", "SettingsGear", "EmailRemove", "BellOff"
+   - Examples of BAD names: "AtSignEmailContactAddress1RemoveNegativeMinusDelete" (too long!)
+   - If icon has multiple concepts, pick the PRIMARY concept
+   - Add ONE modifier if needed: "ArrowLeft" not "ArrowLeftNavigationBack"
+   - Use common design terminology: "Plus" not "AddPositive", "X" not "CloseRemoveDelete"
    - Must be unique - avoid these existing names: ${existingNames.slice(0, 50).join(', ')}${existingNames.length > 50 ? '...' : ''}
 
 2. **description**: One clear sentence explaining what the icon represents
-   - Focus on visual appearance and meaning
+   - Focus on visual appearance and primary meaning
    - 10-100 characters
+   - Example: "An email icon with a minus symbol" not "A comprehensive at sign email contact address with removal functionality"
 
-3. **tags**: Array of 5-10 search keywords
-   - Include visual descriptors
+3. **tags**: Array of 5-10 search keywords (use filename context here!)
+   - Include visual descriptors from the icon AND filename
    - Include functional concepts
    - Include alternative terms
+   - Tags can be verbose, names should NOT be
 
 4. **categories**: Array of 1-3 categories from this list ONLY:
    ${CATEGORIES.join(', ')}
@@ -244,14 +342,22 @@ REQUIREMENTS:
 
 6. **accessibility.suggestedLabel**: Brief aria-label for screen readers
    - 2-5 words
-   - Action-oriented if interactive (e.g., "Go back", "Open settings")
+   - Action-oriented if interactive (e.g., "Remove email", "Settings")
    - Descriptive if informative (e.g., "Warning", "User profile")
 
+NAMING PHILOSOPHY:
+- Component names are for DEVELOPERS to use in code
+- They must be SHORT, CLEAR, and EASY TO TYPE
+- Save the detailed keywords for tags and descriptions
+- Think: "What would I want to type to use this icon?"
+
 IMPORTANT:
-- Analyze the VISUAL DESIGN of each icon
+- Analyze the VISUAL DESIGN of each icon carefully
+- Interpret what the icon represents and name it accordingly
+- Use the filename ONLY as context for tags/descriptions, NOT for naming
 - Generate appropriate metadata for EACH icon in order
-- Return ONLY the JSON array, wrapped in \`\`\`json code blocks
-- Ensure each icon gets its own complete metadata object`;
+- Ensure each icon gets its own complete metadata object
+- Return ONLY the JSON array, wrapped in \`\`\`json code blocks${filenameContext}`;
 }
 
 /**

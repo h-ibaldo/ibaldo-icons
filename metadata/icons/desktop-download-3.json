@@ -1,0 +1,37 @@
+{
+  "name": "DesktopDownload3",
+  "displayName": "Desktop download 3",
+  "originalTitle": "Desktop Download 3",
+  "description": "Third variation of desktop download icon for file transfer actions. Used to represent downloading content to desktop computers.",
+  "tags": [
+    "desktop",
+    "download",
+    "computer",
+    "transfer",
+    "file",
+    "save",
+    "local",
+    "pc"
+  ],
+  "categories": [
+    "devices",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Download to desktop"
+  },
+  "filename": "desktop-download-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.799Z"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalColumnsLinesSquareCheck",
+  "displayName": "Chart vertical columns lines square check",
+  "originalTitle": "Chart Vertical Columns Lines Square Check Checked",
+  "description": "Combined column and line chart with square check mark showing validated data analysis. Used to represent confirmed complex analytics or approved chart results.",
+  "tags": [
+    "chart",
+    "columns",
+    "lines",
+    "check",
+    "validated",
+    "square",
+    "approved",
+    "analytics"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Validated combination chart with square indicator"
+  },
+  "filename": "chart-vertical-columns-lines-square-check-checked",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.757Z"
+}

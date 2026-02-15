@@ -1,0 +1,36 @@
+{
+  "name": "CheckboxDropAddSquare1",
+  "displayName": "Checkbox drop add square 1",
+  "originalTitle": "Checkbox Drop Add Square 1",
+  "description": "Square checkbox with dropdown and add functionality, first variant. Allows selection while enabling users to add new options to the dropdown list.",
+  "tags": [
+    "checkbox",
+    "dropdown",
+    "add",
+    "square",
+    "select",
+    "form",
+    "input",
+    "create"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Add item square checkbox with dropdown"
+  },
+  "filename": "checkbox-drop-add-square-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.793Z"
+}

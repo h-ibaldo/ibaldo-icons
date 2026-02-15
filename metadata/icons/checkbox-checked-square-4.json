@@ -1,0 +1,36 @@
+{
+  "name": "CheckboxSquare4",
+  "displayName": "Checkbox square 4",
+  "originalTitle": "Checkbox Checked Square 4",
+  "description": "Fourth square checkbox variant in checked state. Completes the collection of square checkbox designs for comprehensive interface systems.",
+  "tags": [
+    "checkbox",
+    "checked",
+    "square",
+    "variant",
+    "collection",
+    "comprehensive",
+    "system",
+    "interface"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Checked square checkbox style four"
+  },
+  "filename": "checkbox-checked-square-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.793Z"
+}

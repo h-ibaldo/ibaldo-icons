@@ -1,0 +1,37 @@
+{
+  "name": "Bell4Sounding2",
+  "displayName": "Bell 4 sounding 2",
+  "originalTitle": "Bell 4 Notification Alarm Sounding Alert 2",
+  "description": "Alternative animated notification bell showing ringing motion. Used to represent active notifications or sound alerts in progress.",
+  "tags": [
+    "bell",
+    "ringing",
+    "sounding",
+    "animated",
+    "active",
+    "motion",
+    "alert",
+    "notification"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Notification bell actively ringing"
+  },
+  "filename": "bell-4-notification-alarm-sounding-alert-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.786Z"
+}

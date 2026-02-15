@@ -1,20 +1,25 @@
 {
-  "name": "ShieldUserProfileWide",
-  "description": "Wide user profile shield icon",
+  "name": "User10",
+  "displayName": "User 10",
+  "originalTitle": "1 User Head 10",
+  "description": "User profile icon variant representing a person or account holder. Used for user identification, profile management, and personal account features.",
   "tags": [
     "user",
     "profile",
-    "shield",
-    "protection",
-    "identity"
+    "person",
+    "account",
+    "individual",
+    "avatar",
+    "head",
+    "variant"
   ],
   "categories": [
-    "interface",
-    "security"
+    "people",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile details"
+    "suggestedLabel": "User account"
   },
   "filename": "1-user-head-10",
   "technical": {
@@ -27,5 +32,6 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.765Z"
 }

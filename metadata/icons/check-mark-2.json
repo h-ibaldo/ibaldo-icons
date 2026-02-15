@@ -1,0 +1,36 @@
+{
+  "name": "CheckMark2",
+  "displayName": "Check mark 2",
+  "originalTitle": "Check Mark 2",
+  "description": "Alternative check mark design for completion and verification states. Represents successful actions, validated inputs, or approved items.",
+  "tags": [
+    "check",
+    "checkmark",
+    "tick",
+    "complete",
+    "success",
+    "approved",
+    "done",
+    "verified"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Completion check mark"
+  },
+  "filename": "check-mark-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.791Z"
+}

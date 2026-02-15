@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-aeeb516c-d5e4-4bb1-a701-d479e9dd3053" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <polyline points="8.00000000018008 11.000000000842192 12.00000000018008 15.000000000842192 16.00000000018008 11.000000000842192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="12.00000000018008" y1="3.000000000842192" x2="12.00000000018008" y2="15.000000000842192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M6.08984375018008,16.000000000842192c.47705078125,2.83660888671875,2.93798828125,5,5.91015625,5s5.43310546875-2.16339111328125,5.91015625-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

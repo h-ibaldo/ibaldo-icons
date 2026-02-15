@@ -1,0 +1,38 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const ContinuousShootingBurstsRectanglesAfFocusArea = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="22.000000000090949 9.000000000896762 21.99999999919055 21.000000000896762 7.99999999919055 20.99999999981992" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="19 6.000000000001819 18.9999999990996 17.999999999998181 4.9999999990996 17.999999998921339" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="16.000000003710738 2.999999999972715 16.000000002659363 14.999999999612555 2.000000002390152 14.999999998321073 2.000000003439709 12.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M2,8.999999999998181v-4.000002000000677c0-1.10456839509061.895429604910532-1.999997999999323,1.999997999999323-1.999997999999323h.000004000001354c1.104568395088791,0,1.999997999999323.895429604908713,1.999997999999323,1.999997999999323v4.000002000000677" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="9 8.999999999998181 9 2.999999999998181 12 2.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12" y1="5.999999999998181" x2="9" y2="5.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="6" y1="6.999999999998181" x2="2" y2="6.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+ContinuousShootingBurstsRectanglesAfFocusArea.displayName = 'ContinuousShootingBurstsRectanglesAfFocusArea';
+
+module.exports = ContinuousShootingBurstsRectanglesAfFocusArea;
+module.exports.ContinuousShootingBurstsRectanglesAfFocusArea = ContinuousShootingBurstsRectanglesAfFocusArea;
+module.exports.default = ContinuousShootingBurstsRectanglesAfFocusArea;

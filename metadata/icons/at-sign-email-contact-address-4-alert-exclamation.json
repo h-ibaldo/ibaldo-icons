@@ -1,0 +1,37 @@
+{
+  "name": "AtSign4Alert",
+  "displayName": "At sign 4 alert",
+  "originalTitle": "At Sign Email Contact Address 4 Alert Exclamation",
+  "description": "At symbol with alert indicator representing email notifications or contact alerts. Used to show email warnings or important contact messages.",
+  "tags": [
+    "at sign",
+    "email",
+    "alert",
+    "notification",
+    "warning",
+    "exclamation",
+    "contact",
+    "urgent"
+  ],
+  "categories": [
+    "communication",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Email alert or notification"
+  },
+  "filename": "at-sign-email-contact-address-4-alert-exclamation",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.802Z"
+}

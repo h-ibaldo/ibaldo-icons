@@ -1,0 +1,37 @@
+{
+  "name": "ChartLineOscillate1",
+  "displayName": "Chart line oscillate 1",
+  "originalTitle": "Chart Line Oscillate 1",
+  "description": "Oscillating line chart icon representing fluctuating data or wave patterns. Used for displaying variable metrics, signal analysis, or trending data with ups and downs.",
+  "tags": [
+    "chart",
+    "line",
+    "oscillate",
+    "wave",
+    "data",
+    "analytics",
+    "fluctuation",
+    "trend"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Oscillating line chart"
+  },
+  "filename": "chart-line-oscillate-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.752Z"
+}

@@ -1,0 +1,36 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const AtSignEmailContactAddress22 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<circle cx="12.067167566010539" cy="12.056394887018541" r="4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M12.067167566010539,3.056394887018541C7.096586511330315,3.056394887018541,3.067167566010539,7.085813832331041,3.067167566010539,12.056394887018541s4.029418945319776,9,9,9" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M12.067167566010539,3.056394887423266c4.970581054689319-.000000000222826,9.00000000018008,4.029418944907775,9.000000000409273,8.999999999595275" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.067167566010539" y1="21.056394887018541" x2="17.067167566010539" y2="21.056394887018541" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M21.067167566419812,12.056394887018541v1.500002499998118c0,1.3807104938669-1.119287006140439,2.499997500001882-2.499997499999154,2.499997500001882h-.000004999990779c-1.380710493880542,0-2.499997500010068-1.119287006134982-2.499997500010068-2.499997500001882v-1.500002499998118" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+AtSignEmailContactAddress22.displayName = 'AtSignEmailContactAddress22';
+
+module.exports = AtSignEmailContactAddress22;
+module.exports.AtSignEmailContactAddress22 = AtSignEmailContactAddress22;
+module.exports.default = AtSignEmailContactAddress22;

@@ -1,0 +1,37 @@
+{
+  "name": "ApplicationWindow2Chart1",
+  "displayName": "Application window 2 chart 1",
+  "originalTitle": "Application Window 2 Chart Analytics 1",
+  "description": "Application window with chart icon representing analytics and data visualization features. Used for dashboards, reporting tools, or statistical analysis applications.",
+  "tags": [
+    "window",
+    "application",
+    "chart",
+    "analytics",
+    "data",
+    "visualization",
+    "dashboard",
+    "statistics"
+  ],
+  "categories": [
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Application window with analytics chart"
+  },
+  "filename": "application-window-2-chart-analytics-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.771Z"
+}

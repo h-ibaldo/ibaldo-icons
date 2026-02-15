@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-8d3e28d4-85af-43de-87df-7e5424f0ae46" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <ellipse cx="5.5" cy="18.999999999998181" rx="3.5" ry="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <ellipse cx="18.5" cy="16.999999999998181" rx="3.5" ry="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="9 18.999999999998181 9 3.999999999998181 22 1.999999999998181 22 16.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

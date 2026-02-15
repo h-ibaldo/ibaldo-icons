@@ -1,0 +1,37 @@
+import { forwardRef } from 'react';
+
+const DiagramWorkflow2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <rect x="1.999999999994543" y="2" width="8" height="8" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <rect x="13.999999999994543" y="14" width="8" height="8" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="17.999999999996817" cy="6" r="4.000000000001137" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.999999999994543" y1="6" x2="13.999999999994543" y2="6" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.999999999994543" y1="18" x2="13.999999999994543" y2="18" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <rect x="3.171572875248353" y="15.17157287525381" width="5.65685424949238" height="5.656854249492381" transform="translate(-10.970562748478741 9.514718625757576) rotate(-45.000000000000014)" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.999999999994543" y1="14" x2="5.999999999994543" y2="10" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+DiagramWorkflow2.displayName = 'DiagramWorkflow2';
+
+export default DiagramWorkflow2;
+export { DiagramWorkflow2 };

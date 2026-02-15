@@ -1,0 +1,37 @@
+import { forwardRef } from 'react';
+
+const MobileSocialNetwork = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M3.000000003157766,21.998782736171052V3.998782736171052c0-1.104569499661011.895430500338989-2,2-2h14c1.104569499661011,0,2,.895430500338989,2,2v18" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M12.000000003157766,14.998782736171052l-3.000001000000339-3.000001000000339c-.552284197550762-.552284197543486-.552284197550762-1.447713802452199,0-1.999997999999323l.000002000000677-.000002000000677c.552284197550762-.552284197543486,1.447713802448561-.552284197543486,1.999997999999323,0l1.000001000000339,1.000001000000339,1.000001000000339-1.000001000000339c.552284197550762-.552284197543486,1.447713802448561-.552284197543486,1.999997999999323,0l.000002000000677.000002000000677c.552284197550762.552284197547124.552284197550762,1.447713802455837,0,1.999997999999323l-3.000001000000339,3.000001000000339" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="3.000000003157766" y1="5.998782736171052" x2="21.000000003157766" y2="5.998782736171052" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="3.000000003157766" y1="17.998782736171052" x2="21.000000003157766" y2="17.998782736171052" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="6.000000003157766" y1="20.998782736171052" x2="10.000000003157766" y2="20.998782736171052" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="17.990000003156638" y1="20.998782736171052" x2="18.000000003157766" y2="20.998782736171052" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="14.990000003156638" y1="20.998782736171052" x2="15.000000003157766" y2="20.998782736171052" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+MobileSocialNetwork.displayName = 'MobileSocialNetwork';
+
+export default MobileSocialNetwork;
+export { MobileSocialNetwork };

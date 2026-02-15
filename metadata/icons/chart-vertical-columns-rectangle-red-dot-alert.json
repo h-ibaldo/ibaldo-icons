@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalColumnsRectangleDot",
+  "displayName": "Chart vertical columns rectangle dot",
+  "originalTitle": "Chart Vertical Columns Rectangle Red Dot Alert",
+  "description": "Column chart with red alert dot indicating critical data points or system warnings. Used to draw attention to important metrics or data anomalies in business dashboards.",
+  "tags": [
+    "chart",
+    "column",
+    "alert",
+    "critical",
+    "warning",
+    "attention",
+    "data",
+    "monitoring"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Column chart with critical alert"
+  },
+  "filename": "chart-vertical-columns-rectangle-red-dot-alert",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.758Z"
+}

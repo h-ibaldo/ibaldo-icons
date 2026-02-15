@@ -1,0 +1,33 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <path d="M1.974731450033687,4.000000000459295v-1c0-.552284749828686.447715250169495-1,1-1h1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M3.974731449988212,16.00000000050477l-1-.000000000045475c-.552284749830505-.000000000025466-.999999999980901-.44771525021315-.999999999954525-1.000000000045475l.000000000043656-1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13.974731450033687,2.000000000459295h1c.552284749831415,0,1,.447715250171314,1,1v1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7.974731450033687" y1="2.000000000459295" x2="9.974731450033687" y2="2.000000000459295" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1.974731450033687" y1="8.000000000459295" x2="1.974731450033687" y2="10.000000000459295" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20.974731450033687,11.500000000459295v-3.5c0-.552284749828686-.447715250168585-1-1-1H7.974731450033687c-.552284749830505,0-1,.447715250171314-1,1v12c0,.552284749832324.447715250169495,1,1,1h2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20.65104627306664,16.323101997163576l-2.196904413422999.76280184924326,1.826480752853968,3.348548048285011-2.870171528433275,1.565548105767448-1.826480752853058-3.348548048282282-1.830743435159093,1.434096976351611c-.316060841459148.247583516274972-.778495446092165.022403972919165-.778495446018496-.379083328295565l.000000001450644-8.369552562510762c.000000000066393-.381147126961878.421797335865449-.611218400941652.742252245124291-.404864860809539l7.036821261955993,4.531286420417018c.337556202258384.217365736381907.276516446220739.728076749081083-.102758685497975.8597673998338Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

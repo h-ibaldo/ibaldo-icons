@@ -5,8 +5,12 @@
  * Converts SVG icons to Svelte components with tree-shaking support
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Paths
 const PROJECT_ROOT = path.resolve(__dirname, '../../..');
@@ -152,11 +156,14 @@ async function build() {
 
   // Get SVG files from multiple sources
   const svgFiles = [];
+  let srcIconsCount = 0;
+  let optimizedIconsCount = 0;
 
   // 1. New icons from src/icons/raw/ (direct source)
   if (fs.existsSync(SRC_ICONS_DIR)) {
     const srcIcons = getAllSVGFiles(SRC_ICONS_DIR);
     svgFiles.push(...srcIcons);
+    srcIconsCount = srcIcons.length;
     console.log(`📁 Found ${srcIcons.length} icons in src/icons/raw/`);
   }
 
@@ -164,6 +171,7 @@ async function build() {
   if (fs.existsSync(OPTIMIZED_ICONS_DIR)) {
     const optimizedIcons = getAllSVGFiles(OPTIMIZED_ICONS_DIR);
     svgFiles.push(...optimizedIcons);
+    optimizedIconsCount = optimizedIcons.length;
     console.log(`📁 Found ${optimizedIcons.length} icons in static/icons/optimized/`);
   }
 
@@ -182,7 +190,7 @@ async function build() {
       const legacyIcons = getAllSVGFiles(path.join(STATIC_ICONS_DIR, dir));
       svgFiles.push(...legacyIcons);
     }
-    console.log(`📁 Found ${svgFiles.length - (srcIcons?.length || 0) - (optimizedIcons?.length || 0)} legacy icons`);
+    console.log(`📁 Found ${svgFiles.length - srcIconsCount - optimizedIconsCount} legacy icons`);
   }
 
   console.log(`📁 Total: ${svgFiles.length} SVG files\n`);

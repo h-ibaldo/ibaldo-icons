@@ -1,0 +1,37 @@
+{
+  "name": "ChartLineSquare2Minus",
+  "displayName": "Chart line square 2 minus",
+  "originalTitle": "Chart Line Square 2 Negative Remove Minus Delete",
+  "description": "Line chart with minus sign for removing or deleting chart data. Used for data management, removing datasets, or negative value indicators.",
+  "tags": [
+    "chart",
+    "minus",
+    "remove",
+    "delete",
+    "negative",
+    "subtract",
+    "data",
+    "management"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Remove chart data"
+  },
+  "filename": "chart-line-square-2-negative-remove-minus-delete",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.753Z"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "ChartLineIncrease1",
+  "displayName": "Chart line increase 1",
+  "originalTitle": "Chart Line Increase 1",
+  "description": "Upward trending line chart showing increasing data or growing metrics. Used to represent positive growth or rising statistics.",
+  "tags": [
+    "chart",
+    "increase",
+    "growth",
+    "upward",
+    "positive",
+    "rising",
+    "gain",
+    "improvement"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Increasing chart trend"
+  },
+  "filename": "chart-line-increase-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.752Z"
+}

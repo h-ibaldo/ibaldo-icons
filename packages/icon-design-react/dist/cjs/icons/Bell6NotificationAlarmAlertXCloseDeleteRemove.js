@@ -1,0 +1,35 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const Bell6NotificationAlarmAlertXCloseDeleteRemove = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M18.356701127035194,18.000000000480213H5.592761771971709c-.893613471866047,0-1.618030322470076-.724416852001013-1.618030322470076-1.618030322471895v-.000002000000677c0-.251190937757201.058483699074714-.498932200898707.170819564309568-.723604274367972l.658360824329066-1.316723524061672c.112335895903925-.224672111809923.170819611361367-.472413421670353.170819611361367-.723604407448875v-4.618042466998304c0-3.865989385391003,3.13400361926324-6.999993004650605,6.999993004656062-6.999993004650605h.000013999997464c3.865989390513278,0,6.999993011897459,3.134003627248603,6.999993004654243,6.999993017769157l-.000000008646566,4.618042641301145c-.000000000472028.251190968840092.058483714953582.498932261598384.170819610592844.723604354607232l.658360824440024,1.316723417261528c.112335865233945.224672045689658.17081956430593.472413308831165.17081956430593.723604246588366v.000002000000677c0,.893613472340803-.724416850602211,1.618030322471895-1.618030322466439,1.618030322471895Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M13.974731449501633,18.000000000480213v2.000002000000677c0,1.104568395086972-.895429604906894,1.999997999999323-1.999997999998413,1.999997999999323h-.000004000000445c-1.10456839509061,0-1.999998000001142-.895429604912351-1.999998000001142-1.999997999999323v-2.000002000000677" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.974731449501633" y1="13.000000000480213" x2="13.974731449501633" y2="9.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="13.974731449501633" y1="13.000000000480213" x2="9.974731449390674" y2="9.000000000589353" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+Bell6NotificationAlarmAlertXCloseDeleteRemove.displayName = 'Bell6NotificationAlarmAlertXCloseDeleteRemove';
+
+module.exports = Bell6NotificationAlarmAlertXCloseDeleteRemove;
+module.exports.Bell6NotificationAlarmAlertXCloseDeleteRemove = Bell6NotificationAlarmAlertXCloseDeleteRemove;
+module.exports.default = Bell6NotificationAlarmAlertXCloseDeleteRemove;

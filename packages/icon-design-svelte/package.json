@@ -1,0 +1,48 @@
+{
+  "name": "@icon-design/svelte",
+  "version": "0.1.0",
+  "description": "Svelte components for icon.design - A line-based icon library with variations, not conclusions",
+  "type": "module",
+  "svelte": "./dist/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "svelte": "./dist/index.js",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./icons/*": {
+      "svelte": "./dist/icons/*.svelte",
+      "import": "./dist/icons/*.svelte",
+      "types": "./dist/icons/*.svelte.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henriqueibaldo/icon-design.git",
+    "directory": "packages/icon-design-svelte"
+  },
+  "keywords": [
+    "icons",
+    "svelte",
+    "svg",
+    "icon-design",
+    "ui",
+    "components"
+  ],
+  "author": "Henrique Ibaldo",
+  "license": "MIT",
+  "peerDependencies": {
+    "svelte": ">=3.0.0 || >=4.0.0 || >=5.0.0"
+  }
+}

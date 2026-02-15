@@ -1,0 +1,35 @@
+import { forwardRef } from 'react';
+
+const Poll1Vertical = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <line x1="5.99999999955071" y1="17.99999999955071" x2="5.99999999991087" y2="9.99999999955071" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="13.99999999955071" y1="17.999999999907232" x2="13.999999999690772" y2="14.999999999907232" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="17.99999999955071" y1="18.00000000008913" x2="17.999999999770807" y2="13.00000000008913" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.99999999955071" y1="17.999999999728971" x2="10.000000000090949" y2="5.999999999728971" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <rect x="1.99999999981992" y="1.999999999818101" width="20" height="20" rx="2.000000000000455" ry="2.000000000000455" transform="translate(-.000000000538419 23.999999999097781) rotate(-89.999999997420559)" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+Poll1Vertical.displayName = 'Poll1Vertical';
+
+export default Poll1Vertical;
+export { Poll1Vertical };

@@ -1,0 +1,37 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const AtSignEmailContactAddress4CheckedCheck = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<rect x="9.974727791158273" y="7.000000000250623" width="5.999999946695993" height="9.999999999999659" rx="2.999996969491233" ry="2.999996969491233" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="17.974731450040053" y1="22.000000000478394" x2="12.974731450040053" y2="22.000000000479304" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M15.974731450040053,14.000000000478394v1c0,1.10456949966192.895430500339899,2,2,2h1c1.104569499660101,0,2-.89543050033808,2-2v-1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="2.974731450040053 4.00000000046839 4.974731450040053 6.00000000046839 8.974731450040053 2.00000000046839" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M20.974731450040053,14.00000000046839v-4c0-4.41827392578125-3.581726074220569-8-8-8" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M4.974731450040053,10.00000000046839v4c0,4.41827392578125,3.581726074219659,8,8,8" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+AtSignEmailContactAddress4CheckedCheck.displayName = 'AtSignEmailContactAddress4CheckedCheck';
+
+module.exports = AtSignEmailContactAddress4CheckedCheck;
+module.exports.AtSignEmailContactAddress4CheckedCheck = AtSignEmailContactAddress4CheckedCheck;
+module.exports.default = AtSignEmailContactAddress4CheckedCheck;

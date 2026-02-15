@@ -1,0 +1,35 @@
+{
+  "name": "CheckboxUncheckedSquare1",
+  "displayName": "Checkbox unchecked square 1",
+  "originalTitle": "Checkbox Unchecked Square 1",
+  "description": "Empty square checkbox in unchecked state. Used in forms and lists to indicate selectable options that are not currently selected.",
+  "tags": [
+    "checkbox",
+    "unchecked",
+    "square",
+    "form",
+    "selection",
+    "input",
+    "empty"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Unchecked checkbox"
+  },
+  "filename": "checkbox-unchecked-square-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.795Z"
+}

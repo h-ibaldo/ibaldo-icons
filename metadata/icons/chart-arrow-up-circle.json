@@ -1,0 +1,37 @@
+{
+  "name": "ChartArrowUpCircle",
+  "displayName": "Chart arrow up circle",
+  "originalTitle": "Chart Arrow Up Circle",
+  "description": "Growth chart with upward trending arrow showing positive performance or increasing metrics. Used for displaying business growth and analytics.",
+  "tags": [
+    "chart",
+    "arrow",
+    "up",
+    "growth",
+    "analytics",
+    "performance",
+    "metrics",
+    "increase"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Growth chart with upward trend"
+  },
+  "filename": "chart-arrow-up-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.741Z"
+}

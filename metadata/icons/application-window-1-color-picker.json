@@ -1,0 +1,37 @@
+{
+  "name": "ApplicationWindow1ColorPicker",
+  "displayName": "Application window 1 color picker",
+  "originalTitle": "Application Window 1 Color Picker",
+  "description": "Application window with color picker tool for design and graphics software. Represents color selection functionality in creative applications.",
+  "tags": [
+    "application",
+    "window",
+    "color",
+    "picker",
+    "design",
+    "graphics",
+    "tool",
+    "creative"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Color picker application"
+  },
+  "filename": "application-window-1-color-picker",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.767Z"
+}

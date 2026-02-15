@@ -1,0 +1,49 @@
+{
+  "name": "@icon-design/react",
+  "version": "0.1.0",
+  "description": "React components for icon.design - A line-based icon library with variations, not conclusions",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./icons/*": {
+      "import": "./dist/esm/icons/*.js",
+      "require": "./dist/cjs/icons/*.js",
+      "types": "./dist/icons/*.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henriqueibaldo/icon-design.git",
+    "directory": "packages/icon-design-react"
+  },
+  "keywords": [
+    "icons",
+    "react",
+    "svg",
+    "icon-design",
+    "ui",
+    "components"
+  ],
+  "author": "Henrique Ibaldo",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0"
+  }
+}

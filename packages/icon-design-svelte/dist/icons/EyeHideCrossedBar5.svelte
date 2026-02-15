@@ -1,0 +1,34 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <line x1="2.974731433785564" y1="20.997562040497542" x2="20.974731433785564" y2="2.997562040497542" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17.733764636906926,6.238467802216292c-1.586669921871362-1.35150146484375-3.485595703121362-2.24090576171875-5.759033203121362-2.24090576171875C7.136840808785564,3.997562040497542,3.974731433785564,7.997562040497542,1.974731433785564,11.997562040497542c1.06005859375,2.120361328125,2.451171875,4.23455810546875,4.240966796871362,5.75909423828125" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9.385864246285564,19.586551298310042c.8046875.26348876953125,1.665771484371362.4110107421875,2.5888671875.4110107421875,4.837890625,0,8-4,10-8-.53515625-1.07037353515625-1.15673828125-2.13818359375-1.8681640625-3.13189697265625" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <path d="M15.510375965035564,8.462039579560042c-.905029296878638-.90478515625-2.15478515625-1.4644775390625-3.53564453125-1.4644775390625-2.761474609378638,0-5,2.23858642578125-5,5,0,1.38067626953125.5595703125,2.6307373046875,1.46435546875,3.5355224609375" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M11.974731433785564,16.997562040497542c2.761474609371362,0,5-2.23858642578125,5-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M12.681762683785564,11.290469755341292c-.180908203128638-.18096923828125-.430908203128638-.29290771484375-.70703125-.29290771484375-.55224609375,0-1,.44769287109375-1,1,0,.276123046875.11181640625.526123046875.29296875.70709228515625" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

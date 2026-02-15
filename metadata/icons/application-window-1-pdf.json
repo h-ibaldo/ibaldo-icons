@@ -1,0 +1,36 @@
+{
+  "name": "ApplicationWindow1Pdf",
+  "displayName": "Application window 1 pdf",
+  "originalTitle": "Application Window 1 Pdf",
+  "description": "Application window displaying a PDF document. Used to represent PDF viewers, document applications, or file management interfaces.",
+  "tags": [
+    "window",
+    "pdf",
+    "document",
+    "application",
+    "file",
+    "viewer",
+    "interface"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "PDF application window"
+  },
+  "filename": "application-window-1-pdf",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.760Z"
+}

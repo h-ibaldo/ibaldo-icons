@@ -1,0 +1,37 @@
+{
+  "name": "Bell1XCircle",
+  "displayName": "Bell 1 x circle",
+  "originalTitle": "Bell 1 Notification Alarm Alert X Close Delete Remove Circle",
+  "description": "Notification bell with close or delete symbol indicating the ability to dismiss or remove notifications. Used for clearing alerts or disabling notifications.",
+  "tags": [
+    "bell",
+    "notification",
+    "close",
+    "delete",
+    "remove",
+    "dismiss",
+    "clear",
+    "cancel"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Close notification bell"
+  },
+  "filename": "bell-1-notification-alarm-alert-x-close-delete-remove-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.780Z"
+}

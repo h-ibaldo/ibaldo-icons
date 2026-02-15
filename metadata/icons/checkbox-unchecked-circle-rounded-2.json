@@ -1,0 +1,36 @@
+{
+  "name": "CheckboxUncheckedCircle2",
+  "displayName": "Checkbox unchecked circle 2",
+  "originalTitle": "Checkbox Unchecked Circle Rounded 2",
+  "description": "Circular checkbox in unchecked state, second variant. Shows an available but unselected option in forms and selection interfaces.",
+  "tags": [
+    "checkbox",
+    "unchecked",
+    "circle",
+    "unselected",
+    "form",
+    "input",
+    "empty",
+    "option"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Unchecked circular checkbox, variant 2"
+  },
+  "filename": "checkbox-unchecked-circle-rounded-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.795Z"
+}

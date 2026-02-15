@@ -1,0 +1,36 @@
+{
+  "name": "CheckMarkGeometric",
+  "displayName": "Check mark geometric",
+  "originalTitle": "Check Mark Solid Geometric",
+  "description": "Geometric-style solid checkmark for indicating completion, success, or selection. Features clean, angular lines for modern interfaces.",
+  "tags": [
+    "checkmark",
+    "geometric",
+    "solid",
+    "complete",
+    "success",
+    "selection",
+    "modern",
+    "angular"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Geometric checkmark"
+  },
+  "filename": "check-mark-solid-geometric",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.792Z"
+}

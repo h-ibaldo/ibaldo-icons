@@ -1,0 +1,37 @@
+{
+  "name": "ApplicationWindow1Cloud3",
+  "displayName": "Application window 1 cloud 3",
+  "originalTitle": "Application Window 1 Cloud 3",
+  "description": "Third variation of cloud application window icon for representing cloud computing applications and online services. Used in cloud software interfaces.",
+  "tags": [
+    "application",
+    "window",
+    "cloud",
+    "computing",
+    "online",
+    "service",
+    "software",
+    "platform"
+  ],
+  "categories": [
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud computing application"
+  },
+  "filename": "application-window-1-cloud-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.767Z"
+}

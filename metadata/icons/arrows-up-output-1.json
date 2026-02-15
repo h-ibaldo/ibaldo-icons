@@ -1,0 +1,37 @@
+{
+  "name": "ArrowsUpOutput1",
+  "displayName": "Arrows up output 1",
+  "originalTitle": "Arrows Up Output 1",
+  "description": "Upward arrow with output indication for data export, upload, or outbound transfer actions. Used for sharing, uploading files, or sending data upward.",
+  "tags": [
+    "arrow",
+    "up",
+    "output",
+    "upload",
+    "export",
+    "share",
+    "transfer",
+    "send"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Upload or export"
+  },
+  "filename": "arrows-up-output-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.777Z"
+}

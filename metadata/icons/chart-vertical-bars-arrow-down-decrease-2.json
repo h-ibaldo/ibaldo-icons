@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalBarsDecrease2",
+  "displayName": "Chart vertical bars decrease 2",
+  "originalTitle": "Chart Vertical Bars Arrow Down Decrease 2",
+  "description": "Alternative bar chart with downward trend indicator showing declining values. Represents negative performance metrics and data reduction.",
+  "tags": [
+    "chart",
+    "bars",
+    "decrease",
+    "decline",
+    "down",
+    "arrow",
+    "loss",
+    "reduction"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Bar chart showing decrease"
+  },
+  "filename": "chart-vertical-bars-arrow-down-decrease-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.754Z"
+}

@@ -1,0 +1,36 @@
+import { forwardRef } from 'react';
+
+const SaveFloppyDisk2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M3.949462885591856,22.000000000840373l16-.00000000072032c1.104569499661011-.000000000050932,1.999999999956344-.895430500429939,1.999999999909051-2.000000000090949l-.000000000547516-12.171572874907724c-.000000000025466-.530432979616307-.210713680728077-1.039140805351053-.585786437564821-1.414213562220539l-3.828427124570226-3.828427124917653c-.375072756924055-.375072756956797-.88378058278613-.585786437713978-1.414213562527948-.58578643769215l-12.17157287559894.000000000549335c-1.104569499661011.000000000047294-1.999999999959982.895430500426301-1.99999999991087,2.000000000087311l.00000000072032,16c.000000000047294,1.104569499661011.895430500426301,1.999999999959982,2.000000000090949,1.999999999912689Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="15.949462885142566 2.000000000480213 15.949462885142566 9.000000000480213 5.949462885142566 9.000000000480213 5.949462885142566 2.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="17.949462885142566 22.000000000480213 17.949462885142566 13.000000000480213 5.949462885142566 13.000000000480213 5.949462885142566 22.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.949462885144385" y1="16.000000000480213" x2="14.949462885142566" y2="16.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.949462885144385" y1="19.000000000480213" x2="14.949462885142566" y2="19.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.949462885142566" y1="2.000000000480213" x2="12.949462885142566" y2="6.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+SaveFloppyDisk2.displayName = 'SaveFloppyDisk2';
+
+export default SaveFloppyDisk2;
+export { SaveFloppyDisk2 };

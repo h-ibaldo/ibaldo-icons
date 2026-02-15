@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalColumnsLinesCirclePlus",
+  "displayName": "Chart vertical columns lines circle plus",
+  "originalTitle": "Chart Vertical Columns Lines Circle Positive Add Plus",
+  "description": "Combined column and line chart with plus indicator for adding data points or expanding chart elements. Used to represent data addition or chart enhancement functionality.",
+  "tags": [
+    "chart",
+    "columns",
+    "lines",
+    "plus",
+    "add",
+    "expand",
+    "enhance",
+    "analytics"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Add chart data"
+  },
+  "filename": "chart-vertical-columns-lines-circle-positive-add-plus-",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.756Z"
+}

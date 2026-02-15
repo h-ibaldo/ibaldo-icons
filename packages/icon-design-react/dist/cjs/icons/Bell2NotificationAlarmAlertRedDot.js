@@ -1,0 +1,36 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const Bell2NotificationAlarmAlertRedDot = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M11.974731449499814,2.000000000480213h-.000006000000212c-3.313705225989906,0-5.999993999999788,2.686288814718864-5.999993999999788,5.999993999997969v3.947662821930862c0,.681214485652163-.231842256160235,1.342145998271008-.657393571660577,1.874085142659169l-.937213725799666,1.171517157250491c-.262423311240127.328029139040154-.405392702539757.735603571822139-.405392702539757,1.155685837969941v.001055040189385c0,1.02172678700299.828273212760905,1.849999999900319,1.84999999988031,1.849999999911233l6.15000000011969.000000000090949" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M13.974731449499814,18.000000000480213v2.000002000000677c0,1.104568395086972-.895429604910532,1.999997999999323-1.999997999990228,1.999997999999323h-.000004000010449c-1.104568395088791,0-1.999997999999323-.895429604912351-1.999997999999323-1.999997999999323v-2.000002000000677" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="17.974731449499814" cy="5.000000000480213" r="3" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M15.578918461220383,3.211303711417713c-1.004211425779431-.757080078128638-2.249633789060681-1.2113037109375-3.604187011720569-1.2113037109375" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M11.974731449499814,18.000000000480213h6.150024414060681c1.021728515630457,0,1.849975585939319-.828369140621362,1.849975585939319-1.85009765625v-.0009765625c0-.420166015621362-.142944335939319-.82763671875-.405395507808862-1.15576171875l-.937194824220569-1.17138671875c-.425537109380457-.531982421871362-.657409667970569-1.19287109375-.657409667970569-1.8741455078125v-3.9476318359375" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+Bell2NotificationAlarmAlertRedDot.displayName = 'Bell2NotificationAlarmAlertRedDot';
+
+module.exports = Bell2NotificationAlarmAlertRedDot;
+module.exports.Bell2NotificationAlarmAlertRedDot = Bell2NotificationAlarmAlertRedDot;
+module.exports.default = Bell2NotificationAlarmAlertRedDot;

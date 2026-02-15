@@ -1,0 +1,36 @@
+{
+  "name": "ButtonBubble3",
+  "displayName": "Button bubble 3",
+  "originalTitle": "Button Bubble 3",
+  "description": "Interactive button with bubble-style design for user interface actions. Features a rounded, speech bubble-like appearance for engaging user interactions.",
+  "tags": [
+    "button",
+    "bubble",
+    "interface",
+    "click",
+    "action",
+    "interactive",
+    "ui",
+    "rounded"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Bubble style button"
+  },
+  "filename": "button-bubble-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.790Z"
+}

@@ -1,0 +1,34 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const ImagePicturePhoto1 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<rect x="1.999999994539394" y="2.998779299956368" width="20" height="18" rx="1" ry="1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M1.999999994539394,18.998779299956368l5.027067655790233-4.189223046490952c.570238880669422-.475199067223002,1.392283876630245-.496263304197782,1.986111614360198-.050892500901682l2.986820729849569,2.240115547392634,3.867593407010645-3.867593407008826c.625410891920183-.625410891916545,1.639402294069441-.625410891916545,2.264813185980529,0l3.867593407008826,3.867593407008826" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="8.999999994539394" cy="8.998779299956368" r="2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+ImagePicturePhoto1.displayName = 'ImagePicturePhoto1';
+
+module.exports = ImagePicturePhoto1;
+module.exports.ImagePicturePhoto1 = ImagePicturePhoto1;
+module.exports.default = ImagePicturePhoto1;

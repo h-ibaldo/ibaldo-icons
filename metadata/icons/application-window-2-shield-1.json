@@ -1,0 +1,37 @@
+{
+  "name": "ApplicationWindow2Shield1",
+  "displayName": "Application window 2 shield 1",
+  "originalTitle": "Application Window 2 Shield 1",
+  "description": "Secure application window icon representing protected software or secure app environments. Used to indicate application security, protected windows, or secure software access.",
+  "tags": [
+    "application",
+    "window",
+    "security",
+    "shield",
+    "protection",
+    "secure",
+    "software",
+    "safe"
+  ],
+  "categories": [
+    "security",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Secure application window"
+  },
+  "filename": "application-window-2-shield-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.802Z"
+}

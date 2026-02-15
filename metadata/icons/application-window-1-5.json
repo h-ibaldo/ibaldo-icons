@@ -1,0 +1,36 @@
+{
+  "name": "ApplicationWindow5",
+  "displayName": "Application window 5",
+  "originalTitle": "Application Window 1 5",
+  "description": "Fifth application window style for varied interface designs. Represents software windows and application states.",
+  "tags": [
+    "window",
+    "application",
+    "app",
+    "software",
+    "interface",
+    "program",
+    "desktop"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Application window"
+  },
+  "filename": "application-window-1-5",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.766Z"
+}

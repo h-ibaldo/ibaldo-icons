@@ -1,0 +1,37 @@
+{
+  "name": "AtSign4Settings",
+  "displayName": "At sign 4 settings",
+  "originalTitle": "At Sign Email Contact Address 4 Dots Settings Menu",
+  "description": "Email address with settings menu dots for email configuration and options. Used to access email settings, preferences, or additional actions.",
+  "tags": [
+    "email",
+    "settings",
+    "menu",
+    "options",
+    "configure",
+    "at-sign",
+    "contact",
+    "preferences"
+  ],
+  "categories": [
+    "communication",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Email settings menu"
+  },
+  "filename": "at-sign-email-contact-address-4-dots-settings-menu",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.763Z"
+}

@@ -1,0 +1,33 @@
+import { forwardRef } from 'react';
+
+const Cloud1Refresh2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <polyline points="12.000000000134605 21.999999999778083 11.999999999996362 18.999999999778083 14.999999999996362 18.999999999638021" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M12.422119140621362,18.999999999727152c.772216796875,1.764404296872272,2.5286865234375,3,4.577880859375,3,2.76141357421875,0,5-2.238586425788526,5-5,0-2.76141357421875-2.23858642578125-5-5-5-2.0491943359375,0-3.8056640625,1.235595703122272-4.577880859375,3" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M21.445251464840112,9.999999999718057c-.69293212890625-1.190612792979664-1.96844482421875-2-3.44525146484375-2h-.02520751953125c.014892578125-.164916992180224.02520751953125-.331176757810681.02520751953125-.5,0-3.037536621090112-2.46246337890625-5.5-5.5-5.5-2.13836669921875,0-3.98736572265625,1.222900390631366-4.89727783203125,3.005187988270336-.0345458984375-.000610351560681-.06805419921875-.005187988270336-.10272216796875-.005187988270336-3.03753662109375,0-5.5,2.462463378909888-5.5,5.5,0,3.037536621099207,2.46246337890625,5.5,5.5,5.5h1.5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+Cloud1Refresh2.displayName = 'Cloud1Refresh2';
+
+export default Cloud1Refresh2;
+export { Cloud1Refresh2 };

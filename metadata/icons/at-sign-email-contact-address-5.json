@@ -1,0 +1,36 @@
+{
+  "name": "AtSign5",
+  "displayName": "At sign 5",
+  "originalTitle": "At Sign Email Contact Address 5",
+  "description": "Standard at symbol representing email addresses and electronic communication. Used for email input fields, contact information, and messaging features.",
+  "tags": [
+    "email",
+    "at",
+    "contact",
+    "address",
+    "communication",
+    "message",
+    "electronic",
+    "mail"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Email address"
+  },
+  "filename": "at-sign-email-contact-address-5",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.765Z"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ApplicationWindow1DotsMenu",
+  "displayName": "Application window 1 dots menu",
+  "originalTitle": "Application Window 1 Dots Menu",
+  "description": "Application window with three dots menu icon representing additional options or settings. Used to indicate expandable menus in software interfaces.",
+  "tags": [
+    "application",
+    "window",
+    "menu",
+    "dots",
+    "options",
+    "settings",
+    "more",
+    "interface"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Application menu options"
+  },
+  "filename": "application-window-1-dots-menu",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.767Z"
+}

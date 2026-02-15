@@ -1,0 +1,37 @@
+{
+  "name": "ChartLineCircleDotted",
+  "displayName": "Chart line circle dotted",
+  "originalTitle": "Chart Line Circle Dotted Logged In Progress",
+  "description": "Line chart with dotted pattern indicating data loading or chart in progress. Used to show pending analytics or processing data visualization.",
+  "tags": [
+    "chart",
+    "loading",
+    "progress",
+    "pending",
+    "data",
+    "analytics",
+    "processing",
+    "waiting"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Chart loading in progress"
+  },
+  "filename": "chart-line-circle-dotted-logged-in-progress",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.751Z"
+}

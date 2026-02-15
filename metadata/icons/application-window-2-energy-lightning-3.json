@@ -1,0 +1,37 @@
+{
+  "name": "ApplicationWindow2Lightning3",
+  "displayName": "Application window 2 lightning 3",
+  "originalTitle": "Application Window 2 Energy Lightning 3",
+  "description": "Application window with lightning bolt icon variation for energy-related software or quick action applications. Used to represent fast processing, energy tools, or performance applications.",
+  "tags": [
+    "application",
+    "window",
+    "lightning",
+    "energy",
+    "quick",
+    "fast",
+    "power",
+    "speed"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Fast energy application window"
+  },
+  "filename": "application-window-2-energy-lightning-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.773Z"
+}

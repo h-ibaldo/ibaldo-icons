@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalColumnsLinesCircleMinus",
+  "displayName": "Chart vertical columns lines circle minus",
+  "originalTitle": "Chart Vertical Columns Lines Circle Negative Remove Minus Delete",
+  "description": "Combined column and line chart with minus indicator for removing data points or deleting chart elements. Used to represent data reduction or chart editing functionality.",
+  "tags": [
+    "chart",
+    "columns",
+    "lines",
+    "minus",
+    "remove",
+    "delete",
+    "reduce",
+    "analytics"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Remove chart data"
+  },
+  "filename": "chart-vertical-columns-lines-circle-negative-remove-minus-delete",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.756Z"
+}

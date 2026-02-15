@@ -1,0 +1,37 @@
+{
+  "name": "DiagramVertical",
+  "displayName": "Diagram vertical",
+  "originalTitle": "Diagram Vertical",
+  "description": "Vertical flow diagram showing top-to-bottom processes or hierarchical flow. Used to represent vertical workflows, organizational levels, or sequential steps.",
+  "tags": [
+    "diagram",
+    "vertical",
+    "flow",
+    "process",
+    "workflow",
+    "sequence",
+    "steps",
+    "hierarchy"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Vertical flow diagram"
+  },
+  "filename": "diagram-vertical",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.760Z"
+}

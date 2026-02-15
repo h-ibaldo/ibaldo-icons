@@ -1,0 +1,34 @@
+import { forwardRef } from 'react';
+
+const Bell1NotificationAlarmAlertRedDot = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M13.974731449499814,18.000000000480213v2.000002000000677c0,1.104568395086972-.895429604910532,1.999997999999323-1.999997999990228,1.999997999999323h-.000004000010449c-1.104568395088791,0-1.999997999999323-.895429604912351-1.999997999999323-1.999997999999323v-2.000002000000677" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M6.974727446723396,13.999999996823291h10.000007959291356c1.655742883630676,0,2.999996032267241,1.344253148636565,2.999996032267241,2.999996032267241v.000003980441342c0,.551915018608561-.44808497072777.999999989336331-.999999989336331.999999989336331H4.974731445744879c-.551915024001715,0-.999999999108041-.448084975106326-.999999999108041-.999999999108041v-.000004002850314c0-1.655742865869675,1.344253134216883-2.999996000086558,2.999996000086558-2.999996000086558Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="17.974731449499814" cy="5.000000000480213" r="3" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M15.578918461220383,3.211303711417713c-1.004211425779431-.757080078128638-2.249633789060681-1.2113037109375-3.604187011720569-1.2113037109375-3.313720703119543,0-6,2.686279296878638-6,6v6h12v-6" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+Bell1NotificationAlarmAlertRedDot.displayName = 'Bell1NotificationAlarmAlertRedDot';
+
+export default Bell1NotificationAlarmAlertRedDot;
+export { Bell1NotificationAlarmAlertRedDot };

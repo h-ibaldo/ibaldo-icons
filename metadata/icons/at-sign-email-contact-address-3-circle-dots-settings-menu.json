@@ -1,0 +1,37 @@
+{
+  "name": "AtSign3CircleDotsMenu",
+  "displayName": "At sign 3 circle dots menu",
+  "originalTitle": "At Sign Email Contact Address 3 Circle Dots Settings Menu",
+  "description": "At symbol with menu dots representing email settings or contact options. Used for email configuration and contact management features.",
+  "tags": [
+    "at sign",
+    "email",
+    "contact",
+    "settings",
+    "menu",
+    "dots",
+    "configuration",
+    "options"
+  ],
+  "categories": [
+    "communication",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Email settings menu"
+  },
+  "filename": "at-sign-email-contact-address-3-circle-dots-settings-menu",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.801Z"
+}

@@ -1,0 +1,12 @@
+# Source files
+src/
+scripts/
+
+# Development files
+node_modules/
+*.log
+npm-debug.log*
+.DS_Store
+
+# Only include dist in the package
+!dist/

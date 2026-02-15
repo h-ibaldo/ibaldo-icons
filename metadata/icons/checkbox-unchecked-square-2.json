@@ -1,0 +1,35 @@
+{
+  "name": "CheckboxUncheckedSquare2",
+  "displayName": "Checkbox unchecked square 2",
+  "originalTitle": "Checkbox Unchecked Square 2",
+  "description": "Alternative style empty square checkbox in unchecked state. Used in forms and lists for selectable options that are not currently selected.",
+  "tags": [
+    "checkbox",
+    "unchecked",
+    "square",
+    "form",
+    "selection",
+    "input",
+    "empty"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Unchecked checkbox"
+  },
+  "filename": "checkbox-unchecked-square-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.795Z"
+}

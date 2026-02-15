@@ -1,0 +1,37 @@
+{
+  "name": "DashboardLayout2",
+  "displayName": "Dashboard layout 2",
+  "originalTitle": "Dashboard Layout 2",
+  "description": "Alternative dashboard layout icon with different panel arrangement. Used for dashboard customization or layout selection options.",
+  "tags": [
+    "dashboard",
+    "layout",
+    "panels",
+    "interface",
+    "admin",
+    "analytics",
+    "grid",
+    "overview"
+  ],
+  "categories": [
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Dashboard layout option 2"
+  },
+  "filename": "dashboard-layout-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.798Z"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "ApplicationWindow2Cloud2",
+  "displayName": "Application window 2 cloud 2",
+  "originalTitle": "Application Window 2 Cloud 2",
+  "description": "Alternative application window with cloud icon for cloud computing and storage services. Used in file management, backup applications, or cloud-based software platforms.",
+  "tags": [
+    "window",
+    "application",
+    "cloud",
+    "storage",
+    "sync",
+    "online",
+    "remote",
+    "backup"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Application window with cloud storage"
+  },
+  "filename": "application-window-2-cloud-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.772Z"
+}

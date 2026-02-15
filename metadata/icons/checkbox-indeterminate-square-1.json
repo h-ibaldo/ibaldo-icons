@@ -1,0 +1,36 @@
+{
+  "name": "CheckboxIndeterminateSquare1",
+  "displayName": "Checkbox indeterminate square 1",
+  "originalTitle": "Checkbox Indeterminate Square 1",
+  "description": "Square checkbox in indeterminate state, first variant. Shows a partially selected state when dealing with nested or grouped checkbox selections.",
+  "tags": [
+    "checkbox",
+    "indeterminate",
+    "square",
+    "partial",
+    "mixed",
+    "form",
+    "input",
+    "state"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Indeterminate square checkbox"
+  },
+  "filename": "checkbox-indeterminate-square-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.794Z"
+}

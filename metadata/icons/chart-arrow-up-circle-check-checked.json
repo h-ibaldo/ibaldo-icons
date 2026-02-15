@@ -1,0 +1,37 @@
+{
+  "name": "ChartArrowUpCircleCheck",
+  "displayName": "Chart arrow up circle check",
+  "originalTitle": "Chart Arrow Up Circle Check Checked",
+  "description": "Growth chart with upward arrow and checkmark indicating successful metrics or completed analysis. Shows positive performance validation.",
+  "tags": [
+    "chart",
+    "arrow",
+    "up",
+    "check",
+    "success",
+    "analytics",
+    "performance",
+    "validation"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Successful chart analysis"
+  },
+  "filename": "chart-arrow-up-circle-check-checked",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.740Z"
+}

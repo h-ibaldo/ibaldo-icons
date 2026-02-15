@@ -1,0 +1,37 @@
+{
+  "name": "ChartArrowUpRectanglePlus",
+  "displayName": "Chart arrow up rectangle plus",
+  "originalTitle": "Chart Arrow Up Rectangle Positive Add Plus",
+  "description": "Chart with upward trend and plus symbol indicating positive growth or data addition. Used for adding new data points or showing increased metrics.",
+  "tags": [
+    "chart",
+    "growth",
+    "increase",
+    "add",
+    "plus",
+    "positive",
+    "analytics",
+    "data"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Add data to growth chart"
+  },
+  "filename": "chart-arrow-up-rectangle-positive-add-plus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.742Z"
+}

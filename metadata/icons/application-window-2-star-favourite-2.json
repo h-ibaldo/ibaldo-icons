@@ -1,0 +1,37 @@
+{
+  "name": "ApplicationWindow2Star2",
+  "displayName": "Application window 2 star 2",
+  "originalTitle": "Application Window 2 Star Favourite 2",
+  "description": "Application window with star icon representing favorites or bookmarked applications. Used to indicate starred items, favorite apps, or rating systems.",
+  "tags": [
+    "window",
+    "application",
+    "star",
+    "favorite",
+    "favourite",
+    "bookmark",
+    "rating",
+    "preferred"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Favorite application window"
+  },
+  "filename": "application-window-2-star-favourite-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.776Z"
+}

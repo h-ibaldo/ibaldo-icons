@@ -1,20 +1,23 @@
 {
-  "name": "PlusCross",
-  "description": "Simple plus sign cross icon",
+  "name": "Add1",
+  "displayName": "Add 1",
+  "originalTitle": "Add Plus 1",
+  "description": "Plus icon for adding new items or content. Used in forms, lists, and creation workflows.",
   "tags": [
     "add",
     "plus",
-    "cross",
-    "basic",
-    "mathematics"
+    "create",
+    "new",
+    "insert",
+    "addition",
+    "expand"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
-    "role": "interactive",
-    "suggestedLabel": "Add new item"
+    "role": "informative",
+    "suggestedLabel": "Add item"
   },
   "filename": "add-plus-1",
   "technical": {
@@ -27,5 +30,6 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.765Z"
 }

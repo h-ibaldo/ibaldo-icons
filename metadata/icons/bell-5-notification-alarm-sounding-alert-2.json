@@ -1,0 +1,37 @@
+{
+  "name": "Bell5Sounding2",
+  "displayName": "Bell 5 sounding 2",
+  "originalTitle": "Bell 5 Notification Alarm Sounding Alert 2",
+  "description": "Notification bell with enhanced sound waves showing active alerting. Used to indicate notifications are actively ringing with stronger visual emphasis.",
+  "tags": [
+    "bell",
+    "notification",
+    "sounding",
+    "ringing",
+    "active",
+    "waves",
+    "loud",
+    "emphasis"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Notification bell actively ringing"
+  },
+  "filename": "bell-5-notification-alarm-sounding-alert-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.788Z"
+}

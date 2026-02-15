@@ -1,0 +1,11 @@
+import { SvelteComponent } from 'svelte';
+
+export interface PopUp4Props {
+  color?: string;
+  size?: number | string;
+  strokeWidth?: number | string;
+  class?: string;
+  [key: string]: any;
+}
+
+export default class PopUp4 extends SvelteComponent<PopUp4Props> {}

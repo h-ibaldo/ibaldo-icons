@@ -1,0 +1,36 @@
+import { forwardRef } from 'react';
+
+const ApplicationWindow1Shield23 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M9.000000000183718,22.000000000448381h-5c-1.104569499661011,0-2-.895430500338989-2-2V4.000000000448381c0-1.104569499661011.895430500338989-2,2-2h16c1.104569499661011,0,2,.895430500338989,2,2v5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="2.000000000183718" y1="8.000000000448381" x2="22.000000000183718" y2="8.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M22.000000000183718,14.000000000448381h-.000002000000677c-1.304099586341181,0-2.579020501361811-.386015000907719-3.664096924574551-1.109399283047424l-1.335901075424772-.890600716952576-1.335901075424772.890600716952576c-1.085076423210012.723384282139705-2.35999733823337,1.109399283047424-3.664096924574551,1.109399283047424h-.000002000000677v2.735238484123329c0,1.405051408546569.73719533520125,2.707078716998694,1.942016978290667,3.429971702851617l3.057983021709333,1.834789813025054,3.057983021710243-1.834789813025054c1.204821643089417-.722892985855651,1.942016978289757-2.024920294305048,1.942016978289757-3.429971702851617v-2.735238484123329Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.010000000183936" y1="5.000000000448381" x2="5.000000000183718" y2="5.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.010000000183936" y1="5.000000000448381" x2="8.000000000183718" y2="5.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.010000000183936" y1="5.000000000448381" x2="11.000000000183718" y2="5.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+ApplicationWindow1Shield23.displayName = 'ApplicationWindow1Shield23';
+
+export default ApplicationWindow1Shield23;
+export { ApplicationWindow1Shield23 };

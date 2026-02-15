@@ -1,0 +1,37 @@
+{
+  "name": "DislikeHand3",
+  "displayName": "Dislike hand 3",
+  "originalTitle": "Dislike Hand 3",
+  "description": "Third variation of dislike hand gesture for negative reactions. Used to express disapproval or negative sentiment in user interfaces.",
+  "tags": [
+    "dislike",
+    "thumbs",
+    "down",
+    "negative",
+    "reaction",
+    "rating",
+    "disapproval",
+    "hand"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Dislike or thumbs down"
+  },
+  "filename": "dislike-hand-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.799Z"
+}

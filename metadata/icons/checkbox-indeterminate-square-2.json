@@ -1,0 +1,36 @@
+{
+  "name": "CheckboxIndeterminateSquare2",
+  "displayName": "Checkbox indeterminate square 2",
+  "originalTitle": "Checkbox Indeterminate Square 2",
+  "description": "Square checkbox in indeterminate state, second variant. Represents a mixed selection state in forms with hierarchical options.",
+  "tags": [
+    "checkbox",
+    "indeterminate",
+    "square",
+    "partial",
+    "mixed",
+    "form",
+    "input",
+    "state"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Indeterminate square checkbox, variant 2"
+  },
+  "filename": "checkbox-indeterminate-square-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.794Z"
+}

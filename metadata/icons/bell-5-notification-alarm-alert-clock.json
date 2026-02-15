@@ -1,0 +1,37 @@
+{
+  "name": "Bell5Clock",
+  "displayName": "Bell 5 clock",
+  "originalTitle": "Bell 5 Notification Alarm Alert Clock",
+  "description": "Notification bell combined with clock symbol for scheduled alerts or time-based notifications. Used for reminders, alarms, or timed notifications.",
+  "tags": [
+    "bell",
+    "clock",
+    "scheduled",
+    "timer",
+    "reminder",
+    "alarm",
+    "time",
+    "notification"
+  ],
+  "categories": [
+    "interface",
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Scheduled notification"
+  },
+  "filename": "bell-5-notification-alarm-alert-clock",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.787Z"
+}

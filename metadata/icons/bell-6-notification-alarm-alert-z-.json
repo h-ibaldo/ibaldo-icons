@@ -1,0 +1,37 @@
+{
+  "name": "Bell6Z",
+  "displayName": "Bell 6 z",
+  "originalTitle": "Bell 6 Notification Alarm Alert Z",
+  "description": "Notification bell with Z symbol, indicating sleep mode or do not disturb for notifications. Used to show that alerts are temporarily paused or in quiet hours.",
+  "tags": [
+    "bell",
+    "notification",
+    "sleep",
+    "quiet",
+    "do not disturb",
+    "paused",
+    "snooze",
+    "rest"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Notifications in sleep mode"
+  },
+  "filename": "bell-6-notification-alarm-alert-z-",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.790Z"
+}

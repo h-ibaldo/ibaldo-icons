@@ -1,0 +1,37 @@
+{
+  "name": "AtSign3Clock1",
+  "displayName": "At sign 3 clock 1",
+  "originalTitle": "At Sign Email Contact Address 3 Clock 1",
+  "description": "Timed email communication icon showing email with time component. Used for scheduled emails, email timing features, or time-sensitive email functions.",
+  "tags": [
+    "email",
+    "timed",
+    "schedule",
+    "communication",
+    "contact",
+    "address",
+    "clock",
+    "timing"
+  ],
+  "categories": [
+    "communication",
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Timed email"
+  },
+  "filename": "at-sign-email-contact-address-3-clock-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.803Z"
+}

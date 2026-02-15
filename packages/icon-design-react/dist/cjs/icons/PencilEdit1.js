@@ -1,0 +1,33 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const PencilEdit1 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M21.171573703679314,2.914216714609211l-.000003999999535-.000004000012268c-1.10456839751896-1.104568382108482-2.895427596859008-1.10456837586753-3.99999598667091.000000013951649L2.99999999963984,17.085786445889426l-.99999999927968,4.999999999278771,4.99999999963984-.99999999963984,14.171573717620049-14.171573717620049c1.104568400360222-1.104568400369317,1.104568394119269-2.895427620649571-.000000013940735-3.999996013299096Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="15" y1="5.085786445168196" x2="19.00000000036016" y2="9.085786445528356" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+PencilEdit1.displayName = 'PencilEdit1';
+
+module.exports = PencilEdit1;
+module.exports.PencilEdit1 = PencilEdit1;
+module.exports.default = PencilEdit1;

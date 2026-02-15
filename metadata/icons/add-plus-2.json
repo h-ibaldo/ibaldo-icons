@@ -1,20 +1,23 @@
 {
-  "name": "PlusCrossCircle",
-  "description": "Plus sign inside a circle",
+  "name": "Add2",
+  "displayName": "Add 2",
+  "originalTitle": "Add Plus 2",
+  "description": "Alternative plus icon for adding functionality. Used for creating new content or expanding options.",
   "tags": [
     "add",
     "plus",
-    "circle",
-    "button",
+    "create",
+    "new",
+    "insert",
+    "addition",
     "expand"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
-    "role": "interactive",
-    "suggestedLabel": "Create or add"
+    "role": "informative",
+    "suggestedLabel": "Add item"
   },
   "filename": "add-plus-2",
   "technical": {
@@ -27,5 +30,6 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.765Z"
 }

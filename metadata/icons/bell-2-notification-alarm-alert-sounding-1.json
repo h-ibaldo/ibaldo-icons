@@ -1,0 +1,37 @@
+{
+  "name": "Bell2Sounding1",
+  "displayName": "Bell 2 sounding 1",
+  "originalTitle": "Bell 2 Notification Alarm Alert Sounding 1",
+  "description": "Active ringing bell icon showing notifications are currently sounding. Indicates an active alert or incoming notification.",
+  "tags": [
+    "bell",
+    "notification",
+    "ringing",
+    "sounding",
+    "active",
+    "alert",
+    "alarm",
+    "sound"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Notification ringing"
+  },
+  "filename": "bell-2-notification-alarm-alert-sounding-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.782Z"
+}

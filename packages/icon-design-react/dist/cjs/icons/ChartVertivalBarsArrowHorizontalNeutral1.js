@@ -1,0 +1,39 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const ChartVertivalBarsArrowHorizontalNeutral1 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<line x1="22.016630451129458" y1="12.000000000480213" x2="22.016630450545563" y2="22.000000001378794" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="18.016630451037599" y1="12.000000000480213" x2="18.016630450545563" y2="22.000000001196895" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="14.016630450951197" y1="12.000000000480213" x2="14.016630450545563" y2="22.000000001018634" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="10.016630450860248" y1="12.000000000480213" x2="10.016630450545563" y2="22.000000000840373" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="6.016630450769298" y1="12.000000000480213" x2="6.016630450545563" y2="22.000000000658474" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="2.016630450681077" y1="12.000000000480213" x2="2.016630450545563" y2="22.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="19.016630450973025 2.000000000480213 22.016630450973025 5.000000000480213 19.016630450973025 8.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="22.016630450973025" y1="5.000000000480213" x2="2.016630450973025" y2="5.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+ChartVertivalBarsArrowHorizontalNeutral1.displayName = 'ChartVertivalBarsArrowHorizontalNeutral1';
+
+module.exports = ChartVertivalBarsArrowHorizontalNeutral1;
+module.exports.ChartVertivalBarsArrowHorizontalNeutral1 = ChartVertivalBarsArrowHorizontalNeutral1;
+module.exports.default = ChartVertivalBarsArrowHorizontalNeutral1;

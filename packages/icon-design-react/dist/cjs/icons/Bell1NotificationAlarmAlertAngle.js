@@ -1,0 +1,34 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const Bell1NotificationAlarmAlertAngle = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M13.118135368720687,17.398555175597721l.68404097066923,1.879387120960018c.377784640790196,1.037954770032229-.157388989578976,2.185638324001047-1.195343759600291,2.563422964791243l-.000003758770617.00000136808012c-1.037954770019496.377784640790196-2.185638323990133-.157388989580795-2.563422964789424-1.19534375960211l-.684040970660135-1.879387120967294" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M7.434082506939098,13.519170584298157h10.000012306630943c1.655744687652856,0,2.99999930092654,1.344254613273687,2.99999930092654,2.999999300926541v.00000180298878c0,.551914430526946-.448084493280113.999998923807059-.999998923807059.999998923807059H5.434092278518234c-.551915007024502,0-.999999968347487-.448084961322987-.999999968347487-.999999968347488v-.000009862606543c0-1.655739662931165,1.344250533837187-2.99999019676835,2.99999019676835-2.99999019676835Z" transform="translate(-4.558001400242446 5.188630885974048) rotate(-20.000000124813138)" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M6.111899070720028,15.691905552339449l-2.052120859900242-5.6381557247405c-1.133353922370588-3.113864310071222.472166968729653-6.556914971979495,3.586031278800874-7.690268894360088l.000011276319128-.000004104239451c3.113864310069403-1.133353922371498,6.556914971979495.472166968729653,7.690268894350083,3.586031278809969l2.052120859900242,5.638155724729586" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+Bell1NotificationAlarmAlertAngle.displayName = 'Bell1NotificationAlarmAlertAngle';
+
+module.exports = Bell1NotificationAlarmAlertAngle;
+module.exports.Bell1NotificationAlarmAlertAngle = Bell1NotificationAlarmAlertAngle;
+module.exports.default = Bell1NotificationAlarmAlertAngle;

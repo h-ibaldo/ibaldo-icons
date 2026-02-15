@@ -1,0 +1,37 @@
+{
+  "name": "AtSign2Clock2",
+  "displayName": "At sign 2 clock 2",
+  "originalTitle": "At Sign Email Contact Address 2 Clock 2",
+  "description": "Scheduled email icon combining email address symbol with time indicator. Represents email scheduling, timed messages, or delayed email delivery features.",
+  "tags": [
+    "email",
+    "schedule",
+    "time",
+    "delayed",
+    "contact",
+    "address",
+    "clock",
+    "timed"
+  ],
+  "categories": [
+    "communication",
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Scheduled email"
+  },
+  "filename": "at-sign-email-contact-address-2-clock-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.803Z"
+}

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-d037b264-edc8-435e-8406-17b4c70773df" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <rect x="2.025268554611102" y="2.000000000709406" width="20" height="20" rx="3" ry="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M17.025268554611102,12.000000000709406v3c0,1.104569499661011-.895430500351722,2-2,2h-6c-1.104569499671925,0-2-.895430500338989-2-2v-6c0-1.104569499661011.895430500328075-2,2-2h3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="10.025268554611102 11.000000000709406 12.025268554611102 13.000000000709406 16.025268554611102 8.000000000709406" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

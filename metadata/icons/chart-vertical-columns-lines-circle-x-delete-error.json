@@ -1,0 +1,37 @@
+{
+  "name": "ChartVerticalColumnsLinesCircleX",
+  "displayName": "Chart vertical columns lines circle x",
+  "originalTitle": "Chart Vertical Columns Lines Circle X Delete Error",
+  "description": "Combined column and line chart with X mark showing data error or failed chart processing. Used to represent analytics errors or invalid combination chart data.",
+  "tags": [
+    "chart",
+    "columns",
+    "lines",
+    "error",
+    "failed",
+    "invalid",
+    "delete",
+    "analytics"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Combination chart error"
+  },
+  "filename": "chart-vertical-columns-lines-circle-x-delete-error",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.756Z"
+}

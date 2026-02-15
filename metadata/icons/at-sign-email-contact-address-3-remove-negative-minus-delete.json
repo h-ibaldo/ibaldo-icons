@@ -1,0 +1,37 @@
+{
+  "name": "AtSign3Minus",
+  "displayName": "At sign 3 minus",
+  "originalTitle": "At Sign Email Contact Address 3 Remove Negative Minus Delete",
+  "description": "At symbol with minus sign for removing email addresses or contacts. Used to delete email entries or unsubscribe from services.",
+  "tags": [
+    "email",
+    "remove",
+    "delete",
+    "minus",
+    "contact",
+    "address",
+    "unsubscribe",
+    "at-sign"
+  ],
+  "categories": [
+    "communication",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Remove email address"
+  },
+  "filename": "at-sign-email-contact-address-3-remove-negative-minus-delete",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.779Z"
+}

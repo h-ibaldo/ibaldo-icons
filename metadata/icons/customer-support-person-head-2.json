@@ -1,0 +1,37 @@
+{
+  "name": "CustomerSupport2",
+  "displayName": "Customer support 2",
+  "originalTitle": "Customer Support Person Head 2",
+  "description": "Person icon representing customer support or help desk services. Used for customer service contacts and support features.",
+  "tags": [
+    "customer support",
+    "person",
+    "help",
+    "service",
+    "assistance",
+    "support",
+    "representative",
+    "contact"
+  ],
+  "categories": [
+    "people",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Customer support representative"
+  },
+  "filename": "customer-support-person-head-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.802Z"
+}

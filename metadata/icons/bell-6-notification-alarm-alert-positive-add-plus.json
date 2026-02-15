@@ -1,0 +1,37 @@
+{
+  "name": "Bell6Plus",
+  "displayName": "Bell 6 plus",
+  "originalTitle": "Bell 6 Notification Alarm Alert Positive Add Plus",
+  "description": "Notification bell with plus sign, indicating the ability to add new notifications or enable notification features. Used for creating alerts or subscribing to notifications.",
+  "tags": [
+    "bell",
+    "notification",
+    "add",
+    "create",
+    "enable",
+    "subscribe",
+    "new",
+    "plus"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Add notification"
+  },
+  "filename": "bell-6-notification-alarm-alert-positive-add-plus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.789Z"
+}

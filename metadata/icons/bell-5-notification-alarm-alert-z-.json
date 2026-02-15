@@ -1,0 +1,37 @@
+{
+  "name": "Bell5Z",
+  "displayName": "Bell 5 z",
+  "originalTitle": "Bell 5 Notification Alarm Alert Z",
+  "description": "Notification bell with Z symbol indicating sleep or snooze mode. Used to show notifications are snoozed or in do-not-disturb mode.",
+  "tags": [
+    "bell",
+    "notification",
+    "snooze",
+    "sleep",
+    "quiet",
+    "pause",
+    "rest",
+    "zzz"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Notifications snoozed or in sleep mode"
+  },
+  "filename": "bell-5-notification-alarm-alert-z-",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "generatedAt": "2026-02-15T00:53:19.788Z"
+}

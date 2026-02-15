@@ -1,0 +1,31 @@
+import { forwardRef } from 'react';
+
+const ToolSupport5 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M21.570312492849553,7.428466799923626l-4.5703125,4.5703125-4-1-1-4,4.5703125-4.5703125c-.8076171875-.27423095703125-1.669921875-.4296875-2.5703125-.4296875-4.418212890630457,0-8,3.58172607421875-8,8,0,1.17315673828125.2587890625,2.2838134765625.71240234375,3.28759765625l-3.884033203130457,3.88397216796875c-1.1044921875,1.10455322265625-1.1044921875,2.8953857421875,0,3.99993896484375v.00006103515625c1.104736328130457,1.10455322265625,2.8955078125,1.10455322265625,4,0l3.884033203130457-3.8839111328125c1.00390625.45367431640625,2.114501953119543.71234130859375,3.28759765625.71234130859375,4.418212890619543,0,8-3.58172607421875,8-8,0-.90032958984375-.155517578130457-1.7626953125-.4296875-2.5703125Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+ToolSupport5.displayName = 'ToolSupport5';
+
+export default ToolSupport5;
+export { ToolSupport5 };
