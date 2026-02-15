@@ -4,6 +4,11 @@ All notable changes to the Svelte package will be documented in this file.
 
 ## [Unreleased]
 
+## [0.1.7] - 2026-02-15
+
+### Changed
+- Package rebuild with latest icons
+
 ## [0.1.6] - 2026-02-15
 
 ### Changed
