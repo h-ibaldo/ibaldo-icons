@@ -24,8 +24,8 @@
   {...$$restProps}
 >
   <g>
-    <line x1="18.974731440099276" y1="16.000000003885361" x2="18.974731440099276" y2="22.000000003885361" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-    <line x1="21.974731440099276" y1="19.000000003885361" x2="15.974731440099276" y2="19.000000003885361" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="18.974731440099276" y1="16.000000003885361" x2="18.974731440099276" y2="22.000000003885361" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="21.974731440099276" y1="19.000000003885361" x2="15.974731440099276" y2="19.000000003885361" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
   <path d="M12.974731440099276,22.000000003885361H4.974731440099276c-1.104569499659192,0-2-.895430500338989-2-2V6.000000003885361c0-1.104569499661011.895430500340808-2,2-2h2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M16.974731440099276,4.000000003885361h2c1.104569499670106,0,2,.895430500338989,2,2v6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
