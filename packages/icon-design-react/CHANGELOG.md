@@ -4,6 +4,11 @@ All notable changes to the React package will be documented in this file.
 
 ## [Unreleased]
 
+## [0.1.9] - 2026-02-15
+
+### Changed
+- Package rebuild with latest icons
+
 ## [0.1.8] - 2026-02-15
 
 ### Changed
