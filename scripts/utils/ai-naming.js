@@ -6,6 +6,7 @@
  */
 
 import Anthropic from '@anthropic-ai/sdk';
+import { CONFIG } from '../config.js';
 
 const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
@@ -22,8 +23,8 @@ export async function generateAINames(filenames, existingNames = {}) {
 
   console.log(`\n🤖 Generating AI names for ${filenames.length} icons...`);
 
-  // Process in batches of 20 for optimal API usage
-  const batchSize = 20;
+  // Process in batches for optimal API usage
+  const batchSize = CONFIG.ai.batchSizes.naming;
   const results = {};
 
   for (let i = 0; i < filenames.length; i += batchSize) {
@@ -125,7 +126,7 @@ Output:
 
   try {
     const message = await anthropic.messages.create({
-      model: 'claude-haiku-4-5-20251001',
+      model: CONFIG.ai.models.naming,
       max_tokens: 4096,
       messages: [
         {
@@ -133,7 +134,7 @@ Output:
           content: prompt
         }
       ],
-      temperature: 0.3, // Lower temperature for more consistent results
+      temperature: CONFIG.ai.temperature,
     });
 
     const responseText = message.content[0].text;

@@ -9,6 +9,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import { promises as fs } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { ICON_CATEGORIES, CONFIG } from '../config.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -16,14 +17,6 @@ const __dirname = dirname(__filename);
 const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
 });
-
-const CATEGORIES = [
-  'interface', 'arrows', 'communication', 'media', 'files',
-  'business', 'social', 'weather', 'devices', 'health',
-  'education', 'transportation', 'food', 'people', 'accessibility',
-  'nature', 'sports', 'development', 'security', 'shopping',
-  'time', 'location'
-];
 
 /**
  * Generate metadata for a batch of icons
@@ -35,8 +28,8 @@ export async function generateMetadata(icons) {
 
   console.log(`\n📝 Generating metadata for ${icons.length} icons...`);
 
-  // Process in batches of 15 for optimal API usage
-  const batchSize = 15;
+  // Process in batches for optimal API usage
+  const batchSize = CONFIG.ai.batchSizes.metadata;
   const results = {};
 
   for (let i = 0; i < icons.length; i += batchSize) {
@@ -87,7 +80,7 @@ Respond with ONLY a JSON object, no other text. Format:
    - Lowercase only
 
 3. **Categories**:
-   - Choose 1-2 most relevant from: ${CATEGORIES.join(', ')}
+   - Choose 1-2 most relevant from: ${ICON_CATEGORIES.join(', ')}
    - Primary category first
 
 4. **Accessibility**:
@@ -118,7 +111,7 @@ Output:
 
   try {
     const message = await anthropic.messages.create({
-      model: 'claude-haiku-4-5-20251001',
+      model: CONFIG.ai.models.metadata,
       max_tokens: 8192,
       messages: [
         {
@@ -126,7 +119,7 @@ Output:
           content: prompt
         }
       ],
-      temperature: 0.3,
+      temperature: CONFIG.ai.temperature,
     });
 
     const responseText = message.content[0].text;
@@ -248,10 +241,10 @@ export async function saveMetadata(metadataMap, iconMap) {
       accessibility: metadata.accessibility,
       filename: filename,
       technical: {
-        viewBox: '0 0 24 24',
-        strokeWidth: 1.5,
-        hasStroke: true,
-        hasFill: false
+        viewBox: CONFIG.icon.viewBox,
+        strokeWidth: CONFIG.icon.strokeWidth,
+        hasStroke: CONFIG.icon.hasStroke,
+        hasFill: CONFIG.icon.hasFill
       },
       contributors: ['Henrique Ibaldo'],
       version: '1.0.0',
