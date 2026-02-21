@@ -197,15 +197,18 @@
     }
 
     .nav-links.hide a:nth-child(1) {
-        transition-delay: 0.3s, 0.3s;
+        transition-delay: 0.4s, 0.4s;
     }
     .nav-links.hide a:nth-child(2) {
-        transition-delay: 0.2s, 0.2s;
+        transition-delay: 0.3s, 0.3s;
     }
     .nav-links.hide a:nth-child(3) {
-        transition-delay: 0.1s, 0.1s;
+        transition-delay: 0.2s, 0.2s;
     }
     .nav-links.hide a:nth-child(4) {
+        transition-delay: 0.1s, 0.1s;
+    }
+    .nav-links.hide a:nth-child(5) {
         transition-delay: 0s, 0s;
     }
 
@@ -220,6 +223,9 @@
     }
     .nav-links a:nth-child(4) {
         transition-delay: 0.4s, 0.4s;
+    }
+    .nav-links a:nth-child(5) {
+        transition-delay: 0.3s, 0.3s;
     }
 
 
@@ -256,9 +262,10 @@
 
     <div class="flex items-center overflow-hidden">
 
-        <nav class="space-x-4 text-sm desktop-only nav-links {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
+        <nav class="space-x-4 text-xs desktop-only nav-links {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
             <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
             <a href="/about" class="text-indigo-500 hover:text-indigo-600">About</a>
+            <a href="/packages" class="text-indigo-500 hover:text-indigo-600">Packages</a>
             <a href="/license" class="text-indigo-500 hover:text-indigo-600">License</a>
             <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600">Request icon</a>
         </nav>
@@ -334,6 +341,7 @@
     <nav class="flex flex-col space-y-4 text-md" aria-label="Mobile navigation">
         <a href="/" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Icons</a>
         <a href="/about" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>About</a>
+        <a href="/packages" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Packages</a>
         <a href="/license" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>License</a>
         <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Request icon</a>
     </nav>
