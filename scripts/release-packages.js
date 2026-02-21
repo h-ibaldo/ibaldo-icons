@@ -21,6 +21,7 @@
  *   --skip-publish   Skip npm publish (for testing)
  *   --skip-push      Skip git push
  *   --dry-run        Show what would happen without doing it
+ *   --otp=123456     Provide npm one-time password for 2FA
  */
 
 import { execSync } from 'child_process';
@@ -40,16 +41,18 @@ const skipBuild = args.includes('--skip-build');
 const skipPublish = args.includes('--skip-publish');
 const skipPush = args.includes('--skip-push');
 const dryRun = args.includes('--dry-run');
+const otpIndex = args.findIndex(arg => arg.startsWith('--otp='));
+const otp = otpIndex !== -1 ? args[otpIndex].split('=')[1] : null;
 
 // Package paths
 const packages = [
   {
-    name: '@icon-design/react',
+    name: '@ibaldo/icon-design-react',
     path: resolve(projectRoot, 'packages/icon-design-react'),
     buildScript: 'node scripts/build.js'
   },
   {
-    name: '@icon-design/svelte',
+    name: '@ibaldo/icon-design-svelte',
     path: resolve(projectRoot, 'packages/icon-design-svelte'),
     buildScript: 'node scripts/build.cjs'
   }
@@ -251,8 +254,8 @@ async function main() {
   const newVersion = releases[0].new; // Both packages use same version
   const commitMessage = `chore: Release v${newVersion}
 
-- @icon-design/react v${newVersion}
-- @icon-design/svelte v${newVersion}
+- @ibaldo/icon-design-react v${newVersion}
+- @ibaldo/icon-design-svelte v${newVersion}
 
 Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`;
 
@@ -277,11 +280,10 @@ Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`;
         process.exit(1);
       }
 
-      // Publish
-      const publishCmd = releases[0].current === '0.1.0'
-        ? 'npm publish --access public'
-        : 'npm publish';
-
+      // Publish (always use --access public for scoped packages)
+      const publishCmd = otp
+        ? `npm publish --access public --otp=${otp}`
+        : 'npm publish --access public';
       exec(publishCmd, { cwd: pkg.path });
       log(`  ✓ ${pkg.name} published successfully`, 'green');
     }

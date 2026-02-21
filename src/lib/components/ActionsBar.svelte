@@ -284,8 +284,8 @@
 
     .slider-value {
         color: white;
-        font-size: 14px;
-        min-width: 50px;
+        font-size: 12px;
+        min-width: 34px;
         font-variant-numeric: tabular-nums; /* Prevent layout shift on number changes */
     }
 
@@ -486,7 +486,7 @@
 
         <!-- Size Slider -->
         <div class="slider-group">
-            <label for="size" class="slider-label text-right">Size</label>
+            <label for="size" class="slider-label text-right hidden">Size</label>
             <div class="slider flex align-center">
                 <input
                     id="size"
@@ -508,7 +508,7 @@
 
         <!-- Weight Slider -->
         <div class="slider-group">
-            <label for="weight" class="slider-label text-right">Weight</label>
+            <label for="weight" class="slider-label text-right hidden">Weight</label>
             <div class="slider flex align-center">
                 <input
                     id="weight"
