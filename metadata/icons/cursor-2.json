@@ -1,0 +1,33 @@
+{
+  "name": "Cursor2",
+  "description": "A pointer cursor icon in an alternate style, showing standard mouse interaction controls.",
+  "tags": [
+    "cursor",
+    "pointer",
+    "mouse",
+    "click",
+    "interaction",
+    "control",
+    "variant"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "decorative",
+    "suggestedLabel": "Cursor pointer variant"
+  },
+  "filename": "cursor-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,45 @@
+import { forwardRef } from 'react';
+
+const VrAugmentedRealityCubeDashed2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <polyline points="17.99999997732084 5.333309552435821 20.999999977400876 6.999996564019966 20.999999977530024 9.999996564019966" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.999999977939297" y1="18.999996564423782" x2="11.999999978070264" y2="21.999996564423782" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.999999977169864" y1="1.999996564423782" x2="11.999999977309926" y2="4.999996564423782" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="2.999999977400876" y1="6.999996564827597" x2="5.999999977469997" y2="8.666683576411742" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="17.99999997777013" y1="15.333309552435821" x2="20.999999977850166" y2="16.999996564019966" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="9.299987770209555 3.499996564543835 11.999999977169864 1.999996564423782 14.700012184270236 3.499996564300091" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="17.999999977921107 18.666683575873321 20.999999977850166 16.999996564019966 20.999999977710104 13.999996564019966" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="5.99999997732084 5.333309553039726 2.999999977329935 6.999996564758476 2.99999997732084 9.999996564758476" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="20.999999977400876" y1="6.999996564019966" x2="17.999999977400876" y2="8.666683575738716" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.999999977850166" y1="15.333309553108847" x2="2.999999977850166" y2="16.999996564827597" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="5.999999977329935 18.666683576477226 2.999999977329935 16.999996564758476 2.99999997732084 13.999996564758476" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="9.299987770969892 20.499996564543835 11.999999978070264 21.999996564423782 14.700012185030573 20.499996564300091" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.999999977619154" y1="11.888912580048782" x2="11.999999977710104" y2="13.999996564423782" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="13.999999977570042" y1="10.777828595582832" x2="11.999999977619154" y2="11.888912580048782" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.999999977570042" y1="10.7778285957138" x2="11.999999977570042" y2="11.888912580092438" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+VrAugmentedRealityCubeDashed2.displayName = 'VrAugmentedRealityCubeDashed2';
+
+export default VrAugmentedRealityCubeDashed2;
+export { VrAugmentedRealityCubeDashed2 };

@@ -1,0 +1,33 @@
+{
+  "name": "ReplaceExchange2",
+  "description": "A second variant of the replace or exchange icon with alternative visual styling",
+  "tags": [
+    "replace",
+    "exchange",
+    "swap",
+    "substitute",
+    "switch",
+    "arrows",
+    "variant"
+  ],
+  "categories": [
+    "interface",
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Replace or exchange variant two"
+  },
+  "filename": "replace-exchange-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

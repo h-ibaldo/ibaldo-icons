@@ -1,0 +1,33 @@
+{
+  "name": "BookmarkPlus",
+  "description": "A bookmark icon with a plus symbol for adding new bookmarks or favorites",
+  "tags": [
+    "bookmark",
+    "plus",
+    "add",
+    "create",
+    "new",
+    "flag",
+    "save"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Add bookmark"
+  },
+  "filename": "bookmark-1-plus-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

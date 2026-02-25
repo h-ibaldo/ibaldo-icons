@@ -1,0 +1,33 @@
+{
+  "name": "TabAddPlusCircle",
+  "description": "A tab icon with a plus symbol inside a circle to add or create a new tab",
+  "tags": [
+    "tab",
+    "add",
+    "plus",
+    "positive",
+    "new",
+    "create",
+    "circle",
+    "interface"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Add new tab"
+  },
+  "filename": "tab-1-positive-add-plus-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

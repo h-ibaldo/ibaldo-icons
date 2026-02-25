@@ -1,0 +1,33 @@
+{
+  "name": "Cloud2View",
+  "description": "A cloud icon with a view or eye symbol for monitoring cloud visibility",
+  "tags": [
+    "cloud",
+    "view",
+    "eye",
+    "visibility",
+    "monitor",
+    "watch",
+    "observe"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud view"
+  },
+  "filename": "cloud-2-view",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

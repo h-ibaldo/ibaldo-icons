@@ -1,0 +1,39 @@
+import { forwardRef } from 'react';
+
+const WebsitePortalChairArmchairDesignFurniture22 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M22.025268545879953,9.998782739598028V3.998782739598028c0-1.104569499661011-.895430500339899-2-2-2H4.025268545879953c-1.104569499660101,0-2,.895430500338989-2,2v16c0,1.104569499664649.895430500339899,2,2,2h1.558481559890424" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.035268549509965" y1="4.998782739598028" x2="5.025268549509747" y2="4.998782739598028" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.035268549509965" y1="4.998782739598028" x2="8.025268549509747" y2="4.998782739598028" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="19.025268549509747" y1="4.998782739598028" x2="11.025268549509747" y2="4.998782739598028" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="2.025268549509747" y1="7.998782739598028" x2="22.025268549509747" y2="7.998782739598028" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M17.789222515530128,16.998782739598028c.757532676940173,0,1.450050508799904-.42799195976113,1.788840179559884-1.105544404679677l.216004682550192-.431992216414073c.152099609369543-.30413818359375.231201171869543-.6395263671875.231201171869543-.97955322265625,0-.8956298828125-.545288085940228-1.7010498046875-1.376831054690228-2.03369140625l-.000003623169505-.000001449217962c-2.325865460229579-.930314402947261-4.920465422469533-.930314402947261-7.246330644279624,0l-.000003623170414.000001449217962c-.83154296875.3326416015625-1.376831054690228,1.1380615234375-1.376831054690228,2.03369140625,0,.34002685546875.0791015625.6754150390625.231201171880457.97955322265625l.216004682540188.431992216414073c.33878967075907.677552444918547,1.031307502619711,1.105544404679677,1.788840179559884,1.105544404679677h5.527907932039852Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M8.025268549509747,16.998782739598028c.649169921880457,1.2982177734375,1.701782226559772,2.35089111328125,3,3h8c1.298217773440228-.64910888671875,2.350830078130457-1.7017822265625,3-3" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="18.025268549509747" y1="19.998782739598028" x2="20.025268549509747" y2="21.998782739598028" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.025268549509747" y1="19.998782739598028" x2="10.025268549509747" y2="21.998782739598028" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+WebsitePortalChairArmchairDesignFurniture22.displayName = 'WebsitePortalChairArmchairDesignFurniture22';
+
+export default WebsitePortalChairArmchairDesignFurniture22;
+export { WebsitePortalChairArmchairDesignFurniture22 };

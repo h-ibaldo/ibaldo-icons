@@ -1,0 +1,33 @@
+{
+  "name": "SaveFolderDown",
+  "description": "A folder save icon with a downward line indicating download or save-to-folder functionality",
+  "tags": [
+    "save",
+    "folder",
+    "download",
+    "line",
+    "down",
+    "storage",
+    "files"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Save to folder"
+  },
+  "filename": "save-folder-line-down-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

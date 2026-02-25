@@ -1,0 +1,35 @@
+{
+  "name": "WifiSignal6",
+  "description": "A wifi signal strength icon showing six bars representing maximum network signal quality",
+  "tags": [
+    "wifi",
+    "signal",
+    "hotspot",
+    "connection",
+    "network",
+    "bars",
+    "strength",
+    "maximum",
+    "wireless"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Wifi signal six bars"
+  },
+  "filename": "wifi-signal-hotspot-6",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

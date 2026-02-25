@@ -1,0 +1,31 @@
+{
+  "name": "Tag1",
+  "description": "A single tag icon for labeling, categorizing, or marking content",
+  "tags": [
+    "tag",
+    "label",
+    "category",
+    "mark",
+    "metadata",
+    "classification"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Tag label"
+  },
+  "filename": "tag-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

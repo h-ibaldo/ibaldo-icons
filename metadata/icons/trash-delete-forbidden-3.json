@@ -1,0 +1,34 @@
+{
+  "name": "TrashForbidden3",
+  "description": "A trash bin icon with a forbidden or prohibited indicator variant",
+  "tags": [
+    "trash",
+    "delete",
+    "forbidden",
+    "prohibited",
+    "blocked",
+    "disable",
+    "restricted",
+    "variant 3"
+  ],
+  "categories": [
+    "interface",
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Delete disabled"
+  },
+  "filename": "trash-delete-forbidden-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

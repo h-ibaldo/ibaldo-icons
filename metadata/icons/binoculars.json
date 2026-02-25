@@ -1,0 +1,33 @@
+{
+  "name": "Binoculars",
+  "description": "A binoculars icon for viewing, magnification, or observation purposes",
+  "tags": [
+    "binoculars",
+    "view",
+    "magnification",
+    "observation",
+    "search",
+    "zoom",
+    "inspect"
+  ],
+  "categories": [
+    "interface",
+    "location"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Binoculars"
+  },
+  "filename": "binoculars",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

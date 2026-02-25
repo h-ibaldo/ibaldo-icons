@@ -1,0 +1,35 @@
+{
+  "name": "TouchScreenPinch",
+  "description": "A touch screen gesture icon showing two fingers pinching together to zoom",
+  "tags": [
+    "touch",
+    "screen",
+    "pinch",
+    "gesture",
+    "zoom",
+    "interaction",
+    "mobile",
+    "fingers",
+    "multi-touch"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Touch pinch zoom gesture"
+  },
+  "filename": "touch-screen-pinch",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

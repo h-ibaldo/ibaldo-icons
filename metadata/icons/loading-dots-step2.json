@@ -1,0 +1,36 @@
+{
+  "name": "LoadingDotsStep2",
+  "description": "Second step of a loading animation with dots showing continued progress.",
+  "tags": [
+    "loading",
+    "dots",
+    "step",
+    "progress",
+    "animation",
+    "wait",
+    "spinner",
+    "pending",
+    "sequence",
+    "2"
+  ],
+  "categories": [
+    "interface",
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Loading step two"
+  },
+  "filename": "loading-dots-step2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "AirplaySignal4",
+  "description": "An Airplay icon with signal strength indicator showing maximum wireless connection quality at level 4",
+  "tags": [
+    "airplay",
+    "signal",
+    "strength",
+    "wireless",
+    "connection",
+    "quality",
+    "level"
+  ],
+  "categories": [
+    "devices",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Airplay signal level 4"
+  },
+  "filename": "airplay-signal-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

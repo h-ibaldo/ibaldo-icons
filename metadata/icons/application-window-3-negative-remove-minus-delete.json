@@ -1,0 +1,32 @@
+{
+  "name": "AppWindowRemove",
+  "description": "An application window icon with a minus or remove indicator, showing window deletion or reduction action",
+  "tags": [
+    "application",
+    "window",
+    "remove",
+    "delete",
+    "minus",
+    "negative",
+    "interface"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Remove application window"
+  },
+  "filename": "application-window-3-negative-remove-minus-delete",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

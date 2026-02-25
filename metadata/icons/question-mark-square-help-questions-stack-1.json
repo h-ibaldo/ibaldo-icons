@@ -1,0 +1,35 @@
+{
+  "name": "QuestionMarkSquareStack1",
+  "description": "A stacked question mark square icon representing multiple help questions or FAQ items",
+  "tags": [
+    "question",
+    "mark",
+    "square",
+    "help",
+    "questions",
+    "stack",
+    "multiple",
+    "FAQ",
+    "layer"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Multiple help questions"
+  },
+  "filename": "question-mark-square-help-questions-stack-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

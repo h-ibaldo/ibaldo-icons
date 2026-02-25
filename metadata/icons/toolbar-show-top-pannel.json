@@ -1,0 +1,33 @@
+{
+  "name": "ToolbarShowTopPanel",
+  "description": "A toolbar icon for showing or revealing the top panel in an application interface",
+  "tags": [
+    "toolbar",
+    "show",
+    "top",
+    "panel",
+    "reveal",
+    "display",
+    "ui"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Show top panel"
+  },
+  "filename": "toolbar-show-top-pannel",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

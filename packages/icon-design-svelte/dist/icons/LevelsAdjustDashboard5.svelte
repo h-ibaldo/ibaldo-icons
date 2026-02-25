@@ -1,0 +1,35 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <line x1="15.999999990303877" y1="12.000000000667569" x2="1.999999990620381" y2="12.000000000170985" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="21.999999990619472" y1="12.000000001068656" x2="19.999999990303877" y2="12.000000000937689" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11.999999990303877" y1="19.000000000578439" x2="21.999999990297511" y2="19.000000001068656" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1.999999990303877" y1="19.000000000170985" x2="7.999999990303877" y2="19.000000000308319" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11.999999990303877" y1="4.999999999948159" x2="21.99999999092779" y2="5.000000000439286" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1.999999990933247" y1="5.000000000170985" x2="7.999999990303877" y2="5.000000000308319" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7.999999990303877" y1="2.000000000439286" x2="7.999999990303877" y2="8.000000000439286" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="15.999999990303877" y1="9.000000000439286" x2="15.999999990303877" y2="15.000000000439286" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7.999999990303877" y1="16.000000000439286" x2="7.999999990303877" y2="22.000000000439286" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

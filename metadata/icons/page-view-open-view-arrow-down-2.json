@@ -1,0 +1,33 @@
+{
+  "name": "PageViewOpenArrowDown2",
+  "description": "A page view icon with an open arrow pointing downward, variant 2",
+  "tags": [
+    "page",
+    "view",
+    "open",
+    "arrow",
+    "down",
+    "expand",
+    "dropdown"
+  ],
+  "categories": [
+    "interface",
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Open page view down"
+  },
+  "filename": "page-view-open-view-arrow-down-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

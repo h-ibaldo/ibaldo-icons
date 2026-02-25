@@ -1,0 +1,33 @@
+{
+  "name": "TranslationLanguagesArrows1",
+  "description": "A translation icon with directional arrows representing language conversion and bidirectional exchange.",
+  "tags": [
+    "translation",
+    "languages",
+    "arrows",
+    "exchange",
+    "bilingual",
+    "conversion",
+    "communication"
+  ],
+  "categories": [
+    "communication",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Translation with language arrows"
+  },
+  "filename": "translation-languages-arrows-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

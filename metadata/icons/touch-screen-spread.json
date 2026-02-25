@@ -1,0 +1,36 @@
+{
+  "name": "TouchScreenSpread",
+  "description": "A touch screen gesture icon showing two fingers spreading apart to zoom out",
+  "tags": [
+    "touch",
+    "screen",
+    "spread",
+    "gesture",
+    "zoom",
+    "expand",
+    "interaction",
+    "mobile",
+    "multi-touch",
+    "fingers"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Touch spread zoom out gesture"
+  },
+  "filename": "touch-screen-spread",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

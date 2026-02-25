@@ -1,0 +1,32 @@
+{
+  "name": "PencilTracing4",
+  "description": "A pencil tracing icon representing the fourth variant for drawing, sketching, and outline creation.",
+  "tags": [
+    "pencil",
+    "tracing",
+    "draw",
+    "sketch",
+    "outline",
+    "variant4"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Pencil tracing variant 4"
+  },
+  "filename": "pencil-tracing-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

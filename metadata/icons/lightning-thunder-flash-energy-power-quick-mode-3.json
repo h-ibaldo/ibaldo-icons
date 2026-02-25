@@ -1,0 +1,36 @@
+{
+  "name": "LightningQuickMode3",
+  "description": "A lightning bolt icon representing a third variant of quick mode or power acceleration.",
+  "tags": [
+    "lightning",
+    "thunder",
+    "flash",
+    "energy",
+    "power",
+    "quick",
+    "mode",
+    "variant",
+    "fast",
+    "boost"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Quick mode active"
+  },
+  "filename": "lightning-thunder-flash-energy-power-quick-mode-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

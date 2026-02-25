@@ -1,0 +1,32 @@
+{
+  "name": "CloudSad",
+  "description": "A cloud icon with a sad face expression representing cloud service errors or offline status",
+  "tags": [
+    "cloud",
+    "sad",
+    "error",
+    "offline",
+    "failure",
+    "problem",
+    "status"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud error"
+  },
+  "filename": "cloud-1-sad",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

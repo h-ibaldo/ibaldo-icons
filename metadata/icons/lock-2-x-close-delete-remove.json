@@ -1,0 +1,34 @@
+{
+  "name": "LockClose2",
+  "description": "A lock icon with an X or close symbol indicating lock removal or dismissal.",
+  "tags": [
+    "lock",
+    "close",
+    "delete",
+    "remove",
+    "x",
+    "security",
+    "dismiss",
+    "cancel"
+  ],
+  "categories": [
+    "security",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Remove lock"
+  },
+  "filename": "lock-2-x-close-delete-remove",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

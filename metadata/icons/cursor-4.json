@@ -1,0 +1,33 @@
+{
+  "name": "Cursor4",
+  "description": "A pointer cursor icon in the fourth design style, indicating mouse control and click actions.",
+  "tags": [
+    "cursor",
+    "pointer",
+    "mouse",
+    "click",
+    "interaction",
+    "control",
+    "variant"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "decorative",
+    "suggestedLabel": "Cursor pointer variant 4"
+  },
+  "filename": "cursor-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ClockFunnel",
+  "description": "A clock icon paired with a funnel symbol representing time-based filtering or schedule filtering options",
+  "tags": [
+    "clock",
+    "funnel",
+    "filter",
+    "time",
+    "sort",
+    "schedule",
+    "organize"
+  ],
+  "categories": [
+    "time",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Clock with filter"
+  },
+  "filename": "clock-funnel",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

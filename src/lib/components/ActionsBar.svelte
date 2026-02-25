@@ -188,7 +188,8 @@
         gap: 0.5rem;
         padding: 0.25rem 0.25rem;
         max-width: 1200px;
-        margin: 25px auto 10px;
+        margin: 30px auto 10px;
+        min-height: 3rem;
     }
 
     .search-wrapper {
@@ -312,9 +313,7 @@
         border-radius: 0;
         /* Optimistic UI: smooth thumb movement */
         transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1),
-                    background-color 0.15s ease,
-                    width 0.15s ease,
-                    height 0.15s ease;
+                    background-color 0.15s ease;
         will-change: transform;
     }
 
@@ -327,9 +326,7 @@
         border-radius: 0;
         /* Optimistic UI: smooth thumb movement */
         transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1),
-                    background-color 0.15s ease,
-                    width 0.15s ease,
-                    height 0.15s ease;
+                    background-color 0.15s ease;
         will-change: transform;
     }
 

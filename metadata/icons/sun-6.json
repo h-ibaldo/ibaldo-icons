@@ -1,0 +1,34 @@
+{
+  "name": "Sun6",
+  "description": "An alternative sun icon design for weather and brightness display",
+  "tags": [
+    "sun",
+    "brightness",
+    "weather",
+    "day",
+    "light",
+    "solar",
+    "clear",
+    "alternate"
+  ],
+  "categories": [
+    "weather",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Sunny weather"
+  },
+  "filename": "sun-6",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

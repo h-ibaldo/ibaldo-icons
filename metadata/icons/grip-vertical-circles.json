@@ -1,0 +1,33 @@
+{
+  "name": "GripVerticalCircles",
+  "description": "A vertical grip handle icon composed of circular dots for dragging and moving elements vertically",
+  "tags": [
+    "grip",
+    "vertical",
+    "circles",
+    "handle",
+    "drag",
+    "move",
+    "dots",
+    "ui control"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "decorative",
+    "suggestedLabel": "Vertical grip handle"
+  },
+  "filename": "grip-vertical-circles",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

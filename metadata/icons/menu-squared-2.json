@@ -1,0 +1,30 @@
+{
+  "name": "MenuSquared2",
+  "description": "A squared or grid-style menu icon in the second variant",
+  "tags": [
+    "menu",
+    "squared",
+    "grid",
+    "options",
+    "navigation"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Menu grid"
+  },
+  "filename": "menu-squared-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

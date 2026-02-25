@@ -462,23 +462,56 @@
     contain-intrinsic-size: 100px 100px;
   }
 
-  /* Improved loading skeleton with shimmer effect */
+  /* Loading dots skeleton */
   .icon-skeleton {
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
-    background-size: 200% 100%;
-    animation: shimmer 1.5s infinite;
-    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
   }
 
-  @keyframes shimmer {
-    0% {
-      background-position: 200% 0;
-    }
-    100% {
-      background-position: -200% 0;
-    }
+  .icon-skeleton-frames {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+
+  .icon-skeleton-frame {
+    position: absolute;
+    inset: 0;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+  }
+
+  .icon-skeleton-frame:nth-child(1) { animation: dot-frame-1 0.8s steps(1, end) infinite; }
+  .icon-skeleton-frame:nth-child(2) { animation: dot-frame-2 0.8s steps(1, end) infinite; }
+  .icon-skeleton-frame:nth-child(3) { animation: dot-frame-3 0.8s steps(1, end) infinite; }
+  .icon-skeleton-frame:nth-child(4) { animation: dot-frame-4 0.8s steps(1, end) infinite; }
+
+  @keyframes dot-frame-1 {
+    0%   { opacity: 1; }
+    25%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  @keyframes dot-frame-2 {
+    0%   { opacity: 0; }
+    25%  { opacity: 1; }
+    50%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  @keyframes dot-frame-3 {
+    0%   { opacity: 0; }
+    50%  { opacity: 1; }
+    75%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  @keyframes dot-frame-4 {
+    0%   { opacity: 0; }
+    75%  { opacity: 1; }
+    100% { opacity: 0; }
   }
 
   /* Mobile-specific optimizations */
@@ -488,9 +521,8 @@
       contain: strict;
     }
 
-    /* Reduce animation on mobile for better performance */
-    .icon-skeleton {
-      animation: shimmer 2s infinite;
+    .icon-skeleton-frame {
+      animation-duration: 1s;
     }
   }
   
@@ -730,7 +762,30 @@
                                   {#if icon.svg}
                                       {@html getNormalizedSVG(icon)}
                                   {:else}
-                                      <div class="icon-skeleton" aria-hidden="true"></div>
+                                      <div class="icon-skeleton" aria-hidden="true">
+                                          <div class="icon-skeleton-frames">
+                                              <svg class="icon-skeleton-frame" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <rect x="10.999999881978297" y="10.998779328575495" width="1.999999978605018" height="1.999999921429323" rx=".999402546253466" ry=".999402546253466" transform="translate(23.998778647914726 -.001221094594722) rotate(89.999997552246796)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <rect x="18.999999947934185" y="10.998779328575097" width="1.99999997860499" height="1.999999921430119" rx=".999402546133562" ry=".999402546133562" transform="translate(31.9987783751534 -8.0012211587186) rotate(89.9999975609948)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <rect x="2.999999947934185" y="10.998779328573221" width="1.99999997860499" height="1.99999992143387" rx=".99940254612814" ry=".99940254612814" transform="translate(15.998779056455868 7.998778841892505) rotate(89.99999756391297)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <svg class="icon-skeleton-frame" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <rect x="10.999999881978297" y="10.998779328588739" width="1.999999978605018" height="1.999999921402834" rx=".999402546252582" ry=".999402546252582" transform="translate(23.998778647996581 -.001221094512877) rotate(89.999997552637623)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <rect x="18.999999947934185" y="10.998779328521834" width="1.99999997860499" height="1.999999921536643" rx=".999402546192225" ry=".999402546192225" transform="translate(31.998778375262539 -8.001221158653124) rotate(89.999997561307453)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <rect x="1.999999898673892" y="9.998779368843088" width="3.999999957708923" height="3.999999804551408" rx="1.999997920799583" ry="1.999997920799583" transform="translate(15.998779090002927 7.998779217675681) rotate(89.999999159983446)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <svg class="icon-skeleton-frame" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <rect x="2.999999948112924" y="10.998776683092442" width="1.999999978602215" height="1.999999921578025" rx=".999402541403601" ry=".999402541403601" transform="translate(-7.998777875821485 15.998773073589172) rotate(-89.999983250229263)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <rect x="18.999999948026954" y="10.998779328648311" width="1.99999997860499" height="1.99999992128369" rx=".999402546144862" ry=".999402546144862" transform="translate(31.99877837268594 -8.001221160347349) rotate(89.999997553660279)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <rect x="9.999999933365473" y="9.998779376602897" width="3.999999939556687" height="3.999999792692279" rx="1.999997272166541" ry="1.999997272166541" transform="translate(.001220840982457 23.998779386859084) rotate(-90.000001006437031)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                              <svg class="icon-skeleton-frame" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <rect x="2.999999948115767" y="10.998779328660644" width="1.999999978599257" height="1.999999921545056" rx=".999402545212241" ry=".999402545212241" transform="translate(-7.998780490768279 15.998775810942911) rotate(-89.99998368859336)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <rect x="10.999996417186196" y="10.998779297442127" width="1.999999978594019" height="1.999999921584505" rx=".999402546153927" ry=".999402546153927" transform="translate(.001217659446544 23.99877617586343) rotate(-90.000002440789984)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <rect x="17.99999641540478" y="9.99877931043596" width="3.999999936662107" height="3.999999921421143" rx="1.999999109019649" ry="1.999999109019649" transform="translate(31.998775906328149 -8.001216961737146) rotate(90.000000720339244)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                              </svg>
+                                          </div>
+                                      </div>
                                   {/if}
                               </div>
                           </div>

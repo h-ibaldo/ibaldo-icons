@@ -1,0 +1,36 @@
+{
+  "name": "InstallUpdatesArrowUp3",
+  "description": "An installation and updates icon featuring a gear with an upward arrow indicating software upgrade or system refresh in variant 3",
+  "tags": [
+    "install",
+    "updates",
+    "gear",
+    "arrow",
+    "up",
+    "upgrade",
+    "software",
+    "system",
+    "refresh",
+    "arrow-up"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Install updates with upgrade arrow"
+  },
+  "filename": "install-updates-gear-arrow-up-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

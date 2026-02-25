@@ -1,0 +1,33 @@
+{
+  "name": "LockLocked",
+  "description": "A locked lock icon indicating a secured, closed, or inaccessible state",
+  "tags": [
+    "lock",
+    "locked",
+    "secure",
+    "closed",
+    "protection",
+    "restricted",
+    "encrypted"
+  ],
+  "categories": [
+    "security",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Locked"
+  },
+  "filename": "lock-1-locked",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

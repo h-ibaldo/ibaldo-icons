@@ -1,0 +1,33 @@
+{
+  "name": "PageViewClose1",
+  "description": "A page view icon with an X close button for dismissing or closing page displays.",
+  "tags": [
+    "page",
+    "view",
+    "close",
+    "x",
+    "delete",
+    "remove",
+    "dismiss",
+    "interface"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Close page view"
+  },
+  "filename": "page-view-x-close-delete-remove-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

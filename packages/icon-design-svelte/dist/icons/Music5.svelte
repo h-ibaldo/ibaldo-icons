@@ -1,0 +1,28 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <ellipse cx="7" cy="18.499999999998181" rx="4" ry="3.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M11,6.999999999998181h2.197226165038956c1.175499458480772,0,2.324697664540508.347949219720249,3.302772334960537.999998999999661l.000003000001016.000002000000677c.978074670418209.652049780279413,2.127272876479765.999998999999661,3.302772334960537.999998999999661h2.197226165038956V3.999999999998181h-2.197226165038956c-1.175499458480772,0-2.324697664542327-.347949219720249-3.302772334960537-.999998999999661l-.000003000001016-.000002000000677c-.978074670420028-.652049780279413-2.127272876479765-.999998999999661-3.302772334949623-.999998999999661h-2.197226165049869v16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

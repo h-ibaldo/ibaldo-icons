@@ -1,0 +1,37 @@
+{
+  "name": "HandTouchOneFingerHoldWait",
+  "description": "A hand gesture icon showing one finger holding with a clock symbol indicating a prolonged press or timed hold action",
+  "tags": [
+    "hand",
+    "touch",
+    "one finger",
+    "hold",
+    "clock",
+    "time",
+    "wait",
+    "gesture",
+    "long press",
+    "timer"
+  ],
+  "categories": [
+    "interface",
+    "time",
+    "gestures"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "One finger hold and wait"
+  },
+  "filename": "hand-touch-one-finger-hold-clock-time-wait",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

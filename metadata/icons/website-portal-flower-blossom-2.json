@@ -1,0 +1,34 @@
+{
+  "name": "WebsitePortalFlower",
+  "description": "A website portal icon featuring a flower blossom variant representing botanical or lifestyle services",
+  "tags": [
+    "website",
+    "portal",
+    "flower",
+    "blossom",
+    "nature",
+    "gardening",
+    "lifestyle",
+    "botanical"
+  ],
+  "categories": [
+    "interface",
+    "nature"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Flower portal variant"
+  },
+  "filename": "website-portal-flower-blossom-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

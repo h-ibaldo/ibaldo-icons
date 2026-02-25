@@ -1,0 +1,35 @@
+{
+  "name": "LupeSearchZoomIn2",
+  "description": "A second variant of magnifying glass search icon with plus symbol for zoom in action",
+  "tags": [
+    "lupe",
+    "search",
+    "zoom",
+    "zoom in",
+    "add",
+    "plus",
+    "magnifying glass",
+    "magnify",
+    "variant"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Zoom in search variant"
+  },
+  "filename": "lupe-search-zoom-in-2-positive-add-plus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

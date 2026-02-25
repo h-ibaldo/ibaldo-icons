@@ -1,0 +1,35 @@
+{
+  "name": "WifiSignal7",
+  "description": "A wifi signal strength icon displaying seven bars for superior network connectivity status",
+  "tags": [
+    "wifi",
+    "signal",
+    "hotspot",
+    "connection",
+    "network",
+    "bars",
+    "strength",
+    "superior",
+    "wireless"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Wifi signal seven bars"
+  },
+  "filename": "wifi-signal-hotspot-7",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "PaidSearchDollar2",
+  "description": "A variant search magnifying glass with dollar bill icon for paid advertising and financial tracking.",
+  "tags": [
+    "paid",
+    "search",
+    "lupe",
+    "magnifying",
+    "glass",
+    "dollar",
+    "bill",
+    "money",
+    "variant"
+  ],
+  "categories": [
+    "business",
+    "shopping"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Paid search with currency"
+  },
+  "filename": "paid-search-lupe-dollar-bill-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

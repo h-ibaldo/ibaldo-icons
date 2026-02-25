@@ -1,0 +1,35 @@
+{
+  "name": "WarningTriangleForbidden2",
+  "description": "A warning triangle icon with a forbidden bar indicating prohibited or restricted content",
+  "tags": [
+    "warning",
+    "triangle",
+    "forbidden",
+    "bar",
+    "alert",
+    "danger",
+    "prohibition",
+    "caution",
+    "restriction"
+  ],
+  "categories": [
+    "interface",
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Warning forbidden"
+  },
+  "filename": "warning-triangle-forbidden-bar-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

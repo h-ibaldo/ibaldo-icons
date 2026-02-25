@@ -1,0 +1,34 @@
+{
+  "name": "SaveSearchDisk2",
+  "description": "A variant save search icon featuring a floppy disk with magnifying glass in an alternative style",
+  "tags": [
+    "save",
+    "search",
+    "floppy disk",
+    "magnifying glass",
+    "lupe",
+    "storage",
+    "query",
+    "find"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Save search to disk variant"
+  },
+  "filename": "save-search-floppy-disk-lupe-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

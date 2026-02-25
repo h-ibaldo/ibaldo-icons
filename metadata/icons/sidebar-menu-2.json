@@ -1,0 +1,33 @@
+{
+  "name": "SidebarMenu2",
+  "description": "A sidebar menu icon in style variant 2 for navigation and interface layouts",
+  "tags": [
+    "sidebar",
+    "menu",
+    "navigation",
+    "hamburger",
+    "interface",
+    "layout",
+    "variant2"
+  ],
+  "categories": [
+    "interface",
+    "navigation"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Sidebar menu"
+  },
+  "filename": "sidebar-menu-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

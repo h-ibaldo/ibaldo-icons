@@ -1,0 +1,33 @@
+{
+  "name": "ClockLink",
+  "description": "A clock icon with a link symbol, indicating scheduled or time-based connections and references.",
+  "tags": [
+    "clock",
+    "link",
+    "time",
+    "connection",
+    "reference",
+    "chain",
+    "schedule"
+  ],
+  "categories": [
+    "time",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Clock link"
+  },
+  "filename": "clock-link-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

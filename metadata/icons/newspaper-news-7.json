@@ -1,0 +1,35 @@
+{
+  "name": "Newspaper7",
+  "description": "A newspaper icon variant 7 for displaying news and editorial content",
+  "tags": [
+    "newspaper",
+    "news",
+    "media",
+    "press",
+    "publication",
+    "article",
+    "information",
+    "reading",
+    "journal"
+  ],
+  "categories": [
+    "media",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Newspaper icon variant 7"
+  },
+  "filename": "newspaper-news-7",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

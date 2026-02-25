@@ -1,0 +1,31 @@
+{
+  "name": "Bookmark3Three",
+  "description": "A bookmark icon displaying the number three for multiple or grouped bookmarks",
+  "tags": [
+    "bookmark",
+    "three",
+    "number",
+    "multiple",
+    "variant",
+    "quantity"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Bookmark three"
+  },
+  "filename": "bookmark-3-three",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Tab2CloseCircle",
+  "description": "A tab icon with an X close button contained within a circle, used to close individual tabs",
+  "tags": [
+    "tab",
+    "close",
+    "x",
+    "clear",
+    "delete",
+    "remove",
+    "circle",
+    "interface"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Close tab"
+  },
+  "filename": "tab-2-x-clear-close-delete-remove-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

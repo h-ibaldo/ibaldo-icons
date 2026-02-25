@@ -1,0 +1,32 @@
+{
+  "name": "PopUp7",
+  "description": "A pop-up window icon representing the seventh variant of modal dialog display",
+  "tags": [
+    "pop-up",
+    "modal",
+    "dialog",
+    "window",
+    "interface",
+    "variant",
+    "7"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Pop-up window variant seven"
+  },
+  "filename": "pop-up-7",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

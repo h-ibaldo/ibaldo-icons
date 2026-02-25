@@ -1,0 +1,33 @@
+{
+  "name": "ProgressSpinnerRadiating3",
+  "description": "A loading progress spinner with radiating lines in a third style variation for activity indication",
+  "tags": [
+    "progress",
+    "spinner",
+    "loading",
+    "lines",
+    "radiating",
+    "animation",
+    "activity",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Loading radiating variant three"
+  },
+  "filename": "progress-spinner-loading-lines-radiating-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

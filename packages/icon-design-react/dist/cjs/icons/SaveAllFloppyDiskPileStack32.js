@@ -1,0 +1,35 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const SaveAllFloppyDiskPileStack32 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M7.949462885449975,18.000000001840817l11.999999999839929-.00000000072032c1.104569499630088-.000000000061846,1.999999999919964-.895430500433577,1.999999999850843-2.000000000080036l-.000000000551154-9.171572875500715c-.000000000020009-.53043297953991-.210713680678964-1.039140805201896-.585786437410206-1.41421356205683l-2.828427124330119-2.828427125165035c-.375072756929512-.375072757051385-.883780582869804-.585786437866773-1.414213562689838-.585786437837669l-9.17157287550981.000000000549335c-1.104569499650097.000000000061846-1.999999999939973.895430500433577-1.999999999879947,2.000000000080036l.000000000689397,12.000000000818545c.000000000101863,1.104569499577337.895430500420844,1.999999999974534,1.999999999990905,1.999999999912689Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="16.949462885140747 2.000000000669388 16.949462885140747 7.000000001029548 9.949462885140747 7.000000001029548 9.949462885140747 2.000000000669388" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="17.949462884780587 18.000000001480657 17.949462884780587 12.000000001029548 9.949462885140747 12.000000001029548 9.949462885140747 18.000000001480657" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M1.949462885140747,8.000000000480213v12c0,1.104569499661011.895430500338989,2,2,2h12" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+SaveAllFloppyDiskPileStack32.displayName = 'SaveAllFloppyDiskPileStack32';
+
+module.exports = SaveAllFloppyDiskPileStack32;
+module.exports.SaveAllFloppyDiskPileStack32 = SaveAllFloppyDiskPileStack32;
+module.exports.default = SaveAllFloppyDiskPileStack32;

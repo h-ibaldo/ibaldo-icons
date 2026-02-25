@@ -1,0 +1,35 @@
+{
+  "name": "LupePin2",
+  "description": "A magnifying glass search icon with a location pin indicator for finding nearby places",
+  "tags": [
+    "lupe",
+    "search",
+    "pin",
+    "location",
+    "map",
+    "find",
+    "navigation",
+    "variant2"
+  ],
+  "categories": [
+    "interface",
+    "location",
+    "navigation"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Search location variant 2"
+  },
+  "filename": "lupe-pin-search-location-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

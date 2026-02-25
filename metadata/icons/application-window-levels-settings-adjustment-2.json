@@ -1,0 +1,32 @@
+{
+  "name": "ApplicationWindowLevels2",
+  "description": "An alternate application window icon with levels indicating settings or adjustment functionality",
+  "tags": [
+    "application",
+    "window",
+    "levels",
+    "settings",
+    "adjustment",
+    "controls",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Application window settings variant"
+  },
+  "filename": "application-window-levels-settings-adjustment-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

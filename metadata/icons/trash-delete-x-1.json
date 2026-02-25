@@ -1,0 +1,32 @@
+{
+  "name": "TrashDeleteX1",
+  "description": "A trash bin icon with an X symbol indicating deletion or removal action",
+  "tags": [
+    "trash",
+    "delete",
+    "x",
+    "close",
+    "remove",
+    "bin",
+    "discard"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Delete item"
+  },
+  "filename": "trash-delete-x-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

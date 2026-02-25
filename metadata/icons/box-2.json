@@ -1,0 +1,31 @@
+{
+  "name": "Box2",
+  "description": "A box icon variant numbered 2, suitable for container, package, or storage representations in professional interfaces.",
+  "tags": [
+    "box",
+    "container",
+    "package",
+    "storage",
+    "variant2"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Box icon variant 2"
+  },
+  "filename": "box-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

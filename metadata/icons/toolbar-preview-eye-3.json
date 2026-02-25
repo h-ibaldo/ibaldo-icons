@@ -1,0 +1,33 @@
+{
+  "name": "ToolbarPreviewEye3",
+  "description": "A toolbar preview icon with an eye symbol representing the third variant of visual inspection or visibility toggle",
+  "tags": [
+    "toolbar",
+    "preview",
+    "eye",
+    "view",
+    "visibility",
+    "inspect",
+    "variant3"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Preview visibility toggle variant"
+  },
+  "filename": "toolbar-preview-eye-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

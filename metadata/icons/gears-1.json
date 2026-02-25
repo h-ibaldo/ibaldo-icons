@@ -1,0 +1,33 @@
+{
+  "name": "Gears1",
+  "description": "A single gear icon representing settings, configuration, or mechanical systems.",
+  "tags": [
+    "gears",
+    "settings",
+    "configuration",
+    "mechanical",
+    "tool",
+    "cog",
+    "engine"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Settings gear"
+  },
+  "filename": "gears-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "DownloadArrowSquareStackAlt",
+  "description": "An alternative variant of stacked square containers with a download arrow, indicating grouped downloads in a different style",
+  "tags": [
+    "download",
+    "arrow",
+    "down",
+    "squares",
+    "group",
+    "stack",
+    "multiple",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Download stacked files alternate"
+  },
+  "filename": "download-arrow-down-squares-group-stack-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,34 @@
+{
+  "name": "ApplicationWindowAdd1",
+  "description": "An application window icon with a positive or add symbol for creation or expansion operations",
+  "tags": [
+    "application",
+    "window",
+    "positive",
+    "add",
+    "plus",
+    "create",
+    "new",
+    "interface",
+    "action"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Application window add action"
+  },
+  "filename": "application-window-2-positive-add-plus-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

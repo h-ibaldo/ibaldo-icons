@@ -1,0 +1,32 @@
+{
+  "name": "Folder8",
+  "description": "A folder icon in variant 8 style for file and directory organization.",
+  "tags": [
+    "folder",
+    "directory",
+    "file",
+    "storage",
+    "organization",
+    "variant8"
+  ],
+  "categories": [
+    "files",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Folder variant 8"
+  },
+  "filename": "folder-8",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

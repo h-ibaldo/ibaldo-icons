@@ -1,0 +1,34 @@
+{
+  "name": "SubmitArrowCheck3",
+  "description": "A submit icon with an arrow and checkmark for approval workflows, variant 3",
+  "tags": [
+    "submit",
+    "approval",
+    "arrow",
+    "check",
+    "checkmark",
+    "approve",
+    "verified",
+    "confirmation"
+  ],
+  "categories": [
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Submit for approval"
+  },
+  "filename": "submit-for-approval-arrow-check-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

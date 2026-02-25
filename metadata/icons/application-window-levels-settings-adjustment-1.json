@@ -1,0 +1,32 @@
+{
+  "name": "ApplicationWindowLevels1",
+  "description": "An application window icon with levels sliders representing settings or adjustment controls",
+  "tags": [
+    "application",
+    "window",
+    "levels",
+    "settings",
+    "adjustment",
+    "controls",
+    "interface"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Application window settings"
+  },
+  "filename": "application-window-levels-settings-adjustment-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

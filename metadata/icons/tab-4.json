@@ -1,0 +1,31 @@
+{
+  "name": "Tab4",
+  "description": "A basic tab interface icon representing a tabbed navigation element",
+  "tags": [
+    "tab",
+    "navigation",
+    "interface",
+    "tabs",
+    "panel",
+    "sheet"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Tab interface"
+  },
+  "filename": "tab-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

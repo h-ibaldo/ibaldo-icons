@@ -1,0 +1,33 @@
+{
+  "name": "MoveUpDown3",
+  "description": "A third grabber variant for vertical movement or dragging with distinct styling",
+  "tags": [
+    "move",
+    "up",
+    "down",
+    "grabber",
+    "drag",
+    "vertical",
+    "reorder",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Move up or down alternative"
+  },
+  "filename": "move-up-down-grabber-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

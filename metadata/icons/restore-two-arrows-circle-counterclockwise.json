@@ -1,0 +1,34 @@
+{
+  "name": "RestoredTwoArrowsCounterclockwise",
+  "description": "A restore icon with two circular arrows pointing counterclockwise, indicating bidirectional refresh or sync functionality.",
+  "tags": [
+    "restore",
+    "two arrows",
+    "circle",
+    "counterclockwise",
+    "refresh",
+    "sync",
+    "bidirectional",
+    "rotation"
+  ],
+  "categories": [
+    "interface",
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Restore sync counterclockwise"
+  },
+  "filename": "restore-two-arrows-circle-counterclockwise",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

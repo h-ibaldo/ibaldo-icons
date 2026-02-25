@@ -1,0 +1,33 @@
+{
+  "name": "CloudAdd3",
+  "description": "A cloud icon with a plus symbol for uploading or adding to cloud storage",
+  "tags": [
+    "cloud",
+    "add",
+    "plus",
+    "upload",
+    "create",
+    "new",
+    "storage"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Add to cloud"
+  },
+  "filename": "cloud-2-add",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "GeometricFormsVariation",
+  "description": "A geometric forms icon displaying variation and multiple different shape types",
+  "tags": [
+    "geometric",
+    "forms",
+    "variation",
+    "variety",
+    "diverse",
+    "multiple",
+    "shapes"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Geometric forms variation"
+  },
+  "filename": "geometric-forms-variation",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Cloud1Bulb",
+  "description": "A cloud icon with a lightbulb representing cloud-based ideas, insights, or smart services",
+  "tags": [
+    "cloud",
+    "bulb",
+    "lightbulb",
+    "idea",
+    "insight",
+    "smart",
+    "innovation",
+    "solution"
+  ],
+  "categories": [
+    "interface",
+    "business",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud idea"
+  },
+  "filename": "cloud-1-bulb",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

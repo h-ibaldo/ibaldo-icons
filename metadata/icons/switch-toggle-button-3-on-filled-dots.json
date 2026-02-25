@@ -1,0 +1,33 @@
+{
+  "name": "SwitchToggleOnDots",
+  "description": "A toggle switch button in the on position with filled dot indicators, variant 3.",
+  "tags": [
+    "switch",
+    "toggle",
+    "button",
+    "on",
+    "enabled",
+    "filled",
+    "dots",
+    "indicator"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Toggle switch on with dots"
+  },
+  "filename": "switch-toggle-button-3-on-filled-dots",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

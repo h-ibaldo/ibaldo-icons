@@ -1,0 +1,33 @@
+{
+  "name": "House6",
+  "description": "A house or home icon with a variant 6 design style for residential property representation.",
+  "tags": [
+    "house",
+    "home",
+    "residence",
+    "property",
+    "building",
+    "dwelling",
+    "variant 6"
+  ],
+  "categories": [
+    "interface",
+    "location"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "House home variant 6"
+  },
+  "filename": "house-home-6",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

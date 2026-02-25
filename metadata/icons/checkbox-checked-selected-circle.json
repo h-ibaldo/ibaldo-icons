@@ -1,0 +1,33 @@
+{
+  "name": "CheckboxCheckedCircle",
+  "description": "A checked checkbox in circular form indicating selected or confirmed state",
+  "tags": [
+    "checkbox",
+    "checked",
+    "selected",
+    "circle",
+    "checkmark",
+    "input",
+    "form",
+    "confirmation"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Checkbox checked"
+  },
+  "filename": "checkbox-checked-selected-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

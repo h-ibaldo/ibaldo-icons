@@ -1,0 +1,31 @@
+{
+  "name": "Selfie5",
+  "description": "A fifth variant of a selfie camera icon for front-facing camera operations",
+  "tags": [
+    "selfie",
+    "camera",
+    "self-portrait",
+    "photo",
+    "variant5"
+  ],
+  "categories": [
+    "devices",
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Selfie camera variant 5"
+  },
+  "filename": "selfie-5",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

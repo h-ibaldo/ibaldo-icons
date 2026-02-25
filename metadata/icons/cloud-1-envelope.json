@@ -1,0 +1,35 @@
+{
+  "name": "Cloud1Envelope",
+  "description": "A cloud icon combined with an envelope representing cloud email, messaging, or communication services",
+  "tags": [
+    "cloud",
+    "envelope",
+    "email",
+    "message",
+    "mail",
+    "communication",
+    "send",
+    "contact"
+  ],
+  "categories": [
+    "interface",
+    "communication",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud email"
+  },
+  "filename": "cloud-1-envelope",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

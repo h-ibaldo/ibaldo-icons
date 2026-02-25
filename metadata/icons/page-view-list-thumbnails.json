@@ -1,0 +1,33 @@
+{
+  "name": "PageViewListThumbnails",
+  "description": "A page view icon combining list layout with thumbnail previews for each item",
+  "tags": [
+    "page",
+    "view",
+    "list",
+    "thumbnails",
+    "preview",
+    "layout",
+    "images",
+    "gallery"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "List with thumbnails page view"
+  },
+  "filename": "page-view-list-thumbnails",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

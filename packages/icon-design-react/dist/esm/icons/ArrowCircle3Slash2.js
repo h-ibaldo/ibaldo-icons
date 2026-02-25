@@ -1,0 +1,37 @@
+import { forwardRef } from 'react';
+
+const ArrowCircle3Slash2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <polyline points="19.999999998741259 22.00000000036016 19.999999998788553 18.000000000049113 15.999999998479325 18.000000000010914" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="1.999999999101419" y1="21.999999999548891" x2="22" y2="2.00000000044929" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <g>
+  <path d="M21.949523925284666,13.00000000044929c.032653808610121-.328979492189319.050476074249673-.662353515619543.050476074264225-1,.00000000012551-2.761474609369543-1.119323730232281-5.261474609420475-2.928955077806677-7.07104492200051" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M4.928955077357386,19.071044921558496c1.809692382732464,1.809570312580036,4.309631347525283,2.928955078321451,7.071044921744033,2.928955078441504,3.2684326171875.000000000149157,6.161621093820941-1.575195312219876,7.986389160334511-3.99999999963984" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M15.395874023408396,2.604125976718933c-1.06170654295056-.383911132859794-2.201721191377146-.604125976660725-3.395874023408396-.604125976718933-5.522827148439319-.000000000239197-10.000000000201908,4.477172851118667-10.000000000451109,9.9999999995498-.000000000052751,1.194091796879547.220153808490068,2.334228515638642.604125976411524,3.395874023469332" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>
+  </svg>
+));
+
+ArrowCircle3Slash2.displayName = 'ArrowCircle3Slash2';
+
+export default ArrowCircle3Slash2;
+export { ArrowCircle3Slash2 };

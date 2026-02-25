@@ -1,0 +1,33 @@
+{
+  "name": "LockKeyhole",
+  "description": "A lock icon featuring a keyhole detail for security and access control.",
+  "tags": [
+    "lock",
+    "keyhole",
+    "security",
+    "access",
+    "protection",
+    "key",
+    "locked"
+  ],
+  "categories": [
+    "security",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Lock with keyhole"
+  },
+  "filename": "lock-2-keyhole-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

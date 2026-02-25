@@ -1,0 +1,33 @@
+{
+  "name": "WebsitePortalDelete",
+  "description": "A website portal icon with a trash or delete symbol to clear content",
+  "tags": [
+    "website",
+    "portal",
+    "trash",
+    "delete",
+    "clear",
+    "remove",
+    "bin"
+  ],
+  "categories": [
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Delete portal content"
+  },
+  "filename": "website-portal-trash-delete-clear",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

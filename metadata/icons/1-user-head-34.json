@@ -1,0 +1,33 @@
+{
+  "name": "UserHead349",
+  "description": "A user head profile icon representing a person, variant 34 of the user head series",
+  "tags": [
+    "user",
+    "head",
+    "profile",
+    "person",
+    "avatar",
+    "account",
+    "people"
+  ],
+  "categories": [
+    "people",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "User profile"
+  },
+  "filename": "1-user-head-34",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

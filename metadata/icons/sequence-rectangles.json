@@ -1,0 +1,32 @@
+{
+  "name": "SequenceRectangles",
+  "description": "A sequence of rectangles icon representing ordered items, lists, or sequential processes",
+  "tags": [
+    "sequence",
+    "rectangles",
+    "ordered",
+    "list",
+    "process",
+    "steps"
+  ],
+  "categories": [
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Sequence of rectangles"
+  },
+  "filename": "sequence-rectangles",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

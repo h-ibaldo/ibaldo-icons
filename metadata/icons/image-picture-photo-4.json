@@ -1,0 +1,33 @@
+{
+  "name": "Image4",
+  "description": "A picture photo icon variant 4 for displaying and managing image assets",
+  "tags": [
+    "image",
+    "picture",
+    "photo",
+    "visual",
+    "media",
+    "gallery",
+    "variant4"
+  ],
+  "categories": [
+    "interface",
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Image icon variant 4"
+  },
+  "filename": "image-picture-photo-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

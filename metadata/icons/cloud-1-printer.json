@@ -1,0 +1,33 @@
+{
+  "name": "CloudPrinter",
+  "description": "A cloud icon with a printer symbol representing cloud printing or network printing services",
+  "tags": [
+    "cloud",
+    "printer",
+    "print",
+    "network",
+    "device",
+    "output",
+    "connectivity"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud printer"
+  },
+  "filename": "cloud-1-printer",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

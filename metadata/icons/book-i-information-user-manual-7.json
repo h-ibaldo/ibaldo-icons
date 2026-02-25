@@ -1,0 +1,34 @@
+{
+  "name": "BookInformation7",
+  "description": "A book icon with an information symbol for user manual and documentation reference - variant 7",
+  "tags": [
+    "book",
+    "information",
+    "user manual",
+    "guide",
+    "documentation",
+    "help",
+    "educational",
+    "reference"
+  ],
+  "categories": [
+    "education",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "User manual information"
+  },
+  "filename": "book-i-information-user-manual-7",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "House4",
+  "description": "A house or home icon with a variant 4 design style for residential property representation.",
+  "tags": [
+    "house",
+    "home",
+    "residence",
+    "property",
+    "building",
+    "dwelling",
+    "variant 4"
+  ],
+  "categories": [
+    "interface",
+    "location"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "House home variant 4"
+  },
+  "filename": "house-home-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

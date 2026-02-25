@@ -1,0 +1,35 @@
+{
+  "name": "Newspaper8",
+  "description": "A newspaper icon variant 8 symbolizing news media and publishing",
+  "tags": [
+    "newspaper",
+    "news",
+    "media",
+    "press",
+    "publication",
+    "article",
+    "information",
+    "reading",
+    "journal"
+  ],
+  "categories": [
+    "media",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Newspaper icon variant 8"
+  },
+  "filename": "newspaper-news-8",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

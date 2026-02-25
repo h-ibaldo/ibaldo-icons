@@ -1,0 +1,33 @@
+{
+  "name": "ClockMinus",
+  "description": "A clock icon with a minus symbol, indicating time reduction, removal, or scheduled decrements.",
+  "tags": [
+    "clock",
+    "minus",
+    "time",
+    "remove",
+    "reduce",
+    "subtract",
+    "schedule"
+  ],
+  "categories": [
+    "time",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Clock minus"
+  },
+  "filename": "clock-minus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

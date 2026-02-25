@@ -1,0 +1,35 @@
+{
+  "name": "Cloud1BoxTransmission",
+  "description": "A cloud icon with a box and transmission waves indicating cloud synchronization or broadcasting",
+  "tags": [
+    "cloud",
+    "box",
+    "transmission",
+    "sync",
+    "broadcast",
+    "signal",
+    "share",
+    "wireless"
+  ],
+  "categories": [
+    "interface",
+    "communication",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud sync transmission"
+  },
+  "filename": "cloud-1-box-transmission",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

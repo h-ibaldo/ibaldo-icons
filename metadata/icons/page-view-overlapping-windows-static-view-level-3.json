@@ -1,0 +1,32 @@
+{
+  "name": "PageViewOverlappingStatic3",
+  "description": "A page view icon showing overlapping windows at static view level 3, representing the third hierarchical layer of window depth.",
+  "tags": [
+    "page view",
+    "overlapping windows",
+    "static",
+    "view level",
+    "hierarchy",
+    "depth 3",
+    "layers"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Overlapping windows level 3"
+  },
+  "filename": "page-view-overlapping-windows-static-view-level-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

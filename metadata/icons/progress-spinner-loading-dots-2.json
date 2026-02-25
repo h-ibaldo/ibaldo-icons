@@ -1,0 +1,33 @@
+{
+  "name": "ProgressSpinnerDots2",
+  "description": "An alternative loading progress spinner with dots in a circular arrangement for activity indication",
+  "tags": [
+    "progress",
+    "spinner",
+    "loading",
+    "dots",
+    "circle",
+    "animation",
+    "activity",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Loading with dots variant"
+  },
+  "filename": "progress-spinner-loading-dots-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

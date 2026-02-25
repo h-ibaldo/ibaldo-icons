@@ -1,0 +1,31 @@
+{
+  "name": "MenuSideBarOpen",
+  "description": "A sidebar menu navigation icon in an open or expanded state",
+  "tags": [
+    "menu",
+    "sidebar",
+    "navigation",
+    "open",
+    "expanded",
+    "panel"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Open sidebar menu"
+  },
+  "filename": "menu-side-bar-navigation-open",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

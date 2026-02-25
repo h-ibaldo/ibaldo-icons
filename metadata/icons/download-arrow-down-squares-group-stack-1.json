@@ -1,0 +1,33 @@
+{
+  "name": "DownloadArrowSquareStack",
+  "description": "A download arrow icon pointing downward with multiple stacked square containers representing grouped or batch downloads",
+  "tags": [
+    "download",
+    "arrow",
+    "down",
+    "squares",
+    "group",
+    "stack",
+    "multiple",
+    "batch"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Download multiple files"
+  },
+  "filename": "download-arrow-down-squares-group-stack-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

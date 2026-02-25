@@ -1,0 +1,32 @@
+{
+  "name": "PencilTracing6",
+  "description": "A pencil tracing icon representing the sixth variant for drawing, sketching, and outline creation.",
+  "tags": [
+    "pencil",
+    "tracing",
+    "draw",
+    "sketch",
+    "outline",
+    "variant6"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Pencil tracing variant 6"
+  },
+  "filename": "pencil-tracing-6",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

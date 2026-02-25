@@ -1,0 +1,32 @@
+{
+  "name": "TrashDelete52",
+  "description": "A trash bin icon for deletion and recycling operations with visual emphasis",
+  "tags": [
+    "trash",
+    "delete",
+    "recycle",
+    "remove",
+    "bin",
+    "waste",
+    "discard"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Delete or trash item"
+  },
+  "filename": "trash-delete-recycle-5",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

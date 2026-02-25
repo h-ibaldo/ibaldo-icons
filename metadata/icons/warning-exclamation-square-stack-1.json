@@ -1,0 +1,33 @@
+{
+  "name": "WarningSquareStack",
+  "description": "A stacked warning icon with multiple exclamation marks in squares, representing layered or multiple alerts",
+  "tags": [
+    "warning",
+    "exclamation",
+    "square",
+    "stack",
+    "alert",
+    "multiple",
+    "layered"
+  ],
+  "categories": [
+    "interface",
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Multiple warnings"
+  },
+  "filename": "warning-exclamation-square-stack-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

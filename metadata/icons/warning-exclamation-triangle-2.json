@@ -1,0 +1,33 @@
+{
+  "name": "WarningTriangleAlt",
+  "description": "An alternative triangular warning icon with exclamation mark for varied alert applications",
+  "tags": [
+    "warning",
+    "exclamation",
+    "triangle",
+    "alert",
+    "caution",
+    "variant",
+    "alternative"
+  ],
+  "categories": [
+    "interface",
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Alert triangle"
+  },
+  "filename": "warning-exclamation-triangle-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

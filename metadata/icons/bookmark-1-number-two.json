@@ -1,0 +1,33 @@
+{
+  "name": "BookmarkTwo",
+  "description": "A bookmark icon displaying the number two to indicate second items or quantity",
+  "tags": [
+    "bookmark",
+    "number",
+    "two",
+    "2",
+    "count",
+    "badge",
+    "quantity"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Bookmark two"
+  },
+  "filename": "bookmark-1-number-two",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

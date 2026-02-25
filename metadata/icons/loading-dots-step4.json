@@ -1,0 +1,36 @@
+{
+  "name": "LoadingDotsStep4",
+  "description": "Fourth step of a loading animation with dots completing the animation sequence.",
+  "tags": [
+    "loading",
+    "dots",
+    "step",
+    "progress",
+    "animation",
+    "wait",
+    "spinner",
+    "pending",
+    "sequence",
+    "4"
+  ],
+  "categories": [
+    "interface",
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Loading step four"
+  },
+  "filename": "loading-dots-step4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

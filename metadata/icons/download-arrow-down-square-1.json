@@ -1,0 +1,31 @@
+{
+  "name": "DownloadArrowSquare",
+  "description": "A download arrow icon pointing downward enclosed within a square container",
+  "tags": [
+    "download",
+    "arrow",
+    "down",
+    "square",
+    "container",
+    "box"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Download in square"
+  },
+  "filename": "download-arrow-down-square-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

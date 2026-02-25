@@ -1,0 +1,35 @@
+{
+  "name": "Cloud3Transfer",
+  "description": "A cloud icon with arrows indicating bidirectional data transfer or exchange with cloud storage",
+  "tags": [
+    "cloud",
+    "transfer",
+    "exchange",
+    "bidirectional",
+    "arrows",
+    "sync",
+    "data",
+    "movement"
+  ],
+  "categories": [
+    "interface",
+    "devices",
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud transfer"
+  },
+  "filename": "cloud-3-transfer",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

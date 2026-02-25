@@ -1,0 +1,32 @@
+{
+  "name": "AppWindowCheck1",
+  "description": "An application window icon with a checkmark, indicating completion or approval status",
+  "tags": [
+    "application",
+    "window",
+    "check",
+    "checkmark",
+    "approved",
+    "complete",
+    "interface"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Application window checked"
+  },
+  "filename": "application-window-4-check-mark-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

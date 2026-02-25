@@ -1,0 +1,32 @@
+{
+  "name": "Scan1",
+  "description": "A scanner icon for the first variant of document scanning and digitization",
+  "tags": [
+    "scan",
+    "scanner",
+    "document",
+    "digitize",
+    "capture",
+    "variant1"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Scan document"
+  },
+  "filename": "scan-scanner-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

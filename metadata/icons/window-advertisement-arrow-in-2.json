@@ -1,0 +1,32 @@
+{
+  "name": "WindowAdvertisementArrowIn2",
+  "description": "A window advertisement icon with an inward pointing arrow, variant 2",
+  "tags": [
+    "window",
+    "advertisement",
+    "arrow",
+    "in",
+    "direction",
+    "import"
+  ],
+  "categories": [
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Advertisement window arrow variant"
+  },
+  "filename": "window-advertisement-arrow-in-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

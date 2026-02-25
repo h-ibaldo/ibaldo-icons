@@ -1,0 +1,46 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const UserPerson202 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<line x1="12.000004289349818" y1="4.99999999992724" x2="11.000004289169738" y2="2.99999999992724" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.000004289079698" y1="4.999999999949068" x2="13.000004289169738" y2="2.999999999909051" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="15.000004289349818" y1="4.99999999992724" x2="16.000004289349818" y2="3.99999999992724" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="17.000004289349818" y1="6.99999999992724" x2="18.000004289349818" y2="5.99999999992724" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="19.000004289349818" y1="8.99999999992724" x2="20.000004289349818" y2="8.99999999992724" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.000004289169738" y1="8.999999999869033" x2="4.000004289169738" y2="8.999999999818101" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.000004289349818" y1="14.99999999992724" x2="9.000004289349818" y2="13.99999999992724" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="15.000004289349818" y1="14.99999999992724" x2="15.000004289349818" y2="13.99999999992724" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M5.14673280497027,11.99999999992724h-.146728515620453c-.55224609375,0-1,.447692871101026-1,1v2c0,.552307128909888.44775390625,1,1,1h.435180664060681c.706787109379547,2.343872070310681,2.340454101559772,4.387817382810681,4.67041015625,5.552795410159888.588195800779431.294067382810681,1.23681640625.447204589840112,1.894409179689319.447204589840112.657653808590112,0,1.306213378909888-.153137207029431,1.894470214840112-.447204589840112,2.329956054690228-1.164978027349207,3.963623046880457-3.208923339849207,4.67041015625-5.552795410159888h.435119628909888c.552307128909888,0,1-.447692871090112,1-1v-2c0-.552307128898974-.447692871090112-1-1-1h-.146728515629547" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="18.000004289349818" y1="1.99999999992724" x2="21.000004289349818" y2="5.99999999992724" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="21.000004289349818" y1="1.666666666598758" x2="22.000004289349818" y2="2.99999999992724" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.000004289259778" y1="5.000000000087311" x2="8.0000042893098" y2="4.000000000047294" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="7.000004289169738" y1="6.999999999998181" x2="6.00000428921976" y2="5.999999999949068" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="6.00000428939984" y1="1.999999999949068" x2="3.00000428921976" y2="5.999999999818101" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="3.000004289409844" y1="1.666666666478704" x2="2.000004289349818" y2="2.999999999778083" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+UserPerson202.displayName = 'UserPerson202';
+
+module.exports = UserPerson202;
+module.exports.UserPerson202 = UserPerson202;
+module.exports.default = UserPerson202;

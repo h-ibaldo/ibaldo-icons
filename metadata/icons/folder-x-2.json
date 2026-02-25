@@ -1,0 +1,31 @@
+{
+  "name": "FolderX2",
+  "description": "A folder icon with an X mark variant, signifying folder removal or closure operation.",
+  "tags": [
+    "folder",
+    "x",
+    "close",
+    "delete",
+    "remove"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Remove folder"
+  },
+  "filename": "folder-x-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

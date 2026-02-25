@@ -1,0 +1,33 @@
+{
+  "name": "Image7",
+  "description": "A picture photo icon variant 7 representing images and photographic content",
+  "tags": [
+    "image",
+    "picture",
+    "photo",
+    "visual",
+    "media",
+    "gallery",
+    "variant7"
+  ],
+  "categories": [
+    "interface",
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Image icon variant 7"
+  },
+  "filename": "image-picture-photo-7",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

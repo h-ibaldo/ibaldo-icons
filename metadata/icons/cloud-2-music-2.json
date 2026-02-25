@@ -1,0 +1,34 @@
+{
+  "name": "Cloud2Music2",
+  "description": "A cloud icon with a musical note in an alternate style for cloud music services",
+  "tags": [
+    "cloud",
+    "music",
+    "audio",
+    "streaming",
+    "media",
+    "song",
+    "sound"
+  ],
+  "categories": [
+    "interface",
+    "media",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud music service"
+  },
+  "filename": "cloud-2-music-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

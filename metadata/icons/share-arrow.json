@@ -1,0 +1,32 @@
+{
+  "name": "ShareArrow",
+  "description": "A simple share arrow icon for export and distribution actions",
+  "tags": [
+    "share",
+    "arrow",
+    "export",
+    "send",
+    "distribute",
+    "forward"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Share"
+  },
+  "filename": "share-arrow",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

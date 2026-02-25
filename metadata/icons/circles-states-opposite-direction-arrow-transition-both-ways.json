@@ -1,0 +1,35 @@
+{
+  "name": "CirclesStateArrowBothWays",
+  "description": "A bidirectional arrow icon showing circles in opposite directions, representing two-way transition or synchronization",
+  "tags": [
+    "circles",
+    "states",
+    "opposite",
+    "direction",
+    "arrow",
+    "transition",
+    "both-ways",
+    "bidirectional",
+    "sync"
+  ],
+  "categories": [
+    "interface",
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Two-way directional transition"
+  },
+  "filename": "circles-states-opposite-direction-arrow-transition-both-ways",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

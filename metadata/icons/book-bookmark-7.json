@@ -1,0 +1,33 @@
+{
+  "name": "BookBookmark7",
+  "description": "A book with bookmark icon in variant 7 style for reading, library, or saved content",
+  "tags": [
+    "book",
+    "bookmark",
+    "reading",
+    "library",
+    "save",
+    "marker",
+    "page"
+  ],
+  "categories": [
+    "interface",
+    "education"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Book with bookmark"
+  },
+  "filename": "book-bookmark-7",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

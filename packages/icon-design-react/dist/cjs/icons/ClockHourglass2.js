@@ -1,0 +1,35 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const ClockHourglass2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="12 6.999999999887223 12 11.999999999887223 17 11.999999999887223" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M5,17.999999999887223s-3-1-3-4h6c0,3-3,4-3,4Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M5,17.999999999887223s3,1,3,4H2c0-3,3-4,3-4Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M12,21.999999999887223c5.522888183590112,0,10-4.477172851558862,10-10,0-5.522827148439319-4.477111816409888-10-10-10C7.162170410159888,1.999999999887223,3.127502441409888,5.435546874887223,2.200866699220569,9.999999999887223" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+ClockHourglass2.displayName = 'ClockHourglass2';
+
+module.exports = ClockHourglass2;
+module.exports.ClockHourglass2 = ClockHourglass2;
+module.exports.default = ClockHourglass2;

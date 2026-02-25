@@ -1,0 +1,36 @@
+import { forwardRef } from 'react';
+
+const WebsitePortalShieldProtectionSafeSecurity2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <line x1="2" y1="7.999999999998181" x2="22" y2="7.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M22,13.999999999998181h-.183346173629616c-1.184549912879447,0-2.342596073640379-.350628164847876-3.328201177298979-1.007698233959673l-1.488452649071405-.992301766040327-1.488452649058672.992301766040327c-.985605103671332.657070069111796-2.143651264439541,1.007698233959673-3.328201177309893,1.007698233959673h-.183346173631435v2.169048105151887c0,1.756314260681393.921494168991558,3.383848396246321,2.427521222860378,4.287464628563612l2.572478777139622,1.543487266284501,2.572478777141441-1.543487266284501c1.506027053859725-.90361623231729,2.427521222858559-2.531150367882219,2.427521222858559-4.287464628563612v-2.169048105151887Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M11,21.999999999998181h-7c-1.104569499659192,0-2-.895430500335351-2-2V3.999999999998181c0-1.104569499661011.895430500340808-2,2-2h16c1.104569499650097,0,2,.895430500338989,2,2v6" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.010000000000218" y1="4.999999999998181" x2="5" y2="4.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.010000000000218" y1="4.999999999998181" x2="8" y2="4.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="19" y1="4.999999999998181" x2="11" y2="4.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+WebsitePortalShieldProtectionSafeSecurity2.displayName = 'WebsitePortalShieldProtectionSafeSecurity2';
+
+export default WebsitePortalShieldProtectionSafeSecurity2;
+export { WebsitePortalShieldProtectionSafeSecurity2 };

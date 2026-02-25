@@ -1,0 +1,33 @@
+{
+  "name": "CloudRemoveAlt",
+  "description": "An alternative cloud icon with a minus symbol for varied cloud removal operations",
+  "tags": [
+    "cloud",
+    "minus",
+    "remove",
+    "delete",
+    "variant",
+    "subtract",
+    "alternate"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Remove from cloud alternate"
+  },
+  "filename": "cloud-1-minus-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

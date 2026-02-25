@@ -1,0 +1,35 @@
+{
+  "name": "LinkPersonalHotspotSettings",
+  "description": "A personal hotspot link icon with settings control for adjusting connection parameters",
+  "tags": [
+    "link",
+    "personal hotspot",
+    "menu",
+    "settings",
+    "configuration",
+    "adjust",
+    "options",
+    "control"
+  ],
+  "categories": [
+    "interface",
+    "devices",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Hotspot settings"
+  },
+  "filename": "link-personal-hotspot-menu-settings",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

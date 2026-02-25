@@ -1,0 +1,32 @@
+{
+  "name": "Heart1Striped",
+  "description": "A filled heart icon with horizontal stripe pattern, representing affection with a textured design variant.",
+  "tags": [
+    "heart",
+    "filled",
+    "stripes",
+    "pattern",
+    "love",
+    "favorite"
+  ],
+  "categories": [
+    "interface",
+    "social"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Favorite striped"
+  },
+  "filename": "heart-1-filled-stripes",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

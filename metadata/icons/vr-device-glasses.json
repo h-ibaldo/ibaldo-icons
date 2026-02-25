@@ -1,0 +1,31 @@
+{
+  "name": "VRGlasses",
+  "description": "A VR device glasses icon representing virtual reality headset eyewear equipment",
+  "tags": [
+    "vr",
+    "device",
+    "glasses",
+    "headset",
+    "eyewear",
+    "goggles"
+  ],
+  "categories": [
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "VR glasses"
+  },
+  "filename": "vr-device-glasses",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

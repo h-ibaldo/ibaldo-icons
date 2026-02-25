@@ -1,0 +1,35 @@
+{
+  "name": "PencilEdit1",
+  "description": "A pencil edit icon variant 1 for document editing and writing functions",
+  "tags": [
+    "pencil",
+    "edit",
+    "write",
+    "compose",
+    "modify",
+    "revise",
+    "document",
+    "editing",
+    "pen"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Edit with pencil variant 1"
+  },
+  "filename": "pencil-edit-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "BookmarkMinus",
+  "description": "A bookmark icon with a minus symbol for removing or unflagging saved items",
+  "tags": [
+    "bookmark",
+    "minus",
+    "remove",
+    "delete",
+    "flag",
+    "save",
+    "unfavorite"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Remove bookmark"
+  },
+  "filename": "bookmark-1-minus-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "HardDriveStrike",
+  "description": "A hard drive icon with a crossed line indicating disabled, unavailable, or uninstalled application status.",
+  "tags": [
+    "hard drive",
+    "uninstall",
+    "crossed line",
+    "strikethrough",
+    "disabled",
+    "program",
+    "application"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Disabled application"
+  },
+  "filename": "hard-drive-x-uninstall-program-application-crossed-line",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

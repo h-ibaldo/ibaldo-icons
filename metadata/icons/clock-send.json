@@ -1,0 +1,35 @@
+{
+  "name": "ClockSend",
+  "description": "A clock icon with a send arrow indicating scheduled sending or time-delayed delivery.",
+  "tags": [
+    "clock",
+    "send",
+    "schedule",
+    "time",
+    "delivery",
+    "message",
+    "notification",
+    "delay"
+  ],
+  "categories": [
+    "time",
+    "communication",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Schedule send"
+  },
+  "filename": "clock-send",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

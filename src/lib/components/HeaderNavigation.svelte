@@ -168,6 +168,10 @@
         transition-delay: 0s, 0s;
     }
 
+    .header-navigation {
+        min-height: 3rem;
+    }
+
     .nav-links {
         transition: opacity 0.3s ease, visibility 0.3s ease;
         overflow: visible;
@@ -255,14 +259,14 @@
     }
 </style>
 
-<header class="flex justify-between items-center px-4 py-3 z-10">
+<header class="flex justify-between items-center px-4 py-3 z-10 header-navigation">
     <h1 class="text-sm font-medium">
         <a href="/" class="text-inherit no-underline hover:opacity-80">zicon.io</a>
     </h1>
 
     <div class="flex items-center overflow-hidden">
 
-        <nav class="space-x-4 text-xs desktop-only nav-links {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
+        <nav class="space-x-4 text-sm desktop-only nav-links {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
             <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
             <a href="/about" class="text-indigo-500 hover:text-indigo-600">About</a>
             <a href="/packages" class="text-indigo-500 hover:text-indigo-600">Packages</a>

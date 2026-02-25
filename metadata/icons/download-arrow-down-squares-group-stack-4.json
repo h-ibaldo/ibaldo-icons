@@ -1,0 +1,33 @@
+{
+  "name": "DownloadArrowSquareStackThree",
+  "description": "A third stacked square variant of the download arrow icon with enhanced grouped container representation",
+  "tags": [
+    "download",
+    "arrow",
+    "down",
+    "squares",
+    "group",
+    "stack",
+    "multiple",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Download stacked files three"
+  },
+  "filename": "download-arrow-down-squares-group-stack-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

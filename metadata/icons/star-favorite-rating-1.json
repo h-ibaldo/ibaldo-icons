@@ -1,0 +1,33 @@
+{
+  "name": "StarFavorite1",
+  "description": "A star favorite or rating icon, first variant",
+  "tags": [
+    "star",
+    "favorite",
+    "rating",
+    "preference",
+    "rank",
+    "like",
+    "bookmark"
+  ],
+  "categories": [
+    "interface",
+    "social"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Star favorite rating"
+  },
+  "filename": "star-favorite-rating-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

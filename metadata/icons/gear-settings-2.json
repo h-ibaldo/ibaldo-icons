@@ -1,0 +1,32 @@
+{
+  "name": "GearSettings2",
+  "description": "A variant gear settings icon with alternative styling for configuration and preferences controls.",
+  "tags": [
+    "gear",
+    "settings",
+    "configuration",
+    "preferences",
+    "control",
+    "options",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Settings variant"
+  },
+  "filename": "gear-settings-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

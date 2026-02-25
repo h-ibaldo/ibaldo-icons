@@ -1,0 +1,32 @@
+{
+  "name": "Tab3Settings",
+  "description": "A tab icon with three dots representing a settings or options menu",
+  "tags": [
+    "tab",
+    "three dots",
+    "settings",
+    "options",
+    "menu",
+    "more",
+    "interface"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Tab settings menu"
+  },
+  "filename": "tab-3-three-dots-settings",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

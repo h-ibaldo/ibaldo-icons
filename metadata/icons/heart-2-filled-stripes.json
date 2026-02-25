@@ -1,0 +1,32 @@
+{
+  "name": "Heart2Striped",
+  "description": "A filled heart icon with horizontal stripe pattern in an alternative design variant style.",
+  "tags": [
+    "heart",
+    "filled",
+    "stripes",
+    "pattern",
+    "love",
+    "favorite"
+  ],
+  "categories": [
+    "interface",
+    "social"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Favorite striped variant"
+  },
+  "filename": "heart-2-filled-stripes",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

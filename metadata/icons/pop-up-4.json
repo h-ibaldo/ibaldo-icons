@@ -1,0 +1,33 @@
+{
+  "name": "PopUp4",
+  "description": "A fourth variant pop-up window icon design for modal and dialog interface elements",
+  "tags": [
+    "pop-up",
+    "popup",
+    "modal",
+    "dialog",
+    "window",
+    "notification",
+    "interface",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Pop-up window variant"
+  },
+  "filename": "pop-up-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

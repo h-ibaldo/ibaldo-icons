@@ -1,0 +1,31 @@
+{
+  "name": "ImagePhoto11",
+  "description": "An image or picture icon in another specialized variant style for representing photos or visual content.",
+  "tags": [
+    "image",
+    "picture",
+    "photo",
+    "visual",
+    "variant"
+  ],
+  "categories": [
+    "files",
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Image"
+  },
+  "filename": "image-picture-photo-11",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

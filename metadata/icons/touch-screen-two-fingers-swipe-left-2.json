@@ -1,0 +1,34 @@
+{
+  "name": "TouchScreenSwipeLeft22",
+  "description": "A two-finger touch screen swipe gesture pointing leftward with variant styling for navigation interactions.",
+  "tags": [
+    "touch",
+    "screen",
+    "two-fingers",
+    "swipe",
+    "left",
+    "gesture",
+    "multi-touch",
+    "navigation"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Two finger swipe left gesture"
+  },
+  "filename": "touch-screen-two-fingers-swipe-left-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

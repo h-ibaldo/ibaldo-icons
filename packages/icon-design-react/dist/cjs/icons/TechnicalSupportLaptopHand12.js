@@ -1,0 +1,35 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const TechnicalSupportLaptopHand12 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M1.999999999461579,16.032754075942648l2.244226341921603-1.496150894610764c.492802540982666-.328535027329053,1.071825606963102-.503849109427392,1.664100550358853-.503849116987112l5.091673018312576.000000011597876c1.104569544906553-.000000014108082,2.000000089406967.895430518950889,2.000000089406967,2.00000006386108v.000004000001354c0,1.104567272519489-.895428699903277,1.999996026588633-1.999995972426404,1.999996017129888" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M6.999999999461579,18.032754139803728h6.275900134609401c.467873007015442-.00000006386108.920938791117806-.164032500499161,1.280368792573427-.46355749903887l4.223388218357286-3.519490150491038c.706920244800131-.589100198740198,1.733766061024653-.58910005764119,2.440686143931089.0000003353598l.000003000001016.000002500008122c.921929450469179.768274964491866.913116989624541,2.18710575806108-.018284587040398,2.943869549282681l-5.650957699912396,4.591403192949656c-.356501417507388.289657405617618-.80184369543349.447772008068569-1.261185260409547.447772008068569H1.999999999461579" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="3.999999999461579" y1="10.032754075942648" x2="18.999999999461579" y2="10.032754075942648" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="5.999999999461579 10.032754075942648 5.999999999461579 2.032754075942648 16.999999999461579 2.032754075942648 16.999999999461579 10.032754075942648" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+TechnicalSupportLaptopHand12.displayName = 'TechnicalSupportLaptopHand12';
+
+module.exports = TechnicalSupportLaptopHand12;
+module.exports.TechnicalSupportLaptopHand12 = TechnicalSupportLaptopHand12;
+module.exports.default = TechnicalSupportLaptopHand12;

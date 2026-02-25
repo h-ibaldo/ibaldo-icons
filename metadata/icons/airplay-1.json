@@ -1,0 +1,33 @@
+{
+  "name": "Airplay1",
+  "description": "A basic Airplay streaming icon representing wireless media casting and screen mirroring functionality",
+  "tags": [
+    "airplay",
+    "streaming",
+    "wireless",
+    "cast",
+    "mirror",
+    "media",
+    "display"
+  ],
+  "categories": [
+    "devices",
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Airplay streaming"
+  },
+  "filename": "airplay-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

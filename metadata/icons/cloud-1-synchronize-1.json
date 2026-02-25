@@ -1,0 +1,35 @@
+{
+  "name": "CloudSynchronize1",
+  "description": "A cloud icon with a synchronization arrow indicating two-way data sync with cloud storage variant 1",
+  "tags": [
+    "cloud",
+    "synchronize",
+    "sync",
+    "refresh",
+    "update",
+    "bidirectional",
+    "arrow",
+    "data",
+    "network"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cloud sync"
+  },
+  "filename": "cloud-1-synchronize-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

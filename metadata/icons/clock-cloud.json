@@ -1,0 +1,33 @@
+{
+  "name": "ClockCloud",
+  "description": "A clock icon integrated with a cloud symbol indicating cloud-based scheduling or sync timing",
+  "tags": [
+    "clock",
+    "cloud",
+    "time",
+    "sync",
+    "schedule",
+    "cloud storage",
+    "network"
+  ],
+  "categories": [
+    "time",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Clock with cloud"
+  },
+  "filename": "clock-cloud",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

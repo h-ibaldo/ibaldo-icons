@@ -1,0 +1,35 @@
+{
+  "name": "FaceID4",
+  "description": "A face identification biometric recognition icon, variant 4, for facial authentication and security verification",
+  "tags": [
+    "face",
+    "id",
+    "recognition",
+    "biometric",
+    "authentication",
+    "security",
+    "facial",
+    "verification",
+    "variant 4"
+  ],
+  "categories": [
+    "security",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Face ID recognition"
+  },
+  "filename": "face-id-recognition-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

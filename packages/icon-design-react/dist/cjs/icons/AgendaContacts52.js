@@ -1,0 +1,37 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const AgendaContacts52 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M19.999997999999323,17.999999999998181H5.999997999999323c-1.104568395088791,0-1.999997999999323.895429604910532-1.999997999999323,1.999998000001142v.000003999997716c0,1.10456839509061.895429604910532,1.999998000001142,1.999997999999323,1.999998000001142h14" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M19.999997999999323,17.999999999998181V1.999999999998181H5.999997999999323c-1.104568395088791,0-1.999997999999323.895429604910532-1.999997999999323,1.999998000001142v.000003999997716" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="4" y1="3.999999999998181" x2="4" y2="19.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M15,14.999999999998181h-4.000001000000339c-2.209138999320203,0-4-1.790861000679797-4-4v-2c0-2.209138999320203,1.790861000679797-4,4-4h2c2.209138999320203,0,4,1.790861000679797,4,4v1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M13.999998999999661,9.999999999998181l-.000000011179509.500001451580829c-.000000018510036.828426317628328.671572197259593,1.499998548419171,1.499998514900653,1.499998548419171h.000002999999197c.828426308909911,0,1.499998521068846-.671572217159337,1.499998514898834-1.499998526071067l-.000000018619176-.500001473928933" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="11.999998999999661" cy="9.999999999998181" r="2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+AgendaContacts52.displayName = 'AgendaContacts52';
+
+module.exports = AgendaContacts52;
+module.exports.AgendaContacts52 = AgendaContacts52;
+module.exports.default = AgendaContacts52;

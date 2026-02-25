@@ -1,0 +1,33 @@
+{
+  "name": "VRCubeHalf",
+  "description": "A VR augmented reality cube device icon shown in half or split view for device interaction",
+  "tags": [
+    "vr",
+    "augmented reality",
+    "cube",
+    "device",
+    "half",
+    "split",
+    "3d model"
+  ],
+  "categories": [
+    "devices",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "VR half cube device"
+  },
+  "filename": "vr-augmented-reality-cube-device-half",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,34 @@
+{
+  "name": "UserMenu",
+  "description": "A user profile icon with menu options for account settings and user-related actions",
+  "tags": [
+    "user",
+    "menu",
+    "profile",
+    "account",
+    "settings",
+    "dropdown",
+    "navigation",
+    "options"
+  ],
+  "categories": [
+    "interface",
+    "people"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "User menu"
+  },
+  "filename": "user-menu",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

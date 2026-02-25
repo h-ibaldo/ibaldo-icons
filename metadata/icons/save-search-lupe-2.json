@@ -1,0 +1,33 @@
+{
+  "name": "SaveSearch2",
+  "description": "A variant save search icon with magnifying glass in an alternative design style",
+  "tags": [
+    "save",
+    "search",
+    "magnifying glass",
+    "lupe",
+    "find",
+    "query",
+    "storage"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Save search variant"
+  },
+  "filename": "save-search-lupe-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

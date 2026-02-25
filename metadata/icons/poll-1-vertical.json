@@ -1,0 +1,36 @@
+{
+  "name": "Poll1Vertical",
+  "description": "A vertical bar chart or poll icon representing the first variant style for survey data visualization",
+  "tags": [
+    "poll",
+    "1",
+    "vertical",
+    "bar",
+    "chart",
+    "survey",
+    "analytics",
+    "data",
+    "graph",
+    "statistics"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Vertical poll chart"
+  },
+  "filename": "poll-1-vertical",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

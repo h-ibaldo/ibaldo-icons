@@ -1,0 +1,33 @@
+{
+  "name": "ClockLink2",
+  "description": "A secondary variant of a clock icon with a link symbol, representing time-based connections with alternative styling.",
+  "tags": [
+    "clock",
+    "link",
+    "time",
+    "connection",
+    "reference",
+    "variant",
+    "schedule"
+  ],
+  "categories": [
+    "time",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Clock link variant"
+  },
+  "filename": "clock-link-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

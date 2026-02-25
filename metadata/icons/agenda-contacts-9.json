@@ -1,0 +1,35 @@
+{
+  "name": "AgendaContacts9",
+  "description": "An agenda contacts icon representing the ninth variant for organizing and managing contact information",
+  "tags": [
+    "agenda",
+    "contacts",
+    "9",
+    "organizer",
+    "people",
+    "directory",
+    "management",
+    "contact list"
+  ],
+  "categories": [
+    "interface",
+    "business",
+    "people"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Agenda contacts variant 9"
+  },
+  "filename": "agenda-contacts-9",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

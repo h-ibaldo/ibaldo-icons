@@ -1,0 +1,34 @@
+{
+  "name": "Lock3Check2",
+  "description": "A lock icon variant with a checkmark, representing verified security protection",
+  "tags": [
+    "lock",
+    "check",
+    "checked",
+    "security",
+    "verified",
+    "approval",
+    "validation",
+    "variant"
+  ],
+  "categories": [
+    "security",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Verified secure variant"
+  },
+  "filename": "lock-3-check-checked-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

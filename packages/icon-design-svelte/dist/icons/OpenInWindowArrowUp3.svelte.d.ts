@@ -1,0 +1,11 @@
+import { SvelteComponent } from 'svelte';
+
+export interface OpenInWindowArrowUp3Props {
+  color?: string;
+  size?: number | string;
+  strokeWidth?: number | string;
+  class?: string;
+  [key: string]: any;
+}
+
+export default class OpenInWindowArrowUp3 extends SvelteComponent<OpenInWindowArrowUp3Props> {}

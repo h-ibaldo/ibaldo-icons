@@ -1,0 +1,32 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <circle cx="11.999999977274911" cy="15.99999656343698" r="5.999999999997044" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="13.999999977360858" y1="17.99999656334694" x2="9.999999977180778" y2="13.999996563525201" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="11.999999976737854" cy="3.99999656343789" r="2.000000000001364" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="3.999999976737854" cy="3.99999656379714" r="2.000000000001819" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="19.999999976737854" cy="3.99999656307773" r="2.000000000001364" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="3.999999976740582" y1="3.999996563798049" x2="3.999999976740582" y2="3.999996563798049" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

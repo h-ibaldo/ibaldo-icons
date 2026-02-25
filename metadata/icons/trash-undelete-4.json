@@ -1,0 +1,32 @@
+{
+  "name": "TrashUndelete4",
+  "description": "A trash bin icon representing the ability to restore or undelete archived items",
+  "tags": [
+    "trash",
+    "undelete",
+    "restore",
+    "recover",
+    "undo",
+    "bin",
+    "recycle"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Restore deleted item"
+  },
+  "filename": "trash-undelete-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

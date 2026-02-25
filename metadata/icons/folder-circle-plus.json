@@ -1,0 +1,33 @@
+{
+  "name": "FolderCirclePlus",
+  "description": "A folder icon with a circular plus symbol indicating the ability to add or create new items.",
+  "tags": [
+    "folder",
+    "circle",
+    "plus",
+    "add",
+    "create",
+    "new",
+    "expand"
+  ],
+  "categories": [
+    "files",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Folder add"
+  },
+  "filename": "folder-circle-plus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

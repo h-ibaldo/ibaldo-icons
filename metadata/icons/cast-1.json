@@ -1,0 +1,35 @@
+{
+  "name": "Cast1",
+  "description": "A cast icon representing wireless media streaming or screen mirroring capability",
+  "tags": [
+    "cast",
+    "stream",
+    "wireless",
+    "media",
+    "screen",
+    "mirroring",
+    "broadcast",
+    "connectivity"
+  ],
+  "categories": [
+    "media",
+    "devices",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cast media"
+  },
+  "filename": "cast-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

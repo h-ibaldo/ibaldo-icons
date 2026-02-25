@@ -1,0 +1,35 @@
+{
+  "name": "BrowserWindowWeb",
+  "description": "A browser window icon with globe visualization representing web access and global internet connectivity",
+  "tags": [
+    "browser",
+    "window",
+    "globe",
+    "internet",
+    "connection",
+    "web",
+    "network",
+    "online",
+    "worldwide"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Browser web connection"
+  },
+  "filename": "browser-window-globe-internet-connection-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

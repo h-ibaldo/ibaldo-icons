@@ -1,0 +1,34 @@
+{
+  "name": "MinusSignNegativeCircle1",
+  "description": "A minus sign or negative symbol enclosed in a circle, used for removal or reduction actions.",
+  "tags": [
+    "minus",
+    "negative",
+    "circle",
+    "subtract",
+    "remove",
+    "delete",
+    "reduce",
+    "badge"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Remove or decrease action"
+  },
+  "filename": "minus-sign-negative-circle-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

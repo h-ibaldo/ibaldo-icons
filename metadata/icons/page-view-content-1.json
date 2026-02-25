@@ -1,0 +1,33 @@
+{
+  "name": "PageViewContent",
+  "description": "An icon representing a page view focused on content display and reading",
+  "tags": [
+    "page",
+    "view",
+    "content",
+    "display",
+    "read",
+    "document",
+    "article"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "View page content"
+  },
+  "filename": "page-view-content-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

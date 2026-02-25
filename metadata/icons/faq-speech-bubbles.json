@@ -1,0 +1,36 @@
+{
+  "name": "FaqBubbles",
+  "description": "A frequently asked questions icon using speech bubbles to represent help dialogue, support conversations, or Q&A functionality",
+  "tags": [
+    "faq",
+    "frequently asked questions",
+    "speech",
+    "bubbles",
+    "help",
+    "support",
+    "dialogue",
+    "conversation",
+    "communication"
+  ],
+  "categories": [
+    "communication",
+    "interface",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "FAQ help bubbles"
+  },
+  "filename": "faq-speech-bubbles",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

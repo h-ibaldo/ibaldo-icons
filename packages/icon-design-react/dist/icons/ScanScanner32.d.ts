@@ -1,0 +1,13 @@
+import { ForwardRefExoticComponent, RefAttributes, SVGProps } from 'react';
+
+export interface ScanScanner32Props extends SVGProps<SVGSVGElement> {
+  color?: string;
+  size?: number | string;
+  strokeWidth?: number | string;
+  className?: string;
+}
+
+declare const ScanScanner32: ForwardRefExoticComponent<ScanScanner32Props & RefAttributes<SVGSVGElement>>;
+
+export default ScanScanner32;
+export { ScanScanner32 };

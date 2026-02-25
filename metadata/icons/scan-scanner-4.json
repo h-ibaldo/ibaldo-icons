@@ -1,0 +1,32 @@
+{
+  "name": "Scanner4",
+  "description": "A scanner icon in its fourth variant style for document and image scanning operations.",
+  "tags": [
+    "scan",
+    "scanner",
+    "document",
+    "imaging",
+    "capture",
+    "variant4"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Scanner icon variant four"
+  },
+  "filename": "scan-scanner-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

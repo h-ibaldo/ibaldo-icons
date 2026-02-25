@@ -1,0 +1,29 @@
+{
+  "name": "Tab",
+  "description": "A basic tab interface icon representing a single tab element",
+  "tags": [
+    "tab",
+    "interface",
+    "navigation",
+    "element"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Tab"
+  },
+  "filename": "tab-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

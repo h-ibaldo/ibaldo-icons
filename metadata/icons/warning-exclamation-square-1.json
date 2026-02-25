@@ -1,0 +1,33 @@
+{
+  "name": "WarningSquare",
+  "description": "A warning icon with an exclamation mark inside a square, conveying caution and alerts",
+  "tags": [
+    "warning",
+    "exclamation",
+    "square",
+    "alert",
+    "caution",
+    "notice",
+    "attention"
+  ],
+  "categories": [
+    "interface",
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Warning message"
+  },
+  "filename": "warning-exclamation-square-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

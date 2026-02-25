@@ -1,0 +1,35 @@
+{
+  "name": "GraphHorizontalBarsStripesAlt",
+  "description": "An alternative horizontal bar graph with striped fill pattern for task analytics display",
+  "tags": [
+    "graph",
+    "horizontal",
+    "bars",
+    "tasks",
+    "filled",
+    "stripes",
+    "pattern",
+    "chart",
+    "alternative"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Horizontal bar graph stripes alt"
+  },
+  "filename": "graph-horizontal-bars-tasks-filled-stripes-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

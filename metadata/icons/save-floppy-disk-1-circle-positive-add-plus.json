@@ -1,0 +1,35 @@
+{
+  "name": "SaveDiskAdd",
+  "description": "A floppy disk save icon with a circle containing a plus sign, indicating adding or creating a new save",
+  "tags": [
+    "save",
+    "floppy",
+    "disk",
+    "circle",
+    "positive",
+    "add",
+    "plus",
+    "create",
+    "new"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Add save"
+  },
+  "filename": "save-floppy-disk-1-circle-positive-add-plus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

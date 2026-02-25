@@ -1,0 +1,33 @@
+{
+  "name": "TabRemove2",
+  "description": "A tab interface icon with a minus or remove symbol indicating deletion or negative action.",
+  "tags": [
+    "tab",
+    "negative",
+    "remove",
+    "minus",
+    "delete",
+    "close",
+    "subtract",
+    "eliminate"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Remove tab"
+  },
+  "filename": "tab-2-negative-remove-minus-delete-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

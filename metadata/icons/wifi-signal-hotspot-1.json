@@ -1,0 +1,34 @@
+{
+  "name": "WifiSignalHotspot1",
+  "description": "A wifi signal icon with hotspot indicator, first strength level",
+  "tags": [
+    "wifi",
+    "signal",
+    "hotspot",
+    "wireless",
+    "connection",
+    "network",
+    "internet",
+    "mobile"
+  ],
+  "categories": [
+    "interface",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Wifi signal hotspot weak"
+  },
+  "filename": "wifi-signal-hotspot-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

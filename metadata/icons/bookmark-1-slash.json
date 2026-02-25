@@ -1,0 +1,31 @@
+{
+  "name": "BookmarkSlash",
+  "description": "A bookmark icon with a diagonal slash indicating removed or disabled bookmarks",
+  "tags": [
+    "bookmark",
+    "slash",
+    "remove",
+    "disabled",
+    "crossed"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Bookmark removed"
+  },
+  "filename": "bookmark-1-slash",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

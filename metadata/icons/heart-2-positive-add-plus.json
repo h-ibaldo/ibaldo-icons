@@ -1,0 +1,33 @@
+{
+  "name": "Heart2Add",
+  "description": "A heart icon with a plus symbol in an alternative design variant for adding to favorites or likes.",
+  "tags": [
+    "heart",
+    "positive",
+    "add",
+    "plus",
+    "like",
+    "favorite",
+    "love"
+  ],
+  "categories": [
+    "interface",
+    "social"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Add favorite variant"
+  },
+  "filename": "heart-2-positive-add-plus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "CloudClose1",
+  "description": "A cloud icon with an X symbol for closing or dismissing cloud services",
+  "tags": [
+    "cloud",
+    "close",
+    "x",
+    "dismiss",
+    "remove",
+    "delete",
+    "cancel"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Close cloud"
+  },
+  "filename": "cloud-1-x-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

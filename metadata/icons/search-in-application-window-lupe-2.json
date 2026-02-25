@@ -1,0 +1,33 @@
+{
+  "name": "SearchWindowLupe2",
+  "description": "A search icon with magnifying glass for searching within an application window in its second variant.",
+  "tags": [
+    "search",
+    "application",
+    "window",
+    "lupe",
+    "magnifying glass",
+    "find",
+    "variant2"
+  ],
+  "categories": [
+    "interface",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Search in application"
+  },
+  "filename": "search-in-application-window-lupe-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

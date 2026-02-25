@@ -1,0 +1,33 @@
+{
+  "name": "ScreensharingRectangles2",
+  "description": "An alternate variant of the screensharing icon with multiple rectangle shapes",
+  "tags": [
+    "screensharing",
+    "screen",
+    "rectangles",
+    "share",
+    "active",
+    "variant"
+  ],
+  "categories": [
+    "interface",
+    "communication",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Screensharing rectangles variant two"
+  },
+  "filename": "screensharing-screen-rectangles-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

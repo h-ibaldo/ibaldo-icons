@@ -1,0 +1,32 @@
+{
+  "name": "SwitchButtonOn2",
+  "description": "An alternate design of a toggle switch button in the on position with a different visual style.",
+  "tags": [
+    "switch",
+    "button",
+    "on",
+    "toggle",
+    "enabled",
+    "active",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Switch button on variant"
+  },
+  "filename": "switch-button-on-2",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

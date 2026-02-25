@@ -1,0 +1,32 @@
+{
+  "name": "SwitchButtonOn",
+  "description": "A toggle switch button in the on position, representing an enabled or active state.",
+  "tags": [
+    "switch",
+    "button",
+    "on",
+    "toggle",
+    "enabled",
+    "active",
+    "state"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Switch button on"
+  },
+  "filename": "switch-button-on-1",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

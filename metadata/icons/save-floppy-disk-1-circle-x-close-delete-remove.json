@@ -1,0 +1,35 @@
+{
+  "name": "SaveDiskClose",
+  "description": "A floppy disk save icon with a circle containing an X, indicating closing or canceling save operation",
+  "tags": [
+    "save",
+    "floppy",
+    "disk",
+    "circle",
+    "x",
+    "close",
+    "delete",
+    "remove",
+    "cancel"
+  ],
+  "categories": [
+    "interface",
+    "files"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Close save"
+  },
+  "filename": "save-floppy-disk-1-circle-x-close-delete-remove",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "TechnicalSupportPersonHeadsetVar4",
+  "description": "A fourth variant showing a support person with headset for customer assistance services",
+  "tags": [
+    "technical support",
+    "person",
+    "head",
+    "headset",
+    "agent",
+    "customer service",
+    "support"
+  ],
+  "categories": [
+    "interface",
+    "business",
+    "communication",
+    "people"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Technical support agent headset"
+  },
+  "filename": "technical-support-person-head-headset-4",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

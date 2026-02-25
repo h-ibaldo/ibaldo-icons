@@ -1,0 +1,32 @@
+{
+  "name": "PresentationKeynoteLayout",
+  "description": "A presentation keynote layout icon showing slide arrangement and design structure",
+  "tags": [
+    "presentation",
+    "keynote",
+    "layout",
+    "slides",
+    "arrangement",
+    "design"
+  ],
+  "categories": [
+    "business",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Keynote presentation layout"
+  },
+  "filename": "presentation-keynote-layout",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

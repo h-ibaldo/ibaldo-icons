@@ -1,0 +1,33 @@
+{
+  "name": "LupeZoom3Actual",
+  "description": "A magnifying glass zoom icon representing actual size or one-to-one zoom ratio at 3x magnification",
+  "tags": [
+    "lupe",
+    "zoom",
+    "magnify",
+    "actual size",
+    "one-to-one",
+    "3x",
+    "search"
+  ],
+  "categories": [
+    "interface",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Zoom to actual size"
+  },
+  "filename": "lupe-zoom-3-actual-size-one-to-one",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

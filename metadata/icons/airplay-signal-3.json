@@ -1,0 +1,33 @@
+{
+  "name": "AirplaySignal3",
+  "description": "An Airplay icon with signal strength indicator showing wireless connection quality at level 3",
+  "tags": [
+    "airplay",
+    "signal",
+    "strength",
+    "wireless",
+    "connection",
+    "quality",
+    "level"
+  ],
+  "categories": [
+    "devices",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Airplay signal level 3"
+  },
+  "filename": "airplay-signal-3",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

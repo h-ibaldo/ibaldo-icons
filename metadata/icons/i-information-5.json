@@ -1,0 +1,30 @@
+{
+  "name": "Information5",
+  "description": "An information icon in an alternate variant style for displaying help or details.",
+  "tags": [
+    "information",
+    "info",
+    "help",
+    "details",
+    "variant"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Information"
+  },
+  "filename": "i-information-5",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

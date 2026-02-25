@@ -1,0 +1,32 @@
+{
+  "name": "SwitchToggleOff4",
+  "description": "A toggle switch button in the off position, variant 4 with distinctive appearance.",
+  "tags": [
+    "switch",
+    "toggle",
+    "button",
+    "off",
+    "disabled",
+    "inactive",
+    "control"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Toggle switch off"
+  },
+  "filename": "switch-toggle-button-4-off",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

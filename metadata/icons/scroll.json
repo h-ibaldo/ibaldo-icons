@@ -1,0 +1,31 @@
+{
+  "name": "Scroll",
+  "description": "A scroll icon representing scrolling functionality or document content display.",
+  "tags": [
+    "scroll",
+    "document",
+    "content",
+    "page",
+    "parchment",
+    "vertical"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Scroll"
+  },
+  "filename": "scroll",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}

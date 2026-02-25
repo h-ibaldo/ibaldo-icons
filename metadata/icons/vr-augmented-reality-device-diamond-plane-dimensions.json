@@ -1,0 +1,34 @@
+{
+  "name": "VRDeviceDimensions",
+  "description": "A VR augmented reality device icon showing diamond plane with dimensional perspective for spatial computing",
+  "tags": [
+    "vr",
+    "augmented reality",
+    "device",
+    "diamond",
+    "plane",
+    "dimensions",
+    "spatial",
+    "3d"
+  ],
+  "categories": [
+    "devices",
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "VR spatial dimensions"
+  },
+  "filename": "vr-augmented-reality-device-diamond-plane-dimensions",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false
+}
