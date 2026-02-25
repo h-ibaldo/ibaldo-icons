@@ -5,7 +5,7 @@
 <p class="text-xs text-gray-500 mb-5">Last updated: December 2025</p>
 
 <p class="mb-4">
-<span class="font-medium">icon.design</span> provides an open icon library made available under the MIT License.
+<span class="font-medium">zicon.io</span> provides an open icon library made available under the MIT License.
 </p>
 
 <p class="mb-4">
@@ -17,7 +17,7 @@ Use of the icons is governed solely by the MIT License. You are responsible for 
 </p>
 
 <p class="mb-4">
-icon.design and its author are not liable for any claim, damages, or other liability arising from the use, misuse, or inability to use the provided materials.
+zicon.io and its author are not liable for any claim, damages, or other liability arising from the use, misuse, or inability to use the provided materials.
 </p>
 
 <p class="mb-4">

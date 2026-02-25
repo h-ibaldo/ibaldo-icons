@@ -1,7 +1,7 @@
 {
-  "name": "@ibaldo/icon-design-react",
+  "name": "@ibaldo/zicon-react",
   "version": "0.1.15",
-  "description": "React components for icon.design - A line-based icon library with variations, not conclusions",
+  "description": "React components for zicon.io - A line-based icon library with variations, not conclusions",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -27,14 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/henriqueibaldo/icon-design.git",
+    "url": "https://github.com/h-ibaldo/zicon.git",
     "directory": "packages/icon-design-react"
   },
   "keywords": [
     "icons",
     "react",
     "svg",
-    "icon-design",
+    "zicon",
     "ui",
     "components"
   ],

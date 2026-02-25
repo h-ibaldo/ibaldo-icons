@@ -1,15 +1,15 @@
-# @icon-design/svelte
+# @ibaldo/zicon-svelte
 
-Svelte components for [icon.design](https://icon.design) — A line-based icon library with variations, not conclusions.
+Svelte components for [zicon.io](https://zicon.io) — A line-based icon library with variations, not conclusions.
 
 ## Installation
 
 ```bash
-npm install @icon-design/svelte
+npm install @ibaldo/zicon-svelte
 # or
-yarn add @icon-design/svelte
+yarn add @ibaldo/zicon-svelte
 # or
-pnpm add @icon-design/svelte
+pnpm add @ibaldo/zicon-svelte
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ pnpm add @icon-design/svelte
 
 ```svelte
 <script>
-  import { UserHead1, AddPlus1, Settings } from '@icon-design/svelte';
+  import { UserHead1, AddPlus1, Settings } from '@ibaldo/zicon-svelte';
 </script>
 
 <UserHead1 />
@@ -30,7 +30,7 @@ pnpm add @icon-design/svelte
 
 ```svelte
 <script>
-  import UserHead1 from '@icon-design/svelte/icons/UserHead1.svelte';
+  import UserHead1 from '@ibaldo/zicon-svelte/icons/UserHead1.svelte';
 </script>
 
 <UserHead1 />
@@ -89,8 +89,8 @@ This package is compatible with Svelte 3, 4, and 5.
 
 > Icons are opinions. Choose variations, not conclusions.
 
-icon.design offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
+zicon.io offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
 
 ## License
 
-MIT © [Henrique Ibaldo](https://icon.design)
+MIT © [Henrique Ibaldo](https://zicon.io)

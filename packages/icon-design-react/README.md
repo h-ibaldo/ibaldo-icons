@@ -1,15 +1,15 @@
-# @icon-design/react
+# @ibaldo/zicon-react
 
-React components for [icon.design](https://icon.design) — A line-based icon library with variations, not conclusions.
+React components for [zicon.io](https://zicon.io) — A line-based icon library with variations, not conclusions.
 
 ## Installation
 
 ```bash
-npm install @icon-design/react
+npm install @ibaldo/zicon-react
 # or
-yarn add @icon-design/react
+yarn add @ibaldo/zicon-react
 # or
-pnpm add @icon-design/react
+pnpm add @ibaldo/zicon-react
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ pnpm add @icon-design/react
 ### Import individual icons (recommended for tree-shaking)
 
 ```jsx
-import { UserHead1, AddPlus1, Settings } from '@icon-design/react';
+import { UserHead1, AddPlus1, Settings } from '@ibaldo/zicon-react';
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
 ### Import from specific path
 
 ```jsx
-import UserHead1 from '@icon-design/react/icons/UserHead1';
+import UserHead1 from '@ibaldo/zicon-react/icons/UserHead1';
 ```
 
 ## Props
@@ -79,7 +79,7 @@ All other props are passed to the underlying `<svg>` element.
 
 ```jsx
 import { useRef } from 'react';
-import { UserHead1 } from '@icon-design/react';
+import { UserHead1 } from '@ibaldo/zicon-react';
 
 function App() {
   const iconRef = useRef(null);
@@ -97,8 +97,8 @@ function App() {
 
 > Icons are opinions. Choose variations, not conclusions.
 
-icon.design offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
+zicon.io offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
 
 ## License
 
-MIT © [Henrique Ibaldo](https://icon.design)
+MIT © [Henrique Ibaldo](https://zicon.io)

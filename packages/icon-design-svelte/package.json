@@ -1,7 +1,7 @@
 {
-  "name": "@ibaldo/icon-design-svelte",
+  "name": "@ibaldo/zicon-svelte",
   "version": "0.1.15",
-  "description": "Svelte components for icon.design - A line-based icon library with variations, not conclusions",
+  "description": "Svelte components for zicon.io - A line-based icon library with variations, not conclusions",
   "type": "module",
   "svelte": "./dist/index.js",
   "main": "./dist/index.js",
@@ -29,14 +29,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/henriqueibaldo/icon-design.git",
+    "url": "https://github.com/h-ibaldo/zicon.git",
     "directory": "packages/icon-design-svelte"
   },
   "keywords": [
     "icons",
     "svelte",
     "svg",
-    "icon-design",
+    "zicon",
     "ui",
     "components"
   ],
