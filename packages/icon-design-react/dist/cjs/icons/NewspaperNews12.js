@@ -22,13 +22,12 @@ const NewspaperNews12 = forwardRef(({
     strokeLinejoin: "round",
     className: `icon-design ${className}`.trim(),
     ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M4.999988017749274,3.936828613277612h17v15c0,.552284749830505-.447715250169495,1-1,1H3.499988017749274" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M4.999988017749274,5.936828613277612H1.999988017749274v12.500001500000508c0,.828426296320686.671572203671531,1.499998499999492,1.499998500001311,1.499998499999492h.000002999999197c.828426296320686,0,1.499998499999492-.671572203678807,1.499998499999492-1.499998499999492V3.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <rect x="7.999988017749274" y="7.936828613277612" width="4" height="4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="14.999988017749274" y1="7.936828613277612" x2="18.999988017749274" y2="7.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="14.999988017749274" y1="11.936828613277612" x2="18.999988017749274" y2="11.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="14.999988017749274" y1="15.936828613277612" x2="18.999988017749274" y2="15.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="7.999988017749274" y1="15.936828613277612" x2="11.999988017749274" y2="15.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M17.999988017745636,17.936828613277612V1.936828613277612H1.999988017745636v17c0,1.656854249489697,1.343145750510303,3,3,3h14c1.656854249489697,0,3-1.343145750510303,3-3V6.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <rect x="5.999988017745636" y="5.936828613277612" width="4" height="4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.999988017745636" y1="5.936828613277612" x2="13.999988017745636" y2="5.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.999988017745636" y1="13.936828613277612" x2="13.999988017745636" y2="13.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.999988017745636" y1="17.936828613277612" x2="13.999988017745636" y2="17.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.999988017745636" y1="9.936828613277612" x2="13.999988017745636" y2="9.936828613277612" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
 ));
 
 NewspaperNews12.displayName = 'NewspaperNews12';

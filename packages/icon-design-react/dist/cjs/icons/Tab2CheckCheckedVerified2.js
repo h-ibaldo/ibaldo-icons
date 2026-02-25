@@ -22,9 +22,9 @@ const Tab2CheckCheckedVerified2 = forwardRef(({
     strokeLinejoin: "round",
     className: `icon-design ${className}`.trim(),
     ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="12.050537104490104 21.997565477288845 2.050537104500108 21.997565477288845 2.050537104500108 1.997565477288845 11.050537104500108 1.997565477288845 11.050537104500108 5.997565477288845 22.050537104500108 5.997565477288845 22.050537104500108 12.997565477288845" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="22.050537104500108" y1="1.997565477288845" x2="15.050537104500108" y2="1.997565477288845" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="22.050537104500108 16.997565477285207 18.050537104500108 21.997565477285207 15.050537104500108 18.997565477285207" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polygon points="22.025268532079281 21.998779305074095 2.025268532079281 21.998779305074095 2.025268532079281 1.998779305074095 11.025268532079281 1.998779305074095 11.025268532079281 5.998779305074095 22.025268532079281 5.998779305074095 22.025268532079281 21.998779305074095" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="22.025268532079281" y1="1.998779305074095" x2="15.025268532079281" y2="1.998779305074095" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="8.025268532079281 13.99877930112325 11.025268532079281 16.99877930112325 16.025268532079281 11.99877930112325" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
 ));
 
 Tab2CheckCheckedVerified2.displayName = 'Tab2CheckCheckedVerified2';

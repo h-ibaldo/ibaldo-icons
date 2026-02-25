@@ -22,10 +22,10 @@ const SwitchToggleTwoButtonsOnAndOff2 = forwardRef(({
     strokeLinejoin: "round",
     className: `icon-design ${className}`.trim(),
     ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<circle cx="18.499999977098923" cy="6.499996563434252" r="3.5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M16.055603004439035,3.999996563434252H4.499999977098923c-1.380737304689319,0-2.5,1.1192626953125-2.5,2.5,0,1.38067626953125,1.119262695310681,2.5,2.5,2.5h11.555603027340112" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <circle cx="5.499999977092557" cy="17.499996563728018" r="3.499999999999091" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M7.944396949749716,19.999996563434252h11.555603027349207c1.380737304680224,0,2.5-1.11932373046875,2.5-2.5,0-1.3807373046875-1.119262695319776-2.5-2.5-2.5H7.944396949749716" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<rect x="1.999999987987565" y="1.999996567183956" width="20.000000000032401" height="7.999999993301515" rx="3.999996000590027" ry="3.999996000590027" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M17.999999557170668,9.999996563434252c-2.209136785710143.000000002000888-3.999995992890035-1.79085920372745-3.99999599270086-3.999995989430317v-.000008023842383c.000000000200089-2.209136785699229,1.790859207711037-3.999995991103788,3.999995993399352-3.999995988713636" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <rect x="1.999999988020022" y="13.999996562083609" width="19.999999999967486" height="8.00000000347913" rx="3.999995977250226" ry="3.999995977250226" transform="translate(23.999999986631632 35.999993120563616) rotate(180)" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M6.000000397390977,13.999996559832653c2.209136785699229-.0000000018008,3.999995992729964,1.790859204083972,3.999995992329787,3.999995989786839v.000008023846021c-.000000000391083,2.209136785695591-1.790859208060283,3.999995990940079-3.999995993750417,3.999995988357114" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
 ));
 
 SwitchToggleTwoButtonsOnAndOff2.displayName = 'SwitchToggleTwoButtonsOnAndOff2';

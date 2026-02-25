@@ -22,7 +22,7 @@ const Bookmark2 = forwardRef(({
     strokeLinejoin: "round",
     className: `icon-design ${className}`.trim(),
     ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M21,1.999999999998181H7c-1.656854249493335,0-3,1.343145750509393-3,3v17l7-4.000000004851245,7,4.000000004851245V4.999996999998984c0-1.656852592641371,1.343144416809082-2.999997000000803,2.999996999998984-2.999997000000803h.000003000001016Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M17.999999973299964,1.999999999998181H5.999999973299964c-.552284749829596,0-1,.447715250169495-1,1v19l7-4,7,4V2.999999999998181c0-.552284749830505-.447715250170404-1-1-1Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
 ));
 
 Bookmark2.displayName = 'Bookmark2';

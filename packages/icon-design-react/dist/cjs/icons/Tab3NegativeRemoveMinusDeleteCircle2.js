@@ -22,9 +22,12 @@ const Tab3NegativeRemoveMinusDeleteCircle2 = forwardRef(({
     strokeLinejoin: "round",
     className: `icon-design ${className}`.trim(),
     ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="12.149805223290059 21.998782740736715 2.050537109160359 21.998782740736715 2.050537109160359 1.998782740736715 10.050537109160359 1.998782740736715 13.050537109160359 5.998782740736715 22.050537109160359 5.998782740736715 22.050537109160359 13.998782740736715" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="15.050537109160359 1.998782740736715 22.050537109160359 1.998782740736715 22.050537109160359 5.998782740736715" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="16.050537109160359" y1="18.998782740733986" x2="22.050537109160359" y2="18.998782740733986" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="10.0252685320811 21.99877930112325 2.0252685320811 21.99877930112325 2.0252685320811 1.99877930112325 10.0252685320811 1.99877930112325 13.0252685320811 5.99877930112325 22.0252685320811 5.99877930112325 22.0252685320811 9.99877930112325" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="15.0252685320811 1.99877930112325 22.0252685320811 1.99877930112325 22.0252685320811 5.99877930112325" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <g>
+  <circle cx="17.025268532090195" cy="16.998779306063625" r="5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="19.0252685320811" y1="16.99877930112325" x2="15.0252685320811" y2="16.998779301301511" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>` } }))
 ));
 
 Tab3NegativeRemoveMinusDeleteCircle2.displayName = 'Tab3NegativeRemoveMinusDeleteCircle2';

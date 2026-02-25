@@ -22,10 +22,10 @@ const Tab2XClearCloseDeleteRemove2 = forwardRef(({
     strokeLinejoin: "round",
     className: `icon-design ${className}`.trim(),
     ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="13.149805218629808 21.997565477288845 2.050537104500108 21.997565477288845 2.050537104500108 1.997565477288845 11.050537104500108 1.997565477288845 11.050537104500108 5.997565477288845 22.050537104500108 5.997565477288845 22.050537104500108 12.997565477288845" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="22.050537104500108" y1="1.997565477288845" x2="15.050537104500108" y2="1.997565477288845" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="17.050537104500108" y1="16.997565477288845" x2="22.050537104500108" y2="21.997565477288845" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="22.050537104500108" y1="16.997565477288845" x2="17.050537104500108" y2="21.997565477288845" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polygon points="22.025268532079281 21.998779297172405 2.025268532079281 21.998779297172405 2.025268532079281 1.998779297172405 11.025268532079281 1.998779297172405 11.025268532079281 5.998779297172405 22.025268532079281 5.998779297172405 22.025268532079281 21.998779297172405" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="22.025268532079281" y1="1.998779297172405" x2="15.025268532079281" y2="1.998779297172405" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="15.025268532079281" y1="16.998779297172405" x2="9.025268532079281" y2="10.998779297172405" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="15.025268532079281" y1="10.998779297172405" x2="9.025268532079281" y2="16.998779297172405" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
 ));
 
 Tab2XClearCloseDeleteRemove2.displayName = 'Tab2XClearCloseDeleteRemove2';
