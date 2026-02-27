@@ -66,32 +66,23 @@ async function generateIndex() {
         const filenameToPath = new Map();
         const existingNames = {};
 
-        // 1. Scan optimized directory (new icons from src/icons/raw/)
+        // 1. Scan optimized directory (flat - no category subfolders)
         if (await fs.stat(optimizedIconsDir).catch(() => null)) {
             console.log('Scanning optimized icons (new system)...');
-            const optimizedCategories = await fs.readdir(optimizedIconsDir);
+            const optimizedFiles = await fs.readdir(optimizedIconsDir);
+            let optimizedCount = 0;
 
-            for (const category of optimizedCategories) {
-                if (category === '.DS_Store' || category.startsWith('.')) continue;
+            for (const file of optimizedFiles) {
+                if (!file.endsWith('.svg')) continue;
 
-                const categoryPath = join(optimizedIconsDir, category);
-                const stats = await fs.stat(categoryPath);
-
-                if (!stats.isDirectory()) continue;
-
-                const files = await fs.readdir(categoryPath);
-
-                for (const file of files) {
-                    if (!file.endsWith('.svg')) continue;
-
-                    const rawName = file.replace('.svg', '');
-                    allFilenames.push(rawName);
-                    filenameToCategory.set(rawName, category);
-                    filenameToPath.set(rawName, `/icons/optimized/${category}/${file}`);
-                }
-
-                console.log(`  - ${category}: ${files.filter(f => f.endsWith('.svg')).length} icons (optimized)`);
+                const rawName = file.replace('.svg', '');
+                allFilenames.push(rawName);
+                filenameToCategory.set(rawName, 'optimized');
+                filenameToPath.set(rawName, `/icons/optimized/${file}`);
+                optimizedCount++;
             }
+
+            console.log(`  - optimized: ${optimizedCount} icons`);
         }
 
         // 2. Scan legacy static/icons directory (old icons)
@@ -139,9 +130,24 @@ async function generateIndex() {
         const seenNames = new Set();
         const duplicateCount = { sameFile: 0, sameName: 0 };
 
+        // Pre-load all metadata in parallel for performance
+        const metadataMap = {};
+        await Promise.all(allFilenames.map(async (filename) => {
+            const meta = await loadIconMetadata(filename);
+            if (meta) metadataMap[filename] = meta;
+        }));
+
+        // Collect all semantic categories from metadata
+        const allMetaCategories = new Set();
+        for (const meta of Object.values(metadataMap)) {
+            if (Array.isArray(meta.categories)) {
+                for (const c of meta.categories) allMetaCategories.add(c);
+            }
+        }
+
         for (const filename of allFilenames) {
             const name = nameMap[filename] || generateSmartName(filename);
-            const category = filenameToCategory.get(filename);
+            const folderCategory = filenameToCategory.get(filename);
             const path = filenameToPath.get(filename);
 
             // Skip if we've already added an icon with this exact name
@@ -159,26 +165,54 @@ async function generateIndex() {
                 .replace(/\s+/g, ' ');
             const sentenceCase = displayName.charAt(0).toUpperCase() + displayName.slice(1).toLowerCase();
 
+            const meta = metadataMap[filename];
+
+            // Use semantic categories from metadata if available, fallback to folder
+            const semanticCategories = (meta && Array.isArray(meta.categories) && meta.categories.length > 0)
+                ? meta.categories
+                : [folderCategory];
+
             const iconEntry = {
                 name,
                 displayName: sentenceCase,
                 path,
-                filename: filename + '.svg'
+                filename: filename + '.svg',
+                category: folderCategory,       // folder origin (for backwards compat)
+                categories: semanticCategories  // semantic multi-label categories
             };
 
+            // Attach existing metadata search fields if available
+            if (meta) {
+                if (meta.tags) iconEntry.tags = meta.tags;
+                if (meta.description) iconEntry.description = meta.description;
+                iconEntry.searchText = [
+                    name,
+                    sentenceCase,
+                    ...(meta.tags || []),
+                    meta.description || '',
+                    ...semanticCategories
+                ].join(' ').toLowerCase();
+            }
+
             // If this folder should be merged into 'popular', add to popularIcons
-            if (popularFolders.includes(category)) {
+            if (popularFolders.includes(folderCategory)) {
                 popularIcons.push(iconEntry);
             } else {
                 // Otherwise, create a separate category
-                if (!index.categories.includes(category)) {
-                    index.categories.push(category);
+                if (!index.categories.includes(folderCategory)) {
+                    index.categories.push(folderCategory);
                 }
-                if (!index.icons[category]) {
-                    index.icons[category] = [];
+                if (!index.icons[folderCategory]) {
+                    index.icons[folderCategory] = [];
                 }
-                index.icons[category].push(iconEntry);
+                index.icons[folderCategory].push(iconEntry);
             }
+        }
+
+        // Replace folder-based categories list with semantic metadata categories
+        if (allMetaCategories.size > 0) {
+            index.categories = [...allMetaCategories].sort();
+            console.log(`\n✓ Using ${index.categories.length} semantic categories from metadata:`, index.categories.join(', '));
         }
 
         if (duplicateCount.sameName > 0) {

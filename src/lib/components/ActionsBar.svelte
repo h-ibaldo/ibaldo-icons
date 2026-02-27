@@ -2,11 +2,13 @@
     import { onMount, onDestroy } from 'svelte';
     import { fade } from 'svelte/transition';
     import { browser } from '$app/environment';
-    
+
     export let search = '';
     export let size = 24;
     export let weight = 1;
     export let totalIcons = 0;
+    export let categories = [];
+    export let selectedCategory = '';
     
     let isSmallScreen = false;
     let maxSize = 92;
@@ -15,6 +17,45 @@
     let showClearButton = false;
     let animationTimeout;
     let placeholderText = 'Search icons...';
+
+    // Category dropdown state
+    let dropdownOpen = false;
+    let categorySearch = '';
+    let categoryInput;
+    let dropdownEl;
+
+    $: categoryLabel = selectedCategory
+        ? selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1)
+        : 'All';
+
+    $: filteredCategories = categories.filter(c =>
+        !categorySearch || c.toLowerCase().includes(categorySearch.toLowerCase())
+    );
+
+    function openDropdown() {
+        dropdownOpen = true;
+        categorySearch = '';
+        // Focus the input after DOM update
+        setTimeout(() => { if (categoryInput) categoryInput.focus(); }, 0);
+    }
+
+    function closeDropdown() {
+        dropdownOpen = false;
+        categorySearch = '';
+    }
+
+    function selectCategory(cat) {
+        selectedCategory = cat;
+        closeDropdown();
+    }
+
+    function handleDropdownKeydown(e) {
+        if (e.key === 'Escape') closeDropdown();
+    }
+
+    function handleOutsideClick(e) {
+        if (dropdownEl && !dropdownEl.contains(e.target)) closeDropdown();
+    }
     
     // Local values for immediate slider feedback
     let localSize = size;
@@ -153,6 +194,7 @@
                 windowWidth = window.innerWidth;
             });
             window.addEventListener('keydown', handleKeyDown);
+            window.addEventListener('mousedown', handleOutsideClick);
         }
     });
     
@@ -160,6 +202,7 @@
         if (browser) {
             window.removeEventListener('resize', checkScreenSize);
             window.removeEventListener('keydown', handleKeyDown);
+            window.removeEventListener('mousedown', handleOutsideClick);
         }
         if (animationTimeout) {
             clearTimeout(animationTimeout);
@@ -370,6 +413,101 @@
         border-width: 0;
     }
 
+    /* Category dropdown */
+    .category-dropdown {
+        position: relative;
+    }
+
+    .category-trigger {
+        display: flex;
+        align-items: center;
+        gap: 0.375rem;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 0.375rem 0.5rem;
+        white-space: nowrap;
+        opacity: 0.7;
+        transition: opacity 0.15s ease;
+    }
+
+    .category-trigger:hover {
+        opacity: 1;
+    }
+
+    .category-trigger svg {
+        flex-shrink: 0;
+        transition: transform 0.15s ease;
+    }
+
+    .category-trigger.open svg {
+        transform: rotate(180deg);
+    }
+
+    .dropdown-panel {
+        position: absolute;
+        top: calc(100% + 6px);
+        left: 0;
+        background: #0a0a0a;
+        border: 1px solid rgba(255,255,255,0.12);
+        min-width: 160px;
+        z-index: 100;
+        overflow: hidden;
+    }
+
+    .dropdown-search {
+        width: 100%;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        color: white;
+        font-size: 13px;
+        padding: 0.5rem 0.75rem;
+        outline: none;
+    }
+
+    .dropdown-search::placeholder {
+        color: rgba(255,255,255,0.35);
+    }
+
+    .dropdown-list {
+        max-height: 220px;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255,255,255,0.2) transparent;
+    }
+
+    .dropdown-item {
+        display: block;
+        width: 100%;
+        text-align: left;
+        background: none;
+        border: none;
+        color: rgba(255,255,255,0.7);
+        font-size: 13px;
+        padding: 0.4rem 0.75rem;
+        cursor: pointer;
+        transition: background 0.1s ease, color 0.1s ease;
+    }
+
+    .dropdown-item:hover {
+        background: rgba(255,255,255,0.07);
+        color: white;
+    }
+
+    .dropdown-item.active {
+        color: white;
+        background: rgba(9, 0, 255, 0.35);
+    }
+
+    .dropdown-empty {
+        color: rgba(255,255,255,0.35);
+        font-size: 13px;
+        padding: 0.5rem 0.75rem;
+    }
+
     @media (max-width: 768px) {
         .actions-bar-container {
             position: fixed;
@@ -438,7 +576,7 @@
 </style>
 
 <div class="actions-bar-container bg-slate-900">
-    <div class="actions-bar overflow-hidden {searchFocused? 'search-input-focused' : ''}">
+    <div class="actions-bar {searchFocused? 'search-input-focused' : ''}">
         <!-- Search -->
         <div class="search-wrapper">
             <label for="icon-search" class="sr-only">Search icons</label>
@@ -480,6 +618,58 @@
                 </button>
             {/if}
         </div>
+
+        <!-- Category Dropdown -->
+        {#if categories.length > 0}
+        <div class="category-dropdown" bind:this={dropdownEl}>
+            <button
+                type="button"
+                class="category-trigger {dropdownOpen ? 'open' : ''}"
+                onclick={openDropdown}
+                aria-haspopup="listbox"
+                aria-expanded={dropdownOpen}
+                aria-label="Filter by category"
+            >
+                {categoryLabel}
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </button>
+
+            {#if dropdownOpen}
+            <div class="dropdown-panel" role="dialog" tabindex="-1" onkeydown={handleDropdownKeydown}>
+                <input
+                    bind:this={categoryInput}
+                    bind:value={categorySearch}
+                    type="text"
+                    class="dropdown-search"
+                    placeholder="Search..."
+                    aria-label="Search categories"
+                />
+                <div class="dropdown-list" role="listbox">
+                    <button
+                        type="button"
+                        class="dropdown-item {selectedCategory === '' ? 'active' : ''}"
+                        role="option"
+                        aria-selected={selectedCategory === ''}
+                        onclick={() => selectCategory('')}
+                    >All</button>
+                    {#each filteredCategories as cat}
+                        <button
+                            type="button"
+                            class="dropdown-item {selectedCategory === cat ? 'active' : ''}"
+                            role="option"
+                            aria-selected={selectedCategory === cat}
+                            onclick={() => selectCategory(cat)}
+                        >{cat.charAt(0).toUpperCase() + cat.slice(1)}</button>
+                    {:else}
+                        <span class="dropdown-empty">No results</span>
+                    {/each}
+                </div>
+            </div>
+            {/if}
+        </div>
+        {/if}
 
         <!-- Size Slider -->
         <div class="slider-group">

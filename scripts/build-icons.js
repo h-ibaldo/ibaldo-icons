@@ -120,17 +120,13 @@ function optimizeAndCopyIcons(metadataResults) {
     // Optimize (safe mode - no path changes)
     const optimized = optimizeSVGSafe(svgContent);
 
-    // Determine category folder
-    const category = metadata.categories && metadata.categories[0] ? metadata.categories[0] : 'interface';
-    const categoryDir = path.join(OPTIMIZED_DIR, category);
-
-    // Ensure category directory exists
-    if (!fs.existsSync(categoryDir)) {
-      fs.mkdirSync(categoryDir, { recursive: true });
+    // Ensure optimized directory exists
+    if (!fs.existsSync(OPTIMIZED_DIR)) {
+      fs.mkdirSync(OPTIMIZED_DIR, { recursive: true });
     }
 
-    // Write optimized SVG
-    const outputPath = path.join(categoryDir, `${metadata.filename}.svg`);
+    // Write optimized SVG directly into optimized/ (no category subfolders)
+    const outputPath = path.join(OPTIMIZED_DIR, `${metadata.filename}.svg`);
     fs.writeFileSync(outputPath, optimized, 'utf8');
 
     copiedCount++;
