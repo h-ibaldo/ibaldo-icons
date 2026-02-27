@@ -10,6 +10,7 @@
   let size = 24;
   let weight = 1.5;
   let currentCategory = '';
+  let selectedCategory = '';
   let search = '';
   let svgCache = {};
 
@@ -154,27 +155,34 @@
         const res = await fetch('/icons-index.json?v=12');
         if (!res.ok) throw new Error('Failed to fetch index');
         const index = await res.json();
-        categories = index.categories || [];
-        console.log('Loaded categories:', categories);
-
-        // Load all icons from all categories
+        // Load all icons from folder-based structure
         allIcons = [];
-        for (const category of categories) {
-            const iconList = index.icons?.[category] || [];
-            // Add category info to each icon and mark svg as not loaded
+        const allFolderKeys = Object.keys(index.icons || {});
+        for (const folder of allFolderKeys) {
+            const iconList = index.icons?.[folder] || [];
             const categorizedIcons = iconList.map(icon => ({
                 ...icon,
-                category,
                 svg: null
             }));
             allIcons.push(...categorizedIcons);
-            iconsByCategory[category] = categorizedIcons;
+            iconsByCategory[folder] = categorizedIcons;
         }
+
+        // Derive semantic categories from union of all icon.categories arrays
+        const catSet = new Set();
+        for (const icon of allIcons) {
+            if (Array.isArray(icon.categories)) {
+                for (const c of icon.categories) catSet.add(c);
+            } else if (icon.category) {
+                catSet.add(icon.category);
+            }
+        }
+        categories = [...catSet].sort();
 
         // Sort all icons alphabetically by name after merging categories
         allIcons.sort((a, b) => a.name.localeCompare(b.name));
 
-        console.log(`Loaded ${allIcons.length} total icons from ${categories.length} categories`);
+        console.log(`Loaded ${allIcons.length} total icons, ${categories.length} semantic categories`);
 
         // Preload first batch of icons
         const preloadCount = isMobile ? 20 : 50;
@@ -368,8 +376,12 @@
   // Use all icons instead of category-specific icons
   $: currentIcons = allIcons;
 
-  // Filter icons based on search (search name, displayName, tags, and description)
+  // Filter icons based on category and search
   $: filteredIcons = currentIcons.filter(icon => {
+    if (selectedCategory) {
+      const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
+      if (!iconCats.includes(selectedCategory)) return false;
+    }
     if (!search) return true;
 
     const searchLower = search.toLowerCase();
@@ -697,7 +709,7 @@
   {/if}
 </div>
 
-<ActionsBar bind:search bind:size bind:weight {totalIcons} />
+<ActionsBar bind:search bind:size bind:weight bind:selectedCategory {totalIcons} {categories} />
 <div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden mobile-content" id="main-content" tabindex="-1">
 
   <div class="mb-8">
