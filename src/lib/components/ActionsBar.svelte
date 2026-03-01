@@ -16,6 +16,7 @@
     let searchInput;
     let showClearButton = false;
     let animationTimeout;
+    let resizeTimeout;
     let placeholderText = 'Search icons...';
 
     // Category dropdown state
@@ -120,6 +121,13 @@
         }
     }
     
+    function handleResize() {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            checkScreenSize();
+        }, 150);
+    }
+    
     function clearSearch() {
         search = '';
         // Keep focus on input after clearing
@@ -189,10 +197,7 @@
 
             windowWidth = window.innerWidth;
             placeholderText = getPlaceholderText();
-            window.addEventListener('resize', () => {
-                checkScreenSize();
-                windowWidth = window.innerWidth;
-            });
+            window.addEventListener('resize', handleResize);
             window.addEventListener('keydown', handleKeyDown);
             window.addEventListener('mousedown', handleOutsideClick);
         }
@@ -200,12 +205,15 @@
     
     onDestroy(() => {
         if (browser) {
-            window.removeEventListener('resize', checkScreenSize);
+            window.removeEventListener('resize', handleResize);
             window.removeEventListener('keydown', handleKeyDown);
             window.removeEventListener('mousedown', handleOutsideClick);
         }
         if (animationTimeout) {
             clearTimeout(animationTimeout);
+        }
+        if (resizeTimeout) {
+            clearTimeout(resizeTimeout);
         }
         // Cancel any pending animation frames
         if (sizeRaf) cancelAnimationFrame(sizeRaf);
@@ -413,100 +421,9 @@
         border-width: 0;
     }
 
-    /* Category dropdown */
-    .category-dropdown {
-        position: relative;
-    }
-
-    .category-trigger {
-        display: flex;
-        align-items: center;
-        gap: 0.375rem;
-        background: none;
-        border: none;
-        color: white;
-        font-size: 14px;
-        cursor: pointer;
-        padding: 0.375rem 0.5rem;
-        white-space: nowrap;
-        opacity: 0.7;
-        transition: opacity 0.15s ease;
-    }
-
-    .category-trigger:hover {
-        opacity: 1;
-    }
-
-    .category-trigger svg {
-        flex-shrink: 0;
-        transition: transform 0.15s ease;
-    }
-
-    .category-trigger.open svg {
-        transform: rotate(180deg);
-    }
-
-    .dropdown-panel {
-        position: absolute;
-        top: calc(100% + 6px);
-        left: 0;
-        background: #0a0a0a;
-        border: 1px solid rgba(255,255,255,0.12);
-        min-width: 160px;
-        z-index: 100;
-        overflow: hidden;
-    }
-
-    .dropdown-search {
-        width: 100%;
-        background: transparent;
-        border: none;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
-        color: white;
-        font-size: 13px;
-        padding: 0.5rem 0.75rem;
-        outline: none;
-    }
-
-    .dropdown-search::placeholder {
-        color: rgba(255,255,255,0.35);
-    }
-
-    .dropdown-list {
-        max-height: 220px;
-        overflow-y: auto;
-        scrollbar-width: thin;
-        scrollbar-color: rgba(255,255,255,0.2) transparent;
-    }
-
-    .dropdown-item {
-        display: block;
-        width: 100%;
-        text-align: left;
-        background: none;
-        border: none;
-        color: rgba(255,255,255,0.7);
-        font-size: 13px;
-        padding: 0.4rem 0.75rem;
-        cursor: pointer;
-        transition: background 0.1s ease, color 0.1s ease;
-    }
-
-    .dropdown-item:hover {
-        background: rgba(255,255,255,0.07);
-        color: white;
-    }
-
-    .dropdown-item.active {
-        color: white;
-        background: rgba(9, 0, 255, 0.35);
-    }
-
-    .dropdown-empty {
-        color: rgba(255,255,255,0.35);
-        font-size: 13px;
-        padding: 0.5rem 0.75rem;
-    }
+    /* Dropdown search placeholder + scrollbar (can't be done with standard Tailwind) */
+    .dropdown-search::placeholder { color: rgba(255,255,255,0.35); }
+    .dropdown-list { scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.2) transparent; }
 
     @media (max-width: 768px) {
         .actions-bar-container {
@@ -621,35 +538,35 @@
 
         <!-- Category Dropdown -->
         {#if categories.length > 0}
-        <div class="category-dropdown" bind:this={dropdownEl}>
+        <div class="relative" bind:this={dropdownEl}>
             <button
                 type="button"
-                class="category-trigger {dropdownOpen ? 'open' : ''}"
+                class="flex items-center gap-1.5 bg-transparent border-none text-white text-sm cursor-pointer px-2 py-1.5 whitespace-nowrap opacity-70 hover:opacity-100 transition-opacity duration-150"
                 onclick={openDropdown}
                 aria-haspopup="listbox"
                 aria-expanded={dropdownOpen}
                 aria-label="Filter by category"
             >
                 {categoryLabel}
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <svg class="shrink-0 transition-transform duration-150 {dropdownOpen ? 'rotate-180' : ''}" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>
             </button>
 
             {#if dropdownOpen}
-            <div class="dropdown-panel" role="dialog" tabindex="-1" onkeydown={handleDropdownKeydown}>
+            <div class="absolute top-[calc(100%+6px)] left-0 bg-slate-900 border border-white/10 min-w-40 z-[100] overflow-hidden" role="dialog" tabindex="-1" onkeydown={handleDropdownKeydown}>
                 <input
                     bind:this={categoryInput}
                     bind:value={categorySearch}
                     type="text"
-                    class="dropdown-search"
+                    class="dropdown-search w-full bg-transparent border-0 border-b border-white/10 text-white text-[13px] px-3 py-2 outline-none"
                     placeholder="Search..."
                     aria-label="Search categories"
                 />
-                <div class="dropdown-list" role="listbox">
+                <div class="dropdown-list max-h-[220px] overflow-y-auto" role="listbox">
                     <button
                         type="button"
-                        class="dropdown-item {selectedCategory === '' ? 'active' : ''}"
+                        class="block w-full text-left bg-transparent border-none text-[13px] px-3 py-1.5 cursor-pointer transition-colors duration-100 {selectedCategory === '' ? 'text-white bg-indigo-600/40' : 'text-white/70 hover:bg-white/[0.07] hover:text-white'}"
                         role="option"
                         aria-selected={selectedCategory === ''}
                         onclick={() => selectCategory('')}
@@ -657,13 +574,13 @@
                     {#each filteredCategories as cat}
                         <button
                             type="button"
-                            class="dropdown-item {selectedCategory === cat ? 'active' : ''}"
+                            class="block w-full text-left bg-transparent border-none text-[13px] px-3 py-1.5 cursor-pointer transition-colors duration-100 {selectedCategory === cat ? 'text-white bg-indigo-600/40' : 'text-white/70 hover:bg-white/[0.07] hover:text-white'}"
                             role="option"
                             aria-selected={selectedCategory === cat}
                             onclick={() => selectCategory(cat)}
                         >{cat.charAt(0).toUpperCase() + cat.slice(1)}</button>
                     {:else}
-                        <span class="dropdown-empty">No results</span>
+                        <span class="block text-white/35 text-[13px] px-3 py-2">No results</span>
                     {/each}
                 </div>
             </div>

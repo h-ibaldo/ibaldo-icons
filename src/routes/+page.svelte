@@ -303,12 +303,8 @@
   }
   
   onMount(async () => {
-    // Detect mobile device
+    // Detect mobile device once on mount (no resize listener needed)
     isMobile = window.innerWidth <= 768;
-    const handleResize = () => {
-      isMobile = window.innerWidth <= 768;
-    };
-    window.addEventListener('resize', handleResize);
 
     // Set up Intersection Observer for lazy loading
     // Mobile optimization: smaller root margin for better performance
@@ -369,7 +365,6 @@
       if (observer) {
         observer.disconnect();
       }
-      window.removeEventListener('resize', handleResize);
     };
   });
 
@@ -649,11 +644,11 @@
     }
   }
 
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     .hero-text-cols {
       grid-column: span 3;
     }
-  }
+  } */
 
   @media (min-width: 900px) {
     .hero-text-cols {
@@ -661,11 +656,11 @@
     }
   }
 
-  @media (min-width: 1536px) {
+  /* @media (min-width: 1536px) {
     .hero-text-cols {
       grid-column: span 3;
     }
-  }
+  } */
 
   @media (min-width: 1920px) {
     .hero-text-cols {
@@ -727,13 +722,11 @@
               >
                   <!-- Hero text block - responsive column spans -->
                   {#if !search}
-                  <div class="hero-text-cols row-span-1 sm:row-span-2 flex items-center justify-center sm:p-4 text-grid-cell">
-                    <p class="text-xs sm:text-2xl font-normal leading-relaxed text-black text-start">
+                  <div class="hero-text-cols row-span-1 sm:row-span-1 flex items-center justify-center sm:p-4 text-grid-cell">
+                    <p class="text-xs font-normal leading-relaxed text-black text-start">
                         <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
-                            <span class="font-medium">Icons are opinions.</span><br>
-                            Choose variations,<br>
-                            not conclusions.
-                        </a><br>
+                            The most complete, accessible,<br>inclusive and diverse icon library.
+                        </a>
                     </p>
                   </div>
                   {/if}
