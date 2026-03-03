@@ -133,11 +133,18 @@ export function generateSmartName(filename) {
 
   // Special case: If there's only ONE synonym group covering ALL remaining words
   // AND there are no unique distinguishing words, skip it entirely
-  // (The variant number in the base is already the distinguishing feature)
-  if (synonymGroupPositions.length === 1 && synonymGroupPositions[0].start === 0 && synonymGroupPositions[0].end === lastIndex && uniqueWordCount === 0) {
+  // EXCEPT for "add" group: add/plus/positive is a VISUAL modifier (a + symbol on the icon),
+  // so we must include it to avoid collisions (e.g. heart-1 vs heart-1-positive-add-plus)
+  const onlyOneGroup = synonymGroupPositions.length === 1 && synonymGroupPositions[0].start === 0 && synonymGroupPositions[0].end === lastIndex;
+  const addGroup = synonymGroupPositions[0]?.key === 'add';
+
+  if (onlyOneGroup && uniqueWordCount === 0 && !addGroup) {
     // Skip the entire synonym group - return just the base (e.g., Bell1, Bell2)
     // Don't add anything to endConcepts
-  } else if (synonymGroupPositions.length === 1 && synonymGroupPositions[0].start === 0 && synonymGroupPositions[0].end === lastIndex) {
+  } else if (onlyOneGroup && addGroup && uniqueWordCount === 0) {
+    // Include "Add" for add/plus/positive - distinguishes heart-1 from heart-1-positive-add-plus
+    endConcepts.push('Add');
+  } else if (onlyOneGroup) {
     // If there's only one synonym group but it has unique words mixed in (shouldn't happen with current logic)
     const group = synonymGroupPositions[0];
     const groupWords = middleWords.slice(group.start, group.end + 1);
@@ -236,6 +243,21 @@ export function generateSmartName(filename) {
  */
 function toPascalCase(word) {
   return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+}
+
+/**
+ * Convert full filename to PascalCase. Used for collision resolution - guarantees
+ * a unique name since filenames are unique. Preserves all parts of the filename.
+ * @param {string} filename - Icon filename without .svg (e.g. "heart-1-positive-add-plus")
+ * @returns {string} Full PascalCase name (e.g. "Heart1PositiveAddPlus")
+ */
+export function filenameToUniquePascalCase(filename) {
+  if (!filename || typeof filename !== 'string') return 'Icon';
+  return filename
+    .split(/[-_\s]+/)
+    .filter((w) => w.length > 0)
+    .map((w) => toPascalCase(w))
+    .join('') || 'Icon';
 }
 
 /**

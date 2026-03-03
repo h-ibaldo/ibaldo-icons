@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 import { join } from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import { generateSmartName } from './utils/smart-naming.js';
+import { generateSmartName, filenameToUniquePascalCase } from './utils/smart-naming.js';
 import { generateAINames } from './utils/ai-naming.js';
 import { generateMetadata, saveMetadata, clearOldMetadata } from './utils/ai-metadata.js';
 
@@ -126,9 +126,10 @@ async function generateIndex() {
         }
 
         // Build icon entries with generated names
-        // Track seen names to avoid duplicates
+        // Track seen names - when collision occurs, resolve with unique name (never drop icons)
         const seenNames = new Set();
-        const duplicateCount = { sameFile: 0, sameName: 0 };
+        const resolvedCollisions = [];
+        const filenameToFinalName = new Map();
 
         // Pre-load all metadata in parallel for performance
         const metadataMap = {};
@@ -146,18 +147,23 @@ async function generateIndex() {
         }
 
         for (const filename of allFilenames) {
-            const name = nameMap[filename] || generateSmartName(filename);
+            let name = nameMap[filename] || generateSmartName(filename);
             const folderCategory = filenameToCategory.get(filename);
             const path = filenameToPath.get(filename);
 
-            // Skip if we've already added an icon with this exact name
-            // (This handles both: same file in multiple categories, and different files generating same name)
+            // Resolve name collisions - never drop icons
             if (seenNames.has(name)) {
-                duplicateCount.sameName++;
-                continue;
+                let resolvedName = filenameToUniquePascalCase(filename);
+                let suffix = 1;
+                while (seenNames.has(resolvedName)) {
+                    resolvedName = filenameToUniquePascalCase(filename) + String(suffix);
+                    suffix++;
+                }
+                resolvedCollisions.push({ from: name, to: resolvedName, filename });
+                name = resolvedName;
             }
-
             seenNames.add(name);
+            filenameToFinalName.set(filename, name);
 
             // Convert PascalCase to Sentence case for display
             const displayName = name.replace(/([A-Z])/g, ' $1').trim()
@@ -215,8 +221,8 @@ async function generateIndex() {
             console.log(`\n✓ Using ${index.categories.length} semantic categories from metadata:`, index.categories.join(', '));
         }
 
-        if (duplicateCount.sameName > 0) {
-            console.log(`\n⚠️  Skipped ${duplicateCount.sameName} duplicate icon names (kept first occurrence)`);
+        if (resolvedCollisions.length > 0) {
+            console.log(`\n✓ Resolved ${resolvedCollisions.length} name collisions (no icons dropped)`);
         }
 
         // Add 'popular' category with all merged legacy icons
@@ -242,13 +248,13 @@ async function generateIndex() {
             // Clear old metadata first
             await clearOldMetadata();
 
-            // Collect all unique icons with their names
+            // Collect all unique icons with their names (includes resolved collision names)
             const iconsForMetadata = [];
             const iconMap = {}; // filename -> icon data
 
             for (const filename of allFilenames) {
-                const name = nameMap[filename];
-                if (name && seenNames.has(name) && !iconMap[filename]) {
+                const name = filenameToFinalName.get(filename);
+                if (name && !iconMap[filename]) {
                     const iconData = {
                         filename: filename + '.svg',
                         name: name,
@@ -291,10 +297,29 @@ async function generateIndex() {
             console.log('\n⚠️  Skipping metadata generation (ANTHROPIC_API_KEY not found)');
         }
 
+        // Validation: ensure every source file is in the index (no icons dropped)
+        const indexedPaths = new Set();
+        for (const icons of Object.values(index.icons)) {
+            for (const icon of icons) {
+                indexedPaths.add(icon.path);
+                indexedPaths.add(icon.filename);
+            }
+        }
+        const missingFromIndex = allFilenames.filter((f) => !indexedPaths.has(filenameToPath.get(f)));
+        if (missingFromIndex.length > 0) {
+            console.error(`\n❌ Validation failed: ${missingFromIndex.length} icons missing from index:`);
+            missingFromIndex.slice(0, 20).forEach((f) => console.error(`   - ${f}.svg`));
+            if (missingFromIndex.length > 20) {
+                console.error(`   ... and ${missingFromIndex.length - 20} more`);
+            }
+            process.exit(1);
+        }
+
         await fs.writeFile(indexPath, JSON.stringify(index, null, 2), 'utf-8');
         console.log(`✓ Index generated: ${indexPath}`);
         console.log(`✓ Total categories: ${index.categories.length}`);
-        console.log(`✓ Total icons: ${Object.values(index.icons).reduce((sum, icons) => sum + icons.length, 0)}`);
+        const totalIcons = Object.values(index.icons).reduce((sum, icons) => sum + icons.length, 0);
+        console.log(`✓ Total icons: ${totalIcons} (validated: all ${allFilenames.length} source files included)`);
 
     } catch (error) {
         console.error('Error generating index:', error);

@@ -37,6 +37,7 @@
 		"generate:index:ai": "NAMING_STRATEGY=ai node scripts/generate-icons-index.js",
 		"generate:index:algorithm": "NAMING_STRATEGY=algorithm GENERATE_METADATA=false node scripts/generate-icons-index.js",
 		"generate:index:full": "NAMING_STRATEGY=ai GENERATE_METADATA=true node scripts/generate-icons-index.js",
+		"audit:icons": "node scripts/audit-icons-index.js",
 		"process": "bash scripts/process-folder.sh",
 		"prebuild": "npm run build:icons",
 		"build": "vite build",
