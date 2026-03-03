@@ -47,12 +47,12 @@ const otp = otpIndex !== -1 ? args[otpIndex].split('=')[1] : null;
 // Package paths
 const packages = [
   {
-    name: '@ibaldo/zicon-react',
+    name: '@primor/icons-react',
     path: resolve(projectRoot, 'packages/icon-design-react'),
     buildScript: 'node scripts/build.js'
   },
   {
-    name: '@ibaldo/zicon-svelte',
+    name: '@primor/icons-svelte',
     path: resolve(projectRoot, 'packages/icon-design-svelte'),
     buildScript: 'node scripts/build.cjs'
   }
@@ -254,8 +254,8 @@ async function main() {
   const newVersion = releases[0].new; // Both packages use same version
   const commitMessage = `chore: Release v${newVersion}
 
-- @ibaldo/zicon-react v${newVersion}
-- @ibaldo/zicon-svelte v${newVersion}
+- @primor/icons-react v${newVersion}
+- @primor/icons-svelte v${newVersion}
 
 Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`;
 

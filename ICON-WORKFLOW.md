@@ -1,6 +1,6 @@
 # Icon Processing Workflow
 
-This document describes the new scalable workflow for adding and managing icons in icon.design.
+This document describes the new scalable workflow for adding and managing icons in Primor Icons.
 
 ## Philosophy
 

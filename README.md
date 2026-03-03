@@ -1,4 +1,4 @@
-# Icon.Design - Automated Icon Processing System
+# Primor Icons - Automated Icon Processing System
 
 Professional icon library with AI-powered metadata generation and automated component building.
 
@@ -281,7 +281,7 @@ MIT - See [LICENSE](./LICENSE) for details.
 - **Total Icons:** 2,441
 - **Categories:** AI-determined (interface, media, arrows, etc.)
 - **Packages:** React, Svelte
-- **Website:** icon.design
+- **Website:** primoricons.com
 
 ---
 

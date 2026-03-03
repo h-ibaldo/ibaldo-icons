@@ -1,6 +1,6 @@
-# icon.design → Lucide Competitor Strategy
+# Primor Icons → Lucide Competitor Strategy
 
-**Goal**: Transform icon.design into a serious competitor to Lucide Icons within 6 months
+**Goal**: Transform Primor Icons into a serious competitor to Lucide Icons within 6 months
 
 **Current Advantages**:
 - ✅ 2,441 icons (vs Lucide's 1,667)
@@ -54,7 +54,7 @@ packages/icon-design-svelte/
 
 **Priority: HIGHEST** - Developers need docs to use your library
 
-**Approach**: Enhance current icon.design site as the docs hub
+**Approach**: Enhance current Primor Icons site as the docs hub
 
 **Required Pages**:
 - [ ] **Home** (icon browser) - Already exists ✅
@@ -63,8 +63,8 @@ packages/icon-design-svelte/
 - [ ] **API Reference** - Props, customization options
 - [ ] **Examples** - Real-world usage patterns
 - [ ] **Guide** - Best practices, accessibility
-- [ ] **Migration** - From Lucide/Feather to icon.design
-- [ ] **Comparison** - Why choose icon.design vs competitors
+- [ ] **Migration** - From Lucide/Feather to Primor Icons
+- [ ] **Comparison** - Why choose Primor Icons vs competitors
 - [ ] **Contributing** - How to add icons or improve packages
 
 **Implementation**:
@@ -88,7 +88,7 @@ src/routes/
 - [ ] Create comprehensive root README.md
   - Project overview
   - Philosophy explanation
-  - Link to icon.design docs
+  - Link to Primor Icons docs
   - Development setup
   - Monorepo structure
 - [ ] Create CONTRIBUTING.md
@@ -240,7 +240,7 @@ packages/vscode-extension/
 ### 4.2 Content & Marketing
 
 - [ ] Write launch blog post
-- [ ] Create comparison chart (icon.design vs Lucide vs Feather)
+- [ ] Create comparison chart (Primor Icons vs Lucide vs Feather)
 - [ ] Record video tutorials for each framework
 - [ ] Submit to:
   - [awesome-icons](https://github.com/notlmn/awesome-icons)
@@ -252,14 +252,14 @@ packages/vscode-extension/
   - Dev.to
   - Twitter/X
 - [ ] Create starter templates:
-  - Next.js + icon.design
-  - Nuxt + icon.design
-  - SvelteKit + icon.design
-  - Vite + icon.design
+  - Next.js + Primor Icons
+  - Nuxt + Primor Icons
+  - SvelteKit + Primor Icons
+  - Vite + Primor Icons
 
 ### 4.3 SEO & Discoverability
 
-- [ ] Add comprehensive meta tags to icon.design
+- [ ] Add comprehensive meta tags to Primor Icons
 - [ ] Create sitemap.xml
 - [ ] Add Open Graph images
 - [ ] Submit to search engines

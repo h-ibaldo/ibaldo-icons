@@ -1,7 +1,7 @@
 {
-  "name": "@ibaldo/zicon-react",
+  "name": "@primor/icons-react",
   "version": "0.1.15",
-  "description": "React components for zicon.io - A line-based icon library with variations, not conclusions",
+  "description": "React components for Primor Icons - A line-based icon library with variations, not conclusions",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -27,14 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/h-ibaldo/zicon.git",
+    "url": "https://github.com/h-ibaldo/primor-icons.git",
     "directory": "packages/icon-design-react"
   },
   "keywords": [
     "icons",
     "react",
     "svg",
-    "zicon",
+    "primor-icons",
     "ui",
     "components"
   ],

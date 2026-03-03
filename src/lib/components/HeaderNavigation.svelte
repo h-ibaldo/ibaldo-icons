@@ -261,7 +261,7 @@
 
 <header class="flex justify-between items-center px-4 py-3 z-10 header-navigation">
     <h1 class="text-sm font-medium">
-        <a href="/" class="text-inherit no-underline hover:opacity-80">zicon.io</a>
+        <a href="/" class="text-inherit no-underline hover:opacity-80">Primor Icons</a>
     </h1>
 
     <div class="flex items-center overflow-hidden">

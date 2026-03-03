@@ -178,7 +178,7 @@ export async function generateMetadataWithAI(svgPaths) {
 function buildFilenameBasedPrompt(existingNames, filenames) {
   const filenameList = filenames.map((f, i) => `${i + 1}. ${f}`).join('\n');
 
-  return `You are generating metadata for ${filenames.length} icon(s) for a professional icon library called icon.design.
+  return `You are generating metadata for ${filenames.length} icon(s) for a professional icon library called Primor Icons.
 
 IMPORTANT: These are FILENAME-BASED metadata generations. The filenames contain keywords in order of IMPORTANCE (most important first).
 
@@ -292,7 +292,7 @@ function buildPrompt(existingNames, iconCount, filenames = []) {
     ? `\n\nFilename context (use ONLY for tags/description, NOT for component name):\n${filenames.map((f, i) => `${i + 1}. ${f}`).join('\n')}`
     : '';
 
-  return `You are analyzing ${iconCount} icon design(s) for a professional icon library called icon.design.
+  return `You are analyzing ${iconCount} icon design(s) for a professional icon library called Primor Icons.
 
 For EACH icon image provided, generate metadata in this JSON array format:
 

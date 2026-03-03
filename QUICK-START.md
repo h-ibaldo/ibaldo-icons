@@ -145,7 +145,7 @@ import PlayButton from '@icon-design/svelte/icons/PlayButton.svelte';
 
 **4. Optimized SVG** (`static/icons/optimized/media/play-button.svg`)
 
-**5. Website Entry** (automatically appears on icon.design)
+**5. Website Entry** (automatically appears on Primor Icons)
 
 ---
 

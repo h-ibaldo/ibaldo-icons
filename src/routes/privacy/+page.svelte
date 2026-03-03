@@ -4,7 +4,7 @@
     <p class="text-xs text-gray-500 mb-5">Last updated: December 2025</p>
     
     <p class="mb-4">
-    <span class="font-medium">zicon.io</span> respects your privacy and collects only the minimum data necessary to operate.
+    <span class="font-medium">Primor Icons</span> respects your privacy and collects only the minimum data necessary to operate.
     </p>
     
     <h2 class="text-lg font-medium mb-1">Data collected</h2>
@@ -38,7 +38,7 @@
     </p>
     
     <p>
-    <span class="font-medium">zicon.io</span> does not sell, rent, or share personal data with third parties.
+    <span class="font-medium">Primor Icons</span> does not sell, rent, or share personal data with third parties.
     </p>
     
     <h2 class="text-lg font-medium mb-1 mt-4">Analytics</h2>
@@ -81,6 +81,6 @@
     <hr>
     <br>
     <p>
-    <span class="font-medium">zicon.io</span> operates under Brazilian LGPD and European GDPR principles.
+    <span class="font-medium">Primor Icons</span> operates under Brazilian LGPD and European GDPR principles.
     </p>
 </div>

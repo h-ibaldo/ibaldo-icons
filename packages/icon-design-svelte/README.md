@@ -1,15 +1,15 @@
-# @ibaldo/zicon-svelte
+# @primor/icons-svelte (Primor Icons)
 
-Svelte components for [zicon.io](https://zicon.io) — A line-based icon library with variations, not conclusions.
+Svelte components for [Primor Icons](https://primoricons.com) — A line-based icon library with variations, not conclusions.
 
 ## Installation
 
 ```bash
-npm install @ibaldo/zicon-svelte
+npm install @primor/icons-svelte
 # or
-yarn add @ibaldo/zicon-svelte
+yarn add @primor/icons-svelte
 # or
-pnpm add @ibaldo/zicon-svelte
+pnpm add @primor/icons-svelte
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ pnpm add @ibaldo/zicon-svelte
 
 ```svelte
 <script>
-  import { UserHead1, AddPlus1, Settings } from '@ibaldo/zicon-svelte';
+  import { UserHead1, AddPlus1, Settings } from '@primor/icons-svelte';
 </script>
 
 <UserHead1 />
@@ -30,7 +30,7 @@ pnpm add @ibaldo/zicon-svelte
 
 ```svelte
 <script>
-  import UserHead1 from '@ibaldo/zicon-svelte/icons/UserHead1.svelte';
+  import UserHead1 from '@primor/icons-svelte/icons/UserHead1.svelte';
 </script>
 
 <UserHead1 />
@@ -89,8 +89,8 @@ This package is compatible with Svelte 3, 4, and 5.
 
 > Icons are opinions. Choose variations, not conclusions.
 
-zicon.io offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
+Primor Icons offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
 
 ## License
 
-MIT © [Henrique Ibaldo](https://zicon.io)
+MIT © Henrique Ibaldo

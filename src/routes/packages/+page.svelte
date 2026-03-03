@@ -2,18 +2,18 @@
 
     <h1 class="text-2xl font-medium mb-4">Packages</h1>
 
-    <p class="mb-4">zicon.io is available as framework components for React and Svelte.</p>
+    <p class="mb-4">Primor Icons is available as framework components for React and Svelte.</p>
     <p class="mb-4">Each package ships the full icon set as individual components — tree-shakeable, typed, and ready to use.</p>
 
     <h2 class="font-medium mb-2 mt-8">React</h2>
 
     <p class="mb-4">
-        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/zicon-react</code>
+        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@primor/icons-react</code>
     </p>
 
-    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @ibaldo/zicon-react</code></pre>
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @primor/icons-react</code></pre>
 
-    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>import &#123; UserHead1, AddPlus1, Settings &#125; from '@ibaldo/zicon-react';
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>import &#123; UserHead1, AddPlus1, Settings &#125; from '@primor/icons-react';
 
 function App() &#123;
   return (
@@ -28,13 +28,13 @@ function App() &#123;
     <h2 class="font-medium mb-2 mt-8">Svelte</h2>
 
     <p class="mb-4">
-        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/zicon-svelte</code>
+        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@primor/icons-svelte</code>
     </p>
 
-    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @ibaldo/zicon-svelte</code></pre>
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @primor/icons-svelte</code></pre>
 
     <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>&lt;script&gt;
-  import &#123; UserHead1, AddPlus1, Settings &#125; from '@ibaldo/zicon-svelte';
+  import &#123; UserHead1, AddPlus1, Settings &#125; from '@primor/icons-svelte';
 &lt;/script&gt;
 
 &lt;UserHead1 /&gt;
@@ -85,18 +85,18 @@ function App() &#123;
     <p class="mb-4">Import only what you use.</p>
 
     <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>// Named import — bundle includes only this icon
-import &#123; PlayButton &#125; from '@ibaldo/zicon-react';
+import &#123; PlayButton &#125; from '@primor/icons-react';
 
 // Path import — explicit, same result
-import PlayButton from '@ibaldo/zicon-react/icons/PlayButton';</code></pre>
+import PlayButton from '@primor/icons-react/icons/PlayButton';</code></pre>
 
     <p class="mb-4">Both approaches are tree-shakeable. Named imports are preferred.</p>
 
     <h2 class="font-medium mb-2 mt-8">NPM</h2>
 
     <p class="mb-4">
-        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/zicon-react" target="_blank">@ibaldo/zicon-react</a> ·
-        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/zicon-svelte" target="_blank">@ibaldo/zicon-svelte</a>
+        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@primor/icons-react" target="_blank">@primor/icons-react</a> ·
+        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@primor/icons-svelte" target="_blank">@primor/icons-svelte</a>
     </p>
 
 </div>

@@ -1,15 +1,15 @@
-# @ibaldo/zicon-react
+# @primor/icons-react (Primor Icons)
 
-React components for [zicon.io](https://zicon.io) — A line-based icon library with variations, not conclusions.
+React components for [Primor Icons](https://primoricons.com) — A line-based icon library with variations, not conclusions.
 
 ## Installation
 
 ```bash
-npm install @ibaldo/zicon-react
+npm install @primor/icons-react
 # or
-yarn add @ibaldo/zicon-react
+yarn add @primor/icons-react
 # or
-pnpm add @ibaldo/zicon-react
+pnpm add @primor/icons-react
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ pnpm add @ibaldo/zicon-react
 ### Import individual icons (recommended for tree-shaking)
 
 ```jsx
-import { UserHead1, AddPlus1, Settings } from '@ibaldo/zicon-react';
+import { UserHead1, AddPlus1, Settings } from '@primor/icons-react';
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
 ### Import from specific path
 
 ```jsx
-import UserHead1 from '@ibaldo/zicon-react/icons/UserHead1';
+import UserHead1 from '@primor/icons-react/icons/UserHead1';
 ```
 
 ## Props
@@ -79,7 +79,7 @@ All other props are passed to the underlying `<svg>` element.
 
 ```jsx
 import { useRef } from 'react';
-import { UserHead1 } from '@ibaldo/zicon-react';
+import { UserHead1 } from '@primor/icons-react';
 
 function App() {
   const iconRef = useRef(null);
@@ -97,8 +97,8 @@ function App() {
 
 > Icons are opinions. Choose variations, not conclusions.
 
-zicon.io offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
+Primor Icons offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
 
 ## License
 
-MIT © [Henrique Ibaldo](https://zicon.io)
+MIT © Henrique Ibaldo

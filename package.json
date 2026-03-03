@@ -1,5 +1,5 @@
 {
-	"name": "zicon",
+	"name": "primor-icons",
 	"version": "0.1.0",
 	"description": "A comprehensive line-based icon library with 2,441+ icons, AI-powered naming, and React/Svelte packages",
 	"type": "module",
@@ -15,13 +15,13 @@
 	],
 	"author": "Henrique Ibaldo",
 	"license": "MIT",
-	"homepage": "https://zicon.io",
+	"homepage": "https://primoricons.com",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/h-ibaldo/zicon.git"
+		"url": "https://github.com/h-ibaldo/primor-icons.git"
 	},
 	"bugs": {
-		"url": "https://github.com/h-ibaldo/zicon/issues"
+		"url": "https://github.com/h-ibaldo/primor-icons/issues"
 	},
 	"scripts": {
 		"dev": "vite dev",
