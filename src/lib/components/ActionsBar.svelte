@@ -233,7 +233,7 @@
         /* transition: all 0.3s ease; */
         margin: auto;
         max-width: 100%;
-        width: 660px;
+        width: 750px;
     }
 
     .actions-bar {
@@ -255,11 +255,11 @@
 
     .search-wrapper {
         position: relative;
-        flex: 0 0 200px;
+        flex: 0 0 180px;
     }
 
     .category-wrapper {
-        flex: 0 0 200px;
+        flex: 0 0 180px;
     }
 
     .search-icon {
@@ -327,10 +327,6 @@
         flex: 1;
     }
 
-    .search-input-focused .slider-group {
-        opacity: 0;
-        pointer-events: none;
-    }
     
     .slider-label {
         color: white;
@@ -482,10 +478,6 @@
         .slider {
             max-width: none;
         }
-        .search-input-focused .slider-group {
-            opacity: 1;
-        }
-
         /* Range input thumb size for smaller screens */
         .range-input::-webkit-slider-thumb {
             width: 42px;
@@ -510,7 +502,7 @@
 </style>
 
 <div class="actions-bar-container bg-slate-900">
-    <div class="actions-bar {searchFocused? 'search-input-focused' : ''}">
+    <div class="actions-bar">
         <!-- Search + Category row -->
         <div class="search-category-row">
 

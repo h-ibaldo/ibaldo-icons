@@ -719,9 +719,8 @@
                   <div class="hero-text-cols row-span-1 sm:row-span-1 flex items-center justify-start sm:p-4 text-grid-cell">
                     <p class="text-sm font-medium leading-relaxed text-black text-start">
                         <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
-                            Icons made with conviction.
-                            <br>{totalIcons.toLocaleString()} line icons for designers 
-                            <br>who refuse to settle.
+                            Icons made with conviction. <br>Multiple designs per concept. <br>For designers who refuse to settle.
+                            <!-- <br>{totalIcons.toLocaleString()} line icons for designers  -->
                         </a>
                     </p>
                   </div>

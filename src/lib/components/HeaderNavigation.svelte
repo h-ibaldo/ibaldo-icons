@@ -260,13 +260,13 @@
 </style>
 
 <header class="flex justify-between items-center px-4 py-3 z-10 header-navigation">
-    <h1 class="text-sm font-bold">
+    <h1 class="text-sm font-semibold">
         <a href="/" class="text-inherit no-underline hover:opacity-80">Primor Icons</a>
     </h1>
 
     <div class="flex items-center overflow-hidden">
 
-        <nav class="space-x-4 text-sm desktop-only nav-links {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
+        <nav class="space-x-4 text-sm desktop-only nav-links font-medium {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
             <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
             <a href="/about" class="text-indigo-500 hover:text-indigo-600">About</a>
             <a href="/packages" class="text-indigo-500 hover:text-indigo-600">Packages</a>
