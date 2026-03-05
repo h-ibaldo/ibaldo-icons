@@ -246,9 +246,20 @@
         min-height: 3rem;
     }
 
+    .search-category-row {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex: 0 0 auto;
+    }
+
     .search-wrapper {
         position: relative;
-        flex: 1 1 240px;
+        flex: 0 0 200px;
+    }
+
+    .category-wrapper {
+        flex: 0 0 200px;
     }
 
     .search-icon {
@@ -298,7 +309,6 @@
         outline: none;
         font-size: 14px;
         transition: background-color 0.3s ease;
-        transition-delay: 0.1s;
     }
 
     .search-input:focus {
@@ -315,15 +325,11 @@
         align-items: center;
         gap: 0.5rem;
         flex: 1;
-        transition: opacity 0.3s ease;
-        transition-delay: 0.1s;
     }
 
     .search-input-focused .slider-group {
         opacity: 0;
         pointer-events: none;
-        flex: 0 0 0;
-        overflow: hidden;
     }
     
     .slider-label {
@@ -445,9 +451,17 @@
             margin: 0;
         }
 
-        .search-wrapper {
-            flex: 1 1 100%;
+        .search-category-row {
             width: 100%;
+            gap: 0;
+        }
+
+        .search-wrapper {
+            flex: 0 0 50%;
+        }
+
+        .category-wrapper {
+            flex: 0 0 50%;
         }
         
         .search-input {
@@ -497,6 +511,9 @@
 
 <div class="actions-bar-container bg-slate-900">
     <div class="actions-bar {searchFocused? 'search-input-focused' : ''}">
+        <!-- Search + Category row -->
+        <div class="search-category-row">
+
         <!-- Search -->
         <div class="search-wrapper">
             <label for="icon-search" class="sr-only">Search icons</label>
@@ -541,7 +558,7 @@
 
         <!-- Category Dropdown -->
         {#if categories.length > 0}
-        <div class="relative" bind:this={dropdownEl}>
+        <div class="category-wrapper relative" bind:this={dropdownEl}>
             <button
                 type="button"
                 class="flex items-center gap-1.5 bg-transparent border-none text-white text-sm cursor-pointer px-2 py-1.5 whitespace-nowrap opacity-70 hover:opacity-100 transition-opacity duration-150"
@@ -590,6 +607,8 @@
             {/if}
         </div>
         {/if}
+
+        </div><!-- end search-category-row -->
 
         <!-- Size Slider -->
         <div class="slider-group">
