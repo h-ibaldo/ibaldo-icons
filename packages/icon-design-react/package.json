@@ -39,7 +39,7 @@
     "components"
   ],
   "author": "Henrique Ibaldo",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "peerDependencies": {
     "react": ">=16.8.0"
   },

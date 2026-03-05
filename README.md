@@ -272,7 +272,7 @@ This project is not currently accepting external contributions.
 
 ## 📄 License
 
-MIT - See [LICENSE](./LICENSE) for details.
+Primor Icons License — See [LICENSE](./LICENSE) for details.
 
 ---
 

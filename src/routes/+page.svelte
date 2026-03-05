@@ -722,17 +722,19 @@
               >
                   <!-- Hero text block - responsive column spans -->
                   {#if !search}
-                  <div class="hero-text-cols row-span-1 sm:row-span-1 flex items-center justify-center sm:p-4 text-grid-cell">
-                    <p class="text-xs font-normal leading-relaxed text-black text-start">
+                  <div class="hero-text-cols row-span-1 sm:row-span-1 flex items-center justify-start sm:p-4 text-grid-cell">
+                    <p class="text-sm font-normal leading-relaxed text-black text-start">
                         <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
-                            The most complete, accessible,<br>inclusive and diverse icon library.
+                            Icons made with conviction.
+                            <br>{totalIcons.toLocaleString()} line icons for designers 
+                            <br>who refuse to settle.
                         </a>
                     </p>
                   </div>
                   {/if}
 
                   {#each filteredIcons as icon, index (icon.path)}
-                      {#if index === 8 && !search}
+                      {#if index === 8 && !search && false}
                         <!-- Attribution text - positioned based on grid columns -->
                         <!-- 4 col: 2,4-4,4 | 6 col: 5,3-6,3 | 8 col: 7,3-8,3 | 12 col: 10,4-11,4 -->
                         <div class="col-span-2 row-span-2 col-start-3 row-start-4

@@ -270,8 +270,7 @@
             <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
             <a href="/about" class="text-indigo-500 hover:text-indigo-600">About</a>
             <a href="/packages" class="text-indigo-500 hover:text-indigo-600">Packages</a>
-            <a href="/license" class="text-indigo-500 hover:text-indigo-600">License</a>
-            <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600">Request icon</a>
+            <!-- <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600">Request icon</a> -->
         </nav>
         
         <button

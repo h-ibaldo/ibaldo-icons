@@ -2,10 +2,10 @@
 
 <h1 class="text-2xl font-medium mb-1">Terms of Service</h1>
 
-<p class="text-xs text-gray-500 mb-5">Last updated: December 2025</p>
+<p class="text-xs text-gray-500 mb-5">Last updated: March 2026</p>
 
 <p class="mb-4">
-<span class="font-medium">Primor Icons</span> provides an open icon library made available under the MIT License.
+<span class="font-medium">Primor Icons</span> provides an icon library made available under the Primor Icons License Agreement.
 </p>
 
 <p class="mb-4">
@@ -13,7 +13,7 @@ All icons and related materials are provided <strong>"as is"</strong>, without w
 </p>
 
 <p class="mb-4">
-Use of the icons is governed solely by the MIT License. You are responsible for ensuring that your use complies with applicable laws and regulations.
+Use of the icons is governed solely by the <a href="/license" class="underline hover:text-gray-900">Primor Icons License Agreement</a>. You are responsible for ensuring that your use complies with applicable laws and regulations.
 </p>
 
 <p class="mb-4">

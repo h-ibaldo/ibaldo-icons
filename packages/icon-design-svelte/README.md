@@ -93,4 +93,4 @@ Primor Icons offers multiple interpretations of the same concept rather than a s
 
 ## License
 
-MIT © Henrique Ibaldo
+Primor Icons License © Henrique Ibaldo

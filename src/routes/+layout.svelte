@@ -14,7 +14,7 @@
 
 <footer class="mt-20 pb-8 px-4 sm:px-14 text-start leading-[2] w-100 flex items-center justify-start text-xs text-gray-600">
 	<p>
-		Designed by Henrique Ibaldo · MIT License · <a href="/privacy" class="hover:text-gray-900 underline">Privacy</a> · <a href="/terms" class="hover:text-gray-900 underline">Terms</a>
+		Designed by Henrique Ibaldo · <a href="/license" class="hover:text-gray-900 underline">License</a> · <a href="/privacy" class="hover:text-gray-900 underline">Privacy</a> · <a href="/terms" class="hover:text-gray-900 underline">Terms</a>
 	</p>
 </footer>
 </div>
