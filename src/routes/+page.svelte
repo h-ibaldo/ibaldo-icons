@@ -1,5 +1,5 @@
 <script>
-  import { onMount, afterUpdate } from 'svelte';
+  import { onMount } from 'svelte';
   import ActionsBar from '$lib/components/ActionsBar.svelte';
 
   let iconsByCategory = {};
@@ -393,42 +393,43 @@
            (icon.description && icon.description.toLowerCase().includes(searchLower));
   });
 
-  // Track previous search to detect changes
-  let previousSearch = '';
-  let previousFilteredLength = 0;
+  // When search or category changes, preload first batch of newly visible icons.
+  // Intentionally does NOT reference filteredIcons to avoid a reactive cycle.
+  $: preloadOnFilterChange(search, selectedCategory);
 
-  // When filtered icons change (e.g., due to search), preload first batch
-  afterUpdate(() => {
-    // Check if search changed or filtered icons changed
-    if (search !== previousSearch || filteredIcons.length !== previousFilteredLength) {
-      previousSearch = search;
-      previousFilteredLength = filteredIcons.length;
+  function preloadOnFilterChange(currentSearch, currentCategory) {
+    const preloadCount = isMobile ? 15 : 50;
+    const searchLower = currentSearch.toLowerCase();
 
-      // Mobile optimization: smaller preload batch for search results
-      const preloadCount = isMobile ? 15 : 50;
-
-      // Load first batch of filtered icons that don't have SVG loaded yet
-      // This ensures icons are ready when they become visible
-      const iconsToLoad = filteredIcons
-        .filter(icon => !icon.svg && icon.path)
-        .slice(0, preloadCount);
-
-      if (iconsToLoad.length > 0) {
-        // Use requestIdleCallback to avoid blocking UI on mobile
-        const loadIcons = () => {
-          Promise.all(iconsToLoad.map(icon => ensureSVGLoaded(icon))).then(() => {
-            allIcons = [...allIcons];
-          });
-        };
-
-        if (isMobile && 'requestIdleCallback' in window) {
-          requestIdleCallback(loadIcons, { timeout: 200 });
-        } else {
-          setTimeout(loadIcons, 0);
+    const iconsToLoad = allIcons
+      .filter(icon => {
+        if (!icon.path || icon.svg) return false;
+        if (currentCategory) {
+          const cats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
+          if (!cats.includes(currentCategory)) return false;
         }
+        if (!currentSearch) return true;
+        if (icon.searchText) return icon.searchText.includes(searchLower);
+        return icon.name.toLowerCase().includes(searchLower) ||
+          (icon.displayName && icon.displayName.toLowerCase().includes(searchLower)) ||
+          (icon.tags && icon.tags.some(tag => tag.toLowerCase().includes(searchLower)));
+      })
+      .slice(0, preloadCount);
+
+    if (iconsToLoad.length > 0) {
+      const loadIcons = () => {
+        Promise.all(iconsToLoad.map(icon => ensureSVGLoaded(icon))).then(() => {
+          allIcons = [...allIcons];
+        });
+      };
+
+      if (isMobile && 'requestIdleCallback' in window) {
+        requestIdleCallback(loadIcons, { timeout: 200 });
+      } else {
+        setTimeout(loadIcons, 0);
       }
     }
-  });
+  }
 
   $: totalIcons = allIcons.length;
 </script>
@@ -462,9 +463,7 @@
     justify-content: center;
     position: relative;
     cursor: pointer;
-    /* CSS containment for performance - isolates layout/style/paint calculations */
-    contain: layout style paint;
-    /* Content visibility - skip rendering off-screen icons */
+    contain: layout style;
     content-visibility: auto;
     contain-intrinsic-size: 100px 100px;
   }
@@ -523,11 +522,6 @@
 
   /* Mobile-specific optimizations */
   @media (max-width: 768px) {
-    .icon-container {
-      /* Stronger containment on mobile */
-      contain: strict;
-    }
-
     .icon-skeleton-frame {
       animation-duration: 1s;
     }
@@ -749,10 +743,14 @@
                         </div>
                       {/if}
                       <div class="flex flex-col items-center icon-item" role="listitem">
-                          <div 
-                              class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-100 active:bg-slate-300" 
+                          <div
+                              class="icon-container rounded-lg p-1"
                               use:lazyLoadIcon={icon}
                               on:click={() => handleIconDownload(icon)}
+                              on:pointerenter={(e) => e.currentTarget.style.backgroundColor = '#f1f5f9'}
+                              on:pointerleave={(e) => e.currentTarget.style.backgroundColor = ''}
+                              on:pointerdown={(e) => e.currentTarget.style.backgroundColor = '#cbd5e1'}
+                              on:pointerup={(e) => e.currentTarget.style.backgroundColor = '#f1f5f9'}
                               role="button"
                               tabindex="0"
                               aria-label="Download {icon.name} icon"

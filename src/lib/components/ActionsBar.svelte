@@ -124,7 +124,9 @@
     function handleResize() {
         clearTimeout(resizeTimeout);
         resizeTimeout = setTimeout(() => {
+            windowWidth = window.innerWidth;
             checkScreenSize();
+            placeholderText = getPlaceholderText();
         }, 150);
     }
     
@@ -200,7 +202,7 @@
             placeholderText = getPlaceholderText();
             window.addEventListener('resize', handleResize);
             window.addEventListener('keydown', handleKeyDown);
-            window.addEventListener('mousedown', handleOutsideClick);
+            window.addEventListener('mousedown', handleOutsideClick, { passive: true });
         }
     });
     
@@ -246,7 +248,7 @@
 
     .search-wrapper {
         position: relative;
-        flex: 0 0 240px;
+        flex: 1 1 240px;
     }
 
     .search-icon {
@@ -295,16 +297,13 @@
         padding: 0.5rem 0.5rem 0.5rem 2.5rem;
         outline: none;
         font-size: 14px;
-        transition: width 0.3s ease, background-color 0.3s ease;
-        will-change: width, background-color;
-    }
-     
-    .search-input:focus {
-        width: calc(660px - 0.5rem);
-        background-color: #0700CC;
+        transition: background-color 0.3s ease;
         transition-delay: 0.1s;
-        padding-right: 2rem; /* Make room for clear button */
-        /* Background color change is sufficient for accessibility */
+    }
+
+    .search-input:focus {
+        background-color: #0700CC;
+        padding-right: 2rem;
     }
 
     .search-input::placeholder {
@@ -322,6 +321,9 @@
 
     .search-input-focused .slider-group {
         opacity: 0;
+        pointer-events: none;
+        flex: 0 0 0;
+        overflow: hidden;
     }
     
     .slider-label {
