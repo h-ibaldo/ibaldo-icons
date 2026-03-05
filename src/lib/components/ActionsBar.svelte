@@ -173,7 +173,8 @@
     function getPlaceholderText() {
         if (!browser) return 'Search icons...';
         const showShortcut = windowWidth > 767;
-        const baseText = totalIcons > 0 ? `Search ${totalIcons} icons...` : 'Search icons...';
+        const baseText = 'Search icons...';
+        // const baseText = totalIcons > 0 ? `Search ${totalIcons} icons...` : 'Search icons...';
         if (!showShortcut) {
             return baseText;
         }

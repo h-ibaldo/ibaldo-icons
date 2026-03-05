@@ -1,11 +1,11 @@
 <div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-sm">
 
-<h1 class="text-2xl font-medium mb-1">Terms of Service</h1>
+<h1 class="text-2xl font-bold mb-1">Terms of Service</h1>
 
 <p class="text-xs text-gray-500 mb-5">Last updated: March 2026</p>
 
 <p class="mb-4">
-<span class="font-medium">Primor Icons</span> provides an icon library made available under the Primor Icons License Agreement.
+<span class="font-bold">Primor Icons</span> provides an icon library made available under the Primor Icons License Agreement.
 </p>
 
 <p class="mb-4">

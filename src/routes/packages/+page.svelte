@@ -1,11 +1,11 @@
 <div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-2xl">
 
-    <h1 class="text-2xl font-medium mb-4">Packages</h1>
+    <h1 class="text-2xl font-bold mb-4">Packages</h1>
 
     <p class="mb-4">Primor Icons is available as framework components for React and Svelte.</p>
     <p class="mb-4">Each package ships the full icon set as individual components — tree-shakeable, typed, and ready to use.</p>
 
-    <h2 class="font-medium mb-2 mt-8">React</h2>
+    <h2 class="font-bold mb-2 mt-8">React</h2>
 
     <p class="mb-4">
         <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@primor/icons-react</code>
@@ -25,7 +25,7 @@ function App() &#123;
   );
 &#125;</code></pre>
 
-    <h2 class="font-medium mb-2 mt-8">Svelte</h2>
+    <h2 class="font-bold mb-2 mt-8">Svelte</h2>
 
     <p class="mb-4">
         <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@primor/icons-svelte</code>
@@ -41,7 +41,7 @@ function App() &#123;
 &lt;AddPlus1 size=&#123;32&#125; /&gt;
 &lt;Settings color="#333" strokeWidth=&#123;2&#125; /&gt;</code></pre>
 
-    <h2 class="font-medium mb-2 mt-8">Props</h2>
+    <h2 class="font-bold mb-2 mt-8">Props</h2>
 
     <p class="mb-4">All icons accept the same props across both packages.</p>
 
@@ -49,10 +49,10 @@ function App() &#123;
         <table class="text-base w-full border-collapse">
             <thead>
                 <tr class="border-b border-gray-200">
-                    <th class="text-left py-2 pr-6 font-medium">Prop</th>
-                    <th class="text-left py-2 pr-6 font-medium">Type</th>
-                    <th class="text-left py-2 pr-6 font-medium">Default</th>
-                    <th class="text-left py-2 font-medium">Description</th>
+                    <th class="text-left py-2 pr-6 font-bold">Prop</th>
+                    <th class="text-left py-2 pr-6 font-bold">Type</th>
+                    <th class="text-left py-2 pr-6 font-bold">Default</th>
+                    <th class="text-left py-2 font-bold">Description</th>
                 </tr>
             </thead>
             <tbody class="text-gray-700">
@@ -80,7 +80,7 @@ function App() &#123;
 
     <p class="mb-4">Additional props are forwarded to the underlying <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">&lt;svg&gt;</code> element.</p>
 
-    <h2 class="font-medium mb-2 mt-8">Tree-shaking</h2>
+    <h2 class="font-bold mb-2 mt-8">Tree-shaking</h2>
 
     <p class="mb-4">Import only what you use.</p>
 
@@ -92,7 +92,7 @@ import PlayButton from '@primor/icons-react/icons/PlayButton';</code></pre>
 
     <p class="mb-4">Both approaches are tree-shakeable. Named imports are preferred.</p>
 
-    <h2 class="font-medium mb-2 mt-8">NPM</h2>
+    <h2 class="font-bold mb-2 mt-8">NPM</h2>
 
     <p class="mb-4">
         <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@primor/icons-react" target="_blank">@primor/icons-react</a> ·

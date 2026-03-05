@@ -3,6 +3,10 @@
 	import HeaderNavigation from '$lib/components/HeaderNavigation.svelte';
 	let { children } = $props();
 </script>
+
+<svelte:head>
+	<link rel="stylesheet" href="https://use.typekit.net/kmw8mks.css">
+</svelte:head>
 <div class="min-h-screen flex flex-col justify-between">
 <div>
     <!-- Skip to main content link for keyboard users -->
