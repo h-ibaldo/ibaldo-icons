@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Network3",
+  "name": "CloudNetworkNodeTall",
   "description": "A cloud icon with network topology representing advanced cloud networking architecture",
   "tags": [
     "cloud",
@@ -8,12 +8,13 @@
     "connectivity",
     "nodes",
     "link",
-    "distributed"
+    "distributed",
+    "node",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "development",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud network node tall",
+  "aliases": [
+    "Cloud2Network3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

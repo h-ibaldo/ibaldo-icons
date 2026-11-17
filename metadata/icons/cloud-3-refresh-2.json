@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3RefreshAlt",
+  "name": "CloudRefreshCornerRound",
   "description": "An alternative cloud icon with refresh symbol for cloud data synchronization and updates.",
   "tags": [
     "cloud",
@@ -8,12 +8,13 @@
     "synchronize",
     "update",
     "reload",
-    "restore"
+    "restore",
+    "corner",
+    "round"
   ],
   "categories": [
-    "interface",
     "files",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud refresh corner round",
+  "aliases": [
+    "Cloud3RefreshAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

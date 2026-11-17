@@ -11,7 +11,8 @@
     "status"
   ],
   "categories": [
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud sad",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

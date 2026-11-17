@@ -1,21 +1,25 @@
 {
-  "name": "Bell5Sounding2",
-  "displayName": "Bell 5 sounding 2",
+  "name": "BellRingDash",
+  "displayName": "Bell ring dash",
   "originalTitle": "Bell 5 Notification Alarm Sounding Alert 2",
   "description": "Notification bell with enhanced sound waves showing active alerting. Used to indicate notifications are actively ringing with stronger visual emphasis.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
     "sounding",
+    "alert",
     "ringing",
     "active",
     "waves",
     "loud",
-    "emphasis"
+    "emphasis",
+    "ring",
+    "dash"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.788Z"
+  "generatedAt": "2026-02-15T00:53:19.788Z",
+  "aliases": [
+    "Bell5Sounding2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,21 +1,23 @@
 {
-  "name": "Bell5Clock",
-  "displayName": "Bell 5 clock",
+  "name": "BellClockDash",
+  "displayName": "Bell clock dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Clock",
   "description": "Notification bell combined with clock symbol for scheduled alerts or time-based notifications. Used for reminders, alarms, or timed notifications.",
   "tags": [
     "bell",
+    "notification",
+    "alarm",
+    "alert",
     "clock",
     "scheduled",
     "timer",
     "reminder",
-    "alarm",
     "time",
-    "notification"
+    "dash"
   ],
   "categories": [
-    "interface",
-    "time"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.787Z"
+  "generatedAt": "2026-02-15T00:53:19.787Z",
+  "aliases": [
+    "Bell5Clock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

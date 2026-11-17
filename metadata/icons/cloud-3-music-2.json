@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Music2",
+  "name": "CloudMusicDoubleRound",
   "description": "An alternative cloud music icon variant for cloud audio storage and music service applications",
   "tags": [
     "cloud",
@@ -7,13 +7,14 @@
     "audio",
     "note",
     "streaming",
-    "variant",
     "media",
-    "sound"
+    "sound",
+    "double",
+    "round"
   ],
   "categories": [
-    "interface",
-    "media"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud music double round",
+  "aliases": [
+    "Cloud3Music2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

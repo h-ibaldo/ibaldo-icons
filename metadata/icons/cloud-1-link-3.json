@@ -1,18 +1,18 @@
 {
-  "name": "CloudLinkVariant",
+  "name": "CloudLinkVertical",
   "description": "A variant cloud icon with a link symbol providing additional cloud linking capabilities",
   "tags": [
     "cloud",
     "link",
     "sharing",
     "connection",
-    "variant",
     "style",
-    "option"
+    "option",
+    "vertical"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud link vertical",
+  "aliases": [
+    "CloudLinkVariant"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

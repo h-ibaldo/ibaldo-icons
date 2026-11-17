@@ -1,17 +1,18 @@
 {
-  "name": "Cloud2CloseAlt",
+  "name": "CloudXTall",
   "description": "An alternative cloud icon with an X symbol for closing cloud operations",
   "tags": [
     "cloud",
     "close",
-    "x",
-    "dismiss",
+    "delete",
     "remove",
+    "dismiss",
     "cancel",
-    "exit"
+    "exit",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud X tall",
+  "aliases": [
+    "Cloud2CloseAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

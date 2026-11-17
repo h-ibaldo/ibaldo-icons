@@ -1,5 +1,5 @@
 {
-  "name": "Cloud1Download2",
+  "name": "CloudDownloadLarge",
   "description": "A cloud icon with a downward arrow representing an alternative variant of cloud download",
   "tags": [
     "cloud",
@@ -9,11 +9,11 @@
     "retrieve",
     "fetch",
     "get",
-    "pull"
+    "pull",
+    "large"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud download large",
+  "aliases": [
+    "Cloud1Download2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

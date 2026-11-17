@@ -1,5 +1,5 @@
 {
-  "name": "CloudSmile",
+  "name": "CloudHappy",
   "description": "A cloud icon with a smiling face indicating positive cloud service status or happy backup state",
   "tags": [
     "cloud",
@@ -13,8 +13,8 @@
     "mood"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud happy",
+  "aliases": [
+    "CloudSmile"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

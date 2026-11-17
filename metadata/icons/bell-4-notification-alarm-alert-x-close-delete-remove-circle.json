@@ -1,21 +1,25 @@
 {
-  "name": "Bell4XCircle",
-  "displayName": "Bell 4 x circle",
+  "name": "BellXCircleFlat",
+  "displayName": "Bell X circle flat",
   "originalTitle": "Bell 4 Notification Alarm Alert X Close Delete Remove Circle",
   "description": "Notification bell with X in circle for dismissing or deleting notifications. Used to remove or clear notification alerts.",
   "tags": [
     "bell",
+    "notification",
+    "alarm",
+    "alert",
+    "close",
     "delete",
     "remove",
     "dismiss",
     "clear",
-    "close",
-    "notification",
-    "cancel"
+    "cancel",
+    "circle",
+    "flat"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.786Z"
+  "generatedAt": "2026-02-15T00:53:19.786Z",
+  "aliases": [
+    "Bell4XCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

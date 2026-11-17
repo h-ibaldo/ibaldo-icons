@@ -1,21 +1,24 @@
 {
-  "name": "Bell4Z",
-  "displayName": "Bell 4 z",
+  "name": "BellSnoozeFlat",
+  "displayName": "Bell snooze flat",
   "originalTitle": "Bell 4 Notification Alarm Alert Z",
   "description": "Notification bell with Z symbol indicating sleep or snooze mode. Used for snoozing notifications or quiet hours functionality.",
   "tags": [
     "bell",
-    "snooze",
+    "notification",
+    "alarm",
+    "alert",
     "sleep",
+    "snooze",
     "quiet",
     "pause",
-    "notification",
     "rest",
-    "delay"
+    "delay",
+    "flat"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.786Z"
+  "generatedAt": "2026-02-15T00:53:19.786Z",
+  "aliases": [
+    "Bell4Z"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

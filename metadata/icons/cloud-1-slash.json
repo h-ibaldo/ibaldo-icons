@@ -1,20 +1,22 @@
 {
-  "name": "CloudSlash",
+  "name": "CloudBan",
   "description": "A cloud icon with a slash or prohibition line indicating offline mode or cloud service unavailable",
   "tags": [
     "cloud",
     "slash",
+    "forbidden",
+    "blocked",
     "offline",
     "unavailable",
     "disabled",
-    "blocked",
     "no",
     "disconnect",
-    "error"
+    "error",
+    "ban"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud ban",
+  "aliases": [
+    "CloudSlash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "CloudAlert4",
+  "name": "CloudTriangleTall",
   "description": "A cloud icon with an alert symbol for cloud service notifications or errors",
   "tags": [
     "cloud",
@@ -8,10 +8,12 @@
     "notification",
     "error",
     "attention",
-    "caution"
+    "caution",
+    "triangle",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud triangle tall",
+  "aliases": [
+    "CloudAlert4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

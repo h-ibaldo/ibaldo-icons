@@ -1,18 +1,18 @@
 {
-  "name": "Cloud3X",
+  "name": "CloudXRound",
   "description": "A cloud icon with an X symbol variant for closure or cancellation actions",
   "tags": [
     "cloud",
-    "x",
     "close",
+    "delete",
+    "remove",
     "cancel",
     "dismiss",
-    "remove",
-    "delete"
+    "round"
   ],
   "categories": [
-    "interface",
-    "weather"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud X round",
+  "aliases": [
+    "Cloud3X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

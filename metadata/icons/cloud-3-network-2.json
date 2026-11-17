@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Network",
+  "name": "CloudNetworkDotsRound",
   "description": "A cloud icon with network connectivity symbolizing cloud-based networking and distributed systems.",
   "tags": [
     "cloud",
@@ -7,13 +7,14 @@
     "connectivity",
     "internet",
     "distributed",
-    "cloud computing",
-    "connection"
+    "cloud-computing",
+    "connection",
+    "dots",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud network dots round",
+  "aliases": [
+    "Cloud3Network"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

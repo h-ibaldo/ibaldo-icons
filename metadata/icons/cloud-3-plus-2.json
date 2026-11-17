@@ -1,19 +1,20 @@
 {
-  "name": "Cloud3PlusAlt",
+  "name": "CloudPlusCornerRound",
   "description": "An alternative cloud icon with plus symbol for adding items to cloud services or expanding capacity.",
   "tags": [
     "cloud",
-    "plus",
     "add",
+    "create",
+    "plus",
     "expand",
     "capacity",
     "storage",
-    "create"
+    "corner",
+    "round"
   ],
   "categories": [
-    "interface",
     "files",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud plus corner round",
+  "aliases": [
+    "Cloud3PlusAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

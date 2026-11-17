@@ -1,17 +1,16 @@
 {
-  "name": "CloudClose2",
+  "name": "CloudX",
   "description": "An alternative cloud icon with an X symbol in a different style",
   "tags": [
     "cloud",
     "close",
-    "x",
-    "dismiss",
-    "remove",
     "delete",
-    "variant"
+    "remove",
+    "dismiss"
   ],
   "categories": [
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud X",
+  "aliases": [
+    "CloudClose2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

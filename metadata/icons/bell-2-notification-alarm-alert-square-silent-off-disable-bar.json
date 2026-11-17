@@ -1,21 +1,25 @@
 {
-  "name": "Bell2SquareSilent",
-  "displayName": "Bell 2 square silent",
+  "name": "BellSquareOff",
+  "displayName": "Bell square off",
   "originalTitle": "Bell 2 Notification Alarm Alert Square Silent Off Disable Bar",
   "description": "Square-styled muted notification bell indicating disabled alerts. Shows when notification sounds and alerts are turned off.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "silent",
-    "muted",
+    "disable",
+    "bar",
     "disabled",
+    "mute",
+    "muted",
     "square",
-    "off",
-    "quiet"
+    "off"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.782Z"
+  "generatedAt": "2026-02-15T00:53:19.782Z",
+  "aliases": [
+    "Bell2SquareSilent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,18 +1,20 @@
 {
-  "name": "Cloud3Minus29",
+  "name": "CloudMinusCornerRound",
   "description": "An alternative cloud minus icon variant for cloud deletion or storage reduction actions",
   "tags": [
     "cloud",
-    "minus",
     "remove",
+    "subtract",
+    "minus",
     "delete",
-    "variant",
     "decrease",
     "reduce",
-    "subtract"
+    "corner",
+    "round"
   ],
   "categories": [
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud minus corner round",
+  "aliases": [
+    "Cloud3Minus29"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Synchronize2",
+  "name": "CloudSyncCornerTall",
   "description": "An alternative cloud synchronize icon variant with different visual styling for cloud sync operations.",
   "tags": [
     "cloud",
@@ -9,10 +9,11 @@
     "update",
     "data",
     "storage",
-    "variant"
+    "corner",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud sync corner tall",
+  "aliases": [
+    "Cloud2Synchronize2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

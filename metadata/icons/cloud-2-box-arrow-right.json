@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2BoxRight",
+  "name": "CloudSquareArrowRightTall",
   "description": "A cloud icon with a box and rightward arrow showing export or send to external storage",
   "tags": [
     "cloud",
@@ -8,11 +8,13 @@
     "right",
     "export",
     "send",
-    "transfer"
+    "transfer",
+    "square",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud square arrow right tall",
+  "aliases": [
+    "Cloud2BoxRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

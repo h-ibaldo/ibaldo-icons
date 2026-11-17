@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3UploadAlt",
+  "name": "CloudArrowUpRound",
   "description": "A cloud icon with an upward arrow for uploading files to cloud storage",
   "tags": [
     "cloud",
@@ -8,11 +8,11 @@
     "upload",
     "send",
     "export",
-    "transfer"
+    "transfer",
+    "round"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow up round",
+  "aliases": [
+    "Cloud3UploadAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

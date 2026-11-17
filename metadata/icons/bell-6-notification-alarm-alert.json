@@ -1,21 +1,22 @@
 {
-  "name": "Bell6",
-  "displayName": "Bell 6",
+  "name": "BellWide",
+  "displayName": "Bell wide",
   "originalTitle": "Bell 6 Notification Alarm Alert",
   "description": "Standard notification bell icon for alerts and reminders. Used to indicate notification features, alert settings, or to draw attention to new messages.",
   "tags": [
     "bell",
     "notification",
-    "alert",
     "alarm",
+    "alert",
     "reminder",
     "notify",
     "message",
-    "sound"
+    "sound",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.790Z"
+  "generatedAt": "2026-02-15T00:53:19.790Z",
+  "aliases": [
+    "Bell6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

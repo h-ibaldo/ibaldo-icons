@@ -1,21 +1,25 @@
 {
-  "name": "Bell3Check",
-  "displayName": "Bell 3 check",
+  "name": "BellCheckKnob",
+  "displayName": "Bell check knob",
   "originalTitle": "Bell 3 Notification Alarm Alert Check Checked",
   "description": "Notification bell with checkmark showing acknowledged or read notifications. Indicates successful alert confirmation or completion.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
+    "checked",
+    "done",
+    "success",
+    "verified",
     "check",
     "acknowledged",
     "read",
-    "confirmed",
-    "complete",
-    "success"
+    "confirmed"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.783Z"
+  "generatedAt": "2026-02-15T00:53:19.783Z",
+  "aliases": [
+    "Bell3Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

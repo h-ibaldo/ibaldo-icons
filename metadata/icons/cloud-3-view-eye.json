@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3View",
+  "name": "CloudEyeRound",
   "description": "A cloud icon with an eye symbol indicating viewing or accessing cloud files and data",
   "tags": [
     "cloud",
@@ -9,10 +9,11 @@
     "access",
     "visibility",
     "preview",
-    "observe"
+    "observe",
+    "round"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud eye round",
+  "aliases": [
+    "Cloud3View"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

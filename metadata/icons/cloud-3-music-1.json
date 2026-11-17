@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Music1",
+  "name": "CloudMusicRound",
   "description": "A cloud icon with a music note representing cloud-based music streaming, audio storage, or media services",
   "tags": [
     "cloud",
@@ -9,11 +9,12 @@
     "streaming",
     "media",
     "sound",
-    "entertainment"
+    "entertainment",
+    "round"
   ],
   "categories": [
-    "interface",
-    "media"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud music round",
+  "aliases": [
+    "Cloud3Music1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

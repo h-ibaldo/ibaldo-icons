@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Music2",
+  "name": "CloudMusicDoubleTall",
   "description": "A cloud icon with a musical note in an alternate style for cloud music services",
   "tags": [
     "cloud",
@@ -8,12 +8,13 @@
     "streaming",
     "media",
     "song",
-    "sound"
+    "sound",
+    "double",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "media",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud music double tall",
+  "aliases": [
+    "Cloud2Music2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

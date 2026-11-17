@@ -1,21 +1,24 @@
 {
-  "name": "Bell5Sounding1",
-  "displayName": "Bell 5 sounding 1",
+  "name": "BellRingLinesDash",
+  "displayName": "Bell ring lines dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Sounding 1",
   "description": "Animated notification bell with sound waves indicating active ringing. Used to show notifications are currently sounding or actively alerting.",
   "tags": [
     "bell",
     "notification",
-    "ringing",
+    "alarm",
+    "alert",
     "sounding",
+    "ringing",
     "active",
     "waves",
     "audio",
-    "alarm"
+    "ring",
+    "dash"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.787Z"
+  "generatedAt": "2026-02-15T00:53:19.787Z",
+  "aliases": [
+    "Bell5Sounding1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

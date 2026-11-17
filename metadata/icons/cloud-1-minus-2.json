@@ -1,18 +1,16 @@
 {
-  "name": "CloudRemoveAlt",
+  "name": "CloudMinus",
   "description": "An alternative cloud icon with a minus symbol for varied cloud removal operations",
   "tags": [
     "cloud",
-    "minus",
     "remove",
-    "delete",
-    "variant",
     "subtract",
-    "alternate"
+    "minus",
+    "delete"
   ],
   "categories": [
-    "interface",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud minus",
+  "aliases": [
+    "CloudRemoveAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Upload",
+  "name": "CloudArrowRightRound",
   "description": "A cloud icon with a rightward arrow for uploading to cloud services",
   "tags": [
     "cloud",
@@ -7,11 +7,11 @@
     "right",
     "upload",
     "send",
-    "export"
+    "export",
+    "round"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow right round",
+  "aliases": [
+    "Cloud3Upload"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

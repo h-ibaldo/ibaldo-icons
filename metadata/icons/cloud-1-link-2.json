@@ -1,18 +1,17 @@
 {
-  "name": "CloudLinkAlt",
+  "name": "CloudLinkDiagonal",
   "description": "An alternative cloud icon with a link symbol for varied cloud connectivity options",
   "tags": [
     "cloud",
     "link",
     "sharing",
     "connection",
-    "variant",
-    "alternate",
-    "connectivity"
+    "connectivity",
+    "diagonal"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud link diagonal",
+  "aliases": [
+    "CloudLinkAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

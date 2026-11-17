@@ -1,19 +1,21 @@
 {
-  "name": "Cloud3Slash",
+  "name": "CloudBanRound",
   "description": "A cloud icon with a slash or prohibition mark indicating cloud service unavailability or disabled access.",
   "tags": [
     "cloud",
     "slash",
+    "forbidden",
+    "blocked",
     "disabled",
     "unavailable",
     "offline",
-    "blocked",
-    "restricted"
+    "restricted",
+    "ban",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "security"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud ban round",
+  "aliases": [
+    "Cloud3Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

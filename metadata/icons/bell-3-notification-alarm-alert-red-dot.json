@@ -1,21 +1,24 @@
 {
-  "name": "Bell3Dot",
-  "displayName": "Bell 3 dot",
+  "name": "BellDotKnob",
+  "displayName": "Bell dot knob",
   "originalTitle": "Bell 3 Notification Alarm Alert Red Dot",
   "description": "Notification bell with red indicator dot showing active alerts or unread notifications. Commonly used to signal pending notifications requiring attention.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
     "alert",
     "unread",
+    "badge",
     "active",
     "pending",
     "indicator",
-    "dot"
+    "dot",
+    "knob"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.784Z"
+  "generatedAt": "2026-02-15T00:53:19.784Z",
+  "aliases": [
+    "Bell3Dot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

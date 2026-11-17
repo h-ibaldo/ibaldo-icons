@@ -1,21 +1,23 @@
 {
-  "name": "Bell1Sounding2",
-  "displayName": "Bell 1 sounding 2",
+  "name": "BellRingRim",
+  "displayName": "Bell ring rim",
   "originalTitle": "Bell 1 Notification Alarm Sounding Alert 2",
   "description": "Notification bell with motion lines showing active ringing or sounding. Used to represent active alerts or ongoing notification sounds.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
     "sounding",
+    "alert",
     "ringing",
     "active",
     "motion",
-    "alert",
-    "alarm"
+    "ring",
+    "rim"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.781Z"
+  "generatedAt": "2026-02-15T00:53:19.781Z",
+  "aliases": [
+    "Bell1Sounding2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,21 +1,25 @@
 {
-  "name": "Bell6XCircle",
-  "displayName": "Bell 6 x circle",
+  "name": "BellXCircleWide",
+  "displayName": "Bell X circle wide",
   "originalTitle": "Bell 6 Notification Alarm Alert X Close Delete Remove Circle",
   "description": "Notification bell with an X mark in a circle, indicating the ability to dismiss or delete notifications. Used to remove alerts or disable notification features.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "close",
-    "dismiss",
     "delete",
     "remove",
+    "dismiss",
     "cancel",
-    "clear"
+    "clear",
+    "circle",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.789Z"
+  "generatedAt": "2026-02-15T00:53:19.789Z",
+  "aliases": [
+    "Bell6XCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

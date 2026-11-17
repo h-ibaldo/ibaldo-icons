@@ -1,18 +1,20 @@
 {
-  "name": "Cloud1Check",
+  "name": "CloudCheckCorner",
   "description": "A cloud icon with a check mark indicating cloud verification, validation, or successful completion",
   "tags": [
     "cloud",
+    "done",
+    "success",
+    "verified",
     "check",
     "checkmark",
-    "verified",
     "validated",
-    "success",
     "approved",
-    "confirm"
+    "confirm",
+    "corner"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud check corner",
+  "aliases": [
+    "Cloud1Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

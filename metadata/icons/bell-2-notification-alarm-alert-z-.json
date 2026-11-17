@@ -1,21 +1,23 @@
 {
-  "name": "Bell2Z",
-  "displayName": "Bell 2 z",
+  "name": "BellSnooze",
+  "displayName": "Bell snooze",
   "originalTitle": "Bell 2 Notification Alarm Alert Z",
   "description": "Sleeping notification bell with Z symbol indicating snooze or sleep mode. Used for postponing or pausing notifications.",
   "tags": [
     "bell",
     "notification",
-    "snooze",
+    "alarm",
+    "alert",
     "sleep",
+    "snooze",
     "pause",
     "postpone",
     "quiet",
     "rest"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.783Z"
+  "generatedAt": "2026-02-15T00:53:19.783Z",
+  "aliases": [
+    "Bell2Z"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

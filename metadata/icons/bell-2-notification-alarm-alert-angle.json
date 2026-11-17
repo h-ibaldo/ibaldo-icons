@@ -1,20 +1,20 @@
 {
-  "name": "Bell2Angle",
-  "displayName": "Bell 2 angle",
+  "name": "BellTilted",
+  "displayName": "Bell tilted",
   "originalTitle": "Bell 2 Notification Alarm Alert Angle",
   "description": "Angled notification bell icon providing a different visual perspective. Used for notifications and alerts with a distinctive tilted appearance.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
     "alert",
     "angle",
     "tilted",
-    "alarm",
     "notify"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.781Z"
+  "generatedAt": "2026-02-15T00:53:19.781Z",
+  "aliases": [
+    "Bell2Angle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

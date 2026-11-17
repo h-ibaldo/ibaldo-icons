@@ -1,18 +1,21 @@
 {
-  "name": "Cloud2Checked",
+  "name": "CloudCheckTall",
   "description": "A cloud icon with a checked box symbol representing completed cloud tasks or selections",
   "tags": [
     "cloud",
     "checked",
+    "done",
+    "success",
+    "verified",
     "check",
     "completed",
     "selected",
     "approved",
-    "done"
+    "tall"
   ],
   "categories": [
-    "interface",
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud check tall",
+  "aliases": [
+    "Cloud2Checked"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,16 +1,16 @@
 {
-  "name": "CloudAdd",
+  "name": "CloudPlus",
   "description": "A cloud icon with a plus symbol for adding cloud-based items or storage",
   "tags": [
     "cloud",
     "add",
+    "create",
     "plus",
     "upload",
-    "storage",
-    "create"
+    "storage"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud plus",
+  "aliases": [
+    "CloudAdd"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

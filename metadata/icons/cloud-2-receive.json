@@ -1,19 +1,19 @@
 {
-  "name": "Cloud2Receive",
+  "name": "CloudArrowDownTall",
   "description": "A cloud icon with a receive arrow indicating downloading or receiving data from cloud",
   "tags": [
     "cloud",
     "receive",
     "download",
-    "download",
     "transfer",
     "arrow",
-    "incoming"
+    "incoming",
+    "down",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "arrows",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow down tall",
+  "aliases": [
+    "Cloud2Receive"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

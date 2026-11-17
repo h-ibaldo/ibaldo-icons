@@ -1,21 +1,22 @@
 {
-  "name": "Bell4",
-  "displayName": "Bell 4",
+  "name": "BellFlat",
+  "displayName": "Bell flat",
   "originalTitle": "Bell 4 Notification Alarm Alert",
   "description": "Standard notification bell icon for alerts and reminders. Used to indicate notification settings or alert users to new messages.",
   "tags": [
     "bell",
     "notification",
-    "alert",
     "alarm",
+    "alert",
     "reminder",
     "notify",
     "sound",
-    "message"
+    "message",
+    "flat"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.786Z"
+  "generatedAt": "2026-02-15T00:53:19.786Z",
+  "aliases": [
+    "Bell4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "CloudNetworkThird",
+  "name": "CloudNetworkNode",
   "description": "A cloud icon with network pathways representing cloud service architecture or data routing",
   "tags": [
     "cloud",
@@ -8,11 +8,12 @@
     "routing",
     "connection",
     "infrastructure",
-    "service"
+    "service",
+    "node"
   ],
   "categories": [
-    "interface",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud network node",
+  "aliases": [
+    "CloudNetworkThird"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,18 +1,21 @@
 {
-  "name": "Cloud3Checked",
+  "name": "CloudCheckRound",
   "description": "A cloud icon with a checked or filled checkmark showing cloud completion or cloud task status",
   "tags": [
     "cloud",
     "checked",
+    "done",
+    "success",
+    "verified",
     "checkmark",
     "complete",
-    "done",
-    "verified",
-    "status"
+    "status",
+    "check",
+    "round"
   ],
   "categories": [
-    "interface",
-    "business"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud check round",
+  "aliases": [
+    "Cloud3Checked"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

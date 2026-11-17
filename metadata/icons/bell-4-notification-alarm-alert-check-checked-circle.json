@@ -1,21 +1,25 @@
 {
-  "name": "Bell4CheckCircle",
-  "displayName": "Bell 4 check circle",
+  "name": "BellCheckCircleFlat",
+  "displayName": "Bell check circle flat",
   "originalTitle": "Bell 4 Notification Alarm Alert Check Checked Circle",
   "description": "Notification bell with checkmark in circle indicating confirmed or acknowledged alerts. Used to show notifications have been read or processed.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
+    "checked",
+    "done",
+    "success",
+    "verified",
     "confirmed",
     "acknowledged",
-    "checked",
     "read",
-    "processed",
-    "complete"
+    "processed"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.785Z"
+  "generatedAt": "2026-02-15T00:53:19.785Z",
+  "aliases": [
+    "Bell4CheckCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

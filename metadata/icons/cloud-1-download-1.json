@@ -1,5 +1,5 @@
 {
-  "name": "Cloud1Download1",
+  "name": "CloudDownload",
   "description": "A cloud icon with a downward arrow representing the first variant of cloud download functionality",
   "tags": [
     "cloud",
@@ -12,8 +12,7 @@
     "pull"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud download",
+  "aliases": [
+    "Cloud1Download1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

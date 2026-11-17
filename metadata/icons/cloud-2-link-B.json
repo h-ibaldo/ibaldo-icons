@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2LinkB",
+  "name": "CloudLinkDiagonalTall",
   "description": "A cloud icon with a link or chain symbol in an alternate style representing cloud connectivity and data linking.",
   "tags": [
     "cloud",
@@ -8,11 +8,13 @@
     "connection",
     "connectivity",
     "sharing",
-    "integration"
+    "integration",
+    "diagonal",
+    "tall"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud link diagonal tall",
+  "aliases": [
+    "Cloud2LinkB"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

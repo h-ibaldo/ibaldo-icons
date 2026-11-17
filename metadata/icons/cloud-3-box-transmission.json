@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3BoxTransmit",
+  "name": "CloudSquareSignalRound",
   "description": "A cloud icon with a box and transmission symbol for cloud data transfer",
   "tags": [
     "cloud",
@@ -8,12 +8,14 @@
     "transfer",
     "send",
     "network",
-    "data"
+    "data",
+    "square",
+    "signal",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud square signal round",
+  "aliases": [
+    "Cloud3BoxTransmit"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

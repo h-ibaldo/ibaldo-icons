@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Sad",
+  "name": "CloudSadTall",
   "description": "A cloud icon with a sad or unhappy face expression indicating cloud service error or offline status.",
   "tags": [
     "cloud",
@@ -9,10 +9,11 @@
     "down",
     "unhappy",
     "failure",
-    "status"
+    "status",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud sad tall",
+  "aliases": [
+    "Cloud2Sad"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

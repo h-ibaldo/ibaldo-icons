@@ -1,21 +1,25 @@
 {
-  "name": "Bell5CircleSilent",
-  "displayName": "Bell 5 circle silent",
+  "name": "BellCircleOffDash",
+  "displayName": "Bell circle off dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Circle Silent Off Disable Bar",
   "description": "Circled notification bell with silent indicator showing disabled notifications. Used to represent muted or turned off notification settings.",
   "tags": [
     "bell",
+    "notification",
+    "alarm",
+    "alert",
     "silent",
+    "disable",
+    "bar",
     "disabled",
+    "mute",
     "muted",
     "off",
-    "circle",
-    "notification",
-    "quiet"
+    "circle"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.787Z"
+  "generatedAt": "2026-02-15T00:53:19.787Z",
+  "aliases": [
+    "Bell5CircleSilent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

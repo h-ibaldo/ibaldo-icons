@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2DownloadAlt",
+  "name": "CloudDownloadLargeTall",
   "description": "A cloud icon with a download arrow variant showing alternative cloud download style",
   "tags": [
     "cloud",
@@ -7,12 +7,12 @@
     "arrow",
     "down",
     "retrieve",
-    "alternate",
-    "variant"
+    "large",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud download large tall",
+  "aliases": [
+    "Cloud2DownloadAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

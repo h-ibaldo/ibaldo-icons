@@ -1,21 +1,22 @@
 {
-  "name": "Bell2Clock",
-  "displayName": "Bell 2 clock",
+  "name": "BellClock",
+  "displayName": "Bell clock",
   "originalTitle": "Bell 2 Notification Alarm Alert Clock",
   "description": "Notification bell combined with clock indicating scheduled alerts or time-based notifications. Used for reminders and timed notifications.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "clock",
     "scheduled",
     "timer",
     "reminder",
-    "time",
-    "alarm"
+    "time"
   ],
   "categories": [
-    "interface",
-    "time"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.781Z"
+  "generatedAt": "2026-02-15T00:53:19.781Z",
+  "aliases": [
+    "Bell2Clock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Lock",
+  "name": "CloudLockTall",
   "description": "A cloud icon with a lock symbol representing secure cloud storage, encryption, or protected data access.",
   "tags": [
     "cloud",
@@ -8,11 +8,12 @@
     "encryption",
     "secure",
     "protected",
-    "privacy"
+    "privacy",
+    "tall"
   ],
   "categories": [
-    "security",
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud lock tall",
+  "aliases": [
+    "Cloud2Lock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

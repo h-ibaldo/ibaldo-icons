@@ -1,18 +1,19 @@
 {
-  "name": "CloudReceive",
+  "name": "CloudArrowDown",
   "description": "A cloud icon with a download arrow indicating receiving or downloading files from cloud storage",
   "tags": [
     "cloud",
     "receive",
     "download",
-    "download",
     "transfer",
     "storage",
-    "input"
+    "input",
+    "arrow",
+    "down"
   ],
   "categories": [
-    "interface",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow down",
+  "aliases": [
+    "CloudReceive"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

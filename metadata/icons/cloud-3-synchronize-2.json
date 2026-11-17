@@ -1,20 +1,19 @@
 {
-  "name": "Cloud3SyncAlt",
+  "name": "CloudSyncCornerRound",
   "description": "An alternate variation of the cloud synchronize icon with different styling for visual distinction",
   "tags": [
     "cloud",
     "synchronize",
     "sync",
     "refresh",
-    "alternate",
-    "variant",
     "update",
-    "transfer"
+    "transfer",
+    "corner",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud sync corner round",
+  "aliases": [
+    "Cloud3SyncAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

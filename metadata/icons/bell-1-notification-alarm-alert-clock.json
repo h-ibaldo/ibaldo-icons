@@ -1,21 +1,23 @@
 {
-  "name": "Bell1Clock",
-  "displayName": "Bell 1 clock",
+  "name": "BellClockRim",
+  "displayName": "Bell clock rim",
   "originalTitle": "Bell 1 Notification Alarm Alert Clock",
   "description": "Notification bell with clock symbol for scheduled alerts or time-based notifications. Used for reminders and timed notifications.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "clock",
     "scheduled",
     "reminder",
     "time",
-    "alarm",
-    "timer"
+    "timer",
+    "rim"
   ],
   "categories": [
-    "interface",
-    "time"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.780Z"
+  "generatedAt": "2026-02-15T00:53:19.780Z",
+  "aliases": [
+    "Bell1Clock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

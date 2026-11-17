@@ -1,5 +1,5 @@
 {
-  "name": "Cloud1Envelope",
+  "name": "CloudMail",
   "description": "A cloud icon combined with an envelope representing cloud email, messaging, or communication services",
   "tags": [
     "cloud",
@@ -12,8 +12,7 @@
     "contact"
   ],
   "categories": [
-    "interface",
-    "communication",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud mail",
+  "aliases": [
+    "Cloud1Envelope"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

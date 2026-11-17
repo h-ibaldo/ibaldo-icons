@@ -1,18 +1,21 @@
 {
-  "name": "Cloud2Check",
+  "name": "CloudCheckCornerTall",
   "description": "A cloud icon with a checkmark indicating successful cloud operation or verification",
   "tags": [
     "cloud",
+    "done",
+    "success",
+    "verified",
     "check",
     "checkmark",
-    "verified",
-    "success",
     "complete",
-    "confirmed"
+    "confirmed",
+    "corner",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "security"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud check corner tall",
+  "aliases": [
+    "Cloud2Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

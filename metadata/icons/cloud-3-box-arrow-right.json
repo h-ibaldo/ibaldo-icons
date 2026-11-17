@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3BoxUpload",
+  "name": "CloudSquareArrowRightRound",
   "description": "A cloud icon with a box and rightward arrow for sending cloud packages",
   "tags": [
     "cloud",
@@ -9,11 +9,12 @@
     "upload",
     "send",
     "package",
-    "transmission"
+    "transmission",
+    "square",
+    "round"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud square arrow right round",
+  "aliases": [
+    "Cloud3BoxUpload"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

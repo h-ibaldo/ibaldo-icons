@@ -1,5 +1,5 @@
 {
-  "name": "Cloud1Bulb",
+  "name": "CloudLightbulb",
   "description": "A cloud icon with a lightbulb representing cloud-based ideas, insights, or smart services",
   "tags": [
     "cloud",
@@ -12,8 +12,7 @@
     "solution"
   ],
   "categories": [
-    "interface",
-    "business",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud lightbulb",
+  "aliases": [
+    "Cloud1Bulb"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }
