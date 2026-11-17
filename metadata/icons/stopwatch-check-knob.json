@@ -1,0 +1,36 @@
+{
+  "name": "StopwatchCheckKnob",
+  "displayName": "Stopwatch check knob",
+  "description": "Stopwatch with a floating top bar and a knob on the right and a check mark on the dial.",
+  "tags": [
+    "stopwatch",
+    "timer",
+    "time",
+    "chronometer",
+    "check",
+    "done",
+    "complete",
+    "knob"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Timer done"
+  },
+  "filename": "stopwatch-check-knob",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ClockFast",
+  "displayName": "Clock fast",
+  "description": "Clock face with hands pointing to twelve and three and speed lines on the left.",
+  "tags": [
+    "clock",
+    "time",
+    "hour",
+    "fast",
+    "speed",
+    "quick",
+    "express",
+    "delivery"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Fast"
+  },
+  "filename": "clock-fast",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

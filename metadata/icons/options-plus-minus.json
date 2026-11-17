@@ -1,0 +1,37 @@
+{
+  "name": "OptionsPlusMinus",
+  "displayName": "Options plus minus",
+  "description": "Circled plus sign above a circled minus sign.",
+  "tags": [
+    "options",
+    "choice",
+    "states",
+    "select",
+    "plus",
+    "minus",
+    "add",
+    "remove",
+    "zoom"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Add or remove"
+  },
+  "filename": "options-plus-minus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

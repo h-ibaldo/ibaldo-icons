@@ -116,6 +116,50 @@ const AirplaySignalLarge = require('./icons/AirplaySignalLarge.js');
 const AirplayWifi = require('./icons/AirplayWifi.js');
 const AirplaySignalSquare = require('./icons/AirplaySignalSquare.js');
 const AirplaySignalSquareLarge = require('./icons/AirplaySignalSquareLarge.js');
+const Alarm = require('./icons/Alarm.js');
+const AlarmAlert = require('./icons/AlarmAlert.js');
+const AlarmAlertArc = require('./icons/AlarmAlertArc.js');
+const AlarmAlertBare = require('./icons/AlarmAlertBare.js');
+const AlarmAlertStraight = require('./icons/AlarmAlertStraight.js');
+const AlarmArc = require('./icons/AlarmArc.js');
+const AlarmBan = require('./icons/AlarmBan.js');
+const AlarmBanArc = require('./icons/AlarmBanArc.js');
+const AlarmBanBare = require('./icons/AlarmBanBare.js');
+const AlarmBanStraight = require('./icons/AlarmBanStraight.js');
+const AlarmBare = require('./icons/AlarmBare.js');
+const AlarmBolt = require('./icons/AlarmBolt.js');
+const AlarmBoltArc = require('./icons/AlarmBoltArc.js');
+const AlarmBoltBare = require('./icons/AlarmBoltBare.js');
+const AlarmBoltStraight = require('./icons/AlarmBoltStraight.js');
+const AlarmCheck = require('./icons/AlarmCheck.js');
+const AlarmCheckArc = require('./icons/AlarmCheckArc.js');
+const AlarmCheckBare = require('./icons/AlarmCheckBare.js');
+const AlarmCheckStraight = require('./icons/AlarmCheckStraight.js');
+const AlarmMinus = require('./icons/AlarmMinus.js');
+const AlarmMinusArc = require('./icons/AlarmMinusArc.js');
+const AlarmMinusBare = require('./icons/AlarmMinusBare.js');
+const AlarmMinusStraight = require('./icons/AlarmMinusStraight.js');
+const AlarmPie = require('./icons/AlarmPie.js');
+const AlarmPieArc = require('./icons/AlarmPieArc.js');
+const AlarmPieBare = require('./icons/AlarmPieBare.js');
+const AlarmPieStraight = require('./icons/AlarmPieStraight.js');
+const AlarmPlus = require('./icons/AlarmPlus.js');
+const AlarmPlusArc = require('./icons/AlarmPlusArc.js');
+const AlarmPlusBare = require('./icons/AlarmPlusBare.js');
+const AlarmPlusStraight = require('./icons/AlarmPlusStraight.js');
+const AlarmQuestion = require('./icons/AlarmQuestion.js');
+const AlarmQuestionArc = require('./icons/AlarmQuestionArc.js');
+const AlarmQuestionBare = require('./icons/AlarmQuestionBare.js');
+const AlarmQuestionStraight = require('./icons/AlarmQuestionStraight.js');
+const AlarmSnooze = require('./icons/AlarmSnooze.js');
+const AlarmSnoozeArc = require('./icons/AlarmSnoozeArc.js');
+const AlarmSnoozeBare = require('./icons/AlarmSnoozeBare.js');
+const AlarmSnoozeStraight = require('./icons/AlarmSnoozeStraight.js');
+const AlarmStraight = require('./icons/AlarmStraight.js');
+const AlarmX = require('./icons/AlarmX.js');
+const AlarmXArc = require('./icons/AlarmXArc.js');
+const AlarmXBare = require('./icons/AlarmXBare.js');
+const AlarmXStraight = require('./icons/AlarmXStraight.js');
 const CircleMotion = require('./icons/CircleMotion.js');
 const CircleMotionDotted = require('./icons/CircleMotionDotted.js');
 const DiamondMotion = require('./icons/DiamondMotion.js');
@@ -269,6 +313,8 @@ const ArrowCounterclockwiseBottom = require('./icons/ArrowCounterclockwiseBottom
 const ArrowCounterclockwiseBottomOff = require('./icons/ArrowCounterclockwiseBottomOff.js');
 const ArrowCounterclockwise = require('./icons/ArrowCounterclockwise.js');
 const ArrowCounterclockwiseOff = require('./icons/ArrowCounterclockwiseOff.js');
+const ArrowClockwiseCheckCircleSmall = require('./icons/ArrowClockwiseCheckCircleSmall.js');
+const ArrowClockwiseCheckSquare = require('./icons/ArrowClockwiseCheckSquare.js');
 const ArrowClockwiseFifteenDoubleChevron = require('./icons/ArrowClockwiseFifteenDoubleChevron.js');
 const ArrowClockwiseFive = require('./icons/ArrowClockwiseFive.js');
 const ArrowClockwiseFiveChevron = require('./icons/ArrowClockwiseFiveChevron.js');
@@ -624,6 +670,7 @@ const BookmarkStackMinusEdge = require('./icons/BookmarkStackMinusEdge.js');
 const BookmarkStackPlusEdge = require('./icons/BookmarkStackPlusEdge.js');
 const BookmarkStackXEdge = require('./icons/BookmarkStackXEdge.js');
 const BookmarkStackTop = require('./icons/BookmarkStackTop.js');
+const BowlingBall = require('./icons/BowlingBall.js');
 const BoxLidClasp = require('./icons/BoxLidClasp.js');
 const BoxLid = require('./icons/BoxLid.js');
 const BoxLidSlot = require('./icons/BoxLidSlot.js');
@@ -692,6 +739,20 @@ const WindowTrafficLightPlain = require('./icons/WindowTrafficLightPlain.js');
 const WindowSquare = require('./icons/WindowSquare.js');
 const BrowserContent = require('./icons/BrowserContent.js');
 const BrowserSidebar = require('./icons/BrowserSidebar.js');
+const Building = require('./icons/Building.js');
+const BuildingAnnex = require('./icons/BuildingAnnex.js');
+const BuildingAnnexDoor = require('./icons/BuildingAnnexDoor.js');
+const BuildingAnnexGrid = require('./icons/BuildingAnnexGrid.js');
+const BuildingAnnexSlanted = require('./icons/BuildingAnnexSlanted.js');
+const BuildingCity = require('./icons/BuildingCity.js');
+const BuildingCityAntenna = require('./icons/BuildingCityAntenna.js');
+const BuildingCityCornice = require('./icons/BuildingCityCornice.js');
+const BuildingCityIsometric = require('./icons/BuildingCityIsometric.js');
+const BuildingDoor = require('./icons/BuildingDoor.js');
+const BuildingDoorWide = require('./icons/BuildingDoorWide.js');
+const BuildingGable = require('./icons/BuildingGable.js');
+const BuildingIsometric = require('./icons/BuildingIsometric.js');
+const BuildingSlanted = require('./icons/BuildingSlanted.js');
 const Lightbulb = require('./icons/Lightbulb.js');
 const LightbulbShine = require('./icons/LightbulbShine.js');
 const LightbulbFilament = require('./icons/LightbulbFilament.js');
@@ -1695,6 +1756,15 @@ const ChatXSlant = require('./icons/ChatXSlant.js');
 const ChatXTall = require('./icons/ChatXTall.js');
 const ChatXTooltip = require('./icons/ChatXTooltip.js');
 const ChatXWide = require('./icons/ChatXWide.js');
+const CheckCircleDashed = require('./icons/CheckCircleDashed.js');
+const CheckCircleDashedHalf = require('./icons/CheckCircleDashedHalf.js');
+const CheckCircleDashedHalfBottom = require('./icons/CheckCircleDashedHalfBottom.js');
+const CheckCircleDashedHalfLong = require('./icons/CheckCircleDashedHalfLong.js');
+const CheckCircleDashedHalfSmall = require('./icons/CheckCircleDashedHalfSmall.js');
+const CheckCircleDashedHalfSparse = require('./icons/CheckCircleDashedHalfSparse.js');
+const CheckCircleDashedLong = require('./icons/CheckCircleDashedLong.js');
+const CheckCircleDashedQuarter = require('./icons/CheckCircleDashedQuarter.js');
+const CheckCircleStackArc = require('./icons/CheckCircleStackArc.js');
 const CheckLarge = require('./icons/CheckLarge.js');
 const Check = require('./icons/Check.js');
 const CheckTall = require('./icons/CheckTall.js');
@@ -1706,6 +1776,7 @@ const CheckDoubleSquare = require('./icons/CheckDoubleSquare.js');
 const CheckBold = require('./icons/CheckBold.js');
 const CheckBoldHandwritten = require('./icons/CheckBoldHandwritten.js');
 const CheckBoldOrganic = require('./icons/CheckBoldOrganic.js');
+const CheckSquareNested = require('./icons/CheckSquareNested.js');
 const CheckCircleCompact = require('./icons/CheckCircleCompact.js');
 const CheckCircleOpen2 = require('./icons/CheckCircleOpen2.js');
 const CheckCircleOpen3 = require('./icons/CheckCircleOpen3.js');
@@ -1754,6 +1825,11 @@ const ChecklistRadioTop = require('./icons/ChecklistRadioTop.js');
 const ChecklistSquareFilledTop = require('./icons/ChecklistSquareFilledTop.js');
 const ChecklistCircleEmpty = require('./icons/ChecklistCircleEmpty.js');
 const ChecklistSquareEmpty = require('./icons/ChecklistSquareEmpty.js');
+const CircleCrescent = require('./icons/CircleCrescent.js');
+const CircleCrescentDashed = require('./icons/CircleCrescentDashed.js');
+const CircleDashed = require('./icons/CircleDashed.js');
+const CircleHashtag = require('./icons/CircleHashtag.js');
+const CircleOff = require('./icons/CircleOff.js');
 const CircleStack = require('./icons/CircleStack.js');
 const CircleStackTight = require('./icons/CircleStackTight.js');
 const CircleOverlapArrowUpRight = require('./icons/CircleOverlapArrowUpRight.js');
@@ -1762,11 +1838,43 @@ const CircleOverlapArrowUpRightDownLeft = require('./icons/CircleOverlapArrowUpR
 const BackspaceCompactSmall = require('./icons/BackspaceCompactSmall.js');
 const BackspaceCompact = require('./icons/BackspaceCompact.js');
 const Backspace = require('./icons/Backspace.js');
+const ClipboardCheck = require('./icons/ClipboardCheck.js');
+const ClipboardCheckCircle = require('./icons/ClipboardCheckCircle.js');
+const ClipboardImage = require('./icons/ClipboardImage.js');
+const ClipboardImageLarge = require('./icons/ClipboardImageLarge.js');
+const ClipboardLink = require('./icons/ClipboardLink.js');
+const ClipboardLinkTilted = require('./icons/ClipboardLinkTilted.js');
+const ClipboardListCheckCircle = require('./icons/ClipboardListCheckCircle.js');
+const ClipboardListCheckCircleShort = require('./icons/ClipboardListCheckCircleShort.js');
+const ClipboardListCheckShort = require('./icons/ClipboardListCheckShort.js');
+const ClipboardListCheckX = require('./icons/ClipboardListCheckX.js');
+const ClipboardListMinusCircle = require('./icons/ClipboardListMinusCircle.js');
+const ClipboardListMinusCircleShort = require('./icons/ClipboardListMinusCircleShort.js');
+const ClipboardListMinusShort = require('./icons/ClipboardListMinusShort.js');
+const ClipboardListPlusCircle = require('./icons/ClipboardListPlusCircle.js');
+const ClipboardListPlusCircleShort = require('./icons/ClipboardListPlusCircleShort.js');
+const ClipboardListPlusShort = require('./icons/ClipboardListPlusShort.js');
+const ClipboardListShort = require('./icons/ClipboardListShort.js');
+const ClipboardListXCircle = require('./icons/ClipboardListXCircle.js');
+const ClipboardListXCircleShort = require('./icons/ClipboardListXCircleShort.js');
+const ClipboardListXShort = require('./icons/ClipboardListXShort.js');
+const ClipboardMinus = require('./icons/ClipboardMinus.js');
+const ClipboardMinusCenter = require('./icons/ClipboardMinusCenter.js');
+const ClipboardMinusCircle = require('./icons/ClipboardMinusCircle.js');
+const ClipboardPage = require('./icons/ClipboardPage.js');
+const ClipboardPageText = require('./icons/ClipboardPageText.js');
+const ClipboardPlus = require('./icons/ClipboardPlus.js');
+const ClipboardPlusCircle = require('./icons/ClipboardPlusCircle.js');
 const ClipboardList = require('./icons/ClipboardList.js');
 const ClipboardListCheck = require('./icons/ClipboardListCheck.js');
 const ClipboardListMinus = require('./icons/ClipboardListMinus.js');
 const ClipboardListPlus = require('./icons/ClipboardListPlus.js');
 const ClipboardListX = require('./icons/ClipboardListX.js');
+const ClipboardText = require('./icons/ClipboardText.js');
+const ClipboardTriangle = require('./icons/ClipboardTriangle.js');
+const ClipboardWarning = require('./icons/ClipboardWarning.js');
+const ClipboardX = require('./icons/ClipboardX.js');
+const ClipboardXCircle = require('./icons/ClipboardXCircle.js');
 const ClockAngled = require('./icons/ClockAngled.js');
 const Clock = require('./icons/Clock.js');
 const ClockRefresh = require('./icons/ClockRefresh.js');
@@ -1779,10 +1887,28 @@ const ClockSync = require('./icons/ClockSync.js');
 const ClockPaperclip = require('./icons/ClockPaperclip.js');
 const ClockPaperclipTilted = require('./icons/ClockPaperclipTilted.js');
 const ClockCheck = require('./icons/ClockCheck.js');
+const ClockCircleDashed = require('./icons/ClockCircleDashed.js');
+const ClockClockwise = require('./icons/ClockClockwise.js');
+const ClockClockwiseBottom = require('./icons/ClockClockwiseBottom.js');
 const ClockCloud = require('./icons/ClockCloud.js');
+const ClockCounterclockwise = require('./icons/ClockCounterclockwise.js');
+const ClockCounterclockwiseBottom = require('./icons/ClockCounterclockwiseBottom.js');
+const ClockDashed = require('./icons/ClockDashed.js');
+const ClockDashedHalf = require('./icons/ClockDashedHalf.js');
+const ClockDashedHalfBottom = require('./icons/ClockDashedHalfBottom.js');
+const ClockDashedHalfLong = require('./icons/ClockDashedHalfLong.js');
+const ClockDashedHalfSparse = require('./icons/ClockDashedHalfSparse.js');
+const ClockDashedLong = require('./icons/ClockDashedLong.js');
+const ClockDashedQuarter = require('./icons/ClockDashedQuarter.js');
+const ClockDashedQuarterRight = require('./icons/ClockDashedQuarterRight.js');
 const ClockDotted = require('./icons/ClockDotted.js');
+const ClockDottedArc = require('./icons/ClockDottedArc.js');
+const ClockDottedArcAngled = require('./icons/ClockDottedArcAngled.js');
+const ClockDottedArcClockwise = require('./icons/ClockDottedArcClockwise.js');
 const ClockMail = require('./icons/ClockMail.js');
 const ClockAlertCircle = require('./icons/ClockAlertCircle.js');
+const ClockFast = require('./icons/ClockFast.js');
+const ClockFastAngled = require('./icons/ClockFastAngled.js');
 const ClockFunnel = require('./icons/ClockFunnel.js');
 const ClockSettingsLarge = require('./icons/ClockSettingsLarge.js');
 const ClockSettings = require('./icons/ClockSettings.js');
@@ -1790,6 +1916,7 @@ const ClockHourglass = require('./icons/ClockHourglass.js');
 const ClockLinkTilted = require('./icons/ClockLinkTilted.js');
 const ClockLink = require('./icons/ClockLink.js');
 const ClockLock = require('./icons/ClockLock.js');
+const ClockMantel = require('./icons/ClockMantel.js');
 const ClockMinus = require('./icons/ClockMinus.js');
 const ClockDot = require('./icons/ClockDot.js');
 const ClockNumberOne = require('./icons/ClockNumberOne.js');
@@ -1803,7 +1930,18 @@ const ClockSearch = require('./icons/ClockSearch.js');
 const ClockSend = require('./icons/ClockSend.js');
 const ClockBan = require('./icons/ClockBan.js');
 const ClockSnooze = require('./icons/ClockSnooze.js');
+const ClockSplit = require('./icons/ClockSplit.js');
+const ClockSquare = require('./icons/ClockSquare.js');
+const ClockSquared = require('./icons/ClockSquared.js');
 const ClockStar = require('./icons/ClockStar.js');
+const ClockThreeSquared = require('./icons/ClockThreeSquared.js');
+const ClockTicks = require('./icons/ClockTicks.js');
+const ClockTicksAngled = require('./icons/ClockTicksAngled.js');
+const ClockTicksSquared = require('./icons/ClockTicksSquared.js');
+const ClockTurnLeft = require('./icons/ClockTurnLeft.js');
+const ClockTurnLeftSmall = require('./icons/ClockTurnLeftSmall.js');
+const ClockTurnRight = require('./icons/ClockTurnRight.js');
+const ClockTurnRightSmall = require('./icons/ClockTurnRightSmall.js');
 const ClockUnlock = require('./icons/ClockUnlock.js');
 const ClockUser = require('./icons/ClockUser.js');
 const ClockEye = require('./icons/ClockEye.js');
@@ -1813,6 +1951,11 @@ const ClockX = require('./icons/ClockX.js');
 const SidebarArrowLeftStriped = require('./icons/SidebarArrowLeftStriped.js');
 const SidebarArrowLeftRows = require('./icons/SidebarArrowLeftRows.js');
 const SidebarArrowLeft = require('./icons/SidebarArrowLeft.js');
+const ClosedCaption = require('./icons/ClosedCaption.js');
+const ClosedCaptionBare = require('./icons/ClosedCaptionBare.js');
+const ClosedCaptionBarrel = require('./icons/ClosedCaptionBarrel.js');
+const ClosedCaptionBoxy = require('./icons/ClosedCaptionBoxy.js');
+const ClosedCaptionCushion = require('./icons/ClosedCaptionCushion.js');
 const Cloud = require('./icons/Cloud.js');
 const CloudPlus = require('./icons/CloudPlus.js');
 const CloudTriangle = require('./icons/CloudTriangle.js');
@@ -2004,10 +2147,12 @@ const SupportOval = require('./icons/SupportOval.js');
 const Support = require('./icons/Support.js');
 const SupportOvalMic = require('./icons/SupportOvalMic.js');
 const SupportFace = require('./icons/SupportFace.js');
+const CylinderClock = require('./icons/CylinderClock.js');
 const Dashboard = require('./icons/Dashboard.js');
 const DashboardSharp = require('./icons/DashboardSharp.js');
 const DashboardSquare = require('./icons/DashboardSquare.js');
 const DashboardChart = require('./icons/DashboardChart.js');
+const DatabaseClock = require('./icons/DatabaseClock.js');
 const ScreenDock = require('./icons/ScreenDock.js');
 const ScreenDockDots = require('./icons/ScreenDockDots.js');
 const ScreenDownloadDotsTall = require('./icons/ScreenDownloadDotsTall.js');
@@ -2175,6 +2320,11 @@ const FormCheckboxCheckLarge = require('./icons/FormCheckboxCheckLarge.js');
 const FormCheckboxLong = require('./icons/FormCheckboxLong.js');
 const FormCheckbox = require('./icons/FormCheckbox.js');
 const FormCheckboxLarge = require('./icons/FormCheckboxLarge.js');
+const FormControlsCheck = require('./icons/FormControlsCheck.js');
+const FormControlsGridPlus = require('./icons/FormControlsGridPlus.js');
+const FormControlsGridX = require('./icons/FormControlsGridX.js');
+const FormControlsPlus = require('./icons/FormControlsPlus.js');
+const FormControlsX = require('./icons/FormControlsX.js');
 const FormDropdownMinimal = require('./icons/FormDropdownMinimal.js');
 const FormDropdown = require('./icons/FormDropdown.js');
 const FormDropdownSlim = require('./icons/FormDropdownSlim.js');
@@ -2188,6 +2338,7 @@ const FormInput = require('./icons/FormInput.js');
 const FormInputCursor = require('./icons/FormInputCursor.js');
 const FormLockDrop = require('./icons/FormLockDrop.js');
 const FormLockTooltip = require('./icons/FormLockTooltip.js');
+const FormRadioCheckSmall = require('./icons/FormRadioCheckSmall.js');
 const FormRadioDotLong = require('./icons/FormRadioDotLong.js');
 const FormRadioDot = require('./icons/FormRadioDot.js');
 const FormRadioCheck = require('./icons/FormRadioCheck.js');
@@ -2307,6 +2458,37 @@ const HeartPlus = require('./icons/HeartPlus.js');
 const HeartPlusCenter = require('./icons/HeartPlusCenter.js');
 const SidebarMenuArrowLeft = require('./icons/SidebarMenuArrowLeft.js');
 const SidebarArrowRight = require('./icons/SidebarArrowRight.js');
+const Hourglass = require('./icons/Hourglass.js');
+const HourglassCircle = require('./icons/HourglassCircle.js');
+const HourglassCircleCurved = require('./icons/HourglassCircleCurved.js');
+const HourglassCircleDiagonal = require('./icons/HourglassCircleDiagonal.js');
+const HourglassCircleRound = require('./icons/HourglassCircleRound.js');
+const HourglassCircleWide = require('./icons/HourglassCircleWide.js');
+const HourglassCurved = require('./icons/HourglassCurved.js');
+const HourglassDiagonal = require('./icons/HourglassDiagonal.js');
+const HourglassSand = require('./icons/HourglassSand.js');
+const HourglassSandCurved = require('./icons/HourglassSandCurved.js');
+const HourglassSandDiagonal = require('./icons/HourglassSandDiagonal.js');
+const HourglassSandFalling = require('./icons/HourglassSandFalling.js');
+const HourglassSandFallingCurved = require('./icons/HourglassSandFallingCurved.js');
+const HourglassSandFallingDiagonal = require('./icons/HourglassSandFallingDiagonal.js');
+const HourglassSquare = require('./icons/HourglassSquare.js');
+const HourglassSquareCurved = require('./icons/HourglassSquareCurved.js');
+const HourglassSquareDiagonal = require('./icons/HourglassSquareDiagonal.js');
+const HourglassSquareRound = require('./icons/HourglassSquareRound.js');
+const HourglassSquareWide = require('./icons/HourglassSquareWide.js');
+const HourglassStand = require('./icons/HourglassStand.js');
+const HourglassStandCircle = require('./icons/HourglassStandCircle.js');
+const HourglassStandCircleCurved = require('./icons/HourglassStandCircleCurved.js');
+const HourglassStandCurved = require('./icons/HourglassStandCurved.js');
+const HourglassStandSand = require('./icons/HourglassStandSand.js');
+const HourglassStandSandCurved = require('./icons/HourglassStandSandCurved.js');
+const HourglassStandSandFalling = require('./icons/HourglassStandSandFalling.js');
+const HourglassStandSandFallingCurved = require('./icons/HourglassStandSandFallingCurved.js');
+const HourglassStandSquare = require('./icons/HourglassStandSquare.js');
+const HourglassStandSquareCurved = require('./icons/HourglassStandSquareCurved.js');
+const HourglassSync = require('./icons/HourglassSync.js');
+const HourglassSyncRound = require('./icons/HourglassSyncRound.js');
 const HouseEaves = require('./icons/HouseEaves.js');
 const HouseDoorEaves = require('./icons/HouseDoorEaves.js');
 const House = require('./icons/House.js');
@@ -2328,6 +2510,9 @@ const InfoCircle = require('./icons/InfoCircle.js');
 const InfoCircleSmall = require('./icons/InfoCircleSmall.js');
 const InfoSquare = require('./icons/InfoSquare.js');
 const InfoSquareSmall = require('./icons/InfoSquareSmall.js');
+const ImagePaperclip = require('./icons/ImagePaperclip.js');
+const ImagePaperclipCurl = require('./icons/ImagePaperclipCurl.js');
+const ImagePaperclipTilted = require('./icons/ImagePaperclipTilted.js');
 const Image = require('./icons/Image.js');
 const ImageWide = require('./icons/ImageWide.js');
 const ImageHills = require('./icons/ImageHills.js');
@@ -2525,6 +2710,9 @@ const SearchOneToOneB = require('./icons/SearchOneToOneB.js');
 const SearchExpandB = require('./icons/SearchExpandB.js');
 const SearchOneToOneC = require('./icons/SearchOneToOneC.js');
 const SearchExpandC = require('./icons/SearchExpandC.js');
+const MailPaperclip = require('./icons/MailPaperclip.js');
+const MailPaperclipRound = require('./icons/MailPaperclipRound.js');
+const MailPaperclipTilted = require('./icons/MailPaperclipTilted.js');
 const Mailbox = require('./icons/Mailbox.js');
 const MailboxFlag = require('./icons/MailboxFlag.js');
 const MailboxPost = require('./icons/MailboxPost.js');
@@ -2642,6 +2830,20 @@ const WindowArrowUp = require('./icons/WindowArrowUp.js');
 const PaneArrowRightStriped = require('./icons/PaneArrowRightStriped.js');
 const PaneArrowRightList = require('./icons/PaneArrowRightList.js');
 const PaneArrowRight = require('./icons/PaneArrowRight.js');
+const OptionsCheckAsterisk = require('./icons/OptionsCheckAsterisk.js');
+const OptionsCheckCursor = require('./icons/OptionsCheckCursor.js');
+const OptionsCheckDots = require('./icons/OptionsCheckDots.js');
+const OptionsCheckEquals = require('./icons/OptionsCheckEquals.js');
+const OptionsCheckInfo = require('./icons/OptionsCheckInfo.js');
+const OptionsCheckInfoSquare = require('./icons/OptionsCheckInfoSquare.js');
+const OptionsCheckPlus = require('./icons/OptionsCheckPlus.js');
+const OptionsCheckSquareInfoSquare = require('./icons/OptionsCheckSquareInfoSquare.js');
+const OptionsCheckX = require('./icons/OptionsCheckX.js');
+const OptionsCheckXSync = require('./icons/OptionsCheckXSync.js');
+const OptionsDotsAsterisk = require('./icons/OptionsDotsAsterisk.js');
+const OptionsDotsInfo = require('./icons/OptionsDotsInfo.js');
+const OptionsPlusMinus = require('./icons/OptionsPlusMinus.js');
+const OptionsRadioCheckX = require('./icons/OptionsRadioCheckX.js');
 const Overscan = require('./icons/Overscan.js');
 const OverscanSmall = require('./icons/OverscanSmall.js');
 const OverscanLeftRight = require('./icons/OverscanLeftRight.js');
@@ -2701,6 +2903,90 @@ const BrowserDollarSearch = require('./icons/BrowserDollarSearch.js');
 const BrowserDollarSearchDots = require('./icons/BrowserDollarSearchDots.js');
 const BrowserDollarSearchDots2 = require('./icons/BrowserDollarSearchDots2.js');
 const DollarSearch = require('./icons/DollarSearch.js');
+const Paperclip = require('./icons/Paperclip.js');
+const PaperclipArrowUp = require('./icons/PaperclipArrowUp.js');
+const PaperclipArrowUpCurl = require('./icons/PaperclipArrowUpCurl.js');
+const PaperclipArrowUpFlipped = require('./icons/PaperclipArrowUpFlipped.js');
+const PaperclipArrowUpLong = require('./icons/PaperclipArrowUpLong.js');
+const PaperclipArrowUpNarrow = require('./icons/PaperclipArrowUpNarrow.js');
+const PaperclipArrowUpRound = require('./icons/PaperclipArrowUpRound.js');
+const PaperclipArrowUpShort = require('./icons/PaperclipArrowUpShort.js');
+const PaperclipArrowUpSlim = require('./icons/PaperclipArrowUpSlim.js');
+const PaperclipArrowUpVertical = require('./icons/PaperclipArrowUpVertical.js');
+const PaperclipArrowUpWide = require('./icons/PaperclipArrowUpWide.js');
+const PaperclipCheck = require('./icons/PaperclipCheck.js');
+const PaperclipCheckCurl = require('./icons/PaperclipCheckCurl.js');
+const PaperclipCheckFlipped = require('./icons/PaperclipCheckFlipped.js');
+const PaperclipCheckLong = require('./icons/PaperclipCheckLong.js');
+const PaperclipCheckNarrow = require('./icons/PaperclipCheckNarrow.js');
+const PaperclipCheckRound = require('./icons/PaperclipCheckRound.js');
+const PaperclipCheckShort = require('./icons/PaperclipCheckShort.js');
+const PaperclipCheckSlim = require('./icons/PaperclipCheckSlim.js');
+const PaperclipCheckVertical = require('./icons/PaperclipCheckVertical.js');
+const PaperclipCheckWide = require('./icons/PaperclipCheckWide.js');
+const PaperclipCircle = require('./icons/PaperclipCircle.js');
+const PaperclipCircleArrowLeft = require('./icons/PaperclipCircleArrowLeft.js');
+const PaperclipCircleArrowLeftLong = require('./icons/PaperclipCircleArrowLeftLong.js');
+const PaperclipCircleArrowLeftShort = require('./icons/PaperclipCircleArrowLeftShort.js');
+const PaperclipCircleArrowRight = require('./icons/PaperclipCircleArrowRight.js');
+const PaperclipCircleArrowRightLong = require('./icons/PaperclipCircleArrowRightLong.js');
+const PaperclipCircleArrowRightShort = require('./icons/PaperclipCircleArrowRightShort.js');
+const PaperclipCircleCheck = require('./icons/PaperclipCircleCheck.js');
+const PaperclipCircleCheckLong = require('./icons/PaperclipCircleCheckLong.js');
+const PaperclipCircleCheckShort = require('./icons/PaperclipCircleCheckShort.js');
+const PaperclipCircleLong = require('./icons/PaperclipCircleLong.js');
+const PaperclipCircleShort = require('./icons/PaperclipCircleShort.js');
+const PaperclipCircleX = require('./icons/PaperclipCircleX.js');
+const PaperclipCircleXLong = require('./icons/PaperclipCircleXLong.js');
+const PaperclipCircleXShort = require('./icons/PaperclipCircleXShort.js');
+const PaperclipCurl = require('./icons/PaperclipCurl.js');
+const PaperclipFlipped = require('./icons/PaperclipFlipped.js');
+const PaperclipLong = require('./icons/PaperclipLong.js');
+const PaperclipMinus = require('./icons/PaperclipMinus.js');
+const PaperclipMinusCurl = require('./icons/PaperclipMinusCurl.js');
+const PaperclipMinusFlipped = require('./icons/PaperclipMinusFlipped.js');
+const PaperclipMinusLong = require('./icons/PaperclipMinusLong.js');
+const PaperclipMinusNarrow = require('./icons/PaperclipMinusNarrow.js');
+const PaperclipMinusRound = require('./icons/PaperclipMinusRound.js');
+const PaperclipMinusShort = require('./icons/PaperclipMinusShort.js');
+const PaperclipMinusSlim = require('./icons/PaperclipMinusSlim.js');
+const PaperclipMinusVertical = require('./icons/PaperclipMinusVertical.js');
+const PaperclipMinusWide = require('./icons/PaperclipMinusWide.js');
+const PaperclipNarrow = require('./icons/PaperclipNarrow.js');
+const PaperclipPlus = require('./icons/PaperclipPlus.js');
+const PaperclipPlusCurl = require('./icons/PaperclipPlusCurl.js');
+const PaperclipPlusFlipped = require('./icons/PaperclipPlusFlipped.js');
+const PaperclipPlusLong = require('./icons/PaperclipPlusLong.js');
+const PaperclipPlusNarrow = require('./icons/PaperclipPlusNarrow.js');
+const PaperclipPlusRound = require('./icons/PaperclipPlusRound.js');
+const PaperclipPlusShort = require('./icons/PaperclipPlusShort.js');
+const PaperclipPlusSlim = require('./icons/PaperclipPlusSlim.js');
+const PaperclipPlusVertical = require('./icons/PaperclipPlusVertical.js');
+const PaperclipPlusWide = require('./icons/PaperclipPlusWide.js');
+const PaperclipRound = require('./icons/PaperclipRound.js');
+const PaperclipShort = require('./icons/PaperclipShort.js');
+const PaperclipSlim = require('./icons/PaperclipSlim.js');
+const PaperclipSquare = require('./icons/PaperclipSquare.js');
+const PaperclipSquareLong = require('./icons/PaperclipSquareLong.js');
+const PaperclipSquareOpen = require('./icons/PaperclipSquareOpen.js');
+const PaperclipSquareOpenLong = require('./icons/PaperclipSquareOpenLong.js');
+const PaperclipSquareOpenShort = require('./icons/PaperclipSquareOpenShort.js');
+const PaperclipSquareOpenThin = require('./icons/PaperclipSquareOpenThin.js');
+const PaperclipSquareOpenVertical = require('./icons/PaperclipSquareOpenVertical.js');
+const PaperclipSquareShort = require('./icons/PaperclipSquareShort.js');
+const PaperclipSquareThin = require('./icons/PaperclipSquareThin.js');
+const PaperclipVertical = require('./icons/PaperclipVertical.js');
+const PaperclipWide = require('./icons/PaperclipWide.js');
+const PaperclipX = require('./icons/PaperclipX.js');
+const PaperclipXCurl = require('./icons/PaperclipXCurl.js');
+const PaperclipXFlipped = require('./icons/PaperclipXFlipped.js');
+const PaperclipXLong = require('./icons/PaperclipXLong.js');
+const PaperclipXNarrow = require('./icons/PaperclipXNarrow.js');
+const PaperclipXRound = require('./icons/PaperclipXRound.js');
+const PaperclipXShort = require('./icons/PaperclipXShort.js');
+const PaperclipXSlim = require('./icons/PaperclipXSlim.js');
+const PaperclipXVertical = require('./icons/PaperclipXVertical.js');
+const PaperclipXWide = require('./icons/PaperclipXWide.js');
 const Pause = require('./icons/Pause.js');
 const PauseCircle = require('./icons/PauseCircle.js');
 const PauseSquare = require('./icons/PauseSquare.js');
@@ -2725,6 +3011,7 @@ const Plaque = require('./icons/Plaque.js');
 const PlaqueTight = require('./icons/PlaqueTight.js');
 const Play = require('./icons/Play.js');
 const PlaySquare = require('./icons/PlaySquare.js');
+const PlusCircleStackArc = require('./icons/PlusCircleStackArc.js');
 const PollHorizontalSquare = require('./icons/PollHorizontalSquare.js');
 const PollSquare = require('./icons/PollSquare.js');
 const PollHorizontalPercent = require('./icons/PollHorizontalPercent.js');
@@ -2937,6 +3224,10 @@ const ArrowRightSquare = require('./icons/ArrowRightSquare.js');
 const ArrowUpSquare = require('./icons/ArrowUpSquare.js');
 const ArrowUpLeftSquare = require('./icons/ArrowUpLeftSquare.js');
 const ArrowUpRightSquare = require('./icons/ArrowUpRightSquare.js');
+const SquareCheckCircle = require('./icons/SquareCheckCircle.js');
+const SquareStackPaperclip = require('./icons/SquareStackPaperclip.js');
+const SquareStackPaperclipCurl = require('./icons/SquareStackPaperclipCurl.js');
+const SquareStackPaperclipTilted = require('./icons/SquareStackPaperclipTilted.js');
 const Grid = require('./icons/Grid.js');
 const GridRounded = require('./icons/GridRounded.js');
 const Star = require('./icons/Star.js');
@@ -2960,6 +3251,77 @@ const StepForwardThick = require('./icons/StepForwardThick.js');
 const Stop = require('./icons/Stop.js');
 const StopCircle = require('./icons/StopCircle.js');
 const StopSquare = require('./icons/StopSquare.js');
+const Stopwatch = require('./icons/Stopwatch.js');
+const StopwatchAlert = require('./icons/StopwatchAlert.js');
+const StopwatchAlertBare = require('./icons/StopwatchAlertBare.js');
+const StopwatchAlertDetached = require('./icons/StopwatchAlertDetached.js');
+const StopwatchAlertKnob = require('./icons/StopwatchAlertKnob.js');
+const StopwatchAlertTick = require('./icons/StopwatchAlertTick.js');
+const StopwatchBolt = require('./icons/StopwatchBolt.js');
+const StopwatchBoltBare = require('./icons/StopwatchBoltBare.js');
+const StopwatchBoltDetached = require('./icons/StopwatchBoltDetached.js');
+const StopwatchBoltKnob = require('./icons/StopwatchBoltKnob.js');
+const StopwatchBoltTick = require('./icons/StopwatchBoltTick.js');
+const StopwatchCheck = require('./icons/StopwatchCheck.js');
+const StopwatchCheckBare = require('./icons/StopwatchCheckBare.js');
+const StopwatchCheckDetached = require('./icons/StopwatchCheckDetached.js');
+const StopwatchCheckKnob = require('./icons/StopwatchCheckKnob.js');
+const StopwatchCheckTick = require('./icons/StopwatchCheckTick.js');
+const StopwatchClockwise = require('./icons/StopwatchClockwise.js');
+const StopwatchClockwiseBare = require('./icons/StopwatchClockwiseBare.js');
+const StopwatchClockwiseDetached = require('./icons/StopwatchClockwiseDetached.js');
+const StopwatchClockwiseKnob = require('./icons/StopwatchClockwiseKnob.js');
+const StopwatchDetached = require('./icons/StopwatchDetached.js');
+const StopwatchDotted = require('./icons/StopwatchDotted.js');
+const StopwatchDottedBare = require('./icons/StopwatchDottedBare.js');
+const StopwatchDottedDetached = require('./icons/StopwatchDottedDetached.js');
+const StopwatchDottedKnob = require('./icons/StopwatchDottedKnob.js');
+const StopwatchFastKnob = require('./icons/StopwatchFastKnob.js');
+const StopwatchFastTick = require('./icons/StopwatchFastTick.js');
+const StopwatchKnob = require('./icons/StopwatchKnob.js');
+const StopwatchMinus = require('./icons/StopwatchMinus.js');
+const StopwatchMinusBare = require('./icons/StopwatchMinusBare.js');
+const StopwatchMinusDetached = require('./icons/StopwatchMinusDetached.js');
+const StopwatchMinusKnob = require('./icons/StopwatchMinusKnob.js');
+const StopwatchMinusTick = require('./icons/StopwatchMinusTick.js');
+const StopwatchNeedle = require('./icons/StopwatchNeedle.js');
+const StopwatchNeedleArcLeft = require('./icons/StopwatchNeedleArcLeft.js');
+const StopwatchNeedleArcRight = require('./icons/StopwatchNeedleArcRight.js');
+const StopwatchOff = require('./icons/StopwatchOff.js');
+const StopwatchOffBare = require('./icons/StopwatchOffBare.js');
+const StopwatchOffDetached = require('./icons/StopwatchOffDetached.js');
+const StopwatchOffKnob = require('./icons/StopwatchOffKnob.js');
+const StopwatchOffTick = require('./icons/StopwatchOffTick.js');
+const StopwatchPie = require('./icons/StopwatchPie.js');
+const StopwatchPieBare = require('./icons/StopwatchPieBare.js');
+const StopwatchPieDetached = require('./icons/StopwatchPieDetached.js');
+const StopwatchPieKnob = require('./icons/StopwatchPieKnob.js');
+const StopwatchPieTick = require('./icons/StopwatchPieTick.js');
+const StopwatchPin = require('./icons/StopwatchPin.js');
+const StopwatchPinBare = require('./icons/StopwatchPinBare.js');
+const StopwatchPinDetached = require('./icons/StopwatchPinDetached.js');
+const StopwatchPinKnob = require('./icons/StopwatchPinKnob.js');
+const StopwatchPinTick = require('./icons/StopwatchPinTick.js');
+const StopwatchPlus = require('./icons/StopwatchPlus.js');
+const StopwatchPlusBare = require('./icons/StopwatchPlusBare.js');
+const StopwatchPlusDetached = require('./icons/StopwatchPlusDetached.js');
+const StopwatchPlusKnob = require('./icons/StopwatchPlusKnob.js');
+const StopwatchPlusTick = require('./icons/StopwatchPlusTick.js');
+const StopwatchQuestion = require('./icons/StopwatchQuestion.js');
+const StopwatchQuestionBare = require('./icons/StopwatchQuestionBare.js');
+const StopwatchQuestionDetached = require('./icons/StopwatchQuestionDetached.js');
+const StopwatchQuestionKnob = require('./icons/StopwatchQuestionKnob.js');
+const StopwatchQuestionTick = require('./icons/StopwatchQuestionTick.js');
+const StopwatchSnooze = require('./icons/StopwatchSnooze.js');
+const StopwatchSnoozeBare = require('./icons/StopwatchSnoozeBare.js');
+const StopwatchSnoozeDetached = require('./icons/StopwatchSnoozeDetached.js');
+const StopwatchSnoozeKnob = require('./icons/StopwatchSnoozeKnob.js');
+const StopwatchSnoozeTick = require('./icons/StopwatchSnoozeTick.js');
+const StopwatchX = require('./icons/StopwatchX.js');
+const StopwatchXBare = require('./icons/StopwatchXBare.js');
+const StopwatchXDetached = require('./icons/StopwatchXDetached.js');
+const StopwatchXKnob = require('./icons/StopwatchXKnob.js');
+const StopwatchXTick = require('./icons/StopwatchXTick.js');
 const Submit = require('./icons/Submit.js');
 const SubmitOpen = require('./icons/SubmitOpen.js');
 const SubmitSquare = require('./icons/SubmitSquare.js');
@@ -3149,6 +3511,7 @@ const WrenchScrewdriver = require('./icons/WrenchScrewdriver.js');
 const SwatchFan = require('./icons/SwatchFan.js');
 const SwatchStackWide = require('./icons/SwatchStackWide.js');
 const SwatchStack = require('./icons/SwatchStack.js');
+const Timer = require('./icons/Timer.js');
 const WrenchHandOpen = require('./icons/WrenchHandOpen.js');
 const WrenchHand = require('./icons/WrenchHand.js');
 const Wrench = require('./icons/Wrench.js');
@@ -3333,6 +3696,7 @@ const TriangleSmall = require('./icons/TriangleSmall.js');
 const TriangleOff = require('./icons/TriangleOff.js');
 const TriangleOffWide = require('./icons/TriangleOffWide.js');
 const TriangleOffSmall = require('./icons/TriangleOffSmall.js');
+const Watch = require('./icons/Watch.js');
 const FolderWww = require('./icons/FolderWww.js');
 const BrowserArmchair = require('./icons/BrowserArmchair.js');
 const BrowserArmchairRound = require('./icons/BrowserArmchairRound.js');
@@ -3395,6 +3759,7 @@ const WindowStackShadowBare = require('./icons/WindowStackShadowBare.js');
 const WindowStack = require('./icons/WindowStack.js');
 const XUndo = require('./icons/XUndo.js');
 const XUndoWide = require('./icons/XUndoWide.js');
+const XCircleStackArc = require('./icons/XCircleStackArc.js');
 const XLarge = require('./icons/XLarge.js');
 const X = require('./icons/X.js');
 const XSmall = require('./icons/XSmall.js');
@@ -3527,6 +3892,50 @@ module.exports = {
   AirplayWifi: AirplayWifi.default || AirplayWifi,
   AirplaySignalSquare: AirplaySignalSquare.default || AirplaySignalSquare,
   AirplaySignalSquareLarge: AirplaySignalSquareLarge.default || AirplaySignalSquareLarge,
+  Alarm: Alarm.default || Alarm,
+  AlarmAlert: AlarmAlert.default || AlarmAlert,
+  AlarmAlertArc: AlarmAlertArc.default || AlarmAlertArc,
+  AlarmAlertBare: AlarmAlertBare.default || AlarmAlertBare,
+  AlarmAlertStraight: AlarmAlertStraight.default || AlarmAlertStraight,
+  AlarmArc: AlarmArc.default || AlarmArc,
+  AlarmBan: AlarmBan.default || AlarmBan,
+  AlarmBanArc: AlarmBanArc.default || AlarmBanArc,
+  AlarmBanBare: AlarmBanBare.default || AlarmBanBare,
+  AlarmBanStraight: AlarmBanStraight.default || AlarmBanStraight,
+  AlarmBare: AlarmBare.default || AlarmBare,
+  AlarmBolt: AlarmBolt.default || AlarmBolt,
+  AlarmBoltArc: AlarmBoltArc.default || AlarmBoltArc,
+  AlarmBoltBare: AlarmBoltBare.default || AlarmBoltBare,
+  AlarmBoltStraight: AlarmBoltStraight.default || AlarmBoltStraight,
+  AlarmCheck: AlarmCheck.default || AlarmCheck,
+  AlarmCheckArc: AlarmCheckArc.default || AlarmCheckArc,
+  AlarmCheckBare: AlarmCheckBare.default || AlarmCheckBare,
+  AlarmCheckStraight: AlarmCheckStraight.default || AlarmCheckStraight,
+  AlarmMinus: AlarmMinus.default || AlarmMinus,
+  AlarmMinusArc: AlarmMinusArc.default || AlarmMinusArc,
+  AlarmMinusBare: AlarmMinusBare.default || AlarmMinusBare,
+  AlarmMinusStraight: AlarmMinusStraight.default || AlarmMinusStraight,
+  AlarmPie: AlarmPie.default || AlarmPie,
+  AlarmPieArc: AlarmPieArc.default || AlarmPieArc,
+  AlarmPieBare: AlarmPieBare.default || AlarmPieBare,
+  AlarmPieStraight: AlarmPieStraight.default || AlarmPieStraight,
+  AlarmPlus: AlarmPlus.default || AlarmPlus,
+  AlarmPlusArc: AlarmPlusArc.default || AlarmPlusArc,
+  AlarmPlusBare: AlarmPlusBare.default || AlarmPlusBare,
+  AlarmPlusStraight: AlarmPlusStraight.default || AlarmPlusStraight,
+  AlarmQuestion: AlarmQuestion.default || AlarmQuestion,
+  AlarmQuestionArc: AlarmQuestionArc.default || AlarmQuestionArc,
+  AlarmQuestionBare: AlarmQuestionBare.default || AlarmQuestionBare,
+  AlarmQuestionStraight: AlarmQuestionStraight.default || AlarmQuestionStraight,
+  AlarmSnooze: AlarmSnooze.default || AlarmSnooze,
+  AlarmSnoozeArc: AlarmSnoozeArc.default || AlarmSnoozeArc,
+  AlarmSnoozeBare: AlarmSnoozeBare.default || AlarmSnoozeBare,
+  AlarmSnoozeStraight: AlarmSnoozeStraight.default || AlarmSnoozeStraight,
+  AlarmStraight: AlarmStraight.default || AlarmStraight,
+  AlarmX: AlarmX.default || AlarmX,
+  AlarmXArc: AlarmXArc.default || AlarmXArc,
+  AlarmXBare: AlarmXBare.default || AlarmXBare,
+  AlarmXStraight: AlarmXStraight.default || AlarmXStraight,
   CircleMotion: CircleMotion.default || CircleMotion,
   CircleMotionDotted: CircleMotionDotted.default || CircleMotionDotted,
   DiamondMotion: DiamondMotion.default || DiamondMotion,
@@ -3680,6 +4089,8 @@ module.exports = {
   ArrowCounterclockwiseBottomOff: ArrowCounterclockwiseBottomOff.default || ArrowCounterclockwiseBottomOff,
   ArrowCounterclockwise: ArrowCounterclockwise.default || ArrowCounterclockwise,
   ArrowCounterclockwiseOff: ArrowCounterclockwiseOff.default || ArrowCounterclockwiseOff,
+  ArrowClockwiseCheckCircleSmall: ArrowClockwiseCheckCircleSmall.default || ArrowClockwiseCheckCircleSmall,
+  ArrowClockwiseCheckSquare: ArrowClockwiseCheckSquare.default || ArrowClockwiseCheckSquare,
   ArrowClockwiseFifteenDoubleChevron: ArrowClockwiseFifteenDoubleChevron.default || ArrowClockwiseFifteenDoubleChevron,
   ArrowClockwiseFive: ArrowClockwiseFive.default || ArrowClockwiseFive,
   ArrowClockwiseFiveChevron: ArrowClockwiseFiveChevron.default || ArrowClockwiseFiveChevron,
@@ -4035,6 +4446,7 @@ module.exports = {
   BookmarkStackPlusEdge: BookmarkStackPlusEdge.default || BookmarkStackPlusEdge,
   BookmarkStackXEdge: BookmarkStackXEdge.default || BookmarkStackXEdge,
   BookmarkStackTop: BookmarkStackTop.default || BookmarkStackTop,
+  BowlingBall: BowlingBall.default || BowlingBall,
   BoxLidClasp: BoxLidClasp.default || BoxLidClasp,
   BoxLid: BoxLid.default || BoxLid,
   BoxLidSlot: BoxLidSlot.default || BoxLidSlot,
@@ -4103,6 +4515,20 @@ module.exports = {
   WindowSquare: WindowSquare.default || WindowSquare,
   BrowserContent: BrowserContent.default || BrowserContent,
   BrowserSidebar: BrowserSidebar.default || BrowserSidebar,
+  Building: Building.default || Building,
+  BuildingAnnex: BuildingAnnex.default || BuildingAnnex,
+  BuildingAnnexDoor: BuildingAnnexDoor.default || BuildingAnnexDoor,
+  BuildingAnnexGrid: BuildingAnnexGrid.default || BuildingAnnexGrid,
+  BuildingAnnexSlanted: BuildingAnnexSlanted.default || BuildingAnnexSlanted,
+  BuildingCity: BuildingCity.default || BuildingCity,
+  BuildingCityAntenna: BuildingCityAntenna.default || BuildingCityAntenna,
+  BuildingCityCornice: BuildingCityCornice.default || BuildingCityCornice,
+  BuildingCityIsometric: BuildingCityIsometric.default || BuildingCityIsometric,
+  BuildingDoor: BuildingDoor.default || BuildingDoor,
+  BuildingDoorWide: BuildingDoorWide.default || BuildingDoorWide,
+  BuildingGable: BuildingGable.default || BuildingGable,
+  BuildingIsometric: BuildingIsometric.default || BuildingIsometric,
+  BuildingSlanted: BuildingSlanted.default || BuildingSlanted,
   Lightbulb: Lightbulb.default || Lightbulb,
   LightbulbShine: LightbulbShine.default || LightbulbShine,
   LightbulbFilament: LightbulbFilament.default || LightbulbFilament,
@@ -5106,6 +5532,15 @@ module.exports = {
   ChatXTall: ChatXTall.default || ChatXTall,
   ChatXTooltip: ChatXTooltip.default || ChatXTooltip,
   ChatXWide: ChatXWide.default || ChatXWide,
+  CheckCircleDashed: CheckCircleDashed.default || CheckCircleDashed,
+  CheckCircleDashedHalf: CheckCircleDashedHalf.default || CheckCircleDashedHalf,
+  CheckCircleDashedHalfBottom: CheckCircleDashedHalfBottom.default || CheckCircleDashedHalfBottom,
+  CheckCircleDashedHalfLong: CheckCircleDashedHalfLong.default || CheckCircleDashedHalfLong,
+  CheckCircleDashedHalfSmall: CheckCircleDashedHalfSmall.default || CheckCircleDashedHalfSmall,
+  CheckCircleDashedHalfSparse: CheckCircleDashedHalfSparse.default || CheckCircleDashedHalfSparse,
+  CheckCircleDashedLong: CheckCircleDashedLong.default || CheckCircleDashedLong,
+  CheckCircleDashedQuarter: CheckCircleDashedQuarter.default || CheckCircleDashedQuarter,
+  CheckCircleStackArc: CheckCircleStackArc.default || CheckCircleStackArc,
   CheckLarge: CheckLarge.default || CheckLarge,
   Check: Check.default || Check,
   CheckTall: CheckTall.default || CheckTall,
@@ -5117,6 +5552,7 @@ module.exports = {
   CheckBold: CheckBold.default || CheckBold,
   CheckBoldHandwritten: CheckBoldHandwritten.default || CheckBoldHandwritten,
   CheckBoldOrganic: CheckBoldOrganic.default || CheckBoldOrganic,
+  CheckSquareNested: CheckSquareNested.default || CheckSquareNested,
   CheckCircleCompact: CheckCircleCompact.default || CheckCircleCompact,
   CheckCircleOpen2: CheckCircleOpen2.default || CheckCircleOpen2,
   CheckCircleOpen3: CheckCircleOpen3.default || CheckCircleOpen3,
@@ -5165,6 +5601,11 @@ module.exports = {
   ChecklistSquareFilledTop: ChecklistSquareFilledTop.default || ChecklistSquareFilledTop,
   ChecklistCircleEmpty: ChecklistCircleEmpty.default || ChecklistCircleEmpty,
   ChecklistSquareEmpty: ChecklistSquareEmpty.default || ChecklistSquareEmpty,
+  CircleCrescent: CircleCrescent.default || CircleCrescent,
+  CircleCrescentDashed: CircleCrescentDashed.default || CircleCrescentDashed,
+  CircleDashed: CircleDashed.default || CircleDashed,
+  CircleHashtag: CircleHashtag.default || CircleHashtag,
+  CircleOff: CircleOff.default || CircleOff,
   CircleStack: CircleStack.default || CircleStack,
   CircleStackTight: CircleStackTight.default || CircleStackTight,
   CircleOverlapArrowUpRight: CircleOverlapArrowUpRight.default || CircleOverlapArrowUpRight,
@@ -5173,11 +5614,43 @@ module.exports = {
   BackspaceCompactSmall: BackspaceCompactSmall.default || BackspaceCompactSmall,
   BackspaceCompact: BackspaceCompact.default || BackspaceCompact,
   Backspace: Backspace.default || Backspace,
+  ClipboardCheck: ClipboardCheck.default || ClipboardCheck,
+  ClipboardCheckCircle: ClipboardCheckCircle.default || ClipboardCheckCircle,
+  ClipboardImage: ClipboardImage.default || ClipboardImage,
+  ClipboardImageLarge: ClipboardImageLarge.default || ClipboardImageLarge,
+  ClipboardLink: ClipboardLink.default || ClipboardLink,
+  ClipboardLinkTilted: ClipboardLinkTilted.default || ClipboardLinkTilted,
+  ClipboardListCheckCircle: ClipboardListCheckCircle.default || ClipboardListCheckCircle,
+  ClipboardListCheckCircleShort: ClipboardListCheckCircleShort.default || ClipboardListCheckCircleShort,
+  ClipboardListCheckShort: ClipboardListCheckShort.default || ClipboardListCheckShort,
+  ClipboardListCheckX: ClipboardListCheckX.default || ClipboardListCheckX,
+  ClipboardListMinusCircle: ClipboardListMinusCircle.default || ClipboardListMinusCircle,
+  ClipboardListMinusCircleShort: ClipboardListMinusCircleShort.default || ClipboardListMinusCircleShort,
+  ClipboardListMinusShort: ClipboardListMinusShort.default || ClipboardListMinusShort,
+  ClipboardListPlusCircle: ClipboardListPlusCircle.default || ClipboardListPlusCircle,
+  ClipboardListPlusCircleShort: ClipboardListPlusCircleShort.default || ClipboardListPlusCircleShort,
+  ClipboardListPlusShort: ClipboardListPlusShort.default || ClipboardListPlusShort,
+  ClipboardListShort: ClipboardListShort.default || ClipboardListShort,
+  ClipboardListXCircle: ClipboardListXCircle.default || ClipboardListXCircle,
+  ClipboardListXCircleShort: ClipboardListXCircleShort.default || ClipboardListXCircleShort,
+  ClipboardListXShort: ClipboardListXShort.default || ClipboardListXShort,
+  ClipboardMinus: ClipboardMinus.default || ClipboardMinus,
+  ClipboardMinusCenter: ClipboardMinusCenter.default || ClipboardMinusCenter,
+  ClipboardMinusCircle: ClipboardMinusCircle.default || ClipboardMinusCircle,
+  ClipboardPage: ClipboardPage.default || ClipboardPage,
+  ClipboardPageText: ClipboardPageText.default || ClipboardPageText,
+  ClipboardPlus: ClipboardPlus.default || ClipboardPlus,
+  ClipboardPlusCircle: ClipboardPlusCircle.default || ClipboardPlusCircle,
   ClipboardList: ClipboardList.default || ClipboardList,
   ClipboardListCheck: ClipboardListCheck.default || ClipboardListCheck,
   ClipboardListMinus: ClipboardListMinus.default || ClipboardListMinus,
   ClipboardListPlus: ClipboardListPlus.default || ClipboardListPlus,
   ClipboardListX: ClipboardListX.default || ClipboardListX,
+  ClipboardText: ClipboardText.default || ClipboardText,
+  ClipboardTriangle: ClipboardTriangle.default || ClipboardTriangle,
+  ClipboardWarning: ClipboardWarning.default || ClipboardWarning,
+  ClipboardX: ClipboardX.default || ClipboardX,
+  ClipboardXCircle: ClipboardXCircle.default || ClipboardXCircle,
   ClockAngled: ClockAngled.default || ClockAngled,
   Clock: Clock.default || Clock,
   ClockRefresh: ClockRefresh.default || ClockRefresh,
@@ -5190,10 +5663,28 @@ module.exports = {
   ClockPaperclip: ClockPaperclip.default || ClockPaperclip,
   ClockPaperclipTilted: ClockPaperclipTilted.default || ClockPaperclipTilted,
   ClockCheck: ClockCheck.default || ClockCheck,
+  ClockCircleDashed: ClockCircleDashed.default || ClockCircleDashed,
+  ClockClockwise: ClockClockwise.default || ClockClockwise,
+  ClockClockwiseBottom: ClockClockwiseBottom.default || ClockClockwiseBottom,
   ClockCloud: ClockCloud.default || ClockCloud,
+  ClockCounterclockwise: ClockCounterclockwise.default || ClockCounterclockwise,
+  ClockCounterclockwiseBottom: ClockCounterclockwiseBottom.default || ClockCounterclockwiseBottom,
+  ClockDashed: ClockDashed.default || ClockDashed,
+  ClockDashedHalf: ClockDashedHalf.default || ClockDashedHalf,
+  ClockDashedHalfBottom: ClockDashedHalfBottom.default || ClockDashedHalfBottom,
+  ClockDashedHalfLong: ClockDashedHalfLong.default || ClockDashedHalfLong,
+  ClockDashedHalfSparse: ClockDashedHalfSparse.default || ClockDashedHalfSparse,
+  ClockDashedLong: ClockDashedLong.default || ClockDashedLong,
+  ClockDashedQuarter: ClockDashedQuarter.default || ClockDashedQuarter,
+  ClockDashedQuarterRight: ClockDashedQuarterRight.default || ClockDashedQuarterRight,
   ClockDotted: ClockDotted.default || ClockDotted,
+  ClockDottedArc: ClockDottedArc.default || ClockDottedArc,
+  ClockDottedArcAngled: ClockDottedArcAngled.default || ClockDottedArcAngled,
+  ClockDottedArcClockwise: ClockDottedArcClockwise.default || ClockDottedArcClockwise,
   ClockMail: ClockMail.default || ClockMail,
   ClockAlertCircle: ClockAlertCircle.default || ClockAlertCircle,
+  ClockFast: ClockFast.default || ClockFast,
+  ClockFastAngled: ClockFastAngled.default || ClockFastAngled,
   ClockFunnel: ClockFunnel.default || ClockFunnel,
   ClockSettingsLarge: ClockSettingsLarge.default || ClockSettingsLarge,
   ClockSettings: ClockSettings.default || ClockSettings,
@@ -5201,6 +5692,7 @@ module.exports = {
   ClockLinkTilted: ClockLinkTilted.default || ClockLinkTilted,
   ClockLink: ClockLink.default || ClockLink,
   ClockLock: ClockLock.default || ClockLock,
+  ClockMantel: ClockMantel.default || ClockMantel,
   ClockMinus: ClockMinus.default || ClockMinus,
   ClockDot: ClockDot.default || ClockDot,
   ClockNumberOne: ClockNumberOne.default || ClockNumberOne,
@@ -5214,7 +5706,18 @@ module.exports = {
   ClockSend: ClockSend.default || ClockSend,
   ClockBan: ClockBan.default || ClockBan,
   ClockSnooze: ClockSnooze.default || ClockSnooze,
+  ClockSplit: ClockSplit.default || ClockSplit,
+  ClockSquare: ClockSquare.default || ClockSquare,
+  ClockSquared: ClockSquared.default || ClockSquared,
   ClockStar: ClockStar.default || ClockStar,
+  ClockThreeSquared: ClockThreeSquared.default || ClockThreeSquared,
+  ClockTicks: ClockTicks.default || ClockTicks,
+  ClockTicksAngled: ClockTicksAngled.default || ClockTicksAngled,
+  ClockTicksSquared: ClockTicksSquared.default || ClockTicksSquared,
+  ClockTurnLeft: ClockTurnLeft.default || ClockTurnLeft,
+  ClockTurnLeftSmall: ClockTurnLeftSmall.default || ClockTurnLeftSmall,
+  ClockTurnRight: ClockTurnRight.default || ClockTurnRight,
+  ClockTurnRightSmall: ClockTurnRightSmall.default || ClockTurnRightSmall,
   ClockUnlock: ClockUnlock.default || ClockUnlock,
   ClockUser: ClockUser.default || ClockUser,
   ClockEye: ClockEye.default || ClockEye,
@@ -5224,6 +5727,11 @@ module.exports = {
   SidebarArrowLeftStriped: SidebarArrowLeftStriped.default || SidebarArrowLeftStriped,
   SidebarArrowLeftRows: SidebarArrowLeftRows.default || SidebarArrowLeftRows,
   SidebarArrowLeft: SidebarArrowLeft.default || SidebarArrowLeft,
+  ClosedCaption: ClosedCaption.default || ClosedCaption,
+  ClosedCaptionBare: ClosedCaptionBare.default || ClosedCaptionBare,
+  ClosedCaptionBarrel: ClosedCaptionBarrel.default || ClosedCaptionBarrel,
+  ClosedCaptionBoxy: ClosedCaptionBoxy.default || ClosedCaptionBoxy,
+  ClosedCaptionCushion: ClosedCaptionCushion.default || ClosedCaptionCushion,
   Cloud: Cloud.default || Cloud,
   CloudPlus: CloudPlus.default || CloudPlus,
   CloudTriangle: CloudTriangle.default || CloudTriangle,
@@ -5415,10 +5923,12 @@ module.exports = {
   Support: Support.default || Support,
   SupportOvalMic: SupportOvalMic.default || SupportOvalMic,
   SupportFace: SupportFace.default || SupportFace,
+  CylinderClock: CylinderClock.default || CylinderClock,
   Dashboard: Dashboard.default || Dashboard,
   DashboardSharp: DashboardSharp.default || DashboardSharp,
   DashboardSquare: DashboardSquare.default || DashboardSquare,
   DashboardChart: DashboardChart.default || DashboardChart,
+  DatabaseClock: DatabaseClock.default || DatabaseClock,
   ScreenDock: ScreenDock.default || ScreenDock,
   ScreenDockDots: ScreenDockDots.default || ScreenDockDots,
   ScreenDownloadDotsTall: ScreenDownloadDotsTall.default || ScreenDownloadDotsTall,
@@ -5586,6 +6096,11 @@ module.exports = {
   FormCheckboxLong: FormCheckboxLong.default || FormCheckboxLong,
   FormCheckbox: FormCheckbox.default || FormCheckbox,
   FormCheckboxLarge: FormCheckboxLarge.default || FormCheckboxLarge,
+  FormControlsCheck: FormControlsCheck.default || FormControlsCheck,
+  FormControlsGridPlus: FormControlsGridPlus.default || FormControlsGridPlus,
+  FormControlsGridX: FormControlsGridX.default || FormControlsGridX,
+  FormControlsPlus: FormControlsPlus.default || FormControlsPlus,
+  FormControlsX: FormControlsX.default || FormControlsX,
   FormDropdownMinimal: FormDropdownMinimal.default || FormDropdownMinimal,
   FormDropdown: FormDropdown.default || FormDropdown,
   FormDropdownSlim: FormDropdownSlim.default || FormDropdownSlim,
@@ -5599,6 +6114,7 @@ module.exports = {
   FormInputCursor: FormInputCursor.default || FormInputCursor,
   FormLockDrop: FormLockDrop.default || FormLockDrop,
   FormLockTooltip: FormLockTooltip.default || FormLockTooltip,
+  FormRadioCheckSmall: FormRadioCheckSmall.default || FormRadioCheckSmall,
   FormRadioDotLong: FormRadioDotLong.default || FormRadioDotLong,
   FormRadioDot: FormRadioDot.default || FormRadioDot,
   FormRadioCheck: FormRadioCheck.default || FormRadioCheck,
@@ -5718,6 +6234,37 @@ module.exports = {
   HeartPlusCenter: HeartPlusCenter.default || HeartPlusCenter,
   SidebarMenuArrowLeft: SidebarMenuArrowLeft.default || SidebarMenuArrowLeft,
   SidebarArrowRight: SidebarArrowRight.default || SidebarArrowRight,
+  Hourglass: Hourglass.default || Hourglass,
+  HourglassCircle: HourglassCircle.default || HourglassCircle,
+  HourglassCircleCurved: HourglassCircleCurved.default || HourglassCircleCurved,
+  HourglassCircleDiagonal: HourglassCircleDiagonal.default || HourglassCircleDiagonal,
+  HourglassCircleRound: HourglassCircleRound.default || HourglassCircleRound,
+  HourglassCircleWide: HourglassCircleWide.default || HourglassCircleWide,
+  HourglassCurved: HourglassCurved.default || HourglassCurved,
+  HourglassDiagonal: HourglassDiagonal.default || HourglassDiagonal,
+  HourglassSand: HourglassSand.default || HourglassSand,
+  HourglassSandCurved: HourglassSandCurved.default || HourglassSandCurved,
+  HourglassSandDiagonal: HourglassSandDiagonal.default || HourglassSandDiagonal,
+  HourglassSandFalling: HourglassSandFalling.default || HourglassSandFalling,
+  HourglassSandFallingCurved: HourglassSandFallingCurved.default || HourglassSandFallingCurved,
+  HourglassSandFallingDiagonal: HourglassSandFallingDiagonal.default || HourglassSandFallingDiagonal,
+  HourglassSquare: HourglassSquare.default || HourglassSquare,
+  HourglassSquareCurved: HourglassSquareCurved.default || HourglassSquareCurved,
+  HourglassSquareDiagonal: HourglassSquareDiagonal.default || HourglassSquareDiagonal,
+  HourglassSquareRound: HourglassSquareRound.default || HourglassSquareRound,
+  HourglassSquareWide: HourglassSquareWide.default || HourglassSquareWide,
+  HourglassStand: HourglassStand.default || HourglassStand,
+  HourglassStandCircle: HourglassStandCircle.default || HourglassStandCircle,
+  HourglassStandCircleCurved: HourglassStandCircleCurved.default || HourglassStandCircleCurved,
+  HourglassStandCurved: HourglassStandCurved.default || HourglassStandCurved,
+  HourglassStandSand: HourglassStandSand.default || HourglassStandSand,
+  HourglassStandSandCurved: HourglassStandSandCurved.default || HourglassStandSandCurved,
+  HourglassStandSandFalling: HourglassStandSandFalling.default || HourglassStandSandFalling,
+  HourglassStandSandFallingCurved: HourglassStandSandFallingCurved.default || HourglassStandSandFallingCurved,
+  HourglassStandSquare: HourglassStandSquare.default || HourglassStandSquare,
+  HourglassStandSquareCurved: HourglassStandSquareCurved.default || HourglassStandSquareCurved,
+  HourglassSync: HourglassSync.default || HourglassSync,
+  HourglassSyncRound: HourglassSyncRound.default || HourglassSyncRound,
   HouseEaves: HouseEaves.default || HouseEaves,
   HouseDoorEaves: HouseDoorEaves.default || HouseDoorEaves,
   House: House.default || House,
@@ -5739,6 +6286,9 @@ module.exports = {
   InfoCircleSmall: InfoCircleSmall.default || InfoCircleSmall,
   InfoSquare: InfoSquare.default || InfoSquare,
   InfoSquareSmall: InfoSquareSmall.default || InfoSquareSmall,
+  ImagePaperclip: ImagePaperclip.default || ImagePaperclip,
+  ImagePaperclipCurl: ImagePaperclipCurl.default || ImagePaperclipCurl,
+  ImagePaperclipTilted: ImagePaperclipTilted.default || ImagePaperclipTilted,
   Image: Image.default || Image,
   ImageWide: ImageWide.default || ImageWide,
   ImageHills: ImageHills.default || ImageHills,
@@ -5936,6 +6486,9 @@ module.exports = {
   SearchExpandB: SearchExpandB.default || SearchExpandB,
   SearchOneToOneC: SearchOneToOneC.default || SearchOneToOneC,
   SearchExpandC: SearchExpandC.default || SearchExpandC,
+  MailPaperclip: MailPaperclip.default || MailPaperclip,
+  MailPaperclipRound: MailPaperclipRound.default || MailPaperclipRound,
+  MailPaperclipTilted: MailPaperclipTilted.default || MailPaperclipTilted,
   Mailbox: Mailbox.default || Mailbox,
   MailboxFlag: MailboxFlag.default || MailboxFlag,
   MailboxPost: MailboxPost.default || MailboxPost,
@@ -6053,6 +6606,20 @@ module.exports = {
   PaneArrowRightStriped: PaneArrowRightStriped.default || PaneArrowRightStriped,
   PaneArrowRightList: PaneArrowRightList.default || PaneArrowRightList,
   PaneArrowRight: PaneArrowRight.default || PaneArrowRight,
+  OptionsCheckAsterisk: OptionsCheckAsterisk.default || OptionsCheckAsterisk,
+  OptionsCheckCursor: OptionsCheckCursor.default || OptionsCheckCursor,
+  OptionsCheckDots: OptionsCheckDots.default || OptionsCheckDots,
+  OptionsCheckEquals: OptionsCheckEquals.default || OptionsCheckEquals,
+  OptionsCheckInfo: OptionsCheckInfo.default || OptionsCheckInfo,
+  OptionsCheckInfoSquare: OptionsCheckInfoSquare.default || OptionsCheckInfoSquare,
+  OptionsCheckPlus: OptionsCheckPlus.default || OptionsCheckPlus,
+  OptionsCheckSquareInfoSquare: OptionsCheckSquareInfoSquare.default || OptionsCheckSquareInfoSquare,
+  OptionsCheckX: OptionsCheckX.default || OptionsCheckX,
+  OptionsCheckXSync: OptionsCheckXSync.default || OptionsCheckXSync,
+  OptionsDotsAsterisk: OptionsDotsAsterisk.default || OptionsDotsAsterisk,
+  OptionsDotsInfo: OptionsDotsInfo.default || OptionsDotsInfo,
+  OptionsPlusMinus: OptionsPlusMinus.default || OptionsPlusMinus,
+  OptionsRadioCheckX: OptionsRadioCheckX.default || OptionsRadioCheckX,
   Overscan: Overscan.default || Overscan,
   OverscanSmall: OverscanSmall.default || OverscanSmall,
   OverscanLeftRight: OverscanLeftRight.default || OverscanLeftRight,
@@ -6112,6 +6679,90 @@ module.exports = {
   BrowserDollarSearchDots: BrowserDollarSearchDots.default || BrowserDollarSearchDots,
   BrowserDollarSearchDots2: BrowserDollarSearchDots2.default || BrowserDollarSearchDots2,
   DollarSearch: DollarSearch.default || DollarSearch,
+  Paperclip: Paperclip.default || Paperclip,
+  PaperclipArrowUp: PaperclipArrowUp.default || PaperclipArrowUp,
+  PaperclipArrowUpCurl: PaperclipArrowUpCurl.default || PaperclipArrowUpCurl,
+  PaperclipArrowUpFlipped: PaperclipArrowUpFlipped.default || PaperclipArrowUpFlipped,
+  PaperclipArrowUpLong: PaperclipArrowUpLong.default || PaperclipArrowUpLong,
+  PaperclipArrowUpNarrow: PaperclipArrowUpNarrow.default || PaperclipArrowUpNarrow,
+  PaperclipArrowUpRound: PaperclipArrowUpRound.default || PaperclipArrowUpRound,
+  PaperclipArrowUpShort: PaperclipArrowUpShort.default || PaperclipArrowUpShort,
+  PaperclipArrowUpSlim: PaperclipArrowUpSlim.default || PaperclipArrowUpSlim,
+  PaperclipArrowUpVertical: PaperclipArrowUpVertical.default || PaperclipArrowUpVertical,
+  PaperclipArrowUpWide: PaperclipArrowUpWide.default || PaperclipArrowUpWide,
+  PaperclipCheck: PaperclipCheck.default || PaperclipCheck,
+  PaperclipCheckCurl: PaperclipCheckCurl.default || PaperclipCheckCurl,
+  PaperclipCheckFlipped: PaperclipCheckFlipped.default || PaperclipCheckFlipped,
+  PaperclipCheckLong: PaperclipCheckLong.default || PaperclipCheckLong,
+  PaperclipCheckNarrow: PaperclipCheckNarrow.default || PaperclipCheckNarrow,
+  PaperclipCheckRound: PaperclipCheckRound.default || PaperclipCheckRound,
+  PaperclipCheckShort: PaperclipCheckShort.default || PaperclipCheckShort,
+  PaperclipCheckSlim: PaperclipCheckSlim.default || PaperclipCheckSlim,
+  PaperclipCheckVertical: PaperclipCheckVertical.default || PaperclipCheckVertical,
+  PaperclipCheckWide: PaperclipCheckWide.default || PaperclipCheckWide,
+  PaperclipCircle: PaperclipCircle.default || PaperclipCircle,
+  PaperclipCircleArrowLeft: PaperclipCircleArrowLeft.default || PaperclipCircleArrowLeft,
+  PaperclipCircleArrowLeftLong: PaperclipCircleArrowLeftLong.default || PaperclipCircleArrowLeftLong,
+  PaperclipCircleArrowLeftShort: PaperclipCircleArrowLeftShort.default || PaperclipCircleArrowLeftShort,
+  PaperclipCircleArrowRight: PaperclipCircleArrowRight.default || PaperclipCircleArrowRight,
+  PaperclipCircleArrowRightLong: PaperclipCircleArrowRightLong.default || PaperclipCircleArrowRightLong,
+  PaperclipCircleArrowRightShort: PaperclipCircleArrowRightShort.default || PaperclipCircleArrowRightShort,
+  PaperclipCircleCheck: PaperclipCircleCheck.default || PaperclipCircleCheck,
+  PaperclipCircleCheckLong: PaperclipCircleCheckLong.default || PaperclipCircleCheckLong,
+  PaperclipCircleCheckShort: PaperclipCircleCheckShort.default || PaperclipCircleCheckShort,
+  PaperclipCircleLong: PaperclipCircleLong.default || PaperclipCircleLong,
+  PaperclipCircleShort: PaperclipCircleShort.default || PaperclipCircleShort,
+  PaperclipCircleX: PaperclipCircleX.default || PaperclipCircleX,
+  PaperclipCircleXLong: PaperclipCircleXLong.default || PaperclipCircleXLong,
+  PaperclipCircleXShort: PaperclipCircleXShort.default || PaperclipCircleXShort,
+  PaperclipCurl: PaperclipCurl.default || PaperclipCurl,
+  PaperclipFlipped: PaperclipFlipped.default || PaperclipFlipped,
+  PaperclipLong: PaperclipLong.default || PaperclipLong,
+  PaperclipMinus: PaperclipMinus.default || PaperclipMinus,
+  PaperclipMinusCurl: PaperclipMinusCurl.default || PaperclipMinusCurl,
+  PaperclipMinusFlipped: PaperclipMinusFlipped.default || PaperclipMinusFlipped,
+  PaperclipMinusLong: PaperclipMinusLong.default || PaperclipMinusLong,
+  PaperclipMinusNarrow: PaperclipMinusNarrow.default || PaperclipMinusNarrow,
+  PaperclipMinusRound: PaperclipMinusRound.default || PaperclipMinusRound,
+  PaperclipMinusShort: PaperclipMinusShort.default || PaperclipMinusShort,
+  PaperclipMinusSlim: PaperclipMinusSlim.default || PaperclipMinusSlim,
+  PaperclipMinusVertical: PaperclipMinusVertical.default || PaperclipMinusVertical,
+  PaperclipMinusWide: PaperclipMinusWide.default || PaperclipMinusWide,
+  PaperclipNarrow: PaperclipNarrow.default || PaperclipNarrow,
+  PaperclipPlus: PaperclipPlus.default || PaperclipPlus,
+  PaperclipPlusCurl: PaperclipPlusCurl.default || PaperclipPlusCurl,
+  PaperclipPlusFlipped: PaperclipPlusFlipped.default || PaperclipPlusFlipped,
+  PaperclipPlusLong: PaperclipPlusLong.default || PaperclipPlusLong,
+  PaperclipPlusNarrow: PaperclipPlusNarrow.default || PaperclipPlusNarrow,
+  PaperclipPlusRound: PaperclipPlusRound.default || PaperclipPlusRound,
+  PaperclipPlusShort: PaperclipPlusShort.default || PaperclipPlusShort,
+  PaperclipPlusSlim: PaperclipPlusSlim.default || PaperclipPlusSlim,
+  PaperclipPlusVertical: PaperclipPlusVertical.default || PaperclipPlusVertical,
+  PaperclipPlusWide: PaperclipPlusWide.default || PaperclipPlusWide,
+  PaperclipRound: PaperclipRound.default || PaperclipRound,
+  PaperclipShort: PaperclipShort.default || PaperclipShort,
+  PaperclipSlim: PaperclipSlim.default || PaperclipSlim,
+  PaperclipSquare: PaperclipSquare.default || PaperclipSquare,
+  PaperclipSquareLong: PaperclipSquareLong.default || PaperclipSquareLong,
+  PaperclipSquareOpen: PaperclipSquareOpen.default || PaperclipSquareOpen,
+  PaperclipSquareOpenLong: PaperclipSquareOpenLong.default || PaperclipSquareOpenLong,
+  PaperclipSquareOpenShort: PaperclipSquareOpenShort.default || PaperclipSquareOpenShort,
+  PaperclipSquareOpenThin: PaperclipSquareOpenThin.default || PaperclipSquareOpenThin,
+  PaperclipSquareOpenVertical: PaperclipSquareOpenVertical.default || PaperclipSquareOpenVertical,
+  PaperclipSquareShort: PaperclipSquareShort.default || PaperclipSquareShort,
+  PaperclipSquareThin: PaperclipSquareThin.default || PaperclipSquareThin,
+  PaperclipVertical: PaperclipVertical.default || PaperclipVertical,
+  PaperclipWide: PaperclipWide.default || PaperclipWide,
+  PaperclipX: PaperclipX.default || PaperclipX,
+  PaperclipXCurl: PaperclipXCurl.default || PaperclipXCurl,
+  PaperclipXFlipped: PaperclipXFlipped.default || PaperclipXFlipped,
+  PaperclipXLong: PaperclipXLong.default || PaperclipXLong,
+  PaperclipXNarrow: PaperclipXNarrow.default || PaperclipXNarrow,
+  PaperclipXRound: PaperclipXRound.default || PaperclipXRound,
+  PaperclipXShort: PaperclipXShort.default || PaperclipXShort,
+  PaperclipXSlim: PaperclipXSlim.default || PaperclipXSlim,
+  PaperclipXVertical: PaperclipXVertical.default || PaperclipXVertical,
+  PaperclipXWide: PaperclipXWide.default || PaperclipXWide,
   Pause: Pause.default || Pause,
   PauseCircle: PauseCircle.default || PauseCircle,
   PauseSquare: PauseSquare.default || PauseSquare,
@@ -6136,6 +6787,7 @@ module.exports = {
   PlaqueTight: PlaqueTight.default || PlaqueTight,
   Play: Play.default || Play,
   PlaySquare: PlaySquare.default || PlaySquare,
+  PlusCircleStackArc: PlusCircleStackArc.default || PlusCircleStackArc,
   PollHorizontalSquare: PollHorizontalSquare.default || PollHorizontalSquare,
   PollSquare: PollSquare.default || PollSquare,
   PollHorizontalPercent: PollHorizontalPercent.default || PollHorizontalPercent,
@@ -6348,6 +7000,10 @@ module.exports = {
   ArrowUpSquare: ArrowUpSquare.default || ArrowUpSquare,
   ArrowUpLeftSquare: ArrowUpLeftSquare.default || ArrowUpLeftSquare,
   ArrowUpRightSquare: ArrowUpRightSquare.default || ArrowUpRightSquare,
+  SquareCheckCircle: SquareCheckCircle.default || SquareCheckCircle,
+  SquareStackPaperclip: SquareStackPaperclip.default || SquareStackPaperclip,
+  SquareStackPaperclipCurl: SquareStackPaperclipCurl.default || SquareStackPaperclipCurl,
+  SquareStackPaperclipTilted: SquareStackPaperclipTilted.default || SquareStackPaperclipTilted,
   Grid: Grid.default || Grid,
   GridRounded: GridRounded.default || GridRounded,
   Star: Star.default || Star,
@@ -6371,6 +7027,77 @@ module.exports = {
   Stop: Stop.default || Stop,
   StopCircle: StopCircle.default || StopCircle,
   StopSquare: StopSquare.default || StopSquare,
+  Stopwatch: Stopwatch.default || Stopwatch,
+  StopwatchAlert: StopwatchAlert.default || StopwatchAlert,
+  StopwatchAlertBare: StopwatchAlertBare.default || StopwatchAlertBare,
+  StopwatchAlertDetached: StopwatchAlertDetached.default || StopwatchAlertDetached,
+  StopwatchAlertKnob: StopwatchAlertKnob.default || StopwatchAlertKnob,
+  StopwatchAlertTick: StopwatchAlertTick.default || StopwatchAlertTick,
+  StopwatchBolt: StopwatchBolt.default || StopwatchBolt,
+  StopwatchBoltBare: StopwatchBoltBare.default || StopwatchBoltBare,
+  StopwatchBoltDetached: StopwatchBoltDetached.default || StopwatchBoltDetached,
+  StopwatchBoltKnob: StopwatchBoltKnob.default || StopwatchBoltKnob,
+  StopwatchBoltTick: StopwatchBoltTick.default || StopwatchBoltTick,
+  StopwatchCheck: StopwatchCheck.default || StopwatchCheck,
+  StopwatchCheckBare: StopwatchCheckBare.default || StopwatchCheckBare,
+  StopwatchCheckDetached: StopwatchCheckDetached.default || StopwatchCheckDetached,
+  StopwatchCheckKnob: StopwatchCheckKnob.default || StopwatchCheckKnob,
+  StopwatchCheckTick: StopwatchCheckTick.default || StopwatchCheckTick,
+  StopwatchClockwise: StopwatchClockwise.default || StopwatchClockwise,
+  StopwatchClockwiseBare: StopwatchClockwiseBare.default || StopwatchClockwiseBare,
+  StopwatchClockwiseDetached: StopwatchClockwiseDetached.default || StopwatchClockwiseDetached,
+  StopwatchClockwiseKnob: StopwatchClockwiseKnob.default || StopwatchClockwiseKnob,
+  StopwatchDetached: StopwatchDetached.default || StopwatchDetached,
+  StopwatchDotted: StopwatchDotted.default || StopwatchDotted,
+  StopwatchDottedBare: StopwatchDottedBare.default || StopwatchDottedBare,
+  StopwatchDottedDetached: StopwatchDottedDetached.default || StopwatchDottedDetached,
+  StopwatchDottedKnob: StopwatchDottedKnob.default || StopwatchDottedKnob,
+  StopwatchFastKnob: StopwatchFastKnob.default || StopwatchFastKnob,
+  StopwatchFastTick: StopwatchFastTick.default || StopwatchFastTick,
+  StopwatchKnob: StopwatchKnob.default || StopwatchKnob,
+  StopwatchMinus: StopwatchMinus.default || StopwatchMinus,
+  StopwatchMinusBare: StopwatchMinusBare.default || StopwatchMinusBare,
+  StopwatchMinusDetached: StopwatchMinusDetached.default || StopwatchMinusDetached,
+  StopwatchMinusKnob: StopwatchMinusKnob.default || StopwatchMinusKnob,
+  StopwatchMinusTick: StopwatchMinusTick.default || StopwatchMinusTick,
+  StopwatchNeedle: StopwatchNeedle.default || StopwatchNeedle,
+  StopwatchNeedleArcLeft: StopwatchNeedleArcLeft.default || StopwatchNeedleArcLeft,
+  StopwatchNeedleArcRight: StopwatchNeedleArcRight.default || StopwatchNeedleArcRight,
+  StopwatchOff: StopwatchOff.default || StopwatchOff,
+  StopwatchOffBare: StopwatchOffBare.default || StopwatchOffBare,
+  StopwatchOffDetached: StopwatchOffDetached.default || StopwatchOffDetached,
+  StopwatchOffKnob: StopwatchOffKnob.default || StopwatchOffKnob,
+  StopwatchOffTick: StopwatchOffTick.default || StopwatchOffTick,
+  StopwatchPie: StopwatchPie.default || StopwatchPie,
+  StopwatchPieBare: StopwatchPieBare.default || StopwatchPieBare,
+  StopwatchPieDetached: StopwatchPieDetached.default || StopwatchPieDetached,
+  StopwatchPieKnob: StopwatchPieKnob.default || StopwatchPieKnob,
+  StopwatchPieTick: StopwatchPieTick.default || StopwatchPieTick,
+  StopwatchPin: StopwatchPin.default || StopwatchPin,
+  StopwatchPinBare: StopwatchPinBare.default || StopwatchPinBare,
+  StopwatchPinDetached: StopwatchPinDetached.default || StopwatchPinDetached,
+  StopwatchPinKnob: StopwatchPinKnob.default || StopwatchPinKnob,
+  StopwatchPinTick: StopwatchPinTick.default || StopwatchPinTick,
+  StopwatchPlus: StopwatchPlus.default || StopwatchPlus,
+  StopwatchPlusBare: StopwatchPlusBare.default || StopwatchPlusBare,
+  StopwatchPlusDetached: StopwatchPlusDetached.default || StopwatchPlusDetached,
+  StopwatchPlusKnob: StopwatchPlusKnob.default || StopwatchPlusKnob,
+  StopwatchPlusTick: StopwatchPlusTick.default || StopwatchPlusTick,
+  StopwatchQuestion: StopwatchQuestion.default || StopwatchQuestion,
+  StopwatchQuestionBare: StopwatchQuestionBare.default || StopwatchQuestionBare,
+  StopwatchQuestionDetached: StopwatchQuestionDetached.default || StopwatchQuestionDetached,
+  StopwatchQuestionKnob: StopwatchQuestionKnob.default || StopwatchQuestionKnob,
+  StopwatchQuestionTick: StopwatchQuestionTick.default || StopwatchQuestionTick,
+  StopwatchSnooze: StopwatchSnooze.default || StopwatchSnooze,
+  StopwatchSnoozeBare: StopwatchSnoozeBare.default || StopwatchSnoozeBare,
+  StopwatchSnoozeDetached: StopwatchSnoozeDetached.default || StopwatchSnoozeDetached,
+  StopwatchSnoozeKnob: StopwatchSnoozeKnob.default || StopwatchSnoozeKnob,
+  StopwatchSnoozeTick: StopwatchSnoozeTick.default || StopwatchSnoozeTick,
+  StopwatchX: StopwatchX.default || StopwatchX,
+  StopwatchXBare: StopwatchXBare.default || StopwatchXBare,
+  StopwatchXDetached: StopwatchXDetached.default || StopwatchXDetached,
+  StopwatchXKnob: StopwatchXKnob.default || StopwatchXKnob,
+  StopwatchXTick: StopwatchXTick.default || StopwatchXTick,
   Submit: Submit.default || Submit,
   SubmitOpen: SubmitOpen.default || SubmitOpen,
   SubmitSquare: SubmitSquare.default || SubmitSquare,
@@ -6560,6 +7287,7 @@ module.exports = {
   SwatchFan: SwatchFan.default || SwatchFan,
   SwatchStackWide: SwatchStackWide.default || SwatchStackWide,
   SwatchStack: SwatchStack.default || SwatchStack,
+  Timer: Timer.default || Timer,
   WrenchHandOpen: WrenchHandOpen.default || WrenchHandOpen,
   WrenchHand: WrenchHand.default || WrenchHand,
   Wrench: Wrench.default || Wrench,
@@ -6744,6 +7472,7 @@ module.exports = {
   TriangleOff: TriangleOff.default || TriangleOff,
   TriangleOffWide: TriangleOffWide.default || TriangleOffWide,
   TriangleOffSmall: TriangleOffSmall.default || TriangleOffSmall,
+  Watch: Watch.default || Watch,
   FolderWww: FolderWww.default || FolderWww,
   BrowserArmchair: BrowserArmchair.default || BrowserArmchair,
   BrowserArmchairRound: BrowserArmchairRound.default || BrowserArmchairRound,
@@ -6806,6 +7535,7 @@ module.exports = {
   WindowStack: WindowStack.default || WindowStack,
   XUndo: XUndo.default || XUndo,
   XUndoWide: XUndoWide.default || XUndoWide,
+  XCircleStackArc: XCircleStackArc.default || XCircleStackArc,
   XLarge: XLarge.default || XLarge,
   X: X.default || X,
   XSmall: XSmall.default || XSmall,

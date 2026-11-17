@@ -1,0 +1,36 @@
+{
+  "name": "StopwatchPin",
+  "displayName": "Stopwatch pin",
+  "description": "Stopwatch with a crown and a button on each side and a map pin at the lower left.",
+  "tags": [
+    "stopwatch",
+    "timer",
+    "time",
+    "chronometer",
+    "pin",
+    "location",
+    "map",
+    "place"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Location time"
+  },
+  "filename": "stopwatch-pin",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

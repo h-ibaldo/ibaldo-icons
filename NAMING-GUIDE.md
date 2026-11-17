@@ -103,6 +103,9 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   (chevron arrowhead leaving the circle); Volume `Wide` (small inner arc, wider outer arcs).
   Chat (bubble shape; the oval has no word) `Boxy`/`Tooltip`/`Round`/`Slant`/`Sharp`/`Broken`/`Wide`/`Pointed`/`Tall`/`Side`/`Flat`;
   ChatStack `Layered`/`Facing`/`Notch`/`Flipped`/`Staggered` (or the front bubble's word).
+  Paperclip `Wide`/`Long`/`Short`/`Round`/`Vertical`/`Slim`/`Narrow`/`Flipped`/`Curl`/`Thin`; Alarm `Arc`/`Straight`/`Bare`;
+  Stopwatch `Tick`/`Bare`/`Knob`/`Detached`; Hourglass `Curved`/`Diagonal` (`Stand` = with boards); ClosedCaption `Boxy`/`Barrel`/`Cushion`/`Bare`;
+  Clipboard lists with 2 rows `Short`; dashed rings `DashedHalf`/`DashedHalfSmall`/`DashedHalfSparse`/`DashedHalfLong`/`DashedLong`/`DashedQuarter`.
   Letters `B`, `C` only when no difference can be described (today only `Search`, `SearchB`, `SearchC`).
 - **Near-duplicates** (same base, same badge, tiny drawing difference): name the difference when you can
   (`CloudDownloadLarge`). Only when you cannot, add a trailing `2`, `3`. The library keeps these (about 50).

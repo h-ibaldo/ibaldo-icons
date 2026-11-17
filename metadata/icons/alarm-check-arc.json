@@ -1,0 +1,37 @@
+{
+  "name": "AlarmCheckArc",
+  "displayName": "Alarm check arc",
+  "description": "Alarm clock with curved bell arcs and feet, with a check mark on the face.",
+  "tags": [
+    "alarm",
+    "alarm-clock",
+    "clock",
+    "time",
+    "wake-up",
+    "check",
+    "done",
+    "complete",
+    "arc"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Alarm set"
+  },
+  "filename": "alarm-check-arc",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}
