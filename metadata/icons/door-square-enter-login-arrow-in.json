@@ -5,17 +5,15 @@
   "description": "Square door with inward arrow representing login or entry functionality. Used for sign in actions and entering applications or secure areas.",
   "tags": [
     "door",
-    "square",
-    "login",
     "enter",
-    "sign in",
+    "login",
+    "square",
+    "sign-in",
     "arrow",
-    "in",
     "entry"
   ],
   "categories": [
-    "interface",
-    "business"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +31,7 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.801Z"
+  "generatedAt": "2026-02-15T00:53:19.801Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

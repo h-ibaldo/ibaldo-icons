@@ -1,5 +1,5 @@
 {
-  "name": "Lock5KeyholeOpen",
+  "name": "LockOpenKeyholeRound",
   "description": "A lock icon with visible keyhole in open state, representing accessible key-based security",
   "tags": [
     "lock",
@@ -8,11 +8,11 @@
     "security",
     "key",
     "access",
-    "unlock"
+    "unlock",
+    "round"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open keyhole round",
+  "aliases": [
+    "Lock5KeyholeOpen"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

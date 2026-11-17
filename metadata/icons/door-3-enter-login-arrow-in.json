@@ -1,21 +1,20 @@
 {
-  "name": "Door3ArrowIn",
-  "displayName": "Door 3 arrow in",
+  "name": "DoorOpenArrowIn",
+  "displayName": "Door open arrow in",
   "originalTitle": "Door 3 Enter Login Arrow In",
   "description": "Door with inward arrow representing login or entry functionality. Used for sign in actions and entering applications or rooms.",
   "tags": [
     "door",
-    "login",
     "enter",
-    "sign in",
+    "login",
+    "sign-in",
     "arrow",
-    "in",
     "entry",
-    "access"
+    "access",
+    "open"
   ],
   "categories": [
-    "interface",
-    "business"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.801Z"
+  "generatedAt": "2026-02-15T00:53:19.801Z",
+  "aliases": [
+    "Door3ArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

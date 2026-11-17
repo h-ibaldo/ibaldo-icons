@@ -1,19 +1,17 @@
 {
-  "name": "BadgeRosetteQuestionUnverified2",
+  "name": "BadgeQuestion",
   "description": "A variant of the rosette badge with question mark for unverified status, offering alternative styling for verification states.",
   "tags": [
     "badge",
     "rosette",
-    "question",
     "mark",
     "unverified",
+    "question",
     "uncertain",
-    "variant",
     "verification"
   ],
   "categories": [
-    "interface",
-    "security"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Badge question",
+  "aliases": [
+    "BadgeRosetteQuestionUnverified2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,19 +1,22 @@
 {
-  "name": "BookInformation7",
+  "name": "BookInfoTilted",
   "description": "A book icon with an information symbol for user manual and documentation reference - variant 7",
   "tags": [
     "book",
     "information",
-    "user manual",
+    "user",
+    "manual",
+    "user-manual",
     "guide",
     "documentation",
     "help",
     "educational",
-    "reference"
+    "reference",
+    "info",
+    "tilted"
   ],
   "categories": [
-    "education",
-    "interface"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Book info tilted",
+  "aliases": [
+    "BookInformation7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

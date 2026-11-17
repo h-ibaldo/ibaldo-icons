@@ -1,5 +1,5 @@
 {
-  "name": "BookBookmark9",
+  "name": "BookBookmarkCurved",
   "description": "A book with bookmark variant 9, showing a reading marker or page indicator",
   "tags": [
     "book",
@@ -8,11 +8,9 @@
     "marker",
     "read",
     "literature",
-    "variant",
-    "9"
+    "curved"
   ],
   "categories": [
-    "interface",
     "education"
   ],
   "accessibility": {
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Book bookmark curved",
+  "aliases": [
+    "BookBookmark9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

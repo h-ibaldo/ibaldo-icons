@@ -1,21 +1,24 @@
 {
-  "name": "AtSign1Check",
-  "displayName": "At sign 1 check",
+  "name": "AtCheckCurved",
+  "displayName": "At check curved",
   "originalTitle": "At Sign Email Contact Address 1 Check Checked",
   "description": "Email address symbol with checkmark indicating verified email, successful contact, or confirmed address. Used for email verification and successful contact validation.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "checked",
+    "done",
+    "success",
     "verified",
     "check",
     "confirmed",
-    "contact",
-    "address",
-    "success",
     "validated"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.777Z"
+  "generatedAt": "2026-02-15T00:53:19.777Z",
+  "aliases": [
+    "AtSign1Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

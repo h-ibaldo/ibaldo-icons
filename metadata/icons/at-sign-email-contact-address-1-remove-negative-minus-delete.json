@@ -1,20 +1,23 @@
 {
-  "name": "AtSign1Minus",
-  "displayName": "At sign 1 minus",
+  "name": "AtMinusCurved",
+  "displayName": "At minus curved",
   "originalTitle": "At Sign Email Contact Address 1 Remove Negative Minus Delete",
   "description": "At symbol with minus sign for removing email addresses. Used to delete contacts, remove email accounts, or subtract from contact lists.",
   "tags": [
     "at",
+    "sign",
     "email",
-    "remove",
-    "minus",
-    "delete",
     "contact",
-    "subtract"
+    "address",
+    "remove",
+    "negative",
+    "delete",
+    "subtract",
+    "minus",
+    "curved"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.761Z"
+  "generatedAt": "2026-02-15T00:53:19.761Z",
+  "aliases": [
+    "AtSign1Minus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

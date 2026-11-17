@@ -1,5 +1,5 @@
 {
-  "name": "Newspaper7",
+  "name": "NewspaperStack",
   "description": "A newspaper icon variant 7 for displaying news and editorial content",
   "tags": [
     "newspaper",
@@ -10,10 +10,10 @@
     "article",
     "information",
     "reading",
-    "journal"
+    "journal",
+    "stack"
   ],
   "categories": [
-    "media",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Newspaper stack",
+  "aliases": [
+    "Newspaper7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

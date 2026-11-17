@@ -1,21 +1,23 @@
 {
-  "name": "AtSign3Equal",
-  "displayName": "At sign 3 equal",
+  "name": "AtEqualCircle",
+  "displayName": "At equal circle",
   "originalTitle": "At Sign Email Contact Address 3 Equal",
   "description": "At symbol with equals sign for email comparison or matching operations. Used in email filtering or duplicate detection features.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "equal",
     "match",
     "compare",
     "filter",
-    "contact",
-    "address",
-    "at-sign"
+    "at-sign",
+    "circle"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.779Z"
+  "generatedAt": "2026-02-15T00:53:19.779Z",
+  "aliases": [
+    "AtSign3Equal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

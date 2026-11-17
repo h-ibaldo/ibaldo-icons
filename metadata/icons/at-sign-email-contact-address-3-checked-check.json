@@ -1,21 +1,24 @@
 {
-  "name": "AtSign3Check",
-  "displayName": "At sign 3 check",
+  "name": "AtCheckCircle",
+  "displayName": "At check circle",
   "originalTitle": "At Sign Email Contact Address 3 Checked Check",
   "description": "At symbol with checkmark indicating verified email address or successful email operation. Used to show email validation or delivery confirmation.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "checked",
+    "done",
+    "success",
     "verified",
     "check",
     "confirmed",
-    "valid",
-    "contact",
-    "address",
-    "at-sign"
+    "valid"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.779Z"
+  "generatedAt": "2026-02-15T00:53:19.779Z",
+  "aliases": [
+    "AtSign3Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

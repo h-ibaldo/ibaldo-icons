@@ -1,21 +1,23 @@
 {
-  "name": "AtSign3Clock1",
-  "displayName": "At sign 3 clock 1",
+  "name": "AtClockCircle",
+  "displayName": "At clock circle",
   "originalTitle": "At Sign Email Contact Address 3 Clock 1",
   "description": "Timed email communication icon showing email with time component. Used for scheduled emails, email timing features, or time-sensitive email functions.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "timed",
     "schedule",
     "communication",
-    "contact",
-    "address",
     "clock",
-    "timing"
+    "timing",
+    "circle"
   ],
   "categories": [
-    "communication",
-    "time"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.803Z"
+  "generatedAt": "2026-02-15T00:53:19.803Z",
+  "aliases": [
+    "AtSign3Clock1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

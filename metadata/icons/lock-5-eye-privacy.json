@@ -1,18 +1,18 @@
 {
-  "name": "Lock5Eye",
+  "name": "LockEyeRound",
   "description": "A lock icon combined with an eye symbol, representing privacy visibility and security monitoring",
   "tags": [
     "lock",
-    "eye",
     "privacy",
+    "eye",
     "visibility",
     "security",
     "monitor",
-    "watch"
+    "watch",
+    "round"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock eye round",
+  "aliases": [
+    "Lock5Eye"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

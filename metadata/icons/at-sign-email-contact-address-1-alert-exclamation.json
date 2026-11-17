@@ -1,21 +1,24 @@
 {
-  "name": "AtSign1Alert",
-  "displayName": "At sign 1 alert",
+  "name": "AtAlertCurved",
+  "displayName": "At alert curved",
   "originalTitle": "At Sign Email Contact Address 1 Alert Exclamation",
   "description": "Email address symbol with alert notification indicating email-related warnings or important messages. Used for email alerts, contact issues, or address verification problems.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "alert",
-    "warning",
     "contact",
     "address",
-    "notification",
     "exclamation",
+    "error",
+    "attention",
+    "alert",
+    "warning",
+    "notification",
     "problem"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.777Z"
+  "generatedAt": "2026-02-15T00:53:19.777Z",
+  "aliases": [
+    "AtSign1Alert"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

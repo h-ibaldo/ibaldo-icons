@@ -1,21 +1,24 @@
 {
-  "name": "AtSign5Settings",
-  "displayName": "At sign 5 settings",
+  "name": "AtDotsBoxy",
+  "displayName": "At dots boxy",
   "originalTitle": "At Sign Email Contact Address 5 Dots Settings Menu",
   "description": "At symbol with menu dots for email settings and configuration options. Used to access email preferences, account settings, or contact management.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "settings",
     "menu",
     "options",
     "configure",
     "preferences",
-    "contact",
-    "manage"
+    "manage",
+    "dots"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.764Z"
+  "generatedAt": "2026-02-15T00:53:19.764Z",
+  "aliases": [
+    "AtSign5Settings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,20 +1,22 @@
 {
-  "name": "AtSign2ArrowReload",
-  "displayName": "At sign 2 arrow reload",
+  "name": "AtRefresh",
+  "displayName": "At refresh",
   "originalTitle": "At Sign Email Contact Address 2 Arrow Reload Refresh Return",
   "description": "At symbol with reload arrow. Used to refresh email, reload contact information, or return to email interface.",
   "tags": [
     "at",
+    "sign",
     "email",
-    "reload",
-    "refresh",
+    "contact",
+    "address",
     "arrow",
+    "reload",
     "return",
+    "refresh",
     "update"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.762Z"
+  "generatedAt": "2026-02-15T00:53:19.762Z",
+  "aliases": [
+    "AtSign2ArrowReload"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Newspaper12",
+  "name": "NewspaperPhotoLeft",
   "description": "A newspaper icon representing news, journalism, or articles in its twelfth style variant.",
   "tags": [
     "newspaper",
@@ -9,11 +9,12 @@
     "article",
     "press",
     "media",
-    "reading"
+    "reading",
+    "photo",
+    "left"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Newspaper photo left",
+  "aliases": [
+    "Newspaper12"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

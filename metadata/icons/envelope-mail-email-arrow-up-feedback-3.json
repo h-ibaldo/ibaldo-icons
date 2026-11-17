@@ -1,20 +1,21 @@
 {
-  "name": "EnvelopeMailArrowUp3",
+  "name": "MailOpenUploadWide",
   "description": "Another variant of the envelope with upward arrow icon, providing design flexibility for email sending or feedback communication",
   "tags": [
-    "envelope",
     "mail",
+    "envelope",
     "email",
     "arrow",
     "up",
-    "send",
     "feedback",
-    "variant",
-    "style"
+    "send",
+    "style",
+    "open",
+    "upload",
+    "wide"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mail open upload wide",
+  "aliases": [
+    "EnvelopeMailArrowUp3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

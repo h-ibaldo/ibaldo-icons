@@ -1,21 +1,24 @@
 {
-  "name": "AtSign4X",
-  "displayName": "At sign 4 x",
+  "name": "AtXTall",
+  "displayName": "At X tall",
   "originalTitle": "At Sign Email Contact Address 4 X Close Delete Remove",
   "description": "Email address with X mark for closing, deleting, or removing email addresses. Used to cancel email operations or remove email contacts.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "close",
     "delete",
     "remove",
     "cancel",
     "at-sign",
-    "contact",
-    "dismiss"
+    "dismiss",
+    "tall"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.763Z"
+  "generatedAt": "2026-02-15T00:53:19.763Z",
+  "aliases": [
+    "AtSign4X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

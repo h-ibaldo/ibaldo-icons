@@ -1,19 +1,18 @@
 {
-  "name": "BadgeRosetteQuestionUnverified6",
+  "name": "BadgeQuestionNotched",
   "description": "A sixth variant of the rosette badge with question mark, offering comprehensive design choices for unverified credential representation.",
   "tags": [
     "badge",
     "rosette",
-    "question",
     "mark",
     "unverified",
+    "question",
     "uncertain",
-    "variant",
-    "verification"
+    "verification",
+    "notched"
   ],
   "categories": [
-    "interface",
-    "security"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Badge question notched",
+  "aliases": [
+    "BadgeRosetteQuestionUnverified6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

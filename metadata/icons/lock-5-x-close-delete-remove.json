@@ -1,18 +1,17 @@
 {
-  "name": "Lock5Close",
+  "name": "LockXRound",
   "description": "A lock icon with an X or close symbol indicating secure closure or dismissal",
   "tags": [
     "lock",
     "close",
-    "x",
     "delete",
     "remove",
     "security",
     "dismiss",
-    "secure"
+    "secure",
+    "round"
   ],
   "categories": [
-    "interface",
     "security"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock X round",
+  "aliases": [
+    "Lock5Close"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "BookBookmark8",
+  "name": "BookBookmarkFlippedCurved",
   "description": "A book with bookmark variant 8, showing a reading marker or page indicator",
   "tags": [
     "book",
@@ -8,11 +8,10 @@
     "marker",
     "read",
     "literature",
-    "variant",
-    "8"
+    "flipped",
+    "curved"
   ],
   "categories": [
-    "interface",
     "education"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Book bookmark flipped curved",
+  "aliases": [
+    "BookBookmark8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

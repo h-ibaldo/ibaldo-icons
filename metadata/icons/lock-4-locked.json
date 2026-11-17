@@ -1,5 +1,5 @@
 {
-  "name": "Lock4Locked",
+  "name": "LockWide",
   "description": "A fully locked padlock icon indicating maximum security and restricted access",
   "tags": [
     "lock",
@@ -8,11 +8,11 @@
     "security",
     "padlock",
     "restricted",
-    "protected"
+    "protected",
+    "wide"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock wide",
+  "aliases": [
+    "Lock4Locked"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

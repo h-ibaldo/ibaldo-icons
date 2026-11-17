@@ -1,20 +1,23 @@
 {
-  "name": "Door2X",
-  "displayName": "Door 2 x",
+  "name": "DoorX",
+  "displayName": "Door X",
   "originalTitle": "Door 2 Enter Login X Forbidden",
   "description": "Door with X symbol indicating forbidden or blocked access. Used to show restricted entry or access denied states.",
   "tags": [
     "door",
+    "enter",
+    "login",
     "forbidden",
+    "close",
+    "delete",
+    "remove",
     "blocked",
-    "access denied",
+    "access-denied",
     "restricted",
-    "x",
     "prohibited",
     "error"
   ],
   "categories": [
-    "interface",
     "security"
   ],
   "accessibility": {
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.800Z"
+  "generatedAt": "2026-02-15T00:53:19.800Z",
+  "aliases": [
+    "Door2X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

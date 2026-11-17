@@ -1,21 +1,22 @@
 {
-  "name": "AtSign2X",
-  "displayName": "At sign 2 x",
+  "name": "AtX",
+  "displayName": "At X",
   "originalTitle": "At Sign Email Contact Address 2 X Close Delete Remove",
   "description": "At symbol with X mark for closing or deleting email addresses. Used to remove email contacts or cancel email operations.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "close",
     "delete",
     "remove",
-    "contact",
-    "address",
     "cancel",
     "at-sign"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.778Z"
+  "generatedAt": "2026-02-15T00:53:19.778Z",
+  "aliases": [
+    "AtSign2X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

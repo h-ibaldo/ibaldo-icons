@@ -1,5 +1,5 @@
 {
-  "name": "Lock4Open",
+  "name": "LockOpenWide",
   "description": "An unlocked padlock icon indicating an open or unsecured state with accessible permissions",
   "tags": [
     "lock",
@@ -8,11 +8,11 @@
     "access",
     "unsecured",
     "padlock",
-    "security"
+    "security",
+    "wide"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open wide",
+  "aliases": [
+    "Lock4Open"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }
