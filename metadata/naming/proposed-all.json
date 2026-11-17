@@ -1,10 +1,10 @@
 {
   "1-user-head-1": {
-    "name": "AvatarHeadLongCenterPart",
+    "name": "AvatarHeadLongPart",
     "displayName": "Avatar head, long center part"
   },
   "1-user-head-2": {
-    "name": "AvatarHeadShoulderCenterPart",
+    "name": "AvatarHeadShoulderPart",
     "displayName": "Avatar head, shoulder center part"
   },
   "1-user-head-3": {
@@ -12,7 +12,7 @@
     "displayName": "Avatar head, side bangs"
   },
   "1-user-head-4": {
-    "name": "AvatarHeadShoulderCenterPart2",
+    "name": "AvatarHeadShoulderPart2",
     "displayName": "Avatar head, shoulder center part 2"
   },
   "1-user-head-5": {
@@ -52,7 +52,7 @@
     "displayName": "Avatar head, curly top"
   },
   "1-user-head-15": {
-    "name": "AvatarHeadRoundCenterPart",
+    "name": "AvatarHeadRoundPart",
     "displayName": "Avatar head, round center part"
   },
   "1-user-head-16": {
@@ -148,7 +148,7 @@
     "displayName": "Avatar face, long swept bangs"
   },
   "1-user-person-3": {
-    "name": "AvatarFaceLongCenterPart",
+    "name": "AvatarFaceLongPart",
     "displayName": "Avatar face, long center part"
   },
   "1-user-person-4": {
@@ -2260,8 +2260,8 @@
     "displayName": "Bookmark square"
   },
   "bookmark-1-star": {
-    "name": "BookmarkStarCornerLarge",
-    "displayName": "Bookmark star corner large"
+    "name": "BookmarkStarLarge",
+    "displayName": "Bookmark star large"
   },
   "bookmark-1-star-2": {
     "name": "BookmarkStar",
@@ -2584,8 +2584,8 @@
     "displayName": "Browser upload"
   },
   "browser-window-arrow-up-upload-2": {
-    "name": "WindowUploadCenterPlain",
-    "displayName": "Window upload center plain"
+    "name": "WindowUploadPlain",
+    "displayName": "Window upload plain"
   },
   "browser-window-bulb-call-to-action-1": {
     "name": "BrowserLightbulb",
@@ -6812,8 +6812,8 @@
     "displayName": "Newspaper card"
   },
   "newspaper-news-6": {
-    "name": "NewspaperCornerFold",
-    "displayName": "Newspaper corner fold"
+    "name": "NewspaperFold",
+    "displayName": "Newspaper fold"
   },
   "newspaper-news-7": {
     "name": "NewspaperStack",
@@ -7800,8 +7800,8 @@
     "displayName": "Square stack"
   },
   "share-arrow": {
-    "name": "ShareCorner",
-    "displayName": "Share corner"
+    "name": "Share",
+    "displayName": "Share"
   },
   "share-arrow-box-square": {
     "name": "ShareSquare",
@@ -8020,8 +8020,8 @@
     "displayName": "Star plus center"
   },
   "star-plus-add-to-favorite-3": {
-    "name": "StarPlusCenterRound",
-    "displayName": "Star plus center round"
+    "name": "StarPlusRound",
+    "displayName": "Star plus round"
   },
   "submit-for-approval-arrow-check-1": {
     "name": "Submit",
@@ -9266,10 +9266,6 @@
   "upvote-plus-minus-arrow-up-down": {
     "name": "VoteArrowsPlusMinus",
     "displayName": "Vote arrows plus minus"
-  },
-  "user-head-36": {
-    "name": "AvatarHeadSpikySide2",
-    "displayName": "Avatar head spiky side2"
   },
   "user-menu": {
     "name": "UserMenu",
