@@ -26,6 +26,1757 @@
   "icons": {
     "optimized": [
       {
+        "name": "AvatarFaceAfro",
+        "displayName": "Avatar face afro",
+        "path": "/icons/optimized/1-user-person-33.svg",
+        "filename": "1-user-person-33.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "afro",
+          "curly-hair",
+          "volume"
+        ],
+        "description": "Face with eyes and a round afro.",
+        "searchText": "avatarfaceafro avatar face afro user avatar profile account person face hairstyle afro curly-hair volume face with eyes and a round afro. people"
+      },
+      {
+        "name": "AvatarFaceBald",
+        "displayName": "Avatar face bald",
+        "path": "/icons/optimized/1-user-person-25.svg",
+        "filename": "1-user-person-25.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "bald",
+          "shaved",
+          "no-hair"
+        ],
+        "description": "Face with eyes and no hair.",
+        "searchText": "avatarfacebald avatar face bald user avatar profile account person face hairstyle bald shaved no-hair face with eyes and no hair. people"
+      },
+      {
+        "name": "AvatarFaceBowlCut",
+        "displayName": "Avatar face bowl cut",
+        "path": "/icons/optimized/1-user-person-29.svg",
+        "filename": "1-user-person-29.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "bowl-cut",
+          "short-hair"
+        ],
+        "description": "Face with eyes and a rounded bowl cut.",
+        "searchText": "avatarfacebowlcut avatar face bowl cut user avatar profile account person face hairstyle bowl-cut short-hair face with eyes and a rounded bowl cut. people"
+      },
+      {
+        "name": "AvatarFaceCurly",
+        "displayName": "Avatar face curly",
+        "path": "/icons/optimized/1-user-person-14.svg",
+        "filename": "1-user-person-14.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "curly-hair",
+          "curls",
+          "volume"
+        ],
+        "description": "Face with eyes and voluminous curly hair.",
+        "searchText": "avatarfacecurly avatar face curly user avatar profile account person face hairstyle curly-hair curls volume face with eyes and voluminous curly hair. people"
+      },
+      {
+        "name": "AvatarFaceCurlyBob",
+        "displayName": "Avatar face curly bob",
+        "path": "/icons/optimized/1-user-person-10.svg",
+        "filename": "1-user-person-10.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "bob",
+          "curly-hair",
+          "curls"
+        ],
+        "description": "Face with eyes and a short curly bob.",
+        "searchText": "avatarfacecurlybob avatar face curly bob user avatar profile account person face hairstyle bob curly-hair curls face with eyes and a short curly bob. people"
+      },
+      {
+        "name": "AvatarFaceCurlyTop",
+        "displayName": "Avatar face curly top",
+        "path": "/icons/optimized/1-user-person-12.svg",
+        "filename": "1-user-person-12.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "short-hair",
+          "curly-hair",
+          "curls"
+        ],
+        "description": "Face with eyes and short sides and curly hair on top.",
+        "searchText": "avatarfacecurlytop avatar face curly top user avatar profile account person face hairstyle short-hair curly-hair curls face with eyes and short sides and curly hair on top. people"
+      },
+      {
+        "name": "AvatarFaceFlatTop",
+        "displayName": "Avatar face flat top",
+        "path": "/icons/optimized/1-user-person-32.svg",
+        "filename": "1-user-person-32.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "flat-top",
+          "short-hair"
+        ],
+        "description": "Face with eyes and a square flat-top haircut.",
+        "searchText": "avatarfaceflattop avatar face flat top user avatar profile account person face hairstyle flat-top short-hair face with eyes and a square flat-top haircut. people"
+      },
+      {
+        "name": "AvatarFaceFlippedEnds",
+        "displayName": "Avatar face flipped ends",
+        "path": "/icons/optimized/1-user-person-4.svg",
+        "filename": "1-user-person-4.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "shoulder-length",
+          "flipped-hair",
+          "side-part"
+        ],
+        "description": "Face with eyes and shoulder-length hair with ends flipped outward.",
+        "searchText": "avatarfaceflippedends avatar face flipped ends user avatar profile account person face hairstyle shoulder-length flipped-hair side-part face with eyes and shoulder-length hair with ends flipped outward. people"
+      },
+      {
+        "name": "AvatarFaceLongBangs",
+        "displayName": "Avatar face long bangs",
+        "path": "/icons/optimized/1-user-person-7.svg",
+        "filename": "1-user-person-7.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "long-hair",
+          "bangs",
+          "fringe"
+        ],
+        "description": "Face with eyes and long straight hair with full blunt bangs.",
+        "searchText": "avatarfacelongbangs avatar face long bangs user avatar profile account person face hairstyle long-hair bangs fringe face with eyes and long straight hair with full blunt bangs. people"
+      },
+      {
+        "name": "AvatarFaceLongBraids",
+        "displayName": "Avatar face long braids",
+        "path": "/icons/optimized/1-user-person-17.svg",
+        "filename": "1-user-person-17.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "braids",
+          "locs",
+          "long-hair",
+          "textured-hair"
+        ],
+        "description": "Face with eyes and long braided hair drawn in dashed lines.",
+        "searchText": "avatarfacelongbraids avatar face long braids user avatar profile account person face hairstyle braids locs long-hair textured-hair face with eyes and long braided hair drawn in dashed lines. people"
+      },
+      {
+        "name": "AvatarFaceLongCenterPart",
+        "displayName": "Avatar face long center part",
+        "path": "/icons/optimized/1-user-person-3.svg",
+        "filename": "1-user-person-3.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "long-hair",
+          "straight-hair",
+          "center-part"
+        ],
+        "description": "Face with eyes and long straight hair parted in the center.",
+        "searchText": "avatarfacelongcenterpart avatar face long center part user avatar profile account person face hairstyle long-hair straight-hair center-part face with eyes and long straight hair parted in the center. people"
+      },
+      {
+        "name": "AvatarFaceLongSideBangs",
+        "displayName": "Avatar face long side bangs",
+        "path": "/icons/optimized/1-user-person-6.svg",
+        "filename": "1-user-person-6.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "long-hair",
+          "bangs",
+          "fringe"
+        ],
+        "description": "Face with eyes and long straight hair with short bangs on one side.",
+        "searchText": "avatarfacelongsidebangs avatar face long side bangs user avatar profile account person face hairstyle long-hair bangs fringe face with eyes and long straight hair with short bangs on one side. people"
+      },
+      {
+        "name": "AvatarFaceLongSidePart",
+        "displayName": "Avatar face long side part",
+        "path": "/icons/optimized/1-user-person-1.svg",
+        "filename": "1-user-person-1.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "long-hair",
+          "straight-hair",
+          "side-part"
+        ],
+        "description": "Face with eyes and long straight hair with an off-center part.",
+        "searchText": "avatarfacelongsidepart avatar face long side part user avatar profile account person face hairstyle long-hair straight-hair side-part face with eyes and long straight hair with an off-center part. people"
+      },
+      {
+        "name": "AvatarFaceLongSideSwept",
+        "displayName": "Avatar face long side swept",
+        "path": "/icons/optimized/1-user-person-26.svg",
+        "filename": "1-user-person-26.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "long-hair",
+          "side-swept"
+        ],
+        "description": "Face with eyes and long hair swept over one shoulder.",
+        "searchText": "avatarfacelongsideswept avatar face long side swept user avatar profile account person face hairstyle long-hair side-swept face with eyes and long hair swept over one shoulder. people"
+      },
+      {
+        "name": "AvatarFaceLongSweptBangs",
+        "displayName": "Avatar face long swept bangs",
+        "path": "/icons/optimized/1-user-person-2.svg",
+        "filename": "1-user-person-2.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "long-hair",
+          "side-bangs",
+          "fringe"
+        ],
+        "description": "Face with eyes and long straight hair with bangs swept to one side.",
+        "searchText": "avatarfacelongsweptbangs avatar face long swept bangs user avatar profile account person face hairstyle long-hair side-bangs fringe face with eyes and long straight hair with bangs swept to one side. people"
+      },
+      {
+        "name": "AvatarFaceLongTextured",
+        "displayName": "Avatar face long textured",
+        "path": "/icons/optimized/1-user-person-16.svg",
+        "filename": "1-user-person-16.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "long-hair",
+          "textured-hair",
+          "coily"
+        ],
+        "description": "Face with eyes and long hair with textured strands on top.",
+        "searchText": "avatarfacelongtextured avatar face long textured user avatar profile account person face hairstyle long-hair textured-hair coily face with eyes and long hair with textured strands on top. people"
+      },
+      {
+        "name": "AvatarFaceLongWavy",
+        "displayName": "Avatar face long wavy",
+        "path": "/icons/optimized/1-user-person-22.svg",
+        "filename": "1-user-person-22.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "long-hair",
+          "wavy-hair"
+        ],
+        "description": "Face with eyes and long wavy hair.",
+        "searchText": "avatarfacelongwavy avatar face long wavy user avatar profile account person face hairstyle long-hair wavy-hair face with eyes and long wavy hair. people"
+      },
+      {
+        "name": "AvatarFaceMohawk",
+        "displayName": "Avatar face mohawk",
+        "path": "/icons/optimized/1-user-person-24.svg",
+        "filename": "1-user-person-24.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "mohawk",
+          "short-hair"
+        ],
+        "description": "Face with eyes and a mohawk stripe.",
+        "searchText": "avatarfacemohawk avatar face mohawk user avatar profile account person face hairstyle mohawk short-hair face with eyes and a mohawk stripe. people"
+      },
+      {
+        "name": "AvatarFacePompadour",
+        "displayName": "Avatar face pompadour",
+        "path": "/icons/optimized/1-user-person-11.svg",
+        "filename": "1-user-person-11.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "short-hair",
+          "pompadour",
+          "quiff"
+        ],
+        "description": "Face with eyes and short hair with a tall swept-back pompadour.",
+        "searchText": "avatarfacepompadour avatar face pompadour user avatar profile account person face hairstyle short-hair pompadour quiff face with eyes and short hair with a tall swept-back pompadour. people"
+      },
+      {
+        "name": "AvatarFaceRoundSidePart",
+        "displayName": "Avatar face round side part",
+        "path": "/icons/optimized/1-user-person-13.svg",
+        "filename": "1-user-person-13.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "rounded-hair",
+          "side-part",
+          "volume"
+        ],
+        "description": "Face with eyes and rounded, voluminous hair with an off-center part.",
+        "searchText": "avatarfaceroundsidepart avatar face round side part user avatar profile account person face hairstyle rounded-hair side-part volume face with eyes and rounded, voluminous hair with an off-center part. people"
+      },
+      {
+        "name": "AvatarFaceShortCombed",
+        "displayName": "Avatar face short combed",
+        "path": "/icons/optimized/1-user-person-31.svg",
+        "filename": "1-user-person-31.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "short-hair",
+          "combed"
+        ],
+        "description": "Face with eyes and short hair with an arched, combed hairline.",
+        "searchText": "avatarfaceshortcombed avatar face short combed user avatar profile account person face hairstyle short-hair combed face with eyes and short hair with an arched, combed hairline. people"
+      },
+      {
+        "name": "AvatarFaceShortFringe",
+        "displayName": "Avatar face short fringe",
+        "path": "/icons/optimized/1-user-person-27.svg",
+        "filename": "1-user-person-27.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "short-hair",
+          "fringe"
+        ],
+        "description": "Face with eyes and short hair with a soft wavy fringe.",
+        "searchText": "avatarfaceshortfringe avatar face short fringe user avatar profile account person face hairstyle short-hair fringe face with eyes and short hair with a soft wavy fringe. people"
+      },
+      {
+        "name": "AvatarFaceShoulderSidePart",
+        "displayName": "Avatar face shoulder side part",
+        "path": "/icons/optimized/1-user-person-8.svg",
+        "filename": "1-user-person-8.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "shoulder-length",
+          "side-part"
+        ],
+        "description": "Face with eyes and shoulder-length hair with a side part.",
+        "searchText": "avatarfaceshouldersidepart avatar face shoulder side part user avatar profile account person face hairstyle shoulder-length side-part face with eyes and shoulder-length hair with a side part. people"
+      },
+      {
+        "name": "AvatarFaceSidePartBob",
+        "displayName": "Avatar face side part bob",
+        "path": "/icons/optimized/1-user-person-9.svg",
+        "filename": "1-user-person-9.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "bob",
+          "side-part"
+        ],
+        "description": "Face with eyes and a bob with a deep side part.",
+        "searchText": "avatarfacesidepartbob avatar face side part bob user avatar profile account person face hairstyle bob side-part face with eyes and a bob with a deep side part. people"
+      },
+      {
+        "name": "AvatarFaceSideSweptShort",
+        "displayName": "Avatar face side swept short",
+        "path": "/icons/optimized/1-user-person-28.svg",
+        "filename": "1-user-person-28.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "short-hair",
+          "side-swept"
+        ],
+        "description": "Face with eyes and short hair swept across the forehead.",
+        "searchText": "avatarfacesidesweptshort avatar face side swept short user avatar profile account person face hairstyle short-hair side-swept face with eyes and short hair swept across the forehead. people"
+      },
+      {
+        "name": "AvatarFaceSpaceBuns",
+        "displayName": "Avatar face space buns",
+        "path": "/icons/optimized/1-user-person-23.svg",
+        "filename": "1-user-person-23.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "space-buns",
+          "buns",
+          "updo"
+        ],
+        "description": "Face with eyes and two space buns on top.",
+        "searchText": "avatarfacespacebuns avatar face space buns user avatar profile account person face hairstyle space-buns buns updo face with eyes and two space buns on top. people"
+      },
+      {
+        "name": "AvatarFaceSpiky",
+        "displayName": "Avatar face spiky",
+        "path": "/icons/optimized/1-user-person-34.svg",
+        "filename": "1-user-person-34.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "spiky-hair",
+          "short-hair"
+        ],
+        "description": "Face with eyes and short spiky hair.",
+        "searchText": "avatarfacespiky avatar face spiky user avatar profile account person face hairstyle spiky-hair short-hair face with eyes and short spiky hair. people"
+      },
+      {
+        "name": "AvatarFaceSpikySide",
+        "displayName": "Avatar face spiky side",
+        "path": "/icons/optimized/1-user-person-35.svg",
+        "filename": "1-user-person-35.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "spiky-hair",
+          "side-swept"
+        ],
+        "description": "Face with eyes and hair with sharp spikes pointing to one side.",
+        "searchText": "avatarfacespikyside avatar face spiky side user avatar profile account person face hairstyle spiky-hair side-swept face with eyes and hair with sharp spikes pointing to one side. people"
+      },
+      {
+        "name": "AvatarFaceSweptBangs",
+        "displayName": "Avatar face swept bangs",
+        "path": "/icons/optimized/1-user-person-15.svg",
+        "filename": "1-user-person-15.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "mid-length",
+          "side-bangs",
+          "fringe"
+        ],
+        "description": "Face with eyes and rounded mid-length hair with straight bangs swept to one side.",
+        "searchText": "avatarfacesweptbangs avatar face swept bangs user avatar profile account person face hairstyle mid-length side-bangs fringe face with eyes and rounded mid-length hair with straight bangs swept to one side. people"
+      },
+      {
+        "name": "AvatarFaceSwoop",
+        "displayName": "Avatar face swoop",
+        "path": "/icons/optimized/1-user-person-30.svg",
+        "filename": "1-user-person-30.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "short-hair",
+          "swoop",
+          "side-swept"
+        ],
+        "description": "Face with eyes and short hair with a fringe swooping to one side.",
+        "searchText": "avatarfaceswoop avatar face swoop user avatar profile account person face hairstyle short-hair swoop side-swept face with eyes and short hair with a fringe swooping to one side. people"
+      },
+      {
+        "name": "AvatarFaceTexturedMid",
+        "displayName": "Avatar face textured mid",
+        "path": "/icons/optimized/1-user-person-18.svg",
+        "filename": "1-user-person-18.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "textured-hair",
+          "coily",
+          "mid-length"
+        ],
+        "description": "Face with eyes and mid-length textured hair drawn as radiating strokes.",
+        "searchText": "avatarfacetexturedmid avatar face textured mid user avatar profile account person face hairstyle textured-hair coily mid-length face with eyes and mid-length textured hair drawn as radiating strokes. people"
+      },
+      {
+        "name": "AvatarFaceTexturedPonytail",
+        "displayName": "Avatar face textured ponytail",
+        "path": "/icons/optimized/1-user-person-19.svg",
+        "filename": "1-user-person-19.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "textured-hair",
+          "ponytail",
+          "coily"
+        ],
+        "description": "Face with eyes and textured hair on top and a long ponytail.",
+        "searchText": "avatarfacetexturedponytail avatar face textured ponytail user avatar profile account person face hairstyle textured-hair ponytail coily face with eyes and textured hair on top and a long ponytail. people"
+      },
+      {
+        "name": "AvatarFaceTexturedPuffs",
+        "displayName": "Avatar face textured puffs",
+        "path": "/icons/optimized/1-user-person-20.svg",
+        "filename": "1-user-person-20.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "textured-hair",
+          "puffs",
+          "pigtails"
+        ],
+        "description": "Face with eyes and two textured puffs with a center part.",
+        "searchText": "avatarfacetexturedpuffs avatar face textured puffs user avatar profile account person face hairstyle textured-hair puffs pigtails face with eyes and two textured puffs with a center part. people"
+      },
+      {
+        "name": "AvatarFaceTexturedShort",
+        "displayName": "Avatar face textured short",
+        "path": "/icons/optimized/1-user-person-21.svg",
+        "filename": "1-user-person-21.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "textured-hair",
+          "coily",
+          "short-hair"
+        ],
+        "description": "Face with eyes and short textured hair drawn as radiating strokes.",
+        "searchText": "avatarfacetexturedshort avatar face textured short user avatar profile account person face hairstyle textured-hair coily short-hair face with eyes and short textured hair drawn as radiating strokes. people"
+      },
+      {
+        "name": "AvatarFaceTopKnot",
+        "displayName": "Avatar face top knot",
+        "path": "/icons/optimized/1-user-person-36.svg",
+        "filename": "1-user-person-36.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "top-knot",
+          "bun",
+          "updo"
+        ],
+        "description": "Face with eyes and hair pulled up into a top-knot bun.",
+        "searchText": "avatarfacetopknot avatar face top knot user avatar profile account person face hairstyle top-knot bun updo face with eyes and hair pulled up into a top-knot bun. people"
+      },
+      {
+        "name": "AvatarFaceWavyBob",
+        "displayName": "Avatar face wavy bob",
+        "path": "/icons/optimized/1-user-person-5.svg",
+        "filename": "1-user-person-5.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "face",
+          "hairstyle",
+          "bob",
+          "wavy-hair",
+          "short-hair"
+        ],
+        "description": "Face with eyes and a short wavy bob parted in the center.",
+        "searchText": "avatarfacewavybob avatar face wavy bob user avatar profile account person face hairstyle bob wavy-hair short-hair face with eyes and a short wavy bob parted in the center. people"
+      },
+      {
+        "name": "AvatarHeadAfro",
+        "displayName": "Avatar head afro",
+        "path": "/icons/optimized/1-user-head-34.svg",
+        "filename": "1-user-head-34.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "afro",
+          "curly-hair",
+          "volume"
+        ],
+        "description": "Head outline with no face details and a round afro.",
+        "searchText": "avatarheadafro avatar head afro user avatar profile account person head hairstyle afro curly-hair volume head outline with no face details and a round afro. people"
+      },
+      {
+        "name": "AvatarHeadBald",
+        "displayName": "Avatar head bald",
+        "path": "/icons/optimized/1-user-head-26.svg",
+        "filename": "1-user-head-26.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "bald",
+          "shaved",
+          "no-hair"
+        ],
+        "description": "Head outline with no face details and no hair.",
+        "searchText": "avatarheadbald avatar head bald user avatar profile account person head hairstyle bald shaved no-hair head outline with no face details and no hair. people"
+      },
+      {
+        "name": "AvatarHeadBluntBob",
+        "displayName": "Avatar head blunt bob",
+        "path": "/icons/optimized/1-user-head-8.svg",
+        "filename": "1-user-head-8.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "bob",
+          "blunt-cut",
+          "bangs"
+        ],
+        "description": "Head outline with no face details and a square, blunt-cut bob with bangs.",
+        "searchText": "avatarheadbluntbob avatar head blunt bob user avatar profile account person head hairstyle bob blunt-cut bangs head outline with no face details and a square, blunt-cut bob with bangs. people"
+      },
+      {
+        "name": "AvatarHeadBobBangs",
+        "displayName": "Avatar head bob bangs",
+        "path": "/icons/optimized/1-user-head-7.svg",
+        "filename": "1-user-head-7.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "bob",
+          "bangs",
+          "fringe"
+        ],
+        "description": "Head outline with no face details and a rounded bob with blunt bangs.",
+        "searchText": "avatarheadbobbangs avatar head bob bangs user avatar profile account person head hairstyle bob bangs fringe head outline with no face details and a rounded bob with blunt bangs. people"
+      },
+      {
+        "name": "AvatarHeadCrewCut",
+        "displayName": "Avatar head crew cut",
+        "path": "/icons/optimized/1-user-head-30.svg",
+        "filename": "1-user-head-30.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "crew-cut",
+          "short-hair"
+        ],
+        "description": "Head outline with no face details and a short crew cut with a small step at the crown.",
+        "searchText": "avatarheadcrewcut avatar head crew cut user avatar profile account person head hairstyle crew-cut short-hair head outline with no face details and a short crew cut with a small step at the crown. people"
+      },
+      {
+        "name": "AvatarHeadCurly",
+        "displayName": "Avatar head curly",
+        "path": "/icons/optimized/1-user-head-16.svg",
+        "filename": "1-user-head-16.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "curly-hair",
+          "curls",
+          "volume"
+        ],
+        "description": "Head outline with no face details and voluminous curly hair.",
+        "searchText": "avatarheadcurly avatar head curly user avatar profile account person head hairstyle curly-hair curls volume head outline with no face details and voluminous curly hair. people"
+      },
+      {
+        "name": "AvatarHeadCurlyBob",
+        "displayName": "Avatar head curly bob",
+        "path": "/icons/optimized/1-user-head-12.svg",
+        "filename": "1-user-head-12.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "bob",
+          "curly-hair",
+          "curls"
+        ],
+        "description": "Head outline with no face details and a short curly bob.",
+        "searchText": "avatarheadcurlybob avatar head curly bob user avatar profile account person head hairstyle bob curly-hair curls head outline with no face details and a short curly bob. people"
+      },
+      {
+        "name": "AvatarHeadCurlyTop",
+        "displayName": "Avatar head curly top",
+        "path": "/icons/optimized/1-user-head-14.svg",
+        "filename": "1-user-head-14.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "short-hair",
+          "curly-hair",
+          "curls"
+        ],
+        "description": "Head outline with no face details and short sides and curly hair on top.",
+        "searchText": "avatarheadcurlytop avatar head curly top user avatar profile account person head hairstyle short-hair curly-hair curls head outline with no face details and short sides and curly hair on top. people"
+      },
+      {
+        "name": "AvatarHeadFlatTop",
+        "displayName": "Avatar head flat top",
+        "path": "/icons/optimized/1-user-head-33.svg",
+        "filename": "1-user-head-33.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "flat-top",
+          "short-hair"
+        ],
+        "description": "Head outline with no face details and a square flat-top haircut.",
+        "searchText": "avatarheadflattop avatar head flat top user avatar profile account person head hairstyle flat-top short-hair head outline with no face details and a square flat-top haircut. people"
+      },
+      {
+        "name": "AvatarHeadFlippedEnds",
+        "displayName": "Avatar head flipped ends",
+        "path": "/icons/optimized/1-user-head-5.svg",
+        "filename": "1-user-head-5.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "shoulder-length",
+          "flipped-hair",
+          "side-part"
+        ],
+        "description": "Head outline with no face details and shoulder-length hair with ends flipped outward.",
+        "searchText": "avatarheadflippedends avatar head flipped ends user avatar profile account person head hairstyle shoulder-length flipped-hair side-part head outline with no face details and shoulder-length hair with ends flipped outward. people"
+      },
+      {
+        "name": "AvatarHeadLongBraids",
+        "displayName": "Avatar head long braids",
+        "path": "/icons/optimized/1-user-head-19.svg",
+        "filename": "1-user-head-19.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "braids",
+          "locs",
+          "long-hair",
+          "textured-hair"
+        ],
+        "description": "Head outline with no face details and long braided hair drawn in dashed lines.",
+        "searchText": "avatarheadlongbraids avatar head long braids user avatar profile account person head hairstyle braids locs long-hair textured-hair head outline with no face details and long braided hair drawn in dashed lines. people"
+      },
+      {
+        "name": "AvatarHeadLongCenterPart",
+        "displayName": "Avatar head long center part",
+        "path": "/icons/optimized/1-user-head-1.svg",
+        "filename": "1-user-head-1.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "long-hair",
+          "straight-hair",
+          "center-part"
+        ],
+        "description": "Head outline with no face details and long straight hair parted in the center.",
+        "searchText": "avatarheadlongcenterpart avatar head long center part user avatar profile account person head hairstyle long-hair straight-hair center-part head outline with no face details and long straight hair parted in the center. people"
+      },
+      {
+        "name": "AvatarHeadLongSideSwept",
+        "displayName": "Avatar head long side swept",
+        "path": "/icons/optimized/1-user-head-27.svg",
+        "filename": "1-user-head-27.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "long-hair",
+          "side-swept"
+        ],
+        "description": "Head outline with no face details and long hair swept over one shoulder.",
+        "searchText": "avatarheadlongsideswept avatar head long side swept user avatar profile account person head hairstyle long-hair side-swept head outline with no face details and long hair swept over one shoulder. people"
+      },
+      {
+        "name": "AvatarHeadLongTextured",
+        "displayName": "Avatar head long textured",
+        "path": "/icons/optimized/1-user-head-18.svg",
+        "filename": "1-user-head-18.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "long-hair",
+          "textured-hair",
+          "coily"
+        ],
+        "description": "Head outline with no face details and long hair with textured strands on top.",
+        "searchText": "avatarheadlongtextured avatar head long textured user avatar profile account person head hairstyle long-hair textured-hair coily head outline with no face details and long hair with textured strands on top. people"
+      },
+      {
+        "name": "AvatarHeadLongWavy",
+        "displayName": "Avatar head long wavy",
+        "path": "/icons/optimized/1-user-head-23.svg",
+        "filename": "1-user-head-23.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "long-hair",
+          "wavy-hair"
+        ],
+        "description": "Head outline with no face details and long wavy hair.",
+        "searchText": "avatarheadlongwavy avatar head long wavy user avatar profile account person head hairstyle long-hair wavy-hair head outline with no face details and long wavy hair. people"
+      },
+      {
+        "name": "AvatarHeadMohawk",
+        "displayName": "Avatar head mohawk",
+        "path": "/icons/optimized/1-user-head-25.svg",
+        "filename": "1-user-head-25.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "mohawk",
+          "short-hair"
+        ],
+        "description": "Head outline with no face details and a mohawk stripe.",
+        "searchText": "avatarheadmohawk avatar head mohawk user avatar profile account person head hairstyle mohawk short-hair head outline with no face details and a mohawk stripe. people"
+      },
+      {
+        "name": "AvatarHeadPompadour",
+        "displayName": "Avatar head pompadour",
+        "path": "/icons/optimized/1-user-head-13.svg",
+        "filename": "1-user-head-13.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "short-hair",
+          "pompadour",
+          "quiff"
+        ],
+        "description": "Head outline with no face details and short hair with a tall swept-back pompadour.",
+        "searchText": "avatarheadpompadour avatar head pompadour user avatar profile account person head hairstyle short-hair pompadour quiff head outline with no face details and short hair with a tall swept-back pompadour. people"
+      },
+      {
+        "name": "AvatarHeadRoundCenterPart",
+        "displayName": "Avatar head round center part",
+        "path": "/icons/optimized/1-user-head-15.svg",
+        "filename": "1-user-head-15.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "rounded-hair",
+          "center-part",
+          "volume"
+        ],
+        "description": "Head outline with no face details and rounded, voluminous hair parted in the center.",
+        "searchText": "avatarheadroundcenterpart avatar head round center part user avatar profile account person head hairstyle rounded-hair center-part volume head outline with no face details and rounded, voluminous hair parted in the center. people"
+      },
+      {
+        "name": "AvatarHeadShort",
+        "displayName": "Avatar head short",
+        "path": "/icons/optimized/1-user-head-29.svg",
+        "filename": "1-user-head-29.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "short-hair",
+          "cropped"
+        ],
+        "description": "Head outline with no face details and short, close-cropped hair.",
+        "searchText": "avatarheadshort avatar head short user avatar profile account person head hairstyle short-hair cropped head outline with no face details and short, close-cropped hair. people"
+      },
+      {
+        "name": "AvatarHeadShortCombed",
+        "displayName": "Avatar head short combed",
+        "path": "/icons/optimized/1-user-head-32.svg",
+        "filename": "1-user-head-32.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "short-hair",
+          "combed"
+        ],
+        "description": "Head outline with no face details and short hair with an arched, combed hairline.",
+        "searchText": "avatarheadshortcombed avatar head short combed user avatar profile account person head hairstyle short-hair combed head outline with no face details and short hair with an arched, combed hairline. people"
+      },
+      {
+        "name": "AvatarHeadShortFringe",
+        "displayName": "Avatar head short fringe",
+        "path": "/icons/optimized/1-user-head-28.svg",
+        "filename": "1-user-head-28.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "short-hair",
+          "fringe"
+        ],
+        "description": "Head outline with no face details and short hair with a soft wavy fringe.",
+        "searchText": "avatarheadshortfringe avatar head short fringe user avatar profile account person head hairstyle short-hair fringe head outline with no face details and short hair with a soft wavy fringe. people"
+      },
+      {
+        "name": "AvatarHeadShoulderCenterPart",
+        "displayName": "Avatar head shoulder center part",
+        "path": "/icons/optimized/1-user-head-2.svg",
+        "filename": "1-user-head-2.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "shoulder-length",
+          "center-part"
+        ],
+        "description": "Head outline with no face details and shoulder-length hair parted in the center.",
+        "searchText": "avatarheadshouldercenterpart avatar head shoulder center part user avatar profile account person head hairstyle shoulder-length center-part head outline with no face details and shoulder-length hair parted in the center. people"
+      },
+      {
+        "name": "AvatarHeadShoulderCenterPart2",
+        "displayName": "Avatar head shoulder center part 2",
+        "path": "/icons/optimized/1-user-head-4.svg",
+        "filename": "1-user-head-4.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "shoulder-length",
+          "center-part"
+        ],
+        "description": "Head outline with no face details and shoulder-length hair parted in the center, with a straight hem.",
+        "searchText": "avatarheadshouldercenterpart2 avatar head shoulder center part 2 user avatar profile account person head hairstyle shoulder-length center-part head outline with no face details and shoulder-length hair parted in the center, with a straight hem. people"
+      },
+      {
+        "name": "AvatarHeadShoulderSidePart",
+        "displayName": "Avatar head shoulder side part",
+        "path": "/icons/optimized/1-user-head-10.svg",
+        "filename": "1-user-head-10.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "shoulder-length",
+          "side-part"
+        ],
+        "description": "Head outline with no face details and shoulder-length hair with a side part.",
+        "searchText": "avatarheadshouldersidepart avatar head shoulder side part user avatar profile account person head hairstyle shoulder-length side-part head outline with no face details and shoulder-length hair with a side part. people"
+      },
+      {
+        "name": "AvatarHeadSideBangs",
+        "displayName": "Avatar head side bangs",
+        "path": "/icons/optimized/1-user-head-3.svg",
+        "filename": "1-user-head-3.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "shoulder-length",
+          "side-bangs",
+          "fringe"
+        ],
+        "description": "Head outline with no face details and shoulder-length hair with bangs swept to one side.",
+        "searchText": "avatarheadsidebangs avatar head side bangs user avatar profile account person head hairstyle shoulder-length side-bangs fringe head outline with no face details and shoulder-length hair with bangs swept to one side. people"
+      },
+      {
+        "name": "AvatarHeadSidePartBob",
+        "displayName": "Avatar head side part bob",
+        "path": "/icons/optimized/1-user-head-11.svg",
+        "filename": "1-user-head-11.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "bob",
+          "side-part"
+        ],
+        "description": "Head outline with no face details and a bob with a deep side part.",
+        "searchText": "avatarheadsidepartbob avatar head side part bob user avatar profile account person head hairstyle bob side-part head outline with no face details and a bob with a deep side part. people"
+      },
+      {
+        "name": "AvatarHeadSpaceBuns",
+        "displayName": "Avatar head space buns",
+        "path": "/icons/optimized/1-user-head-24.svg",
+        "filename": "1-user-head-24.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "space-buns",
+          "buns",
+          "updo"
+        ],
+        "description": "Head outline with no face details and two space buns on top.",
+        "searchText": "avatarheadspacebuns avatar head space buns user avatar profile account person head hairstyle space-buns buns updo head outline with no face details and two space buns on top. people"
+      },
+      {
+        "name": "AvatarHeadSpiky",
+        "displayName": "Avatar head spiky",
+        "path": "/icons/optimized/1-user-head-35.svg",
+        "filename": "1-user-head-35.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "spiky-hair",
+          "short-hair"
+        ],
+        "description": "Head outline with no face details and short spiky hair.",
+        "searchText": "avatarheadspiky avatar head spiky user avatar profile account person head hairstyle spiky-hair short-hair head outline with no face details and short spiky hair. people"
+      },
+      {
+        "name": "AvatarHeadSpikySide",
+        "displayName": "Avatar head spiky side",
+        "path": "/icons/optimized/1-user-head-36.svg",
+        "filename": "1-user-head-36.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "spiky-hair",
+          "side-swept"
+        ],
+        "description": "Head outline with no face details and hair with sharp spikes pointing to one side.",
+        "searchText": "avatarheadspikyside avatar head spiky side user avatar profile account person head hairstyle spiky-hair side-swept head outline with no face details and hair with sharp spikes pointing to one side. people"
+      },
+      {
+        "name": "AvatarHeadSweptBangs",
+        "displayName": "Avatar head swept bangs",
+        "path": "/icons/optimized/1-user-head-17.svg",
+        "filename": "1-user-head-17.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "mid-length",
+          "side-bangs",
+          "fringe"
+        ],
+        "description": "Head outline with no face details and rounded mid-length hair with straight bangs swept to one side.",
+        "searchText": "avatarheadsweptbangs avatar head swept bangs user avatar profile account person head hairstyle mid-length side-bangs fringe head outline with no face details and rounded mid-length hair with straight bangs swept to one side. people"
+      },
+      {
+        "name": "AvatarHeadSwoop",
+        "displayName": "Avatar head swoop",
+        "path": "/icons/optimized/1-user-head-31.svg",
+        "filename": "1-user-head-31.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "short-hair",
+          "swoop",
+          "side-swept"
+        ],
+        "description": "Head outline with no face details and short hair with a fringe swooping to one side.",
+        "searchText": "avatarheadswoop avatar head swoop user avatar profile account person head hairstyle short-hair swoop side-swept head outline with no face details and short hair with a fringe swooping to one side. people"
+      },
+      {
+        "name": "AvatarHeadTexturedMid",
+        "displayName": "Avatar head textured mid",
+        "path": "/icons/optimized/1-user-head-20.svg",
+        "filename": "1-user-head-20.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "textured-hair",
+          "coily",
+          "mid-length"
+        ],
+        "description": "Head outline with no face details and mid-length textured hair drawn as radiating strokes.",
+        "searchText": "avatarheadtexturedmid avatar head textured mid user avatar profile account person head hairstyle textured-hair coily mid-length head outline with no face details and mid-length textured hair drawn as radiating strokes. people"
+      },
+      {
+        "name": "AvatarHeadTexturedPuffs",
+        "displayName": "Avatar head textured puffs",
+        "path": "/icons/optimized/1-user-head-22.svg",
+        "filename": "1-user-head-22.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "textured-hair",
+          "puffs",
+          "pigtails"
+        ],
+        "description": "Head outline with no face details and two textured puffs with a center part.",
+        "searchText": "avatarheadtexturedpuffs avatar head textured puffs user avatar profile account person head hairstyle textured-hair puffs pigtails head outline with no face details and two textured puffs with a center part. people"
+      },
+      {
+        "name": "AvatarHeadTexturedShort",
+        "displayName": "Avatar head textured short",
+        "path": "/icons/optimized/1-user-head-21.svg",
+        "filename": "1-user-head-21.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "textured-hair",
+          "coily",
+          "short-hair"
+        ],
+        "description": "Head outline with no face details and short textured hair drawn as radiating strokes.",
+        "searchText": "avatarheadtexturedshort avatar head textured short user avatar profile account person head hairstyle textured-hair coily short-hair head outline with no face details and short textured hair drawn as radiating strokes. people"
+      },
+      {
+        "name": "AvatarHeadWavyBob",
+        "displayName": "Avatar head wavy bob",
+        "path": "/icons/optimized/1-user-head-6.svg",
+        "filename": "1-user-head-6.svg",
+        "category": "optimized",
+        "categories": [
+          "people"
+        ],
+        "featured": true,
+        "tags": [
+          "user",
+          "avatar",
+          "profile",
+          "account",
+          "person",
+          "head",
+          "hairstyle",
+          "bob",
+          "wavy-hair",
+          "short-hair"
+        ],
+        "description": "Head outline with no face details and a short wavy bob parted in the center.",
+        "searchText": "avatarheadwavybob avatar head wavy bob user avatar profile account person head hairstyle bob wavy-hair short-hair head outline with no face details and a short wavy bob parted in the center. people"
+      },
+      {
         "name": "AccessibilityPerson",
         "displayName": "Accessibility person",
         "path": "/icons/optimized/accessibility-person.svg",
@@ -50480,859 +52231,6 @@
         "searchText": "upvoteplusminus upvote plus minus upvote plus minus positive negative voting rating control a simple upvote icon with plus and minus symbols for voting or rating controls interface"
       },
       {
-        "name": "UserFaceAfro",
-        "displayName": "User face afro",
-        "path": "/icons/optimized/1-user-person-33.svg",
-        "filename": "1-user-person-33.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "afro",
-          "curly-hair",
-          "volume"
-        ],
-        "description": "Face with eyes and a round afro.",
-        "searchText": "userfaceafro user face afro user avatar profile account person face hairstyle afro curly-hair volume face with eyes and a round afro. people"
-      },
-      {
-        "name": "UserFaceBald",
-        "displayName": "User face bald",
-        "path": "/icons/optimized/1-user-person-25.svg",
-        "filename": "1-user-person-25.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "bald",
-          "shaved",
-          "no-hair"
-        ],
-        "description": "Face with eyes and no hair.",
-        "searchText": "userfacebald user face bald user avatar profile account person face hairstyle bald shaved no-hair face with eyes and no hair. people"
-      },
-      {
-        "name": "UserFaceBowlCut",
-        "displayName": "User face bowl cut",
-        "path": "/icons/optimized/1-user-person-29.svg",
-        "filename": "1-user-person-29.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "bowl-cut",
-          "short-hair"
-        ],
-        "description": "Face with eyes and a rounded bowl cut.",
-        "searchText": "userfacebowlcut user face bowl cut user avatar profile account person face hairstyle bowl-cut short-hair face with eyes and a rounded bowl cut. people"
-      },
-      {
-        "name": "UserFaceCurly",
-        "displayName": "User face curly",
-        "path": "/icons/optimized/1-user-person-14.svg",
-        "filename": "1-user-person-14.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "curly-hair",
-          "curls",
-          "volume"
-        ],
-        "description": "Face with eyes and voluminous curly hair.",
-        "searchText": "userfacecurly user face curly user avatar profile account person face hairstyle curly-hair curls volume face with eyes and voluminous curly hair. people"
-      },
-      {
-        "name": "UserFaceCurlyBob",
-        "displayName": "User face curly bob",
-        "path": "/icons/optimized/1-user-person-10.svg",
-        "filename": "1-user-person-10.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "bob",
-          "curly-hair",
-          "curls"
-        ],
-        "description": "Face with eyes and a short curly bob.",
-        "searchText": "userfacecurlybob user face curly bob user avatar profile account person face hairstyle bob curly-hair curls face with eyes and a short curly bob. people"
-      },
-      {
-        "name": "UserFaceCurlyTop",
-        "displayName": "User face curly top",
-        "path": "/icons/optimized/1-user-person-12.svg",
-        "filename": "1-user-person-12.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "short-hair",
-          "curly-hair",
-          "curls"
-        ],
-        "description": "Face with eyes and short sides and curly hair on top.",
-        "searchText": "userfacecurlytop user face curly top user avatar profile account person face hairstyle short-hair curly-hair curls face with eyes and short sides and curly hair on top. people"
-      },
-      {
-        "name": "UserFaceFlatTop",
-        "displayName": "User face flat top",
-        "path": "/icons/optimized/1-user-person-32.svg",
-        "filename": "1-user-person-32.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "flat-top",
-          "short-hair"
-        ],
-        "description": "Face with eyes and a square flat-top haircut.",
-        "searchText": "userfaceflattop user face flat top user avatar profile account person face hairstyle flat-top short-hair face with eyes and a square flat-top haircut. people"
-      },
-      {
-        "name": "UserFaceFlippedEnds",
-        "displayName": "User face flipped ends",
-        "path": "/icons/optimized/1-user-person-4.svg",
-        "filename": "1-user-person-4.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "shoulder-length",
-          "flipped-hair",
-          "side-part"
-        ],
-        "description": "Face with eyes and shoulder-length hair with ends flipped outward.",
-        "searchText": "userfaceflippedends user face flipped ends user avatar profile account person face hairstyle shoulder-length flipped-hair side-part face with eyes and shoulder-length hair with ends flipped outward. people"
-      },
-      {
-        "name": "UserFaceLongBangs",
-        "displayName": "User face long bangs",
-        "path": "/icons/optimized/1-user-person-7.svg",
-        "filename": "1-user-person-7.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "long-hair",
-          "bangs",
-          "fringe"
-        ],
-        "description": "Face with eyes and long straight hair with full blunt bangs.",
-        "searchText": "userfacelongbangs user face long bangs user avatar profile account person face hairstyle long-hair bangs fringe face with eyes and long straight hair with full blunt bangs. people"
-      },
-      {
-        "name": "UserFaceLongBraids",
-        "displayName": "User face long braids",
-        "path": "/icons/optimized/1-user-person-17.svg",
-        "filename": "1-user-person-17.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "braids",
-          "locs",
-          "long-hair",
-          "textured-hair"
-        ],
-        "description": "Face with eyes and long braided hair drawn in dashed lines.",
-        "searchText": "userfacelongbraids user face long braids user avatar profile account person face hairstyle braids locs long-hair textured-hair face with eyes and long braided hair drawn in dashed lines. people"
-      },
-      {
-        "name": "UserFaceLongCenterPart",
-        "displayName": "User face long center part",
-        "path": "/icons/optimized/1-user-person-3.svg",
-        "filename": "1-user-person-3.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "long-hair",
-          "straight-hair",
-          "center-part"
-        ],
-        "description": "Face with eyes and long straight hair parted in the center.",
-        "searchText": "userfacelongcenterpart user face long center part user avatar profile account person face hairstyle long-hair straight-hair center-part face with eyes and long straight hair parted in the center. people"
-      },
-      {
-        "name": "UserFaceLongSideBangs",
-        "displayName": "User face long side bangs",
-        "path": "/icons/optimized/1-user-person-6.svg",
-        "filename": "1-user-person-6.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "long-hair",
-          "bangs",
-          "fringe"
-        ],
-        "description": "Face with eyes and long straight hair with short bangs on one side.",
-        "searchText": "userfacelongsidebangs user face long side bangs user avatar profile account person face hairstyle long-hair bangs fringe face with eyes and long straight hair with short bangs on one side. people"
-      },
-      {
-        "name": "UserFaceLongSidePart",
-        "displayName": "User face long side part",
-        "path": "/icons/optimized/1-user-person-1.svg",
-        "filename": "1-user-person-1.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "long-hair",
-          "straight-hair",
-          "side-part"
-        ],
-        "description": "Face with eyes and long straight hair with an off-center part.",
-        "searchText": "userfacelongsidepart user face long side part user avatar profile account person face hairstyle long-hair straight-hair side-part face with eyes and long straight hair with an off-center part. people"
-      },
-      {
-        "name": "UserFaceLongSideSwept",
-        "displayName": "User face long side swept",
-        "path": "/icons/optimized/1-user-person-26.svg",
-        "filename": "1-user-person-26.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "long-hair",
-          "side-swept"
-        ],
-        "description": "Face with eyes and long hair swept over one shoulder.",
-        "searchText": "userfacelongsideswept user face long side swept user avatar profile account person face hairstyle long-hair side-swept face with eyes and long hair swept over one shoulder. people"
-      },
-      {
-        "name": "UserFaceLongSweptBangs",
-        "displayName": "User face long swept bangs",
-        "path": "/icons/optimized/1-user-person-2.svg",
-        "filename": "1-user-person-2.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "long-hair",
-          "side-bangs",
-          "fringe"
-        ],
-        "description": "Face with eyes and long straight hair with bangs swept to one side.",
-        "searchText": "userfacelongsweptbangs user face long swept bangs user avatar profile account person face hairstyle long-hair side-bangs fringe face with eyes and long straight hair with bangs swept to one side. people"
-      },
-      {
-        "name": "UserFaceLongTextured",
-        "displayName": "User face long textured",
-        "path": "/icons/optimized/1-user-person-16.svg",
-        "filename": "1-user-person-16.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "long-hair",
-          "textured-hair",
-          "coily"
-        ],
-        "description": "Face with eyes and long hair with textured strands on top.",
-        "searchText": "userfacelongtextured user face long textured user avatar profile account person face hairstyle long-hair textured-hair coily face with eyes and long hair with textured strands on top. people"
-      },
-      {
-        "name": "UserFaceLongWavy",
-        "displayName": "User face long wavy",
-        "path": "/icons/optimized/1-user-person-22.svg",
-        "filename": "1-user-person-22.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "long-hair",
-          "wavy-hair"
-        ],
-        "description": "Face with eyes and long wavy hair.",
-        "searchText": "userfacelongwavy user face long wavy user avatar profile account person face hairstyle long-hair wavy-hair face with eyes and long wavy hair. people"
-      },
-      {
-        "name": "UserFaceMohawk",
-        "displayName": "User face mohawk",
-        "path": "/icons/optimized/1-user-person-24.svg",
-        "filename": "1-user-person-24.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "mohawk",
-          "short-hair"
-        ],
-        "description": "Face with eyes and a mohawk stripe.",
-        "searchText": "userfacemohawk user face mohawk user avatar profile account person face hairstyle mohawk short-hair face with eyes and a mohawk stripe. people"
-      },
-      {
-        "name": "UserFacePompadour",
-        "displayName": "User face pompadour",
-        "path": "/icons/optimized/1-user-person-11.svg",
-        "filename": "1-user-person-11.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "short-hair",
-          "pompadour",
-          "quiff"
-        ],
-        "description": "Face with eyes and short hair with a tall swept-back pompadour.",
-        "searchText": "userfacepompadour user face pompadour user avatar profile account person face hairstyle short-hair pompadour quiff face with eyes and short hair with a tall swept-back pompadour. people"
-      },
-      {
-        "name": "UserFaceRoundSidePart",
-        "displayName": "User face round side part",
-        "path": "/icons/optimized/1-user-person-13.svg",
-        "filename": "1-user-person-13.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "rounded-hair",
-          "side-part",
-          "volume"
-        ],
-        "description": "Face with eyes and rounded, voluminous hair with an off-center part.",
-        "searchText": "userfaceroundsidepart user face round side part user avatar profile account person face hairstyle rounded-hair side-part volume face with eyes and rounded, voluminous hair with an off-center part. people"
-      },
-      {
-        "name": "UserFaceShortCombed",
-        "displayName": "User face short combed",
-        "path": "/icons/optimized/1-user-person-31.svg",
-        "filename": "1-user-person-31.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "short-hair",
-          "combed"
-        ],
-        "description": "Face with eyes and short hair with an arched, combed hairline.",
-        "searchText": "userfaceshortcombed user face short combed user avatar profile account person face hairstyle short-hair combed face with eyes and short hair with an arched, combed hairline. people"
-      },
-      {
-        "name": "UserFaceShortFringe",
-        "displayName": "User face short fringe",
-        "path": "/icons/optimized/1-user-person-27.svg",
-        "filename": "1-user-person-27.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "short-hair",
-          "fringe"
-        ],
-        "description": "Face with eyes and short hair with a soft wavy fringe.",
-        "searchText": "userfaceshortfringe user face short fringe user avatar profile account person face hairstyle short-hair fringe face with eyes and short hair with a soft wavy fringe. people"
-      },
-      {
-        "name": "UserFaceShoulderSidePart",
-        "displayName": "User face shoulder side part",
-        "path": "/icons/optimized/1-user-person-8.svg",
-        "filename": "1-user-person-8.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "shoulder-length",
-          "side-part"
-        ],
-        "description": "Face with eyes and shoulder-length hair with a side part.",
-        "searchText": "userfaceshouldersidepart user face shoulder side part user avatar profile account person face hairstyle shoulder-length side-part face with eyes and shoulder-length hair with a side part. people"
-      },
-      {
-        "name": "UserFaceSidePartBob",
-        "displayName": "User face side part bob",
-        "path": "/icons/optimized/1-user-person-9.svg",
-        "filename": "1-user-person-9.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "bob",
-          "side-part"
-        ],
-        "description": "Face with eyes and a bob with a deep side part.",
-        "searchText": "userfacesidepartbob user face side part bob user avatar profile account person face hairstyle bob side-part face with eyes and a bob with a deep side part. people"
-      },
-      {
-        "name": "UserFaceSideSweptShort",
-        "displayName": "User face side swept short",
-        "path": "/icons/optimized/1-user-person-28.svg",
-        "filename": "1-user-person-28.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "short-hair",
-          "side-swept"
-        ],
-        "description": "Face with eyes and short hair swept across the forehead.",
-        "searchText": "userfacesidesweptshort user face side swept short user avatar profile account person face hairstyle short-hair side-swept face with eyes and short hair swept across the forehead. people"
-      },
-      {
-        "name": "UserFaceSpaceBuns",
-        "displayName": "User face space buns",
-        "path": "/icons/optimized/1-user-person-23.svg",
-        "filename": "1-user-person-23.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "space-buns",
-          "buns",
-          "updo"
-        ],
-        "description": "Face with eyes and two space buns on top.",
-        "searchText": "userfacespacebuns user face space buns user avatar profile account person face hairstyle space-buns buns updo face with eyes and two space buns on top. people"
-      },
-      {
-        "name": "UserFaceSpiky",
-        "displayName": "User face spiky",
-        "path": "/icons/optimized/1-user-person-34.svg",
-        "filename": "1-user-person-34.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "spiky-hair",
-          "short-hair"
-        ],
-        "description": "Face with eyes and short spiky hair.",
-        "searchText": "userfacespiky user face spiky user avatar profile account person face hairstyle spiky-hair short-hair face with eyes and short spiky hair. people"
-      },
-      {
-        "name": "UserFaceSpikySide",
-        "displayName": "User face spiky side",
-        "path": "/icons/optimized/1-user-person-35.svg",
-        "filename": "1-user-person-35.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "spiky-hair",
-          "side-swept"
-        ],
-        "description": "Face with eyes and hair with sharp spikes pointing to one side.",
-        "searchText": "userfacespikyside user face spiky side user avatar profile account person face hairstyle spiky-hair side-swept face with eyes and hair with sharp spikes pointing to one side. people"
-      },
-      {
-        "name": "UserFaceSweptBangs",
-        "displayName": "User face swept bangs",
-        "path": "/icons/optimized/1-user-person-15.svg",
-        "filename": "1-user-person-15.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "mid-length",
-          "side-bangs",
-          "fringe"
-        ],
-        "description": "Face with eyes and rounded mid-length hair with straight bangs swept to one side.",
-        "searchText": "userfacesweptbangs user face swept bangs user avatar profile account person face hairstyle mid-length side-bangs fringe face with eyes and rounded mid-length hair with straight bangs swept to one side. people"
-      },
-      {
-        "name": "UserFaceSwoop",
-        "displayName": "User face swoop",
-        "path": "/icons/optimized/1-user-person-30.svg",
-        "filename": "1-user-person-30.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "short-hair",
-          "swoop",
-          "side-swept"
-        ],
-        "description": "Face with eyes and short hair with a fringe swooping to one side.",
-        "searchText": "userfaceswoop user face swoop user avatar profile account person face hairstyle short-hair swoop side-swept face with eyes and short hair with a fringe swooping to one side. people"
-      },
-      {
-        "name": "UserFaceTexturedMid",
-        "displayName": "User face textured mid",
-        "path": "/icons/optimized/1-user-person-18.svg",
-        "filename": "1-user-person-18.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "textured-hair",
-          "coily",
-          "mid-length"
-        ],
-        "description": "Face with eyes and mid-length textured hair drawn as radiating strokes.",
-        "searchText": "userfacetexturedmid user face textured mid user avatar profile account person face hairstyle textured-hair coily mid-length face with eyes and mid-length textured hair drawn as radiating strokes. people"
-      },
-      {
-        "name": "UserFaceTexturedPonytail",
-        "displayName": "User face textured ponytail",
-        "path": "/icons/optimized/1-user-person-19.svg",
-        "filename": "1-user-person-19.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "textured-hair",
-          "ponytail",
-          "coily"
-        ],
-        "description": "Face with eyes and textured hair on top and a long ponytail.",
-        "searchText": "userfacetexturedponytail user face textured ponytail user avatar profile account person face hairstyle textured-hair ponytail coily face with eyes and textured hair on top and a long ponytail. people"
-      },
-      {
-        "name": "UserFaceTexturedPuffs",
-        "displayName": "User face textured puffs",
-        "path": "/icons/optimized/1-user-person-20.svg",
-        "filename": "1-user-person-20.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "textured-hair",
-          "puffs",
-          "pigtails"
-        ],
-        "description": "Face with eyes and two textured puffs with a center part.",
-        "searchText": "userfacetexturedpuffs user face textured puffs user avatar profile account person face hairstyle textured-hair puffs pigtails face with eyes and two textured puffs with a center part. people"
-      },
-      {
-        "name": "UserFaceTexturedShort",
-        "displayName": "User face textured short",
-        "path": "/icons/optimized/1-user-person-21.svg",
-        "filename": "1-user-person-21.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "textured-hair",
-          "coily",
-          "short-hair"
-        ],
-        "description": "Face with eyes and short textured hair drawn as radiating strokes.",
-        "searchText": "userfacetexturedshort user face textured short user avatar profile account person face hairstyle textured-hair coily short-hair face with eyes and short textured hair drawn as radiating strokes. people"
-      },
-      {
-        "name": "UserFaceTopKnot",
-        "displayName": "User face top knot",
-        "path": "/icons/optimized/1-user-person-36.svg",
-        "filename": "1-user-person-36.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "top-knot",
-          "bun",
-          "updo"
-        ],
-        "description": "Face with eyes and hair pulled up into a top-knot bun.",
-        "searchText": "userfacetopknot user face top knot user avatar profile account person face hairstyle top-knot bun updo face with eyes and hair pulled up into a top-knot bun. people"
-      },
-      {
-        "name": "UserFaceWavyBob",
-        "displayName": "User face wavy bob",
-        "path": "/icons/optimized/1-user-person-5.svg",
-        "filename": "1-user-person-5.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "face",
-          "hairstyle",
-          "bob",
-          "wavy-hair",
-          "short-hair"
-        ],
-        "description": "Face with eyes and a short wavy bob parted in the center.",
-        "searchText": "userfacewavybob user face wavy bob user avatar profile account person face hairstyle bob wavy-hair short-hair face with eyes and a short wavy bob parted in the center. people"
-      },
-      {
         "name": "UserHead362",
         "displayName": "User head 362",
         "path": "/icons/optimized/user-head-36.svg",
@@ -51354,833 +52252,6 @@
         ],
         "description": "A user head profile icon at 36 pixel size for account and identity representation.",
         "searchText": "userhead362 user head 362 user head profile person account identity avatar 36px a user head profile icon at 36 pixel size for account and identity representation. interface people"
-      },
-      {
-        "name": "UserHeadAfro",
-        "displayName": "User head afro",
-        "path": "/icons/optimized/1-user-head-34.svg",
-        "filename": "1-user-head-34.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "afro",
-          "curly-hair",
-          "volume"
-        ],
-        "description": "Head outline with no face details and a round afro.",
-        "searchText": "userheadafro user head afro user avatar profile account person head hairstyle afro curly-hair volume head outline with no face details and a round afro. people"
-      },
-      {
-        "name": "UserHeadBald",
-        "displayName": "User head bald",
-        "path": "/icons/optimized/1-user-head-26.svg",
-        "filename": "1-user-head-26.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "bald",
-          "shaved",
-          "no-hair"
-        ],
-        "description": "Head outline with no face details and no hair.",
-        "searchText": "userheadbald user head bald user avatar profile account person head hairstyle bald shaved no-hair head outline with no face details and no hair. people"
-      },
-      {
-        "name": "UserHeadBluntBob",
-        "displayName": "User head blunt bob",
-        "path": "/icons/optimized/1-user-head-8.svg",
-        "filename": "1-user-head-8.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "bob",
-          "blunt-cut",
-          "bangs"
-        ],
-        "description": "Head outline with no face details and a square, blunt-cut bob with bangs.",
-        "searchText": "userheadbluntbob user head blunt bob user avatar profile account person head hairstyle bob blunt-cut bangs head outline with no face details and a square, blunt-cut bob with bangs. people"
-      },
-      {
-        "name": "UserHeadBobBangs",
-        "displayName": "User head bob bangs",
-        "path": "/icons/optimized/1-user-head-7.svg",
-        "filename": "1-user-head-7.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "bob",
-          "bangs",
-          "fringe"
-        ],
-        "description": "Head outline with no face details and a rounded bob with blunt bangs.",
-        "searchText": "userheadbobbangs user head bob bangs user avatar profile account person head hairstyle bob bangs fringe head outline with no face details and a rounded bob with blunt bangs. people"
-      },
-      {
-        "name": "UserHeadCrewCut",
-        "displayName": "User head crew cut",
-        "path": "/icons/optimized/1-user-head-30.svg",
-        "filename": "1-user-head-30.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "crew-cut",
-          "short-hair"
-        ],
-        "description": "Head outline with no face details and a short crew cut with a small step at the crown.",
-        "searchText": "userheadcrewcut user head crew cut user avatar profile account person head hairstyle crew-cut short-hair head outline with no face details and a short crew cut with a small step at the crown. people"
-      },
-      {
-        "name": "UserHeadCurly",
-        "displayName": "User head curly",
-        "path": "/icons/optimized/1-user-head-16.svg",
-        "filename": "1-user-head-16.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "curly-hair",
-          "curls",
-          "volume"
-        ],
-        "description": "Head outline with no face details and voluminous curly hair.",
-        "searchText": "userheadcurly user head curly user avatar profile account person head hairstyle curly-hair curls volume head outline with no face details and voluminous curly hair. people"
-      },
-      {
-        "name": "UserHeadCurlyBob",
-        "displayName": "User head curly bob",
-        "path": "/icons/optimized/1-user-head-12.svg",
-        "filename": "1-user-head-12.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "bob",
-          "curly-hair",
-          "curls"
-        ],
-        "description": "Head outline with no face details and a short curly bob.",
-        "searchText": "userheadcurlybob user head curly bob user avatar profile account person head hairstyle bob curly-hair curls head outline with no face details and a short curly bob. people"
-      },
-      {
-        "name": "UserHeadCurlyTop",
-        "displayName": "User head curly top",
-        "path": "/icons/optimized/1-user-head-14.svg",
-        "filename": "1-user-head-14.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "short-hair",
-          "curly-hair",
-          "curls"
-        ],
-        "description": "Head outline with no face details and short sides and curly hair on top.",
-        "searchText": "userheadcurlytop user head curly top user avatar profile account person head hairstyle short-hair curly-hair curls head outline with no face details and short sides and curly hair on top. people"
-      },
-      {
-        "name": "UserHeadFlatTop",
-        "displayName": "User head flat top",
-        "path": "/icons/optimized/1-user-head-33.svg",
-        "filename": "1-user-head-33.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "flat-top",
-          "short-hair"
-        ],
-        "description": "Head outline with no face details and a square flat-top haircut.",
-        "searchText": "userheadflattop user head flat top user avatar profile account person head hairstyle flat-top short-hair head outline with no face details and a square flat-top haircut. people"
-      },
-      {
-        "name": "UserHeadFlippedEnds",
-        "displayName": "User head flipped ends",
-        "path": "/icons/optimized/1-user-head-5.svg",
-        "filename": "1-user-head-5.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "shoulder-length",
-          "flipped-hair",
-          "side-part"
-        ],
-        "description": "Head outline with no face details and shoulder-length hair with ends flipped outward.",
-        "searchText": "userheadflippedends user head flipped ends user avatar profile account person head hairstyle shoulder-length flipped-hair side-part head outline with no face details and shoulder-length hair with ends flipped outward. people"
-      },
-      {
-        "name": "UserHeadLongBraids",
-        "displayName": "User head long braids",
-        "path": "/icons/optimized/1-user-head-19.svg",
-        "filename": "1-user-head-19.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "braids",
-          "locs",
-          "long-hair",
-          "textured-hair"
-        ],
-        "description": "Head outline with no face details and long braided hair drawn in dashed lines.",
-        "searchText": "userheadlongbraids user head long braids user avatar profile account person head hairstyle braids locs long-hair textured-hair head outline with no face details and long braided hair drawn in dashed lines. people"
-      },
-      {
-        "name": "UserHeadLongCenterPart",
-        "displayName": "User head long center part",
-        "path": "/icons/optimized/1-user-head-1.svg",
-        "filename": "1-user-head-1.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "long-hair",
-          "straight-hair",
-          "center-part"
-        ],
-        "description": "Head outline with no face details and long straight hair parted in the center.",
-        "searchText": "userheadlongcenterpart user head long center part user avatar profile account person head hairstyle long-hair straight-hair center-part head outline with no face details and long straight hair parted in the center. people"
-      },
-      {
-        "name": "UserHeadLongSideSwept",
-        "displayName": "User head long side swept",
-        "path": "/icons/optimized/1-user-head-27.svg",
-        "filename": "1-user-head-27.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "long-hair",
-          "side-swept"
-        ],
-        "description": "Head outline with no face details and long hair swept over one shoulder.",
-        "searchText": "userheadlongsideswept user head long side swept user avatar profile account person head hairstyle long-hair side-swept head outline with no face details and long hair swept over one shoulder. people"
-      },
-      {
-        "name": "UserHeadLongTextured",
-        "displayName": "User head long textured",
-        "path": "/icons/optimized/1-user-head-18.svg",
-        "filename": "1-user-head-18.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "long-hair",
-          "textured-hair",
-          "coily"
-        ],
-        "description": "Head outline with no face details and long hair with textured strands on top.",
-        "searchText": "userheadlongtextured user head long textured user avatar profile account person head hairstyle long-hair textured-hair coily head outline with no face details and long hair with textured strands on top. people"
-      },
-      {
-        "name": "UserHeadLongWavy",
-        "displayName": "User head long wavy",
-        "path": "/icons/optimized/1-user-head-23.svg",
-        "filename": "1-user-head-23.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "long-hair",
-          "wavy-hair"
-        ],
-        "description": "Head outline with no face details and long wavy hair.",
-        "searchText": "userheadlongwavy user head long wavy user avatar profile account person head hairstyle long-hair wavy-hair head outline with no face details and long wavy hair. people"
-      },
-      {
-        "name": "UserHeadMohawk",
-        "displayName": "User head mohawk",
-        "path": "/icons/optimized/1-user-head-25.svg",
-        "filename": "1-user-head-25.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "mohawk",
-          "short-hair"
-        ],
-        "description": "Head outline with no face details and a mohawk stripe.",
-        "searchText": "userheadmohawk user head mohawk user avatar profile account person head hairstyle mohawk short-hair head outline with no face details and a mohawk stripe. people"
-      },
-      {
-        "name": "UserHeadPompadour",
-        "displayName": "User head pompadour",
-        "path": "/icons/optimized/1-user-head-13.svg",
-        "filename": "1-user-head-13.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "short-hair",
-          "pompadour",
-          "quiff"
-        ],
-        "description": "Head outline with no face details and short hair with a tall swept-back pompadour.",
-        "searchText": "userheadpompadour user head pompadour user avatar profile account person head hairstyle short-hair pompadour quiff head outline with no face details and short hair with a tall swept-back pompadour. people"
-      },
-      {
-        "name": "UserHeadRoundCenterPart",
-        "displayName": "User head round center part",
-        "path": "/icons/optimized/1-user-head-15.svg",
-        "filename": "1-user-head-15.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "rounded-hair",
-          "center-part",
-          "volume"
-        ],
-        "description": "Head outline with no face details and rounded, voluminous hair parted in the center.",
-        "searchText": "userheadroundcenterpart user head round center part user avatar profile account person head hairstyle rounded-hair center-part volume head outline with no face details and rounded, voluminous hair parted in the center. people"
-      },
-      {
-        "name": "UserHeadShort",
-        "displayName": "User head short",
-        "path": "/icons/optimized/1-user-head-29.svg",
-        "filename": "1-user-head-29.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "short-hair",
-          "cropped"
-        ],
-        "description": "Head outline with no face details and short, close-cropped hair.",
-        "searchText": "userheadshort user head short user avatar profile account person head hairstyle short-hair cropped head outline with no face details and short, close-cropped hair. people"
-      },
-      {
-        "name": "UserHeadShortCombed",
-        "displayName": "User head short combed",
-        "path": "/icons/optimized/1-user-head-32.svg",
-        "filename": "1-user-head-32.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "short-hair",
-          "combed"
-        ],
-        "description": "Head outline with no face details and short hair with an arched, combed hairline.",
-        "searchText": "userheadshortcombed user head short combed user avatar profile account person head hairstyle short-hair combed head outline with no face details and short hair with an arched, combed hairline. people"
-      },
-      {
-        "name": "UserHeadShortFringe",
-        "displayName": "User head short fringe",
-        "path": "/icons/optimized/1-user-head-28.svg",
-        "filename": "1-user-head-28.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "short-hair",
-          "fringe"
-        ],
-        "description": "Head outline with no face details and short hair with a soft wavy fringe.",
-        "searchText": "userheadshortfringe user head short fringe user avatar profile account person head hairstyle short-hair fringe head outline with no face details and short hair with a soft wavy fringe. people"
-      },
-      {
-        "name": "UserHeadShoulderCenterPart",
-        "displayName": "User head shoulder center part",
-        "path": "/icons/optimized/1-user-head-2.svg",
-        "filename": "1-user-head-2.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "shoulder-length",
-          "center-part"
-        ],
-        "description": "Head outline with no face details and shoulder-length hair parted in the center.",
-        "searchText": "userheadshouldercenterpart user head shoulder center part user avatar profile account person head hairstyle shoulder-length center-part head outline with no face details and shoulder-length hair parted in the center. people"
-      },
-      {
-        "name": "UserHeadShoulderCenterPart2",
-        "displayName": "User head shoulder center part 2",
-        "path": "/icons/optimized/1-user-head-4.svg",
-        "filename": "1-user-head-4.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "shoulder-length",
-          "center-part"
-        ],
-        "description": "Head outline with no face details and shoulder-length hair parted in the center, with a straight hem.",
-        "searchText": "userheadshouldercenterpart2 user head shoulder center part 2 user avatar profile account person head hairstyle shoulder-length center-part head outline with no face details and shoulder-length hair parted in the center, with a straight hem. people"
-      },
-      {
-        "name": "UserHeadShoulderSidePart",
-        "displayName": "User head shoulder side part",
-        "path": "/icons/optimized/1-user-head-10.svg",
-        "filename": "1-user-head-10.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "shoulder-length",
-          "side-part"
-        ],
-        "description": "Head outline with no face details and shoulder-length hair with a side part.",
-        "searchText": "userheadshouldersidepart user head shoulder side part user avatar profile account person head hairstyle shoulder-length side-part head outline with no face details and shoulder-length hair with a side part. people"
-      },
-      {
-        "name": "UserHeadSideBangs",
-        "displayName": "User head side bangs",
-        "path": "/icons/optimized/1-user-head-3.svg",
-        "filename": "1-user-head-3.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "shoulder-length",
-          "side-bangs",
-          "fringe"
-        ],
-        "description": "Head outline with no face details and shoulder-length hair with bangs swept to one side.",
-        "searchText": "userheadsidebangs user head side bangs user avatar profile account person head hairstyle shoulder-length side-bangs fringe head outline with no face details and shoulder-length hair with bangs swept to one side. people"
-      },
-      {
-        "name": "UserHeadSidePartBob",
-        "displayName": "User head side part bob",
-        "path": "/icons/optimized/1-user-head-11.svg",
-        "filename": "1-user-head-11.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "bob",
-          "side-part"
-        ],
-        "description": "Head outline with no face details and a bob with a deep side part.",
-        "searchText": "userheadsidepartbob user head side part bob user avatar profile account person head hairstyle bob side-part head outline with no face details and a bob with a deep side part. people"
-      },
-      {
-        "name": "UserHeadSpaceBuns",
-        "displayName": "User head space buns",
-        "path": "/icons/optimized/1-user-head-24.svg",
-        "filename": "1-user-head-24.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "space-buns",
-          "buns",
-          "updo"
-        ],
-        "description": "Head outline with no face details and two space buns on top.",
-        "searchText": "userheadspacebuns user head space buns user avatar profile account person head hairstyle space-buns buns updo head outline with no face details and two space buns on top. people"
-      },
-      {
-        "name": "UserHeadSpiky",
-        "displayName": "User head spiky",
-        "path": "/icons/optimized/1-user-head-35.svg",
-        "filename": "1-user-head-35.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "spiky-hair",
-          "short-hair"
-        ],
-        "description": "Head outline with no face details and short spiky hair.",
-        "searchText": "userheadspiky user head spiky user avatar profile account person head hairstyle spiky-hair short-hair head outline with no face details and short spiky hair. people"
-      },
-      {
-        "name": "UserHeadSpikySide",
-        "displayName": "User head spiky side",
-        "path": "/icons/optimized/1-user-head-36.svg",
-        "filename": "1-user-head-36.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "spiky-hair",
-          "side-swept"
-        ],
-        "description": "Head outline with no face details and hair with sharp spikes pointing to one side.",
-        "searchText": "userheadspikyside user head spiky side user avatar profile account person head hairstyle spiky-hair side-swept head outline with no face details and hair with sharp spikes pointing to one side. people"
-      },
-      {
-        "name": "UserHeadSweptBangs",
-        "displayName": "User head swept bangs",
-        "path": "/icons/optimized/1-user-head-17.svg",
-        "filename": "1-user-head-17.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "mid-length",
-          "side-bangs",
-          "fringe"
-        ],
-        "description": "Head outline with no face details and rounded mid-length hair with straight bangs swept to one side.",
-        "searchText": "userheadsweptbangs user head swept bangs user avatar profile account person head hairstyle mid-length side-bangs fringe head outline with no face details and rounded mid-length hair with straight bangs swept to one side. people"
-      },
-      {
-        "name": "UserHeadSwoop",
-        "displayName": "User head swoop",
-        "path": "/icons/optimized/1-user-head-31.svg",
-        "filename": "1-user-head-31.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "short-hair",
-          "swoop",
-          "side-swept"
-        ],
-        "description": "Head outline with no face details and short hair with a fringe swooping to one side.",
-        "searchText": "userheadswoop user head swoop user avatar profile account person head hairstyle short-hair swoop side-swept head outline with no face details and short hair with a fringe swooping to one side. people"
-      },
-      {
-        "name": "UserHeadTexturedMid",
-        "displayName": "User head textured mid",
-        "path": "/icons/optimized/1-user-head-20.svg",
-        "filename": "1-user-head-20.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "textured-hair",
-          "coily",
-          "mid-length"
-        ],
-        "description": "Head outline with no face details and mid-length textured hair drawn as radiating strokes.",
-        "searchText": "userheadtexturedmid user head textured mid user avatar profile account person head hairstyle textured-hair coily mid-length head outline with no face details and mid-length textured hair drawn as radiating strokes. people"
-      },
-      {
-        "name": "UserHeadTexturedPuffs",
-        "displayName": "User head textured puffs",
-        "path": "/icons/optimized/1-user-head-22.svg",
-        "filename": "1-user-head-22.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "textured-hair",
-          "puffs",
-          "pigtails"
-        ],
-        "description": "Head outline with no face details and two textured puffs with a center part.",
-        "searchText": "userheadtexturedpuffs user head textured puffs user avatar profile account person head hairstyle textured-hair puffs pigtails head outline with no face details and two textured puffs with a center part. people"
-      },
-      {
-        "name": "UserHeadTexturedShort",
-        "displayName": "User head textured short",
-        "path": "/icons/optimized/1-user-head-21.svg",
-        "filename": "1-user-head-21.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "textured-hair",
-          "coily",
-          "short-hair"
-        ],
-        "description": "Head outline with no face details and short textured hair drawn as radiating strokes.",
-        "searchText": "userheadtexturedshort user head textured short user avatar profile account person head hairstyle textured-hair coily short-hair head outline with no face details and short textured hair drawn as radiating strokes. people"
-      },
-      {
-        "name": "UserHeadWavyBob",
-        "displayName": "User head wavy bob",
-        "path": "/icons/optimized/1-user-head-6.svg",
-        "filename": "1-user-head-6.svg",
-        "category": "optimized",
-        "categories": [
-          "people"
-        ],
-        "tags": [
-          "user",
-          "avatar",
-          "profile",
-          "account",
-          "person",
-          "head",
-          "hairstyle",
-          "bob",
-          "wavy-hair",
-          "short-hair"
-        ],
-        "description": "Head outline with no face details and a short wavy bob parted in the center.",
-        "searchText": "userheadwavybob user head wavy bob user avatar profile account person head hairstyle bob wavy-hair short-hair head outline with no face details and a short wavy bob parted in the center. people"
       },
       {
         "name": "UserMenu",

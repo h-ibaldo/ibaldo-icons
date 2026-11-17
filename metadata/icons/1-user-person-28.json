@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceSideSweptShort",
+  "name": "AvatarFaceSideSweptShort",
   "description": "Face with eyes and short hair swept across the forehead.",
   "tags": [
     "user",
@@ -31,7 +31,8 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, side swept short",
+  "displayName": "Avatar face, side swept short",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

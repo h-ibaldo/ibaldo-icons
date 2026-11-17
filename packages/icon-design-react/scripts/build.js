@@ -258,10 +258,10 @@ ${components.map(c => `  ${c.name}: ${c.name}.default || ${c.name},`).join('\n')
   
   // Print some example usage
   console.log('📖 Example usage:\n');
-  console.log('   import { UserFaceTopKnot } from "@icon-design/react";');
+  console.log('   import { AvatarFaceTopKnot } from "@icon-design/react";');
   console.log('   // or');
-  console.log('   import UserFaceTopKnot from "@icon-design/react/icons/UserFaceTopKnot";\n');
-  console.log('   <UserFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
+  console.log('   import AvatarFaceTopKnot from "@icon-design/react/icons/AvatarFaceTopKnot";\n');
+  console.log('   <AvatarFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
 }
 
 build().catch(console.error);

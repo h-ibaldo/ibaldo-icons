@@ -24,12 +24,12 @@ the React package and the Svelte package all take the name from there.
 
 ## Component names
 
-- PascalCase, 2–4 words, must start with a letter: `UserFaceCurlyBob`, not `1UserHead12`.
+- PascalCase, 2–4 words, must start with a letter: `AvatarFaceCurlyBob`, not `1UserHead12`.
 - **Family first, then the difference.** Icons that belong together share a prefix,
-  so they sort together and autocomplete together: `UserHead…`, `UserFace…`.
-- Name the **visible difference**, never a number. `UserHeadSpaceBuns` beats `UserHead24`.
+  so they sort together and autocomplete together: `AvatarHead…`, `AvatarFace…`.
+- Name the **visible difference**, never a number. `AvatarHeadSpaceBuns` beats `AvatarHead24`.
 - Use a trailing number only when two icons are truly the same idea with a tiny
-  drawing difference no one would describe in words: `UserHeadShoulderCenterPart2`.
+  drawing difference no one would describe in words: `AvatarHeadShoulderCenterPart2`.
 - One word per synonym group:
   - add / plus / positive → `Add`
   - remove / delete / minus / negative → `Remove`
@@ -42,10 +42,14 @@ the React package and the Svelte package all take the name from there.
 ## People icons
 
 - **Describe what is drawn, never gender or ethnicity.** Name hair, accessories,
-  pose: `UserFaceLongWavy`, not `UserFaceWoman`. Hair texture words (`Curly`,
+  pose: `AvatarFaceLongWavy`, not `AvatarFaceWoman`. Hair texture words (`Curly`,
   `Textured`, `Braids`, `Afro`) are fine because they describe the drawing.
-- `UserHead…` = head outline with no face details.
-- `UserFace…` = head with eyes (and sometimes a smile).
+- `AvatarHead…` = head outline with no face details.
+- `AvatarFace…` = head with eyes (and sometimes a smile).
+- `displayName` follows the name: "Avatar face, top knot".
+- Avatars have `"featured": true`. Featured icons are shown first on the homepage
+  (before the alphabetical list), with or without a category selected. Don't rely
+  on the name for ordering; set `featured` instead. Use it sparingly.
 - Hair vocabulary, use these exact words:
   `Long`, `Shoulder`, `Short`, `Bob`, `Bangs`, `CenterPart`, `SidePart`, `Swept`,
   `Wavy`, `Curly`, `Textured`, `Braids`, `Afro`, `Buns`, `TopKnot`, `Ponytail`,

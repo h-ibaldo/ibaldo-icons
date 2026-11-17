@@ -1,5 +1,5 @@
 {
-  "name": "UserHeadWavyBob",
+  "name": "AvatarHeadWavyBob",
   "description": "Head outline with no face details and a short wavy bob parted in the center.",
   "tags": [
     "user",
@@ -32,7 +32,8 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User head, wavy bob",
+  "displayName": "Avatar head, wavy bob",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

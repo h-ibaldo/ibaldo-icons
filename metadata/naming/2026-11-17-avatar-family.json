@@ -1,0 +1,357 @@
+{
+  "1-user-head-1": {
+    "name": "AvatarHeadLongCenterPart",
+    "displayName": "Avatar head, long center part",
+    "featured": true
+  },
+  "1-user-head-2": {
+    "name": "AvatarHeadShoulderCenterPart",
+    "displayName": "Avatar head, shoulder center part",
+    "featured": true
+  },
+  "1-user-head-3": {
+    "name": "AvatarHeadSideBangs",
+    "displayName": "Avatar head, side bangs",
+    "featured": true
+  },
+  "1-user-head-4": {
+    "name": "AvatarHeadShoulderCenterPart2",
+    "displayName": "Avatar head, shoulder center part 2",
+    "featured": true
+  },
+  "1-user-head-5": {
+    "name": "AvatarHeadFlippedEnds",
+    "displayName": "Avatar head, flipped ends",
+    "featured": true
+  },
+  "1-user-head-6": {
+    "name": "AvatarHeadWavyBob",
+    "displayName": "Avatar head, wavy bob",
+    "featured": true
+  },
+  "1-user-head-7": {
+    "name": "AvatarHeadBobBangs",
+    "displayName": "Avatar head, bob bangs",
+    "featured": true
+  },
+  "1-user-head-8": {
+    "name": "AvatarHeadBluntBob",
+    "displayName": "Avatar head, blunt bob",
+    "featured": true
+  },
+  "1-user-head-10": {
+    "name": "AvatarHeadShoulderSidePart",
+    "displayName": "Avatar head, shoulder side part",
+    "featured": true
+  },
+  "1-user-head-11": {
+    "name": "AvatarHeadSidePartBob",
+    "displayName": "Avatar head, side part bob",
+    "featured": true
+  },
+  "1-user-head-12": {
+    "name": "AvatarHeadCurlyBob",
+    "displayName": "Avatar head, curly bob",
+    "featured": true
+  },
+  "1-user-head-13": {
+    "name": "AvatarHeadPompadour",
+    "displayName": "Avatar head, pompadour",
+    "featured": true
+  },
+  "1-user-head-14": {
+    "name": "AvatarHeadCurlyTop",
+    "displayName": "Avatar head, curly top",
+    "featured": true
+  },
+  "1-user-head-15": {
+    "name": "AvatarHeadRoundCenterPart",
+    "displayName": "Avatar head, round center part",
+    "featured": true
+  },
+  "1-user-head-16": {
+    "name": "AvatarHeadCurly",
+    "displayName": "Avatar head, curly",
+    "featured": true
+  },
+  "1-user-head-17": {
+    "name": "AvatarHeadSweptBangs",
+    "displayName": "Avatar head, swept bangs",
+    "featured": true
+  },
+  "1-user-head-18": {
+    "name": "AvatarHeadLongTextured",
+    "displayName": "Avatar head, long textured",
+    "featured": true
+  },
+  "1-user-head-19": {
+    "name": "AvatarHeadLongBraids",
+    "displayName": "Avatar head, long braids",
+    "featured": true
+  },
+  "1-user-head-20": {
+    "name": "AvatarHeadTexturedMid",
+    "displayName": "Avatar head, textured mid",
+    "featured": true
+  },
+  "1-user-head-21": {
+    "name": "AvatarHeadTexturedShort",
+    "displayName": "Avatar head, textured short",
+    "featured": true
+  },
+  "1-user-head-22": {
+    "name": "AvatarHeadTexturedPuffs",
+    "displayName": "Avatar head, textured puffs",
+    "featured": true
+  },
+  "1-user-head-23": {
+    "name": "AvatarHeadLongWavy",
+    "displayName": "Avatar head, long wavy",
+    "featured": true
+  },
+  "1-user-head-24": {
+    "name": "AvatarHeadSpaceBuns",
+    "displayName": "Avatar head, space buns",
+    "featured": true
+  },
+  "1-user-head-25": {
+    "name": "AvatarHeadMohawk",
+    "displayName": "Avatar head, mohawk",
+    "featured": true
+  },
+  "1-user-head-26": {
+    "name": "AvatarHeadBald",
+    "displayName": "Avatar head, bald",
+    "featured": true
+  },
+  "1-user-head-27": {
+    "name": "AvatarHeadLongSideSwept",
+    "displayName": "Avatar head, long side swept",
+    "featured": true
+  },
+  "1-user-head-28": {
+    "name": "AvatarHeadShortFringe",
+    "displayName": "Avatar head, short fringe",
+    "featured": true
+  },
+  "1-user-head-29": {
+    "name": "AvatarHeadShort",
+    "displayName": "Avatar head, short",
+    "featured": true
+  },
+  "1-user-head-30": {
+    "name": "AvatarHeadCrewCut",
+    "displayName": "Avatar head, crew cut",
+    "featured": true
+  },
+  "1-user-head-31": {
+    "name": "AvatarHeadSwoop",
+    "displayName": "Avatar head, swoop",
+    "featured": true
+  },
+  "1-user-head-32": {
+    "name": "AvatarHeadShortCombed",
+    "displayName": "Avatar head, short combed",
+    "featured": true
+  },
+  "1-user-head-33": {
+    "name": "AvatarHeadFlatTop",
+    "displayName": "Avatar head, flat top",
+    "featured": true
+  },
+  "1-user-head-34": {
+    "name": "AvatarHeadAfro",
+    "displayName": "Avatar head, afro",
+    "featured": true
+  },
+  "1-user-head-35": {
+    "name": "AvatarHeadSpiky",
+    "displayName": "Avatar head, spiky",
+    "featured": true
+  },
+  "1-user-head-36": {
+    "name": "AvatarHeadSpikySide",
+    "displayName": "Avatar head, spiky side",
+    "featured": true
+  },
+  "1-user-person-1": {
+    "name": "AvatarFaceLongSidePart",
+    "displayName": "Avatar face, long side part",
+    "featured": true
+  },
+  "1-user-person-2": {
+    "name": "AvatarFaceLongSweptBangs",
+    "displayName": "Avatar face, long swept bangs",
+    "featured": true
+  },
+  "1-user-person-3": {
+    "name": "AvatarFaceLongCenterPart",
+    "displayName": "Avatar face, long center part",
+    "featured": true
+  },
+  "1-user-person-4": {
+    "name": "AvatarFaceFlippedEnds",
+    "displayName": "Avatar face, flipped ends",
+    "featured": true
+  },
+  "1-user-person-5": {
+    "name": "AvatarFaceWavyBob",
+    "displayName": "Avatar face, wavy bob",
+    "featured": true
+  },
+  "1-user-person-6": {
+    "name": "AvatarFaceLongSideBangs",
+    "displayName": "Avatar face, long side bangs",
+    "featured": true
+  },
+  "1-user-person-7": {
+    "name": "AvatarFaceLongBangs",
+    "displayName": "Avatar face, long bangs",
+    "featured": true
+  },
+  "1-user-person-8": {
+    "name": "AvatarFaceShoulderSidePart",
+    "displayName": "Avatar face, shoulder side part",
+    "featured": true
+  },
+  "1-user-person-9": {
+    "name": "AvatarFaceSidePartBob",
+    "displayName": "Avatar face, side part bob",
+    "featured": true
+  },
+  "1-user-person-10": {
+    "name": "AvatarFaceCurlyBob",
+    "displayName": "Avatar face, curly bob",
+    "featured": true
+  },
+  "1-user-person-11": {
+    "name": "AvatarFacePompadour",
+    "displayName": "Avatar face, pompadour",
+    "featured": true
+  },
+  "1-user-person-12": {
+    "name": "AvatarFaceCurlyTop",
+    "displayName": "Avatar face, curly top",
+    "featured": true
+  },
+  "1-user-person-13": {
+    "name": "AvatarFaceRoundSidePart",
+    "displayName": "Avatar face, round side part",
+    "featured": true
+  },
+  "1-user-person-14": {
+    "name": "AvatarFaceCurly",
+    "displayName": "Avatar face, curly",
+    "featured": true
+  },
+  "1-user-person-15": {
+    "name": "AvatarFaceSweptBangs",
+    "displayName": "Avatar face, swept bangs",
+    "featured": true
+  },
+  "1-user-person-16": {
+    "name": "AvatarFaceLongTextured",
+    "displayName": "Avatar face, long textured",
+    "featured": true
+  },
+  "1-user-person-17": {
+    "name": "AvatarFaceLongBraids",
+    "displayName": "Avatar face, long braids",
+    "featured": true
+  },
+  "1-user-person-18": {
+    "name": "AvatarFaceTexturedMid",
+    "displayName": "Avatar face, textured mid",
+    "featured": true
+  },
+  "1-user-person-19": {
+    "name": "AvatarFaceTexturedPonytail",
+    "displayName": "Avatar face, textured ponytail",
+    "featured": true
+  },
+  "1-user-person-20": {
+    "name": "AvatarFaceTexturedPuffs",
+    "displayName": "Avatar face, textured puffs",
+    "featured": true
+  },
+  "1-user-person-21": {
+    "name": "AvatarFaceTexturedShort",
+    "displayName": "Avatar face, textured short",
+    "featured": true
+  },
+  "1-user-person-22": {
+    "name": "AvatarFaceLongWavy",
+    "displayName": "Avatar face, long wavy",
+    "featured": true
+  },
+  "1-user-person-23": {
+    "name": "AvatarFaceSpaceBuns",
+    "displayName": "Avatar face, space buns",
+    "featured": true
+  },
+  "1-user-person-24": {
+    "name": "AvatarFaceMohawk",
+    "displayName": "Avatar face, mohawk",
+    "featured": true
+  },
+  "1-user-person-25": {
+    "name": "AvatarFaceBald",
+    "displayName": "Avatar face, bald",
+    "featured": true
+  },
+  "1-user-person-26": {
+    "name": "AvatarFaceLongSideSwept",
+    "displayName": "Avatar face, long side swept",
+    "featured": true
+  },
+  "1-user-person-27": {
+    "name": "AvatarFaceShortFringe",
+    "displayName": "Avatar face, short fringe",
+    "featured": true
+  },
+  "1-user-person-28": {
+    "name": "AvatarFaceSideSweptShort",
+    "displayName": "Avatar face, side swept short",
+    "featured": true
+  },
+  "1-user-person-29": {
+    "name": "AvatarFaceBowlCut",
+    "displayName": "Avatar face, bowl cut",
+    "featured": true
+  },
+  "1-user-person-30": {
+    "name": "AvatarFaceSwoop",
+    "displayName": "Avatar face, swoop",
+    "featured": true
+  },
+  "1-user-person-31": {
+    "name": "AvatarFaceShortCombed",
+    "displayName": "Avatar face, short combed",
+    "featured": true
+  },
+  "1-user-person-32": {
+    "name": "AvatarFaceFlatTop",
+    "displayName": "Avatar face, flat top",
+    "featured": true
+  },
+  "1-user-person-33": {
+    "name": "AvatarFaceAfro",
+    "displayName": "Avatar face, afro",
+    "featured": true
+  },
+  "1-user-person-34": {
+    "name": "AvatarFaceSpiky",
+    "displayName": "Avatar face, spiky",
+    "featured": true
+  },
+  "1-user-person-35": {
+    "name": "AvatarFaceSpikySide",
+    "displayName": "Avatar face, spiky side",
+    "featured": true
+  },
+  "1-user-person-36": {
+    "name": "AvatarFaceTopKnot",
+    "displayName": "Avatar face, top knot",
+    "featured": true
+  }
+}

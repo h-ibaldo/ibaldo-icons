@@ -178,6 +178,11 @@
       "description": "Whether this icon is deprecated",
       "default": false
     },
+    "featured": {
+      "type": "boolean",
+      "description": "Show this icon at the top of the homepage (e.g. the avatars)",
+      "default": false
+    },
     "replacedBy": {
       "type": "string",
       "description": "Name of icon that replaces this one if deprecated"

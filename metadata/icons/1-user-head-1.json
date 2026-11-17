@@ -1,6 +1,6 @@
 {
-  "name": "UserHeadLongCenterPart",
-  "displayName": "User head, long center part",
+  "name": "AvatarHeadLongCenterPart",
+  "displayName": "Avatar head, long center part",
   "originalTitle": "1 User Head 1",
   "description": "Head outline with no face details and long straight hair parted in the center.",
   "tags": [
@@ -36,5 +36,6 @@
   "deprecated": false,
   "generatedAt": "2026-02-15T00:53:19.765Z",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

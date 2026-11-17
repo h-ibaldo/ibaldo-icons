@@ -1,5 +1,5 @@
 {
-  "name": "UserHeadCurlyBob",
+  "name": "AvatarHeadCurlyBob",
   "description": "Head outline with no face details and a short curly bob.",
   "tags": [
     "user",
@@ -32,7 +32,8 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User head, curly bob",
+  "displayName": "Avatar head, curly bob",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

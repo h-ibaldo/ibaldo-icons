@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceMohawk",
+  "name": "AvatarFaceMohawk",
   "description": "Face with eyes and a mohawk stripe.",
   "tags": [
     "user",
@@ -31,7 +31,8 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, mohawk",
+  "displayName": "Avatar face, mohawk",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

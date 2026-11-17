@@ -6,8 +6,8 @@
  * A batch file is a JSON object keyed by filename (without .svg):
  *   {
  *     "1-user-head-24": {
- *       "name": "UserHeadSpaceBuns",
- *       "displayName": "User head, space buns",
+ *       "name": "AvatarHeadSpaceBuns",
+ *       "displayName": "Avatar head, space buns",
  *       "description": "...",
  *       "tags": ["..."],
  *       "categories": ["people"],

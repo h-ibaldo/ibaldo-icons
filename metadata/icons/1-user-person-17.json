@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceLongBraids",
+  "name": "AvatarFaceLongBraids",
   "description": "Face with eyes and long braided hair drawn in dashed lines.",
   "tags": [
     "user",
@@ -33,7 +33,8 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, long braids",
+  "displayName": "Avatar face, long braids",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

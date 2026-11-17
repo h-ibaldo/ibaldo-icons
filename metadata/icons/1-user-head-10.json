@@ -1,6 +1,6 @@
 {
-  "name": "UserHeadShoulderSidePart",
-  "displayName": "User head, shoulder side part",
+  "name": "AvatarHeadShoulderSidePart",
+  "displayName": "Avatar head, shoulder side part",
   "originalTitle": "1 User Head 10",
   "description": "Head outline with no face details and shoulder-length hair with a side part.",
   "tags": [
@@ -35,5 +35,6 @@
   "deprecated": false,
   "generatedAt": "2026-02-15T00:53:19.765Z",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }
