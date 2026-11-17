@@ -85,8 +85,10 @@ function main() {
     if (path.resolve(namingDir, f) === path.resolve(batchPath)) continue;
     const other = JSON.parse(fs.readFileSync(path.join(namingDir, f), 'utf8'));
     for (const [key, e] of Object.entries(other)) {
-      if (fs.existsSync(path.join(metaDir, `${key}.json`))) continue; // already applied
-      if (e && e.name && !e.hold) take(e.name, `batch ${f}`);
+      if (!e || !e.name || e.hold) continue;
+      // Already applied (keyed by filename, or by source id and imported): counted as library
+      if (fs.existsSync(path.join(metaDir, `${key}.json`)) || fs.existsSync(path.join(metaDir, `${kebab(e.name)}.json`))) continue;
+      take(e.name, `batch ${f}`);
     }
   }
 
