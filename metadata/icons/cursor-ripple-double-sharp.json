@@ -1,0 +1,36 @@
+{
+  "name": "CursorRippleDoubleSharp",
+  "displayName": "Cursor ripple double sharp",
+  "description": "Sharp-cornered cursor pointing up left into two concentric arcs.",
+  "tags": [
+    "ripple",
+    "cursor",
+    "pointer",
+    "mouse",
+    "arrow",
+    "click",
+    "select",
+    "tap"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cursor"
+  },
+  "filename": "cursor-ripple-double-sharp",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

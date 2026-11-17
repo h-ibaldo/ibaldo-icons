@@ -105,6 +105,8 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   ChatStack `Layered`/`Facing`/`Notch`/`Flipped`/`Staggered` (or the front bubble's word).
   Paperclip `Wide`/`Long`/`Short`/`Round`/`Vertical`/`Slim`/`Narrow`/`Flipped`/`Curl`/`Thin`; Alarm `Arc`/`Straight`/`Bare`;
   Stopwatch `Tick`/`Bare`/`Knob`/`Detached`; Hourglass `Curved`/`Diagonal` (`Stand` = with boards); ClosedCaption `Boxy`/`Barrel`/`Cushion`/`Bare`;
+  Pointer (arrow without tail) `Straight`; Cursor `Ripple`/`RippleDouble` (click arcs) and `Stem`; Navigation `Sharp`/`Round`;
+  Gauge frames `Square`/`Dashed`/`Open`/`Flat`/`Half`/`Semicircle`/`Split`/`ThreeQuarter`/`Arch`/`Curved`; SquareStack `Overlap`/`Shadow`;
   Clipboard lists with 2 rows `Short`; dashed rings `DashedHalf`/`DashedHalfSmall`/`DashedHalfSparse`/`DashedHalfLong`/`DashedLong`/`DashedQuarter`.
   Letters `B`, `C` only when no difference can be described (today only `Search`, `SearchB`, `SearchC`).
 - **Near-duplicates** (same base, same badge, tiny drawing difference): name the difference when you can

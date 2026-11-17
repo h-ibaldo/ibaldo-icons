@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+
+const GaugeDropArrowRight = forwardRef(function GaugeDropArrowRight(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M12.02 5.992L9.613 11.602C9.246 12.465 9.363 13.453 9.926 14.203C10.973 15.598 13.066 15.598 14.109 14.203C14.672 13.453 14.789 12.465 14.422 11.602Z","key":"0"}),
+    createElement('path', {"d":"M6 18L8 20L6 22","key":"1"}),
+    createElement('path', {"d":"M2 20L8 20","key":"2"}),
+    createElement('path', {"d":"M12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2C6.477 2 2 6.477 2 12C2 13.047 2.16 14.055 2.461 15","key":"3"})
+  );
+});
+
+GaugeDropArrowRight.displayName = 'GaugeDropArrowRight';
+
+export default GaugeDropArrowRight;
+export { GaugeDropArrowRight };

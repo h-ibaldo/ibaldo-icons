@@ -1,0 +1,37 @@
+{
+  "name": "CropOff",
+  "displayName": "Crop off",
+  "description": "Crop frame crossed by a diagonal slash.",
+  "tags": [
+    "no-crop",
+    "crop",
+    "trim",
+    "cut",
+    "image",
+    "edit",
+    "resize",
+    "off",
+    "disabled"
+  ],
+  "categories": [
+    "media"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Crop"
+  },
+  "filename": "crop-off",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}
