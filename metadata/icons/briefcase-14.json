@@ -1,5 +1,5 @@
 {
-  "name": "BriefcaseRemove",
+  "name": "BriefcaseCorners",
   "description": "A briefcase icon with a remove or minus indicator symbolizing deletion or dismissal of business items",
   "tags": [
     "briefcase",
@@ -7,11 +7,11 @@
     "delete",
     "minus",
     "business",
-    "subtract"
+    "subtract",
+    "corners"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase corners",
+  "aliases": [
+    "BriefcaseRemove"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

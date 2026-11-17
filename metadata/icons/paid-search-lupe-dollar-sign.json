@@ -1,13 +1,13 @@
 {
-  "name": "PaidSearchDollar",
+  "name": "DollarSearch",
   "description": "A magnifying glass search icon combined with a dollar sign symbol for paid search advertising and cost analysis",
   "tags": [
-    "paid",
-    "search",
-    "magnifying glass",
-    "lupe",
     "dollar",
+    "paid",
+    "lupe",
     "sign",
+    "search",
+    "magnifying-glass",
     "advertising",
     "cost",
     "finance",
@@ -15,7 +15,7 @@
   ],
   "categories": [
     "business",
-    "interface"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Dollar search",
+  "aliases": [
+    "PaidSearchDollar"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

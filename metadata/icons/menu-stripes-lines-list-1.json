@@ -1,13 +1,14 @@
 {
-  "name": "MenuStripes",
+  "name": "MenuShortBottom",
   "description": "A menu icon composed of horizontal stripes or lines representing a list navigation",
   "tags": [
     "menu",
     "stripes",
-    "lines",
     "list",
     "navigation",
-    "hamburger"
+    "hamburger",
+    "short",
+    "bottom"
   ],
   "categories": [
     "interface"
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu short bottom",
+  "aliases": [
+    "MenuStripes"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

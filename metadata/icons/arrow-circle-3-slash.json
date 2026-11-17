@@ -1,18 +1,21 @@
 {
-  "name": "ArrowCircle3Slash",
+  "name": "ArrowCounterclockwiseBottomOff",
   "description": "An arrow inside a circle with a diagonal slash, representing a restricted or unavailable navigation action.",
   "tags": [
     "arrow",
     "circle",
     "slash",
     "disabled",
+    "mute",
     "restricted",
     "navigation",
     "blocked",
-    "prohibition"
+    "prohibition",
+    "counterclockwise",
+    "bottom",
+    "off"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow counterclockwise bottom off",
+  "aliases": [
+    "ArrowCircle3Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

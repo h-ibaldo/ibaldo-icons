@@ -1,5 +1,5 @@
 {
-  "name": "LinkPersonalHotspot",
+  "name": "Link",
   "description": "A link icon for personal hotspot connectivity and mobile network sharing",
   "tags": [
     "link",
@@ -12,8 +12,7 @@
     "connectivity"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Link",
+  "aliases": [
+    "LinkPersonalHotspot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

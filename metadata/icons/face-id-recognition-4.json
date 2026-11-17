@@ -1,7 +1,8 @@
 {
-  "name": "FaceID4",
+  "name": "ScanEyeLid",
   "description": "A face identification biometric recognition icon, variant 4, for facial authentication and security verification",
   "tags": [
+    "scan",
     "face",
     "id",
     "recognition",
@@ -10,11 +11,11 @@
     "security",
     "facial",
     "verification",
-    "variant 4"
+    "eye",
+    "lid"
   ],
   "categories": [
-    "security",
-    "devices"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scan eye lid",
+  "aliases": [
+    "FaceID4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

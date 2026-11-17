@@ -1,5 +1,5 @@
 {
-  "name": "FunnelFilterCoin2",
+  "name": "FunnelOvalCoin",
   "description": "A funnel filter icon with money and coin symbols for sales filtering operations variant two",
   "tags": [
     "funnel",
@@ -7,13 +7,12 @@
     "money",
     "sales",
     "coin",
-    "variant2",
     "financial",
-    "sort"
+    "sort",
+    "oval"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Funnel oval coin",
+  "aliases": [
+    "FunnelFilterCoin2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

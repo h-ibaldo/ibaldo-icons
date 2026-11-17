@@ -1,20 +1,20 @@
 {
-  "name": "AgendaContacts3",
+  "name": "AddressBookAt",
   "description": "An agenda contacts icon representing the third variant for organizing people and contact management",
   "tags": [
+    "address",
     "agenda",
     "contacts",
-    "3",
     "organizer",
     "people",
     "directory",
     "management",
-    "contact list"
+    "contact-list",
+    "book",
+    "at"
   ],
   "categories": [
-    "interface",
-    "business",
-    "people"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Address book at",
+  "aliases": [
+    "AgendaContacts3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

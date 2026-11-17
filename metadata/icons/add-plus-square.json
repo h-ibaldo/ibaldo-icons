@@ -1,11 +1,11 @@
 {
-  "name": "AddSquare",
-  "displayName": "Add square",
+  "name": "PlusSquare",
+  "displayName": "Plus square",
   "originalTitle": "Add Plus Square",
   "description": "Square plus icon for adding functionality with geometric styling. Used in grid layouts and structured interfaces.",
   "tags": [
-    "add",
     "plus",
+    "add",
     "create",
     "new",
     "square",
@@ -31,5 +31,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.766Z"
+  "generatedAt": "2026-02-15T00:53:19.766Z",
+  "aliases": [
+    "AddSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

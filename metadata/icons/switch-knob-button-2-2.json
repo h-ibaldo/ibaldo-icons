@@ -1,14 +1,17 @@
 {
-  "name": "SwitchKnobButton4",
+  "name": "SwitchKnobUpRightHandle",
   "description": "A fourth rotary knob-style switch button variant with distinct styling for control interfaces.",
   "tags": [
     "switch",
-    "knob",
     "button",
+    "knob",
     "rotary",
     "control",
     "adjustment",
-    "style"
+    "style",
+    "up",
+    "right",
+    "handle"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch knob up right handle",
+  "aliases": [
+    "SwitchKnobButton4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

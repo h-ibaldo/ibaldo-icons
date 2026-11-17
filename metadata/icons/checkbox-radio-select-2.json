@@ -1,11 +1,15 @@
 {
-  "name": "CheckboxRadioSelect2",
-  "displayName": "Checkbox radio select 2",
+  "name": "RadioCheckOpen",
+  "displayName": "Radio check open",
   "originalTitle": "Checkbox Radio Select 2",
   "description": "Radio button in selected state, second variant. Indicates the chosen option in a single-selection form control group.",
   "tags": [
     "radio",
+    "checkbox",
     "select",
+    "done",
+    "success",
+    "verified",
     "selected",
     "choice",
     "form",
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.794Z"
+  "generatedAt": "2026-02-15T00:53:19.794Z",
+  "aliases": [
+    "CheckboxRadioSelect2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,19 @@
 {
-  "name": "LupeZoom3Actual",
+  "name": "SearchOneToOneC",
   "description": "A magnifying glass zoom icon representing actual size or one-to-one zoom ratio at 3x magnification",
   "tags": [
+    "search",
     "lupe",
     "zoom",
+    "actual",
+    "size",
     "magnify",
-    "actual size",
+    "actual-size",
     "one-to-one",
-    "3x",
-    "search"
+    "one"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search one to one C",
+  "aliases": [
+    "LupeZoom3Actual"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

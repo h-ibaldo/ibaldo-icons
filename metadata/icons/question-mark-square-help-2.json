@@ -1,20 +1,19 @@
 {
-  "name": "QuestionMarkSquareHelp2",
+  "name": "QuestionSquareSmall",
   "description": "An alternate question mark square icon design for help and support features",
   "tags": [
     "question",
     "mark",
-    "square",
     "help",
+    "square",
     "support",
     "information",
-    "FAQ",
+    "faq",
     "assistance",
-    "variant"
+    "small"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Question square small",
+  "aliases": [
+    "QuestionMarkSquareHelp2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

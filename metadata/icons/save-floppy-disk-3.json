@@ -1,16 +1,17 @@
 {
-  "name": "SaveDisk3",
+  "name": "SaveHub",
   "description": "A third variant of the floppy disk save icon with distinct visual characteristics",
   "tags": [
     "save",
-    "floppy disk",
+    "floppy",
+    "disk",
+    "floppy-disk",
     "storage",
     "backup",
     "data",
-    "variant"
+    "hub"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save hub",
+  "aliases": [
+    "SaveDisk3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,9 +1,11 @@
 {
-  "name": "LinkPersonalHotspotBroken",
+  "name": "LinkBroken",
   "description": "A broken personal hotspot link icon indicating a disconnected or failed connection",
   "tags": [
     "link",
-    "personal hotspot",
+    "personal",
+    "hotspot",
+    "personal-hotspot",
     "broken",
     "disconnected",
     "failed",
@@ -12,8 +14,6 @@
     "error"
   ],
   "categories": [
-    "interface",
-    "devices",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Link broken",
+  "aliases": [
+    "LinkPersonalHotspotBroken"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

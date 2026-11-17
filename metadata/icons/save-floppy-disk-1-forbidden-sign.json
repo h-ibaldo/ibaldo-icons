@@ -1,5 +1,5 @@
 {
-  "name": "SaveDiskForbidden",
+  "name": "SaveBan",
   "description": "A floppy disk save icon with a forbidden or prohibition sign, indicating save is not allowed",
   "tags": [
     "save",
@@ -7,14 +7,13 @@
     "disk",
     "forbidden",
     "sign",
+    "blocked",
     "prohibited",
-    "not allowed",
-    "blocked"
+    "not-allowed",
+    "ban"
   ],
   "categories": [
-    "interface",
-    "files",
-    "security"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save ban",
+  "aliases": [
+    "SaveDiskForbidden"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

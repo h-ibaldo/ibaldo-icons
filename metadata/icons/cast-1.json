@@ -1,5 +1,5 @@
 {
-  "name": "Cast1",
+  "name": "Cast",
   "description": "A cast icon representing wireless media streaming or screen mirroring capability",
   "tags": [
     "cast",
@@ -12,9 +12,7 @@
     "connectivity"
   ],
   "categories": [
-    "media",
-    "devices",
-    "communication"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cast",
+  "aliases": [
+    "Cast1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

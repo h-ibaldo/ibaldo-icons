@@ -1,14 +1,14 @@
 {
-  "name": "FormInputText2",
+  "name": "FormInputCursor",
   "description": "A form text input field icon with variant 2 styling for text entry",
   "tags": [
     "form",
-    "input",
     "text",
+    "input",
     "field",
-    "data entry",
+    "data-entry",
     "textbox",
-    "variant2"
+    "cursor"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form input cursor",
+  "aliases": [
+    "FormInputText2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

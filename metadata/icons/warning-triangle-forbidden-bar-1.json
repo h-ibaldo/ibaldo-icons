@@ -1,19 +1,21 @@
 {
-  "name": "WarningForbiddenBar",
+  "name": "TriangleOff",
   "description": "A warning triangle icon with a forbidden bar or slash indicating prohibition, variant 1",
   "tags": [
-    "warning",
     "triangle",
+    "warning",
     "forbidden",
-    "prohibited",
     "bar",
+    "disabled",
+    "mute",
+    "prohibited",
     "slash",
     "restriction",
-    "alert"
+    "alert",
+    "off"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Triangle off",
+  "aliases": [
+    "WarningForbiddenBar"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

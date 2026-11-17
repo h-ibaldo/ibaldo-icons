@@ -1,20 +1,21 @@
 {
-  "name": "ArrowsDownInput1",
-  "displayName": "Arrows down input 1",
+  "name": "ArrowDownTray",
+  "displayName": "Arrow down tray",
   "originalTitle": "Arrows Down Input 1",
   "description": "Downward arrow input indicator for dropdown menus or input fields. Signals that content can be expanded or selected below.",
   "tags": [
     "arrow",
+    "arrows",
+    "input",
     "down",
     "dropdown",
-    "input",
     "select",
     "menu",
-    "expand"
+    "expand",
+    "tray"
   ],
   "categories": [
-    "arrows",
-    "interface"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.734Z"
+  "generatedAt": "2026-02-15T00:53:19.734Z",
+  "aliases": [
+    "ArrowsDownInput1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

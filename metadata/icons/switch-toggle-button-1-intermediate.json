@@ -1,9 +1,9 @@
 {
-  "name": "SwitchToggleButtonIntermediate",
+  "name": "ToggleMiddle",
   "description": "A toggle button switch in intermediate or middle state",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
     "intermediate",
     "middle",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle middle",
+  "aliases": [
+    "SwitchToggleButtonIntermediate"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

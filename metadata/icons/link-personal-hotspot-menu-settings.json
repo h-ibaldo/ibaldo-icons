@@ -1,19 +1,19 @@
 {
-  "name": "LinkPersonalHotspotSettings",
+  "name": "LinkMenu",
   "description": "A personal hotspot link icon with settings control for adjusting connection parameters",
   "tags": [
     "link",
-    "personal hotspot",
-    "menu",
+    "personal",
+    "hotspot",
     "settings",
+    "personal-hotspot",
+    "menu",
     "configuration",
     "adjust",
     "options",
     "control"
   ],
   "categories": [
-    "interface",
-    "devices",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Link menu",
+  "aliases": [
+    "LinkPersonalHotspotSettings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,7 +1,8 @@
 {
-  "name": "PageViewFullscreen",
+  "name": "FullscreenSquareSharp",
   "description": "A page view icon representing full screen page display mode for immersive viewing",
   "tags": [
+    "fullscreen",
     "page",
     "view",
     "full",
@@ -9,11 +10,12 @@
     "layout",
     "display",
     "maximize",
-    "immersive"
+    "immersive",
+    "square",
+    "sharp"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Fullscreen square sharp",
+  "aliases": [
+    "PageViewFullscreen"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

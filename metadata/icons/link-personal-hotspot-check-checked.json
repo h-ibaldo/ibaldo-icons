@@ -1,19 +1,21 @@
 {
-  "name": "LinkPersonalHotspotCheck",
+  "name": "LinkCheck",
   "description": "A personal hotspot link icon with a checkmark indicating an active or verified connection",
   "tags": [
     "link",
-    "personal hotspot",
-    "check",
+    "personal",
+    "hotspot",
     "checked",
-    "checkmark",
+    "done",
+    "success",
     "verified",
+    "personal-hotspot",
+    "check",
+    "checkmark",
     "active",
     "connected"
   ],
   "categories": [
-    "interface",
-    "devices",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Link check",
+  "aliases": [
+    "LinkPersonalHotspotCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,21 @@
 {
-  "name": "ArrowsClockwise3Slash",
+  "name": "ArrowSyncClockwiseOffRotated",
   "description": "Clockwise rotating arrow icon with diagonal slash indicating disabled or cancelled refresh action",
   "tags": [
+    "arrow",
     "arrows",
-    "clockwise",
     "slash",
+    "synchronize",
     "disabled",
+    "mute",
+    "clockwise",
     "cancel",
     "rotation",
     "refresh",
-    "variant3"
+    "sync",
+    "off"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync clockwise off rotated",
+  "aliases": [
+    "ArrowsClockwise3Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,20 @@
 {
-  "name": "SignalCellTower1",
+  "name": "Antenna",
   "description": "A cell tower signal icon showing the first strength level variant of cellular network connectivity.",
   "tags": [
+    "antenna",
     "signal",
-    "cell tower",
+    "cell",
+    "tower",
+    "cell-tower",
     "network",
     "connectivity",
-    "1",
     "strength",
     "wireless",
     "reception"
   ],
   "categories": [
-    "devices",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Antenna",
+  "aliases": [
+    "SignalCellTower1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

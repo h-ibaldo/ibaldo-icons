@@ -1,17 +1,19 @@
 {
-  "name": "ArrowsHexagon2",
+  "name": "ArrowSyncDiamond",
   "description": "An alternate variant of hexagonal directional arrows for radial or multi-directional movement",
   "tags": [
+    "arrow",
     "arrows",
     "hexagon",
+    "synchronize",
     "direction",
     "radial",
     "multi-directional",
     "geometric",
-    "variant"
+    "sync",
+    "diamond"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync diamond",
+  "aliases": [
+    "ArrowsHexagon2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

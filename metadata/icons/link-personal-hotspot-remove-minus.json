@@ -1,19 +1,20 @@
 {
-  "name": "LinkPersonalHotspotRemove",
+  "name": "LinkMinus",
   "description": "A personal hotspot link icon with a remove action for deleting or disabling connections",
   "tags": [
     "link",
-    "personal hotspot",
+    "personal",
+    "hotspot",
     "remove",
+    "subtract",
+    "personal-hotspot",
     "minus",
     "delete",
     "disconnect",
     "disable",
-    "delete connection"
+    "delete-connection"
   ],
   "categories": [
-    "interface",
-    "devices",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Link minus",
+  "aliases": [
+    "LinkPersonalHotspotRemove"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

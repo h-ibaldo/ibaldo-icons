@@ -1,5 +1,5 @@
 {
-  "name": "Folder19",
+  "name": "FolderOpenFront",
   "description": "A folder icon variant 19 for managing directories and stored files.",
   "tags": [
     "folder",
@@ -9,11 +9,11 @@
     "documents",
     "organize",
     "archive",
-    "19"
+    "open",
+    "front"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder open front",
+  "aliases": [
+    "Folder19"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

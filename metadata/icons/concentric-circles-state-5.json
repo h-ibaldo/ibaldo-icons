@@ -1,19 +1,21 @@
 {
-  "name": "ConcentricCirclesState5",
+  "name": "CircleConcentricXS",
   "description": "A concentric circles icon representing the fifth state in a multi-state progression indicator",
   "tags": [
-    "concentric",
+    "circle",
     "circles",
     "state",
+    "close",
+    "delete",
+    "remove",
+    "concentric",
     "progression",
-    "5",
     "nested",
     "rings",
     "level"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle concentric X S",
+  "aliases": [
+    "ConcentricCirclesState5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

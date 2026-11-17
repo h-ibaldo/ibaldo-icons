@@ -1,5 +1,5 @@
 {
-  "name": "Music8",
+  "name": "MusicNoteHook",
   "description": "A music icon variant representing audio, songs, or sound playback in its eighth style iteration.",
   "tags": [
     "music",
@@ -8,11 +8,12 @@
     "song",
     "playback",
     "entertainment",
-    "media"
+    "media",
+    "note",
+    "hook"
   ],
   "categories": [
-    "media",
-    "interface"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Music note hook",
+  "aliases": [
+    "Music8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

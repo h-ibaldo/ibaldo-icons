@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightness2B",
+  "name": "SunShortBig",
   "description": "A sun brightness control icon in variant 2B style, indicating medium to high brightness",
   "tags": [
     "sun",
@@ -7,11 +7,12 @@
     "light",
     "control",
     "adjustment",
-    "variant 2B"
+    "short",
+    "big"
   ],
   "categories": [
-    "interface",
-    "weather"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun short big",
+  "aliases": [
+    "SunBrightness2B"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

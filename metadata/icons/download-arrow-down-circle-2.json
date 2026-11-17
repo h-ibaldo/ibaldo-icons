@@ -1,5 +1,5 @@
 {
-  "name": "DownloadCircle2",
+  "name": "DownloadCircle",
   "description": "An alternative download arrow icon pointing downward in a circle variant",
   "tags": [
     "download",
@@ -8,13 +8,11 @@
     "circle",
     "file",
     "transfer",
-    "enclosed",
-    "variant"
+    "enclosed"
   ],
   "categories": [
-    "arrows",
-    "interface",
-    "files"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download circle",
+  "aliases": [
+    "DownloadCircle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,14 +1,14 @@
 {
-  "name": "SwitchToggleOn3",
+  "name": "ToggleOnSquared",
   "description": "A toggle switch button in the on position, variant 3 with standard styling.",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
-    "on",
     "enabled",
     "active",
-    "control"
+    "control",
+    "squared"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle on squared",
+  "aliases": [
+    "SwitchToggleOn3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

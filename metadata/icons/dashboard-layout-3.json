@@ -1,6 +1,6 @@
 {
-  "name": "DashboardLayout3",
-  "displayName": "Dashboard layout 3",
+  "name": "DashboardSquare",
+  "displayName": "Dashboard square",
   "originalTitle": "Dashboard Layout 3",
   "description": "Third dashboard layout variation showing different content organization. Used for dashboard templates or layout switching functionality.",
   "tags": [
@@ -11,10 +11,10 @@
     "admin",
     "analytics",
     "organization",
-    "overview"
+    "overview",
+    "square"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.798Z"
+  "generatedAt": "2026-02-15T00:53:19.798Z",
+  "aliases": [
+    "DashboardLayout3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

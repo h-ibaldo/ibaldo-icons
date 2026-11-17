@@ -1,20 +1,20 @@
 {
-  "name": "OnlineShopMobileBag2",
+  "name": "MobileBagCenter",
   "description": "A mobile phone displaying an online shop with a shopping bag for e-commerce purchases variant",
   "tags": [
+    "mobile",
     "online",
     "shop",
     "store",
     "ecommerce",
-    "mobile",
     "phone",
     "bag",
     "shopping",
     "retail",
-    "commerce"
+    "commerce",
+    "center"
   ],
   "categories": [
-    "shopping",
     "devices"
   ],
   "accessibility": {
@@ -32,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mobile bag center",
+  "aliases": [
+    "OnlineShopMobileBag2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Image7",
+  "name": "ImageFrameBroken",
   "description": "A picture photo icon variant 7 representing images and photographic content",
   "tags": [
     "image",
@@ -8,11 +8,12 @@
     "visual",
     "media",
     "gallery",
-    "variant7"
+    "frame",
+    "broken"
   ],
   "categories": [
-    "interface",
-    "media"
+    "media",
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Image frame broken",
+  "aliases": [
+    "Image7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

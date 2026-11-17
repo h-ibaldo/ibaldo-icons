@@ -1,14 +1,13 @@
 {
-  "name": "FormInputText1",
+  "name": "FormInput",
   "description": "A form text input field icon with variant 1 styling for text entry",
   "tags": [
     "form",
-    "input",
     "text",
+    "input",
     "field",
-    "data entry",
-    "textbox",
-    "variant1"
+    "data-entry",
+    "textbox"
   ],
   "categories": [
     "interface"
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form input",
+  "aliases": [
+    "FormInputText1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Box1",
+  "name": "BoxLid",
   "description": "A basic box or container icon in its first variant",
   "tags": [
     "box",
@@ -7,11 +7,11 @@
     "package",
     "storage",
     "cargo",
-    "shipping"
+    "shipping",
+    "lid"
   ],
   "categories": [
-    "interface",
-    "shopping"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Box lid",
+  "aliases": [
+    "Box1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

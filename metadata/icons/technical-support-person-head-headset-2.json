@@ -1,19 +1,19 @@
 {
-  "name": "TechnicalSupportPersonHeadsetAlt",
+  "name": "UserHeadset",
   "description": "An alternative person with headset icon for technical support and customer service representation",
   "tags": [
-    "technical support",
+    "user",
+    "technical",
+    "support",
     "person",
     "head",
+    "technical-support",
     "headset",
-    "support agent",
-    "customer service",
+    "support-agent",
+    "customer-service",
     "communication"
   ],
   "categories": [
-    "interface",
-    "business",
-    "communication",
     "people"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User headset",
+  "aliases": [
+    "TechnicalSupportPersonHeadsetAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

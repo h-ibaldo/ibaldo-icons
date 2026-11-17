@@ -1,7 +1,8 @@
 {
-  "name": "UpvoteArrowDown",
+  "name": "VoteTrianglesRound",
   "description": "An upvote icon with directional arrows indicating voting or ranking functionality with up and down options",
   "tags": [
+    "vote",
     "upvote",
     "arrow",
     "up",
@@ -9,11 +10,12 @@
     "voting",
     "rank",
     "chevron",
-    "direction"
+    "direction",
+    "triangles",
+    "round"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "social"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vote triangles round",
+  "aliases": [
+    "UpvoteArrowDown"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

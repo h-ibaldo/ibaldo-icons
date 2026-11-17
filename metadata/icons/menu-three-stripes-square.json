@@ -1,11 +1,11 @@
 {
-  "name": "MenuThreeStripesSquare",
+  "name": "MenuSquare",
   "description": "A hamburger menu icon with three horizontal stripes enclosed in a square",
   "tags": [
     "menu",
-    "hamburger",
     "three",
     "stripes",
+    "hamburger",
     "square",
     "navigation",
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu square",
+  "aliases": [
+    "MenuThreeStripesSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

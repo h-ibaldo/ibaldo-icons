@@ -1,7 +1,8 @@
 {
-  "name": "Bulb2",
+  "name": "LightbulbFilament",
   "description": "A light bulb icon representing ideas and innovation in variant 2 style",
   "tags": [
+    "lightbulb",
     "bulb",
     "idea",
     "light",
@@ -9,11 +10,10 @@
     "creativity",
     "solution",
     "inspiration",
-    "variant2"
+    "filament"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lightbulb filament",
+  "aliases": [
+    "Bulb2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

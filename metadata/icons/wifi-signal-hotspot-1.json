@@ -1,10 +1,10 @@
 {
-  "name": "WifiSignalHotspot1",
+  "name": "Hotspot",
   "description": "A wifi signal icon with hotspot indicator, first strength level",
   "tags": [
+    "hotspot",
     "wifi",
     "signal",
-    "hotspot",
     "wireless",
     "connection",
     "network",
@@ -12,8 +12,7 @@
     "mobile"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hotspot",
+  "aliases": [
+    "WifiSignalHotspot1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

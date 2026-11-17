@@ -1,5 +1,5 @@
 {
-  "name": "Airplay1",
+  "name": "Airplay",
   "description": "A basic Airplay streaming icon representing wireless media casting and screen mirroring functionality",
   "tags": [
     "airplay",
@@ -11,7 +11,6 @@
     "display"
   ],
   "categories": [
-    "devices",
     "media"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Airplay",
+  "aliases": [
+    "Airplay1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,10 +1,14 @@
 {
-  "name": "ConcentricCirclesState1",
+  "name": "CircleConcentricXL",
   "description": "Concentric circles representing a state or status indicator in state 1 configuration",
   "tags": [
-    "concentric",
+    "circle",
     "circles",
     "state",
+    "close",
+    "delete",
+    "remove",
+    "concentric",
     "status",
     "indicator",
     "ripple",
@@ -28,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle concentric X L",
+  "aliases": [
+    "ConcentricCirclesState1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

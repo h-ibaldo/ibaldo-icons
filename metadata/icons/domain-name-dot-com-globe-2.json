@@ -1,17 +1,20 @@
 {
-  "name": "DomainNameGlobe2",
+  "name": "DomainGlobeCenter",
   "description": "A domain name dot com icon with a globe showing the second variant of web domain registration",
   "tags": [
-    "domain name",
-    "dot com",
+    "domain",
+    "name",
+    "dot",
+    "com",
+    "domain-name",
+    "dot-com",
     "globe",
     "web",
     "internet",
-    "variant2"
+    "center"
   ],
   "categories": [
-    "communication",
-    "business"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Domain globe center",
+  "aliases": [
+    "DomainNameGlobe2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

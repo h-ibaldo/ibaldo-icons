@@ -1,19 +1,22 @@
 {
-  "name": "ArrowCheckUpgrade2",
+  "name": "ArrowClockwiseCheckCircle",
   "description": "An arrow icon with a checkmark indicating a successful upgrade or update completion",
   "tags": [
     "arrow",
-    "check",
-    "checkmark",
     "upgrade",
     "update",
     "success",
+    "done",
+    "verified",
+    "check",
+    "checkmark",
     "approval",
-    "confirmation"
+    "confirmation",
+    "clockwise",
+    "circle"
   ],
   "categories": [
-    "interface",
-    "business"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow clockwise check circle",
+  "aliases": [
+    "ArrowCheckUpgrade2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

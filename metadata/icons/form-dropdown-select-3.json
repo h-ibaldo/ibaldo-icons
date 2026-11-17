@@ -1,16 +1,17 @@
 {
-  "name": "FormDropdownSelect3",
+  "name": "FormDropdownSlim",
   "description": "A dropdown select form control icon in the third style variant, showing an expandable selection interface.",
   "tags": [
     "form",
-    "dropdown",
     "select",
+    "dropdown",
     "menu",
     "selection",
     "expand",
     "input",
     "control",
-    "chevron"
+    "chevron",
+    "slim"
   ],
   "categories": [
     "interface"
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form dropdown slim",
+  "aliases": [
+    "FormDropdownSelect3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,16 +1,18 @@
 {
-  "name": "PaidSearchCoins",
+  "name": "CoinStackSearch",
   "description": "A search magnifying glass icon combined with coins representing paid search advertising and cost.",
   "tags": [
+    "coin",
     "paid",
-    "search",
     "lupe",
+    "coins",
+    "search",
     "magnifying",
     "glass",
-    "coins",
     "money",
     "advertising",
-    "cost"
+    "cost",
+    "stack"
   ],
   "categories": [
     "business",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Coin stack search",
+  "aliases": [
+    "PaidSearchCoins"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

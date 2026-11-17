@@ -1,18 +1,18 @@
 {
-  "name": "AnimatedCircleMoving2",
+  "name": "CircleMotionDotted",
   "description": "Second variant of an animated circle with movement for loading or transition states",
   "tags": [
-    "animated",
     "circle",
+    "animated",
     "moving",
     "loading",
     "progress",
     "motion",
-    "spinner"
+    "spinner",
+    "dotted"
   ],
   "categories": [
-    "interface",
-    "time"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle motion dotted",
+  "aliases": [
+    "AnimatedCircleMoving2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

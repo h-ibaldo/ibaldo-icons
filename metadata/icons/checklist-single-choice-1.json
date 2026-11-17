@@ -1,6 +1,6 @@
 {
-  "name": "ChecklistSingle1",
-  "displayName": "Checklist single 1",
+  "name": "ChecklistTop",
+  "displayName": "Checklist top",
   "originalTitle": "Checklist Single Choice 1",
   "description": "Single choice checklist with radio button style selection. Used for forms and surveys where only one option can be selected from a list.",
   "tags": [
@@ -10,11 +10,11 @@
     "radio",
     "form",
     "survey",
-    "selection"
+    "selection",
+    "top"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.796Z"
+  "generatedAt": "2026-02-15T00:53:19.796Z",
+  "aliases": [
+    "ChecklistSingle1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

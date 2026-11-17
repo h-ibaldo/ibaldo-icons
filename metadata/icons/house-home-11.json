@@ -1,5 +1,5 @@
 {
-  "name": "House11",
+  "name": "HouseDoorChimney",
   "description": "A house or home icon in its eleventh style variant",
   "tags": [
     "house",
@@ -8,12 +8,11 @@
     "building",
     "property",
     "shelter",
-    "icon",
-    "variant"
+    "door",
+    "chimney"
   ],
   "categories": [
-    "location",
-    "business"
+    "location"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "House door chimney",
+  "aliases": [
+    "House11"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

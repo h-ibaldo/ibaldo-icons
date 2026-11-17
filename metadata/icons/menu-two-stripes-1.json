@@ -1,12 +1,11 @@
 {
-  "name": "MenuTwoStripes1",
+  "name": "MenuTwoLines",
   "description": "A menu icon with two horizontal stripes in a standard style",
   "tags": [
     "menu",
-    "two",
     "stripes",
+    "two",
     "navigation",
-    "lines",
     "interface",
     "hamburger"
   ],
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu two lines",
+  "aliases": [
+    "MenuTwoStripes1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

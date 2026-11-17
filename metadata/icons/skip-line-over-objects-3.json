@@ -1,18 +1,17 @@
 {
-  "name": "SkipLineOver3",
+  "name": "SkipCircles",
   "description": "A skip or bypass icon with a line passing over objects, third variant",
   "tags": [
     "skip",
-    "line",
     "over",
     "objects",
     "bypass",
     "navigation",
     "forward",
-    "pass"
+    "pass",
+    "circles"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Skip circles",
+  "aliases": [
+    "SkipLineOver3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

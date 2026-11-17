@@ -1,17 +1,18 @@
 {
-  "name": "Heart1Add",
+  "name": "HeartPlusAngular",
   "description": "A heart icon with a plus symbol indicating the ability to add, like, or favorite content.",
   "tags": [
     "heart",
     "positive",
     "add",
+    "create",
     "plus",
     "like",
     "favorite",
-    "love"
+    "love",
+    "angular"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Heart plus angular",
+  "aliases": [
+    "Heart1Add"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

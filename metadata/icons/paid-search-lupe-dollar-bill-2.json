@@ -1,16 +1,16 @@
 {
-  "name": "PaidSearchDollar2",
+  "name": "BanknoteSearch2",
   "description": "A variant search magnifying glass with dollar bill icon for paid advertising and financial tracking.",
   "tags": [
+    "banknote",
     "paid",
     "search",
     "lupe",
-    "magnifying",
-    "glass",
     "dollar",
     "bill",
-    "money",
-    "variant"
+    "magnifying",
+    "glass",
+    "money"
   ],
   "categories": [
     "business",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Banknote search2",
+  "aliases": [
+    "PaidSearchDollar2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

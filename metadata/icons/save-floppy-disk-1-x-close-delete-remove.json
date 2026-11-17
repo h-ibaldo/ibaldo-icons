@@ -1,17 +1,17 @@
 {
-  "name": "SaveDiskClose2",
+  "name": "SaveX",
   "description": "A floppy disk save icon with an X or close symbol indicating the ability to remove or unsave items",
   "tags": [
     "save",
-    "floppy disk",
+    "floppy",
+    "disk",
     "close",
     "delete",
     "remove",
-    "x",
+    "floppy-disk",
     "storage"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save X",
+  "aliases": [
+    "SaveDiskClose2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

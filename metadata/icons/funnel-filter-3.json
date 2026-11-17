@@ -1,5 +1,5 @@
 {
-  "name": "FunnelFilter3",
+  "name": "FunnelSimple",
   "description": "A funnel icon representing filter functionality, third variant style",
   "tags": [
     "funnel",
@@ -10,7 +10,7 @@
     "data",
     "interface",
     "control",
-    "variant3"
+    "simple"
   ],
   "categories": [
     "interface"
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Funnel simple",
+  "aliases": [
+    "FunnelFilter3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

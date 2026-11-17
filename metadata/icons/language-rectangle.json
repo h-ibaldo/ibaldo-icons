@@ -1,17 +1,19 @@
 {
-  "name": "LanguageRectangle",
+  "name": "TranslateSquare",
   "description": "A language icon with rectangular shape for language selection and localization settings",
   "tags": [
+    "translate",
     "language",
     "rectangle",
     "localization",
     "translation",
     "settings",
-    "text"
+    "text",
+    "square"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Translate square",
+  "aliases": [
+    "LanguageRectangle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

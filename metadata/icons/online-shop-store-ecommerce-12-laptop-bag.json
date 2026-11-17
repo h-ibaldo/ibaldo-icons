@@ -1,20 +1,21 @@
 {
-  "name": "OnlineShopLaptopBag",
+  "name": "LaptopBagCenterFlat",
   "description": "A laptop displaying an online shop with a shopping bag for desktop e-commerce shopping",
   "tags": [
+    "laptop",
     "online",
     "shop",
     "store",
     "ecommerce",
-    "laptop",
     "bag",
     "shopping",
     "desktop",
     "computer",
-    "retail"
+    "retail",
+    "center",
+    "flat"
   ],
   "categories": [
-    "shopping",
     "devices"
   ],
   "accessibility": {
@@ -32,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop bag center flat",
+  "aliases": [
+    "OnlineShopLaptopBag"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

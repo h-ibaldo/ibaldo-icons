@@ -1,19 +1,19 @@
 {
-  "name": "ConcentricCirclesState4",
+  "name": "CircleConcentricSmall",
   "description": "A concentric circles icon representing the fourth state in a multi-state progression indicator",
   "tags": [
-    "concentric",
+    "circle",
     "circles",
     "state",
+    "concentric",
     "progression",
-    "4",
     "nested",
     "rings",
-    "level"
+    "level",
+    "small"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle concentric small",
+  "aliases": [
+    "ConcentricCirclesState4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,15 +1,14 @@
 {
-  "name": "FolderX2",
+  "name": "FolderXCenter",
   "description": "A folder icon with an X mark variant, signifying folder removal or closure operation.",
   "tags": [
     "folder",
-    "x",
     "close",
     "delete",
-    "remove"
+    "remove",
+    "center"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder X center",
+  "aliases": [
+    "FolderX2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,17 @@
 {
-  "name": "Keypad5",
+  "name": "KeypadJoined",
   "description": "A numeric keypad icon displaying the number 5",
   "tags": [
     "keypad",
-    "5",
     "number",
     "numeric",
     "keyboard",
     "input",
     "dial",
-    "interface"
+    "interface",
+    "joined"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Keypad joined",
+  "aliases": [
+    "Keypad5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

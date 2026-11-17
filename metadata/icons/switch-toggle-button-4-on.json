@@ -1,14 +1,14 @@
 {
-  "name": "SwitchToggleOn4",
+  "name": "ToggleOnInset",
   "description": "A toggle switch button in the on position, variant 4 with distinctive appearance.",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
-    "on",
     "enabled",
     "active",
-    "control"
+    "control",
+    "inset"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle on inset",
+  "aliases": [
+    "SwitchToggleOn4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

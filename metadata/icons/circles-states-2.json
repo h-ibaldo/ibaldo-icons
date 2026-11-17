@@ -1,15 +1,17 @@
 {
-  "name": "CirclesStates2",
+  "name": "CircleStackTight",
   "description": "A variant circular states indicator representing different status or progress stages",
   "tags": [
+    "circle",
     "circles",
     "states",
     "progress",
     "indicator",
     "status",
     "cycle",
-    "variant",
-    "stages"
+    "stages",
+    "stack",
+    "tight"
   ],
   "categories": [
     "interface"
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle stack tight",
+  "aliases": [
+    "CirclesStates2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

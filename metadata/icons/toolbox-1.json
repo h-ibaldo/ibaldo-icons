@@ -1,5 +1,5 @@
 {
-  "name": "Toolbox1",
+  "name": "ToolboxAngled",
   "description": "A toolbox icon variant representing a container for tools and equipment.",
   "tags": [
     "toolbox",
@@ -8,11 +8,11 @@
     "equipment",
     "construction",
     "repair",
-    "maintenance"
+    "maintenance",
+    "angled"
   ],
   "categories": [
-    "interface",
-    "business"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toolbox angled",
+  "aliases": [
+    "Toolbox1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

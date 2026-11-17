@@ -1,18 +1,17 @@
 {
-  "name": "VipLines",
+  "name": "VipBars",
   "description": "A VIP designation icon with linear design elements indicating premium or exclusive membership status",
   "tags": [
     "vip",
-    "lines",
     "premium",
     "exclusive",
     "membership",
     "status",
     "special",
-    "priority"
+    "priority",
+    "bars"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vip bars",
+  "aliases": [
+    "VipLines"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,19 @@
 {
-  "name": "TechnicalSupportPersonHeadsetVar4",
+  "name": "UserHeadsetSwept",
   "description": "A fourth variant showing a support person with headset for customer assistance services",
   "tags": [
-    "technical support",
+    "user",
+    "technical",
+    "support",
     "person",
     "head",
+    "technical-support",
     "headset",
     "agent",
-    "customer service",
-    "support"
+    "customer-service",
+    "swept"
   ],
   "categories": [
-    "interface",
-    "business",
-    "communication",
     "people"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User headset swept",
+  "aliases": [
+    "TechnicalSupportPersonHeadsetVar4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

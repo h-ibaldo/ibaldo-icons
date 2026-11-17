@@ -1,5 +1,5 @@
 {
-  "name": "ReplaceExchange2",
+  "name": "ReplaceCircles",
   "description": "A second variant of the replace or exchange icon with alternative visual styling",
   "tags": [
     "replace",
@@ -8,10 +8,9 @@
     "substitute",
     "switch",
     "arrows",
-    "variant"
+    "circles"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Replace circles",
+  "aliases": [
+    "ReplaceExchange2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

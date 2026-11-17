@@ -1,19 +1,19 @@
 {
-  "name": "SynchSettingsArrows",
+  "name": "GearSync",
   "description": "A synchronize icon with settings and directional arrows, representing sync or refresh operations with gear configuration",
   "tags": [
-    "synch",
-    "sync",
-    "settings",
     "gear",
+    "synch",
+    "settings",
     "arrows",
+    "synchronize",
+    "sync",
     "refresh",
     "update",
     "bidirectional"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "development"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear sync",
+  "aliases": [
+    "SynchSettingsArrows"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

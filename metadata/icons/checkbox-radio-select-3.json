@@ -1,17 +1,21 @@
 {
-  "name": "CheckboxRadioSelect3",
-  "displayName": "Checkbox radio select 3",
+  "name": "CheckCircleOpenSquare",
+  "displayName": "Check circle open square",
   "originalTitle": "Checkbox Radio Select 3",
   "description": "Radio button in selected state, third variant. Shows the active choice in a mutually exclusive selection group.",
   "tags": [
+    "check",
+    "checkbox",
     "radio",
     "select",
+    "done",
+    "success",
+    "verified",
     "selected",
     "choice",
     "form",
     "input",
-    "single",
-    "option"
+    "single"
   ],
   "categories": [
     "interface"
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.794Z"
+  "generatedAt": "2026-02-15T00:53:19.794Z",
+  "aliases": [
+    "CheckboxRadioSelect3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

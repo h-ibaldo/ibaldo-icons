@@ -1,16 +1,18 @@
 {
-  "name": "ClockWarning",
+  "name": "ClockAlertTriangle",
   "description": "A clock icon with a warning indicator for time-sensitive alerts",
   "tags": [
     "clock",
     "warning",
+    "error",
+    "attention",
     "alert",
     "time",
-    "caution"
+    "caution",
+    "triangle"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock alert triangle",
+  "aliases": [
+    "ClockWarning"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

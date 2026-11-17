@@ -1,5 +1,5 @@
 {
-  "name": "ReplaceExchange4",
+  "name": "ReplaceDots",
   "description": "A fourth variant of the replace or exchange icon offering additional visual options",
   "tags": [
     "replace",
@@ -8,10 +8,9 @@
     "substitute",
     "switch",
     "arrows",
-    "variant"
+    "dots"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Replace dots",
+  "aliases": [
+    "ReplaceExchange4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

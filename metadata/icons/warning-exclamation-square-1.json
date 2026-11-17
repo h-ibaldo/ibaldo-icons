@@ -1,18 +1,18 @@
 {
-  "name": "WarningSquare",
+  "name": "AlertSquare",
   "description": "A warning icon with an exclamation mark inside a square, conveying caution and alerts",
   "tags": [
+    "alert",
     "warning",
     "exclamation",
+    "error",
+    "attention",
     "square",
-    "alert",
     "caution",
-    "notice",
-    "attention"
+    "notice"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Alert square",
+  "aliases": [
+    "WarningSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

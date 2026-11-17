@@ -1,19 +1,20 @@
 {
-  "name": "LupeCheck",
+  "name": "SearchCheck",
   "description": "A magnifying glass search icon with a checkmark indicating verified or confirmed search results",
   "tags": [
-    "lupe",
     "search",
-    "check",
+    "lupe",
     "checked",
     "verified",
+    "done",
+    "success",
+    "check",
     "confirm",
     "validate",
     "approval"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search check",
+  "aliases": [
+    "LupeCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

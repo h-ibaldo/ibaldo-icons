@@ -1,5 +1,5 @@
 {
-  "name": "Fingerprint1",
+  "name": "Fingerprint",
   "description": "A fingerprint biometric scan icon, variant 1, for touch identification and secure authentication",
   "tags": [
     "fingerprint",
@@ -8,12 +8,10 @@
     "authentication",
     "security",
     "touch",
-    "identification",
-    "variant 1"
+    "identification"
   ],
   "categories": [
-    "security",
-    "devices"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Fingerprint",
+  "aliases": [
+    "Fingerprint1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

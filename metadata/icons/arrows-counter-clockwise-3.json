@@ -1,17 +1,21 @@
 {
-  "name": "ArrowsCounterClockwise3",
+  "name": "ArrowSyncCounterclockwise",
   "description": "A triple counter-clockwise rotation arrow icon for multi-step reverse or undo functionality",
   "tags": [
+    "arrow",
     "arrows",
+    "counter",
+    "clockwise",
+    "synchronize",
     "counter-clockwise",
     "three",
     "rotation",
     "reverse",
     "multi-step",
-    "undo"
+    "undo",
+    "sync"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync counterclockwise",
+  "aliases": [
+    "ArrowsCounterClockwise3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

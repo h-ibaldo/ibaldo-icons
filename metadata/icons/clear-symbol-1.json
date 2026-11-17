@@ -1,16 +1,20 @@
 {
-  "name": "ClearSymbol1",
-  "displayName": "Clear symbol 1",
+  "name": "BackspaceCompactSmall",
+  "displayName": "Backspace compact small",
   "originalTitle": "Clear Symbol 1",
   "description": "Clear or cancel symbol for removing content or canceling actions. Used to reset fields or dismiss dialogs.",
   "tags": [
+    "backspace",
     "clear",
+    "symbol",
     "cancel",
     "remove",
     "delete",
     "reset",
     "dismiss",
-    "close"
+    "close",
+    "compact",
+    "small"
   ],
   "categories": [
     "interface"
@@ -31,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.797Z"
+  "generatedAt": "2026-02-15T00:53:19.797Z",
+  "aliases": [
+    "ClearSymbol1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

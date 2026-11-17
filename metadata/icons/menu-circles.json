@@ -1,5 +1,5 @@
 {
-  "name": "MenuCircles",
+  "name": "MenuGridDots",
   "description": "A menu icon composed of circular elements representing navigation or options",
   "tags": [
     "menu",
@@ -7,7 +7,9 @@
     "navigation",
     "options",
     "interface",
-    "hamburger"
+    "hamburger",
+    "grid",
+    "dots"
   ],
   "categories": [
     "interface"
@@ -27,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu grid dots",
+  "aliases": [
+    "MenuCircles"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

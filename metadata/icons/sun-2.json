@@ -1,5 +1,5 @@
 {
-  "name": "Sun2",
+  "name": "SunSpiky",
   "description": "An alternate sun icon variant with a different ray design",
   "tags": [
     "sun",
@@ -9,7 +9,7 @@
     "light",
     "solar",
     "clear",
-    "variant"
+    "spiky"
   ],
   "categories": [
     "weather",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun spiky",
+  "aliases": [
+    "Sun2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

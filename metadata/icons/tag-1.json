@@ -1,5 +1,5 @@
 {
-  "name": "Tag1",
+  "name": "Tag",
   "description": "A single tag icon for labeling, categorizing, or marking content",
   "tags": [
     "tag",
@@ -10,7 +10,7 @@
     "classification"
   ],
   "categories": [
-    "interface"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tag",
+  "aliases": [
+    "Tag1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

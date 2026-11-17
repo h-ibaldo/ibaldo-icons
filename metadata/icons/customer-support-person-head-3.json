@@ -1,20 +1,21 @@
 {
-  "name": "CustomerSupport3",
-  "displayName": "Customer support 3",
+  "name": "Support",
+  "displayName": "Support",
   "originalTitle": "Customer Support Person Head 3",
   "description": "Customer support representative icon representing help desk services and customer assistance. Used to indicate customer service contact points or support team members.",
   "tags": [
-    "customer",
     "support",
+    "customer",
+    "person",
+    "head",
     "help",
     "service",
     "representative",
     "assistance",
-    "person",
     "agent"
   ],
   "categories": [
-    "business",
+    "communication",
     "people"
   ],
   "accessibility": {
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.802Z"
+  "generatedAt": "2026-02-15T00:53:19.802Z",
+  "aliases": [
+    "CustomerSupport3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

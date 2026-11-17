@@ -1,18 +1,21 @@
 {
-  "name": "ToolbarPreviewEye2",
+  "name": "EyeSquareDot",
   "description": "A toolbar preview icon with an eye symbol representing the second variant of visual inspection or visibility toggle",
   "tags": [
+    "eye",
     "toolbar",
     "preview",
-    "eye",
+    "unread",
+    "badge",
     "view",
     "visibility",
     "inspect",
-    "variant2"
+    "square",
+    "dot"
   ],
   "categories": [
     "interface",
-    "development"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Eye square dot",
+  "aliases": [
+    "ToolbarPreviewEye2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

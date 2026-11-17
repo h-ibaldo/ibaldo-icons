@@ -1,5 +1,5 @@
 {
-  "name": "Folder8",
+  "name": "FolderText",
   "description": "A folder icon in variant 8 style for file and directory organization.",
   "tags": [
     "folder",
@@ -7,11 +7,10 @@
     "file",
     "storage",
     "organization",
-    "variant8"
+    "text"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder text",
+  "aliases": [
+    "Folder8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

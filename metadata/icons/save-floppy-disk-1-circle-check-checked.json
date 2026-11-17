@@ -1,19 +1,20 @@
 {
-  "name": "SaveDiskCheck",
+  "name": "SaveCheckCircle",
   "description": "A floppy disk save icon with a checkmark in a circle, indicating successful or verified save operation",
   "tags": [
     "save",
     "floppy",
     "disk",
+    "checked",
+    "done",
+    "success",
+    "verified",
     "circle",
     "check",
-    "checked",
     "checkmark",
-    "verify",
-    "success"
+    "verify"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save check circle",
+  "aliases": [
+    "SaveDiskCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

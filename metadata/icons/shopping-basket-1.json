@@ -1,18 +1,16 @@
 {
-  "name": "ShoppingBasket1",
+  "name": "Basket",
   "description": "A shopping basket icon in style variant 1 for e-commerce and retail applications",
   "tags": [
-    "shopping",
     "basket",
+    "shopping",
     "cart",
     "purchase",
     "retail",
-    "ecommerce",
-    "variant1"
+    "ecommerce"
   ],
   "categories": [
-    "shopping",
-    "interface"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Basket",
+  "aliases": [
+    "ShoppingBasket1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,19 @@
 {
-  "name": "HardDriveClose",
+  "name": "HardDriveXCircle",
   "description": "A hard drive icon with an X symbol indicating uninstall, removal, or deletion of a program or application.",
   "tags": [
-    "hard drive",
+    "hard",
     "uninstall",
-    "remove",
-    "delete",
-    "close",
-    "x",
     "program",
-    "application"
+    "application",
+    "close",
+    "delete",
+    "remove",
+    "hard-drive",
+    "drive",
+    "circle"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hard drive X circle",
+  "aliases": [
+    "HardDriveClose"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

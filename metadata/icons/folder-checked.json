@@ -1,18 +1,21 @@
 {
-  "name": "FolderChecked",
+  "name": "FolderCheckCenter",
   "description": "A folder icon displaying a checked state for selected or verified folder content.",
   "tags": [
     "folder",
     "checked",
-    "selected",
+    "done",
+    "success",
     "verified",
+    "selected",
     "approved",
     "complete",
-    "directory"
+    "directory",
+    "check",
+    "center"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder check center",
+  "aliases": [
+    "FolderChecked"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

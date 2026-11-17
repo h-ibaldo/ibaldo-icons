@@ -1,5 +1,5 @@
 {
-  "name": "TrashDelete2",
+  "name": "TrashNarrow",
   "description": "A trash can icon variant for delete or removal operations",
   "tags": [
     "trash",
@@ -8,10 +8,10 @@
     "bin",
     "discard",
     "disposal",
-    "waste"
+    "waste",
+    "narrow"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash narrow",
+  "aliases": [
+    "TrashDelete2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

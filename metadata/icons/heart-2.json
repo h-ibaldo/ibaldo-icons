@@ -1,15 +1,15 @@
 {
-  "name": "Heart2",
+  "name": "HeartWide",
   "description": "A standard heart icon in an alternative design variant representing love or favorites.",
   "tags": [
     "heart",
     "love",
     "favorite",
     "like",
-    "affection"
+    "affection",
+    "wide"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Heart wide",
+  "aliases": [
+    "Heart2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

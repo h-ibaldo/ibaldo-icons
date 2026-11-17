@@ -1,17 +1,18 @@
 {
-  "name": "Gears3",
+  "name": "GearStack",
   "description": "Three rotating gears indicating complex systems, multiple processes, or advanced configuration.",
   "tags": [
+    "gear",
     "gears",
     "settings",
     "multiple",
     "process",
     "configuration",
     "mechanical",
-    "rotation"
+    "rotation",
+    "stack"
   ],
   "categories": [
-    "interface",
     "development"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear stack",
+  "aliases": [
+    "Gears3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

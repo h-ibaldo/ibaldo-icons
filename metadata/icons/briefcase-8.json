@@ -1,5 +1,5 @@
 {
-  "name": "Briefcase8",
+  "name": "BriefcaseKeyhole",
   "description": "A professional briefcase icon in variant style 8, representing business documents and work materials",
   "tags": [
     "briefcase",
@@ -7,11 +7,10 @@
     "work",
     "documents",
     "professional",
-    "variant8"
+    "keyhole"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase keyhole",
+  "aliases": [
+    "Briefcase8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,20 @@
 {
-  "name": "TechnicalSupportToolAlt",
+  "name": "LaptopWrenchCorner",
   "description": "An alternative laptop with tool icon representing technical support and system maintenance",
   "tags": [
-    "technical support",
     "laptop",
+    "technical",
+    "support",
     "tool",
+    "technical-support",
     "repair",
     "maintenance",
     "troubleshooting",
-    "support"
+    "wrench",
+    "corner"
   ],
   "categories": [
-    "interface",
-    "business",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop wrench corner",
+  "aliases": [
+    "TechnicalSupportToolAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

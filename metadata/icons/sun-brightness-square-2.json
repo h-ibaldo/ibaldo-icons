@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightnessSquare2",
+  "name": "SunStarSquare",
   "description": "A square-framed sun brightness control icon at level 2, representing medium light adjustment",
   "tags": [
     "sun",
@@ -7,14 +7,14 @@
     "square",
     "light",
     "level",
-    "2",
     "medium",
     "frame",
-    "display"
+    "display",
+    "star"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun star square",
+  "aliases": [
+    "SunBrightnessSquare2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

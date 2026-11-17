@@ -1,9 +1,9 @@
 {
-  "name": "SquareArrowDown",
+  "name": "ArrowDownSquare",
   "description": "A square icon with an arrow pointing downward",
   "tags": [
-    "square",
     "arrow",
+    "square",
     "down",
     "direction",
     "navigation",
@@ -11,7 +11,6 @@
     "collapse"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow down square",
+  "aliases": [
+    "SquareArrowDown"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

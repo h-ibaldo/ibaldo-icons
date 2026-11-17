@@ -1,17 +1,18 @@
 {
-  "name": "VRCubeFramed2",
+  "name": "CubeFocusSmall",
   "description": "A framed VR augmented reality cube icon, second variant, with alternative frame styling",
   "tags": [
-    "vr",
-    "augmented reality",
     "cube",
+    "vr",
+    "augmented",
+    "reality",
     "framed",
+    "augmented-reality",
     "border",
-    "3d",
-    "variant"
+    "focus",
+    "small"
   ],
   "categories": [
-    "devices",
     "development"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cube focus small",
+  "aliases": [
+    "VRCubeFramed2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,17 +1,18 @@
 {
-  "name": "Gears5",
+  "name": "GearCluster",
   "description": "Five complex gears symbolizing sophisticated systems, engineering, or comprehensive configuration management.",
   "tags": [
+    "gear",
     "gears",
     "settings",
     "complex",
     "engineering",
     "sophisticated",
     "mechanical",
-    "system"
+    "system",
+    "cluster"
   ],
   "categories": [
-    "interface",
     "development"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear cluster",
+  "aliases": [
+    "Gears5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

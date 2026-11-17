@@ -1,17 +1,21 @@
 {
-  "name": "CheckboxIndeterminateCircle2",
-  "displayName": "Checkbox indeterminate circle 2",
+  "name": "MinusCircleLarge",
+  "displayName": "Minus circle large",
   "originalTitle": "Checkbox Indeterminate Circle 2",
   "description": "Circular checkbox in indeterminate state, second variant. Indicates a mixed selection state in hierarchical or grouped selections.",
   "tags": [
+    "minus",
     "checkbox",
     "indeterminate",
+    "remove",
+    "subtract",
     "circle",
     "partial",
     "mixed",
     "form",
     "input",
-    "state"
+    "state",
+    "large"
   ],
   "categories": [
     "interface"
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.794Z"
+  "generatedAt": "2026-02-15T00:53:19.794Z",
+  "aliases": [
+    "CheckboxIndeterminateCircle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

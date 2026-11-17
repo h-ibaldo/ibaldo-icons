@@ -1,16 +1,17 @@
 {
-  "name": "ArrowsRepeat2",
+  "name": "ArrowRepeatVertical",
   "description": "A dual-arrow repeat or refresh icon for toggling between two states or refreshing content",
   "tags": [
+    "arrow",
     "arrows",
     "repeat",
     "refresh",
     "rotate",
     "bidirectional",
-    "exchange"
+    "exchange",
+    "vertical"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow repeat vertical",
+  "aliases": [
+    "ArrowsRepeat2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

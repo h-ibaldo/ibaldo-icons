@@ -1,9 +1,10 @@
 {
-  "name": "DesktopDownload3",
-  "displayName": "Desktop download 3",
+  "name": "ScreenDownload",
+  "displayName": "Screen download",
   "originalTitle": "Desktop Download 3",
   "description": "Third variation of desktop download icon for file transfer actions. Used to represent downloading content to desktop computers.",
   "tags": [
+    "screen",
     "desktop",
     "download",
     "computer",
@@ -14,8 +15,7 @@
     "pc"
   ],
   "categories": [
-    "devices",
-    "files"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.799Z"
+  "generatedAt": "2026-02-15T00:53:19.799Z",
+  "aliases": [
+    "DesktopDownload3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

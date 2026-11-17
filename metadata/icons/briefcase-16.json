@@ -1,5 +1,5 @@
 {
-  "name": "BriefcasePlus",
+  "name": "BriefcaseSide",
   "description": "A briefcase icon with a plus symbol indicating addition or creation of new business items",
   "tags": [
     "briefcase",
@@ -7,11 +7,11 @@
     "add",
     "create",
     "business",
-    "new"
+    "new",
+    "side"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase side",
+  "aliases": [
+    "BriefcasePlus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

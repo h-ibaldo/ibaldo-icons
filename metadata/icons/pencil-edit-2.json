@@ -1,5 +1,5 @@
 {
-  "name": "PencilEdit2",
+  "name": "PencilPlain",
   "description": "A pencil edit icon variant 2 representing editing and writing capabilities",
   "tags": [
     "pencil",
@@ -10,11 +10,11 @@
     "revise",
     "document",
     "editing",
-    "pen"
+    "pen",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "interactive",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pencil plain",
+  "aliases": [
+    "PencilEdit2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

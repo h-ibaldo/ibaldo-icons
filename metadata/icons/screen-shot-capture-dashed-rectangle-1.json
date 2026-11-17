@@ -1,18 +1,22 @@
 {
-  "name": "ScreenshotDashed",
+  "name": "ScreenshotPlus",
   "description": "A screen capture icon with a dashed rectangle indicating the selection area for screenshots",
   "tags": [
     "screenshot",
-    "capture",
     "screen",
-    "dashed rectangle",
+    "shot",
+    "capture",
+    "dashed",
+    "rectangle",
+    "add",
+    "create",
+    "dashed-rectangle",
     "selection",
     "crop",
-    "print screen"
+    "print-screen"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "media"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screenshot plus",
+  "aliases": [
+    "ScreenshotDashed"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

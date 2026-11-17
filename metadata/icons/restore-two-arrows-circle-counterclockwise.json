@@ -1,10 +1,13 @@
 {
-  "name": "RestoredTwoArrowsCounterclockwise",
+  "name": "RestoreSyncCounterclockwise",
   "description": "A restore icon with two circular arrows pointing counterclockwise, indicating bidirectional refresh or sync functionality.",
   "tags": [
     "restore",
-    "two arrows",
+    "two",
+    "arrows",
     "circle",
+    "synchronize",
+    "two-arrows",
     "counterclockwise",
     "refresh",
     "sync",
@@ -12,7 +15,6 @@
     "rotation"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Restore sync counterclockwise",
+  "aliases": [
+    "RestoredTwoArrowsCounterclockwise"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

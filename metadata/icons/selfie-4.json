@@ -1,16 +1,16 @@
 {
-  "name": "Selfie4",
+  "name": "SelfieButton",
   "description": "A fourth variant of a selfie camera icon representing self-portrait shooting mode",
   "tags": [
     "selfie",
     "camera",
     "self-portrait",
     "photo",
-    "variant4"
+    "button"
   ],
   "categories": [
-    "devices",
-    "media"
+    "media",
+    "people"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Selfie button",
+  "aliases": [
+    "Selfie4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

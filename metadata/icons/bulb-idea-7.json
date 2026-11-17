@@ -1,7 +1,8 @@
 {
-  "name": "Bulb7",
+  "name": "LightbulbFilamentWavyRound",
   "description": "A light bulb icon representing ideas and innovation in variant 7 style",
   "tags": [
+    "lightbulb",
     "bulb",
     "idea",
     "light",
@@ -9,11 +10,12 @@
     "creativity",
     "solution",
     "inspiration",
-    "variant7"
+    "filament",
+    "wavy",
+    "round"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lightbulb filament wavy round",
+  "aliases": [
+    "Bulb7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

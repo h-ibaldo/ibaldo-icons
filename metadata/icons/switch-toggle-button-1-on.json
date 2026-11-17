@@ -1,11 +1,10 @@
 {
-  "name": "SwitchToggleButtonOn",
+  "name": "ToggleOn",
   "description": "A toggle button switch in on state",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
-    "on",
     "active",
     "state",
     "enabled"
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle on",
+  "aliases": [
+    "SwitchToggleButtonOn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

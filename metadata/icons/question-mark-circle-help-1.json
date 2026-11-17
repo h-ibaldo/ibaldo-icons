@@ -1,19 +1,18 @@
 {
-  "name": "QuestionMarkCircleHelp1",
+  "name": "QuestionCircle",
   "description": "A question mark inside a circle for help and support information",
   "tags": [
     "question",
     "mark",
-    "circle",
     "help",
+    "circle",
     "support",
     "information",
-    "FAQ",
+    "faq",
     "assistance"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Question circle",
+  "aliases": [
+    "QuestionMarkCircleHelp1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightness1",
+  "name": "SunStarHalf",
   "description": "A sun icon representing brightness adjustment and light intensity control",
   "tags": [
     "sun",
@@ -8,11 +8,13 @@
     "weather",
     "temperature",
     "contrast",
-    "illumination"
+    "illumination",
+    "star",
+    "half"
   ],
   "categories": [
-    "interface",
-    "weather"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun star half",
+  "aliases": [
+    "SunBrightness1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

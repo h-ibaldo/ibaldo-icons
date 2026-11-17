@@ -1,16 +1,17 @@
 {
-  "name": "ArrowsRepeat3",
+  "name": "ArrowRepeatCompact",
   "description": "A triple-arrow repeat or refresh icon for cycling through three options or continuous rotation",
   "tags": [
+    "arrow",
     "arrows",
     "repeat",
     "refresh",
     "rotate",
     "cycle",
-    "three-way"
+    "three-way",
+    "compact"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow repeat compact",
+  "aliases": [
+    "ArrowsRepeat3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

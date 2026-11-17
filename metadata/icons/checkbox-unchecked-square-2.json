@@ -1,6 +1,6 @@
 {
-  "name": "CheckboxUncheckedSquare2",
-  "displayName": "Checkbox unchecked square 2",
+  "name": "Checkbox",
+  "displayName": "Checkbox",
   "originalTitle": "Checkbox Unchecked Square 2",
   "description": "Alternative style empty square checkbox in unchecked state. Used in forms and lists for selectable options that are not currently selected.",
   "tags": [
@@ -31,5 +31,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.795Z"
+  "generatedAt": "2026-02-15T00:53:19.795Z",
+  "aliases": [
+    "CheckboxUncheckedSquare2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

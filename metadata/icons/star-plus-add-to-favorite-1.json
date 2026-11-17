@@ -1,18 +1,19 @@
 {
-  "name": "StarAddFavorite1",
+  "name": "StarPlus",
   "description": "A star with a plus icon for adding items to favorites, variant 1",
   "tags": [
     "star",
-    "plus",
     "add",
     "favorite",
+    "create",
+    "plus",
     "bookmark",
     "save",
     "rating",
     "like"
   ],
   "categories": [
-    "interface"
+    "social"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Star plus",
+  "aliases": [
+    "StarAddFavorite1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

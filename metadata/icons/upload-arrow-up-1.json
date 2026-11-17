@@ -1,5 +1,5 @@
 {
-  "name": "UploadArrow1",
+  "name": "Upload",
   "description": "A basic upload icon with an upward arrow indicating file or data upload action",
   "tags": [
     "upload",
@@ -11,7 +11,7 @@
     "direction"
   ],
   "categories": [
-    "interface",
+    "files",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload",
+  "aliases": [
+    "UploadArrow1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

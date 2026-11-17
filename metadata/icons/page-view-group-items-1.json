@@ -1,16 +1,19 @@
 {
-  "name": "PageViewGroupItems1",
+  "name": "SquareStackPlus",
   "description": "A page view icon displaying grouped items in a compact layout format",
   "tags": [
+    "square",
     "page",
     "view",
     "group",
     "items",
+    "add",
+    "create",
     "layout",
     "grid",
     "collection",
     "organization",
-    "variant1"
+    "stack"
   ],
   "categories": [
     "interface"
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Square stack plus",
+  "aliases": [
+    "PageViewGroupItems1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

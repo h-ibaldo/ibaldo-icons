@@ -1,5 +1,5 @@
 {
-  "name": "Puzzle2",
+  "name": "PuzzleKnobs",
   "description": "A puzzle piece icon representing the second variant of a jigsaw puzzle component.",
   "tags": [
     "puzzle",
@@ -7,10 +7,10 @@
     "game",
     "problem",
     "solution",
-    "variant2"
+    "knobs"
   ],
   "categories": [
-    "interface"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Puzzle knobs",
+  "aliases": [
+    "Puzzle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

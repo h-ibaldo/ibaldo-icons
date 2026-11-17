@@ -1,19 +1,22 @@
 {
-  "name": "CirclesStatesArrowTransition",
+  "name": "CircleOverlapArrowUpRight",
   "description": "Circular state indicators with a directional arrow showing one-way transition or progression",
   "tags": [
+    "circle",
     "circles",
     "states",
-    "arrow",
-    "transition",
+    "one",
     "direction",
+    "transition",
+    "way",
+    "arrow",
     "one-way",
     "progress",
-    "flow"
+    "flow",
+    "overlap"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle overlap arrow up right",
+  "aliases": [
+    "CirclesStatesArrowTransition"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

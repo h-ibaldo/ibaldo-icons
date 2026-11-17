@@ -1,17 +1,16 @@
 {
-  "name": "Information2",
+  "name": "InfoHollow",
   "description": "An information icon with a variant 2 design style for displaying help, details, or explanatory content.",
   "tags": [
-    "information",
     "info",
+    "information",
     "help",
     "details",
     "explanation",
-    "variant 2"
+    "hollow"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Info hollow",
+  "aliases": [
+    "Information2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

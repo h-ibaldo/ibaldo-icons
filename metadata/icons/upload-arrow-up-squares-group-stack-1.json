@@ -1,5 +1,5 @@
 {
-  "name": "UploadArrowSquares",
+  "name": "UploadSquareStack",
   "description": "An upload icon with an upward arrow and multiple squares indicating batch or group file upload",
   "tags": [
     "upload",
@@ -10,12 +10,12 @@
     "stack",
     "batch",
     "multiple",
-    "files"
+    "files",
+    "square"
   ],
   "categories": [
-    "interface",
-    "arrows",
-    "files"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload square stack",
+  "aliases": [
+    "UploadArrowSquares"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,14 +1,16 @@
 {
-  "name": "MinusCircle2",
+  "name": "MinusCircleCompact",
   "description": "A minus sign icon in a circular container, useful for indicating removal or negative actions",
   "tags": [
     "minus",
     "sign",
     "negative",
-    "circle",
     "remove",
+    "subtract",
+    "circle",
     "delete",
-    "decrease"
+    "decrease",
+    "compact"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Minus circle compact",
+  "aliases": [
+    "MinusCircle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

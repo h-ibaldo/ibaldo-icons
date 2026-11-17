@@ -1,17 +1,21 @@
 {
-  "name": "DoNotDisturbBar",
+  "name": "NoEntry",
   "description": "A do not disturb indicator icon with a circle and bar showing disabled notifications",
   "tags": [
-    "do not disturb",
+    "no",
+    "do",
+    "not",
+    "disturb",
     "circle",
     "bar",
+    "do-not-disturb",
     "disabled",
     "notifications",
-    "quiet"
+    "quiet",
+    "entry"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "No entry",
+  "aliases": [
+    "DoNotDisturbBar"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

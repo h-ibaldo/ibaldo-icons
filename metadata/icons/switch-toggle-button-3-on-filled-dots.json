@@ -1,15 +1,16 @@
 {
-  "name": "SwitchToggleOnDots",
+  "name": "ToggleOnDottedSquared",
   "description": "A toggle switch button in the on position with filled dot indicators, variant 3.",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
-    "on",
-    "enabled",
     "filled",
     "dots",
-    "indicator"
+    "enabled",
+    "indicator",
+    "dotted",
+    "squared"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle on dotted squared",
+  "aliases": [
+    "SwitchToggleOnDots"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

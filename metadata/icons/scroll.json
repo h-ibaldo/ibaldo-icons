@@ -1,5 +1,5 @@
 {
-  "name": "Scroll",
+  "name": "ScrollNarrow",
   "description": "A scroll icon representing scrolling functionality or document content display.",
   "tags": [
     "scroll",
@@ -7,7 +7,8 @@
     "content",
     "page",
     "parchment",
-    "vertical"
+    "vertical",
+    "narrow"
   ],
   "categories": [
     "interface"
@@ -27,5 +28,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scroll narrow",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

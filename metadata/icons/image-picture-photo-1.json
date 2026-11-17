@@ -1,5 +1,5 @@
 {
-  "name": "ImagePhoto1",
+  "name": "Image",
   "description": "An image or picture icon in a standard variant style for representing photos or visual content.",
   "tags": [
     "image",
@@ -9,8 +9,8 @@
     "gallery"
   ],
   "categories": [
-    "files",
-    "media"
+    "media",
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Image",
+  "aliases": [
+    "ImagePhoto1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

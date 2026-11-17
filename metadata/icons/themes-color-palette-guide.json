@@ -1,7 +1,8 @@
 {
-  "name": "ThemesColorPalette",
+  "name": "SwatchFan",
   "description": "A themes and color palette guide icon for design customization, color selection, and visual theme management",
   "tags": [
+    "swatch",
     "themes",
     "color",
     "palette",
@@ -9,12 +10,11 @@
     "design",
     "customization",
     "visual",
-    "selection"
+    "selection",
+    "fan"
   ],
   "categories": [
-    "interface",
-    "design",
-    "business"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Swatch fan",
+  "aliases": [
+    "ThemesColorPalette"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

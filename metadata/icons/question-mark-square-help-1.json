@@ -1,19 +1,18 @@
 {
-  "name": "QuestionMarkSquareHelp1",
+  "name": "QuestionSquare",
   "description": "A question mark inside a square shape for help and support documentation",
   "tags": [
     "question",
     "mark",
-    "square",
     "help",
+    "square",
     "support",
     "information",
-    "FAQ",
+    "faq",
     "assistance"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Question square",
+  "aliases": [
+    "QuestionMarkSquareHelp1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

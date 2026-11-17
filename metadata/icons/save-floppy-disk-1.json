@@ -1,15 +1,16 @@
 {
-  "name": "SaveDisk",
+  "name": "Save",
   "description": "A classic floppy disk icon representing the save or storage action",
   "tags": [
     "save",
-    "floppy disk",
+    "floppy",
+    "disk",
+    "floppy-disk",
     "storage",
     "backup",
     "data"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save",
+  "aliases": [
+    "SaveDisk"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

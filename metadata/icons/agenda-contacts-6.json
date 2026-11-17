@@ -1,20 +1,21 @@
 {
-  "name": "AgendaContacts69",
+  "name": "AddressBookBoundSharp",
   "description": "An agenda contacts icon representing the sixth variant for managing people and contact information",
   "tags": [
+    "address",
     "agenda",
     "contacts",
-    "6",
     "organizer",
     "people",
     "directory",
     "management",
-    "contact list"
+    "contact-list",
+    "book",
+    "bound",
+    "sharp"
   ],
   "categories": [
-    "interface",
-    "business",
-    "people"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Address book bound sharp",
+  "aliases": [
+    "AgendaContacts69"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

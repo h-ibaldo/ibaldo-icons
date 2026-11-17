@@ -1,18 +1,21 @@
 {
-  "name": "ArrowCircle1Slash",
+  "name": "ArrowClockwiseBottomOff",
   "description": "An arrow icon inside a circle with a diagonal slash, indicating a disabled or restricted directional action.",
   "tags": [
     "arrow",
     "circle",
     "slash",
     "disabled",
+    "mute",
     "restricted",
     "direction",
     "prohibition",
-    "blocked"
+    "blocked",
+    "clockwise",
+    "bottom",
+    "off"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow clockwise bottom off",
+  "aliases": [
+    "ArrowCircle1Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

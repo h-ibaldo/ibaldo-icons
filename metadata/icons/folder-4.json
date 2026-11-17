@@ -1,5 +1,5 @@
 {
-  "name": "Folder4",
+  "name": "FolderTabBack",
   "description": "A folder icon variant 4 representing document directories and storage.",
   "tags": [
     "folder",
@@ -9,11 +9,11 @@
     "documents",
     "organize",
     "archive",
-    "4"
+    "tab",
+    "back"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder tab back",
+  "aliases": [
+    "Folder4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

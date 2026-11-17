@@ -1,14 +1,16 @@
 {
-  "name": "SwitchToggleIntermediate",
+  "name": "ToggleMiddleSlim",
   "description": "A toggle switch button in an intermediate or indeterminate state between on and off positions.",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
     "intermediate",
     "state",
     "control",
-    "on-off"
+    "on-off",
+    "middle",
+    "slim"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle middle slim",
+  "aliases": [
+    "SwitchToggleIntermediate"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

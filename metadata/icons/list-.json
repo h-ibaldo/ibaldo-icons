@@ -1,5 +1,5 @@
 {
-  "name": "List",
+  "name": "ListCheckbox",
   "description": "A basic list icon representing itemized or organized content",
   "tags": [
     "list",
@@ -8,11 +8,11 @@
     "menu",
     "bullet",
     "content",
-    "document"
+    "document",
+    "checkbox"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "List checkbox",
+  "aliases": [
+    "List"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

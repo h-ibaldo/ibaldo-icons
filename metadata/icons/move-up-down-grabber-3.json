@@ -1,18 +1,19 @@
 {
-  "name": "MoveUpDown3",
+  "name": "MoveUpDownChevronSmall",
   "description": "A third grabber variant for vertical movement or dragging with distinct styling",
   "tags": [
     "move",
+    "grabber",
     "up",
     "down",
-    "grabber",
     "drag",
     "vertical",
     "reorder",
-    "variant"
+    "chevron",
+    "small"
   ],
   "categories": [
-    "interface"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Move up down chevron small",
+  "aliases": [
+    "MoveUpDown3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

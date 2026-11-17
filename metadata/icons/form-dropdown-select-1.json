@@ -1,16 +1,17 @@
 {
-  "name": "FormDropdownSelect1",
+  "name": "FormDropdownMinimal",
   "description": "A dropdown select form control icon in the first style variant, indicating an expandable selection menu.",
   "tags": [
     "form",
-    "dropdown",
     "select",
+    "dropdown",
     "menu",
     "selection",
     "expand",
     "input",
     "control",
-    "chevron"
+    "chevron",
+    "minimal"
   ],
   "categories": [
     "interface"
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form dropdown minimal",
+  "aliases": [
+    "FormDropdownSelect1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

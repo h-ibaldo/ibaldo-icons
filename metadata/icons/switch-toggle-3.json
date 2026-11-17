@@ -1,13 +1,13 @@
 {
-  "name": "SwitchToggle3",
+  "name": "SwitchLever",
   "description": "A toggle switch icon in the third variant style",
   "tags": [
     "switch",
     "toggle",
     "control",
-    "variant",
     "state",
-    "interface"
+    "interface",
+    "lever"
   ],
   "categories": [
     "interface"
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch lever",
+  "aliases": [
+    "SwitchToggle3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

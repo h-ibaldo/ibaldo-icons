@@ -1,14 +1,14 @@
 {
-  "name": "XDeleteCircle1",
+  "name": "XCircleLarge",
   "description": "A close or delete icon with an X symbol enclosed in a circle, variant 1",
   "tags": [
-    "x",
     "delete",
     "close",
-    "circle",
     "remove",
+    "circle",
     "dismiss",
-    "cancel"
+    "cancel",
+    "large"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "X circle large",
+  "aliases": [
+    "XDeleteCircle1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,22 @@
 {
-  "name": "UpvotePlusMinus",
+  "name": "VotePlusMinus",
   "description": "A simple upvote icon with plus and minus symbols for voting or rating controls",
   "tags": [
+    "vote",
     "upvote",
+    "add",
+    "create",
+    "remove",
+    "subtract",
     "plus",
     "minus",
     "positive",
     "negative",
     "voting",
-    "rating",
-    "control"
+    "rating"
   ],
   "categories": [
-    "interface"
+    "social"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vote plus minus",
+  "aliases": [
+    "UpvotePlusMinus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

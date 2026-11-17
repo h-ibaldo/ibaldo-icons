@@ -1,5 +1,5 @@
 {
-  "name": "Toolbox2",
+  "name": "ToolboxRound",
   "description": "A second toolbox icon variant with distinct visual styling for tool storage and organization.",
   "tags": [
     "toolbox",
@@ -8,11 +8,11 @@
     "equipment",
     "construction",
     "repair",
-    "maintenance"
+    "maintenance",
+    "round"
   ],
   "categories": [
-    "interface",
-    "business"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toolbox round",
+  "aliases": [
+    "Toolbox2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

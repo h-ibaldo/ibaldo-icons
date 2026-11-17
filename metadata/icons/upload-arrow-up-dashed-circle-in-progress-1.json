@@ -1,20 +1,20 @@
 {
-  "name": "UploadArrowDashedProgress1",
+  "name": "UploadCircleDashedHalf",
   "description": "An upload icon with a dashed circle indicating in-progress file upload status",
   "tags": [
     "upload",
     "arrow",
     "up",
+    "progress",
     "dashed",
     "circle",
-    "progress",
     "in-progress",
-    "status"
+    "status",
+    "half"
   ],
   "categories": [
-    "interface",
-    "arrows",
-    "time"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload circle dashed half",
+  "aliases": [
+    "UploadArrowDashedProgress1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

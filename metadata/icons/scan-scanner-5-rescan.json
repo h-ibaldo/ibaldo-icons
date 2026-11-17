@@ -1,17 +1,16 @@
 {
-  "name": "ScannerRescan5",
+  "name": "ScannerRefreshRound",
   "description": "A fifth variant scanner icon with rescan capability for repeated document or image scanning.",
   "tags": [
-    "scan",
     "scanner",
+    "scan",
     "rescan",
     "refresh",
     "retry",
     "document",
-    "variant5"
+    "round"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scanner refresh round",
+  "aliases": [
+    "ScannerRescan5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

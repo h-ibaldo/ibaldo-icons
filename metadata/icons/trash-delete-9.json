@@ -1,5 +1,5 @@
 {
-  "name": "Trash9",
+  "name": "TrashEmpty",
   "description": "A trash bin icon variant for delete and removal actions",
   "tags": [
     "trash",
@@ -9,10 +9,10 @@
     "waste",
     "discard",
     "garbage",
-    "variant 9"
+    "empty"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash empty",
+  "aliases": [
+    "Trash9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

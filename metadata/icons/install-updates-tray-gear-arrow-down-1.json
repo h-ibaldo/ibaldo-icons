@@ -1,20 +1,19 @@
 {
-  "name": "InstallUpdatesTrayArrowDown1",
+  "name": "GearTrayDownload",
   "description": "An installation and updates icon featuring a gear in a system tray with a downward arrow indicating installation completion or download in variant 1",
   "tags": [
+    "gear",
     "install",
     "updates",
-    "tray",
-    "gear",
     "arrow",
     "down",
+    "tray",
     "system",
     "settings",
     "download",
     "arrow-down"
   ],
   "categories": [
-    "interface",
     "development"
   ],
   "accessibility": {
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear tray download",
+  "aliases": [
+    "InstallUpdatesTrayArrowDown1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

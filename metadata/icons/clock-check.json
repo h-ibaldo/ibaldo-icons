@@ -3,16 +3,17 @@
   "description": "A clock icon combined with a checkmark symbol representing completed or scheduled tasks",
   "tags": [
     "clock",
+    "done",
+    "success",
+    "verified",
     "check",
     "checkmark",
     "time",
     "complete",
-    "verified",
     "schedule"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock check",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

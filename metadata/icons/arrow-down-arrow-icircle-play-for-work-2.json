@@ -1,19 +1,21 @@
 {
-  "name": "ArrowDownPlay2",
+  "name": "ArrowDownArcSmall",
   "description": "A downward arrow combined with a play button icon in a circle variant, representing playback or media controls",
   "tags": [
     "arrow",
-    "down",
-    "circle",
+    "icircle",
     "play",
     "work",
+    "down",
+    "circle",
     "media",
     "playback",
-    "control"
+    "control",
+    "arc",
+    "small"
   ],
   "categories": [
-    "interface",
-    "media"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow down arc small",
+  "aliases": [
+    "ArrowDownPlay2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

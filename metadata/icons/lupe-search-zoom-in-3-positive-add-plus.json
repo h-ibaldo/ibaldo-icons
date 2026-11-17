@@ -1,20 +1,20 @@
 {
-  "name": "LupeSearchZoomIn3",
+  "name": "SearchPlusC",
   "description": "A third variant of magnifying glass search icon with plus symbol for zoom in magnification",
   "tags": [
-    "lupe",
     "search",
+    "lupe",
     "zoom",
-    "zoom in",
+    "positive",
     "add",
+    "create",
+    "zoom-in",
     "plus",
-    "magnifying glass",
-    "variant",
+    "magnifying-glass",
     "enlarge"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search plus C",
+  "aliases": [
+    "LupeSearchZoomIn3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

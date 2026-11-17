@@ -1,10 +1,10 @@
 {
-  "name": "SystemDiagnosticLaptop",
+  "name": "LaptopPulse",
   "description": "A system diagnostic icon with a laptop and pulse indicator for computer performance monitoring",
   "tags": [
+    "laptop",
     "system",
     "diagnostic",
-    "laptop",
     "pulse",
     "monitor",
     "computer",
@@ -12,9 +12,7 @@
     "health"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop pulse",
+  "aliases": [
+    "SystemDiagnosticLaptop"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

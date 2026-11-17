@@ -1,16 +1,16 @@
 {
-  "name": "FolderNegative2",
+  "name": "FolderMinusCenter",
   "description": "A folder icon with a minus or negative symbol, representing folder removal or subtraction operation.",
   "tags": [
     "folder",
     "negative",
-    "minus",
     "remove",
+    "subtract",
+    "minus",
     "delete",
-    "subtract"
+    "center"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder minus center",
+  "aliases": [
+    "FolderNegative2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

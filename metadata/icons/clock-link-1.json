@@ -1,5 +1,5 @@
 {
-  "name": "ClockLink",
+  "name": "ClockLinkTilted",
   "description": "A clock icon with a link symbol, indicating scheduled or time-based connections and references.",
   "tags": [
     "clock",
@@ -8,11 +8,11 @@
     "connection",
     "reference",
     "chain",
-    "schedule"
+    "schedule",
+    "tilted"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock link tilted",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

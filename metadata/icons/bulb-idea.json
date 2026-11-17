@@ -1,18 +1,17 @@
 {
-  "name": "BulbIdea2",
+  "name": "Lightbulb",
   "description": "A lightbulb icon representing ideas, creativity, and innovation",
   "tags": [
+    "lightbulb",
     "bulb",
     "idea",
-    "lightbulb",
     "creativity",
     "innovation",
     "inspiration",
     "concept"
   ],
   "categories": [
-    "interface",
-    "business"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lightbulb",
+  "aliases": [
+    "BulbIdea2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

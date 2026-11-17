@@ -1,16 +1,19 @@
 {
-  "name": "PageViewGroupItems2",
+  "name": "SquareStackPlusShadow",
   "description": "An alternative page view icon showing grouped items with a different visual style",
   "tags": [
+    "square",
     "page",
     "view",
     "group",
     "items",
+    "add",
+    "create",
     "layout",
     "grid",
     "collection",
     "organization",
-    "variant2"
+    "stack"
   ],
   "categories": [
     "interface"
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Square stack plus shadow",
+  "aliases": [
+    "PageViewGroupItems2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,22 @@
 {
-  "name": "LupeZoomActual",
+  "name": "SearchOneToOne",
   "description": "A magnifying glass icon indicating zoom to actual size or one-to-one magnification level",
   "tags": [
+    "search",
     "lupe",
     "zoom",
-    "actual size",
-    "one to one",
-    "magnifying glass",
+    "actual",
+    "size",
+    "actual-size",
+    "one-to-one",
+    "magnifying-glass",
     "fit",
     "reset",
-    "magnify"
+    "magnify",
+    "one"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search one to one",
+  "aliases": [
+    "LupeZoomActual"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

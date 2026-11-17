@@ -1,20 +1,19 @@
 {
-  "name": "WifiSignal5",
+  "name": "HotspotStem",
   "description": "A wifi signal strength icon showing five bars indicating excellent network connectivity",
   "tags": [
+    "hotspot",
     "wifi",
     "signal",
-    "hotspot",
     "connection",
     "network",
     "bars",
     "strength",
-    "5g",
-    "wireless"
+    "wireless",
+    "stem"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hotspot stem",
+  "aliases": [
+    "WifiSignal5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

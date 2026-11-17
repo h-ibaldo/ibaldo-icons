@@ -1,5 +1,5 @@
 {
-  "name": "Heart3",
+  "name": "Heart",
   "description": "A filled heart icon in a medium weight style",
   "tags": [
     "heart",
@@ -10,7 +10,6 @@
     "filled"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Heart",
+  "aliases": [
+    "Heart3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

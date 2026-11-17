@@ -1,5 +1,5 @@
 {
-  "name": "Binoculars1",
+  "name": "BinocularsEyecups",
   "description": "A binoculars icon representing viewing, observation, search, or inspection functionality",
   "tags": [
     "binoculars",
@@ -8,11 +8,11 @@
     "observation",
     "inspect",
     "vision",
-    "zoom"
+    "zoom",
+    "eyecups"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Binoculars eyecups",
+  "aliases": [
+    "Binoculars1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,20 +1,20 @@
 {
-  "name": "AgendaContacts2",
+  "name": "AddressBookBound",
   "description": "An agenda contacts icon representing the second variant for managing contact information and directories",
   "tags": [
+    "address",
     "agenda",
     "contacts",
-    "2",
     "organizer",
     "people",
     "directory",
     "management",
-    "contact list"
+    "contact-list",
+    "book",
+    "bound"
   ],
   "categories": [
-    "interface",
-    "business",
-    "people"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Address book bound",
+  "aliases": [
+    "AgendaContacts2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

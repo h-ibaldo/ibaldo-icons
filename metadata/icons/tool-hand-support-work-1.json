@@ -1,17 +1,18 @@
 {
-  "name": "ToolHandSupport1",
+  "name": "WrenchHandOpen",
   "description": "A hand tool icon for providing work support and assistance in the first style",
   "tags": [
+    "wrench",
     "tool",
-    "hand",
     "support",
     "work",
+    "hand",
     "help",
-    "assistance"
+    "assistance",
+    "open"
   ],
   "categories": [
-    "business",
-    "interface"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Wrench hand open",
+  "aliases": [
+    "ToolHandSupport1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

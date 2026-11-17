@@ -1,19 +1,18 @@
 {
-  "name": "LoginArrowIn1",
+  "name": "Login",
   "description": "A login icon with an inward arrow representing entering or signing into an account",
   "tags": [
     "login",
     "arrow",
-    "in",
-    "sign in",
+    "sign-in",
     "enter",
     "access",
     "authentication",
     "session"
   ],
   "categories": [
-    "interface",
-    "security"
+    "security",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Login",
+  "aliases": [
+    "LoginArrowIn1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

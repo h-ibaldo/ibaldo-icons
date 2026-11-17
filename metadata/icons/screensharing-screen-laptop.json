@@ -1,18 +1,17 @@
 {
-  "name": "ScreensharingLaptop",
+  "name": "ScreenShareLaptop",
   "description": "A screensharing icon depicting a laptop for screen sharing and remote collaboration",
   "tags": [
-    "screensharing",
     "screen",
+    "screensharing",
     "laptop",
     "share",
     "remote",
     "collaboration"
   ],
   "categories": [
-    "interface",
-    "communication",
-    "devices"
+    "devices",
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screen share laptop",
+  "aliases": [
+    "ScreensharingLaptop"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

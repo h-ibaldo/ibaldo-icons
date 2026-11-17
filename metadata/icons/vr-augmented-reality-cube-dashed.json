@@ -1,17 +1,19 @@
 {
-  "name": "VRCubeDashed",
+  "name": "CubeArrowsOut",
   "description": "A VR augmented reality cube icon with dashed outline style for virtual environment representation",
   "tags": [
-    "vr",
-    "augmented reality",
     "cube",
+    "vr",
+    "augmented",
+    "reality",
     "dashed",
-    "3d",
+    "augmented-reality",
     "virtual",
-    "wireframe"
+    "wireframe",
+    "arrows",
+    "out"
   ],
   "categories": [
-    "devices",
     "development"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cube arrows out",
+  "aliases": [
+    "VRCubeDashed"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

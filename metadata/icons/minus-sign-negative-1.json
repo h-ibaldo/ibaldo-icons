@@ -1,19 +1,18 @@
 {
-  "name": "MinusSignNegative1",
+  "name": "Minus",
   "description": "A minus sign or negative symbol used for subtraction, deletion, or reduction operations.",
   "tags": [
     "minus",
+    "sign",
     "negative",
-    "subtract",
     "remove",
+    "subtract",
     "delete",
     "reduce",
-    "sign",
     "symbol"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Minus",
+  "aliases": [
+    "MinusSignNegative1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Music3",
+  "name": "MusicSixteenthRound",
   "description": "A music icon with variant 3 styling for audio and sound representation",
   "tags": [
     "music",
@@ -7,7 +7,8 @@
     "sound",
     "note",
     "track",
-    "variant 3"
+    "sixteenth",
+    "round"
   ],
   "categories": [
     "media"
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Music sixteenth round",
+  "aliases": [
+    "Music3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

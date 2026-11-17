@@ -1,18 +1,21 @@
 {
-  "name": "ScreenshotCamera2",
+  "name": "ScreenshotCameraPlus",
   "description": "A variant screen capture icon with dashed rectangle and camera in an alternative design",
   "tags": [
     "screenshot",
-    "capture",
     "screen",
-    "dashed rectangle",
+    "shot",
+    "capture",
+    "dashed",
+    "rectangle",
+    "add",
+    "create",
+    "dashed-rectangle",
     "camera",
     "photo",
     "selection"
   ],
   "categories": [
-    "interface",
-    "devices",
     "media"
   ],
   "accessibility": {
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screenshot camera plus",
+  "aliases": [
+    "ScreenshotCamera2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

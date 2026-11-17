@@ -1,5 +1,5 @@
 {
-  "name": "SaveAllFloppyStack3",
+  "name": "SaveStackDownLeft",
   "description": "A third variant of the save all floppy disk stack icon with distinct design",
   "tags": [
     "save",
@@ -10,10 +10,10 @@
     "stack",
     "storage",
     "backup",
-    "variant"
+    "down",
+    "left"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save stack down left",
+  "aliases": [
+    "SaveAllFloppyStack3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

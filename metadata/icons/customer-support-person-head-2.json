@@ -1,21 +1,24 @@
 {
-  "name": "CustomerSupport2",
-  "displayName": "Customer support 2",
+  "name": "SupportOval",
+  "displayName": "Support oval",
   "originalTitle": "Customer Support Person Head 2",
   "description": "Person icon representing customer support or help desk services. Used for customer service contacts and support features.",
   "tags": [
-    "customer support",
+    "support",
+    "customer",
     "person",
+    "head",
+    "customer-support",
     "help",
     "service",
     "assistance",
-    "support",
     "representative",
-    "contact"
+    "contact",
+    "oval"
   ],
   "categories": [
-    "people",
-    "business"
+    "communication",
+    "people"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.802Z"
+  "generatedAt": "2026-02-15T00:53:19.802Z",
+  "aliases": [
+    "CustomerSupport2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

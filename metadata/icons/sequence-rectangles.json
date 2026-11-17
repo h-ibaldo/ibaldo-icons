@@ -1,17 +1,18 @@
 {
-  "name": "SequenceRectangles",
+  "name": "SquareStack",
   "description": "A sequence of rectangles icon representing ordered items, lists, or sequential processes",
   "tags": [
+    "square",
     "sequence",
     "rectangles",
     "ordered",
     "list",
     "process",
-    "steps"
+    "steps",
+    "stack"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Square stack",
+  "aliases": [
+    "SequenceRectangles"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

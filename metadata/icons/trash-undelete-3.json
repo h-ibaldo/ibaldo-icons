@@ -1,5 +1,5 @@
 {
-  "name": "TrashUndelete3",
+  "name": "TrashRefreshNotch",
   "description": "A trash bin icon with recovery or undo functionality for restoring items",
   "tags": [
     "trash",
@@ -8,10 +8,12 @@
     "recover",
     "undo",
     "bin",
-    "recycle"
+    "recycle",
+    "refresh",
+    "notch"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash refresh notch",
+  "aliases": [
+    "TrashUndelete3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

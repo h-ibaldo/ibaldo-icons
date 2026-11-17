@@ -1,20 +1,24 @@
 {
-  "name": "CustomerSupport4",
-  "displayName": "Customer support 4",
+  "name": "SupportOvalMic",
+  "displayName": "Support oval mic",
   "originalTitle": "Customer Support Person Head 4",
   "description": "Customer support agent icon for help desk and customer service functions. Represents live chat support, helpdesk assistance, or customer care services.",
   "tags": [
-    "customer",
     "support",
+    "customer",
+    "person",
+    "head",
     "help",
     "service",
     "agent",
     "assistance",
     "chat",
-    "care"
+    "care",
+    "oval",
+    "mic"
   ],
   "categories": [
-    "business",
+    "communication",
     "people"
   ],
   "accessibility": {
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.802Z"
+  "generatedAt": "2026-02-15T00:53:19.802Z",
+  "aliases": [
+    "CustomerSupport4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

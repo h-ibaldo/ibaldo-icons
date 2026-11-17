@@ -1,5 +1,5 @@
 {
-  "name": "Trash6",
+  "name": "TrashNotch",
   "description": "A trash bin icon for delete and removal actions",
   "tags": [
     "trash",
@@ -9,10 +9,10 @@
     "waste",
     "discard",
     "garbage",
-    "variant 6"
+    "notch"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash notch",
+  "aliases": [
+    "Trash6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

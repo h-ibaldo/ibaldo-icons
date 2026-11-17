@@ -1,18 +1,16 @@
 {
-  "name": "ClockGear2",
+  "name": "ClockSettings",
   "description": "A second variant of clock with gear, showing an alternative design or positioning of the settings symbol",
   "tags": [
     "clock",
     "gear",
     "settings",
-    "variant",
     "time",
     "configure",
     "schedule"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock settings",
+  "aliases": [
+    "ClockGear2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

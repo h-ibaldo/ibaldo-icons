@@ -1,5 +1,5 @@
 {
-  "name": "DownloadArrowSquareStack",
+  "name": "DownloadSquareStack",
   "description": "A download arrow icon pointing downward with multiple stacked square containers representing grouped or batch downloads",
   "tags": [
     "download",
@@ -9,10 +9,12 @@
     "group",
     "stack",
     "multiple",
-    "batch"
+    "batch",
+    "square"
   ],
   "categories": [
-    "interface"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download square stack",
+  "aliases": [
+    "DownloadArrowSquareStack"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

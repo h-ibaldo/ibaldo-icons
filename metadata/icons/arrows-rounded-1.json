@@ -1,16 +1,18 @@
 {
-  "name": "ArrowsRounded1",
+  "name": "ArrowSyncClockwise2",
   "description": "A single rounded-style arrow icon for indicating direction, navigation, or movement",
   "tags": [
+    "arrow",
     "arrows",
     "rounded",
+    "synchronize",
     "direction",
     "navigation",
     "movement",
-    "pointer"
+    "pointer",
+    "sync"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync clockwise2",
+  "aliases": [
+    "ArrowsRounded1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

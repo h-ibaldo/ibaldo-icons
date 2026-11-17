@@ -1,17 +1,18 @@
 {
-  "name": "UpvoteArrowDown3",
+  "name": "VoteTriangles",
   "description": "An upvote icon with bidirectional up and down arrows for user voting and rating actions variant 3",
   "tags": [
+    "vote",
     "upvote",
     "arrow",
     "up",
     "down",
     "voting",
     "rating",
-    "feedback"
+    "feedback",
+    "triangles"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vote triangles",
+  "aliases": [
+    "UpvoteArrowDown3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

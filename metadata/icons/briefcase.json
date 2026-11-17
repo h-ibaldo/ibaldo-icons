@@ -1,5 +1,5 @@
 {
-  "name": "Briefcase10",
+  "name": "Briefcase",
   "description": "A professional briefcase icon representing business documents, work, and professional materials",
   "tags": [
     "briefcase",
@@ -10,8 +10,7 @@
     "portfolio"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase",
+  "aliases": [
+    "Briefcase10"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

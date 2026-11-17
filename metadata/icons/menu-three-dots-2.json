@@ -1,14 +1,18 @@
 {
-  "name": "MenuDots2",
+  "name": "DotsVerticalSmallSpaced",
   "description": "A menu icon with three dots arranged vertically for additional options, variant 2",
   "tags": [
-    "menu",
-    "three dots",
     "dots",
+    "menu",
+    "three",
+    "three-dots",
     "more",
     "options",
     "ellipsis",
-    "navigation"
+    "navigation",
+    "vertical",
+    "small",
+    "spaced"
   ],
   "categories": [
     "interface"
@@ -28,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Dots vertical small spaced",
+  "aliases": [
+    "MenuDots2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

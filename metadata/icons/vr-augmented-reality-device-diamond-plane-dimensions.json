@@ -1,19 +1,20 @@
 {
-  "name": "VRDeviceDimensions",
+  "name": "MobilePlane",
   "description": "A VR augmented reality device icon showing diamond plane with dimensional perspective for spatial computing",
   "tags": [
+    "mobile",
     "vr",
-    "augmented reality",
+    "augmented",
+    "reality",
     "device",
     "diamond",
-    "plane",
     "dimensions",
-    "spatial",
-    "3d"
+    "augmented-reality",
+    "plane",
+    "spatial"
   ],
   "categories": [
-    "devices",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mobile plane",
+  "aliases": [
+    "VRDeviceDimensions"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

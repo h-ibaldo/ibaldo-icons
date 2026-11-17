@@ -1,10 +1,10 @@
 {
-  "name": "ClockPinMap",
+  "name": "ClockPin",
   "description": "A clock icon merged with a pin and map symbol representing scheduled location or time-based navigation.",
   "tags": [
     "clock",
-    "pin",
     "map",
+    "pin",
     "location",
     "time",
     "schedule",
@@ -12,9 +12,7 @@
     "geolocation"
   ],
   "categories": [
-    "time",
-    "location",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock pin",
+  "aliases": [
+    "ClockPinMap"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

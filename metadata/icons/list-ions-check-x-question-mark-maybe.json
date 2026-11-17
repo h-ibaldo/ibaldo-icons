@@ -3,18 +3,17 @@
   "description": "A list icon with status indicators including checkmark, x, and question mark options",
   "tags": [
     "list",
-    "status",
+    "ions",
     "check",
-    "x",
     "question",
     "mark",
     "maybe",
+    "status",
     "validation",
     "response"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "List status",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

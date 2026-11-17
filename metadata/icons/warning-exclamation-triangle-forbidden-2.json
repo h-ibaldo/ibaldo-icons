@@ -1,18 +1,21 @@
 {
-  "name": "WarningForbidden2",
+  "name": "WarningOffRound",
   "description": "A warning exclamation triangle icon with a forbidden or prohibition indicator, variant 2",
   "tags": [
     "warning",
     "exclamation",
     "triangle",
     "forbidden",
+    "disabled",
+    "mute",
     "prohibited",
     "alert",
-    "restriction"
+    "restriction",
+    "off",
+    "round"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Warning off round",
+  "aliases": [
+    "WarningForbidden2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

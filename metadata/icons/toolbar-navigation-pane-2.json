@@ -1,14 +1,17 @@
 {
-  "name": "ToolbarNavigationPane2",
+  "name": "ChevronLeftRightSquare",
   "description": "A toolbar navigation pane icon, variant 2, for managing collapsible or dockable navigation panels.",
   "tags": [
+    "chevron",
     "toolbar",
     "navigation",
     "pane",
     "panel",
     "sidebar",
     "dock",
-    "variant2"
+    "left",
+    "right",
+    "square"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Chevron left right square",
+  "aliases": [
+    "ToolbarNavigationPane2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

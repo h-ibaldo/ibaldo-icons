@@ -1,19 +1,18 @@
 {
-  "name": "LevelsAdjustDashboard8",
+  "name": "AdjustBlock",
   "description": "A levels adjustment icon for dashboard controls with eight variants for comprehensive audio or system parameter adjustment.",
   "tags": [
-    "levels",
     "adjust",
+    "levels",
     "dashboard",
     "settings",
     "controls",
     "slider",
     "equalizer",
-    "variant 8"
+    "block"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Adjust block",
+  "aliases": [
+    "LevelsAdjustDashboard8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

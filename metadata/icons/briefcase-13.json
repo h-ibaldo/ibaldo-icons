@@ -1,5 +1,5 @@
 {
-  "name": "BriefcaseDocument",
+  "name": "BriefcaseStriped",
   "description": "A briefcase icon combined with a document symbol representing files and professional paperwork",
   "tags": [
     "briefcase",
@@ -7,11 +7,11 @@
     "file",
     "paperwork",
     "business",
-    "case"
+    "case",
+    "striped"
   ],
   "categories": [
-    "business",
-    "files"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase striped",
+  "aliases": [
+    "BriefcaseDocument"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

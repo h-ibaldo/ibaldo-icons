@@ -1,15 +1,16 @@
 {
-  "name": "SwitchToggleButtonOnStripes",
+  "name": "ToggleOnStriped",
   "description": "A toggle button switch in on state with striped filled pattern",
   "tags": [
-    "switch",
     "toggle",
-    "button",
-    "on",
+    "switch",
+    "butto",
     "filled",
     "stripes",
+    "button",
     "pattern",
-    "state"
+    "state",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle on striped",
+  "aliases": [
+    "SwitchToggleButtonOnStripes"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

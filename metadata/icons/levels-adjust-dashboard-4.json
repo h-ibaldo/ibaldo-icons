@@ -1,19 +1,17 @@
 {
-  "name": "LevelsAdjustDash4",
+  "name": "Adjust",
   "description": "A fourth variant levels adjustment dashboard icon for configuration panels",
   "tags": [
-    "levels",
     "adjust",
+    "levels",
     "dashboard",
     "control",
-    "variant",
     "settings",
     "mixer",
     "interface"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Adjust",
+  "aliases": [
+    "LevelsAdjustDash4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Sun9",
+  "name": "SunFaceted",
   "description": "A sun icon in variant 9 style, for weather indicators or solar applications",
   "tags": [
     "sun",
@@ -7,11 +7,11 @@
     "weather",
     "bright",
     "daytime",
-    "variant 9"
+    "faceted"
   ],
   "categories": [
     "weather",
-    "nature"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun faceted",
+  "aliases": [
+    "Sun9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

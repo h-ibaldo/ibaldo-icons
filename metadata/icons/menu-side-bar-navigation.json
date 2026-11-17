@@ -1,10 +1,12 @@
 {
-  "name": "MenuSideBar",
+  "name": "MenuPanel",
   "description": "A sidebar menu navigation icon for toggling panel visibility",
   "tags": [
     "menu",
-    "sidebar",
+    "side",
+    "bar",
     "navigation",
+    "sidebar",
     "panel",
     "toggle"
   ],
@@ -26,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu panel",
+  "aliases": [
+    "MenuSideBar"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

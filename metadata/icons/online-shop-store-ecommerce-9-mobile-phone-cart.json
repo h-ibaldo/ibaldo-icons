@@ -1,19 +1,18 @@
 {
-  "name": "OnlineShopMobileCart2",
+  "name": "MobileCart",
   "description": "An online shop icon displaying a mobile phone with a shopping cart, representing mobile e-commerce",
   "tags": [
+    "mobile",
     "online",
     "shop",
     "store",
     "ecommerce",
-    "mobile",
     "phone",
     "cart",
     "shopping",
     "retail"
   ],
   "categories": [
-    "shopping",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mobile cart",
+  "aliases": [
+    "OnlineShopMobileCart2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

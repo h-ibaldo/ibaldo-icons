@@ -1,7 +1,8 @@
 {
-  "name": "TranslationLanguagesSpeech1",
+  "name": "TranslateChatSplit",
   "description": "A translation icon combining language arrows with speech bubbles, representing multilingual communication and dialogue.",
   "tags": [
+    "translate",
     "translation",
     "languages",
     "arrows",
@@ -9,11 +10,13 @@
     "bubbles",
     "communication",
     "dialogue",
-    "multilingual"
+    "multilingual",
+    "chat",
+    "split"
   ],
   "categories": [
     "communication",
-    "interface"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Translate chat split",
+  "aliases": [
+    "TranslationLanguagesSpeech1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,19 @@
 {
-  "name": "LinkPersonalHotspotMenu",
+  "name": "LinkDots",
   "description": "A personal hotspot link icon with a dots menu for accessing settings and options",
   "tags": [
     "link",
-    "personal hotspot",
-    "dots",
+    "personal",
+    "hotspot",
     "settings",
     "menu",
+    "personal-hotspot",
+    "dots",
     "options",
     "configuration",
     "more"
   ],
   "categories": [
-    "interface",
-    "devices",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Link dots",
+  "aliases": [
+    "LinkPersonalHotspotMenu"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

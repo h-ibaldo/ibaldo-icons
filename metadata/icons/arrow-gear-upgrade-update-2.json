@@ -1,5 +1,5 @@
 {
-  "name": "ArrowGearUpgrade2",
+  "name": "ArrowClockwiseSettingsCorner",
   "description": "An arrow icon paired with a gear symbol variant representing system upgrade, update, or settings configuration",
   "tags": [
     "arrow",
@@ -9,12 +9,12 @@
     "settings",
     "configuration",
     "maintenance",
-    "improvement"
+    "improvement",
+    "clockwise",
+    "corner"
   ],
   "categories": [
-    "interface",
-    "business",
-    "development"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow clockwise settings corner",
+  "aliases": [
+    "ArrowGearUpgrade2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

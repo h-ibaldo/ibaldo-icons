@@ -1,16 +1,17 @@
 {
-  "name": "Box",
+  "name": "BoxLidClasp",
   "description": "A simple box or container icon representing storage, packaging, or enclosed items",
   "tags": [
     "box",
     "container",
     "package",
     "storage",
-    "delivery"
+    "delivery",
+    "lid",
+    "clasp"
   ],
   "categories": [
-    "interface",
-    "shopping"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +28,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Box lid clasp",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

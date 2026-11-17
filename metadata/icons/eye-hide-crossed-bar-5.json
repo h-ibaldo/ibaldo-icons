@@ -1,17 +1,19 @@
 {
-  "name": "EyeHideCrossed5",
+  "name": "EyeOffPupil",
   "description": "An eye icon with a crossed bar indicating hidden or concealed visibility",
   "tags": [
     "eye",
     "hide",
     "crossed",
     "bar",
+    "disabled",
+    "mute",
     "visibility",
     "secret",
     "obscure",
     "concealed",
     "privacy",
-    "variant5"
+    "off"
   ],
   "categories": [
     "interface",
@@ -32,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Eye off pupil",
+  "aliases": [
+    "EyeHideCrossed5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

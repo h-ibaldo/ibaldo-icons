@@ -1,5 +1,5 @@
 {
-  "name": "SaveDiskClock",
+  "name": "SaveClock",
   "description": "A floppy disk save icon with a clock symbol, indicating scheduled or timed save operations",
   "tags": [
     "save",
@@ -12,9 +12,7 @@
     "history"
   ],
   "categories": [
-    "interface",
-    "files",
-    "time"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save clock",
+  "aliases": [
+    "SaveDiskClock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

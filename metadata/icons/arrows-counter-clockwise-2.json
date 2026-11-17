@@ -1,17 +1,21 @@
 {
-  "name": "ArrowsCounterClockwise2",
+  "name": "ArrowSyncCounterclockwiseAngular",
   "description": "An alternate variant of counter-clockwise rotation arrows for reverse or undo operations",
   "tags": [
+    "arrow",
     "arrows",
+    "counter",
+    "clockwise",
+    "synchronize",
     "counter-clockwise",
     "rotation",
     "reverse",
     "undo",
     "circular",
-    "variant"
+    "sync",
+    "counterclockwise"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync counterclockwise angular",
+  "aliases": [
+    "ArrowsCounterClockwise2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

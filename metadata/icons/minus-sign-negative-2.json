@@ -1,19 +1,19 @@
 {
-  "name": "MinusSignNegative2",
+  "name": "MinusSmall",
   "description": "A minus or negative sign icon representing subtraction, removal, or decrease functionality.",
   "tags": [
     "minus",
+    "sign",
     "negative",
-    "subtract",
     "remove",
+    "subtract",
     "delete",
     "reduce",
-    "sign",
-    "symbol"
+    "symbol",
+    "small"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Minus small",
+  "aliases": [
+    "MinusSignNegative2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

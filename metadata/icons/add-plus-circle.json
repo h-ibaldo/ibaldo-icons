@@ -1,11 +1,11 @@
 {
-  "name": "AddCircle",
-  "displayName": "Add circle",
+  "name": "PlusCircle",
+  "displayName": "Plus circle",
   "originalTitle": "Add Plus Circle",
   "description": "Circular plus icon for adding items with emphasis. Provides a contained add button for prominent placement.",
   "tags": [
-    "add",
     "plus",
+    "add",
     "create",
     "new",
     "circle",
@@ -31,5 +31,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.766Z"
+  "generatedAt": "2026-02-15T00:53:19.766Z",
+  "aliases": [
+    "AddCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

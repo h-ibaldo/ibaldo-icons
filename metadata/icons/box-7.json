@@ -1,15 +1,15 @@
 {
-  "name": "Box7",
+  "name": "BoxTapeLabel",
   "description": "A box icon variant numbered 7, suitable for container, package, or storage representations in professional interfaces.",
   "tags": [
     "box",
     "container",
     "package",
     "storage",
-    "variant7"
+    "tape",
+    "label"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Box tape label",
+  "aliases": [
+    "Box7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

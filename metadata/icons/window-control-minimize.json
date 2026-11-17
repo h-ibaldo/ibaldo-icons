@@ -1,18 +1,17 @@
 {
-  "name": "WindowControlMinimize",
+  "name": "Minimize",
   "description": "A standard window control icon for minimizing window actions",
   "tags": [
+    "minimize",
     "window",
     "control",
-    "minimize",
     "collapse",
     "reduce",
     "hide",
     "interface"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Minimize",
+  "aliases": [
+    "WindowControlMinimize"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

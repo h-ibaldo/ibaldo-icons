@@ -1,14 +1,14 @@
 {
-  "name": "XDeleteSquare3",
+  "name": "XSquareSmall",
   "description": "A close or delete icon with an X symbol enclosed in a square shape, variant 3",
   "tags": [
-    "x",
     "delete",
     "close",
-    "square",
     "remove",
+    "square",
     "dismiss",
-    "cancel"
+    "cancel",
+    "small"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "X square small",
+  "aliases": [
+    "XDeleteSquare3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

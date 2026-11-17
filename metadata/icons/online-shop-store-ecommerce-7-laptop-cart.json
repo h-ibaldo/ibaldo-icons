@@ -1,19 +1,18 @@
 {
-  "name": "OnlineShopLaptopCart",
+  "name": "LaptopCart",
   "description": "An online shop icon featuring a laptop with a shopping cart, representing e-commerce and online purchasing",
   "tags": [
+    "laptop",
     "online",
     "shop",
     "store",
     "ecommerce",
-    "laptop",
     "cart",
     "shopping",
     "retail",
     "purchase"
   ],
   "categories": [
-    "shopping",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop cart",
+  "aliases": [
+    "OnlineShopLaptopCart"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }
