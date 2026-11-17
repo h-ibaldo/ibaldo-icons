@@ -1,31 +1,30 @@
-import { forwardRef } from 'react';
+import { createElement, forwardRef } from 'react';
 
-const Cloud3Unlock = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  <svg
-    ref={ref}
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke={color}
-    strokeWidth={strokeWidth}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className={`icon-design ${className}`.trim()}
-    {...props}
-  >
-    <rect x="8" y="15.999999973497324" width="8" height="6" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M19,16.577880832857772c1.764404296869543-.77215576170056,3-2.52868652341931,3-4.577880859360448,0-2.44482421875-1.757019042970569-4.47235107421875-4.075744628909888-4.906860351558862-.438171386720569-2.882202148441138-2.919616699220569-5.093139648441138-5.924255371090112-5.093139648441138-3.004638671880457,0-5.486083984380457,2.2109375-5.924255371099207,5.093139648441138-2.318725585930224.434509277340112-4.075744628900793,2.462036132808862-4.075744628900793,4.906860351558862,0,2.049194335941138,1.235595703119543,3.805725097659888,3,4.577880859360448" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M14.221435546869543,11.999999973497324c-.549133300779431-.60955810546875-1.33642578125-1-2.221435546869543-1-1.656860351560681,0-3,1.343139648441138-3,3v2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-));
+const Cloud3Unlock = forwardRef(function Cloud3Unlock(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('rect', {"x":"8","y":"15.999999973497324","width":"8","height":"6","key":"0"}),
+    createElement('path', {"d":"M19,16.577880832857772c1.764404296869543-.77215576170056,3-2.52868652341931,3-4.577880859360448,0-2.44482421875-1.757019042970569-4.47235107421875-4.075744628909888-4.906860351558862-.438171386720569-2.882202148441138-2.919616699220569-5.093139648441138-5.924255371090112-5.093139648441138-3.004638671880457,0-5.486083984380457,2.2109375-5.924255371099207,5.093139648441138-2.318725585930224.434509277340112-4.075744628900793,2.462036132808862-4.075744628900793,4.906860351558862,0,2.049194335941138,1.235595703119543,3.805725097659888,3,4.577880859360448","key":"1"}),
+    createElement('path', {"d":"M14.221435546869543,11.999999973497324c-.549133300779431-.60955810546875-1.33642578125-1-2.221435546869543-1-1.656860351560681,0-3,1.343139648441138-3,3v2","key":"2"})
+  );
+});
 
 Cloud3Unlock.displayName = 'Cloud3Unlock';
 

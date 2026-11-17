@@ -23,9 +23,9 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <polyline points="2 2 2 22 22 22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="7" y1="22" x2="7" y2="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11" y1="22" x2="11" y2="9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="15" y1="22" x2="15" y2="11" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="19" y1="22" x2="19" y2="6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="2 2 2 22 22 22"/>
+  <line x1="7" y1="22" x2="7" y2="16"/>
+  <line x1="11" y1="22" x2="11" y2="9"/>
+  <line x1="15" y1="22" x2="15" y2="11"/>
+  <line x1="19" y1="22" x2="19" y2="6"/>
 </svg>

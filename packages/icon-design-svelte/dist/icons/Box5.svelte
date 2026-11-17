@@ -23,6 +23,6 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <rect x="2" y="1.999999999998181" width="20" height="20" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="15 1.999999999998181 15 7.999999999998181 9 7.999999999998181 9 1.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2" y="1.999999999998181" width="20" height="20" rx="1" ry="1"/>
+  <polyline points="15 1.999999999998181 15 7.999999999998181 9 7.999999999998181 9 1.999999999998181"/>
 </svg>

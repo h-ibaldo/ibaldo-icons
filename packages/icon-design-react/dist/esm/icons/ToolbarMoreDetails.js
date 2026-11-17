@@ -1,45 +1,44 @@
-import { forwardRef } from 'react';
+import { createElement, forwardRef } from 'react';
 
-const ToolbarMoreDetails = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  <svg
-    ref={ref}
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke={color}
-    strokeWidth={strokeWidth}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className={`icon-design ${className}`.trim()}
-    {...props}
-  >
-    <line x1="6.050537043445729" y1="5.997562036495765" x2="6.04053704344642" y2="5.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="10.050537043445729" y1="5.997562036495765" x2="9.050537043445729" y2="5.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="14.050537043445729" y1="5.997562036495765" x2="14.04053704344642" y2="5.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="18.050537043445729" y1="5.997562036495765" x2="17.050537043445729" y2="5.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="6.04053704344642" y1="9.997562036495765" x2="6.050537043445729" y2="9.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="10.050537043445729" y1="9.997562036495765" x2="9.050537043445729" y2="9.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="14.050537043445729" y1="9.997562036495765" x2="14.04053704344642" y2="9.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="18.050537043445729" y1="9.997562036495765" x2="17.050537043445729" y2="9.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="6.04053704344642" y1="13.997562036495765" x2="6.050537043445729" y2="13.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="10.050537043445729" y1="13.997562036495765" x2="9.050537043445729" y2="13.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="14.050537043445729" y1="13.997562036495765" x2="14.04053704344642" y2="13.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="18.050537043445729" y1="13.997562036495765" x2="17.050537043445729" y2="13.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="6.04053704344642" y1="17.997562036495765" x2="6.050537043445729" y2="17.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="10.050537043445729" y1="17.997562036495765" x2="9.050537043445729" y2="17.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="14.04053704344642" y1="17.997562036495765" x2="14.050537043445729" y2="17.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="18.050537043445729" y1="17.997562036495765" x2="17.050537043445729" y2="17.997562036226554" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <rect x="2.050502318321378" y="1.997562039977311" width="20" height="19.999999992898665" rx="1.999999999997544" ry="1.999999999997544" transform="translate(24.101004636069892 23.995124073428677) rotate(-180)" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-));
+const ToolbarMoreDetails = forwardRef(function ToolbarMoreDetails(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('line', {"x1":"6.050537043445729","y1":"5.997562036495765","x2":"6.04053704344642","y2":"5.997562036226554","key":"0"}),
+    createElement('line', {"x1":"10.050537043445729","y1":"5.997562036495765","x2":"9.050537043445729","y2":"5.997562036226554","key":"1"}),
+    createElement('line', {"x1":"14.050537043445729","y1":"5.997562036495765","x2":"14.04053704344642","y2":"5.997562036226554","key":"2"}),
+    createElement('line', {"x1":"18.050537043445729","y1":"5.997562036495765","x2":"17.050537043445729","y2":"5.997562036226554","key":"3"}),
+    createElement('line', {"x1":"6.04053704344642","y1":"9.997562036495765","x2":"6.050537043445729","y2":"9.997562036226554","key":"4"}),
+    createElement('line', {"x1":"10.050537043445729","y1":"9.997562036495765","x2":"9.050537043445729","y2":"9.997562036226554","key":"5"}),
+    createElement('line', {"x1":"14.050537043445729","y1":"9.997562036495765","x2":"14.04053704344642","y2":"9.997562036226554","key":"6"}),
+    createElement('line', {"x1":"18.050537043445729","y1":"9.997562036495765","x2":"17.050537043445729","y2":"9.997562036226554","key":"7"}),
+    createElement('line', {"x1":"6.04053704344642","y1":"13.997562036495765","x2":"6.050537043445729","y2":"13.997562036226554","key":"8"}),
+    createElement('line', {"x1":"10.050537043445729","y1":"13.997562036495765","x2":"9.050537043445729","y2":"13.997562036226554","key":"9"}),
+    createElement('line', {"x1":"14.050537043445729","y1":"13.997562036495765","x2":"14.04053704344642","y2":"13.997562036226554","key":"10"}),
+    createElement('line', {"x1":"18.050537043445729","y1":"13.997562036495765","x2":"17.050537043445729","y2":"13.997562036226554","key":"11"}),
+    createElement('line', {"x1":"6.04053704344642","y1":"17.997562036495765","x2":"6.050537043445729","y2":"17.997562036226554","key":"12"}),
+    createElement('line', {"x1":"10.050537043445729","y1":"17.997562036495765","x2":"9.050537043445729","y2":"17.997562036226554","key":"13"}),
+    createElement('line', {"x1":"14.04053704344642","y1":"17.997562036495765","x2":"14.050537043445729","y2":"17.997562036226554","key":"14"}),
+    createElement('line', {"x1":"18.050537043445729","y1":"17.997562036495765","x2":"17.050537043445729","y2":"17.997562036226554","key":"15"}),
+    createElement('rect', {"x":"2.050502318321378","y":"1.997562039977311","width":"20","height":"19.999999992898665","rx":"1.999999999997544","ry":"1.999999999997544","transform":"translate(24.101004636069892 23.995124073428677) rotate(-180)","key":"16"})
+  );
+});
 
 ToolbarMoreDetails.displayName = 'ToolbarMoreDetails';
 

@@ -23,10 +23,10 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <rect x="9.999999999810825" y="1.99999999981992" width="6" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="9.999999999810825" y="9.99999999981992" width="12" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="9.999999999810825" y="17.99999999981992" width="9" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="1.999999999810825" y="1.99999999981992" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="1.999999999810825" y="9.99999999981992" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="1.999999999810825" y="17.99999999981992" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="9.999999999810825" y="1.99999999981992" width="6" height="4"/>
+  <rect x="9.999999999810825" y="9.99999999981992" width="12" height="4"/>
+  <rect x="9.999999999810825" y="17.99999999981992" width="9" height="4"/>
+  <rect x="1.999999999810825" y="1.99999999981992" width="4" height="4"/>
+  <rect x="1.999999999810825" y="9.99999999981992" width="4" height="4"/>
+  <rect x="1.999999999810825" y="17.99999999981992" width="4" height="4"/>
 </svg>

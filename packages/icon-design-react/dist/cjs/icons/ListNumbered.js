@@ -1,35 +1,36 @@
-"use strict";
+'use strict';
 
-const { forwardRef } = require('react');
+const { createElement, forwardRef } = require('react');
 
-const ListNumbered = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  React.createElement('svg', {
-    ref,
-    xmlns: "http://www.w3.org/2000/svg",
-    width: size,
-    height: size,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: color,
-    strokeWidth,
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    className: `icon-design ${className}`.trim(),
-    ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<line x1="10.000000004469257" y1="4.000000003885361" x2="21.000000004469257" y2="4.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="10.000000004469257" y1="12.000000003885361" x2="21.000000004469257" y2="12.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="10.000000004469257" y1="20.000000003885361" x2="21.000000004469257" y2="20.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="5.000000004469257 6.000000003885361 5.000000004469257 2.000000003885361 4.000000004469257 2.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M3.000000004469257,18.000000003885361h2.000001000000339c.552284197539848,0,.999998999999661.447714802456176.999998999999661.999998999999661v.000002000000677c0,.552284197547124-.447714802459814.999998999999661-.999998999999661.999998999999661h-1.000001000000339" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M3.000000004469257,22.000000003885361h2.000001000000339c.552284197539848,0,.999998999999661-.447714802452538.999998999999661-.999998999999661v-.000002000000677c0-.552284197543486-.447714802459814-.999998999999661-.999998999999661-.999998999999661" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M6.000000004469257,14.000000003885361h-3l2.421110255081658-1.614073503395048c.361658268948304-.241105512624927.578889744918342-.647006238355971.578889744918342-1.081665382640494v-.004261113965185c0-.717970174777292-.582029825229256-1.299999999999272-1.300000000008367-1.299999999999272h-1.699999999991633" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
-));
+const ListNumbered = forwardRef(function ListNumbered(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('line', {"x1":"10.000000004469257","y1":"4.000000003885361","x2":"21.000000004469257","y2":"4.000000003885361","key":"0"}),
+    createElement('line', {"x1":"10.000000004469257","y1":"12.000000003885361","x2":"21.000000004469257","y2":"12.000000003885361","key":"1"}),
+    createElement('line', {"x1":"10.000000004469257","y1":"20.000000003885361","x2":"21.000000004469257","y2":"20.000000003885361","key":"2"}),
+    createElement('polyline', {"points":"5.000000004469257 6.000000003885361 5.000000004469257 2.000000003885361 4.000000004469257 2.000000003885361","key":"3"}),
+    createElement('path', {"d":"M3.000000004469257,18.000000003885361h2.000001000000339c.552284197539848,0,.999998999999661.447714802456176.999998999999661.999998999999661v.000002000000677c0,.552284197547124-.447714802459814.999998999999661-.999998999999661.999998999999661h-1.000001000000339","key":"4"}),
+    createElement('path', {"d":"M3.000000004469257,22.000000003885361h2.000001000000339c.552284197539848,0,.999998999999661-.447714802452538.999998999999661-.999998999999661v-.000002000000677c0-.552284197543486-.447714802459814-.999998999999661-.999998999999661-.999998999999661","key":"5"}),
+    createElement('path', {"d":"M6.000000004469257,14.000000003885361h-3l2.421110255081658-1.614073503395048c.361658268948304-.241105512624927.578889744918342-.647006238355971.578889744918342-1.081665382640494v-.004261113965185c0-.717970174777292-.582029825229256-1.299999999999272-1.300000000008367-1.299999999999272h-1.699999999991633","key":"6"})
+  );
+});
 
 ListNumbered.displayName = 'ListNumbered';
 

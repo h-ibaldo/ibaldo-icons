@@ -23,6 +23,6 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <polygon points="12 15.999999999998181 2 2.999999999998181 22 2.999999999998181 12 15.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="12" y1="15.999999999998181" x2="12" y2="20.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="12 15.999999999998181 2 2.999999999998181 22 2.999999999998181 12 15.999999999998181"/>
+  <line x1="12" y1="15.999999999998181" x2="12" y2="20.999999999998181"/>
 </svg>

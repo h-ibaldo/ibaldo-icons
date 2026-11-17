@@ -23,14 +23,14 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <rect x="1.974731449503452" y="2.000000000479304" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="9.974731449503452" y="2.000000000479304" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="17.974731449503452" y="2.000000000479304" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="1.974731449503452" y="8.000000000480213" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="9.974731449503452" y="8.000000000480213" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="17.974731449503452" y="8.000000000480213" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="1.974731449503452" y="14.000000000480213" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="9.974731449503452" y="14.000000000480213" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="9.974731449503452" y="20.000000000480213" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="17.974731449503452" y="14.000000000480213" width="4" height="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1.974731449503452" y="2.000000000479304" width="4" height="2"/>
+  <rect x="9.974731449503452" y="2.000000000479304" width="4" height="2"/>
+  <rect x="17.974731449503452" y="2.000000000479304" width="4" height="2"/>
+  <rect x="1.974731449503452" y="8.000000000480213" width="4" height="2"/>
+  <rect x="9.974731449503452" y="8.000000000480213" width="4" height="2"/>
+  <rect x="17.974731449503452" y="8.000000000480213" width="4" height="2"/>
+  <rect x="1.974731449503452" y="14.000000000480213" width="4" height="2"/>
+  <rect x="9.974731449503452" y="14.000000000480213" width="4" height="2"/>
+  <rect x="9.974731449503452" y="20.000000000480213" width="4" height="2"/>
+  <rect x="17.974731449503452" y="14.000000000480213" width="4" height="2"/>
 </svg>

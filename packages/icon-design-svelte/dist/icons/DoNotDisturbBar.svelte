@@ -23,6 +23,6 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <circle cx="12.025268548975873" cy="11.997565476121054" r="10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="6.025268548975873" y="9.997565476121054" width="12" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="12.025268548975873" cy="11.997565476121054" r="10"/>
+  <rect x="6.025268548975873" y="9.997565476121054" width="12" height="4"/>
 </svg>

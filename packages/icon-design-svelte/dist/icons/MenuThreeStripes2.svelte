@@ -23,7 +23,7 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <line x1="7" y1="11.999999999998181" x2="17" y2="11.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="7" y1="2.999999999998181" x2="17" y2="2.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="7" y1="20.999999999998181" x2="17" y2="20.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="7" y1="11.999999999998181" x2="17" y2="11.999999999998181"/>
+  <line x1="7" y1="2.999999999998181" x2="17" y2="2.999999999998181"/>
+  <line x1="7" y1="20.999999999998181" x2="17" y2="20.999999999998181"/>
 </svg>

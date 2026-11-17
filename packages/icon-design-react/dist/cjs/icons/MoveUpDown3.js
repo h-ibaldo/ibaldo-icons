@@ -1,33 +1,34 @@
-"use strict";
+'use strict';
 
-const { forwardRef } = require('react');
+const { createElement, forwardRef } = require('react');
 
-const MoveUpDown3 = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  React.createElement('svg', {
-    ref,
-    xmlns: "http://www.w3.org/2000/svg",
-    width: size,
-    height: size,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: color,
-    strokeWidth,
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    className: `icon-design ${className}`.trim(),
-    ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<line x1="19.000000004469257" y1="12.000000003885361" x2="5.000000004469257" y2="12.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="19.000000004469257" y1="8.000000003885361" x2="5.000000004469257" y2="8.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="10.000000004469257 4.000000003883542 12.000000004469257 2.000000003886271 14.000000004469257 4.000000003883542" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="5.000000004469257" y1="16.000000003885361" x2="19.000000004469257" y2="16.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="13.999998272249286 20.000000696674761 12.000000350550181 21.999998618364771 10.000002428869266 20.000000696674761" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
-));
+const MoveUpDown3 = forwardRef(function MoveUpDown3(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('line', {"x1":"19.000000004469257","y1":"12.000000003885361","x2":"5.000000004469257","y2":"12.000000003885361","key":"0"}),
+    createElement('line', {"x1":"19.000000004469257","y1":"8.000000003885361","x2":"5.000000004469257","y2":"8.000000003885361","key":"1"}),
+    createElement('polyline', {"points":"10.000000004469257 4.000000003883542 12.000000004469257 2.000000003886271 14.000000004469257 4.000000003883542","key":"2"}),
+    createElement('line', {"x1":"5.000000004469257","y1":"16.000000003885361","x2":"19.000000004469257","y2":"16.000000003885361","key":"3"}),
+    createElement('polyline', {"points":"13.999998272249286 20.000000696674761 12.000000350550181 21.999998618364771 10.000002428869266 20.000000696674761","key":"4"})
+  );
+});
 
 MoveUpDown3.displayName = 'MoveUpDown3';
 

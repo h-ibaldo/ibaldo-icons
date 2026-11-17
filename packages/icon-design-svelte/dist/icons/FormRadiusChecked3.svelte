@@ -23,7 +23,7 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <line x1="18.00000000376167" y1="11.999999998985004" x2="22.00000000376167" y2="11.999999998985004" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="8.00000000376167" cy="11.999999998985004" r="6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="6.00000000376167 11.999999998985004 7.50000000376167 13.499999998985004 10.00000000376167 10.999999998985004" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="18.00000000376167" y1="11.999999998985004" x2="22.00000000376167" y2="11.999999998985004"/>
+  <circle cx="8.00000000376167" cy="11.999999998985004" r="6"/>
+  <polyline points="6.00000000376167 11.999999998985004 7.50000000376167 13.499999998985004 10.00000000376167 10.999999998985004"/>
 </svg>

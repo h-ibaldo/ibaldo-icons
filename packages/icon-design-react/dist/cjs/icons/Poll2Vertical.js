@@ -1,40 +1,41 @@
-"use strict";
+'use strict';
 
-const { forwardRef } = require('react');
+const { createElement, forwardRef } = require('react');
 
-const Poll2Vertical = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  React.createElement('svg', {
-    ref,
-    xmlns: "http://www.w3.org/2000/svg",
-    width: size,
-    height: size,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: color,
-    strokeWidth,
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    className: `icon-design ${className}`.trim(),
-    ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<line x1="6.00000000036016" y1="1.999999999638021" x2="2" y2="5.999999999277861" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="6" y1="6.009999999638239" x2="6" y2="5.999999999638021" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="2.00000000036016" y1="2.009999999278079" x2="2.00000000036016" y2="1.999999999277861" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="14" y1="9.999999999998181" x2="9.99999999963984" y2="13.999999999641659" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="13.99999999963984" y1="14.009999999998399" x2="13.99999999963984" y2="13.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="10" y1="10.009999999641877" x2="10" y2="9.999999999641659" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="22.000000000170985" y1="6.000000000358341" x2="17.999999999810825" y2="9.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="21.999999999810825" y1="10.010000000358559" x2="21.999999999810825" y2="10.000000000358341" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="18.000000000170985" y1="6.009999999998399" x2="18.000000000170985" y2="5.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="1.99999999937063 21.999999999368811 1.99999999991087 9.999999999368811 5.99999999991087 9.999999999547072 5.99999999937063 21.999999999547072" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="9.99999999937063 21.999999999728971 9.99999999955071 17.999999999728971 13.99999999955071 17.999999999907232 13.99999999937063 21.999999999907232" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="17.99999999937063 22.00000000008913 17.99999999973079 14.00000000008913 21.99999999973079 14.000000000267391 21.99999999937063 22.000000000267391" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
-));
+const Poll2Vertical = forwardRef(function Poll2Vertical(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('line', {"x1":"6.00000000036016","y1":"1.999999999638021","x2":"2","y2":"5.999999999277861","key":"0"}),
+    createElement('line', {"x1":"6","y1":"6.009999999638239","x2":"6","y2":"5.999999999638021","key":"1"}),
+    createElement('line', {"x1":"2.00000000036016","y1":"2.009999999278079","x2":"2.00000000036016","y2":"1.999999999277861","key":"2"}),
+    createElement('line', {"x1":"14","y1":"9.999999999998181","x2":"9.99999999963984","y2":"13.999999999641659","key":"3"}),
+    createElement('line', {"x1":"13.99999999963984","y1":"14.009999999998399","x2":"13.99999999963984","y2":"13.999999999998181","key":"4"}),
+    createElement('line', {"x1":"10","y1":"10.009999999641877","x2":"10","y2":"9.999999999641659","key":"5"}),
+    createElement('line', {"x1":"22.000000000170985","y1":"6.000000000358341","x2":"17.999999999810825","y2":"9.999999999998181","key":"6"}),
+    createElement('line', {"x1":"21.999999999810825","y1":"10.010000000358559","x2":"21.999999999810825","y2":"10.000000000358341","key":"7"}),
+    createElement('line', {"x1":"18.000000000170985","y1":"6.009999999998399","x2":"18.000000000170985","y2":"5.999999999998181","key":"8"}),
+    createElement('polyline', {"points":"1.99999999937063 21.999999999368811 1.99999999991087 9.999999999368811 5.99999999991087 9.999999999547072 5.99999999937063 21.999999999547072","key":"9"}),
+    createElement('polyline', {"points":"9.99999999937063 21.999999999728971 9.99999999955071 17.999999999728971 13.99999999955071 17.999999999907232 13.99999999937063 21.999999999907232","key":"10"}),
+    createElement('polyline', {"points":"17.99999999937063 22.00000000008913 17.99999999973079 14.00000000008913 21.99999999973079 14.000000000267391 21.99999999937063 22.000000000267391","key":"11"})
+  );
+});
 
 Poll2Vertical.displayName = 'Poll2Vertical';
 

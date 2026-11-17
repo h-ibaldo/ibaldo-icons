@@ -62,7 +62,10 @@ function parseSVG(svgContent) {
   // Clean up inner content - remove data-name and id attributes
   innerContent = innerContent
     .replace(/\s*data-name="[^"]*"/g, '')
-    .replace(/\s*id="[^"]*"/g, '');
+    .replace(/\s*id="[^"]*"/g, '')
+    // Paint is set once on the root <svg>; repeating it on children would
+    // make the color and strokeWidth props do nothing.
+    .replace(/\s*(fill|stroke|stroke-width|stroke-linecap|stroke-linejoin)="[^"]*"/g, '');
   
   return {
     viewBox,

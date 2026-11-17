@@ -23,10 +23,10 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <path d="M15.999999999998181,1.999999999998181H2.999999973304512c-.55230712890625,0-1,.447692871090112-1,1v19l7-4,7,4v-8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15.999999999998181,1.999999999998181H2.999999973304512c-.55230712890625,0-1,.447692871090112-1,1v19l7-4,7,4v-8"/>
   <g>
-  <circle cx="15.99999997087798" cy="7.999999997570285" r="5.99999999757506" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="13.999999955856765" y1="7.999999999998181" x2="14.009999968451666" y2="7.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="17.999999955856765" y1="7.999999999998181" x2="17.98999996845123" y2="7.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="15.99999997087798" cy="7.999999997570285" r="5.99999999757506"/>
+  <line x1="13.999999955856765" y1="7.999999999998181" x2="14.009999968451666" y2="7.999999999998181"/>
+  <line x1="17.999999955856765" y1="7.999999999998181" x2="17.98999996845123" y2="7.999999999998181"/>
   </g>
 </svg>

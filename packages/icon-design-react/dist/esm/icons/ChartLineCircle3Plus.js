@@ -1,32 +1,31 @@
-import { forwardRef } from 'react';
+import { createElement, forwardRef } from 'react';
 
-const ChartLineCircle3Plus = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  <svg
-    ref={ref}
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke={color}
-    strokeWidth={strokeWidth}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className={`icon-design ${className}`.trim()}
-    {...props}
-  >
-    <polyline points="7 12 10 16 14 8 17 12" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="19.5" y1="7.499999999909051" x2="19.499999999909051" y2="2.5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="17" y1="5" x2="21.999999999909051" y2="4.999999999909051" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M14,2.200927734375c-.646240234369543-.13134765625-1.31494140625-.200927734375-2-.200927734375C6.47705078125,2,2,6.4771728515625,2,12c0,5.52294921875,4.47705078125,10,10,10s10-4.47705078125,10-10c0-.33758544921875-.017578125-.67108154296875-.050537109369543-1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-));
+const ChartLineCircle3Plus = forwardRef(function ChartLineCircle3Plus(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('polyline', {"points":"7 12 10 16 14 8 17 12","key":"0"}),
+    createElement('line', {"x1":"19.5","y1":"7.499999999909051","x2":"19.499999999909051","y2":"2.5","key":"1"}),
+    createElement('line', {"x1":"17","y1":"5","x2":"21.999999999909051","y2":"4.999999999909051","key":"2"}),
+    createElement('path', {"d":"M14,2.200927734375c-.646240234369543-.13134765625-1.31494140625-.200927734375-2-.200927734375C6.47705078125,2,2,6.4771728515625,2,12c0,5.52294921875,4.47705078125,10,10,10s10-4.47705078125,10-10c0-.33758544921875-.017578125-.67108154296875-.050537109369543-1","key":"3"})
+  );
+});
 
 ChartLineCircle3Plus.displayName = 'ChartLineCircle3Plus';
 

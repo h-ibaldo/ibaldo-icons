@@ -1,31 +1,32 @@
-"use strict";
+'use strict';
 
-const { forwardRef } = require('react');
+const { createElement, forwardRef } = require('react');
 
-const ChartVerticalColumns6 = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  React.createElement('svg', {
-    ref,
-    xmlns: "http://www.w3.org/2000/svg",
-    width: size,
-    height: size,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: color,
-    strokeWidth,
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    className: `icon-design ${className}`.trim(),
-    ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<rect x="2" y="13" width="4" height="8" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <rect x="10" y="3" width="4" height="18" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <rect x="18" y="8" width="4" height="13" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
-));
+const ChartVerticalColumns6 = forwardRef(function ChartVerticalColumns6(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('rect', {"x":"2","y":"13","width":"4","height":"8","key":"0"}),
+    createElement('rect', {"x":"10","y":"3","width":"4","height":"18","key":"1"}),
+    createElement('rect', {"x":"18","y":"8","width":"4","height":"13","key":"2"})
+  );
+});
 
 ChartVerticalColumns6.displayName = 'ChartVerticalColumns6';
 

@@ -23,12 +23,12 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <rect x="1.999999994000973" y="1.998779299956368" width="7" height="5" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="1.999999994000973" y1="9.998779299956368" x2="8.999999994000973" y2="9.998779299956368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="14.999999994000973" y="1.998779299956368" width="7" height="5" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="14.999999994000973" y1="9.998779299956368" x2="21.999999994000973" y2="9.998779299956368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="1.999999994000973" y="13.99877929995273" width="7" height="5" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="1.999999994000973" y1="21.998779299956368" x2="8.999999994000973" y2="21.998779299956368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="14.999999994000973" y="13.99877929995273" width="7" height="5" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="14.999999994000973" y1="21.998779299956368" x2="21.999999994000973" y2="21.998779299956368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1.999999994000973" y="1.998779299956368" width="7" height="5" rx="1" ry="1"/>
+  <line x1="1.999999994000973" y1="9.998779299956368" x2="8.999999994000973" y2="9.998779299956368"/>
+  <rect x="14.999999994000973" y="1.998779299956368" width="7" height="5" rx="1" ry="1"/>
+  <line x1="14.999999994000973" y1="9.998779299956368" x2="21.999999994000973" y2="9.998779299956368"/>
+  <rect x="1.999999994000973" y="13.99877929995273" width="7" height="5" rx="1" ry="1"/>
+  <line x1="1.999999994000973" y1="21.998779299956368" x2="8.999999994000973" y2="21.998779299956368"/>
+  <rect x="14.999999994000973" y="13.99877929995273" width="7" height="5" rx="1" ry="1"/>
+  <line x1="14.999999994000973" y1="21.998779299956368" x2="21.999999994000973" y2="21.998779299956368"/>
 </svg>

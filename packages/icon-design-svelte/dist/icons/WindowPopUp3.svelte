@@ -23,10 +23,10 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <rect x="2" y="2" width="20" height="20" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="2" y1="8" x2="22" y2="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="5.010000000000218" y1="5" x2="5" y2="5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="8.010000000000218" y1="5" x2="8" y2="5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11.010000000000218" y1="5" x2="11" y2="5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="9" y="12" width="10" height="7" rx=".853912563829908" ry=".853912563829908" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2" y="2" width="20" height="20" rx="2" ry="2"/>
+  <line x1="2" y1="8" x2="22" y2="8"/>
+  <line x1="5.010000000000218" y1="5" x2="5" y2="5"/>
+  <line x1="8.010000000000218" y1="5" x2="8" y2="5"/>
+  <line x1="11.010000000000218" y1="5" x2="11" y2="5"/>
+  <rect x="9" y="12" width="10" height="7" rx=".853912563829908" ry=".853912563829908"/>
 </svg>

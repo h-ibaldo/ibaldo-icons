@@ -23,8 +23,8 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <rect x="2.000000005000402" y="2.000000003888999" width="7" height="6.999999999997272" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="15.000000005000402" y="2.000000003888999" width="7" height="6.999999999997272" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="2.000000005000402" y="15.000000003886271" width="7" height="7" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="15.000000005000402" y="15.000000003886271" width="7" height="7" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2.000000005000402" y="2.000000003888999" width="7" height="6.999999999997272" rx="2" ry="2"/>
+  <rect x="15.000000005000402" y="2.000000003888999" width="7" height="6.999999999997272" rx="2" ry="2"/>
+  <rect x="2.000000005000402" y="15.000000003886271" width="7" height="7" rx="2" ry="2"/>
+  <rect x="15.000000005000402" y="15.000000003886271" width="7" height="7" rx="2" ry="2"/>
 </svg>

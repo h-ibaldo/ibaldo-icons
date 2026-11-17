@@ -23,9 +23,9 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <rect x="7" y="6" width="14" height="16" rx="1" ry="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16,2H4c-.552284749830505,0-1,.447715250171314-1,1v14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11" y1="10" x2="17" y2="10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11" y1="14" x2="17" y2="14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11" y1="18" x2="17" y2="18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="7" y="6" width="14" height="16" rx="1" ry="1"/>
+  <path d="M16,2H4c-.552284749830505,0-1,.447715250171314-1,1v14"/>
+  <line x1="11" y1="10" x2="17" y2="10"/>
+  <line x1="11" y1="14" x2="17" y2="14"/>
+  <line x1="11" y1="18" x2="17" y2="18"/>
 </svg>

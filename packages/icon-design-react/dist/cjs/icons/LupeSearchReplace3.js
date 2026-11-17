@@ -1,34 +1,35 @@
-"use strict";
+'use strict';
 
-const { forwardRef } = require('react');
+const { createElement, forwardRef } = require('react');
 
-const LupeSearchReplace3 = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  React.createElement('svg', {
-    ref,
-    xmlns: "http://www.w3.org/2000/svg",
-    width: size,
-    height: size,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: color,
-    strokeWidth,
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    className: `icon-design ${className}`.trim(),
-    ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="16.000000005000402 7.000000003886271 16.000000005000402 3.000000003886271 20.000000005000402 3.000000003886271" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="6.000000005000402 15.000000003886271 6.000000004729372 19.00000000352793 2.000000005000402 19.000000003256901" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="17.363952641720971" y1="17.36395264060593" x2="22.000000005000402" y2="22.000000003886271" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="6.000000005049515 15.000000004244612 6.000000004689355 19.000000004244612 2.000000004689355 19.000000003886271" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M10.000000004600224,19.941345219449431c.328674316400793.036376953153194.66162109375.058654785212639,1,.058654785244471,4.970581054680224.000000000446562,9.00000000036016-4.02941894450214,9.000000000400178-8.99999999919055.000000000560249-3.119995117186591-1.588562010660098-5.86773681669365-3.999999998659405-7.48236084056407" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M12.000000006599294,2.058654789222601c-.328674316389879-.036376953183208-.661621093728172-.058654785276303-.999999999978172-.05865478533633-4.970581054680224-.000000000893124-9.000000000731234,4.029418943695418-9.00000000162072,8.999999998382918.000000000120053,3.119995118806401,1.588562011600516,5.867736818167032,3.999999999728971,7.482360841819172" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
-));
+const LupeSearchReplace3 = forwardRef(function LupeSearchReplace3(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('polyline', {"points":"16.000000005000402 7.000000003886271 16.000000005000402 3.000000003886271 20.000000005000402 3.000000003886271","key":"0"}),
+    createElement('polyline', {"points":"6.000000005000402 15.000000003886271 6.000000004729372 19.00000000352793 2.000000005000402 19.000000003256901","key":"1"}),
+    createElement('line', {"x1":"17.363952641720971","y1":"17.36395264060593","x2":"22.000000005000402","y2":"22.000000003886271","key":"2"}),
+    createElement('polyline', {"points":"6.000000005049515 15.000000004244612 6.000000004689355 19.000000004244612 2.000000004689355 19.000000003886271","key":"3"}),
+    createElement('path', {"d":"M10.000000004600224,19.941345219449431c.328674316400793.036376953153194.66162109375.058654785212639,1,.058654785244471,4.970581054680224.000000000446562,9.00000000036016-4.02941894450214,9.000000000400178-8.99999999919055.000000000560249-3.119995117186591-1.588562010660098-5.86773681669365-3.999999998659405-7.48236084056407","key":"4"}),
+    createElement('path', {"d":"M12.000000006599294,2.058654789222601c-.328674316389879-.036376953183208-.661621093728172-.058654785276303-.999999999978172-.05865478533633-4.970581054680224-.000000000893124-9.000000000731234,4.029418943695418-9.00000000162072,8.999999998382918.000000000120053,3.119995118806401,1.588562011600516,5.867736818167032,3.999999999728971,7.482360841819172","key":"5"})
+  );
+});
 
 LupeSearchReplace3.displayName = 'LupeSearchReplace3';
 

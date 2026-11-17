@@ -23,5 +23,5 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <polyline points="4 12.000000000480213 9 19.000000000480213 15 5.000000000480213 20 12.000000000480213" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="4 12.000000000480213 9 19.000000000480213 15 5.000000000480213 20 12.000000000480213"/>
 </svg>

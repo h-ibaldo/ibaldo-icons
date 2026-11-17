@@ -23,14 +23,14 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <rect x="2.974731449503452" y="2.000000000478394" width="6" height="4.999999999998181" rx="1.999999999998181" ry="1.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="8.974731449503452" y="2.000000000478394" width="6" height="4.999999999998181" rx="1.999999999998181" ry="1.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="14.974731449503452" y="2.000000000478394" width="6" height="4.999999999998181" rx="1.999999999998181" ry="1.999999999998181" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="2.974731449503452" y="7.000000000480213" width="6" height="5" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="8.974731449503452" y="7.000000000480213" width="6" height="5" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="14.974731449503452" y="7.000000000480213" width="6" height="5" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="2.974731449503452" y="12.000000000480213" width="6" height="5" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="8.974731449503452" y="12.000000000480213" width="6" height="5" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="8.974731449503452" y="17.000000000480213" width="6" height="5" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="14.974731449503452" y="12.000000000480213" width="6" height="5" rx="2" ry="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2.974731449503452" y="2.000000000478394" width="6" height="4.999999999998181" rx="1.999999999998181" ry="1.999999999998181"/>
+  <rect x="8.974731449503452" y="2.000000000478394" width="6" height="4.999999999998181" rx="1.999999999998181" ry="1.999999999998181"/>
+  <rect x="14.974731449503452" y="2.000000000478394" width="6" height="4.999999999998181" rx="1.999999999998181" ry="1.999999999998181"/>
+  <rect x="2.974731449503452" y="7.000000000480213" width="6" height="5" rx="2" ry="2"/>
+  <rect x="8.974731449503452" y="7.000000000480213" width="6" height="5" rx="2" ry="2"/>
+  <rect x="14.974731449503452" y="7.000000000480213" width="6" height="5" rx="2" ry="2"/>
+  <rect x="2.974731449503452" y="12.000000000480213" width="6" height="5" rx="2" ry="2"/>
+  <rect x="8.974731449503452" y="12.000000000480213" width="6" height="5" rx="2" ry="2"/>
+  <rect x="8.974731449503452" y="17.000000000480213" width="6" height="5" rx="2" ry="2"/>
+  <rect x="14.974731449503452" y="12.000000000480213" width="6" height="5" rx="2" ry="2"/>
 </svg>

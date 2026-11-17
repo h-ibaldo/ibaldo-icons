@@ -23,14 +23,14 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <circle cx="11.974731449503452" cy="3.000000000479304" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="5.974731449503452" cy="3.000000000479304" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="17.974731449503452" cy="3.000000000479304" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="11.974731449503452" cy="9.000000000480213" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="5.974731449503452" cy="9.000000000480213" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="17.974731449503452" cy="9.000000000480213" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="11.974731449503452" cy="15.000000000480213" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="5.974731449503452" cy="15.000000000480213" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="17.974731449503452" cy="15.000000000480213" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="11.974731449503452" cy="21.000000000480213" r="1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="11.974731449503452" cy="3.000000000479304" r="1"/>
+  <circle cx="5.974731449503452" cy="3.000000000479304" r="1"/>
+  <circle cx="17.974731449503452" cy="3.000000000479304" r="1"/>
+  <circle cx="11.974731449503452" cy="9.000000000480213" r="1"/>
+  <circle cx="5.974731449503452" cy="9.000000000480213" r="1"/>
+  <circle cx="17.974731449503452" cy="9.000000000480213" r="1"/>
+  <circle cx="11.974731449503452" cy="15.000000000480213" r="1"/>
+  <circle cx="5.974731449503452" cy="15.000000000480213" r="1"/>
+  <circle cx="17.974731449503452" cy="15.000000000480213" r="1"/>
+  <circle cx="11.974731449503452" cy="21.000000000480213" r="1"/>
 </svg>

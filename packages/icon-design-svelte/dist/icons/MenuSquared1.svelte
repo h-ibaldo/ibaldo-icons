@@ -23,13 +23,13 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <rect x="2.000000004889444" y="1.999999995256076" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10.000000004889444" y="1.999999995256076" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="18.000000004889444" y="1.999999995256076" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="2.000000004889444" y="9.999999995256076" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10.000000004889444" y="9.999999995256076" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="18.000000004889444" y="9.999999995256076" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="2.000000004889444" y="17.999999995256076" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10.000000004889444" y="17.999999995256076" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="18.000000004889444" y="17.999999995256076" width="4" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2.000000004889444" y="1.999999995256076" width="4" height="4"/>
+  <rect x="10.000000004889444" y="1.999999995256076" width="4" height="4"/>
+  <rect x="18.000000004889444" y="1.999999995256076" width="4" height="4"/>
+  <rect x="2.000000004889444" y="9.999999995256076" width="4" height="4"/>
+  <rect x="10.000000004889444" y="9.999999995256076" width="4" height="4"/>
+  <rect x="18.000000004889444" y="9.999999995256076" width="4" height="4"/>
+  <rect x="2.000000004889444" y="17.999999995256076" width="4" height="4"/>
+  <rect x="10.000000004889444" y="17.999999995256076" width="4" height="4"/>
+  <rect x="18.000000004889444" y="17.999999995256076" width="4" height="4"/>
 </svg>

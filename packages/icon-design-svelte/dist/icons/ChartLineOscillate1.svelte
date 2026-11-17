@@ -23,6 +23,6 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <polyline points="7 10 11 16 17 4 21 10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="2 2 2 22 22 22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="7 10 11 16 17 4 21 10"/>
+  <polyline points="2 2 2 22 22 22"/>
 </svg>

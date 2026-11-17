@@ -1,35 +1,36 @@
-"use strict";
+'use strict';
 
-const { forwardRef } = require('react');
+const { createElement, forwardRef } = require('react');
 
-const AtSign2Check = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  React.createElement('svg', {
-    ref,
-    xmlns: "http://www.w3.org/2000/svg",
-    width: size,
-    height: size,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: color,
-    strokeWidth,
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    className: `icon-design ${className}`.trim(),
-    ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<circle cx="13.041899010609995" cy="13.056394887040369" r="4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M13.041899010609995,4.056394887444185c4.970581054689319-.000000000221917,9.00000000018008,4.029418944908684,9.000000000409273,8.999999999596184" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="13.041899010609995" y1="22.056394887040369" x2="18.041899010609995" y2="22.056394887040369" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="2.041899011019268 4.05639488703855 4.041899011019268 6.05639488703855 8.041899011019268 2.05639488703855" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M13.041899011019268,4.056394887040369c-.6884765625,0-1.35595703125.0843505859375-2,.230712890625" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M4.564848229769268,10.056394887040369c-.33251953125.9395751953125-.52294921875,1.9464111328125-.52294921875,3,0,4.9705810546875,4.029296875,9,9,9" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M22.067167566010539,13.056394882200038v1.500002499999027c0,1.38071049386599-1.119287006129525,2.499997500000973-2.499997500000973,2.499997500000973h-.000004999999874c-1.380710493858714,0-2.499997499999154-1.119287006134982-2.499997499999154-2.499997500000973v-1.500002499999027" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
-));
+const AtSign2Check = forwardRef(function AtSign2Check(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('circle', {"cx":"13.041899010609995","cy":"13.056394887040369","r":"4","key":"0"}),
+    createElement('path', {"d":"M13.041899010609995,4.056394887444185c4.970581054689319-.000000000221917,9.00000000018008,4.029418944908684,9.000000000409273,8.999999999596184","key":"1"}),
+    createElement('line', {"x1":"13.041899010609995","y1":"22.056394887040369","x2":"18.041899010609995","y2":"22.056394887040369","key":"2"}),
+    createElement('polyline', {"points":"2.041899011019268 4.05639488703855 4.041899011019268 6.05639488703855 8.041899011019268 2.05639488703855","key":"3"}),
+    createElement('path', {"d":"M13.041899011019268,4.056394887040369c-.6884765625,0-1.35595703125.0843505859375-2,.230712890625","key":"4"}),
+    createElement('path', {"d":"M4.564848229769268,10.056394887040369c-.33251953125.9395751953125-.52294921875,1.9464111328125-.52294921875,3,0,4.9705810546875,4.029296875,9,9,9","key":"5"}),
+    createElement('path', {"d":"M22.067167566010539,13.056394882200038v1.500002499999027c0,1.38071049386599-1.119287006129525,2.499997500000973-2.499997500000973,2.499997500000973h-.000004999999874c-1.380710493858714,0-2.499997499999154-1.119287006134982-2.499997499999154-2.499997500000973v-1.500002499999027","key":"6"})
+  );
+});
 
 AtSign2Check.displayName = 'AtSign2Check';
 

@@ -1,30 +1,29 @@
-import { forwardRef } from 'react';
+import { createElement, forwardRef } from 'react';
 
-const BookmarkThree3 = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  <svg
-    ref={ref}
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke={color}
-    strokeWidth={strokeWidth}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className={`icon-design ${className}`.trim()}
-    {...props}
-  >
-    <path d="M21,2H7c-1.656854249493335,0-3,1.343145750510303-3,3v17l7-4.000000004851245,7,4.000000004851245V4.999997000000803c0-1.656852592641371,1.343144416809082-2.999997000000803,2.999996999998984-2.999997000000803h.000003000001016Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M9,7h4l-2,3,.84360230643324.421801153219349c.70871690353124.354358451761073,1.15639769356676,1.078721186149778,1.15639769356676,1.871090772699972v.000002000000677c0,.452752415530995-.179855196776771.886961270860411-.499999499999831,1.207105574079833l-.000001000000339.000001000000339c-.32014430322306.320144303219422-.7543531585452.499999499999831-1.207105574079833.499999499999831h-.000001999998858c-.827824797357607,0-1.621744046235108-.32885212031033-2.207104574081313-.914212648160174l-.085787351839826-.085787351839826" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-));
+const BookmarkThree3 = forwardRef(function BookmarkThree3(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M21,2H7c-1.656854249493335,0-3,1.343145750510303-3,3v17l7-4.000000004851245,7,4.000000004851245V4.999997000000803c0-1.656852592641371,1.343144416809082-2.999997000000803,2.999996999998984-2.999997000000803h.000003000001016Z","key":"0"}),
+    createElement('path', {"d":"M9,7h4l-2,3,.84360230643324.421801153219349c.70871690353124.354358451761073,1.15639769356676,1.078721186149778,1.15639769356676,1.871090772699972v.000002000000677c0,.452752415530995-.179855196776771.886961270860411-.499999499999831,1.207105574079833l-.000001000000339.000001000000339c-.32014430322306.320144303219422-.7543531585452.499999499999831-1.207105574079833.499999499999831h-.000001999998858c-.827824797357607,0-1.621744046235108-.32885212031033-2.207104574081313-.914212648160174l-.085787351839826-.085787351839826","key":"1"})
+  );
+});
 
 BookmarkThree3.displayName = 'BookmarkThree3';
 

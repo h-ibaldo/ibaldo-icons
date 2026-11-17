@@ -23,9 +23,9 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <circle cx="10.999999993273377" cy="10.998779299955459" r="8.999999999998636" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="17.363952629993946" y1="17.362731936675118" x2="21.999999993273377" y2="21.998779299956368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="6.999999993283382" y1="11.008779299956586" x2="6.999999993283382" y2="10.998779299956368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="10.999999993283382" y1="11.008779299956586" x2="10.999999993283382" y2="10.998779299956368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="14.999999993283382" y1="11.008779299956586" x2="14.999999993283382" y2="10.998779299956368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="10.999999993273377" cy="10.998779299955459" r="8.999999999998636"/>
+  <line x1="17.363952629993946" y1="17.362731936675118" x2="21.999999993273377" y2="21.998779299956368"/>
+  <line x1="6.999999993283382" y1="11.008779299956586" x2="6.999999993283382" y2="10.998779299956368"/>
+  <line x1="10.999999993283382" y1="11.008779299956586" x2="10.999999993283382" y2="10.998779299956368"/>
+  <line x1="14.999999993283382" y1="11.008779299956586" x2="14.999999993283382" y2="10.998779299956368"/>
 </svg>
