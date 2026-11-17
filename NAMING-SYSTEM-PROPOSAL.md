@@ -1,6 +1,6 @@
 # Proposta: sistema de nomes para toda a Primor Icons
 
-Status: **proposta**. Nada foi renomeado em `metadata/icons/`.
+Status: **aprovada e aplicada** (ver seção 12).
 O mapeamento completo dos 2.441 ícones está em `metadata/naming/proposed-all.json`
 e já passou no teste (`apply-metadata.js --dry-run`): todos os nomes são válidos e únicos.
 
@@ -384,21 +384,22 @@ registrada no `NAMING-GUIDE.md`.
 
 Mudar 97% dos nomes **quebra o código de quem já usa os pacotes**. Por isso o plano de migração abaixo prevê apelidos (aliases).
 
-## 12. Decisões em aberto (para o Henrique escolher)
+## 12. Decisões tomadas (17/11/2026)
 
-1. **Marca ou significado?** A proposta usa a marca desenhada (`X`, `Plus`, `Minus`).
-   A alternativa é usar o significado (`Close`, `Add`, `Remove`), como o `NAMING-GUIDE.md` diz hoje.
-   *Recomendo a marca:* o mesmo X quer dizer fechar, apagar ou erro, e o significado vai para as tags.
-2. **Estilo no fim ou logo depois da família?** `CloudUploadRound` (recomendado, agrupa por significado)
-   ou `CloudRoundUpload` (agrupa por desenho).
-3. **Letras B/C nas lupas.** Ficam `SearchB`/`SearchC`, ou escolhemos um base e removemos os outros?
-4. **Os 50 nomes com `2`/`3`:** manter, ou remover os ícones repetidos da biblioteca?
-5. **Avatar vs User:** `user-head-36` duplica `1-user-head-36`. Remover?
-6. **Nomes com 5 ou mais palavras (140):** aceitar, ou cortar a palavra de posição (`Corner`/`Center`)
-   quando ela não for necessária para diferenciar?
-7. **`Window` tem 179 ícones.** Aceitar uma família grande, ou separar `WindowDots` (com os três pontos) como família própria?
-8. **Balões de conversa:** a família é `Chat` (recomendado), `Message` (Lucide) ou `Bubble`?
-9. **Aliases:** manter os nomes antigos como apelidos por uma versão major (recomendado) ou quebrar de uma vez?
+O Henrique decidiu as 9 questões:
+
+1. **Marca, não significado.** Os nomes usam `X`, `Plus`, `Minus`. Os significados (close, add, delete, error…) vão para as tags.
+2. **Estilo no fim:** `CloudUploadRound`.
+3. **As três lupas ficam:** `Search`, `SearchB`, `SearchC`.
+4. **Os 50 quase-duplicados ficam**, com `2`/`3`.
+5. **`user-head-36` sai** (cópia exata de `1-user-head-36`, que fica).
+6. **`Corner`/`Center` só quando são necessários:** a palavra sai quando o nome continua único dentro da família sem ela.
+7. **`Window` continua uma família só.**
+8. **Balões de conversa = `Chat`.**
+9. **Apelidos (aliases) por uma versão major:** os nomes antigos continuam funcionando, marcados como `@deprecated`.
+
+Status: as regras estão no `NAMING-GUIDE.md` e os nomes foram aplicados em `metadata/icons/`
+(lotes `metadata/naming/2026-11-17-system-*.json`).
 
 ## 13. Plano de migração
 
