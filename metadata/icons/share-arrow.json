@@ -1,5 +1,5 @@
 {
-  "name": "Share",
+  "name": "ShareCorner",
   "description": "A simple share arrow icon for export and distribution actions",
   "tags": [
     "share",
@@ -28,10 +28,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "Share",
+  "displayName": "Share corner",
   "aliases": [
     "ShareArrow"
   ],
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T15:32:50.935Z"
+  "updatedAt": "2026-11-17T15:34:27.643Z"
 }

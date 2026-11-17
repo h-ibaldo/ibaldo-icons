@@ -1,5 +1,5 @@
 {
-  "name": "AvatarFaceLongPart",
+  "name": "AvatarFaceLongCenterPart",
   "description": "Face with eyes and long straight hair parted in the center.",
   "tags": [
     "user",
@@ -34,7 +34,7 @@
   "deprecated": false,
   "displayName": "Avatar face, long center part",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "updatedAt": "2026-11-17T15:34:27.643Z",
   "aliases": [
     "UserFaceLongCenterPart"
   ]

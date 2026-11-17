@@ -1,10 +1,10 @@
 {
   "1-user-head-1": {
-    "name": "AvatarHeadLongPart",
+    "name": "AvatarHeadLongCenterPart",
     "displayName": "Avatar head, long center part"
   },
   "1-user-head-2": {
-    "name": "AvatarHeadShoulderPart",
+    "name": "AvatarHeadShoulderCenterPart",
     "displayName": "Avatar head, shoulder center part"
   },
   "1-user-head-3": {
@@ -12,7 +12,7 @@
     "displayName": "Avatar head, side bangs"
   },
   "1-user-head-4": {
-    "name": "AvatarHeadShoulderPart2",
+    "name": "AvatarHeadShoulderCenterPart2",
     "displayName": "Avatar head, shoulder center part 2"
   },
   "1-user-head-5": {
@@ -52,7 +52,7 @@
     "displayName": "Avatar head, curly top"
   },
   "1-user-head-15": {
-    "name": "AvatarHeadRoundPart",
+    "name": "AvatarHeadRoundCenterPart",
     "displayName": "Avatar head, round center part"
   },
   "1-user-head-16": {
@@ -148,7 +148,7 @@
     "displayName": "Avatar face, long swept bangs"
   },
   "1-user-person-3": {
-    "name": "AvatarFaceLongPart",
+    "name": "AvatarFaceLongCenterPart",
     "displayName": "Avatar face, long center part"
   },
   "1-user-person-4": {
@@ -6812,8 +6812,8 @@
     "displayName": "Newspaper card"
   },
   "newspaper-news-6": {
-    "name": "NewspaperFold",
-    "displayName": "Newspaper fold"
+    "name": "NewspaperCornerFold",
+    "displayName": "Newspaper corner fold"
   },
   "newspaper-news-7": {
     "name": "NewspaperStack",
@@ -7800,8 +7800,8 @@
     "displayName": "Square stack"
   },
   "share-arrow": {
-    "name": "Share",
-    "displayName": "Share"
+    "name": "ShareCorner",
+    "displayName": "Share corner"
   },
   "share-arrow-box-square": {
     "name": "ShareSquare",

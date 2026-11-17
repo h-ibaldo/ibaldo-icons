@@ -1,5 +1,5 @@
 {
-  "name": "NewspaperFold",
+  "name": "NewspaperCornerFold",
   "description": "A newspaper icon variant 6 representing news media and publications",
   "tags": [
     "newspaper",
@@ -32,10 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "Newspaper fold",
+  "displayName": "Newspaper corner fold",
   "aliases": [
     "Newspaper6"
   ],
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T15:32:50.501Z"
+  "updatedAt": "2026-11-17T15:34:27.643Z"
 }
