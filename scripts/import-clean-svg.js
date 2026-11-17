@@ -14,7 +14,8 @@
  * - rounds coordinates to 3 decimals and drops the dangling "M x y" that
  *   pdftocairo appends after Z,
  * - writes each shape with fill="none" stroke="currentColor"
- *   stroke-linecap="round" stroke-linejoin="round" and nothing else
+ *   stroke-linecap="round" stroke-linejoin="round" (plus stroke-dasharray
+ *   for dotted lines) and nothing else
  *   (no stroke-width, opacity, miterlimit, pt units or groups),
  * - refuses files with fills, opacity < 1, groups, masks or clips, so
  *   surprises are reported instead of silently dropped.
@@ -85,7 +86,10 @@ export function cleanSvg(raw) {
       if (v !== null && Number(v) < 1) throw new Error(`${o} ${v}`);
     }
     const d = transformPath(attr(tag, 'd'), parseMatrix(attr(tag, 'transform')));
-    return `  <path d="${d}" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>`;
+    // Dotted/dashed lines keep their dash pattern (the library has a few, e.g. ".5 3.5")
+    const dash = attr(tag, 'stroke-dasharray');
+    const dashAttr = dash && dash !== 'none' ? ` stroke-dasharray="${dash.trim().split(/[\s,]+/).join(' ')}"` : '';
+    return `  <path d="${d}" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"${dashAttr}/>`;
   });
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">\n${body.join('\n')}\n</svg>\n`;
 }
