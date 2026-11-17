@@ -1,16 +1,18 @@
 {
-  "name": "Bookmark3Slash",
+  "name": "BookmarkOffRound",
   "description": "A bookmark icon with a diagonal slash indicating a disabled or inactive bookmark",
   "tags": [
     "bookmark",
     "slash",
     "disabled",
+    "mute",
     "inactive",
     "off",
-    "deny"
+    "deny",
+    "round"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark off round",
+  "aliases": [
+    "Bookmark3Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

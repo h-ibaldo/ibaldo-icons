@@ -1,5 +1,5 @@
 {
-  "name": "Cursor9",
+  "name": "CursorUp2",
   "description": "A cursor pointer icon variant 9 for interface navigation and interaction design",
   "tags": [
     "cursor",
@@ -8,12 +8,10 @@
     "select",
     "navigation",
     "interaction",
-    "mouse",
-    "variant 9"
+    "mouse"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "decorative",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cursor up2",
+  "aliases": [
+    "Cursor9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,16 +1,16 @@
 {
-  "name": "Bookmark2Close",
+  "name": "BookmarkXCurl",
   "description": "A bookmark icon with an X close symbol indicating removal or dismissal",
   "tags": [
     "bookmark",
     "close",
-    "x",
+    "delete",
     "remove",
     "dismiss",
-    "delete"
+    "curl"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "interactive",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark X curl",
+  "aliases": [
+    "Bookmark2Close"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

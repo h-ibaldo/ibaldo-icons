@@ -1,5 +1,5 @@
 {
-  "name": "HandCursor6",
+  "name": "HandPointerFingers",
   "description": "A hand cursor pointer icon in variant 6 style for interactive click or selection interface elements",
   "tags": [
     "hand",
@@ -9,9 +9,10 @@
     "select",
     "interactive",
     "gesture",
-    "variant6"
+    "fingers"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand pointer fingers",
+  "aliases": [
+    "HandCursor6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

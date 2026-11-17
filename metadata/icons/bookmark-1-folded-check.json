@@ -1,18 +1,20 @@
 {
-  "name": "Bookmark1FoldedCheck",
+  "name": "BookmarkCheckRolled",
   "description": "A folded bookmark icon with a checkmark indicating verified or completed saved items.",
   "tags": [
     "bookmark",
     "folded",
+    "done",
+    "success",
+    "verified",
     "check",
     "checkmark",
-    "verified",
     "completed",
     "mark",
-    "save"
+    "save",
+    "rolled"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark check rolled",
+  "aliases": [
+    "Bookmark1FoldedCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

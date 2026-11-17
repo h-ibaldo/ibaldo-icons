@@ -1,20 +1,22 @@
 {
-  "name": "AccessibilityPersonNUI1",
+  "name": "AccessibilityNodes",
   "description": "An accessibility icon depicting a person with natural user interface elements, variant 1, for inclusive interaction design",
   "tags": [
     "accessibility",
     "person",
-    "natural user interface",
-    "NUI",
+    "natural",
+    "user",
+    "interface",
+    "natural-user-interface",
+    "nui",
     "inclusive",
     "interaction",
     "gesture",
-    "inclusive design"
+    "inclusive-design",
+    "nodes"
   ],
   "categories": [
-    "accessibility",
-    "people",
-    "interface"
+    "accessibility"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Accessibility nodes",
+  "aliases": [
+    "AccessibilityPersonNUI1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

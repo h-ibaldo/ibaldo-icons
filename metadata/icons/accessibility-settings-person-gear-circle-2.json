@@ -1,11 +1,11 @@
 {
-  "name": "AccessibilitySettingsPersonGearCircle2",
+  "name": "AccessibilityCircleSettings",
   "description": "An accessibility settings icon with a person and gear inside a circle shape, variant 2",
   "tags": [
     "accessibility",
-    "settings",
     "person",
     "gear",
+    "settings",
     "circle",
     "configuration",
     "adjustments",
@@ -13,8 +13,7 @@
     "contained"
   ],
   "categories": [
-    "accessibility",
-    "interface"
+    "accessibility"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Accessibility circle settings",
+  "aliases": [
+    "AccessibilitySettingsPersonGearCircle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

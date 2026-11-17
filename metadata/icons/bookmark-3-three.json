@@ -1,16 +1,16 @@
 {
-  "name": "Bookmark3Three",
+  "name": "BookmarkThreeRound",
   "description": "A bookmark icon displaying the number three for multiple or grouped bookmarks",
   "tags": [
     "bookmark",
     "three",
     "number",
     "multiple",
-    "variant",
-    "quantity"
+    "quantity",
+    "round"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark three round",
+  "aliases": [
+    "Bookmark3Three"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,20 +1,20 @@
 {
-  "name": "LikePositiveHand1",
+  "name": "HandThumbUp",
   "description": "A thumbs-up hand gesture icon expressing approval, positive feedback, or endorsement in first variant style.",
   "tags": [
+    "hand",
     "like",
     "positive",
-    "hand",
-    "thumbs up",
+    "thumbs-up",
     "approval",
     "feedback",
     "endorsement",
-    "variant 1"
+    "thumb",
+    "up"
   ],
   "categories": [
-    "interface",
-    "social",
-    "communication"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand thumb up",
+  "aliases": [
+    "LikePositiveHand1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,17 +1,19 @@
 {
-  "name": "BookmarksMinus",
+  "name": "BookmarkStackMinus",
   "description": "A bookmarks icon with a minus symbol for removing or unbookmarking items.",
   "tags": [
+    "bookmark",
     "bookmarks",
-    "minus",
     "remove",
+    "subtract",
+    "minus",
     "delete",
     "unbookmark",
     "save",
-    "favorite"
+    "favorite",
+    "stack"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark stack minus",
+  "aliases": [
+    "BookmarksMinus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

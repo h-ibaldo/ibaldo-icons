@@ -1,5 +1,5 @@
 {
-  "name": "BookmarkDotsFilled",
+  "name": "BookmarkDotted",
   "description": "A filled bookmark icon with dots indicating a menu for managing saved or flagged items with additional actions",
   "tags": [
     "bookmark",
@@ -9,10 +9,10 @@
     "options",
     "more",
     "actions",
-    "save"
+    "save",
+    "dotted"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark dotted",
+  "aliases": [
+    "BookmarkDotsFilled"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

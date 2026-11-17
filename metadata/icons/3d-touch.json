@@ -1,19 +1,19 @@
 {
-  "name": "ForceTouch",
+  "name": "TouchForce",
   "description": "A three-dimensional touch interaction icon representing haptic feedback or pressure-sensitive input",
   "tags": [
-    "3d",
     "touch",
     "haptic",
     "interaction",
     "pressure",
     "feedback",
     "input",
-    "gesture"
+    "gesture",
+    "force"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,7 +31,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "Force touch",
+  "displayName": "Touch force",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:22:05.539Z"
+  "updatedAt": "2026-11-17T15:32:50.068Z",
+  "aliases": [
+    "ForceTouch"
+  ]
 }

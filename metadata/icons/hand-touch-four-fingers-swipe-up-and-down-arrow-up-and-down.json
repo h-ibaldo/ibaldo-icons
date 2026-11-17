@@ -1,22 +1,23 @@
 {
-  "name": "HandTouchFourFingersSwipeVertical",
+  "name": "HandSwipeUpDownFourFingers",
   "description": "A hand gesture icon showing four fingers swiping up and down, representing vertical scroll or navigation actions",
   "tags": [
     "hand",
     "touch",
-    "four fingers",
+    "arrow",
+    "four-fingers",
     "swipe",
     "up",
     "down",
-    "arrow",
     "gesture",
     "scroll",
     "vertical",
-    "navigation"
+    "navigation",
+    "four"
   ],
   "categories": [
-    "interface",
-    "gestures"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand swipe up down four fingers",
+  "aliases": [
+    "HandTouchFourFingersSwipeVertical"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "HandGear",
+  "name": "HandSettingsRays",
   "description": "A hand with gear icon symbolizing services, technical support, or configuration management",
   "tags": [
     "hand",
@@ -9,11 +9,12 @@
     "support",
     "configuration",
     "technical",
-    "default"
+    "default",
+    "rays"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand settings rays",
+  "aliases": [
+    "HandGear"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

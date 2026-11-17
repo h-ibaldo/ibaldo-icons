@@ -1,5 +1,5 @@
 {
-  "name": "TouchScreenTwoFingersDouble",
+  "name": "TouchTapDoubleTwoFingers",
   "description": "A touch screen icon representing a two-finger double tap gesture for zooming or secondary interactions on a mobile device.",
   "tags": [
     "touch",
@@ -14,8 +14,8 @@
     "zoom"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Touch tap double two fingers",
+  "aliases": [
+    "TouchScreenTwoFingersDouble"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

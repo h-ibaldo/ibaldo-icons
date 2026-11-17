@@ -1,20 +1,22 @@
 {
-  "name": "HandTouchFourFingersSwipeLeft",
+  "name": "HandSwipeLeftFourFingers",
   "description": "A hand gesture icon showing four fingers swiping to the left, representing backward navigation or dismissal",
   "tags": [
     "hand",
     "touch",
-    "four fingers",
+    "arrow",
+    "four-fingers",
     "swipe",
     "left",
-    "arrow",
     "gesture",
     "navigation",
-    "backward"
+    "backward",
+    "four",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "gestures"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand swipe left four fingers",
+  "aliases": [
+    "HandTouchFourFingersSwipeLeft"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

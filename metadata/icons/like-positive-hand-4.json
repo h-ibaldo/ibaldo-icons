@@ -1,19 +1,21 @@
 {
-  "name": "LikePositionHand4",
+  "name": "HandThumbUpSleeve",
   "description": "A thumbs-up hand gesture icon indicating approval or positive feedback in variant 4",
   "tags": [
+    "hand",
     "like",
     "positive",
-    "hand",
-    "thumbs up",
+    "thumbs-up",
     "approval",
     "feedback",
     "gesture",
-    "variant 4"
+    "thumb",
+    "up",
+    "sleeve"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand thumb up sleeve",
+  "aliases": [
+    "LikePositionHand4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

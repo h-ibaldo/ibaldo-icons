@@ -1,15 +1,15 @@
 {
-  "name": "GripHorizontalCircles",
+  "name": "GripDotsHorizontal",
   "description": "A horizontal grip handle icon composed of circular dots for dragging and moving elements",
   "tags": [
     "grip",
-    "horizontal",
     "circles",
+    "horizontal",
     "handle",
     "drag",
     "move",
     "dots",
-    "ui control"
+    "ui-control"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Grip dots horizontal",
+  "aliases": [
+    "GripHorizontalCircles"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

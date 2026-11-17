@@ -1,17 +1,15 @@
 {
-  "name": "BookmarkNumberOne",
+  "name": "BookmarkOne",
   "description": "A bookmark icon with the numeral one marking first or primary saved content",
   "tags": [
     "bookmark",
     "one",
-    "1",
     "number",
     "first",
     "flag",
     "save"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,7 +28,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "Bookmark number one",
+  "displayName": "Bookmark one",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:22:05.539Z"
+  "updatedAt": "2026-11-17T15:32:50.068Z",
+  "aliases": [
+    "BookmarkNumberOne"
+  ]
 }

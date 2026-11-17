@@ -1,16 +1,17 @@
 {
-  "name": "Bookmark3Plus",
+  "name": "BookmarkPlusRound",
   "description": "A bookmark icon with a plus symbol for adding new bookmarks",
   "tags": [
     "bookmark",
-    "plus",
     "add",
-    "new",
     "create",
-    "positive"
+    "plus",
+    "new",
+    "positive",
+    "round"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "interactive",
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark plus round",
+  "aliases": [
+    "Bookmark3Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }
