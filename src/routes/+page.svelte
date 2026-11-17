@@ -180,7 +180,7 @@
         categories = [...catSet].sort();
 
         // Sort all icons alphabetically by name after merging categories
-        allIcons.sort((a, b) => a.name.localeCompare(b.name));
+        allIcons.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || a.name.localeCompare(b.name));
 
         console.log(`Loaded ${allIcons.length} total icons, ${categories.length} semantic categories`);
 

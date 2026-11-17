@@ -16,7 +16,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const INDEX_PATH = join(__dirname, '..', 'static', 'icons-index.json');
 const FOLDER = 'optimized';
 
-// "UserFaceTopKnot" -> "User face top knot"
+// "AvatarFaceTopKnot" -> "Avatar face top knot"
 function toSentenceCase(name) {
   const spaced = name
     .replace(/([a-z])([A-Z])/g, '$1 $2')
@@ -44,6 +44,7 @@ async function generateIndex() {
       category: FOLDER,
       categories: semantic
     };
+    if (metadata?.featured) entry.featured = true;
     if (metadata) {
       if (metadata.tags) entry.tags = metadata.tags;
       if (metadata.description) entry.description = metadata.description;
@@ -54,7 +55,8 @@ async function generateIndex() {
     return entry;
   });
 
-  entries.sort((a, b) => a.name.localeCompare(b.name));
+  // Featured icons (the avatars) first, then alphabetical
+  entries.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || a.name.localeCompare(b.name));
 
   const index = {
     categories: [...categories].sort(),

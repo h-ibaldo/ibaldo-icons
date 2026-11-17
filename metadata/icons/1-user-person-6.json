@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceLongSideBangs",
+  "name": "AvatarFaceLongSideBangs",
   "description": "Face with eyes and long straight hair with short bangs on one side.",
   "tags": [
     "user",
@@ -32,7 +32,8 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, long side bangs",
+  "displayName": "Avatar face, long side bangs",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

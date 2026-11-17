@@ -1,0 +1,41 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+
+const AvatarFaceLongSideBangs = forwardRef(function AvatarFaceLongSideBangs(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('line', {"x1":"9.23606574130099","y1":"14.999999999998181","x2":"9.23606574130099","y2":"13.999999999998181","key":"0"}),
+    createElement('line', {"x1":"15.23606574130099","y1":"14.999999999998181","x2":"15.23606574130099","y2":"13.999999999998181","key":"1"}),
+    createElement('line', {"x1":"5.23606574130099","y1":"21.999999999998181","x2":"2.23606574130099","y2":"21.999999999998181","key":"2"}),
+    createElement('line', {"x1":"22.23606574130099","y1":"21.999999999998181","x2":"19.23606574130099","y2":"21.999999999998181","key":"3"}),
+    createElement('path', {"d":"M12.23606574130099,1.999999999998181C6.23606574130099,1.999999999998181,2.23606574130099,8.999999999998181,2.23606574130099,17.999999999998181v4.000000000220098","key":"4"}),
+    createElement('path', {"d":"M12.236065740829872,2.000000000218279c6-.00000000026921,10.000000000311047,6.999999999559805,10.00000000072032,15.999999999559805l.000000000220098,4.000000000220098","key":"5"}),
+    createElement('path', {"d":"M6.23606574130099,11.999999999998181v-.000001999998858c0-1.104568388791449.895429604908713-1.999998000001142,1.999997999999323-1.999998000001142h8.000003999999535","key":"6"}),
+    createElement('line', {"x1":"6.23606574130099","y1":"11.999999999998181","x2":"6.23606574130099","y2":"15.999999999998181","key":"7"}),
+    createElement('path', {"d":"M6.23606574130099,15.999999999998181c0,3.313720703119543,2.686279296869543,6,6,6,2.611328125,0,4.82666015625-1.671142578130457,5.651245117189319-4","key":"8"})
+  );
+});
+
+AvatarFaceLongSideBangs.displayName = 'AvatarFaceLongSideBangs';
+
+module.exports = AvatarFaceLongSideBangs;
+module.exports.AvatarFaceLongSideBangs = AvatarFaceLongSideBangs;
+module.exports.default = AvatarFaceLongSideBangs;

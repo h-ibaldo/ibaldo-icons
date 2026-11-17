@@ -1,5 +1,5 @@
 {
-  "name": "UserHeadLongTextured",
+  "name": "AvatarHeadLongTextured",
   "description": "Head outline with no face details and long hair with textured strands on top.",
   "tags": [
     "user",
@@ -32,7 +32,8 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User head, long textured",
+  "displayName": "Avatar head, long textured",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

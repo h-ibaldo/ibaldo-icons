@@ -1,5 +1,5 @@
 {
-  "name": "UserHeadShort",
+  "name": "AvatarHeadShort",
   "description": "Head outline with no face details and short, close-cropped hair.",
   "tags": [
     "user",
@@ -31,7 +31,8 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User head, short",
+  "displayName": "Avatar head, short",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

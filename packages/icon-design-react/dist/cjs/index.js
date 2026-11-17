@@ -1,76 +1,76 @@
 "use strict";
 
-const UserHeadLongCenterPart = require('./icons/UserHeadLongCenterPart.js');
-const UserHeadShoulderCenterPart = require('./icons/UserHeadShoulderCenterPart.js');
-const UserHeadSideBangs = require('./icons/UserHeadSideBangs.js');
-const UserHeadShoulderCenterPart2 = require('./icons/UserHeadShoulderCenterPart2.js');
-const UserHeadFlippedEnds = require('./icons/UserHeadFlippedEnds.js');
-const UserHeadWavyBob = require('./icons/UserHeadWavyBob.js');
-const UserHeadBobBangs = require('./icons/UserHeadBobBangs.js');
-const UserHeadBluntBob = require('./icons/UserHeadBluntBob.js');
-const UserHeadShoulderSidePart = require('./icons/UserHeadShoulderSidePart.js');
-const UserHeadSidePartBob = require('./icons/UserHeadSidePartBob.js');
-const UserHeadCurlyBob = require('./icons/UserHeadCurlyBob.js');
-const UserHeadPompadour = require('./icons/UserHeadPompadour.js');
-const UserHeadCurlyTop = require('./icons/UserHeadCurlyTop.js');
-const UserHeadRoundCenterPart = require('./icons/UserHeadRoundCenterPart.js');
-const UserHeadCurly = require('./icons/UserHeadCurly.js');
-const UserHeadSweptBangs = require('./icons/UserHeadSweptBangs.js');
-const UserHeadLongTextured = require('./icons/UserHeadLongTextured.js');
-const UserHeadLongBraids = require('./icons/UserHeadLongBraids.js');
-const UserHeadTexturedMid = require('./icons/UserHeadTexturedMid.js');
-const UserHeadTexturedShort = require('./icons/UserHeadTexturedShort.js');
-const UserHeadTexturedPuffs = require('./icons/UserHeadTexturedPuffs.js');
-const UserHeadLongWavy = require('./icons/UserHeadLongWavy.js');
-const UserHeadSpaceBuns = require('./icons/UserHeadSpaceBuns.js');
-const UserHeadMohawk = require('./icons/UserHeadMohawk.js');
-const UserHeadBald = require('./icons/UserHeadBald.js');
-const UserHeadLongSideSwept = require('./icons/UserHeadLongSideSwept.js');
-const UserHeadShortFringe = require('./icons/UserHeadShortFringe.js');
-const UserHeadShort = require('./icons/UserHeadShort.js');
-const UserHeadCrewCut = require('./icons/UserHeadCrewCut.js');
-const UserHeadSwoop = require('./icons/UserHeadSwoop.js');
-const UserHeadShortCombed = require('./icons/UserHeadShortCombed.js');
-const UserHeadFlatTop = require('./icons/UserHeadFlatTop.js');
-const UserHeadAfro = require('./icons/UserHeadAfro.js');
-const UserHeadSpiky = require('./icons/UserHeadSpiky.js');
-const UserHeadSpikySide = require('./icons/UserHeadSpikySide.js');
-const UserFaceLongSidePart = require('./icons/UserFaceLongSidePart.js');
-const UserFaceLongSweptBangs = require('./icons/UserFaceLongSweptBangs.js');
-const UserFaceLongCenterPart = require('./icons/UserFaceLongCenterPart.js');
-const UserFaceFlippedEnds = require('./icons/UserFaceFlippedEnds.js');
-const UserFaceWavyBob = require('./icons/UserFaceWavyBob.js');
-const UserFaceLongSideBangs = require('./icons/UserFaceLongSideBangs.js');
-const UserFaceLongBangs = require('./icons/UserFaceLongBangs.js');
-const UserFaceShoulderSidePart = require('./icons/UserFaceShoulderSidePart.js');
-const UserFaceSidePartBob = require('./icons/UserFaceSidePartBob.js');
-const UserFaceCurlyBob = require('./icons/UserFaceCurlyBob.js');
-const UserFacePompadour = require('./icons/UserFacePompadour.js');
-const UserFaceCurlyTop = require('./icons/UserFaceCurlyTop.js');
-const UserFaceRoundSidePart = require('./icons/UserFaceRoundSidePart.js');
-const UserFaceCurly = require('./icons/UserFaceCurly.js');
-const UserFaceSweptBangs = require('./icons/UserFaceSweptBangs.js');
-const UserFaceLongTextured = require('./icons/UserFaceLongTextured.js');
-const UserFaceLongBraids = require('./icons/UserFaceLongBraids.js');
-const UserFaceTexturedMid = require('./icons/UserFaceTexturedMid.js');
-const UserFaceTexturedPonytail = require('./icons/UserFaceTexturedPonytail.js');
-const UserFaceTexturedPuffs = require('./icons/UserFaceTexturedPuffs.js');
-const UserFaceTexturedShort = require('./icons/UserFaceTexturedShort.js');
-const UserFaceLongWavy = require('./icons/UserFaceLongWavy.js');
-const UserFaceSpaceBuns = require('./icons/UserFaceSpaceBuns.js');
-const UserFaceMohawk = require('./icons/UserFaceMohawk.js');
-const UserFaceBald = require('./icons/UserFaceBald.js');
-const UserFaceLongSideSwept = require('./icons/UserFaceLongSideSwept.js');
-const UserFaceShortFringe = require('./icons/UserFaceShortFringe.js');
-const UserFaceSideSweptShort = require('./icons/UserFaceSideSweptShort.js');
-const UserFaceBowlCut = require('./icons/UserFaceBowlCut.js');
-const UserFaceSwoop = require('./icons/UserFaceSwoop.js');
-const UserFaceShortCombed = require('./icons/UserFaceShortCombed.js');
-const UserFaceFlatTop = require('./icons/UserFaceFlatTop.js');
-const UserFaceAfro = require('./icons/UserFaceAfro.js');
-const UserFaceSpiky = require('./icons/UserFaceSpiky.js');
-const UserFaceSpikySide = require('./icons/UserFaceSpikySide.js');
-const UserFaceTopKnot = require('./icons/UserFaceTopKnot.js');
+const AvatarHeadLongCenterPart = require('./icons/AvatarHeadLongCenterPart.js');
+const AvatarHeadShoulderCenterPart = require('./icons/AvatarHeadShoulderCenterPart.js');
+const AvatarHeadSideBangs = require('./icons/AvatarHeadSideBangs.js');
+const AvatarHeadShoulderCenterPart2 = require('./icons/AvatarHeadShoulderCenterPart2.js');
+const AvatarHeadFlippedEnds = require('./icons/AvatarHeadFlippedEnds.js');
+const AvatarHeadWavyBob = require('./icons/AvatarHeadWavyBob.js');
+const AvatarHeadBobBangs = require('./icons/AvatarHeadBobBangs.js');
+const AvatarHeadBluntBob = require('./icons/AvatarHeadBluntBob.js');
+const AvatarHeadShoulderSidePart = require('./icons/AvatarHeadShoulderSidePart.js');
+const AvatarHeadSidePartBob = require('./icons/AvatarHeadSidePartBob.js');
+const AvatarHeadCurlyBob = require('./icons/AvatarHeadCurlyBob.js');
+const AvatarHeadPompadour = require('./icons/AvatarHeadPompadour.js');
+const AvatarHeadCurlyTop = require('./icons/AvatarHeadCurlyTop.js');
+const AvatarHeadRoundCenterPart = require('./icons/AvatarHeadRoundCenterPart.js');
+const AvatarHeadCurly = require('./icons/AvatarHeadCurly.js');
+const AvatarHeadSweptBangs = require('./icons/AvatarHeadSweptBangs.js');
+const AvatarHeadLongTextured = require('./icons/AvatarHeadLongTextured.js');
+const AvatarHeadLongBraids = require('./icons/AvatarHeadLongBraids.js');
+const AvatarHeadTexturedMid = require('./icons/AvatarHeadTexturedMid.js');
+const AvatarHeadTexturedShort = require('./icons/AvatarHeadTexturedShort.js');
+const AvatarHeadTexturedPuffs = require('./icons/AvatarHeadTexturedPuffs.js');
+const AvatarHeadLongWavy = require('./icons/AvatarHeadLongWavy.js');
+const AvatarHeadSpaceBuns = require('./icons/AvatarHeadSpaceBuns.js');
+const AvatarHeadMohawk = require('./icons/AvatarHeadMohawk.js');
+const AvatarHeadBald = require('./icons/AvatarHeadBald.js');
+const AvatarHeadLongSideSwept = require('./icons/AvatarHeadLongSideSwept.js');
+const AvatarHeadShortFringe = require('./icons/AvatarHeadShortFringe.js');
+const AvatarHeadShort = require('./icons/AvatarHeadShort.js');
+const AvatarHeadCrewCut = require('./icons/AvatarHeadCrewCut.js');
+const AvatarHeadSwoop = require('./icons/AvatarHeadSwoop.js');
+const AvatarHeadShortCombed = require('./icons/AvatarHeadShortCombed.js');
+const AvatarHeadFlatTop = require('./icons/AvatarHeadFlatTop.js');
+const AvatarHeadAfro = require('./icons/AvatarHeadAfro.js');
+const AvatarHeadSpiky = require('./icons/AvatarHeadSpiky.js');
+const AvatarHeadSpikySide = require('./icons/AvatarHeadSpikySide.js');
+const AvatarFaceLongSidePart = require('./icons/AvatarFaceLongSidePart.js');
+const AvatarFaceLongSweptBangs = require('./icons/AvatarFaceLongSweptBangs.js');
+const AvatarFaceLongCenterPart = require('./icons/AvatarFaceLongCenterPart.js');
+const AvatarFaceFlippedEnds = require('./icons/AvatarFaceFlippedEnds.js');
+const AvatarFaceWavyBob = require('./icons/AvatarFaceWavyBob.js');
+const AvatarFaceLongSideBangs = require('./icons/AvatarFaceLongSideBangs.js');
+const AvatarFaceLongBangs = require('./icons/AvatarFaceLongBangs.js');
+const AvatarFaceShoulderSidePart = require('./icons/AvatarFaceShoulderSidePart.js');
+const AvatarFaceSidePartBob = require('./icons/AvatarFaceSidePartBob.js');
+const AvatarFaceCurlyBob = require('./icons/AvatarFaceCurlyBob.js');
+const AvatarFacePompadour = require('./icons/AvatarFacePompadour.js');
+const AvatarFaceCurlyTop = require('./icons/AvatarFaceCurlyTop.js');
+const AvatarFaceRoundSidePart = require('./icons/AvatarFaceRoundSidePart.js');
+const AvatarFaceCurly = require('./icons/AvatarFaceCurly.js');
+const AvatarFaceSweptBangs = require('./icons/AvatarFaceSweptBangs.js');
+const AvatarFaceLongTextured = require('./icons/AvatarFaceLongTextured.js');
+const AvatarFaceLongBraids = require('./icons/AvatarFaceLongBraids.js');
+const AvatarFaceTexturedMid = require('./icons/AvatarFaceTexturedMid.js');
+const AvatarFaceTexturedPonytail = require('./icons/AvatarFaceTexturedPonytail.js');
+const AvatarFaceTexturedPuffs = require('./icons/AvatarFaceTexturedPuffs.js');
+const AvatarFaceTexturedShort = require('./icons/AvatarFaceTexturedShort.js');
+const AvatarFaceLongWavy = require('./icons/AvatarFaceLongWavy.js');
+const AvatarFaceSpaceBuns = require('./icons/AvatarFaceSpaceBuns.js');
+const AvatarFaceMohawk = require('./icons/AvatarFaceMohawk.js');
+const AvatarFaceBald = require('./icons/AvatarFaceBald.js');
+const AvatarFaceLongSideSwept = require('./icons/AvatarFaceLongSideSwept.js');
+const AvatarFaceShortFringe = require('./icons/AvatarFaceShortFringe.js');
+const AvatarFaceSideSweptShort = require('./icons/AvatarFaceSideSweptShort.js');
+const AvatarFaceBowlCut = require('./icons/AvatarFaceBowlCut.js');
+const AvatarFaceSwoop = require('./icons/AvatarFaceSwoop.js');
+const AvatarFaceShortCombed = require('./icons/AvatarFaceShortCombed.js');
+const AvatarFaceFlatTop = require('./icons/AvatarFaceFlatTop.js');
+const AvatarFaceAfro = require('./icons/AvatarFaceAfro.js');
+const AvatarFaceSpiky = require('./icons/AvatarFaceSpiky.js');
+const AvatarFaceSpikySide = require('./icons/AvatarFaceSpikySide.js');
+const AvatarFaceTopKnot = require('./icons/AvatarFaceTopKnot.js');
 const ForceTouch = require('./icons/ForceTouch.js');
 const AccessibilityPerson = require('./icons/AccessibilityPerson.js');
 const AccessibilityPersonCircle = require('./icons/AccessibilityPersonCircle.js');
@@ -2443,77 +2443,77 @@ const XDeleteSquare3 = require('./icons/XDeleteSquare3.js');
 const XDeleteSquare4 = require('./icons/XDeleteSquare4.js');
 
 module.exports = {
-  UserHeadLongCenterPart: UserHeadLongCenterPart.default || UserHeadLongCenterPart,
-  UserHeadShoulderCenterPart: UserHeadShoulderCenterPart.default || UserHeadShoulderCenterPart,
-  UserHeadSideBangs: UserHeadSideBangs.default || UserHeadSideBangs,
-  UserHeadShoulderCenterPart2: UserHeadShoulderCenterPart2.default || UserHeadShoulderCenterPart2,
-  UserHeadFlippedEnds: UserHeadFlippedEnds.default || UserHeadFlippedEnds,
-  UserHeadWavyBob: UserHeadWavyBob.default || UserHeadWavyBob,
-  UserHeadBobBangs: UserHeadBobBangs.default || UserHeadBobBangs,
-  UserHeadBluntBob: UserHeadBluntBob.default || UserHeadBluntBob,
-  UserHeadShoulderSidePart: UserHeadShoulderSidePart.default || UserHeadShoulderSidePart,
-  UserHeadSidePartBob: UserHeadSidePartBob.default || UserHeadSidePartBob,
-  UserHeadCurlyBob: UserHeadCurlyBob.default || UserHeadCurlyBob,
-  UserHeadPompadour: UserHeadPompadour.default || UserHeadPompadour,
-  UserHeadCurlyTop: UserHeadCurlyTop.default || UserHeadCurlyTop,
-  UserHeadRoundCenterPart: UserHeadRoundCenterPart.default || UserHeadRoundCenterPart,
-  UserHeadCurly: UserHeadCurly.default || UserHeadCurly,
-  UserHeadSweptBangs: UserHeadSweptBangs.default || UserHeadSweptBangs,
-  UserHeadLongTextured: UserHeadLongTextured.default || UserHeadLongTextured,
-  UserHeadLongBraids: UserHeadLongBraids.default || UserHeadLongBraids,
-  UserHeadTexturedMid: UserHeadTexturedMid.default || UserHeadTexturedMid,
-  UserHeadTexturedShort: UserHeadTexturedShort.default || UserHeadTexturedShort,
-  UserHeadTexturedPuffs: UserHeadTexturedPuffs.default || UserHeadTexturedPuffs,
-  UserHeadLongWavy: UserHeadLongWavy.default || UserHeadLongWavy,
-  UserHeadSpaceBuns: UserHeadSpaceBuns.default || UserHeadSpaceBuns,
-  UserHeadMohawk: UserHeadMohawk.default || UserHeadMohawk,
-  UserHeadBald: UserHeadBald.default || UserHeadBald,
-  UserHeadLongSideSwept: UserHeadLongSideSwept.default || UserHeadLongSideSwept,
-  UserHeadShortFringe: UserHeadShortFringe.default || UserHeadShortFringe,
-  UserHeadShort: UserHeadShort.default || UserHeadShort,
-  UserHeadCrewCut: UserHeadCrewCut.default || UserHeadCrewCut,
-  UserHeadSwoop: UserHeadSwoop.default || UserHeadSwoop,
-  UserHeadShortCombed: UserHeadShortCombed.default || UserHeadShortCombed,
-  UserHeadFlatTop: UserHeadFlatTop.default || UserHeadFlatTop,
-  UserHeadAfro: UserHeadAfro.default || UserHeadAfro,
-  UserHeadSpiky: UserHeadSpiky.default || UserHeadSpiky,
-  UserHeadSpikySide: UserHeadSpikySide.default || UserHeadSpikySide,
-  UserFaceLongSidePart: UserFaceLongSidePart.default || UserFaceLongSidePart,
-  UserFaceLongSweptBangs: UserFaceLongSweptBangs.default || UserFaceLongSweptBangs,
-  UserFaceLongCenterPart: UserFaceLongCenterPart.default || UserFaceLongCenterPart,
-  UserFaceFlippedEnds: UserFaceFlippedEnds.default || UserFaceFlippedEnds,
-  UserFaceWavyBob: UserFaceWavyBob.default || UserFaceWavyBob,
-  UserFaceLongSideBangs: UserFaceLongSideBangs.default || UserFaceLongSideBangs,
-  UserFaceLongBangs: UserFaceLongBangs.default || UserFaceLongBangs,
-  UserFaceShoulderSidePart: UserFaceShoulderSidePart.default || UserFaceShoulderSidePart,
-  UserFaceSidePartBob: UserFaceSidePartBob.default || UserFaceSidePartBob,
-  UserFaceCurlyBob: UserFaceCurlyBob.default || UserFaceCurlyBob,
-  UserFacePompadour: UserFacePompadour.default || UserFacePompadour,
-  UserFaceCurlyTop: UserFaceCurlyTop.default || UserFaceCurlyTop,
-  UserFaceRoundSidePart: UserFaceRoundSidePart.default || UserFaceRoundSidePart,
-  UserFaceCurly: UserFaceCurly.default || UserFaceCurly,
-  UserFaceSweptBangs: UserFaceSweptBangs.default || UserFaceSweptBangs,
-  UserFaceLongTextured: UserFaceLongTextured.default || UserFaceLongTextured,
-  UserFaceLongBraids: UserFaceLongBraids.default || UserFaceLongBraids,
-  UserFaceTexturedMid: UserFaceTexturedMid.default || UserFaceTexturedMid,
-  UserFaceTexturedPonytail: UserFaceTexturedPonytail.default || UserFaceTexturedPonytail,
-  UserFaceTexturedPuffs: UserFaceTexturedPuffs.default || UserFaceTexturedPuffs,
-  UserFaceTexturedShort: UserFaceTexturedShort.default || UserFaceTexturedShort,
-  UserFaceLongWavy: UserFaceLongWavy.default || UserFaceLongWavy,
-  UserFaceSpaceBuns: UserFaceSpaceBuns.default || UserFaceSpaceBuns,
-  UserFaceMohawk: UserFaceMohawk.default || UserFaceMohawk,
-  UserFaceBald: UserFaceBald.default || UserFaceBald,
-  UserFaceLongSideSwept: UserFaceLongSideSwept.default || UserFaceLongSideSwept,
-  UserFaceShortFringe: UserFaceShortFringe.default || UserFaceShortFringe,
-  UserFaceSideSweptShort: UserFaceSideSweptShort.default || UserFaceSideSweptShort,
-  UserFaceBowlCut: UserFaceBowlCut.default || UserFaceBowlCut,
-  UserFaceSwoop: UserFaceSwoop.default || UserFaceSwoop,
-  UserFaceShortCombed: UserFaceShortCombed.default || UserFaceShortCombed,
-  UserFaceFlatTop: UserFaceFlatTop.default || UserFaceFlatTop,
-  UserFaceAfro: UserFaceAfro.default || UserFaceAfro,
-  UserFaceSpiky: UserFaceSpiky.default || UserFaceSpiky,
-  UserFaceSpikySide: UserFaceSpikySide.default || UserFaceSpikySide,
-  UserFaceTopKnot: UserFaceTopKnot.default || UserFaceTopKnot,
+  AvatarHeadLongCenterPart: AvatarHeadLongCenterPart.default || AvatarHeadLongCenterPart,
+  AvatarHeadShoulderCenterPart: AvatarHeadShoulderCenterPart.default || AvatarHeadShoulderCenterPart,
+  AvatarHeadSideBangs: AvatarHeadSideBangs.default || AvatarHeadSideBangs,
+  AvatarHeadShoulderCenterPart2: AvatarHeadShoulderCenterPart2.default || AvatarHeadShoulderCenterPart2,
+  AvatarHeadFlippedEnds: AvatarHeadFlippedEnds.default || AvatarHeadFlippedEnds,
+  AvatarHeadWavyBob: AvatarHeadWavyBob.default || AvatarHeadWavyBob,
+  AvatarHeadBobBangs: AvatarHeadBobBangs.default || AvatarHeadBobBangs,
+  AvatarHeadBluntBob: AvatarHeadBluntBob.default || AvatarHeadBluntBob,
+  AvatarHeadShoulderSidePart: AvatarHeadShoulderSidePart.default || AvatarHeadShoulderSidePart,
+  AvatarHeadSidePartBob: AvatarHeadSidePartBob.default || AvatarHeadSidePartBob,
+  AvatarHeadCurlyBob: AvatarHeadCurlyBob.default || AvatarHeadCurlyBob,
+  AvatarHeadPompadour: AvatarHeadPompadour.default || AvatarHeadPompadour,
+  AvatarHeadCurlyTop: AvatarHeadCurlyTop.default || AvatarHeadCurlyTop,
+  AvatarHeadRoundCenterPart: AvatarHeadRoundCenterPart.default || AvatarHeadRoundCenterPart,
+  AvatarHeadCurly: AvatarHeadCurly.default || AvatarHeadCurly,
+  AvatarHeadSweptBangs: AvatarHeadSweptBangs.default || AvatarHeadSweptBangs,
+  AvatarHeadLongTextured: AvatarHeadLongTextured.default || AvatarHeadLongTextured,
+  AvatarHeadLongBraids: AvatarHeadLongBraids.default || AvatarHeadLongBraids,
+  AvatarHeadTexturedMid: AvatarHeadTexturedMid.default || AvatarHeadTexturedMid,
+  AvatarHeadTexturedShort: AvatarHeadTexturedShort.default || AvatarHeadTexturedShort,
+  AvatarHeadTexturedPuffs: AvatarHeadTexturedPuffs.default || AvatarHeadTexturedPuffs,
+  AvatarHeadLongWavy: AvatarHeadLongWavy.default || AvatarHeadLongWavy,
+  AvatarHeadSpaceBuns: AvatarHeadSpaceBuns.default || AvatarHeadSpaceBuns,
+  AvatarHeadMohawk: AvatarHeadMohawk.default || AvatarHeadMohawk,
+  AvatarHeadBald: AvatarHeadBald.default || AvatarHeadBald,
+  AvatarHeadLongSideSwept: AvatarHeadLongSideSwept.default || AvatarHeadLongSideSwept,
+  AvatarHeadShortFringe: AvatarHeadShortFringe.default || AvatarHeadShortFringe,
+  AvatarHeadShort: AvatarHeadShort.default || AvatarHeadShort,
+  AvatarHeadCrewCut: AvatarHeadCrewCut.default || AvatarHeadCrewCut,
+  AvatarHeadSwoop: AvatarHeadSwoop.default || AvatarHeadSwoop,
+  AvatarHeadShortCombed: AvatarHeadShortCombed.default || AvatarHeadShortCombed,
+  AvatarHeadFlatTop: AvatarHeadFlatTop.default || AvatarHeadFlatTop,
+  AvatarHeadAfro: AvatarHeadAfro.default || AvatarHeadAfro,
+  AvatarHeadSpiky: AvatarHeadSpiky.default || AvatarHeadSpiky,
+  AvatarHeadSpikySide: AvatarHeadSpikySide.default || AvatarHeadSpikySide,
+  AvatarFaceLongSidePart: AvatarFaceLongSidePart.default || AvatarFaceLongSidePart,
+  AvatarFaceLongSweptBangs: AvatarFaceLongSweptBangs.default || AvatarFaceLongSweptBangs,
+  AvatarFaceLongCenterPart: AvatarFaceLongCenterPart.default || AvatarFaceLongCenterPart,
+  AvatarFaceFlippedEnds: AvatarFaceFlippedEnds.default || AvatarFaceFlippedEnds,
+  AvatarFaceWavyBob: AvatarFaceWavyBob.default || AvatarFaceWavyBob,
+  AvatarFaceLongSideBangs: AvatarFaceLongSideBangs.default || AvatarFaceLongSideBangs,
+  AvatarFaceLongBangs: AvatarFaceLongBangs.default || AvatarFaceLongBangs,
+  AvatarFaceShoulderSidePart: AvatarFaceShoulderSidePart.default || AvatarFaceShoulderSidePart,
+  AvatarFaceSidePartBob: AvatarFaceSidePartBob.default || AvatarFaceSidePartBob,
+  AvatarFaceCurlyBob: AvatarFaceCurlyBob.default || AvatarFaceCurlyBob,
+  AvatarFacePompadour: AvatarFacePompadour.default || AvatarFacePompadour,
+  AvatarFaceCurlyTop: AvatarFaceCurlyTop.default || AvatarFaceCurlyTop,
+  AvatarFaceRoundSidePart: AvatarFaceRoundSidePart.default || AvatarFaceRoundSidePart,
+  AvatarFaceCurly: AvatarFaceCurly.default || AvatarFaceCurly,
+  AvatarFaceSweptBangs: AvatarFaceSweptBangs.default || AvatarFaceSweptBangs,
+  AvatarFaceLongTextured: AvatarFaceLongTextured.default || AvatarFaceLongTextured,
+  AvatarFaceLongBraids: AvatarFaceLongBraids.default || AvatarFaceLongBraids,
+  AvatarFaceTexturedMid: AvatarFaceTexturedMid.default || AvatarFaceTexturedMid,
+  AvatarFaceTexturedPonytail: AvatarFaceTexturedPonytail.default || AvatarFaceTexturedPonytail,
+  AvatarFaceTexturedPuffs: AvatarFaceTexturedPuffs.default || AvatarFaceTexturedPuffs,
+  AvatarFaceTexturedShort: AvatarFaceTexturedShort.default || AvatarFaceTexturedShort,
+  AvatarFaceLongWavy: AvatarFaceLongWavy.default || AvatarFaceLongWavy,
+  AvatarFaceSpaceBuns: AvatarFaceSpaceBuns.default || AvatarFaceSpaceBuns,
+  AvatarFaceMohawk: AvatarFaceMohawk.default || AvatarFaceMohawk,
+  AvatarFaceBald: AvatarFaceBald.default || AvatarFaceBald,
+  AvatarFaceLongSideSwept: AvatarFaceLongSideSwept.default || AvatarFaceLongSideSwept,
+  AvatarFaceShortFringe: AvatarFaceShortFringe.default || AvatarFaceShortFringe,
+  AvatarFaceSideSweptShort: AvatarFaceSideSweptShort.default || AvatarFaceSideSweptShort,
+  AvatarFaceBowlCut: AvatarFaceBowlCut.default || AvatarFaceBowlCut,
+  AvatarFaceSwoop: AvatarFaceSwoop.default || AvatarFaceSwoop,
+  AvatarFaceShortCombed: AvatarFaceShortCombed.default || AvatarFaceShortCombed,
+  AvatarFaceFlatTop: AvatarFaceFlatTop.default || AvatarFaceFlatTop,
+  AvatarFaceAfro: AvatarFaceAfro.default || AvatarFaceAfro,
+  AvatarFaceSpiky: AvatarFaceSpiky.default || AvatarFaceSpiky,
+  AvatarFaceSpikySide: AvatarFaceSpikySide.default || AvatarFaceSpikySide,
+  AvatarFaceTopKnot: AvatarFaceTopKnot.default || AvatarFaceTopKnot,
   ForceTouch: ForceTouch.default || ForceTouch,
   AccessibilityPerson: AccessibilityPerson.default || AccessibilityPerson,
   AccessibilityPersonCircle: AccessibilityPersonCircle.default || AccessibilityPersonCircle,

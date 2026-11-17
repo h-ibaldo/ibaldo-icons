@@ -1,6 +1,6 @@
 {
-  "name": "UserHeadSidePartBob",
-  "displayName": "User head, side part bob",
+  "name": "AvatarHeadSidePartBob",
+  "displayName": "Avatar head, side part bob",
   "originalTitle": "1 User Head 11",
   "description": "Head outline with no face details and a bob with a deep side part.",
   "tags": [
@@ -35,5 +35,6 @@
   "deprecated": false,
   "generatedAt": "2026-02-15T00:53:19.765Z",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }

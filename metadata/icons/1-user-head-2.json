@@ -1,5 +1,5 @@
 {
-  "name": "UserHeadShoulderCenterPart",
+  "name": "AvatarHeadShoulderCenterPart",
   "description": "Head outline with no face details and shoulder-length hair parted in the center.",
   "tags": [
     "user",
@@ -31,7 +31,8 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User head, shoulder center part",
+  "displayName": "Avatar head, shoulder center part",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "featured": true
 }
