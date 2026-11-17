@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceLongWavy",
+  "name": "AvatarFaceLongWavy",
   "description": "Face with eyes and long wavy hair.",
   "tags": [
     "user",
@@ -31,7 +31,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, long wavy",
+  "displayName": "Avatar face, long wavy",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceLongWavy"
+  ]
 }

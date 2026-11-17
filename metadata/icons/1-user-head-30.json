@@ -1,5 +1,5 @@
 {
-  "name": "UserHeadCrewCut",
+  "name": "AvatarHeadCrewCut",
   "description": "Head outline with no face details and a short crew cut with a small step at the crown.",
   "tags": [
     "user",
@@ -31,7 +31,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User head, crew cut",
+  "displayName": "Avatar head, crew cut",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserHeadCrewCut"
+  ]
 }

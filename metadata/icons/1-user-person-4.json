@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceFlippedEnds",
+  "name": "AvatarFaceFlippedEnds",
   "description": "Face with eyes and shoulder-length hair with ends flipped outward.",
   "tags": [
     "user",
@@ -32,7 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, flipped ends",
+  "displayName": "Avatar face, flipped ends",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceFlippedEnds"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "UserHeadSpaceBuns",
+  "name": "AvatarHeadSpaceBuns",
   "description": "Head outline with no face details and two space buns on top.",
   "tags": [
     "user",
@@ -32,7 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User head, space buns",
+  "displayName": "Avatar head, space buns",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserHeadSpaceBuns"
+  ]
 }

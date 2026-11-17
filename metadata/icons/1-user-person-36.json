@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceTopKnot",
+  "name": "AvatarFaceTopKnot",
   "description": "Face with eyes and hair pulled up into a top-knot bun.",
   "tags": [
     "user",
@@ -32,7 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, top knot",
+  "displayName": "Avatar face, top knot",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceTopKnot"
+  ]
 }

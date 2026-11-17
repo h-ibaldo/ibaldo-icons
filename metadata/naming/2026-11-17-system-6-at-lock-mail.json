@@ -1,0 +1,4691 @@
+{
+  "at-sign-6-email-contact-address": {
+    "name": "AtRounded",
+    "displayName": "At rounded",
+    "aliases": [
+      "AtSign6"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "symbol",
+      "communication",
+      "mail",
+      "rounded"
+    ]
+  },
+  "at-sign-7-email-contact-address": {
+    "name": "AtSpiral",
+    "displayName": "At spiral",
+    "aliases": [
+      "AtSign7"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "symbol",
+      "communication",
+      "mail",
+      "spiral"
+    ]
+  },
+  "at-sign-8-email-contact-address": {
+    "name": "AtCompact",
+    "displayName": "At compact",
+    "aliases": [
+      "AtSign8"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "symbol",
+      "communication",
+      "mail",
+      "compact"
+    ]
+  },
+  "at-sign-email-contact-address-1": {
+    "name": "AtCurved",
+    "displayName": "At curved",
+    "aliases": [
+      "AtSign1"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "symbol",
+      "communication",
+      "mail",
+      "curved"
+    ]
+  },
+  "at-sign-email-contact-address-1-alert-exclamation": {
+    "name": "AtAlertCurved",
+    "displayName": "At alert curved",
+    "aliases": [
+      "AtSign1Alert"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "exclamation",
+      "error",
+      "attention",
+      "alert",
+      "warning",
+      "notification",
+      "problem"
+    ]
+  },
+  "at-sign-email-contact-address-1-check-checked": {
+    "name": "AtCheckCurved",
+    "displayName": "At check curved",
+    "aliases": [
+      "AtSign1Check"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "confirmed",
+      "validated"
+    ]
+  },
+  "at-sign-email-contact-address-1-circle-large-dots-settings-menu": {
+    "name": "AtDotsCurved",
+    "displayName": "At dots curved",
+    "aliases": [
+      "AtSign1CircleDots"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "circle",
+      "large",
+      "settings",
+      "menu",
+      "options",
+      "configure",
+      "manage"
+    ]
+  },
+  "at-sign-email-contact-address-1-clock-1": {
+    "name": "AtClockCurved",
+    "displayName": "At clock curved",
+    "aliases": [
+      "AtSign1Clock1"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "scheduled",
+      "time",
+      "pending",
+      "clock",
+      "delayed",
+      "timing",
+      "curved"
+    ]
+  },
+  "at-sign-email-contact-address-1-clock-2": {
+    "name": "AtClockCurved2",
+    "displayName": "At clock curved2",
+    "aliases": [
+      "AtSign1Clock2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "scheduled",
+      "time",
+      "pending",
+      "clock",
+      "delayed",
+      "timing"
+    ]
+  },
+  "at-sign-email-contact-address-1-number-one-1": {
+    "name": "AtOneCurved",
+    "displayName": "At one curved",
+    "aliases": [
+      "AtSign1One"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "number",
+      "one",
+      "primary",
+      "first",
+      "curved"
+    ]
+  },
+  "at-sign-email-contact-address-1-positive-add-plus": {
+    "name": "AtPlusCurved",
+    "displayName": "At plus curved",
+    "aliases": [
+      "AtSign1Plus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "curved"
+    ]
+  },
+  "at-sign-email-contact-address-1-remove-negative-minus-delete": {
+    "name": "AtMinusCurved",
+    "displayName": "At minus curved",
+    "aliases": [
+      "AtSign1Minus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "remove",
+      "negative",
+      "delete",
+      "subtract",
+      "minus",
+      "curved"
+    ]
+  },
+  "at-sign-email-contact-address-1-x-close-delete-remove": {
+    "name": "AtXCurved",
+    "displayName": "At X curved",
+    "aliases": [
+      "AtSign1X"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "close",
+      "delete",
+      "remove",
+      "cancel",
+      "curved"
+    ]
+  },
+  "at-sign-email-contact-address-2": {
+    "name": "At",
+    "displayName": "At",
+    "aliases": [
+      "AtSign2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "at-sign",
+      "communication",
+      "mail",
+      "symbol"
+    ]
+  },
+  "at-sign-email-contact-address-2-alert-exclamation": {
+    "name": "AtAlert",
+    "displayName": "At alert",
+    "aliases": [
+      "AtSign2Alert"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "exclamation",
+      "error",
+      "attention",
+      "alert",
+      "warning"
+    ]
+  },
+  "at-sign-email-contact-address-2-arrow-reload-refresh-return": {
+    "name": "AtRefresh",
+    "displayName": "At refresh",
+    "aliases": [
+      "AtSign2ArrowReload"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "arrow",
+      "reload",
+      "return",
+      "refresh",
+      "update"
+    ]
+  },
+  "at-sign-email-contact-address-2-arrow-reload-refresh-synchronize": {
+    "name": "AtSync",
+    "displayName": "At sync",
+    "aliases": [
+      "AtSign2ArrowSync"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "arrow",
+      "reload",
+      "refresh",
+      "synchronize",
+      "sync",
+      "update"
+    ]
+  },
+  "at-sign-email-contact-address-2-checked-check": {
+    "name": "AtCheck",
+    "displayName": "At check",
+    "aliases": [
+      "AtSign2Check"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "validated",
+      "confirmed",
+      "check"
+    ]
+  },
+  "at-sign-email-contact-address-2-clock-1": {
+    "name": "AtClock",
+    "displayName": "At clock",
+    "aliases": [
+      "AtSign2Clock"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "scheduled",
+      "pending",
+      "time",
+      "clock",
+      "at-sign",
+      "delay"
+    ]
+  },
+  "at-sign-email-contact-address-2-clock-2": {
+    "name": "AtClock2",
+    "displayName": "At clock2",
+    "aliases": [
+      "AtSign2Clock2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "clock",
+      "schedule",
+      "time",
+      "delayed",
+      "timed"
+    ]
+  },
+  "at-sign-email-contact-address-2-dots-settings-menu": {
+    "name": "AtDots",
+    "displayName": "At dots",
+    "aliases": [
+      "AtSign2Dots"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "settings",
+      "menu",
+      "configure",
+      "preferences",
+      "manage",
+      "dots"
+    ]
+  },
+  "at-sign-email-contact-address-2-equal": {
+    "name": "AtEqual",
+    "displayName": "At equal",
+    "aliases": [
+      "AtSign2Equal"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "equal",
+      "compare",
+      "match",
+      "duplicate",
+      "similar"
+    ]
+  },
+  "at-sign-email-contact-address-2-number-one-1": {
+    "name": "AtOne",
+    "displayName": "At one",
+    "aliases": [
+      "AtSign2One"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "number",
+      "primary",
+      "first",
+      "priority",
+      "main",
+      "one"
+    ]
+  },
+  "at-sign-email-contact-address-2-positive-add-plus": {
+    "name": "AtPlus",
+    "displayName": "At plus",
+    "aliases": [
+      "AtSign2Plus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "positive",
+      "add",
+      "create",
+      "new",
+      "plus",
+      "expand"
+    ]
+  },
+  "at-sign-email-contact-address-2-remove-negative-minus-delete": {
+    "name": "AtMinus",
+    "displayName": "At minus",
+    "aliases": [
+      "AtSign2Minus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "remove",
+      "negative",
+      "delete",
+      "subtract",
+      "minus",
+      "unsubscribe",
+      "at-sign"
+    ]
+  },
+  "at-sign-email-contact-address-2-x-close-delete-remove": {
+    "name": "AtX",
+    "displayName": "At X",
+    "aliases": [
+      "AtSign2X"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "close",
+      "delete",
+      "remove",
+      "cancel",
+      "at-sign"
+    ]
+  },
+  "at-sign-email-contact-address-3-alert-exclamation": {
+    "name": "AtAlertCircle",
+    "displayName": "At alert circle",
+    "aliases": [
+      "AtSign3Alert"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "exclamation",
+      "error",
+      "attention",
+      "alert",
+      "warning",
+      "notification",
+      "at-sign"
+    ]
+  },
+  "at-sign-email-contact-address-3-checked-check": {
+    "name": "AtCheckCircle",
+    "displayName": "At check circle",
+    "aliases": [
+      "AtSign3Check"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "confirmed",
+      "valid"
+    ]
+  },
+  "at-sign-email-contact-address-3-circle-dots-settings-menu": {
+    "name": "AtDotsCircle",
+    "displayName": "At dots circle",
+    "aliases": [
+      "AtSign3CircleDotsMenu"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "settings",
+      "menu",
+      "at-sign",
+      "dots",
+      "configuration",
+      "options",
+      "circle"
+    ]
+  },
+  "at-sign-email-contact-address-3-clock-1": {
+    "name": "AtClockCircle",
+    "displayName": "At clock circle",
+    "aliases": [
+      "AtSign3Clock1"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "timed",
+      "schedule",
+      "communication",
+      "clock",
+      "timing",
+      "circle"
+    ]
+  },
+  "at-sign-email-contact-address-3-clock-2": {
+    "name": "AtClockCircle2",
+    "displayName": "At clock circle2",
+    "aliases": [
+      "AtSign3Clock2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "scheduling",
+      "timing",
+      "clock",
+      "delivery",
+      "messaging"
+    ]
+  },
+  "at-sign-email-contact-address-3-equal": {
+    "name": "AtEqualCircle",
+    "displayName": "At equal circle",
+    "aliases": [
+      "AtSign3Equal"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "equal",
+      "match",
+      "compare",
+      "filter",
+      "at-sign",
+      "circle"
+    ]
+  },
+  "at-sign-email-contact-address-3-number-one-1": {
+    "name": "AtOneCircle",
+    "displayName": "At one circle",
+    "aliases": [
+      "AtSign3One"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "number",
+      "primary",
+      "first",
+      "main",
+      "number-one",
+      "at-sign",
+      "one"
+    ]
+  },
+  "at-sign-email-contact-address-3-positive-add-plus": {
+    "name": "AtPlusCircle",
+    "displayName": "At plus circle",
+    "aliases": [
+      "AtSign3Plus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "subscribe",
+      "at-sign"
+    ]
+  },
+  "at-sign-email-contact-address-3-remove-negative-minus-delete": {
+    "name": "AtMinusCircle",
+    "displayName": "At minus circle",
+    "aliases": [
+      "AtSign3Minus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "remove",
+      "negative",
+      "delete",
+      "subtract",
+      "minus",
+      "unsubscribe",
+      "at-sign"
+    ]
+  },
+  "at-sign-email-contact-address-3-x-close-delete-remove": {
+    "name": "AtXCircle",
+    "displayName": "At X circle",
+    "aliases": [
+      "AtSign3X"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "close",
+      "delete",
+      "remove",
+      "cancel",
+      "at-sign",
+      "circle"
+    ]
+  },
+  "at-sign-email-contact-address-4-": {
+    "name": "AtTall",
+    "displayName": "At tall",
+    "aliases": [
+      "AtSign4"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "at-sign",
+      "mail",
+      "communication",
+      "symbol",
+      "username",
+      "tall"
+    ]
+  },
+  "at-sign-email-contact-address-4-alert-exclamation": {
+    "name": "AtAlertTall",
+    "displayName": "At alert tall",
+    "aliases": [
+      "AtSign4Alert"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "exclamation",
+      "error",
+      "attention",
+      "at-sign",
+      "alert",
+      "notification",
+      "warning"
+    ]
+  },
+  "at-sign-email-contact-address-4-arrow-reload-refresh-return": {
+    "name": "AtRefreshTall",
+    "displayName": "At refresh tall",
+    "aliases": [
+      "AtSign4ArrowReload"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "arrow",
+      "reload",
+      "return",
+      "refresh",
+      "update",
+      "sync",
+      "at-sign"
+    ]
+  },
+  "at-sign-email-contact-address-4-arrow-reload-refresh-synchronize": {
+    "name": "AtSyncTall",
+    "displayName": "At sync tall",
+    "aliases": [
+      "AtSign4ArrowSync"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "arrow",
+      "reload",
+      "refresh",
+      "synchronize",
+      "sync",
+      "update",
+      "at-sign"
+    ]
+  },
+  "at-sign-email-contact-address-4-checked-check": {
+    "name": "AtCheckTall",
+    "displayName": "At check tall",
+    "aliases": [
+      "AtSign4Check"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "confirmed",
+      "check",
+      "at-sign"
+    ]
+  },
+  "at-sign-email-contact-address-4-clock-1": {
+    "name": "AtClockTall",
+    "displayName": "At clock tall",
+    "aliases": [
+      "AtSign4Clock"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "scheduled",
+      "time",
+      "clock",
+      "pending",
+      "at-sign",
+      "delay",
+      "tall"
+    ]
+  },
+  "at-sign-email-contact-address-4-dots-settings-menu": {
+    "name": "AtDotsTall",
+    "displayName": "At dots tall",
+    "aliases": [
+      "AtSign4Settings"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "settings",
+      "menu",
+      "options",
+      "configure",
+      "at-sign",
+      "preferences",
+      "dots"
+    ]
+  },
+  "at-sign-email-contact-address-4-equal": {
+    "name": "AtEqualTall",
+    "displayName": "At equal tall",
+    "aliases": [
+      "AtSign4Equal"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "equal",
+      "compare",
+      "match",
+      "equivalent",
+      "at-sign",
+      "same",
+      "tall"
+    ]
+  },
+  "at-sign-email-contact-address-4-negative-remove-minus-delete": {
+    "name": "AtMinusTall",
+    "displayName": "At minus tall",
+    "aliases": [
+      "AtSign4Minus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "at-sign",
+      "unsubscribe"
+    ]
+  },
+  "at-sign-email-contact-address-4-number-one-1": {
+    "name": "AtOneTall",
+    "displayName": "At one tall",
+    "aliases": [
+      "AtSign4One"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "number",
+      "primary",
+      "main",
+      "first",
+      "number-one",
+      "at-sign",
+      "priority"
+    ]
+  },
+  "at-sign-email-contact-address-4-positive-add-plus": {
+    "name": "AtPlusTall",
+    "displayName": "At plus tall",
+    "aliases": [
+      "AtSign4Plus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "at-sign",
+      "subscribe"
+    ]
+  },
+  "at-sign-email-contact-address-4-x-close-delete-remove": {
+    "name": "AtXTall",
+    "displayName": "At X tall",
+    "aliases": [
+      "AtSign4X"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "close",
+      "delete",
+      "remove",
+      "cancel",
+      "at-sign",
+      "dismiss",
+      "tall"
+    ]
+  },
+  "at-sign-email-contact-address-5": {
+    "name": "AtBoxy",
+    "displayName": "At boxy",
+    "aliases": [
+      "AtSign5"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "communication",
+      "message",
+      "electronic",
+      "mail",
+      "boxy"
+    ]
+  },
+  "at-sign-email-contact-address-5-alert-exclamation": {
+    "name": "AtAlertBoxy",
+    "displayName": "At alert boxy",
+    "aliases": [
+      "AtSign5Alert"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "exclamation",
+      "error",
+      "attention",
+      "alert",
+      "warning",
+      "at-sign",
+      "urgent"
+    ]
+  },
+  "at-sign-email-contact-address-5-arrow-reload-refresh-return": {
+    "name": "AtRefreshBoxy",
+    "displayName": "At refresh boxy",
+    "aliases": [
+      "AtSign5ArrowReload"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "arrow",
+      "reload",
+      "return",
+      "refresh",
+      "update",
+      "at-sign",
+      "renew"
+    ]
+  },
+  "at-sign-email-contact-address-5-arrow-reload-refresh-synchronize": {
+    "name": "AtSyncBoxy",
+    "displayName": "At sync boxy",
+    "aliases": [
+      "AtSign5ArrowSync"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "arrow",
+      "reload",
+      "refresh",
+      "synchronize",
+      "sync",
+      "arrows",
+      "update"
+    ]
+  },
+  "at-sign-email-contact-address-5-checked-check": {
+    "name": "AtCheckBoxy",
+    "displayName": "At check boxy",
+    "aliases": [
+      "AtSign5Check"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "confirmed",
+      "check",
+      "validation"
+    ]
+  },
+  "at-sign-email-contact-address-5-clock-1": {
+    "name": "AtClockBoxy",
+    "displayName": "At clock boxy",
+    "aliases": [
+      "AtSign5Clock"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "scheduled",
+      "pending",
+      "time",
+      "delay",
+      "clock",
+      "timing",
+      "boxy"
+    ]
+  },
+  "at-sign-email-contact-address-5-dots-settings-menu": {
+    "name": "AtDotsBoxy",
+    "displayName": "At dots boxy",
+    "aliases": [
+      "AtSign5Settings"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "settings",
+      "menu",
+      "options",
+      "configure",
+      "preferences",
+      "manage",
+      "dots"
+    ]
+  },
+  "at-sign-email-contact-address-5-equal": {
+    "name": "AtEqualBoxy",
+    "displayName": "At equal boxy",
+    "aliases": [
+      "AtSign5Equal"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "equal",
+      "compare",
+      "match",
+      "filter",
+      "equivalent",
+      "same",
+      "boxy"
+    ]
+  },
+  "at-sign-email-contact-address-5-negative-remove-minus-delete": {
+    "name": "AtMinusBoxy",
+    "displayName": "At minus boxy",
+    "aliases": [
+      "AtSign5Minus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "unsubscribe",
+      "boxy"
+    ]
+  },
+  "at-sign-email-contact-address-5-number-one-1": {
+    "name": "AtOneBoxy",
+    "displayName": "At one boxy",
+    "aliases": [
+      "AtSign5One"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "number",
+      "primary",
+      "first",
+      "main",
+      "priority",
+      "one",
+      "boxy"
+    ]
+  },
+  "at-sign-email-contact-address-5-positive-add-plus": {
+    "name": "AtPlusBoxy",
+    "displayName": "At plus boxy",
+    "aliases": [
+      "AtSign5Plus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "additional",
+      "boxy"
+    ]
+  },
+  "at-sign-email-contact-address-5-x-close-delete-remove": {
+    "name": "AtXBoxy",
+    "displayName": "At X boxy",
+    "aliases": [
+      "AtSign5X"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "close",
+      "delete",
+      "remove",
+      "cancel",
+      "dismiss",
+      "exit",
+      "boxy"
+    ]
+  },
+  "at-sign-email-contact-address-circle": {
+    "name": "AtCircle",
+    "displayName": "At circle",
+    "aliases": [
+      "AtSignCircle"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "circle",
+      "communication",
+      "button",
+      "badge",
+      "enclosed"
+    ]
+  },
+  "at-sign-email-contact-address-select-1": {
+    "name": "AtCorners",
+    "displayName": "At corners",
+    "aliases": [
+      "AtSignSelect1"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "select",
+      "choose",
+      "picker",
+      "list",
+      "option",
+      "corners"
+    ]
+  },
+  "at-sign-email-contact-address-select-2": {
+    "name": "AtCornersCompact",
+    "displayName": "At corners compact",
+    "aliases": [
+      "AtSignSelect2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "address",
+      "select",
+      "choose",
+      "multi",
+      "picker",
+      "alternative",
+      "corners",
+      "compact"
+    ]
+  },
+  "at-sign-email-contact-address1-equal": {
+    "name": "AtEqualCurved",
+    "displayName": "At equal curved",
+    "aliases": [
+      "AtSign1Equal"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "at",
+      "sign",
+      "email",
+      "contact",
+      "equal",
+      "match",
+      "compare",
+      "address",
+      "duplicate",
+      "verify",
+      "curved"
+    ]
+  },
+  "badge-rosette-checkmark-approved-verified-1": {
+    "name": "BadgeCheckJagged",
+    "displayName": "Badge check jagged",
+    "aliases": [
+      "BadgeCheck1"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "checkmark",
+      "approved",
+      "verified",
+      "done",
+      "success",
+      "certified",
+      "validation",
+      "quality",
+      "check",
+      "jagged"
+    ]
+  },
+  "badge-rosette-checkmark-approved-verified-2": {
+    "name": "BadgeCheck",
+    "displayName": "Badge check",
+    "aliases": [
+      "BadgeCheck2"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "checkmark",
+      "approved",
+      "verified",
+      "done",
+      "success",
+      "certified",
+      "authentic",
+      "validation",
+      "check"
+    ]
+  },
+  "badge-rosette-checkmark-approved-verified-3": {
+    "name": "BadgeCheckPetal",
+    "displayName": "Badge check petal",
+    "aliases": [
+      "BadgeCheck3"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "checkmark",
+      "approved",
+      "verified",
+      "done",
+      "success",
+      "certified",
+      "trust",
+      "quality",
+      "check",
+      "petal"
+    ]
+  },
+  "badge-rosette-checkmark-approved-verified-4": {
+    "name": "BadgeCheckBumpy",
+    "displayName": "Badge check bumpy",
+    "aliases": [
+      "BadgeCheck4"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "checkmark",
+      "approved",
+      "verified",
+      "done",
+      "success",
+      "certified",
+      "validation",
+      "quality",
+      "trust",
+      "check"
+    ]
+  },
+  "badge-rosette-checkmark-approved-verified-5": {
+    "name": "BadgeCheckWavy",
+    "displayName": "Badge check wavy",
+    "aliases": [
+      "BadgeCheck5"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "checkmark",
+      "approved",
+      "verified",
+      "done",
+      "success",
+      "authenticated",
+      "premium",
+      "certified",
+      "validation",
+      "check"
+    ]
+  },
+  "badge-rosette-checkmark-approved-verified-6": {
+    "name": "BadgeCheckNotched",
+    "displayName": "Badge check notched",
+    "aliases": [
+      "BadgeCheck6"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "checkmark",
+      "approved",
+      "verified",
+      "done",
+      "success",
+      "official",
+      "trusted",
+      "quality",
+      "authentic",
+      "check"
+    ]
+  },
+  "badge-rosette-checkmark-approved-verified-7": {
+    "name": "BadgeCheckPointed",
+    "displayName": "Badge check pointed",
+    "aliases": [
+      "BadgeCheck7"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "checkmark",
+      "approved",
+      "verified",
+      "done",
+      "success",
+      "premium",
+      "elite",
+      "high-quality",
+      "top-tier",
+      "exclusive"
+    ]
+  },
+  "badge-rosette-checkmark-approved-verified-circle": {
+    "name": "BadgeCheckCircle",
+    "displayName": "Badge check circle",
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "checkmark",
+      "approved",
+      "verified",
+      "done",
+      "success",
+      "circle",
+      "certified",
+      "profile",
+      "validation",
+      "check"
+    ]
+  },
+  "badge-rosette-checkmark-approved-verified-square": {
+    "name": "BadgeCheckSquare",
+    "displayName": "Badge check square",
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "checkmark",
+      "approved",
+      "verified",
+      "done",
+      "success",
+      "square",
+      "official",
+      "certification",
+      "document",
+      "approval"
+    ]
+  },
+  "badge-rosette-question-mark-unverified-1": {
+    "name": "BadgeQuestionJagged",
+    "displayName": "Badge question jagged",
+    "aliases": [
+      "BadgeRosetteQuestionUnverified"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "mark",
+      "unverified",
+      "question",
+      "uncertain",
+      "verification",
+      "status",
+      "jagged"
+    ]
+  },
+  "badge-rosette-question-mark-unverified-2": {
+    "name": "BadgeQuestion",
+    "displayName": "Badge question",
+    "aliases": [
+      "BadgeRosetteQuestionUnverified2"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "mark",
+      "unverified",
+      "question",
+      "uncertain",
+      "verification"
+    ]
+  },
+  "badge-rosette-question-mark-unverified-3": {
+    "name": "BadgeQuestionPetal",
+    "displayName": "Badge question petal",
+    "aliases": [
+      "BadgeRosetteQuestionUnverified3"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "mark",
+      "unverified",
+      "question",
+      "uncertain",
+      "verification",
+      "petal"
+    ]
+  },
+  "badge-rosette-question-mark-unverified-4": {
+    "name": "BadgeQuestionBumpy",
+    "displayName": "Badge question bumpy",
+    "aliases": [
+      "BadgeRosetteQuestionUnverified4"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "mark",
+      "unverified",
+      "question",
+      "uncertain",
+      "verification",
+      "bumpy"
+    ]
+  },
+  "badge-rosette-question-mark-unverified-5": {
+    "name": "BadgeQuestionWavy",
+    "displayName": "Badge question wavy",
+    "aliases": [
+      "BadgeRosetteQuestionUnverified5"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "mark",
+      "unverified",
+      "question",
+      "uncertain",
+      "verification",
+      "wavy"
+    ]
+  },
+  "badge-rosette-question-mark-unverified-6": {
+    "name": "BadgeQuestionNotched",
+    "displayName": "Badge question notched",
+    "aliases": [
+      "BadgeRosetteQuestionUnverified6"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "mark",
+      "unverified",
+      "question",
+      "uncertain",
+      "verification",
+      "notched"
+    ]
+  },
+  "badge-rosette-question-mark-unverified-7": {
+    "name": "BadgeQuestionPointed",
+    "displayName": "Badge question pointed",
+    "aliases": [
+      "BadgeRosetteQuestion"
+    ],
+    "categories": [
+      "social"
+    ],
+    "tags": [
+      "badge",
+      "rosette",
+      "mark",
+      "unverified",
+      "question-mark",
+      "status",
+      "help",
+      "uncertain",
+      "certification",
+      "question",
+      "pointed"
+    ]
+  },
+  "book-bookmark": {
+    "name": "BookBookmarkUnderline",
+    "displayName": "Book bookmark underline",
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "page",
+      "marker",
+      "read",
+      "literature",
+      "save",
+      "underline"
+    ]
+  },
+  "book-bookmark-1": {
+    "name": "BookBookmarkThick",
+    "displayName": "Book bookmark thick",
+    "aliases": [
+      "BookBookmark1"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "reading",
+      "library",
+      "save",
+      "marker",
+      "page",
+      "thick"
+    ]
+  },
+  "book-bookmark-2": {
+    "name": "BookBookmark",
+    "displayName": "Book bookmark",
+    "aliases": [
+      "BookBookmark2"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "reading",
+      "library",
+      "save",
+      "marker",
+      "page"
+    ]
+  },
+  "book-bookmark-3": {
+    "name": "BookBookmarkSpine",
+    "displayName": "Book bookmark spine",
+    "aliases": [
+      "BookBookmark3"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "reading",
+      "library",
+      "save",
+      "marker",
+      "page",
+      "spine"
+    ]
+  },
+  "book-bookmark-4": {
+    "name": "BookBookmarkPlain",
+    "displayName": "Book bookmark plain",
+    "aliases": [
+      "BookBookmark4"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "reading",
+      "library",
+      "save",
+      "marker",
+      "page",
+      "plain"
+    ]
+  },
+  "book-bookmark-5": {
+    "name": "BookBookmarkSpineRounded",
+    "displayName": "Book bookmark spine rounded",
+    "aliases": [
+      "BookBookmark5"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "reading",
+      "library",
+      "save",
+      "marker",
+      "page",
+      "spine",
+      "rounded"
+    ]
+  },
+  "book-bookmark-6": {
+    "name": "BookBookmarkRibbon",
+    "displayName": "Book bookmark ribbon",
+    "aliases": [
+      "BookBookmark6"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "reading",
+      "library",
+      "save",
+      "marker",
+      "page",
+      "ribbon"
+    ]
+  },
+  "book-bookmark-7": {
+    "name": "BookBookmarkFlipped",
+    "displayName": "Book bookmark flipped",
+    "aliases": [
+      "BookBookmark7"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "reading",
+      "library",
+      "save",
+      "marker",
+      "page",
+      "flipped"
+    ]
+  },
+  "book-bookmark-8": {
+    "name": "BookBookmarkFlippedCurved",
+    "displayName": "Book bookmark flipped curved",
+    "aliases": [
+      "BookBookmark8"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "page",
+      "marker",
+      "read",
+      "literature",
+      "flipped",
+      "curved"
+    ]
+  },
+  "book-bookmark-9": {
+    "name": "BookBookmarkCurved",
+    "displayName": "Book bookmark curved",
+    "aliases": [
+      "BookBookmark9"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "page",
+      "marker",
+      "read",
+      "literature",
+      "curved"
+    ]
+  },
+  "book-bookmark-10": {
+    "name": "BookBookmarkRounded",
+    "displayName": "Book bookmark rounded",
+    "aliases": [
+      "BookBookmark10"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "bookmark",
+      "reading",
+      "library",
+      "save",
+      "marker",
+      "page",
+      "rounded"
+    ]
+  },
+  "book-i-information-user-manual-1": {
+    "name": "BookInfo",
+    "displayName": "Book info",
+    "aliases": [
+      "BookInformation1"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "information",
+      "user",
+      "manual",
+      "user-manual",
+      "guide",
+      "documentation",
+      "help",
+      "educational",
+      "reference",
+      "info"
+    ]
+  },
+  "book-i-information-user-manual-2": {
+    "name": "BookOpenInfoCurved",
+    "displayName": "Book open info curved",
+    "aliases": [
+      "BookInformation2"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "information",
+      "user",
+      "manual",
+      "user-manual",
+      "guide",
+      "documentation",
+      "help",
+      "educational",
+      "reference",
+      "open",
+      "info"
+    ]
+  },
+  "book-i-information-user-manual-3": {
+    "name": "BookInfoRounded",
+    "displayName": "Book info rounded",
+    "aliases": [
+      "BookInformation3"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "information",
+      "user",
+      "manual",
+      "user-manual",
+      "guide",
+      "documentation",
+      "help",
+      "educational",
+      "reference",
+      "info",
+      "rounded"
+    ]
+  },
+  "book-i-information-user-manual-4": {
+    "name": "BookInfoThick",
+    "displayName": "Book info thick",
+    "aliases": [
+      "BookInformation4"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "information",
+      "user",
+      "manual",
+      "user-manual",
+      "guide",
+      "documentation",
+      "help",
+      "educational",
+      "reference",
+      "info",
+      "thick"
+    ]
+  },
+  "book-i-information-user-manual-6": {
+    "name": "BookOpenInfo",
+    "displayName": "Book open info",
+    "aliases": [
+      "BookInformation6"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "information",
+      "user",
+      "manual",
+      "user-manual",
+      "guide",
+      "documentation",
+      "help",
+      "educational",
+      "reference",
+      "open",
+      "info"
+    ]
+  },
+  "book-i-information-user-manual-7": {
+    "name": "BookInfoTilted",
+    "displayName": "Book info tilted",
+    "aliases": [
+      "BookInformation7"
+    ],
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "information",
+      "user",
+      "manual",
+      "user-manual",
+      "guide",
+      "documentation",
+      "help",
+      "educational",
+      "reference",
+      "info",
+      "tilted"
+    ]
+  },
+  "book-open-bookmark": {
+    "name": "BookOpenBookmark",
+    "displayName": "Book open bookmark",
+    "categories": [
+      "education"
+    ],
+    "tags": [
+      "book",
+      "open",
+      "bookmark",
+      "page",
+      "marker",
+      "read",
+      "literature",
+      "reading"
+    ]
+  },
+  "door-1-enter-login": {
+    "name": "DoorBare",
+    "displayName": "Door bare",
+    "aliases": [
+      "Door1"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "access",
+      "entry",
+      "authentication",
+      "signin",
+      "portal",
+      "bare"
+    ]
+  },
+  "door-1-enter-login-arrow-in": {
+    "name": "DoorArrowInBare",
+    "displayName": "Door arrow in bare",
+    "aliases": [
+      "Door1ArrowIn"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "signin",
+      "access",
+      "entry",
+      "arrow",
+      "bare"
+    ]
+  },
+  "door-1-enter-login-x-forbidden-": {
+    "name": "DoorXBare",
+    "displayName": "Door X bare",
+    "aliases": [
+      "Door1X"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "forbidden",
+      "close",
+      "delete",
+      "remove",
+      "blocked",
+      "denied",
+      "restricted",
+      "access",
+      "error"
+    ]
+  },
+  "door-1-leave-logout-arrow-out": {
+    "name": "DoorArrowOutBare",
+    "displayName": "Door arrow out bare",
+    "aliases": [
+      "Door1ArrowOut"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "leave",
+      "logout",
+      "exit",
+      "sign-out",
+      "arrow",
+      "out",
+      "departure",
+      "bare"
+    ]
+  },
+  "door-2-enter-login": {
+    "name": "Door",
+    "displayName": "Door",
+    "aliases": [
+      "Door2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "access",
+      "entry",
+      "sign-in",
+      "authentication",
+      "portal"
+    ]
+  },
+  "door-2-enter-login-arrow-in": {
+    "name": "DoorArrowIn",
+    "displayName": "Door arrow in",
+    "aliases": [
+      "Door2ArrowIn"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "sign-in",
+      "arrow",
+      "entry",
+      "access"
+    ]
+  },
+  "door-2-enter-login-x-forbidden-": {
+    "name": "DoorX",
+    "displayName": "Door X",
+    "aliases": [
+      "Door2X"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "forbidden",
+      "close",
+      "delete",
+      "remove",
+      "blocked",
+      "access-denied",
+      "restricted",
+      "prohibited",
+      "error"
+    ]
+  },
+  "door-2-leave-logout-arrow-out": {
+    "name": "DoorArrowOut",
+    "displayName": "Door arrow out",
+    "aliases": [
+      "Door2ArrowOut"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "leave",
+      "logout",
+      "exit",
+      "sign-out",
+      "arrow",
+      "out",
+      "departure"
+    ]
+  },
+  "door-3-enter-login": {
+    "name": "DoorOpen",
+    "displayName": "Door open",
+    "aliases": [
+      "Door3"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "access",
+      "entry",
+      "sign-in",
+      "authentication",
+      "portal",
+      "open"
+    ]
+  },
+  "door-3-enter-login-arrow-in": {
+    "name": "DoorOpenArrowIn",
+    "displayName": "Door open arrow in",
+    "aliases": [
+      "Door3ArrowIn"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "sign-in",
+      "arrow",
+      "entry",
+      "access",
+      "open"
+    ]
+  },
+  "door-3-enter-login-x-forbidden": {
+    "name": "DoorOpenX",
+    "displayName": "Door open X",
+    "aliases": [
+      "Door3X"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "forbidden",
+      "close",
+      "delete",
+      "remove",
+      "blocked",
+      "access-denied",
+      "restricted",
+      "prohibited",
+      "error"
+    ]
+  },
+  "door-3-leave-logout-arrow-out": {
+    "name": "DoorOpenArrowOut",
+    "displayName": "Door open arrow out",
+    "aliases": [
+      "Door3ArrowOut"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "leave",
+      "logout",
+      "exit",
+      "sign-out",
+      "arrow",
+      "out",
+      "departure",
+      "open"
+    ]
+  },
+  "door-square-enter-login": {
+    "name": "DoorSquare",
+    "displayName": "Door square",
+    "aliases": [
+      "DoorSquareEnter"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "square",
+      "access",
+      "entry",
+      "entrance"
+    ]
+  },
+  "door-square-enter-login-arrow-in": {
+    "name": "DoorSquareArrowIn",
+    "displayName": "Door square arrow in",
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "square",
+      "sign-in",
+      "arrow",
+      "entry"
+    ]
+  },
+  "door-square-enter-login-x-forbidden": {
+    "name": "DoorSquareX",
+    "displayName": "Door square X",
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "enter",
+      "login",
+      "forbidden",
+      "close",
+      "delete",
+      "remove",
+      "square",
+      "blocked",
+      "access-denied",
+      "restricted",
+      "prohibited"
+    ]
+  },
+  "door-square-leave-logout-arrow-out": {
+    "name": "DoorSquareArrowOut",
+    "displayName": "Door square arrow out",
+    "aliases": [
+      "DoorSquareExit"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "door",
+      "leave",
+      "logout",
+      "square",
+      "exit",
+      "arrow",
+      "out",
+      "departure"
+    ]
+  },
+  "envelope-lupe-search-mail-email-1": {
+    "name": "MailSearch",
+    "displayName": "Mail search",
+    "aliases": [
+      "EnvelopeSearch1"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "lupe",
+      "email",
+      "search",
+      "magnifying-glass"
+    ]
+  },
+  "envelope-lupe-search-mail-email-2": {
+    "name": "MailSearchRounded",
+    "displayName": "Mail search rounded",
+    "aliases": [
+      "EnvelopeSearch2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "lupe",
+      "email",
+      "search",
+      "magnifying-glass",
+      "rounded"
+    ]
+  },
+  "envelope-lupe-search-mail-email-3": {
+    "name": "MailSearchFolds",
+    "displayName": "Mail search folds",
+    "aliases": [
+      "EnvelopeSearch3"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "lupe",
+      "email",
+      "search",
+      "magnifying-glass",
+      "folds"
+    ]
+  },
+  "envelope-lupe-search-mail-email-group-1": {
+    "name": "MailStackSearch",
+    "displayName": "Mail stack search",
+    "aliases": [
+      "EnvelopeLupeGroup1"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "lupe",
+      "email",
+      "group",
+      "search",
+      "find",
+      "message",
+      "correspondence",
+      "stack"
+    ]
+  },
+  "envelope-lupe-search-mail-email-group-2": {
+    "name": "MailStackSearchRounded",
+    "displayName": "Mail stack search rounded",
+    "aliases": [
+      "EnvelopeLupeGroup2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "lupe",
+      "email",
+      "group",
+      "search",
+      "find",
+      "message",
+      "correspondence",
+      "stack",
+      "rounded"
+    ]
+  },
+  "envelope-lupe-search-mail-email-group-3": {
+    "name": "MailStackSearchFolds",
+    "displayName": "Mail stack search folds",
+    "aliases": [
+      "EnvelopeLupeGroup3"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "lupe",
+      "email",
+      "group",
+      "search",
+      "find",
+      "message",
+      "correspondence",
+      "stack",
+      "folds"
+    ]
+  },
+  "envelope-mail-email-": {
+    "name": "Mail",
+    "displayName": "Mail",
+    "aliases": [
+      "EnvelopeMail"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "communication",
+      "correspondence",
+      "contact"
+    ]
+  },
+  "envelope-mail-email-arrow-up-feedback-1": {
+    "name": "MailOpenUpload",
+    "displayName": "Mail open upload",
+    "aliases": [
+      "EnvelopeMailArrowUp"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "arrow",
+      "up",
+      "feedback",
+      "send",
+      "outbound",
+      "submit",
+      "open",
+      "upload"
+    ]
+  },
+  "envelope-mail-email-arrow-up-feedback-2": {
+    "name": "MailOpenUpload2",
+    "displayName": "Mail open upload2",
+    "aliases": [
+      "EnvelopeMailArrowUp2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "arrow",
+      "up",
+      "feedback",
+      "send",
+      "outbound",
+      "open"
+    ]
+  },
+  "envelope-mail-email-arrow-up-feedback-3": {
+    "name": "MailOpenUploadWide",
+    "displayName": "Mail open upload wide",
+    "aliases": [
+      "EnvelopeMailArrowUp3"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "arrow",
+      "up",
+      "feedback",
+      "send",
+      "style",
+      "open",
+      "upload",
+      "wide"
+    ]
+  },
+  "key-password": {
+    "name": "KeyToothed",
+    "displayName": "Key toothed",
+    "aliases": [
+      "KeyPassword"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "toothed"
+    ]
+  },
+  "key-password-1": {
+    "name": "KeyBlock",
+    "displayName": "Key block",
+    "aliases": [
+      "KeyPassword1"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "encrypt",
+      "login",
+      "block"
+    ]
+  },
+  "key-password-2": {
+    "name": "KeyBlockSmooth",
+    "displayName": "Key block smooth",
+    "aliases": [
+      "Key2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "block",
+      "smooth"
+    ]
+  },
+  "key-password-3": {
+    "name": "KeySkeleton",
+    "displayName": "Key skeleton",
+    "aliases": [
+      "Key3"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "skeleton"
+    ]
+  },
+  "key-password-4": {
+    "name": "KeySkeletonSimple",
+    "displayName": "Key skeleton simple",
+    "aliases": [
+      "Key4"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "skeleton",
+      "simple"
+    ]
+  },
+  "key-password-5": {
+    "name": "KeyRight",
+    "displayName": "Key right",
+    "aliases": [
+      "Key5"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "right"
+    ]
+  },
+  "key-password-6": {
+    "name": "KeyBlockToothed",
+    "displayName": "Key block toothed",
+    "aliases": [
+      "Key6"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "block",
+      "toothed"
+    ]
+  },
+  "key-password-7": {
+    "name": "KeySkeletonRight",
+    "displayName": "Key skeleton right",
+    "aliases": [
+      "Key7"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "skeleton",
+      "right"
+    ]
+  },
+  "key-password-8": {
+    "name": "KeySkeletonRightOval",
+    "displayName": "Key skeleton right oval",
+    "aliases": [
+      "Key8"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "skeleton",
+      "right",
+      "oval"
+    ]
+  },
+  "key-password-9": {
+    "name": "KeyPlain",
+    "displayName": "Key plain",
+    "aliases": [
+      "Key9"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "plain"
+    ]
+  },
+  "key-password-10": {
+    "name": "Key",
+    "displayName": "Key",
+    "aliases": [
+      "KeyPassword10"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "encrypt",
+      "login"
+    ]
+  },
+  "key-password-11": {
+    "name": "KeyAngular",
+    "displayName": "Key angular",
+    "aliases": [
+      "KeyPassword11"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "encrypt",
+      "login",
+      "angular"
+    ]
+  },
+  "key-password-12": {
+    "name": "KeySkeletonFlipped",
+    "displayName": "Key skeleton flipped",
+    "aliases": [
+      "KeyPassword12"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "encrypt",
+      "login",
+      "skeleton",
+      "flipped"
+    ]
+  },
+  "key-password-13": {
+    "name": "KeySmooth",
+    "displayName": "Key smooth",
+    "aliases": [
+      "KeyPassword13"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "encrypt",
+      "login",
+      "smooth"
+    ]
+  },
+  "key-password-14": {
+    "name": "KeyWide",
+    "displayName": "Key wide",
+    "aliases": [
+      "KeyPassword14"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "encrypt",
+      "login",
+      "wide"
+    ]
+  },
+  "key-password-15": {
+    "name": "KeySmoothNotch",
+    "displayName": "Key smooth notch",
+    "aliases": [
+      "Key15"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "key",
+      "password",
+      "security",
+      "authentication",
+      "access",
+      "lock",
+      "credential",
+      "smooth",
+      "notch"
+    ]
+  },
+  "lock-1-check-checked-2": {
+    "name": "LockCheckSharp",
+    "displayName": "Lock check sharp",
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "secure",
+      "verification",
+      "checkmark",
+      "approved",
+      "sharp"
+    ]
+  },
+  "lock-1-check-checked-2-open": {
+    "name": "LockOpenCheckSharp",
+    "displayName": "Lock open check sharp",
+    "aliases": [
+      "LockCheckOpen"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "open",
+      "secure",
+      "verification",
+      "checkmark",
+      "sharp"
+    ]
+  },
+  "lock-1-eye-privacy": {
+    "name": "LockEyeSharp",
+    "displayName": "Lock eye sharp",
+    "aliases": [
+      "LockEyePrivacy"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "privacy",
+      "eye",
+      "visibility",
+      "secure",
+      "protection",
+      "hidden",
+      "view",
+      "sharp"
+    ]
+  },
+  "lock-1-locked": {
+    "name": "LockSharp",
+    "displayName": "Lock sharp",
+    "aliases": [
+      "LockLocked"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "locked",
+      "secure",
+      "closed",
+      "protection",
+      "restricted",
+      "encrypted",
+      "sharp"
+    ]
+  },
+  "lock-1-unlocked-open": {
+    "name": "LockOpenSharp",
+    "displayName": "Lock open sharp",
+    "aliases": [
+      "LockUnlockedOpen"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "unlocked",
+      "open",
+      "unsecure",
+      "accessible",
+      "unprotected",
+      "unlatch",
+      "sharp"
+    ]
+  },
+  "lock-1-x-close-delete-remove": {
+    "name": "LockXSharp",
+    "displayName": "Lock X sharp",
+    "aliases": [
+      "LockClose"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "unsecure",
+      "sharp"
+    ]
+  },
+  "lock-2-check-checked-1": {
+    "name": "LockCheck",
+    "displayName": "Lock check",
+    "aliases": [
+      "Lock2Check"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "secure",
+      "checkmark",
+      "approved"
+    ]
+  },
+  "lock-2-check-checked-1-open": {
+    "name": "LockOpenCheck",
+    "displayName": "Lock open check",
+    "aliases": [
+      "Lock2CheckOpen"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "open",
+      "secure",
+      "checkmark"
+    ]
+  },
+  "lock-2-check-checked-2": {
+    "name": "LockCheckCorner",
+    "displayName": "Lock check corner",
+    "aliases": [
+      "Lock2Check2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "secure",
+      "checkmark",
+      "approved",
+      "corner"
+    ]
+  },
+  "lock-2-check-checked-2-open": {
+    "name": "LockOpenCheckCorner",
+    "displayName": "Lock open check corner",
+    "aliases": [
+      "Lock2CheckOpen2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "open",
+      "secure",
+      "checkmark",
+      "corner"
+    ]
+  },
+  "lock-2-eye-privacy-1": {
+    "name": "LockEye",
+    "displayName": "Lock eye",
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "privacy",
+      "eye",
+      "protection",
+      "security",
+      "visibility",
+      "hidden"
+    ]
+  },
+  "lock-2-eye-privacy-2": {
+    "name": "LockEyeCorner",
+    "displayName": "Lock eye corner",
+    "aliases": [
+      "LockEyeAlt"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "privacy",
+      "eye",
+      "protection",
+      "security",
+      "visibility",
+      "corner"
+    ]
+  },
+  "lock-2-keyhole-1": {
+    "name": "LockKeyhole",
+    "displayName": "Lock keyhole",
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "keyhole",
+      "security",
+      "access",
+      "protection",
+      "key",
+      "locked"
+    ]
+  },
+  "lock-2-keyhole-2": {
+    "name": "LockKeyholeDot",
+    "displayName": "Lock keyhole dot",
+    "aliases": [
+      "LockKeyholeAlt"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "unread",
+      "badge",
+      "keyhole",
+      "security",
+      "access",
+      "protection",
+      "key",
+      "dot"
+    ]
+  },
+  "lock-2-keyhole-open": {
+    "name": "LockOpenKeyhole",
+    "displayName": "Lock open keyhole",
+    "aliases": [
+      "LockKeyholeOpen"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "keyhole",
+      "open",
+      "unlocked",
+      "security",
+      "access",
+      "available"
+    ]
+  },
+  "lock-2-locked": {
+    "name": "Lock",
+    "displayName": "Lock",
+    "aliases": [
+      "LockLocked2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "locked",
+      "secure",
+      "protection",
+      "security",
+      "closed",
+      "blocked"
+    ]
+  },
+  "lock-2-password-dots-1": {
+    "name": "LockDots",
+    "displayName": "Lock dots",
+    "aliases": [
+      "LockPassword"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "password",
+      "dots",
+      "security",
+      "authentication",
+      "protection",
+      "secret"
+    ]
+  },
+  "lock-2-password-dots-2": {
+    "name": "LockDotsDash",
+    "displayName": "Lock dots dash",
+    "aliases": [
+      "LockPasswordAlt"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "password",
+      "dots",
+      "security",
+      "authentication",
+      "protection",
+      "dash"
+    ]
+  },
+  "lock-2-unlocked-open": {
+    "name": "LockOpen",
+    "displayName": "Lock open",
+    "aliases": [
+      "LockUnlocked"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "unlocked",
+      "open",
+      "security",
+      "access",
+      "unprotected",
+      "available"
+    ]
+  },
+  "lock-2-x-close-delete-remove": {
+    "name": "LockX",
+    "displayName": "Lock X",
+    "aliases": [
+      "LockClose2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "close",
+      "delete",
+      "remove",
+      "security",
+      "dismiss",
+      "cancel"
+    ]
+  },
+  "lock-3-check-checked-1": {
+    "name": "LockCheckNarrow",
+    "displayName": "Lock check narrow",
+    "aliases": [
+      "Lock3Check"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "security",
+      "approval",
+      "validation",
+      "protection",
+      "narrow"
+    ]
+  },
+  "lock-3-check-checked-1-open": {
+    "name": "LockOpenCheckNarrow",
+    "displayName": "Lock open check narrow",
+    "aliases": [
+      "Lock3CheckOpen"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "open",
+      "security",
+      "unlock",
+      "access",
+      "approval",
+      "narrow"
+    ]
+  },
+  "lock-3-check-checked-2": {
+    "name": "LockCheckCornerNarrow",
+    "displayName": "Lock check corner narrow",
+    "aliases": [
+      "Lock3Check2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "security",
+      "approval",
+      "validation",
+      "corner",
+      "narrow"
+    ]
+  },
+  "lock-3-check-checked-2-open": {
+    "name": "LockOpenCheckCornerNarrow",
+    "displayName": "Lock open check corner narrow",
+    "aliases": [
+      "Lock3Check2Open"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "open",
+      "security",
+      "unlock",
+      "access",
+      "corner",
+      "narrow"
+    ]
+  },
+  "lock-3-eye-privacy": {
+    "name": "LockEyeNarrow",
+    "displayName": "Lock eye narrow",
+    "aliases": [
+      "Lock3Eye"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "privacy",
+      "eye",
+      "security",
+      "visibility",
+      "view",
+      "protection",
+      "hidden",
+      "narrow"
+    ]
+  },
+  "lock-3-keyhole-1": {
+    "name": "LockKeyholeNarrow",
+    "displayName": "Lock keyhole narrow",
+    "aliases": [
+      "Lock3Keyhole"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "keyhole",
+      "security",
+      "key",
+      "access",
+      "unlock",
+      "protection",
+      "mechanism",
+      "narrow"
+    ]
+  },
+  "lock-3-keyhole-2": {
+    "name": "LockKeyholeDotNarrow",
+    "displayName": "Lock keyhole dot narrow",
+    "aliases": [
+      "Lock3Keyhole2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "unread",
+      "badge",
+      "keyhole",
+      "security",
+      "key",
+      "access",
+      "unlock",
+      "protection",
+      "dot",
+      "narrow"
+    ]
+  },
+  "lock-3-keyhole-open": {
+    "name": "LockOpenKeyholeNarrow",
+    "displayName": "Lock open keyhole narrow",
+    "aliases": [
+      "Lock3KeyholeOpen"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "keyhole",
+      "open",
+      "security",
+      "key",
+      "access",
+      "unlock",
+      "unlocked",
+      "narrow"
+    ]
+  },
+  "lock-3-locked": {
+    "name": "LockNarrow",
+    "displayName": "Lock narrow",
+    "aliases": [
+      "Lock3Locked"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "locked",
+      "security",
+      "protection",
+      "restricted",
+      "secure",
+      "closed",
+      "access",
+      "narrow"
+    ]
+  },
+  "lock-3-password-dots": {
+    "name": "LockDotsNarrow",
+    "displayName": "Lock dots narrow",
+    "aliases": [
+      "Lock3Password"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "password",
+      "dots",
+      "security",
+      "authentication",
+      "protection",
+      "access",
+      "encrypted",
+      "narrow"
+    ]
+  },
+  "lock-3-unlocked-open": {
+    "name": "LockOpenNarrow",
+    "displayName": "Lock open narrow",
+    "aliases": [
+      "Lock3Open"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "unlocked",
+      "open",
+      "security",
+      "access",
+      "padlock",
+      "unsecured",
+      "narrow"
+    ]
+  },
+  "lock-3-x-close-delete-remove": {
+    "name": "LockXNarrow",
+    "displayName": "Lock X narrow",
+    "aliases": [
+      "Lock3Close"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "close",
+      "delete",
+      "remove",
+      "security",
+      "locked",
+      "padlock",
+      "narrow"
+    ]
+  },
+  "lock-4-check-checked-2": {
+    "name": "LockCheckWide",
+    "displayName": "Lock check wide",
+    "aliases": [
+      "Lock4Checked"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "approved",
+      "validated",
+      "security",
+      "padlock",
+      "wide"
+    ]
+  },
+  "lock-4-check-checked-2-open": {
+    "name": "LockOpenCheckWide",
+    "displayName": "Lock open check wide",
+    "aliases": [
+      "Lock4Check"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "confirmed",
+      "security",
+      "padlock",
+      "open",
+      "wide"
+    ]
+  },
+  "lock-4-eye-privacy": {
+    "name": "LockEyeWide",
+    "displayName": "Lock eye wide",
+    "aliases": [
+      "Lock4Eye"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "privacy",
+      "eye",
+      "security",
+      "view",
+      "visibility",
+      "padlock",
+      "protected",
+      "wide"
+    ]
+  },
+  "lock-4-locked": {
+    "name": "LockWide",
+    "displayName": "Lock wide",
+    "aliases": [
+      "Lock4Locked"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "locked",
+      "secure",
+      "security",
+      "padlock",
+      "restricted",
+      "protected",
+      "wide"
+    ]
+  },
+  "lock-4-password-dots-1": {
+    "name": "LockDotsWide",
+    "displayName": "Lock dots wide",
+    "aliases": [
+      "Lock4Password"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "password",
+      "dots",
+      "secure",
+      "authentication",
+      "credentials",
+      "padlock",
+      "security",
+      "wide"
+    ]
+  },
+  "lock-4-password-dots-2": {
+    "name": "LockDotsDashWide",
+    "displayName": "Lock dots dash wide",
+    "aliases": [
+      "Lock4PasswordTwo"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "password",
+      "dots",
+      "secure",
+      "authentication",
+      "padlock",
+      "security",
+      "dash",
+      "wide"
+    ]
+  },
+  "lock-4-unlocked-open": {
+    "name": "LockOpenWide",
+    "displayName": "Lock open wide",
+    "aliases": [
+      "Lock4Open"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "unlocked",
+      "open",
+      "access",
+      "unsecured",
+      "padlock",
+      "security",
+      "wide"
+    ]
+  },
+  "lock-4-x-close-delete-remove": {
+    "name": "LockXWide",
+    "displayName": "Lock X wide",
+    "aliases": [
+      "Lock4Close"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "close",
+      "delete",
+      "remove",
+      "security",
+      "padlock",
+      "locked",
+      "wide"
+    ]
+  },
+  "lock-5-check-checked-1": {
+    "name": "LockCheckRound",
+    "displayName": "Lock check round",
+    "aliases": [
+      "Lock5Check"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "security",
+      "confirm",
+      "approve",
+      "round"
+    ]
+  },
+  "lock-5-check-checked-1-open": {
+    "name": "LockOpenCheckRound",
+    "displayName": "Lock open check round",
+    "aliases": [
+      "Lock5CheckOpen"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "open",
+      "security",
+      "access",
+      "unlock",
+      "round"
+    ]
+  },
+  "lock-5-check-checked-2": {
+    "name": "LockCheckCornerRound",
+    "displayName": "Lock check corner round",
+    "aliases": [
+      "Lock5CheckAlt"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "security",
+      "confirm",
+      "corner",
+      "round"
+    ]
+  },
+  "lock-5-check-checked-2-open": {
+    "name": "LockOpenCheckCornerRound",
+    "displayName": "Lock open check corner round",
+    "aliases": [
+      "Lock5CheckOpenAlt"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "open",
+      "security",
+      "unlock",
+      "corner",
+      "round"
+    ]
+  },
+  "lock-5-eye-privacy": {
+    "name": "LockEyeRound",
+    "displayName": "Lock eye round",
+    "aliases": [
+      "Lock5Eye"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "privacy",
+      "eye",
+      "visibility",
+      "security",
+      "monitor",
+      "watch",
+      "round"
+    ]
+  },
+  "lock-5-keyhole-1": {
+    "name": "LockKeyholeRound",
+    "displayName": "Lock keyhole round",
+    "aliases": [
+      "Lock5Keyhole1"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "keyhole",
+      "security",
+      "key",
+      "access",
+      "unlock",
+      "detail",
+      "round"
+    ]
+  },
+  "lock-5-keyhole-2": {
+    "name": "LockKeyholeDotRound",
+    "displayName": "Lock keyhole dot round",
+    "aliases": [
+      "Lock5Keyhole2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "unread",
+      "badge",
+      "keyhole",
+      "security",
+      "key",
+      "access",
+      "unlock",
+      "dot",
+      "round"
+    ]
+  },
+  "lock-5-keyhole-open": {
+    "name": "LockOpenKeyholeRound",
+    "displayName": "Lock open keyhole round",
+    "aliases": [
+      "Lock5KeyholeOpen"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "keyhole",
+      "open",
+      "security",
+      "key",
+      "access",
+      "unlock",
+      "round"
+    ]
+  },
+  "lock-5-locked": {
+    "name": "LockRound",
+    "displayName": "Lock round",
+    "aliases": [
+      "Lock5Locked"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "locked",
+      "security",
+      "closed",
+      "protect",
+      "secure",
+      "active",
+      "round"
+    ]
+  },
+  "lock-5-unlocked-open": {
+    "name": "LockOpenRound",
+    "displayName": "Lock open round",
+    "aliases": [
+      "Lock5Unlocked"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "unlocked",
+      "open",
+      "security",
+      "access",
+      "unsecure",
+      "deactivated",
+      "round"
+    ]
+  },
+  "lock-5-x-close-delete-remove": {
+    "name": "LockXRound",
+    "displayName": "Lock X round",
+    "aliases": [
+      "Lock5Close"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "close",
+      "delete",
+      "remove",
+      "security",
+      "dismiss",
+      "secure",
+      "round"
+    ]
+  },
+  "lock-arrow-portrait-orientation-1": {
+    "name": "LockRefreshLarge",
+    "displayName": "Lock refresh large",
+    "aliases": [
+      "LockArrowPortrait1"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "arrow",
+      "portrait",
+      "orientation",
+      "rotation",
+      "device",
+      "screen",
+      "vertical",
+      "refresh",
+      "large"
+    ]
+  },
+  "lock-arrow-portrait-orientation-2": {
+    "name": "LockRefreshSmall",
+    "displayName": "Lock refresh small",
+    "aliases": [
+      "LockArrowPortrait2"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "arrow",
+      "portrait",
+      "orientation",
+      "rotation",
+      "device",
+      "screen",
+      "refresh",
+      "small"
+    ]
+  },
+  "lock-arrow-portrait-orientation-3": {
+    "name": "LockRefresh",
+    "displayName": "Lock refresh",
+    "aliases": [
+      "LockArrowPortrait3"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "arrow",
+      "portrait",
+      "orientation",
+      "rotation",
+      "device",
+      "screen",
+      "refresh"
+    ]
+  },
+  "lock-padlock-circle": {
+    "name": "LockCircle",
+    "displayName": "Lock circle",
+    "aliases": [
+      "LockPadlockCircle"
+    ],
+    "categories": [
+      "security"
+    ],
+    "tags": [
+      "lock",
+      "padlock",
+      "circle",
+      "security",
+      "closed",
+      "protected",
+      "safe",
+      "secure"
+    ]
+  },
+  "mailbox": {
+    "name": "Mailbox",
+    "displayName": "Mailbox",
+    "aliases": [
+      "Mailbox9"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mailbox",
+      "mail",
+      "email",
+      "delivery",
+      "post",
+      "envelope",
+      "communication",
+      "inbox"
+    ]
+  },
+  "mailbox-1": {
+    "name": "MailboxFlag",
+    "displayName": "Mailbox flag",
+    "aliases": [
+      "Mailbox1"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mailbox",
+      "mail",
+      "email",
+      "delivery",
+      "post",
+      "envelope",
+      "communication",
+      "flag"
+    ]
+  },
+  "mailbox-2": {
+    "name": "MailboxPost",
+    "displayName": "Mailbox post",
+    "aliases": [
+      "Mailbox2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mailbox",
+      "mail",
+      "email",
+      "delivery",
+      "post",
+      "envelope",
+      "communication"
+    ]
+  },
+  "mailbox-3": {
+    "name": "MailboxPostFlag",
+    "displayName": "Mailbox post flag",
+    "aliases": [
+      "Mailbox3"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mailbox",
+      "mail",
+      "email",
+      "delivery",
+      "post",
+      "envelope",
+      "communication",
+      "flag"
+    ]
+  },
+  "mailbox-4": {
+    "name": "MailboxPostFlagSquare",
+    "displayName": "Mailbox post flag square",
+    "aliases": [
+      "Mailbox4"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mailbox",
+      "mail",
+      "email",
+      "delivery",
+      "post",
+      "envelope",
+      "communication",
+      "flag",
+      "square"
+    ]
+  },
+  "mailbox-5": {
+    "name": "MailboxFlagSquare",
+    "displayName": "Mailbox flag square",
+    "aliases": [
+      "Mailbox5"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mailbox",
+      "mail",
+      "email",
+      "delivery",
+      "post",
+      "envelope",
+      "communication",
+      "flag",
+      "square"
+    ]
+  },
+  "mailbox-6": {
+    "name": "MailboxMail",
+    "displayName": "Mailbox mail",
+    "aliases": [
+      "Mailbox6"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mailbox",
+      "mail",
+      "email",
+      "delivery",
+      "post",
+      "envelope",
+      "communication"
+    ]
+  },
+  "mailbox-7": {
+    "name": "MailboxFlagBare",
+    "displayName": "Mailbox flag bare",
+    "aliases": [
+      "Mailbox79"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mailbox",
+      "mail",
+      "email",
+      "delivery",
+      "post",
+      "envelope",
+      "communication",
+      "flag",
+      "bare"
+    ]
+  },
+  "mailbox-8": {
+    "name": "MailboxFlagWaving",
+    "displayName": "Mailbox flag waving",
+    "aliases": [
+      "Mailbox8"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "mailbox",
+      "mail",
+      "email",
+      "delivery",
+      "post",
+      "envelope",
+      "communication",
+      "flag",
+      "waving"
+    ]
+  },
+  "newspaper-news": {
+    "name": "Newspaper",
+    "displayName": "Newspaper",
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "media",
+      "press",
+      "publication",
+      "article",
+      "information",
+      "reading",
+      "journal"
+    ]
+  },
+  "newspaper-news-1": {
+    "name": "NewspaperPhoto",
+    "displayName": "Newspaper photo",
+    "aliases": [
+      "Newspaper1"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "journal",
+      "publication",
+      "article",
+      "press",
+      "media",
+      "reading",
+      "photo"
+    ]
+  },
+  "newspaper-news-2": {
+    "name": "NewspaperHeadline",
+    "displayName": "Newspaper headline",
+    "aliases": [
+      "Newspaper2"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "journal",
+      "publication",
+      "article",
+      "press",
+      "media",
+      "reading",
+      "headline"
+    ]
+  },
+  "newspaper-news-3": {
+    "name": "NewspaperTorn",
+    "displayName": "Newspaper torn",
+    "aliases": [
+      "Newspaper3"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "journal",
+      "publication",
+      "article",
+      "press",
+      "media",
+      "reading",
+      "torn"
+    ]
+  },
+  "newspaper-news-4": {
+    "name": "NewspaperTornWide",
+    "displayName": "Newspaper torn wide",
+    "aliases": [
+      "Newspaper4"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "journal",
+      "publication",
+      "article",
+      "press",
+      "media",
+      "reading",
+      "torn",
+      "wide"
+    ]
+  },
+  "newspaper-news-5": {
+    "name": "NewspaperCard",
+    "displayName": "Newspaper card",
+    "aliases": [
+      "Newspaper5"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "media",
+      "press",
+      "publication",
+      "article",
+      "information",
+      "reading",
+      "journal",
+      "card"
+    ]
+  },
+  "newspaper-news-6": {
+    "name": "NewspaperFold",
+    "displayName": "Newspaper fold",
+    "aliases": [
+      "Newspaper6"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "media",
+      "press",
+      "publication",
+      "article",
+      "information",
+      "reading",
+      "journal",
+      "fold"
+    ]
+  },
+  "newspaper-news-7": {
+    "name": "NewspaperStack",
+    "displayName": "Newspaper stack",
+    "aliases": [
+      "Newspaper7"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "media",
+      "press",
+      "publication",
+      "article",
+      "information",
+      "reading",
+      "journal",
+      "stack"
+    ]
+  },
+  "newspaper-news-8": {
+    "name": "NewspaperTornCurl",
+    "displayName": "Newspaper torn curl",
+    "aliases": [
+      "Newspaper8"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "media",
+      "press",
+      "publication",
+      "article",
+      "information",
+      "reading",
+      "journal",
+      "torn",
+      "curl"
+    ]
+  },
+  "newspaper-news-9": {
+    "name": "NewspaperTornCurlHeadline",
+    "displayName": "Newspaper torn curl headline",
+    "aliases": [
+      "Newspaper9"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "media",
+      "press",
+      "publication",
+      "article",
+      "information",
+      "reading",
+      "journal",
+      "torn",
+      "curl",
+      "headline"
+    ]
+  },
+  "newspaper-news-10": {
+    "name": "NewspaperRolled",
+    "displayName": "Newspaper rolled",
+    "aliases": [
+      "Newspaper10"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "journal",
+      "publication",
+      "article",
+      "press",
+      "media",
+      "reading",
+      "rolled"
+    ]
+  },
+  "newspaper-news-11": {
+    "name": "NewspaperIsometric",
+    "displayName": "Newspaper isometric",
+    "aliases": [
+      "Newspaper11"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "journal",
+      "publication",
+      "article",
+      "press",
+      "media",
+      "reading",
+      "isometric"
+    ]
+  },
+  "newspaper-news-12": {
+    "name": "NewspaperPhotoLeft",
+    "displayName": "Newspaper photo left",
+    "aliases": [
+      "Newspaper12"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "tags": [
+      "newspaper",
+      "news",
+      "journal",
+      "publication",
+      "article",
+      "press",
+      "media",
+      "reading",
+      "photo",
+      "left"
+    ]
+  }
+}

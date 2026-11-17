@@ -1,0 +1,5036 @@
+{
+  "cart-line-square": {
+    "name": "ChartLineSquareWide",
+    "displayName": "Chart line square wide",
+    "aliases": [
+      "CartSquare"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "cart",
+      "shopping",
+      "purchase",
+      "buy",
+      "retail",
+      "ecommerce",
+      "basket",
+      "store",
+      "square",
+      "wide"
+    ]
+  },
+  "chart-arrow-up-circle": {
+    "name": "ChartTrendUpCircle",
+    "displayName": "Chart trend up circle",
+    "aliases": [
+      "ChartArrowUpCircle"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "up",
+      "growth",
+      "analytics",
+      "performance",
+      "metrics",
+      "increase",
+      "trend",
+      "circle"
+    ]
+  },
+  "chart-arrow-up-circle-arrow-in": {
+    "name": "ChartTrendUpCircleArrowRight",
+    "displayName": "Chart trend up circle arrow right",
+    "aliases": [
+      "ChartArrowUpCircleArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "up",
+      "import",
+      "data",
+      "analytics",
+      "growth",
+      "upload",
+      "trend",
+      "circle",
+      "right"
+    ]
+  },
+  "chart-arrow-up-circle-check-checked": {
+    "name": "ChartTrendUpCircleCheck",
+    "displayName": "Chart trend up circle check",
+    "aliases": [
+      "ChartArrowUpCircleCheck"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "up",
+      "check",
+      "analytics",
+      "performance",
+      "validation",
+      "trend"
+    ]
+  },
+  "chart-arrow-up-circle-negative-remove-minus-delete": {
+    "name": "ChartTrendUpCircleMinus",
+    "displayName": "Chart trend up circle minus",
+    "aliases": [
+      "ChartArrowUpCircleMinus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "up",
+      "minus",
+      "analytics",
+      "correction",
+      "trend",
+      "circle"
+    ]
+  },
+  "chart-arrow-up-circle-positive-add-plus-": {
+    "name": "ChartTrendUpCirclePlus",
+    "displayName": "Chart trend up circle plus",
+    "aliases": [
+      "ChartArrowUpCirclePlus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "positive",
+      "add",
+      "create",
+      "up",
+      "plus",
+      "analytics",
+      "enhancement",
+      "trend",
+      "circle"
+    ]
+  },
+  "chart-arrow-up-circle-x-delete-error": {
+    "name": "ChartTrendUpCircleX",
+    "displayName": "Chart trend up circle X",
+    "aliases": [
+      "ChartArrowUpCircleX"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "up",
+      "failed",
+      "analytics",
+      "problem",
+      "trend",
+      "circle"
+    ]
+  },
+  "chart-arrow-up-rectangle": {
+    "name": "ChartTrendUpSquare",
+    "displayName": "Chart trend up square",
+    "aliases": [
+      "ChartArrowUpRectangle"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "rectangle",
+      "growth",
+      "increase",
+      "analytics",
+      "metrics",
+      "performance",
+      "trend",
+      "statistics",
+      "up",
+      "square"
+    ]
+  },
+  "chart-arrow-up-rectangle-arrow-in": {
+    "name": "ChartTrendUpSquareArrowRight",
+    "displayName": "Chart trend up square arrow right",
+    "aliases": [
+      "ChartArrowUpRectangleArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "rectangle",
+      "arrow",
+      "up",
+      "import",
+      "analytics",
+      "data",
+      "upload",
+      "trend",
+      "square",
+      "right"
+    ]
+  },
+  "chart-arrow-up-rectangle-check-checked": {
+    "name": "ChartTrendUpSquareCheck",
+    "displayName": "Chart trend up square check",
+    "aliases": [
+      "ChartArrowUpRectangleCheck"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "rectangle",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "up",
+      "check",
+      "validated",
+      "performance",
+      "confirmed"
+    ]
+  },
+  "chart-arrow-up-rectangle-negative-remove-minus-delete": {
+    "name": "ChartTrendUpSquareMinus",
+    "displayName": "Chart trend up square minus",
+    "aliases": [
+      "ChartArrowUpRectangleMinus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "rectangle",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "up",
+      "minus",
+      "correction",
+      "trend",
+      "square"
+    ]
+  },
+  "chart-arrow-up-rectangle-positive-add-plus": {
+    "name": "ChartTrendUpSquarePlus",
+    "displayName": "Chart trend up square plus",
+    "aliases": [
+      "ChartArrowUpRectanglePlus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "rectangle",
+      "positive",
+      "add",
+      "create",
+      "growth",
+      "increase",
+      "plus",
+      "analytics",
+      "data",
+      "trend"
+    ]
+  },
+  "chart-arrow-up-rectangle-red-dot": {
+    "name": "ChartTrendUpSquareDot",
+    "displayName": "Chart trend up square dot",
+    "aliases": [
+      "ChartArrowUpRectangleDot"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "rectangle",
+      "unread",
+      "badge",
+      "notification",
+      "alert",
+      "growth",
+      "data",
+      "indicator",
+      "analytics",
+      "update"
+    ]
+  },
+  "chart-arrow-up-rectangle-x-delete-error": {
+    "name": "ChartTrendUpSquareX",
+    "displayName": "Chart trend up square X",
+    "aliases": [
+      "ChartArrowUpRectangleX"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "rectangle",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "analytics",
+      "data",
+      "cancel",
+      "trend",
+      "up"
+    ]
+  },
+  "chart-candlestick-1": {
+    "name": "ChartCandlestick",
+    "displayName": "Chart candlestick",
+    "aliases": [
+      "ChartCandlestick1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "candlestick",
+      "trading",
+      "finance",
+      "stock",
+      "market",
+      "investment",
+      "price",
+      "analysis"
+    ]
+  },
+  "chart-candlestick-2": {
+    "name": "ChartCandlestick2",
+    "displayName": "Chart candlestick2",
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "candlestick",
+      "trading",
+      "finance",
+      "stock",
+      "market",
+      "investment",
+      "price",
+      "analysis"
+    ]
+  },
+  "chart-doughnut-storage": {
+    "name": "ChartDonut",
+    "displayName": "Chart donut",
+    "aliases": [
+      "ChartDoughnutStorage"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "doughnut",
+      "storage",
+      "capacity",
+      "usage",
+      "disk",
+      "memory",
+      "allocation",
+      "resources",
+      "donut"
+    ]
+  },
+  "chart-doughnut-storage-filled-stripes": {
+    "name": "ChartDonutStriped",
+    "displayName": "Chart donut striped",
+    "aliases": [
+      "ChartDoughnutStorageStripes"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "doughnut",
+      "storage",
+      "filled",
+      "stripes",
+      "capacity",
+      "usage",
+      "disk",
+      "memory",
+      "quota",
+      "space",
+      "donut"
+    ]
+  },
+  "chart-horizontal-bars-1": {
+    "name": "ChartBarHorizontal",
+    "displayName": "Chart bar horizontal",
+    "aliases": [
+      "ChartHorizontalBars1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "bars",
+      "bar",
+      "horizontal",
+      "comparison",
+      "ranking",
+      "data",
+      "analytics",
+      "categories",
+      "statistics"
+    ]
+  },
+  "chart-horizontal-bars-2": {
+    "name": "ChartBarHorizontalAxis",
+    "displayName": "Chart bar horizontal axis",
+    "aliases": [
+      "ChartHorizontalBars2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "bars",
+      "bar",
+      "horizontal",
+      "comparison",
+      "data",
+      "analytics",
+      "visualization",
+      "categories",
+      "metrics",
+      "axis"
+    ]
+  },
+  "chart-horizontal-bars-3": {
+    "name": "ChartBarHorizontalPeak",
+    "displayName": "Chart bar horizontal peak",
+    "aliases": [
+      "ChartHorizontalBars3"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "bars",
+      "bar",
+      "horizontal",
+      "comparison",
+      "dashboard",
+      "report",
+      "data",
+      "analytics",
+      "categories",
+      "peak"
+    ]
+  },
+  "chart-horizontal-bars-4": {
+    "name": "ChartBarHorizontalPeakAxis",
+    "displayName": "Chart bar horizontal peak axis",
+    "aliases": [
+      "ChartHorizontalBars4"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "bars",
+      "bar",
+      "horizontal",
+      "comparison",
+      "ranking",
+      "survey",
+      "data",
+      "analytics",
+      "categories",
+      "peak",
+      "axis"
+    ]
+  },
+  "chart-line-arrow-up-increase-1": {
+    "name": "ChartTrendUpAxis",
+    "displayName": "Chart trend up axis",
+    "aliases": [
+      "ChartLineIncrease1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "increase",
+      "growth",
+      "trend",
+      "performance",
+      "metrics",
+      "analytics",
+      "up",
+      "axis"
+    ]
+  },
+  "chart-line-arrow-up-increase-2-": {
+    "name": "ChartTrendUp",
+    "displayName": "Chart trend up",
+    "aliases": [
+      "ChartLineIncrease2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "arrow",
+      "increase",
+      "growth",
+      "trend",
+      "pattern",
+      "data",
+      "analytics",
+      "up"
+    ]
+  },
+  "chart-line-circle": {
+    "name": "ChartLineWideCircle",
+    "displayName": "Chart line wide circle",
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "circular",
+      "analytics",
+      "data",
+      "dashboard",
+      "metrics",
+      "trends",
+      "visualization",
+      "wide",
+      "circle"
+    ]
+  },
+  "chart-line-circle-2": {
+    "name": "ChartLineCircle",
+    "displayName": "Chart line circle",
+    "aliases": [
+      "ChartLineCircle2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "analytics",
+      "data",
+      "graph",
+      "statistics",
+      "trends",
+      "business",
+      "metrics",
+      "circle"
+    ]
+  },
+  "chart-line-circle-2-arrow-in": {
+    "name": "ChartLineCircleArrowRight",
+    "displayName": "Chart line circle arrow right",
+    "aliases": [
+      "ChartLineCircle2ArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "circle",
+      "flow",
+      "relationship",
+      "connection",
+      "data",
+      "metrics",
+      "arrow",
+      "right"
+    ]
+  },
+  "chart-line-circle-2-check-checked-": {
+    "name": "ChartLineCircleCheck",
+    "displayName": "Chart line circle check",
+    "aliases": [
+      "ChartLineCircle2Check"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "analytics",
+      "checkmark",
+      "data",
+      "metrics",
+      "validation",
+      "complete",
+      "circle"
+    ]
+  },
+  "chart-line-circle-2-x-delete-error": {
+    "name": "ChartLineCircleX",
+    "displayName": "Chart line circle X",
+    "aliases": [
+      "ChartLineCircle2X"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "analytics",
+      "fail",
+      "data",
+      "metrics",
+      "invalid",
+      "circle"
+    ]
+  },
+  "chart-line-circle-3": {
+    "name": "ChartLinePeakCircle",
+    "displayName": "Chart line peak circle",
+    "aliases": [
+      "ChartLineCircle3"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "analytics",
+      "data",
+      "visualization",
+      "trends",
+      "business",
+      "reporting",
+      "statistics",
+      "peak",
+      "circle"
+    ]
+  },
+  "chart-line-circle-3-arrow-in": {
+    "name": "ChartLinePeakCircleArrowRight",
+    "displayName": "Chart line peak circle arrow right",
+    "aliases": [
+      "ChartLineCircle3ArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "import",
+      "data",
+      "analytics",
+      "arrow",
+      "incoming",
+      "receive",
+      "input",
+      "peak",
+      "circle",
+      "right"
+    ]
+  },
+  "chart-line-circle-3-check-checked": {
+    "name": "ChartLinePeakCircleCheck",
+    "displayName": "Chart line peak circle check",
+    "aliases": [
+      "ChartLineCircle3Check"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "approved",
+      "analytics",
+      "checkmark",
+      "data",
+      "validated",
+      "peak",
+      "circle"
+    ]
+  },
+  "chart-line-circle-3-negative-remove-minus-delete": {
+    "name": "ChartLinePeakCircleMinus",
+    "displayName": "Chart line peak circle minus",
+    "aliases": [
+      "ChartLineCircle3Minus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "decrease",
+      "data",
+      "analytics",
+      "reduce",
+      "peak",
+      "circle"
+    ]
+  },
+  "chart-line-circle-3-positive-add-plus": {
+    "name": "ChartLinePeakCirclePlus",
+    "displayName": "Chart line peak circle plus",
+    "aliases": [
+      "ChartLineCircle3Plus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "increase",
+      "data",
+      "analytics",
+      "expand",
+      "grow",
+      "peak",
+      "circle"
+    ]
+  },
+  "chart-line-circle-3-x-delete-error": {
+    "name": "ChartLinePeakCircleX",
+    "displayName": "Chart line peak circle X",
+    "aliases": [
+      "ChartLineCircle3X"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "invalid",
+      "data",
+      "analytics",
+      "fail",
+      "cancel",
+      "peak",
+      "circle"
+    ]
+  },
+  "chart-line-circle-dotted-logged-in-progress": {
+    "name": "ChartLineCircleDotted",
+    "displayName": "Chart line circle dotted",
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "logged",
+      "progress",
+      "loading",
+      "pending",
+      "data",
+      "analytics",
+      "processing",
+      "waiting",
+      "circle",
+      "dotted"
+    ]
+  },
+  "chart-line-decrease-1": {
+    "name": "ChartLineDownAxis",
+    "displayName": "Chart line down axis",
+    "aliases": [
+      "ChartLineDecrease1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "decrease",
+      "decline",
+      "downward",
+      "negative",
+      "falling",
+      "loss",
+      "reduction",
+      "down",
+      "axis"
+    ]
+  },
+  "chart-line-decrease-2": {
+    "name": "ChartLineDownAxisJagged",
+    "displayName": "Chart line down axis jagged",
+    "aliases": [
+      "ChartLineDecrease2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "decrease",
+      "decline",
+      "downward",
+      "drop",
+      "falling",
+      "negative",
+      "loss",
+      "down",
+      "axis",
+      "jagged"
+    ]
+  },
+  "chart-line-increase-1": {
+    "name": "ChartLineUpAxis",
+    "displayName": "Chart line up axis",
+    "aliases": [
+      "ChartLineRising"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "increase",
+      "growth",
+      "upward",
+      "positive",
+      "rising",
+      "gain",
+      "improvement",
+      "up",
+      "axis"
+    ]
+  },
+  "chart-line-increase-2": {
+    "name": "ChartLineUpAxisJagged",
+    "displayName": "Chart line up axis jagged",
+    "aliases": [
+      "ChartLineVolatile"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "increase",
+      "growth",
+      "upward",
+      "surge",
+      "rising",
+      "positive",
+      "gain",
+      "up",
+      "axis",
+      "jagged"
+    ]
+  },
+  "chart-line-oscillate-1": {
+    "name": "ChartLinePeakAxis",
+    "displayName": "Chart line peak axis",
+    "aliases": [
+      "ChartLineOscillate1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "oscillate",
+      "wave",
+      "data",
+      "analytics",
+      "fluctuation",
+      "trend",
+      "peak",
+      "axis"
+    ]
+  },
+  "chart-line-oscillate-2": {
+    "name": "ChartLinePeak",
+    "displayName": "Chart line peak",
+    "aliases": [
+      "ChartLineOscillate2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "oscillate",
+      "wave",
+      "data",
+      "analytics",
+      "fluctuation",
+      "metrics",
+      "peak"
+    ]
+  },
+  "chart-line-square-2": {
+    "name": "ChartLineSquare",
+    "displayName": "Chart line square",
+    "aliases": [
+      "ChartLineSquare2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "graph",
+      "data",
+      "analytics",
+      "visualization",
+      "trend",
+      "business",
+      "square"
+    ]
+  },
+  "chart-line-square-2-arrow-in": {
+    "name": "ChartLineSquareArrowRight",
+    "displayName": "Chart line square arrow right",
+    "aliases": [
+      "ChartLineSquare2ArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "import",
+      "arrow",
+      "data",
+      "input",
+      "analytics",
+      "upload",
+      "add",
+      "square",
+      "right"
+    ]
+  },
+  "chart-line-square-2-check-checked": {
+    "name": "ChartLineSquareCheck",
+    "displayName": "Chart line square check",
+    "aliases": [
+      "ChartLineSquare2Check"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "complete",
+      "analytics",
+      "validated",
+      "approved",
+      "square"
+    ]
+  },
+  "chart-line-square-2-negative-remove-minus-delete": {
+    "name": "ChartLineSquareMinus",
+    "displayName": "Chart line square minus",
+    "aliases": [
+      "ChartLineSquare2Minus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "data",
+      "management",
+      "square"
+    ]
+  },
+  "chart-line-square-2-positive-add-plus": {
+    "name": "ChartLineSquarePlus",
+    "displayName": "Chart line square plus",
+    "aliases": [
+      "ChartLineSquare2Plus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "growth",
+      "expand",
+      "new",
+      "square"
+    ]
+  },
+  "chart-line-square-2-red-dot": {
+    "name": "ChartLineSquareDot",
+    "displayName": "Chart line square dot",
+    "aliases": [
+      "ChartLineSquare2Dot"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "unread",
+      "badge",
+      "notification",
+      "alert",
+      "dot",
+      "update",
+      "new",
+      "status",
+      "indicator",
+      "square"
+    ]
+  },
+  "chart-line-square-2-x-delete-error": {
+    "name": "ChartLineSquareX",
+    "displayName": "Chart line square X",
+    "aliases": [
+      "ChartLineSquare2X"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "failed",
+      "invalid",
+      "cancel",
+      "square"
+    ]
+  },
+  "chart-line-square-3": {
+    "name": "ChartLinePeakSquare",
+    "displayName": "Chart line peak square",
+    "aliases": [
+      "ChartLineSquare3"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "statistics",
+      "trends",
+      "metrics",
+      "peak",
+      "square"
+    ]
+  },
+  "chart-line-square-3-arrow-in": {
+    "name": "ChartLinePeakSquareArrowRight",
+    "displayName": "Chart line peak square arrow right",
+    "aliases": [
+      "ChartLineSquare3ArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "import",
+      "arrow",
+      "data",
+      "input",
+      "analytics",
+      "upload",
+      "add",
+      "peak",
+      "square",
+      "right"
+    ]
+  },
+  "chart-line-square-3-check-checked": {
+    "name": "ChartLinePeakSquareCheck",
+    "displayName": "Chart line peak square check",
+    "aliases": [
+      "ChartLineSquare3Check"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "complete",
+      "analytics",
+      "validated",
+      "approved",
+      "peak",
+      "square"
+    ]
+  },
+  "chart-line-square-3-negative-remove-minus-delete": {
+    "name": "ChartLinePeakSquareMinus",
+    "displayName": "Chart line peak square minus",
+    "aliases": [
+      "ChartLineSquare3Minus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "data",
+      "decline",
+      "peak",
+      "square"
+    ]
+  },
+  "chart-line-square-3-positive-add-plus": {
+    "name": "ChartLinePeakSquarePlus",
+    "displayName": "Chart line peak square plus",
+    "aliases": [
+      "ChartLineSquare3Plus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "growth",
+      "expand",
+      "increase",
+      "peak",
+      "square"
+    ]
+  },
+  "chart-line-square-3-red-dot": {
+    "name": "ChartLinePeakSquareDot",
+    "displayName": "Chart line peak square dot",
+    "aliases": [
+      "ChartLineSquare3Dot"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "unread",
+      "badge",
+      "notification",
+      "alert",
+      "dot",
+      "update",
+      "new",
+      "status",
+      "realtime",
+      "peak",
+      "square"
+    ]
+  },
+  "chart-line-square-3-x-delete-error": {
+    "name": "ChartLinePeakSquareX",
+    "displayName": "Chart line peak square X",
+    "aliases": [
+      "ChartLineSquare3X"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "failed",
+      "invalid",
+      "cancel",
+      "peak",
+      "square"
+    ]
+  },
+  "chart-pie-pizza-1": {
+    "name": "ChartPie",
+    "displayName": "Chart pie",
+    "aliases": [
+      "ChartPie1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "pizza",
+      "pie",
+      "graph",
+      "percentage",
+      "proportion",
+      "data",
+      "statistics",
+      "breakdown"
+    ]
+  },
+  "chart-pie-pizza-2": {
+    "name": "ChartPie2",
+    "displayName": "Chart pie2",
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "pie",
+      "pizza",
+      "graph",
+      "segments",
+      "proportion",
+      "data",
+      "analytics",
+      "distribution"
+    ]
+  },
+  "chart-vertical-bars-arrow-down-decrease-1": {
+    "name": "ChartBarTrendDownThin",
+    "displayName": "Chart bar trend down thin",
+    "aliases": [
+      "ChartVerticalBarsDecrease1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "bars",
+      "arrow",
+      "decrease",
+      "decline",
+      "down",
+      "negative",
+      "trend",
+      "bar",
+      "thin"
+    ]
+  },
+  "chart-vertical-bars-arrow-down-decrease-2": {
+    "name": "ChartBarArrowDownThin",
+    "displayName": "Chart bar arrow down thin",
+    "aliases": [
+      "ChartVerticalBarsDecrease2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "bars",
+      "decrease",
+      "decline",
+      "down",
+      "arrow",
+      "loss",
+      "reduction",
+      "bar",
+      "thin"
+    ]
+  },
+  "chart-vertical-bars-arrow-up-increase-1": {
+    "name": "ChartBarTrendUpThin",
+    "displayName": "Chart bar trend up thin",
+    "aliases": [
+      "ChartVerticalBarsIncrease1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "bars",
+      "arrow",
+      "increase",
+      "growth",
+      "up",
+      "positive",
+      "trend",
+      "bar",
+      "thin"
+    ]
+  },
+  "chart-vertical-bars-arrow-up-increase-2": {
+    "name": "ChartBarArrowUpThin",
+    "displayName": "Chart bar arrow up thin",
+    "aliases": [
+      "ChartVerticalBarsIncrease2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "bars",
+      "increase",
+      "growth",
+      "up",
+      "arrow",
+      "gain",
+      "improvement",
+      "bar",
+      "thin"
+    ]
+  },
+  "chart-vertical-columns-1": {
+    "name": "ChartBarJoined",
+    "displayName": "Chart bar joined",
+    "aliases": [
+      "ChartVerticalColumns1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "bars",
+      "data",
+      "comparison",
+      "statistics",
+      "graph",
+      "bar",
+      "joined"
+    ]
+  },
+  "chart-vertical-columns-2": {
+    "name": "ChartBarJoinedBase",
+    "displayName": "Chart bar joined base",
+    "aliases": [
+      "ChartVerticalColumns2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "bars",
+      "data",
+      "analytics",
+      "comparison",
+      "metrics",
+      "bar",
+      "joined",
+      "base"
+    ]
+  },
+  "chart-vertical-columns-3": {
+    "name": "ChartBarPeakJoined",
+    "displayName": "Chart bar peak joined",
+    "aliases": [
+      "ChartVerticalColumns3"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "bars",
+      "categorical",
+      "data",
+      "business",
+      "analysis",
+      "bar",
+      "peak",
+      "joined"
+    ]
+  },
+  "chart-vertical-columns-4": {
+    "name": "ChartBarPeakJoinedBase",
+    "displayName": "Chart bar peak joined base",
+    "aliases": [
+      "ChartVerticalColumns4"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "bars",
+      "statistics",
+      "reporting",
+      "data",
+      "visualization",
+      "bar",
+      "peak",
+      "joined",
+      "base"
+    ]
+  },
+  "chart-vertical-columns-5": {
+    "name": "ChartBar",
+    "displayName": "Chart bar",
+    "aliases": [
+      "ChartVerticalColumns5"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "bars",
+      "metrics",
+      "quantitative",
+      "business",
+      "data",
+      "bar"
+    ]
+  },
+  "chart-vertical-columns-6": {
+    "name": "ChartBarPeak",
+    "displayName": "Chart bar peak",
+    "aliases": [
+      "ChartVerticalColumns6"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "bars",
+      "comparative",
+      "datasets",
+      "visualization",
+      "analysis",
+      "bar",
+      "peak"
+    ]
+  },
+  "chart-vertical-columns-7": {
+    "name": "ChartBarPeakJoinedAxis",
+    "displayName": "Chart bar peak joined axis",
+    "aliases": [
+      "ChartVerticalColumns7"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "bars",
+      "reporting",
+      "numerical",
+      "analytics",
+      "presentation",
+      "bar",
+      "peak",
+      "joined",
+      "axis"
+    ]
+  },
+  "chart-vertical-columns-circle": {
+    "name": "ChartBarCircle",
+    "displayName": "Chart bar circle",
+    "aliases": [
+      "ChartVerticalColumnsCircle"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "analytics",
+      "statistics",
+      "data",
+      "visualization",
+      "reporting",
+      "business",
+      "bar",
+      "circle"
+    ]
+  },
+  "chart-vertical-columns-circle-arrow-in": {
+    "name": "ChartBarCircleArrowRight",
+    "displayName": "Chart bar circle arrow right",
+    "aliases": [
+      "ChartVerticalColumnsCircleArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "refresh",
+      "import",
+      "update",
+      "circular",
+      "arrow",
+      "data",
+      "bar",
+      "circle",
+      "right"
+    ]
+  },
+  "chart-vertical-columns-circle-check-checked": {
+    "name": "ChartBarCircleCheck",
+    "displayName": "Chart bar circle check",
+    "aliases": [
+      "ChartVerticalColumnsCircleCheck"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "analytics",
+      "check",
+      "validated",
+      "complete",
+      "data"
+    ]
+  },
+  "chart-vertical-columns-circle-dotted-logged-in-progress": {
+    "name": "ChartBarCircleDotted",
+    "displayName": "Chart bar circle dotted",
+    "aliases": [
+      "ChartVerticalColumnsCircleDotted"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "logged",
+      "progress",
+      "analytics",
+      "loading",
+      "pending",
+      "processing",
+      "data",
+      "bar",
+      "circle"
+    ]
+  },
+  "chart-vertical-columns-circle-x-delete-error": {
+    "name": "ChartBarCircleX",
+    "displayName": "Chart bar circle X",
+    "aliases": [
+      "ChartVerticalColumnsCircleX"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "analytics",
+      "failed",
+      "invalid",
+      "data",
+      "bar"
+    ]
+  },
+  "chart-vertical-columns-lines-circle": {
+    "name": "ChartBarCircleThin",
+    "displayName": "Chart bar circle thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesCircle"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "combination",
+      "analytics",
+      "data",
+      "visualization",
+      "trends",
+      "bar",
+      "circle",
+      "thin"
+    ]
+  },
+  "chart-vertical-columns-lines-circle-arrow-in": {
+    "name": "ChartBarCircleArrowRightThin",
+    "displayName": "Chart bar circle arrow right thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesCircleArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "import",
+      "arrow",
+      "data",
+      "integration",
+      "analytics",
+      "bar",
+      "circle",
+      "right",
+      "thin"
+    ]
+  },
+  "chart-vertical-columns-lines-circle-check-checked": {
+    "name": "ChartBarCircleCheckThin",
+    "displayName": "Chart bar circle check thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesCircleCheck"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "validated",
+      "analytics",
+      "complete",
+      "bar"
+    ]
+  },
+  "chart-vertical-columns-lines-circle-dotted-logged-in-progress": {
+    "name": "ChartBarCircleDottedThin",
+    "displayName": "Chart bar circle dotted thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesCircleDotted"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "logged",
+      "progress",
+      "loading",
+      "processing",
+      "analytics",
+      "updating",
+      "bar",
+      "circle",
+      "dotted"
+    ]
+  },
+  "chart-vertical-columns-lines-circle-negative-remove-minus-delete": {
+    "name": "ChartBarCircleMinusThin",
+    "displayName": "Chart bar circle minus thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesCircleMinus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "reduce",
+      "analytics",
+      "bar",
+      "circle"
+    ]
+  },
+  "chart-vertical-columns-lines-circle-positive-add-plus-": {
+    "name": "ChartBarCirclePlusThin",
+    "displayName": "Chart bar circle plus thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesCirclePlus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "expand",
+      "enhance",
+      "analytics",
+      "bar",
+      "circle"
+    ]
+  },
+  "chart-vertical-columns-lines-circle-x-delete-error": {
+    "name": "ChartBarCircleXThin",
+    "displayName": "Chart bar circle X thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesCircleX"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "failed",
+      "invalid",
+      "analytics",
+      "bar",
+      "circle"
+    ]
+  },
+  "chart-vertical-columns-lines-square": {
+    "name": "ChartBarSquareThin",
+    "displayName": "Chart bar square thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesSquare"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "column",
+      "graph",
+      "data",
+      "visualization",
+      "analytics",
+      "statistics",
+      "business",
+      "bar",
+      "square"
+    ]
+  },
+  "chart-vertical-columns-lines-square-arrow-in-": {
+    "name": "ChartBarSquareArrowRightThin",
+    "displayName": "Chart bar square arrow right thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesSquareArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "import",
+      "arrow",
+      "square",
+      "data",
+      "integration",
+      "bar",
+      "right",
+      "thin"
+    ]
+  },
+  "chart-vertical-columns-lines-square-check-checked": {
+    "name": "ChartBarSquareCheckThin",
+    "displayName": "Chart bar square check thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesSquareCheck"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "validated",
+      "square",
+      "approved",
+      "analytics"
+    ]
+  },
+  "chart-vertical-columns-lines-square-negative-remove-minus-delete": {
+    "name": "ChartBarSquareMinusThin",
+    "displayName": "Chart bar square minus thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesSquareMinus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "square",
+      "analytics",
+      "bar",
+      "thin"
+    ]
+  },
+  "chart-vertical-columns-lines-square-negative-y-axis-1": {
+    "name": "ChartBarDownPeakSquareThin",
+    "displayName": "Chart bar down peak square thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesSquareNegative1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "negative",
+      "axis",
+      "y-axis",
+      "square",
+      "below",
+      "metrics",
+      "bar",
+      "down",
+      "peak"
+    ]
+  },
+  "chart-vertical-columns-lines-square-negative-y-axis-2": {
+    "name": "ChartBarDownSquareThin",
+    "displayName": "Chart bar down square thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesSquareNegative2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "negative",
+      "axis",
+      "column",
+      "data",
+      "visualization",
+      "analytics",
+      "graph",
+      "statistics",
+      "bar"
+    ]
+  },
+  "chart-vertical-columns-lines-square-positive-add-plus-": {
+    "name": "ChartBarSquarePlusThin",
+    "displayName": "Chart bar square plus thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesSquarePlus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "positive",
+      "add",
+      "create",
+      "column",
+      "plus",
+      "data",
+      "visualization",
+      "analytics",
+      "bar"
+    ]
+  },
+  "chart-vertical-columns-lines-square-red-dot-alert": {
+    "name": "ChartBarSquareDotThin",
+    "displayName": "Chart bar square dot thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesSquareDot"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "alert",
+      "unread",
+      "badge",
+      "column",
+      "warning",
+      "notification",
+      "data",
+      "analytics",
+      "attention"
+    ]
+  },
+  "chart-vertical-columns-lines-square-x-delete-error": {
+    "name": "ChartBarSquareXThin",
+    "displayName": "Chart bar square X thin",
+    "aliases": [
+      "ChartVerticalColumnsLinesSquareX"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "column",
+      "data",
+      "analytics",
+      "management",
+      "bar"
+    ]
+  },
+  "chart-vertical-columns-rectangle": {
+    "name": "ChartBarSquare",
+    "displayName": "Chart bar square",
+    "aliases": [
+      "ChartVerticalColumnsRectangle"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "rectangle",
+      "column",
+      "graph",
+      "data",
+      "visualization",
+      "statistics",
+      "business",
+      "metrics",
+      "bar"
+    ]
+  },
+  "chart-vertical-columns-rectangle-arrow-in": {
+    "name": "ChartBarSquareArrowRight",
+    "displayName": "Chart bar square arrow right",
+    "aliases": [
+      "ChartVerticalColumnsRectangleArrowIn"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "rectangle",
+      "column",
+      "import",
+      "arrow",
+      "data",
+      "input",
+      "analytics",
+      "upload",
+      "bar"
+    ]
+  },
+  "chart-vertical-columns-rectangle-check-checked": {
+    "name": "ChartBarSquareCheck",
+    "displayName": "Chart bar square check",
+    "aliases": [
+      "ChartVerticalColumnsRectangleCheck"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "rectangle",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "column",
+      "check",
+      "complete",
+      "data"
+    ]
+  },
+  "chart-vertical-columns-rectangle-negative-remove-minus-delete": {
+    "name": "ChartBarSquareMinus",
+    "displayName": "Chart bar square minus",
+    "aliases": [
+      "ChartVerticalColumnsRectangleMinus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "rectangle",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "column",
+      "minus",
+      "data",
+      "management"
+    ]
+  },
+  "chart-vertical-columns-rectangle-negative-y-axis-1": {
+    "name": "ChartBarDownPeakSquare",
+    "displayName": "Chart bar down peak square",
+    "aliases": [
+      "ChartVerticalColumnsRectangleNegative1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "rectangle",
+      "negative",
+      "axis",
+      "column",
+      "deficit",
+      "loss",
+      "data",
+      "analytics",
+      "performance"
+    ]
+  },
+  "chart-vertical-columns-rectangle-negative-y-axis-2": {
+    "name": "ChartBarDownSquare",
+    "displayName": "Chart bar down square",
+    "aliases": [
+      "ChartVerticalColumnsRectangleNegative2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "rectangle",
+      "negative",
+      "axis",
+      "column",
+      "comparison",
+      "data",
+      "analytics",
+      "metrics",
+      "visualization"
+    ]
+  },
+  "chart-vertical-columns-rectangle-positive-add-plus-": {
+    "name": "ChartBarSquarePlus",
+    "displayName": "Chart bar square plus",
+    "aliases": [
+      "ChartVerticalColumnsRectanglePlus"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "rectangle",
+      "positive",
+      "add",
+      "create",
+      "column",
+      "plus",
+      "expand",
+      "data",
+      "series"
+    ]
+  },
+  "chart-vertical-columns-rectangle-red-dot-alert": {
+    "name": "ChartBarSquareDot",
+    "displayName": "Chart bar square dot",
+    "aliases": [
+      "ChartVerticalColumnsRectangleDot"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "rectangle",
+      "alert",
+      "unread",
+      "badge",
+      "column",
+      "critical",
+      "warning",
+      "attention",
+      "data"
+    ]
+  },
+  "chart-vertical-columns-rectangle-x-delete-error": {
+    "name": "ChartBarSquareX",
+    "displayName": "Chart bar square X",
+    "aliases": [
+      "ChartVerticalColumnsRectangleX"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "rectangle",
+      "delete",
+      "error",
+      "close",
+      "remove",
+      "column",
+      "cancel",
+      "data",
+      "management"
+    ]
+  },
+  "chart-vertical-lines-columns-1": {
+    "name": "ChartBarThin",
+    "displayName": "Chart bar thin",
+    "aliases": [
+      "ChartVerticalLinesColumns1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "combination",
+      "multi-series",
+      "data",
+      "visualization",
+      "analytics",
+      "bar",
+      "thin"
+    ]
+  },
+  "chart-vertical-lines-columns-2": {
+    "name": "ChartBarMixedThin",
+    "displayName": "Chart bar mixed thin",
+    "aliases": [
+      "ChartVerticalLinesColumns2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "graph",
+      "data",
+      "analytics",
+      "bars",
+      "statistics",
+      "visualization",
+      "bar",
+      "mixed",
+      "thin"
+    ]
+  },
+  "chart-vertical-lines-columns-3": {
+    "name": "ChartBarMixedAxisThin",
+    "displayName": "Chart bar mixed axis thin",
+    "aliases": [
+      "ChartVerticalLinesColumns3"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "graph",
+      "data",
+      "analytics",
+      "bars",
+      "statistics",
+      "visualization",
+      "bar",
+      "mixed",
+      "axis"
+    ]
+  },
+  "chart-vertical-lines-columns-4": {
+    "name": "ChartBarAxisThin",
+    "displayName": "Chart bar axis thin",
+    "aliases": [
+      "ChartVerticalLinesColumns4"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertical",
+      "columns",
+      "graph",
+      "data",
+      "analytics",
+      "bars",
+      "statistics",
+      "visualization",
+      "bar",
+      "axis",
+      "thin"
+    ]
+  },
+  "chart-vertival-bars-arrow-horizontal-neutral-1": {
+    "name": "ChartBarArrowRightThin",
+    "displayName": "Chart bar arrow right thin",
+    "aliases": [
+      "ChartVerticalBarsArrowHorizontal1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertival",
+      "bars",
+      "horizontal",
+      "neutral",
+      "graph",
+      "arrow",
+      "trend",
+      "analytics",
+      "direction",
+      "growth",
+      "data"
+    ]
+  },
+  "chart-vertival-bars-arrow-horizontal-neutral-2": {
+    "name": "ChartBarArrowRight",
+    "displayName": "Chart bar arrow right",
+    "aliases": [
+      "ChartVerticalBarsArrowHorizontal2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "vertival",
+      "bars",
+      "horizontal",
+      "neutral",
+      "graph",
+      "arrow",
+      "trend",
+      "analytics",
+      "direction",
+      "growth",
+      "data"
+    ]
+  },
+  "diagram-hierarchy-1": {
+    "name": "DiagramChain",
+    "displayName": "Diagram chain",
+    "aliases": [
+      "DiagramHierarchy1"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "hierarchy",
+      "organization",
+      "structure",
+      "tree",
+      "management",
+      "levels",
+      "flowchart",
+      "chain"
+    ]
+  },
+  "diagram-hierarchy-2": {
+    "name": "DiagramChainLarge",
+    "displayName": "Diagram chain large",
+    "aliases": [
+      "DiagramHierarchy2"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "hierarchy",
+      "organization",
+      "structure",
+      "tree",
+      "management",
+      "levels",
+      "flowchart",
+      "chain",
+      "large"
+    ]
+  },
+  "diagram-hierarchy-3": {
+    "name": "DiagramTree",
+    "displayName": "Diagram tree",
+    "aliases": [
+      "DiagramHierarchy3"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "hierarchy",
+      "organization",
+      "structure",
+      "tree",
+      "management",
+      "levels",
+      "complex"
+    ]
+  },
+  "diagram-hierarchy-4": {
+    "name": "DiagramTreeLarge",
+    "displayName": "Diagram tree large",
+    "aliases": [
+      "DiagramHierarchy4"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "hierarchy",
+      "organization",
+      "structure",
+      "tree",
+      "management",
+      "levels",
+      "branching",
+      "large"
+    ]
+  },
+  "diagram-horizontal": {
+    "name": "DiagramTreeRight",
+    "displayName": "Diagram tree right",
+    "aliases": [
+      "DiagramHorizontal"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "horizontal",
+      "flow",
+      "process",
+      "workflow",
+      "timeline",
+      "sequence",
+      "linear",
+      "tree",
+      "right"
+    ]
+  },
+  "diagram-mind-map": {
+    "name": "DiagramMindMap",
+    "displayName": "Diagram mind map",
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "mindmap",
+      "brainstorm",
+      "ideas",
+      "thinking",
+      "creativity",
+      "planning",
+      "branches",
+      "mind",
+      "map"
+    ]
+  },
+  "diagram-tree-structure": {
+    "name": "DiagramTreeIndent",
+    "displayName": "Diagram tree indent",
+    "aliases": [
+      "DiagramTreeStructure"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "structure",
+      "tree",
+      "branches",
+      "nodes",
+      "connections",
+      "filesystem",
+      "organization",
+      "indent"
+    ]
+  },
+  "diagram-unit": {
+    "name": "DiagramGrid",
+    "displayName": "Diagram grid",
+    "aliases": [
+      "DiagramUnit"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "unit",
+      "component",
+      "element",
+      "block",
+      "module",
+      "basic",
+      "single",
+      "grid"
+    ]
+  },
+  "diagram-vertical": {
+    "name": "DiagramDecision",
+    "displayName": "Diagram decision",
+    "aliases": [
+      "DiagramVertical"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "vertical",
+      "flow",
+      "process",
+      "workflow",
+      "sequence",
+      "steps",
+      "hierarchy",
+      "decision"
+    ]
+  },
+  "diagram-workflow": {
+    "name": "DiagramFlowchart",
+    "displayName": "Diagram flowchart",
+    "aliases": [
+      "DiagramWorkflow"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "diagram",
+      "workflow",
+      "process",
+      "steps",
+      "flowchart",
+      "business",
+      "procedure",
+      "system"
+    ]
+  },
+  "graph-horizontal-bars-rounded-tasks-filled-dots-": {
+    "name": "ProgressBarMultipleDotted",
+    "displayName": "Progress bar multiple dotted",
+    "aliases": [
+      "GraphHorizontalBarsRounded"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "graph",
+      "horizontal",
+      "bars",
+      "rounded",
+      "tasks",
+      "filled",
+      "dots",
+      "chart",
+      "bar",
+      "multiple",
+      "dotted"
+    ]
+  },
+  "graph-horizontal-bars-tasks-filled-dots-2": {
+    "name": "ProgressBarMultipleDottedSharp",
+    "displayName": "Progress bar multiple dotted sharp",
+    "aliases": [
+      "GraphHorizontalBarsDots"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "graph",
+      "horizontal",
+      "bars",
+      "tasks",
+      "filled",
+      "dots",
+      "chart",
+      "bar",
+      "multiple",
+      "dotted",
+      "sharp"
+    ]
+  },
+  "graph-horizontal-bars-tasks-filled-dots-3": {
+    "name": "ProgressBarMultipleDottedJoined",
+    "displayName": "Progress bar multiple dotted joined",
+    "aliases": [
+      "GraphHorizontalBarsDotsAlt"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "graph",
+      "horizontal",
+      "bars",
+      "tasks",
+      "filled",
+      "dots",
+      "chart",
+      "alternative",
+      "bar",
+      "multiple",
+      "dotted"
+    ]
+  },
+  "graph-horizontal-bars-tasks-filled-stripes-1": {
+    "name": "ProgressBarMultipleSegmentedSharp",
+    "displayName": "Progress bar multiple segmented sharp",
+    "aliases": [
+      "GraphHorizontalBarsStripes"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "graph",
+      "horizontal",
+      "bars",
+      "tasks",
+      "filled",
+      "stripes",
+      "pattern",
+      "chart",
+      "bar",
+      "multiple",
+      "segmented"
+    ]
+  },
+  "graph-horizontal-bars-tasks-filled-stripes-2": {
+    "name": "ProgressBarMultipleStripedJoined",
+    "displayName": "Progress bar multiple striped joined",
+    "aliases": [
+      "GraphHorizontalBarsStripesAlt"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "graph",
+      "horizontal",
+      "bars",
+      "tasks",
+      "filled",
+      "stripes",
+      "pattern",
+      "chart",
+      "alternative",
+      "bar",
+      "multiple"
+    ]
+  },
+  "graph-horizontal-bars-tasks-lines": {
+    "name": "ChartBarHorizontalSquareThin",
+    "displayName": "Chart bar horizontal square thin",
+    "aliases": [
+      "GraphHorizontalBarsLines"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "chart",
+      "graph",
+      "bars",
+      "tasks",
+      "horizontal",
+      "progress",
+      "analytics",
+      "bar",
+      "square",
+      "thin"
+    ]
+  },
+  "loading-bar-1": {
+    "name": "ProgressBarSharp",
+    "displayName": "Progress bar sharp",
+    "aliases": [
+      "LoadingBar1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "bar",
+      "indicator",
+      "wait",
+      "processing",
+      "status",
+      "sharp"
+    ]
+  },
+  "loading-bar-2": {
+    "name": "ProgressBar",
+    "displayName": "Progress bar",
+    "aliases": [
+      "LoadingBar2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "bar",
+      "indicator",
+      "wait",
+      "processing",
+      "status"
+    ]
+  },
+  "loading-bar-3": {
+    "name": "ProgressBarStripedSharp",
+    "displayName": "Progress bar striped sharp",
+    "aliases": [
+      "LoadingBar3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "bar",
+      "indicator",
+      "wait",
+      "processing",
+      "status",
+      "striped",
+      "sharp"
+    ]
+  },
+  "loading-bar-4": {
+    "name": "ProgressBarStriped",
+    "displayName": "Progress bar striped",
+    "aliases": [
+      "LoadingBar4"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "bar",
+      "indicator",
+      "wait",
+      "processing",
+      "status",
+      "striped"
+    ]
+  },
+  "loading-bar-5": {
+    "name": "ProgressBarDotted",
+    "displayName": "Progress bar dotted",
+    "aliases": [
+      "LoadingBar5"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "bar",
+      "indicator",
+      "wait",
+      "processing",
+      "status",
+      "dotted"
+    ]
+  },
+  "loading-bar-6": {
+    "name": "ProgressBarDottedSharp",
+    "displayName": "Progress bar dotted sharp",
+    "aliases": [
+      "LoadingBar6"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "bar",
+      "indicator",
+      "wait",
+      "processing",
+      "complete",
+      "status",
+      "dotted",
+      "sharp"
+    ]
+  },
+  "loading-dots-step1": {
+    "name": "ProgressDots",
+    "displayName": "Progress dots",
+    "aliases": [
+      "LoadingDotsStep1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "dots",
+      "step",
+      "animation",
+      "wait",
+      "spinner",
+      "pending",
+      "sequence"
+    ]
+  },
+  "loading-dots-step2": {
+    "name": "ProgressDotsLeft",
+    "displayName": "Progress dots left",
+    "aliases": [
+      "LoadingDotsStep2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "dots",
+      "step",
+      "animation",
+      "wait",
+      "spinner",
+      "pending",
+      "sequence",
+      "left"
+    ]
+  },
+  "loading-dots-step3": {
+    "name": "ProgressDotsCenter",
+    "displayName": "Progress dots center",
+    "aliases": [
+      "LoadingDotsStep3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "dots",
+      "step",
+      "animation",
+      "wait",
+      "spinner",
+      "pending",
+      "sequence",
+      "center"
+    ]
+  },
+  "loading-dots-step4": {
+    "name": "ProgressDotsRight",
+    "displayName": "Progress dots right",
+    "aliases": [
+      "LoadingDotsStep4"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "progress",
+      "loading",
+      "dots",
+      "step",
+      "animation",
+      "wait",
+      "spinner",
+      "pending",
+      "sequence",
+      "right"
+    ]
+  },
+  "page-view-open-view-in-new-tab-arrow-down-1": {
+    "name": "TabDownload",
+    "displayName": "Tab download",
+    "aliases": [
+      "PageViewNewTabArrowDown1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "page",
+      "view",
+      "open",
+      "new",
+      "arrow",
+      "down",
+      "external",
+      "download"
+    ]
+  },
+  "page-view-open-view-in-new-tab-arrow-down-2": {
+    "name": "TabDownloadSplit",
+    "displayName": "Tab download split",
+    "aliases": [
+      "PageViewNewTabArrowDown2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "page",
+      "view",
+      "open",
+      "new",
+      "arrow",
+      "down",
+      "external",
+      "download",
+      "split"
+    ]
+  },
+  "page-view-open-view-in-new-tab-arrow-down-3": {
+    "name": "TabDownloadSharp",
+    "displayName": "Tab download sharp",
+    "aliases": [
+      "PageViewNewTabArrowDown3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "page",
+      "view",
+      "open",
+      "new",
+      "arrow",
+      "down",
+      "external",
+      "download",
+      "sharp"
+    ]
+  },
+  "poll-1-horizontal": {
+    "name": "PollHorizontalSquare",
+    "displayName": "Poll horizontal square",
+    "aliases": [
+      "Poll1Horizontal"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "horizontal",
+      "bar",
+      "chart",
+      "survey",
+      "analytics",
+      "data",
+      "graph",
+      "statistics",
+      "square"
+    ]
+  },
+  "poll-1-vertical": {
+    "name": "PollSquare",
+    "displayName": "Poll square",
+    "aliases": [
+      "Poll1Vertical"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "vertical",
+      "bar",
+      "chart",
+      "survey",
+      "analytics",
+      "data",
+      "graph",
+      "statistics",
+      "square"
+    ]
+  },
+  "poll-2-horizontal": {
+    "name": "PollHorizontalPercent",
+    "displayName": "Poll horizontal percent",
+    "aliases": [
+      "Poll2Horizontal"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "horizontal",
+      "bar",
+      "chart",
+      "survey",
+      "analytics",
+      "data",
+      "graph",
+      "statistics",
+      "percent"
+    ]
+  },
+  "poll-2-vertical": {
+    "name": "PollPercent",
+    "displayName": "Poll percent",
+    "aliases": [
+      "Poll2Vertical"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "vertical",
+      "bar",
+      "chart",
+      "survey",
+      "analytics",
+      "data",
+      "graph",
+      "statistics",
+      "percent"
+    ]
+  },
+  "poll-3-horizontal": {
+    "name": "PollHorizontalCheckbox",
+    "displayName": "Poll horizontal checkbox",
+    "aliases": [
+      "Poll3Horizontal"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "horizontal",
+      "bar",
+      "chart",
+      "survey",
+      "analytics",
+      "data",
+      "graph",
+      "statistics",
+      "checkbox"
+    ]
+  },
+  "poll-3-vertical": {
+    "name": "PollCheckbox",
+    "displayName": "Poll checkbox",
+    "aliases": [
+      "Poll3Vertical"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "vertical",
+      "bar",
+      "chart",
+      "survey",
+      "analytics",
+      "data",
+      "graph",
+      "statistics",
+      "checkbox"
+    ]
+  },
+  "poll-4-horizontal": {
+    "name": "PollHorizontalPlusMinus",
+    "displayName": "Poll horizontal plus minus",
+    "aliases": [
+      "Poll4Horizontal"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "add",
+      "create",
+      "remove",
+      "subtract",
+      "horizontal",
+      "bar",
+      "chart",
+      "survey",
+      "analytics",
+      "data",
+      "graph"
+    ]
+  },
+  "poll-4-vertical": {
+    "name": "PollPlusMinus",
+    "displayName": "Poll plus minus",
+    "aliases": [
+      "Poll4Vertical"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "vertical",
+      "add",
+      "create",
+      "remove",
+      "subtract",
+      "survey",
+      "voting",
+      "feedback",
+      "questionnaire",
+      "opinion",
+      "plus"
+    ]
+  },
+  "poll-5-horizontal": {
+    "name": "PollHorizontalCheckX",
+    "displayName": "Poll horizontal check X",
+    "aliases": [
+      "Poll5Horizontal"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "done",
+      "success",
+      "verified",
+      "close",
+      "delete",
+      "remove",
+      "horizontal",
+      "survey",
+      "voting",
+      "feedback",
+      "questionnaire"
+    ]
+  },
+  "poll-5-vertical": {
+    "name": "PollCheckX",
+    "displayName": "Poll check X",
+    "aliases": [
+      "Poll5Vertical"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "vertical",
+      "done",
+      "success",
+      "verified",
+      "close",
+      "delete",
+      "remove",
+      "survey",
+      "voting",
+      "feedback",
+      "questionnaire"
+    ]
+  },
+  "poll-6-horizontal-speech-bubble": {
+    "name": "PollHorizontalChat",
+    "displayName": "Poll horizontal chat",
+    "aliases": [
+      "Poll6SpeechBubble"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "speech",
+      "bubble",
+      "horizontal",
+      "speech-bubble",
+      "survey",
+      "voting",
+      "feedback",
+      "communication",
+      "questionnaire",
+      "chat"
+    ]
+  },
+  "poll-6-vertical-speech-bubble": {
+    "name": "PollChat",
+    "displayName": "Poll chat",
+    "aliases": [
+      "Poll6VerticalSpeech"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "vertical",
+      "speech",
+      "bubble",
+      "speech-bubble",
+      "survey",
+      "voting",
+      "feedback",
+      "communication",
+      "questionnaire",
+      "chat"
+    ]
+  },
+  "poll-7-vertical-users": {
+    "name": "PollUser",
+    "displayName": "Poll user",
+    "aliases": [
+      "Poll7Users"
+    ],
+    "categories": [
+      "business"
+    ],
+    "tags": [
+      "poll",
+      "vertical",
+      "users",
+      "survey",
+      "voting",
+      "feedback",
+      "people",
+      "participation",
+      "user"
+    ]
+  },
+  "progress-spinner-loading-circle-line": {
+    "name": "Spinner",
+    "displayName": "Spinner",
+    "aliases": [
+      "ProgressSpinnerLine"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "circle",
+      "animation",
+      "activity"
+    ]
+  },
+  "progress-spinner-loading-circle-two-lines": {
+    "name": "SpinnerSplit",
+    "displayName": "Spinner split",
+    "aliases": [
+      "ProgressSpinnerDoubleLines"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "circle",
+      "two",
+      "animation",
+      "activity",
+      "split"
+    ]
+  },
+  "progress-spinner-loading-dots-1": {
+    "name": "SpinnerDots",
+    "displayName": "Spinner dots",
+    "aliases": [
+      "ProgressSpinnerDots1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "dots",
+      "circle",
+      "animation",
+      "activity"
+    ]
+  },
+  "progress-spinner-loading-dots-2": {
+    "name": "SpinnerDotsFade",
+    "displayName": "Spinner dots fade",
+    "aliases": [
+      "ProgressSpinnerDots2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "dots",
+      "circle",
+      "animation",
+      "activity",
+      "fade"
+    ]
+  },
+  "progress-spinner-loading-lines-radiating-1": {
+    "name": "SpinnerRaysLong",
+    "displayName": "Spinner rays long",
+    "aliases": [
+      "ProgressSpinnerRadiating1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "radiating",
+      "animation",
+      "activity",
+      "rays",
+      "long"
+    ]
+  },
+  "progress-spinner-loading-lines-radiating-2": {
+    "name": "SpinnerRays2",
+    "displayName": "Spinner rays2",
+    "aliases": [
+      "ProgressSpinnerRadiating2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "radiating",
+      "animation",
+      "activity"
+    ]
+  },
+  "progress-spinner-loading-lines-radiating-3": {
+    "name": "SpinnerRays",
+    "displayName": "Spinner rays",
+    "aliases": [
+      "ProgressSpinnerRadiating3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "radiating",
+      "animation",
+      "activity",
+      "rays"
+    ]
+  },
+  "progress-spinner-loading-lines-radiating-4": {
+    "name": "SpinnerRaysShort",
+    "displayName": "Spinner rays short",
+    "aliases": [
+      "ProgressSpinnerRadiating4"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "radiating",
+      "animation",
+      "activity",
+      "rays",
+      "short"
+    ]
+  },
+  "progress-spinner-loading-lines-radiating-5": {
+    "name": "SpinnerRaysFade",
+    "displayName": "Spinner rays fade",
+    "aliases": [
+      "ProgressSpinnerRadiating5"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "radiating",
+      "animation",
+      "activity",
+      "rays",
+      "fade"
+    ]
+  },
+  "progress-spinner-loading-lines-radiating-dotted": {
+    "name": "SpinnerRaysDotted",
+    "displayName": "Spinner rays dotted",
+    "aliases": [
+      "ProgressSpinnerDotted"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "spinner",
+      "progress",
+      "loading",
+      "radiating",
+      "dotted",
+      "animation",
+      "activity",
+      "rays"
+    ]
+  },
+  "tab-1": {
+    "name": "Tab",
+    "displayName": "Tab",
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "interface",
+      "navigation",
+      "element",
+      "icon-ui"
+    ]
+  },
+  "tab-1-arrow-x-close-remove-left-tab-": {
+    "name": "TabArrowLeftX",
+    "displayName": "Tab arrow left X",
+    "aliases": [
+      "TabCloseLeft"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "close",
+      "remove",
+      "delete",
+      "arrow",
+      "left",
+      "navigation"
+    ]
+  },
+  "tab-1-arrow-x-close-remove-right-tab-": {
+    "name": "TabArrowRightX",
+    "displayName": "Tab arrow right X",
+    "aliases": [
+      "TabCloseRight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "close",
+      "remove",
+      "delete",
+      "arrow",
+      "right",
+      "navigation"
+    ]
+  },
+  "tab-1-check-checked-verified": {
+    "name": "TabCheckCenter",
+    "displayName": "Tab check center",
+    "aliases": [
+      "TabCheckVerified"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "confirmation",
+      "approved",
+      "validation",
+      "mark",
+      "center"
+    ]
+  },
+  "tab-1-check-checked-verified-2": {
+    "name": "TabCheck",
+    "displayName": "Tab check",
+    "aliases": [
+      "TabCheckVerified2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "confirmation",
+      "approved",
+      "validation"
+    ]
+  },
+  "tab-1-check-checked-verified-circle": {
+    "name": "TabCheckCircle",
+    "displayName": "Tab check circle",
+    "aliases": [
+      "TabCheckVerifiedCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "circle",
+      "confirmation",
+      "approved",
+      "validation"
+    ]
+  },
+  "tab-1-extra-features": {
+    "name": "TabTitle",
+    "displayName": "Tab title",
+    "aliases": [
+      "TabExtraFeatures"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "extra",
+      "features",
+      "additional",
+      "more",
+      "functionality",
+      "interface",
+      "title"
+    ]
+  },
+  "tab-1-floppy-disk-save-tab-1": {
+    "name": "TabSave",
+    "displayName": "Tab save",
+    "aliases": [
+      "TabFloppySave"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "floppy",
+      "disk",
+      "save",
+      "storage",
+      "backup",
+      "interface"
+    ]
+  },
+  "tab-1-floppy-disk-save-tab-2": {
+    "name": "TabSave2",
+    "displayName": "Tab save2",
+    "aliases": [
+      "TabFloppySave2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "floppy",
+      "disk",
+      "save",
+      "storage",
+      "backup",
+      "interface"
+    ]
+  },
+  "tab-1-gear-settings": {
+    "name": "TabSettings",
+    "displayName": "Tab settings",
+    "aliases": [
+      "TabGearSettings"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "gear",
+      "settings",
+      "configuration",
+      "preferences",
+      "options",
+      "interface"
+    ]
+  },
+  "tab-1-negative-remove-minus-delete": {
+    "name": "TabMinusCenter",
+    "displayName": "Tab minus center",
+    "aliases": [
+      "TabRemove"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "close",
+      "interface",
+      "center"
+    ]
+  },
+  "tab-1-negative-remove-minus-delete-circle": {
+    "name": "TabMinusCircle",
+    "displayName": "Tab minus circle",
+    "aliases": [
+      "TabRemoveCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "circle",
+      "close",
+      "interface"
+    ]
+  },
+  "tab-1-negative-remove-minus-delete-circle-2": {
+    "name": "TabMinus",
+    "displayName": "Tab minus",
+    "aliases": [
+      "TabRemoveCircle2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "circle",
+      "subtract",
+      "minus",
+      "close"
+    ]
+  },
+  "tab-1-open-folder-in-new-tab": {
+    "name": "TabFolderOpen",
+    "displayName": "Tab folder open",
+    "aliases": [
+      "TabOpenFolder"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "new",
+      "open",
+      "folder",
+      "directory",
+      "file",
+      "interface"
+    ]
+  },
+  "tab-1-positive-add-plus": {
+    "name": "TabPlusCenter",
+    "displayName": "Tab plus center",
+    "aliases": [
+      "TabAdd"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "interface",
+      "center"
+    ]
+  },
+  "tab-1-positive-add-plus-2": {
+    "name": "TabPlus",
+    "displayName": "Tab plus",
+    "aliases": [
+      "TabAddPlus2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "interface"
+    ]
+  },
+  "tab-1-positive-add-plus-circle": {
+    "name": "TabPlusCircle",
+    "displayName": "Tab plus circle",
+    "aliases": [
+      "TabAddPlusCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "circle",
+      "interface"
+    ]
+  },
+  "tab-1-three-dots-settings": {
+    "name": "TabDots",
+    "displayName": "Tab dots",
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "three",
+      "settings",
+      "three-dots",
+      "menu",
+      "options",
+      "interface",
+      "dots"
+    ]
+  },
+  "tab-1-tool-settings": {
+    "name": "TabWrench",
+    "displayName": "Tab wrench",
+    "aliases": [
+      "TabTool"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "tool",
+      "settings",
+      "configuration",
+      "preferences",
+      "interface",
+      "wrench"
+    ]
+  },
+  "tab-1-x-clear-close-delete-remove": {
+    "name": "TabXCenter",
+    "displayName": "Tab X center",
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "interface",
+      "center"
+    ]
+  },
+  "tab-1-x-clear-close-delete-remove-2": {
+    "name": "TabX",
+    "displayName": "Tab X",
+    "aliases": [
+      "TabClose"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "interface"
+    ]
+  },
+  "tab-1-x-clear-close-delete-remove-circle": {
+    "name": "TabXCircle",
+    "displayName": "Tab X circle",
+    "aliases": [
+      "TabCloseCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "circle",
+      "interface"
+    ]
+  },
+  "tab-2": {
+    "name": "TabStep",
+    "displayName": "Tab step",
+    "aliases": [
+      "Tab2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "interface",
+      "navigation",
+      "step",
+      "icon-ui"
+    ]
+  },
+  "tab-2-arrow-x-close-remove-left-tab-": {
+    "name": "TabArrowLeftXStep",
+    "displayName": "Tab arrow left X step",
+    "aliases": [
+      "TabCloseLeft2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "close",
+      "remove",
+      "delete",
+      "arrow",
+      "left",
+      "interface",
+      "step"
+    ]
+  },
+  "tab-2-arrow-x-close-remove-right-tab-": {
+    "name": "TabArrowRightXStep",
+    "displayName": "Tab arrow right X step",
+    "aliases": [
+      "TabCloseRight2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "close",
+      "remove",
+      "delete",
+      "arrow",
+      "right",
+      "interface",
+      "step"
+    ]
+  },
+  "tab-2-check-checked-verified": {
+    "name": "TabCheckCenterStep",
+    "displayName": "Tab check center step",
+    "aliases": [
+      "TabCheckmark"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "confirm",
+      "complete",
+      "approval",
+      "validation",
+      "center",
+      "step"
+    ]
+  },
+  "tab-2-check-checked-verified-2": {
+    "name": "TabCheckStep",
+    "displayName": "Tab check step",
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "checkmark",
+      "interface",
+      "step"
+    ]
+  },
+  "tab-2-check-checked-verified-circle": {
+    "name": "TabCheckCircleStep",
+    "displayName": "Tab check circle step",
+    "aliases": [
+      "TabCheck2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "circle",
+      "confirm",
+      "complete",
+      "approval",
+      "step"
+    ]
+  },
+  "tab-2-negative-remove-minus-delete": {
+    "name": "TabMinusCenterStep",
+    "displayName": "Tab minus center step",
+    "aliases": [
+      "TabDelete"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "eliminate",
+      "close",
+      "center",
+      "step"
+    ]
+  },
+  "tab-2-negative-remove-minus-delete-circle": {
+    "name": "TabMinusCircleStep",
+    "displayName": "Tab minus circle step",
+    "aliases": [
+      "TabRemove2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "close",
+      "eliminate",
+      "circle",
+      "step"
+    ]
+  },
+  "tab-2-negative-remove-minus-delete-circle-2": {
+    "name": "TabMinusStep",
+    "displayName": "Tab minus step",
+    "aliases": [
+      "TabRemoveCircle3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "circle",
+      "subtract",
+      "minus",
+      "close",
+      "step"
+    ]
+  },
+  "tab-2-positive-add-plus": {
+    "name": "TabPlusCenterStep",
+    "displayName": "Tab plus center step",
+    "aliases": [
+      "TabAdd2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "insert",
+      "expand",
+      "center",
+      "step"
+    ]
+  },
+  "tab-2-positive-add-plus-2": {
+    "name": "TabPlusStep",
+    "displayName": "Tab plus step",
+    "aliases": [
+      "TabAddPlus"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "insert",
+      "expand",
+      "step"
+    ]
+  },
+  "tab-2-positive-add-plus-circle": {
+    "name": "TabPlusCircleStep",
+    "displayName": "Tab plus circle step",
+    "aliases": [
+      "TabAddCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "circle",
+      "new",
+      "insert",
+      "step"
+    ]
+  },
+  "tab-2-three-dots-settings": {
+    "name": "TabDotsStep",
+    "displayName": "Tab dots step",
+    "aliases": [
+      "TabSettings2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "three",
+      "settings",
+      "three-dots",
+      "menu",
+      "options",
+      "more",
+      "actions",
+      "configuration",
+      "dots",
+      "step"
+    ]
+  },
+  "tab-2-x-clear-close-delete-remove": {
+    "name": "TabXCenterStep",
+    "displayName": "Tab X center step",
+    "aliases": [
+      "Tab2Close"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "interface",
+      "center",
+      "step"
+    ]
+  },
+  "tab-2-x-clear-close-delete-remove-2": {
+    "name": "TabXStep",
+    "displayName": "Tab X step",
+    "aliases": [
+      "TabCloseX"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "exit",
+      "step"
+    ]
+  },
+  "tab-2-x-clear-close-delete-remove-circle": {
+    "name": "TabXCircleStep",
+    "displayName": "Tab X circle step",
+    "aliases": [
+      "Tab2CloseCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "circle",
+      "interface",
+      "step"
+    ]
+  },
+  "tab-3": {
+    "name": "TabSharp",
+    "displayName": "Tab sharp",
+    "aliases": [
+      "Tab3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "navigation",
+      "interface",
+      "ui",
+      "sharp"
+    ]
+  },
+  "tab-3-arrow-x-close-remove-left-tab-": {
+    "name": "TabArrowLeftXSharp",
+    "displayName": "Tab arrow left X sharp",
+    "aliases": [
+      "Tab3ArrowLeft"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "close",
+      "remove",
+      "delete",
+      "arrow",
+      "left",
+      "navigation",
+      "sharp"
+    ]
+  },
+  "tab-3-arrow-x-close-remove-right-tab-": {
+    "name": "TabArrowRightXSharp",
+    "displayName": "Tab arrow right X sharp",
+    "aliases": [
+      "Tab3ArrowRight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "close",
+      "remove",
+      "delete",
+      "arrow",
+      "right",
+      "navigation",
+      "sharp"
+    ]
+  },
+  "tab-3-check-checked-verified": {
+    "name": "TabCheckCenterSharp",
+    "displayName": "Tab check center sharp",
+    "aliases": [
+      "Tab3Checked"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "checkmark",
+      "interface",
+      "center",
+      "sharp"
+    ]
+  },
+  "tab-3-check-checked-verified-2": {
+    "name": "TabCheckSharp",
+    "displayName": "Tab check sharp",
+    "aliases": [
+      "Tab3Check"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "checkmark",
+      "interface",
+      "sharp"
+    ]
+  },
+  "tab-3-check-checked-verified-circle": {
+    "name": "TabCheckCircleSharp",
+    "displayName": "Tab check circle sharp",
+    "aliases": [
+      "Tab3CheckCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "checkmark",
+      "circle",
+      "interface",
+      "sharp"
+    ]
+  },
+  "tab-3-negative-remove-minus-delete": {
+    "name": "TabMinusCenterSharp",
+    "displayName": "Tab minus center sharp",
+    "aliases": [
+      "Tab3Remove2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "action",
+      "interface",
+      "center",
+      "sharp"
+    ]
+  },
+  "tab-3-negative-remove-minus-delete-circle": {
+    "name": "TabMinusCircleSharp",
+    "displayName": "Tab minus circle sharp",
+    "aliases": [
+      "Tab3Remove"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "interface",
+      "circle",
+      "sharp"
+    ]
+  },
+  "tab-3-negative-remove-minus-delete-circle-2": {
+    "name": "TabMinusSharp",
+    "displayName": "Tab minus sharp",
+    "aliases": [
+      "Tab3RemoveCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "circle",
+      "subtract",
+      "minus",
+      "interface",
+      "sharp"
+    ]
+  },
+  "tab-3-positive-add-plus": {
+    "name": "TabPlusCenterSharp",
+    "displayName": "Tab plus center sharp",
+    "aliases": [
+      "Tab3Plus"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "action",
+      "interface",
+      "center",
+      "sharp"
+    ]
+  },
+  "tab-3-positive-add-plus-2": {
+    "name": "TabPlusSharp",
+    "displayName": "Tab plus sharp",
+    "aliases": [
+      "Tab3Add"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "action",
+      "interface",
+      "sharp"
+    ]
+  },
+  "tab-3-positive-add-plus-circle": {
+    "name": "TabPlusCircleSharp",
+    "displayName": "Tab plus circle sharp",
+    "aliases": [
+      "Tab3AddCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "circle",
+      "action",
+      "interface",
+      "sharp"
+    ]
+  },
+  "tab-3-three-dots-settings": {
+    "name": "TabDotsSharp",
+    "displayName": "Tab dots sharp",
+    "aliases": [
+      "Tab3Settings"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "three",
+      "settings",
+      "three-dots",
+      "options",
+      "menu",
+      "more",
+      "interface",
+      "dots",
+      "sharp"
+    ]
+  },
+  "tab-3-x-clear-close-delete-remove": {
+    "name": "TabXCenterSharp",
+    "displayName": "Tab X center sharp",
+    "aliases": [
+      "Tab3X"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "action",
+      "interface",
+      "center",
+      "sharp"
+    ]
+  },
+  "tab-3-x-clear-close-delete-remove-2": {
+    "name": "TabXSharp",
+    "displayName": "Tab X sharp",
+    "aliases": [
+      "Tab3Close"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "action",
+      "interface",
+      "sharp"
+    ]
+  },
+  "tab-3-x-clear-close-delete-remove-circle": {
+    "name": "TabXCircleSharp",
+    "displayName": "Tab X circle sharp",
+    "aliases": [
+      "Tab3CloseCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "circle",
+      "interface",
+      "sharp"
+    ]
+  },
+  "tab-4": {
+    "name": "TabStriped",
+    "displayName": "Tab striped",
+    "aliases": [
+      "Tab4"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "navigation",
+      "interface",
+      "tabs",
+      "panel",
+      "sheet",
+      "striped"
+    ]
+  },
+  "tab-4-arrow-x-close-remove-left-tab-": {
+    "name": "TabArrowLeftXStriped",
+    "displayName": "Tab arrow left X striped",
+    "aliases": [
+      "Tab4ArrowLeft"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "close",
+      "remove",
+      "delete",
+      "arrow",
+      "left",
+      "navigation",
+      "interface",
+      "striped"
+    ]
+  },
+  "tab-4-arrow-x-close-remove-right-tab-": {
+    "name": "TabArrowRightXStriped",
+    "displayName": "Tab arrow right X striped",
+    "aliases": [
+      "Tab4XRight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "close",
+      "remove",
+      "delete",
+      "arrow",
+      "right",
+      "dismiss",
+      "navigation",
+      "striped"
+    ]
+  },
+  "tab-4-check-checked-verified": {
+    "name": "TabCheckCenterStriped",
+    "displayName": "Tab check center striped",
+    "aliases": [
+      "Tab4Checked"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "checkmark",
+      "status",
+      "confirmation",
+      "center",
+      "striped"
+    ]
+  },
+  "tab-4-check-checked-verified-2": {
+    "name": "TabCheckStriped",
+    "displayName": "Tab check striped",
+    "aliases": [
+      "Tab4Check"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "checkmark",
+      "complete",
+      "confirmation",
+      "status",
+      "striped"
+    ]
+  },
+  "tab-4-check-checked-verified-circle": {
+    "name": "TabCheckCircleStriped",
+    "displayName": "Tab check circle striped",
+    "aliases": [
+      "Tab4CheckCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "checked",
+      "verified",
+      "done",
+      "success",
+      "check",
+      "circle",
+      "checkmark",
+      "confirmation",
+      "complete",
+      "striped"
+    ]
+  },
+  "tab-4-negative-remove-minus-delete": {
+    "name": "TabMinusCenterStriped",
+    "displayName": "Tab minus center striped",
+    "aliases": [
+      "Tab4Remove"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "dismiss",
+      "action",
+      "close",
+      "center",
+      "striped"
+    ]
+  },
+  "tab-4-negative-remove-minus-delete-circle": {
+    "name": "TabMinusCircleStriped",
+    "displayName": "Tab minus circle striped",
+    "aliases": [
+      "Tab4RemoveCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "circle",
+      "dismiss",
+      "action",
+      "striped"
+    ]
+  },
+  "tab-4-negative-remove-minus-delete-circle-2": {
+    "name": "TabMinusStriped",
+    "displayName": "Tab minus striped",
+    "aliases": [
+      "Tab4RemoveCircle2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "negative",
+      "remove",
+      "delete",
+      "circle",
+      "subtract",
+      "minus",
+      "dismiss",
+      "striped"
+    ]
+  },
+  "tab-4-positive-add-plus": {
+    "name": "TabPlusCenterStriped",
+    "displayName": "Tab plus center striped",
+    "aliases": [
+      "Tab4Plus"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "action",
+      "addition",
+      "center",
+      "striped"
+    ]
+  },
+  "tab-4-positive-add-plus-2": {
+    "name": "TabPlusStriped",
+    "displayName": "Tab plus striped",
+    "aliases": [
+      "Tab4Plus2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "addition",
+      "striped"
+    ]
+  },
+  "tab-4-positive-add-plus-circle": {
+    "name": "TabPlusCircleStriped",
+    "displayName": "Tab plus circle striped",
+    "aliases": [
+      "Tab4PlusCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "circle",
+      "new",
+      "addition",
+      "striped"
+    ]
+  },
+  "tab-4-three-dots-settings": {
+    "name": "TabDotsStriped",
+    "displayName": "Tab dots striped",
+    "aliases": [
+      "Tab4Settings"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "three",
+      "settings",
+      "three-dots",
+      "menu",
+      "options",
+      "more",
+      "configuration",
+      "dots",
+      "striped"
+    ]
+  },
+  "tab-4-x-clear-close-delete-remove": {
+    "name": "TabXCenterStriped",
+    "displayName": "Tab X center striped",
+    "aliases": [
+      "Tab4X"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "center",
+      "striped"
+    ]
+  },
+  "tab-4-x-clear-close-delete-remove-2": {
+    "name": "TabXStriped",
+    "displayName": "Tab X striped",
+    "aliases": [
+      "Tab4Close"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "exit",
+      "striped"
+    ]
+  },
+  "tab-4-x-clear-close-delete-remove-circle": {
+    "name": "TabXCircleStriped",
+    "displayName": "Tab X circle striped",
+    "aliases": [
+      "Tab4CloseCircle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "clear",
+      "close",
+      "delete",
+      "remove",
+      "circle",
+      "striped"
+    ]
+  },
+  "tab-chevrons-switch-between-tabs-1": {
+    "name": "TabChevronDoubleRight",
+    "displayName": "Tab chevron double right",
+    "aliases": [
+      "TabChevronSwitch1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "chevrons",
+      "switch",
+      "between",
+      "tabs",
+      "chevron",
+      "navigate",
+      "arrows",
+      "double",
+      "right"
+    ]
+  },
+  "tab-chevrons-switch-between-tabs-2": {
+    "name": "TabMultipleChevronRight",
+    "displayName": "Tab multiple chevron right",
+    "aliases": [
+      "TabChevronSwitch2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "chevrons",
+      "switch",
+      "between",
+      "tabs",
+      "chevron",
+      "navigate",
+      "arrows",
+      "multiple",
+      "right"
+    ]
+  },
+  "tab-chevrons-switch-between-tabs-3": {
+    "name": "TabMultipleArrowRight",
+    "displayName": "Tab multiple arrow right",
+    "aliases": [
+      "TabChevronSwitch3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "chevrons",
+      "switch",
+      "between",
+      "tabs",
+      "chevron",
+      "navigate",
+      "arrows",
+      "multiple",
+      "arrow",
+      "right"
+    ]
+  },
+  "tab-dashed-unselected": {
+    "name": "TabDashed",
+    "displayName": "Tab dashed",
+    "aliases": [
+      "TabDashedUnselected"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "tab",
+      "unselected",
+      "dashed",
+      "inactive",
+      "disabled",
+      "outline"
+    ]
+  }
+}

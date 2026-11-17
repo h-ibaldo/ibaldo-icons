@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceRoundSidePart",
+  "name": "AvatarFaceRoundSidePart",
   "description": "Face with eyes and rounded, voluminous hair with an off-center part.",
   "tags": [
     "user",
@@ -32,7 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, round side part",
+  "displayName": "Avatar face, round side part",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceRoundSidePart"
+  ]
 }

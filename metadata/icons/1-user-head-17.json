@@ -1,5 +1,5 @@
 {
-  "name": "UserHeadSweptBangs",
+  "name": "AvatarHeadSweptBangs",
   "description": "Head outline with no face details and rounded mid-length hair with straight bangs swept to one side.",
   "tags": [
     "user",
@@ -32,7 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User head, swept bangs",
+  "displayName": "Avatar head, swept bangs",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserHeadSweptBangs"
+  ]
 }

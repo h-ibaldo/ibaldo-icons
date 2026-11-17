@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceSwoop",
+  "name": "AvatarFaceSwoop",
   "description": "Face with eyes and short hair with a fringe swooping to one side.",
   "tags": [
     "user",
@@ -32,7 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, swoop",
+  "displayName": "Avatar face, swoop",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceSwoop"
+  ]
 }

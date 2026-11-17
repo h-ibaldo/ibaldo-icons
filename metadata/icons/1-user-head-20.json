@@ -1,5 +1,5 @@
 {
-  "name": "UserHeadTexturedMid",
+  "name": "AvatarHeadTexturedMid",
   "description": "Head outline with no face details and mid-length textured hair drawn as radiating strokes.",
   "tags": [
     "user",
@@ -32,7 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User head, textured mid",
+  "displayName": "Avatar head, textured mid",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserHeadTexturedMid"
+  ]
 }

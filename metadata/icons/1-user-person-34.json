@@ -1,5 +1,5 @@
 {
-  "name": "UserFaceSpiky",
+  "name": "AvatarFaceSpiky",
   "description": "Face with eyes and short spiky hair.",
   "tags": [
     "user",
@@ -31,7 +31,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "User face, spiky",
+  "displayName": "Avatar face, spiky",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:19:18.635Z"
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceSpiky"
+  ]
 }
