@@ -1,10 +1,12 @@
 {
-  "name": "Tab2",
+  "name": "TabStep",
   "description": "A standard tab interface icon representing a second tab or tabbed navigation element",
   "tags": [
     "tab",
     "interface",
-    "navigation"
+    "navigation",
+    "step",
+    "icon-ui"
   ],
   "categories": [
     "interface"
@@ -24,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab step",
+  "aliases": [
+    "Tab2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

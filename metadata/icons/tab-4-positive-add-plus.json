@@ -1,15 +1,17 @@
 {
-  "name": "Tab4Plus",
+  "name": "TabPlusCenterStriped",
   "description": "A tab interface icon with a plus symbol for creating or adding new tabs",
   "tags": [
     "tab",
-    "plus",
-    "add",
     "positive",
+    "add",
     "create",
+    "plus",
     "new",
     "action",
-    "addition"
+    "addition",
+    "center",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab plus center striped",
+  "aliases": [
+    "Tab4Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

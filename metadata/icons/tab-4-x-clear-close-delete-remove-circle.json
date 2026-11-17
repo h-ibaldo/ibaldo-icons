@@ -1,14 +1,14 @@
 {
-  "name": "Tab4CloseCircle",
+  "name": "TabXCircleStriped",
   "description": "A tab interface icon with an X inside a circle for closing or clearing the tab",
   "tags": [
     "tab",
-    "close",
-    "circle",
-    "x",
     "clear",
+    "close",
     "delete",
-    "remove"
+    "remove",
+    "circle",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab X circle striped",
+  "aliases": [
+    "Tab4CloseCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

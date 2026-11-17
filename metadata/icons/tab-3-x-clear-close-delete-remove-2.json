@@ -1,15 +1,15 @@
 {
-  "name": "Tab3Close",
+  "name": "TabXSharp",
   "description": "A tab icon with an X symbol for closing or clearing the tab",
   "tags": [
     "tab",
-    "x",
     "clear",
     "close",
     "delete",
     "remove",
     "action",
-    "interface"
+    "interface",
+    "sharp"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab X sharp",
+  "aliases": [
+    "Tab3Close"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,19 +1,20 @@
 {
-  "name": "Poll6VerticalSpeech",
+  "name": "PollChat",
   "description": "A vertical poll icon with six survey options presented within a speech bubble design",
   "tags": [
     "poll",
     "vertical",
-    "speech bubble",
+    "speech",
+    "bubble",
+    "speech-bubble",
     "survey",
     "voting",
     "feedback",
     "communication",
-    "questionnaire"
+    "questionnaire",
+    "chat"
   ],
   "categories": [
-    "interface",
-    "communication",
     "business"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Poll chat",
+  "aliases": [
+    "Poll6VerticalSpeech"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

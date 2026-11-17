@@ -1,7 +1,8 @@
 {
-  "name": "GraphHorizontalBarsRounded",
+  "name": "ProgressBarMultipleDotted",
   "description": "A horizontal bar graph with rounded edges, displaying tasks progress with filled dots indicator",
   "tags": [
+    "progress",
     "graph",
     "horizontal",
     "bars",
@@ -10,10 +11,11 @@
     "filled",
     "dots",
     "chart",
-    "progress"
+    "bar",
+    "multiple",
+    "dotted"
   ],
   "categories": [
-    "business",
     "interface"
   ],
   "accessibility": {
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress bar multiple dotted",
+  "aliases": [
+    "GraphHorizontalBarsRounded"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

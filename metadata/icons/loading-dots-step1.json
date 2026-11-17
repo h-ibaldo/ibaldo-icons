@@ -1,21 +1,19 @@
 {
-  "name": "LoadingDotsStep1",
+  "name": "ProgressDots",
   "description": "First step of a loading animation with dots indicating initial progress state.",
   "tags": [
+    "progress",
     "loading",
     "dots",
     "step",
-    "progress",
     "animation",
     "wait",
     "spinner",
     "pending",
-    "sequence",
-    "1"
+    "sequence"
   ],
   "categories": [
-    "interface",
-    "time"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress dots",
+  "aliases": [
+    "LoadingDotsStep1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

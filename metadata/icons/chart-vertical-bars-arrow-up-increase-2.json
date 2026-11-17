@@ -1,21 +1,23 @@
 {
-  "name": "ChartVerticalBarsIncrease2",
-  "displayName": "Chart vertical bars increase 2",
+  "name": "ChartBarArrowUpThin",
+  "displayName": "Chart bar arrow up thin",
   "originalTitle": "Chart Vertical Bars Arrow Up Increase 2",
   "description": "Alternative bar chart with upward trend indicator representing rising values. Shows positive performance and growth metrics.",
   "tags": [
     "chart",
+    "vertical",
     "bars",
     "increase",
     "growth",
     "up",
     "arrow",
     "gain",
-    "improvement"
+    "improvement",
+    "bar",
+    "thin"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.755Z"
+  "generatedAt": "2026-02-15T00:53:19.755Z",
+  "aliases": [
+    "ChartVerticalBarsIncrease2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

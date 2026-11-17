@@ -1,13 +1,16 @@
 {
-  "name": "Tab3Remove",
+  "name": "TabMinusCircleSharp",
   "description": "A tab icon with a minus or remove symbol for deleting or dismissing a tab element",
   "tags": [
     "tab",
     "negative",
     "remove",
-    "minus",
     "delete",
-    "interface"
+    "subtract",
+    "minus",
+    "interface",
+    "circle",
+    "sharp"
   ],
   "categories": [
     "interface"
@@ -27,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab minus circle sharp",
+  "aliases": [
+    "Tab3Remove"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

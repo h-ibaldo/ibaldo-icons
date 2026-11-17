@@ -1,17 +1,21 @@
 {
-  "name": "Poll5Vertical",
+  "name": "PollCheckX",
   "description": "A vertical poll icon displaying five survey options or voting choices",
   "tags": [
     "poll",
     "vertical",
+    "done",
+    "success",
+    "verified",
+    "close",
+    "delete",
+    "remove",
     "survey",
     "voting",
     "feedback",
-    "questionnaire",
-    "opinion"
+    "questionnaire"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Poll check X",
+  "aliases": [
+    "Poll5Vertical"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

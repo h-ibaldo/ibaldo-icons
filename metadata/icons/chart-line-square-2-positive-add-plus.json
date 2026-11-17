@@ -1,21 +1,21 @@
 {
-  "name": "ChartLineSquare2Plus",
-  "displayName": "Chart line square 2 plus",
+  "name": "ChartLineSquarePlus",
+  "displayName": "Chart line square plus",
   "originalTitle": "Chart Line Square 2 Positive Add Plus",
   "description": "Line chart with plus sign for adding new data or creating additional charts. Used for expanding analytics, adding datasets, or positive growth indicators.",
   "tags": [
     "chart",
-    "plus",
+    "positive",
     "add",
     "create",
-    "positive",
+    "plus",
     "growth",
     "expand",
-    "new"
+    "new",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.753Z"
+  "generatedAt": "2026-02-15T00:53:19.753Z",
+  "aliases": [
+    "ChartLineSquare2Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

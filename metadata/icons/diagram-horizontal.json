@@ -1,6 +1,6 @@
 {
-  "name": "DiagramHorizontal",
-  "displayName": "Diagram horizontal",
+  "name": "DiagramTreeRight",
+  "displayName": "Diagram tree right",
   "originalTitle": "Diagram Horizontal",
   "description": "Horizontal flow diagram showing processes or connections from left to right. Used to represent workflows, timelines, or sequential processes in a linear format.",
   "tags": [
@@ -11,11 +11,12 @@
     "workflow",
     "timeline",
     "sequence",
-    "linear"
+    "linear",
+    "tree",
+    "right"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.760Z"
+  "generatedAt": "2026-02-15T00:53:19.760Z",
+  "aliases": [
+    "DiagramHorizontal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

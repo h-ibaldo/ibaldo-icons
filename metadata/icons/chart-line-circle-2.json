@@ -1,6 +1,6 @@
 {
-  "name": "ChartLineCircle2",
-  "displayName": "Chart line circle 2",
+  "name": "ChartLineCircle",
+  "displayName": "Chart line circle",
   "originalTitle": "Chart Line Circle 2",
   "description": "Basic line chart icon representing data visualization and analytics. Used for displaying trends, statistics, and business metrics.",
   "tags": [
@@ -11,11 +11,11 @@
     "statistics",
     "trends",
     "business",
-    "metrics"
+    "metrics",
+    "circle"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.750Z"
+  "generatedAt": "2026-02-15T00:53:19.750Z",
+  "aliases": [
+    "ChartLineCircle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,14 +1,15 @@
 {
-  "name": "Tab4X",
+  "name": "TabXCenterStriped",
   "description": "A tab interface icon with a simple X symbol for quick closure or removal",
   "tags": [
     "tab",
-    "x",
-    "close",
     "clear",
+    "close",
     "delete",
     "remove",
-    "dismiss"
+    "dismiss",
+    "center",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab X center striped",
+  "aliases": [
+    "Tab4X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,17 +1,21 @@
 {
-  "name": "Poll4Vertical",
+  "name": "PollPlusMinus",
   "description": "A vertical poll icon showing four survey options or responses",
   "tags": [
     "poll",
     "vertical",
+    "add",
+    "create",
+    "remove",
+    "subtract",
     "survey",
     "voting",
     "feedback",
     "questionnaire",
-    "opinion"
+    "opinion",
+    "plus"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Poll plus minus",
+  "aliases": [
+    "Poll4Vertical"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

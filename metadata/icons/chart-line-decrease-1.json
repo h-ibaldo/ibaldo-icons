@@ -1,6 +1,6 @@
 {
-  "name": "ChartLineDecrease1",
-  "displayName": "Chart line decrease 1",
+  "name": "ChartLineDownAxis",
+  "displayName": "Chart line down axis",
   "originalTitle": "Chart Line Decrease 1",
   "description": "Downward trending line chart showing decreasing data or declining metrics. Used to represent negative growth or falling statistics.",
   "tags": [
@@ -11,11 +11,12 @@
     "negative",
     "falling",
     "loss",
-    "reduction"
+    "reduction",
+    "down",
+    "axis"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.751Z"
+  "generatedAt": "2026-02-15T00:53:19.751Z",
+  "aliases": [
+    "ChartLineDecrease1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

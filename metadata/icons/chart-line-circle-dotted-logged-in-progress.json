@@ -5,17 +5,19 @@
   "description": "Line chart with dotted pattern indicating data loading or chart in progress. Used to show pending analytics or processing data visualization.",
   "tags": [
     "chart",
-    "loading",
+    "logged",
     "progress",
+    "loading",
     "pending",
     "data",
     "analytics",
     "processing",
-    "waiting"
+    "waiting",
+    "circle",
+    "dotted"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,7 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.751Z"
+  "generatedAt": "2026-02-15T00:53:19.751Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

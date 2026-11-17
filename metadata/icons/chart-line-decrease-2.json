@@ -1,6 +1,6 @@
 {
-  "name": "ChartLineDecrease2",
-  "displayName": "Chart line decrease 2",
+  "name": "ChartLineDownAxisJagged",
+  "displayName": "Chart line down axis jagged",
   "originalTitle": "Chart Line Decrease 2",
   "description": "Alternative downward trending chart showing significant data decline. Used for representing major decreases or substantial metric drops.",
   "tags": [
@@ -11,11 +11,13 @@
     "drop",
     "falling",
     "negative",
-    "loss"
+    "loss",
+    "down",
+    "axis",
+    "jagged"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.752Z"
+  "generatedAt": "2026-02-15T00:53:19.752Z",
+  "aliases": [
+    "ChartLineDecrease2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

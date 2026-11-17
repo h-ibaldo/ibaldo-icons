@@ -1,21 +1,20 @@
 {
-  "name": "LoadingDotsStep3",
+  "name": "ProgressDotsCenter",
   "description": "Third step of a loading animation with dots advancing through the cycle.",
   "tags": [
+    "progress",
     "loading",
     "dots",
     "step",
-    "progress",
     "animation",
     "wait",
     "spinner",
     "pending",
     "sequence",
-    "3"
+    "center"
   ],
   "categories": [
-    "interface",
-    "time"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress dots center",
+  "aliases": [
+    "LoadingDotsStep3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

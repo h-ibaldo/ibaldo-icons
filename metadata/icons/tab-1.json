@@ -5,7 +5,8 @@
     "tab",
     "interface",
     "navigation",
-    "element"
+    "element",
+    "icon-ui"
   ],
   "categories": [
     "interface"
@@ -25,5 +26,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

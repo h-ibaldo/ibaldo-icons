@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsRectangleMinus",
-  "displayName": "Chart vertical columns rectangle minus",
+  "name": "ChartBarSquareMinus",
+  "displayName": "Chart bar square minus",
   "originalTitle": "Chart Vertical Columns Rectangle Negative Remove Minus Delete",
   "description": "Column chart with minus/remove indicator for deleting data points or chart elements. Used in data management interfaces for removing chart components.",
   "tags": [
     "chart",
-    "column",
-    "minus",
+    "vertical",
+    "columns",
+    "rectangle",
+    "negative",
     "remove",
     "delete",
     "subtract",
+    "column",
+    "minus",
     "data",
     "management"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.758Z"
+  "generatedAt": "2026-02-15T00:53:19.758Z",
+  "aliases": [
+    "ChartVerticalColumnsRectangleMinus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

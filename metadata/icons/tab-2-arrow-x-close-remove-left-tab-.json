@@ -1,18 +1,18 @@
 {
-  "name": "TabCloseLeft2",
+  "name": "TabArrowLeftXStep",
   "description": "A tab interface icon with an arrow and X symbol pointing left for closing adjacent tabs",
   "tags": [
     "tab",
     "close",
-    "x",
+    "remove",
+    "delete",
     "arrow",
     "left",
-    "remove",
-    "interface"
+    "interface",
+    "step"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab arrow left X step",
+  "aliases": [
+    "TabCloseLeft2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

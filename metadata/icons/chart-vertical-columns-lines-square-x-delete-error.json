@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsLinesSquareX",
-  "displayName": "Chart vertical columns lines square x",
+  "name": "ChartBarSquareXThin",
+  "displayName": "Chart bar square X thin",
   "originalTitle": "Chart Vertical Columns Lines Square X Delete Error",
   "description": "Column chart with delete/error indicator for removing data or showing chart errors. Used in data management interfaces for deleting chart elements or indicating data issues.",
   "tags": [
     "chart",
-    "column",
+    "vertical",
+    "columns",
     "delete",
-    "remove",
     "error",
+    "close",
+    "remove",
+    "column",
     "data",
     "analytics",
-    "management"
+    "management",
+    "bar"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.758Z"
+  "generatedAt": "2026-02-15T00:53:19.758Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesSquareX"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

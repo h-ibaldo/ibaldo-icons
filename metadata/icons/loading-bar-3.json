@@ -1,14 +1,16 @@
 {
-  "name": "LoadingBar3",
+  "name": "ProgressBarStripedSharp",
   "description": "A loading progress bar indicator showing further advancement",
   "tags": [
+    "progress",
     "loading",
     "bar",
-    "progress",
     "indicator",
     "wait",
     "processing",
-    "status"
+    "status",
+    "striped",
+    "sharp"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress bar striped sharp",
+  "aliases": [
+    "LoadingBar3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

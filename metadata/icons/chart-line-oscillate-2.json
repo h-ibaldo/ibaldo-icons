@@ -1,21 +1,20 @@
 {
-  "name": "ChartLineOscillate2",
-  "displayName": "Chart line oscillate 2",
+  "name": "ChartLinePeak",
+  "displayName": "Chart line peak",
   "originalTitle": "Chart Line Oscillate 2",
   "description": "Alternative oscillating line chart icon showing wave-like data patterns. Used for analytics dashboards, signal monitoring, or displaying variable performance metrics.",
   "tags": [
     "chart",
-    "line",
     "oscillate",
     "wave",
     "data",
     "analytics",
     "fluctuation",
-    "metrics"
+    "metrics",
+    "peak"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.752Z"
+  "generatedAt": "2026-02-15T00:53:19.752Z",
+  "aliases": [
+    "ChartLineOscillate2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

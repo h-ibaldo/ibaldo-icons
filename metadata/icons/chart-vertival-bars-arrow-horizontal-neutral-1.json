@@ -1,10 +1,14 @@
 {
-  "name": "ChartVerticalBarsArrowHorizontal1",
-  "displayName": "Chart vertical bars arrow horizontal 1",
+  "name": "ChartBarArrowRightThin",
+  "displayName": "Chart bar arrow right thin",
   "originalTitle": "Chart Vertival Bars Arrow Horizontal Neutral 1",
   "description": "Vertical bar chart with horizontal arrow indicating data trends or direction. Used to show data analysis with directional movement or growth indicators.",
   "tags": [
     "chart",
+    "vertival",
+    "bars",
+    "horizontal",
+    "neutral",
     "graph",
     "arrow",
     "trend",
@@ -14,8 +18,7 @@
     "data"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.759Z"
+  "generatedAt": "2026-02-15T00:53:19.759Z",
+  "aliases": [
+    "ChartVerticalBarsArrowHorizontal1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

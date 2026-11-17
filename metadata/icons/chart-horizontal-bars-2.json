@@ -1,9 +1,11 @@
 {
-  "name": "ChartHorizontalBars2",
-  "displayName": "Chart horizontal bars 2",
+  "name": "ChartBarHorizontalAxis",
+  "displayName": "Chart bar horizontal axis",
   "originalTitle": "Chart Horizontal Bars 2",
   "description": "Alternative horizontal bar chart design for data visualization. Used for comparative analysis and categorical data representation.",
   "tags": [
+    "chart",
+    "bars",
     "bar",
     "horizontal",
     "comparison",
@@ -11,7 +13,8 @@
     "analytics",
     "visualization",
     "categories",
-    "metrics"
+    "metrics",
+    "axis"
   ],
   "categories": [
     "business"
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.744Z"
+  "generatedAt": "2026-02-15T00:53:19.744Z",
+  "aliases": [
+    "ChartHorizontalBars2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

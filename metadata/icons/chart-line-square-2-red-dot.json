@@ -1,21 +1,23 @@
 {
-  "name": "ChartLineSquare2Dot",
-  "displayName": "Chart line square 2 dot",
+  "name": "ChartLineSquareDot",
+  "displayName": "Chart line square dot",
   "originalTitle": "Chart Line Square 2 Red Dot",
   "description": "Line chart with notification dot indicating new data, alerts, or updates available. Used for real-time analytics notifications or data status indicators.",
   "tags": [
     "chart",
+    "unread",
+    "badge",
     "notification",
     "alert",
     "dot",
     "update",
     "new",
     "status",
-    "indicator"
+    "indicator",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.753Z"
+  "generatedAt": "2026-02-15T00:53:19.753Z",
+  "aliases": [
+    "ChartLineSquare2Dot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

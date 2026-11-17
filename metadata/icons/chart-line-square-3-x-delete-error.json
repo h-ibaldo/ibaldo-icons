@@ -1,21 +1,22 @@
 {
-  "name": "ChartLineSquare3X",
-  "displayName": "Chart line square 3 x",
+  "name": "ChartLinePeakSquareX",
+  "displayName": "Chart line peak square X",
   "originalTitle": "Chart Line Square 3 X Delete Error",
   "description": "Alternative line chart with X mark for errors or deletion actions. Used for indicating chart errors, removing analytics, or showing failed data processing.",
   "tags": [
     "chart",
-    "error",
     "delete",
+    "error",
+    "close",
     "remove",
     "failed",
     "invalid",
-    "close",
-    "cancel"
+    "cancel",
+    "peak",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.754Z"
+  "generatedAt": "2026-02-15T00:53:19.754Z",
+  "aliases": [
+    "ChartLineSquare3X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

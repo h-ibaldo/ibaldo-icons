@@ -1,9 +1,8 @@
 {
-  "name": "Poll3Horizontal",
+  "name": "PollHorizontalCheckbox",
   "description": "A horizontal bar chart or poll icon representing the third variant style for survey data visualization",
   "tags": [
     "poll",
-    "3",
     "horizontal",
     "bar",
     "chart",
@@ -11,11 +10,11 @@
     "analytics",
     "data",
     "graph",
-    "statistics"
+    "statistics",
+    "checkbox"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Poll horizontal checkbox",
+  "aliases": [
+    "Poll3Horizontal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

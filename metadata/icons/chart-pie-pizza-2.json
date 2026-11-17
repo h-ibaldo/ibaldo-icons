@@ -1,11 +1,12 @@
 {
   "name": "ChartPie2",
-  "displayName": "Chart pie 2",
+  "displayName": "Chart pie2",
   "originalTitle": "Chart Pie Pizza 2",
   "description": "Alternative pie chart icon for showing data segments and proportional analysis. Used in business intelligence and reporting applications.",
   "tags": [
-    "pie",
     "chart",
+    "pie",
+    "pizza",
     "graph",
     "segments",
     "proportion",
@@ -14,8 +15,7 @@
     "distribution"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,7 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.754Z"
+  "generatedAt": "2026-02-15T00:53:19.754Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

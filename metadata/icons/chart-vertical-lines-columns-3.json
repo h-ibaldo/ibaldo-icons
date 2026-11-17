@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalLinesColumns3",
-  "displayName": "Chart vertical lines columns 3",
+  "name": "ChartBarMixedAxisThin",
+  "displayName": "Chart bar mixed axis thin",
   "originalTitle": "Chart Vertical Lines Columns 3",
   "description": "Three-column vertical bar chart icon for displaying comparative data across three categories. Used to represent data visualization with multiple data points.",
   "tags": [
     "chart",
+    "vertical",
+    "columns",
     "graph",
     "data",
     "analytics",
-    "columns",
     "bars",
     "statistics",
-    "visualization"
+    "visualization",
+    "bar",
+    "mixed",
+    "axis"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.759Z"
+  "generatedAt": "2026-02-15T00:53:19.759Z",
+  "aliases": [
+    "ChartVerticalLinesColumns3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

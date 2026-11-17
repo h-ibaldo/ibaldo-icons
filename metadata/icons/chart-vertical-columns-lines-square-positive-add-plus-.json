@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsLinesSquarePlus",
-  "displayName": "Chart vertical columns lines square plus",
+  "name": "ChartBarSquarePlusThin",
+  "displayName": "Chart bar square plus thin",
   "originalTitle": "Chart Vertical Columns Lines Square Positive Add Plus",
   "description": "Column chart with add/plus indicator for creating new data points or adding chart elements. Used in data visualization interfaces for expanding datasets.",
   "tags": [
     "chart",
-    "column",
+    "vertical",
+    "columns",
+    "positive",
     "add",
-    "plus",
     "create",
+    "column",
+    "plus",
     "data",
     "visualization",
-    "analytics"
+    "analytics",
+    "bar"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.757Z"
+  "generatedAt": "2026-02-15T00:53:19.757Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesSquarePlus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

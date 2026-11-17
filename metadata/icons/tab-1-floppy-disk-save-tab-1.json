@@ -1,5 +1,5 @@
 {
-  "name": "TabFloppySave",
+  "name": "TabSave",
   "description": "A tab icon combined with a floppy disk symbol to represent saving tab data",
   "tags": [
     "tab",
@@ -11,8 +11,7 @@
     "interface"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab save",
+  "aliases": [
+    "TabFloppySave"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

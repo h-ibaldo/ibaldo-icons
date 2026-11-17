@@ -1,14 +1,17 @@
 {
-  "name": "Tab4Settings",
+  "name": "TabDotsStriped",
   "description": "A tab interface icon with three dots indicating additional settings or options",
   "tags": [
     "tab",
+    "three",
     "settings",
-    "three dots",
+    "three-dots",
     "menu",
     "options",
     "more",
-    "configuration"
+    "configuration",
+    "dots",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab dots striped",
+  "aliases": [
+    "Tab4Settings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

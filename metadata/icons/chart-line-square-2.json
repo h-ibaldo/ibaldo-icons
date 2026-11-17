@@ -1,21 +1,20 @@
 {
-  "name": "ChartLineSquare2",
-  "displayName": "Chart line square 2",
+  "name": "ChartLineSquare",
+  "displayName": "Chart line square",
   "originalTitle": "Chart Line Square 2",
   "description": "Basic line chart icon for data visualization and analytics. Used in dashboards, reports, and business intelligence applications to represent trending data.",
   "tags": [
     "chart",
-    "line",
     "graph",
     "data",
     "analytics",
     "visualization",
     "trend",
-    "business"
+    "business",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.753Z"
+  "generatedAt": "2026-02-15T00:53:19.753Z",
+  "aliases": [
+    "ChartLineSquare2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

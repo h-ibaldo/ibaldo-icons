@@ -1,7 +1,8 @@
 {
-  "name": "GraphHorizontalBarsDotsAlt",
+  "name": "ProgressBarMultipleDottedJoined",
   "description": "An alternative horizontal bar graph with filled dots for task tracking and progress visualization",
   "tags": [
+    "progress",
     "graph",
     "horizontal",
     "bars",
@@ -9,11 +10,12 @@
     "filled",
     "dots",
     "chart",
-    "progress",
-    "alternative"
+    "alternative",
+    "bar",
+    "multiple",
+    "dotted"
   ],
   "categories": [
-    "business",
     "interface"
   ],
   "accessibility": {
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress bar multiple dotted joined",
+  "aliases": [
+    "GraphHorizontalBarsDotsAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

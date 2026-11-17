@@ -1,15 +1,15 @@
 {
-  "name": "ProgressSpinnerDots2",
+  "name": "SpinnerDotsFade",
   "description": "An alternative loading progress spinner with dots in a circular arrangement for activity indication",
   "tags": [
-    "progress",
     "spinner",
+    "progress",
     "loading",
     "dots",
     "circle",
     "animation",
     "activity",
-    "variant"
+    "fade"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Spinner dots fade",
+  "aliases": [
+    "ProgressSpinnerDots2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

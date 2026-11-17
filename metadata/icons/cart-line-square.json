@@ -1,9 +1,10 @@
 {
-  "name": "CartSquare",
-  "displayName": "Cart square",
+  "name": "ChartLineSquareWide",
+  "displayName": "Chart line square wide",
   "originalTitle": "Cart Line Square",
   "description": "Shopping cart icon in square format for e-commerce and retail applications. Used to represent shopping functionality, cart contents, or purchase processes.",
   "tags": [
+    "chart",
     "cart",
     "shopping",
     "purchase",
@@ -11,10 +12,11 @@
     "retail",
     "ecommerce",
     "basket",
-    "store"
+    "store",
+    "square",
+    "wide"
   ],
   "categories": [
-    "shopping",
     "business"
   ],
   "accessibility": {
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.803Z"
+  "generatedAt": "2026-02-15T00:53:19.803Z",
+  "aliases": [
+    "CartSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

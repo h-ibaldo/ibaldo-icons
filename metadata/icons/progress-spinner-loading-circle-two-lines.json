@@ -1,15 +1,15 @@
 {
-  "name": "ProgressSpinnerDoubleLines",
+  "name": "SpinnerSplit",
   "description": "A loading progress spinner with two circular lines indicating ongoing activity",
   "tags": [
-    "progress",
     "spinner",
+    "progress",
     "loading",
     "circle",
     "two",
-    "lines",
     "animation",
-    "activity"
+    "activity",
+    "split"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Spinner split",
+  "aliases": [
+    "ProgressSpinnerDoubleLines"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

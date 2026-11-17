@@ -1,13 +1,16 @@
 {
-  "name": "TabCheck",
+  "name": "TabCheckStep",
   "description": "A tab interface icon with a checkmark indicating a verified or completed tab",
   "tags": [
     "tab",
-    "check",
     "checked",
     "verified",
+    "done",
+    "success",
+    "check",
     "checkmark",
-    "interface"
+    "interface",
+    "step"
   ],
   "categories": [
     "interface"
@@ -27,5 +30,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab check step",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

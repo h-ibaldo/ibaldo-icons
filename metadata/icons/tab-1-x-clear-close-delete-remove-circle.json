@@ -1,13 +1,13 @@
 {
-  "name": "TabCloseCircle",
+  "name": "TabXCircle",
   "description": "A tab interface icon with an X symbol inside a circle for closing tabs",
   "tags": [
     "tab",
+    "clear",
     "close",
-    "x",
-    "circle",
     "delete",
     "remove",
+    "circle",
     "interface"
   ],
   "categories": [
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab X circle",
+  "aliases": [
+    "TabCloseCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

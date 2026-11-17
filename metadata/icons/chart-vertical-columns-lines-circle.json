@@ -1,21 +1,23 @@
 {
-  "name": "ChartVerticalColumnsLinesCircle",
-  "displayName": "Chart vertical columns lines circle",
+  "name": "ChartBarCircleThin",
+  "displayName": "Chart bar circle thin",
   "originalTitle": "Chart Vertical Columns Lines Circle",
   "description": "Combined column and line chart for displaying multiple data series and complex analytics. Used for comprehensive data visualization showing both categorical and trend data.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
-    "lines",
     "combination",
     "analytics",
     "data",
     "visualization",
-    "trends"
+    "trends",
+    "bar",
+    "circle",
+    "thin"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.757Z"
+  "generatedAt": "2026-02-15T00:53:19.757Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

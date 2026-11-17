@@ -1,15 +1,16 @@
 {
-  "name": "TabRemoveCircle3",
+  "name": "TabMinusStep",
   "description": "A tab interface icon with a minus or remove symbol within a circle indicating deletion or negative action.",
   "tags": [
     "tab",
     "negative",
     "remove",
-    "minus",
     "delete",
     "circle",
+    "subtract",
+    "minus",
     "close",
-    "subtract"
+    "step"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab minus step",
+  "aliases": [
+    "TabRemoveCircle3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }
