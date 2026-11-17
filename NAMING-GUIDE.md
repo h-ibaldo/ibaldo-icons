@@ -109,6 +109,9 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   Gauge frames `Square`/`Dashed`/`Open`/`Flat`/`Half`/`Semicircle`/`Split`/`ThreeQuarter`/`Arch`/`Curved`; SquareStack `Overlap`/`Shadow`;
   Calendar (no word = header line) `Plain`/`Slot`/`Bar`/`Flip`; Bluetooth `Narrow`; Tag `Round`/`Tilted`; Book `Block`; Notebook `Detached`;
   ClosedCaption `Wide`/`Compact`; List with dash bullets `Dash`; Trash `Bucket`;
+  Link (11 bases, all named) `Slanted`/`Wide`/`Bracket`/`Round`/`Flat`/`Bar`/`Notched`/`Clip`/`Compact`/`Interlocked`/`Slim`, vertical `Vertical`/`Boxy`;
+  Arrow parts `Uturn`, `Corner`, `Converge`/`Diverge`, `Orbit`, `Harpoon`, `Hook`, `FromDot`/`ToDot`/`FromBar`, `Joined`, `Segmented`, `Out`/`In` (through a gap);
+  Medal `Strap`/`Banner`/`Hook`/`Folded`/`Stripe`;
   Clipboard lists with 2 rows `Short`; dashed rings `DashedHalf`/`DashedHalfSmall`/`DashedHalfSparse`/`DashedHalfLong`/`DashedLong`/`DashedQuarter`.
   Letters `B`, `C` only when no difference can be described (today only `Search`, `SearchB`, `SearchC`).
 - **Near-duplicates** (same base, same badge, tiny drawing difference): name the difference when you can

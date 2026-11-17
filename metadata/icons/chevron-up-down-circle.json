@@ -1,0 +1,36 @@
+{
+  "name": "ChevronUpDownCircle",
+  "displayName": "Chevron up down circle",
+  "description": "Chevron up above a chevron down inside a circle.",
+  "tags": [
+    "chevron",
+    "up-down",
+    "select",
+    "sort",
+    "expand",
+    "dropdown",
+    "circle"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Select"
+  },
+  "filename": "chevron-up-down-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

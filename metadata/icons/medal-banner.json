@@ -1,0 +1,37 @@
+{
+  "name": "MedalBanner",
+  "displayName": "Medal banner",
+  "description": "Round medal hanging from a pointed banner.",
+  "tags": [
+    "medal",
+    "award",
+    "prize",
+    "winner",
+    "achievement",
+    "military",
+    "honor",
+    "banner"
+  ],
+  "categories": [
+    "social",
+    "sports"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Medal"
+  },
+  "filename": "medal-banner",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

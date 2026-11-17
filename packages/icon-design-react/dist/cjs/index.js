@@ -160,6 +160,13 @@ const AlarmX = require('./icons/AlarmX.js');
 const AlarmXArc = require('./icons/AlarmXArc.js');
 const AlarmXBare = require('./icons/AlarmXBare.js');
 const AlarmXStraight = require('./icons/AlarmXStraight.js');
+const AlignCenterHorizontal = require('./icons/AlignCenterHorizontal.js');
+const AlignCenterVertical = require('./icons/AlignCenterVertical.js');
+const AlignLeft = require('./icons/AlignLeft.js');
+const AlignRight = require('./icons/AlignRight.js');
+const Anchor = require('./icons/Anchor.js');
+const AnchorCircle = require('./icons/AnchorCircle.js');
+const AnchorCircleBarbed = require('./icons/AnchorCircleBarbed.js');
 const CircleMotion = require('./icons/CircleMotion.js');
 const CircleMotionDotted = require('./icons/CircleMotionDotted.js');
 const DiamondMotion = require('./icons/DiamondMotion.js');
@@ -313,36 +320,221 @@ const ArrowCounterclockwiseBottom = require('./icons/ArrowCounterclockwiseBottom
 const ArrowCounterclockwiseBottomOff = require('./icons/ArrowCounterclockwiseBottomOff.js');
 const ArrowCounterclockwise = require('./icons/ArrowCounterclockwise.js');
 const ArrowCounterclockwiseOff = require('./icons/ArrowCounterclockwiseOff.js');
+const ArrowClockwiseBottomCircle = require('./icons/ArrowClockwiseBottomCircle.js');
+const ArrowClockwiseBottomSquare = require('./icons/ArrowClockwiseBottomSquare.js');
 const ArrowClockwiseCheckCircleSmall = require('./icons/ArrowClockwiseCheckCircleSmall.js');
 const ArrowClockwiseCheckSquare = require('./icons/ArrowClockwiseCheckSquare.js');
+const ArrowClockwiseCircle = require('./icons/ArrowClockwiseCircle.js');
 const ArrowClockwiseFifteenDoubleChevron = require('./icons/ArrowClockwiseFifteenDoubleChevron.js');
 const ArrowClockwiseFive = require('./icons/ArrowClockwiseFive.js');
 const ArrowClockwiseFiveChevron = require('./icons/ArrowClockwiseFiveChevron.js');
+const ArrowClockwiseSquare = require('./icons/ArrowClockwiseSquare.js');
 const ArrowClockwiseTen = require('./icons/ArrowClockwiseTen.js');
 const ArrowClockwiseTenChevron = require('./icons/ArrowClockwiseTenChevron.js');
 const ArrowClockwiseThirty = require('./icons/ArrowClockwiseThirty.js');
 const ArrowClockwiseThirtyChevron = require('./icons/ArrowClockwiseThirtyChevron.js');
+const ArrowConvergeCircle = require('./icons/ArrowConvergeCircle.js');
+const ArrowConvergeDownCircle = require('./icons/ArrowConvergeDownCircle.js');
+const ArrowConvergeDownLeftCircle = require('./icons/ArrowConvergeDownLeftCircle.js');
+const ArrowConvergeDownRightCircle = require('./icons/ArrowConvergeDownRightCircle.js');
+const ArrowConvergeFour = require('./icons/ArrowConvergeFour.js');
+const ArrowConvergeFourLarge = require('./icons/ArrowConvergeFourLarge.js');
+const ArrowConvergeLeftCircle = require('./icons/ArrowConvergeLeftCircle.js');
+const ArrowConvergeRightCircle = require('./icons/ArrowConvergeRightCircle.js');
+const ArrowConvergeSix = require('./icons/ArrowConvergeSix.js');
+const ArrowConvergeUpCircle = require('./icons/ArrowConvergeUpCircle.js');
+const ArrowConvergeUpLeftCircle = require('./icons/ArrowConvergeUpLeftCircle.js');
+const ArrowConvergeUpRightCircle = require('./icons/ArrowConvergeUpRightCircle.js');
+const ArrowCornerDownLeft = require('./icons/ArrowCornerDownLeft.js');
+const ArrowCornerDownRight = require('./icons/ArrowCornerDownRight.js');
+const ArrowCornerLeftDown = require('./icons/ArrowCornerLeftDown.js');
+const ArrowCornerLeftUp = require('./icons/ArrowCornerLeftUp.js');
+const ArrowCornerRightDown = require('./icons/ArrowCornerRightDown.js');
+const ArrowCornerRightUp = require('./icons/ArrowCornerRightUp.js');
+const ArrowCornerUpLeft = require('./icons/ArrowCornerUpLeft.js');
+const ArrowCornerUpRight = require('./icons/ArrowCornerUpRight.js');
+const ArrowCounterclockwiseBottomCircle = require('./icons/ArrowCounterclockwiseBottomCircle.js');
+const ArrowCounterclockwiseBottomSquare = require('./icons/ArrowCounterclockwiseBottomSquare.js');
+const ArrowCounterclockwiseCheckChevron = require('./icons/ArrowCounterclockwiseCheckChevron.js');
 const ArrowCounterclockwiseChevron = require('./icons/ArrowCounterclockwiseChevron.js');
+const ArrowCounterclockwiseCircle = require('./icons/ArrowCounterclockwiseCircle.js');
+const ArrowCounterclockwiseDotsChevron = require('./icons/ArrowCounterclockwiseDotsChevron.js');
+const ArrowCounterclockwiseDottedChevron = require('./icons/ArrowCounterclockwiseDottedChevron.js');
+const ArrowCounterclockwiseDottedChevron2 = require('./icons/ArrowCounterclockwiseDottedChevron2.js');
+const ArrowCounterclockwiseDottedChevron3 = require('./icons/ArrowCounterclockwiseDottedChevron3.js');
 const ArrowCounterclockwiseFifteenDoubleChevron = require('./icons/ArrowCounterclockwiseFifteenDoubleChevron.js');
 const ArrowCounterclockwiseFive = require('./icons/ArrowCounterclockwiseFive.js');
 const ArrowCounterclockwiseFiveChevron = require('./icons/ArrowCounterclockwiseFiveChevron.js');
+const ArrowCounterclockwiseLockChevron = require('./icons/ArrowCounterclockwiseLockChevron.js');
+const ArrowCounterclockwisePlusChevron = require('./icons/ArrowCounterclockwisePlusChevron.js');
+const ArrowCounterclockwiseSquare = require('./icons/ArrowCounterclockwiseSquare.js');
 const ArrowCounterclockwiseTen = require('./icons/ArrowCounterclockwiseTen.js');
 const ArrowCounterclockwiseTenChevron = require('./icons/ArrowCounterclockwiseTenChevron.js');
 const ArrowCounterclockwiseThirty = require('./icons/ArrowCounterclockwiseThirty.js');
 const ArrowCounterclockwiseThirtyChevron = require('./icons/ArrowCounterclockwiseThirtyChevron.js');
+const ArrowCounterclockwiseXChevron = require('./icons/ArrowCounterclockwiseXChevron.js');
+const ArrowDivergeFour = require('./icons/ArrowDivergeFour.js');
+const ArrowDivergeFourLarge = require('./icons/ArrowDivergeFourLarge.js');
+const ArrowDivergeSix = require('./icons/ArrowDivergeSix.js');
 const ArrowDownArc = require('./icons/ArrowDownArc.js');
 const ArrowDownArcSmall = require('./icons/ArrowDownArcSmall.js');
+const ArrowDownCircle = require('./icons/ArrowDownCircle.js');
+const ArrowDownCircleDashed = require('./icons/ArrowDownCircleDashed.js');
+const ArrowDownCircleDashedHalf = require('./icons/ArrowDownCircleDashedHalf.js');
+const ArrowDownCircleDashedHalfRight = require('./icons/ArrowDownCircleDashedHalfRight.js');
+const ArrowDownCircleDashedHalfSmall = require('./icons/ArrowDownCircleDashedHalfSmall.js');
+const ArrowDownCircleDashedLong = require('./icons/ArrowDownCircleDashedLong.js');
+const ArrowDownCircleDashedSmall = require('./icons/ArrowDownCircleDashedSmall.js');
+const ArrowDownCircleIn = require('./icons/ArrowDownCircleIn.js');
+const ArrowDownCircleJoined = require('./icons/ArrowDownCircleJoined.js');
+const ArrowDownCircleLong = require('./icons/ArrowDownCircleLong.js');
+const ArrowDownCircleOut = require('./icons/ArrowDownCircleOut.js');
+const ArrowDownCircleSegmented = require('./icons/ArrowDownCircleSegmented.js');
+const ArrowDownDouble = require('./icons/ArrowDownDouble.js');
+const ArrowDownFromBar = require('./icons/ArrowDownFromBar.js');
+const ArrowDownFromDot = require('./icons/ArrowDownFromDot.js');
+const ArrowDownFromDotCircle = require('./icons/ArrowDownFromDotCircle.js');
+const ArrowDownFromPointCircle = require('./icons/ArrowDownFromPointCircle.js');
+const ArrowDownLeftCircle = require('./icons/ArrowDownLeftCircle.js');
+const ArrowDownLeftCircleJoined = require('./icons/ArrowDownLeftCircleJoined.js');
+const ArrowDownLeftCircleOut = require('./icons/ArrowDownLeftCircleOut.js');
+const ArrowDownLeftCircleSegmented = require('./icons/ArrowDownLeftCircleSegmented.js');
+const ArrowDownLeftDouble = require('./icons/ArrowDownLeftDouble.js');
+const ArrowDownLeftSquareLong = require('./icons/ArrowDownLeftSquareLong.js');
+const ArrowDownLeftSquareOut = require('./icons/ArrowDownLeftSquareOut.js');
+const ArrowDownRightCircle = require('./icons/ArrowDownRightCircle.js');
+const ArrowDownRightCircleJoined = require('./icons/ArrowDownRightCircleJoined.js');
+const ArrowDownRightCircleOut = require('./icons/ArrowDownRightCircleOut.js');
+const ArrowDownRightCircleSegmented = require('./icons/ArrowDownRightCircleSegmented.js');
+const ArrowDownRightDouble = require('./icons/ArrowDownRightDouble.js');
+const ArrowDownRightSquareLong = require('./icons/ArrowDownRightSquareLong.js');
+const ArrowDownRightSquareOut = require('./icons/ArrowDownRightSquareOut.js');
+const ArrowDownToDot = require('./icons/ArrowDownToDot.js');
+const ArrowDownToDotCircle = require('./icons/ArrowDownToDotCircle.js');
 const ArrowClockwiseSettings = require('./icons/ArrowClockwiseSettings.js');
 const ArrowClockwiseSettingsCorner = require('./icons/ArrowClockwiseSettingsCorner.js');
 const ArrowCounterclockwiseHexagon = require('./icons/ArrowCounterclockwiseHexagon.js');
 const ArrowCounterclockwiseHexagonOff = require('./icons/ArrowCounterclockwiseHexagonOff.js');
+const ArrowLeftCircle = require('./icons/ArrowLeftCircle.js');
+const ArrowLeftCircleIn = require('./icons/ArrowLeftCircleIn.js');
+const ArrowLeftCircleJoined = require('./icons/ArrowLeftCircleJoined.js');
+const ArrowLeftCircleLong = require('./icons/ArrowLeftCircleLong.js');
+const ArrowLeftCircleOut = require('./icons/ArrowLeftCircleOut.js');
+const ArrowLeftCircleSegmented = require('./icons/ArrowLeftCircleSegmented.js');
+const ArrowLeftDouble = require('./icons/ArrowLeftDouble.js');
+const ArrowLeftFromBar = require('./icons/ArrowLeftFromBar.js');
+const ArrowLeftFromDot = require('./icons/ArrowLeftFromDot.js');
+const ArrowLeftFromDotCircle = require('./icons/ArrowLeftFromDotCircle.js');
+const ArrowLeftFromPointCircle = require('./icons/ArrowLeftFromPointCircle.js');
+const ArrowLeftRight = require('./icons/ArrowLeftRight.js');
+const ArrowLeftRightCircle = require('./icons/ArrowLeftRightCircle.js');
+const ArrowLeftRightCircleHarpoon = require('./icons/ArrowLeftRightCircleHarpoon.js');
+const ArrowLeftToDot = require('./icons/ArrowLeftToDot.js');
+const ArrowLeftToDotCircle = require('./icons/ArrowLeftToDotCircle.js');
+const ArrowOrbit = require('./icons/ArrowOrbit.js');
+const ArrowOrbitAxis = require('./icons/ArrowOrbitAxis.js');
+const ArrowOrbitSync = require('./icons/ArrowOrbitSync.js');
 const ArrowRepeatCurved = require('./icons/ArrowRepeatCurved.js');
 const ArrowRepeatOneCurved = require('./icons/ArrowRepeatOneCurved.js');
 const ArrowRepeatOneTall = require('./icons/ArrowRepeatOneTall.js');
 const ArrowRepeatTall = require('./icons/ArrowRepeatTall.js');
+const ArrowRightCircle = require('./icons/ArrowRightCircle.js');
+const ArrowRightCircleIn = require('./icons/ArrowRightCircleIn.js');
+const ArrowRightCircleJoined = require('./icons/ArrowRightCircleJoined.js');
+const ArrowRightCircleLong = require('./icons/ArrowRightCircleLong.js');
+const ArrowRightCircleOut = require('./icons/ArrowRightCircleOut.js');
+const ArrowRightCircleSegmented = require('./icons/ArrowRightCircleSegmented.js');
+const ArrowRightDouble = require('./icons/ArrowRightDouble.js');
+const ArrowRightFromBar = require('./icons/ArrowRightFromBar.js');
+const ArrowRightFromDot = require('./icons/ArrowRightFromDot.js');
+const ArrowRightFromDotCircle = require('./icons/ArrowRightFromDotCircle.js');
+const ArrowRightFromPointCircle = require('./icons/ArrowRightFromPointCircle.js');
+const ArrowRightToDot = require('./icons/ArrowRightToDot.js');
+const ArrowRightToDotCircle = require('./icons/ArrowRightToDotCircle.js');
 const ArrowShuffle = require('./icons/ArrowShuffle.js');
+const ArrowSyncCircleHook = require('./icons/ArrowSyncCircleHook.js');
+const ArrowSyncClockwiseDotted = require('./icons/ArrowSyncClockwiseDotted.js');
+const ArrowSyncClockwiseDottedDiagonal = require('./icons/ArrowSyncClockwiseDottedDiagonal.js');
+const ArrowSyncClockwiseDottedRotated = require('./icons/ArrowSyncClockwiseDottedRotated.js');
+const ArrowSyncSquareHook = require('./icons/ArrowSyncSquareHook.js');
+const ArrowUpCircle = require('./icons/ArrowUpCircle.js');
+const ArrowUpCircleDashed = require('./icons/ArrowUpCircleDashed.js');
+const ArrowUpCircleDashedHalf = require('./icons/ArrowUpCircleDashedHalf.js');
+const ArrowUpCircleDashedHalfRight = require('./icons/ArrowUpCircleDashedHalfRight.js');
+const ArrowUpCircleDashedHalfSmall = require('./icons/ArrowUpCircleDashedHalfSmall.js');
+const ArrowUpCircleDashedLong = require('./icons/ArrowUpCircleDashedLong.js');
+const ArrowUpCircleDashedSmall = require('./icons/ArrowUpCircleDashedSmall.js');
+const ArrowUpCircleIn = require('./icons/ArrowUpCircleIn.js');
+const ArrowUpCircleJoined = require('./icons/ArrowUpCircleJoined.js');
+const ArrowUpCircleLong = require('./icons/ArrowUpCircleLong.js');
+const ArrowUpCircleOut = require('./icons/ArrowUpCircleOut.js');
+const ArrowUpCircleSegmented = require('./icons/ArrowUpCircleSegmented.js');
+const ArrowUpDouble = require('./icons/ArrowUpDouble.js');
+const ArrowUpDown = require('./icons/ArrowUpDown.js');
+const ArrowUpDownCircle = require('./icons/ArrowUpDownCircle.js');
+const ArrowUpDownCircleHarpoon = require('./icons/ArrowUpDownCircleHarpoon.js');
+const ArrowUpFromDot = require('./icons/ArrowUpFromDot.js');
+const ArrowUpFromDotCircle = require('./icons/ArrowUpFromDotCircle.js');
+const ArrowUpFromPointCircle = require('./icons/ArrowUpFromPointCircle.js');
+const ArrowUpLeftCircle = require('./icons/ArrowUpLeftCircle.js');
+const ArrowUpLeftCircleJoined = require('./icons/ArrowUpLeftCircleJoined.js');
+const ArrowUpLeftCircleOut = require('./icons/ArrowUpLeftCircleOut.js');
+const ArrowUpLeftCircleSegmented = require('./icons/ArrowUpLeftCircleSegmented.js');
+const ArrowUpLeftDouble = require('./icons/ArrowUpLeftDouble.js');
+const ArrowUpLeftDownRightCircle = require('./icons/ArrowUpLeftDownRightCircle.js');
+const ArrowUpLeftSquareLong = require('./icons/ArrowUpLeftSquareLong.js');
+const ArrowUpLeftSquareOut = require('./icons/ArrowUpLeftSquareOut.js');
+const ArrowUpRightCircle = require('./icons/ArrowUpRightCircle.js');
+const ArrowUpRightCircleJoined = require('./icons/ArrowUpRightCircleJoined.js');
+const ArrowUpRightCircleOut = require('./icons/ArrowUpRightCircleOut.js');
+const ArrowUpRightCircleSegmented = require('./icons/ArrowUpRightCircleSegmented.js');
+const ArrowUpRightDouble = require('./icons/ArrowUpRightDouble.js');
+const ArrowUpRightDownLeftCircle = require('./icons/ArrowUpRightDownLeftCircle.js');
+const ArrowUpRightSquareLong = require('./icons/ArrowUpRightSquareLong.js');
+const ArrowUpRightSquareOut = require('./icons/ArrowUpRightSquareOut.js');
+const ArrowUpToDot = require('./icons/ArrowUpToDot.js');
+const ArrowUpToDotCircle = require('./icons/ArrowUpToDotCircle.js');
 const ArrowClockwiseX = require('./icons/ArrowClockwiseX.js');
 const ArrowClockwiseXCircle = require('./icons/ArrowClockwiseXCircle.js');
+const ArrowUturnDown = require('./icons/ArrowUturnDown.js');
+const ArrowUturnDownCircle = require('./icons/ArrowUturnDownCircle.js');
+const ArrowUturnDownFlipped = require('./icons/ArrowUturnDownFlipped.js');
+const ArrowUturnDownFlippedCircle = require('./icons/ArrowUturnDownFlippedCircle.js');
+const ArrowUturnDownFlippedCircleDotted = require('./icons/ArrowUturnDownFlippedCircleDotted.js');
+const ArrowUturnDownFlippedCircleX = require('./icons/ArrowUturnDownFlippedCircleX.js');
+const ArrowUturnDownFlippedDotsCircle = require('./icons/ArrowUturnDownFlippedDotsCircle.js');
+const ArrowUturnDownFlippedLong = require('./icons/ArrowUturnDownFlippedLong.js');
+const ArrowUturnDownFlippedSquare = require('./icons/ArrowUturnDownFlippedSquare.js');
+const ArrowUturnDownLong = require('./icons/ArrowUturnDownLong.js');
+const ArrowUturnDownSquare = require('./icons/ArrowUturnDownSquare.js');
+const ArrowUturnLeft = require('./icons/ArrowUturnLeft.js');
+const ArrowUturnLeftCircle = require('./icons/ArrowUturnLeftCircle.js');
+const ArrowUturnLeftCircleSmall = require('./icons/ArrowUturnLeftCircleSmall.js');
+const ArrowUturnLeftFlipped = require('./icons/ArrowUturnLeftFlipped.js');
+const ArrowUturnLeftFlippedCircle = require('./icons/ArrowUturnLeftFlippedCircle.js');
+const ArrowUturnLeftFlippedLong = require('./icons/ArrowUturnLeftFlippedLong.js');
+const ArrowUturnLeftFlippedSquare = require('./icons/ArrowUturnLeftFlippedSquare.js');
+const ArrowUturnLeftLong = require('./icons/ArrowUturnLeftLong.js');
+const ArrowUturnLeftSquare = require('./icons/ArrowUturnLeftSquare.js');
+const ArrowUturnLeftSquareSmall = require('./icons/ArrowUturnLeftSquareSmall.js');
+const ArrowUturnRight = require('./icons/ArrowUturnRight.js');
+const ArrowUturnRightCircle = require('./icons/ArrowUturnRightCircle.js');
+const ArrowUturnRightFlipped = require('./icons/ArrowUturnRightFlipped.js');
+const ArrowUturnRightFlippedCircle = require('./icons/ArrowUturnRightFlippedCircle.js');
+const ArrowUturnRightFlippedLong = require('./icons/ArrowUturnRightFlippedLong.js');
+const ArrowUturnRightFlippedSquare = require('./icons/ArrowUturnRightFlippedSquare.js');
+const ArrowUturnRightLong = require('./icons/ArrowUturnRightLong.js');
+const ArrowUturnRightSquare = require('./icons/ArrowUturnRightSquare.js');
+const ArrowUturnUp = require('./icons/ArrowUturnUp.js');
+const ArrowUturnUpCircle = require('./icons/ArrowUturnUpCircle.js');
+const ArrowUturnUpFlipped = require('./icons/ArrowUturnUpFlipped.js');
+const ArrowUturnUpFlippedCircle = require('./icons/ArrowUturnUpFlippedCircle.js');
+const ArrowUturnUpFlippedCircleX = require('./icons/ArrowUturnUpFlippedCircleX.js');
+const ArrowUturnUpFlippedLong = require('./icons/ArrowUturnUpFlippedLong.js');
+const ArrowUturnUpFlippedSquare = require('./icons/ArrowUturnUpFlippedSquare.js');
+const ArrowUturnUpFlippedXCircle = require('./icons/ArrowUturnUpFlippedXCircle.js');
+const ArrowUturnUpLong = require('./icons/ArrowUturnUpLong.js');
+const ArrowUturnUpSquare = require('./icons/ArrowUturnUpSquare.js');
 const ArrowExpandCircleDashed = require('./icons/ArrowExpandCircleDashed.js');
 const ArrowSyncNodes = require('./icons/ArrowSyncNodes.js');
 const ArrowSyncNodesDiagonal = require('./icons/ArrowSyncNodesDiagonal.js');
@@ -386,6 +578,13 @@ const ArrowUpTraySpread = require('./icons/ArrowUpTraySpread.js');
 const WheelchairSquare = require('./icons/WheelchairSquare.js');
 const WheelchairSquare2 = require('./icons/WheelchairSquare2.js');
 const WheelchairSquare3 = require('./icons/WheelchairSquare3.js');
+const AsteriskCircle = require('./icons/AsteriskCircle.js');
+const AsteriskCircleTurned = require('./icons/AsteriskCircleTurned.js');
+const AsteriskFiveCircle = require('./icons/AsteriskFiveCircle.js');
+const AsteriskFiveSquare = require('./icons/AsteriskFiveSquare.js');
+const AsteriskRefresh = require('./icons/AsteriskRefresh.js');
+const AsteriskSquare = require('./icons/AsteriskSquare.js');
+const AsteriskSync = require('./icons/AsteriskSync.js');
 const AtRounded = require('./icons/AtRounded.js');
 const AtSpiral = require('./icons/AtSpiral.js');
 const AtCompact = require('./icons/AtCompact.js');
@@ -451,6 +650,11 @@ const AtCorners = require('./icons/AtCorners.js');
 const AtCornersCompact = require('./icons/AtCornersCompact.js');
 const AtEqualCurved = require('./icons/AtEqualCurved.js');
 const Award = require('./icons/Award.js');
+const AwardCheckRound = require('./icons/AwardCheckRound.js');
+const AwardOneRound = require('./icons/AwardOneRound.js');
+const AwardRound = require('./icons/AwardRound.js');
+const BackspaceCheckRound = require('./icons/BackspaceCheckRound.js');
+const BackspaceRound = require('./icons/BackspaceRound.js');
 const BadgeCheckJagged = require('./icons/BadgeCheckJagged.js');
 const BadgeCheck = require('./icons/BadgeCheck.js');
 const BadgeCheckPetal = require('./icons/BadgeCheckPetal.js');
@@ -471,6 +675,14 @@ const BadgeStarJagged = require('./icons/BadgeStarJagged.js');
 const Ban = require('./icons/Ban.js');
 const BanCircle = require('./icons/BanCircle.js');
 const BanOctagon = require('./icons/BanOctagon.js');
+const BatteryBolt = require('./icons/BatteryBolt.js');
+const BatteryBoltLarge = require('./icons/BatteryBoltLarge.js');
+const BatteryBoltLargeSlanted = require('./icons/BatteryBoltLargeSlanted.js');
+const BatteryEmpty = require('./icons/BatteryEmpty.js');
+const BatteryFull = require('./icons/BatteryFull.js');
+const BatteryHigh = require('./icons/BatteryHigh.js');
+const BatteryLow = require('./icons/BatteryLow.js');
+const BatteryMedium = require('./icons/BatteryMedium.js');
 const BellRim = require('./icons/BellRim.js');
 const BellTiltedRim = require('./icons/BellTiltedRim.js');
 const BellCheckCircleRim = require('./icons/BellCheckCircleRim.js');
@@ -577,6 +789,8 @@ const BinocularsOpera = require('./icons/BinocularsOpera.js');
 const BinocularsCompactRound = require('./icons/BinocularsCompactRound.js');
 const BinocularsCompactSquare = require('./icons/BinocularsCompactSquare.js');
 const Binoculars = require('./icons/Binoculars.js');
+const BinocularsCircle = require('./icons/BinocularsCircle.js');
+const BinocularsSquare = require('./icons/BinocularsSquare.js');
 const Bluetooth = require('./icons/Bluetooth.js');
 const BluetoothDotDouble = require('./icons/BluetoothDotDouble.js');
 const BluetoothDotDoubleNarrow = require('./icons/BluetoothDotDoubleNarrow.js');
@@ -933,10 +1147,19 @@ const CapsLockOff = require('./icons/CapsLockOff.js');
 const CapsLockOffFlat = require('./icons/CapsLockOffFlat.js');
 const CapsLock = require('./icons/CapsLock.js');
 const CapsLockFlat = require('./icons/CapsLockFlat.js');
+const CapsuleOff = require('./icons/CapsuleOff.js');
+const CardImage = require('./icons/CardImage.js');
+const CardImageCursor = require('./icons/CardImageCursor.js');
+const CardImageCursorLarge = require('./icons/CardImageCursorLarge.js');
+const CardImageCursorSmall = require('./icons/CardImageCursorSmall.js');
+const CardTextCursor = require('./icons/CardTextCursor.js');
 const ChartLineSquareWide = require('./icons/ChartLineSquareWide.js');
 const Cast = require('./icons/Cast.js');
 const CastRound = require('./icons/CastRound.js');
 const Certificate = require('./icons/Certificate.js');
+const ChalkboardChart = require('./icons/ChalkboardChart.js');
+const ChalkboardChartNotch = require('./icons/ChalkboardChartNotch.js');
+const ChalkboardMath = require('./icons/ChalkboardMath.js');
 const ChartTrendUpCircle = require('./icons/ChartTrendUpCircle.js');
 const ChartTrendUpCircleArrowRight = require('./icons/ChartTrendUpCircleArrowRight.js');
 const ChartTrendUpCircleCheck = require('./icons/ChartTrendUpCircleCheck.js');
@@ -1976,12 +2199,54 @@ const ChecklistCircleEmpty = require('./icons/ChecklistCircleEmpty.js');
 const ChecklistSquareEmpty = require('./icons/ChecklistSquareEmpty.js');
 const ChecklistUser = require('./icons/ChecklistUser.js');
 const ChecklistUserSmall = require('./icons/ChecklistUserSmall.js');
+const ChevronCornerStaggeredCircle = require('./icons/ChevronCornerStaggeredCircle.js');
+const ChevronCornerStaggeredCircleLarge = require('./icons/ChevronCornerStaggeredCircleLarge.js');
+const ChevronCornerStaggeredSquare = require('./icons/ChevronCornerStaggeredSquare.js');
+const ChevronCornerStaggeredSquareLarge = require('./icons/ChevronCornerStaggeredSquareLarge.js');
+const ChevronDoubleDown = require('./icons/ChevronDoubleDown.js');
+const ChevronDoubleDownLeft = require('./icons/ChevronDoubleDownLeft.js');
+const ChevronDoubleDownRight = require('./icons/ChevronDoubleDownRight.js');
+const ChevronDoubleLeft = require('./icons/ChevronDoubleLeft.js');
+const ChevronDoubleRight = require('./icons/ChevronDoubleRight.js');
+const ChevronDoubleUp = require('./icons/ChevronDoubleUp.js');
+const ChevronDoubleUpLeft = require('./icons/ChevronDoubleUpLeft.js');
+const ChevronDoubleUpRight = require('./icons/ChevronDoubleUpRight.js');
+const ChevronDownCircle = require('./icons/ChevronDownCircle.js');
+const ChevronDownLeftCircle = require('./icons/ChevronDownLeftCircle.js');
+const ChevronDownLeftSmall = require('./icons/ChevronDownLeftSmall.js');
+const ChevronDownRightCircle = require('./icons/ChevronDownRightCircle.js');
+const ChevronDownRightSmall = require('./icons/ChevronDownRightSmall.js');
+const ChevronDownSmall = require('./icons/ChevronDownSmall.js');
+const ChevronLeftCircle = require('./icons/ChevronLeftCircle.js');
+const ChevronLeftSmall = require('./icons/ChevronLeftSmall.js');
+const ChevronLeftToBarSquare = require('./icons/ChevronLeftToBarSquare.js');
 const ChevronOutCorners = require('./icons/ChevronOutCorners.js');
+const ChevronRightCircle = require('./icons/ChevronRightCircle.js');
+const ChevronRightLeftStaggeredCircle = require('./icons/ChevronRightLeftStaggeredCircle.js');
+const ChevronRightLeftStaggeredCircleLarge = require('./icons/ChevronRightLeftStaggeredCircleLarge.js');
+const ChevronRightLeftStaggeredSquare = require('./icons/ChevronRightLeftStaggeredSquare.js');
+const ChevronRightLeftStaggeredSquareLarge = require('./icons/ChevronRightLeftStaggeredSquareLarge.js');
+const ChevronRightSmall = require('./icons/ChevronRightSmall.js');
+const ChevronRightToBarSquare = require('./icons/ChevronRightToBarSquare.js');
+const ChevronUpCircle = require('./icons/ChevronUpCircle.js');
+const ChevronUpDownCircle = require('./icons/ChevronUpDownCircle.js');
+const ChevronUpDownCircleSmall = require('./icons/ChevronUpDownCircleSmall.js');
+const ChevronUpDownStaggeredCircle = require('./icons/ChevronUpDownStaggeredCircle.js');
+const ChevronUpDownStaggeredCircleLarge = require('./icons/ChevronUpDownStaggeredCircleLarge.js');
+const ChevronUpDownStaggeredSquare = require('./icons/ChevronUpDownStaggeredSquare.js');
+const ChevronUpDownStaggeredSquareLarge = require('./icons/ChevronUpDownStaggeredSquareLarge.js');
+const ChevronUpLeftCircle = require('./icons/ChevronUpLeftCircle.js');
+const ChevronUpLeftSmall = require('./icons/ChevronUpLeftSmall.js');
+const ChevronUpRightCircle = require('./icons/ChevronUpRightCircle.js');
+const ChevronUpRightSmall = require('./icons/ChevronUpRightSmall.js');
+const ChevronUpSmall = require('./icons/ChevronUpSmall.js');
 const CircleCrescent = require('./icons/CircleCrescent.js');
 const CircleCrescentDashed = require('./icons/CircleCrescentDashed.js');
 const CircleDashed = require('./icons/CircleDashed.js');
 const CircleHashtag = require('./icons/CircleHashtag.js');
 const CircleOff = require('./icons/CircleOff.js');
+const CircleOverlap = require('./icons/CircleOverlap.js');
+const CircleSplit = require('./icons/CircleSplit.js');
 const CircleStack = require('./icons/CircleStack.js');
 const CircleStackTight = require('./icons/CircleStackTight.js');
 const CircleOverlapArrowUpRight = require('./icons/CircleOverlapArrowUpRight.js');
@@ -2384,6 +2649,7 @@ const CursorRippleSmall = require('./icons/CursorRippleSmall.js');
 const CursorShine = require('./icons/CursorShine.js');
 const CursorSquare = require('./icons/CursorSquare.js');
 const CursorSquareCorner = require('./icons/CursorSquareCorner.js');
+const CursorSquareCornerLarge = require('./icons/CursorSquareCornerLarge.js');
 const CursorSquareDashed = require('./icons/CursorSquareDashed.js');
 const CursorUpRightCircle = require('./icons/CursorUpRightCircle.js');
 const CursorUpRightSquare = require('./icons/CursorUpRightSquare.js');
@@ -2548,8 +2814,12 @@ const FileBrackets = require('./icons/FileBrackets.js');
 const FileBracketsRight = require('./icons/FileBracketsRight.js');
 const FileCode = require('./icons/FileCode.js');
 const FileCodeRight = require('./icons/FileCodeRight.js');
+const FileLinkBracket = require('./icons/FileLinkBracket.js');
+const FileLinkLeftSlanted = require('./icons/FileLinkLeftSlanted.js');
+const FileLinkSlanted = require('./icons/FileLinkSlanted.js');
 const FileStackBrackets = require('./icons/FileStackBrackets.js');
 const FileStackCode = require('./icons/FileStackCode.js');
+const FileStackLink = require('./icons/FileStackLink.js');
 const Fingerprint = require('./icons/Fingerprint.js');
 const FingerprintDashed = require('./icons/FingerprintDashed.js');
 const FingerprintSpiral = require('./icons/FingerprintSpiral.js');
@@ -2558,6 +2828,9 @@ const FingerprintCurl = require('./icons/FingerprintCurl.js');
 const FingerprintCurlStem = require('./icons/FingerprintCurlStem.js');
 const FingerprintSpiralDashed = require('./icons/FingerprintSpiralDashed.js');
 const FingerprintDotted = require('./icons/FingerprintDotted.js');
+const FlameTriangle = require('./icons/FlameTriangle.js');
+const FlameTriangleCurled = require('./icons/FlameTriangleCurled.js');
+const FlameTriangleDrop = require('./icons/FlameTriangleDrop.js');
 const Folder = require('./icons/Folder.js');
 const FolderDivider = require('./icons/FolderDivider.js');
 const FolderTabFront = require('./icons/FolderTabFront.js');
@@ -2585,6 +2858,7 @@ const FolderCheckCircle = require('./icons/FolderCheckCircle.js');
 const FolderMinusCircle = require('./icons/FolderMinusCircle.js');
 const FolderPlusCircle = require('./icons/FolderPlusCircle.js');
 const FolderXCircle = require('./icons/FolderXCircle.js');
+const FolderLink = require('./icons/FolderLink.js');
 const FolderMinus = require('./icons/FolderMinus.js');
 const FolderMinusCenter = require('./icons/FolderMinusCenter.js');
 const FolderPlus = require('./icons/FolderPlus.js');
@@ -2929,6 +3203,154 @@ const HandThumbUp = require('./icons/HandThumbUp.js');
 const HandThumbUpFingers = require('./icons/HandThumbUpFingers.js');
 const HandThumbUpCuff = require('./icons/HandThumbUpCuff.js');
 const HandThumbUpSleeve = require('./icons/HandThumbUpSleeve.js');
+const LinkArrowUpBar = require('./icons/LinkArrowUpBar.js');
+const LinkArrowUpBar2 = require('./icons/LinkArrowUpBar2.js');
+const LinkArrowUpBracket = require('./icons/LinkArrowUpBracket.js');
+const LinkArrowUpClip = require('./icons/LinkArrowUpClip.js');
+const LinkArrowUpClip2 = require('./icons/LinkArrowUpClip2.js');
+const LinkArrowUpCompact = require('./icons/LinkArrowUpCompact.js');
+const LinkArrowUpFlat = require('./icons/LinkArrowUpFlat.js');
+const LinkArrowUpInterlocked = require('./icons/LinkArrowUpInterlocked.js');
+const LinkArrowUpNotched = require('./icons/LinkArrowUpNotched.js');
+const LinkArrowUpRound = require('./icons/LinkArrowUpRound.js');
+const LinkArrowUpRound2 = require('./icons/LinkArrowUpRound2.js');
+const LinkArrowUpSlanted = require('./icons/LinkArrowUpSlanted.js');
+const LinkArrowUpSlanted2 = require('./icons/LinkArrowUpSlanted2.js');
+const LinkArrowUpSlim = require('./icons/LinkArrowUpSlim.js');
+const LinkArrowUpWide = require('./icons/LinkArrowUpWide.js');
+const LinkBar = require('./icons/LinkBar.js');
+const LinkBracket = require('./icons/LinkBracket.js');
+const LinkBrokenBracket = require('./icons/LinkBrokenBracket.js');
+const LinkBrokenBurstBar = require('./icons/LinkBrokenBurstBar.js');
+const LinkBrokenBurstCircle = require('./icons/LinkBrokenBurstCircle.js');
+const LinkBrokenBurstClip = require('./icons/LinkBrokenBurstClip.js');
+const LinkBrokenBurstCompact = require('./icons/LinkBrokenBurstCompact.js');
+const LinkBrokenBurstSlanted = require('./icons/LinkBrokenBurstSlanted.js');
+const LinkBrokenBurstSlanted2 = require('./icons/LinkBrokenBurstSlanted2.js');
+const LinkBrokenBurstSquare = require('./icons/LinkBrokenBurstSquare.js');
+const LinkBrokenBurstWide = require('./icons/LinkBrokenBurstWide.js');
+const LinkBrokenCircle = require('./icons/LinkBrokenCircle.js');
+const LinkBrokenCornersSquare = require('./icons/LinkBrokenCornersSquare.js');
+const LinkBrokenDoubleBar = require('./icons/LinkBrokenDoubleBar.js');
+const LinkBrokenDoubleBracket = require('./icons/LinkBrokenDoubleBracket.js');
+const LinkBrokenDoubleClip = require('./icons/LinkBrokenDoubleClip.js');
+const LinkBrokenDoubleCompact = require('./icons/LinkBrokenDoubleCompact.js');
+const LinkBrokenDoubleSlanted = require('./icons/LinkBrokenDoubleSlanted.js');
+const LinkBrokenDoubleWide = require('./icons/LinkBrokenDoubleWide.js');
+const LinkBrokenFlat = require('./icons/LinkBrokenFlat.js');
+const LinkBrokenInterlocked = require('./icons/LinkBrokenInterlocked.js');
+const LinkBrokenSlim = require('./icons/LinkBrokenSlim.js');
+const LinkBrokenSquare = require('./icons/LinkBrokenSquare.js');
+const LinkBrokenTicksCircle = require('./icons/LinkBrokenTicksCircle.js');
+const LinkBrokenTicksSquare = require('./icons/LinkBrokenTicksSquare.js');
+const LinkBurstBoxy = require('./icons/LinkBurstBoxy.js');
+const LinkBurstVertical = require('./icons/LinkBurstVertical.js');
+const LinkCheckBracket = require('./icons/LinkCheckBracket.js');
+const LinkCheckCircleBar = require('./icons/LinkCheckCircleBar.js');
+const LinkCheckCircleBracket = require('./icons/LinkCheckCircleBracket.js');
+const LinkCheckCircleClip = require('./icons/LinkCheckCircleClip.js');
+const LinkCheckCircleNotched = require('./icons/LinkCheckCircleNotched.js');
+const LinkCheckCircleRound = require('./icons/LinkCheckCircleRound.js');
+const LinkCheckCircleSlanted = require('./icons/LinkCheckCircleSlanted.js');
+const LinkCheckClip = require('./icons/LinkCheckClip.js');
+const LinkCheckCompact = require('./icons/LinkCheckCompact.js');
+const LinkCheckFlat = require('./icons/LinkCheckFlat.js');
+const LinkCheckInterlocked = require('./icons/LinkCheckInterlocked.js');
+const LinkCheckNotched = require('./icons/LinkCheckNotched.js');
+const LinkCheckRound = require('./icons/LinkCheckRound.js');
+const LinkCheckSlanted = require('./icons/LinkCheckSlanted.js');
+const LinkCheckSlim = require('./icons/LinkCheckSlim.js');
+const LinkCheckWide = require('./icons/LinkCheckWide.js');
+const LinkCircleArrowLeftBracket = require('./icons/LinkCircleArrowLeftBracket.js');
+const LinkCircleArrowLeftClip = require('./icons/LinkCircleArrowLeftClip.js');
+const LinkCircleArrowLeftShort = require('./icons/LinkCircleArrowLeftShort.js');
+const LinkCircleArrowLeftSlanted = require('./icons/LinkCircleArrowLeftSlanted.js');
+const LinkCircleArrowLeftWide = require('./icons/LinkCircleArrowLeftWide.js');
+const LinkCircleArrowRightBracket = require('./icons/LinkCircleArrowRightBracket.js');
+const LinkCircleArrowRightClip = require('./icons/LinkCircleArrowRightClip.js');
+const LinkCircleArrowRightShort = require('./icons/LinkCircleArrowRightShort.js');
+const LinkCircleArrowRightSlanted = require('./icons/LinkCircleArrowRightSlanted.js');
+const LinkCircleArrowRightWide = require('./icons/LinkCircleArrowRightWide.js');
+const LinkCircleBracket = require('./icons/LinkCircleBracket.js');
+const LinkCircleCheckBracket = require('./icons/LinkCircleCheckBracket.js');
+const LinkCircleCheckClip = require('./icons/LinkCircleCheckClip.js');
+const LinkCircleCheckShort = require('./icons/LinkCircleCheckShort.js');
+const LinkCircleCheckSlanted = require('./icons/LinkCircleCheckSlanted.js');
+const LinkCircleCheckWide = require('./icons/LinkCircleCheckWide.js');
+const LinkCircleClip = require('./icons/LinkCircleClip.js');
+const LinkCircleShort = require('./icons/LinkCircleShort.js');
+const LinkCircleSlanted = require('./icons/LinkCircleSlanted.js');
+const LinkCircleWide = require('./icons/LinkCircleWide.js');
+const LinkCircleXBracket = require('./icons/LinkCircleXBracket.js');
+const LinkCircleXClip = require('./icons/LinkCircleXClip.js');
+const LinkCircleXShort = require('./icons/LinkCircleXShort.js');
+const LinkCircleXSlanted = require('./icons/LinkCircleXSlanted.js');
+const LinkCircleXWide = require('./icons/LinkCircleXWide.js');
+const LinkClip = require('./icons/LinkClip.js');
+const LinkDotsBracket = require('./icons/LinkDotsBracket.js');
+const LinkDotsCircleBar = require('./icons/LinkDotsCircleBar.js');
+const LinkDotsCircleBracket = require('./icons/LinkDotsCircleBracket.js');
+const LinkDotsCircleClip = require('./icons/LinkDotsCircleClip.js');
+const LinkDotsCircleNotched = require('./icons/LinkDotsCircleNotched.js');
+const LinkDotsCircleRound = require('./icons/LinkDotsCircleRound.js');
+const LinkDotsCircleSlanted = require('./icons/LinkDotsCircleSlanted.js');
+const LinkDotsClip = require('./icons/LinkDotsClip.js');
+const LinkDotsCompact = require('./icons/LinkDotsCompact.js');
+const LinkDotsFlat = require('./icons/LinkDotsFlat.js');
+const LinkDotsInterlocked = require('./icons/LinkDotsInterlocked.js');
+const LinkDotsNotched = require('./icons/LinkDotsNotched.js');
+const LinkDotsRound = require('./icons/LinkDotsRound.js');
+const LinkDotsSlanted = require('./icons/LinkDotsSlanted.js');
+const LinkDotsSlim = require('./icons/LinkDotsSlim.js');
+const LinkDotsWide = require('./icons/LinkDotsWide.js');
+const LinkEditBandBar = require('./icons/LinkEditBandBar.js');
+const LinkEditBandClip = require('./icons/LinkEditBandClip.js');
+const LinkEditBandClip2 = require('./icons/LinkEditBandClip2.js');
+const LinkEditBandNotched = require('./icons/LinkEditBandNotched.js');
+const LinkEditBandSlanted = require('./icons/LinkEditBandSlanted.js');
+const LinkEditBar = require('./icons/LinkEditBar.js');
+const LinkEditBarFlipped = require('./icons/LinkEditBarFlipped.js');
+const LinkEditBarSmall = require('./icons/LinkEditBarSmall.js');
+const LinkEditClip = require('./icons/LinkEditClip.js');
+const LinkEditNotched = require('./icons/LinkEditNotched.js');
+const LinkEditRound = require('./icons/LinkEditRound.js');
+const LinkEditSlanted = require('./icons/LinkEditSlanted.js');
+const LinkEditSlim = require('./icons/LinkEditSlim.js');
+const LinkFlat = require('./icons/LinkFlat.js');
+const LinkImageBracket = require('./icons/LinkImageBracket.js');
+const LinkImageSlanted = require('./icons/LinkImageSlanted.js');
+const LinkInterlocked = require('./icons/LinkInterlocked.js');
+const LinkMenuBar = require('./icons/LinkMenuBar.js');
+const LinkMenuBracket = require('./icons/LinkMenuBracket.js');
+const LinkMenuClip = require('./icons/LinkMenuClip.js');
+const LinkMenuCompact = require('./icons/LinkMenuCompact.js');
+const LinkMenuFlat = require('./icons/LinkMenuFlat.js');
+const LinkMenuInterlocked = require('./icons/LinkMenuInterlocked.js');
+const LinkMenuNotched = require('./icons/LinkMenuNotched.js');
+const LinkMenuRound = require('./icons/LinkMenuRound.js');
+const LinkMenuSlanted = require('./icons/LinkMenuSlanted.js');
+const LinkMenuSlim = require('./icons/LinkMenuSlim.js');
+const LinkMenuWide = require('./icons/LinkMenuWide.js');
+const LinkMinusBracket = require('./icons/LinkMinusBracket.js');
+const LinkMinusCircleBar = require('./icons/LinkMinusCircleBar.js');
+const LinkMinusCircleBracket = require('./icons/LinkMinusCircleBracket.js');
+const LinkMinusCircleClip = require('./icons/LinkMinusCircleClip.js');
+const LinkMinusCircleNotched = require('./icons/LinkMinusCircleNotched.js');
+const LinkMinusCircleRound = require('./icons/LinkMinusCircleRound.js');
+const LinkMinusCircleSlanted = require('./icons/LinkMinusCircleSlanted.js');
+const LinkMinusClip = require('./icons/LinkMinusClip.js');
+const LinkMinusCompact = require('./icons/LinkMinusCompact.js');
+const LinkMinusFlat = require('./icons/LinkMinusFlat.js');
+const LinkMinusInterlocked = require('./icons/LinkMinusInterlocked.js');
+const LinkMinusNotched = require('./icons/LinkMinusNotched.js');
+const LinkMinusRound = require('./icons/LinkMinusRound.js');
+const LinkMinusSlanted = require('./icons/LinkMinusSlanted.js');
+const LinkMinusSlim = require('./icons/LinkMinusSlim.js');
+const LinkMinusWide = require('./icons/LinkMinusWide.js');
+const LinkNotched = require('./icons/LinkNotched.js');
+const LinkOffCircle = require('./icons/LinkOffCircle.js');
+const LinkOffClip = require('./icons/LinkOffClip.js');
+const LinkOffSquare = require('./icons/LinkOffSquare.js');
 const Link = require('./icons/Link.js');
 const LinkPlus = require('./icons/LinkPlus.js');
 const LinkBroken = require('./icons/LinkBroken.js');
@@ -2937,6 +3359,57 @@ const LinkDots = require('./icons/LinkDots.js');
 const LinkMenu = require('./icons/LinkMenu.js');
 const LinkMinus = require('./icons/LinkMinus.js');
 const LinkX = require('./icons/LinkX.js');
+const LinkPlusBar = require('./icons/LinkPlusBar.js');
+const LinkPlusBracket = require('./icons/LinkPlusBracket.js');
+const LinkPlusCircleBar = require('./icons/LinkPlusCircleBar.js');
+const LinkPlusCircleBracket = require('./icons/LinkPlusCircleBracket.js');
+const LinkPlusCircleClip = require('./icons/LinkPlusCircleClip.js');
+const LinkPlusCircleNotched = require('./icons/LinkPlusCircleNotched.js');
+const LinkPlusCircleRound = require('./icons/LinkPlusCircleRound.js');
+const LinkPlusCircleSlanted = require('./icons/LinkPlusCircleSlanted.js');
+const LinkPlusClip = require('./icons/LinkPlusClip.js');
+const LinkPlusCompact = require('./icons/LinkPlusCompact.js');
+const LinkPlusFlat = require('./icons/LinkPlusFlat.js');
+const LinkPlusInterlocked = require('./icons/LinkPlusInterlocked.js');
+const LinkPlusNotched = require('./icons/LinkPlusNotched.js');
+const LinkPlusRound = require('./icons/LinkPlusRound.js');
+const LinkPlusSlanted = require('./icons/LinkPlusSlanted.js');
+const LinkPlusSlim = require('./icons/LinkPlusSlim.js');
+const LinkPlusWide = require('./icons/LinkPlusWide.js');
+const LinkRaysBoxy = require('./icons/LinkRaysBoxy.js');
+const LinkRaysFlat = require('./icons/LinkRaysFlat.js');
+const LinkRaysRound = require('./icons/LinkRaysRound.js');
+const LinkRaysSlim = require('./icons/LinkRaysSlim.js');
+const LinkRaysVertical = require('./icons/LinkRaysVertical.js');
+const LinkRound = require('./icons/LinkRound.js');
+const LinkSlanted = require('./icons/LinkSlanted.js');
+const LinkSlim = require('./icons/LinkSlim.js');
+const LinkSplitApart = require('./icons/LinkSplitApart.js');
+const LinkSplitBracket = require('./icons/LinkSplitBracket.js');
+const LinkSplitCircle = require('./icons/LinkSplitCircle.js');
+const LinkSplitSlanted = require('./icons/LinkSplitSlanted.js');
+const LinkSplitSquare = require('./icons/LinkSplitSquare.js');
+const LinkSquareClip = require('./icons/LinkSquareClip.js');
+const LinkSquareOpen = require('./icons/LinkSquareOpen.js');
+const LinkSquareShort = require('./icons/LinkSquareShort.js');
+const LinkSquareSlanted = require('./icons/LinkSquareSlanted.js');
+const LinkSquareWide = require('./icons/LinkSquareWide.js');
+const LinkWide = require('./icons/LinkWide.js');
+const LinkXBracket = require('./icons/LinkXBracket.js');
+const LinkXCircleBar = require('./icons/LinkXCircleBar.js');
+const LinkXCircleBracket = require('./icons/LinkXCircleBracket.js');
+const LinkXCircleClip = require('./icons/LinkXCircleClip.js');
+const LinkXCircleNotched = require('./icons/LinkXCircleNotched.js');
+const LinkXCircleRound = require('./icons/LinkXCircleRound.js');
+const LinkXClip = require('./icons/LinkXClip.js');
+const LinkXCompact = require('./icons/LinkXCompact.js');
+const LinkXFlat = require('./icons/LinkXFlat.js');
+const LinkXInterlocked = require('./icons/LinkXInterlocked.js');
+const LinkXNotched = require('./icons/LinkXNotched.js');
+const LinkXRound = require('./icons/LinkXRound.js');
+const LinkXSlanted = require('./icons/LinkXSlanted.js');
+const LinkXSlim = require('./icons/LinkXSlim.js');
+const LinkXWide = require('./icons/LinkXWide.js');
 const ListCheckbox = require('./icons/ListCheckbox.js');
 const ListBullets = require('./icons/ListBullets.js');
 const ListBulletsLarge = require('./icons/ListBulletsLarge.js');
@@ -3082,6 +3555,10 @@ const SearchOneToOneB = require('./icons/SearchOneToOneB.js');
 const SearchExpandB = require('./icons/SearchExpandB.js');
 const SearchOneToOneC = require('./icons/SearchOneToOneC.js');
 const SearchExpandC = require('./icons/SearchExpandC.js');
+const MailLinkBracket = require('./icons/MailLinkBracket.js');
+const MailLinkClip = require('./icons/MailLinkClip.js');
+const MailLinkRound = require('./icons/MailLinkRound.js');
+const MailLinkSlanted = require('./icons/MailLinkSlanted.js');
 const MailPaperclip = require('./icons/MailPaperclip.js');
 const MailPaperclipRound = require('./icons/MailPaperclipRound.js');
 const MailPaperclipTilted = require('./icons/MailPaperclipTilted.js');
@@ -3094,6 +3571,20 @@ const MailboxFlagSquare = require('./icons/MailboxFlagSquare.js');
 const MailboxMail = require('./icons/MailboxMail.js');
 const MailboxFlagBare = require('./icons/MailboxFlagBare.js');
 const MailboxFlagWaving = require('./icons/MailboxFlagWaving.js');
+const MapPinNodes = require('./icons/MapPinNodes.js');
+const Medal = require('./icons/Medal.js');
+const MedalBanner = require('./icons/MedalBanner.js');
+const MedalCheck = require('./icons/MedalCheck.js');
+const MedalCheckHook = require('./icons/MedalCheckHook.js');
+const MedalCheckStrap = require('./icons/MedalCheckStrap.js');
+const MedalFolded = require('./icons/MedalFolded.js');
+const MedalHook = require('./icons/MedalHook.js');
+const MedalOne = require('./icons/MedalOne.js');
+const MedalOneHook = require('./icons/MedalOneHook.js');
+const MedalOneStrap = require('./icons/MedalOneStrap.js');
+const MedalStarBanner = require('./icons/MedalStarBanner.js');
+const MedalStrap = require('./icons/MedalStrap.js');
+const MedalStripe = require('./icons/MedalStripe.js');
 const MenuGridDots = require('./icons/MenuGridDots.js');
 const MenuPanel = require('./icons/MenuPanel.js');
 const MenuPanelChevronLeft = require('./icons/MenuPanelChevronLeft.js');
@@ -3213,6 +3704,7 @@ const NewspaperTornCurlHeadline = require('./icons/NewspaperTornCurlHeadline.js'
 const NewspaperRolled = require('./icons/NewspaperRolled.js');
 const NewspaperIsometric = require('./icons/NewspaperIsometric.js');
 const NewspaperPhotoLeft = require('./icons/NewspaperPhotoLeft.js');
+const NodesTriangleUpright = require('./icons/NodesTriangleUpright.js');
 const Notebook = require('./icons/Notebook.js');
 const NotebookDetached = require('./icons/NotebookDetached.js');
 const NotebookSharp = require('./icons/NotebookSharp.js');
@@ -3239,6 +3731,7 @@ const WindowArrowUp = require('./icons/WindowArrowUp.js');
 const PaneArrowRightStriped = require('./icons/PaneArrowRightStriped.js');
 const PaneArrowRightList = require('./icons/PaneArrowRightList.js');
 const PaneArrowRight = require('./icons/PaneArrowRight.js');
+const OptionKeyCircle = require('./icons/OptionKeyCircle.js');
 const OptionsCheckAsterisk = require('./icons/OptionsCheckAsterisk.js');
 const OptionsCheckCursor = require('./icons/OptionsCheckCursor.js');
 const OptionsCheckDots = require('./icons/OptionsCheckDots.js');
@@ -3422,9 +3915,13 @@ const PyramidArrowUp = require('./icons/PyramidArrowUp.js');
 const Plaque = require('./icons/Plaque.js');
 const PlaqueTight = require('./icons/PlaqueTight.js');
 const Play = require('./icons/Play.js');
+const PlayCircle = require('./icons/PlayCircle.js');
 const PlaySquare = require('./icons/PlaySquare.js');
 const PlusCirclePointer = require('./icons/PlusCirclePointer.js');
 const PlusCircleStackArc = require('./icons/PlusCircleStackArc.js');
+const PlusCircleStackArcLeft = require('./icons/PlusCircleStackArcLeft.js');
+const PlusCircleStackArcMinus = require('./icons/PlusCircleStackArcMinus.js');
+const PlusSquareDot = require('./icons/PlusSquareDot.js');
 const PointerAlertCircle = require('./icons/PointerAlertCircle.js');
 const PointerBanStraight = require('./icons/PointerBanStraight.js');
 const PointerCardStraight = require('./icons/PointerCardStraight.js');
@@ -3478,6 +3975,7 @@ const PopoverUp = require('./icons/PopoverUp.js');
 const PopoverUpBig = require('./icons/PopoverUpBig.js');
 const PopoverListUp = require('./icons/PopoverListUp.js');
 const PopoverListUpBig = require('./icons/PopoverListUpBig.js');
+const PresentationBoard = require('./icons/PresentationBoard.js');
 const Presentation = require('./icons/Presentation.js');
 const PresentationFile = require('./icons/PresentationFile.js');
 const PresentationChart = require('./icons/PresentationChart.js');
@@ -3535,6 +4033,7 @@ const RestoreSyncCounterclockwise = require('./icons/RestoreSyncCounterclockwise
 const Rewind = require('./icons/Rewind.js');
 const RewindCircle = require('./icons/RewindCircle.js');
 const RewindSquare = require('./icons/RewindSquare.js');
+const Rosette = require('./icons/Rosette.js');
 const RotateScreen = require('./icons/RotateScreen.js');
 const RotateScreenHome = require('./icons/RotateScreenHome.js');
 const RotateScreenBezel = require('./icons/RotateScreenBezel.js');
@@ -3607,6 +4106,7 @@ const Scroll = require('./icons/Scroll.js');
 const ScrollTextNarrow = require('./icons/ScrollTextNarrow.js');
 const ScrollText = require('./icons/ScrollText.js');
 const ScrollMedal = require('./icons/ScrollMedal.js');
+const SealBanner = require('./icons/SealBanner.js');
 const SearchBrackets = require('./icons/SearchBrackets.js');
 const SearchBracketsC = require('./icons/SearchBracketsC.js');
 const SearchCode = require('./icons/SearchCode.js');
@@ -3687,6 +4187,8 @@ const ArrowUpSquare = require('./icons/ArrowUpSquare.js');
 const ArrowUpLeftSquare = require('./icons/ArrowUpLeftSquare.js');
 const ArrowUpRightSquare = require('./icons/ArrowUpRightSquare.js');
 const SquareCheckCircle = require('./icons/SquareCheckCircle.js');
+const SquarePlusLinkClip = require('./icons/SquarePlusLinkClip.js');
+const SquarePlusLinkSlanted = require('./icons/SquarePlusLinkSlanted.js');
 const SquareStackArrowBend = require('./icons/SquareStackArrowBend.js');
 const SquareStackArrowRight = require('./icons/SquareStackArrowRight.js');
 const SquareStackBracketsShadow = require('./icons/SquareStackBracketsShadow.js');
@@ -3695,6 +4197,9 @@ const SquareStackDashed = require('./icons/SquareStackDashed.js');
 const SquareStackImageDashed = require('./icons/SquareStackImageDashed.js');
 const SquareStackLines = require('./icons/SquareStackLines.js');
 const SquareStackLinesDashed = require('./icons/SquareStackLinesDashed.js');
+const SquareStackLinkBracket = require('./icons/SquareStackLinkBracket.js');
+const SquareStackLinkClip = require('./icons/SquareStackLinkClip.js');
+const SquareStackLinkSlanted = require('./icons/SquareStackLinkSlanted.js');
 const SquareStackLockDashed = require('./icons/SquareStackLockDashed.js');
 const SquareStackOverlap = require('./icons/SquareStackOverlap.js');
 const SquareStackPaperclip = require('./icons/SquareStackPaperclip.js');
@@ -4009,6 +4514,35 @@ const UserHeadsetLongSwept = require('./icons/UserHeadsetLongSwept.js');
 const GearWrench = require('./icons/GearWrench.js');
 const WrenchScrewdriverDouble = require('./icons/WrenchScrewdriverDouble.js');
 const WrenchScrewdriver = require('./icons/WrenchScrewdriver.js');
+const Text2DSquare = require('./icons/Text2DSquare.js');
+const Text2DSquareSmall = require('./icons/Text2DSquareSmall.js');
+const Text3DHexagon = require('./icons/Text3DHexagon.js');
+const Text3DHexagonSmall = require('./icons/Text3DHexagonSmall.js');
+const Text3DSquare = require('./icons/Text3DSquare.js');
+const Text3DSquareSmall = require('./icons/Text3DSquareSmall.js');
+const Text3DSync = require('./icons/Text3DSync.js');
+const Text3DSyncChevron = require('./icons/Text3DSyncChevron.js');
+const TextACircle = require('./icons/TextACircle.js');
+const TextACircleRound = require('./icons/TextACircleRound.js');
+const TextASquare = require('./icons/TextASquare.js');
+const TextASquareRound = require('./icons/TextASquareRound.js');
+const TextAaSquare = require('./icons/TextAaSquare.js');
+const TextAaSquareBoxy = require('./icons/TextAaSquareBoxy.js');
+const TextAaSquareLarge = require('./icons/TextAaSquareLarge.js');
+const TextAaSquareLarge2 = require('./icons/TextAaSquareLarge2.js');
+const TextAdCircle = require('./icons/TextAdCircle.js');
+const TextAdSquare = require('./icons/TextAdSquare.js');
+const TextAdsChat = require('./icons/TextAdsChat.js');
+const TextAdsMobile = require('./icons/TextAdsMobile.js');
+const TextAlignCenter = require('./icons/TextAlignCenter.js');
+const TextAlignCenterLarge = require('./icons/TextAlignCenterLarge.js');
+const TextAlignJustify = require('./icons/TextAlignJustify.js');
+const TextAlignJustifyLarge = require('./icons/TextAlignJustifyLarge.js');
+const TextAlignLeft = require('./icons/TextAlignLeft.js');
+const TextAlignLeftLarge = require('./icons/TextAlignLeftLarge.js');
+const TextAlignRight = require('./icons/TextAlignRight.js');
+const TextAlignRightLarge = require('./icons/TextAlignRightLarge.js');
+const TextAppCircle = require('./icons/TextAppCircle.js');
 const TextBold = require('./icons/TextBold.js');
 const TextBoldSharp = require('./icons/TextBoldSharp.js');
 const TextBoldSquare = require('./icons/TextBoldSquare.js');
@@ -4118,6 +4652,13 @@ const TrayStack = require('./icons/TrayStack.js');
 const TrayStackCheck = require('./icons/TrayStackCheck.js');
 const TrayStackMinus = require('./icons/TrayStackMinus.js');
 const TrayStackX = require('./icons/TrayStackX.js');
+const TriangleDownCircle = require('./icons/TriangleDownCircle.js');
+const TriangleDownLeftCircle = require('./icons/TriangleDownLeftCircle.js');
+const TriangleDownRightCircle = require('./icons/TriangleDownRightCircle.js');
+const TriangleLeftCircle = require('./icons/TriangleLeftCircle.js');
+const TriangleLeftTiltedCircle = require('./icons/TriangleLeftTiltedCircle.js');
+const TriangleRightTiltedCircle = require('./icons/TriangleRightTiltedCircle.js');
+const TriangleUpCircle = require('./icons/TriangleUpCircle.js');
 const Trophy = require('./icons/Trophy.js');
 const TrophyCircle = require('./icons/TrophyCircle.js');
 const TrophyPointed = require('./icons/TrophyPointed.js');
@@ -4285,6 +4826,8 @@ const DockRight = require('./icons/DockRight.js');
 const DockTop = require('./icons/DockTop.js');
 const DockVertical = require('./icons/DockVertical.js');
 const WindowEditPlain = require('./icons/WindowEditPlain.js');
+const WindowLink = require('./icons/WindowLink.js');
+const WindowLinkPlain = require('./icons/WindowLinkPlain.js');
 const WindowListPlain = require('./icons/WindowListPlain.js');
 const WindowLockPlain = require('./icons/WindowLockPlain.js');
 const WindowModalTitled = require('./icons/WindowModalTitled.js');
@@ -4482,6 +5025,13 @@ module.exports = {
   AlarmXArc: AlarmXArc.default || AlarmXArc,
   AlarmXBare: AlarmXBare.default || AlarmXBare,
   AlarmXStraight: AlarmXStraight.default || AlarmXStraight,
+  AlignCenterHorizontal: AlignCenterHorizontal.default || AlignCenterHorizontal,
+  AlignCenterVertical: AlignCenterVertical.default || AlignCenterVertical,
+  AlignLeft: AlignLeft.default || AlignLeft,
+  AlignRight: AlignRight.default || AlignRight,
+  Anchor: Anchor.default || Anchor,
+  AnchorCircle: AnchorCircle.default || AnchorCircle,
+  AnchorCircleBarbed: AnchorCircleBarbed.default || AnchorCircleBarbed,
   CircleMotion: CircleMotion.default || CircleMotion,
   CircleMotionDotted: CircleMotionDotted.default || CircleMotionDotted,
   DiamondMotion: DiamondMotion.default || DiamondMotion,
@@ -4635,36 +5185,221 @@ module.exports = {
   ArrowCounterclockwiseBottomOff: ArrowCounterclockwiseBottomOff.default || ArrowCounterclockwiseBottomOff,
   ArrowCounterclockwise: ArrowCounterclockwise.default || ArrowCounterclockwise,
   ArrowCounterclockwiseOff: ArrowCounterclockwiseOff.default || ArrowCounterclockwiseOff,
+  ArrowClockwiseBottomCircle: ArrowClockwiseBottomCircle.default || ArrowClockwiseBottomCircle,
+  ArrowClockwiseBottomSquare: ArrowClockwiseBottomSquare.default || ArrowClockwiseBottomSquare,
   ArrowClockwiseCheckCircleSmall: ArrowClockwiseCheckCircleSmall.default || ArrowClockwiseCheckCircleSmall,
   ArrowClockwiseCheckSquare: ArrowClockwiseCheckSquare.default || ArrowClockwiseCheckSquare,
+  ArrowClockwiseCircle: ArrowClockwiseCircle.default || ArrowClockwiseCircle,
   ArrowClockwiseFifteenDoubleChevron: ArrowClockwiseFifteenDoubleChevron.default || ArrowClockwiseFifteenDoubleChevron,
   ArrowClockwiseFive: ArrowClockwiseFive.default || ArrowClockwiseFive,
   ArrowClockwiseFiveChevron: ArrowClockwiseFiveChevron.default || ArrowClockwiseFiveChevron,
+  ArrowClockwiseSquare: ArrowClockwiseSquare.default || ArrowClockwiseSquare,
   ArrowClockwiseTen: ArrowClockwiseTen.default || ArrowClockwiseTen,
   ArrowClockwiseTenChevron: ArrowClockwiseTenChevron.default || ArrowClockwiseTenChevron,
   ArrowClockwiseThirty: ArrowClockwiseThirty.default || ArrowClockwiseThirty,
   ArrowClockwiseThirtyChevron: ArrowClockwiseThirtyChevron.default || ArrowClockwiseThirtyChevron,
+  ArrowConvergeCircle: ArrowConvergeCircle.default || ArrowConvergeCircle,
+  ArrowConvergeDownCircle: ArrowConvergeDownCircle.default || ArrowConvergeDownCircle,
+  ArrowConvergeDownLeftCircle: ArrowConvergeDownLeftCircle.default || ArrowConvergeDownLeftCircle,
+  ArrowConvergeDownRightCircle: ArrowConvergeDownRightCircle.default || ArrowConvergeDownRightCircle,
+  ArrowConvergeFour: ArrowConvergeFour.default || ArrowConvergeFour,
+  ArrowConvergeFourLarge: ArrowConvergeFourLarge.default || ArrowConvergeFourLarge,
+  ArrowConvergeLeftCircle: ArrowConvergeLeftCircle.default || ArrowConvergeLeftCircle,
+  ArrowConvergeRightCircle: ArrowConvergeRightCircle.default || ArrowConvergeRightCircle,
+  ArrowConvergeSix: ArrowConvergeSix.default || ArrowConvergeSix,
+  ArrowConvergeUpCircle: ArrowConvergeUpCircle.default || ArrowConvergeUpCircle,
+  ArrowConvergeUpLeftCircle: ArrowConvergeUpLeftCircle.default || ArrowConvergeUpLeftCircle,
+  ArrowConvergeUpRightCircle: ArrowConvergeUpRightCircle.default || ArrowConvergeUpRightCircle,
+  ArrowCornerDownLeft: ArrowCornerDownLeft.default || ArrowCornerDownLeft,
+  ArrowCornerDownRight: ArrowCornerDownRight.default || ArrowCornerDownRight,
+  ArrowCornerLeftDown: ArrowCornerLeftDown.default || ArrowCornerLeftDown,
+  ArrowCornerLeftUp: ArrowCornerLeftUp.default || ArrowCornerLeftUp,
+  ArrowCornerRightDown: ArrowCornerRightDown.default || ArrowCornerRightDown,
+  ArrowCornerRightUp: ArrowCornerRightUp.default || ArrowCornerRightUp,
+  ArrowCornerUpLeft: ArrowCornerUpLeft.default || ArrowCornerUpLeft,
+  ArrowCornerUpRight: ArrowCornerUpRight.default || ArrowCornerUpRight,
+  ArrowCounterclockwiseBottomCircle: ArrowCounterclockwiseBottomCircle.default || ArrowCounterclockwiseBottomCircle,
+  ArrowCounterclockwiseBottomSquare: ArrowCounterclockwiseBottomSquare.default || ArrowCounterclockwiseBottomSquare,
+  ArrowCounterclockwiseCheckChevron: ArrowCounterclockwiseCheckChevron.default || ArrowCounterclockwiseCheckChevron,
   ArrowCounterclockwiseChevron: ArrowCounterclockwiseChevron.default || ArrowCounterclockwiseChevron,
+  ArrowCounterclockwiseCircle: ArrowCounterclockwiseCircle.default || ArrowCounterclockwiseCircle,
+  ArrowCounterclockwiseDotsChevron: ArrowCounterclockwiseDotsChevron.default || ArrowCounterclockwiseDotsChevron,
+  ArrowCounterclockwiseDottedChevron: ArrowCounterclockwiseDottedChevron.default || ArrowCounterclockwiseDottedChevron,
+  ArrowCounterclockwiseDottedChevron2: ArrowCounterclockwiseDottedChevron2.default || ArrowCounterclockwiseDottedChevron2,
+  ArrowCounterclockwiseDottedChevron3: ArrowCounterclockwiseDottedChevron3.default || ArrowCounterclockwiseDottedChevron3,
   ArrowCounterclockwiseFifteenDoubleChevron: ArrowCounterclockwiseFifteenDoubleChevron.default || ArrowCounterclockwiseFifteenDoubleChevron,
   ArrowCounterclockwiseFive: ArrowCounterclockwiseFive.default || ArrowCounterclockwiseFive,
   ArrowCounterclockwiseFiveChevron: ArrowCounterclockwiseFiveChevron.default || ArrowCounterclockwiseFiveChevron,
+  ArrowCounterclockwiseLockChevron: ArrowCounterclockwiseLockChevron.default || ArrowCounterclockwiseLockChevron,
+  ArrowCounterclockwisePlusChevron: ArrowCounterclockwisePlusChevron.default || ArrowCounterclockwisePlusChevron,
+  ArrowCounterclockwiseSquare: ArrowCounterclockwiseSquare.default || ArrowCounterclockwiseSquare,
   ArrowCounterclockwiseTen: ArrowCounterclockwiseTen.default || ArrowCounterclockwiseTen,
   ArrowCounterclockwiseTenChevron: ArrowCounterclockwiseTenChevron.default || ArrowCounterclockwiseTenChevron,
   ArrowCounterclockwiseThirty: ArrowCounterclockwiseThirty.default || ArrowCounterclockwiseThirty,
   ArrowCounterclockwiseThirtyChevron: ArrowCounterclockwiseThirtyChevron.default || ArrowCounterclockwiseThirtyChevron,
+  ArrowCounterclockwiseXChevron: ArrowCounterclockwiseXChevron.default || ArrowCounterclockwiseXChevron,
+  ArrowDivergeFour: ArrowDivergeFour.default || ArrowDivergeFour,
+  ArrowDivergeFourLarge: ArrowDivergeFourLarge.default || ArrowDivergeFourLarge,
+  ArrowDivergeSix: ArrowDivergeSix.default || ArrowDivergeSix,
   ArrowDownArc: ArrowDownArc.default || ArrowDownArc,
   ArrowDownArcSmall: ArrowDownArcSmall.default || ArrowDownArcSmall,
+  ArrowDownCircle: ArrowDownCircle.default || ArrowDownCircle,
+  ArrowDownCircleDashed: ArrowDownCircleDashed.default || ArrowDownCircleDashed,
+  ArrowDownCircleDashedHalf: ArrowDownCircleDashedHalf.default || ArrowDownCircleDashedHalf,
+  ArrowDownCircleDashedHalfRight: ArrowDownCircleDashedHalfRight.default || ArrowDownCircleDashedHalfRight,
+  ArrowDownCircleDashedHalfSmall: ArrowDownCircleDashedHalfSmall.default || ArrowDownCircleDashedHalfSmall,
+  ArrowDownCircleDashedLong: ArrowDownCircleDashedLong.default || ArrowDownCircleDashedLong,
+  ArrowDownCircleDashedSmall: ArrowDownCircleDashedSmall.default || ArrowDownCircleDashedSmall,
+  ArrowDownCircleIn: ArrowDownCircleIn.default || ArrowDownCircleIn,
+  ArrowDownCircleJoined: ArrowDownCircleJoined.default || ArrowDownCircleJoined,
+  ArrowDownCircleLong: ArrowDownCircleLong.default || ArrowDownCircleLong,
+  ArrowDownCircleOut: ArrowDownCircleOut.default || ArrowDownCircleOut,
+  ArrowDownCircleSegmented: ArrowDownCircleSegmented.default || ArrowDownCircleSegmented,
+  ArrowDownDouble: ArrowDownDouble.default || ArrowDownDouble,
+  ArrowDownFromBar: ArrowDownFromBar.default || ArrowDownFromBar,
+  ArrowDownFromDot: ArrowDownFromDot.default || ArrowDownFromDot,
+  ArrowDownFromDotCircle: ArrowDownFromDotCircle.default || ArrowDownFromDotCircle,
+  ArrowDownFromPointCircle: ArrowDownFromPointCircle.default || ArrowDownFromPointCircle,
+  ArrowDownLeftCircle: ArrowDownLeftCircle.default || ArrowDownLeftCircle,
+  ArrowDownLeftCircleJoined: ArrowDownLeftCircleJoined.default || ArrowDownLeftCircleJoined,
+  ArrowDownLeftCircleOut: ArrowDownLeftCircleOut.default || ArrowDownLeftCircleOut,
+  ArrowDownLeftCircleSegmented: ArrowDownLeftCircleSegmented.default || ArrowDownLeftCircleSegmented,
+  ArrowDownLeftDouble: ArrowDownLeftDouble.default || ArrowDownLeftDouble,
+  ArrowDownLeftSquareLong: ArrowDownLeftSquareLong.default || ArrowDownLeftSquareLong,
+  ArrowDownLeftSquareOut: ArrowDownLeftSquareOut.default || ArrowDownLeftSquareOut,
+  ArrowDownRightCircle: ArrowDownRightCircle.default || ArrowDownRightCircle,
+  ArrowDownRightCircleJoined: ArrowDownRightCircleJoined.default || ArrowDownRightCircleJoined,
+  ArrowDownRightCircleOut: ArrowDownRightCircleOut.default || ArrowDownRightCircleOut,
+  ArrowDownRightCircleSegmented: ArrowDownRightCircleSegmented.default || ArrowDownRightCircleSegmented,
+  ArrowDownRightDouble: ArrowDownRightDouble.default || ArrowDownRightDouble,
+  ArrowDownRightSquareLong: ArrowDownRightSquareLong.default || ArrowDownRightSquareLong,
+  ArrowDownRightSquareOut: ArrowDownRightSquareOut.default || ArrowDownRightSquareOut,
+  ArrowDownToDot: ArrowDownToDot.default || ArrowDownToDot,
+  ArrowDownToDotCircle: ArrowDownToDotCircle.default || ArrowDownToDotCircle,
   ArrowClockwiseSettings: ArrowClockwiseSettings.default || ArrowClockwiseSettings,
   ArrowClockwiseSettingsCorner: ArrowClockwiseSettingsCorner.default || ArrowClockwiseSettingsCorner,
   ArrowCounterclockwiseHexagon: ArrowCounterclockwiseHexagon.default || ArrowCounterclockwiseHexagon,
   ArrowCounterclockwiseHexagonOff: ArrowCounterclockwiseHexagonOff.default || ArrowCounterclockwiseHexagonOff,
+  ArrowLeftCircle: ArrowLeftCircle.default || ArrowLeftCircle,
+  ArrowLeftCircleIn: ArrowLeftCircleIn.default || ArrowLeftCircleIn,
+  ArrowLeftCircleJoined: ArrowLeftCircleJoined.default || ArrowLeftCircleJoined,
+  ArrowLeftCircleLong: ArrowLeftCircleLong.default || ArrowLeftCircleLong,
+  ArrowLeftCircleOut: ArrowLeftCircleOut.default || ArrowLeftCircleOut,
+  ArrowLeftCircleSegmented: ArrowLeftCircleSegmented.default || ArrowLeftCircleSegmented,
+  ArrowLeftDouble: ArrowLeftDouble.default || ArrowLeftDouble,
+  ArrowLeftFromBar: ArrowLeftFromBar.default || ArrowLeftFromBar,
+  ArrowLeftFromDot: ArrowLeftFromDot.default || ArrowLeftFromDot,
+  ArrowLeftFromDotCircle: ArrowLeftFromDotCircle.default || ArrowLeftFromDotCircle,
+  ArrowLeftFromPointCircle: ArrowLeftFromPointCircle.default || ArrowLeftFromPointCircle,
+  ArrowLeftRight: ArrowLeftRight.default || ArrowLeftRight,
+  ArrowLeftRightCircle: ArrowLeftRightCircle.default || ArrowLeftRightCircle,
+  ArrowLeftRightCircleHarpoon: ArrowLeftRightCircleHarpoon.default || ArrowLeftRightCircleHarpoon,
+  ArrowLeftToDot: ArrowLeftToDot.default || ArrowLeftToDot,
+  ArrowLeftToDotCircle: ArrowLeftToDotCircle.default || ArrowLeftToDotCircle,
+  ArrowOrbit: ArrowOrbit.default || ArrowOrbit,
+  ArrowOrbitAxis: ArrowOrbitAxis.default || ArrowOrbitAxis,
+  ArrowOrbitSync: ArrowOrbitSync.default || ArrowOrbitSync,
   ArrowRepeatCurved: ArrowRepeatCurved.default || ArrowRepeatCurved,
   ArrowRepeatOneCurved: ArrowRepeatOneCurved.default || ArrowRepeatOneCurved,
   ArrowRepeatOneTall: ArrowRepeatOneTall.default || ArrowRepeatOneTall,
   ArrowRepeatTall: ArrowRepeatTall.default || ArrowRepeatTall,
+  ArrowRightCircle: ArrowRightCircle.default || ArrowRightCircle,
+  ArrowRightCircleIn: ArrowRightCircleIn.default || ArrowRightCircleIn,
+  ArrowRightCircleJoined: ArrowRightCircleJoined.default || ArrowRightCircleJoined,
+  ArrowRightCircleLong: ArrowRightCircleLong.default || ArrowRightCircleLong,
+  ArrowRightCircleOut: ArrowRightCircleOut.default || ArrowRightCircleOut,
+  ArrowRightCircleSegmented: ArrowRightCircleSegmented.default || ArrowRightCircleSegmented,
+  ArrowRightDouble: ArrowRightDouble.default || ArrowRightDouble,
+  ArrowRightFromBar: ArrowRightFromBar.default || ArrowRightFromBar,
+  ArrowRightFromDot: ArrowRightFromDot.default || ArrowRightFromDot,
+  ArrowRightFromDotCircle: ArrowRightFromDotCircle.default || ArrowRightFromDotCircle,
+  ArrowRightFromPointCircle: ArrowRightFromPointCircle.default || ArrowRightFromPointCircle,
+  ArrowRightToDot: ArrowRightToDot.default || ArrowRightToDot,
+  ArrowRightToDotCircle: ArrowRightToDotCircle.default || ArrowRightToDotCircle,
   ArrowShuffle: ArrowShuffle.default || ArrowShuffle,
+  ArrowSyncCircleHook: ArrowSyncCircleHook.default || ArrowSyncCircleHook,
+  ArrowSyncClockwiseDotted: ArrowSyncClockwiseDotted.default || ArrowSyncClockwiseDotted,
+  ArrowSyncClockwiseDottedDiagonal: ArrowSyncClockwiseDottedDiagonal.default || ArrowSyncClockwiseDottedDiagonal,
+  ArrowSyncClockwiseDottedRotated: ArrowSyncClockwiseDottedRotated.default || ArrowSyncClockwiseDottedRotated,
+  ArrowSyncSquareHook: ArrowSyncSquareHook.default || ArrowSyncSquareHook,
+  ArrowUpCircle: ArrowUpCircle.default || ArrowUpCircle,
+  ArrowUpCircleDashed: ArrowUpCircleDashed.default || ArrowUpCircleDashed,
+  ArrowUpCircleDashedHalf: ArrowUpCircleDashedHalf.default || ArrowUpCircleDashedHalf,
+  ArrowUpCircleDashedHalfRight: ArrowUpCircleDashedHalfRight.default || ArrowUpCircleDashedHalfRight,
+  ArrowUpCircleDashedHalfSmall: ArrowUpCircleDashedHalfSmall.default || ArrowUpCircleDashedHalfSmall,
+  ArrowUpCircleDashedLong: ArrowUpCircleDashedLong.default || ArrowUpCircleDashedLong,
+  ArrowUpCircleDashedSmall: ArrowUpCircleDashedSmall.default || ArrowUpCircleDashedSmall,
+  ArrowUpCircleIn: ArrowUpCircleIn.default || ArrowUpCircleIn,
+  ArrowUpCircleJoined: ArrowUpCircleJoined.default || ArrowUpCircleJoined,
+  ArrowUpCircleLong: ArrowUpCircleLong.default || ArrowUpCircleLong,
+  ArrowUpCircleOut: ArrowUpCircleOut.default || ArrowUpCircleOut,
+  ArrowUpCircleSegmented: ArrowUpCircleSegmented.default || ArrowUpCircleSegmented,
+  ArrowUpDouble: ArrowUpDouble.default || ArrowUpDouble,
+  ArrowUpDown: ArrowUpDown.default || ArrowUpDown,
+  ArrowUpDownCircle: ArrowUpDownCircle.default || ArrowUpDownCircle,
+  ArrowUpDownCircleHarpoon: ArrowUpDownCircleHarpoon.default || ArrowUpDownCircleHarpoon,
+  ArrowUpFromDot: ArrowUpFromDot.default || ArrowUpFromDot,
+  ArrowUpFromDotCircle: ArrowUpFromDotCircle.default || ArrowUpFromDotCircle,
+  ArrowUpFromPointCircle: ArrowUpFromPointCircle.default || ArrowUpFromPointCircle,
+  ArrowUpLeftCircle: ArrowUpLeftCircle.default || ArrowUpLeftCircle,
+  ArrowUpLeftCircleJoined: ArrowUpLeftCircleJoined.default || ArrowUpLeftCircleJoined,
+  ArrowUpLeftCircleOut: ArrowUpLeftCircleOut.default || ArrowUpLeftCircleOut,
+  ArrowUpLeftCircleSegmented: ArrowUpLeftCircleSegmented.default || ArrowUpLeftCircleSegmented,
+  ArrowUpLeftDouble: ArrowUpLeftDouble.default || ArrowUpLeftDouble,
+  ArrowUpLeftDownRightCircle: ArrowUpLeftDownRightCircle.default || ArrowUpLeftDownRightCircle,
+  ArrowUpLeftSquareLong: ArrowUpLeftSquareLong.default || ArrowUpLeftSquareLong,
+  ArrowUpLeftSquareOut: ArrowUpLeftSquareOut.default || ArrowUpLeftSquareOut,
+  ArrowUpRightCircle: ArrowUpRightCircle.default || ArrowUpRightCircle,
+  ArrowUpRightCircleJoined: ArrowUpRightCircleJoined.default || ArrowUpRightCircleJoined,
+  ArrowUpRightCircleOut: ArrowUpRightCircleOut.default || ArrowUpRightCircleOut,
+  ArrowUpRightCircleSegmented: ArrowUpRightCircleSegmented.default || ArrowUpRightCircleSegmented,
+  ArrowUpRightDouble: ArrowUpRightDouble.default || ArrowUpRightDouble,
+  ArrowUpRightDownLeftCircle: ArrowUpRightDownLeftCircle.default || ArrowUpRightDownLeftCircle,
+  ArrowUpRightSquareLong: ArrowUpRightSquareLong.default || ArrowUpRightSquareLong,
+  ArrowUpRightSquareOut: ArrowUpRightSquareOut.default || ArrowUpRightSquareOut,
+  ArrowUpToDot: ArrowUpToDot.default || ArrowUpToDot,
+  ArrowUpToDotCircle: ArrowUpToDotCircle.default || ArrowUpToDotCircle,
   ArrowClockwiseX: ArrowClockwiseX.default || ArrowClockwiseX,
   ArrowClockwiseXCircle: ArrowClockwiseXCircle.default || ArrowClockwiseXCircle,
+  ArrowUturnDown: ArrowUturnDown.default || ArrowUturnDown,
+  ArrowUturnDownCircle: ArrowUturnDownCircle.default || ArrowUturnDownCircle,
+  ArrowUturnDownFlipped: ArrowUturnDownFlipped.default || ArrowUturnDownFlipped,
+  ArrowUturnDownFlippedCircle: ArrowUturnDownFlippedCircle.default || ArrowUturnDownFlippedCircle,
+  ArrowUturnDownFlippedCircleDotted: ArrowUturnDownFlippedCircleDotted.default || ArrowUturnDownFlippedCircleDotted,
+  ArrowUturnDownFlippedCircleX: ArrowUturnDownFlippedCircleX.default || ArrowUturnDownFlippedCircleX,
+  ArrowUturnDownFlippedDotsCircle: ArrowUturnDownFlippedDotsCircle.default || ArrowUturnDownFlippedDotsCircle,
+  ArrowUturnDownFlippedLong: ArrowUturnDownFlippedLong.default || ArrowUturnDownFlippedLong,
+  ArrowUturnDownFlippedSquare: ArrowUturnDownFlippedSquare.default || ArrowUturnDownFlippedSquare,
+  ArrowUturnDownLong: ArrowUturnDownLong.default || ArrowUturnDownLong,
+  ArrowUturnDownSquare: ArrowUturnDownSquare.default || ArrowUturnDownSquare,
+  ArrowUturnLeft: ArrowUturnLeft.default || ArrowUturnLeft,
+  ArrowUturnLeftCircle: ArrowUturnLeftCircle.default || ArrowUturnLeftCircle,
+  ArrowUturnLeftCircleSmall: ArrowUturnLeftCircleSmall.default || ArrowUturnLeftCircleSmall,
+  ArrowUturnLeftFlipped: ArrowUturnLeftFlipped.default || ArrowUturnLeftFlipped,
+  ArrowUturnLeftFlippedCircle: ArrowUturnLeftFlippedCircle.default || ArrowUturnLeftFlippedCircle,
+  ArrowUturnLeftFlippedLong: ArrowUturnLeftFlippedLong.default || ArrowUturnLeftFlippedLong,
+  ArrowUturnLeftFlippedSquare: ArrowUturnLeftFlippedSquare.default || ArrowUturnLeftFlippedSquare,
+  ArrowUturnLeftLong: ArrowUturnLeftLong.default || ArrowUturnLeftLong,
+  ArrowUturnLeftSquare: ArrowUturnLeftSquare.default || ArrowUturnLeftSquare,
+  ArrowUturnLeftSquareSmall: ArrowUturnLeftSquareSmall.default || ArrowUturnLeftSquareSmall,
+  ArrowUturnRight: ArrowUturnRight.default || ArrowUturnRight,
+  ArrowUturnRightCircle: ArrowUturnRightCircle.default || ArrowUturnRightCircle,
+  ArrowUturnRightFlipped: ArrowUturnRightFlipped.default || ArrowUturnRightFlipped,
+  ArrowUturnRightFlippedCircle: ArrowUturnRightFlippedCircle.default || ArrowUturnRightFlippedCircle,
+  ArrowUturnRightFlippedLong: ArrowUturnRightFlippedLong.default || ArrowUturnRightFlippedLong,
+  ArrowUturnRightFlippedSquare: ArrowUturnRightFlippedSquare.default || ArrowUturnRightFlippedSquare,
+  ArrowUturnRightLong: ArrowUturnRightLong.default || ArrowUturnRightLong,
+  ArrowUturnRightSquare: ArrowUturnRightSquare.default || ArrowUturnRightSquare,
+  ArrowUturnUp: ArrowUturnUp.default || ArrowUturnUp,
+  ArrowUturnUpCircle: ArrowUturnUpCircle.default || ArrowUturnUpCircle,
+  ArrowUturnUpFlipped: ArrowUturnUpFlipped.default || ArrowUturnUpFlipped,
+  ArrowUturnUpFlippedCircle: ArrowUturnUpFlippedCircle.default || ArrowUturnUpFlippedCircle,
+  ArrowUturnUpFlippedCircleX: ArrowUturnUpFlippedCircleX.default || ArrowUturnUpFlippedCircleX,
+  ArrowUturnUpFlippedLong: ArrowUturnUpFlippedLong.default || ArrowUturnUpFlippedLong,
+  ArrowUturnUpFlippedSquare: ArrowUturnUpFlippedSquare.default || ArrowUturnUpFlippedSquare,
+  ArrowUturnUpFlippedXCircle: ArrowUturnUpFlippedXCircle.default || ArrowUturnUpFlippedXCircle,
+  ArrowUturnUpLong: ArrowUturnUpLong.default || ArrowUturnUpLong,
+  ArrowUturnUpSquare: ArrowUturnUpSquare.default || ArrowUturnUpSquare,
   ArrowExpandCircleDashed: ArrowExpandCircleDashed.default || ArrowExpandCircleDashed,
   ArrowSyncNodes: ArrowSyncNodes.default || ArrowSyncNodes,
   ArrowSyncNodesDiagonal: ArrowSyncNodesDiagonal.default || ArrowSyncNodesDiagonal,
@@ -4708,6 +5443,13 @@ module.exports = {
   WheelchairSquare: WheelchairSquare.default || WheelchairSquare,
   WheelchairSquare2: WheelchairSquare2.default || WheelchairSquare2,
   WheelchairSquare3: WheelchairSquare3.default || WheelchairSquare3,
+  AsteriskCircle: AsteriskCircle.default || AsteriskCircle,
+  AsteriskCircleTurned: AsteriskCircleTurned.default || AsteriskCircleTurned,
+  AsteriskFiveCircle: AsteriskFiveCircle.default || AsteriskFiveCircle,
+  AsteriskFiveSquare: AsteriskFiveSquare.default || AsteriskFiveSquare,
+  AsteriskRefresh: AsteriskRefresh.default || AsteriskRefresh,
+  AsteriskSquare: AsteriskSquare.default || AsteriskSquare,
+  AsteriskSync: AsteriskSync.default || AsteriskSync,
   AtRounded: AtRounded.default || AtRounded,
   AtSpiral: AtSpiral.default || AtSpiral,
   AtCompact: AtCompact.default || AtCompact,
@@ -4773,6 +5515,11 @@ module.exports = {
   AtCornersCompact: AtCornersCompact.default || AtCornersCompact,
   AtEqualCurved: AtEqualCurved.default || AtEqualCurved,
   Award: Award.default || Award,
+  AwardCheckRound: AwardCheckRound.default || AwardCheckRound,
+  AwardOneRound: AwardOneRound.default || AwardOneRound,
+  AwardRound: AwardRound.default || AwardRound,
+  BackspaceCheckRound: BackspaceCheckRound.default || BackspaceCheckRound,
+  BackspaceRound: BackspaceRound.default || BackspaceRound,
   BadgeCheckJagged: BadgeCheckJagged.default || BadgeCheckJagged,
   BadgeCheck: BadgeCheck.default || BadgeCheck,
   BadgeCheckPetal: BadgeCheckPetal.default || BadgeCheckPetal,
@@ -4793,6 +5540,14 @@ module.exports = {
   Ban: Ban.default || Ban,
   BanCircle: BanCircle.default || BanCircle,
   BanOctagon: BanOctagon.default || BanOctagon,
+  BatteryBolt: BatteryBolt.default || BatteryBolt,
+  BatteryBoltLarge: BatteryBoltLarge.default || BatteryBoltLarge,
+  BatteryBoltLargeSlanted: BatteryBoltLargeSlanted.default || BatteryBoltLargeSlanted,
+  BatteryEmpty: BatteryEmpty.default || BatteryEmpty,
+  BatteryFull: BatteryFull.default || BatteryFull,
+  BatteryHigh: BatteryHigh.default || BatteryHigh,
+  BatteryLow: BatteryLow.default || BatteryLow,
+  BatteryMedium: BatteryMedium.default || BatteryMedium,
   BellRim: BellRim.default || BellRim,
   BellTiltedRim: BellTiltedRim.default || BellTiltedRim,
   BellCheckCircleRim: BellCheckCircleRim.default || BellCheckCircleRim,
@@ -4899,6 +5654,8 @@ module.exports = {
   BinocularsCompactRound: BinocularsCompactRound.default || BinocularsCompactRound,
   BinocularsCompactSquare: BinocularsCompactSquare.default || BinocularsCompactSquare,
   Binoculars: Binoculars.default || Binoculars,
+  BinocularsCircle: BinocularsCircle.default || BinocularsCircle,
+  BinocularsSquare: BinocularsSquare.default || BinocularsSquare,
   Bluetooth: Bluetooth.default || Bluetooth,
   BluetoothDotDouble: BluetoothDotDouble.default || BluetoothDotDouble,
   BluetoothDotDoubleNarrow: BluetoothDotDoubleNarrow.default || BluetoothDotDoubleNarrow,
@@ -5255,10 +6012,19 @@ module.exports = {
   CapsLockOffFlat: CapsLockOffFlat.default || CapsLockOffFlat,
   CapsLock: CapsLock.default || CapsLock,
   CapsLockFlat: CapsLockFlat.default || CapsLockFlat,
+  CapsuleOff: CapsuleOff.default || CapsuleOff,
+  CardImage: CardImage.default || CardImage,
+  CardImageCursor: CardImageCursor.default || CardImageCursor,
+  CardImageCursorLarge: CardImageCursorLarge.default || CardImageCursorLarge,
+  CardImageCursorSmall: CardImageCursorSmall.default || CardImageCursorSmall,
+  CardTextCursor: CardTextCursor.default || CardTextCursor,
   ChartLineSquareWide: ChartLineSquareWide.default || ChartLineSquareWide,
   Cast: Cast.default || Cast,
   CastRound: CastRound.default || CastRound,
   Certificate: Certificate.default || Certificate,
+  ChalkboardChart: ChalkboardChart.default || ChalkboardChart,
+  ChalkboardChartNotch: ChalkboardChartNotch.default || ChalkboardChartNotch,
+  ChalkboardMath: ChalkboardMath.default || ChalkboardMath,
   ChartTrendUpCircle: ChartTrendUpCircle.default || ChartTrendUpCircle,
   ChartTrendUpCircleArrowRight: ChartTrendUpCircleArrowRight.default || ChartTrendUpCircleArrowRight,
   ChartTrendUpCircleCheck: ChartTrendUpCircleCheck.default || ChartTrendUpCircleCheck,
@@ -6298,12 +7064,54 @@ module.exports = {
   ChecklistSquareEmpty: ChecklistSquareEmpty.default || ChecklistSquareEmpty,
   ChecklistUser: ChecklistUser.default || ChecklistUser,
   ChecklistUserSmall: ChecklistUserSmall.default || ChecklistUserSmall,
+  ChevronCornerStaggeredCircle: ChevronCornerStaggeredCircle.default || ChevronCornerStaggeredCircle,
+  ChevronCornerStaggeredCircleLarge: ChevronCornerStaggeredCircleLarge.default || ChevronCornerStaggeredCircleLarge,
+  ChevronCornerStaggeredSquare: ChevronCornerStaggeredSquare.default || ChevronCornerStaggeredSquare,
+  ChevronCornerStaggeredSquareLarge: ChevronCornerStaggeredSquareLarge.default || ChevronCornerStaggeredSquareLarge,
+  ChevronDoubleDown: ChevronDoubleDown.default || ChevronDoubleDown,
+  ChevronDoubleDownLeft: ChevronDoubleDownLeft.default || ChevronDoubleDownLeft,
+  ChevronDoubleDownRight: ChevronDoubleDownRight.default || ChevronDoubleDownRight,
+  ChevronDoubleLeft: ChevronDoubleLeft.default || ChevronDoubleLeft,
+  ChevronDoubleRight: ChevronDoubleRight.default || ChevronDoubleRight,
+  ChevronDoubleUp: ChevronDoubleUp.default || ChevronDoubleUp,
+  ChevronDoubleUpLeft: ChevronDoubleUpLeft.default || ChevronDoubleUpLeft,
+  ChevronDoubleUpRight: ChevronDoubleUpRight.default || ChevronDoubleUpRight,
+  ChevronDownCircle: ChevronDownCircle.default || ChevronDownCircle,
+  ChevronDownLeftCircle: ChevronDownLeftCircle.default || ChevronDownLeftCircle,
+  ChevronDownLeftSmall: ChevronDownLeftSmall.default || ChevronDownLeftSmall,
+  ChevronDownRightCircle: ChevronDownRightCircle.default || ChevronDownRightCircle,
+  ChevronDownRightSmall: ChevronDownRightSmall.default || ChevronDownRightSmall,
+  ChevronDownSmall: ChevronDownSmall.default || ChevronDownSmall,
+  ChevronLeftCircle: ChevronLeftCircle.default || ChevronLeftCircle,
+  ChevronLeftSmall: ChevronLeftSmall.default || ChevronLeftSmall,
+  ChevronLeftToBarSquare: ChevronLeftToBarSquare.default || ChevronLeftToBarSquare,
   ChevronOutCorners: ChevronOutCorners.default || ChevronOutCorners,
+  ChevronRightCircle: ChevronRightCircle.default || ChevronRightCircle,
+  ChevronRightLeftStaggeredCircle: ChevronRightLeftStaggeredCircle.default || ChevronRightLeftStaggeredCircle,
+  ChevronRightLeftStaggeredCircleLarge: ChevronRightLeftStaggeredCircleLarge.default || ChevronRightLeftStaggeredCircleLarge,
+  ChevronRightLeftStaggeredSquare: ChevronRightLeftStaggeredSquare.default || ChevronRightLeftStaggeredSquare,
+  ChevronRightLeftStaggeredSquareLarge: ChevronRightLeftStaggeredSquareLarge.default || ChevronRightLeftStaggeredSquareLarge,
+  ChevronRightSmall: ChevronRightSmall.default || ChevronRightSmall,
+  ChevronRightToBarSquare: ChevronRightToBarSquare.default || ChevronRightToBarSquare,
+  ChevronUpCircle: ChevronUpCircle.default || ChevronUpCircle,
+  ChevronUpDownCircle: ChevronUpDownCircle.default || ChevronUpDownCircle,
+  ChevronUpDownCircleSmall: ChevronUpDownCircleSmall.default || ChevronUpDownCircleSmall,
+  ChevronUpDownStaggeredCircle: ChevronUpDownStaggeredCircle.default || ChevronUpDownStaggeredCircle,
+  ChevronUpDownStaggeredCircleLarge: ChevronUpDownStaggeredCircleLarge.default || ChevronUpDownStaggeredCircleLarge,
+  ChevronUpDownStaggeredSquare: ChevronUpDownStaggeredSquare.default || ChevronUpDownStaggeredSquare,
+  ChevronUpDownStaggeredSquareLarge: ChevronUpDownStaggeredSquareLarge.default || ChevronUpDownStaggeredSquareLarge,
+  ChevronUpLeftCircle: ChevronUpLeftCircle.default || ChevronUpLeftCircle,
+  ChevronUpLeftSmall: ChevronUpLeftSmall.default || ChevronUpLeftSmall,
+  ChevronUpRightCircle: ChevronUpRightCircle.default || ChevronUpRightCircle,
+  ChevronUpRightSmall: ChevronUpRightSmall.default || ChevronUpRightSmall,
+  ChevronUpSmall: ChevronUpSmall.default || ChevronUpSmall,
   CircleCrescent: CircleCrescent.default || CircleCrescent,
   CircleCrescentDashed: CircleCrescentDashed.default || CircleCrescentDashed,
   CircleDashed: CircleDashed.default || CircleDashed,
   CircleHashtag: CircleHashtag.default || CircleHashtag,
   CircleOff: CircleOff.default || CircleOff,
+  CircleOverlap: CircleOverlap.default || CircleOverlap,
+  CircleSplit: CircleSplit.default || CircleSplit,
   CircleStack: CircleStack.default || CircleStack,
   CircleStackTight: CircleStackTight.default || CircleStackTight,
   CircleOverlapArrowUpRight: CircleOverlapArrowUpRight.default || CircleOverlapArrowUpRight,
@@ -6706,6 +7514,7 @@ module.exports = {
   CursorShine: CursorShine.default || CursorShine,
   CursorSquare: CursorSquare.default || CursorSquare,
   CursorSquareCorner: CursorSquareCorner.default || CursorSquareCorner,
+  CursorSquareCornerLarge: CursorSquareCornerLarge.default || CursorSquareCornerLarge,
   CursorSquareDashed: CursorSquareDashed.default || CursorSquareDashed,
   CursorUpRightCircle: CursorUpRightCircle.default || CursorUpRightCircle,
   CursorUpRightSquare: CursorUpRightSquare.default || CursorUpRightSquare,
@@ -6870,8 +7679,12 @@ module.exports = {
   FileBracketsRight: FileBracketsRight.default || FileBracketsRight,
   FileCode: FileCode.default || FileCode,
   FileCodeRight: FileCodeRight.default || FileCodeRight,
+  FileLinkBracket: FileLinkBracket.default || FileLinkBracket,
+  FileLinkLeftSlanted: FileLinkLeftSlanted.default || FileLinkLeftSlanted,
+  FileLinkSlanted: FileLinkSlanted.default || FileLinkSlanted,
   FileStackBrackets: FileStackBrackets.default || FileStackBrackets,
   FileStackCode: FileStackCode.default || FileStackCode,
+  FileStackLink: FileStackLink.default || FileStackLink,
   Fingerprint: Fingerprint.default || Fingerprint,
   FingerprintDashed: FingerprintDashed.default || FingerprintDashed,
   FingerprintSpiral: FingerprintSpiral.default || FingerprintSpiral,
@@ -6880,6 +7693,9 @@ module.exports = {
   FingerprintCurlStem: FingerprintCurlStem.default || FingerprintCurlStem,
   FingerprintSpiralDashed: FingerprintSpiralDashed.default || FingerprintSpiralDashed,
   FingerprintDotted: FingerprintDotted.default || FingerprintDotted,
+  FlameTriangle: FlameTriangle.default || FlameTriangle,
+  FlameTriangleCurled: FlameTriangleCurled.default || FlameTriangleCurled,
+  FlameTriangleDrop: FlameTriangleDrop.default || FlameTriangleDrop,
   Folder: Folder.default || Folder,
   FolderDivider: FolderDivider.default || FolderDivider,
   FolderTabFront: FolderTabFront.default || FolderTabFront,
@@ -6907,6 +7723,7 @@ module.exports = {
   FolderMinusCircle: FolderMinusCircle.default || FolderMinusCircle,
   FolderPlusCircle: FolderPlusCircle.default || FolderPlusCircle,
   FolderXCircle: FolderXCircle.default || FolderXCircle,
+  FolderLink: FolderLink.default || FolderLink,
   FolderMinus: FolderMinus.default || FolderMinus,
   FolderMinusCenter: FolderMinusCenter.default || FolderMinusCenter,
   FolderPlus: FolderPlus.default || FolderPlus,
@@ -7251,6 +8068,154 @@ module.exports = {
   HandThumbUpFingers: HandThumbUpFingers.default || HandThumbUpFingers,
   HandThumbUpCuff: HandThumbUpCuff.default || HandThumbUpCuff,
   HandThumbUpSleeve: HandThumbUpSleeve.default || HandThumbUpSleeve,
+  LinkArrowUpBar: LinkArrowUpBar.default || LinkArrowUpBar,
+  LinkArrowUpBar2: LinkArrowUpBar2.default || LinkArrowUpBar2,
+  LinkArrowUpBracket: LinkArrowUpBracket.default || LinkArrowUpBracket,
+  LinkArrowUpClip: LinkArrowUpClip.default || LinkArrowUpClip,
+  LinkArrowUpClip2: LinkArrowUpClip2.default || LinkArrowUpClip2,
+  LinkArrowUpCompact: LinkArrowUpCompact.default || LinkArrowUpCompact,
+  LinkArrowUpFlat: LinkArrowUpFlat.default || LinkArrowUpFlat,
+  LinkArrowUpInterlocked: LinkArrowUpInterlocked.default || LinkArrowUpInterlocked,
+  LinkArrowUpNotched: LinkArrowUpNotched.default || LinkArrowUpNotched,
+  LinkArrowUpRound: LinkArrowUpRound.default || LinkArrowUpRound,
+  LinkArrowUpRound2: LinkArrowUpRound2.default || LinkArrowUpRound2,
+  LinkArrowUpSlanted: LinkArrowUpSlanted.default || LinkArrowUpSlanted,
+  LinkArrowUpSlanted2: LinkArrowUpSlanted2.default || LinkArrowUpSlanted2,
+  LinkArrowUpSlim: LinkArrowUpSlim.default || LinkArrowUpSlim,
+  LinkArrowUpWide: LinkArrowUpWide.default || LinkArrowUpWide,
+  LinkBar: LinkBar.default || LinkBar,
+  LinkBracket: LinkBracket.default || LinkBracket,
+  LinkBrokenBracket: LinkBrokenBracket.default || LinkBrokenBracket,
+  LinkBrokenBurstBar: LinkBrokenBurstBar.default || LinkBrokenBurstBar,
+  LinkBrokenBurstCircle: LinkBrokenBurstCircle.default || LinkBrokenBurstCircle,
+  LinkBrokenBurstClip: LinkBrokenBurstClip.default || LinkBrokenBurstClip,
+  LinkBrokenBurstCompact: LinkBrokenBurstCompact.default || LinkBrokenBurstCompact,
+  LinkBrokenBurstSlanted: LinkBrokenBurstSlanted.default || LinkBrokenBurstSlanted,
+  LinkBrokenBurstSlanted2: LinkBrokenBurstSlanted2.default || LinkBrokenBurstSlanted2,
+  LinkBrokenBurstSquare: LinkBrokenBurstSquare.default || LinkBrokenBurstSquare,
+  LinkBrokenBurstWide: LinkBrokenBurstWide.default || LinkBrokenBurstWide,
+  LinkBrokenCircle: LinkBrokenCircle.default || LinkBrokenCircle,
+  LinkBrokenCornersSquare: LinkBrokenCornersSquare.default || LinkBrokenCornersSquare,
+  LinkBrokenDoubleBar: LinkBrokenDoubleBar.default || LinkBrokenDoubleBar,
+  LinkBrokenDoubleBracket: LinkBrokenDoubleBracket.default || LinkBrokenDoubleBracket,
+  LinkBrokenDoubleClip: LinkBrokenDoubleClip.default || LinkBrokenDoubleClip,
+  LinkBrokenDoubleCompact: LinkBrokenDoubleCompact.default || LinkBrokenDoubleCompact,
+  LinkBrokenDoubleSlanted: LinkBrokenDoubleSlanted.default || LinkBrokenDoubleSlanted,
+  LinkBrokenDoubleWide: LinkBrokenDoubleWide.default || LinkBrokenDoubleWide,
+  LinkBrokenFlat: LinkBrokenFlat.default || LinkBrokenFlat,
+  LinkBrokenInterlocked: LinkBrokenInterlocked.default || LinkBrokenInterlocked,
+  LinkBrokenSlim: LinkBrokenSlim.default || LinkBrokenSlim,
+  LinkBrokenSquare: LinkBrokenSquare.default || LinkBrokenSquare,
+  LinkBrokenTicksCircle: LinkBrokenTicksCircle.default || LinkBrokenTicksCircle,
+  LinkBrokenTicksSquare: LinkBrokenTicksSquare.default || LinkBrokenTicksSquare,
+  LinkBurstBoxy: LinkBurstBoxy.default || LinkBurstBoxy,
+  LinkBurstVertical: LinkBurstVertical.default || LinkBurstVertical,
+  LinkCheckBracket: LinkCheckBracket.default || LinkCheckBracket,
+  LinkCheckCircleBar: LinkCheckCircleBar.default || LinkCheckCircleBar,
+  LinkCheckCircleBracket: LinkCheckCircleBracket.default || LinkCheckCircleBracket,
+  LinkCheckCircleClip: LinkCheckCircleClip.default || LinkCheckCircleClip,
+  LinkCheckCircleNotched: LinkCheckCircleNotched.default || LinkCheckCircleNotched,
+  LinkCheckCircleRound: LinkCheckCircleRound.default || LinkCheckCircleRound,
+  LinkCheckCircleSlanted: LinkCheckCircleSlanted.default || LinkCheckCircleSlanted,
+  LinkCheckClip: LinkCheckClip.default || LinkCheckClip,
+  LinkCheckCompact: LinkCheckCompact.default || LinkCheckCompact,
+  LinkCheckFlat: LinkCheckFlat.default || LinkCheckFlat,
+  LinkCheckInterlocked: LinkCheckInterlocked.default || LinkCheckInterlocked,
+  LinkCheckNotched: LinkCheckNotched.default || LinkCheckNotched,
+  LinkCheckRound: LinkCheckRound.default || LinkCheckRound,
+  LinkCheckSlanted: LinkCheckSlanted.default || LinkCheckSlanted,
+  LinkCheckSlim: LinkCheckSlim.default || LinkCheckSlim,
+  LinkCheckWide: LinkCheckWide.default || LinkCheckWide,
+  LinkCircleArrowLeftBracket: LinkCircleArrowLeftBracket.default || LinkCircleArrowLeftBracket,
+  LinkCircleArrowLeftClip: LinkCircleArrowLeftClip.default || LinkCircleArrowLeftClip,
+  LinkCircleArrowLeftShort: LinkCircleArrowLeftShort.default || LinkCircleArrowLeftShort,
+  LinkCircleArrowLeftSlanted: LinkCircleArrowLeftSlanted.default || LinkCircleArrowLeftSlanted,
+  LinkCircleArrowLeftWide: LinkCircleArrowLeftWide.default || LinkCircleArrowLeftWide,
+  LinkCircleArrowRightBracket: LinkCircleArrowRightBracket.default || LinkCircleArrowRightBracket,
+  LinkCircleArrowRightClip: LinkCircleArrowRightClip.default || LinkCircleArrowRightClip,
+  LinkCircleArrowRightShort: LinkCircleArrowRightShort.default || LinkCircleArrowRightShort,
+  LinkCircleArrowRightSlanted: LinkCircleArrowRightSlanted.default || LinkCircleArrowRightSlanted,
+  LinkCircleArrowRightWide: LinkCircleArrowRightWide.default || LinkCircleArrowRightWide,
+  LinkCircleBracket: LinkCircleBracket.default || LinkCircleBracket,
+  LinkCircleCheckBracket: LinkCircleCheckBracket.default || LinkCircleCheckBracket,
+  LinkCircleCheckClip: LinkCircleCheckClip.default || LinkCircleCheckClip,
+  LinkCircleCheckShort: LinkCircleCheckShort.default || LinkCircleCheckShort,
+  LinkCircleCheckSlanted: LinkCircleCheckSlanted.default || LinkCircleCheckSlanted,
+  LinkCircleCheckWide: LinkCircleCheckWide.default || LinkCircleCheckWide,
+  LinkCircleClip: LinkCircleClip.default || LinkCircleClip,
+  LinkCircleShort: LinkCircleShort.default || LinkCircleShort,
+  LinkCircleSlanted: LinkCircleSlanted.default || LinkCircleSlanted,
+  LinkCircleWide: LinkCircleWide.default || LinkCircleWide,
+  LinkCircleXBracket: LinkCircleXBracket.default || LinkCircleXBracket,
+  LinkCircleXClip: LinkCircleXClip.default || LinkCircleXClip,
+  LinkCircleXShort: LinkCircleXShort.default || LinkCircleXShort,
+  LinkCircleXSlanted: LinkCircleXSlanted.default || LinkCircleXSlanted,
+  LinkCircleXWide: LinkCircleXWide.default || LinkCircleXWide,
+  LinkClip: LinkClip.default || LinkClip,
+  LinkDotsBracket: LinkDotsBracket.default || LinkDotsBracket,
+  LinkDotsCircleBar: LinkDotsCircleBar.default || LinkDotsCircleBar,
+  LinkDotsCircleBracket: LinkDotsCircleBracket.default || LinkDotsCircleBracket,
+  LinkDotsCircleClip: LinkDotsCircleClip.default || LinkDotsCircleClip,
+  LinkDotsCircleNotched: LinkDotsCircleNotched.default || LinkDotsCircleNotched,
+  LinkDotsCircleRound: LinkDotsCircleRound.default || LinkDotsCircleRound,
+  LinkDotsCircleSlanted: LinkDotsCircleSlanted.default || LinkDotsCircleSlanted,
+  LinkDotsClip: LinkDotsClip.default || LinkDotsClip,
+  LinkDotsCompact: LinkDotsCompact.default || LinkDotsCompact,
+  LinkDotsFlat: LinkDotsFlat.default || LinkDotsFlat,
+  LinkDotsInterlocked: LinkDotsInterlocked.default || LinkDotsInterlocked,
+  LinkDotsNotched: LinkDotsNotched.default || LinkDotsNotched,
+  LinkDotsRound: LinkDotsRound.default || LinkDotsRound,
+  LinkDotsSlanted: LinkDotsSlanted.default || LinkDotsSlanted,
+  LinkDotsSlim: LinkDotsSlim.default || LinkDotsSlim,
+  LinkDotsWide: LinkDotsWide.default || LinkDotsWide,
+  LinkEditBandBar: LinkEditBandBar.default || LinkEditBandBar,
+  LinkEditBandClip: LinkEditBandClip.default || LinkEditBandClip,
+  LinkEditBandClip2: LinkEditBandClip2.default || LinkEditBandClip2,
+  LinkEditBandNotched: LinkEditBandNotched.default || LinkEditBandNotched,
+  LinkEditBandSlanted: LinkEditBandSlanted.default || LinkEditBandSlanted,
+  LinkEditBar: LinkEditBar.default || LinkEditBar,
+  LinkEditBarFlipped: LinkEditBarFlipped.default || LinkEditBarFlipped,
+  LinkEditBarSmall: LinkEditBarSmall.default || LinkEditBarSmall,
+  LinkEditClip: LinkEditClip.default || LinkEditClip,
+  LinkEditNotched: LinkEditNotched.default || LinkEditNotched,
+  LinkEditRound: LinkEditRound.default || LinkEditRound,
+  LinkEditSlanted: LinkEditSlanted.default || LinkEditSlanted,
+  LinkEditSlim: LinkEditSlim.default || LinkEditSlim,
+  LinkFlat: LinkFlat.default || LinkFlat,
+  LinkImageBracket: LinkImageBracket.default || LinkImageBracket,
+  LinkImageSlanted: LinkImageSlanted.default || LinkImageSlanted,
+  LinkInterlocked: LinkInterlocked.default || LinkInterlocked,
+  LinkMenuBar: LinkMenuBar.default || LinkMenuBar,
+  LinkMenuBracket: LinkMenuBracket.default || LinkMenuBracket,
+  LinkMenuClip: LinkMenuClip.default || LinkMenuClip,
+  LinkMenuCompact: LinkMenuCompact.default || LinkMenuCompact,
+  LinkMenuFlat: LinkMenuFlat.default || LinkMenuFlat,
+  LinkMenuInterlocked: LinkMenuInterlocked.default || LinkMenuInterlocked,
+  LinkMenuNotched: LinkMenuNotched.default || LinkMenuNotched,
+  LinkMenuRound: LinkMenuRound.default || LinkMenuRound,
+  LinkMenuSlanted: LinkMenuSlanted.default || LinkMenuSlanted,
+  LinkMenuSlim: LinkMenuSlim.default || LinkMenuSlim,
+  LinkMenuWide: LinkMenuWide.default || LinkMenuWide,
+  LinkMinusBracket: LinkMinusBracket.default || LinkMinusBracket,
+  LinkMinusCircleBar: LinkMinusCircleBar.default || LinkMinusCircleBar,
+  LinkMinusCircleBracket: LinkMinusCircleBracket.default || LinkMinusCircleBracket,
+  LinkMinusCircleClip: LinkMinusCircleClip.default || LinkMinusCircleClip,
+  LinkMinusCircleNotched: LinkMinusCircleNotched.default || LinkMinusCircleNotched,
+  LinkMinusCircleRound: LinkMinusCircleRound.default || LinkMinusCircleRound,
+  LinkMinusCircleSlanted: LinkMinusCircleSlanted.default || LinkMinusCircleSlanted,
+  LinkMinusClip: LinkMinusClip.default || LinkMinusClip,
+  LinkMinusCompact: LinkMinusCompact.default || LinkMinusCompact,
+  LinkMinusFlat: LinkMinusFlat.default || LinkMinusFlat,
+  LinkMinusInterlocked: LinkMinusInterlocked.default || LinkMinusInterlocked,
+  LinkMinusNotched: LinkMinusNotched.default || LinkMinusNotched,
+  LinkMinusRound: LinkMinusRound.default || LinkMinusRound,
+  LinkMinusSlanted: LinkMinusSlanted.default || LinkMinusSlanted,
+  LinkMinusSlim: LinkMinusSlim.default || LinkMinusSlim,
+  LinkMinusWide: LinkMinusWide.default || LinkMinusWide,
+  LinkNotched: LinkNotched.default || LinkNotched,
+  LinkOffCircle: LinkOffCircle.default || LinkOffCircle,
+  LinkOffClip: LinkOffClip.default || LinkOffClip,
+  LinkOffSquare: LinkOffSquare.default || LinkOffSquare,
   Link: Link.default || Link,
   LinkPlus: LinkPlus.default || LinkPlus,
   LinkBroken: LinkBroken.default || LinkBroken,
@@ -7259,6 +8224,57 @@ module.exports = {
   LinkMenu: LinkMenu.default || LinkMenu,
   LinkMinus: LinkMinus.default || LinkMinus,
   LinkX: LinkX.default || LinkX,
+  LinkPlusBar: LinkPlusBar.default || LinkPlusBar,
+  LinkPlusBracket: LinkPlusBracket.default || LinkPlusBracket,
+  LinkPlusCircleBar: LinkPlusCircleBar.default || LinkPlusCircleBar,
+  LinkPlusCircleBracket: LinkPlusCircleBracket.default || LinkPlusCircleBracket,
+  LinkPlusCircleClip: LinkPlusCircleClip.default || LinkPlusCircleClip,
+  LinkPlusCircleNotched: LinkPlusCircleNotched.default || LinkPlusCircleNotched,
+  LinkPlusCircleRound: LinkPlusCircleRound.default || LinkPlusCircleRound,
+  LinkPlusCircleSlanted: LinkPlusCircleSlanted.default || LinkPlusCircleSlanted,
+  LinkPlusClip: LinkPlusClip.default || LinkPlusClip,
+  LinkPlusCompact: LinkPlusCompact.default || LinkPlusCompact,
+  LinkPlusFlat: LinkPlusFlat.default || LinkPlusFlat,
+  LinkPlusInterlocked: LinkPlusInterlocked.default || LinkPlusInterlocked,
+  LinkPlusNotched: LinkPlusNotched.default || LinkPlusNotched,
+  LinkPlusRound: LinkPlusRound.default || LinkPlusRound,
+  LinkPlusSlanted: LinkPlusSlanted.default || LinkPlusSlanted,
+  LinkPlusSlim: LinkPlusSlim.default || LinkPlusSlim,
+  LinkPlusWide: LinkPlusWide.default || LinkPlusWide,
+  LinkRaysBoxy: LinkRaysBoxy.default || LinkRaysBoxy,
+  LinkRaysFlat: LinkRaysFlat.default || LinkRaysFlat,
+  LinkRaysRound: LinkRaysRound.default || LinkRaysRound,
+  LinkRaysSlim: LinkRaysSlim.default || LinkRaysSlim,
+  LinkRaysVertical: LinkRaysVertical.default || LinkRaysVertical,
+  LinkRound: LinkRound.default || LinkRound,
+  LinkSlanted: LinkSlanted.default || LinkSlanted,
+  LinkSlim: LinkSlim.default || LinkSlim,
+  LinkSplitApart: LinkSplitApart.default || LinkSplitApart,
+  LinkSplitBracket: LinkSplitBracket.default || LinkSplitBracket,
+  LinkSplitCircle: LinkSplitCircle.default || LinkSplitCircle,
+  LinkSplitSlanted: LinkSplitSlanted.default || LinkSplitSlanted,
+  LinkSplitSquare: LinkSplitSquare.default || LinkSplitSquare,
+  LinkSquareClip: LinkSquareClip.default || LinkSquareClip,
+  LinkSquareOpen: LinkSquareOpen.default || LinkSquareOpen,
+  LinkSquareShort: LinkSquareShort.default || LinkSquareShort,
+  LinkSquareSlanted: LinkSquareSlanted.default || LinkSquareSlanted,
+  LinkSquareWide: LinkSquareWide.default || LinkSquareWide,
+  LinkWide: LinkWide.default || LinkWide,
+  LinkXBracket: LinkXBracket.default || LinkXBracket,
+  LinkXCircleBar: LinkXCircleBar.default || LinkXCircleBar,
+  LinkXCircleBracket: LinkXCircleBracket.default || LinkXCircleBracket,
+  LinkXCircleClip: LinkXCircleClip.default || LinkXCircleClip,
+  LinkXCircleNotched: LinkXCircleNotched.default || LinkXCircleNotched,
+  LinkXCircleRound: LinkXCircleRound.default || LinkXCircleRound,
+  LinkXClip: LinkXClip.default || LinkXClip,
+  LinkXCompact: LinkXCompact.default || LinkXCompact,
+  LinkXFlat: LinkXFlat.default || LinkXFlat,
+  LinkXInterlocked: LinkXInterlocked.default || LinkXInterlocked,
+  LinkXNotched: LinkXNotched.default || LinkXNotched,
+  LinkXRound: LinkXRound.default || LinkXRound,
+  LinkXSlanted: LinkXSlanted.default || LinkXSlanted,
+  LinkXSlim: LinkXSlim.default || LinkXSlim,
+  LinkXWide: LinkXWide.default || LinkXWide,
   ListCheckbox: ListCheckbox.default || ListCheckbox,
   ListBullets: ListBullets.default || ListBullets,
   ListBulletsLarge: ListBulletsLarge.default || ListBulletsLarge,
@@ -7404,6 +8420,10 @@ module.exports = {
   SearchExpandB: SearchExpandB.default || SearchExpandB,
   SearchOneToOneC: SearchOneToOneC.default || SearchOneToOneC,
   SearchExpandC: SearchExpandC.default || SearchExpandC,
+  MailLinkBracket: MailLinkBracket.default || MailLinkBracket,
+  MailLinkClip: MailLinkClip.default || MailLinkClip,
+  MailLinkRound: MailLinkRound.default || MailLinkRound,
+  MailLinkSlanted: MailLinkSlanted.default || MailLinkSlanted,
   MailPaperclip: MailPaperclip.default || MailPaperclip,
   MailPaperclipRound: MailPaperclipRound.default || MailPaperclipRound,
   MailPaperclipTilted: MailPaperclipTilted.default || MailPaperclipTilted,
@@ -7416,6 +8436,20 @@ module.exports = {
   MailboxMail: MailboxMail.default || MailboxMail,
   MailboxFlagBare: MailboxFlagBare.default || MailboxFlagBare,
   MailboxFlagWaving: MailboxFlagWaving.default || MailboxFlagWaving,
+  MapPinNodes: MapPinNodes.default || MapPinNodes,
+  Medal: Medal.default || Medal,
+  MedalBanner: MedalBanner.default || MedalBanner,
+  MedalCheck: MedalCheck.default || MedalCheck,
+  MedalCheckHook: MedalCheckHook.default || MedalCheckHook,
+  MedalCheckStrap: MedalCheckStrap.default || MedalCheckStrap,
+  MedalFolded: MedalFolded.default || MedalFolded,
+  MedalHook: MedalHook.default || MedalHook,
+  MedalOne: MedalOne.default || MedalOne,
+  MedalOneHook: MedalOneHook.default || MedalOneHook,
+  MedalOneStrap: MedalOneStrap.default || MedalOneStrap,
+  MedalStarBanner: MedalStarBanner.default || MedalStarBanner,
+  MedalStrap: MedalStrap.default || MedalStrap,
+  MedalStripe: MedalStripe.default || MedalStripe,
   MenuGridDots: MenuGridDots.default || MenuGridDots,
   MenuPanel: MenuPanel.default || MenuPanel,
   MenuPanelChevronLeft: MenuPanelChevronLeft.default || MenuPanelChevronLeft,
@@ -7535,6 +8569,7 @@ module.exports = {
   NewspaperRolled: NewspaperRolled.default || NewspaperRolled,
   NewspaperIsometric: NewspaperIsometric.default || NewspaperIsometric,
   NewspaperPhotoLeft: NewspaperPhotoLeft.default || NewspaperPhotoLeft,
+  NodesTriangleUpright: NodesTriangleUpright.default || NodesTriangleUpright,
   Notebook: Notebook.default || Notebook,
   NotebookDetached: NotebookDetached.default || NotebookDetached,
   NotebookSharp: NotebookSharp.default || NotebookSharp,
@@ -7561,6 +8596,7 @@ module.exports = {
   PaneArrowRightStriped: PaneArrowRightStriped.default || PaneArrowRightStriped,
   PaneArrowRightList: PaneArrowRightList.default || PaneArrowRightList,
   PaneArrowRight: PaneArrowRight.default || PaneArrowRight,
+  OptionKeyCircle: OptionKeyCircle.default || OptionKeyCircle,
   OptionsCheckAsterisk: OptionsCheckAsterisk.default || OptionsCheckAsterisk,
   OptionsCheckCursor: OptionsCheckCursor.default || OptionsCheckCursor,
   OptionsCheckDots: OptionsCheckDots.default || OptionsCheckDots,
@@ -7744,9 +8780,13 @@ module.exports = {
   Plaque: Plaque.default || Plaque,
   PlaqueTight: PlaqueTight.default || PlaqueTight,
   Play: Play.default || Play,
+  PlayCircle: PlayCircle.default || PlayCircle,
   PlaySquare: PlaySquare.default || PlaySquare,
   PlusCirclePointer: PlusCirclePointer.default || PlusCirclePointer,
   PlusCircleStackArc: PlusCircleStackArc.default || PlusCircleStackArc,
+  PlusCircleStackArcLeft: PlusCircleStackArcLeft.default || PlusCircleStackArcLeft,
+  PlusCircleStackArcMinus: PlusCircleStackArcMinus.default || PlusCircleStackArcMinus,
+  PlusSquareDot: PlusSquareDot.default || PlusSquareDot,
   PointerAlertCircle: PointerAlertCircle.default || PointerAlertCircle,
   PointerBanStraight: PointerBanStraight.default || PointerBanStraight,
   PointerCardStraight: PointerCardStraight.default || PointerCardStraight,
@@ -7800,6 +8840,7 @@ module.exports = {
   PopoverUpBig: PopoverUpBig.default || PopoverUpBig,
   PopoverListUp: PopoverListUp.default || PopoverListUp,
   PopoverListUpBig: PopoverListUpBig.default || PopoverListUpBig,
+  PresentationBoard: PresentationBoard.default || PresentationBoard,
   Presentation: Presentation.default || Presentation,
   PresentationFile: PresentationFile.default || PresentationFile,
   PresentationChart: PresentationChart.default || PresentationChart,
@@ -7857,6 +8898,7 @@ module.exports = {
   Rewind: Rewind.default || Rewind,
   RewindCircle: RewindCircle.default || RewindCircle,
   RewindSquare: RewindSquare.default || RewindSquare,
+  Rosette: Rosette.default || Rosette,
   RotateScreen: RotateScreen.default || RotateScreen,
   RotateScreenHome: RotateScreenHome.default || RotateScreenHome,
   RotateScreenBezel: RotateScreenBezel.default || RotateScreenBezel,
@@ -7929,6 +8971,7 @@ module.exports = {
   ScrollTextNarrow: ScrollTextNarrow.default || ScrollTextNarrow,
   ScrollText: ScrollText.default || ScrollText,
   ScrollMedal: ScrollMedal.default || ScrollMedal,
+  SealBanner: SealBanner.default || SealBanner,
   SearchBrackets: SearchBrackets.default || SearchBrackets,
   SearchBracketsC: SearchBracketsC.default || SearchBracketsC,
   SearchCode: SearchCode.default || SearchCode,
@@ -8009,6 +9052,8 @@ module.exports = {
   ArrowUpLeftSquare: ArrowUpLeftSquare.default || ArrowUpLeftSquare,
   ArrowUpRightSquare: ArrowUpRightSquare.default || ArrowUpRightSquare,
   SquareCheckCircle: SquareCheckCircle.default || SquareCheckCircle,
+  SquarePlusLinkClip: SquarePlusLinkClip.default || SquarePlusLinkClip,
+  SquarePlusLinkSlanted: SquarePlusLinkSlanted.default || SquarePlusLinkSlanted,
   SquareStackArrowBend: SquareStackArrowBend.default || SquareStackArrowBend,
   SquareStackArrowRight: SquareStackArrowRight.default || SquareStackArrowRight,
   SquareStackBracketsShadow: SquareStackBracketsShadow.default || SquareStackBracketsShadow,
@@ -8017,6 +9062,9 @@ module.exports = {
   SquareStackImageDashed: SquareStackImageDashed.default || SquareStackImageDashed,
   SquareStackLines: SquareStackLines.default || SquareStackLines,
   SquareStackLinesDashed: SquareStackLinesDashed.default || SquareStackLinesDashed,
+  SquareStackLinkBracket: SquareStackLinkBracket.default || SquareStackLinkBracket,
+  SquareStackLinkClip: SquareStackLinkClip.default || SquareStackLinkClip,
+  SquareStackLinkSlanted: SquareStackLinkSlanted.default || SquareStackLinkSlanted,
   SquareStackLockDashed: SquareStackLockDashed.default || SquareStackLockDashed,
   SquareStackOverlap: SquareStackOverlap.default || SquareStackOverlap,
   SquareStackPaperclip: SquareStackPaperclip.default || SquareStackPaperclip,
@@ -8331,6 +9379,35 @@ module.exports = {
   GearWrench: GearWrench.default || GearWrench,
   WrenchScrewdriverDouble: WrenchScrewdriverDouble.default || WrenchScrewdriverDouble,
   WrenchScrewdriver: WrenchScrewdriver.default || WrenchScrewdriver,
+  Text2DSquare: Text2DSquare.default || Text2DSquare,
+  Text2DSquareSmall: Text2DSquareSmall.default || Text2DSquareSmall,
+  Text3DHexagon: Text3DHexagon.default || Text3DHexagon,
+  Text3DHexagonSmall: Text3DHexagonSmall.default || Text3DHexagonSmall,
+  Text3DSquare: Text3DSquare.default || Text3DSquare,
+  Text3DSquareSmall: Text3DSquareSmall.default || Text3DSquareSmall,
+  Text3DSync: Text3DSync.default || Text3DSync,
+  Text3DSyncChevron: Text3DSyncChevron.default || Text3DSyncChevron,
+  TextACircle: TextACircle.default || TextACircle,
+  TextACircleRound: TextACircleRound.default || TextACircleRound,
+  TextASquare: TextASquare.default || TextASquare,
+  TextASquareRound: TextASquareRound.default || TextASquareRound,
+  TextAaSquare: TextAaSquare.default || TextAaSquare,
+  TextAaSquareBoxy: TextAaSquareBoxy.default || TextAaSquareBoxy,
+  TextAaSquareLarge: TextAaSquareLarge.default || TextAaSquareLarge,
+  TextAaSquareLarge2: TextAaSquareLarge2.default || TextAaSquareLarge2,
+  TextAdCircle: TextAdCircle.default || TextAdCircle,
+  TextAdSquare: TextAdSquare.default || TextAdSquare,
+  TextAdsChat: TextAdsChat.default || TextAdsChat,
+  TextAdsMobile: TextAdsMobile.default || TextAdsMobile,
+  TextAlignCenter: TextAlignCenter.default || TextAlignCenter,
+  TextAlignCenterLarge: TextAlignCenterLarge.default || TextAlignCenterLarge,
+  TextAlignJustify: TextAlignJustify.default || TextAlignJustify,
+  TextAlignJustifyLarge: TextAlignJustifyLarge.default || TextAlignJustifyLarge,
+  TextAlignLeft: TextAlignLeft.default || TextAlignLeft,
+  TextAlignLeftLarge: TextAlignLeftLarge.default || TextAlignLeftLarge,
+  TextAlignRight: TextAlignRight.default || TextAlignRight,
+  TextAlignRightLarge: TextAlignRightLarge.default || TextAlignRightLarge,
+  TextAppCircle: TextAppCircle.default || TextAppCircle,
   TextBold: TextBold.default || TextBold,
   TextBoldSharp: TextBoldSharp.default || TextBoldSharp,
   TextBoldSquare: TextBoldSquare.default || TextBoldSquare,
@@ -8440,6 +9517,13 @@ module.exports = {
   TrayStackCheck: TrayStackCheck.default || TrayStackCheck,
   TrayStackMinus: TrayStackMinus.default || TrayStackMinus,
   TrayStackX: TrayStackX.default || TrayStackX,
+  TriangleDownCircle: TriangleDownCircle.default || TriangleDownCircle,
+  TriangleDownLeftCircle: TriangleDownLeftCircle.default || TriangleDownLeftCircle,
+  TriangleDownRightCircle: TriangleDownRightCircle.default || TriangleDownRightCircle,
+  TriangleLeftCircle: TriangleLeftCircle.default || TriangleLeftCircle,
+  TriangleLeftTiltedCircle: TriangleLeftTiltedCircle.default || TriangleLeftTiltedCircle,
+  TriangleRightTiltedCircle: TriangleRightTiltedCircle.default || TriangleRightTiltedCircle,
+  TriangleUpCircle: TriangleUpCircle.default || TriangleUpCircle,
   Trophy: Trophy.default || Trophy,
   TrophyCircle: TrophyCircle.default || TrophyCircle,
   TrophyPointed: TrophyPointed.default || TrophyPointed,
@@ -8607,6 +9691,8 @@ module.exports = {
   DockTop: DockTop.default || DockTop,
   DockVertical: DockVertical.default || DockVertical,
   WindowEditPlain: WindowEditPlain.default || WindowEditPlain,
+  WindowLink: WindowLink.default || WindowLink,
+  WindowLinkPlain: WindowLinkPlain.default || WindowLinkPlain,
   WindowListPlain: WindowListPlain.default || WindowListPlain,
   WindowLockPlain: WindowLockPlain.default || WindowLockPlain,
   WindowModalTitled: WindowModalTitled.default || WindowModalTitled,

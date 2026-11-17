@@ -1,0 +1,37 @@
+{
+  "name": "ArrowLeftCircleJoined",
+  "displayName": "Arrow left circle joined",
+  "description": "Circle whose line curls inward into an arrow pointing left.",
+  "tags": [
+    "arrow",
+    "left",
+    "west",
+    "back",
+    "circle",
+    "joined",
+    "continuous",
+    "loop",
+    "return"
+  ],
+  "categories": [
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Arrow left"
+  },
+  "filename": "arrow-left-circle-joined",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}
