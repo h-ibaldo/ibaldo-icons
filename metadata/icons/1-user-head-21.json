@@ -1,23 +1,24 @@
 {
-  "name": "UserHead21",
-  "description": "A user profile head icon representing a person, variant 21 in the user head series",
+  "name": "UserHeadTexturedShort",
+  "description": "Head outline with no face details and short textured hair drawn as radiating strokes.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "face",
-    "variant 21"
+    "person",
+    "head",
+    "hairstyle",
+    "textured-hair",
+    "coily",
+    "short-hair"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-21",
   "technical": {
@@ -30,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User head, textured short",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

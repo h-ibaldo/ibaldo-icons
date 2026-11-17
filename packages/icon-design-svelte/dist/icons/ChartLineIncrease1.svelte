@@ -24,5 +24,6 @@
   {...$$restProps}
 >
   <polyline points="2 2 2 22 22 22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="6 17 12 10 16 14 22 7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="6 16 12 10 15 13 22 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="22 10 22 6 18 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

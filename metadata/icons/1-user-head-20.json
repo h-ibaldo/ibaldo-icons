@@ -1,22 +1,24 @@
 {
-  "name": "UserHead20",
-  "description": "A user profile head icon with variant 20 styling for personal identification",
+  "name": "UserHeadTexturedMid",
+  "description": "Head outline with no face details and mid-length textured hair drawn as radiating strokes.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "identity"
+    "person",
+    "head",
+    "hairstyle",
+    "textured-hair",
+    "coily",
+    "mid-length"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-20",
   "technical": {
@@ -29,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User head, textured mid",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

@@ -1,0 +1,34 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const PageViewBadgeAlt = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M9.99999999360989,21.998779299956368H3.999999993599886c-1.104569499660101,0-2-.895430500338989-2-2V3.998779299956368c0-1.104569499661011.895430500339899-2,2-2h16c1.104569499660101,0,2,.895430500338989,2,2v6" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="1.999999993599886" y1="7.998779299956368" x2="21.999999993599886" y2="7.998779299956368" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polygon points="20.666687005330459 18.332092288237618 21.99999999360989 16.998779299956368 20.666687005330459 15.665466311675118 20.666687005330459 13.332092288237618 18.333312981890231 13.332092288237618 16.99999999360989 11.998779299956368 15.666687005330459 13.332092288237618 13.333312981890231 13.332092288237618 13.333312981890231 15.665466311675118 11.99999999360989 16.998779299956368 13.333312981890231 18.332092288237618 13.333312981890231 20.665466311675118 15.666687005330459 20.665466311675118 16.99999999360989 21.998779299956368 18.333312981890231 20.665466311675118 20.666687005330459 20.665466311675118 20.666687005330459 18.332092288237618" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+PageViewBadgeAlt.displayName = 'PageViewBadgeAlt';
+
+module.exports = PageViewBadgeAlt;
+module.exports.PageViewBadgeAlt = PageViewBadgeAlt;
+module.exports.default = PageViewBadgeAlt;

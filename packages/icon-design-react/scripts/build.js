@@ -228,62 +228,19 @@ async function build() {
   fs.mkdirSync(CJS_ICONS_DIR, { recursive: true });
   fs.mkdirSync(path.join(DIST_DIR, 'icons'), { recursive: true });
 
-  // Get SVG files from multiple sources
-  const svgFiles = [];
-  let srcIconsCount = 0;
-  let optimizedIconsCount = 0;
+  // Names come from metadata/icons/ via the shared module, so the package
+  // uses exactly the same names as the website (see NAMING-GUIDE.md).
+  const { loadIconNames } = require('../../../scripts/utils/icon-names.cjs');
+  const { icons } = loadIconNames();
+  console.log(`📁 Found ${icons.length} icons in static/icons/optimized/\n`);
 
-  // 1. New icons from src/icons/raw/ (direct source)
-  if (fs.existsSync(SRC_ICONS_DIR)) {
-    const srcIcons = getAllSVGFiles(SRC_ICONS_DIR);
-    svgFiles.push(...srcIcons);
-    srcIconsCount = srcIcons.length;
-    console.log(`📁 Found ${srcIcons.length} icons in src/icons/raw/`);
-  }
-
-  // 2. Processed new icons from static/icons/optimized/
-  if (fs.existsSync(OPTIMIZED_ICONS_DIR)) {
-    const optimizedIcons = getAllSVGFiles(OPTIMIZED_ICONS_DIR);
-    svgFiles.push(...optimizedIcons);
-    optimizedIconsCount = optimizedIcons.length;
-    console.log(`📁 Found ${optimizedIcons.length} icons in static/icons/optimized/`);
-  }
-
-  // 3. Legacy icons from static/icons/ (excluding optimized and test folders)
-  if (fs.existsSync(STATIC_ICONS_DIR)) {
-    const legacyDirs = fs.readdirSync(STATIC_ICONS_DIR)
-      .filter(item => {
-        const fullPath = path.join(STATIC_ICONS_DIR, item);
-        return fs.statSync(fullPath).isDirectory() &&
-               item !== 'optimized' &&
-               !item.startsWith('test-') &&
-               !item.startsWith('.');
-      });
-
-    for (const dir of legacyDirs) {
-      const legacyIcons = getAllSVGFiles(path.join(STATIC_ICONS_DIR, dir));
-      svgFiles.push(...legacyIcons);
-    }
-    console.log(`📁 Found ${svgFiles.length - srcIconsCount - optimizedIconsCount} legacy icons`);
-  }
-
-  console.log(`📁 Total: ${svgFiles.length} SVG files\n`);
-  
   const components = [];
-  const componentNameCounts = {};
-  
-  for (const svgPath of svgFiles) {
+
+  for (const icon of icons) {
+    const svgPath = icon.file;
     const filename = path.basename(svgPath);
-    let componentName = toComponentName(filename);
-    
-    // Handle duplicate component names by adding a suffix
-    if (componentNameCounts[componentName]) {
-      componentNameCounts[componentName]++;
-      componentName = `${componentName}${componentNameCounts[componentName]}`;
-    } else {
-      componentNameCounts[componentName] = 1;
-    }
-    
+    const componentName = icon.name;
+
     // Read and parse SVG
     const svgContent = fs.readFileSync(svgPath, 'utf-8');
     const svgData = parseSVG(svgContent);
@@ -377,10 +334,10 @@ ${components.map(c => `  ${c.name}: ${c.name}.default || ${c.name},`).join('\n')
   
   // Print some example usage
   console.log('📖 Example usage:\n');
-  console.log('   import { UserHead1 } from "@icon-design/react";');
+  console.log('   import { UserFaceTopKnot } from "@icon-design/react";');
   console.log('   // or');
-  console.log('   import UserHead1 from "@icon-design/react/icons/UserHead1";\n');
-  console.log('   <UserHead1 size={32} color="#333" strokeWidth={2} />\n');
+  console.log('   import UserFaceTopKnot from "@icon-design/react/icons/UserFaceTopKnot";\n');
+  console.log('   <UserFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
 }
 
 build().catch(console.error);

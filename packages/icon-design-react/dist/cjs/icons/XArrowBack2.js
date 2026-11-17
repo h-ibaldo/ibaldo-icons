@@ -1,0 +1,35 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const XArrowBack2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<line x1="1.999999990799552" y1="15.000000000446562" x2="11.999999990799552" y2="5.000000000446562" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.999999990799552" y1="15.000000000446562" x2="1.999999990799552" y2="5.000000000446562" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="16.999999990799552 13.000000000446562 13.999999990799552 10.000000000446562 16.999999990799552 7.000000000446562" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M12.999999990799552,20.000000000446562h4.000004999281373c2.761420987728343.000000000001819,4.999994999998307-2.238574012266326,4.999994999998307-4.99999499999376v-.000010000000657c0-2.761420987720157-2.238574012259051-4.999994999987393-4.999994999980117-4.999994999998307l-2.000005000019883-.000000000007276" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+XArrowBack2.displayName = 'XArrowBack2';
+
+module.exports = XArrowBack2;
+module.exports.XArrowBack2 = XArrowBack2;
+module.exports.default = XArrowBack2;

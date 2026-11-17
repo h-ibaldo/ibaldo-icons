@@ -1,5 +1,5 @@
 {
-  "name": "BookmarkOne",
+  "name": "BookmarkNumberOne",
   "description": "A bookmark icon with the numeral one marking first or primary saved content",
   "tags": [
     "bookmark",
@@ -29,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark number one",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:22:05.539Z"
 }

@@ -1,22 +1,24 @@
 {
-  "name": "UserPerson7",
-  "description": "A user profile icon representing a single person in variant 7 style",
+  "name": "UserFaceLongBangs",
+  "description": "Face with eyes and long straight hair with full blunt bangs.",
   "tags": [
     "user",
-    "person",
-    "profile",
     "avatar",
+    "profile",
     "account",
-    "people",
-    "identity"
+    "person",
+    "face",
+    "hairstyle",
+    "long-hair",
+    "bangs",
+    "fringe"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-7",
   "technical": {
@@ -29,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User face, long bangs",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

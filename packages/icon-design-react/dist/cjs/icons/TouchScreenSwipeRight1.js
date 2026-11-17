@@ -14,7 +14,7 @@ const TouchScreenSwipeRight1 = forwardRef(({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
-    viewBox: "0 0 24 24.000000000001819",
+    viewBox: "0 0 24 24",
     fill: "none",
     stroke: color,
     strokeWidth,
@@ -22,9 +22,12 @@ const TouchScreenSwipeRight1 = forwardRef(({
     strokeLinejoin: "round",
     className: `icon-design ${className}`.trim(),
     ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="17.075805664055224 8.998782737457077 20.075805663656865 11.998782737860893 17.075805663256688 14.998782737457077" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="12.075805663656865" y1="11.998782736780413" x2="20.075805663656865" y2="11.998782737860893" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <circle cx="8.075805663656411" cy="11.998782736241992" r="4.000000000000227" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="17.025268544746723 2.998779304674827 20.025268544335631 5.998779305078642 17.025268543935454 8.998779304674827" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.025268544335631" y1="5.9987793040018" x2="20.025268544335631" y2="5.998779305078642" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="8.025268544333358" cy="5.99877930346338" r="4.000000000001137" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="17.025268544746723 14.998779304674827 20.025268544335631 17.998779305078642 17.025268543935454 20.998779304674827" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.025268544335631" y1="17.9987793040018" x2="20.025268544335631" y2="17.998779305078642" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="8.025268544333358" cy="17.99877930346338" r="4.000000000001137" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
 ));
 
 TouchScreenSwipeRight1.displayName = 'TouchScreenSwipeRight1';

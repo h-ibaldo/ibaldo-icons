@@ -1,22 +1,24 @@
 {
-  "name": "User18",
-  "description": "A user person icon variant 18 representing individual profile or account identity",
+  "name": "UserFaceTexturedMid",
+  "description": "Face with eyes and mid-length textured hair drawn as radiating strokes.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "people",
-    "avatar",
-    "identity"
+    "person",
+    "face",
+    "hairstyle",
+    "textured-hair",
+    "coily",
+    "mid-length"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-18",
   "technical": {
@@ -29,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User face, textured mid",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

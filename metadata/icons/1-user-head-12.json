@@ -1,22 +1,24 @@
 {
-  "name": "UserHead12",
-  "description": "A user profile head icon with variant 12 styling for personal identification",
+  "name": "UserHeadCurlyBob",
+  "description": "Head outline with no face details and a short curly bob.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "identity"
+    "person",
+    "head",
+    "hairstyle",
+    "bob",
+    "curly-hair",
+    "curls"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-12",
   "technical": {
@@ -29,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User head, curly bob",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

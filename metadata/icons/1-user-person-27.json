@@ -1,23 +1,23 @@
 {
-  "name": "User27",
-  "description": "A user or person icon representing an individual profile or account, variant 27",
+  "name": "UserFaceShortFringe",
+  "description": "Face with eyes and short hair with a soft wavy fringe.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "people",
-    "avatar",
-    "identity",
-    "individual"
+    "person",
+    "face",
+    "hairstyle",
+    "short-hair",
+    "fringe"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-27",
   "technical": {
@@ -30,5 +30,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User face, short fringe",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

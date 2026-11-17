@@ -1,22 +1,24 @@
 {
-  "name": "UserPerson14",
-  "description": "A user person icon representing a full-body individual profile, variant 14",
+  "name": "UserFaceCurly",
+  "description": "Face with eyes and voluminous curly hair.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "avatar",
-    "full body",
-    "variant 14"
+    "person",
+    "face",
+    "hairstyle",
+    "curly-hair",
+    "curls",
+    "volume"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User person icon"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-14",
   "technical": {
@@ -29,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User face, curly",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

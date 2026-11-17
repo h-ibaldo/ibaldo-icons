@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3UploadAlt2",
+  "name": "Cloud3UploadOpen",
   "description": "A second alternate variation of the cloud upload icon with distinct styling options",
   "tags": [
     "cloud",
@@ -31,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud 3 upload open",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:22:05.539Z"
 }

@@ -1,25 +1,25 @@
 {
-  "name": "User10",
-  "displayName": "User 10",
+  "name": "UserHeadShoulderSidePart",
+  "displayName": "User head, shoulder side part",
   "originalTitle": "1 User Head 10",
-  "description": "User profile icon variant representing a person or account holder. Used for user identification, profile management, and personal account features.",
+  "description": "Head outline with no face details and shoulder-length hair with a side part.",
   "tags": [
     "user",
-    "profile",
-    "person",
-    "account",
-    "individual",
     "avatar",
+    "profile",
+    "account",
+    "person",
     "head",
-    "variant"
+    "hairstyle",
+    "shoulder-length",
+    "side-part"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User account"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-10",
   "technical": {
@@ -33,5 +33,7 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.765Z"
+  "generatedAt": "2026-02-15T00:53:19.765Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

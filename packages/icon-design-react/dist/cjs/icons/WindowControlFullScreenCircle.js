@@ -2,7 +2,7 @@
 
 const { forwardRef } = require('react');
 
-const WindowControlFullScreenCircle = forwardRef(({
+const WindowControlFullscreenCircle = forwardRef(({
   color = 'currentColor',
   size = 24,
   strokeWidth = 1.5,
@@ -27,8 +27,8 @@ const WindowControlFullScreenCircle = forwardRef(({
   <polyline points="16.000000002980414 11.998779299186936 16.000000002980414 15.998779299186936 12.000000002980414 15.998779299186936" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
 ));
 
-WindowControlFullScreenCircle.displayName = 'WindowControlFullScreenCircle';
+WindowControlFullscreenCircle.displayName = 'WindowControlFullscreenCircle';
 
-module.exports = WindowControlFullScreenCircle;
-module.exports.WindowControlFullScreenCircle = WindowControlFullScreenCircle;
-module.exports.default = WindowControlFullScreenCircle;
+module.exports = WindowControlFullscreenCircle;
+module.exports.WindowControlFullscreenCircle = WindowControlFullscreenCircle;
+module.exports.default = WindowControlFullscreenCircle;

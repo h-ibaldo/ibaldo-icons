@@ -1,0 +1,34 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const TabCheckVerified = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M8.025268532079281,1.998779305074095h8.558125457540882c.911351166329041,0,1.773289868140637.414269157099625,2.342606428330328,1.125914857337193l2.441874542459118,3.052343178074807c.425551315509438.531939144388161.657393571669672,1.192870657007006.657393571669672,1.874085142662807v.947656821925193" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M20.025268532079281,21.998779305074095H4.025268532079281c-1.104569499659192,0-2-.895430500338989-2-2V3.998779305074095c0-1.104569499661011.895430500340808-2,2-2h3.558125457540882c.911351166329041,0,1.773289868140637.414269157099625,2.342606428330328,1.125914857337193l2.198536228250305,2.748170285325614c.569316560198786.711645700237568,1.431255262008563,1.125914857337193,2.342606428339423,1.125914857337193h5.558125457539063c1.104569499661011,0,2,.895430500338989,2,2v11c0,1.104569499661011-.895430500338989,2-2,2Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="8.025268532079281 13.99877930112325 11.025268532079281 16.99877930112325 16.025268532079281 11.99877930112325" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+TabCheckVerified.displayName = 'TabCheckVerified';
+
+module.exports = TabCheckVerified;
+module.exports.TabCheckVerified = TabCheckVerified;
+module.exports.default = TabCheckVerified;

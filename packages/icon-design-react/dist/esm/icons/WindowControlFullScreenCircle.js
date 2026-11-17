@@ -1,6 +1,6 @@
 import { forwardRef } from 'react';
 
-const WindowControlFullScreenCircle = forwardRef(({
+const WindowControlFullscreenCircle = forwardRef(({
   color = 'currentColor',
   size = 24,
   strokeWidth = 1.5,
@@ -27,7 +27,7 @@ const WindowControlFullScreenCircle = forwardRef(({
   </svg>
 ));
 
-WindowControlFullScreenCircle.displayName = 'WindowControlFullScreenCircle';
+WindowControlFullscreenCircle.displayName = 'WindowControlFullscreenCircle';
 
-export default WindowControlFullScreenCircle;
-export { WindowControlFullScreenCircle };
+export default WindowControlFullscreenCircle;
+export { WindowControlFullscreenCircle };

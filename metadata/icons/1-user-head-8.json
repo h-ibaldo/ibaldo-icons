@@ -1,22 +1,24 @@
 {
-  "name": "UserHead8",
-  "description": "A user head icon representing a single person profile, variant 8",
+  "name": "UserHeadBluntBob",
+  "description": "Head outline with no face details and a square, blunt-cut bob with bangs.",
   "tags": [
     "user",
-    "head",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "avatar",
-    "variant 8"
+    "person",
+    "head",
+    "hairstyle",
+    "bob",
+    "blunt-cut",
+    "bangs"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User head icon"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-8",
   "technical": {
@@ -29,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User head, blunt bob",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

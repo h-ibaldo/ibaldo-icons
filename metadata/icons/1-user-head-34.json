@@ -1,22 +1,24 @@
 {
-  "name": "UserHead349",
-  "description": "A user head profile icon representing a person, variant 34 of the user head series",
+  "name": "UserHeadAfro",
+  "description": "Head outline with no face details and a round afro.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "people"
+    "person",
+    "head",
+    "hairstyle",
+    "afro",
+    "curly-hair",
+    "volume"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-34",
   "technical": {
@@ -29,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User head, afro",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

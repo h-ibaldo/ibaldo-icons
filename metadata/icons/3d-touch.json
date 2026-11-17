@@ -1,5 +1,5 @@
 {
-  "name": "3DTouch",
+  "name": "ForceTouch",
   "description": "A three-dimensional touch interaction icon representing haptic feedback or pressure-sensitive input",
   "tags": [
     "3d",
@@ -30,5 +30,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Force touch",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:22:05.539Z"
 }

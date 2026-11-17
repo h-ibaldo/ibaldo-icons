@@ -147,25 +147,19 @@ async function build() {
   
   fs.mkdirSync(ICONS_DIST_DIR, { recursive: true });
   
-  // Get all SVG files
-  const svgFiles = getAllSVGFiles(ICONS_DIR);
-  console.log(`📁 Found ${svgFiles.length} SVG files\n`);
-  
+  // Names come from metadata/icons/ via the shared module, so the package
+  // uses exactly the same names as the website (see NAMING-GUIDE.md).
+  const { loadIconNames } = require('../../../scripts/utils/icon-names.cjs');
+  const { icons } = loadIconNames();
+  console.log(`📁 Found ${icons.length} icons in static/icons/optimized/\n`);
+
   const components = [];
-  const componentNameCounts = {};
-  
-  for (const svgPath of svgFiles) {
+
+  for (const icon of icons) {
+    const svgPath = icon.file;
     const filename = path.basename(svgPath);
-    let componentName = toComponentName(filename);
-    
-    // Handle duplicate component names by adding a suffix
-    if (componentNameCounts[componentName]) {
-      componentNameCounts[componentName]++;
-      componentName = `${componentName}${componentNameCounts[componentName]}`;
-    } else {
-      componentNameCounts[componentName] = 1;
-    }
-    
+    const componentName = icon.name;
+
     // Read and parse SVG
     const svgContent = fs.readFileSync(svgPath, 'utf-8');
     const svgData = parseSVG(svgContent);
@@ -220,10 +214,10 @@ async function build() {
   
   // Print some example usage
   console.log('📖 Example usage:\n');
-  console.log('   import { UserHead1 } from "@icon-design/svelte";');
+  console.log('   import { UserFaceTopKnot } from "@icon-design/svelte";');
   console.log('   // or');
-  console.log('   import UserHead1 from "@icon-design/svelte/icons/UserHead1.svelte";\n');
-  console.log('   <UserHead1 size={32} color="#333" strokeWidth={2} />\n');
+  console.log('   import UserFaceTopKnot from "@icon-design/svelte/icons/UserFaceTopKnot.svelte";\n');
+  console.log('   <UserFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
 }
 
 build().catch(console.error);

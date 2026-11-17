@@ -1,0 +1,44 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const Cloud3Gear = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<g>
+  <circle cx="11.999999999986812" cy="16.99999997349596" r="3.500000000002119" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.999999999992724" y1="16.989999973497106" x2="11.999999999992724" y2="16.999999973497324" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="10.106756913282879" y1="12.372297453388455" x2="10.674729839291103" y2="13.760608209408019" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="13.325270160681612" y1="20.239391737577535" x2="13.893243086702569" y2="21.627702493598917" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="16.627702520101593" y1="15.106756886788389" x2="15.23939176406202" y2="15.674729812799342" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.760608235912514" y1="18.325270134198945" x2="7.372297479882036" y2="18.893243060207169" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="16.611004858361412" y1="18.933554781628118" x2="15.227703400851169" y2="18.353488339187606" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.772296599121546" y1="15.646511607797947" x2="7.388995141611304" y2="15.06644516536835" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="10.066445191861931" y1="21.611004831867831" x2="10.646511634302442" y2="20.227703374359407" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="13.353488365683006" y1="13.772296572627965" x2="13.933554808121698" y2="12.388995115117723" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>
+  <path d="M19.999999999992724,16.977416965688462c1.207763671869543-.91271972658069,2-2.346862792979664,2-3.977416992191138,0-2.44482421875-1.757080078130457-4.47235107421875-4.07568359375-4.906860351558862-.438232421880457-2.882202148441138-2.919677734380457-5.093139648441138-5.92431640625-5.093139648441138-3.004638671880457,0-5.486083984380457,2.2109375-5.92431640625,5.093139648441138-2.318603515630457.434509277340112-4.07568359375,2.462036132808862-4.07568359375,4.906860351558862,0,1.630554199211474.792236328119543,3.064697265610448,2,3.977416992191138" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+Cloud3Gear.displayName = 'Cloud3Gear';
+
+module.exports = Cloud3Gear;
+module.exports.Cloud3Gear = Cloud3Gear;
+module.exports.default = Cloud3Gear;

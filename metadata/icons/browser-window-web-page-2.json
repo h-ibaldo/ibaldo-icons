@@ -1,5 +1,5 @@
 {
-  "name": "BrowserWindowWeb2",
+  "name": "BrowserWindowSidebar",
   "description": "A second variant of browser window with web page display and internet content features",
   "tags": [
     "browser",
@@ -29,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser window sidebar",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:22:05.539Z"
 }

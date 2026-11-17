@@ -21,9 +21,12 @@ const TouchScreenSwipeLeft12 = forwardRef(({
     className={`icon-design ${className}`.trim()}
     {...props}
   >
-    <polyline points="7.025268549024986 14.99878273937793 4.025268549155953 11.998782739243325 7.02526854928692 8.99878273937793" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="12.025268549155953" y1="11.998782739603485" x2="4.025268549155953" y2="11.998782739243325" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <circle cx="16.025268549153679" cy="11.998782739781745" r="3.999999999998863" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+    <polyline points="6.974731433976558 2.998779304765776 3.974731434245768 5.998779305034986 6.974731434516798 8.998779304765776" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.974731434245768" y1="5.998779304314667" x2="3.974731434245768" y2="5.998779305034986" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="15.974731434245768" cy="5.998779303955416" r="4.000000000000455" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="6.974731433436318 14.998779304765776 3.974731433706438 17.998779305034986 6.974731433976558 20.998779304765776" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.974731433706438" y1="17.998779304314667" x2="3.974731433706438" y2="17.998779305034986" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="15.974731433705983" cy="17.998779303955416" r="4.000000000000227" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
   </svg>
 ));
 

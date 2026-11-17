@@ -1,0 +1,35 @@
+import { forwardRef } from 'react';
+
+const SystemDiagnosticStethoscopeAlt = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M4.974731457399685,3.000000004136382l-1.219176211089689.609588105537114c-1.519483919960294.759741959987878-2.105536532640144,2.628438530984567-1.292045932240399,4.11983796504137l3.553518839660683,6.514784539383982c.590374743140273,1.08235369574686,1.724805582189219,1.755789390037535,2.957701303659633,1.755789390037535h.000003999999535c1.232895721470413,0,2.367326560520269-.673435694290674,2.957701303660542-1.755789390037535l3.553518839659773-6.514784539383982c.813490600399746-1.491399434056802.227437987739904-3.360096005053492-1.292045932239489-4.11983796504137l-1.219176211070589-.609588105537114" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="4.974731457399685" cy="3.000000004136382" r="1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="12.974731457399685" cy="3.000000004136382" r="1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M8.974731457399685,16.000000004136382l-.000000003739842.999999981373549c-.000000010280019,2.761423756426666,2.23857624358061,5.000000018626451,5,5.000000018626451h1.00000000621003c2.76142375399013,0,5.00000000684031-2.23857625839446,5-5.000000012387318l-.000000002470188-.999999987612682" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="19.974731457399685" cy="14.000000004136382" r="2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+SystemDiagnosticStethoscopeAlt.displayName = 'SystemDiagnosticStethoscopeAlt';
+
+export default SystemDiagnosticStethoscopeAlt;
+export { SystemDiagnosticStethoscopeAlt };

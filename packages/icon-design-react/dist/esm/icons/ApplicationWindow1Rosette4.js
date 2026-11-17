@@ -1,0 +1,37 @@
+import { forwardRef } from 'react';
+
+const ApplicationWindow1Rosette4 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M22.000000000184627,7.000000000448381v-3c0-1.10456949966192-.895430500338989-2-2-2H4.000000000184627c-1.104569499661011,0-2,.89543050033808-2,2v16c0,1.10456949966283.895430500338989,2,2,2h7" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="2.000000000184627" y1="8.000000000448381" x2="12.000000000184627" y2="8.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polygon points="17.500000000184627 9.971922785605784 19.363961030862811 9.0000000004502 19.994727323347433 11.005272677283756 22.000000000184627 11.636038969768379 21.028077215026315 13.500000000446562 22.000000000184627 15.363961031124745 19.994727323347433 15.994727323609368 19.363961030862811 18.000000000446562 17.500000000184627 17.028077215288249 15.636038969510992 18.000000000446562 15.00527267702364 15.994727323609368 13.000000000184627 15.363961031124745 13.971922785344759 13.500000000446562 13.000000000184627 11.636038969768379 15.00527267702364 11.005272677283756 15.636038969510992 9.0000000004502 17.500000000184627 9.971922785605784" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="15.005249023621218 15.99475097701179 15.000000000184627 15.993103027792131 15.000000000184627 22.000000000448381 17.500000000184627 21.000000000448381 20.000000000184627 22.000000000448381 20.000000000184627 15.993103027792131 19.994750976746218 15.99475097701179" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.010000000184846" y1="5.000000000448381" x2="5.000000000184627" y2="5.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.010000000184846" y1="5.000000000448381" x2="8.000000000184627" y2="5.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.010000000184846" y1="5.000000000448381" x2="11.000000000184627" y2="5.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+ApplicationWindow1Rosette4.displayName = 'ApplicationWindow1Rosette4';
+
+export default ApplicationWindow1Rosette4;
+export { ApplicationWindow1Rosette4 };

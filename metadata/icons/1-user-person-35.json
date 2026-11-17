@@ -1,22 +1,23 @@
 {
-  "name": "UserPerson35",
-  "description": "A user profile icon representing a single person in variant 35 style",
+  "name": "UserFaceSpikySide",
+  "description": "Face with eyes and hair with sharp spikes pointing to one side.",
   "tags": [
     "user",
-    "person",
-    "profile",
     "avatar",
+    "profile",
     "account",
-    "people",
-    "identity"
+    "person",
+    "face",
+    "hairstyle",
+    "spiky-hair",
+    "side-swept"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-35",
   "technical": {
@@ -29,5 +30,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User face, spiky side",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

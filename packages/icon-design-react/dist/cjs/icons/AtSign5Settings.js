@@ -1,0 +1,40 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const AtSign5Settings = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M15.974731450043691,11.999999998589374l-4.000003679811016.000000001427907c-1.10456948493902.000000000393811-1.999999974056664.895430487171325-1.99999997733903,1.999999972113073l-.00000001026001,1.000000033559445c-.0000000159298,1.104569493993949.895430477299669,1.999999994310201,1.999999971239049,1.999999994412974l1.000002897058948.000000000090949c1.656853207140557.000000000153705,2.999998772561412-1.343143790679278,3.000000799112058-2.999996999717951v-.000003000001925" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="17.974731450043691" y1="22.000000000473847" x2="12.974731450043691" y2="22.000000000473847" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M15.974731450043691,13.999999981156179v1c0,1.10456949966192.895430500338989,2,2,2h1c1.104569499660101,0,2-.89543050033808,2-2v-1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M10.974731450043691,7.999999745495188l2.999996522079527.000000016762897c1.104569589188941-.000000001576154,2.000000131849447.895430629710063,2.000000020940206,2.000000218898094l-.000000602440196,5.000000342442945" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="3.000000005029506" y1="2.010000000444961" x2="3.000000005029506" y2="2.000000000444743" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="2.974731450043691" y1="6.01000000046497" x2="2.974731450043691" y2="6.000000000464752" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="2.974731450043691" y1="10.01000000046497" x2="2.974731450043691" y2="10.000000000464752" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M20.974731450043691,14.000000000473847v-6c0-3.313720703125-2.686279296870453-6-6-6h-4c-1.538940429682043,0-2.93798828125.584289550782159-4,1.53680419921875" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M4.974731450043691,14.000000000473847v2c0,3.313720703125,2.686279296879547,6,6,6h2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+AtSign5Settings.displayName = 'AtSign5Settings';
+
+module.exports = AtSign5Settings;
+module.exports.AtSign5Settings = AtSign5Settings;
+module.exports.default = AtSign5Settings;

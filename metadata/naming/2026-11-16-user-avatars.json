@@ -1,0 +1,1682 @@
+{
+  "1-user-head-1": {
+    "name": "UserHeadLongCenterPart",
+    "displayName": "User head, long center part",
+    "description": "Head outline with no face details and long straight hair parted in the center.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "long-hair",
+      "straight-hair",
+      "center-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-2": {
+    "name": "UserHeadShoulderCenterPart",
+    "displayName": "User head, shoulder center part",
+    "description": "Head outline with no face details and shoulder-length hair parted in the center.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "shoulder-length",
+      "center-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-3": {
+    "name": "UserHeadSideBangs",
+    "displayName": "User head, side bangs",
+    "description": "Head outline with no face details and shoulder-length hair with bangs swept to one side.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "shoulder-length",
+      "side-bangs",
+      "fringe"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-4": {
+    "name": "UserHeadShoulderCenterPart2",
+    "displayName": "User head, shoulder center part 2",
+    "description": "Head outline with no face details and shoulder-length hair parted in the center, with a straight hem.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "shoulder-length",
+      "center-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-5": {
+    "name": "UserHeadFlippedEnds",
+    "displayName": "User head, flipped ends",
+    "description": "Head outline with no face details and shoulder-length hair with ends flipped outward.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "shoulder-length",
+      "flipped-hair",
+      "side-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-6": {
+    "name": "UserHeadWavyBob",
+    "displayName": "User head, wavy bob",
+    "description": "Head outline with no face details and a short wavy bob parted in the center.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "bob",
+      "wavy-hair",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-7": {
+    "name": "UserHeadBobBangs",
+    "displayName": "User head, bob bangs",
+    "description": "Head outline with no face details and a rounded bob with blunt bangs.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "bob",
+      "bangs",
+      "fringe"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-8": {
+    "name": "UserHeadBluntBob",
+    "displayName": "User head, blunt bob",
+    "description": "Head outline with no face details and a square, blunt-cut bob with bangs.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "bob",
+      "blunt-cut",
+      "bangs"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-10": {
+    "name": "UserHeadShoulderSidePart",
+    "displayName": "User head, shoulder side part",
+    "description": "Head outline with no face details and shoulder-length hair with a side part.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "shoulder-length",
+      "side-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-11": {
+    "name": "UserHeadSidePartBob",
+    "displayName": "User head, side part bob",
+    "description": "Head outline with no face details and a bob with a deep side part.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "bob",
+      "side-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-12": {
+    "name": "UserHeadCurlyBob",
+    "displayName": "User head, curly bob",
+    "description": "Head outline with no face details and a short curly bob.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "bob",
+      "curly-hair",
+      "curls"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-13": {
+    "name": "UserHeadPompadour",
+    "displayName": "User head, pompadour",
+    "description": "Head outline with no face details and short hair with a tall swept-back pompadour.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "short-hair",
+      "pompadour",
+      "quiff"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-14": {
+    "name": "UserHeadCurlyTop",
+    "displayName": "User head, curly top",
+    "description": "Head outline with no face details and short sides and curly hair on top.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "short-hair",
+      "curly-hair",
+      "curls"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-15": {
+    "name": "UserHeadRoundCenterPart",
+    "displayName": "User head, round center part",
+    "description": "Head outline with no face details and rounded, voluminous hair parted in the center.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "rounded-hair",
+      "center-part",
+      "volume"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-16": {
+    "name": "UserHeadCurly",
+    "displayName": "User head, curly",
+    "description": "Head outline with no face details and voluminous curly hair.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "curly-hair",
+      "curls",
+      "volume"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-17": {
+    "name": "UserHeadSweptBangs",
+    "displayName": "User head, swept bangs",
+    "description": "Head outline with no face details and rounded mid-length hair with straight bangs swept to one side.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "mid-length",
+      "side-bangs",
+      "fringe"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-18": {
+    "name": "UserHeadLongTextured",
+    "displayName": "User head, long textured",
+    "description": "Head outline with no face details and long hair with textured strands on top.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "long-hair",
+      "textured-hair",
+      "coily"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-19": {
+    "name": "UserHeadLongBraids",
+    "displayName": "User head, long braids",
+    "description": "Head outline with no face details and long braided hair drawn in dashed lines.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "braids",
+      "locs",
+      "long-hair",
+      "textured-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-20": {
+    "name": "UserHeadTexturedMid",
+    "displayName": "User head, textured mid",
+    "description": "Head outline with no face details and mid-length textured hair drawn as radiating strokes.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "textured-hair",
+      "coily",
+      "mid-length"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-21": {
+    "name": "UserHeadTexturedShort",
+    "displayName": "User head, textured short",
+    "description": "Head outline with no face details and short textured hair drawn as radiating strokes.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "textured-hair",
+      "coily",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-22": {
+    "name": "UserHeadTexturedPuffs",
+    "displayName": "User head, textured puffs",
+    "description": "Head outline with no face details and two textured puffs with a center part.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "textured-hair",
+      "puffs",
+      "pigtails"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-23": {
+    "name": "UserHeadLongWavy",
+    "displayName": "User head, long wavy",
+    "description": "Head outline with no face details and long wavy hair.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "long-hair",
+      "wavy-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-24": {
+    "name": "UserHeadSpaceBuns",
+    "displayName": "User head, space buns",
+    "description": "Head outline with no face details and two space buns on top.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "space-buns",
+      "buns",
+      "updo"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-25": {
+    "name": "UserHeadMohawk",
+    "displayName": "User head, mohawk",
+    "description": "Head outline with no face details and a mohawk stripe.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "mohawk",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-26": {
+    "name": "UserHeadBald",
+    "displayName": "User head, bald",
+    "description": "Head outline with no face details and no hair.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "bald",
+      "shaved",
+      "no-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-27": {
+    "name": "UserHeadLongSideSwept",
+    "displayName": "User head, long side swept",
+    "description": "Head outline with no face details and long hair swept over one shoulder.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "long-hair",
+      "side-swept"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-28": {
+    "name": "UserHeadShortFringe",
+    "displayName": "User head, short fringe",
+    "description": "Head outline with no face details and short hair with a soft wavy fringe.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "short-hair",
+      "fringe"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-29": {
+    "name": "UserHeadShort",
+    "displayName": "User head, short",
+    "description": "Head outline with no face details and short, close-cropped hair.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "short-hair",
+      "cropped"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-30": {
+    "name": "UserHeadCrewCut",
+    "displayName": "User head, crew cut",
+    "description": "Head outline with no face details and a short crew cut with a small step at the crown.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "crew-cut",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-31": {
+    "name": "UserHeadSwoop",
+    "displayName": "User head, swoop",
+    "description": "Head outline with no face details and short hair with a fringe swooping to one side.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "short-hair",
+      "swoop",
+      "side-swept"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-32": {
+    "name": "UserHeadShortCombed",
+    "displayName": "User head, short combed",
+    "description": "Head outline with no face details and short hair with an arched, combed hairline.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "short-hair",
+      "combed"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-33": {
+    "name": "UserHeadFlatTop",
+    "displayName": "User head, flat top",
+    "description": "Head outline with no face details and a square flat-top haircut.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "flat-top",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-34": {
+    "name": "UserHeadAfro",
+    "displayName": "User head, afro",
+    "description": "Head outline with no face details and a round afro.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "afro",
+      "curly-hair",
+      "volume"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-35": {
+    "name": "UserHeadSpiky",
+    "displayName": "User head, spiky",
+    "description": "Head outline with no face details and short spiky hair.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "spiky-hair",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-head-36": {
+    "name": "UserHeadSpikySide",
+    "displayName": "User head, spiky side",
+    "description": "Head outline with no face details and hair with sharp spikes pointing to one side.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "head",
+      "hairstyle",
+      "spiky-hair",
+      "side-swept"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-1": {
+    "name": "UserFaceLongSidePart",
+    "displayName": "User face, long side part",
+    "description": "Face with eyes and long straight hair with an off-center part.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "long-hair",
+      "straight-hair",
+      "side-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-2": {
+    "name": "UserFaceLongSweptBangs",
+    "displayName": "User face, long swept bangs",
+    "description": "Face with eyes and long straight hair with bangs swept to one side.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "long-hair",
+      "side-bangs",
+      "fringe"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-3": {
+    "name": "UserFaceLongCenterPart",
+    "displayName": "User face, long center part",
+    "description": "Face with eyes and long straight hair parted in the center.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "long-hair",
+      "straight-hair",
+      "center-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-4": {
+    "name": "UserFaceFlippedEnds",
+    "displayName": "User face, flipped ends",
+    "description": "Face with eyes and shoulder-length hair with ends flipped outward.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "shoulder-length",
+      "flipped-hair",
+      "side-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-5": {
+    "name": "UserFaceWavyBob",
+    "displayName": "User face, wavy bob",
+    "description": "Face with eyes and a short wavy bob parted in the center.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "bob",
+      "wavy-hair",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-6": {
+    "name": "UserFaceLongSideBangs",
+    "displayName": "User face, long side bangs",
+    "description": "Face with eyes and long straight hair with short bangs on one side.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "long-hair",
+      "bangs",
+      "fringe"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-7": {
+    "name": "UserFaceLongBangs",
+    "displayName": "User face, long bangs",
+    "description": "Face with eyes and long straight hair with full blunt bangs.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "long-hair",
+      "bangs",
+      "fringe"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-8": {
+    "name": "UserFaceShoulderSidePart",
+    "displayName": "User face, shoulder side part",
+    "description": "Face with eyes and shoulder-length hair with a side part.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "shoulder-length",
+      "side-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-9": {
+    "name": "UserFaceSidePartBob",
+    "displayName": "User face, side part bob",
+    "description": "Face with eyes and a bob with a deep side part.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "bob",
+      "side-part"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-10": {
+    "name": "UserFaceCurlyBob",
+    "displayName": "User face, curly bob",
+    "description": "Face with eyes and a short curly bob.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "bob",
+      "curly-hair",
+      "curls"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-11": {
+    "name": "UserFacePompadour",
+    "displayName": "User face, pompadour",
+    "description": "Face with eyes and short hair with a tall swept-back pompadour.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "short-hair",
+      "pompadour",
+      "quiff"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-12": {
+    "name": "UserFaceCurlyTop",
+    "displayName": "User face, curly top",
+    "description": "Face with eyes and short sides and curly hair on top.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "short-hair",
+      "curly-hair",
+      "curls"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-13": {
+    "name": "UserFaceRoundSidePart",
+    "displayName": "User face, round side part",
+    "description": "Face with eyes and rounded, voluminous hair with an off-center part.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "rounded-hair",
+      "side-part",
+      "volume"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-14": {
+    "name": "UserFaceCurly",
+    "displayName": "User face, curly",
+    "description": "Face with eyes and voluminous curly hair.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "curly-hair",
+      "curls",
+      "volume"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-15": {
+    "name": "UserFaceSweptBangs",
+    "displayName": "User face, swept bangs",
+    "description": "Face with eyes and rounded mid-length hair with straight bangs swept to one side.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "mid-length",
+      "side-bangs",
+      "fringe"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-16": {
+    "name": "UserFaceLongTextured",
+    "displayName": "User face, long textured",
+    "description": "Face with eyes and long hair with textured strands on top.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "long-hair",
+      "textured-hair",
+      "coily"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-17": {
+    "name": "UserFaceLongBraids",
+    "displayName": "User face, long braids",
+    "description": "Face with eyes and long braided hair drawn in dashed lines.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "braids",
+      "locs",
+      "long-hair",
+      "textured-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-18": {
+    "name": "UserFaceTexturedMid",
+    "displayName": "User face, textured mid",
+    "description": "Face with eyes and mid-length textured hair drawn as radiating strokes.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "textured-hair",
+      "coily",
+      "mid-length"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-19": {
+    "name": "UserFaceTexturedPonytail",
+    "displayName": "User face, textured ponytail",
+    "description": "Face with eyes and textured hair on top and a long ponytail.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "textured-hair",
+      "ponytail",
+      "coily"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-20": {
+    "name": "UserFaceTexturedPuffs",
+    "displayName": "User face, textured puffs",
+    "description": "Face with eyes and two textured puffs with a center part.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "textured-hair",
+      "puffs",
+      "pigtails"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-21": {
+    "name": "UserFaceTexturedShort",
+    "displayName": "User face, textured short",
+    "description": "Face with eyes and short textured hair drawn as radiating strokes.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "textured-hair",
+      "coily",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-22": {
+    "name": "UserFaceLongWavy",
+    "displayName": "User face, long wavy",
+    "description": "Face with eyes and long wavy hair.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "long-hair",
+      "wavy-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-23": {
+    "name": "UserFaceSpaceBuns",
+    "displayName": "User face, space buns",
+    "description": "Face with eyes and two space buns on top.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "space-buns",
+      "buns",
+      "updo"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-24": {
+    "name": "UserFaceMohawk",
+    "displayName": "User face, mohawk",
+    "description": "Face with eyes and a mohawk stripe.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "mohawk",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-25": {
+    "name": "UserFaceBald",
+    "displayName": "User face, bald",
+    "description": "Face with eyes and no hair.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "bald",
+      "shaved",
+      "no-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-26": {
+    "name": "UserFaceLongSideSwept",
+    "displayName": "User face, long side swept",
+    "description": "Face with eyes and long hair swept over one shoulder.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "long-hair",
+      "side-swept"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-27": {
+    "name": "UserFaceShortFringe",
+    "displayName": "User face, short fringe",
+    "description": "Face with eyes and short hair with a soft wavy fringe.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "short-hair",
+      "fringe"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-28": {
+    "name": "UserFaceSideSweptShort",
+    "displayName": "User face, side swept short",
+    "description": "Face with eyes and short hair swept across the forehead.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "short-hair",
+      "side-swept"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-29": {
+    "name": "UserFaceBowlCut",
+    "displayName": "User face, bowl cut",
+    "description": "Face with eyes and a rounded bowl cut.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "bowl-cut",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-30": {
+    "name": "UserFaceSwoop",
+    "displayName": "User face, swoop",
+    "description": "Face with eyes and short hair with a fringe swooping to one side.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "short-hair",
+      "swoop",
+      "side-swept"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-31": {
+    "name": "UserFaceShortCombed",
+    "displayName": "User face, short combed",
+    "description": "Face with eyes and short hair with an arched, combed hairline.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "short-hair",
+      "combed"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-32": {
+    "name": "UserFaceFlatTop",
+    "displayName": "User face, flat top",
+    "description": "Face with eyes and a square flat-top haircut.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "flat-top",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-33": {
+    "name": "UserFaceAfro",
+    "displayName": "User face, afro",
+    "description": "Face with eyes and a round afro.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "afro",
+      "curly-hair",
+      "volume"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-34": {
+    "name": "UserFaceSpiky",
+    "displayName": "User face, spiky",
+    "description": "Face with eyes and short spiky hair.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "spiky-hair",
+      "short-hair"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-35": {
+    "name": "UserFaceSpikySide",
+    "displayName": "User face, spiky side",
+    "description": "Face with eyes and hair with sharp spikes pointing to one side.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "spiky-hair",
+      "side-swept"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  },
+  "1-user-person-36": {
+    "name": "UserFaceTopKnot",
+    "displayName": "User face, top knot",
+    "description": "Face with eyes and hair pulled up into a top-knot bun.",
+    "tags": [
+      "user",
+      "avatar",
+      "profile",
+      "account",
+      "person",
+      "face",
+      "hairstyle",
+      "top-knot",
+      "bun",
+      "updo"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User avatar"
+    }
+  }
+}

@@ -22,9 +22,12 @@ const TouchScreenSwipeDown22 = forwardRef(({
     strokeLinejoin: "round",
     className: `icon-design ${className}`.trim(),
     ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="9.025268549155953 18.998782739599847 12.025268549155953 21.998782739599847 15.025268549155953 18.998782739599847" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="12.025268549155953" y1="13.998782739599847" x2="12.025268549155953" y2="21.998782739599847" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <circle cx="12.025268549155953" cy="5.998782739599847" r="4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="20.974731433996567 18.998779300560273 17.974731433996567 21.998779300560273 14.974731433996567 18.998779300560273" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="17.974731433996567" y1="13.998779300560273" x2="17.974731433996567" y2="21.998779300560273" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M13.974731433996567,5.998779300556635c0,2.209138999201969,1.790861000808945,4,4,4.000000000003638,2.20913899920015-.000000000003638,4-1.790861000801669,4-4,0-2.209138999201969-1.79086100079985-4.000000000003638-4-4-2.209138999191055-.000000000003638-4,1.790861000798031-4,3.999999999996362Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="8.974731433996567 18.998779301098693 5.974731433996567 21.998779301098693 2.974731433996567 18.998779301098693" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.974731433996567" y1="13.998779301098693" x2="5.974731433996567" y2="21.998779301098693" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M1.974731433996567,5.998779301098693c0,2.209138999198331,1.790861000808945,3.999999999996362,4,4,2.20913899920015-.000000000003638,4-1.790861000801669,4-4,0-2.209138999201969-1.79086100079985-4.000000000003638-4-4-2.209138999191055-.000000000003638-4,1.790861000798031-4,4Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
 ));
 
 TouchScreenSwipeDown22.displayName = 'TouchScreenSwipeDown22';

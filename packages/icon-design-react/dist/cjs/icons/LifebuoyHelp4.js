@@ -1,0 +1,46 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const LifebuoyHelp4 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<circle cx="11.967244584106083" cy="12.032754075946286" r="4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <g>
+  <polyline points="8.521993119263243 10.032754075946286 1.967244584106083 10.032754075946286 1.967244584106083 14.032754075946286 8.522054154420402 14.032754075946286" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="13.967244584106083 8.587441575946286 13.967244584106083 2.032754075946286 9.967244584106083 2.032754075946286 9.967244584106083 8.587441575946286" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="9.967244584106083 15.477944505633786 9.967244584106083 22.032754075946286 13.967244584106083 22.032754075946286 13.967244584106083 15.477944505633786" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="15.412435013795402 14.032754075946286 21.967244584106083 14.032754075946286 21.967244584106083 10.032754075946286 15.412496048951652 10.032754075946286" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>
+  <path d="M13.967244584106083,21.396401536883786c1.556213378907159.282958984371362,3.3154296875.602783203121362,3.3154296875.602783203121362,2.749328613282159.499877929691138,5.15087890625-1.901733398430224,4.651000976564319-4.651000976558862l-.602783203125-3.3154296875" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M2.603597123170402,14.032754075946286l-.602783203125,3.3154296875c-.499877929689319,2.749267578128638,1.90167236328125,5.15087890625,4.651000976560681,4.651000976558862l3.3154296875-.602783203121362" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M9.967244584106083,2.669106615005148c-1.556213378904431-.282958984371362-3.3154296875-.602783203121362-3.3154296875-.602783203121362-2.749328613279431-.4998779296875-5.15087890625,1.901733398441138-4.651000976560681,4.6510009765625,0,0,.31982421875,1.75927734375.602783203125,3.3154296875" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M21.330892045045402,10.032754075946286l.602783203125-3.3154296875c.499877929685681-2.749267578121362-1.901672363282159-5.15087890625-4.651000976564319-4.6510009765625l-3.3154296875.602783203121362" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M13.967244584106083,20.802041185324924c3.362487792970569-.76416015625,6.005126953125-3.40673828125,6.769287109375-6.769287109378638" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M3.197957474731083,14.032754075946286c.76416015625,3.362548828128638,3.406799316407159,6.005126953128638,6.769287109375,6.769287109378638" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M9.967244584106083,3.263466966574924c-3.362487792967841.76416015625-6.005187988279431,3.40673828125-6.769287109375,6.769287109371362" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M20.736531693481083,10.032754075946286c-.764099121092841-3.362548828121362-3.406799316404431-6.005126953121362-6.769287109375-6.769287109371362" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+LifebuoyHelp4.displayName = 'LifebuoyHelp4';
+
+module.exports = LifebuoyHelp4;
+module.exports.LifebuoyHelp4 = LifebuoyHelp4;
+module.exports.default = LifebuoyHelp4;

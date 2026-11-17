@@ -23,12 +23,13 @@
   class="icon-design {className}"
   {...$$restProps}
 >
-  <polygon points="18.999999990796823 15.000000000448381 21.999999990796823 12.000000000448381 18.999999990796823 9.000000000448381 18.999999990796823 5.000000000448381 14.999999990796823 5.000000000448381 11.999999990796823 2.000000000448381 8.999999990796823 5.000000000448381 4.999999990796823 5.000000000448381 4.999999990796823 9.000000000448381 1.999999990796823 12.000000000448381 4.999999990796823 15.000000000448381 4.999999990796823 19.000000000448381 8.999999990796823 19.000000000448381 11.999999990796823 22.000000000448381 14.999999990796823 19.000000000448381 18.999999990796823 19.000000000448381 18.999999990796823 15.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11.999999990796823" y1="20.000000000448381" x2="10.999999990796823" y2="21.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11.999999990796823" y1="16.000000000448381" x2="8.999999990796823" y2="19.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11.999999990796823" y1="12.000000000448381" x2="4.999999990796823" y2="19.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="6.999999990796823" y1="5.000000000448381" x2="4.999999990796823" y2="7.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11.999999990796823" y1="4.000000000448381" x2="2.999999990796823" y2="13.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11.999999990796823" y1="8.000000000448381" x2="4.999999990796823" y2="15.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="11.999999990796823" y1="2.000000000448381" x2="11.999999990796823" y2="22.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="11.999999990796823" cy="12.000000000448381" r="6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11.999999990796823" y1="2.000000000448381" x2="11.999999990796823" y2="3.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11.999999990796823" y1="21.000000000448381" x2="11.999999990796823" y2="22.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="21.999999990796823" y1="12.000000000448381" x2="20.999999990796823" y2="12.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="2.999999990796823" y1="12.000000000448381" x2="1.999999990796823" y2="12.000000000448381" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="19.071067802503421" y1="4.92893218842255" x2="18.363961021333125" y2="5.636038969624678" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="5.63603896026143" y1="18.363961031267536" x2="4.928932179090225" y2="19.071067812470574" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="19.071067802821744" y1="19.071067812154979" x2="18.363961021618707" y2="18.363961030984683" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="5.636038959976759" y1="5.636038969912988" x2="4.928932178773721" y2="4.928932188741783" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

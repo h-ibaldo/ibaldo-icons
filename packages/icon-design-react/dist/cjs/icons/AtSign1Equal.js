@@ -1,0 +1,38 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const AtSign1Equal = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<circle cx="7.500000002602064" cy="7.500000002880142" r="5.499999997574037" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.000000005029506" y1="6.000000000453838" x2="6.000000005029506" y2="6.000000000453838" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.000000005029506" y1="9.000000000453838" x2="6.000000005029506" y2="9.000000000453838" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M22.000000005029506,13.000000000453838v1.500002499998118c0,1.3807104938669-1.119287006140439,2.499997500001882-2.499997499999154,2.499997500001882h-.000004999990779c-1.380710493880542,0-2.499997500010068-1.119287006134982-2.499997500010068-2.499997500001882v-1.500002499998118" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M4.336059575349282,15.384948730922588c1.045715332020336,3.810791015625,4.52099609375,6.61505126953125,8.663940429680224,6.61505126953125,1.438842773441138,0,3.793823242191138-.34625244140625,5-.94659423828125" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M9.995361333149049,15.626159668422588c.731201171880457.83990478515625,1.803100585950233,1.37384033203125,3.004638671880457,1.37384033203125,2.209167480481483,0,4-1.79083251953125,4-4,0-1.201538085935681-.533935546880457-2.2734375-1.373840332018517-3.004638671875" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M22.000000005029506,13.000000000453838c0-4.142944335935681-2.804260253909888-7.61822509765625-6.615051269518517-8.663940429685681" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+AtSign1Equal.displayName = 'AtSign1Equal';
+
+module.exports = AtSign1Equal;
+module.exports.AtSign1Equal = AtSign1Equal;
+module.exports.default = AtSign1Equal;

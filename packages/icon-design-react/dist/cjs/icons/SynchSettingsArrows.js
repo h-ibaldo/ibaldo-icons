@@ -1,0 +1,45 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const SynchSettingsArrows = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<circle cx="11.974731440100186" cy="12.000000003885361" r="3.5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.974731440100186" y1="12.01000000388558" x2="11.974731440100186" y2="12.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.974731440100186" y1="7.000000003885361" x2="11.974731440100186" y2="8.500000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.974731440100186" y1="15.500000003885361" x2="11.974731440100186" y2="17.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="16.974731440100186" y1="12.000000003885361" x2="15.474731440100186" y2="12.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.474731440100186" y1="12.000000003885361" x2="6.974731440100186" y2="12.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="15.510265346109918" y1="15.535533909736841" x2="14.449605174309909" y2="14.474873737981397" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.499857705899558" y1="9.525126269789325" x2="8.439197534089544" y2="8.464466098030243" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.439197534249615" y1="15.535533909896913" x2="9.499857705999602" y2="14.474873738094175" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="14.44960517419986" y1="9.525126269676548" x2="15.510265345959851" y2="8.46446609787381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="3.974731440100186" y1="4.000000003885361" x2="7.974731440100186" y2="4.000000003885361" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="19.974731440100186" y1="20.000000004692993" x2="15.974731439780044" y2="20.000000004245521" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M7.863830561190298,4.000000003885361c-2.901184082030341,1.49395751953125-4.889099121090112,4.51202392578125-4.889099120690844,7.999999999192369-.000000000439286,4.9705810546875,4.029418944510326,9.00000000036016,8.99999999919055,9.000000000807631" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M16.085632318689932,20.000000004252797c2.901184082170403-1.493957519269316,4.889099121510299-4.512023925341055,4.889099121809522-7.999999999559805-.000000000399268-4.970581055495131-4.029418945699945-9.000000000807631-9.000000000399268-9.000000000807631" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+SynchSettingsArrows.displayName = 'SynchSettingsArrows';
+
+module.exports = SynchSettingsArrows;
+module.exports.SynchSettingsArrows = SynchSettingsArrows;
+module.exports.default = SynchSettingsArrows;

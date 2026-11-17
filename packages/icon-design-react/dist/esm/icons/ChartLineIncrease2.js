@@ -21,8 +21,8 @@ const ChartLineIncrease2 = forwardRef(({
     className={`icon-design ${className}`.trim()}
     {...props}
   >
-    <polyline points="2 2.000000000480213 2 22.000000000480213 22 22.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <polyline points="6 18.000000000480213 9 12.000000000480213 11 15.000000000480213 14 9.000000000480213 18 13.000000000480213 22 4.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+    <polyline points="2 18 10 11 14 15 22 7" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="22 11 22 7 18 7" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
   </svg>
 ));
 

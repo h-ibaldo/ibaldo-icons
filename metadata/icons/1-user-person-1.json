@@ -1,22 +1,24 @@
 {
-  "name": "UserPerson1",
-  "description": "A user person icon representing a full-body individual profile, variant 1",
+  "name": "UserFaceLongSidePart",
+  "description": "Face with eyes and long straight hair with an off-center part.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "avatar",
-    "full body",
-    "variant 1"
+    "person",
+    "face",
+    "hairstyle",
+    "long-hair",
+    "straight-hair",
+    "side-part"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User person icon"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-1",
   "technical": {
@@ -29,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User face, long side part",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

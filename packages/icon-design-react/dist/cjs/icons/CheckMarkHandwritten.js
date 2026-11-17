@@ -1,0 +1,32 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const CheckMarkHandwritten = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polygon points="1.949462885140747 11.000000000480213 5.949462885140747 9.000000000480213 8.949462885140747 14.000000000480213 18.949462885140747 5.000000000480213 21.949462885140747 6.000000000480213 9.949460815629209 19.000000000480213 7.949462885140747 19.000000000480213 1.949462885140747 11.000000000480213" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+CheckMarkHandwritten.displayName = 'CheckMarkHandwritten';
+
+module.exports = CheckMarkHandwritten;
+module.exports.CheckMarkHandwritten = CheckMarkHandwritten;
+module.exports.default = CheckMarkHandwritten;

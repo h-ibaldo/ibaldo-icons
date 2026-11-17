@@ -1,0 +1,36 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const HandTouchSwipeRight = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M12.000060285619838,6.49857942995277c-.000060309259425,3.218230186976143-.000060308930188,10.500787778044469-.000060308930188,10.500787778044469l-2.961578310168989-2.961578285667201c-.573504559040884-.573504554292413-1.503339200740811-.57350445064003-2.076843624810863.000000234027539l-.000001999998858.000002000000677c-.542598678230206.542598680782248-.575983201881172,1.411467427325988-.076619312170806,1.994101411630254l5.114602697860391,5.967474640008732,10.000440549520135.000629356157333-.000000000340151-7.49202653109478c-.000000000040018-.892960718934773-.591954628720487-1.677732719381311-1.450557744290563-1.923047895219497l-5.549442255869508-1.585554929978571-.000228360429901-4.499592605915495c-.000042038200263-.828316850456758-.671537303660443-1.499778037446958-1.49985415518131-1.499778037411488h-.000002999569915c-.82833640213903.000000000037289-1.499838652689505.670246463419062-1.499854175619475,1.49858286541803Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <g>
+  <line x1="2" y1="5.000000000132786" x2="8" y2="4.999999999863576" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="4.999999999869033 1.999999999998181 8 4.999999999863576 5.000000000130967 7.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>` } }))
+));
+
+HandTouchSwipeRight.displayName = 'HandTouchSwipeRight';
+
+module.exports = HandTouchSwipeRight;
+module.exports.HandTouchSwipeRight = HandTouchSwipeRight;
+module.exports.default = HandTouchSwipeRight;

@@ -22,9 +22,12 @@ const TouchScreenSwipeRight22 = forwardRef(({
     strokeLinejoin: "round",
     className: `icon-design ${className}`.trim(),
     ...props
-  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="19.025268535095165 8.998779304496566 22.025268534956922 11.998779304631171 19.025268534836869 14.998779304496566" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="14.025268534956922" y1="11.998779304274649" x2="22.025268534956922" y2="11.998779304631171" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <circle cx="6.025268534961469" cy="11.998779303913579" r="3.999999999997272" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="19.000000000129148 2.999999999865395 22 6 18.999999999869033 8.999999999865395" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="14" y1="5.99999999963984" x2="22" y2="6" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="5.999999999997272" cy="5.99999999928059" r="4.000000000001819" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="19.000000000129148 14.999999999865395 22 18 18.999999999869033 20.999999999865395" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="14" y1="17.99999999963984" x2="22" y2="18" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="5.999999999997272" cy="17.99999999928059" r="4.000000000001819" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
 ));
 
 TouchScreenSwipeRight22.displayName = 'TouchScreenSwipeRight22';

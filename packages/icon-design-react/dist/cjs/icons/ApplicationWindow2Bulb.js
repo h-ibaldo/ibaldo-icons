@@ -1,0 +1,37 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const ApplicationWindow2Bulb = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M12.00000000018008,22.000000000448381l-8,.000000000001819c-1.104569499650097,0-2-.895430500338989-2-2V4.000000000448381c0-1.104569499661011.895430500349903-1.999999999998181,2-1.999999999998181l16-.000000000001819c1.104569499659192,0,2,.89543050033808,2,2v3" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M22.00000000018008,14.000000000448381c0-2.521878318618292-2.333704934790148-4.498607745813388-4.959423496720774-3.88841922229858-1.417768181599968.329473952750959-2.571810544330219,1.470901260007849-2.917559226500089,2.884788649816983-.356248948959546,1.456826656264639.089005060410273,2.809810357732204.97827142458118,3.740613330303859.581501374279469.608662634203938.898705616818916,1.421225606472944.898708213699138,2.263017772361309l.000000000010914.000002554755156c.000001703760063.552283545086539.447716454909823.999996915061274.999999999989086.999996915061274h2.000003084940545c.5522847498396,0,1-.447715250168585,1-1v-.015044772082547c0-.84653236162012.336352761050875-1.651404942577756.917087799029105-2.26733014495403.669922635330295-.710517202766823,1.082912200970895-1.662716056995123,1.082912200970895-2.717625082963423Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="17.00000000018008" y1="22.000000000448381" x2="18.999993561559677" y2="22.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="5.010000000180298" y1="5.000000000448381" x2="5.00000000018008" y2="5.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.010000000180298" y1="5.000000000448381" x2="8.00000000018008" y2="5.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.010000000180298" y1="5.000000000448381" x2="11.00000000018008" y2="5.000000000448381" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+ApplicationWindow2Bulb.displayName = 'ApplicationWindow2Bulb';
+
+module.exports = ApplicationWindow2Bulb;
+module.exports.ApplicationWindow2Bulb = ApplicationWindow2Bulb;
+module.exports.default = ApplicationWindow2Bulb;

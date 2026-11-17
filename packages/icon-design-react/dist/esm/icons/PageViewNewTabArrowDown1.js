@@ -1,0 +1,34 @@
+import { forwardRef } from 'react';
+
+const PageViewNewTabArrowDown1 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <path d="M7.999999993611709,1.998779299956368h8.558125457540882c.911351166329041,0,1.773289868138818.414269157099625,2.342606428330328,1.125914857337193l2.441874542459118,3.052343178074807c.425551315509438.531939144388161.657393571669672,1.192870657007006.657393571669672,1.874085142662807v.947656821925193" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M11.999999993611709,21.998779299956368H3.999999993611709c-1.104569499670106,0-2-.895430500338989-2-2V3.998779299956368c0-1.104569499661011.895430500329894-2,2-2h3.558125457540882c.911351166329041,0,1.773289868138818.414269157099625,2.342606428330328,1.125914857337193l2.198536228248486,2.748170285325614c.569316560200605.711645700237568,1.431255262001287,1.125914857337193,2.342606428330328,1.125914857337193h5.558125457549977c1.104569499661011,0,2,.895430500338989,2,2v3" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="21.999999993611709 18.998779299956368 18.999999993611709 21.998779299956368 15.999999993611709 18.998779299956368" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="18.999999993611709" y1="14.998779299956368" x2="18.999999993611709" y2="21.998779299956368" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+PageViewNewTabArrowDown1.displayName = 'PageViewNewTabArrowDown1';
+
+export default PageViewNewTabArrowDown1;
+export { PageViewNewTabArrowDown1 };

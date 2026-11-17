@@ -1,0 +1,38 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const AtSign5Check = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M14.974731450040053,11.999999998589374l-4.000003679810106.000000001427907c-1.10456948493993.000000000393811-1.999999974060302.895430487171325-1.99999997733994,1.999999972113073l-.00000001026001,1.000000033559445c-.0000000159298,1.104569493993949.895430477299669,1.999999994310201,1.999999971239959,1.999999994412974l1.000002897059858.000000000090949c1.656853207140557.000000000153705,2.999998772560502-1.343143790679278,3.000000799110239-2.999996999717951v-.000003000001925" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="16.974731450040053" y1="22.000000000473847" x2="11.974731450040053" y2="22.000000000473847" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M3.974731450090076,10.000000000473847l-.000000000030013,5.99999999998181c-.000000000010004,3.313708498990309,2.686291501009691,6.00000000001819,6,6.00000000001819h2.000007999979971" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M19.974731450040053,14.000007981157978v-6.000007980684131c0-3.313708498985761-2.686291501009691-6-6-6h-1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M14.974731450040053,13.999999981156179v1c0,1.10456949966192.895430500339899,2,2,2h1c1.104569499660101,0,2-.89543050033808,2-2v-1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M9.974731450040053,7.999999745495188l2.999996522079527.000000016762897c1.10456958919076-.000000001576154,2.000000131850356.895430629710063,2.000000020940206,2.000000218898094l-.000000602440196,5.000000342442945" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="2.974731450040053 3.000000000464752 4.974731450040053 6.000000000464752 8.974731450040053 2.000000000464752" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+AtSign5Check.displayName = 'AtSign5Check';
+
+module.exports = AtSign5Check;
+module.exports.AtSign5Check = AtSign5Check;
+module.exports.default = AtSign5Check;

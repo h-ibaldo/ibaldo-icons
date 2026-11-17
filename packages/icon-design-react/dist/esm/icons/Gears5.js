@@ -22,36 +22,36 @@ const Gears5 = forwardRef(({
     {...props}
   >
     <g>
-    <circle cx="7.999999999709871" cy="16.999999999868578" r="3.500000000000682" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    <line x1="8.00999999970918" y1="16.999999999869033" x2="7.999999999708962" y2="16.999999999869033" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    <g>
-      <line x1="8.00000000061118" y1="11.999999999869033" x2="8.00000000034197" y2="13.499999999869033" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-      <line x1="7.999999999079591" y1="20.499999999869033" x2="7.999999998810381" y2="21.999999999869033" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    </g>
-    <g>
-      <line x1="3.669872981321532" y1="14.499999998959538" x2="4.968911086842127" y2="15.249999999237843" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-      <line x1="11.031088912590349" y1="18.750000000498403" x2="12.330127018110943" y2="19.500000000778527" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    </g>
-    <g>
-      <line x1="3.669872980190121" y1="19.499999998828571" x2="4.968911086049047" y2="18.749999999137799" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-      <line x1="11.03108891337979" y1="15.250000000598448" x2="12.330127019242354" y2="14.500000000909495" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    </g>
+  <circle cx="7.999999999709871" cy="16.999999999868578" r="3.500000000000682" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.00999999970918" y1="16.999999999869033" x2="7.999999999708962" y2="16.999999999869033" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <g>
+  <line x1="8.00000000061118" y1="11.999999999869033" x2="8.00000000034197" y2="13.499999999869033" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="7.999999999079591" y1="20.499999999869033" x2="7.999999998810381" y2="21.999999999869033" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
   </g>
   <g>
-    <circle cx="17.000000000478394" cy="8.000000000678483" r="3.499999999999546" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    <line x1="16.990000000479995" y1="8.000000000679393" x2="17.000000000480213" y2="8.000000000679393" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    <g>
-      <line x1="17.000000001371518" y1="3.000000000679393" x2="17.000000001102308" y2="4.500000000679393" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-      <line x1="16.999999999850843" y1="11.500000000679393" x2="16.999999999581632" y2="13.000000000678483" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    </g>
-    <g>
-      <line x1="12.66987298208187" y1="5.499999999767169" x2="13.968911087598826" y2="6.250000000038199" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-      <line x1="20.0310889133616" y1="9.750000001307853" x2="21.330127018882195" y2="10.500000001587978" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    </g>
-    <g>
-      <line x1="12.669872980961372" y1="10.499999999638021" x2="13.968911086809385" y2="9.749999999949068" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-      <line x1="20.031088914140128" y1="6.250000001407898" x2="21.330127019999054" y2="5.500000001708031" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-    </g>
+  <line x1="3.669872981321532" y1="14.499999998959538" x2="4.968911086842127" y2="15.249999999237843" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.031088912590349" y1="18.750000000498403" x2="12.330127018110943" y2="19.500000000778527" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>
+  <g>
+  <line x1="3.669872980190121" y1="19.499999998828571" x2="4.968911086049047" y2="18.749999999137799" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="11.03108891337979" y1="15.250000000598448" x2="12.330127019242354" y2="14.500000000909495" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>
+  </g>
+  <g>
+  <circle cx="17.000000000478394" cy="8.000000000678483" r="3.499999999999546" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="16.990000000479995" y1="8.000000000679393" x2="17.000000000480213" y2="8.000000000679393" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <g>
+  <line x1="17.000000001371518" y1="3.000000000679393" x2="17.000000001102308" y2="4.500000000679393" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="16.999999999850843" y1="11.500000000679393" x2="16.999999999581632" y2="13.000000000678483" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>
+  <g>
+  <line x1="12.66987298208187" y1="5.499999999767169" x2="13.968911087598826" y2="6.250000000038199" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="20.0310889133616" y1="9.750000001307853" x2="21.330127018882195" y2="10.500000001587978" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>
+  <g>
+  <line x1="12.669872980961372" y1="10.499999999638021" x2="13.968911086809385" y2="9.749999999949068" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="20.031088914140128" y1="6.250000001407898" x2="21.330127019999054" y2="5.500000001708031" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </g>
   </g>
   <line x1="5.01000000078966" y1="4.999999999206921" x2="5.000000000789441" y2="4.999999999206921" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
   <line x1="4.999999999439751" y1="9.999999999206921" x2="4.999999999850843" y2="8.499999999206921" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>

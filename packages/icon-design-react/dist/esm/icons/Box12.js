@@ -21,9 +21,12 @@ const Box12 = forwardRef(({
     className={`icon-design ${className}`.trim()}
     {...props}
   >
-    <rect x="2" y="2.999999999998181" width="20" height="5" rx="1" ry="1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M21,7.999999999998181v12c0,.552284749830505-.503679656439999,1-1.125,1H4.125c-.621320343560001,0-1.125-.447715250169495-1.125-1V7.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-  <line x1="9" y1="12.999999999998181" x2="15" y2="12.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+    <line x1="12" y1="8.999999999998181" x2="20" y2="5.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="12 8.999999999998181 14 12.999999999998181 22 9.999999999998181 20 5.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="4 5.999999999998181 2 9.999999999998181 4 10.749999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12" y1="8.999999999998181" x2="12" y2="20.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="4" y1="5.999999999998181" x2="12" y2="8.999999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="20 5.999999999998181 12 2.999999999998181 4 5.999999999998181 4 17.999999999998181 12 20.999999999998181 20 17.999999999998181 20 10.749999999998181" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
   </svg>
 ));
 

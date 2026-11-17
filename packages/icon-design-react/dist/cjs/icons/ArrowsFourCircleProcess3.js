@@ -1,0 +1,39 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const ArrowsFourCircleProcess3 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<polyline points="19.999999964262315 1.997562133057727 19.999999963722075 5.997562037138778 16.000000059642844 5.997562036600357" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M19.986389141291511,5.997562036240197c-1.824768066409888-2.4248046875-4.71795654296875-4-7.986389160159888-4-.337951660159888,0-.670715332029431.02069091796875-1,.05340576171875" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="4.000000344502041 21.997560206296839 4.000000345402441 17.997562034624934 7.999998517072527 17.997562035523515" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M4.013610821331895,17.997562035523515c1.82476806618979,2.424804687663709,4.717956542610409,4.000000000422006,7.986389159799728,4.000000000716682.337951660150793.000000000029104.67071533203125-.020690917906904,1-.053405761627801" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="21.999998250472345 19.997561692374802 17.999999980371285 19.997561691836381 17.999999980911525 15.997563421731684" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M17.999999981171641,19.983951196352791c2.4248046875-1.82476806640625,4-4.71795654296875,4-7.98638916015625,0-.33795166015625-.02069091796875-.67071533203125-.05340576171875-1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="2.000003445091352 3.997562726364777 5.99999998279236 3.997562727259719 5.99999998189196 7.997559264958909" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M5.99999998189196,4.011172876396813c-2.424804687660071,1.824768066187971-4.000000000420187,4.71795654260859-4.00000000072032,7.98638915979609-.000000000029104.33795166015625.020690917910542.670715332034888.053405761631439,1.000000000003638" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+ArrowsFourCircleProcess3.displayName = 'ArrowsFourCircleProcess3';
+
+module.exports = ArrowsFourCircleProcess3;
+module.exports.ArrowsFourCircleProcess3 = ArrowsFourCircleProcess3;
+module.exports.default = ArrowsFourCircleProcess3;

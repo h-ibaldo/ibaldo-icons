@@ -1,0 +1,44 @@
+import { forwardRef } from 'react';
+
+const SynchSettingsArrows2 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <circle cx="12.025268554610193" cy="12.000000000709406" r="3.5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.025268554610193" y1="12.010000000709624" x2="12.025268554610193" y2="12.000000000709406" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.025268554610193" y1="7.000000000709406" x2="12.025268554610193" y2="8.500000000709406" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="12.025268554610193" y1="15.500000000709406" x2="12.025268554610193" y2="17.000000000709406" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="17.025268554610193" y1="12.000000000709406" x2="15.525268554610193" y2="12.000000000709406" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.525268554610193" y1="12.000000000709406" x2="7.025268554610193" y2="12.000000000709406" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="15.560802460609921" y1="15.535533906560886" x2="14.500142288809911" y2="14.474873734805442" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="9.550394820389556" y1="9.525126266609732" x2="8.489734648590456" y2="8.464466094854288" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="8.489734648750527" y1="15.535533906717319" x2="9.550394820509609" y2="14.474873734914581" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="14.500142288699863" y1="9.525126266496954" x2="15.560802460459854" y2="8.464466094694217" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="3.025268554610193 4.000000000709406 6.025268554610193 4.000000000709406 6.025268554610193 7.000000000709406" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <polyline points="21.025268554330069 20.000000002415618 18.025268554330069 20.000000002146407 18.025268554610193 17.000000002146407" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M6.025268554610193,4.013610840553156c-2.4248046875,1.82476806640625-4,4.71795654296875-3.999999999560714,7.98638916015625-.000000000499313,5.52288818359375,4.477172850670286,10.000000000400178,9.99999999910051,10.000000000898581.684997558610121.000000000061846,1.353698730480573-.069641113161197,2.000000000020009-.200866699040489" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M18.025268554330069,19.986389162302657c2.424804687670076-1.824768066187971,4.000000000440195-4.71795654260859,4.00000000071941-7.98638915979609-.000000000439286-5.522888185390912-4.477172852009971-10.000000001797162-10.000000000439286-10.000000001797162-.684997558590112,0-1.353698730480573.06964111328125-2,.20086669921875" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+SynchSettingsArrows2.displayName = 'SynchSettingsArrows2';
+
+export default SynchSettingsArrows2;
+export { SynchSettingsArrows2 };

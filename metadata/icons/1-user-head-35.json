@@ -1,22 +1,23 @@
 {
-  "name": "UserHead35",
-  "description": "A user head profile icon representing a person, variant 35 of the user head series",
+  "name": "UserHeadSpiky",
+  "description": "Head outline with no face details and short spiky hair.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "people"
+    "person",
+    "head",
+    "hairstyle",
+    "spiky-hair",
+    "short-hair"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-35",
   "technical": {
@@ -29,5 +30,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User head, spiky",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

@@ -1,24 +1,25 @@
 {
-  "name": "User11",
-  "displayName": "User 11",
+  "name": "UserHeadSidePartBob",
+  "displayName": "User head, side part bob",
   "originalTitle": "1 User Head 11",
-  "description": "User profile icon representing a person or account. Commonly used for user accounts, profiles, and personal settings.",
+  "description": "Head outline with no face details and a bob with a deep side part.",
   "tags": [
     "user",
-    "profile",
-    "person",
-    "account",
     "avatar",
-    "individual",
-    "member"
+    "profile",
+    "account",
+    "person",
+    "head",
+    "hairstyle",
+    "bob",
+    "side-part"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-11",
   "technical": {
@@ -32,5 +33,7 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.765Z"
+  "generatedAt": "2026-02-15T00:53:19.765Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

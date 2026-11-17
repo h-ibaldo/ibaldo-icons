@@ -1,0 +1,36 @@
+"use strict";
+
+const { forwardRef } = require('react');
+
+const Bell3XCircle = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  React.createElement('svg', {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color,
+    strokeWidth,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: `icon-design ${className}`.trim(),
+    ...props
+  }, React.createElement('g', { dangerouslySetInnerHTML: { __html: `<path d="M12.000000004469257,18.000000003885361v2.000002000000677c0,1.10456839509061-.895429604919627,1.999997999999323-1.999998000008418,1.999997999999323h-.000004000001354c-1.104568395088791,0-1.999997999990228-.895429604908713-1.999997999990228-1.999997999999323v-2.000002000000677" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <circle cx="16.50000000688442" cy="7.50000000145792" r="5.499999997576424" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M12.000000004469257,4.343750003885361v-.34375c0-1.104614257808862-.895446777338293-2-2-2-1.104553222659888,0-2,.895385742191138-2,2v.3487548828125c-2.328857421878638.8245849609375-4,3.0399169921875-4,5.6512451171875v1.947631835941138c0,.681274414058862-.231872558588293,1.342163085941138-.657409667979664,1.874145507808862l-.937194824220569,1.17138671875c-.262451171869543.328125-.405395507799767.735595703132276-.405395507799767,1.15576171875v.0009765625c0,1.021728515632276.828247070299767,1.85009765625,1.849975585930224,1.85009765625h12.300048828119543c1.021728515630457,0,1.849975585950233-.828369140617724,1.849975585950233-1.85009765625v-.0009765625c0-.420166015617724-.142944335950233-.82763671875-.405395507819776-1.15576171875l-.93719482421875-1.17138671875c-.202697753911707-.25341796875-.358032226549767-.537353515617724-.46875-.83740234375" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="18.000000009309588" y1="5.999999999035936" x2="15.000000009309588" y2="8.999999999035936" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <line x1="15.000000009380528" y1="5.999999998966814" x2="18.000000009249561" y2="8.999999999105057" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>` } }))
+));
+
+Bell3XCircle.displayName = 'Bell3XCircle';
+
+module.exports = Bell3XCircle;
+module.exports.Bell3XCircle = Bell3XCircle;
+module.exports.default = Bell3XCircle;

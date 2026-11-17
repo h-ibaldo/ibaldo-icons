@@ -1,22 +1,24 @@
 {
-  "name": "User25",
-  "description": "A user person icon variant 25 representing individual profile or account identity",
+  "name": "UserFaceBald",
+  "description": "Face with eyes and no hair.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "people",
-    "avatar",
-    "identity"
+    "person",
+    "face",
+    "hairstyle",
+    "bald",
+    "shaved",
+    "no-hair"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-25",
   "technical": {
@@ -29,5 +31,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User face, bald",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T01:19:18.635Z"
 }

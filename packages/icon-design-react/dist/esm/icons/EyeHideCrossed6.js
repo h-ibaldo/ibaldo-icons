@@ -1,0 +1,36 @@
+import { forwardRef } from 'react';
+
+const EyeHideCrossed6 = forwardRef(({
+  color = 'currentColor',
+  size = 24,
+  strokeWidth = 1.5,
+  className = '',
+  ...props
+}, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`icon-design ${className}`.trim()}
+    {...props}
+  >
+    <line x1="2.974731437776427" y1="20.997562036026466" x2="20.974731437776427" y2="2.997562036026466" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M15.510375969026427,8.462039575067138c-.905029296880457-.90478515625-2.15478515625-1.4644775390625-3.53564453125-1.4644775390625-2.761474609380457,0-5,2.23858642578125-5,5,0,1.38067626953125.5595703125,2.6307373046875,1.46435546875,3.5355224609375" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M11.974731437776427,16.997562036004638c2.761474609369543,0,5-2.23858642578125,5-5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M16.859985344026427,7.112369164910888c-1.493896484380457-.71038818359375-3.157958984380457-1.11480712890625-4.88525390625-1.11480712890625-4.272705078130457,0-8.178466796880457,2.44097900390625-10,6,1.085205078119543,2.12030029296875,2.913330078119543,3.8382568359375,5.11474609375,4.88519287109375" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M11.01989745339597,17.952457055535888c.316162109380457.0269775390625.634033203130457.04510498046875.954833984380457.04510498046875,4.272705078119543,0,8.178466796869543-2.44097900390625,10-6-.544189453130457-1.063232421875-1.277587890630457-2.02362060546875-2.14794921875-2.85205078125" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M13.388793937776427,10.583377465692138c-.36181640625-.3619384765625-.86181640625-.5858154296875-1.4140625-.5858154296875-1.1044921875,0-2,.8953857421875-2,2,0,.55224609375.223876953119543,1.05224609375.5859375,1.4141845703125" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+));
+
+EyeHideCrossed6.displayName = 'EyeHideCrossed6';
+
+export default EyeHideCrossed6;
+export { EyeHideCrossed6 };

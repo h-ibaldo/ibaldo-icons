@@ -1,6 +1,6 @@
 import { SvelteComponent } from 'svelte';
 
-export interface WindowControlFullScreenCircleProps {
+export interface WindowControlFullscreenCircleProps {
   color?: string;
   size?: number | string;
   strokeWidth?: number | string;
@@ -8,4 +8,4 @@ export interface WindowControlFullScreenCircleProps {
   [key: string]: any;
 }
 
-export default class WindowControlFullScreenCircle extends SvelteComponent<WindowControlFullScreenCircleProps> {}
+export default class WindowControlFullscreenCircle extends SvelteComponent<WindowControlFullscreenCircleProps> {}
