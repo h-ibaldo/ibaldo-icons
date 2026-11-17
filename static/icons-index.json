@@ -3616,6 +3616,75 @@
         "searchText": "arrowclockwisecheckcircle arrow clockwise check circle arrowcheckupgrade2 arrow upgrade update success done verified check checkmark approval confirmation clockwise circle an arrow icon with a checkmark indicating a successful upgrade or update completion arrows"
       },
       {
+        "name": "ArrowClockwiseFifteenDoubleChevron",
+        "displayName": "Arrow clockwise fifteen double chevron",
+        "path": "/icons/optimized/arrow-clockwise-fifteen-double-chevron.svg",
+        "filename": "arrow-clockwise-fifteen-double-chevron.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-forward",
+          "forward-15",
+          "seconds",
+          "seek",
+          "jump",
+          "fast-forward",
+          "clockwise",
+          "media"
+        ],
+        "description": "Clockwise circular arrow with the number 15 inside and a double chevron arrowhead leaving the circle at the top.",
+        "searchText": "arrowclockwisefifteendoublechevron arrow clockwise fifteen double chevron skip-forward forward-15 seconds seek jump fast-forward clockwise media clockwise circular arrow with the number 15 inside and a double chevron arrowhead leaving the circle at the top. media arrows"
+      },
+      {
+        "name": "ArrowClockwiseFive",
+        "displayName": "Arrow clockwise five",
+        "path": "/icons/optimized/arrow-clockwise-five.svg",
+        "filename": "arrow-clockwise-five.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-forward",
+          "forward-5",
+          "seconds",
+          "seek",
+          "jump",
+          "fast-forward",
+          "clockwise",
+          "media"
+        ],
+        "description": "Clockwise circular arrow with the number 5 inside and a corner arrowhead at the top right.",
+        "searchText": "arrowclockwisefive arrow clockwise five skip-forward forward-5 seconds seek jump fast-forward clockwise media clockwise circular arrow with the number 5 inside and a corner arrowhead at the top right. media arrows"
+      },
+      {
+        "name": "ArrowClockwiseFiveChevron",
+        "displayName": "Arrow clockwise five chevron",
+        "path": "/icons/optimized/arrow-clockwise-five-chevron.svg",
+        "filename": "arrow-clockwise-five-chevron.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-forward",
+          "forward-5",
+          "seconds",
+          "seek",
+          "jump",
+          "fast-forward",
+          "clockwise",
+          "media"
+        ],
+        "description": "Clockwise circular arrow with the number 5 inside and a chevron arrowhead leaving the circle at the top.",
+        "searchText": "arrowclockwisefivechevron arrow clockwise five chevron skip-forward forward-5 seconds seek jump fast-forward clockwise media clockwise circular arrow with the number 5 inside and a chevron arrowhead leaving the circle at the top. media arrows"
+      },
+      {
         "name": "ArrowClockwiseOff",
         "displayName": "Arrow clockwise off",
         "path": "/icons/optimized/arrow-circle-2-slash.svg",
@@ -3695,6 +3764,98 @@
         ],
         "description": "An arrow icon paired with a gear symbol variant representing system upgrade, update, or settings configuration",
         "searchText": "arrowclockwisesettingscorner arrow clockwise settings corner arrowgearupgrade2 arrow gear upgrade update settings configuration maintenance improvement clockwise corner an arrow icon paired with a gear symbol variant representing system upgrade, update, or settings configuration arrows"
+      },
+      {
+        "name": "ArrowClockwiseTen",
+        "displayName": "Arrow clockwise ten",
+        "path": "/icons/optimized/arrow-clockwise-ten.svg",
+        "filename": "arrow-clockwise-ten.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-forward",
+          "forward-10",
+          "seconds",
+          "seek",
+          "jump",
+          "fast-forward",
+          "clockwise",
+          "media"
+        ],
+        "description": "Clockwise circular arrow with the number 10 inside and a corner arrowhead at the top right.",
+        "searchText": "arrowclockwiseten arrow clockwise ten skip-forward forward-10 seconds seek jump fast-forward clockwise media clockwise circular arrow with the number 10 inside and a corner arrowhead at the top right. media arrows"
+      },
+      {
+        "name": "ArrowClockwiseTenChevron",
+        "displayName": "Arrow clockwise ten chevron",
+        "path": "/icons/optimized/arrow-clockwise-ten-chevron.svg",
+        "filename": "arrow-clockwise-ten-chevron.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-forward",
+          "forward-10",
+          "seconds",
+          "seek",
+          "jump",
+          "fast-forward",
+          "clockwise",
+          "media"
+        ],
+        "description": "Clockwise circular arrow with the number 10 inside and a chevron arrowhead leaving the circle at the top.",
+        "searchText": "arrowclockwisetenchevron arrow clockwise ten chevron skip-forward forward-10 seconds seek jump fast-forward clockwise media clockwise circular arrow with the number 10 inside and a chevron arrowhead leaving the circle at the top. media arrows"
+      },
+      {
+        "name": "ArrowClockwiseThirty",
+        "displayName": "Arrow clockwise thirty",
+        "path": "/icons/optimized/arrow-clockwise-thirty.svg",
+        "filename": "arrow-clockwise-thirty.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-forward",
+          "forward-30",
+          "seconds",
+          "seek",
+          "jump",
+          "fast-forward",
+          "clockwise",
+          "media"
+        ],
+        "description": "Clockwise circular arrow with the number 30 inside and a corner arrowhead at the top right.",
+        "searchText": "arrowclockwisethirty arrow clockwise thirty skip-forward forward-30 seconds seek jump fast-forward clockwise media clockwise circular arrow with the number 30 inside and a corner arrowhead at the top right. media arrows"
+      },
+      {
+        "name": "ArrowClockwiseThirtyChevron",
+        "displayName": "Arrow clockwise thirty chevron",
+        "path": "/icons/optimized/arrow-clockwise-thirty-chevron.svg",
+        "filename": "arrow-clockwise-thirty-chevron.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-forward",
+          "forward-30",
+          "seconds",
+          "seek",
+          "jump",
+          "fast-forward",
+          "clockwise",
+          "media"
+        ],
+        "description": "Clockwise circular arrow with the number 30 inside and a chevron arrowhead leaving the circle at the top.",
+        "searchText": "arrowclockwisethirtychevron arrow clockwise thirty chevron skip-forward forward-30 seconds seek jump fast-forward clockwise media clockwise circular arrow with the number 30 inside and a chevron arrowhead leaving the circle at the top. media arrows"
       },
       {
         "name": "ArrowClockwiseX",
@@ -3833,6 +3994,97 @@
         "searchText": "arrowcounterclockwisebottomoff arrow counterclockwise bottom off arrowcircle3slash arrow circle slash disabled mute restricted navigation blocked prohibition counterclockwise bottom off an arrow inside a circle with a diagonal slash, representing a restricted or unavailable navigation action. arrows"
       },
       {
+        "name": "ArrowCounterclockwiseChevron",
+        "displayName": "Arrow counterclockwise chevron",
+        "path": "/icons/optimized/arrow-counterclockwise-chevron.svg",
+        "filename": "arrow-counterclockwise-chevron.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "replay",
+          "restart",
+          "undo",
+          "rotate-left",
+          "again",
+          "counterclockwise",
+          "media"
+        ],
+        "description": "Counterclockwise circular arrow with a chevron arrowhead leaving the circle at the top.",
+        "searchText": "arrowcounterclockwisechevron arrow counterclockwise chevron replay restart undo rotate-left again counterclockwise media counterclockwise circular arrow with a chevron arrowhead leaving the circle at the top. media arrows"
+      },
+      {
+        "name": "ArrowCounterclockwiseFifteenDoubleChevron",
+        "displayName": "Arrow counterclockwise fifteen double chevron",
+        "path": "/icons/optimized/arrow-counterclockwise-fifteen-double-chevron.svg",
+        "filename": "arrow-counterclockwise-fifteen-double-chevron.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-back",
+          "back-15",
+          "seconds",
+          "seek",
+          "replay",
+          "rewind",
+          "counterclockwise",
+          "media"
+        ],
+        "description": "Counterclockwise circular arrow with the number 15 inside and a double chevron arrowhead leaving the circle at the top.",
+        "searchText": "arrowcounterclockwisefifteendoublechevron arrow counterclockwise fifteen double chevron skip-back back-15 seconds seek replay rewind counterclockwise media counterclockwise circular arrow with the number 15 inside and a double chevron arrowhead leaving the circle at the top. media arrows"
+      },
+      {
+        "name": "ArrowCounterclockwiseFive",
+        "displayName": "Arrow counterclockwise five",
+        "path": "/icons/optimized/arrow-counterclockwise-five.svg",
+        "filename": "arrow-counterclockwise-five.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-back",
+          "back-5",
+          "seconds",
+          "seek",
+          "replay",
+          "rewind",
+          "counterclockwise",
+          "media"
+        ],
+        "description": "Counterclockwise circular arrow with the number 5 inside and a corner arrowhead at the top left.",
+        "searchText": "arrowcounterclockwisefive arrow counterclockwise five skip-back back-5 seconds seek replay rewind counterclockwise media counterclockwise circular arrow with the number 5 inside and a corner arrowhead at the top left. media arrows"
+      },
+      {
+        "name": "ArrowCounterclockwiseFiveChevron",
+        "displayName": "Arrow counterclockwise five chevron",
+        "path": "/icons/optimized/arrow-counterclockwise-five-chevron.svg",
+        "filename": "arrow-counterclockwise-five-chevron.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-back",
+          "back-5",
+          "seconds",
+          "seek",
+          "replay",
+          "rewind",
+          "counterclockwise",
+          "media"
+        ],
+        "description": "Counterclockwise circular arrow with the number 5 inside and a chevron arrowhead leaving the circle at the top.",
+        "searchText": "arrowcounterclockwisefivechevron arrow counterclockwise five chevron skip-back back-5 seconds seek replay rewind counterclockwise media counterclockwise circular arrow with the number 5 inside and a chevron arrowhead leaving the circle at the top. media arrows"
+      },
+      {
         "name": "ArrowCounterclockwiseHexagon",
         "displayName": "Arrow counterclockwise hexagon",
         "path": "/icons/optimized/arrow-hexagon-1.svg",
@@ -3912,6 +4164,98 @@
         ],
         "description": "An arrow icon in a circle with a slash overlay, indicating a disabled or prohibited directional movement.",
         "searchText": "arrowcounterclockwiseoff arrow counterclockwise off arrowcircle4slash arrow circle slash disabled mute restricted prohibited blocked negative counterclockwise off an arrow icon in a circle with a slash overlay, indicating a disabled or prohibited directional movement. arrows"
+      },
+      {
+        "name": "ArrowCounterclockwiseTen",
+        "displayName": "Arrow counterclockwise ten",
+        "path": "/icons/optimized/arrow-counterclockwise-ten.svg",
+        "filename": "arrow-counterclockwise-ten.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-back",
+          "back-10",
+          "seconds",
+          "seek",
+          "replay",
+          "rewind",
+          "counterclockwise",
+          "media"
+        ],
+        "description": "Counterclockwise circular arrow with the number 10 inside and a corner arrowhead at the top left.",
+        "searchText": "arrowcounterclockwiseten arrow counterclockwise ten skip-back back-10 seconds seek replay rewind counterclockwise media counterclockwise circular arrow with the number 10 inside and a corner arrowhead at the top left. media arrows"
+      },
+      {
+        "name": "ArrowCounterclockwiseTenChevron",
+        "displayName": "Arrow counterclockwise ten chevron",
+        "path": "/icons/optimized/arrow-counterclockwise-ten-chevron.svg",
+        "filename": "arrow-counterclockwise-ten-chevron.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-back",
+          "back-10",
+          "seconds",
+          "seek",
+          "replay",
+          "rewind",
+          "counterclockwise",
+          "media"
+        ],
+        "description": "Counterclockwise circular arrow with the number 10 inside and a chevron arrowhead leaving the circle at the top.",
+        "searchText": "arrowcounterclockwisetenchevron arrow counterclockwise ten chevron skip-back back-10 seconds seek replay rewind counterclockwise media counterclockwise circular arrow with the number 10 inside and a chevron arrowhead leaving the circle at the top. media arrows"
+      },
+      {
+        "name": "ArrowCounterclockwiseThirty",
+        "displayName": "Arrow counterclockwise thirty",
+        "path": "/icons/optimized/arrow-counterclockwise-thirty.svg",
+        "filename": "arrow-counterclockwise-thirty.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-back",
+          "back-30",
+          "seconds",
+          "seek",
+          "replay",
+          "rewind",
+          "counterclockwise",
+          "media"
+        ],
+        "description": "Counterclockwise circular arrow with the number 30 inside and a corner arrowhead at the top left.",
+        "searchText": "arrowcounterclockwisethirty arrow counterclockwise thirty skip-back back-30 seconds seek replay rewind counterclockwise media counterclockwise circular arrow with the number 30 inside and a corner arrowhead at the top left. media arrows"
+      },
+      {
+        "name": "ArrowCounterclockwiseThirtyChevron",
+        "displayName": "Arrow counterclockwise thirty chevron",
+        "path": "/icons/optimized/arrow-counterclockwise-thirty-chevron.svg",
+        "filename": "arrow-counterclockwise-thirty-chevron.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "skip-back",
+          "back-30",
+          "seconds",
+          "seek",
+          "replay",
+          "rewind",
+          "counterclockwise",
+          "media"
+        ],
+        "description": "Counterclockwise circular arrow with the number 30 inside and a chevron arrowhead leaving the circle at the top.",
+        "searchText": "arrowcounterclockwisethirtychevron arrow counterclockwise thirty chevron skip-back back-30 seconds seek replay rewind counterclockwise media counterclockwise circular arrow with the number 30 inside and a chevron arrowhead leaving the circle at the top. media arrows"
       },
       {
         "name": "ArrowCycle",
@@ -4358,6 +4702,27 @@
         "searchText": "arrowrepeatcompactoff arrow repeat compact off arrowsrepeat3slash arrow arrows slash disabled mute repeat refresh cancel rotate compact off a triple-arrow repeat icon with a diagonal slash indicating disabled or cancelled rotation arrows"
       },
       {
+        "name": "ArrowRepeatCurved",
+        "displayName": "Arrow repeat curved",
+        "path": "/icons/optimized/arrow-repeat-curved.svg",
+        "filename": "arrow-repeat-curved.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "repeat",
+          "loop",
+          "replay",
+          "cycle",
+          "playlist",
+          "media"
+        ],
+        "description": "Two arrows forming an oval loop with curved ends, the top one pointing right and the bottom one left.",
+        "searchText": "arrowrepeatcurved arrow repeat curved repeat loop replay cycle playlist media two arrows forming an oval loop with curved ends, the top one pointing right and the bottom one left. media arrows"
+      },
+      {
         "name": "ArrowRepeatOff",
         "displayName": "Arrow repeat off",
         "path": "/icons/optimized/arrows-repeat-1-slash.svg",
@@ -4383,6 +4748,71 @@
         ],
         "description": "A repeat rotation arrows icon with slash indicating disabled or unavailable refresh functionality",
         "searchText": "arrowrepeatoff arrow repeat off arrowsrepeatslash arrow arrows slash disabled mute repeat refresh rotation unavailable off a repeat rotation arrows icon with slash indicating disabled or unavailable refresh functionality arrows"
+      },
+      {
+        "name": "ArrowRepeatOneCurved",
+        "displayName": "Arrow repeat one curved",
+        "path": "/icons/optimized/arrow-repeat-one-curved.svg",
+        "filename": "arrow-repeat-one-curved.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "repeat-one",
+          "repeat",
+          "loop",
+          "single",
+          "track",
+          "playlist",
+          "media"
+        ],
+        "description": "Two arrows forming an oval loop with curved ends, the top one pointing right and the bottom one left, with the digit 1 inside.",
+        "searchText": "arrowrepeatonecurved arrow repeat one curved repeat-one repeat loop single track playlist media two arrows forming an oval loop with curved ends, the top one pointing right and the bottom one left, with the digit 1 inside. media arrows"
+      },
+      {
+        "name": "ArrowRepeatOneTall",
+        "displayName": "Arrow repeat one tall",
+        "path": "/icons/optimized/arrow-repeat-one-tall.svg",
+        "filename": "arrow-repeat-one-tall.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "repeat-one",
+          "repeat",
+          "loop",
+          "single",
+          "track",
+          "playlist",
+          "media"
+        ],
+        "description": "Two arrows forming a tall loop with rounded corners, the top one pointing right and the bottom one left, with the digit 1 inside.",
+        "searchText": "arrowrepeatonetall arrow repeat one tall repeat-one repeat loop single track playlist media two arrows forming a tall loop with rounded corners, the top one pointing right and the bottom one left, with the digit 1 inside. media arrows"
+      },
+      {
+        "name": "ArrowRepeatTall",
+        "displayName": "Arrow repeat tall",
+        "path": "/icons/optimized/arrow-repeat-tall.svg",
+        "filename": "arrow-repeat-tall.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "repeat",
+          "loop",
+          "replay",
+          "cycle",
+          "playlist",
+          "media"
+        ],
+        "description": "Two arrows forming a tall loop with rounded corners, the top one pointing right and the bottom one left.",
+        "searchText": "arrowrepeattall arrow repeat tall repeat loop replay cycle playlist media two arrows forming a tall loop with rounded corners, the top one pointing right and the bottom one left. media arrows"
       },
       {
         "name": "ArrowRepeatVertical",
@@ -4516,6 +4946,28 @@
         ],
         "description": "A square icon with an arrow pointing to the right",
         "searchText": "arrowrightsquare arrow right square squarearrowright arrow square right direction navigation forward next a square icon with an arrow pointing to the right arrows"
+      },
+      {
+        "name": "ArrowShuffle",
+        "displayName": "Arrow shuffle",
+        "path": "/icons/optimized/arrow-shuffle.svg",
+        "filename": "arrow-shuffle.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "arrows"
+        ],
+        "tags": [
+          "shuffle",
+          "random",
+          "mix",
+          "crossing",
+          "playlist",
+          "arrows",
+          "media"
+        ],
+        "description": "Two arrows crossing each other, both pointing right.",
+        "searchText": "arrowshuffle arrow shuffle shuffle random mix crossing playlist arrows media two arrows crossing each other, both pointing right. media arrows"
       },
       {
         "name": "ArrowSyncCircle",
@@ -28741,6 +29193,188 @@
         "searchText": "dragimage drag image dragdropimage drag drop image upload move picture interaction a drag and drop icon specifically for image operations, enabling image upload or repositioning. interface"
       },
       {
+        "name": "Eject",
+        "displayName": "Eject",
+        "path": "/icons/optimized/eject.svg",
+        "filename": "eject.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "eject",
+          "unmount",
+          "remove",
+          "disc",
+          "open",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Triangle pointing up above a horizontal bar.",
+        "searchText": "eject eject eject unmount remove disc open player media control triangle pointing up above a horizontal bar. media"
+      },
+      {
+        "name": "EjectCircle",
+        "displayName": "Eject circle",
+        "path": "/icons/optimized/eject-circle.svg",
+        "filename": "eject-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "eject",
+          "unmount",
+          "remove",
+          "disc",
+          "open",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Triangle pointing up above a horizontal bar inside a circle.",
+        "searchText": "ejectcircle eject circle eject unmount remove disc open player media circle round triangle pointing up above a horizontal bar inside a circle. media"
+      },
+      {
+        "name": "EjectDown",
+        "displayName": "Eject down",
+        "path": "/icons/optimized/eject-down.svg",
+        "filename": "eject-down.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "insert",
+          "load",
+          "mount",
+          "eject",
+          "down",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Horizontal bar above a triangle pointing down.",
+        "searchText": "ejectdown eject down insert load mount eject down player media control horizontal bar above a triangle pointing down. media"
+      },
+      {
+        "name": "EjectDownCircle",
+        "displayName": "Eject down circle",
+        "path": "/icons/optimized/eject-down-circle.svg",
+        "filename": "eject-down-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "insert",
+          "load",
+          "mount",
+          "eject",
+          "down",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Horizontal bar above a triangle pointing down inside a circle.",
+        "searchText": "ejectdowncircle eject down circle insert load mount eject down player media circle round horizontal bar above a triangle pointing down inside a circle. media"
+      },
+      {
+        "name": "EjectDownSquare",
+        "displayName": "Eject down square",
+        "path": "/icons/optimized/eject-down-square.svg",
+        "filename": "eject-down-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "insert",
+          "load",
+          "mount",
+          "eject",
+          "down",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Horizontal bar above a triangle pointing down inside a rounded square.",
+        "searchText": "ejectdownsquare eject down square insert load mount eject down player media square button horizontal bar above a triangle pointing down inside a rounded square. media"
+      },
+      {
+        "name": "EjectDownThick",
+        "displayName": "Eject down thick",
+        "path": "/icons/optimized/eject-down-thick.svg",
+        "filename": "eject-down-thick.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "insert",
+          "load",
+          "mount",
+          "eject",
+          "down",
+          "player",
+          "media",
+          "bold",
+          "thick"
+        ],
+        "description": "Horizontal bar above a triangle pointing down, with the bars drawn as thick outlined bars.",
+        "searchText": "ejectdownthick eject down thick insert load mount eject down player media bold thick horizontal bar above a triangle pointing down, with the bars drawn as thick outlined bars. media"
+      },
+      {
+        "name": "EjectSquare",
+        "displayName": "Eject square",
+        "path": "/icons/optimized/eject-square.svg",
+        "filename": "eject-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "eject",
+          "unmount",
+          "remove",
+          "disc",
+          "open",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Triangle pointing up above a horizontal bar inside a rounded square.",
+        "searchText": "ejectsquare eject square eject unmount remove disc open player media square button triangle pointing up above a horizontal bar inside a rounded square. media"
+      },
+      {
+        "name": "EjectThick",
+        "displayName": "Eject thick",
+        "path": "/icons/optimized/eject-thick.svg",
+        "filename": "eject-thick.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "eject",
+          "unmount",
+          "remove",
+          "disc",
+          "open",
+          "player",
+          "media",
+          "bold",
+          "thick"
+        ],
+        "description": "Triangle pointing up above a horizontal bar, with the bars drawn as thick outlined bars.",
+        "searchText": "ejectthick eject thick eject unmount remove disc open player media bold thick triangle pointing up above a horizontal bar, with the bars drawn as thick outlined bars. media"
+      },
+      {
         "name": "Ethernet",
         "displayName": "Ethernet",
         "path": "/icons/optimized/ethernet-settings.svg",
@@ -29338,6 +29972,74 @@
         ],
         "description": "A frequently asked questions icon using speech bubbles to represent help dialogue, support conversations, or Q&A functionality",
         "searchText": "faqchat faq chat faqbubbles faq speech bubbles frequently-asked-questions help support dialogue conversation communication chat a frequently asked questions icon using speech bubbles to represent help dialogue, support conversations, or q&a functionality communication"
+      },
+      {
+        "name": "FastForward",
+        "displayName": "Fast forward",
+        "path": "/icons/optimized/fast-forward.svg",
+        "filename": "fast-forward.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "fast-forward",
+          "forward",
+          "seek",
+          "speed",
+          "skip",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Two triangles pointing right.",
+        "searchText": "fastforward fast forward fast-forward forward seek speed skip player media control two triangles pointing right. media"
+      },
+      {
+        "name": "FastForwardCircle",
+        "displayName": "Fast forward circle",
+        "path": "/icons/optimized/fast-forward-circle.svg",
+        "filename": "fast-forward-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "fast-forward",
+          "forward",
+          "seek",
+          "speed",
+          "skip",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Two triangles pointing right inside a circle.",
+        "searchText": "fastforwardcircle fast forward circle fast-forward forward seek speed skip player media circle round two triangles pointing right inside a circle. media"
+      },
+      {
+        "name": "FastForwardSquare",
+        "displayName": "Fast forward square",
+        "path": "/icons/optimized/fast-forward-square.svg",
+        "filename": "fast-forward-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "fast-forward",
+          "forward",
+          "seek",
+          "speed",
+          "skip",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Two triangles pointing right inside a rounded square.",
+        "searchText": "fastforwardsquare fast forward square fast-forward forward seek speed skip player media square button two triangles pointing right inside a rounded square. media"
       },
       {
         "name": "FilterLines",
@@ -41475,6 +42177,377 @@
         "searchText": "menutwolines menu two lines menutwostripes1 menu stripes two navigation interface hamburger a menu icon with two horizontal stripes in a standard style interface"
       },
       {
+        "name": "Microphone",
+        "displayName": "Microphone",
+        "path": "/icons/optimized/microphone.svg",
+        "filename": "microphone.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "speak",
+          "podcast"
+        ],
+        "description": "Microphone with a rounded capsule, holder arc, stem and foot.",
+        "searchText": "microphone microphone microphone mic audio voice record speak podcast microphone with a rounded capsule, holder arc, stem and foot. media communication"
+      },
+      {
+        "name": "MicrophoneBan",
+        "displayName": "Microphone ban",
+        "path": "/icons/optimized/microphone-ban.svg",
+        "filename": "microphone-ban.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "blocked",
+          "not-allowed",
+          "disabled"
+        ],
+        "description": "Microphone with a rounded capsule, holder arc, stem and foot, with a ban sign at the lower right.",
+        "searchText": "microphoneban microphone ban microphone mic audio voice record blocked not-allowed disabled microphone with a rounded capsule, holder arc, stem and foot, with a ban sign at the lower right. media communication"
+      },
+      {
+        "name": "MicrophoneBanBare",
+        "displayName": "Microphone ban bare",
+        "path": "/icons/optimized/microphone-ban-bare.svg",
+        "filename": "microphone-ban-bare.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "blocked",
+          "not-allowed",
+          "disabled"
+        ],
+        "description": "Microphone with a rounded capsule, holder arc and stem, without a foot, with a ban sign at the lower right.",
+        "searchText": "microphonebanbare microphone ban bare microphone mic audio voice record blocked not-allowed disabled microphone with a rounded capsule, holder arc and stem, without a foot, with a ban sign at the lower right. media communication"
+      },
+      {
+        "name": "MicrophoneBanBoxy",
+        "displayName": "Microphone ban boxy",
+        "path": "/icons/optimized/microphone-ban-boxy.svg",
+        "filename": "microphone-ban-boxy.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "blocked",
+          "not-allowed",
+          "disabled"
+        ],
+        "description": "Microphone with a squarer capsule, wide holder arc, stem and foot, with a ban sign at the lower right.",
+        "searchText": "microphonebanboxy microphone ban boxy microphone mic audio voice record blocked not-allowed disabled microphone with a squarer capsule, wide holder arc, stem and foot, with a ban sign at the lower right. media communication"
+      },
+      {
+        "name": "MicrophoneBanGrille",
+        "displayName": "Microphone ban grille",
+        "path": "/icons/optimized/microphone-ban-grille.svg",
+        "filename": "microphone-ban-grille.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "blocked",
+          "not-allowed",
+          "disabled",
+          "studio",
+          "podcast"
+        ],
+        "description": "Studio microphone with grille lines on the capsule, stem and foot, with a ban sign at the lower right.",
+        "searchText": "microphonebangrille microphone ban grille microphone mic audio voice record blocked not-allowed disabled studio podcast studio microphone with grille lines on the capsule, stem and foot, with a ban sign at the lower right. media communication"
+      },
+      {
+        "name": "MicrophoneBare",
+        "displayName": "Microphone bare",
+        "path": "/icons/optimized/microphone-bare.svg",
+        "filename": "microphone-bare.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "speak",
+          "podcast"
+        ],
+        "description": "Microphone with a rounded capsule, holder arc and stem, without a foot.",
+        "searchText": "microphonebare microphone bare microphone mic audio voice record speak podcast microphone with a rounded capsule, holder arc and stem, without a foot. media communication"
+      },
+      {
+        "name": "MicrophoneBoxy",
+        "displayName": "Microphone boxy",
+        "path": "/icons/optimized/microphone-boxy.svg",
+        "filename": "microphone-boxy.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "speak",
+          "podcast"
+        ],
+        "description": "Microphone with a squarer capsule, wide holder arc, stem and foot.",
+        "searchText": "microphoneboxy microphone boxy microphone mic audio voice record speak podcast microphone with a squarer capsule, wide holder arc, stem and foot. media communication"
+      },
+      {
+        "name": "MicrophoneGrille",
+        "displayName": "Microphone grille",
+        "path": "/icons/optimized/microphone-grille.svg",
+        "filename": "microphone-grille.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "studio",
+          "podcast",
+          "speak"
+        ],
+        "description": "Studio microphone with grille lines on the capsule, stem and foot.",
+        "searchText": "microphonegrille microphone grille microphone mic audio voice record studio podcast speak studio microphone with grille lines on the capsule, stem and foot. media communication"
+      },
+      {
+        "name": "MicrophoneOff",
+        "displayName": "Microphone off",
+        "path": "/icons/optimized/microphone-off.svg",
+        "filename": "microphone-off.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "mute",
+          "muted",
+          "off"
+        ],
+        "description": "Microphone with a rounded capsule, holder arc, stem and foot, crossed by a diagonal slash.",
+        "searchText": "microphoneoff microphone off microphone mic audio voice record mute muted off microphone with a rounded capsule, holder arc, stem and foot, crossed by a diagonal slash. media communication"
+      },
+      {
+        "name": "MicrophoneOffBare",
+        "displayName": "Microphone off bare",
+        "path": "/icons/optimized/microphone-off-bare.svg",
+        "filename": "microphone-off-bare.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "mute",
+          "muted",
+          "off"
+        ],
+        "description": "Microphone with a rounded capsule, holder arc and stem, without a foot, crossed by a diagonal slash.",
+        "searchText": "microphoneoffbare microphone off bare microphone mic audio voice record mute muted off microphone with a rounded capsule, holder arc and stem, without a foot, crossed by a diagonal slash. media communication"
+      },
+      {
+        "name": "MicrophoneOffBoxy",
+        "displayName": "Microphone off boxy",
+        "path": "/icons/optimized/microphone-off-boxy.svg",
+        "filename": "microphone-off-boxy.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "mute",
+          "muted",
+          "off"
+        ],
+        "description": "Microphone with a squarer capsule, wide holder arc, stem and foot, crossed by a diagonal slash.",
+        "searchText": "microphoneoffboxy microphone off boxy microphone mic audio voice record mute muted off microphone with a squarer capsule, wide holder arc, stem and foot, crossed by a diagonal slash. media communication"
+      },
+      {
+        "name": "MicrophoneOffGrille",
+        "displayName": "Microphone off grille",
+        "path": "/icons/optimized/microphone-off-grille.svg",
+        "filename": "microphone-off-grille.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "mute",
+          "muted",
+          "off",
+          "studio",
+          "podcast"
+        ],
+        "description": "Studio microphone with grille lines on the capsule, stem and foot, crossed by a diagonal slash.",
+        "searchText": "microphoneoffgrille microphone off grille microphone mic audio voice record mute muted off studio podcast studio microphone with grille lines on the capsule, stem and foot, crossed by a diagonal slash. media communication"
+      },
+      {
+        "name": "MicrophonePlayCircle",
+        "displayName": "Microphone play circle",
+        "path": "/icons/optimized/microphone-play-circle.svg",
+        "filename": "microphone-play-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "play",
+          "playback",
+          "listen"
+        ],
+        "description": "Microphone with a rounded capsule, holder arc, stem and foot, with a play triangle in a circle at the lower right.",
+        "searchText": "microphoneplaycircle microphone play circle microphone mic audio voice record play playback listen microphone with a rounded capsule, holder arc, stem and foot, with a play triangle in a circle at the lower right. media communication"
+      },
+      {
+        "name": "MicrophonePlayCircleBare",
+        "displayName": "Microphone play circle bare",
+        "path": "/icons/optimized/microphone-play-circle-bare.svg",
+        "filename": "microphone-play-circle-bare.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "play",
+          "playback",
+          "listen"
+        ],
+        "description": "Microphone with a rounded capsule, holder arc and stem, without a foot, with a play triangle in a circle at the lower right.",
+        "searchText": "microphoneplaycirclebare microphone play circle bare microphone mic audio voice record play playback listen microphone with a rounded capsule, holder arc and stem, without a foot, with a play triangle in a circle at the lower right. media communication"
+      },
+      {
+        "name": "MicrophonePlayCircleBoxy",
+        "displayName": "Microphone play circle boxy",
+        "path": "/icons/optimized/microphone-play-circle-boxy.svg",
+        "filename": "microphone-play-circle-boxy.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "play",
+          "playback",
+          "listen"
+        ],
+        "description": "Microphone with a squarer capsule, wide holder arc, stem and foot, with a play triangle in a circle at the lower right.",
+        "searchText": "microphoneplaycircleboxy microphone play circle boxy microphone mic audio voice record play playback listen microphone with a squarer capsule, wide holder arc, stem and foot, with a play triangle in a circle at the lower right. media communication"
+      },
+      {
+        "name": "MicrophonePlayCircleGrille",
+        "displayName": "Microphone play circle grille",
+        "path": "/icons/optimized/microphone-play-circle-grille.svg",
+        "filename": "microphone-play-circle-grille.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "microphone",
+          "mic",
+          "audio",
+          "voice",
+          "record",
+          "play",
+          "playback",
+          "listen",
+          "studio",
+          "podcast"
+        ],
+        "description": "Studio microphone with grille lines on the capsule, stem and foot, with a play triangle in a circle at the lower right.",
+        "searchText": "microphoneplaycirclegrille microphone play circle grille microphone mic audio voice record play playback listen studio podcast studio microphone with grille lines on the capsule, stem and foot, with a play triangle in a circle at the lower right. media communication"
+      },
+      {
         "name": "Minimize",
         "displayName": "Minimize",
         "path": "/icons/optimized/window-control-minimize.svg",
@@ -43519,6 +44592,97 @@
         "searchText": "paneltop panel top toolbarshowtoppanel panel toolbar show pannel top reveal display ui a toolbar icon for showing or revealing the top panel in an application interface interface"
       },
       {
+        "name": "Pause",
+        "displayName": "Pause",
+        "path": "/icons/optimized/pause.svg",
+        "filename": "pause.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "pause",
+          "hold",
+          "break",
+          "player",
+          "video",
+          "audio",
+          "media",
+          "control"
+        ],
+        "description": "Two vertical bars.",
+        "searchText": "pause pause pause hold break player video audio media control two vertical bars. media"
+      },
+      {
+        "name": "PauseCircle",
+        "displayName": "Pause circle",
+        "path": "/icons/optimized/pause-circle.svg",
+        "filename": "pause-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "pause",
+          "hold",
+          "break",
+          "player",
+          "video",
+          "audio",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Two vertical bars inside a circle.",
+        "searchText": "pausecircle pause circle pause hold break player video audio media circle round two vertical bars inside a circle. media"
+      },
+      {
+        "name": "PauseSquare",
+        "displayName": "Pause square",
+        "path": "/icons/optimized/pause-square.svg",
+        "filename": "pause-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "pause",
+          "hold",
+          "break",
+          "player",
+          "video",
+          "audio",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Two vertical bars inside a rounded square.",
+        "searchText": "pausesquare pause square pause hold break player video audio media square button two vertical bars inside a rounded square. media"
+      },
+      {
+        "name": "PauseThick",
+        "displayName": "Pause thick",
+        "path": "/icons/optimized/pause-thick.svg",
+        "filename": "pause-thick.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "pause",
+          "hold",
+          "break",
+          "player",
+          "video",
+          "audio",
+          "media",
+          "bold",
+          "thick"
+        ],
+        "description": "Two vertical bars, with the bars drawn as thick outlined bars.",
+        "searchText": "pausethick pause thick pause hold break player video audio media bold thick two vertical bars, with the bars drawn as thick outlined bars. media"
+      },
+      {
         "name": "Pencil",
         "displayName": "Pencil",
         "path": "/icons/optimized/pencil-edit-1.svg",
@@ -44016,6 +45180,51 @@
         ],
         "description": "A plaque or badge icon representing the second category classification or organizational grouping",
         "searchText": "plaquetight plaque tight plaquecategory2 plaque category badge classification group tag label folder organize tight a plaque or badge icon representing the second category classification or organizational grouping business"
+      },
+      {
+        "name": "Play",
+        "displayName": "Play",
+        "path": "/icons/optimized/play.svg",
+        "filename": "play.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "play",
+          "start",
+          "resume",
+          "player",
+          "video",
+          "audio",
+          "media",
+          "control"
+        ],
+        "description": "Triangle pointing right.",
+        "searchText": "play play play start resume player video audio media control triangle pointing right. media"
+      },
+      {
+        "name": "PlaySquare",
+        "displayName": "Play square",
+        "path": "/icons/optimized/play-square.svg",
+        "filename": "play-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "play",
+          "start",
+          "resume",
+          "player",
+          "video",
+          "audio",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Triangle pointing right inside a rounded square.",
+        "searchText": "playsquare play square play start resume player video audio media square button triangle pointing right inside a rounded square. media"
       },
       {
         "name": "Plus",
@@ -45703,6 +46912,162 @@
         "searchText": "ratioonetoone ratio one to one pagevieworiginalratio ratio page view original size aspect scale one a page view icon representing original size at a 1 to 1 aspect ratio interface"
       },
       {
+        "name": "RecordOff",
+        "displayName": "Record off",
+        "path": "/icons/optimized/record-off.svg",
+        "filename": "record-off.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "record",
+          "recording-off",
+          "stop-recording",
+          "no-recording",
+          "disabled",
+          "media",
+          "control"
+        ],
+        "description": "Record dot crossed by a diagonal slash.",
+        "searchText": "recordoff record off record recording-off stop-recording no-recording disabled media control record dot crossed by a diagonal slash. media"
+      },
+      {
+        "name": "RecordOffCircle",
+        "displayName": "Record off circle",
+        "path": "/icons/optimized/record-off-circle.svg",
+        "filename": "record-off-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "record",
+          "recording-off",
+          "stop-recording",
+          "no-recording",
+          "disabled",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Record dot crossed by a diagonal slash inside a circle.",
+        "searchText": "recordoffcircle record off circle record recording-off stop-recording no-recording disabled media circle round record dot crossed by a diagonal slash inside a circle. media"
+      },
+      {
+        "name": "RecordOffSquare",
+        "displayName": "Record off square",
+        "path": "/icons/optimized/record-off-square.svg",
+        "filename": "record-off-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "record",
+          "recording-off",
+          "stop-recording",
+          "no-recording",
+          "disabled",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Record dot crossed by a diagonal slash inside a rounded square.",
+        "searchText": "recordoffsquare record off square record recording-off stop-recording no-recording disabled media square button record dot crossed by a diagonal slash inside a rounded square. media"
+      },
+      {
+        "name": "RecordRing",
+        "displayName": "Record ring",
+        "path": "/icons/optimized/record-ring.svg",
+        "filename": "record-ring.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "record",
+          "recording",
+          "live",
+          "on-air",
+          "broadcast",
+          "sound",
+          "media",
+          "control"
+        ],
+        "description": "Record dot with a sound arc on its right.",
+        "searchText": "recordring record ring record recording live on-air broadcast sound media control record dot with a sound arc on its right. media"
+      },
+      {
+        "name": "RecordRingCircle",
+        "displayName": "Record ring circle",
+        "path": "/icons/optimized/record-ring-circle.svg",
+        "filename": "record-ring-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "record",
+          "recording",
+          "live",
+          "on-air",
+          "broadcast",
+          "sound",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Record dot with a sound arc on its right inside a circle.",
+        "searchText": "recordringcircle record ring circle record recording live on-air broadcast sound media circle round record dot with a sound arc on its right inside a circle. media"
+      },
+      {
+        "name": "RecordRingSquare",
+        "displayName": "Record ring square",
+        "path": "/icons/optimized/record-ring-square.svg",
+        "filename": "record-ring-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "record",
+          "recording",
+          "live",
+          "on-air",
+          "broadcast",
+          "sound",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Record dot with a sound arc on its right inside a rounded square.",
+        "searchText": "recordringsquare record ring square record recording live on-air broadcast sound media square button record dot with a sound arc on its right inside a rounded square. media"
+      },
+      {
+        "name": "RecordSquare",
+        "displayName": "Record square",
+        "path": "/icons/optimized/record-square.svg",
+        "filename": "record-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "record",
+          "recording",
+          "rec",
+          "capture",
+          "video",
+          "audio",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Round record dot inside a rounded square.",
+        "searchText": "recordsquare record square record recording rec capture video audio media square button round record dot inside a rounded square. media"
+      },
+      {
         "name": "Replace",
         "displayName": "Replace",
         "path": "/icons/optimized/replace-exchange-1.svg",
@@ -46027,6 +47392,74 @@
         ],
         "description": "A restore icon with two circular arrows pointing counterclockwise, indicating bidirectional refresh or sync functionality.",
         "searchText": "restoresynccounterclockwise restore sync counterclockwise restoredtwoarrowscounterclockwise restore two arrows circle synchronize two-arrows counterclockwise refresh sync bidirectional rotation a restore icon with two circular arrows pointing counterclockwise, indicating bidirectional refresh or sync functionality. arrows"
+      },
+      {
+        "name": "Rewind",
+        "displayName": "Rewind",
+        "path": "/icons/optimized/rewind.svg",
+        "filename": "rewind.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "rewind",
+          "back",
+          "seek",
+          "reverse",
+          "skip",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Two triangles pointing left.",
+        "searchText": "rewind rewind rewind back seek reverse skip player media control two triangles pointing left. media"
+      },
+      {
+        "name": "RewindCircle",
+        "displayName": "Rewind circle",
+        "path": "/icons/optimized/rewind-circle.svg",
+        "filename": "rewind-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "rewind",
+          "back",
+          "seek",
+          "reverse",
+          "skip",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Two triangles pointing left inside a circle.",
+        "searchText": "rewindcircle rewind circle rewind back seek reverse skip player media circle round two triangles pointing left inside a circle. media"
+      },
+      {
+        "name": "RewindSquare",
+        "displayName": "Rewind square",
+        "path": "/icons/optimized/rewind-square.svg",
+        "filename": "rewind-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "rewind",
+          "back",
+          "seek",
+          "reverse",
+          "skip",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Two triangles pointing left inside a rounded square.",
+        "searchText": "rewindsquare rewind square rewind back seek reverse skip player media square button two triangles pointing left inside a rounded square. media"
       },
       {
         "name": "RotateScreen",
@@ -49242,6 +50675,48 @@
         "searchText": "signalarcsdot signal arcs dot signalwaveconcentric2 signal wave semi circles concentric unread badge semi-circles wireless broadcast connectivity arcs a signal wave icon with concentric semi-circles representing wireless transmission strength at the second level. communication"
       },
       {
+        "name": "SignalBars",
+        "displayName": "Signal bars",
+        "path": "/icons/optimized/signal-bars.svg",
+        "filename": "signal-bars.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "volume",
+          "level",
+          "signal",
+          "bars",
+          "strength",
+          "equalizer",
+          "audio"
+        ],
+        "description": "Five vertical bars rising in height from left to right.",
+        "searchText": "signalbars signal bars volume level signal bars strength equalizer audio five vertical bars rising in height from left to right. media"
+      },
+      {
+        "name": "SignalBarsSquare",
+        "displayName": "Signal bars square",
+        "path": "/icons/optimized/signal-bars-square.svg",
+        "filename": "signal-bars-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "volume",
+          "level",
+          "signal",
+          "bars",
+          "meter",
+          "equalizer",
+          "audio"
+        ],
+        "description": "Four vertical bars rising in height inside a rounded rectangle.",
+        "searchText": "signalbarssquare signal bars square volume level signal bars meter equalizer audio four vertical bars rising in height inside a rounded rectangle. media"
+      },
+      {
         "name": "Siren",
         "displayName": "Siren",
         "path": "/icons/optimized/siren-alarm-alert-notification-1.svg",
@@ -49316,6 +50791,188 @@
         "searchText": "skip skip skiplineover1 skip over objects bypass navigation forward pass a skip or bypass icon with a line passing over objects, first variant arrows"
       },
       {
+        "name": "SkipBack",
+        "displayName": "Skip back",
+        "path": "/icons/optimized/skip-back.svg",
+        "filename": "skip-back.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "previous",
+          "previous-track",
+          "back",
+          "playlist",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Vertical bar with a triangle pointing left against it.",
+        "searchText": "skipback skip back skip previous previous-track back playlist player media control vertical bar with a triangle pointing left against it. media"
+      },
+      {
+        "name": "SkipBackCircle",
+        "displayName": "Skip back circle",
+        "path": "/icons/optimized/skip-back-circle.svg",
+        "filename": "skip-back-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "previous",
+          "previous-track",
+          "back",
+          "playlist",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Vertical bar with a triangle pointing left against it inside a circle.",
+        "searchText": "skipbackcircle skip back circle skip previous previous-track back playlist player media circle round vertical bar with a triangle pointing left against it inside a circle. media"
+      },
+      {
+        "name": "SkipBackDouble",
+        "displayName": "Skip back double",
+        "path": "/icons/optimized/skip-back-double.svg",
+        "filename": "skip-back-double.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "previous",
+          "beginning",
+          "first",
+          "rewind",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Vertical bar with two triangles pointing left against it.",
+        "searchText": "skipbackdouble skip back double skip previous beginning first rewind player media control vertical bar with two triangles pointing left against it. media"
+      },
+      {
+        "name": "SkipBackDoubleCircle",
+        "displayName": "Skip back double circle",
+        "path": "/icons/optimized/skip-back-double-circle.svg",
+        "filename": "skip-back-double-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "previous",
+          "beginning",
+          "first",
+          "rewind",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Vertical bar with two triangles pointing left against it inside a circle.",
+        "searchText": "skipbackdoublecircle skip back double circle skip previous beginning first rewind player media circle round vertical bar with two triangles pointing left against it inside a circle. media"
+      },
+      {
+        "name": "SkipBackDoubleSquare",
+        "displayName": "Skip back double square",
+        "path": "/icons/optimized/skip-back-double-square.svg",
+        "filename": "skip-back-double-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "previous",
+          "beginning",
+          "first",
+          "rewind",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Vertical bar with two triangles pointing left against it inside a rounded square.",
+        "searchText": "skipbackdoublesquare skip back double square skip previous beginning first rewind player media square button vertical bar with two triangles pointing left against it inside a rounded square. media"
+      },
+      {
+        "name": "SkipBackDoubleThick",
+        "displayName": "Skip back double thick",
+        "path": "/icons/optimized/skip-back-double-thick.svg",
+        "filename": "skip-back-double-thick.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "previous",
+          "beginning",
+          "first",
+          "rewind",
+          "player",
+          "media",
+          "bold",
+          "thick"
+        ],
+        "description": "Vertical bar with two triangles pointing left against it, with the bars drawn as thick outlined bars.",
+        "searchText": "skipbackdoublethick skip back double thick skip previous beginning first rewind player media bold thick vertical bar with two triangles pointing left against it, with the bars drawn as thick outlined bars. media"
+      },
+      {
+        "name": "SkipBackSquare",
+        "displayName": "Skip back square",
+        "path": "/icons/optimized/skip-back-square.svg",
+        "filename": "skip-back-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "previous",
+          "previous-track",
+          "back",
+          "playlist",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Vertical bar with a triangle pointing left against it inside a rounded square.",
+        "searchText": "skipbacksquare skip back square skip previous previous-track back playlist player media square button vertical bar with a triangle pointing left against it inside a rounded square. media"
+      },
+      {
+        "name": "SkipBackThick",
+        "displayName": "Skip back thick",
+        "path": "/icons/optimized/skip-back-thick.svg",
+        "filename": "skip-back-thick.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "previous",
+          "previous-track",
+          "back",
+          "playlist",
+          "player",
+          "media",
+          "bold",
+          "thick"
+        ],
+        "description": "Vertical bar with a triangle pointing left against it, with the bars drawn as thick outlined bars.",
+        "searchText": "skipbackthick skip back thick skip previous previous-track back playlist player media bold thick vertical bar with a triangle pointing left against it, with the bars drawn as thick outlined bars. media"
+      },
+      {
         "name": "SkipCircles",
         "displayName": "Skip circles",
         "path": "/icons/optimized/skip-line-over-objects-3.svg",
@@ -49339,6 +50996,188 @@
         ],
         "description": "A skip or bypass icon with a line passing over objects, third variant",
         "searchText": "skipcircles skip circles skiplineover3 skip over objects bypass navigation forward pass circles a skip or bypass icon with a line passing over objects, third variant arrows"
+      },
+      {
+        "name": "SkipForward",
+        "displayName": "Skip forward",
+        "path": "/icons/optimized/skip-forward.svg",
+        "filename": "skip-forward.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "next",
+          "next-track",
+          "forward",
+          "playlist",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Triangle pointing right against a vertical bar.",
+        "searchText": "skipforward skip forward skip next next-track forward playlist player media control triangle pointing right against a vertical bar. media"
+      },
+      {
+        "name": "SkipForwardCircle",
+        "displayName": "Skip forward circle",
+        "path": "/icons/optimized/skip-forward-circle.svg",
+        "filename": "skip-forward-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "next",
+          "next-track",
+          "forward",
+          "playlist",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Triangle pointing right against a vertical bar inside a circle.",
+        "searchText": "skipforwardcircle skip forward circle skip next next-track forward playlist player media circle round triangle pointing right against a vertical bar inside a circle. media"
+      },
+      {
+        "name": "SkipForwardDouble",
+        "displayName": "Skip forward double",
+        "path": "/icons/optimized/skip-forward-double.svg",
+        "filename": "skip-forward-double.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "next",
+          "end",
+          "last",
+          "fast-forward",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Two triangles pointing right against a vertical bar.",
+        "searchText": "skipforwarddouble skip forward double skip next end last fast-forward player media control two triangles pointing right against a vertical bar. media"
+      },
+      {
+        "name": "SkipForwardDoubleCircle",
+        "displayName": "Skip forward double circle",
+        "path": "/icons/optimized/skip-forward-double-circle.svg",
+        "filename": "skip-forward-double-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "next",
+          "end",
+          "last",
+          "fast-forward",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Two triangles pointing right against a vertical bar inside a circle.",
+        "searchText": "skipforwarddoublecircle skip forward double circle skip next end last fast-forward player media circle round two triangles pointing right against a vertical bar inside a circle. media"
+      },
+      {
+        "name": "SkipForwardDoubleSquare",
+        "displayName": "Skip forward double square",
+        "path": "/icons/optimized/skip-forward-double-square.svg",
+        "filename": "skip-forward-double-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "next",
+          "end",
+          "last",
+          "fast-forward",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Two triangles pointing right against a vertical bar inside a rounded square.",
+        "searchText": "skipforwarddoublesquare skip forward double square skip next end last fast-forward player media square button two triangles pointing right against a vertical bar inside a rounded square. media"
+      },
+      {
+        "name": "SkipForwardDoubleThick",
+        "displayName": "Skip forward double thick",
+        "path": "/icons/optimized/skip-forward-double-thick.svg",
+        "filename": "skip-forward-double-thick.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "next",
+          "end",
+          "last",
+          "fast-forward",
+          "player",
+          "media",
+          "bold",
+          "thick"
+        ],
+        "description": "Two triangles pointing right against a vertical bar, with the bars drawn as thick outlined bars.",
+        "searchText": "skipforwarddoublethick skip forward double thick skip next end last fast-forward player media bold thick two triangles pointing right against a vertical bar, with the bars drawn as thick outlined bars. media"
+      },
+      {
+        "name": "SkipForwardSquare",
+        "displayName": "Skip forward square",
+        "path": "/icons/optimized/skip-forward-square.svg",
+        "filename": "skip-forward-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "next",
+          "next-track",
+          "forward",
+          "playlist",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Triangle pointing right against a vertical bar inside a rounded square.",
+        "searchText": "skipforwardsquare skip forward square skip next next-track forward playlist player media square button triangle pointing right against a vertical bar inside a rounded square. media"
+      },
+      {
+        "name": "SkipForwardThick",
+        "displayName": "Skip forward thick",
+        "path": "/icons/optimized/skip-forward-thick.svg",
+        "filename": "skip-forward-thick.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "skip",
+          "next",
+          "next-track",
+          "forward",
+          "playlist",
+          "player",
+          "media",
+          "bold",
+          "thick"
+        ],
+        "description": "Triangle pointing right against a vertical bar, with the bars drawn as thick outlined bars.",
+        "searchText": "skipforwardthick skip forward thick skip next next-track forward playlist player media bold thick triangle pointing right against a vertical bar, with the bars drawn as thick outlined bars. media"
       },
       {
         "name": "SkipX",
@@ -50132,6 +51971,188 @@
         "searchText": "starwide star wide starfavorite2 star favorite rating preference rank like bookmark wide a star favorite or rating icon, second variant social"
       },
       {
+        "name": "StepBack",
+        "displayName": "Step back",
+        "path": "/icons/optimized/step-back.svg",
+        "filename": "step-back.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "step",
+          "previous-frame",
+          "frame",
+          "back",
+          "reverse",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Triangle pointing left followed by a vertical bar.",
+        "searchText": "stepback step back step previous-frame frame back reverse player media control triangle pointing left followed by a vertical bar. media"
+      },
+      {
+        "name": "StepBackCircle",
+        "displayName": "Step back circle",
+        "path": "/icons/optimized/step-back-circle.svg",
+        "filename": "step-back-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "step",
+          "previous-frame",
+          "frame",
+          "back",
+          "reverse",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Triangle pointing left followed by a vertical bar inside a circle.",
+        "searchText": "stepbackcircle step back circle step previous-frame frame back reverse player media circle round triangle pointing left followed by a vertical bar inside a circle. media"
+      },
+      {
+        "name": "StepBackSquare",
+        "displayName": "Step back square",
+        "path": "/icons/optimized/step-back-square.svg",
+        "filename": "step-back-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "step",
+          "previous-frame",
+          "frame",
+          "back",
+          "reverse",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Triangle pointing left followed by a vertical bar inside a rounded square.",
+        "searchText": "stepbacksquare step back square step previous-frame frame back reverse player media square button triangle pointing left followed by a vertical bar inside a rounded square. media"
+      },
+      {
+        "name": "StepBackThick",
+        "displayName": "Step back thick",
+        "path": "/icons/optimized/step-back-thick.svg",
+        "filename": "step-back-thick.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "step",
+          "previous-frame",
+          "frame",
+          "back",
+          "reverse",
+          "player",
+          "media",
+          "bold",
+          "thick"
+        ],
+        "description": "Triangle pointing left followed by a vertical bar, with the bars drawn as thick outlined bars.",
+        "searchText": "stepbackthick step back thick step previous-frame frame back reverse player media bold thick triangle pointing left followed by a vertical bar, with the bars drawn as thick outlined bars. media"
+      },
+      {
+        "name": "StepForward",
+        "displayName": "Step forward",
+        "path": "/icons/optimized/step-forward.svg",
+        "filename": "step-forward.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "step",
+          "next-frame",
+          "frame",
+          "forward",
+          "play-pause",
+          "player",
+          "media",
+          "control"
+        ],
+        "description": "Vertical bar followed by a triangle pointing right.",
+        "searchText": "stepforward step forward step next-frame frame forward play-pause player media control vertical bar followed by a triangle pointing right. media"
+      },
+      {
+        "name": "StepForwardCircle",
+        "displayName": "Step forward circle",
+        "path": "/icons/optimized/step-forward-circle.svg",
+        "filename": "step-forward-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "step",
+          "next-frame",
+          "frame",
+          "forward",
+          "play-pause",
+          "player",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Vertical bar followed by a triangle pointing right inside a circle.",
+        "searchText": "stepforwardcircle step forward circle step next-frame frame forward play-pause player media circle round vertical bar followed by a triangle pointing right inside a circle. media"
+      },
+      {
+        "name": "StepForwardSquare",
+        "displayName": "Step forward square",
+        "path": "/icons/optimized/step-forward-square.svg",
+        "filename": "step-forward-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "step",
+          "next-frame",
+          "frame",
+          "forward",
+          "play-pause",
+          "player",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Vertical bar followed by a triangle pointing right inside a rounded square.",
+        "searchText": "stepforwardsquare step forward square step next-frame frame forward play-pause player media square button vertical bar followed by a triangle pointing right inside a rounded square. media"
+      },
+      {
+        "name": "StepForwardThick",
+        "displayName": "Step forward thick",
+        "path": "/icons/optimized/step-forward-thick.svg",
+        "filename": "step-forward-thick.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "step",
+          "next-frame",
+          "frame",
+          "forward",
+          "play-pause",
+          "player",
+          "media",
+          "bold",
+          "thick"
+        ],
+        "description": "Vertical bar followed by a triangle pointing right, with the bars drawn as thick outlined bars.",
+        "searchText": "stepforwardthick step forward thick step next-frame frame forward play-pause player media bold thick vertical bar followed by a triangle pointing right, with the bars drawn as thick outlined bars. media"
+      },
+      {
         "name": "Stethoscope",
         "displayName": "Stethoscope",
         "path": "/icons/optimized/system-diagnostic-stethoscope-2.svg",
@@ -50232,6 +52253,74 @@
         ],
         "description": "A system diagnostic icon featuring a stethoscope symbol for health and performance assessment",
         "searchText": "stethoscopesquare stethoscope square systemdiagnosticstethoscope stethoscope system diagnostic health monitor check assessment square a system diagnostic icon featuring a stethoscope symbol for health and performance assessment health"
+      },
+      {
+        "name": "Stop",
+        "displayName": "Stop",
+        "path": "/icons/optimized/stop.svg",
+        "filename": "stop.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "stop",
+          "end",
+          "halt",
+          "player",
+          "video",
+          "audio",
+          "media",
+          "control"
+        ],
+        "description": "Square stop symbol.",
+        "searchText": "stop stop stop end halt player video audio media control square stop symbol. media"
+      },
+      {
+        "name": "StopCircle",
+        "displayName": "Stop circle",
+        "path": "/icons/optimized/stop-circle.svg",
+        "filename": "stop-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "stop",
+          "end",
+          "halt",
+          "player",
+          "video",
+          "audio",
+          "media",
+          "circle",
+          "round"
+        ],
+        "description": "Square stop symbol inside a circle.",
+        "searchText": "stopcircle stop circle stop end halt player video audio media circle round square stop symbol inside a circle. media"
+      },
+      {
+        "name": "StopSquare",
+        "displayName": "Stop square",
+        "path": "/icons/optimized/stop-square.svg",
+        "filename": "stop-square.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "stop",
+          "end",
+          "halt",
+          "player",
+          "video",
+          "audio",
+          "media",
+          "square",
+          "button"
+        ],
+        "description": "Square stop symbol inside a rounded square.",
+        "searchText": "stopsquare stop square stop end halt player video audio media square button square stop symbol inside a rounded square. media"
       },
       {
         "name": "StoreBrowser",
@@ -57748,6 +59837,277 @@
         ],
         "description": "A VIP badge or label icon in rectangular form indicating premium or exclusive membership tier",
         "searchText": "vipsquare vip square viprectangle vip rectangle badge premium exclusive membership label tier square a vip badge or label icon in rectangular form indicating premium or exclusive membership tier business"
+      },
+      {
+        "name": "Volume",
+        "displayName": "Volume",
+        "path": "/icons/optimized/volume.svg",
+        "filename": "volume.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "volume",
+          "speaker",
+          "sound",
+          "audio",
+          "quiet",
+          "silent"
+        ],
+        "description": "Speaker cone without sound waves.",
+        "searchText": "volume volume volume speaker sound audio quiet silent speaker cone without sound waves. media"
+      },
+      {
+        "name": "VolumeBan",
+        "displayName": "Volume ban",
+        "path": "/icons/optimized/volume-ban.svg",
+        "filename": "volume-ban.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "blocked",
+          "not-allowed",
+          "mute",
+          "no-sound",
+          "volume",
+          "speaker",
+          "audio"
+        ],
+        "description": "Speaker cone with a ban sign over its right side.",
+        "searchText": "volumeban volume ban blocked not-allowed mute no-sound volume speaker audio speaker cone with a ban sign over its right side. media"
+      },
+      {
+        "name": "VolumeHigh",
+        "displayName": "Volume high",
+        "path": "/icons/optimized/volume-high.svg",
+        "filename": "volume-high.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "volume",
+          "loud",
+          "high",
+          "max",
+          "sound",
+          "speaker",
+          "audio"
+        ],
+        "description": "Speaker cone with three sound arcs.",
+        "searchText": "volumehigh volume high volume loud high max sound speaker audio speaker cone with three sound arcs. media"
+      },
+      {
+        "name": "VolumeHighOff",
+        "displayName": "Volume high off",
+        "path": "/icons/optimized/volume-high-off.svg",
+        "filename": "volume-high-off.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "mute",
+          "muted",
+          "sound-off",
+          "silent",
+          "volume",
+          "speaker",
+          "audio"
+        ],
+        "description": "Speaker cone with three sound arcs, crossed by a diagonal slash.",
+        "searchText": "volumehighoff volume high off mute muted sound-off silent volume speaker audio speaker cone with three sound arcs, crossed by a diagonal slash. media"
+      },
+      {
+        "name": "VolumeHighOffWide",
+        "displayName": "Volume high off wide",
+        "path": "/icons/optimized/volume-high-off-wide.svg",
+        "filename": "volume-high-off-wide.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "mute",
+          "muted",
+          "sound-off",
+          "silent",
+          "volume",
+          "speaker",
+          "audio"
+        ],
+        "description": "Speaker cone with three sound arcs, a small inner arc and wider outer arcs, crossed by a diagonal slash.",
+        "searchText": "volumehighoffwide volume high off wide mute muted sound-off silent volume speaker audio speaker cone with three sound arcs, a small inner arc and wider outer arcs, crossed by a diagonal slash. media"
+      },
+      {
+        "name": "VolumeHighWide",
+        "displayName": "Volume high wide",
+        "path": "/icons/optimized/volume-high-wide.svg",
+        "filename": "volume-high-wide.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "volume",
+          "loud",
+          "high",
+          "max",
+          "sound",
+          "speaker",
+          "audio"
+        ],
+        "description": "Speaker cone with three sound arcs, a small inner arc and wider outer arcs.",
+        "searchText": "volumehighwide volume high wide volume loud high max sound speaker audio speaker cone with three sound arcs, a small inner arc and wider outer arcs. media"
+      },
+      {
+        "name": "VolumeLow",
+        "displayName": "Volume low",
+        "path": "/icons/optimized/volume-low.svg",
+        "filename": "volume-low.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "volume",
+          "low",
+          "quiet",
+          "soft",
+          "sound",
+          "speaker",
+          "audio"
+        ],
+        "description": "Speaker cone with one sound arc.",
+        "searchText": "volumelow volume low volume low quiet soft sound speaker audio speaker cone with one sound arc. media"
+      },
+      {
+        "name": "VolumeLowWide",
+        "displayName": "Volume low wide",
+        "path": "/icons/optimized/volume-low-wide.svg",
+        "filename": "volume-low-wide.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "volume",
+          "low",
+          "quiet",
+          "soft",
+          "sound",
+          "speaker",
+          "audio"
+        ],
+        "description": "Speaker cone with one sound arc, a small inner arc and wider outer arcs.",
+        "searchText": "volumelowwide volume low wide volume low quiet soft sound speaker audio speaker cone with one sound arc, a small inner arc and wider outer arcs. media"
+      },
+      {
+        "name": "VolumeMedium",
+        "displayName": "Volume medium",
+        "path": "/icons/optimized/volume-medium.svg",
+        "filename": "volume-medium.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "volume",
+          "medium",
+          "sound",
+          "speaker",
+          "audio",
+          "level"
+        ],
+        "description": "Speaker cone with two sound arcs.",
+        "searchText": "volumemedium volume medium volume medium sound speaker audio level speaker cone with two sound arcs. media"
+      },
+      {
+        "name": "VolumeMediumWide",
+        "displayName": "Volume medium wide",
+        "path": "/icons/optimized/volume-medium-wide.svg",
+        "filename": "volume-medium-wide.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "volume",
+          "medium",
+          "sound",
+          "speaker",
+          "audio",
+          "level"
+        ],
+        "description": "Speaker cone with two sound arcs, a small inner arc and wider outer arcs.",
+        "searchText": "volumemediumwide volume medium wide volume medium sound speaker audio level speaker cone with two sound arcs, a small inner arc and wider outer arcs. media"
+      },
+      {
+        "name": "VolumeOff",
+        "displayName": "Volume off",
+        "path": "/icons/optimized/volume-off.svg",
+        "filename": "volume-off.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "mute",
+          "muted",
+          "sound-off",
+          "silent",
+          "volume",
+          "speaker",
+          "audio"
+        ],
+        "description": "Speaker cone with a gap, crossed by a diagonal slash.",
+        "searchText": "volumeoff volume off mute muted sound-off silent volume speaker audio speaker cone with a gap, crossed by a diagonal slash. media"
+      },
+      {
+        "name": "VolumeTranslate",
+        "displayName": "Volume translate",
+        "path": "/icons/optimized/volume-translate.svg",
+        "filename": "volume-translate.svg",
+        "category": "optimized",
+        "categories": [
+          "media",
+          "communication"
+        ],
+        "tags": [
+          "translate",
+          "language",
+          "audio-translation",
+          "dubbing",
+          "speech",
+          "volume",
+          "speaker"
+        ],
+        "description": "Speaker cone next to the character 文, a translation symbol.",
+        "searchText": "volumetranslate volume translate translate language audio-translation dubbing speech volume speaker speaker cone next to the character 文, a translation symbol. media communication"
+      },
+      {
+        "name": "VolumeX",
+        "displayName": "Volume x",
+        "path": "/icons/optimized/volume-x.svg",
+        "filename": "volume-x.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "mute",
+          "muted",
+          "no-sound",
+          "silent",
+          "volume",
+          "speaker",
+          "audio"
+        ],
+        "description": "Speaker cone with an X on its right.",
+        "searchText": "volumex volume x mute muted no-sound silent volume speaker audio speaker cone with an x on its right. media"
       },
       {
         "name": "VoteArrows",
