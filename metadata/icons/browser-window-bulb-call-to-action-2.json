@@ -1,19 +1,23 @@
 {
-  "name": "BrowserWindowBulbCta2",
+  "name": "BrowserSunBare",
   "description": "A browser window icon with a lightbulb showing an alternative call-to-action design or style.",
   "tags": [
     "browser",
     "window",
     "bulb",
+    "call",
+    "action",
     "lightbulb",
     "call-to-action",
     "cta",
     "idea",
-    "suggestion"
+    "suggestion",
+    "sun",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser sun bare",
+  "aliases": [
+    "BrowserWindowBulbCta2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

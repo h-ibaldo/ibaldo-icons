@@ -1,18 +1,19 @@
 {
-  "name": "ApplicationWindowAdd1",
+  "name": "WindowPlus",
   "description": "An application window icon with a positive or add symbol for creation or expansion operations",
   "tags": [
-    "application",
     "window",
+    "application",
     "positive",
     "add",
-    "plus",
     "create",
+    "plus",
     "new",
     "interface",
     "action"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window plus",
+  "aliases": [
+    "ApplicationWindowAdd1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,15 +1,14 @@
 {
-  "name": "Box5",
+  "name": "BoxTape",
   "description": "A box icon variant numbered 5, suitable for container, package, or storage representations in professional interfaces.",
   "tags": [
     "box",
     "container",
     "package",
     "storage",
-    "variant5"
+    "tape"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Box tape",
+  "aliases": [
+    "Box5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

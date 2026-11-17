@@ -1,19 +1,23 @@
 {
-  "name": "ApplicationWindow2CircleDots",
-  "displayName": "Application window 2 circle dots",
+  "name": "WindowDotsCircleBare",
+  "displayName": "Window dots circle bare",
   "originalTitle": "Application Window 2 Circle Dots Other Menu",
   "description": "Application window with three dots menu icon representing additional options or context menus. Used for overflow menus, more actions, or secondary navigation in applications.",
   "tags": [
     "window",
     "application",
-    "dots",
+    "other",
     "menu",
+    "dots",
     "options",
     "more",
     "overflow",
-    "context"
+    "context",
+    "circle",
+    "bare"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.772Z"
+  "generatedAt": "2026-02-15T00:53:19.772Z",
+  "aliases": [
+    "ApplicationWindow2CircleDots"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

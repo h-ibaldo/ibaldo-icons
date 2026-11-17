@@ -1,15 +1,16 @@
 {
-  "name": "Tab4PlusCircle",
+  "name": "TabPlusCircleStriped",
   "description": "A tab interface icon with a plus symbol inside a circle for adding new tabs",
   "tags": [
     "tab",
-    "plus",
-    "add",
     "positive",
-    "circle",
+    "add",
     "create",
+    "plus",
+    "circle",
     "new",
-    "addition"
+    "addition",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab plus circle striped",
+  "aliases": [
+    "Tab4PlusCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

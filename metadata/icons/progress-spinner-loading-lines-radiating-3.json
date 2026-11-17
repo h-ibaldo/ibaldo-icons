@@ -1,15 +1,14 @@
 {
-  "name": "ProgressSpinnerRadiating3",
+  "name": "SpinnerRays",
   "description": "A loading progress spinner with radiating lines in a third style variation for activity indication",
   "tags": [
-    "progress",
     "spinner",
+    "progress",
     "loading",
-    "lines",
     "radiating",
     "animation",
     "activity",
-    "variant"
+    "rays"
   ],
   "categories": [
     "interface"
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Spinner rays",
+  "aliases": [
+    "ProgressSpinnerRadiating3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

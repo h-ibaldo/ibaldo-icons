@@ -1,18 +1,17 @@
 {
-  "name": "WindowDockingBottom",
+  "name": "DockBottom",
   "description": "A window docking icon indicating bottom edge docking position",
   "tags": [
+    "dock",
     "window",
     "docking",
     "bottom",
-    "dock",
     "align",
     "position",
     "anchor"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Dock bottom",
+  "aliases": [
+    "WindowDockingBottom"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

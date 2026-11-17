@@ -1,16 +1,15 @@
 {
-  "name": "BookmarkStar4",
+  "name": "BookmarkStarLarge",
   "description": "A bookmark icon with a single star indicating favorited or important saved content",
   "tags": [
     "bookmark",
     "star",
     "favorite",
     "rating",
-    "favorite"
+    "large"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark star large",
+  "aliases": [
+    "BookmarkStar4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

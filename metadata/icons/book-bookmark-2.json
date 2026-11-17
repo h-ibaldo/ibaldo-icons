@@ -1,5 +1,5 @@
 {
-  "name": "BookBookmark2",
+  "name": "BookBookmark",
   "description": "A book with bookmark icon in variant 2 style for reading, library, or saved content",
   "tags": [
     "book",
@@ -11,7 +11,6 @@
     "page"
   ],
   "categories": [
-    "interface",
     "education"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Book bookmark",
+  "aliases": [
+    "BookBookmark2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

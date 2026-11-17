@@ -1,5 +1,5 @@
 {
-  "name": "Cloud1BoxTransmission",
+  "name": "CloudSquareSignal",
   "description": "A cloud icon with a box and transmission waves indicating cloud synchronization or broadcasting",
   "tags": [
     "cloud",
@@ -9,11 +9,11 @@
     "broadcast",
     "signal",
     "share",
-    "wireless"
+    "wireless",
+    "square"
   ],
   "categories": [
-    "interface",
-    "communication",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud square signal",
+  "aliases": [
+    "Cloud1BoxTransmission"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

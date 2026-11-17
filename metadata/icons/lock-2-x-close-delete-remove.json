@@ -1,19 +1,17 @@
 {
-  "name": "LockClose2",
+  "name": "LockX",
   "description": "A lock icon with an X or close symbol indicating lock removal or dismissal.",
   "tags": [
     "lock",
     "close",
     "delete",
     "remove",
-    "x",
     "security",
     "dismiss",
     "cancel"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock X",
+  "aliases": [
+    "LockClose2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Link3",
+  "name": "CloudLinkVerticalRound",
   "description": "Another variation of cloud link icon emphasizing cloud network connections and integration",
   "tags": [
     "cloud",
@@ -9,11 +9,12 @@
     "integrate",
     "chain",
     "connectivity",
-    "variant"
+    "vertical",
+    "round"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud link vertical round",
+  "aliases": [
+    "Cloud3Link3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

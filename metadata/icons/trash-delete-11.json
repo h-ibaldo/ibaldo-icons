@@ -1,5 +1,5 @@
 {
-  "name": "TrashDelete11",
+  "name": "TrashEmptyPeak",
   "description": "A trash can icon variant representing deletion or disposal operations",
   "tags": [
     "trash",
@@ -8,10 +8,11 @@
     "bin",
     "discard",
     "disposal",
-    "waste"
+    "waste",
+    "empty",
+    "peak"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash empty peak",
+  "aliases": [
+    "TrashDelete11"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

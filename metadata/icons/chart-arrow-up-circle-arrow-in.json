@@ -1,6 +1,6 @@
 {
-  "name": "ChartArrowUpCircleArrowIn",
-  "displayName": "Chart arrow up circle arrow in",
+  "name": "ChartTrendUpCircleArrowRight",
+  "displayName": "Chart trend up circle arrow right",
   "originalTitle": "Chart Arrow Up Circle Arrow In",
   "description": "Growth chart with upward arrow and import symbol. Represents data import, incoming metrics, or uploading analytics data.",
   "tags": [
@@ -11,11 +11,13 @@
     "data",
     "analytics",
     "growth",
-    "upload"
+    "upload",
+    "trend",
+    "circle",
+    "right"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.739Z"
+  "generatedAt": "2026-02-15T00:53:19.739Z",
+  "aliases": [
+    "ChartArrowUpCircleArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

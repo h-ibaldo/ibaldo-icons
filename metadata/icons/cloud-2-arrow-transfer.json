@@ -1,5 +1,5 @@
 {
-  "name": "CloudArrowTransfer",
+  "name": "CloudTransferTall",
   "description": "A cloud icon with a transfer arrow for bidirectional cloud synchronization",
   "tags": [
     "cloud",
@@ -8,11 +8,11 @@
     "sync",
     "exchange",
     "bidirectional",
-    "data"
+    "data",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud transfer tall",
+  "aliases": [
+    "CloudArrowTransfer"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,11 +1,10 @@
 {
-  "name": "FunnelFilterMailCircle",
+  "name": "FilterLinesCircle",
   "description": "A funnel or filter icon with horizontal lines and a circular badge representing mail filtering options",
   "tags": [
-    "funnel",
     "filter",
+    "funnel",
     "horizontal",
-    "lines",
     "mail",
     "circle",
     "sort",
@@ -13,8 +12,7 @@
     "email"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Filter lines circle",
+  "aliases": [
+    "FunnelFilterMailCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

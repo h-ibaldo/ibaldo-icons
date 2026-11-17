@@ -1,7 +1,10 @@
 {
-  "name": "PopUp4",
+  "name": "PopoverListBig",
   "description": "A fourth variant pop-up window icon design for modal and dialog interface elements",
   "tags": [
+    "popover",
+    "pop",
+    "up",
     "pop-up",
     "popup",
     "modal",
@@ -9,7 +12,8 @@
     "window",
     "notification",
     "interface",
-    "variant"
+    "list",
+    "big"
   ],
   "categories": [
     "interface"
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Popover list big",
+  "aliases": [
+    "PopUp4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "TouchScreenSwipeUp1",
+  "name": "TouchSwipeUpTwoFingers",
   "description": "A two-finger touch screen swipe gesture pointing upward, typically used for scrolling or app switcher actions.",
   "tags": [
     "touch",
@@ -9,11 +9,13 @@
     "up",
     "gesture",
     "multi-touch",
-    "scrolling"
+    "scrolling",
+    "two",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Touch swipe up two fingers",
+  "aliases": [
+    "TouchScreenSwipeUp1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

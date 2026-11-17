@@ -1,5 +1,5 @@
 {
-  "name": "AirplaySignal2",
+  "name": "AirplaySignalCircle",
   "description": "An Airplay icon with signal strength indicator showing wireless connection quality at level 2",
   "tags": [
     "airplay",
@@ -8,11 +8,11 @@
     "wireless",
     "connection",
     "quality",
-    "level"
+    "level",
+    "circle"
   ],
   "categories": [
-    "devices",
-    "communication"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Airplay signal circle",
+  "aliases": [
+    "AirplaySignal2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

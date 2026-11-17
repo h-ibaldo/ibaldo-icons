@@ -1,7 +1,8 @@
 {
-  "name": "WebsitePortalScale",
+  "name": "BrowserScale",
   "description": "A website portal icon for legal services featuring a scale representing law, justice, and legal matters",
   "tags": [
+    "browser",
     "website",
     "portal",
     "law",
@@ -12,8 +13,8 @@
     "court"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser scale",
+  "aliases": [
+    "WebsitePortalScale"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

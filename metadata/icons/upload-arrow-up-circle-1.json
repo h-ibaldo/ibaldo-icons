@@ -1,5 +1,5 @@
 {
-  "name": "UploadArrowCircle1",
+  "name": "UploadCircleFlat",
   "description": "An upload icon with an upward arrow enclosed in a circle for upload actions",
   "tags": [
     "upload",
@@ -8,10 +8,11 @@
     "circle",
     "file",
     "transfer",
-    "action"
+    "action",
+    "flat"
   ],
   "categories": [
-    "interface",
+    "files",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload circle flat",
+  "aliases": [
+    "UploadArrowCircle1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

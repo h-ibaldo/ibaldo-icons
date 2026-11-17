@@ -1,19 +1,21 @@
 {
-  "name": "Lock5CheckOpenAlt",
+  "name": "LockOpenCheckCornerRound",
   "description": "An alternate lock icon with checkmark and open state, showing verified unlocked access",
   "tags": [
     "lock",
-    "check",
     "checked",
+    "done",
+    "success",
+    "verified",
+    "check",
     "open",
     "security",
-    "verified",
     "unlock",
-    "variant"
+    "corner",
+    "round"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open check corner round",
+  "aliases": [
+    "Lock5CheckOpenAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

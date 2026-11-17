@@ -1,21 +1,20 @@
 {
-  "name": "LoadingDotsStep2",
+  "name": "ProgressDotsLeft",
   "description": "Second step of a loading animation with dots showing continued progress.",
   "tags": [
+    "progress",
     "loading",
     "dots",
     "step",
-    "progress",
     "animation",
     "wait",
     "spinner",
     "pending",
     "sequence",
-    "2"
+    "left"
   ],
   "categories": [
-    "interface",
-    "time"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress dots left",
+  "aliases": [
+    "LoadingDotsStep2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

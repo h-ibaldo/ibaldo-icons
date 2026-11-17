@@ -1,5 +1,5 @@
 {
-  "name": "LockLocked2",
+  "name": "Lock",
   "description": "A closed lock icon representing secure, locked, and protected state.",
   "tags": [
     "lock",
@@ -11,8 +11,7 @@
     "blocked"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock",
+  "aliases": [
+    "LockLocked2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

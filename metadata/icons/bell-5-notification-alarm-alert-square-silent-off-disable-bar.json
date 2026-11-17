@@ -1,21 +1,25 @@
 {
-  "name": "Bell5SquareSilent",
-  "displayName": "Bell 5 square silent",
+  "name": "BellSquareOffDash",
+  "displayName": "Bell square off dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Square Silent Off Disable Bar",
   "description": "Square-styled notification bell with strike-through indicating silenced notifications. Used in square design systems to show muted alerts.",
   "tags": [
     "bell",
     "notification",
-    "square",
+    "alarm",
+    "alert",
     "silent",
-    "muted",
+    "disable",
+    "bar",
     "disabled",
-    "off",
-    "strike"
+    "mute",
+    "square",
+    "muted",
+    "off"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.788Z"
+  "generatedAt": "2026-02-15T00:53:19.788Z",
+  "aliases": [
+    "Bell5SquareSilent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

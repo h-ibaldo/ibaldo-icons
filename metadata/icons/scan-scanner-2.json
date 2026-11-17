@@ -1,17 +1,15 @@
 {
-  "name": "Scan2",
+  "name": "Scanner",
   "description": "A scanner icon for the second variant of document scanning and digitization",
   "tags": [
-    "scan",
     "scanner",
+    "scan",
     "document",
     "digitize",
-    "capture",
-    "variant2"
+    "capture"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scanner",
+  "aliases": [
+    "Scan2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

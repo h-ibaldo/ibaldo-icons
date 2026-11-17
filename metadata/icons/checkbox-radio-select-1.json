@@ -1,11 +1,15 @@
 {
-  "name": "CheckboxRadioSelect1",
-  "displayName": "Checkbox radio select 1",
+  "name": "RadioCheck",
+  "displayName": "Radio check",
   "originalTitle": "Checkbox Radio Select 1",
   "description": "Radio button in selected state, first variant. Used for single-choice selections where only one option can be chosen from a group.",
   "tags": [
     "radio",
+    "checkbox",
     "select",
+    "done",
+    "success",
+    "verified",
     "selected",
     "choice",
     "form",
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.794Z"
+  "generatedAt": "2026-02-15T00:53:19.794Z",
+  "aliases": [
+    "CheckboxRadioSelect1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

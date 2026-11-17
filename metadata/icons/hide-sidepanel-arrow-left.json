@@ -1,16 +1,18 @@
 {
-  "name": "HideSidepanelLeft",
+  "name": "SidebarMenuArrowLeft",
   "description": "An arrow pointing left icon indicating the action to hide or collapse a side panel",
   "tags": [
+    "sidebar",
     "hide",
     "sidepanel",
-    "side panel",
+    "side-panel",
     "arrow",
     "left",
     "collapse",
     "close",
     "panel",
-    "navigation"
+    "navigation",
+    "menu"
   ],
   "categories": [
     "interface"
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sidebar menu arrow left",
+  "aliases": [
+    "HideSidepanelLeft"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

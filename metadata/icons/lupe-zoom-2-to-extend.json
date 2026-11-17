@@ -1,18 +1,17 @@
 {
-  "name": "LupeZoom2Extend",
+  "name": "SearchExpandB",
   "description": "A magnifying glass zoom icon indicating the ability to extend or zoom in by a factor of 2",
   "tags": [
+    "search",
     "lupe",
     "zoom",
-    "magnify",
     "extend",
-    "search",
-    "2x",
-    "enlarge"
+    "magnify",
+    "enlarge",
+    "expand"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search expand B",
+  "aliases": [
+    "LupeZoom2Extend"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

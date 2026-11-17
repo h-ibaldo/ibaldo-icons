@@ -1,17 +1,21 @@
 {
-  "name": "HardDriveStrike",
+  "name": "DiscDriveOff",
   "description": "A hard drive icon with a crossed line indicating disabled, unavailable, or uninstalled application status.",
   "tags": [
-    "hard drive",
+    "disc",
+    "hard",
     "uninstall",
-    "crossed line",
-    "strikethrough",
-    "disabled",
     "program",
-    "application"
+    "application",
+    "crossed",
+    "disabled",
+    "mute",
+    "hard-drive",
+    "crossed-line",
+    "strikethrough",
+    "drive"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Disc drive off",
+  "aliases": [
+    "HardDriveStrike"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

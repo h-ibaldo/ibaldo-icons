@@ -1,17 +1,19 @@
 {
-  "name": "UpvoteArrowDown2",
+  "name": "VoteArrowsHollow",
   "description": "An upvote icon with bidirectional up and down arrows for voting or rating interactions variant 2",
   "tags": [
+    "vote",
     "upvote",
     "arrow",
     "up",
     "down",
     "voting",
     "rating",
-    "feedback"
+    "feedback",
+    "arrows",
+    "hollow"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vote arrows hollow",
+  "aliases": [
+    "UpvoteArrowDown2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

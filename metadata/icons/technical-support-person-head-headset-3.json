@@ -1,19 +1,20 @@
 {
-  "name": "TechnicalSupportPersonHeadsetVar3",
+  "name": "UserHeadsetWavy",
   "description": "A third variant of person with headset for technical support professional representation",
   "tags": [
-    "technical support",
+    "user",
+    "technical",
+    "support",
     "person",
     "head",
+    "technical-support",
     "headset",
-    "support professional",
-    "customer service",
-    "communication"
+    "support-professional",
+    "customer-service",
+    "communication",
+    "wavy"
   ],
   "categories": [
-    "interface",
-    "business",
-    "communication",
     "people"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User headset wavy",
+  "aliases": [
+    "TechnicalSupportPersonHeadsetVar3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

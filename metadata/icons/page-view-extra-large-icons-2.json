@@ -1,19 +1,19 @@
 {
-  "name": "PageViewExtraLargeAlt",
+  "name": "LayoutLargeFlowerSharp",
   "description": "An alternate page view icon showing extra large icon layout with different visual treatment",
   "tags": [
+    "layout",
     "page",
     "view",
     "extra",
-    "large",
     "icons",
-    "variant",
+    "large",
     "size",
-    "layout"
+    "flower",
+    "sharp"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout large flower sharp",
+  "aliases": [
+    "PageViewExtraLargeAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

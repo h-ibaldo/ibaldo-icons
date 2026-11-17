@@ -1,5 +1,5 @@
 {
-  "name": "CloudNetworkSecond",
+  "name": "CloudNetworkDots",
   "description": "A cloud icon with network nodes indicating multi-cloud or advanced cloud infrastructure connectivity",
   "tags": [
     "cloud",
@@ -8,11 +8,12 @@
     "nodes",
     "infrastructure",
     "distributed",
-    "connection"
+    "connection",
+    "dots"
   ],
   "categories": [
-    "interface",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud network dots",
+  "aliases": [
+    "CloudNetworkSecond"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

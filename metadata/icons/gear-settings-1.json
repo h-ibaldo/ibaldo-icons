@@ -1,5 +1,5 @@
 {
-  "name": "GearSettings",
+  "name": "Gear",
   "description": "A gear settings icon representing configuration and preferences controls.",
   "tags": [
     "gear",
@@ -11,7 +11,7 @@
     "setup"
   ],
   "categories": [
-    "interface"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear",
+  "aliases": [
+    "GearSettings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

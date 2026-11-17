@@ -1,21 +1,25 @@
 {
-  "name": "Bell6Exclamation",
-  "displayName": "Bell 6 exclamation",
+  "name": "BellAlertWide",
+  "displayName": "Bell alert wide",
   "originalTitle": "Bell 6 Notification Alarm Alert Exclamation",
   "description": "Notification bell with exclamation mark, representing urgent or important alerts. Used to indicate high-priority notifications that require immediate attention.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "exclamation",
+    "error",
+    "attention",
     "urgent",
     "important",
     "warning",
     "priority",
-    "attention",
-    "exclamation"
+    "alert",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.789Z"
+  "generatedAt": "2026-02-15T00:53:19.789Z",
+  "aliases": [
+    "Bell6Exclamation"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

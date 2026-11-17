@@ -1,14 +1,17 @@
 {
-  "name": "WindowPopUp5",
+  "name": "PopoverWindowPlain",
   "description": "A pop-up window icon variant showing a floating dialog box with distinct appearance",
   "tags": [
+    "popover",
+    "pop",
+    "up",
     "window",
     "pop-up",
     "dialog",
     "floating",
     "modal",
     "interface",
-    "variant5"
+    "plain"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Popover window plain",
+  "aliases": [
+    "WindowPopUp5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

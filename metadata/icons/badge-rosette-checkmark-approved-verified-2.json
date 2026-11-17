@@ -1,20 +1,23 @@
 {
-  "name": "BadgeCheck2",
-  "displayName": "Badge check 2",
+  "name": "BadgeCheck",
+  "displayName": "Badge check",
   "originalTitle": "Badge Rosette Checkmark Approved Verified 2",
   "description": "Alternative verified badge design with checkmark for approval indication. Represents authentication, certification, or quality verification.",
   "tags": [
     "badge",
-    "verified",
+    "rosette",
     "checkmark",
     "approved",
+    "verified",
+    "done",
+    "success",
     "certified",
     "authentic",
-    "validation"
+    "validation",
+    "check"
   ],
   "categories": [
-    "interface",
-    "business"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.738Z"
+  "generatedAt": "2026-02-15T00:53:19.738Z",
+  "aliases": [
+    "BadgeCheck2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "UploadArrowSquare",
+  "name": "UploadSquareOpen",
   "description": "An upload icon with a downward arrow inside a square for file or data operations",
   "tags": [
     "upload",
@@ -7,11 +7,11 @@
     "down",
     "square",
     "transfer",
-    "upload",
-    "download"
+    "download",
+    "open"
   ],
   "categories": [
-    "interface",
+    "files",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload square open",
+  "aliases": [
+    "UploadArrowSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

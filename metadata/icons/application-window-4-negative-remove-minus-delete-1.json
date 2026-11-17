@@ -1,16 +1,19 @@
 {
-  "name": "AppWindowRemove1",
+  "name": "WindowMinusPlain",
   "description": "An application window icon with a remove or minus indicator in the first variant style",
   "tags": [
-    "application",
     "window",
+    "application",
+    "negative",
     "remove",
     "delete",
+    "subtract",
     "minus",
-    "negative",
-    "interface"
+    "interface",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window minus plain",
+  "aliases": [
+    "AppWindowRemove1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,14 +1,14 @@
 {
-  "name": "ToolbarNavigationRight",
+  "name": "SidebarRight",
   "description": "A toolbar navigation icon indicating or controlling right-positioned navigation elements.",
   "tags": [
+    "sidebar",
     "toolbar",
     "navigation",
     "right",
     "position",
     "align",
-    "layout",
-    "sidebar"
+    "layout"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sidebar right",
+  "aliases": [
+    "ToolbarNavigationRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

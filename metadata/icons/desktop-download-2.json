@@ -1,9 +1,10 @@
 {
-  "name": "DesktopDownload2",
-  "displayName": "Desktop download 2",
+  "name": "ScreenDownloadDots",
+  "displayName": "Screen download dots",
   "originalTitle": "Desktop Download 2",
   "description": "Alternative desktop download icon with different visual style. Used for desktop application installation or file download actions.",
   "tags": [
+    "screen",
     "desktop",
     "download",
     "computer",
@@ -11,11 +12,11 @@
     "file",
     "save",
     "local",
-    "pc"
+    "pc",
+    "dots"
   ],
   "categories": [
-    "devices",
-    "files"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.799Z"
+  "generatedAt": "2026-02-15T00:53:19.799Z",
+  "aliases": [
+    "DesktopDownload2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

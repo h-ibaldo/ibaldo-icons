@@ -1,18 +1,20 @@
 {
-  "name": "BrowserWindowDownload2",
+  "name": "WindowDownloadCenterPlain",
   "description": "A browser window icon with a downward arrow showing an alternative download state or style.",
   "tags": [
-    "browser",
     "window",
+    "browser",
     "arrow",
     "down",
     "download",
     "file",
-    "transfer"
+    "transfer",
+    "center",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window download center plain",
+  "aliases": [
+    "BrowserWindowDownload2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

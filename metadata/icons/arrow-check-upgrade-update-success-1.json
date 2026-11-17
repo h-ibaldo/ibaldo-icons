@@ -1,19 +1,21 @@
 {
-  "name": "ArrowCheckUpgrade",
+  "name": "ArrowClockwiseCheck",
   "description": "An arrow icon with a checkmark indicating successful upgrade, update, or confirmation of progress",
   "tags": [
     "arrow",
-    "check",
-    "checkmark",
     "upgrade",
     "update",
     "success",
+    "done",
+    "verified",
+    "check",
+    "checkmark",
     "progress",
-    "confirmation"
+    "confirmation",
+    "clockwise"
   ],
   "categories": [
-    "arrows",
-    "interface"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow clockwise check",
+  "aliases": [
+    "ArrowCheckUpgrade"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

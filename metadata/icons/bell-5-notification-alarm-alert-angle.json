@@ -1,21 +1,23 @@
 {
-  "name": "Bell5Angle",
-  "displayName": "Bell 5 angle",
+  "name": "BellTiltedDash",
+  "displayName": "Bell tilted dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Angle",
   "description": "Angled notification bell icon with tilted orientation. Used for notification alerts with a distinctive visual style or emphasis.",
   "tags": [
     "bell",
+    "notification",
+    "alarm",
+    "alert",
+    "angle",
     "angled",
     "tilted",
-    "notification",
-    "alert",
-    "alarm",
     "distinctive",
-    "emphasis"
+    "emphasis",
+    "dash"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.786Z"
+  "generatedAt": "2026-02-15T00:53:19.786Z",
+  "aliases": [
+    "Bell5Angle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

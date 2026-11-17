@@ -1,7 +1,8 @@
 {
-  "name": "Bulb10",
+  "name": "LightbulbBoltRound",
   "description": "A lightbulb icon representing ideas and creative thinking, variant 10.",
   "tags": [
+    "lightbulb",
     "bulb",
     "idea",
     "light",
@@ -9,11 +10,12 @@
     "innovation",
     "inspiration",
     "concept",
-    "thinking"
+    "thinking",
+    "bolt",
+    "round"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lightbulb bolt round",
+  "aliases": [
+    "Bulb10"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

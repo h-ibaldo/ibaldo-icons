@@ -1,5 +1,5 @@
 {
-  "name": "UploadSquaresStack2",
+  "name": "UploadSquareStackCorner",
   "description": "An upload icon with an upward arrow and stacked squares representing grouped files or batch uploads",
   "tags": [
     "upload",
@@ -10,11 +10,12 @@
     "stack",
     "files",
     "batch",
-    "2"
+    "square",
+    "corner"
   ],
   "categories": [
-    "interface",
-    "files"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload square stack corner",
+  "aliases": [
+    "UploadSquaresStack2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

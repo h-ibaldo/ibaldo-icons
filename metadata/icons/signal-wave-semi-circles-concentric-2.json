@@ -1,19 +1,22 @@
 {
-  "name": "SignalWaveConcentric2",
+  "name": "SignalArcsDot",
   "description": "A signal wave icon with concentric semi-circles representing wireless transmission strength at the second level.",
   "tags": [
     "signal",
     "wave",
-    "semi-circles",
+    "semi",
+    "circles",
     "concentric",
-    "2",
+    "unread",
+    "badge",
+    "semi-circles",
     "wireless",
     "broadcast",
-    "connectivity"
+    "connectivity",
+    "arcs"
   ],
   "categories": [
-    "devices",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Signal arcs dot",
+  "aliases": [
+    "SignalWaveConcentric2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

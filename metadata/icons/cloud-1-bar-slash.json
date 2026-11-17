@@ -1,18 +1,20 @@
 {
-  "name": "Cloud1BarSlash",
+  "name": "CloudOff",
   "description": "A cloud icon with a diagonal slash bar indicating blocked or disabled cloud services",
   "tags": [
     "cloud",
     "bar",
     "slash",
-    "blocked",
     "disabled",
+    "mute",
+    "blocked",
     "prohibited",
     "restricted",
-    "deny"
+    "deny",
+    "off"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud off",
+  "aliases": [
+    "Cloud1BarSlash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

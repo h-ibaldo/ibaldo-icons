@@ -1,5 +1,5 @@
 {
-  "name": "Airplay2",
+  "name": "AirplayTall",
   "description": "An Airplay variant icon for wireless media transmission and device connectivity features",
   "tags": [
     "airplay",
@@ -8,10 +8,9 @@
     "cast",
     "mirror",
     "media",
-    "variant"
+    "tall"
   ],
   "categories": [
-    "devices",
     "media"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Airplay tall",
+  "aliases": [
+    "Airplay2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,20 @@
 {
-  "name": "QuestionMarkSquareStack2",
+  "name": "QuestionSquareStackOverlap",
   "description": "An alternate stacked question mark square design for representing grouped help topics",
   "tags": [
     "question",
     "mark",
-    "square",
     "help",
     "questions",
+    "square",
     "stack",
     "multiple",
-    "FAQ",
+    "faq",
     "layer",
-    "variant"
+    "overlap"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Question square stack overlap",
+  "aliases": [
+    "QuestionMarkSquareStack2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

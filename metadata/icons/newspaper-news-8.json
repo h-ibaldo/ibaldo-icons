@@ -1,5 +1,5 @@
 {
-  "name": "Newspaper8",
+  "name": "NewspaperTornCurl",
   "description": "A newspaper icon variant 8 symbolizing news media and publishing",
   "tags": [
     "newspaper",
@@ -10,10 +10,11 @@
     "article",
     "information",
     "reading",
-    "journal"
+    "journal",
+    "torn",
+    "curl"
   ],
   "categories": [
-    "media",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Newspaper torn curl",
+  "aliases": [
+    "Newspaper8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

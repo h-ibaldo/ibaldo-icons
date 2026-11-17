@@ -1,21 +1,23 @@
 {
-  "name": "Bell2Sounding2",
-  "displayName": "Bell 2 sounding 2",
+  "name": "BellRing",
+  "displayName": "Bell ring",
   "originalTitle": "Bell 2 Notification Alarm Sounding Alert 2",
   "description": "Animated ringing bell icon with motion lines showing active notifications. Indicates currently sounding alerts or incoming messages.",
   "tags": [
     "bell",
     "notification",
-    "ringing",
+    "alarm",
     "sounding",
+    "alert",
+    "ringing",
     "active",
     "motion",
     "animated",
-    "alert"
+    "ring"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.783Z"
+  "generatedAt": "2026-02-15T00:53:19.783Z",
+  "aliases": [
+    "Bell2Sounding2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,18 +1,18 @@
 {
-  "name": "CloudAlert2",
+  "name": "CloudAlert",
   "description": "A cloud icon with an exclamation mark indicating cloud alerts or warnings",
   "tags": [
     "cloud",
     "exclamation",
+    "error",
+    "attention",
     "alert",
     "warning",
-    "notification",
-    "attention",
-    "error"
+    "notification"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud alert",
+  "aliases": [
+    "CloudAlert2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

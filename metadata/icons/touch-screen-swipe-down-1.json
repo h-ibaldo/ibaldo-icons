@@ -1,5 +1,5 @@
 {
-  "name": "TouchScreenSwipeDown1",
+  "name": "TouchSwipeDown",
   "description": "A touch screen gesture icon showing a finger swiping downward on a display, variant 1",
   "tags": [
     "touch",
@@ -10,12 +10,11 @@
     "interaction",
     "mobile",
     "finger",
-    "direction",
-    "variant"
+    "direction"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Touch swipe down",
+  "aliases": [
+    "TouchScreenSwipeDown1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

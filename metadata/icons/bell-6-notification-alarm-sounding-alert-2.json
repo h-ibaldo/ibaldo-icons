@@ -1,21 +1,25 @@
 {
-  "name": "Bell6Sounding2",
-  "displayName": "Bell 6 sounding 2",
+  "name": "BellRingWide",
+  "displayName": "Bell ring wide",
   "originalTitle": "Bell 6 Notification Alarm Sounding Alert 2",
   "description": "Notification bell with enhanced motion indicators showing an active alert state. Used to represent notifications that are currently ringing or demanding immediate attention.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "sounding",
+    "alert",
     "ringing",
     "active",
-    "sounding",
     "motion",
     "urgent",
-    "vibrating"
+    "vibrating",
+    "ring",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.790Z"
+  "generatedAt": "2026-02-15T00:53:19.790Z",
+  "aliases": [
+    "Bell6Sounding2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

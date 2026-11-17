@@ -1,21 +1,22 @@
 {
-  "name": "ChartVerticalColumns6",
-  "displayName": "Chart vertical columns 6",
+  "name": "ChartBarPeak",
+  "displayName": "Chart bar peak",
   "originalTitle": "Chart Vertical Columns 6",
   "description": "Sixth style of vertical column chart for comparative data visualization. Represents different data sets in columnar format.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
     "bars",
-    "vertical",
     "comparative",
     "datasets",
     "visualization",
-    "analysis"
+    "analysis",
+    "bar",
+    "peak"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.755Z"
+  "generatedAt": "2026-02-15T00:53:19.755Z",
+  "aliases": [
+    "ChartVerticalColumns6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

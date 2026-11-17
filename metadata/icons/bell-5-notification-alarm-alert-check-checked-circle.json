@@ -1,21 +1,25 @@
 {
-  "name": "Bell5CheckCircle",
-  "displayName": "Bell 5 check circle",
+  "name": "BellCheckCircleDash",
+  "displayName": "Bell check circle dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Check Checked Circle",
   "description": "Notification bell with checkmark in circle indicating confirmed or acknowledged alerts. Used to show notification settings are enabled or alerts are read.",
   "tags": [
     "bell",
+    "notification",
+    "alarm",
+    "alert",
+    "checked",
+    "done",
+    "success",
+    "verified",
     "check",
     "confirmed",
     "acknowledged",
-    "enabled",
-    "verified",
-    "notification",
-    "success"
+    "enabled"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.786Z"
+  "generatedAt": "2026-02-15T00:53:19.786Z",
+  "aliases": [
+    "Bell5CheckCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

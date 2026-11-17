@@ -1,5 +1,5 @@
 {
-  "name": "LockArrowPortrait1",
+  "name": "LockRefreshLarge",
   "description": "A lock icon combined with a portrait orientation arrow for rotation or device orientation locking",
   "tags": [
     "lock",
@@ -9,11 +9,12 @@
     "rotation",
     "device",
     "screen",
-    "vertical"
+    "vertical",
+    "refresh",
+    "large"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock refresh large",
+  "aliases": [
+    "LockArrowPortrait1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

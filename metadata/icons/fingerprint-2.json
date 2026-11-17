@@ -1,5 +1,5 @@
 {
-  "name": "Fingerprint2",
+  "name": "FingerprintDashed",
   "description": "A fingerprint biometric scan icon, variant 2, for touch identification and secure authentication",
   "tags": [
     "fingerprint",
@@ -9,11 +9,10 @@
     "security",
     "touch",
     "identification",
-    "variant 2"
+    "dashed"
   ],
   "categories": [
-    "security",
-    "devices"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Fingerprint dashed",
+  "aliases": [
+    "Fingerprint2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

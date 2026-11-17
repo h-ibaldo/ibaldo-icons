@@ -1,21 +1,23 @@
 {
-  "name": "AtSign2Plus",
-  "displayName": "At sign 2 plus",
+  "name": "AtPlus",
+  "displayName": "At plus",
   "originalTitle": "At Sign Email Contact Address 2 Positive Add Plus",
   "description": "Email address symbol with plus sign for adding new contacts, creating email addresses, or expanding email lists. Used for adding contacts, creating new email accounts, or expanding address books.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "add",
-    "new",
     "contact",
     "address",
+    "positive",
+    "add",
     "create",
+    "new",
     "plus",
     "expand"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.778Z"
+  "generatedAt": "2026-02-15T00:53:19.778Z",
+  "aliases": [
+    "AtSign2Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

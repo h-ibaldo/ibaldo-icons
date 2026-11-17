@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsLinesSquareNegative2",
-  "displayName": "Chart vertical columns lines square negative 2",
+  "name": "ChartBarDownSquareThin",
+  "displayName": "Chart bar down square thin",
   "originalTitle": "Chart Vertical Columns Lines Square Negative Y Axis 2",
   "description": "Column chart with negative values displayed below the y-axis in a square format. Used for visualizing data that includes negative metrics or losses.",
   "tags": [
     "chart",
-    "column",
+    "vertical",
+    "columns",
     "negative",
+    "axis",
+    "column",
     "data",
     "visualization",
     "analytics",
     "graph",
-    "statistics"
+    "statistics",
+    "bar"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.757Z"
+  "generatedAt": "2026-02-15T00:53:19.757Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesSquareNegative2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

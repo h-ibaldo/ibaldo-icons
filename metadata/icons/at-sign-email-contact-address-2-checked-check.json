@@ -1,21 +1,24 @@
 {
-  "name": "AtSign2Check",
-  "displayName": "At sign 2 check",
+  "name": "AtCheck",
+  "displayName": "At check",
   "originalTitle": "At Sign Email Contact Address 2 Checked Check",
   "description": "Email address with checkmark indicating verified or validated email status. Used to show successful email verification or confirmation.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "checked",
+    "done",
+    "success",
     "verified",
     "validated",
     "confirmed",
-    "check",
-    "at-sign",
-    "contact",
-    "success"
+    "check"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.762Z"
+  "generatedAt": "2026-02-15T00:53:19.762Z",
+  "aliases": [
+    "AtSign2Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

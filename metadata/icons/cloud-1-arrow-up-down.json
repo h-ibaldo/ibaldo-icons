@@ -1,5 +1,5 @@
 {
-  "name": "CloudArrowSync",
+  "name": "CloudArrowUpDown",
   "description": "A cloud icon with up and down arrows representing cloud synchronization",
   "tags": [
     "cloud",
@@ -11,8 +11,7 @@
     "transfer"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow up down",
+  "aliases": [
+    "CloudArrowSync"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

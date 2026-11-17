@@ -1,18 +1,19 @@
 {
-  "name": "AppWindowClock",
+  "name": "WindowClockPlain",
   "description": "An application window icon with a clock, indicating time-based or scheduled window features",
   "tags": [
-    "application",
     "window",
+    "application",
     "clock",
     "time",
     "schedule",
     "interface",
-    "ui"
+    "ui",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "time"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window clock plain",
+  "aliases": [
+    "AppWindowClock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

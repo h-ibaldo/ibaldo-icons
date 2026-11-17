@@ -1,5 +1,5 @@
 {
-  "name": "PencilTracing3",
+  "name": "PencilUnderlineTip",
   "description": "A pencil tracing icon representing the third variant for drawing, sketching, and outline creation.",
   "tags": [
     "pencil",
@@ -7,11 +7,11 @@
     "draw",
     "sketch",
     "outline",
-    "variant3"
+    "underline",
+    "tip"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pencil underline tip",
+  "aliases": [
+    "PencilTracing3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

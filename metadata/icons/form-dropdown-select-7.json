@@ -1,15 +1,16 @@
 {
-  "name": "FormDropdownSelect7",
+  "name": "FormDropdownExpandedBullets",
   "description": "A form dropdown select field icon with variant 7 styling for selection interfaces",
   "tags": [
     "form",
-    "dropdown",
     "select",
+    "dropdown",
     "input",
     "field",
     "menu",
     "choice",
-    "variant7"
+    "expanded",
+    "bullets"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form dropdown expanded bullets",
+  "aliases": [
+    "FormDropdownSelect7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

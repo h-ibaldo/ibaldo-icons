@@ -1,5 +1,5 @@
 {
-  "name": "WarningTriangleAlt2",
+  "name": "WarningWide",
   "description": "A second alternative triangle warning icon emphasizing danger or critical attention required",
   "tags": [
     "warning",
@@ -8,11 +8,11 @@
     "alert",
     "caution",
     "danger",
-    "critical"
+    "critical",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Warning wide",
+  "aliases": [
+    "WarningTriangleAlt2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

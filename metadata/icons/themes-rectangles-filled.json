@@ -1,7 +1,8 @@
 {
-  "name": "ThemesRectanglesFilled",
+  "name": "SwatchStackWide",
   "description": "A themes icon with filled rectangles representing layout options, design templates, and visual theme configurations",
   "tags": [
+    "swatch",
     "themes",
     "rectangles",
     "filled",
@@ -9,12 +10,12 @@
     "templates",
     "design",
     "visual",
-    "shapes"
+    "shapes",
+    "stack",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "design",
-    "business"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Swatch stack wide",
+  "aliases": [
+    "ThemesRectanglesFilled"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

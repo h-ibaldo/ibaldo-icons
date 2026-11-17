@@ -1,14 +1,14 @@
 {
-  "name": "ToolbarNavigationLeft",
+  "name": "SidebarLeft",
   "description": "A toolbar navigation icon indicating or controlling left-positioned navigation elements.",
   "tags": [
+    "sidebar",
     "toolbar",
     "navigation",
     "left",
     "position",
     "align",
-    "layout",
-    "sidebar"
+    "layout"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sidebar left",
+  "aliases": [
+    "ToolbarNavigationLeft"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

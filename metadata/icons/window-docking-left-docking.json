@@ -1,18 +1,17 @@
 {
-  "name": "WindowDockingLeft",
+  "name": "DockLeft",
   "description": "A window docking icon indicating left edge docking position",
   "tags": [
+    "dock",
     "window",
     "docking",
     "left",
-    "dock",
     "align",
     "position",
     "side"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Dock left",
+  "aliases": [
+    "WindowDockingLeft"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

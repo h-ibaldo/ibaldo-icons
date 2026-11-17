@@ -1,19 +1,21 @@
 {
-  "name": "ApplicationWindow1DotsMenu",
-  "displayName": "Application window 1 dots menu",
+  "name": "WindowDotsVertical",
+  "displayName": "Window dots vertical",
   "originalTitle": "Application Window 1 Dots Menu",
   "description": "Application window with three dots menu icon representing additional options or settings. Used to indicate expandable menus in software interfaces.",
   "tags": [
-    "application",
     "window",
+    "application",
     "menu",
     "dots",
     "options",
     "settings",
     "more",
-    "interface"
+    "interface",
+    "vertical"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.767Z"
+  "generatedAt": "2026-02-15T00:53:19.767Z",
+  "aliases": [
+    "ApplicationWindow1DotsMenu"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

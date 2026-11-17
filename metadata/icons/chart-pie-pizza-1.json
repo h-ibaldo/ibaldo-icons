@@ -1,11 +1,12 @@
 {
-  "name": "ChartPie1",
-  "displayName": "Chart pie 1",
+  "name": "ChartPie",
+  "displayName": "Chart pie",
   "originalTitle": "Chart Pie Pizza 1",
   "description": "Pie chart icon for displaying proportional data and percentage breakdowns. Commonly used in reports and dashboards to show data distribution.",
   "tags": [
-    "pie",
     "chart",
+    "pizza",
+    "pie",
     "graph",
     "percentage",
     "proportion",
@@ -14,8 +15,7 @@
     "breakdown"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.754Z"
+  "generatedAt": "2026-02-15T00:53:19.754Z",
+  "aliases": [
+    "ChartPie1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

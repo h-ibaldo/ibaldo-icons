@@ -1,15 +1,14 @@
 {
-  "name": "TabCloseLeft",
+  "name": "TabArrowLeftX",
   "description": "A tab close icon with an arrow pointing left for removing the left tab",
   "tags": [
     "tab",
-    "arrow",
     "close",
     "remove",
+    "delete",
+    "arrow",
     "left",
-    "x",
-    "navigation",
-    "delete"
+    "navigation"
   ],
   "categories": [
     "interface"
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab arrow left X",
+  "aliases": [
+    "TabCloseLeft"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

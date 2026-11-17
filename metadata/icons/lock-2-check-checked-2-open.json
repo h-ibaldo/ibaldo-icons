@@ -1,19 +1,20 @@
 {
-  "name": "Lock2CheckOpen2",
+  "name": "LockOpenCheckCorner",
   "description": "A variant 2 lock icon with a second variant checkmark in an open state indicating secure verification",
   "tags": [
     "lock",
-    "check",
     "checked",
+    "done",
+    "success",
+    "verified",
+    "check",
     "open",
     "secure",
-    "verified",
-    "variant",
-    "checkmark"
+    "checkmark",
+    "corner"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open check corner",
+  "aliases": [
+    "Lock2CheckOpen2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

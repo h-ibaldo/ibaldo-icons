@@ -1,14 +1,16 @@
 {
-  "name": "TabRemove",
+  "name": "TabMinusCenter",
   "description": "A tab icon with a remove or delete action to close a tab",
   "tags": [
     "tab",
+    "negative",
     "remove",
     "delete",
+    "subtract",
     "minus",
-    "negative",
     "close",
-    "interface"
+    "interface",
+    "center"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab minus center",
+  "aliases": [
+    "TabRemove"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

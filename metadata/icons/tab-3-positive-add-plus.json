@@ -1,13 +1,16 @@
 {
-  "name": "Tab3Plus",
+  "name": "TabPlusCenterSharp",
   "description": "A tab icon with a plus symbol for adding or extending tab functionality",
   "tags": [
     "tab",
     "positive",
     "add",
+    "create",
     "plus",
     "action",
-    "interface"
+    "interface",
+    "center",
+    "sharp"
   ],
   "categories": [
     "interface"
@@ -27,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab plus center sharp",
+  "aliases": [
+    "Tab3Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

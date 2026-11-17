@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow1Word",
-  "displayName": "Application window 1 word",
+  "name": "WindowLetterW",
+  "displayName": "Window letter W",
   "originalTitle": "Application Window 1 Microsoft Word",
   "description": "Application window representing Microsoft Word document software. Used to indicate Word files, document processing applications, or text editing tools.",
   "tags": [
+    "window",
     "application",
+    "microsoft",
     "word",
     "document",
-    "microsoft",
     "text",
     "writing",
     "editor",
-    "office"
+    "office",
+    "letter"
   ],
   "categories": [
-    "files",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.769Z"
+  "generatedAt": "2026-02-15T00:53:19.769Z",
+  "aliases": [
+    "ApplicationWindow1Word"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

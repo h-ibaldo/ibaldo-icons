@@ -1,21 +1,25 @@
 {
-  "name": "ApplicationWindow1Excel",
-  "displayName": "Application window 1 excel",
+  "name": "WindowLetterX",
+  "displayName": "Window letter X",
   "originalTitle": "Application Window 1 Microsoft Excel",
   "description": "Application window representing Microsoft Excel spreadsheet software. Used to indicate Excel files, spreadsheet applications, or data analysis tools.",
   "tags": [
+    "window",
     "application",
-    "excel",
-    "spreadsheet",
     "microsoft",
+    "excel",
+    "close",
+    "delete",
+    "remove",
+    "spreadsheet",
     "data",
     "table",
     "calculation",
     "office"
   ],
   "categories": [
-    "files",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.769Z"
+  "generatedAt": "2026-02-15T00:53:19.769Z",
+  "aliases": [
+    "ApplicationWindow1Excel"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

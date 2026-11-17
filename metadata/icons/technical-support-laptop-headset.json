@@ -1,19 +1,18 @@
 {
-  "name": "TechnicalSupportHeadset",
+  "name": "LaptopHeadset",
   "description": "A laptop with a headset icon symbolizing technical support via communication",
   "tags": [
-    "technical support",
     "laptop",
-    "headset",
-    "customer service",
-    "communication",
+    "technical",
     "support",
+    "technical-support",
+    "headset",
+    "customer-service",
+    "communication",
     "help"
   ],
   "categories": [
-    "interface",
-    "business",
-    "communication"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop headset",
+  "aliases": [
+    "TechnicalSupportHeadset"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

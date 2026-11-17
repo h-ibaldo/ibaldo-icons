@@ -1,5 +1,5 @@
 {
-  "name": "TabGearSettings",
+  "name": "TabSettings",
   "description": "A tab icon with a gear symbol to represent tab settings and configuration options",
   "tags": [
     "tab",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab settings",
+  "aliases": [
+    "TabGearSettings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

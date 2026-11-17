@@ -1,19 +1,18 @@
 {
-  "name": "PageViewOriginalRatio",
+  "name": "RatioOneToOne",
   "description": "A page view icon representing original size at a 1 to 1 aspect ratio",
   "tags": [
+    "ratio",
     "page",
     "view",
     "original",
     "size",
-    "ratio",
-    "1-1",
     "aspect",
-    "scale"
+    "scale",
+    "one"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Ratio one to one",
+  "aliases": [
+    "PageViewOriginalRatio"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,17 @@
 {
-  "name": "WindowControlRestore",
+  "name": "Restore",
   "description": "A standard window control icon for restoring windows to their previous state",
   "tags": [
+    "restore",
     "window",
     "control",
-    "restore",
     "resize",
     "return",
     "previous",
     "interface"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "arrows"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Restore",
+  "aliases": [
+    "WindowControlRestore"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -31,7 +31,7 @@ async function generateIndex() {
   const { icons } = iconNames.loadIconNames();
   const categories = new Set();
 
-  const entries = icons.map(({ filename, name, metadata }) => {
+  const entries = icons.map(({ filename, name, aliases, metadata }) => {
     const displayName = toSentenceCase(name);
     const semantic = Array.isArray(metadata?.categories) && metadata.categories.length ? metadata.categories : [FOLDER];
     semantic.forEach((c) => categories.add(c));
@@ -45,10 +45,12 @@ async function generateIndex() {
       categories: semantic
     };
     if (metadata?.featured) entry.featured = true;
+    // Old names (aliases) stay searchable, so "Cloud3UploadAlt2" still finds CloudUploadRound
+    if (aliases.length) entry.aliases = aliases;
     if (metadata) {
       if (metadata.tags) entry.tags = metadata.tags;
       if (metadata.description) entry.description = metadata.description;
-      entry.searchText = [name, displayName, ...(metadata.tags || []), metadata.description || '', ...semantic]
+      entry.searchText = [name, displayName, ...aliases, ...(metadata.tags || []), metadata.description || '', ...semantic]
         .join(' ')
         .toLowerCase();
     }

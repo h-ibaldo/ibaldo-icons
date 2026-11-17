@@ -1,17 +1,17 @@
 {
-  "name": "UploadArrowDashed",
+  "name": "UploadSquareDashed",
   "description": "An upload icon with an upward arrow and dashed line styling for visual distinction",
   "tags": [
     "upload",
     "arrow",
     "up",
     "dashed",
-    "line",
     "outline",
-    "style"
+    "style",
+    "square"
   ],
   "categories": [
-    "interface",
+    "files",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload square dashed",
+  "aliases": [
+    "UploadArrowDashed"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,16 +1,18 @@
 {
-  "name": "LupeSearch3ZoomOut",
+  "name": "SearchMinusC",
   "description": "A magnifying glass search icon with a minus symbol indicating zoom out functionality",
   "tags": [
-    "lupe",
     "search",
-    "magnifying glass",
-    "zoom out",
+    "lupe",
+    "zoom",
+    "out",
     "negative",
     "remove",
-    "minus",
     "delete",
-    "variant 3"
+    "subtract",
+    "magnifying-glass",
+    "zoom-out",
+    "minus"
   ],
   "categories": [
     "interface"
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search minus C",
+  "aliases": [
+    "LupeSearch3ZoomOut"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

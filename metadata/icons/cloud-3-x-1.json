@@ -1,18 +1,19 @@
 {
-  "name": "Cloud3Close",
+  "name": "CloudXCornerRound",
   "description": "A cloud icon with an X or close symbol for dismissal or removal",
   "tags": [
     "cloud",
     "close",
-    "x",
-    "dismiss",
+    "delete",
     "remove",
+    "dismiss",
     "cancel",
-    "delete"
+    "corner",
+    "round"
   ],
   "categories": [
-    "interface",
-    "weather"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud X corner round",
+  "aliases": [
+    "Cloud3Close"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

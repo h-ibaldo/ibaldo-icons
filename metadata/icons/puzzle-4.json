@@ -1,5 +1,5 @@
 {
-  "name": "Puzzle4",
+  "name": "PuzzleGridMissing",
   "description": "A puzzle piece icon representing the fourth variant of a jigsaw puzzle component.",
   "tags": [
     "puzzle",
@@ -7,10 +7,11 @@
     "game",
     "problem",
     "solution",
-    "variant4"
+    "grid",
+    "missing"
   ],
   "categories": [
-    "interface"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Puzzle grid missing",
+  "aliases": [
+    "Puzzle4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

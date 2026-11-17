@@ -1,9 +1,10 @@
 {
-  "name": "ApplicationWindow1Shield1",
-  "displayName": "Application window 1 shield 1",
+  "name": "WindowShieldCenter",
+  "displayName": "Window shield center",
   "originalTitle": "Application Window 1 Shield 1",
   "description": "Application window with shield icon representing security or protection software. Used to indicate antivirus applications, security tools, or system protection programs.",
   "tags": [
+    "window",
     "application",
     "shield",
     "security",
@@ -11,10 +12,11 @@
     "antivirus",
     "safety",
     "defense",
-    "guard"
+    "guard",
+    "center"
   ],
   "categories": [
-    "security",
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.770Z"
+  "generatedAt": "2026-02-15T00:53:19.770Z",
+  "aliases": [
+    "ApplicationWindow1Shield1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

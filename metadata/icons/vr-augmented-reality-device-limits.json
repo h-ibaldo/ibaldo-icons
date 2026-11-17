@@ -1,18 +1,21 @@
 {
-  "name": "VRDeviceLimits",
+  "name": "MobileBounds",
   "description": "A VR augmented reality device icon depicting boundary limits or play space boundaries",
   "tags": [
+    "mobile",
     "vr",
-    "augmented reality",
+    "augmented",
+    "reality",
     "device",
     "limits",
+    "augmented-reality",
     "boundaries",
-    "play space",
-    "range"
+    "play-space",
+    "range",
+    "bounds"
   ],
   "categories": [
-    "devices",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mobile bounds",
+  "aliases": [
+    "VRDeviceLimits"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

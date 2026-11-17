@@ -1,13 +1,17 @@
 {
-  "name": "CheckboxCircle1",
-  "displayName": "Checkbox circle 1",
+  "name": "CheckCircleCompact",
+  "displayName": "Check circle compact",
   "originalTitle": "Checkbox Checked Circle Rounded 1",
   "description": "Circular checkbox in checked state with rounded styling. Used in forms, lists, and selection interfaces for single or multiple choice options.",
   "tags": [
+    "check",
     "checkbox",
     "checked",
-    "circle",
     "rounded",
+    "done",
+    "success",
+    "verified",
+    "circle",
     "form",
     "selection",
     "option",
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.792Z"
+  "generatedAt": "2026-02-15T00:53:19.792Z",
+  "aliases": [
+    "CheckboxCircle1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

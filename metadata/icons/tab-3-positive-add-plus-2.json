@@ -1,14 +1,15 @@
 {
-  "name": "Tab3Add",
+  "name": "TabPlusSharp",
   "description": "A tab icon with a positive or plus symbol for adding or creating new tab content",
   "tags": [
     "tab",
     "positive",
     "add",
-    "plus",
     "create",
+    "plus",
     "action",
-    "interface"
+    "interface",
+    "sharp"
   ],
   "categories": [
     "interface"
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab plus sharp",
+  "aliases": [
+    "Tab3Add"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

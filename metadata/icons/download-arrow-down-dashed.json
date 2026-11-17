@@ -1,5 +1,5 @@
 {
-  "name": "DownloadArrowDashed",
+  "name": "DownloadSquareDashed",
   "description": "A download arrow icon pointing downward with a dashed line style",
   "tags": [
     "download",
@@ -7,10 +7,12 @@
     "down",
     "dashed",
     "outline",
-    "stroke"
+    "stroke",
+    "square"
   ],
   "categories": [
-    "interface"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download square dashed",
+  "aliases": [
+    "DownloadArrowDashed"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

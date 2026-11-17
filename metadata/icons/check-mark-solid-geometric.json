@@ -1,17 +1,21 @@
 {
-  "name": "CheckMarkGeometric",
-  "displayName": "Check mark geometric",
+  "name": "CheckBold",
+  "displayName": "Check bold",
   "originalTitle": "Check Mark Solid Geometric",
   "description": "Geometric-style solid checkmark for indicating completion, success, or selection. Features clean, angular lines for modern interfaces.",
   "tags": [
-    "checkmark",
+    "check",
+    "mark",
     "geometric",
-    "solid",
-    "complete",
+    "done",
     "success",
+    "verified",
+    "checkmark",
+    "complete",
     "selection",
     "modern",
-    "angular"
+    "angular",
+    "bold"
   ],
   "categories": [
     "interface"
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.792Z"
+  "generatedAt": "2026-02-15T00:53:19.792Z",
+  "aliases": [
+    "CheckMarkGeometric"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

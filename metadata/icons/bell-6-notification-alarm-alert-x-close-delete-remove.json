@@ -1,21 +1,24 @@
 {
-  "name": "Bell6X",
-  "displayName": "Bell 6 x",
+  "name": "BellXWide",
+  "displayName": "Bell X wide",
   "originalTitle": "Bell 6 Notification Alarm Alert X Close Delete Remove",
   "description": "Notification bell with X overlay, representing the option to close or remove notifications. Used for dismissing alerts or turning off notification settings.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "close",
+    "delete",
     "remove",
     "dismiss",
-    "delete",
     "cancel",
-    "turn off"
+    "turn-off",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.790Z"
+  "generatedAt": "2026-02-15T00:53:19.790Z",
+  "aliases": [
+    "Bell6X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

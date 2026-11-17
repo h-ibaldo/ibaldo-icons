@@ -1,16 +1,20 @@
 {
-  "name": "AppWindowRemove",
+  "name": "WindowMinusCirclePlain",
   "description": "An application window icon with a minus or remove indicator, showing window deletion or reduction action",
   "tags": [
-    "application",
     "window",
+    "application",
+    "negative",
     "remove",
     "delete",
+    "subtract",
     "minus",
-    "negative",
-    "interface"
+    "interface",
+    "circle",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window minus circle plain",
+  "aliases": [
+    "AppWindowRemove"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

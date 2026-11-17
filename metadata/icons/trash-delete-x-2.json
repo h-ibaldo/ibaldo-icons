@@ -1,17 +1,16 @@
 {
-  "name": "TrashDeleteX2",
+  "name": "TrashX",
   "description": "A trash bin icon with an X overlay for explicit deletion or cancellation",
   "tags": [
     "trash",
     "delete",
-    "x",
     "close",
     "remove",
     "bin",
     "discard"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash X",
+  "aliases": [
+    "TrashDeleteX2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

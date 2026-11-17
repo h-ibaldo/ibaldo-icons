@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsRectangleArrowIn",
-  "displayName": "Chart vertical columns rectangle arrow in",
+  "name": "ChartBarSquareArrowRight",
+  "displayName": "Chart bar square arrow right",
   "originalTitle": "Chart Vertical Columns Rectangle Arrow In",
   "description": "Column chart with import arrow indicating data input or chart importing functionality. Used for importing data into analytics dashboards or chart applications.",
   "tags": [
     "chart",
+    "vertical",
+    "columns",
+    "rectangle",
     "column",
     "import",
     "arrow",
     "data",
     "input",
     "analytics",
-    "upload"
+    "upload",
+    "bar"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.758Z"
+  "generatedAt": "2026-02-15T00:53:19.758Z",
+  "aliases": [
+    "ChartVerticalColumnsRectangleArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

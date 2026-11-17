@@ -1,19 +1,18 @@
 {
-  "name": "InstallUpdateUp1",
+  "name": "GearUpload",
   "description": "An installation or update icon with a gear and upward arrow indicating upload in variant 1",
   "tags": [
-    "install",
-    "update",
     "gear",
+    "install",
+    "updates",
     "arrow",
     "up",
+    "update",
     "upload",
     "settings",
     "configuration"
   ],
   "categories": [
-    "interface",
-    "arrows",
     "development"
   ],
   "accessibility": {
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear upload",
+  "aliases": [
+    "InstallUpdateUp1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

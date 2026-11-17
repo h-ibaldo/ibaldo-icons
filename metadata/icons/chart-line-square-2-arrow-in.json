@@ -1,6 +1,6 @@
 {
-  "name": "ChartLineSquare2ArrowIn",
-  "displayName": "Chart line square 2 arrow in",
+  "name": "ChartLineSquareArrowRight",
+  "displayName": "Chart line square arrow right",
   "originalTitle": "Chart Line Square 2 Arrow In",
   "description": "Line chart with import arrow indicating data input or chart importing functionality. Used for importing analytics data or adding new datasets to charts.",
   "tags": [
@@ -11,11 +11,12 @@
     "input",
     "analytics",
     "upload",
-    "add"
+    "add",
+    "square",
+    "right"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.752Z"
+  "generatedAt": "2026-02-15T00:53:19.752Z",
+  "aliases": [
+    "ChartLineSquare2ArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

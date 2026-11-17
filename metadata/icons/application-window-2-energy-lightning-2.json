@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow2Lightning2",
-  "displayName": "Application window 2 lightning 2",
+  "name": "WindowBoltBare",
+  "displayName": "Window bolt bare",
   "originalTitle": "Application Window 2 Energy Lightning 2",
   "description": "Application window with lightning bolt icon variant representing power applications or energy monitoring tools. Used to indicate electrical utilities, battery management, or system performance applications.",
   "tags": [
-    "application",
     "window",
-    "lightning",
+    "application",
     "energy",
+    "lightning",
     "power",
     "electric",
     "battery",
-    "performance"
+    "performance",
+    "bolt",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.773Z"
+  "generatedAt": "2026-02-15T00:53:19.773Z",
+  "aliases": [
+    "ApplicationWindow2Lightning2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2View",
+  "name": "CloudEyeTall",
   "description": "A cloud icon with a view or eye symbol for monitoring cloud visibility",
   "tags": [
     "cloud",
@@ -8,10 +8,11 @@
     "visibility",
     "monitor",
     "watch",
-    "observe"
+    "observe",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud eye tall",
+  "aliases": [
+    "Cloud2View"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

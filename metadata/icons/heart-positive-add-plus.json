@@ -1,17 +1,18 @@
 {
-  "name": "HeartPositive",
+  "name": "HeartPlusCenter",
   "description": "A heart icon with a positive indicator or plus symbol",
   "tags": [
     "heart",
     "positive",
     "add",
+    "create",
     "plus",
     "favorite",
     "like",
-    "preference"
+    "preference",
+    "center"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Heart plus center",
+  "aliases": [
+    "HeartPositive"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

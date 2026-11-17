@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow2Cloud1",
-  "displayName": "Application window 2 cloud 1",
+  "name": "WindowCloudCenterBare",
+  "displayName": "Window cloud center bare",
   "originalTitle": "Application Window 2 Cloud 1",
   "description": "Application window with cloud icon representing cloud storage or online synchronization features. Used for cloud-based applications, file sync, or remote storage access.",
   "tags": [
@@ -11,11 +11,13 @@
     "sync",
     "online",
     "remote",
-    "backup"
+    "backup",
+    "center",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.772Z"
+  "generatedAt": "2026-02-15T00:53:19.772Z",
+  "aliases": [
+    "ApplicationWindow2Cloud1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

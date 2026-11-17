@@ -1,18 +1,21 @@
 {
-  "name": "TabChevronSwitch3",
+  "name": "TabMultipleArrowRight",
   "description": "A tab navigation icon with chevron arrows for switching between tabs, variant 3",
   "tags": [
     "tab",
-    "chevron",
+    "chevrons",
     "switch",
+    "between",
+    "tabs",
+    "chevron",
     "navigate",
     "arrows",
-    "between",
-    "tabs"
+    "multiple",
+    "arrow",
+    "right"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab multiple arrow right",
+  "aliases": [
+    "TabChevronSwitch3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

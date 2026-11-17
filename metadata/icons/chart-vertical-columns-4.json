@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumns4",
-  "displayName": "Chart vertical columns 4",
+  "name": "ChartBarPeakJoinedBase",
+  "displayName": "Chart bar peak joined base",
   "originalTitle": "Chart Vertical Columns 4",
   "description": "Fourth style of vertical column chart for statistical data representation. Commonly used in reports and analytical dashboards.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
     "bars",
-    "vertical",
     "statistics",
     "reporting",
     "data",
-    "visualization"
+    "visualization",
+    "bar",
+    "peak",
+    "joined",
+    "base"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.755Z"
+  "generatedAt": "2026-02-15T00:53:19.755Z",
+  "aliases": [
+    "ChartVerticalColumns4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

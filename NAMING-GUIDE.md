@@ -24,20 +24,88 @@ the React package and the Svelte package all take the name from there.
 
 ## Component names
 
-- PascalCase, 2–4 words, must start with a letter: `AvatarFaceCurlyBob`, not `1UserHead12`.
-- **Family first, then the difference.** Icons that belong together share a prefix,
-  so they sort together and autocomplete together: `AvatarHead…`, `AvatarFace…`.
-- Name the **visible difference**, never a number. `AvatarHeadSpaceBuns` beats `AvatarHead24`.
-- Use a trailing number only when two icons are truly the same idea with a tiny
-  drawing difference no one would describe in words: `AvatarHeadShoulderCenterPart2`.
-- One word per synonym group:
-  - add / plus / positive → `Add`
-  - remove / delete / minus / negative → `Remove`
-  - close / x → `Close`
-  - check / checked / checkmark → `Check`
-  - notification / alarm / alert → `Alert` (use `Bell` when a bell is drawn)
-- Common UI words over clever ones: `Close` not `Dismiss`, `Settings` not `Preferences`.
-- No style words that apply to the whole library (`Line`, `Outline`, `Icon`).
+The full rationale, with before/after tables, is in `NAMING-SYSTEM-PROPOSAL.md`.
+
+### Structure
+
+```
+<Family> <Variant?> <Badge?> <Direction?> <Container?> <Position?> <Style?>
+Cloud                Upload                                       Round   → CloudUploadRound
+Bell                 X                    Circle                  Rim     → BellXCircleRim
+Lock   Open          Check                           Corner       Narrow  → LockOpenCheckCornerNarrow
+```
+
+- PascalCase, must start with a letter, usually 1–4 words.
+- **Family** = the drawn object, one noun, the word people search for. Always first, so
+  related icons sort and autocomplete together (`Bell…`, `Cloud…`, `AvatarFace…`).
+  Two-word families act as one prefix: `AvatarHead`, `AvatarFace`, `AddressBook`, `HardDrive`, `ProgressBar`, `ScreenShare`.
+- **Variant** = which kind of that object: `ChartPie`, `LockOpen`, `HandPointer`.
+- **Badge** = a small mark on the object. Name the **mark that is drawn**, never a guessed meaning
+  (`X`, not `Close`/`Delete`; meanings go to tags).
+- **Direction** after the thing that points: `CloudArrowUp`, `HandSwipeLeft`.
+- **Container** right after the part it encloses: `BellSquare` (bell in a square), `BellXCircle` (only the X is circled).
+  If the badge is itself round (clock), the circle is implied: `BellClock`.
+- **Position** (`Corner` = outside at the corner, `Center` = centered inside) only when the family
+  has the same badge in two places **and** the name would not be unique without it.
+- **Style** = which base drawing, always **last**: `CloudUpload`, `CloudUploadTall`, `CloudUploadRound`.
+- Name the object that is drawn, not the filename: `cart-line-square` is a chart (`ChartLineSquareWide`).
+- Brand marks: describe the drawing (`WindowLetterX`, not `WindowExcel`).
+- Never: Illustrator numbers (`Bell4`), `Alt`, `Second`, `New`, `Variant`, `Line`, `Outline`, `Icon`, gender or ethnicity.
+
+### Vocabulary (use exactly these words)
+
+- Badges: `Plus` (+), `Minus` (−), `X` (×), `Check` (✓), `CheckDouble` (✓✓), `Alert` (!), `Warning` (triangle with !),
+  `Question`, `Info`, `Off` (slash through the object), `Ban` (circle with a slash), `Dot` (notification dot),
+  `Ring` (sound lines), `Snooze` (z), `Lock`/`Unlock`, `Clock`, `Search` (magnifier), `Settings` (gear),
+  `Edit` (pencil), `Eye`, `Sync` (two curved arrows), `Refresh` (one curved arrow), `Upload`/`Download`
+  (arrow joined to the object), `Arrow` + direction (loose arrow), `Transfer` (two straight opposite arrows),
+  `Link`, `Star`, `Heart`, `Mail`, `User`, `Shield`, `Bolt`, `Music`, `Dots`, `Dollar`, `Pin`, `Paperclip`,
+  `Chat`, `Happy`/`Sad`, `One`/`Two`/`Three` (drawn digits).
+- Containers and shapes: `Circle`, `Square`, `Octagon`, `Hexagon`, `Triangle`, `Diamond`, `Pentagon`.
+  Outline: `Dashed`, `Dotted`. Fill: `Striped`, `Dotted`, `Filled`.
+- Directions: `Up`, `Down`, `Left`, `Right`, `UpDown`, `LeftRight`, `UpRight`, `UpLeft`, `DownRight`, `DownLeft`,
+  `Clockwise`, `Counterclockwise`, `In`, `Out`.
+- States: `Open`/`Closed` (only if the family has both), `On`, `Off`, `Empty`, `Half`, `Full`.
+- Count: `Stack` (overlapping copies; never plural families), `Double` (two equal marks), `Two`/`Three` when count is the point.
+- Size: `Small` · (none) · `Large`; `XS`/`XL` only for graded series. Proportion: `Wide`, `Tall`, `Narrow`.
+
+### Synonyms → one family
+
+| Old word | Family |
+|---|---|
+| lupe, search, zoom | `Search` |
+| envelope, email | `Mail` |
+| at-sign | `At` |
+| bulb, idea | `Lightbulb` |
+| lightning, energy | `Bolt` |
+| application window, pop-up, window without address bar | `Window` |
+| browser, website with address bar | `Browser` |
+| speech bubble, message | `Chat` |
+| graph | `Chart` / `ProgressBar` |
+| switch (UI on/off) | `Toggle`; physical switch → `Switch` |
+| hand-touch (hand drawn) | `Hand`; touch-screen (circles only) → `Touch` |
+| bookmarks | `BookmarkStack` |
+| 1-user-head / 1-user-person | `AvatarHead` / `AvatarFace` |
+| language, translation | `Translate` |
+| signal-cell-tower / wifi-hotspot / connect / screensharing | `Antenna` / `Hotspot` / `Nodes` / `ScreenShare` |
+| piramid | `Pyramid` |
+| agenda, contacts | `AddressBook` |
+
+### Style series and near-duplicates
+
+- **Style series** (the same ideas drawn on several base drawings, e.g. bell-1…6): the most neutral base gets
+  no word; every other base gets **one descriptive style word, the same on every icon of that base**, at the end.
+  Current series: Bell `Rim`/`Knob`/`Flat`/`Dash`/`Wide`; Cloud `Tall`/`Round`; Lock `Sharp`/`Narrow`/`Wide`/`Round`;
+  At `Curved`/`Circle`/`Tall`/`Boxy`; Tab `Step`/`Sharp`/`Striped`; Window `Bare`/`Plain`; Chart bars `Thin`.
+  Letters `B`, `C` only when no difference can be described (today only `Search`, `SearchB`, `SearchC`).
+- **Near-duplicates** (same base, same badge, tiny drawing difference): name the difference when you can
+  (`CloudDownloadLarge`). Only when you cannot, add a trailing `2`, `3`. The library keeps these (about 50).
+
+### Renaming an existing icon
+
+Put the old name in `aliases`. The React and Svelte packages export every alias as a deprecated
+re-export of the new component, and the site search still finds the icon by its old name.
+Aliases are removed in the next major version.
 
 ## People icons
 
@@ -46,7 +114,6 @@ the React package and the Svelte package all take the name from there.
   `Textured`, `Braids`, `Afro`) are fine because they describe the drawing.
 - `AvatarHead…` = head outline with no face details.
 - `AvatarFace…` = head with eyes (and sometimes a smile).
-- `displayName` follows the name: "Avatar face, top knot".
 - Avatars have `"featured": true`. Featured icons are shown first on the homepage
   (before the alphabetical list), with or without a category selected. Don't rely
   on the name for ordering; set `featured` instead. Use it sparingly.

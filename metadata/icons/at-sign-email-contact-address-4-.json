@@ -1,21 +1,23 @@
 {
-  "name": "AtSign4",
-  "displayName": "At sign 4",
+  "name": "AtTall",
+  "displayName": "At tall",
   "originalTitle": "At Sign Email Contact Address 4",
   "description": "At symbol representing email addresses and contact information. Used for email fields and contact details in forms and profiles.",
   "tags": [
-    "at sign",
+    "at",
+    "sign",
     "email",
     "contact",
     "address",
+    "at-sign",
     "mail",
     "communication",
     "symbol",
-    "username"
+    "username",
+    "tall"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.802Z"
+  "generatedAt": "2026-02-15T00:53:19.802Z",
+  "aliases": [
+    "AtSign4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

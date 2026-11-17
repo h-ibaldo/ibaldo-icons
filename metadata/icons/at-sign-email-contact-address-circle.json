@@ -1,21 +1,22 @@
 {
-  "name": "AtSignCircle",
-  "displayName": "At sign circle",
+  "name": "AtCircle",
+  "displayName": "At circle",
   "originalTitle": "At Sign Email Contact Address Circle",
   "description": "At symbol enclosed in a circle for email-related actions or email status indicators. Used as a prominent email button or notification badge.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "circle",
     "contact",
     "address",
+    "circle",
     "communication",
     "button",
     "badge",
     "enclosed"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.765Z"
+  "generatedAt": "2026-02-15T00:53:19.765Z",
+  "aliases": [
+    "AtSignCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

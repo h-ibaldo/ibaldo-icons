@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Unlock",
+  "name": "CloudUnlockRound",
   "description": "A cloud icon with an unlock symbol indicating unsecured cloud access or security changes",
   "tags": [
     "cloud",
@@ -9,12 +9,12 @@
     "access",
     "open",
     "protection",
-    "lock"
+    "lock",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "security"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud unlock round",
+  "aliases": [
+    "Cloud3Unlock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

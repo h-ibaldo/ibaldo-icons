@@ -1,19 +1,20 @@
 {
-  "name": "PageViewNewTabArrowDown2",
+  "name": "TabDownloadSplit",
   "description": "A page view icon with an open in new tab indicator and downward arrow, variant 2",
   "tags": [
+    "tab",
     "page",
     "view",
     "open",
     "new",
-    "tab",
     "arrow",
     "down",
-    "external"
+    "external",
+    "download",
+    "split"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab download split",
+  "aliases": [
+    "PageViewNewTabArrowDown2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

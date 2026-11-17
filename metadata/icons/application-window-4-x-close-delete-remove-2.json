@@ -1,17 +1,18 @@
 {
-  "name": "ApplicationWindowClose23",
+  "name": "WindowXCenterPlain",
   "description": "An alternate application window icon with an X symbol for closing or removing the window",
   "tags": [
-    "application",
     "window",
+    "application",
     "close",
-    "x",
     "delete",
     "remove",
-    "variant",
-    "interface"
+    "interface",
+    "center",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window X center plain",
+  "aliases": [
+    "ApplicationWindowClose23"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

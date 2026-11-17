@@ -1,20 +1,21 @@
 {
-  "name": "HandTwoFingerSwipeLeft",
+  "name": "HandSwipeLeftTwoFingers",
   "description": "A hand with two fingers swiping leftward with a left arrow indicator",
   "tags": [
     "hand",
     "touch",
-    "two fingers",
+    "arrow",
+    "two-fingers",
     "swipe",
     "left",
-    "arrow",
     "gesture",
-    "interaction"
+    "interaction",
+    "two",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "arrows",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand swipe left two fingers",
+  "aliases": [
+    "HandTwoFingerSwipeLeft"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

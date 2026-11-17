@@ -1,15 +1,15 @@
 {
-  "name": "TabRemoveCircle2",
+  "name": "TabMinus",
   "description": "A second variant of a tab icon with a remove action inside a circle",
   "tags": [
     "tab",
+    "negative",
     "remove",
     "delete",
-    "minus",
-    "negative",
     "circle",
-    "close",
-    "variant"
+    "subtract",
+    "minus",
+    "close"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab minus",
+  "aliases": [
+    "TabRemoveCircle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

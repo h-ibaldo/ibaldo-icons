@@ -1,15 +1,19 @@
 {
-  "name": "ViewsGroupAdd",
+  "name": "SquareStackPlusCircle",
   "description": "A views group icon with a plus symbol indicating the ability to add new views or expand view collections",
   "tags": [
+    "square",
     "views",
     "group",
-    "plus",
     "add",
+    "create",
+    "plus",
     "new",
     "expand",
     "collection",
-    "layout"
+    "layout",
+    "stack",
+    "circle"
   ],
   "categories": [
     "interface"
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Square stack plus circle",
+  "aliases": [
+    "ViewsGroupAdd"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

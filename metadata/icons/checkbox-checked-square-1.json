@@ -1,11 +1,15 @@
 {
-  "name": "CheckboxSquare1",
-  "displayName": "Checkbox square 1",
+  "name": "CheckSquare",
+  "displayName": "Check square",
   "originalTitle": "Checkbox Checked Square 1",
   "description": "Square checkbox in checked state for traditional form interfaces. Classic design for checkboxes, todo lists, and selection controls.",
   "tags": [
+    "check",
     "checkbox",
     "checked",
+    "done",
+    "success",
+    "verified",
     "square",
     "traditional",
     "form",
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.793Z"
+  "generatedAt": "2026-02-15T00:53:19.793Z",
+  "aliases": [
+    "CheckboxSquare1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

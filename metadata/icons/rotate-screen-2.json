@@ -1,5 +1,5 @@
 {
-  "name": "RotateScreen2",
+  "name": "RotateScreenHome",
   "description": "An alternate screen rotation icon in a different style variant for rotating device display.",
   "tags": [
     "rotate",
@@ -7,11 +7,11 @@
     "orientation",
     "landscape",
     "display",
-    "device"
+    "device",
+    "home"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Rotate screen home",
+  "aliases": [
+    "RotateScreen2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

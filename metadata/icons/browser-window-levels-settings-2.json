@@ -1,5 +1,5 @@
 {
-  "name": "BrowserWindowSettings",
+  "name": "BrowserSlidersTwo",
   "description": "A browser window icon with levels and settings controls for adjusting preferences",
   "tags": [
     "browser",
@@ -8,11 +8,13 @@
     "settings",
     "preferences",
     "controls",
-    "adjustment"
+    "adjustment",
+    "sliders",
+    "two"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser sliders two",
+  "aliases": [
+    "BrowserWindowSettings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

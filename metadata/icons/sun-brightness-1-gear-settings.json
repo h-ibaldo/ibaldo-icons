@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightnessSettings",
+  "name": "SunSettings",
   "description": "A sun brightness control icon with gear settings, representing display or light adjustment options",
   "tags": [
     "sun",
@@ -12,8 +12,8 @@
     "adjustment"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun settings",
+  "aliases": [
+    "SunBrightnessSettings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

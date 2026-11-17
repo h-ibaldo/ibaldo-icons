@@ -1,9 +1,10 @@
 {
-  "name": "ButtonBubble2",
-  "displayName": "Button bubble 2",
+  "name": "ButtonPillRaised",
+  "displayName": "Button pill raised",
   "originalTitle": "Button Bubble 2",
   "description": "Alternative speech bubble design for messaging and conversation features. Used to indicate chat functionality, comments, or interactive communication elements.",
   "tags": [
+    "button",
     "bubble",
     "chat",
     "message",
@@ -11,10 +12,11 @@
     "speech",
     "communication",
     "comment",
-    "talk"
+    "talk",
+    "pill",
+    "raised"
   ],
   "categories": [
-    "communication",
     "interface"
   ],
   "accessibility": {
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.790Z"
+  "generatedAt": "2026-02-15T00:53:19.790Z",
+  "aliases": [
+    "ButtonBubble2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

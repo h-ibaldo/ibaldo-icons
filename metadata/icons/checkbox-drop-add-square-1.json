@@ -1,17 +1,21 @@
 {
-  "name": "CheckboxDropAddSquare1",
-  "displayName": "Checkbox drop add square 1",
+  "name": "CheckSquareStack",
+  "displayName": "Check square stack",
   "originalTitle": "Checkbox Drop Add Square 1",
   "description": "Square checkbox with dropdown and add functionality, first variant. Allows selection while enabling users to add new options to the dropdown list.",
   "tags": [
+    "check",
     "checkbox",
-    "dropdown",
+    "drop",
     "add",
+    "done",
+    "success",
+    "verified",
+    "dropdown",
     "square",
     "select",
     "form",
-    "input",
-    "create"
+    "input"
   ],
   "categories": [
     "interface"
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.793Z"
+  "generatedAt": "2026-02-15T00:53:19.793Z",
+  "aliases": [
+    "CheckboxDropAddSquare1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,16 +1,22 @@
 {
-  "name": "AppWindowCheck1",
+  "name": "WindowCheckPlain",
   "description": "An application window icon with a checkmark, indicating completion or approval status",
   "tags": [
-    "application",
     "window",
+    "application",
+    "mark",
+    "done",
+    "success",
+    "verified",
     "check",
     "checkmark",
     "approved",
     "complete",
-    "interface"
+    "interface",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window check plain",
+  "aliases": [
+    "AppWindowCheck1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

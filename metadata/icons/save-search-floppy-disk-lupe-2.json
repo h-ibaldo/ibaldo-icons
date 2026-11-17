@@ -1,18 +1,19 @@
 {
-  "name": "SaveSearchDisk",
+  "name": "SaveSearch2",
   "description": "A save search icon combining a floppy disk with a magnifying glass for storing search queries",
   "tags": [
     "save",
     "search",
-    "floppy disk",
-    "magnifying glass",
+    "floppy",
+    "disk",
     "lupe",
+    "floppy-disk",
+    "magnifying-glass",
     "storage",
     "query",
     "find"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save search2",
+  "aliases": [
+    "SaveSearchDisk"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightness5C",
+  "name": "SunMixedLarge",
   "description": "A sun brightness control icon representing the fifth brightness level with variant C styling",
   "tags": [
     "sun",
@@ -9,11 +9,12 @@
     "display",
     "light",
     "intensity",
-    "variant"
+    "mixed",
+    "large"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun mixed large",
+  "aliases": [
+    "SunBrightness5C"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

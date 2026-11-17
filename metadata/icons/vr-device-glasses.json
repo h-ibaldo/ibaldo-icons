@@ -1,16 +1,16 @@
 {
-  "name": "VRGlasses",
+  "name": "Glasses",
   "description": "A VR device glasses icon representing virtual reality headset eyewear equipment",
   "tags": [
+    "glasses",
     "vr",
     "device",
-    "glasses",
     "headset",
     "eyewear",
     "goggles"
   ],
   "categories": [
-    "devices"
+    "accessibility"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Glasses",
+  "aliases": [
+    "VRGlasses"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

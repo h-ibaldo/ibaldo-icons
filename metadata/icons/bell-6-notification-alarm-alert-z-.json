@@ -1,21 +1,24 @@
 {
-  "name": "Bell6Z",
-  "displayName": "Bell 6 z",
+  "name": "BellSnoozeWide",
+  "displayName": "Bell snooze wide",
   "originalTitle": "Bell 6 Notification Alarm Alert Z",
   "description": "Notification bell with Z symbol, indicating sleep mode or do not disturb for notifications. Used to show that alerts are temporarily paused or in quiet hours.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "sleep",
     "quiet",
-    "do not disturb",
+    "do-not-disturb",
     "paused",
     "snooze",
-    "rest"
+    "rest",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.790Z"
+  "generatedAt": "2026-02-15T00:53:19.790Z",
+  "aliases": [
+    "Bell6Z"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

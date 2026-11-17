@@ -1,15 +1,16 @@
 {
-  "name": "FolderWarning",
+  "name": "FolderAlertTriangle",
   "description": "A folder icon with a warning symbol, indicating caution or alert status for a folder.",
   "tags": [
     "folder",
     "warning",
+    "error",
+    "attention",
     "alert",
     "caution",
-    "attention"
+    "triangle"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder alert triangle",
+  "aliases": [
+    "FolderWarning"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "TouchScreenSwipeRight2",
+  "name": "TouchSwipeRightGap",
   "description": "A second variant of the touch screen right swipe icon with alternative styling for rightward navigation gestures.",
   "tags": [
     "touch",
@@ -10,11 +10,11 @@
     "interaction",
     "mobile",
     "navigation",
-    "variant2"
+    "gap"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Touch swipe right gap",
+  "aliases": [
+    "TouchScreenSwipeRight2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

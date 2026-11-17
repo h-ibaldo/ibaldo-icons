@@ -1,5 +1,5 @@
 {
-  "name": "ClockGear",
+  "name": "ClockSettingsLarge",
   "description": "A clock icon combined with a gear symbol indicating scheduling settings or time-based configuration controls",
   "tags": [
     "clock",
@@ -8,11 +8,11 @@
     "time",
     "configure",
     "schedule",
-    "options"
+    "options",
+    "large"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock settings large",
+  "aliases": [
+    "ClockGear"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

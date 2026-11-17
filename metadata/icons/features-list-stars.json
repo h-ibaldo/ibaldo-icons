@@ -1,20 +1,21 @@
 {
-  "name": "FeaturesListStars",
+  "name": "ListStarBullets",
   "description": "A features list icon with stars indicating highlighted capabilities, premium features, or quality ratings in a list format",
   "tags": [
-    "features",
     "list",
+    "features",
     "stars",
     "highlight",
     "premium",
     "quality",
     "rating",
     "capabilities",
-    "showcase"
+    "showcase",
+    "star",
+    "bullets"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "List star bullets",
+  "aliases": [
+    "FeaturesListStars"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

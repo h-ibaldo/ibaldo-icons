@@ -1,19 +1,21 @@
 {
-  "name": "BadgeRosetteQuestion",
+  "name": "BadgeQuestionPointed",
   "description": "A rosette badge icon with a question mark indicating unverified or uncertain status",
   "tags": [
     "badge",
     "rosette",
-    "question mark",
+    "mark",
     "unverified",
+    "question-mark",
     "status",
     "help",
     "uncertain",
-    "certification"
+    "certification",
+    "question",
+    "pointed"
   ],
   "categories": [
-    "interface",
-    "business"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Badge question pointed",
+  "aliases": [
+    "BadgeRosetteQuestion"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

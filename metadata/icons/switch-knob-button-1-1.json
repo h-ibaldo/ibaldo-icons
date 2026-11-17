@@ -1,14 +1,16 @@
 {
-  "name": "SwitchKnobButton",
+  "name": "SwitchKnobUpLeft",
   "description": "A rotary knob-style switch button control for adjusting settings or parameters.",
   "tags": [
     "switch",
-    "knob",
     "button",
+    "knob",
     "rotary",
     "control",
     "adjustment",
-    "dial"
+    "dial",
+    "up",
+    "left"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch knob up left",
+  "aliases": [
+    "SwitchKnobButton"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

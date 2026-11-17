@@ -1,18 +1,19 @@
 {
-  "name": "WarningSquareStack",
+  "name": "AlertSquareStack",
   "description": "A stacked warning icon with multiple exclamation marks in squares, representing layered or multiple alerts",
   "tags": [
+    "alert",
     "warning",
     "exclamation",
+    "error",
+    "attention",
     "square",
     "stack",
-    "alert",
     "multiple",
     "layered"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Alert square stack",
+  "aliases": [
+    "WarningSquareStack"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

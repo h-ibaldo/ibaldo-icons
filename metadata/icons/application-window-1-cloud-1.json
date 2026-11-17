@@ -1,11 +1,11 @@
 {
-  "name": "ApplicationWindow1Cloud4",
-  "displayName": "Application window 1 cloud 4",
+  "name": "WindowCloud",
+  "displayName": "Window cloud",
   "originalTitle": "Application Window 1 Cloud 1",
   "description": "Application window with cloud icon representing cloud-based software or cloud storage applications. Used to indicate cloud computing services or online applications.",
   "tags": [
-    "application",
     "window",
+    "application",
     "cloud",
     "software",
     "online",
@@ -14,8 +14,8 @@
     "saas"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.767Z"
+  "generatedAt": "2026-02-15T00:53:19.767Z",
+  "aliases": [
+    "ApplicationWindow1Cloud4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

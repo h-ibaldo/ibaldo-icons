@@ -1,21 +1,24 @@
 {
-  "name": "AtSign4Check",
-  "displayName": "At sign 4 check",
+  "name": "AtCheckTall",
+  "displayName": "At check tall",
   "originalTitle": "At Sign Email Contact Address 4 Checked Check",
   "description": "Email address with checkmark indicating verified, confirmed, or successfully processed email. Used to show email validation or completion status.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "checked",
+    "done",
+    "success",
     "verified",
     "confirmed",
-    "success",
     "check",
-    "at-sign",
-    "contact",
-    "validated"
+    "at-sign"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.762Z"
+  "generatedAt": "2026-02-15T00:53:19.762Z",
+  "aliases": [
+    "AtSign4Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

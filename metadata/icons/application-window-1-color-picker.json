@@ -1,21 +1,22 @@
 {
-  "name": "ApplicationWindow1ColorPicker",
-  "displayName": "Application window 1 color picker",
+  "name": "WindowEyedropper",
+  "displayName": "Window eyedropper",
   "originalTitle": "Application Window 1 Color Picker",
   "description": "Application window with color picker tool for design and graphics software. Represents color selection functionality in creative applications.",
   "tags": [
-    "application",
     "window",
+    "application",
     "color",
     "picker",
     "design",
     "graphics",
     "tool",
-    "creative"
+    "creative",
+    "eyedropper"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.767Z"
+  "generatedAt": "2026-02-15T00:53:19.767Z",
+  "aliases": [
+    "ApplicationWindow1ColorPicker"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,17 +1,19 @@
 {
-  "name": "ComputerDesktopLogout",
+  "name": "MonitorArrowRight",
   "description": "A desktop computer or Mac icon with a logout or exit action indicator for session termination",
   "tags": [
+    "monitor",
     "computer",
     "desktop",
     "mac",
     "logout",
     "exit",
     "session",
-    "sign-out"
+    "sign-out",
+    "arrow",
+    "right"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Monitor arrow right",
+  "aliases": [
+    "ComputerDesktopLogout"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

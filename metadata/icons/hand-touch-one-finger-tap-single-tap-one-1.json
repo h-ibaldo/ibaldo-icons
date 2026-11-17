@@ -1,20 +1,20 @@
 {
-  "name": "HandTouchTapOne",
+  "name": "HandTapOne",
   "description": "A numbered single-finger tap gesture icon indicating the first tap in a sequence",
   "tags": [
     "hand",
     "touch",
-    "tap",
-    "single",
     "finger",
+    "single",
+    "tap",
     "one",
     "gesture",
     "numbered",
     "sequence"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand tap one",
+  "aliases": [
+    "HandTouchTapOne"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

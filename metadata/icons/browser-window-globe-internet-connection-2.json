@@ -1,20 +1,20 @@
 {
-  "name": "BrowserWindowConnection",
+  "name": "BrowserGlobe",
   "description": "A browser window icon with globe and connection indicators showing active internet connectivity",
   "tags": [
     "browser",
     "window",
-    "globe",
     "internet",
     "connection",
+    "globe",
     "online",
     "network",
     "linked",
     "web"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser globe",
+  "aliases": [
+    "BrowserWindowConnection"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,16 +1,18 @@
 {
-  "name": "AtSign1",
-  "displayName": "At sign 1",
+  "name": "AtCurved",
+  "displayName": "At curved",
   "originalTitle": "At Sign Email Contact Address 1",
   "description": "At symbol (@) for email addresses and contact information. Used in email forms, contact fields, and communication interfaces.",
   "tags": [
     "at",
+    "sign",
     "email",
     "contact",
     "address",
     "symbol",
     "communication",
-    "mail"
+    "mail",
+    "curved"
   ],
   "categories": [
     "communication"
@@ -31,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.762Z"
+  "generatedAt": "2026-02-15T00:53:19.762Z",
+  "aliases": [
+    "AtSign1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

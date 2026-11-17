@@ -1,21 +1,22 @@
 {
-  "name": "ChartLineSquare3Plus",
-  "displayName": "Chart line square 3 plus",
+  "name": "ChartLinePeakSquarePlus",
+  "displayName": "Chart line peak square plus",
   "originalTitle": "Chart Line Square 3 Positive Add Plus",
   "description": "Alternative line chart with plus sign for adding data or growth indicators. Used for creating new charts, adding metrics, or showing positive trends.",
   "tags": [
     "chart",
-    "plus",
+    "positive",
     "add",
     "create",
-    "positive",
+    "plus",
     "growth",
     "expand",
-    "increase"
+    "increase",
+    "peak",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.753Z"
+  "generatedAt": "2026-02-15T00:53:19.753Z",
+  "aliases": [
+    "ChartLineSquare3Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

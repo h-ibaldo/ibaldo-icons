@@ -1,18 +1,18 @@
 {
-  "name": "ConnectRandom2",
+  "name": "NodesZigzag",
   "description": "A connection icon with randomized link patterns in an alternate style, showing variable network relationships.",
   "tags": [
+    "nodes",
     "connect",
     "random",
     "connection",
     "network",
     "link",
-    "variant",
-    "dynamic"
+    "dynamic",
+    "zigzag"
   ],
   "categories": [
-    "interface",
-    "development"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Nodes zigzag",
+  "aliases": [
+    "ConnectRandom2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

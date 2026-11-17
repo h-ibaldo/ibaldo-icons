@@ -1,5 +1,5 @@
 {
-  "name": "Mailbox1",
+  "name": "MailboxFlag",
   "description": "A mailbox icon representing the first variant style for email and postal delivery services.",
   "tags": [
     "mailbox",
@@ -8,11 +8,11 @@
     "delivery",
     "post",
     "envelope",
-    "communication"
+    "communication",
+    "flag"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mailbox flag",
+  "aliases": [
+    "Mailbox1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

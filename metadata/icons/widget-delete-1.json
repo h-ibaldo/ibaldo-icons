@@ -1,9 +1,10 @@
 {
-  "name": "WidgetDelete1",
+  "name": "WidgetX",
   "description": "A widget icon with a delete action, first variant, indicating widget removal",
   "tags": [
     "widget",
     "delete",
+    "close",
     "remove",
     "action",
     "interface",
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Widget X",
+  "aliases": [
+    "WidgetDelete1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

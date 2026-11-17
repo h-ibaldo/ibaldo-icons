@@ -1,20 +1,17 @@
 {
-  "name": "LupePin5",
+  "name": "PinSearch2",
   "description": "A magnifying glass search icon with a location pin indicator for finding nearby places variant 5",
   "tags": [
+    "pin",
     "lupe",
     "search",
-    "pin",
     "location",
     "map",
     "find",
-    "navigation",
-    "variant5"
+    "navigation"
   ],
   "categories": [
-    "interface",
-    "location",
-    "navigation"
+    "location"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pin search2",
+  "aliases": [
+    "LupePin5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

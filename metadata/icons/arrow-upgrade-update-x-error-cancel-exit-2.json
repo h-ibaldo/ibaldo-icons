@@ -1,20 +1,22 @@
 {
-  "name": "ArrowUpgradeClose2",
+  "name": "ArrowClockwiseXCircle",
   "description": "An arrow icon combined with an X mark variant indicating a failed upgrade, update cancellation, or error state",
   "tags": [
     "arrow",
     "upgrade",
     "update",
-    "x",
-    "close",
     "error",
     "cancel",
     "exit",
-    "failure"
+    "close",
+    "delete",
+    "remove",
+    "failure",
+    "clockwise",
+    "circle"
   ],
   "categories": [
-    "interface",
-    "business"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow clockwise X circle",
+  "aliases": [
+    "ArrowUpgradeClose2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

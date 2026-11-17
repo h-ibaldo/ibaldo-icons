@@ -1,5 +1,5 @@
 {
-  "name": "StarFilledStripes",
+  "name": "StarStripedRound",
   "description": "A three-star favorite rating icon with filled stars and striped pattern",
   "tags": [
     "star",
@@ -9,11 +9,11 @@
     "stripes",
     "review",
     "score",
-    "3-star"
+    "striped",
+    "round"
   ],
   "categories": [
-    "interface",
-    "business"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Star striped round",
+  "aliases": [
+    "StarFilledStripes"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

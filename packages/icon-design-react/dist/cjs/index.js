@@ -71,2376 +71,2375 @@ const AvatarFaceAfro = require('./icons/AvatarFaceAfro.js');
 const AvatarFaceSpiky = require('./icons/AvatarFaceSpiky.js');
 const AvatarFaceSpikySide = require('./icons/AvatarFaceSpikySide.js');
 const AvatarFaceTopKnot = require('./icons/AvatarFaceTopKnot.js');
-const ForceTouch = require('./icons/ForceTouch.js');
-const AccessibilityPerson = require('./icons/AccessibilityPerson.js');
-const AccessibilityPersonCircle = require('./icons/AccessibilityPersonCircle.js');
-const AccessibilityPersonNUI1 = require('./icons/AccessibilityPersonNUI1.js');
-const AccessibilityPersonNUI2 = require('./icons/AccessibilityPersonNUI2.js');
-const AccessibilityPersonPentagon = require('./icons/AccessibilityPersonPentagon.js');
-const AccessibilityPersonSquare = require('./icons/AccessibilityPersonSquare.js');
-const AccessibilitySettingsPerson1 = require('./icons/AccessibilitySettingsPerson1.js');
-const AccessibilitySettingsPerson2 = require('./icons/AccessibilitySettingsPerson2.js');
-const AccessibilitySettingsPersonGear3 = require('./icons/AccessibilitySettingsPersonGear3.js');
-const AccessibilitySettingsPersonGear4 = require('./icons/AccessibilitySettingsPersonGear4.js');
-const AccessibilitySettingsPersonGearCircle1 = require('./icons/AccessibilitySettingsPersonGearCircle1.js');
-const AccessibilitySettingsPersonGearCircle2 = require('./icons/AccessibilitySettingsPersonGearCircle2.js');
-const AccessibilitySettingsPersonGearSquare1 = require('./icons/AccessibilitySettingsPersonGearSquare1.js');
-const AccessibilitySettingsPersonGearSquare2 = require('./icons/AccessibilitySettingsPersonGearSquare2.js');
-const AddFontA = require('./icons/AddFontA.js');
-const Add1 = require('./icons/Add1.js');
-const Add2 = require('./icons/Add2.js');
-const AddCircle = require('./icons/AddCircle.js');
-const AddSquare = require('./icons/AddSquare.js');
-const AdvancedSearchLupeGear1 = require('./icons/AdvancedSearchLupeGear1.js');
-const AdvancedSearchLupeGear2 = require('./icons/AdvancedSearchLupeGear2.js');
-const AdvancedSearchLupeGear3 = require('./icons/AdvancedSearchLupeGear3.js');
-const AdvancedSearchGear = require('./icons/AdvancedSearchGear.js');
-const AgendaContacts0 = require('./icons/AgendaContacts0.js');
-const AgendaContacts1 = require('./icons/AgendaContacts1.js');
-const AgendaContacts2 = require('./icons/AgendaContacts2.js');
-const AgendaContacts3 = require('./icons/AgendaContacts3.js');
-const AgendaContacts4 = require('./icons/AgendaContacts4.js');
-const AgendaContacts5 = require('./icons/AgendaContacts5.js');
-const AgendaContacts69 = require('./icons/AgendaContacts69.js');
-const AgendaContacts7 = require('./icons/AgendaContacts7.js');
-const AgendaContacts8 = require('./icons/AgendaContacts8.js');
-const AgendaContacts9 = require('./icons/AgendaContacts9.js');
-const AgendaContacts10 = require('./icons/AgendaContacts10.js');
-const AgendaContacts11 = require('./icons/AgendaContacts11.js');
-const Airplay1 = require('./icons/Airplay1.js');
-const Airplay2 = require('./icons/Airplay2.js');
-const AirplayPairing = require('./icons/AirplayPairing.js');
-const AirplaySignal1 = require('./icons/AirplaySignal1.js');
-const AirplaySignal2 = require('./icons/AirplaySignal2.js');
-const AirplaySignal3 = require('./icons/AirplaySignal3.js');
-const AirplaySignal4 = require('./icons/AirplaySignal4.js');
-const AirplaySignalSquare1 = require('./icons/AirplaySignalSquare1.js');
-const AirplaySignalSquare2 = require('./icons/AirplaySignalSquare2.js');
-const AnimatedCircleMoving1 = require('./icons/AnimatedCircleMoving1.js');
-const AnimatedCircleMoving2 = require('./icons/AnimatedCircleMoving2.js');
-const AnimatedDiamondMoving1 = require('./icons/AnimatedDiamondMoving1.js');
-const AnimatedDiamondMoving2 = require('./icons/AnimatedDiamondMoving2.js');
-const ApplicationWindow1 = require('./icons/ApplicationWindow1.js');
-const ApplicationWindow2 = require('./icons/ApplicationWindow2.js');
-const ApplicationWindow3 = require('./icons/ApplicationWindow3.js');
-const ApplicationWindow4 = require('./icons/ApplicationWindow4.js');
-const ApplicationWindow5 = require('./icons/ApplicationWindow5.js');
-const ApplicationWindow6 = require('./icons/ApplicationWindow6.js');
-const ApplicationWindow1ArrowLeftRight = require('./icons/ApplicationWindow1ArrowLeftRight.js');
-const ApplicationWindow1Bulb1 = require('./icons/ApplicationWindow1Bulb1.js');
-const ApplicationWindow1Bulb2 = require('./icons/ApplicationWindow1Bulb2.js');
-const ApplicationWindow1Chart4 = require('./icons/ApplicationWindow1Chart4.js');
-const ApplicationWindow1Chart5 = require('./icons/ApplicationWindow1Chart5.js');
-const ApplicationWindow1Chart6 = require('./icons/ApplicationWindow1Chart6.js');
-const ApplicationWindowCheck = require('./icons/ApplicationWindowCheck.js');
-const ApplicationWindow1CircleDotsMenu = require('./icons/ApplicationWindow1CircleDotsMenu.js');
-const ApplicationWindowClock = require('./icons/ApplicationWindowClock.js');
-const ApplicationWindow1Cloud4 = require('./icons/ApplicationWindow1Cloud4.js');
-const ApplicationWindow1Cloud2 = require('./icons/ApplicationWindow1Cloud2.js');
-const ApplicationWindow1Cloud3 = require('./icons/ApplicationWindow1Cloud3.js');
-const ApplicationWindow1ColorPicker = require('./icons/ApplicationWindow1ColorPicker.js');
-const ApplicationWindow1DotsMenu = require('./icons/ApplicationWindow1DotsMenu.js');
-const ApplicationWindow1Lightning1 = require('./icons/ApplicationWindow1Lightning1.js');
-const ApplicationWindow1Lightning2 = require('./icons/ApplicationWindow1Lightning2.js');
-const ApplicationWindow1Lightning4 = require('./icons/ApplicationWindow1Lightning4.js');
-const ApplicationWindow1Settings3 = require('./icons/ApplicationWindow1Settings3.js');
-const ApplicationWindow1Settings4 = require('./icons/ApplicationWindow1Settings4.js');
-const ApplicationWindow1Heart3 = require('./icons/ApplicationWindow1Heart3.js');
-const ApplicationWindow1Heart4 = require('./icons/ApplicationWindow1Heart4.js');
-const ApplicationWindow1InternetExplorer2 = require('./icons/ApplicationWindow1InternetExplorer2.js');
-const ApplicationWindow1Key1 = require('./icons/ApplicationWindow1Key1.js');
-const ApplicationWindow1Key2 = require('./icons/ApplicationWindow1Key2.js');
-const ApplicationWindow1Key3 = require('./icons/ApplicationWindow1Key3.js');
-const ApplicationWindow1Key4 = require('./icons/ApplicationWindow1Key4.js');
-const ApplicationWindow1Key5 = require('./icons/ApplicationWindow1Key5.js');
-const ApplicationWindow1Search = require('./icons/ApplicationWindow1Search.js');
-const ApplicationWindow1Excel = require('./icons/ApplicationWindow1Excel.js');
-const ApplicationWindow1Word = require('./icons/ApplicationWindow1Word.js');
-const ApplicationWindow1Music1 = require('./icons/ApplicationWindow1Music1.js');
-const ApplicationWindow1Music2 = require('./icons/ApplicationWindow1Music2.js');
-const ApplicationWindow1MusicNote3 = require('./icons/ApplicationWindow1MusicNote3.js');
-const ApplicationWindow1MusicNote4 = require('./icons/ApplicationWindow1MusicNote4.js');
-const ApplicationWindowRemove = require('./icons/ApplicationWindowRemove.js');
-const ApplicationWindow1Pdf = require('./icons/ApplicationWindow1Pdf.js');
-const ApplicationWindowAdd = require('./icons/ApplicationWindowAdd.js');
-const ApplicationWindow1Rosette1 = require('./icons/ApplicationWindow1Rosette1.js');
-const ApplicationWindow1Rosette2 = require('./icons/ApplicationWindow1Rosette2.js');
-const ApplicationWindow1Rosette3 = require('./icons/ApplicationWindow1Rosette3.js');
-const ApplicationWindow1Rosette4 = require('./icons/ApplicationWindow1Rosette4.js');
-const ApplicationWindow1Shield1 = require('./icons/ApplicationWindow1Shield1.js');
-const ApplicationWindow1Shield2 = require('./icons/ApplicationWindow1Shield2.js');
-const ApplicationWindow1Speech1 = require('./icons/ApplicationWindow1Speech1.js');
-const ApplicationWindow1Speech2 = require('./icons/ApplicationWindow1Speech2.js');
-const ApplicationWindow1Speech3 = require('./icons/ApplicationWindow1Speech3.js');
-const ApplicationWindow1Star1 = require('./icons/ApplicationWindow1Star1.js');
-const ApplicationWindow1Star2 = require('./icons/ApplicationWindow1Star2.js');
-const ApplicationWindow1Tools1 = require('./icons/ApplicationWindow1Tools1.js');
-const ApplicationWindow1Tools2 = require('./icons/ApplicationWindow1Tools2.js');
-const ApplicationWindowClose3 = require('./icons/ApplicationWindowClose3.js');
-const ApplicationWindow2ArrowLeftRight1 = require('./icons/ApplicationWindow2ArrowLeftRight1.js');
-const ApplicationWindow2ArrowLeftRight2 = require('./icons/ApplicationWindow2ArrowLeftRight2.js');
-const ApplicationWindow2Bulb = require('./icons/ApplicationWindow2Bulb.js');
-const ApplicationWindow2Chart1 = require('./icons/ApplicationWindow2Chart1.js');
-const ApplicationWindow2Chart2 = require('./icons/ApplicationWindow2Chart2.js');
-const ApplicationWindow2Chart3 = require('./icons/ApplicationWindow2Chart3.js');
-const ApplicationWindow2Check = require('./icons/ApplicationWindow2Check.js');
-const ApplicationWindowCheck2 = require('./icons/ApplicationWindowCheck2.js');
-const ApplicationWindow2CircleDots = require('./icons/ApplicationWindow2CircleDots.js');
-const ApplicationWindow2Cloud1 = require('./icons/ApplicationWindow2Cloud1.js');
-const ApplicationWindow2Cloud2 = require('./icons/ApplicationWindow2Cloud2.js');
-const ApplicationWindow2Cloud3 = require('./icons/ApplicationWindow2Cloud3.js');
-const ApplicationWindow2Cloud4 = require('./icons/ApplicationWindow2Cloud4.js');
-const ApplicationWindow2ColorPicker = require('./icons/ApplicationWindow2ColorPicker.js');
-const ApplicationWindow2DotsMenu = require('./icons/ApplicationWindow2DotsMenu.js');
-const ApplicationWindow2Lightning1 = require('./icons/ApplicationWindow2Lightning1.js');
-const ApplicationWindow2Lightning2 = require('./icons/ApplicationWindow2Lightning2.js');
-const ApplicationWindow2Lightning3 = require('./icons/ApplicationWindow2Lightning3.js');
-const ApplicationWindow2Settings1 = require('./icons/ApplicationWindow2Settings1.js');
-const ApplicationWindow2Settings2 = require('./icons/ApplicationWindow2Settings2.js');
-const ApplicationWindow2Heart1 = require('./icons/ApplicationWindow2Heart1.js');
-const ApplicationWindow2Heart2 = require('./icons/ApplicationWindow2Heart2.js');
-const ApplicationWindow2InternetExplorer = require('./icons/ApplicationWindow2InternetExplorer.js');
-const ApplicationWindow2Key1 = require('./icons/ApplicationWindow2Key1.js');
-const ApplicationWindow2Key2 = require('./icons/ApplicationWindow2Key2.js');
-const ApplicationWindow2Key3 = require('./icons/ApplicationWindow2Key3.js');
-const ApplicationWindow2Key4 = require('./icons/ApplicationWindow2Key4.js');
-const ApplicationWindow2Key5 = require('./icons/ApplicationWindow2Key5.js');
-const ApplicationWindow2Key6 = require('./icons/ApplicationWindow2Key6.js');
-const ApplicationWindow2Search = require('./icons/ApplicationWindow2Search.js');
-const ApplicationWindow2Excel = require('./icons/ApplicationWindow2Excel.js');
-const ApplicationWindow2Word = require('./icons/ApplicationWindow2Word.js');
-const ApplicationWindow2Music1 = require('./icons/ApplicationWindow2Music1.js');
-const ApplicationWindow2Music2 = require('./icons/ApplicationWindow2Music2.js');
-const ApplicationWindow2Music3 = require('./icons/ApplicationWindow2Music3.js');
-const ApplicationWindow2Music4 = require('./icons/ApplicationWindow2Music4.js');
-const ApplicationWindowRemove1 = require('./icons/ApplicationWindowRemove1.js');
-const ApplicationWindowRemove2 = require('./icons/ApplicationWindowRemove2.js');
-const ApplicationWindow2Pdf = require('./icons/ApplicationWindow2Pdf.js');
-const ApplicationWindowPlay1 = require('./icons/ApplicationWindowPlay1.js');
-const ApplicationWindowPlay2 = require('./icons/ApplicationWindowPlay2.js');
-const ApplicationWindowAdd1 = require('./icons/ApplicationWindowAdd1.js');
-const ApplicationWindowAdd2 = require('./icons/ApplicationWindowAdd2.js');
-const ApplicationWindow2Rosette1 = require('./icons/ApplicationWindow2Rosette1.js');
-const ApplicationWindow2Rosette2 = require('./icons/ApplicationWindow2Rosette2.js');
-const ApplicationWindow2Medal3 = require('./icons/ApplicationWindow2Medal3.js');
-const ApplicationWindow2Medal4 = require('./icons/ApplicationWindow2Medal4.js');
-const ApplicationWindow2Shield1 = require('./icons/ApplicationWindow2Shield1.js');
-const ApplicationWindow2Shield2 = require('./icons/ApplicationWindow2Shield2.js');
-const ApplicationWindow2Speech = require('./icons/ApplicationWindow2Speech.js');
-const ApplicationWindow2Star1 = require('./icons/ApplicationWindow2Star1.js');
-const ApplicationWindow2Star2 = require('./icons/ApplicationWindow2Star2.js');
-const ApplicationWindow2Tools = require('./icons/ApplicationWindow2Tools.js');
-const ApplicationWindowClose1 = require('./icons/ApplicationWindowClose1.js');
-const ApplicationWindowClose22 = require('./icons/ApplicationWindowClose22.js');
-const ApplicationWindowCheck3 = require('./icons/ApplicationWindowCheck3.js');
-const AppWindowClock = require('./icons/AppWindowClock.js');
-const AppWindowRemove = require('./icons/AppWindowRemove.js');
-const AppWindowAdd = require('./icons/AppWindowAdd.js');
-const AppWindowClose = require('./icons/AppWindowClose.js');
-const AppWindowCheck1 = require('./icons/AppWindowCheck1.js');
-const AppWindowCheck2 = require('./icons/AppWindowCheck2.js');
-const AppWindowRemove1 = require('./icons/AppWindowRemove1.js');
-const AppWindowRemove2 = require('./icons/AppWindowRemove2.js');
-const AppWindowPlay1 = require('./icons/AppWindowPlay1.js');
-const AppWindowPlay2 = require('./icons/AppWindowPlay2.js');
-const ApplicationWindowPlus1 = require('./icons/ApplicationWindowPlus1.js');
-const ApplicationWindowPlus2 = require('./icons/ApplicationWindowPlus2.js');
-const ApplicationWindowClose12 = require('./icons/ApplicationWindowClose12.js');
-const ApplicationWindowClose23 = require('./icons/ApplicationWindowClose23.js');
-const ApplicationWindowLevels1 = require('./icons/ApplicationWindowLevels1.js');
-const ApplicationWindowLevels2 = require('./icons/ApplicationWindowLevels2.js');
-const ApplicationWindowLevels3 = require('./icons/ApplicationWindowLevels3.js');
-const ApplicationWindowLevels4 = require('./icons/ApplicationWindowLevels4.js');
-const ApplicationWindowRocket = require('./icons/ApplicationWindowRocket.js');
-const ApplicationWindowsThemesDotted = require('./icons/ApplicationWindowsThemesDotted.js');
-const ApplicationWindowsThemesDotted1 = require('./icons/ApplicationWindowsThemesDotted1.js');
-const ApplicationWindowsThemesStripes = require('./icons/ApplicationWindowsThemesStripes.js');
-const ApplicationWindowsThemes1 = require('./icons/ApplicationWindowsThemes1.js');
-const AppsTab1 = require('./icons/AppsTab1.js');
-const AppsTab2 = require('./icons/AppsTab2.js');
-const AppsTab3 = require('./icons/AppsTab3.js');
-const ArrowCheckUpgrade = require('./icons/ArrowCheckUpgrade.js');
-const ArrowCheckUpgrade2 = require('./icons/ArrowCheckUpgrade2.js');
-const ArrowCircle1 = require('./icons/ArrowCircle1.js');
-const ArrowCircle1Slash = require('./icons/ArrowCircle1Slash.js');
-const ArrowCircle2 = require('./icons/ArrowCircle2.js');
-const ArrowCircle2Slash = require('./icons/ArrowCircle2Slash.js');
-const ArrowCircle3 = require('./icons/ArrowCircle3.js');
-const ArrowCircle3Slash = require('./icons/ArrowCircle3Slash.js');
-const ArrowCircle4 = require('./icons/ArrowCircle4.js');
-const ArrowCircle4Slash = require('./icons/ArrowCircle4Slash.js');
-const ArrowDownPlay1 = require('./icons/ArrowDownPlay1.js');
-const ArrowDownPlay2 = require('./icons/ArrowDownPlay2.js');
-const ArrowGearUpgrade1 = require('./icons/ArrowGearUpgrade1.js');
-const ArrowGearUpgrade2 = require('./icons/ArrowGearUpgrade2.js');
-const ArrowHexagon1 = require('./icons/ArrowHexagon1.js');
-const ArrowHexagon1Slash = require('./icons/ArrowHexagon1Slash.js');
-const ArrowUpgradeClose1 = require('./icons/ArrowUpgradeClose1.js');
-const ArrowUpgradeClose2 = require('./icons/ArrowUpgradeClose2.js');
-const ArrowsOutCircle = require('./icons/ArrowsOutCircle.js');
-const ArrowsSynchronize = require('./icons/ArrowsSynchronize.js');
-const ArrowsSynchronize1 = require('./icons/ArrowsSynchronize1.js');
-const ArrowsSynchronize2 = require('./icons/ArrowsSynchronize2.js');
-const ArrowsClockwise1 = require('./icons/ArrowsClockwise1.js');
-const ArrowsClockwise1Slash = require('./icons/ArrowsClockwise1Slash.js');
-const ArrowsClockwise2 = require('./icons/ArrowsClockwise2.js');
-const ArrowsClockwise2Slash = require('./icons/ArrowsClockwise2Slash.js');
-const ArrowsClockwise3 = require('./icons/ArrowsClockwise3.js');
-const ArrowsClockwise3Slash = require('./icons/ArrowsClockwise3Slash.js');
-const ArrowsCounterClockwise1 = require('./icons/ArrowsCounterClockwise1.js');
-const ArrowsCounterClockwise1Slash = require('./icons/ArrowsCounterClockwise1Slash.js');
-const ArrowsCounterClockwise2 = require('./icons/ArrowsCounterClockwise2.js');
-const ArrowsCounterClockwiseSlash = require('./icons/ArrowsCounterClockwiseSlash.js');
-const ArrowsCounterClockwise3 = require('./icons/ArrowsCounterClockwise3.js');
-const ArrowsCounterClockwise3Slash = require('./icons/ArrowsCounterClockwise3Slash.js');
-const ArrowsDownInput1 = require('./icons/ArrowsDownInput1.js');
-const ArrowsDownInput2 = require('./icons/ArrowsDownInput2.js');
-const ArrowsFourCircleProcess = require('./icons/ArrowsFourCircleProcess.js');
-const ArrowsFourCircleImprovement = require('./icons/ArrowsFourCircleImprovement.js');
-const ArrowsFourCircleProcess3 = require('./icons/ArrowsFourCircleProcess3.js');
-const ArrowsFourCircleProcess2 = require('./icons/ArrowsFourCircleProcess2.js');
-const ArrowsHexagon1 = require('./icons/ArrowsHexagon1.js');
-const ArrowsHexagon2 = require('./icons/ArrowsHexagon2.js');
-const ArrowsHexagonSlash = require('./icons/ArrowsHexagonSlash.js');
-const ArrowsPointerMove1 = require('./icons/ArrowsPointerMove1.js');
-const ArrowsPointerMove2 = require('./icons/ArrowsPointerMove2.js');
-const ArrowsRepeat1 = require('./icons/ArrowsRepeat1.js');
-const ArrowsRepeatSlash = require('./icons/ArrowsRepeatSlash.js');
-const ArrowsRepeat2 = require('./icons/ArrowsRepeat2.js');
-const ArrowsRepeat2Slash = require('./icons/ArrowsRepeat2Slash.js');
-const ArrowsRepeat3 = require('./icons/ArrowsRepeat3.js');
-const ArrowsRepeat3Slash = require('./icons/ArrowsRepeat3Slash.js');
-const ArrowsRounded1 = require('./icons/ArrowsRounded1.js');
-const ArrowsRounded1Slash = require('./icons/ArrowsRounded1Slash.js');
-const ArrowsSquared1 = require('./icons/ArrowsSquared1.js');
-const ArrowsSquared1Slash = require('./icons/ArrowsSquared1Slash.js');
-const ArrowsSynchronizeCircle = require('./icons/ArrowsSynchronizeCircle.js');
-const ArrowsUpOutput1 = require('./icons/ArrowsUpOutput1.js');
-const ArrowsUpOutput2 = require('./icons/ArrowsUpOutput2.js');
-const AssistiveTechnologyWheelchairSquare = require('./icons/AssistiveTechnologyWheelchairSquare.js');
-const AssistiveTechnologyWheelchairSquare2 = require('./icons/AssistiveTechnologyWheelchairSquare2.js');
-const AssistiveTechnologyWheelchairSquare3 = require('./icons/AssistiveTechnologyWheelchairSquare3.js');
-const AtSign6 = require('./icons/AtSign6.js');
-const AtSign7 = require('./icons/AtSign7.js');
-const AtSign8 = require('./icons/AtSign8.js');
-const AtSign1 = require('./icons/AtSign1.js');
-const AtSign1Alert = require('./icons/AtSign1Alert.js');
-const AtSign1Check = require('./icons/AtSign1Check.js');
-const AtSign1CircleDots = require('./icons/AtSign1CircleDots.js');
-const AtSign1Clock1 = require('./icons/AtSign1Clock1.js');
-const AtSign1Clock2 = require('./icons/AtSign1Clock2.js');
-const AtSign1One = require('./icons/AtSign1One.js');
-const AtSign1Plus = require('./icons/AtSign1Plus.js');
-const AtSign1Minus = require('./icons/AtSign1Minus.js');
-const AtSign1X = require('./icons/AtSign1X.js');
-const AtSign2 = require('./icons/AtSign2.js');
-const AtSign2Alert = require('./icons/AtSign2Alert.js');
-const AtSign2ArrowReload = require('./icons/AtSign2ArrowReload.js');
-const AtSign2ArrowSync = require('./icons/AtSign2ArrowSync.js');
-const AtSign2Check = require('./icons/AtSign2Check.js');
-const AtSign2Clock = require('./icons/AtSign2Clock.js');
-const AtSign2Clock2 = require('./icons/AtSign2Clock2.js');
-const AtSign2Dots = require('./icons/AtSign2Dots.js');
-const AtSign2Equal = require('./icons/AtSign2Equal.js');
-const AtSign2One = require('./icons/AtSign2One.js');
-const AtSign2Plus = require('./icons/AtSign2Plus.js');
-const AtSign2Minus = require('./icons/AtSign2Minus.js');
-const AtSign2X = require('./icons/AtSign2X.js');
-const AtSign3Alert = require('./icons/AtSign3Alert.js');
-const AtSign3Check = require('./icons/AtSign3Check.js');
-const AtSign3CircleDotsMenu = require('./icons/AtSign3CircleDotsMenu.js');
-const AtSign3Clock1 = require('./icons/AtSign3Clock1.js');
-const AtSign3Clock2 = require('./icons/AtSign3Clock2.js');
-const AtSign3Equal = require('./icons/AtSign3Equal.js');
-const AtSign3One = require('./icons/AtSign3One.js');
-const AtSign3Plus = require('./icons/AtSign3Plus.js');
-const AtSign3Minus = require('./icons/AtSign3Minus.js');
-const AtSign3X = require('./icons/AtSign3X.js');
-const AtSign4 = require('./icons/AtSign4.js');
-const AtSign4Alert = require('./icons/AtSign4Alert.js');
-const AtSign4ArrowReload = require('./icons/AtSign4ArrowReload.js');
-const AtSign4ArrowSync = require('./icons/AtSign4ArrowSync.js');
-const AtSign4Check = require('./icons/AtSign4Check.js');
-const AtSign4Clock = require('./icons/AtSign4Clock.js');
-const AtSign4Settings = require('./icons/AtSign4Settings.js');
-const AtSign4Equal = require('./icons/AtSign4Equal.js');
-const AtSign4Minus = require('./icons/AtSign4Minus.js');
-const AtSign4One = require('./icons/AtSign4One.js');
-const AtSign4Plus = require('./icons/AtSign4Plus.js');
-const AtSign4X = require('./icons/AtSign4X.js');
-const AtSign5 = require('./icons/AtSign5.js');
-const AtSign5Alert = require('./icons/AtSign5Alert.js');
-const AtSign5ArrowReload = require('./icons/AtSign5ArrowReload.js');
-const AtSign5ArrowSync = require('./icons/AtSign5ArrowSync.js');
-const AtSign5Check = require('./icons/AtSign5Check.js');
-const AtSign5Clock = require('./icons/AtSign5Clock.js');
-const AtSign5Settings = require('./icons/AtSign5Settings.js');
-const AtSign5Equal = require('./icons/AtSign5Equal.js');
-const AtSign5Minus = require('./icons/AtSign5Minus.js');
-const AtSign5One = require('./icons/AtSign5One.js');
-const AtSign5Plus = require('./icons/AtSign5Plus.js');
-const AtSign5X = require('./icons/AtSign5X.js');
-const AtSignCircle = require('./icons/AtSignCircle.js');
-const AtSignSelect1 = require('./icons/AtSignSelect1.js');
-const AtSignSelect2 = require('./icons/AtSignSelect2.js');
-const AtSign1Equal = require('./icons/AtSign1Equal.js');
-const BadgeCheck1 = require('./icons/BadgeCheck1.js');
-const BadgeCheck2 = require('./icons/BadgeCheck2.js');
-const BadgeCheck3 = require('./icons/BadgeCheck3.js');
-const BadgeCheck4 = require('./icons/BadgeCheck4.js');
-const BadgeCheck5 = require('./icons/BadgeCheck5.js');
-const BadgeCheck6 = require('./icons/BadgeCheck6.js');
-const BadgeCheck7 = require('./icons/BadgeCheck7.js');
+const TouchForce = require('./icons/TouchForce.js');
+const Accessibility = require('./icons/Accessibility.js');
+const AccessibilityCircle = require('./icons/AccessibilityCircle.js');
+const AccessibilityNodes = require('./icons/AccessibilityNodes.js');
+const AccessibilityNodesFilled = require('./icons/AccessibilityNodesFilled.js');
+const AccessibilityPentagon = require('./icons/AccessibilityPentagon.js');
+const AccessibilitySquare = require('./icons/AccessibilitySquare.js');
+const AccessibilitySettings = require('./icons/AccessibilitySettings.js');
+const AccessibilityGearWavy = require('./icons/AccessibilityGearWavy.js');
+const AccessibilityGear = require('./icons/AccessibilityGear.js');
+const AccessibilityGearSharp = require('./icons/AccessibilityGearSharp.js');
+const AccessibilityCircleSettingsLarge = require('./icons/AccessibilityCircleSettingsLarge.js');
+const AccessibilityCircleSettings = require('./icons/AccessibilityCircleSettings.js');
+const AccessibilitySquareSettingsLarge = require('./icons/AccessibilitySquareSettingsLarge.js');
+const AccessibilitySquareSettings = require('./icons/AccessibilitySquareSettings.js');
+const FontPlus = require('./icons/FontPlus.js');
+const Plus = require('./icons/Plus.js');
+const PlusSmall = require('./icons/PlusSmall.js');
+const PlusCircle = require('./icons/PlusCircle.js');
+const PlusSquare = require('./icons/PlusSquare.js');
+const GearSearch = require('./icons/GearSearch.js');
+const GearSearchCorner = require('./icons/GearSearchCorner.js');
+const GearSearchDown = require('./icons/GearSearchDown.js');
+const GearSearchLarge = require('./icons/GearSearchLarge.js');
+const AddressBook = require('./icons/AddressBook.js');
+const AddressBookHooks = require('./icons/AddressBookHooks.js');
+const AddressBookBound = require('./icons/AddressBookBound.js');
+const AddressBookAt = require('./icons/AddressBookAt.js');
+const AddressBookAtHooks = require('./icons/AddressBookAtHooks.js');
+const AddressBookAtBound = require('./icons/AddressBookAtBound.js');
+const AddressBookBoundSharp = require('./icons/AddressBookBoundSharp.js');
+const AddressBookSpine = require('./icons/AddressBookSpine.js');
+const AddressBookTabs = require('./icons/AddressBookTabs.js');
+const AddressBookStack = require('./icons/AddressBookStack.js');
+const AddressBookStackClipped = require('./icons/AddressBookStackClipped.js');
+const AddressBookPlain = require('./icons/AddressBookPlain.js');
+const Airplay = require('./icons/Airplay.js');
+const AirplayTall = require('./icons/AirplayTall.js');
+const AirplayPair = require('./icons/AirplayPair.js');
+const AirplaySignal = require('./icons/AirplaySignal.js');
+const AirplaySignalCircle = require('./icons/AirplaySignalCircle.js');
+const AirplaySignalLarge = require('./icons/AirplaySignalLarge.js');
+const AirplayWifi = require('./icons/AirplayWifi.js');
+const AirplaySignalSquare = require('./icons/AirplaySignalSquare.js');
+const AirplaySignalSquareLarge = require('./icons/AirplaySignalSquareLarge.js');
+const CircleMotion = require('./icons/CircleMotion.js');
+const CircleMotionDotted = require('./icons/CircleMotionDotted.js');
+const DiamondMotion = require('./icons/DiamondMotion.js');
+const DiamondMotionDotted = require('./icons/DiamondMotionDotted.js');
+const Window = require('./icons/Window.js');
+const WindowDotsRight = require('./icons/WindowDotsRight.js');
+const WindowPlain = require('./icons/WindowPlain.js');
+const WindowBare = require('./icons/WindowBare.js');
+const WindowTwoDots = require('./icons/WindowTwoDots.js');
+const WindowTwoDotsRight = require('./icons/WindowTwoDotsRight.js');
+const WindowArrowLeftRight = require('./icons/WindowArrowLeftRight.js');
+const WindowLightbulbCenter = require('./icons/WindowLightbulbCenter.js');
+const WindowLightbulb = require('./icons/WindowLightbulb.js');
+const WindowChart = require('./icons/WindowChart.js');
+const WindowChartZigzag = require('./icons/WindowChartZigzag.js');
+const WindowChartArrow = require('./icons/WindowChartArrow.js');
+const WindowCheckCircle = require('./icons/WindowCheckCircle.js');
+const WindowDotsCircle = require('./icons/WindowDotsCircle.js');
+const WindowClock = require('./icons/WindowClock.js');
+const WindowCloud = require('./icons/WindowCloud.js');
+const WindowCloud2 = require('./icons/WindowCloud2.js');
+const WindowCloudPuffy = require('./icons/WindowCloudPuffy.js');
+const WindowEyedropper = require('./icons/WindowEyedropper.js');
+const WindowDotsVertical = require('./icons/WindowDotsVertical.js');
+const WindowBoltCenter = require('./icons/WindowBoltCenter.js');
+const WindowBolt = require('./icons/WindowBolt.js');
+const WindowBoltWide = require('./icons/WindowBoltWide.js');
+const WindowSettingsCenter = require('./icons/WindowSettingsCenter.js');
+const WindowSettings = require('./icons/WindowSettings.js');
+const WindowHeartCenter = require('./icons/WindowHeartCenter.js');
+const WindowHeart = require('./icons/WindowHeart.js');
+const WindowLetterE = require('./icons/WindowLetterE.js');
+const WindowKeyHorizontal = require('./icons/WindowKeyHorizontal.js');
+const WindowKeySkeleton = require('./icons/WindowKeySkeleton.js');
+const WindowKey = require('./icons/WindowKey.js');
+const WindowKeyDot = require('./icons/WindowKeyDot.js');
+const WindowPassword = require('./icons/WindowPassword.js');
+const WindowSearch = require('./icons/WindowSearch.js');
+const WindowLetterX = require('./icons/WindowLetterX.js');
+const WindowLetterW = require('./icons/WindowLetterW.js');
+const WindowMusicCenter = require('./icons/WindowMusicCenter.js');
+const WindowMusic = require('./icons/WindowMusic.js');
+const WindowMusicDoubleCenter = require('./icons/WindowMusicDoubleCenter.js');
+const WindowMusicDouble = require('./icons/WindowMusicDouble.js');
+const WindowMinusCircle = require('./icons/WindowMinusCircle.js');
+const WindowPdf = require('./icons/WindowPdf.js');
+const WindowPlusCircle = require('./icons/WindowPlusCircle.js');
+const WindowMedal = require('./icons/WindowMedal.js');
+const WindowSeal = require('./icons/WindowSeal.js');
+const WindowAward = require('./icons/WindowAward.js');
+const WindowRosette = require('./icons/WindowRosette.js');
+const WindowShieldCenter = require('./icons/WindowShieldCenter.js');
+const WindowShield = require('./icons/WindowShield.js');
+const WindowChat = require('./icons/WindowChat.js');
+const WindowChatCorner = require('./icons/WindowChatCorner.js');
+const WindowChatRound = require('./icons/WindowChatRound.js');
+const WindowStarCenter = require('./icons/WindowStarCenter.js');
+const WindowStar = require('./icons/WindowStar.js');
+const WindowWrench = require('./icons/WindowWrench.js');
+const WindowWrench2 = require('./icons/WindowWrench2.js');
+const WindowXCircle = require('./icons/WindowXCircle.js');
+const WindowArrowLeftRightBare = require('./icons/WindowArrowLeftRightBare.js');
+const WindowArrowLeftRightBare2 = require('./icons/WindowArrowLeftRightBare2.js');
+const WindowLightbulbBare = require('./icons/WindowLightbulbBare.js');
+const WindowChartBare = require('./icons/WindowChartBare.js');
+const WindowChartZigzagBare = require('./icons/WindowChartZigzagBare.js');
+const WindowChartArrowBare = require('./icons/WindowChartArrowBare.js');
+const WindowCheck = require('./icons/WindowCheck.js');
+const WindowCheckCenter = require('./icons/WindowCheckCenter.js');
+const WindowDotsCircleBare = require('./icons/WindowDotsCircleBare.js');
+const WindowCloudCenterBare = require('./icons/WindowCloudCenterBare.js');
+const WindowCloudBare = require('./icons/WindowCloudBare.js');
+const WindowCloudBare2 = require('./icons/WindowCloudBare2.js');
+const WindowCloudPuffyBare = require('./icons/WindowCloudPuffyBare.js');
+const WindowEyedropperBare = require('./icons/WindowEyedropperBare.js');
+const WindowDotsVerticalBare = require('./icons/WindowDotsVerticalBare.js');
+const WindowBoltCenterBare = require('./icons/WindowBoltCenterBare.js');
+const WindowBoltBare = require('./icons/WindowBoltBare.js');
+const WindowBoltWideBare = require('./icons/WindowBoltWideBare.js');
+const WindowSettingsCenterBare = require('./icons/WindowSettingsCenterBare.js');
+const WindowSettingsBare = require('./icons/WindowSettingsBare.js');
+const WindowHeartCenterBare = require('./icons/WindowHeartCenterBare.js');
+const WindowHeartBare = require('./icons/WindowHeartBare.js');
+const WindowLetterEBare = require('./icons/WindowLetterEBare.js');
+const WindowKeyHorizontalBare = require('./icons/WindowKeyHorizontalBare.js');
+const WindowKeySkeletonBare = require('./icons/WindowKeySkeletonBare.js');
+const WindowKeyDotBare = require('./icons/WindowKeyDotBare.js');
+const WindowPasswordBare = require('./icons/WindowPasswordBare.js');
+const WindowChatBare = require('./icons/WindowChatBare.js');
+const WindowChatCornerBare = require('./icons/WindowChatCornerBare.js');
+const WindowSearchBare = require('./icons/WindowSearchBare.js');
+const WindowLetterXBare = require('./icons/WindowLetterXBare.js');
+const WindowLetterWBare = require('./icons/WindowLetterWBare.js');
+const WindowMusicCenterBare = require('./icons/WindowMusicCenterBare.js');
+const WindowMusicBare = require('./icons/WindowMusicBare.js');
+const WindowMusicDoubleCenterBare = require('./icons/WindowMusicDoubleCenterBare.js');
+const WindowMusicDoubleBare = require('./icons/WindowMusicDoubleBare.js');
+const WindowMinus = require('./icons/WindowMinus.js');
+const WindowMinusCenter = require('./icons/WindowMinusCenter.js');
+const WindowPdfBare = require('./icons/WindowPdfBare.js');
+const WindowPlay = require('./icons/WindowPlay.js');
+const WindowPlayCenter = require('./icons/WindowPlayCenter.js');
+const WindowPlus = require('./icons/WindowPlus.js');
+const WindowPlusCenter = require('./icons/WindowPlusCenter.js');
+const WindowMedalBare = require('./icons/WindowMedalBare.js');
+const WindowSealBare = require('./icons/WindowSealBare.js');
+const WindowAwardBare = require('./icons/WindowAwardBare.js');
+const WindowRosetteBare = require('./icons/WindowRosetteBare.js');
+const WindowShieldCenterBare = require('./icons/WindowShieldCenterBare.js');
+const WindowShieldBare = require('./icons/WindowShieldBare.js');
+const WindowChatRoundBare = require('./icons/WindowChatRoundBare.js');
+const WindowStarCenterBare = require('./icons/WindowStarCenterBare.js');
+const WindowStarBare = require('./icons/WindowStarBare.js');
+const WindowWrenchBare = require('./icons/WindowWrenchBare.js');
+const WindowX = require('./icons/WindowX.js');
+const WindowXCenter = require('./icons/WindowXCenter.js');
+const WindowCheckCirclePlain = require('./icons/WindowCheckCirclePlain.js');
+const WindowClockPlain = require('./icons/WindowClockPlain.js');
+const WindowMinusCirclePlain = require('./icons/WindowMinusCirclePlain.js');
+const WindowPlusCirclePlain = require('./icons/WindowPlusCirclePlain.js');
+const WindowXCirclePlain = require('./icons/WindowXCirclePlain.js');
+const WindowCheckPlain = require('./icons/WindowCheckPlain.js');
+const WindowCheckCenterPlain = require('./icons/WindowCheckCenterPlain.js');
+const WindowMinusPlain = require('./icons/WindowMinusPlain.js');
+const WindowMinusCenterPlain = require('./icons/WindowMinusCenterPlain.js');
+const WindowPlayPlain = require('./icons/WindowPlayPlain.js');
+const WindowPlayCenterPlain = require('./icons/WindowPlayCenterPlain.js');
+const WindowPlusPlain = require('./icons/WindowPlusPlain.js');
+const WindowPlusCenterPlain = require('./icons/WindowPlusCenterPlain.js');
+const WindowXPlain = require('./icons/WindowXPlain.js');
+const WindowXCenterPlain = require('./icons/WindowXCenterPlain.js');
+const WindowSliders = require('./icons/WindowSliders.js');
+const WindowSlidersTwo = require('./icons/WindowSlidersTwo.js');
+const WindowSlidersPlain = require('./icons/WindowSlidersPlain.js');
+const WindowSlidersTwoPlain = require('./icons/WindowSlidersTwoPlain.js');
+const WindowRocket = require('./icons/WindowRocket.js');
+const WindowStackDottedAll = require('./icons/WindowStackDottedAll.js');
+const WindowStackDotted = require('./icons/WindowStackDotted.js');
+const WindowStackStripedAll = require('./icons/WindowStackStripedAll.js');
+const WindowStackStriped = require('./icons/WindowStackStriped.js');
+const LayerStack = require('./icons/LayerStack.js');
+const LayerStackRounded = require('./icons/LayerStackRounded.js');
+const LayerStackOpen = require('./icons/LayerStackOpen.js');
+const ArrowClockwiseCheck = require('./icons/ArrowClockwiseCheck.js');
+const ArrowClockwiseCheckCircle = require('./icons/ArrowClockwiseCheckCircle.js');
+const ArrowClockwiseBottom = require('./icons/ArrowClockwiseBottom.js');
+const ArrowClockwiseBottomOff = require('./icons/ArrowClockwiseBottomOff.js');
+const ArrowClockwise = require('./icons/ArrowClockwise.js');
+const ArrowClockwiseOff = require('./icons/ArrowClockwiseOff.js');
+const ArrowCounterclockwiseBottom = require('./icons/ArrowCounterclockwiseBottom.js');
+const ArrowCounterclockwiseBottomOff = require('./icons/ArrowCounterclockwiseBottomOff.js');
+const ArrowCounterclockwise = require('./icons/ArrowCounterclockwise.js');
+const ArrowCounterclockwiseOff = require('./icons/ArrowCounterclockwiseOff.js');
+const ArrowDownArc = require('./icons/ArrowDownArc.js');
+const ArrowDownArcSmall = require('./icons/ArrowDownArcSmall.js');
+const ArrowClockwiseSettings = require('./icons/ArrowClockwiseSettings.js');
+const ArrowClockwiseSettingsCorner = require('./icons/ArrowClockwiseSettingsCorner.js');
+const ArrowCounterclockwiseHexagon = require('./icons/ArrowCounterclockwiseHexagon.js');
+const ArrowCounterclockwiseHexagonOff = require('./icons/ArrowCounterclockwiseHexagonOff.js');
+const ArrowClockwiseX = require('./icons/ArrowClockwiseX.js');
+const ArrowClockwiseXCircle = require('./icons/ArrowClockwiseXCircle.js');
+const ArrowExpandCircleDashed = require('./icons/ArrowExpandCircleDashed.js');
+const ArrowSyncNodes = require('./icons/ArrowSyncNodes.js');
+const ArrowSyncNodesDiagonal = require('./icons/ArrowSyncNodesDiagonal.js');
+const ArrowSyncNodesDiagonalAngular = require('./icons/ArrowSyncNodesDiagonalAngular.js');
+const ArrowSyncClockwise = require('./icons/ArrowSyncClockwise.js');
+const ArrowSyncClockwiseOff = require('./icons/ArrowSyncClockwiseOff.js');
+const ArrowSyncClockwiseAngular = require('./icons/ArrowSyncClockwiseAngular.js');
+const ArrowSyncClockwiseOffAngular = require('./icons/ArrowSyncClockwiseOffAngular.js');
+const ArrowSyncClockwiseRotated = require('./icons/ArrowSyncClockwiseRotated.js');
+const ArrowSyncClockwiseOffRotated = require('./icons/ArrowSyncClockwiseOffRotated.js');
+const ArrowSyncCounterclockwiseRotated = require('./icons/ArrowSyncCounterclockwiseRotated.js');
+const ArrowSyncCounterclockwiseOffRotated = require('./icons/ArrowSyncCounterclockwiseOffRotated.js');
+const ArrowSyncCounterclockwiseAngular = require('./icons/ArrowSyncCounterclockwiseAngular.js');
+const ArrowSyncCounterclockwiseOffAngular = require('./icons/ArrowSyncCounterclockwiseOffAngular.js');
+const ArrowSyncCounterclockwise = require('./icons/ArrowSyncCounterclockwise.js');
+const ArrowSyncCounterclockwiseOff = require('./icons/ArrowSyncCounterclockwiseOff.js');
+const ArrowDownTray = require('./icons/ArrowDownTray.js');
+const ArrowDownTray2 = require('./icons/ArrowDownTray2.js');
+const ArrowCycle = require('./icons/ArrowCycle.js');
+const ArrowCyclePlus = require('./icons/ArrowCyclePlus.js');
+const ArrowCycle2 = require('./icons/ArrowCycle2.js');
+const ArrowCyclePlus2 = require('./icons/ArrowCyclePlus2.js');
+const ArrowSyncHexagon = require('./icons/ArrowSyncHexagon.js');
+const ArrowSyncDiamond = require('./icons/ArrowSyncDiamond.js');
+const ArrowSyncDiamondOff = require('./icons/ArrowSyncDiamondOff.js');
+const MoveHand = require('./icons/MoveHand.js');
+const MoveHandChevron = require('./icons/MoveHandChevron.js');
+const ArrowRepeat = require('./icons/ArrowRepeat.js');
+const ArrowRepeatOff = require('./icons/ArrowRepeatOff.js');
+const ArrowRepeatVertical = require('./icons/ArrowRepeatVertical.js');
+const ArrowRepeatVerticalOff = require('./icons/ArrowRepeatVerticalOff.js');
+const ArrowRepeatCompact = require('./icons/ArrowRepeatCompact.js');
+const ArrowRepeatCompactOff = require('./icons/ArrowRepeatCompactOff.js');
+const ArrowSyncClockwise2 = require('./icons/ArrowSyncClockwise2.js');
+const ArrowSyncClockwiseOff2 = require('./icons/ArrowSyncClockwiseOff2.js');
+const ArrowRepeatVerticalCompact = require('./icons/ArrowRepeatVerticalCompact.js');
+const ArrowRepeatVerticalCompactOff = require('./icons/ArrowRepeatVerticalCompactOff.js');
+const ArrowSyncCircle = require('./icons/ArrowSyncCircle.js');
+const ArrowUpTray = require('./icons/ArrowUpTray.js');
+const ArrowUpTraySpread = require('./icons/ArrowUpTraySpread.js');
+const WheelchairSquare = require('./icons/WheelchairSquare.js');
+const WheelchairSquare2 = require('./icons/WheelchairSquare2.js');
+const WheelchairSquare3 = require('./icons/WheelchairSquare3.js');
+const AtRounded = require('./icons/AtRounded.js');
+const AtSpiral = require('./icons/AtSpiral.js');
+const AtCompact = require('./icons/AtCompact.js');
+const AtCurved = require('./icons/AtCurved.js');
+const AtAlertCurved = require('./icons/AtAlertCurved.js');
+const AtCheckCurved = require('./icons/AtCheckCurved.js');
+const AtDotsCurved = require('./icons/AtDotsCurved.js');
+const AtClockCurved = require('./icons/AtClockCurved.js');
+const AtClockCurved2 = require('./icons/AtClockCurved2.js');
+const AtOneCurved = require('./icons/AtOneCurved.js');
+const AtPlusCurved = require('./icons/AtPlusCurved.js');
+const AtMinusCurved = require('./icons/AtMinusCurved.js');
+const AtXCurved = require('./icons/AtXCurved.js');
+const At = require('./icons/At.js');
+const AtAlert = require('./icons/AtAlert.js');
+const AtRefresh = require('./icons/AtRefresh.js');
+const AtSync = require('./icons/AtSync.js');
+const AtCheck = require('./icons/AtCheck.js');
+const AtClock = require('./icons/AtClock.js');
+const AtClock2 = require('./icons/AtClock2.js');
+const AtDots = require('./icons/AtDots.js');
+const AtEqual = require('./icons/AtEqual.js');
+const AtOne = require('./icons/AtOne.js');
+const AtPlus = require('./icons/AtPlus.js');
+const AtMinus = require('./icons/AtMinus.js');
+const AtX = require('./icons/AtX.js');
+const AtAlertCircle = require('./icons/AtAlertCircle.js');
+const AtCheckCircle = require('./icons/AtCheckCircle.js');
+const AtDotsCircle = require('./icons/AtDotsCircle.js');
+const AtClockCircle = require('./icons/AtClockCircle.js');
+const AtClockCircle2 = require('./icons/AtClockCircle2.js');
+const AtEqualCircle = require('./icons/AtEqualCircle.js');
+const AtOneCircle = require('./icons/AtOneCircle.js');
+const AtPlusCircle = require('./icons/AtPlusCircle.js');
+const AtMinusCircle = require('./icons/AtMinusCircle.js');
+const AtXCircle = require('./icons/AtXCircle.js');
+const AtTall = require('./icons/AtTall.js');
+const AtAlertTall = require('./icons/AtAlertTall.js');
+const AtRefreshTall = require('./icons/AtRefreshTall.js');
+const AtSyncTall = require('./icons/AtSyncTall.js');
+const AtCheckTall = require('./icons/AtCheckTall.js');
+const AtClockTall = require('./icons/AtClockTall.js');
+const AtDotsTall = require('./icons/AtDotsTall.js');
+const AtEqualTall = require('./icons/AtEqualTall.js');
+const AtMinusTall = require('./icons/AtMinusTall.js');
+const AtOneTall = require('./icons/AtOneTall.js');
+const AtPlusTall = require('./icons/AtPlusTall.js');
+const AtXTall = require('./icons/AtXTall.js');
+const AtBoxy = require('./icons/AtBoxy.js');
+const AtAlertBoxy = require('./icons/AtAlertBoxy.js');
+const AtRefreshBoxy = require('./icons/AtRefreshBoxy.js');
+const AtSyncBoxy = require('./icons/AtSyncBoxy.js');
+const AtCheckBoxy = require('./icons/AtCheckBoxy.js');
+const AtClockBoxy = require('./icons/AtClockBoxy.js');
+const AtDotsBoxy = require('./icons/AtDotsBoxy.js');
+const AtEqualBoxy = require('./icons/AtEqualBoxy.js');
+const AtMinusBoxy = require('./icons/AtMinusBoxy.js');
+const AtOneBoxy = require('./icons/AtOneBoxy.js');
+const AtPlusBoxy = require('./icons/AtPlusBoxy.js');
+const AtXBoxy = require('./icons/AtXBoxy.js');
+const AtCircle = require('./icons/AtCircle.js');
+const AtCorners = require('./icons/AtCorners.js');
+const AtCornersCompact = require('./icons/AtCornersCompact.js');
+const AtEqualCurved = require('./icons/AtEqualCurved.js');
+const BadgeCheckJagged = require('./icons/BadgeCheckJagged.js');
+const BadgeCheck = require('./icons/BadgeCheck.js');
+const BadgeCheckPetal = require('./icons/BadgeCheckPetal.js');
+const BadgeCheckBumpy = require('./icons/BadgeCheckBumpy.js');
+const BadgeCheckWavy = require('./icons/BadgeCheckWavy.js');
+const BadgeCheckNotched = require('./icons/BadgeCheckNotched.js');
+const BadgeCheckPointed = require('./icons/BadgeCheckPointed.js');
 const BadgeCheckCircle = require('./icons/BadgeCheckCircle.js');
 const BadgeCheckSquare = require('./icons/BadgeCheckSquare.js');
-const BadgeRosetteQuestionUnverified = require('./icons/BadgeRosetteQuestionUnverified.js');
-const BadgeRosetteQuestionUnverified2 = require('./icons/BadgeRosetteQuestionUnverified2.js');
-const BadgeRosetteQuestionUnverified3 = require('./icons/BadgeRosetteQuestionUnverified3.js');
-const BadgeRosetteQuestionUnverified4 = require('./icons/BadgeRosetteQuestionUnverified4.js');
-const BadgeRosetteQuestionUnverified5 = require('./icons/BadgeRosetteQuestionUnverified5.js');
-const BadgeRosetteQuestionUnverified6 = require('./icons/BadgeRosetteQuestionUnverified6.js');
-const BadgeRosetteQuestion = require('./icons/BadgeRosetteQuestion.js');
-const Bell1 = require('./icons/Bell1.js');
-const Bell1Angle = require('./icons/Bell1Angle.js');
-const Bell1Check = require('./icons/Bell1Check.js');
-const Bell1Clock = require('./icons/Bell1Clock.js');
-const Bell1Dot = require('./icons/Bell1Dot.js');
-const Bell1Silent = require('./icons/Bell1Silent.js');
-const Bell1Sounding1 = require('./icons/Bell1Sounding1.js');
-const Bell1XCircle = require('./icons/Bell1XCircle.js');
-const Bell1Sounding2 = require('./icons/Bell1Sounding2.js');
-const Bell2 = require('./icons/Bell2.js');
-const Bell2Angle = require('./icons/Bell2Angle.js');
-const Bell2Check = require('./icons/Bell2Check.js');
-const Bell2CheckCircle = require('./icons/Bell2CheckCircle.js');
-const Bell2Circle = require('./icons/Bell2Circle.js');
-const Bell2CircleSilent = require('./icons/Bell2CircleSilent.js');
-const Bell2Clock = require('./icons/Bell2Clock.js');
-const Bell2Exclamation = require('./icons/Bell2Exclamation.js');
-const Bell2Octagon = require('./icons/Bell2Octagon.js');
-const Bell2OctagonSilent = require('./icons/Bell2OctagonSilent.js');
-const Bell2Plus = require('./icons/Bell2Plus.js');
-const Bell2Dot = require('./icons/Bell2Dot.js');
-const Bell2Silent = require('./icons/Bell2Silent.js');
-const Bell2Sounding1 = require('./icons/Bell2Sounding1.js');
-const Bell2Square = require('./icons/Bell2Square.js');
-const Bell2SquareDot = require('./icons/Bell2SquareDot.js');
-const Bell2SquareSilent = require('./icons/Bell2SquareSilent.js');
-const Bell2X = require('./icons/Bell2X.js');
-const Bell2XCircle = require('./icons/Bell2XCircle.js');
-const Bell2Z = require('./icons/Bell2Z.js');
-const Bell2Sounding2 = require('./icons/Bell2Sounding2.js');
-const Bell3 = require('./icons/Bell3.js');
-const Bell3Angle = require('./icons/Bell3Angle.js');
-const Bell3Check = require('./icons/Bell3Check.js');
-const Bell3CheckCircle = require('./icons/Bell3CheckCircle.js');
-const Bell3Clock = require('./icons/Bell3Clock.js');
-const Bell3Exclamation = require('./icons/Bell3Exclamation.js');
-const Bell3Plus = require('./icons/Bell3Plus.js');
-const Bell3Dot = require('./icons/Bell3Dot.js');
-const Bell3Silent = require('./icons/Bell3Silent.js');
-const Bell3Sounding1 = require('./icons/Bell3Sounding1.js');
-const Bell3X = require('./icons/Bell3X.js');
-const Bell3XCircle = require('./icons/Bell3XCircle.js');
-const Bell3Z = require('./icons/Bell3Z.js');
-const Bell3Sounding2 = require('./icons/Bell3Sounding2.js');
-const Bell4 = require('./icons/Bell4.js');
-const Bell4Angle = require('./icons/Bell4Angle.js');
-const Bell4Check = require('./icons/Bell4Check.js');
-const Bell4CheckCircle = require('./icons/Bell4CheckCircle.js');
-const Bell4Clock = require('./icons/Bell4Clock.js');
-const Bell4Exclamation = require('./icons/Bell4Exclamation.js');
-const Bell4Plus = require('./icons/Bell4Plus.js');
-const Bell4Dot = require('./icons/Bell4Dot.js');
-const Bell4Silent = require('./icons/Bell4Silent.js');
-const Bell4Sounding1 = require('./icons/Bell4Sounding1.js');
-const Bell4X = require('./icons/Bell4X.js');
-const Bell4XCircle = require('./icons/Bell4XCircle.js');
-const Bell4Z = require('./icons/Bell4Z.js');
-const Bell4Sounding2 = require('./icons/Bell4Sounding2.js');
-const Bell5 = require('./icons/Bell5.js');
-const Bell5Angle = require('./icons/Bell5Angle.js');
-const Bell5Check = require('./icons/Bell5Check.js');
-const Bell5CheckCircle = require('./icons/Bell5CheckCircle.js');
-const Bell5Circle = require('./icons/Bell5Circle.js');
-const Bell5CircleSilent = require('./icons/Bell5CircleSilent.js');
-const Bell5Clock = require('./icons/Bell5Clock.js');
-const Bell5Exclamation = require('./icons/Bell5Exclamation.js');
-const Bell5Octagon = require('./icons/Bell5Octagon.js');
-const Bell5OctagonSilent = require('./icons/Bell5OctagonSilent.js');
-const Bell5Plus = require('./icons/Bell5Plus.js');
-const Bell5Dot = require('./icons/Bell5Dot.js');
-const Bell5Silent = require('./icons/Bell5Silent.js');
-const Bell5Sounding1 = require('./icons/Bell5Sounding1.js');
-const Bell5Square = require('./icons/Bell5Square.js');
-const Bell5SquareDot = require('./icons/Bell5SquareDot.js');
-const Bell5SquareSilent = require('./icons/Bell5SquareSilent.js');
-const Bell5X = require('./icons/Bell5X.js');
-const Bell5XCircle = require('./icons/Bell5XCircle.js');
-const Bell5Z = require('./icons/Bell5Z.js');
-const Bell5Sounding2 = require('./icons/Bell5Sounding2.js');
-const Bell6 = require('./icons/Bell6.js');
-const Bell6Angle = require('./icons/Bell6Angle.js');
-const Bell6Check = require('./icons/Bell6Check.js');
-const Bell6CheckCircle = require('./icons/Bell6CheckCircle.js');
-const Bell6Clock = require('./icons/Bell6Clock.js');
-const Bell6Exclamation = require('./icons/Bell6Exclamation.js');
-const Bell6Plus = require('./icons/Bell6Plus.js');
-const Bell6Dot = require('./icons/Bell6Dot.js');
-const Bell6Silent = require('./icons/Bell6Silent.js');
-const Bell6Sounding1 = require('./icons/Bell6Sounding1.js');
-const Bell6X = require('./icons/Bell6X.js');
-const Bell6XCircle = require('./icons/Bell6XCircle.js');
-const Bell6Z = require('./icons/Bell6Z.js');
-const Bell6Sounding2 = require('./icons/Bell6Sounding2.js');
+const BadgeQuestionJagged = require('./icons/BadgeQuestionJagged.js');
+const BadgeQuestion = require('./icons/BadgeQuestion.js');
+const BadgeQuestionPetal = require('./icons/BadgeQuestionPetal.js');
+const BadgeQuestionBumpy = require('./icons/BadgeQuestionBumpy.js');
+const BadgeQuestionWavy = require('./icons/BadgeQuestionWavy.js');
+const BadgeQuestionNotched = require('./icons/BadgeQuestionNotched.js');
+const BadgeQuestionPointed = require('./icons/BadgeQuestionPointed.js');
+const BellRim = require('./icons/BellRim.js');
+const BellTiltedRim = require('./icons/BellTiltedRim.js');
+const BellCheckCircleRim = require('./icons/BellCheckCircleRim.js');
+const BellClockRim = require('./icons/BellClockRim.js');
+const BellDotRim = require('./icons/BellDotRim.js');
+const BellOffRim = require('./icons/BellOffRim.js');
+const BellRingLinesRim = require('./icons/BellRingLinesRim.js');
+const BellXCircleRim = require('./icons/BellXCircleRim.js');
+const BellRingRim = require('./icons/BellRingRim.js');
+const Bell = require('./icons/Bell.js');
+const BellTilted = require('./icons/BellTilted.js');
+const BellCheck = require('./icons/BellCheck.js');
+const BellCheckCircle = require('./icons/BellCheckCircle.js');
+const BellCircle = require('./icons/BellCircle.js');
+const BellCircleOff = require('./icons/BellCircleOff.js');
+const BellClock = require('./icons/BellClock.js');
+const BellAlert = require('./icons/BellAlert.js');
+const BellOctagon = require('./icons/BellOctagon.js');
+const BellOctagonOff = require('./icons/BellOctagonOff.js');
+const BellPlus = require('./icons/BellPlus.js');
+const BellDot = require('./icons/BellDot.js');
+const BellOff = require('./icons/BellOff.js');
+const BellRingLines = require('./icons/BellRingLines.js');
+const BellSquare = require('./icons/BellSquare.js');
+const BellSquareDot = require('./icons/BellSquareDot.js');
+const BellSquareOff = require('./icons/BellSquareOff.js');
+const BellX = require('./icons/BellX.js');
+const BellXCircle = require('./icons/BellXCircle.js');
+const BellSnooze = require('./icons/BellSnooze.js');
+const BellRing = require('./icons/BellRing.js');
+const BellKnob = require('./icons/BellKnob.js');
+const BellTiltedKnob = require('./icons/BellTiltedKnob.js');
+const BellCheckKnob = require('./icons/BellCheckKnob.js');
+const BellCheckCircleKnob = require('./icons/BellCheckCircleKnob.js');
+const BellClockKnob = require('./icons/BellClockKnob.js');
+const BellAlertKnob = require('./icons/BellAlertKnob.js');
+const BellPlusKnob = require('./icons/BellPlusKnob.js');
+const BellDotKnob = require('./icons/BellDotKnob.js');
+const BellOffKnob = require('./icons/BellOffKnob.js');
+const BellRingLinesKnob = require('./icons/BellRingLinesKnob.js');
+const BellXKnob = require('./icons/BellXKnob.js');
+const BellXCircleKnob = require('./icons/BellXCircleKnob.js');
+const BellSnoozeKnob = require('./icons/BellSnoozeKnob.js');
+const BellRingKnob = require('./icons/BellRingKnob.js');
+const BellFlat = require('./icons/BellFlat.js');
+const BellTiltedFlat = require('./icons/BellTiltedFlat.js');
+const BellCheckFlat = require('./icons/BellCheckFlat.js');
+const BellCheckCircleFlat = require('./icons/BellCheckCircleFlat.js');
+const BellClockFlat = require('./icons/BellClockFlat.js');
+const BellAlertFlat = require('./icons/BellAlertFlat.js');
+const BellPlusFlat = require('./icons/BellPlusFlat.js');
+const BellDotFlat = require('./icons/BellDotFlat.js');
+const BellOffFlat = require('./icons/BellOffFlat.js');
+const BellRingLinesFlat = require('./icons/BellRingLinesFlat.js');
+const BellXFlat = require('./icons/BellXFlat.js');
+const BellXCircleFlat = require('./icons/BellXCircleFlat.js');
+const BellSnoozeFlat = require('./icons/BellSnoozeFlat.js');
+const BellRingFlat = require('./icons/BellRingFlat.js');
+const BellDash = require('./icons/BellDash.js');
+const BellTiltedDash = require('./icons/BellTiltedDash.js');
+const BellCheckDash = require('./icons/BellCheckDash.js');
+const BellCheckCircleDash = require('./icons/BellCheckCircleDash.js');
+const BellCircleDash = require('./icons/BellCircleDash.js');
+const BellCircleOffDash = require('./icons/BellCircleOffDash.js');
+const BellClockDash = require('./icons/BellClockDash.js');
+const BellAlertDash = require('./icons/BellAlertDash.js');
+const BellOctagonDash = require('./icons/BellOctagonDash.js');
+const BellOctagonOffDash = require('./icons/BellOctagonOffDash.js');
+const BellPlusDash = require('./icons/BellPlusDash.js');
+const BellDotDash = require('./icons/BellDotDash.js');
+const BellOffDash = require('./icons/BellOffDash.js');
+const BellRingLinesDash = require('./icons/BellRingLinesDash.js');
+const BellSquareDash = require('./icons/BellSquareDash.js');
+const BellSquareDotDash = require('./icons/BellSquareDotDash.js');
+const BellSquareOffDash = require('./icons/BellSquareOffDash.js');
+const BellXDash = require('./icons/BellXDash.js');
+const BellXCircleDash = require('./icons/BellXCircleDash.js');
+const BellSnoozeDash = require('./icons/BellSnoozeDash.js');
+const BellRingDash = require('./icons/BellRingDash.js');
+const BellWide = require('./icons/BellWide.js');
+const BellTiltedWide = require('./icons/BellTiltedWide.js');
+const BellCheckWide = require('./icons/BellCheckWide.js');
+const BellCheckCircleWide = require('./icons/BellCheckCircleWide.js');
+const BellClockWide = require('./icons/BellClockWide.js');
+const BellAlertWide = require('./icons/BellAlertWide.js');
+const BellPlusWide = require('./icons/BellPlusWide.js');
+const BellDotWide = require('./icons/BellDotWide.js');
+const BellOffWide = require('./icons/BellOffWide.js');
+const BellRingLinesWide = require('./icons/BellRingLinesWide.js');
+const BellXWide = require('./icons/BellXWide.js');
+const BellXCircleWide = require('./icons/BellXCircleWide.js');
+const BellSnoozeWide = require('./icons/BellSnoozeWide.js');
+const BellRingWide = require('./icons/BellRingWide.js');
+const BinocularsShort = require('./icons/BinocularsShort.js');
+const BinocularsEyecups = require('./icons/BinocularsEyecups.js');
+const BinocularsTall = require('./icons/BinocularsTall.js');
+const BinocularsBoxy = require('./icons/BinocularsBoxy.js');
+const BinocularsBoxyBand = require('./icons/BinocularsBoxyBand.js');
+const BinocularsStraight = require('./icons/BinocularsStraight.js');
+const BinocularsCompact = require('./icons/BinocularsCompact.js');
+const BinocularsWide = require('./icons/BinocularsWide.js');
+const BinocularsAngled = require('./icons/BinocularsAngled.js');
+const BinocularsOpera = require('./icons/BinocularsOpera.js');
+const BinocularsCompactRound = require('./icons/BinocularsCompactRound.js');
+const BinocularsCompactSquare = require('./icons/BinocularsCompactSquare.js');
 const Binoculars = require('./icons/Binoculars.js');
-const Binoculars1 = require('./icons/Binoculars1.js');
-const Binoculars2 = require('./icons/Binoculars2.js');
-const Binoculars3 = require('./icons/Binoculars3.js');
-const Binoculars4 = require('./icons/Binoculars4.js');
-const Binoculars5 = require('./icons/Binoculars5.js');
-const Binoculars6 = require('./icons/Binoculars6.js');
-const Binoculars7 = require('./icons/Binoculars7.js');
-const Binoculars8 = require('./icons/Binoculars8.js');
-const Binoculars9 = require('./icons/Binoculars9.js');
-const Binoculars10 = require('./icons/Binoculars10.js');
-const Binoculars11 = require('./icons/Binoculars11.js');
-const Binoculars12 = require('./icons/Binoculars12.js');
+const BookBookmarkUnderline = require('./icons/BookBookmarkUnderline.js');
+const BookBookmarkThick = require('./icons/BookBookmarkThick.js');
 const BookBookmark = require('./icons/BookBookmark.js');
-const BookBookmark1 = require('./icons/BookBookmark1.js');
-const BookBookmark2 = require('./icons/BookBookmark2.js');
-const BookBookmark3 = require('./icons/BookBookmark3.js');
-const BookBookmark4 = require('./icons/BookBookmark4.js');
-const BookBookmark5 = require('./icons/BookBookmark5.js');
-const BookBookmark6 = require('./icons/BookBookmark6.js');
-const BookBookmark7 = require('./icons/BookBookmark7.js');
-const BookBookmark8 = require('./icons/BookBookmark8.js');
-const BookBookmark9 = require('./icons/BookBookmark9.js');
-const BookBookmark10 = require('./icons/BookBookmark10.js');
-const BookInformation1 = require('./icons/BookInformation1.js');
-const BookInformation2 = require('./icons/BookInformation2.js');
-const BookInformation3 = require('./icons/BookInformation3.js');
-const BookInformation4 = require('./icons/BookInformation4.js');
-const BookInformation5 = require('./icons/BookInformation5.js');
-const BookInformation6 = require('./icons/BookInformation6.js');
-const BookInformation7 = require('./icons/BookInformation7.js');
+const BookBookmarkSpine = require('./icons/BookBookmarkSpine.js');
+const BookBookmarkPlain = require('./icons/BookBookmarkPlain.js');
+const BookBookmarkSpineRounded = require('./icons/BookBookmarkSpineRounded.js');
+const BookBookmarkRibbon = require('./icons/BookBookmarkRibbon.js');
+const BookBookmarkFlipped = require('./icons/BookBookmarkFlipped.js');
+const BookBookmarkFlippedCurved = require('./icons/BookBookmarkFlippedCurved.js');
+const BookBookmarkCurved = require('./icons/BookBookmarkCurved.js');
+const BookBookmarkRounded = require('./icons/BookBookmarkRounded.js');
+const BookInfo = require('./icons/BookInfo.js');
+const BookOpenInfoCurved = require('./icons/BookOpenInfoCurved.js');
+const BookInfoRounded = require('./icons/BookInfoRounded.js');
+const BookInfoThick = require('./icons/BookInfoThick.js');
+const NotebookInfo = require('./icons/NotebookInfo.js');
+const BookOpenInfo = require('./icons/BookOpenInfo.js');
+const BookInfoTilted = require('./icons/BookInfoTilted.js');
 const BookOpenBookmark = require('./icons/BookOpenBookmark.js');
 const Bookmark = require('./icons/Bookmark.js');
-const BookmarkCheck1 = require('./icons/BookmarkCheck1.js');
-const BookmarkCheck2 = require('./icons/BookmarkCheck2.js');
-const BookmarkCircleCheck = require('./icons/BookmarkCircleCheck.js');
-const BookmarkCircleDots = require('./icons/BookmarkCircleDots.js');
-const BookmarkLargeCheck = require('./icons/BookmarkLargeCheck.js');
-const BookmarkLargeDots = require('./icons/BookmarkLargeDots.js');
-const BookmarkCircleLargeRemove = require('./icons/BookmarkCircleLargeRemove.js');
-const BookmarkCircleLargeAdd = require('./icons/BookmarkCircleLargeAdd.js');
-const BookmarkCircleLargeClose = require('./icons/BookmarkCircleLargeClose.js');
-const BookmarkCircleRemove = require('./icons/BookmarkCircleRemove.js');
-const BookmarkCircleAdd = require('./icons/BookmarkCircleAdd.js');
-const BookmarkCircleClose = require('./icons/BookmarkCircleClose.js');
-const BookmarkCircled = require('./icons/BookmarkCircled.js');
+const BookmarkCheckCorner = require('./icons/BookmarkCheckCorner.js');
+const BookmarkCheck = require('./icons/BookmarkCheck.js');
+const BookmarkCheckCircle = require('./icons/BookmarkCheckCircle.js');
+const BookmarkDotsCircle = require('./icons/BookmarkDotsCircle.js');
+const BookmarkCheckCircleLarge = require('./icons/BookmarkCheckCircleLarge.js');
+const BookmarkDotsCircleLarge = require('./icons/BookmarkDotsCircleLarge.js');
+const BookmarkMinusCircleLarge = require('./icons/BookmarkMinusCircleLarge.js');
+const BookmarkPlusCircleLarge = require('./icons/BookmarkPlusCircleLarge.js');
+const BookmarkXCircleLarge = require('./icons/BookmarkXCircleLarge.js');
+const BookmarkMinusCircle = require('./icons/BookmarkMinusCircle.js');
+const BookmarkPlusCircle = require('./icons/BookmarkPlusCircle.js');
+const BookmarkXCircle = require('./icons/BookmarkXCircle.js');
+const BookmarkCircle = require('./icons/BookmarkCircle.js');
 const BookmarkDots = require('./icons/BookmarkDots.js');
-const BookmarkDotsFilled = require('./icons/BookmarkDotsFilled.js');
-const BookmarkStar = require('./icons/BookmarkStar.js');
-const Bookmark1Folded = require('./icons/Bookmark1Folded.js');
-const Bookmark1FoldedAlt = require('./icons/Bookmark1FoldedAlt.js');
-const Bookmark1FoldedCheck = require('./icons/Bookmark1FoldedCheck.js');
-const Bookmark1FoldedRemove = require('./icons/Bookmark1FoldedRemove.js');
-const Bookmark1FoldedAdd = require('./icons/Bookmark1FoldedAdd.js');
-const Bookmark1FoldedStar = require('./icons/Bookmark1FoldedStar.js');
-const Bookmark1FoldedClose = require('./icons/Bookmark1FoldedClose.js');
-const Bookmark1Heart = require('./icons/Bookmark1Heart.js');
-const Bookmark1HeartAlt = require('./icons/Bookmark1HeartAlt.js');
-const Bookmark1Remove = require('./icons/Bookmark1Remove.js');
+const BookmarkDotted = require('./icons/BookmarkDotted.js');
+const BookmarkStarCorner = require('./icons/BookmarkStarCorner.js');
+const BookmarkRolled = require('./icons/BookmarkRolled.js');
+const BookmarkFolded = require('./icons/BookmarkFolded.js');
+const BookmarkCheckRolled = require('./icons/BookmarkCheckRolled.js');
+const BookmarkMinusRolled = require('./icons/BookmarkMinusRolled.js');
+const BookmarkPlusRolled = require('./icons/BookmarkPlusRolled.js');
+const BookmarkStarRolled = require('./icons/BookmarkStarRolled.js');
+const BookmarkXRolled = require('./icons/BookmarkXRolled.js');
+const BookmarkHeartRound = require('./icons/BookmarkHeartRound.js');
+const BookmarkHeart = require('./icons/BookmarkHeart.js');
+const BookmarkMinusCorner = require('./icons/BookmarkMinusCorner.js');
 const BookmarkMinus = require('./icons/BookmarkMinus.js');
+const BookmarkOneCorner = require('./icons/BookmarkOneCorner.js');
+const BookmarkThreeCorner = require('./icons/BookmarkThreeCorner.js');
+const BookmarkTwoCorner = require('./icons/BookmarkTwoCorner.js');
 const BookmarkOne = require('./icons/BookmarkOne.js');
+const BookmarkPage = require('./icons/BookmarkPage.js');
+const BookmarkPageSquare = require('./icons/BookmarkPageSquare.js');
+const BookmarkPage2 = require('./icons/BookmarkPage2.js');
+const BookmarkPlusCorner = require('./icons/BookmarkPlusCorner.js');
+const BookmarkPlus = require('./icons/BookmarkPlus.js');
+const BookmarkSearch = require('./icons/BookmarkSearch.js');
+const BookmarkOff = require('./icons/BookmarkOff.js');
+const BookmarkSquare = require('./icons/BookmarkSquare.js');
+const BookmarkStarLarge = require('./icons/BookmarkStarLarge.js');
+const BookmarkStar = require('./icons/BookmarkStar.js');
+const BookmarkStarRound = require('./icons/BookmarkStarRound.js');
+const BookmarkStripe = require('./icons/BookmarkStripe.js');
+const BookmarkStriped = require('./icons/BookmarkStriped.js');
 const BookmarkThree = require('./icons/BookmarkThree.js');
 const BookmarkTwo = require('./icons/BookmarkTwo.js');
-const BookmarkNumberOne = require('./icons/BookmarkNumberOne.js');
-const BookmarkPage = require('./icons/BookmarkPage.js');
-const BookmarkPageTwo = require('./icons/BookmarkPageTwo.js');
-const BookmarkPageThree = require('./icons/BookmarkPageThree.js');
-const BookmarkPlus = require('./icons/BookmarkPlus.js');
-const BookmarkPlusTwo = require('./icons/BookmarkPlusTwo.js');
-const BookmarkSearch = require('./icons/BookmarkSearch.js');
-const BookmarkSlash = require('./icons/BookmarkSlash.js');
-const BookmarkSquared = require('./icons/BookmarkSquared.js');
-const BookmarkStar4 = require('./icons/BookmarkStar4.js');
-const BookmarkStar2 = require('./icons/BookmarkStar2.js');
-const BookmarkStar3 = require('./icons/BookmarkStar3.js');
-const BookmarkStripe = require('./icons/BookmarkStripe.js');
-const BookmarkStripes = require('./icons/BookmarkStripes.js');
-const BookmarkThree2 = require('./icons/BookmarkThree2.js');
-const BookmarkTwo2 = require('./icons/BookmarkTwo2.js');
-const BookmarkTwoStripes = require('./icons/BookmarkTwoStripes.js');
+const BookmarkStripeDouble = require('./icons/BookmarkStripeDouble.js');
 const BookmarkX = require('./icons/BookmarkX.js');
-const BookmarkXClose = require('./icons/BookmarkXClose.js');
-const Bookmark2 = require('./icons/Bookmark2.js');
-const Bookmark2Check = require('./icons/Bookmark2Check.js');
-const Bookmark2Minus = require('./icons/Bookmark2Minus.js');
-const BookmarkOne2 = require('./icons/BookmarkOne2.js');
-const Bookmark2Plus = require('./icons/Bookmark2Plus.js');
-const Bookmark2Slash = require('./icons/Bookmark2Slash.js');
-const BookmarkThree3 = require('./icons/BookmarkThree3.js');
-const Bookmark2Copy = require('./icons/Bookmark2Copy.js');
-const Bookmark2Close = require('./icons/Bookmark2Close.js');
-const Bookmark3 = require('./icons/Bookmark3.js');
-const Bookmark3Check = require('./icons/Bookmark3Check.js');
-const Bookmark3Minus = require('./icons/Bookmark3Minus.js');
-const Bookmark3One = require('./icons/Bookmark3One.js');
-const Bookmark3Plus = require('./icons/Bookmark3Plus.js');
-const Bookmark3Slash = require('./icons/Bookmark3Slash.js');
-const Bookmark3Three = require('./icons/Bookmark3Three.js');
-const Bookmark3Two = require('./icons/Bookmark3Two.js');
-const Bookmark3Close = require('./icons/Bookmark3Close.js');
-const Bookmarks1 = require('./icons/Bookmarks1.js');
-const BookmarksCheck = require('./icons/BookmarksCheck.js');
-const BookmarksMinus = require('./icons/BookmarksMinus.js');
-const BookmarksPlus = require('./icons/BookmarksPlus.js');
-const BookmarksX = require('./icons/BookmarksX.js');
-const Bookmarks2 = require('./icons/Bookmarks2.js');
-const Bookmarks2Check = require('./icons/Bookmarks2Check.js');
-const Bookmarks2Minus = require('./icons/Bookmarks2Minus.js');
-const Bookmarks2Plus = require('./icons/Bookmarks2Plus.js');
-const Bookmarks2X = require('./icons/Bookmarks2X.js');
-const BookmarksCollection = require('./icons/BookmarksCollection.js');
+const BookmarkXCorner = require('./icons/BookmarkXCorner.js');
+const BookmarkCurl = require('./icons/BookmarkCurl.js');
+const BookmarkCheckCurl = require('./icons/BookmarkCheckCurl.js');
+const BookmarkMinusCurl = require('./icons/BookmarkMinusCurl.js');
+const BookmarkOneCurl = require('./icons/BookmarkOneCurl.js');
+const BookmarkPlusCurl = require('./icons/BookmarkPlusCurl.js');
+const BookmarkOffCurl = require('./icons/BookmarkOffCurl.js');
+const BookmarkThreeCurl = require('./icons/BookmarkThreeCurl.js');
+const BookmarkTwoCurl = require('./icons/BookmarkTwoCurl.js');
+const BookmarkXCurl = require('./icons/BookmarkXCurl.js');
+const BookmarkRound = require('./icons/BookmarkRound.js');
+const BookmarkCheckRound = require('./icons/BookmarkCheckRound.js');
+const BookmarkMinusRound = require('./icons/BookmarkMinusRound.js');
+const BookmarkOneRound = require('./icons/BookmarkOneRound.js');
+const BookmarkPlusRound = require('./icons/BookmarkPlusRound.js');
+const BookmarkOffRound = require('./icons/BookmarkOffRound.js');
+const BookmarkThreeRound = require('./icons/BookmarkThreeRound.js');
+const BookmarkTwoRound = require('./icons/BookmarkTwoRound.js');
+const BookmarkXRound = require('./icons/BookmarkXRound.js');
+const BookmarkStack = require('./icons/BookmarkStack.js');
+const BookmarkStackCheck = require('./icons/BookmarkStackCheck.js');
+const BookmarkStackMinus = require('./icons/BookmarkStackMinus.js');
+const BookmarkStackPlus = require('./icons/BookmarkStackPlus.js');
+const BookmarkStackX = require('./icons/BookmarkStackX.js');
+const BookmarkStackEdge = require('./icons/BookmarkStackEdge.js');
+const BookmarkStackCheckEdge = require('./icons/BookmarkStackCheckEdge.js');
+const BookmarkStackMinusEdge = require('./icons/BookmarkStackMinusEdge.js');
+const BookmarkStackPlusEdge = require('./icons/BookmarkStackPlusEdge.js');
+const BookmarkStackXEdge = require('./icons/BookmarkStackXEdge.js');
+const BookmarkStackTop = require('./icons/BookmarkStackTop.js');
+const BoxLidClasp = require('./icons/BoxLidClasp.js');
+const BoxLid = require('./icons/BoxLid.js');
+const BoxLidSlot = require('./icons/BoxLidSlot.js');
+const BoxFrontSlot = require('./icons/BoxFrontSlot.js');
+const BoxFront = require('./icons/BoxFront.js');
+const BoxTape = require('./icons/BoxTape.js');
+const BoxTapeTorn = require('./icons/BoxTapeTorn.js');
+const BoxTapeLabel = require('./icons/BoxTapeLabel.js');
+const BoxTapeArrowUp = require('./icons/BoxTapeArrowUp.js');
+const BoxPerspective = require('./icons/BoxPerspective.js');
+const BoxPerspectiveShaded = require('./icons/BoxPerspectiveShaded.js');
+const BoxOpen = require('./icons/BoxOpen.js');
+const BoxOpenPerspective = require('./icons/BoxOpenPerspective.js');
+const BoxPlain = require('./icons/BoxPlain.js');
 const Box = require('./icons/Box.js');
-const Box1 = require('./icons/Box1.js');
-const Box2 = require('./icons/Box2.js');
-const Box3 = require('./icons/Box3.js');
-const Box4 = require('./icons/Box4.js');
-const Box5 = require('./icons/Box5.js');
-const Box6 = require('./icons/Box6.js');
-const Box7 = require('./icons/Box7.js');
-const Box8 = require('./icons/Box8.js');
-const Box9 = require('./icons/Box9.js');
-const Box10 = require('./icons/Box10.js');
-const Box11 = require('./icons/Box11.js');
-const Box12 = require('./icons/Box12.js');
-const Box13 = require('./icons/Box13.js');
-const Box14 = require('./icons/Box14.js');
-const Box15 = require('./icons/Box15.js');
-const Box16 = require('./icons/Box16.js');
-const Box17 = require('./icons/Box17.js');
-const Briefcase10 = require('./icons/Briefcase10.js');
+const BoxLabel = require('./icons/BoxLabel.js');
+const BoxOpenSpread = require('./icons/BoxOpenSpread.js');
+const BoxOpenRaised = require('./icons/BoxOpenRaised.js');
 const Briefcase = require('./icons/Briefcase.js');
-const Briefcase2 = require('./icons/Briefcase2.js');
-const Briefcase3 = require('./icons/Briefcase3.js');
-const Briefcase4 = require('./icons/Briefcase4.js');
-const Briefcase5 = require('./icons/Briefcase5.js');
-const Briefcase6 = require('./icons/Briefcase6.js');
-const Briefcase7 = require('./icons/Briefcase7.js');
-const Briefcase8 = require('./icons/Briefcase8.js');
-const Briefcase9 = require('./icons/Briefcase9.js');
-const BriefcaseOpen = require('./icons/BriefcaseOpen.js');
-const BriefcaseFilled = require('./icons/BriefcaseFilled.js');
-const BriefcaseCheck = require('./icons/BriefcaseCheck.js');
-const BriefcaseDocument = require('./icons/BriefcaseDocument.js');
-const BriefcaseRemove = require('./icons/BriefcaseRemove.js');
-const BriefcaseSearch = require('./icons/BriefcaseSearch.js');
-const BriefcasePlus = require('./icons/BriefcasePlus.js');
-const BriefcaseClose = require('./icons/BriefcaseClose.js');
-const BrowserWindow1 = require('./icons/BrowserWindow1.js');
-const BrowserWindow2 = require('./icons/BrowserWindow2.js');
-const BrowserWindowDownload1 = require('./icons/BrowserWindowDownload1.js');
-const BrowserWindowDownload2 = require('./icons/BrowserWindowDownload2.js');
-const BrowserWindowArrowIn = require('./icons/BrowserWindowArrowIn.js');
-const BrowserWindowUpload1 = require('./icons/BrowserWindowUpload1.js');
-const BrowserWindowUpload2 = require('./icons/BrowserWindowUpload2.js');
-const BrowserWindowBulbCta1 = require('./icons/BrowserWindowBulbCta1.js');
-const BrowserWindowBulbCta2 = require('./icons/BrowserWindowBulbCta2.js');
-const BrowserWindowFlashlight1 = require('./icons/BrowserWindowFlashlight1.js');
-const BrowserWindowFlashlight2 = require('./icons/BrowserWindowFlashlight2.js');
-const BrowserWindowForbidden1 = require('./icons/BrowserWindowForbidden1.js');
-const BrowserWindowForbidden = require('./icons/BrowserWindowForbidden.js');
-const BrowserWindowDenied = require('./icons/BrowserWindowDenied.js');
-const BrowserWindowGlobe = require('./icons/BrowserWindowGlobe.js');
-const BrowserWindowConnection = require('./icons/BrowserWindowConnection.js');
-const BrowserWindowInternet = require('./icons/BrowserWindowInternet.js');
-const BrowserWindowWeb = require('./icons/BrowserWindowWeb.js');
-const BrowserWindowSpeed = require('./icons/BrowserWindowSpeed.js');
-const BrowserWindowFast = require('./icons/BrowserWindowFast.js');
-const BrowserWindowRabbit = require('./icons/BrowserWindowRabbit.js');
-const BrowserWindowLevels = require('./icons/BrowserWindowLevels.js');
-const BrowserWindowSettings = require('./icons/BrowserWindowSettings.js');
-const BrowserWindowAnnouncement = require('./icons/BrowserWindowAnnouncement.js');
-const BrowserWindowAnnounce1 = require('./icons/BrowserWindowAnnounce1.js');
-const BrowserWindowLaunch = require('./icons/BrowserWindowLaunch.js');
-const BrowserWindowLaunch2 = require('./icons/BrowserWindowLaunch2.js');
-const BrowserWindowRestrictions = require('./icons/BrowserWindowRestrictions.js');
-const BrowserWindowRestrictions2 = require('./icons/BrowserWindowRestrictions2.js');
-const BrowserWindowSquare = require('./icons/BrowserWindowSquare.js');
-const BrowserWindowWeb2 = require('./icons/BrowserWindowWeb2.js');
-const BrowserWindowSidebar = require('./icons/BrowserWindowSidebar.js');
-const BulbIdea2 = require('./icons/BulbIdea2.js');
-const BulbIdea = require('./icons/BulbIdea.js');
-const Bulb2 = require('./icons/Bulb2.js');
-const Bulb3 = require('./icons/Bulb3.js');
-const Bulb4 = require('./icons/Bulb4.js');
-const Bulb5 = require('./icons/Bulb5.js');
-const Bulb6 = require('./icons/Bulb6.js');
-const Bulb7 = require('./icons/Bulb7.js');
-const Bulb8 = require('./icons/Bulb8.js');
-const Bulb9 = require('./icons/Bulb9.js');
-const Bulb10 = require('./icons/Bulb10.js');
-const Bulb11 = require('./icons/Bulb11.js');
-const Bulb12 = require('./icons/Bulb12.js');
-const Bulb13 = require('./icons/Bulb13.js');
-const Bulb14 = require('./icons/Bulb14.js');
-const Bulb15 = require('./icons/Bulb15.js');
-const Bulb16 = require('./icons/Bulb16.js');
-const Bulb17 = require('./icons/Bulb17.js');
-const Bulb18 = require('./icons/Bulb18.js');
-const Bulb19 = require('./icons/Bulb19.js');
-const Bulb20 = require('./icons/Bulb20.js');
-const Bulb21 = require('./icons/Bulb21.js');
-const ButtonBubble1 = require('./icons/ButtonBubble1.js');
-const ButtonBubble2 = require('./icons/ButtonBubble2.js');
-const ButtonBubble3 = require('./icons/ButtonBubble3.js');
-const ButtonCursor1 = require('./icons/ButtonCursor1.js');
-const ButtonCursor2 = require('./icons/ButtonCursor2.js');
-const ButtonDotted1 = require('./icons/ButtonDotted1.js');
-const ButtonDotted2 = require('./icons/ButtonDotted2.js');
-const ButtonDotted3 = require('./icons/ButtonDotted3.js');
-const ButtonLined1 = require('./icons/ButtonLined1.js');
-const ButtonLined2 = require('./icons/ButtonLined2.js');
-const ButtonPointer = require('./icons/ButtonPointer.js');
-const CapsLockOffArrowUp = require('./icons/CapsLockOffArrowUp.js');
-const CapsLockOffArrowUp2 = require('./icons/CapsLockOffArrowUp2.js');
-const CapsLockOnArrowUp = require('./icons/CapsLockOnArrowUp.js');
-const CapsLockOnArrowUp2 = require('./icons/CapsLockOnArrowUp2.js');
-const CartSquare = require('./icons/CartSquare.js');
-const Cast1 = require('./icons/Cast1.js');
-const Cast2 = require('./icons/Cast2.js');
-const ChartArrowUpCircle = require('./icons/ChartArrowUpCircle.js');
-const ChartArrowUpCircleArrowIn = require('./icons/ChartArrowUpCircleArrowIn.js');
-const ChartArrowUpCircleCheck = require('./icons/ChartArrowUpCircleCheck.js');
-const ChartArrowUpCircleMinus = require('./icons/ChartArrowUpCircleMinus.js');
-const ChartArrowUpCirclePlus = require('./icons/ChartArrowUpCirclePlus.js');
-const ChartArrowUpCircleX = require('./icons/ChartArrowUpCircleX.js');
-const ChartArrowUpRectangle = require('./icons/ChartArrowUpRectangle.js');
-const ChartArrowUpRectangleArrowIn = require('./icons/ChartArrowUpRectangleArrowIn.js');
-const ChartArrowUpRectangleCheck = require('./icons/ChartArrowUpRectangleCheck.js');
-const ChartArrowUpRectangleMinus = require('./icons/ChartArrowUpRectangleMinus.js');
-const ChartArrowUpRectanglePlus = require('./icons/ChartArrowUpRectanglePlus.js');
-const ChartArrowUpRectangleDot = require('./icons/ChartArrowUpRectangleDot.js');
-const ChartArrowUpRectangleX = require('./icons/ChartArrowUpRectangleX.js');
-const ChartCandlestick1 = require('./icons/ChartCandlestick1.js');
+const BriefcaseHandleLong = require('./icons/BriefcaseHandleLong.js');
+const BriefcaseFlap = require('./icons/BriefcaseFlap.js');
+const BriefcaseFlapFlat = require('./icons/BriefcaseFlapFlat.js');
+const BriefcaseBeltBroken = require('./icons/BriefcaseBeltBroken.js');
+const BriefcaseBeltSlot = require('./icons/BriefcaseBeltSlot.js');
+const BriefcaseFlapClasp = require('./icons/BriefcaseFlapClasp.js');
+const BriefcaseBeltClasps = require('./icons/BriefcaseBeltClasps.js');
+const BriefcaseKeyhole = require('./icons/BriefcaseKeyhole.js');
+const BriefcaseFlapCurve = require('./icons/BriefcaseFlapCurve.js');
+const BriefcaseFlapWide = require('./icons/BriefcaseFlapWide.js');
+const BriefcaseBelt = require('./icons/BriefcaseBelt.js');
+const BriefcaseStraps = require('./icons/BriefcaseStraps.js');
+const BriefcaseStriped = require('./icons/BriefcaseStriped.js');
+const BriefcaseCorners = require('./icons/BriefcaseCorners.js');
+const BriefcaseSatchel = require('./icons/BriefcaseSatchel.js');
+const BriefcaseSide = require('./icons/BriefcaseSide.js');
+const BriefcasePocket = require('./icons/BriefcasePocket.js');
+const Browser = require('./icons/Browser.js');
+const WindowPlain2 = require('./icons/WindowPlain2.js');
+const BrowserDownload = require('./icons/BrowserDownload.js');
+const WindowDownloadCenterPlain = require('./icons/WindowDownloadCenterPlain.js');
+const BrowserArrowUpRight = require('./icons/BrowserArrowUpRight.js');
+const BrowserUpload = require('./icons/BrowserUpload.js');
+const WindowUploadPlain = require('./icons/WindowUploadPlain.js');
+const BrowserLightbulb = require('./icons/BrowserLightbulb.js');
+const BrowserSunBare = require('./icons/BrowserSunBare.js');
+const BrowserFlashlightOn = require('./icons/BrowserFlashlightOn.js');
+const BrowserFlashlight = require('./icons/BrowserFlashlight.js');
+const BrowserBan = require('./icons/BrowserBan.js');
+const BrowserBanBare = require('./icons/BrowserBanBare.js');
+const WindowBanPlain = require('./icons/WindowBanPlain.js');
+const BrowserGlobeMap = require('./icons/BrowserGlobeMap.js');
+const BrowserGlobe = require('./icons/BrowserGlobe.js');
+const WindowGlobeMapPlain = require('./icons/WindowGlobeMapPlain.js');
+const WindowGlobePlain = require('./icons/WindowGlobePlain.js');
+const BrowserFast = require('./icons/BrowserFast.js');
+const WindowFastPlain = require('./icons/WindowFastPlain.js');
+const BrowserRabbit = require('./icons/BrowserRabbit.js');
+const BrowserSliders = require('./icons/BrowserSliders.js');
+const BrowserSlidersTwo = require('./icons/BrowserSlidersTwo.js');
+const BrowserMegaphoneBare = require('./icons/BrowserMegaphoneBare.js');
+const BrowserMegaphone = require('./icons/BrowserMegaphone.js');
+const BrowserRocket = require('./icons/BrowserRocket.js');
+const WindowRocketPlain = require('./icons/WindowRocketPlain.js');
+const BrowserTrafficLight = require('./icons/BrowserTrafficLight.js');
+const WindowTrafficLightPlain = require('./icons/WindowTrafficLightPlain.js');
+const WindowSquare = require('./icons/WindowSquare.js');
+const BrowserContent = require('./icons/BrowserContent.js');
+const BrowserSidebar = require('./icons/BrowserSidebar.js');
+const Lightbulb = require('./icons/Lightbulb.js');
+const LightbulbShine = require('./icons/LightbulbShine.js');
+const LightbulbFilament = require('./icons/LightbulbFilament.js');
+const LightbulbBolt = require('./icons/LightbulbBolt.js');
+const LightbulbRound = require('./icons/LightbulbRound.js');
+const LightbulbShineRound = require('./icons/LightbulbShineRound.js');
+const LightbulbFilamentAngledRound = require('./icons/LightbulbFilamentAngledRound.js');
+const LightbulbFilamentWavyRound = require('./icons/LightbulbFilamentWavyRound.js');
+const LightbulbFilamentZigzagRound = require('./icons/LightbulbFilamentZigzagRound.js');
+const LightbulbFilamentAngledRound2 = require('./icons/LightbulbFilamentAngledRound2.js');
+const LightbulbBoltRound = require('./icons/LightbulbBoltRound.js');
+const LightbulbCap = require('./icons/LightbulbCap.js');
+const LightbulbShineCap = require('./icons/LightbulbShineCap.js');
+const LightbulbFilamentCap = require('./icons/LightbulbFilamentCap.js');
+const LightbulbBoltCap = require('./icons/LightbulbBoltCap.js');
+const LightbulbScrew = require('./icons/LightbulbScrew.js');
+const LightbulbShineScrew = require('./icons/LightbulbShineScrew.js');
+const LightbulbFilamentWavyScrew = require('./icons/LightbulbFilamentWavyScrew.js');
+const LightbulbRays = require('./icons/LightbulbRays.js');
+const LightbulbRaysSlim = require('./icons/LightbulbRaysSlim.js');
+const LightbulbRaysWide = require('./icons/LightbulbRaysWide.js');
+const LightbulbRaysCap = require('./icons/LightbulbRaysCap.js');
+const ButtonPillBar = require('./icons/ButtonPillBar.js');
+const ButtonPillRaised = require('./icons/ButtonPillRaised.js');
+const ButtonPill = require('./icons/ButtonPill.js');
+const ButtonPillCursor = require('./icons/ButtonPillCursor.js');
+const ButtonCursor = require('./icons/ButtonCursor.js');
+const ButtonDots = require('./icons/ButtonDots.js');
+const ButtonDotsTall = require('./icons/ButtonDotsTall.js');
+const ButtonPillDots = require('./icons/ButtonPillDots.js');
+const ButtonScribble = require('./icons/ButtonScribble.js');
+const ButtonPillScribble = require('./icons/ButtonPillScribble.js');
+const ButtonPillHand = require('./icons/ButtonPillHand.js');
+const CapsLockOff = require('./icons/CapsLockOff.js');
+const CapsLockOffFlat = require('./icons/CapsLockOffFlat.js');
+const CapsLock = require('./icons/CapsLock.js');
+const CapsLockFlat = require('./icons/CapsLockFlat.js');
+const ChartLineSquareWide = require('./icons/ChartLineSquareWide.js');
+const Cast = require('./icons/Cast.js');
+const CastRound = require('./icons/CastRound.js');
+const ChartTrendUpCircle = require('./icons/ChartTrendUpCircle.js');
+const ChartTrendUpCircleArrowRight = require('./icons/ChartTrendUpCircleArrowRight.js');
+const ChartTrendUpCircleCheck = require('./icons/ChartTrendUpCircleCheck.js');
+const ChartTrendUpCircleMinus = require('./icons/ChartTrendUpCircleMinus.js');
+const ChartTrendUpCirclePlus = require('./icons/ChartTrendUpCirclePlus.js');
+const ChartTrendUpCircleX = require('./icons/ChartTrendUpCircleX.js');
+const ChartTrendUpSquare = require('./icons/ChartTrendUpSquare.js');
+const ChartTrendUpSquareArrowRight = require('./icons/ChartTrendUpSquareArrowRight.js');
+const ChartTrendUpSquareCheck = require('./icons/ChartTrendUpSquareCheck.js');
+const ChartTrendUpSquareMinus = require('./icons/ChartTrendUpSquareMinus.js');
+const ChartTrendUpSquarePlus = require('./icons/ChartTrendUpSquarePlus.js');
+const ChartTrendUpSquareDot = require('./icons/ChartTrendUpSquareDot.js');
+const ChartTrendUpSquareX = require('./icons/ChartTrendUpSquareX.js');
+const ChartCandlestick = require('./icons/ChartCandlestick.js');
 const ChartCandlestick2 = require('./icons/ChartCandlestick2.js');
-const ChartDoughnutStorage = require('./icons/ChartDoughnutStorage.js');
-const ChartDoughnutStorageStripes = require('./icons/ChartDoughnutStorageStripes.js');
-const ChartHorizontalBars1 = require('./icons/ChartHorizontalBars1.js');
-const ChartHorizontalBars2 = require('./icons/ChartHorizontalBars2.js');
-const ChartHorizontalBars3 = require('./icons/ChartHorizontalBars3.js');
-const ChartHorizontalBars4 = require('./icons/ChartHorizontalBars4.js');
-const ChartLineIncrease1 = require('./icons/ChartLineIncrease1.js');
-const ChartLineIncrease2 = require('./icons/ChartLineIncrease2.js');
+const ChartDonut = require('./icons/ChartDonut.js');
+const ChartDonutStriped = require('./icons/ChartDonutStriped.js');
+const ChartBarHorizontal = require('./icons/ChartBarHorizontal.js');
+const ChartBarHorizontalAxis = require('./icons/ChartBarHorizontalAxis.js');
+const ChartBarHorizontalPeak = require('./icons/ChartBarHorizontalPeak.js');
+const ChartBarHorizontalPeakAxis = require('./icons/ChartBarHorizontalPeakAxis.js');
+const ChartTrendUpAxis = require('./icons/ChartTrendUpAxis.js');
+const ChartTrendUp = require('./icons/ChartTrendUp.js');
+const ChartLineWideCircle = require('./icons/ChartLineWideCircle.js');
 const ChartLineCircle = require('./icons/ChartLineCircle.js');
-const ChartLineCircle2 = require('./icons/ChartLineCircle2.js');
-const ChartLineCircle2ArrowIn = require('./icons/ChartLineCircle2ArrowIn.js');
-const ChartLineCircle2Check = require('./icons/ChartLineCircle2Check.js');
-const ChartLineCircle2X = require('./icons/ChartLineCircle2X.js');
-const ChartLineCircle3 = require('./icons/ChartLineCircle3.js');
-const ChartLineCircle3ArrowIn = require('./icons/ChartLineCircle3ArrowIn.js');
-const ChartLineCircle3Check = require('./icons/ChartLineCircle3Check.js');
-const ChartLineCircle3Minus = require('./icons/ChartLineCircle3Minus.js');
-const ChartLineCircle3Plus = require('./icons/ChartLineCircle3Plus.js');
-const ChartLineCircle3X = require('./icons/ChartLineCircle3X.js');
+const ChartLineCircleArrowRight = require('./icons/ChartLineCircleArrowRight.js');
+const ChartLineCircleCheck = require('./icons/ChartLineCircleCheck.js');
+const ChartLineCircleX = require('./icons/ChartLineCircleX.js');
+const ChartLinePeakCircle = require('./icons/ChartLinePeakCircle.js');
+const ChartLinePeakCircleArrowRight = require('./icons/ChartLinePeakCircleArrowRight.js');
+const ChartLinePeakCircleCheck = require('./icons/ChartLinePeakCircleCheck.js');
+const ChartLinePeakCircleMinus = require('./icons/ChartLinePeakCircleMinus.js');
+const ChartLinePeakCirclePlus = require('./icons/ChartLinePeakCirclePlus.js');
+const ChartLinePeakCircleX = require('./icons/ChartLinePeakCircleX.js');
 const ChartLineCircleDotted = require('./icons/ChartLineCircleDotted.js');
-const ChartLineDecrease1 = require('./icons/ChartLineDecrease1.js');
-const ChartLineDecrease2 = require('./icons/ChartLineDecrease2.js');
-const ChartLineRising = require('./icons/ChartLineRising.js');
-const ChartLineVolatile = require('./icons/ChartLineVolatile.js');
-const ChartLineOscillate1 = require('./icons/ChartLineOscillate1.js');
-const ChartLineOscillate2 = require('./icons/ChartLineOscillate2.js');
-const ChartLineSquare2 = require('./icons/ChartLineSquare2.js');
-const ChartLineSquare2ArrowIn = require('./icons/ChartLineSquare2ArrowIn.js');
-const ChartLineSquare2Check = require('./icons/ChartLineSquare2Check.js');
-const ChartLineSquare2Minus = require('./icons/ChartLineSquare2Minus.js');
-const ChartLineSquare2Plus = require('./icons/ChartLineSquare2Plus.js');
-const ChartLineSquare2Dot = require('./icons/ChartLineSquare2Dot.js');
-const ChartLineSquare2X = require('./icons/ChartLineSquare2X.js');
-const ChartLineSquare3 = require('./icons/ChartLineSquare3.js');
-const ChartLineSquare3ArrowIn = require('./icons/ChartLineSquare3ArrowIn.js');
-const ChartLineSquare3Check = require('./icons/ChartLineSquare3Check.js');
-const ChartLineSquare3Minus = require('./icons/ChartLineSquare3Minus.js');
-const ChartLineSquare3Plus = require('./icons/ChartLineSquare3Plus.js');
-const ChartLineSquare3Dot = require('./icons/ChartLineSquare3Dot.js');
-const ChartLineSquare3X = require('./icons/ChartLineSquare3X.js');
-const ChartPie1 = require('./icons/ChartPie1.js');
+const ChartLineDownAxis = require('./icons/ChartLineDownAxis.js');
+const ChartLineDownAxisJagged = require('./icons/ChartLineDownAxisJagged.js');
+const ChartLineUpAxis = require('./icons/ChartLineUpAxis.js');
+const ChartLineUpAxisJagged = require('./icons/ChartLineUpAxisJagged.js');
+const ChartLinePeakAxis = require('./icons/ChartLinePeakAxis.js');
+const ChartLinePeak = require('./icons/ChartLinePeak.js');
+const ChartLineSquare = require('./icons/ChartLineSquare.js');
+const ChartLineSquareArrowRight = require('./icons/ChartLineSquareArrowRight.js');
+const ChartLineSquareCheck = require('./icons/ChartLineSquareCheck.js');
+const ChartLineSquareMinus = require('./icons/ChartLineSquareMinus.js');
+const ChartLineSquarePlus = require('./icons/ChartLineSquarePlus.js');
+const ChartLineSquareDot = require('./icons/ChartLineSquareDot.js');
+const ChartLineSquareX = require('./icons/ChartLineSquareX.js');
+const ChartLinePeakSquare = require('./icons/ChartLinePeakSquare.js');
+const ChartLinePeakSquareArrowRight = require('./icons/ChartLinePeakSquareArrowRight.js');
+const ChartLinePeakSquareCheck = require('./icons/ChartLinePeakSquareCheck.js');
+const ChartLinePeakSquareMinus = require('./icons/ChartLinePeakSquareMinus.js');
+const ChartLinePeakSquarePlus = require('./icons/ChartLinePeakSquarePlus.js');
+const ChartLinePeakSquareDot = require('./icons/ChartLinePeakSquareDot.js');
+const ChartLinePeakSquareX = require('./icons/ChartLinePeakSquareX.js');
+const ChartPie = require('./icons/ChartPie.js');
 const ChartPie2 = require('./icons/ChartPie2.js');
-const ChartVerticalBarsDecrease1 = require('./icons/ChartVerticalBarsDecrease1.js');
-const ChartVerticalBarsDecrease2 = require('./icons/ChartVerticalBarsDecrease2.js');
-const ChartVerticalBarsIncrease1 = require('./icons/ChartVerticalBarsIncrease1.js');
-const ChartVerticalBarsIncrease2 = require('./icons/ChartVerticalBarsIncrease2.js');
-const ChartVerticalColumns1 = require('./icons/ChartVerticalColumns1.js');
-const ChartVerticalColumns2 = require('./icons/ChartVerticalColumns2.js');
-const ChartVerticalColumns3 = require('./icons/ChartVerticalColumns3.js');
-const ChartVerticalColumns4 = require('./icons/ChartVerticalColumns4.js');
-const ChartVerticalColumns5 = require('./icons/ChartVerticalColumns5.js');
-const ChartVerticalColumns6 = require('./icons/ChartVerticalColumns6.js');
-const ChartVerticalColumns7 = require('./icons/ChartVerticalColumns7.js');
-const ChartVerticalColumnsCircle = require('./icons/ChartVerticalColumnsCircle.js');
-const ChartVerticalColumnsCircleArrowIn = require('./icons/ChartVerticalColumnsCircleArrowIn.js');
-const ChartVerticalColumnsCircleCheck = require('./icons/ChartVerticalColumnsCircleCheck.js');
-const ChartVerticalColumnsCircleDotted = require('./icons/ChartVerticalColumnsCircleDotted.js');
-const ChartVerticalColumnsCircleX = require('./icons/ChartVerticalColumnsCircleX.js');
-const ChartVerticalColumnsLinesCircle = require('./icons/ChartVerticalColumnsLinesCircle.js');
-const ChartVerticalColumnsLinesCircleArrowIn = require('./icons/ChartVerticalColumnsLinesCircleArrowIn.js');
-const ChartVerticalColumnsLinesCircleCheck = require('./icons/ChartVerticalColumnsLinesCircleCheck.js');
-const ChartVerticalColumnsLinesCircleDotted = require('./icons/ChartVerticalColumnsLinesCircleDotted.js');
-const ChartVerticalColumnsLinesCircleMinus = require('./icons/ChartVerticalColumnsLinesCircleMinus.js');
-const ChartVerticalColumnsLinesCirclePlus = require('./icons/ChartVerticalColumnsLinesCirclePlus.js');
-const ChartVerticalColumnsLinesCircleX = require('./icons/ChartVerticalColumnsLinesCircleX.js');
-const ChartVerticalColumnsLinesSquare = require('./icons/ChartVerticalColumnsLinesSquare.js');
-const ChartVerticalColumnsLinesSquareArrowIn = require('./icons/ChartVerticalColumnsLinesSquareArrowIn.js');
-const ChartVerticalColumnsLinesSquareCheck = require('./icons/ChartVerticalColumnsLinesSquareCheck.js');
-const ChartVerticalColumnsLinesSquareMinus = require('./icons/ChartVerticalColumnsLinesSquareMinus.js');
-const ChartVerticalColumnsLinesSquareNegative1 = require('./icons/ChartVerticalColumnsLinesSquareNegative1.js');
-const ChartVerticalColumnsLinesSquareNegative2 = require('./icons/ChartVerticalColumnsLinesSquareNegative2.js');
-const ChartVerticalColumnsLinesSquarePlus = require('./icons/ChartVerticalColumnsLinesSquarePlus.js');
-const ChartVerticalColumnsLinesSquareDot = require('./icons/ChartVerticalColumnsLinesSquareDot.js');
-const ChartVerticalColumnsLinesSquareX = require('./icons/ChartVerticalColumnsLinesSquareX.js');
-const ChartVerticalColumnsRectangle = require('./icons/ChartVerticalColumnsRectangle.js');
-const ChartVerticalColumnsRectangleArrowIn = require('./icons/ChartVerticalColumnsRectangleArrowIn.js');
-const ChartVerticalColumnsRectangleCheck = require('./icons/ChartVerticalColumnsRectangleCheck.js');
-const ChartVerticalColumnsRectangleMinus = require('./icons/ChartVerticalColumnsRectangleMinus.js');
-const ChartVerticalColumnsRectangleNegative1 = require('./icons/ChartVerticalColumnsRectangleNegative1.js');
-const ChartVerticalColumnsRectangleNegative2 = require('./icons/ChartVerticalColumnsRectangleNegative2.js');
-const ChartVerticalColumnsRectanglePlus = require('./icons/ChartVerticalColumnsRectanglePlus.js');
-const ChartVerticalColumnsRectangleDot = require('./icons/ChartVerticalColumnsRectangleDot.js');
-const ChartVerticalColumnsRectangleX = require('./icons/ChartVerticalColumnsRectangleX.js');
-const ChartVerticalLinesColumns1 = require('./icons/ChartVerticalLinesColumns1.js');
-const ChartVerticalLinesColumns2 = require('./icons/ChartVerticalLinesColumns2.js');
-const ChartVerticalLinesColumns3 = require('./icons/ChartVerticalLinesColumns3.js');
-const ChartVerticalLinesColumns4 = require('./icons/ChartVerticalLinesColumns4.js');
-const ChartVerticalBarsArrowHorizontal1 = require('./icons/ChartVerticalBarsArrowHorizontal1.js');
-const ChartVerticalBarsArrowHorizontal2 = require('./icons/ChartVerticalBarsArrowHorizontal2.js');
-const CheckMark1 = require('./icons/CheckMark1.js');
-const CheckMark2 = require('./icons/CheckMark2.js');
-const CheckMark3 = require('./icons/CheckMark3.js');
-const CheckMark4 = require('./icons/CheckMark4.js');
-const CheckMarkDouble1 = require('./icons/CheckMarkDouble1.js');
-const CheckMarkDouble2 = require('./icons/CheckMarkDouble2.js');
-const CheckMarkDouble3 = require('./icons/CheckMarkDouble3.js');
-const CheckMarkDoubleSquare = require('./icons/CheckMarkDoubleSquare.js');
-const CheckMarkGeometric = require('./icons/CheckMarkGeometric.js');
-const CheckMarkHandwritten = require('./icons/CheckMarkHandwritten.js');
-const CheckMarkOrganic = require('./icons/CheckMarkOrganic.js');
-const CheckboxCircle1 = require('./icons/CheckboxCircle1.js');
-const CheckboxCircle2 = require('./icons/CheckboxCircle2.js');
-const CheckboxCircle3 = require('./icons/CheckboxCircle3.js');
-const CheckboxCircle4 = require('./icons/CheckboxCircle4.js');
-const CheckboxCircle5 = require('./icons/CheckboxCircle5.js');
-const CheckboxCircle6 = require('./icons/CheckboxCircle6.js');
-const CheckboxCheckedCircle = require('./icons/CheckboxCheckedCircle.js');
-const CheckboxSquare1 = require('./icons/CheckboxSquare1.js');
-const CheckboxSquare2 = require('./icons/CheckboxSquare2.js');
-const CheckboxSquare3 = require('./icons/CheckboxSquare3.js');
-const CheckboxSquare4 = require('./icons/CheckboxSquare4.js');
-const CheckboxDropAddCircle = require('./icons/CheckboxDropAddCircle.js');
-const CheckboxDropAddSquare1 = require('./icons/CheckboxDropAddSquare1.js');
-const CheckboxDropAddSquare2 = require('./icons/CheckboxDropAddSquare2.js');
-const CheckboxDropAddSquare3 = require('./icons/CheckboxDropAddSquare3.js');
-const CheckboxIndeterminateCircle1 = require('./icons/CheckboxIndeterminateCircle1.js');
-const CheckboxIndeterminateCircle2 = require('./icons/CheckboxIndeterminateCircle2.js');
-const CheckboxIndeterminateSquare1 = require('./icons/CheckboxIndeterminateSquare1.js');
-const CheckboxIndeterminateSquare2 = require('./icons/CheckboxIndeterminateSquare2.js');
-const CheckboxRadioSelect1 = require('./icons/CheckboxRadioSelect1.js');
-const CheckboxRadioSelect2 = require('./icons/CheckboxRadioSelect2.js');
-const CheckboxRadioSelect3 = require('./icons/CheckboxRadioSelect3.js');
-const CheckboxSquareSelect1 = require('./icons/CheckboxSquareSelect1.js');
-const CheckboxSquareSelect2 = require('./icons/CheckboxSquareSelect2.js');
-const CheckboxUncheckedCircle1 = require('./icons/CheckboxUncheckedCircle1.js');
-const CheckboxUncheckedCircle2 = require('./icons/CheckboxUncheckedCircle2.js');
-const CheckboxUncheckedSquare1 = require('./icons/CheckboxUncheckedSquare1.js');
-const CheckboxUncheckedSquare2 = require('./icons/CheckboxUncheckedSquare2.js');
+const ChartBarTrendDownThin = require('./icons/ChartBarTrendDownThin.js');
+const ChartBarArrowDownThin = require('./icons/ChartBarArrowDownThin.js');
+const ChartBarTrendUpThin = require('./icons/ChartBarTrendUpThin.js');
+const ChartBarArrowUpThin = require('./icons/ChartBarArrowUpThin.js');
+const ChartBarJoined = require('./icons/ChartBarJoined.js');
+const ChartBarJoinedBase = require('./icons/ChartBarJoinedBase.js');
+const ChartBarPeakJoined = require('./icons/ChartBarPeakJoined.js');
+const ChartBarPeakJoinedBase = require('./icons/ChartBarPeakJoinedBase.js');
+const ChartBar = require('./icons/ChartBar.js');
+const ChartBarPeak = require('./icons/ChartBarPeak.js');
+const ChartBarPeakJoinedAxis = require('./icons/ChartBarPeakJoinedAxis.js');
+const ChartBarCircle = require('./icons/ChartBarCircle.js');
+const ChartBarCircleArrowRight = require('./icons/ChartBarCircleArrowRight.js');
+const ChartBarCircleCheck = require('./icons/ChartBarCircleCheck.js');
+const ChartBarCircleDotted = require('./icons/ChartBarCircleDotted.js');
+const ChartBarCircleX = require('./icons/ChartBarCircleX.js');
+const ChartBarCircleThin = require('./icons/ChartBarCircleThin.js');
+const ChartBarCircleArrowRightThin = require('./icons/ChartBarCircleArrowRightThin.js');
+const ChartBarCircleCheckThin = require('./icons/ChartBarCircleCheckThin.js');
+const ChartBarCircleDottedThin = require('./icons/ChartBarCircleDottedThin.js');
+const ChartBarCircleMinusThin = require('./icons/ChartBarCircleMinusThin.js');
+const ChartBarCirclePlusThin = require('./icons/ChartBarCirclePlusThin.js');
+const ChartBarCircleXThin = require('./icons/ChartBarCircleXThin.js');
+const ChartBarSquareThin = require('./icons/ChartBarSquareThin.js');
+const ChartBarSquareArrowRightThin = require('./icons/ChartBarSquareArrowRightThin.js');
+const ChartBarSquareCheckThin = require('./icons/ChartBarSquareCheckThin.js');
+const ChartBarSquareMinusThin = require('./icons/ChartBarSquareMinusThin.js');
+const ChartBarDownPeakSquareThin = require('./icons/ChartBarDownPeakSquareThin.js');
+const ChartBarDownSquareThin = require('./icons/ChartBarDownSquareThin.js');
+const ChartBarSquarePlusThin = require('./icons/ChartBarSquarePlusThin.js');
+const ChartBarSquareDotThin = require('./icons/ChartBarSquareDotThin.js');
+const ChartBarSquareXThin = require('./icons/ChartBarSquareXThin.js');
+const ChartBarSquare = require('./icons/ChartBarSquare.js');
+const ChartBarSquareArrowRight = require('./icons/ChartBarSquareArrowRight.js');
+const ChartBarSquareCheck = require('./icons/ChartBarSquareCheck.js');
+const ChartBarSquareMinus = require('./icons/ChartBarSquareMinus.js');
+const ChartBarDownPeakSquare = require('./icons/ChartBarDownPeakSquare.js');
+const ChartBarDownSquare = require('./icons/ChartBarDownSquare.js');
+const ChartBarSquarePlus = require('./icons/ChartBarSquarePlus.js');
+const ChartBarSquareDot = require('./icons/ChartBarSquareDot.js');
+const ChartBarSquareX = require('./icons/ChartBarSquareX.js');
+const ChartBarThin = require('./icons/ChartBarThin.js');
+const ChartBarMixedThin = require('./icons/ChartBarMixedThin.js');
+const ChartBarMixedAxisThin = require('./icons/ChartBarMixedAxisThin.js');
+const ChartBarAxisThin = require('./icons/ChartBarAxisThin.js');
+const ChartBarArrowRightThin = require('./icons/ChartBarArrowRightThin.js');
+const ChartBarArrowRight = require('./icons/ChartBarArrowRight.js');
+const CheckLarge = require('./icons/CheckLarge.js');
+const Check = require('./icons/Check.js');
+const CheckTall = require('./icons/CheckTall.js');
+const CheckSmall = require('./icons/CheckSmall.js');
+const CheckDoubleJoined = require('./icons/CheckDoubleJoined.js');
+const CheckDouble = require('./icons/CheckDouble.js');
+const CheckDouble2 = require('./icons/CheckDouble2.js');
+const CheckDoubleSquare = require('./icons/CheckDoubleSquare.js');
+const CheckBold = require('./icons/CheckBold.js');
+const CheckBoldHandwritten = require('./icons/CheckBoldHandwritten.js');
+const CheckBoldOrganic = require('./icons/CheckBoldOrganic.js');
+const CheckCircleCompact = require('./icons/CheckCircleCompact.js');
+const CheckCircleOpen2 = require('./icons/CheckCircleOpen2.js');
+const CheckCircleOpen3 = require('./icons/CheckCircleOpen3.js');
+const CheckCircleOpen = require('./icons/CheckCircleOpen.js');
+const CheckCircleOpenJoined = require('./icons/CheckCircleOpenJoined.js');
+const CheckCircle = require('./icons/CheckCircle.js');
+const CheckSquareCircle = require('./icons/CheckSquareCircle.js');
+const CheckSquare = require('./icons/CheckSquare.js');
+const CheckSquareCompact = require('./icons/CheckSquareCompact.js');
+const CheckSquareOpenJoined = require('./icons/CheckSquareOpenJoined.js');
+const CheckSquareOpen = require('./icons/CheckSquareOpen.js');
+const CheckCircleStack = require('./icons/CheckCircleStack.js');
+const CheckSquareStack = require('./icons/CheckSquareStack.js');
+const CheckSquareStack2 = require('./icons/CheckSquareStack2.js');
+const CheckSquareStackShadow = require('./icons/CheckSquareStackShadow.js');
+const MinusCircleCompactLarge = require('./icons/MinusCircleCompactLarge.js');
+const MinusCircleLarge = require('./icons/MinusCircleLarge.js');
+const MinusSquareCompactLarge = require('./icons/MinusSquareCompactLarge.js');
+const MinusSquareLarge = require('./icons/MinusSquareLarge.js');
+const RadioCheck = require('./icons/RadioCheck.js');
+const RadioCheckOpen = require('./icons/RadioCheckOpen.js');
+const CheckCircleOpenSquare = require('./icons/CheckCircleOpenSquare.js');
+const CheckSquareOpenCircle = require('./icons/CheckSquareOpenCircle.js');
+const CheckSquareOpenSquare = require('./icons/CheckSquareOpenSquare.js');
+const CheckboxCircleCompact = require('./icons/CheckboxCircleCompact.js');
+const CheckboxCircle = require('./icons/CheckboxCircle.js');
+const CheckboxCompact = require('./icons/CheckboxCompact.js');
+const Checkbox = require('./icons/Checkbox.js');
 const Checklist = require('./icons/Checklist.js');
-const ChecklistMultiple1 = require('./icons/ChecklistMultiple1.js');
-const ChecklistMultiple2 = require('./icons/ChecklistMultiple2.js');
-const ChecklistMultiple3 = require('./icons/ChecklistMultiple3.js');
-const ChecklistMultiple4 = require('./icons/ChecklistMultiple4.js');
-const ChecklistMultiple5 = require('./icons/ChecklistMultiple5.js');
-const ChecklistMultiple6 = require('./icons/ChecklistMultiple6.js');
-const ChecklistMultiple7 = require('./icons/ChecklistMultiple7.js');
-const ChecklistMultiple8 = require('./icons/ChecklistMultiple8.js');
-const ChecklistMultiple9 = require('./icons/ChecklistMultiple9.js');
-const ChecklistMultiple10 = require('./icons/ChecklistMultiple10.js');
-const ChecklistSingle1 = require('./icons/ChecklistSingle1.js');
-const ChecklistSingle2 = require('./icons/ChecklistSingle2.js');
-const ChecklistSingle3 = require('./icons/ChecklistSingle3.js');
-const ChecklistSingle4 = require('./icons/ChecklistSingle4.js');
-const ChecklistSingle5 = require('./icons/ChecklistSingle5.js');
-const ChecklistSingle6 = require('./icons/ChecklistSingle6.js');
-const ChecklistSingleChoice7 = require('./icons/ChecklistSingleChoice7.js');
-const ChecklistUnchecked1 = require('./icons/ChecklistUnchecked1.js');
-const ChecklistUnchecked2 = require('./icons/ChecklistUnchecked2.js');
-const CirclesStates1 = require('./icons/CirclesStates1.js');
-const CirclesStates2 = require('./icons/CirclesStates2.js');
-const CirclesStatesArrowTransition = require('./icons/CirclesStatesArrowTransition.js');
-const CirclesStateArrowOneWay = require('./icons/CirclesStateArrowOneWay.js');
-const CirclesStateArrowBothWays = require('./icons/CirclesStateArrowBothWays.js');
-const ClearSymbol1 = require('./icons/ClearSymbol1.js');
-const ClearSymbol2 = require('./icons/ClearSymbol2.js');
-const ClearSymbol3 = require('./icons/ClearSymbol3.js');
-const ClipboardShortlist = require('./icons/ClipboardShortlist.js');
-const ClipboardShortlistCheck = require('./icons/ClipboardShortlistCheck.js');
-const ClipboardShortlistMinus = require('./icons/ClipboardShortlistMinus.js');
-const ClipboardShortlistPlus = require('./icons/ClipboardShortlistPlus.js');
-const ClipboardShortlistX = require('./icons/ClipboardShortlistX.js');
-const Clock1 = require('./icons/Clock1.js');
-const Clock29 = require('./icons/Clock29.js');
-const ClockArrowCircle = require('./icons/ClockArrowCircle.js');
+const ChecklistCircleTopTwo = require('./icons/ChecklistCircleTopTwo.js');
+const ChecklistCircleEnds = require('./icons/ChecklistCircleEnds.js');
+const ChecklistSquareTopTwo = require('./icons/ChecklistSquareTopTwo.js');
+const ChecklistSquareEnds = require('./icons/ChecklistSquareEnds.js');
+const ChecklistRadioTopTwo = require('./icons/ChecklistRadioTopTwo.js');
+const ChecklistRadioEnds = require('./icons/ChecklistRadioEnds.js');
+const ChecklistRadioAll = require('./icons/ChecklistRadioAll.js');
+const ChecklistSquareFilledTopTwo = require('./icons/ChecklistSquareFilledTopTwo.js');
+const ChecklistSquareFilledEnds = require('./icons/ChecklistSquareFilledEnds.js');
+const ChecklistSquareFilledAll = require('./icons/ChecklistSquareFilledAll.js');
+const ChecklistTop = require('./icons/ChecklistTop.js');
+const ChecklistCircleTop = require('./icons/ChecklistCircleTop.js');
+const ChecklistCircleBottom = require('./icons/ChecklistCircleBottom.js');
+const ChecklistSquareTop = require('./icons/ChecklistSquareTop.js');
+const ChecklistSquareBottom = require('./icons/ChecklistSquareBottom.js');
+const ChecklistRadioTop = require('./icons/ChecklistRadioTop.js');
+const ChecklistSquareFilledTop = require('./icons/ChecklistSquareFilledTop.js');
+const ChecklistCircleEmpty = require('./icons/ChecklistCircleEmpty.js');
+const ChecklistSquareEmpty = require('./icons/ChecklistSquareEmpty.js');
+const CircleStack = require('./icons/CircleStack.js');
+const CircleStackTight = require('./icons/CircleStackTight.js');
+const CircleOverlapArrowUpRight = require('./icons/CircleOverlapArrowUpRight.js');
+const CircleOverlapArrowDownLeft = require('./icons/CircleOverlapArrowDownLeft.js');
+const CircleOverlapArrowUpRightDownLeft = require('./icons/CircleOverlapArrowUpRightDownLeft.js');
+const BackspaceCompactSmall = require('./icons/BackspaceCompactSmall.js');
+const BackspaceCompact = require('./icons/BackspaceCompact.js');
+const Backspace = require('./icons/Backspace.js');
+const ClipboardList = require('./icons/ClipboardList.js');
+const ClipboardListCheck = require('./icons/ClipboardListCheck.js');
+const ClipboardListMinus = require('./icons/ClipboardListMinus.js');
+const ClipboardListPlus = require('./icons/ClipboardListPlus.js');
+const ClipboardListX = require('./icons/ClipboardListX.js');
+const ClockAngled = require('./icons/ClockAngled.js');
+const Clock = require('./icons/Clock.js');
+const ClockRefresh = require('./icons/ClockRefresh.js');
 const ClockArrowDown = require('./icons/ClockArrowDown.js');
 const ClockArrowLeft = require('./icons/ClockArrowLeft.js');
 const ClockArrowRight = require('./icons/ClockArrowRight.js');
 const ClockArrowUp = require('./icons/ClockArrowUp.js');
-const ClockArrowsLeftRight = require('./icons/ClockArrowsLeftRight.js');
-const ClockSynchronize = require('./icons/ClockSynchronize.js');
-const ClockAttachment = require('./icons/ClockAttachment.js');
-const ClockAttachment2 = require('./icons/ClockAttachment2.js');
+const ClockArrowLeftRight = require('./icons/ClockArrowLeftRight.js');
+const ClockSync = require('./icons/ClockSync.js');
+const ClockPaperclip = require('./icons/ClockPaperclip.js');
+const ClockPaperclipTilted = require('./icons/ClockPaperclipTilted.js');
 const ClockCheck = require('./icons/ClockCheck.js');
 const ClockCloud = require('./icons/ClockCloud.js');
-const ClockDots = require('./icons/ClockDots.js');
-const ClockEnvelope = require('./icons/ClockEnvelope.js');
-const ClockExclamationCircle = require('./icons/ClockExclamationCircle.js');
+const ClockDotted = require('./icons/ClockDotted.js');
+const ClockMail = require('./icons/ClockMail.js');
+const ClockAlertCircle = require('./icons/ClockAlertCircle.js');
 const ClockFunnel = require('./icons/ClockFunnel.js');
-const ClockGear = require('./icons/ClockGear.js');
-const ClockGear2 = require('./icons/ClockGear2.js');
+const ClockSettingsLarge = require('./icons/ClockSettingsLarge.js');
+const ClockSettings = require('./icons/ClockSettings.js');
 const ClockHourglass = require('./icons/ClockHourglass.js');
+const ClockLinkTilted = require('./icons/ClockLinkTilted.js');
 const ClockLink = require('./icons/ClockLink.js');
-const ClockLink2 = require('./icons/ClockLink2.js');
 const ClockLock = require('./icons/ClockLock.js');
 const ClockMinus = require('./icons/ClockMinus.js');
-const ClockNotificationCircle = require('./icons/ClockNotificationCircle.js');
+const ClockDot = require('./icons/ClockDot.js');
 const ClockNumberOne = require('./icons/ClockNumberOne.js');
 const ClockNumberThree = require('./icons/ClockNumberThree.js');
 const ClockNumberTwo = require('./icons/ClockNumberTwo.js');
 const ClockPause = require('./icons/ClockPause.js');
-const ClockPencilEdit = require('./icons/ClockPencilEdit.js');
-const ClockPinMap = require('./icons/ClockPinMap.js');
+const ClockEdit = require('./icons/ClockEdit.js');
+const ClockPin = require('./icons/ClockPin.js');
 const ClockPlus = require('./icons/ClockPlus.js');
 const ClockSearch = require('./icons/ClockSearch.js');
 const ClockSend = require('./icons/ClockSend.js');
-const ClockSlash = require('./icons/ClockSlash.js');
+const ClockBan = require('./icons/ClockBan.js');
 const ClockSnooze = require('./icons/ClockSnooze.js');
 const ClockStar = require('./icons/ClockStar.js');
 const ClockUnlock = require('./icons/ClockUnlock.js');
 const ClockUser = require('./icons/ClockUser.js');
-const ClockView = require('./icons/ClockView.js');
-const ClockWarning = require('./icons/ClockWarning.js');
-const ClockWarningAlt = require('./icons/ClockWarningAlt.js');
-const ClockClose = require('./icons/ClockClose.js');
-const ClosePaneArrowLeft1 = require('./icons/ClosePaneArrowLeft1.js');
-const ClosePaneArrowLeft2 = require('./icons/ClosePaneArrowLeft2.js');
-const ClosePaneArrowLeft3 = require('./icons/ClosePaneArrowLeft3.js');
+const ClockEye = require('./icons/ClockEye.js');
+const ClockAlertTriangle = require('./icons/ClockAlertTriangle.js');
+const ClockTriangle = require('./icons/ClockTriangle.js');
+const ClockX = require('./icons/ClockX.js');
+const SidebarArrowLeftStriped = require('./icons/SidebarArrowLeftStriped.js');
+const SidebarArrowLeftRows = require('./icons/SidebarArrowLeftRows.js');
+const SidebarArrowLeft = require('./icons/SidebarArrowLeft.js');
 const Cloud = require('./icons/Cloud.js');
-const CloudAdd = require('./icons/CloudAdd.js');
+const CloudPlus = require('./icons/CloudPlus.js');
+const CloudTriangle = require('./icons/CloudTriangle.js');
 const CloudWarning = require('./icons/CloudWarning.js');
-const CloudAlert = require('./icons/CloudAlert.js');
 const CloudArrowRight = require('./icons/CloudArrowRight.js');
 const CloudArrowUp = require('./icons/CloudArrowUp.js');
-const CloudArrowSync = require('./icons/CloudArrowSync.js');
-const Cloud1BarSlash = require('./icons/Cloud1BarSlash.js');
-const Cloud1Box = require('./icons/Cloud1Box.js');
-const Cloud1BoxArrowRight = require('./icons/Cloud1BoxArrowRight.js');
-const Cloud1BoxTransmission = require('./icons/Cloud1BoxTransmission.js');
-const Cloud1Bulb = require('./icons/Cloud1Bulb.js');
-const Cloud1Check = require('./icons/Cloud1Check.js');
-const Cloud1Checked = require('./icons/Cloud1Checked.js');
-const Cloud1Download1 = require('./icons/Cloud1Download1.js');
-const Cloud1Download2 = require('./icons/Cloud1Download2.js');
-const Cloud1Envelope = require('./icons/Cloud1Envelope.js');
-const CloudAlert2 = require('./icons/CloudAlert2.js');
+const CloudArrowUpDown = require('./icons/CloudArrowUpDown.js');
+const CloudOff = require('./icons/CloudOff.js');
+const CloudSquare = require('./icons/CloudSquare.js');
+const CloudSquareArrowRight = require('./icons/CloudSquareArrowRight.js');
+const CloudSquareSignal = require('./icons/CloudSquareSignal.js');
+const CloudLightbulb = require('./icons/CloudLightbulb.js');
+const CloudCheckCorner = require('./icons/CloudCheckCorner.js');
+const CloudCheck = require('./icons/CloudCheck.js');
+const CloudDownload = require('./icons/CloudDownload.js');
+const CloudDownloadLarge = require('./icons/CloudDownloadLarge.js');
+const CloudMail = require('./icons/CloudMail.js');
+const CloudAlert = require('./icons/CloudAlert.js');
 const CloudFolder = require('./icons/CloudFolder.js');
 const CloudSettings = require('./icons/CloudSettings.js');
 const CloudLink = require('./icons/CloudLink.js');
-const CloudLinkAlt = require('./icons/CloudLinkAlt.js');
-const CloudLinkVariant = require('./icons/CloudLinkVariant.js');
+const CloudLinkDiagonal = require('./icons/CloudLinkDiagonal.js');
+const CloudLinkVertical = require('./icons/CloudLinkVertical.js');
 const CloudLock = require('./icons/CloudLock.js');
-const CloudRemove = require('./icons/CloudRemove.js');
-const CloudRemoveAlt = require('./icons/CloudRemoveAlt.js');
+const CloudMinusCorner = require('./icons/CloudMinusCorner.js');
+const CloudMinus = require('./icons/CloudMinus.js');
 const CloudMusic = require('./icons/CloudMusic.js');
-const CloudMusic2 = require('./icons/CloudMusic2.js');
+const CloudMusicDouble = require('./icons/CloudMusicDouble.js');
 const CloudNetwork = require('./icons/CloudNetwork.js');
-const CloudNetworkSecond = require('./icons/CloudNetworkSecond.js');
-const CloudNetworkThird = require('./icons/CloudNetworkThird.js');
-const CloudAdd2 = require('./icons/CloudAdd2.js');
+const CloudNetworkDots = require('./icons/CloudNetworkDots.js');
+const CloudNetworkNode = require('./icons/CloudNetworkNode.js');
+const CloudPlusCorner = require('./icons/CloudPlusCorner.js');
 const CloudPrinter = require('./icons/CloudPrinter.js');
-const CloudReceive = require('./icons/CloudReceive.js');
+const CloudArrowDown = require('./icons/CloudArrowDown.js');
 const CloudRefresh = require('./icons/CloudRefresh.js');
-const CloudRefreshSecond = require('./icons/CloudRefreshSecond.js');
+const CloudRefreshCorner = require('./icons/CloudRefreshCorner.js');
 const CloudSad = require('./icons/CloudSad.js');
 const CloudSend = require('./icons/CloudSend.js');
-const CloudSlash = require('./icons/CloudSlash.js');
-const CloudSmile = require('./icons/CloudSmile.js');
-const CloudSynchronize1 = require('./icons/CloudSynchronize1.js');
-const CloudSynchronize2 = require('./icons/CloudSynchronize2.js');
+const CloudBan = require('./icons/CloudBan.js');
+const CloudHappy = require('./icons/CloudHappy.js');
+const CloudSync = require('./icons/CloudSync.js');
+const CloudSyncCorner = require('./icons/CloudSyncCorner.js');
 const CloudTransfer = require('./icons/CloudTransfer.js');
 const CloudUnlock = require('./icons/CloudUnlock.js');
-const CloudUpload1 = require('./icons/CloudUpload1.js');
-const CloudUpload2 = require('./icons/CloudUpload2.js');
-const CloudUpload3 = require('./icons/CloudUpload3.js');
-const CloudView = require('./icons/CloudView.js');
-const CloudClose1 = require('./icons/CloudClose1.js');
-const CloudClose2 = require('./icons/CloudClose2.js');
-const Cloud2 = require('./icons/Cloud2.js');
-const CloudAdd3 = require('./icons/CloudAdd3.js');
-const CloudAlert4 = require('./icons/CloudAlert4.js');
-const CloudAlert3 = require('./icons/CloudAlert3.js');
-const CloudArrowRight2 = require('./icons/CloudArrowRight2.js');
-const CloudArrowTransfer = require('./icons/CloudArrowTransfer.js');
-const Cloud2Upload = require('./icons/Cloud2Upload.js');
-const CloudArrowVertical = require('./icons/CloudArrowVertical.js');
-const Cloud2Restricted = require('./icons/Cloud2Restricted.js');
-const Cloud2BoxRight = require('./icons/Cloud2BoxRight.js');
-const Cloud2Box = require('./icons/Cloud2Box.js');
-const Cloud2Transmission = require('./icons/Cloud2Transmission.js');
-const Cloud2Lightbulb = require('./icons/Cloud2Lightbulb.js');
-const Cloud2Check = require('./icons/Cloud2Check.js');
-const Cloud2Checked = require('./icons/Cloud2Checked.js');
-const Cloud2Download = require('./icons/Cloud2Download.js');
-const Cloud2DownloadAlt = require('./icons/Cloud2DownloadAlt.js');
-const Cloud2Envelope = require('./icons/Cloud2Envelope.js');
-const Cloud2Exclamation = require('./icons/Cloud2Exclamation.js');
-const Cloud2Folder = require('./icons/Cloud2Folder.js');
-const Cloud2Forbidden = require('./icons/Cloud2Forbidden.js');
-const Cloud2Gear = require('./icons/Cloud2Gear.js');
-const Cloud2Happy = require('./icons/Cloud2Happy.js');
-const Cloud2LinkA = require('./icons/Cloud2LinkA.js');
-const Cloud2LinkB = require('./icons/Cloud2LinkB.js');
-const Cloud2LinkC = require('./icons/Cloud2LinkC.js');
-const Cloud2Lock = require('./icons/Cloud2Lock.js');
-const Cloud2Minus1 = require('./icons/Cloud2Minus1.js');
-const Cloud2Minus2 = require('./icons/Cloud2Minus2.js');
-const Cloud2Music1 = require('./icons/Cloud2Music1.js');
-const Cloud2Music2 = require('./icons/Cloud2Music2.js');
-const Cloud2Network1 = require('./icons/Cloud2Network1.js');
-const Cloud2Network2 = require('./icons/Cloud2Network2.js');
-const Cloud2Network3 = require('./icons/Cloud2Network3.js');
-const Cloud2Plus = require('./icons/Cloud2Plus.js');
-const Cloud2Printer = require('./icons/Cloud2Printer.js');
-const Cloud2Receive = require('./icons/Cloud2Receive.js');
-const Cloud2Refresh1 = require('./icons/Cloud2Refresh1.js');
-const Cloud2Refresh2 = require('./icons/Cloud2Refresh2.js');
-const Cloud2Sad = require('./icons/Cloud2Sad.js');
-const Cloud2Send = require('./icons/Cloud2Send.js');
-const Cloud2Synchronize1 = require('./icons/Cloud2Synchronize1.js');
-const Cloud2Synchronize2 = require('./icons/Cloud2Synchronize2.js');
-const Cloud2Unlock = require('./icons/Cloud2Unlock.js');
-const Cloud2Upload1 = require('./icons/Cloud2Upload1.js');
-const Cloud2Upload2 = require('./icons/Cloud2Upload2.js');
-const Cloud2Upload3 = require('./icons/Cloud2Upload3.js');
-const Cloud2View = require('./icons/Cloud2View.js');
-const Cloud2Close = require('./icons/Cloud2Close.js');
-const Cloud2CloseAlt = require('./icons/Cloud2CloseAlt.js');
-const Cloud3 = require('./icons/Cloud3.js');
-const Cloud3Download = require('./icons/Cloud3Download.js');
-const Cloud3Upload = require('./icons/Cloud3Upload.js');
-const Cloud3UploadAlt = require('./icons/Cloud3UploadAlt.js');
-const Cloud3Sync = require('./icons/Cloud3Sync.js');
-const Cloud3Box = require('./icons/Cloud3Box.js');
-const Cloud3BoxUpload = require('./icons/Cloud3BoxUpload.js');
-const Cloud3BoxTransmit = require('./icons/Cloud3BoxTransmit.js');
-const Cloud3Bulb = require('./icons/Cloud3Bulb.js');
-const Cloud3Check = require('./icons/Cloud3Check.js');
-const Cloud3Checked = require('./icons/Cloud3Checked.js');
-const Cloud3Download2 = require('./icons/Cloud3Download2.js');
-const Cloud3DownloadAlt = require('./icons/Cloud3DownloadAlt.js');
-const Cloud3Envelope = require('./icons/Cloud3Envelope.js');
-const Cloud3Exclamation = require('./icons/Cloud3Exclamation.js');
-const Cloud3Folder = require('./icons/Cloud3Folder.js');
-const Cloud3Gear = require('./icons/Cloud3Gear.js');
-const Cloud3Happy = require('./icons/Cloud3Happy.js');
-const Cloud3Link1 = require('./icons/Cloud3Link1.js');
-const Cloud3Link2 = require('./icons/Cloud3Link2.js');
-const Cloud3Link3 = require('./icons/Cloud3Link3.js');
-const Cloud3Lock = require('./icons/Cloud3Lock.js');
-const Cloud3Minus1 = require('./icons/Cloud3Minus1.js');
-const Cloud3Minus29 = require('./icons/Cloud3Minus29.js');
-const Cloud3Music1 = require('./icons/Cloud3Music1.js');
-const Cloud3Music2 = require('./icons/Cloud3Music2.js');
-const Cloud3Network1 = require('./icons/Cloud3Network1.js');
-const Cloud3Network = require('./icons/Cloud3Network.js');
-const Cloud3NetworkMulti = require('./icons/Cloud3NetworkMulti.js');
-const Cloud3Plus = require('./icons/Cloud3Plus.js');
-const Cloud3PlusAlt = require('./icons/Cloud3PlusAlt.js');
-const Cloud3Printer = require('./icons/Cloud3Printer.js');
-const Cloud3Refresh = require('./icons/Cloud3Refresh.js');
-const Cloud3RefreshAlt = require('./icons/Cloud3RefreshAlt.js');
-const Cloud3Sad = require('./icons/Cloud3Sad.js');
-const Cloud3Send = require('./icons/Cloud3Send.js');
-const Cloud3Slash = require('./icons/Cloud3Slash.js');
-const Cloud3Slash2 = require('./icons/Cloud3Slash2.js');
-const Cloud3Sync2 = require('./icons/Cloud3Sync2.js');
-const Cloud3SyncAlt = require('./icons/Cloud3SyncAlt.js');
-const Cloud3Transfer = require('./icons/Cloud3Transfer.js');
-const Cloud3Unlock = require('./icons/Cloud3Unlock.js');
-const Cloud3Upload3 = require('./icons/Cloud3Upload3.js');
-const Cloud3UploadAlt2 = require('./icons/Cloud3UploadAlt2.js');
-const Cloud3UploadOpen = require('./icons/Cloud3UploadOpen.js');
-const Cloud3View = require('./icons/Cloud3View.js');
-const Cloud3Warning = require('./icons/Cloud3Warning.js');
-const Cloud3Warning2 = require('./icons/Cloud3Warning2.js');
-const Cloud3Close = require('./icons/Cloud3Close.js');
-const Cloud3X = require('./icons/Cloud3X.js');
-const CloudSearch1 = require('./icons/CloudSearch1.js');
+const CloudUpload = require('./icons/CloudUpload.js');
+const CloudUploadLarge = require('./icons/CloudUploadLarge.js');
+const CloudUploadBase = require('./icons/CloudUploadBase.js');
+const CloudEye = require('./icons/CloudEye.js');
+const CloudXCorner = require('./icons/CloudXCorner.js');
+const CloudX = require('./icons/CloudX.js');
+const CloudTall = require('./icons/CloudTall.js');
+const CloudPlusTall = require('./icons/CloudPlusTall.js');
+const CloudTriangleTall = require('./icons/CloudTriangleTall.js');
+const CloudWarningTall = require('./icons/CloudWarningTall.js');
+const CloudArrowRightTall = require('./icons/CloudArrowRightTall.js');
+const CloudTransferTall = require('./icons/CloudTransferTall.js');
+const CloudArrowUpTall = require('./icons/CloudArrowUpTall.js');
+const CloudArrowUpDownTall = require('./icons/CloudArrowUpDownTall.js');
+const CloudOffTall = require('./icons/CloudOffTall.js');
+const CloudSquareArrowRightTall = require('./icons/CloudSquareArrowRightTall.js');
+const CloudSquareTall = require('./icons/CloudSquareTall.js');
+const CloudSquareSignalTall = require('./icons/CloudSquareSignalTall.js');
+const CloudLightbulbTall = require('./icons/CloudLightbulbTall.js');
+const CloudCheckCornerTall = require('./icons/CloudCheckCornerTall.js');
+const CloudCheckTall = require('./icons/CloudCheckTall.js');
+const CloudDownloadTall = require('./icons/CloudDownloadTall.js');
+const CloudDownloadLargeTall = require('./icons/CloudDownloadLargeTall.js');
+const CloudMailTall = require('./icons/CloudMailTall.js');
+const CloudAlertTall = require('./icons/CloudAlertTall.js');
+const CloudFolderTall = require('./icons/CloudFolderTall.js');
+const CloudBanTall = require('./icons/CloudBanTall.js');
+const CloudSettingsTall = require('./icons/CloudSettingsTall.js');
+const CloudHappyTall = require('./icons/CloudHappyTall.js');
+const CloudLinkTall = require('./icons/CloudLinkTall.js');
+const CloudLinkDiagonalTall = require('./icons/CloudLinkDiagonalTall.js');
+const CloudLinkVerticalTall = require('./icons/CloudLinkVerticalTall.js');
+const CloudLockTall = require('./icons/CloudLockTall.js');
+const CloudMinusCornerTall = require('./icons/CloudMinusCornerTall.js');
+const CloudMinusTall = require('./icons/CloudMinusTall.js');
+const CloudMusicTall = require('./icons/CloudMusicTall.js');
+const CloudMusicDoubleTall = require('./icons/CloudMusicDoubleTall.js');
+const CloudNetworkTall = require('./icons/CloudNetworkTall.js');
+const CloudNetworkDotsTall = require('./icons/CloudNetworkDotsTall.js');
+const CloudNetworkNodeTall = require('./icons/CloudNetworkNodeTall.js');
+const CloudPlusCornerTall = require('./icons/CloudPlusCornerTall.js');
+const CloudPrinterTall = require('./icons/CloudPrinterTall.js');
+const CloudArrowDownTall = require('./icons/CloudArrowDownTall.js');
+const CloudRefreshTall = require('./icons/CloudRefreshTall.js');
+const CloudRefreshCornerTall = require('./icons/CloudRefreshCornerTall.js');
+const CloudSadTall = require('./icons/CloudSadTall.js');
+const CloudSendTall = require('./icons/CloudSendTall.js');
+const CloudSyncTall = require('./icons/CloudSyncTall.js');
+const CloudSyncCornerTall = require('./icons/CloudSyncCornerTall.js');
+const CloudUnlockTall = require('./icons/CloudUnlockTall.js');
+const CloudUploadBaseTall = require('./icons/CloudUploadBaseTall.js');
+const CloudUploadTall = require('./icons/CloudUploadTall.js');
+const CloudUploadLargeTall = require('./icons/CloudUploadLargeTall.js');
+const CloudEyeTall = require('./icons/CloudEyeTall.js');
+const CloudXCornerTall = require('./icons/CloudXCornerTall.js');
+const CloudXTall = require('./icons/CloudXTall.js');
+const CloudRound = require('./icons/CloudRound.js');
+const CloudArrowDownRound = require('./icons/CloudArrowDownRound.js');
+const CloudArrowRightRound = require('./icons/CloudArrowRightRound.js');
+const CloudArrowUpRound = require('./icons/CloudArrowUpRound.js');
+const CloudArrowUpDownRound = require('./icons/CloudArrowUpDownRound.js');
+const CloudSquareRound = require('./icons/CloudSquareRound.js');
+const CloudSquareArrowRightRound = require('./icons/CloudSquareArrowRightRound.js');
+const CloudSquareSignalRound = require('./icons/CloudSquareSignalRound.js');
+const CloudLightbulbRound = require('./icons/CloudLightbulbRound.js');
+const CloudCheckCornerRound = require('./icons/CloudCheckCornerRound.js');
+const CloudCheckRound = require('./icons/CloudCheckRound.js');
+const CloudDownloadRound = require('./icons/CloudDownloadRound.js');
+const CloudDownloadLargeRound = require('./icons/CloudDownloadLargeRound.js');
+const CloudMailRound = require('./icons/CloudMailRound.js');
+const CloudAlertRound = require('./icons/CloudAlertRound.js');
+const CloudFolderRound = require('./icons/CloudFolderRound.js');
+const CloudSettingsRound = require('./icons/CloudSettingsRound.js');
+const CloudHappyRound = require('./icons/CloudHappyRound.js');
+const CloudLinkRound = require('./icons/CloudLinkRound.js');
+const CloudLinkDiagonalRound = require('./icons/CloudLinkDiagonalRound.js');
+const CloudLinkVerticalRound = require('./icons/CloudLinkVerticalRound.js');
+const CloudLockRound = require('./icons/CloudLockRound.js');
+const CloudMinusRound = require('./icons/CloudMinusRound.js');
+const CloudMinusCornerRound = require('./icons/CloudMinusCornerRound.js');
+const CloudMusicRound = require('./icons/CloudMusicRound.js');
+const CloudMusicDoubleRound = require('./icons/CloudMusicDoubleRound.js');
+const CloudNetworkRound = require('./icons/CloudNetworkRound.js');
+const CloudNetworkDotsRound = require('./icons/CloudNetworkDotsRound.js');
+const CloudNetworkNodeRound = require('./icons/CloudNetworkNodeRound.js');
+const CloudPlusRound = require('./icons/CloudPlusRound.js');
+const CloudPlusCornerRound = require('./icons/CloudPlusCornerRound.js');
+const CloudPrinterRound = require('./icons/CloudPrinterRound.js');
+const CloudRefreshRound = require('./icons/CloudRefreshRound.js');
+const CloudRefreshCornerRound = require('./icons/CloudRefreshCornerRound.js');
+const CloudSadRound = require('./icons/CloudSadRound.js');
+const CloudSendRound = require('./icons/CloudSendRound.js');
+const CloudBanRound = require('./icons/CloudBanRound.js');
+const CloudOffRound = require('./icons/CloudOffRound.js');
+const CloudSyncRound = require('./icons/CloudSyncRound.js');
+const CloudSyncCornerRound = require('./icons/CloudSyncCornerRound.js');
+const CloudTransferRound = require('./icons/CloudTransferRound.js');
+const CloudUnlockRound = require('./icons/CloudUnlockRound.js');
+const CloudUploadBaseRound = require('./icons/CloudUploadBaseRound.js');
+const CloudUploadRound = require('./icons/CloudUploadRound.js');
+const CloudUploadLargeRound = require('./icons/CloudUploadLargeRound.js');
+const CloudEyeRound = require('./icons/CloudEyeRound.js');
+const CloudTriangleRound = require('./icons/CloudTriangleRound.js');
+const CloudWarningRound = require('./icons/CloudWarningRound.js');
+const CloudXCornerRound = require('./icons/CloudXCornerRound.js');
+const CloudXRound = require('./icons/CloudXRound.js');
+const CloudSearch = require('./icons/CloudSearch.js');
+const CloudSearchRight = require('./icons/CloudSearchRight.js');
 const CloudSearch2 = require('./icons/CloudSearch2.js');
-const CloudSearch3 = require('./icons/CloudSearch3.js');
-const ComputerDesktopLogout = require('./icons/ComputerDesktopLogout.js');
-const ConcentricCirclesState1 = require('./icons/ConcentricCirclesState1.js');
-const ConcentricCirclesState2 = require('./icons/ConcentricCirclesState2.js');
-const ConcentricCirclesState3 = require('./icons/ConcentricCirclesState3.js');
-const ConcentricCirclesState4 = require('./icons/ConcentricCirclesState4.js');
-const ConcentricCirclesState5 = require('./icons/ConcentricCirclesState5.js');
-const Connect1 = require('./icons/Connect1.js');
-const Connect2 = require('./icons/Connect2.js');
-const ConnectCircle1 = require('./icons/ConnectCircle1.js');
-const ConnectCircle2 = require('./icons/ConnectCircle2.js');
-const ConnectCircle3 = require('./icons/ConnectCircle3.js');
-const ConnectCircle4 = require('./icons/ConnectCircle4.js');
-const ConnectRandom1 = require('./icons/ConnectRandom1.js');
-const ConnectRandom2 = require('./icons/ConnectRandom2.js');
-const ConnectTriangle1 = require('./icons/ConnectTriangle1.js');
-const ConnectTriangle2 = require('./icons/ConnectTriangle2.js');
-const ContinuousShootingBurst1 = require('./icons/ContinuousShootingBurst1.js');
-const ContinuousShootingBurst2 = require('./icons/ContinuousShootingBurst2.js');
-const ContinuousShootingBurst3 = require('./icons/ContinuousShootingBurst3.js');
-const ContinuousShootingBurst4 = require('./icons/ContinuousShootingBurst4.js');
-const ContinuousShootingBurstAF = require('./icons/ContinuousShootingBurstAF.js');
-const ContinuousShootingBurstLiveView = require('./icons/ContinuousShootingBurstLiveView.js');
+const MonitorArrowRight = require('./icons/MonitorArrowRight.js');
+const CircleConcentricXL = require('./icons/CircleConcentricXL.js');
+const CircleConcentricLarge = require('./icons/CircleConcentricLarge.js');
+const CircleConcentric = require('./icons/CircleConcentric.js');
+const CircleConcentricSmall = require('./icons/CircleConcentricSmall.js');
+const CircleConcentricXS = require('./icons/CircleConcentricXS.js');
+const NodesFork = require('./icons/NodesFork.js');
+const NodesForkLarge = require('./icons/NodesForkLarge.js');
+const NodesCircleThreeLarge = require('./icons/NodesCircleThreeLarge.js');
+const NodesCircleFourLarge = require('./icons/NodesCircleFourLarge.js');
+const NodesCircleThree = require('./icons/NodesCircleThree.js');
+const NodesCircleFour = require('./icons/NodesCircleFour.js');
+const NodesZigzagLarge = require('./icons/NodesZigzagLarge.js');
+const NodesZigzag = require('./icons/NodesZigzag.js');
+const NodesTriangle = require('./icons/NodesTriangle.js');
+const NodesTriangleLarge = require('./icons/NodesTriangleLarge.js');
+const Burst = require('./icons/Burst.js');
+const BurstDotted = require('./icons/BurstDotted.js');
+const BurstSkewed = require('./icons/BurstSkewed.js');
+const BurstSkewedOpen = require('./icons/BurstSkewedOpen.js');
+const BurstAF = require('./icons/BurstAF.js');
+const BurstLV = require('./icons/BurstLV.js');
 const Cursor = require('./icons/Cursor.js');
-const Cursor1 = require('./icons/Cursor1.js');
 const Cursor2 = require('./icons/Cursor2.js');
 const Cursor3 = require('./icons/Cursor3.js');
 const Cursor4 = require('./icons/Cursor4.js');
-const Cursor5 = require('./icons/Cursor5.js');
-const Cursor6 = require('./icons/Cursor6.js');
-const Cursor79 = require('./icons/Cursor79.js');
-const Cursor8 = require('./icons/Cursor8.js');
-const Cursor9 = require('./icons/Cursor9.js');
-const Cursor10 = require('./icons/Cursor10.js');
-const CustomerSupport1 = require('./icons/CustomerSupport1.js');
-const CustomerSupport2 = require('./icons/CustomerSupport2.js');
-const CustomerSupport3 = require('./icons/CustomerSupport3.js');
-const CustomerSupport4 = require('./icons/CustomerSupport4.js');
-const CustomerSupport5 = require('./icons/CustomerSupport5.js');
-const DashboardLayout1 = require('./icons/DashboardLayout1.js');
-const DashboardLayout2 = require('./icons/DashboardLayout2.js');
-const DashboardLayout3 = require('./icons/DashboardLayout3.js');
-const DashboardLayout4 = require('./icons/DashboardLayout4.js');
-const DesktopDock1 = require('./icons/DesktopDock1.js');
-const DesktopDock2 = require('./icons/DesktopDock2.js');
-const DesktopDownload1 = require('./icons/DesktopDownload1.js');
-const DesktopDownload2 = require('./icons/DesktopDownload2.js');
-const DesktopDownload3 = require('./icons/DesktopDownload3.js');
-const DesktopIcons = require('./icons/DesktopIcons.js');
-const DiagramHierarchy1 = require('./icons/DiagramHierarchy1.js');
-const DiagramHierarchy2 = require('./icons/DiagramHierarchy2.js');
-const DiagramHierarchy3 = require('./icons/DiagramHierarchy3.js');
-const DiagramHierarchy4 = require('./icons/DiagramHierarchy4.js');
-const DiagramHorizontal = require('./icons/DiagramHorizontal.js');
+const CursorStraight = require('./icons/CursorStraight.js');
+const CursorStraight2 = require('./icons/CursorStraight2.js');
+const CursorStraightSlim = require('./icons/CursorStraightSlim.js');
+const CursorStraightNotched = require('./icons/CursorStraightNotched.js');
+const CursorUp = require('./icons/CursorUp.js');
+const CursorUp2 = require('./icons/CursorUp2.js');
+const CursorUpSharp = require('./icons/CursorUpSharp.js');
+const SupportProfile = require('./icons/SupportProfile.js');
+const SupportOval = require('./icons/SupportOval.js');
+const Support = require('./icons/Support.js');
+const SupportOvalMic = require('./icons/SupportOvalMic.js');
+const SupportFace = require('./icons/SupportFace.js');
+const Dashboard = require('./icons/Dashboard.js');
+const DashboardSharp = require('./icons/DashboardSharp.js');
+const DashboardSquare = require('./icons/DashboardSquare.js');
+const DashboardChart = require('./icons/DashboardChart.js');
+const ScreenDock = require('./icons/ScreenDock.js');
+const ScreenDockDots = require('./icons/ScreenDockDots.js');
+const ScreenDownloadDotsTall = require('./icons/ScreenDownloadDotsTall.js');
+const ScreenDownloadDots = require('./icons/ScreenDownloadDots.js');
+const ScreenDownload = require('./icons/ScreenDownload.js');
+const ScreenTaskbar = require('./icons/ScreenTaskbar.js');
+const DiagramChain = require('./icons/DiagramChain.js');
+const DiagramChainLarge = require('./icons/DiagramChainLarge.js');
+const DiagramTree = require('./icons/DiagramTree.js');
+const DiagramTreeLarge = require('./icons/DiagramTreeLarge.js');
+const DiagramTreeRight = require('./icons/DiagramTreeRight.js');
 const DiagramMindMap = require('./icons/DiagramMindMap.js');
-const DiagramTreeStructure = require('./icons/DiagramTreeStructure.js');
-const DiagramUnit = require('./icons/DiagramUnit.js');
-const DiagramVertical = require('./icons/DiagramVertical.js');
-const DiagramWorkflow = require('./icons/DiagramWorkflow.js');
-const DislikeHand1 = require('./icons/DislikeHand1.js');
-const DislikeHand2 = require('./icons/DislikeHand2.js');
-const DislikeHand3 = require('./icons/DislikeHand3.js');
-const DislikeHand4 = require('./icons/DislikeHand4.js');
-const DoNotDisturbBar = require('./icons/DoNotDisturbBar.js');
-const DomainNameGlobe1 = require('./icons/DomainNameGlobe1.js');
-const DomainNameGlobe2 = require('./icons/DomainNameGlobe2.js');
-const DomainNameSearch = require('./icons/DomainNameSearch.js');
-const Door1 = require('./icons/Door1.js');
-const Door1ArrowIn = require('./icons/Door1ArrowIn.js');
-const Door1X = require('./icons/Door1X.js');
-const Door1ArrowOut = require('./icons/Door1ArrowOut.js');
-const Door2 = require('./icons/Door2.js');
-const Door2ArrowIn = require('./icons/Door2ArrowIn.js');
-const Door2X = require('./icons/Door2X.js');
-const Door2ArrowOut = require('./icons/Door2ArrowOut.js');
-const Door3 = require('./icons/Door3.js');
-const Door3ArrowIn = require('./icons/Door3ArrowIn.js');
-const Door3X = require('./icons/Door3X.js');
-const Door3ArrowOut = require('./icons/Door3ArrowOut.js');
-const DoorSquareEnter = require('./icons/DoorSquareEnter.js');
+const DiagramTreeIndent = require('./icons/DiagramTreeIndent.js');
+const DiagramGrid = require('./icons/DiagramGrid.js');
+const DiagramDecision = require('./icons/DiagramDecision.js');
+const DiagramFlowchart = require('./icons/DiagramFlowchart.js');
+const HandThumbDown = require('./icons/HandThumbDown.js');
+const HandThumbDownFingers = require('./icons/HandThumbDownFingers.js');
+const HandThumbDownCuff = require('./icons/HandThumbDownCuff.js');
+const HandThumbDownSleeve = require('./icons/HandThumbDownSleeve.js');
+const NoEntry = require('./icons/NoEntry.js');
+const DomainGlobe = require('./icons/DomainGlobe.js');
+const DomainGlobeCenter = require('./icons/DomainGlobeCenter.js');
+const DomainSearch = require('./icons/DomainSearch.js');
+const DoorBare = require('./icons/DoorBare.js');
+const DoorArrowInBare = require('./icons/DoorArrowInBare.js');
+const DoorXBare = require('./icons/DoorXBare.js');
+const DoorArrowOutBare = require('./icons/DoorArrowOutBare.js');
+const Door = require('./icons/Door.js');
+const DoorArrowIn = require('./icons/DoorArrowIn.js');
+const DoorX = require('./icons/DoorX.js');
+const DoorArrowOut = require('./icons/DoorArrowOut.js');
+const DoorOpen = require('./icons/DoorOpen.js');
+const DoorOpenArrowIn = require('./icons/DoorOpenArrowIn.js');
+const DoorOpenX = require('./icons/DoorOpenX.js');
+const DoorOpenArrowOut = require('./icons/DoorOpenArrowOut.js');
+const DoorSquare = require('./icons/DoorSquare.js');
 const DoorSquareArrowIn = require('./icons/DoorSquareArrowIn.js');
 const DoorSquareX = require('./icons/DoorSquareX.js');
-const DoorSquareExit = require('./icons/DoorSquareExit.js');
-const DownloadArrow1 = require('./icons/DownloadArrow1.js');
-const DownloadArrow2 = require('./icons/DownloadArrow2.js');
-const DownloadBox1 = require('./icons/DownloadBox1.js');
-const DownloadBox2 = require('./icons/DownloadBox2.js');
-const DownloadBox3 = require('./icons/DownloadBox3.js');
-const DownloadCircle1 = require('./icons/DownloadCircle1.js');
-const DownloadCircle2 = require('./icons/DownloadCircle2.js');
-const DownloadArrowDashed = require('./icons/DownloadArrowDashed.js');
-const DownloadDashedCircle = require('./icons/DownloadDashedCircle.js');
-const DownloadArrowCircle = require('./icons/DownloadArrowCircle.js');
-const DownloadArrowSquare = require('./icons/DownloadArrowSquare.js');
-const DownloadArrowSquareAlt = require('./icons/DownloadArrowSquareAlt.js');
-const DownloadArrowSquareStack = require('./icons/DownloadArrowSquareStack.js');
-const DownloadArrowSquareStackAlt = require('./icons/DownloadArrowSquareStackAlt.js');
-const DownloadArrowSquareStackTwo = require('./icons/DownloadArrowSquareStackTwo.js');
-const DownloadArrowSquareStackThree = require('./icons/DownloadArrowSquareStackThree.js');
-const DownloadArrowTray = require('./icons/DownloadArrowTray.js');
-const DownloadArrowTrayAlt = require('./icons/DownloadArrowTrayAlt.js');
-const DownloadArrowSquare2 = require('./icons/DownloadArrowSquare2.js');
-const DownloadArrowTray2 = require('./icons/DownloadArrowTray2.js');
-const DownloadDashedArrow = require('./icons/DownloadDashedArrow.js');
-const DownloadDashedArrowAlt = require('./icons/DownloadDashedArrowAlt.js');
-const DownloadUpdates = require('./icons/DownloadUpdates.js');
-const DragDrop = require('./icons/DragDrop.js');
-const DragDropAlt = require('./icons/DragDropAlt.js');
-const DragDropExtended = require('./icons/DragDropExtended.js');
-const DragDropFile = require('./icons/DragDropFile.js');
-const DragDropImage = require('./icons/DragDropImage.js');
-const DragDropMoveIn = require('./icons/DragDropMoveIn.js');
-const DragDropMove = require('./icons/DragDropMove.js');
-const EnvelopeSearch1 = require('./icons/EnvelopeSearch1.js');
-const EnvelopeSearch2 = require('./icons/EnvelopeSearch2.js');
-const EnvelopeSearch3 = require('./icons/EnvelopeSearch3.js');
-const EnvelopeLupeGroup1 = require('./icons/EnvelopeLupeGroup1.js');
-const EnvelopeLupeGroup2 = require('./icons/EnvelopeLupeGroup2.js');
-const EnvelopeLupeGroup3 = require('./icons/EnvelopeLupeGroup3.js');
-const EnvelopeMail = require('./icons/EnvelopeMail.js');
-const EnvelopeMailArrowUp = require('./icons/EnvelopeMailArrowUp.js');
-const EnvelopeMailArrowUp2 = require('./icons/EnvelopeMailArrowUp2.js');
-const EnvelopeMailArrowUp3 = require('./icons/EnvelopeMailArrowUp3.js');
-const EthernetSettings = require('./icons/EthernetSettings.js');
-const EyeHideCrossed1 = require('./icons/EyeHideCrossed1.js');
-const EyeHideCrossed2 = require('./icons/EyeHideCrossed2.js');
-const EyeHideCrossed3 = require('./icons/EyeHideCrossed3.js');
-const EyeHideCrossed4 = require('./icons/EyeHideCrossed4.js');
-const EyeHideCrossed5 = require('./icons/EyeHideCrossed5.js');
-const EyeHideCrossed6 = require('./icons/EyeHideCrossed6.js');
-const EyeHideCrossed = require('./icons/EyeHideCrossed.js');
-const EyeView1 = require('./icons/EyeView1.js');
-const EyeView2 = require('./icons/EyeView2.js');
-const EyeView3 = require('./icons/EyeView3.js');
-const EyeView4 = require('./icons/EyeView4.js');
-const EyeView5 = require('./icons/EyeView5.js');
-const EyeView6 = require('./icons/EyeView6.js');
-const EyeView7 = require('./icons/EyeView7.js');
-const FaceIdRecognition1 = require('./icons/FaceIdRecognition1.js');
-const FaceIdRecognition2 = require('./icons/FaceIdRecognition2.js');
-const FaceID3 = require('./icons/FaceID3.js');
-const FaceID4 = require('./icons/FaceID4.js');
+const DoorSquareArrowOut = require('./icons/DoorSquareArrowOut.js');
+const Download = require('./icons/Download.js');
+const DownloadFlat = require('./icons/DownloadFlat.js');
+const DownloadBox = require('./icons/DownloadBox.js');
+const DownloadBoxNotch = require('./icons/DownloadBoxNotch.js');
+const DownloadSquareNotch = require('./icons/DownloadSquareNotch.js');
+const DownloadCircleFlat = require('./icons/DownloadCircleFlat.js');
+const DownloadCircle = require('./icons/DownloadCircle.js');
+const DownloadSquareDashed = require('./icons/DownloadSquareDashed.js');
+const DownloadCircleDashedHalf = require('./icons/DownloadCircleDashedHalf.js');
+const DownloadCircleDashed = require('./icons/DownloadCircleDashed.js');
+const DownloadSquare = require('./icons/DownloadSquare.js');
+const DownloadSquareOpen = require('./icons/DownloadSquareOpen.js');
+const DownloadSquareStack = require('./icons/DownloadSquareStack.js');
+const DownloadSquareStackCorner = require('./icons/DownloadSquareStackCorner.js');
+const DownloadSquareStackOpen = require('./icons/DownloadSquareStackOpen.js');
+const DownloadSquareStackOpen2 = require('./icons/DownloadSquareStackOpen2.js');
+const DownloadTraySquare = require('./icons/DownloadTraySquare.js');
+const DownloadTray = require('./icons/DownloadTray.js');
+const UploadSquare = require('./icons/UploadSquare.js');
+const UploadTray = require('./icons/UploadTray.js');
+const DownloadDotted = require('./icons/DownloadDotted.js');
+const DownloadDottedFlat = require('./icons/DownloadDottedFlat.js');
+const DownloadTriangle = require('./icons/DownloadTriangle.js');
+const DragCursor = require('./icons/DragCursor.js');
+const DragHand = require('./icons/DragHand.js');
+const DragCursorCenter = require('./icons/DragCursorCenter.js');
+const DragFile = require('./icons/DragFile.js');
+const DragImage = require('./icons/DragImage.js');
+const DragArrowUpLeft = require('./icons/DragArrowUpLeft.js');
+const DragArrowDownRight = require('./icons/DragArrowDownRight.js');
+const MailSearch = require('./icons/MailSearch.js');
+const MailSearchRounded = require('./icons/MailSearchRounded.js');
+const MailSearchFolds = require('./icons/MailSearchFolds.js');
+const MailStackSearch = require('./icons/MailStackSearch.js');
+const MailStackSearchRounded = require('./icons/MailStackSearchRounded.js');
+const MailStackSearchFolds = require('./icons/MailStackSearchFolds.js');
+const Mail = require('./icons/Mail.js');
+const MailOpenUpload = require('./icons/MailOpenUpload.js');
+const MailOpenUpload2 = require('./icons/MailOpenUpload2.js');
+const MailOpenUploadWide = require('./icons/MailOpenUploadWide.js');
+const Ethernet = require('./icons/Ethernet.js');
+const EyeOffShine = require('./icons/EyeOffShine.js');
+const EyeOffLargeShine = require('./icons/EyeOffLargeShine.js');
+const EyeOffLidded = require('./icons/EyeOffLidded.js');
+const EyeOffArc = require('./icons/EyeOffArc.js');
+const EyeOffPupil = require('./icons/EyeOffPupil.js');
+const EyeOffLargePupil = require('./icons/EyeOffLargePupil.js');
+const EyeOff = require('./icons/EyeOff.js');
+const Eye = require('./icons/Eye.js');
+const EyeLarge = require('./icons/EyeLarge.js');
+const EyeLidded = require('./icons/EyeLidded.js');
+const EyeArc = require('./icons/EyeArc.js');
+const EyePupil = require('./icons/EyePupil.js');
+const EyeLargeShine = require('./icons/EyeLargeShine.js');
+const EyeShine = require('./icons/EyeShine.js');
+const ScanFace = require('./icons/ScanFace.js');
+const ScanFaceRound = require('./icons/ScanFaceRound.js');
+const ScanEye = require('./icons/ScanEye.js');
+const ScanEyeLid = require('./icons/ScanEyeLid.js');
 const Faq = require('./icons/Faq.js');
-const FaqBubbles = require('./icons/FaqBubbles.js');
-const FeaturesListStars = require('./icons/FeaturesListStars.js');
-const Fingerprint1 = require('./icons/Fingerprint1.js');
-const Fingerprint2 = require('./icons/Fingerprint2.js');
-const Fingerprint3 = require('./icons/Fingerprint3.js');
-const Fingerprint4 = require('./icons/Fingerprint4.js');
-const Fingerprint5 = require('./icons/Fingerprint5.js');
-const Fingerprint6 = require('./icons/Fingerprint6.js');
-const Fingerprint7 = require('./icons/Fingerprint7.js');
-const Fingerprint8 = require('./icons/Fingerprint8.js');
+const FaqChat = require('./icons/FaqChat.js');
+const ListStarBullets = require('./icons/ListStarBullets.js');
+const Fingerprint = require('./icons/Fingerprint.js');
+const FingerprintDashed = require('./icons/FingerprintDashed.js');
+const FingerprintSpiral = require('./icons/FingerprintSpiral.js');
+const FingerprintWide = require('./icons/FingerprintWide.js');
+const FingerprintCurl = require('./icons/FingerprintCurl.js');
+const FingerprintCurlStem = require('./icons/FingerprintCurlStem.js');
+const FingerprintSpiralDashed = require('./icons/FingerprintSpiralDashed.js');
+const FingerprintDotted = require('./icons/FingerprintDotted.js');
 const Folder = require('./icons/Folder.js');
-const Folder2 = require('./icons/Folder2.js');
-const Folder3 = require('./icons/Folder3.js');
-const Folder4 = require('./icons/Folder4.js');
-const Folder5 = require('./icons/Folder5.js');
-const Folder6 = require('./icons/Folder6.js');
-const Folder7 = require('./icons/Folder7.js');
-const Folder8 = require('./icons/Folder8.js');
-const Folder9 = require('./icons/Folder9.js');
-const Folder10 = require('./icons/Folder10.js');
-const Folder11 = require('./icons/Folder11.js');
-const Folder12 = require('./icons/Folder12.js');
-const Folder13 = require('./icons/Folder13.js');
-const Folder14 = require('./icons/Folder14.js');
-const Folder15 = require('./icons/Folder15.js');
-const Folder16 = require('./icons/Folder16.js');
-const Folder17 = require('./icons/Folder17.js');
-const Folder18 = require('./icons/Folder18.js');
-const Folder19 = require('./icons/Folder19.js');
-const Folder20 = require('./icons/Folder20.js');
-const FolderAlert = require('./icons/FolderAlert.js');
+const FolderDivider = require('./icons/FolderDivider.js');
+const FolderTabFront = require('./icons/FolderTabFront.js');
+const FolderTabBack = require('./icons/FolderTabBack.js');
+const FolderStack = require('./icons/FolderStack.js');
+const FolderFile = require('./icons/FolderFile.js');
+const FolderLabel = require('./icons/FolderLabel.js');
+const FolderText = require('./icons/FolderText.js');
+const FolderInner = require('./icons/FolderInner.js');
+const FolderInnerLabel = require('./icons/FolderInnerLabel.js');
+const FolderStack2 = require('./icons/FolderStack2.js');
+const FolderAjar = require('./icons/FolderAjar.js');
+const FolderAjarFlat = require('./icons/FolderAjarFlat.js');
+const FolderStackEdge = require('./icons/FolderStackEdge.js');
+const FolderSide = require('./icons/FolderSide.js');
+const FolderOpenTab = require('./icons/FolderOpenTab.js');
+const FolderOpen = require('./icons/FolderOpen.js');
+const FolderOpen2 = require('./icons/FolderOpen2.js');
+const FolderOpenFront = require('./icons/FolderOpenFront.js');
+const FolderPerspective = require('./icons/FolderPerspective.js');
+const FolderTriangle = require('./icons/FolderTriangle.js');
 const FolderCheck = require('./icons/FolderCheck.js');
-const FolderChecked = require('./icons/FolderChecked.js');
-const FolderCircleCheck = require('./icons/FolderCircleCheck.js');
-const FolderCircleNegative = require('./icons/FolderCircleNegative.js');
-const FolderCirclePlus = require('./icons/FolderCirclePlus.js');
+const FolderCheckCenter = require('./icons/FolderCheckCenter.js');
+const FolderCheckCircle = require('./icons/FolderCheckCircle.js');
+const FolderMinusCircle = require('./icons/FolderMinusCircle.js');
+const FolderPlusCircle = require('./icons/FolderPlusCircle.js');
 const FolderXCircle = require('./icons/FolderXCircle.js');
-const FolderNegative = require('./icons/FolderNegative.js');
-const FolderNegative2 = require('./icons/FolderNegative2.js');
-const FolderPlus1 = require('./icons/FolderPlus1.js');
-const FolderPlus2 = require('./icons/FolderPlus2.js');
-const FolderWarning = require('./icons/FolderWarning.js');
-const FolderX1 = require('./icons/FolderX1.js');
-const FolderX2 = require('./icons/FolderX2.js');
-const Form1 = require('./icons/Form1.js');
-const Form2 = require('./icons/Form2.js');
-const Form3 = require('./icons/Form3.js');
-const Form4 = require('./icons/Form4.js');
-const Form5 = require('./icons/Form5.js');
-const Form6 = require('./icons/Form6.js');
-const FormCheckboxChecked1 = require('./icons/FormCheckboxChecked1.js');
-const FormCheckboxChecked2 = require('./icons/FormCheckboxChecked2.js');
-const FormCheckboxChecked3 = require('./icons/FormCheckboxChecked3.js');
-const FormCheckboxUnchecked1 = require('./icons/FormCheckboxUnchecked1.js');
-const FormCheckboxUnchecked2 = require('./icons/FormCheckboxUnchecked2.js');
-const FormCheckboxUnchecked3 = require('./icons/FormCheckboxUnchecked3.js');
-const FormDropdownSelect1 = require('./icons/FormDropdownSelect1.js');
-const FormDropdownSelect2 = require('./icons/FormDropdownSelect2.js');
-const FormDropdownSelect3 = require('./icons/FormDropdownSelect3.js');
-const FormDropdownSelect4 = require('./icons/FormDropdownSelect4.js');
-const FormDropdownSelect5 = require('./icons/FormDropdownSelect5.js');
-const FormDropdownSelect6 = require('./icons/FormDropdownSelect6.js');
-const FormDropdownSelect7 = require('./icons/FormDropdownSelect7.js');
+const FolderMinus = require('./icons/FolderMinus.js');
+const FolderMinusCenter = require('./icons/FolderMinusCenter.js');
+const FolderPlus = require('./icons/FolderPlus.js');
+const FolderPlusCenter = require('./icons/FolderPlusCenter.js');
+const FolderAlertTriangle = require('./icons/FolderAlertTriangle.js');
+const FolderX = require('./icons/FolderX.js');
+const FolderXCenter = require('./icons/FolderXCenter.js');
+const Form = require('./icons/Form.js');
+const FormCentered = require('./icons/FormCentered.js');
+const FormLabels = require('./icons/FormLabels.js');
+const FormRows = require('./icons/FormRows.js');
+const FormRowsCheckbox = require('./icons/FormRowsCheckbox.js');
+const FormRowsSquare = require('./icons/FormRowsSquare.js');
+const FormCheckboxCheckOpen = require('./icons/FormCheckboxCheckOpen.js');
+const FormCheckboxCheck = require('./icons/FormCheckboxCheck.js');
+const FormCheckboxCheckLarge = require('./icons/FormCheckboxCheckLarge.js');
+const FormCheckboxLong = require('./icons/FormCheckboxLong.js');
+const FormCheckbox = require('./icons/FormCheckbox.js');
+const FormCheckboxLarge = require('./icons/FormCheckboxLarge.js');
+const FormDropdownMinimal = require('./icons/FormDropdownMinimal.js');
+const FormDropdown = require('./icons/FormDropdown.js');
+const FormDropdownSlim = require('./icons/FormDropdownSlim.js');
+const FormDropdownDot = require('./icons/FormDropdownDot.js');
+const FormDropdownExpanded = require('./icons/FormDropdownExpanded.js');
+const FormDropdownExpandedLines = require('./icons/FormDropdownExpandedLines.js');
+const FormDropdownExpandedBullets = require('./icons/FormDropdownExpandedBullets.js');
+const FormInputNumberDots = require('./icons/FormInputNumberDots.js');
 const FormInputNumber = require('./icons/FormInputNumber.js');
-const FormInputNumber2 = require('./icons/FormInputNumber2.js');
-const FormInputText1 = require('./icons/FormInputText1.js');
-const FormInputText2 = require('./icons/FormInputText2.js');
-const FormLockPasswordTooltip = require('./icons/FormLockPasswordTooltip.js');
-const FormLockPasswordLabelSquare = require('./icons/FormLockPasswordLabelSquare.js');
-const FormRadiusChecked1 = require('./icons/FormRadiusChecked1.js');
-const FormRadiusChecked2 = require('./icons/FormRadiusChecked2.js');
-const FormRadiusChecked3 = require('./icons/FormRadiusChecked3.js');
-const FormRadiusUnchecked1 = require('./icons/FormRadiusUnchecked1.js');
-const FormRadiusUnchecked2 = require('./icons/FormRadiusUnchecked2.js');
-const FormUsernameTooltipDrop = require('./icons/FormUsernameTooltipDrop.js');
-const FormUsernameTooltipSquare = require('./icons/FormUsernameTooltipSquare.js');
+const FormInput = require('./icons/FormInput.js');
+const FormInputCursor = require('./icons/FormInputCursor.js');
+const FormLockDrop = require('./icons/FormLockDrop.js');
+const FormLockTooltip = require('./icons/FormLockTooltip.js');
+const FormRadioDotLong = require('./icons/FormRadioDotLong.js');
+const FormRadioDot = require('./icons/FormRadioDot.js');
+const FormRadioCheck = require('./icons/FormRadioCheck.js');
+const FormRadioLong = require('./icons/FormRadioLong.js');
+const FormRadio = require('./icons/FormRadio.js');
+const FormUserDrop = require('./icons/FormUserDrop.js');
+const FormUserTooltip = require('./icons/FormUserTooltip.js');
 const Forward = require('./icons/Forward.js');
-const FunnelFilter1 = require('./icons/FunnelFilter1.js');
-const FunnelFilter2 = require('./icons/FunnelFilter2.js');
-const FunnelFilter3 = require('./icons/FunnelFilter3.js');
-const FunnelFilter4 = require('./icons/FunnelFilter4.js');
-const FunnelFilterMail = require('./icons/FunnelFilterMail.js');
-const FunnelFilterMail2 = require('./icons/FunnelFilterMail2.js');
-const FunnelFilterMailCircle = require('./icons/FunnelFilterMailCircle.js');
-const FunnelFilterMailCircle2 = require('./icons/FunnelFilterMailCircle2.js');
-const FunnelFilterMailSquare = require('./icons/FunnelFilterMailSquare.js');
-const FunnelFilterSquare = require('./icons/FunnelFilterSquare.js');
-const FunnelFilterCoin1 = require('./icons/FunnelFilterCoin1.js');
-const FunnelFilterCoin2 = require('./icons/FunnelFilterCoin2.js');
-const FunnelFilterDollar = require('./icons/FunnelFilterDollar.js');
-const GearSettings = require('./icons/GearSettings.js');
-const GearSettings2 = require('./icons/GearSettings2.js');
-const GearSettings3 = require('./icons/GearSettings3.js');
-const GearSettings4 = require('./icons/GearSettings4.js');
-const GearSettings5 = require('./icons/GearSettings5.js');
-const GearSettings6 = require('./icons/GearSettings6.js');
-const Gears1 = require('./icons/Gears1.js');
-const Gears2 = require('./icons/Gears2.js');
-const Gears3 = require('./icons/Gears3.js');
-const Gears4 = require('./icons/Gears4.js');
-const Gears5 = require('./icons/Gears5.js');
-const GeometricFormsDeviation = require('./icons/GeometricFormsDeviation.js');
-const GeometricFormsDeviation2 = require('./icons/GeometricFormsDeviation2.js');
-const GeometricFormsDiscrepancy = require('./icons/GeometricFormsDiscrepancy.js');
-const GeometricFormsDiversity = require('./icons/GeometricFormsDiversity.js');
-const GeometricFormsInconsistency = require('./icons/GeometricFormsInconsistency.js');
-const GeometricFormsVariation = require('./icons/GeometricFormsVariation.js');
-const GraphHorizontalBarsRounded = require('./icons/GraphHorizontalBarsRounded.js');
-const GraphHorizontalBarsDots = require('./icons/GraphHorizontalBarsDots.js');
-const GraphHorizontalBarsDotsAlt = require('./icons/GraphHorizontalBarsDotsAlt.js');
-const GraphHorizontalBarsStripes = require('./icons/GraphHorizontalBarsStripes.js');
-const GraphHorizontalBarsStripesAlt = require('./icons/GraphHorizontalBarsStripesAlt.js');
-const GraphHorizontalBarsLines = require('./icons/GraphHorizontalBarsLines.js');
-const GripHorizontalCircles = require('./icons/GripHorizontalCircles.js');
-const GripHorizontalStripes = require('./icons/GripHorizontalStripes.js');
-const GripVerticalCircles = require('./icons/GripVerticalCircles.js');
-const GripVerticalStripes = require('./icons/GripVerticalStripes.js');
-const HandCursor = require('./icons/HandCursor.js');
-const HandCursorPointer1 = require('./icons/HandCursorPointer1.js');
-const HandCursorPointer2 = require('./icons/HandCursorPointer2.js');
-const HandCursorPointer3 = require('./icons/HandCursorPointer3.js');
-const HandCursorPointer4 = require('./icons/HandCursorPointer4.js');
-const HandCursorPointer5 = require('./icons/HandCursorPointer5.js');
-const HandCursor6 = require('./icons/HandCursor6.js');
-const HandGear = require('./icons/HandGear.js');
-const HandGear1 = require('./icons/HandGear1.js');
-const HandStopPrivate = require('./icons/HandStopPrivate.js');
-const HandStopPrivateCircle1 = require('./icons/HandStopPrivateCircle1.js');
-const HandStopPrivateCircle2 = require('./icons/HandStopPrivateCircle2.js');
-const HandTouchFourFingersSwipeDown = require('./icons/HandTouchFourFingersSwipeDown.js');
-const HandTouchFourFingersSwipeHorizontal = require('./icons/HandTouchFourFingersSwipeHorizontal.js');
-const HandTouchFourFingersSwipeLeft = require('./icons/HandTouchFourFingersSwipeLeft.js');
-const HandTouchFourFingersSwipeRight = require('./icons/HandTouchFourFingersSwipeRight.js');
-const HandTouchFourFingersSwipeVertical = require('./icons/HandTouchFourFingersSwipeVertical.js');
-const HandTouchFourFingersSwipeUp = require('./icons/HandTouchFourFingersSwipeUp.js');
-const HandTouchOneFingerUndo = require('./icons/HandTouchOneFingerUndo.js');
-const HandTouchOneFingerWait = require('./icons/HandTouchOneFingerWait.js');
-const HandTouchOneFingerMove = require('./icons/HandTouchOneFingerMove.js');
-const HandTouchOneFingerHoldWait = require('./icons/HandTouchOneFingerHoldWait.js');
-const HandTouchSwipeDown = require('./icons/HandTouchSwipeDown.js');
-const HandTouchSwipeLeftRight = require('./icons/HandTouchSwipeLeftRight.js');
-const HandTouchSwipeLeft = require('./icons/HandTouchSwipeLeft.js');
-const HandTouchSwipeLeftLine = require('./icons/HandTouchSwipeLeftLine.js');
-const HandTouchSwipeRight = require('./icons/HandTouchSwipeRight.js');
-const HandTouchSwipeRightLine = require('./icons/HandTouchSwipeRightLine.js');
-const HandTouchSwipeUpDown = require('./icons/HandTouchSwipeUpDown.js');
-const HandTouchSwipeUp = require('./icons/HandTouchSwipeUp.js');
-const HandTouchTap = require('./icons/HandTouchTap.js');
-const HandTouchDoubleTap = require('./icons/HandTouchDoubleTap.js');
-const HandTouchTap2 = require('./icons/HandTouchTap2.js');
-const HandTouchTapOne = require('./icons/HandTouchTapOne.js');
-const HandTouchTapSquare = require('./icons/HandTouchTapSquare.js');
-const HandTouchThreeSwipeDown = require('./icons/HandTouchThreeSwipeDown.js');
-const HandTouchThreeSwipeLeftRight = require('./icons/HandTouchThreeSwipeLeftRight.js');
-const HandTouchThreeSwipeLeft = require('./icons/HandTouchThreeSwipeLeft.js');
-const HandTouchThreeSwipeRight = require('./icons/HandTouchThreeSwipeRight.js');
-const HandTouchThreeSwipeUpDown = require('./icons/HandTouchThreeSwipeUpDown.js');
-const HandTouchThreeSwipeUp = require('./icons/HandTouchThreeSwipeUp.js');
-const HandTouchTwoDirectional = require('./icons/HandTouchTwoDirectional.js');
-const HandTwoFingerDoubleTap = require('./icons/HandTwoFingerDoubleTap.js');
-const HandTwoFingerDoubleTap2 = require('./icons/HandTwoFingerDoubleTap2.js');
-const HandTwoFingerPinch = require('./icons/HandTwoFingerPinch.js');
-const HandTwoFingerSingleTap = require('./icons/HandTwoFingerSingleTap.js');
-const HandTwoFingerSingleTap1 = require('./icons/HandTwoFingerSingleTap1.js');
-const HandTwoFingerSpread1 = require('./icons/HandTwoFingerSpread1.js');
-const HandTwoFingerSpread2 = require('./icons/HandTwoFingerSpread2.js');
-const HandTwoFingerSwipeDown = require('./icons/HandTwoFingerSwipeDown.js');
-const HandTwoFingerSwipeBidirectional = require('./icons/HandTwoFingerSwipeBidirectional.js');
-const HandTwoFingerSwipeLeft = require('./icons/HandTwoFingerSwipeLeft.js');
-const HandTwoFingersSwipeRight = require('./icons/HandTwoFingersSwipeRight.js');
-const HandTwoFingersSwipeVertical = require('./icons/HandTwoFingersSwipeVertical.js');
-const HandTwoFingersSwipeUp = require('./icons/HandTwoFingersSwipeUp.js');
+const Funnel = require('./icons/Funnel.js');
+const FunnelRim = require('./icons/FunnelRim.js');
+const FunnelSimple = require('./icons/FunnelSimple.js');
+const FunnelOval = require('./icons/FunnelOval.js');
+const FilterLines = require('./icons/FilterLines.js');
+const FilterLinesWide = require('./icons/FilterLinesWide.js');
+const FilterLinesCircle = require('./icons/FilterLinesCircle.js');
+const FilterLinesWideCircle = require('./icons/FilterLinesWideCircle.js');
+const FilterLinesSquare = require('./icons/FilterLinesSquare.js');
+const FilterLinesWideSquare = require('./icons/FilterLinesWideSquare.js');
+const FunnelCoin = require('./icons/FunnelCoin.js');
+const FunnelOvalCoin = require('./icons/FunnelOvalCoin.js');
+const FunnelDollar = require('./icons/FunnelDollar.js');
+const Gear = require('./icons/Gear.js');
+const GearAngled = require('./icons/GearAngled.js');
+const GearRound = require('./icons/GearRound.js');
+const GearWavy = require('./icons/GearWavy.js');
+const GearHex = require('./icons/GearHex.js');
+const GearSpokes = require('./icons/GearSpokes.js');
+const GearMultiple = require('./icons/GearMultiple.js');
+const GearStackSpiky = require('./icons/GearStackSpiky.js');
+const GearStack = require('./icons/GearStack.js');
+const GearStackSquare = require('./icons/GearStackSquare.js');
+const GearCluster = require('./icons/GearCluster.js');
+const GridOddCircle = require('./icons/GridOddCircle.js');
+const GridOddSquare = require('./icons/GridOddSquare.js');
+const ShapeNested = require('./icons/ShapeNested.js');
+const ShapeMix = require('./icons/ShapeMix.js');
+const ShapeUneven = require('./icons/ShapeUneven.js');
+const CircleGridMarks = require('./icons/CircleGridMarks.js');
+const ProgressBarMultipleDotted = require('./icons/ProgressBarMultipleDotted.js');
+const ProgressBarMultipleDottedSharp = require('./icons/ProgressBarMultipleDottedSharp.js');
+const ProgressBarMultipleDottedJoined = require('./icons/ProgressBarMultipleDottedJoined.js');
+const ProgressBarMultipleSegmentedSharp = require('./icons/ProgressBarMultipleSegmentedSharp.js');
+const ProgressBarMultipleStripedJoined = require('./icons/ProgressBarMultipleStripedJoined.js');
+const ChartBarHorizontalSquareThin = require('./icons/ChartBarHorizontalSquareThin.js');
+const GripDotsHorizontal = require('./icons/GripDotsHorizontal.js');
+const GripBarsHorizontal = require('./icons/GripBarsHorizontal.js');
+const GripDotsVertical = require('./icons/GripDotsVertical.js');
+const GripBarsVertical = require('./icons/GripBarsVertical.js');
+const HandPointer = require('./icons/HandPointer.js');
+const HandPointerRound = require('./icons/HandPointerRound.js');
+const HandPointerCuff = require('./icons/HandPointerCuff.js');
+const HandPointerUnderline = require('./icons/HandPointerUnderline.js');
+const HandPointerFingersRound = require('./icons/HandPointerFingersRound.js');
+const HandPointerFingersRound2 = require('./icons/HandPointerFingersRound2.js');
+const HandPointerFingers = require('./icons/HandPointerFingers.js');
+const HandSettingsRays = require('./icons/HandSettingsRays.js');
+const HandSettings = require('./icons/HandSettings.js');
+const HandStop = require('./icons/HandStop.js');
+const HandStopCircle = require('./icons/HandStopCircle.js');
+const HandFistCircle = require('./icons/HandFistCircle.js');
+const HandSwipeDownFourFingers = require('./icons/HandSwipeDownFourFingers.js');
+const HandSwipeLeftRightFourFingers = require('./icons/HandSwipeLeftRightFourFingers.js');
+const HandSwipeLeftFourFingers = require('./icons/HandSwipeLeftFourFingers.js');
+const HandSwipeRightFourFingers = require('./icons/HandSwipeRightFourFingers.js');
+const HandSwipeUpDownFourFingers = require('./icons/HandSwipeUpDownFourFingers.js');
+const HandSwipeUpFourFingers = require('./icons/HandSwipeUpFourFingers.js');
+const HandRefresh = require('./icons/HandRefresh.js');
+const HandClock = require('./icons/HandClock.js');
+const HandMove = require('./icons/HandMove.js');
+const HandTapClock = require('./icons/HandTapClock.js');
+const HandSwipeDown = require('./icons/HandSwipeDown.js');
+const HandSwipeLeftRight = require('./icons/HandSwipeLeftRight.js');
+const HandSwipeLeft = require('./icons/HandSwipeLeft.js');
+const HandSwipeLeftDashed = require('./icons/HandSwipeLeftDashed.js');
+const HandSwipeRight = require('./icons/HandSwipeRight.js');
+const HandSwipeRightDashed = require('./icons/HandSwipeRightDashed.js');
+const HandSwipeUpDown = require('./icons/HandSwipeUpDown.js');
+const HandSwipeUp = require('./icons/HandSwipeUp.js');
+const HandTapDouble = require('./icons/HandTapDouble.js');
+const HandTapTwo = require('./icons/HandTapTwo.js');
+const HandTap = require('./icons/HandTap.js');
+const HandTapOne = require('./icons/HandTapOne.js');
+const HandTapSquare = require('./icons/HandTapSquare.js');
+const HandSwipeDownThreeFingers = require('./icons/HandSwipeDownThreeFingers.js');
+const HandSwipeLeftRightThreeFingers = require('./icons/HandSwipeLeftRightThreeFingers.js');
+const HandSwipeLeftThreeFingers = require('./icons/HandSwipeLeftThreeFingers.js');
+const HandSwipeRightThreeFingers = require('./icons/HandSwipeRightThreeFingers.js');
+const HandSwipeUpDownThreeFingers = require('./icons/HandSwipeUpDownThreeFingers.js');
+const HandSwipeUpThreeFingers = require('./icons/HandSwipeUpThreeFingers.js');
+const HandMoveTwoFingers = require('./icons/HandMoveTwoFingers.js');
+const HandTapDoubleTwoFingers = require('./icons/HandTapDoubleTwoFingers.js');
+const HandTapTwoTwoFingers = require('./icons/HandTapTwoTwoFingers.js');
+const HandPinch = require('./icons/HandPinch.js');
+const HandTapTwoFingers = require('./icons/HandTapTwoFingers.js');
+const HandTapOneTwoFingers = require('./icons/HandTapOneTwoFingers.js');
+const HandSpread = require('./icons/HandSpread.js');
+const HandRotate = require('./icons/HandRotate.js');
+const HandSwipeDownTwoFingers = require('./icons/HandSwipeDownTwoFingers.js');
+const HandSwipeLeftRightTwoFingers = require('./icons/HandSwipeLeftRightTwoFingers.js');
+const HandSwipeLeftTwoFingers = require('./icons/HandSwipeLeftTwoFingers.js');
+const HandSwipeRightTwoFingers = require('./icons/HandSwipeRightTwoFingers.js');
+const HandSwipeUpDownTwoFingers = require('./icons/HandSwipeUpDownTwoFingers.js');
+const HandSwipeUpTwoFingers = require('./icons/HandSwipeUpTwoFingers.js');
 const HardDriveX = require('./icons/HardDriveX.js');
-const HardDriveClose = require('./icons/HardDriveClose.js');
-const HardDriveStrike = require('./icons/HardDriveStrike.js');
-const HardDriveDisc = require('./icons/HardDriveDisc.js');
-const Heart1 = require('./icons/Heart1.js');
-const Heart1Striped = require('./icons/Heart1Striped.js');
-const Heart1Add = require('./icons/Heart1Add.js');
-const Heart2 = require('./icons/Heart2.js');
-const Heart2Striped = require('./icons/Heart2Striped.js');
-const Heart2Add = require('./icons/Heart2Add.js');
-const Heart3 = require('./icons/Heart3.js');
-const Heart3Dotted = require('./icons/Heart3Dotted.js');
-const HeartAdd = require('./icons/HeartAdd.js');
-const HeartPositive = require('./icons/HeartPositive.js');
-const HideSidepanelLeft = require('./icons/HideSidepanelLeft.js');
-const HideSidepanelRight = require('./icons/HideSidepanelRight.js');
-const House1 = require('./icons/House1.js');
-const House2 = require('./icons/House2.js');
-const House3 = require('./icons/House3.js');
-const House4 = require('./icons/House4.js');
-const House5 = require('./icons/House5.js');
-const House6 = require('./icons/House6.js');
-const House7 = require('./icons/House7.js');
-const House8 = require('./icons/House8.js');
-const House9 = require('./icons/House9.js');
-const House10 = require('./icons/House10.js');
-const House11 = require('./icons/House11.js');
-const House12 = require('./icons/House12.js');
-const Information1 = require('./icons/Information1.js');
-const Information2 = require('./icons/Information2.js');
-const Information3 = require('./icons/Information3.js');
-const Information4 = require('./icons/Information4.js');
-const Information5 = require('./icons/Information5.js');
-const InformationCircle1 = require('./icons/InformationCircle1.js');
-const InformationCircle2 = require('./icons/InformationCircle2.js');
-const InformationSquare1 = require('./icons/InformationSquare1.js');
-const InformationSquare2 = require('./icons/InformationSquare2.js');
-const ImagePhoto1 = require('./icons/ImagePhoto1.js');
-const ImagePhoto2 = require('./icons/ImagePhoto2.js');
-const Image3 = require('./icons/Image3.js');
-const Image4 = require('./icons/Image4.js');
-const Image5 = require('./icons/Image5.js');
-const Image6 = require('./icons/Image6.js');
-const Image7 = require('./icons/Image7.js');
-const Image8 = require('./icons/Image8.js');
-const Image9 = require('./icons/Image9.js');
-const ImagePhoto10 = require('./icons/ImagePhoto10.js');
-const ImagePhoto11 = require('./icons/ImagePhoto11.js');
-const InstallUpdateDown1 = require('./icons/InstallUpdateDown1.js');
-const InstallUpdateDown2 = require('./icons/InstallUpdateDown2.js');
-const InstallUpdateDown3 = require('./icons/InstallUpdateDown3.js');
-const InstallUpdateDown4 = require('./icons/InstallUpdateDown4.js');
-const InstallUpdateDown5 = require('./icons/InstallUpdateDown5.js');
-const InstallUpdateUp1 = require('./icons/InstallUpdateUp1.js');
-const InstallUpdateUp2 = require('./icons/InstallUpdateUp2.js');
-const InstallUpdatesArrowUp3 = require('./icons/InstallUpdatesArrowUp3.js');
-const InstallUpdatesArrowUp4 = require('./icons/InstallUpdatesArrowUp4.js');
-const InstallUpdatesArrowUp5 = require('./icons/InstallUpdatesArrowUp5.js');
-const InstallUpdatesTray1 = require('./icons/InstallUpdatesTray1.js');
-const InstallUpdatesTray2 = require('./icons/InstallUpdatesTray2.js');
-const InstallUpdatesTrayArrowDown1 = require('./icons/InstallUpdatesTrayArrowDown1.js');
-const InstallUpdatesTrayArrowDown2 = require('./icons/InstallUpdatesTrayArrowDown2.js');
-const KeyPassword = require('./icons/KeyPassword.js');
-const KeyPassword1 = require('./icons/KeyPassword1.js');
-const Key2 = require('./icons/Key2.js');
-const Key3 = require('./icons/Key3.js');
-const Key4 = require('./icons/Key4.js');
-const Key5 = require('./icons/Key5.js');
-const Key6 = require('./icons/Key6.js');
-const Key7 = require('./icons/Key7.js');
-const Key8 = require('./icons/Key8.js');
-const Key9 = require('./icons/Key9.js');
-const KeyPassword10 = require('./icons/KeyPassword10.js');
-const KeyPassword11 = require('./icons/KeyPassword11.js');
-const KeyPassword12 = require('./icons/KeyPassword12.js');
-const KeyPassword13 = require('./icons/KeyPassword13.js');
-const KeyPassword14 = require('./icons/KeyPassword14.js');
-const Key15 = require('./icons/Key15.js');
-const Keypad1 = require('./icons/Keypad1.js');
-const Keypad2 = require('./icons/Keypad2.js');
-const Keypad3 = require('./icons/Keypad3.js');
-const Keypad4 = require('./icons/Keypad4.js');
-const Keypad5 = require('./icons/Keypad5.js');
-const LanguageRectangle = require('./icons/LanguageRectangle.js');
-const LanguageSpeechBubble = require('./icons/LanguageSpeechBubble.js');
-const LevelUpArrow = require('./icons/LevelUpArrow.js');
-const LevelUpArrow2 = require('./icons/LevelUpArrow2.js');
-const LevelsAdjust = require('./icons/LevelsAdjust.js');
-const LevelsAdjustDash2 = require('./icons/LevelsAdjustDash2.js');
-const LevelsAdjustDash3 = require('./icons/LevelsAdjustDash3.js');
-const LevelsAdjustDash4 = require('./icons/LevelsAdjustDash4.js');
-const LevelsAdjustDash5 = require('./icons/LevelsAdjustDash5.js');
-const LevelsAdjustDashboard6 = require('./icons/LevelsAdjustDashboard6.js');
-const LevelsAdjustDashboard7 = require('./icons/LevelsAdjustDashboard7.js');
-const LevelsAdjustDashboard8 = require('./icons/LevelsAdjustDashboard8.js');
-const LevelsAdjustDashboard9 = require('./icons/LevelsAdjustDashboard9.js');
-const LevelsAdjustDash10 = require('./icons/LevelsAdjustDash10.js');
-const LifebuoyHelp1 = require('./icons/LifebuoyHelp1.js');
-const LifebuoyHelp2 = require('./icons/LifebuoyHelp2.js');
-const LifebuoyHelp3 = require('./icons/LifebuoyHelp3.js');
-const LifebuoyHelp4 = require('./icons/LifebuoyHelp4.js');
-const LifebuoyHelp5 = require('./icons/LifebuoyHelp5.js');
-const LightningQuickMode1 = require('./icons/LightningQuickMode1.js');
-const LightningQuickModeOff = require('./icons/LightningQuickModeOff.js');
-const LightningQuickMode2 = require('./icons/LightningQuickMode2.js');
-const LightningQuickMode2Off = require('./icons/LightningQuickMode2Off.js');
-const LightningQuickMode3 = require('./icons/LightningQuickMode3.js');
-const LightningQuickMode3Off = require('./icons/LightningQuickMode3Off.js');
-const LikePositiveHand1 = require('./icons/LikePositiveHand1.js');
-const LikePositionHand2 = require('./icons/LikePositionHand2.js');
-const LikePositionHand3 = require('./icons/LikePositionHand3.js');
-const LikePositionHand4 = require('./icons/LikePositionHand4.js');
-const LinkPersonalHotspot = require('./icons/LinkPersonalHotspot.js');
-const LinkPersonalHotspotAdd = require('./icons/LinkPersonalHotspotAdd.js');
-const LinkPersonalHotspotBroken = require('./icons/LinkPersonalHotspotBroken.js');
-const LinkPersonalHotspotCheck = require('./icons/LinkPersonalHotspotCheck.js');
-const LinkPersonalHotspotMenu = require('./icons/LinkPersonalHotspotMenu.js');
-const LinkPersonalHotspotSettings = require('./icons/LinkPersonalHotspotSettings.js');
-const LinkPersonalHotspotRemove = require('./icons/LinkPersonalHotspotRemove.js');
-const LinkPersonalHotspotX = require('./icons/LinkPersonalHotspotX.js');
-const List = require('./icons/List.js');
+const HardDriveXCircle = require('./icons/HardDriveXCircle.js');
+const DiscDriveOff = require('./icons/DiscDriveOff.js');
+const DiscDriveX = require('./icons/DiscDriveX.js');
+const HeartAngular = require('./icons/HeartAngular.js');
+const HeartStripedAngular = require('./icons/HeartStripedAngular.js');
+const HeartPlusAngular = require('./icons/HeartPlusAngular.js');
+const HeartWide = require('./icons/HeartWide.js');
+const HeartStripedWide = require('./icons/HeartStripedWide.js');
+const HeartPlusWide = require('./icons/HeartPlusWide.js');
+const Heart = require('./icons/Heart.js');
+const HeartDotted = require('./icons/HeartDotted.js');
+const HeartPlus = require('./icons/HeartPlus.js');
+const HeartPlusCenter = require('./icons/HeartPlusCenter.js');
+const SidebarMenuArrowLeft = require('./icons/SidebarMenuArrowLeft.js');
+const SidebarArrowRight = require('./icons/SidebarArrowRight.js');
+const HouseEaves = require('./icons/HouseEaves.js');
+const HouseDoorEaves = require('./icons/HouseDoorEaves.js');
+const House = require('./icons/House.js');
+const HouseDoorArch = require('./icons/HouseDoorArch.js');
+const HousePentagon = require('./icons/HousePentagon.js');
+const HouseDoorPentagon = require('./icons/HouseDoorPentagon.js');
+const HouseDoorArchPentagon = require('./icons/HouseDoorArchPentagon.js');
+const HouseSharp = require('./icons/HouseSharp.js');
+const HouseDoor = require('./icons/HouseDoor.js');
+const HouseChimney = require('./icons/HouseChimney.js');
+const HouseDoorChimney = require('./icons/HouseDoorChimney.js');
+const HouseDoorGround = require('./icons/HouseDoorGround.js');
+const Info = require('./icons/Info.js');
+const InfoHollow = require('./icons/InfoHollow.js');
+const InfoPillar = require('./icons/InfoPillar.js');
+const InfoBlock = require('./icons/InfoBlock.js');
+const InfoScript = require('./icons/InfoScript.js');
+const InfoCircle = require('./icons/InfoCircle.js');
+const InfoCircleSmall = require('./icons/InfoCircleSmall.js');
+const InfoSquare = require('./icons/InfoSquare.js');
+const InfoSquareSmall = require('./icons/InfoSquareSmall.js');
+const Image = require('./icons/Image.js');
+const ImageWide = require('./icons/ImageWide.js');
+const ImageHills = require('./icons/ImageHills.js');
+const ImagePeaks = require('./icons/ImagePeaks.js');
+const ImageSunRight = require('./icons/ImageSunRight.js');
+const ImageFrameless = require('./icons/ImageFrameless.js');
+const ImageFrameBroken = require('./icons/ImageFrameBroken.js');
+const ImageCurve = require('./icons/ImageCurve.js');
+const ImageMountain = require('./icons/ImageMountain.js');
+const ImageWave = require('./icons/ImageWave.js');
+const ImageFrameOrnate = require('./icons/ImageFrameOrnate.js');
+const GearDownload = require('./icons/GearDownload.js');
+const GearDownloadAngled = require('./icons/GearDownloadAngled.js');
+const GearDownloadRound = require('./icons/GearDownloadRound.js');
+const GearDownloadWavy = require('./icons/GearDownloadWavy.js');
+const GearDownloadHex = require('./icons/GearDownloadHex.js');
+const GearUpload = require('./icons/GearUpload.js');
+const GearUploadAngled = require('./icons/GearUploadAngled.js');
+const GearUploadRound = require('./icons/GearUploadRound.js');
+const GearUploadWavy = require('./icons/GearUploadWavy.js');
+const GearUploadHex = require('./icons/GearUploadHex.js');
+const GearTray = require('./icons/GearTray.js');
+const GearTrayWavy = require('./icons/GearTrayWavy.js');
+const GearTrayDownload = require('./icons/GearTrayDownload.js');
+const GearTrayDownloadWavy = require('./icons/GearTrayDownloadWavy.js');
+const KeyToothed = require('./icons/KeyToothed.js');
+const KeyBlock = require('./icons/KeyBlock.js');
+const KeyBlockSmooth = require('./icons/KeyBlockSmooth.js');
+const KeySkeleton = require('./icons/KeySkeleton.js');
+const KeySkeletonSimple = require('./icons/KeySkeletonSimple.js');
+const KeyRight = require('./icons/KeyRight.js');
+const KeyBlockToothed = require('./icons/KeyBlockToothed.js');
+const KeySkeletonRight = require('./icons/KeySkeletonRight.js');
+const KeySkeletonRightOval = require('./icons/KeySkeletonRightOval.js');
+const KeyPlain = require('./icons/KeyPlain.js');
+const Key = require('./icons/Key.js');
+const KeyAngular = require('./icons/KeyAngular.js');
+const KeySkeletonFlipped = require('./icons/KeySkeletonFlipped.js');
+const KeySmooth = require('./icons/KeySmooth.js');
+const KeyWide = require('./icons/KeyWide.js');
+const KeySmoothNotch = require('./icons/KeySmoothNotch.js');
+const Keypad = require('./icons/Keypad.js');
+const KeypadRounded = require('./icons/KeypadRounded.js');
+const KeypadDots = require('./icons/KeypadDots.js');
+const KeypadGrid = require('./icons/KeypadGrid.js');
+const KeypadJoined = require('./icons/KeypadJoined.js');
+const TranslateSquare = require('./icons/TranslateSquare.js');
+const TranslateChat = require('./icons/TranslateChat.js');
+const TrayUpload = require('./icons/TrayUpload.js');
+const TrayUploadTall = require('./icons/TrayUploadTall.js');
+const AdjustPairVertical = require('./icons/AdjustPairVertical.js');
+const AdjustPair = require('./icons/AdjustPair.js');
+const AdjustVertical = require('./icons/AdjustVertical.js');
+const Adjust = require('./icons/Adjust.js');
+const AdjustTick = require('./icons/AdjustTick.js');
+const AdjustVerticalTick = require('./icons/AdjustVerticalTick.js');
+const AdjustPairBlock = require('./icons/AdjustPairBlock.js');
+const AdjustBlock = require('./icons/AdjustBlock.js');
+const AdjustPairVerticalBlock = require('./icons/AdjustPairVerticalBlock.js');
+const AdjustVerticalBlock = require('./icons/AdjustVerticalBlock.js');
+const Lifebuoy = require('./icons/Lifebuoy.js');
+const LifebuoyDiagonalLong = require('./icons/LifebuoyDiagonalLong.js');
+const LifebuoyRope = require('./icons/LifebuoyRope.js');
+const LifebuoyRopeLong = require('./icons/LifebuoyRopeLong.js');
+const LifebuoyDiagonal = require('./icons/LifebuoyDiagonal.js');
+const Bolt = require('./icons/Bolt.js');
+const BoltOff = require('./icons/BoltOff.js');
+const BoltTilted = require('./icons/BoltTilted.js');
+const BoltOffTilted = require('./icons/BoltOffTilted.js');
+const BoltWide = require('./icons/BoltWide.js');
+const BoltOffWide = require('./icons/BoltOffWide.js');
+const HandThumbUp = require('./icons/HandThumbUp.js');
+const HandThumbUpFingers = require('./icons/HandThumbUpFingers.js');
+const HandThumbUpCuff = require('./icons/HandThumbUpCuff.js');
+const HandThumbUpSleeve = require('./icons/HandThumbUpSleeve.js');
+const Link = require('./icons/Link.js');
+const LinkPlus = require('./icons/LinkPlus.js');
+const LinkBroken = require('./icons/LinkBroken.js');
+const LinkCheck = require('./icons/LinkCheck.js');
+const LinkDots = require('./icons/LinkDots.js');
+const LinkMenu = require('./icons/LinkMenu.js');
+const LinkMinus = require('./icons/LinkMinus.js');
+const LinkX = require('./icons/LinkX.js');
+const ListCheckbox = require('./icons/ListCheckbox.js');
 const ListStatus = require('./icons/ListStatus.js');
 const ListNumbered = require('./icons/ListNumbered.js');
-const LoadingBar1 = require('./icons/LoadingBar1.js');
-const LoadingBar2 = require('./icons/LoadingBar2.js');
-const LoadingBar3 = require('./icons/LoadingBar3.js');
-const LoadingBar4 = require('./icons/LoadingBar4.js');
-const LoadingBar5 = require('./icons/LoadingBar5.js');
-const LoadingBar6 = require('./icons/LoadingBar6.js');
-const LoadingDotsStep1 = require('./icons/LoadingDotsStep1.js');
-const LoadingDotsStep2 = require('./icons/LoadingDotsStep2.js');
-const LoadingDotsStep3 = require('./icons/LoadingDotsStep3.js');
-const LoadingDotsStep4 = require('./icons/LoadingDotsStep4.js');
+const ProgressBarSharp = require('./icons/ProgressBarSharp.js');
+const ProgressBar = require('./icons/ProgressBar.js');
+const ProgressBarStripedSharp = require('./icons/ProgressBarStripedSharp.js');
+const ProgressBarStriped = require('./icons/ProgressBarStriped.js');
+const ProgressBarDotted = require('./icons/ProgressBarDotted.js');
+const ProgressBarDottedSharp = require('./icons/ProgressBarDottedSharp.js');
+const ProgressDots = require('./icons/ProgressDots.js');
+const ProgressDotsLeft = require('./icons/ProgressDotsLeft.js');
+const ProgressDotsCenter = require('./icons/ProgressDotsCenter.js');
+const ProgressDotsRight = require('./icons/ProgressDotsRight.js');
+const LockCheckSharp = require('./icons/LockCheckSharp.js');
+const LockOpenCheckSharp = require('./icons/LockOpenCheckSharp.js');
+const LockEyeSharp = require('./icons/LockEyeSharp.js');
+const LockSharp = require('./icons/LockSharp.js');
+const LockOpenSharp = require('./icons/LockOpenSharp.js');
+const LockXSharp = require('./icons/LockXSharp.js');
 const LockCheck = require('./icons/LockCheck.js');
-const LockCheckOpen = require('./icons/LockCheckOpen.js');
-const LockEyePrivacy = require('./icons/LockEyePrivacy.js');
-const LockLocked = require('./icons/LockLocked.js');
-const LockUnlockedOpen = require('./icons/LockUnlockedOpen.js');
-const LockClose = require('./icons/LockClose.js');
-const Lock2Check = require('./icons/Lock2Check.js');
-const Lock2CheckOpen = require('./icons/Lock2CheckOpen.js');
-const Lock2Check2 = require('./icons/Lock2Check2.js');
-const Lock2CheckOpen2 = require('./icons/Lock2CheckOpen2.js');
+const LockOpenCheck = require('./icons/LockOpenCheck.js');
+const LockCheckCorner = require('./icons/LockCheckCorner.js');
+const LockOpenCheckCorner = require('./icons/LockOpenCheckCorner.js');
 const LockEye = require('./icons/LockEye.js');
-const LockEyeAlt = require('./icons/LockEyeAlt.js');
+const LockEyeCorner = require('./icons/LockEyeCorner.js');
 const LockKeyhole = require('./icons/LockKeyhole.js');
-const LockKeyholeAlt = require('./icons/LockKeyholeAlt.js');
-const LockKeyholeOpen = require('./icons/LockKeyholeOpen.js');
-const LockLocked2 = require('./icons/LockLocked2.js');
-const LockPassword = require('./icons/LockPassword.js');
-const LockPasswordAlt = require('./icons/LockPasswordAlt.js');
-const LockUnlocked = require('./icons/LockUnlocked.js');
-const LockClose2 = require('./icons/LockClose2.js');
-const Lock3Check = require('./icons/Lock3Check.js');
-const Lock3CheckOpen = require('./icons/Lock3CheckOpen.js');
-const Lock3Check2 = require('./icons/Lock3Check2.js');
-const Lock3Check2Open = require('./icons/Lock3Check2Open.js');
-const Lock3Eye = require('./icons/Lock3Eye.js');
-const Lock3Keyhole = require('./icons/Lock3Keyhole.js');
-const Lock3Keyhole2 = require('./icons/Lock3Keyhole2.js');
-const Lock3KeyholeOpen = require('./icons/Lock3KeyholeOpen.js');
-const Lock3Locked = require('./icons/Lock3Locked.js');
-const Lock3Password = require('./icons/Lock3Password.js');
-const Lock3Open = require('./icons/Lock3Open.js');
-const Lock3Close = require('./icons/Lock3Close.js');
-const Lock4Checked = require('./icons/Lock4Checked.js');
-const Lock4Check = require('./icons/Lock4Check.js');
-const Lock4Eye = require('./icons/Lock4Eye.js');
-const Lock4Locked = require('./icons/Lock4Locked.js');
-const Lock4Password = require('./icons/Lock4Password.js');
-const Lock4PasswordTwo = require('./icons/Lock4PasswordTwo.js');
-const Lock4Open = require('./icons/Lock4Open.js');
-const Lock4Close = require('./icons/Lock4Close.js');
-const Lock5Check = require('./icons/Lock5Check.js');
-const Lock5CheckOpen = require('./icons/Lock5CheckOpen.js');
-const Lock5CheckAlt = require('./icons/Lock5CheckAlt.js');
-const Lock5CheckOpenAlt = require('./icons/Lock5CheckOpenAlt.js');
-const Lock5Eye = require('./icons/Lock5Eye.js');
-const Lock5Keyhole1 = require('./icons/Lock5Keyhole1.js');
-const Lock5Keyhole2 = require('./icons/Lock5Keyhole2.js');
-const Lock5KeyholeOpen = require('./icons/Lock5KeyholeOpen.js');
-const Lock5Locked = require('./icons/Lock5Locked.js');
-const Lock5Unlocked = require('./icons/Lock5Unlocked.js');
-const Lock5Close = require('./icons/Lock5Close.js');
-const LockArrowPortrait1 = require('./icons/LockArrowPortrait1.js');
-const LockArrowPortrait2 = require('./icons/LockArrowPortrait2.js');
-const LockArrowPortrait3 = require('./icons/LockArrowPortrait3.js');
-const LockPadlockCircle = require('./icons/LockPadlockCircle.js');
-const LoginArrowIn1 = require('./icons/LoginArrowIn1.js');
-const LoginArrowIn2 = require('./icons/LoginArrowIn2.js');
-const LoginArrowIn3 = require('./icons/LoginArrowIn3.js');
-const LoginArrowIn4 = require('./icons/LoginArrowIn4.js');
-const LogoutArrowOut = require('./icons/LogoutArrowOut.js');
-const LogoutArrowOut2 = require('./icons/LogoutArrowOut2.js');
-const LogoutArrowOut3 = require('./icons/LogoutArrowOut3.js');
-const LogoutArrowOut4 = require('./icons/LogoutArrowOut4.js');
-const LupePinLocation = require('./icons/LupePinLocation.js');
-const LupePin2 = require('./icons/LupePin2.js');
-const LupePin3 = require('./icons/LupePin3.js');
-const LupePin4 = require('./icons/LupePin4.js');
-const LupePin5 = require('./icons/LupePin5.js');
-const LupeCheck = require('./icons/LupeCheck.js');
-const LupeMore = require('./icons/LupeMore.js');
-const LupeClose = require('./icons/LupeClose.js');
-const LupeZoomOut = require('./icons/LupeZoomOut.js');
-const LupeSearch2Check = require('./icons/LupeSearch2Check.js');
-const LupeSearchDollar = require('./icons/LupeSearchDollar.js');
-const LupeSearch2More = require('./icons/LupeSearch2More.js');
-const LupeSearch2Close = require('./icons/LupeSearch2Close.js');
-const LupeSearch2ZoomOut = require('./icons/LupeSearch2ZoomOut.js');
-const LupeSearch3Check = require('./icons/LupeSearch3Check.js');
-const LupeSearch3More = require('./icons/LupeSearch3More.js');
-const LupeSearch3Close = require('./icons/LupeSearch3Close.js');
-const LupeSearch3ZoomOut = require('./icons/LupeSearch3ZoomOut.js');
-const LupeSearchReplace1 = require('./icons/LupeSearchReplace1.js');
-const LupeSearchReplace2 = require('./icons/LupeSearchReplace2.js');
-const LupeSearchReplace3 = require('./icons/LupeSearchReplace3.js');
-const LupeSearchReplace4 = require('./icons/LupeSearchReplace4.js');
-const LupeSearchInList1 = require('./icons/LupeSearchInList1.js');
-const LupeSearchInList2 = require('./icons/LupeSearchInList2.js');
-const LupeSearchInList3 = require('./icons/LupeSearchInList3.js');
-const LupeSearchReflex = require('./icons/LupeSearchReflex.js');
-const LupeSearchZoom = require('./icons/LupeSearchZoom.js');
-const LupeSearchZoom2 = require('./icons/LupeSearchZoom2.js');
-const LupeSearchZoom3 = require('./icons/LupeSearchZoom3.js');
-const LupeSearchZoomIn = require('./icons/LupeSearchZoomIn.js');
-const LupeSearchZoomIn2 = require('./icons/LupeSearchZoomIn2.js');
-const LupeSearchZoomIn3 = require('./icons/LupeSearchZoomIn3.js');
-const LupeZoomActual = require('./icons/LupeZoomActual.js');
-const LupeZoomExtend = require('./icons/LupeZoomExtend.js');
-const LupeZoom2Actual = require('./icons/LupeZoom2Actual.js');
-const LupeZoom2Extend = require('./icons/LupeZoom2Extend.js');
-const LupeZoom3Actual = require('./icons/LupeZoom3Actual.js');
-const LupeZoom3Extend = require('./icons/LupeZoom3Extend.js');
-const Mailbox9 = require('./icons/Mailbox9.js');
-const Mailbox1 = require('./icons/Mailbox1.js');
-const Mailbox2 = require('./icons/Mailbox2.js');
-const Mailbox3 = require('./icons/Mailbox3.js');
-const Mailbox4 = require('./icons/Mailbox4.js');
-const Mailbox5 = require('./icons/Mailbox5.js');
-const Mailbox6 = require('./icons/Mailbox6.js');
-const Mailbox79 = require('./icons/Mailbox79.js');
-const Mailbox8 = require('./icons/Mailbox8.js');
-const MenuCircles = require('./icons/MenuCircles.js');
-const MenuSideBar = require('./icons/MenuSideBar.js');
-const MenuSideBarClose = require('./icons/MenuSideBarClose.js');
-const MenuSideBarOpen = require('./icons/MenuSideBarOpen.js');
-const MenuSquared1 = require('./icons/MenuSquared1.js');
-const MenuSquared2 = require('./icons/MenuSquared2.js');
-const MenuStripes = require('./icons/MenuStripes.js');
-const MenuStripes2 = require('./icons/MenuStripes2.js');
-const MenuStripes3 = require('./icons/MenuStripes3.js');
-const MenuHamburger1 = require('./icons/MenuHamburger1.js');
-const MenuHamburger2 = require('./icons/MenuHamburger2.js');
-const MenuHamburgerCircle = require('./icons/MenuHamburgerCircle.js');
-const MenuHamburgerSquare = require('./icons/MenuHamburgerSquare.js');
-const MenuDots1 = require('./icons/MenuDots1.js');
-const MenuDots2 = require('./icons/MenuDots2.js');
-const MenuDots3 = require('./icons/MenuDots3.js');
-const MenuDots4 = require('./icons/MenuDots4.js');
-const MenuThreeStripes1 = require('./icons/MenuThreeStripes1.js');
-const MenuThreeStripes2 = require('./icons/MenuThreeStripes2.js');
-const MenuThreeStripes3 = require('./icons/MenuThreeStripes3.js');
-const MenuThreeStripes4 = require('./icons/MenuThreeStripes4.js');
-const MenuThreeStripes5 = require('./icons/MenuThreeStripes5.js');
-const MenuThreeStripes6 = require('./icons/MenuThreeStripes6.js');
-const MenuThreeStripesCircle = require('./icons/MenuThreeStripesCircle.js');
-const MenuThreeStripesSquare = require('./icons/MenuThreeStripesSquare.js');
-const MenuTop = require('./icons/MenuTop.js');
-const MenuTwoStripes1 = require('./icons/MenuTwoStripes1.js');
-const MinusSignNegative1 = require('./icons/MinusSignNegative1.js');
-const MinusSignNegative2 = require('./icons/MinusSignNegative2.js');
-const MinusSignNegativeCircle1 = require('./icons/MinusSignNegativeCircle1.js');
-const MinusCircle2 = require('./icons/MinusCircle2.js');
-const MinusSquare1 = require('./icons/MinusSquare1.js');
-const MinusSquare2 = require('./icons/MinusSquare2.js');
-const MobilePopUp = require('./icons/MobilePopUp.js');
-const MobileSocialNetwork = require('./icons/MobileSocialNetwork.js');
-const MoveUpDown1 = require('./icons/MoveUpDown1.js');
-const MoveUpDown2 = require('./icons/MoveUpDown2.js');
-const MoveUpDown3 = require('./icons/MoveUpDown3.js');
+const LockKeyholeDot = require('./icons/LockKeyholeDot.js');
+const LockOpenKeyhole = require('./icons/LockOpenKeyhole.js');
+const Lock = require('./icons/Lock.js');
+const LockDots = require('./icons/LockDots.js');
+const LockDotsDash = require('./icons/LockDotsDash.js');
+const LockOpen = require('./icons/LockOpen.js');
+const LockX = require('./icons/LockX.js');
+const LockCheckNarrow = require('./icons/LockCheckNarrow.js');
+const LockOpenCheckNarrow = require('./icons/LockOpenCheckNarrow.js');
+const LockCheckCornerNarrow = require('./icons/LockCheckCornerNarrow.js');
+const LockOpenCheckCornerNarrow = require('./icons/LockOpenCheckCornerNarrow.js');
+const LockEyeNarrow = require('./icons/LockEyeNarrow.js');
+const LockKeyholeNarrow = require('./icons/LockKeyholeNarrow.js');
+const LockKeyholeDotNarrow = require('./icons/LockKeyholeDotNarrow.js');
+const LockOpenKeyholeNarrow = require('./icons/LockOpenKeyholeNarrow.js');
+const LockNarrow = require('./icons/LockNarrow.js');
+const LockDotsNarrow = require('./icons/LockDotsNarrow.js');
+const LockOpenNarrow = require('./icons/LockOpenNarrow.js');
+const LockXNarrow = require('./icons/LockXNarrow.js');
+const LockCheckWide = require('./icons/LockCheckWide.js');
+const LockOpenCheckWide = require('./icons/LockOpenCheckWide.js');
+const LockEyeWide = require('./icons/LockEyeWide.js');
+const LockWide = require('./icons/LockWide.js');
+const LockDotsWide = require('./icons/LockDotsWide.js');
+const LockDotsDashWide = require('./icons/LockDotsDashWide.js');
+const LockOpenWide = require('./icons/LockOpenWide.js');
+const LockXWide = require('./icons/LockXWide.js');
+const LockCheckRound = require('./icons/LockCheckRound.js');
+const LockOpenCheckRound = require('./icons/LockOpenCheckRound.js');
+const LockCheckCornerRound = require('./icons/LockCheckCornerRound.js');
+const LockOpenCheckCornerRound = require('./icons/LockOpenCheckCornerRound.js');
+const LockEyeRound = require('./icons/LockEyeRound.js');
+const LockKeyholeRound = require('./icons/LockKeyholeRound.js');
+const LockKeyholeDotRound = require('./icons/LockKeyholeDotRound.js');
+const LockOpenKeyholeRound = require('./icons/LockOpenKeyholeRound.js');
+const LockRound = require('./icons/LockRound.js');
+const LockOpenRound = require('./icons/LockOpenRound.js');
+const LockXRound = require('./icons/LockXRound.js');
+const LockRefreshLarge = require('./icons/LockRefreshLarge.js');
+const LockRefreshSmall = require('./icons/LockRefreshSmall.js');
+const LockRefresh = require('./icons/LockRefresh.js');
+const LockCircle = require('./icons/LockCircle.js');
+const Login = require('./icons/Login.js');
+const LoginWide = require('./icons/LoginWide.js');
+const LoginCircle = require('./icons/LoginCircle.js');
+const LoginSquare = require('./icons/LoginSquare.js');
+const Logout = require('./icons/Logout.js');
+const LogoutWide = require('./icons/LogoutWide.js');
+const LogoutCircle = require('./icons/LogoutCircle.js');
+const LogoutSquare = require('./icons/LogoutSquare.js');
+const SearchPin = require('./icons/SearchPin.js');
+const SearchPinB = require('./icons/SearchPinB.js');
+const SearchPin2 = require('./icons/SearchPin2.js');
+const PinSearch = require('./icons/PinSearch.js');
+const PinSearch2 = require('./icons/PinSearch2.js');
+const SearchCheck = require('./icons/SearchCheck.js');
+const SearchDots = require('./icons/SearchDots.js');
+const SearchX = require('./icons/SearchX.js');
+const SearchMinus = require('./icons/SearchMinus.js');
+const SearchCheckB = require('./icons/SearchCheckB.js');
+const SearchDollarB = require('./icons/SearchDollarB.js');
+const SearchDotsB = require('./icons/SearchDotsB.js');
+const SearchXB = require('./icons/SearchXB.js');
+const SearchMinusB = require('./icons/SearchMinusB.js');
+const SearchCheckC = require('./icons/SearchCheckC.js');
+const SearchDotsC = require('./icons/SearchDotsC.js');
+const SearchXC = require('./icons/SearchXC.js');
+const SearchMinusC = require('./icons/SearchMinusC.js');
+const SearchSyncB = require('./icons/SearchSyncB.js');
+const SearchSyncDottedB = require('./icons/SearchSyncDottedB.js');
+const SearchSync = require('./icons/SearchSync.js');
+const SearchRefresh = require('./icons/SearchRefresh.js');
+const ListSearchRing = require('./icons/ListSearchRing.js');
+const ListSearchDash = require('./icons/ListSearchDash.js');
+const ListSearch = require('./icons/ListSearch.js');
+const SearchShine = require('./icons/SearchShine.js');
+const Search = require('./icons/Search.js');
+const SearchB = require('./icons/SearchB.js');
+const SearchC = require('./icons/SearchC.js');
+const SearchPlus = require('./icons/SearchPlus.js');
+const SearchPlusB = require('./icons/SearchPlusB.js');
+const SearchPlusC = require('./icons/SearchPlusC.js');
+const SearchOneToOne = require('./icons/SearchOneToOne.js');
+const SearchExpand = require('./icons/SearchExpand.js');
+const SearchOneToOneB = require('./icons/SearchOneToOneB.js');
+const SearchExpandB = require('./icons/SearchExpandB.js');
+const SearchOneToOneC = require('./icons/SearchOneToOneC.js');
+const SearchExpandC = require('./icons/SearchExpandC.js');
+const Mailbox = require('./icons/Mailbox.js');
+const MailboxFlag = require('./icons/MailboxFlag.js');
+const MailboxPost = require('./icons/MailboxPost.js');
+const MailboxPostFlag = require('./icons/MailboxPostFlag.js');
+const MailboxPostFlagSquare = require('./icons/MailboxPostFlagSquare.js');
+const MailboxFlagSquare = require('./icons/MailboxFlagSquare.js');
+const MailboxMail = require('./icons/MailboxMail.js');
+const MailboxFlagBare = require('./icons/MailboxFlagBare.js');
+const MailboxFlagWaving = require('./icons/MailboxFlagWaving.js');
+const MenuGridDots = require('./icons/MenuGridDots.js');
+const MenuPanel = require('./icons/MenuPanel.js');
+const MenuPanelChevronLeft = require('./icons/MenuPanelChevronLeft.js');
+const MenuPanelChevronRight = require('./icons/MenuPanelChevronRight.js');
+const MenuGridSquares = require('./icons/MenuGridSquares.js');
+const MenuGridSquaresSmall = require('./icons/MenuGridSquaresSmall.js');
+const MenuShortBottom = require('./icons/MenuShortBottom.js');
+const MenuDescending = require('./icons/MenuDescending.js');
+const MenuShortMiddle = require('./icons/MenuShortMiddle.js');
+const MenuCompact = require('./icons/MenuCompact.js');
+const Menu = require('./icons/Menu.js');
+const MenuCircle2 = require('./icons/MenuCircle2.js');
+const MenuSquareRounded = require('./icons/MenuSquareRounded.js');
+const DotsVerticalSmall = require('./icons/DotsVerticalSmall.js');
+const DotsVerticalSmallSpaced = require('./icons/DotsVerticalSmallSpaced.js');
+const DotsVertical = require('./icons/DotsVertical.js');
+const DotsVerticalHollow = require('./icons/DotsVerticalHollow.js');
+const MenuDashes = require('./icons/MenuDashes.js');
+const MenuSmall = require('./icons/MenuSmall.js');
+const MenuNarrow = require('./icons/MenuNarrow.js');
+const MenuLarge = require('./icons/MenuLarge.js');
+const MenuPills = require('./icons/MenuPills.js');
+const MenuTight = require('./icons/MenuTight.js');
+const MenuCircle = require('./icons/MenuCircle.js');
+const MenuSquare = require('./icons/MenuSquare.js');
+const MenuPentagon = require('./icons/MenuPentagon.js');
+const MenuTwoLines = require('./icons/MenuTwoLines.js');
+const Minus = require('./icons/Minus.js');
+const MinusSmall = require('./icons/MinusSmall.js');
+const MinusCircle = require('./icons/MinusCircle.js');
+const MinusCircleCompact = require('./icons/MinusCircleCompact.js');
+const MinusSquare = require('./icons/MinusSquare.js');
+const MinusSquareCompact = require('./icons/MinusSquareCompact.js');
+const MobileChat = require('./icons/MobileChat.js');
+const MobileHeart = require('./icons/MobileHeart.js');
+const MoveUpDown = require('./icons/MoveUpDown.js');
+const MoveUpDownChevron = require('./icons/MoveUpDownChevron.js');
+const MoveUpDownChevronSmall = require('./icons/MoveUpDownChevronSmall.js');
 const Music = require('./icons/Music.js');
-const Music1 = require('./icons/Music1.js');
-const Music2 = require('./icons/Music2.js');
-const Music3 = require('./icons/Music3.js');
-const Music4 = require('./icons/Music4.js');
-const Music5 = require('./icons/Music5.js');
-const Music6 = require('./icons/Music6.js');
-const Music7 = require('./icons/Music7.js');
-const Music8 = require('./icons/Music8.js');
-const Music9 = require('./icons/Music9.js');
-const Music10 = require('./icons/Music10.js');
-const Music11 = require('./icons/Music11.js');
-const Music12 = require('./icons/Music12.js');
-const Music13 = require('./icons/Music13.js');
-const NavigationBarMenuArrow = require('./icons/NavigationBarMenuArrow.js');
+const MusicSixteenth = require('./icons/MusicSixteenth.js');
+const MusicRound = require('./icons/MusicRound.js');
+const MusicSixteenthRound = require('./icons/MusicSixteenthRound.js');
+const MusicNoteFlagSquare = require('./icons/MusicNoteFlagSquare.js');
+const MusicNoteFlagWave = require('./icons/MusicNoteFlagWave.js');
+const MusicNoteFlagRound = require('./icons/MusicNoteFlagRound.js');
+const MusicNoteFlagWaveLarge = require('./icons/MusicNoteFlagWaveLarge.js');
+const MusicNoteHook = require('./icons/MusicNoteHook.js');
+const MusicNote = require('./icons/MusicNote.js');
+const MusicNoteCurl = require('./icons/MusicNoteCurl.js');
+const MusicNoteCurlSmall = require('./icons/MusicNoteCurlSmall.js');
+const MusicMultiple = require('./icons/MusicMultiple.js');
+const MusicMultipleMixed = require('./icons/MusicMultipleMixed.js');
+const MenuBarCursor = require('./icons/MenuBarCursor.js');
 const Newspaper = require('./icons/Newspaper.js');
-const Newspaper1 = require('./icons/Newspaper1.js');
-const Newspaper2 = require('./icons/Newspaper2.js');
-const Newspaper3 = require('./icons/Newspaper3.js');
-const Newspaper4 = require('./icons/Newspaper4.js');
-const Newspaper5 = require('./icons/Newspaper5.js');
-const Newspaper6 = require('./icons/Newspaper6.js');
-const Newspaper7 = require('./icons/Newspaper7.js');
-const Newspaper8 = require('./icons/Newspaper8.js');
-const Newspaper9 = require('./icons/Newspaper9.js');
-const Newspaper10 = require('./icons/Newspaper10.js');
-const Newspaper11 = require('./icons/Newspaper11.js');
-const Newspaper12 = require('./icons/Newspaper12.js');
-const ObserverEyeView1 = require('./icons/ObserverEyeView1.js');
-const ObserverEyeView2 = require('./icons/ObserverEyeView2.js');
-const OfflinePinCheck = require('./icons/OfflinePinCheck.js');
-const OnlineShopBrowser = require('./icons/OnlineShopBrowser.js');
-const OnlineShopBrowser2 = require('./icons/OnlineShopBrowser2.js');
-const OnlineShopNotebook = require('./icons/OnlineShopNotebook.js');
-const OnlineShopNotebookAlt = require('./icons/OnlineShopNotebookAlt.js');
-const OnlineShopLaptopBag2 = require('./icons/OnlineShopLaptopBag2.js');
-const OnlineShopLaptopBagAlt = require('./icons/OnlineShopLaptopBagAlt.js');
-const OnlineShopLaptopCart = require('./icons/OnlineShopLaptopCart.js');
-const OnlineShopLaptopCartAlt = require('./icons/OnlineShopLaptopCartAlt.js');
-const OnlineShopMobileCart2 = require('./icons/OnlineShopMobileCart2.js');
-const OnlineShopMobileBag = require('./icons/OnlineShopMobileBag.js');
-const OnlineShopMobileCart = require('./icons/OnlineShopMobileCart.js');
-const OnlineShopLaptopBag = require('./icons/OnlineShopLaptopBag.js');
-const OnlineShopMobileBag2 = require('./icons/OnlineShopMobileBag2.js');
-const OnlineShopDesktopBag = require('./icons/OnlineShopDesktopBag.js');
-const OpenInBrowserUp = require('./icons/OpenInBrowserUp.js');
-const OpenInBrowserUp2 = require('./icons/OpenInBrowserUp2.js');
-const OpenInWindowUp = require('./icons/OpenInWindowUp.js');
-const OpenPaneRight = require('./icons/OpenPaneRight.js');
-const OpenPaneRightAlt = require('./icons/OpenPaneRightAlt.js');
-const OpenPaneRightBold = require('./icons/OpenPaneRightBold.js');
-const OverscanSettings1 = require('./icons/OverscanSettings1.js');
-const OverscanSettings2 = require('./icons/OverscanSettings2.js');
-const OverscanSettings3 = require('./icons/OverscanSettings3.js');
-const PageViewAll = require('./icons/PageViewAll.js');
-const PageViewBadge = require('./icons/PageViewBadge.js');
-const PageViewBadgeAlt = require('./icons/PageViewBadgeAlt.js');
-const PageViewCollection = require('./icons/PageViewCollection.js');
-const PageViewContent = require('./icons/PageViewContent.js');
-const PageViewContent2 = require('./icons/PageViewContent2.js');
-const PageViewList = require('./icons/PageViewList.js');
-const PageViewContinuous = require('./icons/PageViewContinuous.js');
-const PageViewExtraLarge = require('./icons/PageViewExtraLarge.js');
-const PageViewExtraLargeAlt = require('./icons/PageViewExtraLargeAlt.js');
-const PageViewExtraLargeGrid = require('./icons/PageViewExtraLargeGrid.js');
-const PageViewExtraLargeTile = require('./icons/PageViewExtraLargeTile.js');
-const PageViewExtraLargeCompact = require('./icons/PageViewExtraLargeCompact.js');
-const PageViewFull = require('./icons/PageViewFull.js');
-const PageViewFullscreen = require('./icons/PageViewFullscreen.js');
-const PageViewGroupItems1 = require('./icons/PageViewGroupItems1.js');
-const PageViewGroupItems2 = require('./icons/PageViewGroupItems2.js');
-const PageViewIconsDetails1 = require('./icons/PageViewIconsDetails1.js');
-const PageViewIconsDetails2 = require('./icons/PageViewIconsDetails2.js');
-const PageViewIconsThumbnails1 = require('./icons/PageViewIconsThumbnails1.js');
-const PageViewIconsThumbnails2 = require('./icons/PageViewIconsThumbnails2.js');
-const PageViewIconsThumbnails3 = require('./icons/PageViewIconsThumbnails3.js');
-const PageViewImageList = require('./icons/PageViewImageList.js');
-const PageViewListDetails = require('./icons/PageViewListDetails.js');
-const PageViewListThumbnails = require('./icons/PageViewListThumbnails.js');
-const PageViewMultiple = require('./icons/PageViewMultiple.js');
-const PageViewOpenArrowDown1 = require('./icons/PageViewOpenArrowDown1.js');
-const PageViewOpenArrowDown2 = require('./icons/PageViewOpenArrowDown2.js');
-const PageViewOpenArrowDown3 = require('./icons/PageViewOpenArrowDown3.js');
-const PageViewNewTabArrowDown1 = require('./icons/PageViewNewTabArrowDown1.js');
-const PageViewNewTabArrowDown2 = require('./icons/PageViewNewTabArrowDown2.js');
-const PageViewNewTabArrowDown3 = require('./icons/PageViewNewTabArrowDown3.js');
-const PageViewOriginalRatio = require('./icons/PageViewOriginalRatio.js');
-const PageViewOverlappingShow1 = require('./icons/PageViewOverlappingShow1.js');
-const PageViewOverlappingShow2 = require('./icons/PageViewOverlappingShow2.js');
-const PageViewOverlappingShow = require('./icons/PageViewOverlappingShow.js');
-const PageViewOverlappingStatic1 = require('./icons/PageViewOverlappingStatic1.js');
-const PageViewOverlappingStatic2 = require('./icons/PageViewOverlappingStatic2.js');
-const PageViewOverlappingStatic3 = require('./icons/PageViewOverlappingStatic3.js');
-const PageViewOverlappingStatic = require('./icons/PageViewOverlappingStatic.js');
-const PageViewPictureInPicture1 = require('./icons/PageViewPictureInPicture1.js');
-const PageViewPictureInPicture2 = require('./icons/PageViewPictureInPicture2.js');
-const PageViewSingle = require('./icons/PageViewSingle.js');
-const PageViewTiles1 = require('./icons/PageViewTiles1.js');
-const PageViewTiles2 = require('./icons/PageViewTiles2.js');
-const PageViewClose1 = require('./icons/PageViewClose1.js');
-const PageViewClose2 = require('./icons/PageViewClose2.js');
-const PagesLinesTerms = require('./icons/PagesLinesTerms.js');
-const PagesLinesTerms2 = require('./icons/PagesLinesTerms2.js');
-const PaidSearchCoins = require('./icons/PaidSearchCoins.js');
-const PaidSearchDollar1 = require('./icons/PaidSearchDollar1.js');
-const PaidSearchDollar2 = require('./icons/PaidSearchDollar2.js');
-const PaidSearchDollarWindow1 = require('./icons/PaidSearchDollarWindow1.js');
-const PaidSearchDollarWindow2 = require('./icons/PaidSearchDollarWindow2.js');
-const PaidSearchDollarWindow3 = require('./icons/PaidSearchDollarWindow3.js');
-const PaidSearchDollar = require('./icons/PaidSearchDollar.js');
-const PencilEdit1 = require('./icons/PencilEdit1.js');
-const PencilEdit2 = require('./icons/PencilEdit2.js');
-const PencilEdit3 = require('./icons/PencilEdit3.js');
-const PencilEdit4 = require('./icons/PencilEdit4.js');
-const PencilEdit5 = require('./icons/PencilEdit5.js');
-const PencilEdit6 = require('./icons/PencilEdit6.js');
-const PencilEdit7 = require('./icons/PencilEdit7.js');
-const PencilTracing1 = require('./icons/PencilTracing1.js');
-const PencilTracing2 = require('./icons/PencilTracing2.js');
-const PencilTracing3 = require('./icons/PencilTracing3.js');
-const PencilTracing4 = require('./icons/PencilTracing4.js');
-const PencilTracing5 = require('./icons/PencilTracing5.js');
-const PencilTracing6 = require('./icons/PencilTracing6.js');
-const PencilTracing7 = require('./icons/PencilTracing7.js');
-const PyramidHierarchy = require('./icons/PyramidHierarchy.js');
-const PyramidHierarchyUp = require('./icons/PyramidHierarchyUp.js');
-const PlaqueCategory1 = require('./icons/PlaqueCategory1.js');
-const PlaqueCategory2 = require('./icons/PlaqueCategory2.js');
-const Poll1Horizontal = require('./icons/Poll1Horizontal.js');
-const Poll1Vertical = require('./icons/Poll1Vertical.js');
-const Poll2Horizontal = require('./icons/Poll2Horizontal.js');
-const Poll2Vertical = require('./icons/Poll2Vertical.js');
-const Poll3Horizontal = require('./icons/Poll3Horizontal.js');
-const Poll3Vertical = require('./icons/Poll3Vertical.js');
-const Poll4Horizontal = require('./icons/Poll4Horizontal.js');
-const Poll4Vertical = require('./icons/Poll4Vertical.js');
-const Poll5Horizontal = require('./icons/Poll5Horizontal.js');
-const Poll5Vertical = require('./icons/Poll5Vertical.js');
-const Poll6SpeechBubble = require('./icons/Poll6SpeechBubble.js');
-const Poll6VerticalSpeech = require('./icons/Poll6VerticalSpeech.js');
-const Poll7Users = require('./icons/Poll7Users.js');
-const PopUp1 = require('./icons/PopUp1.js');
-const PopUp2 = require('./icons/PopUp2.js');
-const PopUp3 = require('./icons/PopUp3.js');
-const PopUp4 = require('./icons/PopUp4.js');
-const PopUp5 = require('./icons/PopUp5.js');
-const PopUp6 = require('./icons/PopUp6.js');
-const PopUp7 = require('./icons/PopUp7.js');
-const PopUp8 = require('./icons/PopUp8.js');
-const PresentationKeynote = require('./icons/PresentationKeynote.js');
-const PresentationKeynoteFile = require('./icons/PresentationKeynoteFile.js');
-const PresentationKeynoteLayout = require('./icons/PresentationKeynoteLayout.js');
-const ProgressSpinnerLine = require('./icons/ProgressSpinnerLine.js');
-const ProgressSpinnerDoubleLines = require('./icons/ProgressSpinnerDoubleLines.js');
-const ProgressSpinnerDots1 = require('./icons/ProgressSpinnerDots1.js');
-const ProgressSpinnerDots2 = require('./icons/ProgressSpinnerDots2.js');
-const ProgressSpinnerRadiating1 = require('./icons/ProgressSpinnerRadiating1.js');
-const ProgressSpinnerRadiating2 = require('./icons/ProgressSpinnerRadiating2.js');
-const ProgressSpinnerRadiating3 = require('./icons/ProgressSpinnerRadiating3.js');
-const ProgressSpinnerRadiating4 = require('./icons/ProgressSpinnerRadiating4.js');
-const ProgressSpinnerRadiating5 = require('./icons/ProgressSpinnerRadiating5.js');
-const ProgressSpinnerDotted = require('./icons/ProgressSpinnerDotted.js');
+const NewspaperPhoto = require('./icons/NewspaperPhoto.js');
+const NewspaperHeadline = require('./icons/NewspaperHeadline.js');
+const NewspaperTorn = require('./icons/NewspaperTorn.js');
+const NewspaperTornWide = require('./icons/NewspaperTornWide.js');
+const NewspaperCard = require('./icons/NewspaperCard.js');
+const NewspaperCornerFold = require('./icons/NewspaperCornerFold.js');
+const NewspaperStack = require('./icons/NewspaperStack.js');
+const NewspaperTornCurl = require('./icons/NewspaperTornCurl.js');
+const NewspaperTornCurlHeadline = require('./icons/NewspaperTornCurlHeadline.js');
+const NewspaperRolled = require('./icons/NewspaperRolled.js');
+const NewspaperIsometric = require('./icons/NewspaperIsometric.js');
+const NewspaperPhotoLeft = require('./icons/NewspaperPhotoLeft.js');
+const EyeCone = require('./icons/EyeCone.js');
+const EyeConeWide = require('./icons/EyeConeWide.js');
+const CheckUnderlineCircle = require('./icons/CheckUnderlineCircle.js');
+const StoreBrowser = require('./icons/StoreBrowser.js');
+const StoreBrowserDoor = require('./icons/StoreBrowserDoor.js');
+const LaptopStore = require('./icons/LaptopStore.js');
+const LaptopStoreFlat = require('./icons/LaptopStoreFlat.js');
+const LaptopBag = require('./icons/LaptopBag.js');
+const LaptopBagFlat = require('./icons/LaptopBagFlat.js');
+const LaptopCart = require('./icons/LaptopCart.js');
+const LaptopCartFlat = require('./icons/LaptopCartFlat.js');
+const MobileCart = require('./icons/MobileCart.js');
+const MobileBag = require('./icons/MobileBag.js');
+const MobileCartCenter = require('./icons/MobileCartCenter.js');
+const LaptopBagCenterFlat = require('./icons/LaptopBagCenterFlat.js');
+const MobileBagCenter = require('./icons/MobileBagCenter.js');
+const MonitorBag = require('./icons/MonitorBag.js');
+const BrowserArrowUp = require('./icons/BrowserArrowUp.js');
+const WindowArrowUpPlain = require('./icons/WindowArrowUpPlain.js');
+const WindowArrowUp = require('./icons/WindowArrowUp.js');
+const PaneArrowRightStriped = require('./icons/PaneArrowRightStriped.js');
+const PaneArrowRightList = require('./icons/PaneArrowRightList.js');
+const PaneArrowRight = require('./icons/PaneArrowRight.js');
+const Overscan = require('./icons/Overscan.js');
+const OverscanSmall = require('./icons/OverscanSmall.js');
+const OverscanLeftRight = require('./icons/OverscanLeftRight.js');
+const WindowGrid = require('./icons/WindowGrid.js');
+const WindowSeal2 = require('./icons/WindowSeal2.js');
+const WindowSealPlain = require('./icons/WindowSealPlain.js');
+const LayoutGridShapes = require('./icons/LayoutGridShapes.js');
+const LayoutListDotted = require('./icons/LayoutListDotted.js');
+const LayoutList = require('./icons/LayoutList.js');
+const LayoutListSymbols = require('./icons/LayoutListSymbols.js');
+const LayoutContinuous = require('./icons/LayoutContinuous.js');
+const LayoutLargeFlower = require('./icons/LayoutLargeFlower.js');
+const LayoutLargeFlowerSharp = require('./icons/LayoutLargeFlowerSharp.js');
+const LayoutLargeImage = require('./icons/LayoutLargeImage.js');
+const LayoutLargeImageArc = require('./icons/LayoutLargeImageArc.js');
+const LayoutLargeFlowerFramed = require('./icons/LayoutLargeFlowerFramed.js');
+const FullscreenSquare = require('./icons/FullscreenSquare.js');
+const FullscreenSquareSharp = require('./icons/FullscreenSquareSharp.js');
+const SquareStackPlus = require('./icons/SquareStackPlus.js');
+const SquareStackPlusShadow = require('./icons/SquareStackPlusShadow.js');
+const LayoutListDashedDotted = require('./icons/LayoutListDashedDotted.js');
+const LayoutListDashed = require('./icons/LayoutListDashed.js');
+const LayoutGridLabels = require('./icons/LayoutGridLabels.js');
+const LayoutGridImage = require('./icons/LayoutGridImage.js');
+const LayoutGridMixed = require('./icons/LayoutGridMixed.js');
+const LayoutListImage = require('./icons/LayoutListImage.js');
+const LayoutListSymbolsDashed = require('./icons/LayoutListSymbolsDashed.js');
+const LayoutListColumns = require('./icons/LayoutListColumns.js');
+const DocumentMultiple = require('./icons/DocumentMultiple.js');
+const WindowTextDownload = require('./icons/WindowTextDownload.js');
+const WindowListDownload = require('./icons/WindowListDownload.js');
+const WindowDownloadPlain = require('./icons/WindowDownloadPlain.js');
+const TabDownload = require('./icons/TabDownload.js');
+const TabDownloadSplit = require('./icons/TabDownloadSplit.js');
+const TabDownloadSharp = require('./icons/TabDownloadSharp.js');
+const RatioOneToOne = require('./icons/RatioOneToOne.js');
+const WindowOverlapRightDotted = require('./icons/WindowOverlapRightDotted.js');
+const WindowOverlapRightDottedBack = require('./icons/WindowOverlapRightDottedBack.js');
+const WindowOverlapRight = require('./icons/WindowOverlapRight.js');
+const WindowOverlapLeftDotted = require('./icons/WindowOverlapLeftDotted.js');
+const WindowOverlapLeftDottedBack = require('./icons/WindowOverlapLeftDottedBack.js');
+const WindowOverlapLeft = require('./icons/WindowOverlapLeft.js');
+const WindowOverlapRightList = require('./icons/WindowOverlapRightList.js');
+const PictureInPictureTop = require('./icons/PictureInPictureTop.js');
+const PictureInPicture = require('./icons/PictureInPicture.js');
+const Document = require('./icons/Document.js');
+const LayoutTiles = require('./icons/LayoutTiles.js');
+const LayoutTilesEmpty = require('./icons/LayoutTilesEmpty.js');
+const WindowTextXCircle = require('./icons/WindowTextXCircle.js');
+const WindowListXCircle = require('./icons/WindowListXCircle.js');
+const DocumentStack = require('./icons/DocumentStack.js');
+const DocumentStackShadow = require('./icons/DocumentStackShadow.js');
+const CoinStackSearch = require('./icons/CoinStackSearch.js');
+const BanknoteSearch = require('./icons/BanknoteSearch.js');
+const BanknoteSearch2 = require('./icons/BanknoteSearch2.js');
+const BrowserDollarSearch = require('./icons/BrowserDollarSearch.js');
+const BrowserDollarSearchDots = require('./icons/BrowserDollarSearchDots.js');
+const BrowserDollarSearchDots2 = require('./icons/BrowserDollarSearchDots2.js');
+const DollarSearch = require('./icons/DollarSearch.js');
+const Pencil = require('./icons/Pencil.js');
+const PencilPlain = require('./icons/PencilPlain.js');
+const PencilTip = require('./icons/PencilTip.js');
+const PencilCurved = require('./icons/PencilCurved.js');
+const PencilBlunt = require('./icons/PencilBlunt.js');
+const PencilDetailed = require('./icons/PencilDetailed.js');
+const PencilAngular = require('./icons/PencilAngular.js');
+const PencilUnderline = require('./icons/PencilUnderline.js');
+const PencilUnderlinePlain = require('./icons/PencilUnderlinePlain.js');
+const PencilUnderlineTip = require('./icons/PencilUnderlineTip.js');
+const PencilUnderlineCurved = require('./icons/PencilUnderlineCurved.js');
+const PencilUnderlineBlunt = require('./icons/PencilUnderlineBlunt.js');
+const PencilUnderlineDetailed = require('./icons/PencilUnderlineDetailed.js');
+const PencilUnderlineAngular = require('./icons/PencilUnderlineAngular.js');
+const Pyramid = require('./icons/Pyramid.js');
+const PyramidArrowUp = require('./icons/PyramidArrowUp.js');
+const Plaque = require('./icons/Plaque.js');
+const PlaqueTight = require('./icons/PlaqueTight.js');
+const PollHorizontalSquare = require('./icons/PollHorizontalSquare.js');
+const PollSquare = require('./icons/PollSquare.js');
+const PollHorizontalPercent = require('./icons/PollHorizontalPercent.js');
+const PollPercent = require('./icons/PollPercent.js');
+const PollHorizontalCheckbox = require('./icons/PollHorizontalCheckbox.js');
+const PollCheckbox = require('./icons/PollCheckbox.js');
+const PollHorizontalPlusMinus = require('./icons/PollHorizontalPlusMinus.js');
+const PollPlusMinus = require('./icons/PollPlusMinus.js');
+const PollHorizontalCheckX = require('./icons/PollHorizontalCheckX.js');
+const PollCheckX = require('./icons/PollCheckX.js');
+const PollHorizontalChat = require('./icons/PollHorizontalChat.js');
+const PollChat = require('./icons/PollChat.js');
+const PollUser = require('./icons/PollUser.js');
+const Popover = require('./icons/Popover.js');
+const PopoverBig = require('./icons/PopoverBig.js');
+const PopoverList = require('./icons/PopoverList.js');
+const PopoverListBig = require('./icons/PopoverListBig.js');
+const PopoverUp = require('./icons/PopoverUp.js');
+const PopoverUpBig = require('./icons/PopoverUpBig.js');
+const PopoverListUp = require('./icons/PopoverListUp.js');
+const PopoverListUpBig = require('./icons/PopoverListUpBig.js');
+const Presentation = require('./icons/Presentation.js');
+const PresentationFile = require('./icons/PresentationFile.js');
+const PresentationChart = require('./icons/PresentationChart.js');
+const Spinner = require('./icons/Spinner.js');
+const SpinnerSplit = require('./icons/SpinnerSplit.js');
+const SpinnerDots = require('./icons/SpinnerDots.js');
+const SpinnerDotsFade = require('./icons/SpinnerDotsFade.js');
+const SpinnerRaysLong = require('./icons/SpinnerRaysLong.js');
+const SpinnerRays2 = require('./icons/SpinnerRays2.js');
+const SpinnerRays = require('./icons/SpinnerRays.js');
+const SpinnerRaysShort = require('./icons/SpinnerRaysShort.js');
+const SpinnerRaysFade = require('./icons/SpinnerRaysFade.js');
+const SpinnerRaysDotted = require('./icons/SpinnerRaysDotted.js');
 const Puzzle = require('./icons/Puzzle.js');
-const Puzzle1 = require('./icons/Puzzle1.js');
-const Puzzle2 = require('./icons/Puzzle2.js');
-const Puzzle3 = require('./icons/Puzzle3.js');
-const Puzzle4 = require('./icons/Puzzle4.js');
-const QuestionAnswerSpeechBubbles2 = require('./icons/QuestionAnswerSpeechBubbles2.js');
-const QuestionMarkCircleHelp1 = require('./icons/QuestionMarkCircleHelp1.js');
-const QuestionMarkCircleHelp2 = require('./icons/QuestionMarkCircleHelp2.js');
-const QuestionMarkSquareHelp1 = require('./icons/QuestionMarkSquareHelp1.js');
-const QuestionMarkSquareHelp2 = require('./icons/QuestionMarkSquareHelp2.js');
-const QuestionMarkSquareStack1 = require('./icons/QuestionMarkSquareStack1.js');
-const QuestionMarkSquareStack2 = require('./icons/QuestionMarkSquareStack2.js');
-const QuestionMarkSquareStack3 = require('./icons/QuestionMarkSquareStack3.js');
-const QuestionsAnswersSpeechBubbles = require('./icons/QuestionsAnswersSpeechBubbles.js');
-const RectangleArrowAdvertising = require('./icons/RectangleArrowAdvertising.js');
-const RectangleArrowOpenPopUp2 = require('./icons/RectangleArrowOpenPopUp2.js');
-const RectangleArrowOpenPopUp3 = require('./icons/RectangleArrowOpenPopUp3.js');
-const ReplaceExchange = require('./icons/ReplaceExchange.js');
-const ReplaceExchange2 = require('./icons/ReplaceExchange2.js');
-const ReplaceExchange3 = require('./icons/ReplaceExchange3.js');
-const ReplaceExchange4 = require('./icons/ReplaceExchange4.js');
-const ReplyArrow = require('./icons/ReplyArrow.js');
-const RestoreArrowClockwise1 = require('./icons/RestoreArrowClockwise1.js');
-const RestoreArrowClockwise2 = require('./icons/RestoreArrowClockwise2.js');
-const RestoreArrowCounterclockwise1 = require('./icons/RestoreArrowCounterclockwise1.js');
-const RestoreArrowCounterclockwise2 = require('./icons/RestoreArrowCounterclockwise2.js');
-const RestoredTwoArrowsClockwise = require('./icons/RestoredTwoArrowsClockwise.js');
-const RestoredTwoArrowsCounterclockwise = require('./icons/RestoredTwoArrowsCounterclockwise.js');
-const RotateScreen1 = require('./icons/RotateScreen1.js');
-const RotateScreen2 = require('./icons/RotateScreen2.js');
-const RotateScreen3 = require('./icons/RotateScreen3.js');
-const RotateScreen4 = require('./icons/RotateScreen4.js');
-const RotateScreen5 = require('./icons/RotateScreen5.js');
-const RotateScreen6 = require('./icons/RotateScreen6.js');
-const RotatedSquareAlert = require('./icons/RotatedSquareAlert.js');
-const RotatedSquareDown = require('./icons/RotatedSquareDown.js');
-const RotatedSquareMedium = require('./icons/RotatedSquareMedium.js');
-const SaveAllFloppyStack = require('./icons/SaveAllFloppyStack.js');
-const SaveAllFloppyStack2 = require('./icons/SaveAllFloppyStack2.js');
-const SaveAllFloppyStack3 = require('./icons/SaveAllFloppyStack3.js');
-const SaveDisk = require('./icons/SaveDisk.js');
-const SaveFloppyArrowIn = require('./icons/SaveFloppyArrowIn.js');
-const SaveFloppyCheck = require('./icons/SaveFloppyCheck.js');
-const SaveDiskCheck = require('./icons/SaveDiskCheck.js');
-const SaveDiskMenu = require('./icons/SaveDiskMenu.js');
-const SaveDiskRemove = require('./icons/SaveDiskRemove.js');
-const SaveDiskAdd = require('./icons/SaveDiskAdd.js');
-const SaveDiskClose = require('./icons/SaveDiskClose.js');
-const SaveDiskClock = require('./icons/SaveDiskClock.js');
-const SaveDiskForbidden = require('./icons/SaveDiskForbidden.js');
-const SaveDiskDelete = require('./icons/SaveDiskDelete.js');
-const SaveDiskEdit1 = require('./icons/SaveDiskEdit1.js');
-const SaveDiskEdit2 = require('./icons/SaveDiskEdit2.js');
-const SaveDiskPlus = require('./icons/SaveDiskPlus.js');
-const SaveDiskClose2 = require('./icons/SaveDiskClose2.js');
-const SaveDisk2 = require('./icons/SaveDisk2.js');
-const SaveDisk3 = require('./icons/SaveDisk3.js');
-const SaveFolderDown = require('./icons/SaveFolderDown.js');
-const SaveFolderDown2 = require('./icons/SaveFolderDown2.js');
-const SaveSquareDown = require('./icons/SaveSquareDown.js');
+const PuzzleNotched = require('./icons/PuzzleNotched.js');
+const PuzzleKnobs = require('./icons/PuzzleKnobs.js');
+const PuzzleGrid = require('./icons/PuzzleGrid.js');
+const PuzzleGridMissing = require('./icons/PuzzleGridMissing.js');
+const QuestionAnswer = require('./icons/QuestionAnswer.js');
+const QuestionCircle = require('./icons/QuestionCircle.js');
+const QuestionCircleSmall = require('./icons/QuestionCircleSmall.js');
+const QuestionSquare = require('./icons/QuestionSquare.js');
+const QuestionSquareSmall = require('./icons/QuestionSquareSmall.js');
+const QuestionSquareStack = require('./icons/QuestionSquareStack.js');
+const QuestionSquareStackOverlap = require('./icons/QuestionSquareStackOverlap.js');
+const QuestionSquareStackLeft = require('./icons/QuestionSquareStackLeft.js');
+const QuestionAnswerOverlap = require('./icons/QuestionAnswerOverlap.js');
+const PaneArrowUpRight = require('./icons/PaneArrowUpRight.js');
+const WindowArrowUpTall = require('./icons/WindowArrowUpTall.js');
+const WindowStackArrowUpRight = require('./icons/WindowStackArrowUpRight.js');
+const Replace = require('./icons/Replace.js');
+const ReplaceCircles = require('./icons/ReplaceCircles.js');
+const ReplaceCirclesVertical = require('./icons/ReplaceCirclesVertical.js');
+const ReplaceDots = require('./icons/ReplaceDots.js');
+const Reply = require('./icons/Reply.js');
+const RestoreClockwise = require('./icons/RestoreClockwise.js');
+const RestoreClockwiseBottom = require('./icons/RestoreClockwiseBottom.js');
+const RestoreCounterclockwise = require('./icons/RestoreCounterclockwise.js');
+const RestoreCounterclockwiseBottom = require('./icons/RestoreCounterclockwiseBottom.js');
+const RestoreSyncClockwise = require('./icons/RestoreSyncClockwise.js');
+const RestoreSyncCounterclockwise = require('./icons/RestoreSyncCounterclockwise.js');
+const RotateScreen = require('./icons/RotateScreen.js');
+const RotateScreenHome = require('./icons/RotateScreenHome.js');
+const RotateScreenBezel = require('./icons/RotateScreenBezel.js');
+const RotateScreenSpeaker = require('./icons/RotateScreenSpeaker.js');
+const RotateScreenTabLeft = require('./icons/RotateScreenTabLeft.js');
+const RotateScreenTabRight = require('./icons/RotateScreenTabRight.js');
+const AlertDiamond = require('./icons/AlertDiamond.js');
+const ArrowDownDiamond = require('./icons/ArrowDownDiamond.js');
+const DotsDiamond = require('./icons/DotsDiamond.js');
+const SaveStack = require('./icons/SaveStack.js');
+const SaveLabelStack = require('./icons/SaveLabelStack.js');
+const SaveStackDownLeft = require('./icons/SaveStackDownLeft.js');
+const Save = require('./icons/Save.js');
+const SaveArrowRight = require('./icons/SaveArrowRight.js');
+const SaveCheck = require('./icons/SaveCheck.js');
+const SaveCheckCircle = require('./icons/SaveCheckCircle.js');
+const SaveDotsCircle = require('./icons/SaveDotsCircle.js');
+const SaveMinusCircle = require('./icons/SaveMinusCircle.js');
+const SavePlusCircle = require('./icons/SavePlusCircle.js');
+const SaveXCircle = require('./icons/SaveXCircle.js');
+const SaveClock = require('./icons/SaveClock.js');
+const SaveBan = require('./icons/SaveBan.js');
+const SaveMinus = require('./icons/SaveMinus.js');
+const SaveEdit = require('./icons/SaveEdit.js');
+const SaveEdit2 = require('./icons/SaveEdit2.js');
+const SavePlus = require('./icons/SavePlus.js');
+const SaveX = require('./icons/SaveX.js');
+const SaveLabel = require('./icons/SaveLabel.js');
+const SaveHub = require('./icons/SaveHub.js');
+const FolderOpenDownload = require('./icons/FolderOpenDownload.js');
+const FolderOpenDownloadCenter = require('./icons/FolderOpenDownloadCenter.js');
+const DownloadSquareOpenPlain = require('./icons/DownloadSquareOpenPlain.js');
+const SaveFolder = require('./icons/SaveFolder.js');
 const SaveSearch = require('./icons/SaveSearch.js');
-const SaveSearchMagnify = require('./icons/SaveSearchMagnify.js');
-const SaveSearchDisk = require('./icons/SaveSearchDisk.js');
-const SaveSearchDisk2 = require('./icons/SaveSearchDisk2.js');
-const SaveSearchFavorite = require('./icons/SaveSearchFavorite.js');
 const SaveSearch2 = require('./icons/SaveSearch2.js');
-const SaveSearchLongHandle = require('./icons/SaveSearchLongHandle.js');
-const Scan1 = require('./icons/Scan1.js');
-const ScanRescan1 = require('./icons/ScanRescan1.js');
-const Scan2 = require('./icons/Scan2.js');
-const ScanRescan2 = require('./icons/ScanRescan2.js');
-const Scanner3 = require('./icons/Scanner3.js');
-const ScanRescan3 = require('./icons/ScanRescan3.js');
-const Scanner4 = require('./icons/Scanner4.js');
-const ScannerRescan4 = require('./icons/ScannerRescan4.js');
-const Scanner5 = require('./icons/Scanner5.js');
-const ScannerRescan5 = require('./icons/ScannerRescan5.js');
-const ScreenshotDashed = require('./icons/ScreenshotDashed.js');
-const ScreenshotDashed2 = require('./icons/ScreenshotDashed2.js');
+const SaveSearchLarge = require('./icons/SaveSearchLarge.js');
+const ListStar = require('./icons/ListStar.js');
+const SearchDownload = require('./icons/SearchDownload.js');
+const SearchDownloadLong = require('./icons/SearchDownloadLong.js');
+const ScannerPaper = require('./icons/ScannerPaper.js');
+const ScannerRefreshPaper = require('./icons/ScannerRefreshPaper.js');
+const Scanner = require('./icons/Scanner.js');
+const ScannerRefresh = require('./icons/ScannerRefresh.js');
+const ScannerFront = require('./icons/ScannerFront.js');
+const ScannerRefreshFront = require('./icons/ScannerRefreshFront.js');
+const ScannerBox = require('./icons/ScannerBox.js');
+const ScannerRefreshBox = require('./icons/ScannerRefreshBox.js');
+const ScannerRound = require('./icons/ScannerRound.js');
+const ScannerRefreshRound = require('./icons/ScannerRefreshRound.js');
+const ScreenshotPlus = require('./icons/ScreenshotPlus.js');
+const ScreenshotAreaPlus = require('./icons/ScreenshotAreaPlus.js');
 const ScreenshotCamera = require('./icons/ScreenshotCamera.js');
-const ScreenshotCamera2 = require('./icons/ScreenshotCamera2.js');
-const ScreensharingComputers = require('./icons/ScreensharingComputers.js');
-const ScreensharingArrows = require('./icons/ScreensharingArrows.js');
-const ScreensharingDisabled1 = require('./icons/ScreensharingDisabled1.js');
-const ScreensharingDisabled2 = require('./icons/ScreensharingDisabled2.js');
-const ScreensharingLaptop = require('./icons/ScreensharingLaptop.js');
-const ScreensharingLaptopLineOut = require('./icons/ScreensharingLaptopLineOut.js');
-const ScreensharingLaptopError = require('./icons/ScreensharingLaptopError.js');
-const ScreensharingRectangles1 = require('./icons/ScreensharingRectangles1.js');
-const ScreensharingRectanglesBarDisabled = require('./icons/ScreensharingRectanglesBarDisabled.js');
-const ScreensharingRectangles2 = require('./icons/ScreensharingRectangles2.js');
+const ScreenshotCameraPlus = require('./icons/ScreenshotCameraPlus.js');
+const ScreenShare = require('./icons/ScreenShare.js');
+const ScreenShareArrows = require('./icons/ScreenShareArrows.js');
+const ScreenShareX = require('./icons/ScreenShareX.js');
+const ScreenShareXDouble = require('./icons/ScreenShareXDouble.js');
+const ScreenShareLaptop = require('./icons/ScreenShareLaptop.js');
+const LaptopArrowUpRight = require('./icons/LaptopArrowUpRight.js');
+const ScreenShareLaptopX = require('./icons/ScreenShareLaptopX.js');
+const ScreenShareWindows = require('./icons/ScreenShareWindows.js');
+const ScreenShareWindowsOff = require('./icons/ScreenShareWindowsOff.js');
+const ScreenShareWindowsDots = require('./icons/ScreenShareWindowsDots.js');
+const ScrollNarrow = require('./icons/ScrollNarrow.js');
 const Scroll = require('./icons/Scroll.js');
-const Scroll1 = require('./icons/Scroll1.js');
-const Scroll2 = require('./icons/Scroll2.js');
-const Scroll3 = require('./icons/Scroll3.js');
-const SearchWindowLupe1 = require('./icons/SearchWindowLupe1.js');
-const SearchWindowLupe2 = require('./icons/SearchWindowLupe2.js');
-const SearchBrowserLupe1 = require('./icons/SearchBrowserLupe1.js');
-const SearchBrowserLupe2 = require('./icons/SearchBrowserLupe2.js');
-const Selfie1 = require('./icons/Selfie1.js');
-const Selfie2 = require('./icons/Selfie2.js');
-const Selfie3 = require('./icons/Selfie3.js');
-const Selfie4 = require('./icons/Selfie4.js');
-const Selfie5 = require('./icons/Selfie5.js');
-const Selfie6 = require('./icons/Selfie6.js');
-const SequenceRectangles = require('./icons/SequenceRectangles.js');
-const ShareArrow = require('./icons/ShareArrow.js');
-const ShareArrowBox = require('./icons/ShareArrowBox.js');
-const ShareConnect1 = require('./icons/ShareConnect1.js');
-const ShareConnect2 = require('./icons/ShareConnect2.js');
-const ShoppingBag1 = require('./icons/ShoppingBag1.js');
-const ShoppingBag2 = require('./icons/ShoppingBag2.js');
-const ShoppingBag3 = require('./icons/ShoppingBag3.js');
-const ShoppingBag4 = require('./icons/ShoppingBag4.js');
-const ShoppingBag5 = require('./icons/ShoppingBag5.js');
-const ShoppingBag6 = require('./icons/ShoppingBag6.js');
-const ShoppingBag7 = require('./icons/ShoppingBag7.js');
-const ShoppingBag8 = require('./icons/ShoppingBag8.js');
-const ShoppingBag9 = require('./icons/ShoppingBag9.js');
-const ShoppingBasket1 = require('./icons/ShoppingBasket1.js');
-const ShoppingBasket2 = require('./icons/ShoppingBasket2.js');
-const ShoppingBasket3 = require('./icons/ShoppingBasket3.js');
-const SidebarMenu1 = require('./icons/SidebarMenu1.js');
-const SidebarMenu2 = require('./icons/SidebarMenu2.js');
-const SidebarMenu3 = require('./icons/SidebarMenu3.js');
-const SidebarMenu4 = require('./icons/SidebarMenu4.js');
-const SidebarMenu5 = require('./icons/SidebarMenu5.js');
-const SignalCellTower1 = require('./icons/SignalCellTower1.js');
-const SignalCellTower2 = require('./icons/SignalCellTower2.js');
-const SignalCellTower3 = require('./icons/SignalCellTower3.js');
-const SignalCellTower4 = require('./icons/SignalCellTower4.js');
-const SignalWaveConcentric1 = require('./icons/SignalWaveConcentric1.js');
-const SignalWaveConcentric2 = require('./icons/SignalWaveConcentric2.js');
-const SirenAlert = require('./icons/SirenAlert.js');
-const SirenAlert2 = require('./icons/SirenAlert2.js');
-const SkipLineOver1 = require('./icons/SkipLineOver1.js');
-const SkipLineOver2 = require('./icons/SkipLineOver2.js');
-const SkipLineOver3 = require('./icons/SkipLineOver3.js');
-const SliderLevelControl1 = require('./icons/SliderLevelControl1.js');
-const SliderLevel2 = require('./icons/SliderLevel2.js');
-const SliderLevel3 = require('./icons/SliderLevel3.js');
-const SliderLevel4 = require('./icons/SliderLevel4.js');
-const SquareArrowDown = require('./icons/SquareArrowDown.js');
-const SquareArrowDownLeft = require('./icons/SquareArrowDownLeft.js');
-const SquareArrowDownRight = require('./icons/SquareArrowDownRight.js');
-const SquareArrowLeft = require('./icons/SquareArrowLeft.js');
-const SquareArrowRight = require('./icons/SquareArrowRight.js');
-const SquareArrowUp = require('./icons/SquareArrowUp.js');
-const SquareArrowUpLeft = require('./icons/SquareArrowUpLeft.js');
-const SquareArrowUpRight = require('./icons/SquareArrowUpRight.js');
-const SquaresFourGrid1 = require('./icons/SquaresFourGrid1.js');
-const SquaresFourGrid2 = require('./icons/SquaresFourGrid2.js');
-const StarFavorite1 = require('./icons/StarFavorite1.js');
-const StarFavorite1Striped = require('./icons/StarFavorite1Striped.js');
-const StarFavorite2 = require('./icons/StarFavorite2.js');
-const StarFavorite2Striped = require('./icons/StarFavorite2Striped.js');
-const StarRating3 = require('./icons/StarRating3.js');
-const StarFilledStripes = require('./icons/StarFilledStripes.js');
-const StarSmileFace = require('./icons/StarSmileFace.js');
-const StarAddFavorite1 = require('./icons/StarAddFavorite1.js');
-const StarAddFavorite2 = require('./icons/StarAddFavorite2.js');
-const StarAddFavorite3 = require('./icons/StarAddFavorite3.js');
-const SubmitArrowCheck1 = require('./icons/SubmitArrowCheck1.js');
-const SubmitArrowCheck2 = require('./icons/SubmitArrowCheck2.js');
-const SubmitArrowCheck3 = require('./icons/SubmitArrowCheck3.js');
+const ScrollTextNarrow = require('./icons/ScrollTextNarrow.js');
+const ScrollText = require('./icons/ScrollText.js');
+const WindowSearchPlain = require('./icons/WindowSearchPlain.js');
+const WindowSearchDots = require('./icons/WindowSearchDots.js');
+const BrowserSearch = require('./icons/BrowserSearch.js');
+const BrowserSearchPlain = require('./icons/BrowserSearchPlain.js');
+const Selfie = require('./icons/Selfie.js');
+const SelfieBezel = require('./icons/SelfieBezel.js');
+const SelfieCamera = require('./icons/SelfieCamera.js');
+const SelfieButton = require('./icons/SelfieButton.js');
+const SelfieNotch = require('./icons/SelfieNotch.js');
+const SelfieSquare = require('./icons/SelfieSquare.js');
+const SquareStack = require('./icons/SquareStack.js');
+const ShareCorner = require('./icons/ShareCorner.js');
+const ShareSquare = require('./icons/ShareSquare.js');
+const ShareNodes = require('./icons/ShareNodes.js');
+const ShareNodesLarge = require('./icons/ShareNodesLarge.js');
+const Bag = require('./icons/Bag.js');
+const BagSmile = require('./icons/BagSmile.js');
+const BagPouch = require('./icons/BagPouch.js');
+const BagRound = require('./icons/BagRound.js');
+const BagTapered = require('./icons/BagTapered.js');
+const BagSide = require('./icons/BagSide.js');
+const BagTaperedDots = require('./icons/BagTaperedDots.js');
+const BagSmileTapered = require('./icons/BagSmileTapered.js');
+const BagFlared = require('./icons/BagFlared.js');
+const Basket = require('./icons/Basket.js');
+const BasketBar = require('./icons/BasketBar.js');
+const BasketGrid = require('./icons/BasketGrid.js');
+const WindowMenu = require('./icons/WindowMenu.js');
+const WindowMenuPlain = require('./icons/WindowMenuPlain.js');
+const WindowMenuListPlain = require('./icons/WindowMenuListPlain.js');
+const SidebarMenu = require('./icons/SidebarMenu.js');
+const MenuListSquare = require('./icons/MenuListSquare.js');
+const Antenna = require('./icons/Antenna.js');
+const AntennaBraced = require('./icons/AntennaBraced.js');
+const AntennaSides = require('./icons/AntennaSides.js');
+const AntennaTop = require('./icons/AntennaTop.js');
+const SignalArcs = require('./icons/SignalArcs.js');
+const SignalArcsDot = require('./icons/SignalArcsDot.js');
+const Siren = require('./icons/Siren.js');
+const SirenFlat = require('./icons/SirenFlat.js');
+const Skip = require('./icons/Skip.js');
+const SkipX = require('./icons/SkipX.js');
+const SkipCircles = require('./icons/SkipCircles.js');
+const SliderPointer = require('./icons/SliderPointer.js');
+const SliderPointerTrack = require('./icons/SliderPointerTrack.js');
+const Slider = require('./icons/Slider.js');
+const SliderTrack = require('./icons/SliderTrack.js');
+const ArrowDownSquare = require('./icons/ArrowDownSquare.js');
+const ArrowDownLeftSquare = require('./icons/ArrowDownLeftSquare.js');
+const ArrowDownRightSquare = require('./icons/ArrowDownRightSquare.js');
+const ArrowLeftSquare = require('./icons/ArrowLeftSquare.js');
+const ArrowRightSquare = require('./icons/ArrowRightSquare.js');
+const ArrowUpSquare = require('./icons/ArrowUpSquare.js');
+const ArrowUpLeftSquare = require('./icons/ArrowUpLeftSquare.js');
+const ArrowUpRightSquare = require('./icons/ArrowUpRightSquare.js');
+const Grid = require('./icons/Grid.js');
+const GridRounded = require('./icons/GridRounded.js');
+const Star = require('./icons/Star.js');
+const StarStriped = require('./icons/StarStriped.js');
+const StarWide = require('./icons/StarWide.js');
+const StarStripedWide = require('./icons/StarStripedWide.js');
+const StarRound = require('./icons/StarRound.js');
+const StarStripedRound = require('./icons/StarStripedRound.js');
+const StarHappy = require('./icons/StarHappy.js');
+const StarPlus = require('./icons/StarPlus.js');
+const StarPlusCenter = require('./icons/StarPlusCenter.js');
+const StarPlusRound = require('./icons/StarPlusRound.js');
+const Submit = require('./icons/Submit.js');
+const SubmitOpen = require('./icons/SubmitOpen.js');
+const SubmitSquare = require('./icons/SubmitSquare.js');
+const SunStar = require('./icons/SunStar.js');
+const SunScalloped = require('./icons/SunScalloped.js');
+const SunSpiky = require('./icons/SunSpiky.js');
+const SunPointed = require('./icons/SunPointed.js');
+const SunPointedLong = require('./icons/SunPointedLong.js');
+const SunPointedShort = require('./icons/SunPointedShort.js');
+const SunWavy = require('./icons/SunWavy.js');
+const SunJagged = require('./icons/SunJagged.js');
+const SunCurved = require('./icons/SunCurved.js');
+const SunFaceted = require('./icons/SunFaceted.js');
 const Sun = require('./icons/Sun.js');
-const Sun1 = require('./icons/Sun1.js');
-const Sun2 = require('./icons/Sun2.js');
-const Sun3 = require('./icons/Sun3.js');
-const Sun4 = require('./icons/Sun4.js');
-const Sun5 = require('./icons/Sun5.js');
-const Sun6 = require('./icons/Sun6.js');
-const Sun79 = require('./icons/Sun79.js');
-const Sun8 = require('./icons/Sun8.js');
-const Sun9 = require('./icons/Sun9.js');
-const SunBrightA = require('./icons/SunBrightA.js');
-const SunBrightness12 = require('./icons/SunBrightness12.js');
-const SunBrightness1 = require('./icons/SunBrightness1.js');
-const SunBrightness1A = require('./icons/SunBrightness1A.js');
-const SunBrightness1B = require('./icons/SunBrightness1B.js');
-const SunBrightness1C = require('./icons/SunBrightness1C.js');
-const SunBrightnessSettings = require('./icons/SunBrightnessSettings.js');
-const SunBrightness2 = require('./icons/SunBrightness2.js');
-const SunBrightness2A = require('./icons/SunBrightness2A.js');
-const SunBrightness2B = require('./icons/SunBrightness2B.js');
-const SunBrightness2C = require('./icons/SunBrightness2C.js');
-const SunBrightness3 = require('./icons/SunBrightness3.js');
-const SunBrightness3A = require('./icons/SunBrightness3A.js');
-const SunBrightness3B = require('./icons/SunBrightness3B.js');
-const SunBrightness4A = require('./icons/SunBrightness4A.js');
-const SunBrightness4B = require('./icons/SunBrightness4B.js');
-const SunBrightness4C = require('./icons/SunBrightness4C.js');
-const SunBrightness4D = require('./icons/SunBrightness4D.js');
-const SunBrightness5A = require('./icons/SunBrightness5A.js');
-const SunBrightness5B = require('./icons/SunBrightness5B.js');
-const SunBrightness5C = require('./icons/SunBrightness5C.js');
-const SunBrightness5D = require('./icons/SunBrightness5D.js');
-const SunBrightness6A = require('./icons/SunBrightness6A.js');
-const SunBrightness6B = require('./icons/SunBrightness6B.js');
-const SunBrightness6C = require('./icons/SunBrightness6C.js');
-const SunBrightness7A = require('./icons/SunBrightness7A.js');
-const SunBrightness7B9 = require('./icons/SunBrightness7B9.js');
-const SunBrightness7C = require('./icons/SunBrightness7C.js');
-const SunBrightnessB = require('./icons/SunBrightnessB.js');
-const SunBrightnessC = require('./icons/SunBrightnessC.js');
-const SunBrightnessD = require('./icons/SunBrightnessD.js');
-const SunBrightnessSquare1 = require('./icons/SunBrightnessSquare1.js');
-const SunBrightnessSquare2 = require('./icons/SunBrightnessSquare2.js');
-const SunGearSettings1 = require('./icons/SunGearSettings1.js');
-const SunGearSettings2 = require('./icons/SunGearSettings2.js');
-const SunGearSettings4 = require('./icons/SunGearSettings4.js');
-const SwitchButtonOff = require('./icons/SwitchButtonOff.js');
-const SwitchButtonOff2 = require('./icons/SwitchButtonOff2.js');
-const SwitchButtonOn = require('./icons/SwitchButtonOn.js');
-const SwitchButtonOn2 = require('./icons/SwitchButtonOn2.js');
-const SwitchKnobButton = require('./icons/SwitchKnobButton.js');
-const SwitchKnobButton2 = require('./icons/SwitchKnobButton2.js');
-const SwitchKnobButton3 = require('./icons/SwitchKnobButton3.js');
-const SwitchKnobButton4 = require('./icons/SwitchKnobButton4.js');
-const SwitchThreePositions = require('./icons/SwitchThreePositions.js');
-const SwitchThreePositionsSecond = require('./icons/SwitchThreePositionsSecond.js');
-const SwitchThreePositionsThird = require('./icons/SwitchThreePositionsThird.js');
-const SwitchToggle1 = require('./icons/SwitchToggle1.js');
-const SwitchToggle2 = require('./icons/SwitchToggle2.js');
-const SwitchToggle3 = require('./icons/SwitchToggle3.js');
-const SwitchToggleButtonOnStripes = require('./icons/SwitchToggleButtonOnStripes.js');
-const SwitchToggleButtonIntermediate = require('./icons/SwitchToggleButtonIntermediate.js');
-const SwitchToggleButtonOff = require('./icons/SwitchToggleButtonOff.js');
-const SwitchToggleButtonOn = require('./icons/SwitchToggleButtonOn.js');
-const SwitchToggleButtonOnDots = require('./icons/SwitchToggleButtonOnDots.js');
-const SwitchToggleIntermediate = require('./icons/SwitchToggleIntermediate.js');
-const SwitchToggleOff2 = require('./icons/SwitchToggleOff2.js');
-const SwitchToggleOn2 = require('./icons/SwitchToggleOn2.js');
-const SwitchToggleOff3 = require('./icons/SwitchToggleOff3.js');
-const SwitchToggleOn3 = require('./icons/SwitchToggleOn3.js');
-const SwitchToggleOnDots = require('./icons/SwitchToggleOnDots.js');
-const SwitchToggleOnStripes = require('./icons/SwitchToggleOnStripes.js');
-const SwitchToggleOff4 = require('./icons/SwitchToggleOff4.js');
-const SwitchToggleOn4 = require('./icons/SwitchToggleOn4.js');
-const SwitchToggleOnOff = require('./icons/SwitchToggleOnOff.js');
-const SwitchTwoButtonsToggle = require('./icons/SwitchTwoButtonsToggle.js');
-const SwitchPositionOff1 = require('./icons/SwitchPositionOff1.js');
-const SwitchPositionOff2 = require('./icons/SwitchPositionOff2.js');
-const SwitchPositionOn1 = require('./icons/SwitchPositionOn1.js');
-const SwitchPositionOn2 = require('./icons/SwitchPositionOn2.js');
-const SynchSettingsArrows = require('./icons/SynchSettingsArrows.js');
-const SynchSettingsArrows2 = require('./icons/SynchSettingsArrows2.js');
-const SystemDiagnosticClipboard = require('./icons/SystemDiagnosticClipboard.js');
-const SystemDiagnosticLaptop = require('./icons/SystemDiagnosticLaptop.js');
-const SystemDiagnosticStethoscope = require('./icons/SystemDiagnosticStethoscope.js');
-const SystemDiagnosticStethoscopeAlt = require('./icons/SystemDiagnosticStethoscopeAlt.js');
-const SystemDiagnosticStethoscopeList = require('./icons/SystemDiagnosticStethoscopeList.js');
-const TableGraph = require('./icons/TableGraph.js');
+const SunShortLarge = require('./icons/SunShortLarge.js');
+const SunStarHalf = require('./icons/SunStarHalf.js');
+const SunDense = require('./icons/SunDense.js');
+const SunShortDense = require('./icons/SunShortDense.js');
+const SunDottedDense = require('./icons/SunDottedDense.js');
+const SunSettings = require('./icons/SunSettings.js');
+const SunStarStriped = require('./icons/SunStarStriped.js');
+const SunBig = require('./icons/SunBig.js');
+const SunShortBig = require('./icons/SunShortBig.js');
+const SunDottedBig = require('./icons/SunDottedBig.js');
+const SunStarBig = require('./icons/SunStarBig.js');
+const SunShortLarge2 = require('./icons/SunShortLarge2.js');
+const SunDottedLarge = require('./icons/SunDottedLarge.js');
+const SunSpoke = require('./icons/SunSpoke.js');
+const SunSpokeBig = require('./icons/SunSpokeBig.js');
+const SunSpokeLarge = require('./icons/SunSpokeLarge.js');
+const SunSpokeHuge = require('./icons/SunSpokeHuge.js');
+const SunMixed = require('./icons/SunMixed.js');
+const SunMixedBig = require('./icons/SunMixedBig.js');
+const SunMixedLarge = require('./icons/SunMixedLarge.js');
+const SunMixedHuge = require('./icons/SunMixedHuge.js');
+const SunDenseBig = require('./icons/SunDenseBig.js');
+const SunShortDenseLarge = require('./icons/SunShortDenseLarge.js');
+const SunDottedRadiantLarge = require('./icons/SunDottedRadiantLarge.js');
+const SunRadiant = require('./icons/SunRadiant.js');
+const SunShortRadiant = require('./icons/SunShortRadiant.js');
+const SunDottedRadiant = require('./icons/SunDottedRadiant.js');
+const SunShort = require('./icons/SunShort.js');
+const SunTiny = require('./icons/SunTiny.js');
+const SunDotted = require('./icons/SunDotted.js');
+const SunStarHalfSquare = require('./icons/SunStarHalfSquare.js');
+const SunStarSquare = require('./icons/SunStarSquare.js');
+const SunStarStripedSettings = require('./icons/SunStarStripedSettings.js');
+const SunStarHalfSettings = require('./icons/SunStarHalfSettings.js');
+const SunStarSettings = require('./icons/SunStarSettings.js');
+const SwitchRockerOff = require('./icons/SwitchRockerOff.js');
+const SwitchRockerOffPerspective = require('./icons/SwitchRockerOffPerspective.js');
+const SwitchRockerOn = require('./icons/SwitchRockerOn.js');
+const SwitchRockerOnPerspective = require('./icons/SwitchRockerOnPerspective.js');
+const SwitchKnobUpLeft = require('./icons/SwitchKnobUpLeft.js');
+const SwitchKnobUpRight = require('./icons/SwitchKnobUpRight.js');
+const SwitchKnobUpLeftHandle = require('./icons/SwitchKnobUpLeftHandle.js');
+const SwitchKnobUpRightHandle = require('./icons/SwitchKnobUpRightHandle.js');
+const SwitchDialLeft = require('./icons/SwitchDialLeft.js');
+const SwitchDialUp = require('./icons/SwitchDialUp.js');
+const SwitchDialRight = require('./icons/SwitchDialRight.js');
+const SwitchLeverCup = require('./icons/SwitchLeverCup.js');
+const SwitchLeverCupStem = require('./icons/SwitchLeverCupStem.js');
+const SwitchLever = require('./icons/SwitchLever.js');
+const ToggleOnStriped = require('./icons/ToggleOnStriped.js');
+const ToggleMiddle = require('./icons/ToggleMiddle.js');
+const ToggleOff = require('./icons/ToggleOff.js');
+const ToggleOn = require('./icons/ToggleOn.js');
+const ToggleOnDotted = require('./icons/ToggleOnDotted.js');
+const ToggleMiddleSlim = require('./icons/ToggleMiddleSlim.js');
+const ToggleOffSlim = require('./icons/ToggleOffSlim.js');
+const ToggleOnSlim = require('./icons/ToggleOnSlim.js');
+const ToggleOffSquared = require('./icons/ToggleOffSquared.js');
+const ToggleOnSquared = require('./icons/ToggleOnSquared.js');
+const ToggleOnDottedSquared = require('./icons/ToggleOnDottedSquared.js');
+const ToggleOnStripedSquared = require('./icons/ToggleOnStripedSquared.js');
+const ToggleOffInset = require('./icons/ToggleOffInset.js');
+const ToggleOnInset = require('./icons/ToggleOnInset.js');
+const ToggleMultiple = require('./icons/ToggleMultiple.js');
+const ToggleMultipleSlim = require('./icons/ToggleMultipleSlim.js');
+const SwitchDialOff = require('./icons/SwitchDialOff.js');
+const SwitchDialOffHandle = require('./icons/SwitchDialOffHandle.js');
+const SwitchDialOn = require('./icons/SwitchDialOn.js');
+const SwitchDialOnHandle = require('./icons/SwitchDialOnHandle.js');
+const GearSync = require('./icons/GearSync.js');
+const GearSyncLarge = require('./icons/GearSyncLarge.js');
+const ClipboardPulse = require('./icons/ClipboardPulse.js');
+const LaptopPulse = require('./icons/LaptopPulse.js');
+const StethoscopeSquare = require('./icons/StethoscopeSquare.js');
+const Stethoscope = require('./icons/Stethoscope.js');
+const StethoscopeRound = require('./icons/StethoscopeRound.js');
+const StethoscopeList = require('./icons/StethoscopeList.js');
 const Tab = require('./icons/Tab.js');
-const TabCloseLeft = require('./icons/TabCloseLeft.js');
-const TabCloseRight = require('./icons/TabCloseRight.js');
-const TabCheckVerified = require('./icons/TabCheckVerified.js');
-const TabCheckVerified2 = require('./icons/TabCheckVerified2.js');
-const TabCheckVerifiedCircle = require('./icons/TabCheckVerifiedCircle.js');
-const TabExtraFeatures = require('./icons/TabExtraFeatures.js');
-const TabFloppySave = require('./icons/TabFloppySave.js');
-const TabFloppySave2 = require('./icons/TabFloppySave2.js');
-const TabGearSettings = require('./icons/TabGearSettings.js');
-const TabRemove = require('./icons/TabRemove.js');
-const TabRemoveCircle = require('./icons/TabRemoveCircle.js');
-const TabRemoveCircle2 = require('./icons/TabRemoveCircle2.js');
-const TabOpenFolder = require('./icons/TabOpenFolder.js');
-const TabAdd = require('./icons/TabAdd.js');
-const TabAddPlus2 = require('./icons/TabAddPlus2.js');
-const TabAddPlusCircle = require('./icons/TabAddPlusCircle.js');
-const TabSettings = require('./icons/TabSettings.js');
-const TabTool = require('./icons/TabTool.js');
-const TabX = require('./icons/TabX.js');
-const TabClose = require('./icons/TabClose.js');
-const TabCloseCircle = require('./icons/TabCloseCircle.js');
-const Tab2 = require('./icons/Tab2.js');
-const TabCloseLeft2 = require('./icons/TabCloseLeft2.js');
-const TabCloseRight2 = require('./icons/TabCloseRight2.js');
-const TabCheckmark = require('./icons/TabCheckmark.js');
+const TabArrowLeftX = require('./icons/TabArrowLeftX.js');
+const TabArrowRightX = require('./icons/TabArrowRightX.js');
+const TabCheckCenter = require('./icons/TabCheckCenter.js');
 const TabCheck = require('./icons/TabCheck.js');
-const TabCheck2 = require('./icons/TabCheck2.js');
-const TabDelete = require('./icons/TabDelete.js');
-const TabRemove2 = require('./icons/TabRemove2.js');
-const TabRemoveCircle3 = require('./icons/TabRemoveCircle3.js');
-const TabAdd2 = require('./icons/TabAdd2.js');
-const TabAddPlus = require('./icons/TabAddPlus.js');
-const TabAddCircle = require('./icons/TabAddCircle.js');
-const TabSettings2 = require('./icons/TabSettings2.js');
-const Tab2Close = require('./icons/Tab2Close.js');
-const TabCloseX = require('./icons/TabCloseX.js');
-const Tab2CloseCircle = require('./icons/Tab2CloseCircle.js');
-const Tab3 = require('./icons/Tab3.js');
-const Tab3ArrowLeft = require('./icons/Tab3ArrowLeft.js');
-const Tab3ArrowRight = require('./icons/Tab3ArrowRight.js');
-const Tab3Checked = require('./icons/Tab3Checked.js');
-const Tab3Check = require('./icons/Tab3Check.js');
-const Tab3CheckCircle = require('./icons/Tab3CheckCircle.js');
-const Tab3Remove2 = require('./icons/Tab3Remove2.js');
-const Tab3Remove = require('./icons/Tab3Remove.js');
-const Tab3RemoveCircle = require('./icons/Tab3RemoveCircle.js');
-const Tab3Plus = require('./icons/Tab3Plus.js');
-const Tab3Add = require('./icons/Tab3Add.js');
-const Tab3AddCircle = require('./icons/Tab3AddCircle.js');
-const Tab3Settings = require('./icons/Tab3Settings.js');
-const Tab3X = require('./icons/Tab3X.js');
-const Tab3Close = require('./icons/Tab3Close.js');
-const Tab3CloseCircle = require('./icons/Tab3CloseCircle.js');
-const Tab4 = require('./icons/Tab4.js');
-const Tab4ArrowLeft = require('./icons/Tab4ArrowLeft.js');
-const Tab4XRight = require('./icons/Tab4XRight.js');
-const Tab4Checked = require('./icons/Tab4Checked.js');
-const Tab4Check = require('./icons/Tab4Check.js');
-const Tab4CheckCircle = require('./icons/Tab4CheckCircle.js');
-const Tab4Remove = require('./icons/Tab4Remove.js');
-const Tab4RemoveCircle = require('./icons/Tab4RemoveCircle.js');
-const Tab4RemoveCircle2 = require('./icons/Tab4RemoveCircle2.js');
-const Tab4Plus = require('./icons/Tab4Plus.js');
-const Tab4Plus2 = require('./icons/Tab4Plus2.js');
-const Tab4PlusCircle = require('./icons/Tab4PlusCircle.js');
-const Tab4Settings = require('./icons/Tab4Settings.js');
-const Tab4X = require('./icons/Tab4X.js');
-const Tab4Close = require('./icons/Tab4Close.js');
-const Tab4CloseCircle = require('./icons/Tab4CloseCircle.js');
-const TabChevronSwitch1 = require('./icons/TabChevronSwitch1.js');
-const TabChevronSwitch2 = require('./icons/TabChevronSwitch2.js');
-const TabChevronSwitch3 = require('./icons/TabChevronSwitch3.js');
-const TabDashedUnselected = require('./icons/TabDashedUnselected.js');
-const TechnicalSupportLaptopGear = require('./icons/TechnicalSupportLaptopGear.js');
-const Tag1 = require('./icons/Tag1.js');
-const Tag2 = require('./icons/Tag2.js');
-const Tag3 = require('./icons/Tag3.js');
-const Tag4 = require('./icons/Tag4.js');
-const TechnicalSupportLaptopGear2 = require('./icons/TechnicalSupportLaptopGear2.js');
-const TechnicalSupportLaptopGear22 = require('./icons/TechnicalSupportLaptopGear22.js');
-const TechnicalSupportHand = require('./icons/TechnicalSupportHand.js');
-const TechnicalSupportHeadset = require('./icons/TechnicalSupportHeadset.js');
-const TechnicalSupportTool = require('./icons/TechnicalSupportTool.js');
-const TechnicalSupportToolAlt = require('./icons/TechnicalSupportToolAlt.js');
-const TechnicalSupportToolVariant = require('./icons/TechnicalSupportToolVariant.js');
-const TechnicalSupportPersonHeadset = require('./icons/TechnicalSupportPersonHeadset.js');
-const TechnicalSupportPersonHeadsetAlt = require('./icons/TechnicalSupportPersonHeadsetAlt.js');
-const TechnicalSupportPersonHeadsetVar3 = require('./icons/TechnicalSupportPersonHeadsetVar3.js');
-const TechnicalSupportPersonHeadsetVar4 = require('./icons/TechnicalSupportPersonHeadsetVar4.js');
-const TechnicalSupportPersonHeadsetVar5 = require('./icons/TechnicalSupportPersonHeadsetVar5.js');
-const TechnicalSupportHeadset2 = require('./icons/TechnicalSupportHeadset2.js');
-const TechnicalSupportGear = require('./icons/TechnicalSupportGear.js');
-const TechnicalSupportTools = require('./icons/TechnicalSupportTools.js');
-const TechnicalSupportToolsAlt = require('./icons/TechnicalSupportToolsAlt.js');
-const ThemesColorPalette = require('./icons/ThemesColorPalette.js');
-const ThemesRectanglesFilled = require('./icons/ThemesRectanglesFilled.js');
-const ThemesSquaresFilled = require('./icons/ThemesSquaresFilled.js');
-const ToolHandSupport1 = require('./icons/ToolHandSupport1.js');
-const ToolHandSupport2 = require('./icons/ToolHandSupport2.js');
-const ToolSupport1 = require('./icons/ToolSupport1.js');
-const ToolSupport2 = require('./icons/ToolSupport2.js');
-const ToolSupport3 = require('./icons/ToolSupport3.js');
-const ToolSupport4 = require('./icons/ToolSupport4.js');
-const ToolSupport5 = require('./icons/ToolSupport5.js');
-const ToolSupport6 = require('./icons/ToolSupport6.js');
-const ToolSupport7 = require('./icons/ToolSupport7.js');
-const ToolbarMoreDetails = require('./icons/ToolbarMoreDetails.js');
-const ToolbarNavigationBottom = require('./icons/ToolbarNavigationBottom.js');
-const ToolbarNavigationLeft = require('./icons/ToolbarNavigationLeft.js');
-const ToolbarNavigationPane1 = require('./icons/ToolbarNavigationPane1.js');
-const ToolbarNavigationPane2 = require('./icons/ToolbarNavigationPane2.js');
-const ToolbarNavigationRight = require('./icons/ToolbarNavigationRight.js');
-const ToolbarNavigationTop = require('./icons/ToolbarNavigationTop.js');
-const ToolbarPreviewEye = require('./icons/ToolbarPreviewEye.js');
-const ToolbarPreviewEye2 = require('./icons/ToolbarPreviewEye2.js');
-const ToolbarPreviewEye3 = require('./icons/ToolbarPreviewEye3.js');
-const ToolbarShowBottomPanel = require('./icons/ToolbarShowBottomPanel.js');
-const ToolbarShowLeftPanel = require('./icons/ToolbarShowLeftPanel.js');
-const ToolbarShowRightPanel = require('./icons/ToolbarShowRightPanel.js');
-const ToolbarShowTopPanel = require('./icons/ToolbarShowTopPanel.js');
-const ToolbarStart = require('./icons/ToolbarStart.js');
+const TabCheckCircle = require('./icons/TabCheckCircle.js');
+const TabTitle = require('./icons/TabTitle.js');
+const TabSave = require('./icons/TabSave.js');
+const TabSave2 = require('./icons/TabSave2.js');
+const TabSettings = require('./icons/TabSettings.js');
+const TabMinusCenter = require('./icons/TabMinusCenter.js');
+const TabMinusCircle = require('./icons/TabMinusCircle.js');
+const TabMinus = require('./icons/TabMinus.js');
+const TabFolderOpen = require('./icons/TabFolderOpen.js');
+const TabPlusCenter = require('./icons/TabPlusCenter.js');
+const TabPlus = require('./icons/TabPlus.js');
+const TabPlusCircle = require('./icons/TabPlusCircle.js');
+const TabDots = require('./icons/TabDots.js');
+const TabWrench = require('./icons/TabWrench.js');
+const TabXCenter = require('./icons/TabXCenter.js');
+const TabX = require('./icons/TabX.js');
+const TabXCircle = require('./icons/TabXCircle.js');
+const TabStep = require('./icons/TabStep.js');
+const TabArrowLeftXStep = require('./icons/TabArrowLeftXStep.js');
+const TabArrowRightXStep = require('./icons/TabArrowRightXStep.js');
+const TabCheckCenterStep = require('./icons/TabCheckCenterStep.js');
+const TabCheckStep = require('./icons/TabCheckStep.js');
+const TabCheckCircleStep = require('./icons/TabCheckCircleStep.js');
+const TabMinusCenterStep = require('./icons/TabMinusCenterStep.js');
+const TabMinusCircleStep = require('./icons/TabMinusCircleStep.js');
+const TabMinusStep = require('./icons/TabMinusStep.js');
+const TabPlusCenterStep = require('./icons/TabPlusCenterStep.js');
+const TabPlusStep = require('./icons/TabPlusStep.js');
+const TabPlusCircleStep = require('./icons/TabPlusCircleStep.js');
+const TabDotsStep = require('./icons/TabDotsStep.js');
+const TabXCenterStep = require('./icons/TabXCenterStep.js');
+const TabXStep = require('./icons/TabXStep.js');
+const TabXCircleStep = require('./icons/TabXCircleStep.js');
+const TabSharp = require('./icons/TabSharp.js');
+const TabArrowLeftXSharp = require('./icons/TabArrowLeftXSharp.js');
+const TabArrowRightXSharp = require('./icons/TabArrowRightXSharp.js');
+const TabCheckCenterSharp = require('./icons/TabCheckCenterSharp.js');
+const TabCheckSharp = require('./icons/TabCheckSharp.js');
+const TabCheckCircleSharp = require('./icons/TabCheckCircleSharp.js');
+const TabMinusCenterSharp = require('./icons/TabMinusCenterSharp.js');
+const TabMinusCircleSharp = require('./icons/TabMinusCircleSharp.js');
+const TabMinusSharp = require('./icons/TabMinusSharp.js');
+const TabPlusCenterSharp = require('./icons/TabPlusCenterSharp.js');
+const TabPlusSharp = require('./icons/TabPlusSharp.js');
+const TabPlusCircleSharp = require('./icons/TabPlusCircleSharp.js');
+const TabDotsSharp = require('./icons/TabDotsSharp.js');
+const TabXCenterSharp = require('./icons/TabXCenterSharp.js');
+const TabXSharp = require('./icons/TabXSharp.js');
+const TabXCircleSharp = require('./icons/TabXCircleSharp.js');
+const TabStriped = require('./icons/TabStriped.js');
+const TabArrowLeftXStriped = require('./icons/TabArrowLeftXStriped.js');
+const TabArrowRightXStriped = require('./icons/TabArrowRightXStriped.js');
+const TabCheckCenterStriped = require('./icons/TabCheckCenterStriped.js');
+const TabCheckStriped = require('./icons/TabCheckStriped.js');
+const TabCheckCircleStriped = require('./icons/TabCheckCircleStriped.js');
+const TabMinusCenterStriped = require('./icons/TabMinusCenterStriped.js');
+const TabMinusCircleStriped = require('./icons/TabMinusCircleStriped.js');
+const TabMinusStriped = require('./icons/TabMinusStriped.js');
+const TabPlusCenterStriped = require('./icons/TabPlusCenterStriped.js');
+const TabPlusStriped = require('./icons/TabPlusStriped.js');
+const TabPlusCircleStriped = require('./icons/TabPlusCircleStriped.js');
+const TabDotsStriped = require('./icons/TabDotsStriped.js');
+const TabXCenterStriped = require('./icons/TabXCenterStriped.js');
+const TabXStriped = require('./icons/TabXStriped.js');
+const TabXCircleStriped = require('./icons/TabXCircleStriped.js');
+const TabChevronDoubleRight = require('./icons/TabChevronDoubleRight.js');
+const TabMultipleChevronRight = require('./icons/TabMultipleChevronRight.js');
+const TabMultipleArrowRight = require('./icons/TabMultipleArrowRight.js');
+const TabDashed = require('./icons/TabDashed.js');
+const TableChartLine = require('./icons/TableChartLine.js');
+const Tag = require('./icons/Tag.js');
+const TagEmpty = require('./icons/TagEmpty.js');
+const TagRounded = require('./icons/TagRounded.js');
+const TagEmptyRounded = require('./icons/TagEmptyRounded.js');
+const LaptopSettings = require('./icons/LaptopSettings.js');
+const LaptopSettingsFlat = require('./icons/LaptopSettingsFlat.js');
+const LaptopHand = require('./icons/LaptopHand.js');
+const LaptopHeadset = require('./icons/LaptopHeadset.js');
+const LaptopWrench = require('./icons/LaptopWrench.js');
+const LaptopWrenchCorner = require('./icons/LaptopWrenchCorner.js');
+const LaptopWrenchFlat = require('./icons/LaptopWrenchFlat.js');
+const UserHeadsetSpiky = require('./icons/UserHeadsetSpiky.js');
+const UserHeadset = require('./icons/UserHeadset.js');
+const UserHeadsetWavy = require('./icons/UserHeadsetWavy.js');
+const UserHeadsetSwept = require('./icons/UserHeadsetSwept.js');
+const UserHeadsetLong = require('./icons/UserHeadsetLong.js');
+const UserHeadsetLongSwept = require('./icons/UserHeadsetLongSwept.js');
+const GearWrench = require('./icons/GearWrench.js');
+const WrenchScrewdriverDouble = require('./icons/WrenchScrewdriverDouble.js');
+const WrenchScrewdriver = require('./icons/WrenchScrewdriver.js');
+const SwatchFan = require('./icons/SwatchFan.js');
+const SwatchStackWide = require('./icons/SwatchStackWide.js');
+const SwatchStack = require('./icons/SwatchStack.js');
+const WrenchHandOpen = require('./icons/WrenchHandOpen.js');
+const WrenchHand = require('./icons/WrenchHand.js');
+const Wrench = require('./icons/Wrench.js');
+const WrenchDouble = require('./icons/WrenchDouble.js');
+const Wrench2 = require('./icons/Wrench2.js');
+const WrenchWide = require('./icons/WrenchWide.js');
+const WrenchRound = require('./icons/WrenchRound.js');
+const Screwdriver = require('./icons/Screwdriver.js');
+const ScrewdriverThick = require('./icons/ScrewdriverThick.js');
+const MenuListColumnsSquare = require('./icons/MenuListColumnsSquare.js');
+const ToolbarBottom = require('./icons/ToolbarBottom.js');
+const SidebarLeft = require('./icons/SidebarLeft.js');
+const CaretLeftRightSquare = require('./icons/CaretLeftRightSquare.js');
+const ChevronLeftRightSquare = require('./icons/ChevronLeftRightSquare.js');
+const SidebarRight = require('./icons/SidebarRight.js');
+const ToolbarTop = require('./icons/ToolbarTop.js');
+const EyeSquare = require('./icons/EyeSquare.js');
+const EyeSquareDot = require('./icons/EyeSquareDot.js');
+const EyeSquareArc = require('./icons/EyeSquareArc.js');
+const PanelBottom = require('./icons/PanelBottom.js');
+const PanelLeft = require('./icons/PanelLeft.js');
+const PanelRight = require('./icons/PanelRight.js');
+const PanelTop = require('./icons/PanelTop.js');
+const StartMenu = require('./icons/StartMenu.js');
 const Toolbox = require('./icons/Toolbox.js');
-const Toolbox1 = require('./icons/Toolbox1.js');
-const Toolbox2 = require('./icons/Toolbox2.js');
-const Toolbox3 = require('./icons/Toolbox3.js');
-const TouchScreenDoubleTouch = require('./icons/TouchScreenDoubleTouch.js');
-const TouchScreenMoveDown = require('./icons/TouchScreenMoveDown.js');
-const TouchScreenMoveLeft = require('./icons/TouchScreenMoveLeft.js');
-const TouchScreenMoveRight = require('./icons/TouchScreenMoveRight.js');
-const TouchScreenMoveUp = require('./icons/TouchScreenMoveUp.js');
-const TouchScreenPinch = require('./icons/TouchScreenPinch.js');
-const TouchScreenSingleTouch = require('./icons/TouchScreenSingleTouch.js');
-const TouchScreenSpread = require('./icons/TouchScreenSpread.js');
-const TouchScreenSwipeDown1 = require('./icons/TouchScreenSwipeDown1.js');
-const TouchScreenSwipeDown2 = require('./icons/TouchScreenSwipeDown2.js');
-const TouchScreenSwipeDownSquare = require('./icons/TouchScreenSwipeDownSquare.js');
-const TouchScreenSwipeLeft1 = require('./icons/TouchScreenSwipeLeft1.js');
-const TouchScreenSwipeLeft2 = require('./icons/TouchScreenSwipeLeft2.js');
-const TouchScreenSwipeLeftSquare = require('./icons/TouchScreenSwipeLeftSquare.js');
-const TouchScreenSwipeRight = require('./icons/TouchScreenSwipeRight.js');
-const TouchScreenSwipeRight2 = require('./icons/TouchScreenSwipeRight2.js');
-const TouchScreenSwipeRightSquare = require('./icons/TouchScreenSwipeRightSquare.js');
-const TouchScreenSwipeUp = require('./icons/TouchScreenSwipeUp.js');
-const TouchScreenSwipeUp2 = require('./icons/TouchScreenSwipeUp2.js');
-const TouchScreenSwipeUpSquare = require('./icons/TouchScreenSwipeUpSquare.js');
-const TouchScreenTwoFingersDouble = require('./icons/TouchScreenTwoFingersDouble.js');
-const TouchScreenTwoFingersSingle = require('./icons/TouchScreenTwoFingersSingle.js');
-const TouchScreenTwoFingersSwipeDown = require('./icons/TouchScreenTwoFingersSwipeDown.js');
-const TouchScreenSwipeDown22 = require('./icons/TouchScreenSwipeDown22.js');
-const TouchScreenSwipeLeft12 = require('./icons/TouchScreenSwipeLeft12.js');
-const TouchScreenSwipeLeft22 = require('./icons/TouchScreenSwipeLeft22.js');
-const TouchScreenSwipeRight1 = require('./icons/TouchScreenSwipeRight1.js');
-const TouchScreenSwipeRight22 = require('./icons/TouchScreenSwipeRight22.js');
-const TouchScreenSwipeUp1 = require('./icons/TouchScreenSwipeUp1.js');
-const TouchScreenSwipeUp22 = require('./icons/TouchScreenSwipeUp22.js');
-const TranslationLanguagesArrows1 = require('./icons/TranslationLanguagesArrows1.js');
-const TranslationLanguagesArrows2 = require('./icons/TranslationLanguagesArrows2.js');
-const TranslationLanguagesSpeech1 = require('./icons/TranslationLanguagesSpeech1.js');
-const TranslationArrowsSpeech = require('./icons/TranslationArrowsSpeech.js');
-const TranslationSquares = require('./icons/TranslationSquares.js');
-const TrashArrowUpRestore = require('./icons/TrashArrowUpRestore.js');
-const TrashArrowUpRestoreAlt = require('./icons/TrashArrowUpRestoreAlt.js');
-const TrashArrowUpRestoreAlt2 = require('./icons/TrashArrowUpRestoreAlt2.js');
-const TrashArrowUpRestore4 = require('./icons/TrashArrowUpRestore4.js');
-const TrashArrowUpRestore5 = require('./icons/TrashArrowUpRestore5.js');
-const TrashArrowUpRestore6 = require('./icons/TrashArrowUpRestore6.js');
-const TrashDelete1 = require('./icons/TrashDelete1.js');
-const TrashDelete2 = require('./icons/TrashDelete2.js');
-const TrashDelete3 = require('./icons/TrashDelete3.js');
-const TrashDelete4 = require('./icons/TrashDelete4.js');
-const TrashDelete5 = require('./icons/TrashDelete5.js');
-const Trash6 = require('./icons/Trash6.js');
-const Trash7 = require('./icons/Trash7.js');
-const Trash8 = require('./icons/Trash8.js');
-const Trash9 = require('./icons/Trash9.js');
-const TrashDelete10 = require('./icons/TrashDelete10.js');
-const TrashDelete11 = require('./icons/TrashDelete11.js');
-const TrashForbidden1 = require('./icons/TrashForbidden1.js');
-const TrashForbidden2 = require('./icons/TrashForbidden2.js');
-const TrashForbidden3 = require('./icons/TrashForbidden3.js');
-const TrashRecycle1 = require('./icons/TrashRecycle1.js');
-const TrashRecycle2 = require('./icons/TrashRecycle2.js');
-const TrashRecycle3 = require('./icons/TrashRecycle3.js');
-const TrashDelete42 = require('./icons/TrashDelete42.js');
-const TrashDelete52 = require('./icons/TrashDelete52.js');
-const TrashDeleteX1 = require('./icons/TrashDeleteX1.js');
-const TrashDeleteX2 = require('./icons/TrashDeleteX2.js');
-const TrashUndelete1 = require('./icons/TrashUndelete1.js');
-const TrashUndelete2 = require('./icons/TrashUndelete2.js');
-const TrashUndelete3 = require('./icons/TrashUndelete3.js');
-const TrashUndelete4 = require('./icons/TrashUndelete4.js');
-const UpgradeProgressBar = require('./icons/UpgradeProgressBar.js');
-const UploadArrowCircle = require('./icons/UploadArrowCircle.js');
-const UploadArrowSquare = require('./icons/UploadArrowSquare.js');
-const UploadArrow1 = require('./icons/UploadArrow1.js');
-const UploadArrow2 = require('./icons/UploadArrow2.js');
-const UploadArrowBox1 = require('./icons/UploadArrowBox1.js');
-const UploadArrowBox2 = require('./icons/UploadArrowBox2.js');
-const UploadArrowBox3 = require('./icons/UploadArrowBox3.js');
-const UploadArrowCircle1 = require('./icons/UploadArrowCircle1.js');
-const UploadArrowDashed = require('./icons/UploadArrowDashed.js');
-const UploadArrowDashedProgress1 = require('./icons/UploadArrowDashedProgress1.js');
-const UploadArrowDashedProgress2 = require('./icons/UploadArrowDashedProgress2.js');
-const UploadArrowSquares = require('./icons/UploadArrowSquares.js');
-const UploadSquaresStack2 = require('./icons/UploadSquaresStack2.js');
-const UploadSquaresStack3 = require('./icons/UploadSquaresStack3.js');
-const UploadSquaresStack4 = require('./icons/UploadSquaresStack4.js');
-const UploadTray1 = require('./icons/UploadTray1.js');
-const UploadDashed1 = require('./icons/UploadDashed1.js');
-const UploadDashed2 = require('./icons/UploadDashed2.js');
-const UploadUpdates = require('./icons/UploadUpdates.js');
-const UpvoteArrowDown1 = require('./icons/UpvoteArrowDown1.js');
-const UpvoteArrowDown2 = require('./icons/UpvoteArrowDown2.js');
-const UpvoteArrowDown3 = require('./icons/UpvoteArrowDown3.js');
-const UpvoteArrowDown = require('./icons/UpvoteArrowDown.js');
-const UpvoteButtonsChevron = require('./icons/UpvoteButtonsChevron.js');
-const UpvoteLikeDislike = require('./icons/UpvoteLikeDislike.js');
-const UpvotePlusMinus = require('./icons/UpvotePlusMinus.js');
+const ToolboxAngled = require('./icons/ToolboxAngled.js');
+const ToolboxRound = require('./icons/ToolboxRound.js');
+const TagStack = require('./icons/TagStack.js');
+const TouchTapDouble = require('./icons/TouchTapDouble.js');
+const TouchMoveDown = require('./icons/TouchMoveDown.js');
+const TouchMoveLeft = require('./icons/TouchMoveLeft.js');
+const TouchMoveRight = require('./icons/TouchMoveRight.js');
+const TouchMoveUp = require('./icons/TouchMoveUp.js');
+const TouchPinch = require('./icons/TouchPinch.js');
+const TouchTap = require('./icons/TouchTap.js');
+const TouchSpread = require('./icons/TouchSpread.js');
+const TouchSwipeDown = require('./icons/TouchSwipeDown.js');
+const TouchSwipeDownGap = require('./icons/TouchSwipeDownGap.js');
+const TouchSwipeDownSquare = require('./icons/TouchSwipeDownSquare.js');
+const TouchSwipeLeft = require('./icons/TouchSwipeLeft.js');
+const TouchSwipeLeftGap = require('./icons/TouchSwipeLeftGap.js');
+const TouchSwipeLeftSquare = require('./icons/TouchSwipeLeftSquare.js');
+const TouchSwipeRight = require('./icons/TouchSwipeRight.js');
+const TouchSwipeRightGap = require('./icons/TouchSwipeRightGap.js');
+const TouchSwipeRightSquare = require('./icons/TouchSwipeRightSquare.js');
+const TouchSwipeUp = require('./icons/TouchSwipeUp.js');
+const TouchSwipeUpGap = require('./icons/TouchSwipeUpGap.js');
+const TouchSwipeUpSquare = require('./icons/TouchSwipeUpSquare.js');
+const TouchTapDoubleTwoFingers = require('./icons/TouchTapDoubleTwoFingers.js');
+const TouchTapTwoFingers = require('./icons/TouchTapTwoFingers.js');
+const TouchSwipeDownTwoFingers = require('./icons/TouchSwipeDownTwoFingers.js');
+const TouchSwipeDownTwoFingersGap = require('./icons/TouchSwipeDownTwoFingersGap.js');
+const TouchSwipeLeftTwoFingers = require('./icons/TouchSwipeLeftTwoFingers.js');
+const TouchSwipeLeftTwoFingersGap = require('./icons/TouchSwipeLeftTwoFingersGap.js');
+const TouchSwipeRightTwoFingers = require('./icons/TouchSwipeRightTwoFingers.js');
+const TouchSwipeRightTwoFingersGap = require('./icons/TouchSwipeRightTwoFingersGap.js');
+const TouchSwipeUpTwoFingers = require('./icons/TouchSwipeUpTwoFingers.js');
+const TouchSwipeUpTwoFingersGap = require('./icons/TouchSwipeUpTwoFingersGap.js');
+const TranslateSync = require('./icons/TranslateSync.js');
+const TranslateSyncCode = require('./icons/TranslateSyncCode.js');
+const TranslateChatSplit = require('./icons/TranslateChatSplit.js');
+const TranslateChatStack = require('./icons/TranslateChatStack.js');
+const TranslateSquareStack = require('./icons/TranslateSquareStack.js');
+const TrashArrowUpLid = require('./icons/TrashArrowUpLid.js');
+const TrashArrowUpNarrow = require('./icons/TrashArrowUpNarrow.js');
+const TrashArrowUpTapered = require('./icons/TrashArrowUpTapered.js');
+const TrashArrowUpDetached = require('./icons/TrashArrowUpDetached.js');
+const TrashArrowUpNotch = require('./icons/TrashArrowUpNotch.js');
+const TrashArrowUp = require('./icons/TrashArrowUp.js');
+const TrashLid = require('./icons/TrashLid.js');
+const TrashNarrow = require('./icons/TrashNarrow.js');
+const TrashTapered = require('./icons/TrashTapered.js');
+const TrashDetached = require('./icons/TrashDetached.js');
+const TrashBasket = require('./icons/TrashBasket.js');
+const TrashNotch = require('./icons/TrashNotch.js');
+const TrashEmptyNotch = require('./icons/TrashEmptyNotch.js');
+const Trash = require('./icons/Trash.js');
+const TrashEmpty = require('./icons/TrashEmpty.js');
+const TrashDome = require('./icons/TrashDome.js');
+const TrashEmptyPeak = require('./icons/TrashEmptyPeak.js');
+const TrashBan = require('./icons/TrashBan.js');
+const TrashBanNotch = require('./icons/TrashBanNotch.js');
+const TrashBanDetached = require('./icons/TrashBanDetached.js');
+const TrashRecycleNotch = require('./icons/TrashRecycleNotch.js');
+const TrashRecycleRoundNotch = require('./icons/TrashRecycleRoundNotch.js');
+const TrashSync = require('./icons/TrashSync.js');
+const TrashSyncNotch = require('./icons/TrashSyncNotch.js');
+const TrashSyncDetached = require('./icons/TrashSyncDetached.js');
+const TrashXNotch = require('./icons/TrashXNotch.js');
+const TrashX = require('./icons/TrashX.js');
+const TrashRefresh = require('./icons/TrashRefresh.js');
+const TrashRefreshCenterNotch = require('./icons/TrashRefreshCenterNotch.js');
+const TrashRefreshNotch = require('./icons/TrashRefreshNotch.js');
+const TrashRefreshDetached = require('./icons/TrashRefreshDetached.js');
+const GearProgress = require('./icons/GearProgress.js');
+const UploadCircle = require('./icons/UploadCircle.js');
+const UploadSquareOpen = require('./icons/UploadSquareOpen.js');
+const Upload = require('./icons/Upload.js');
+const UploadFlat = require('./icons/UploadFlat.js');
+const UploadBox = require('./icons/UploadBox.js');
+const UploadBoxNotch = require('./icons/UploadBoxNotch.js');
+const UploadSquareNotch = require('./icons/UploadSquareNotch.js');
+const UploadCircleFlat = require('./icons/UploadCircleFlat.js');
+const UploadSquareDashed = require('./icons/UploadSquareDashed.js');
+const UploadCircleDashedHalf = require('./icons/UploadCircleDashedHalf.js');
+const UploadCircleDashed = require('./icons/UploadCircleDashed.js');
+const UploadSquareStack = require('./icons/UploadSquareStack.js');
+const UploadSquareStackCorner = require('./icons/UploadSquareStackCorner.js');
+const UploadSquareStackOpen = require('./icons/UploadSquareStackOpen.js');
+const UploadSquareStackOpen2 = require('./icons/UploadSquareStackOpen2.js');
+const UploadTraySquare = require('./icons/UploadTraySquare.js');
+const UploadDotted = require('./icons/UploadDotted.js');
+const UploadDottedFlat = require('./icons/UploadDottedFlat.js');
+const UploadTriangle = require('./icons/UploadTriangle.js');
+const VoteArrows = require('./icons/VoteArrows.js');
+const VoteArrowsHollow = require('./icons/VoteArrowsHollow.js');
+const VoteTriangles = require('./icons/VoteTriangles.js');
+const VoteTrianglesRound = require('./icons/VoteTrianglesRound.js');
+const VoteChevronSquare = require('./icons/VoteChevronSquare.js');
+const VoteThumbs = require('./icons/VoteThumbs.js');
+const VotePlusMinus = require('./icons/VotePlusMinus.js');
 const VoteArrowsPlusMinus = require('./icons/VoteArrowsPlusMinus.js');
-const UserHead362 = require('./icons/UserHead362.js');
 const UserMenu = require('./icons/UserMenu.js');
-const ViewsGroupAdd = require('./icons/ViewsGroupAdd.js');
-const ViewsGroupAdd2 = require('./icons/ViewsGroupAdd2.js');
+const SquareStackPlusCircle = require('./icons/SquareStackPlusCircle.js');
+const SquareStackPlusCircleShadow = require('./icons/SquareStackPlusCircleShadow.js');
 const Vip = require('./icons/Vip.js');
-const VipLines = require('./icons/VipLines.js');
-const VipRectangle = require('./icons/VipRectangle.js');
-const Vpn1 = require('./icons/Vpn1.js');
-const Vpn2 = require('./icons/Vpn2.js');
-const VrArRectangle = require('./icons/VrArRectangle.js');
-const VRCubeDashed = require('./icons/VRCubeDashed.js');
-const VRCubeHalf = require('./icons/VRCubeHalf.js');
-const VRCubeFramed1 = require('./icons/VRCubeFramed1.js');
-const VRCubeFramed2 = require('./icons/VRCubeFramed2.js');
-const VRDeviceCubeCentered = require('./icons/VRDeviceCubeCentered.js');
-const VRDeviceDimensions = require('./icons/VRDeviceDimensions.js');
-const VRDeviceLimits = require('./icons/VRDeviceLimits.js');
-const VRGlasses = require('./icons/VRGlasses.js');
-const VRHeadsetPerson1 = require('./icons/VRHeadsetPerson1.js');
-const VRHeadsetPerson2 = require('./icons/VRHeadsetPerson2.js');
-const VRHeadset1 = require('./icons/VRHeadset1.js');
-const VRHeadset2 = require('./icons/VRHeadset2.js');
-const VRHeadset3 = require('./icons/VRHeadset3.js');
-const WallpaperPictureDashed = require('./icons/WallpaperPictureDashed.js');
-const WallpaperPictureFramed = require('./icons/WallpaperPictureFramed.js');
-const WarningExclamationCircle = require('./icons/WarningExclamationCircle.js');
-const WarningCircle = require('./icons/WarningCircle.js');
-const WarningSquare = require('./icons/WarningSquare.js');
-const WarningSquareAlt = require('./icons/WarningSquareAlt.js');
-const WarningSquareStack = require('./icons/WarningSquareStack.js');
-const WarningSquareStackAlt = require('./icons/WarningSquareStackAlt.js');
-const WarningSquareStackDouble = require('./icons/WarningSquareStackDouble.js');
-const WarningTriangle = require('./icons/WarningTriangle.js');
-const WarningTriangleAlt = require('./icons/WarningTriangleAlt.js');
-const WarningTriangleAlt2 = require('./icons/WarningTriangleAlt2.js');
-const WarningTriangleAlt3 = require('./icons/WarningTriangleAlt3.js');
+const VipBars = require('./icons/VipBars.js');
+const VipSquare = require('./icons/VipSquare.js');
+const Vpn = require('./icons/Vpn.js');
+const VpnLines = require('./icons/VpnLines.js');
+const ARSquare = require('./icons/ARSquare.js');
+const CubeArrowsOut = require('./icons/CubeArrowsOut.js');
+const MobileCubeOverlap = require('./icons/MobileCubeOverlap.js');
+const CubeFocus = require('./icons/CubeFocus.js');
+const CubeFocusSmall = require('./icons/CubeFocusSmall.js');
+const MobileCube = require('./icons/MobileCube.js');
+const MobilePlane = require('./icons/MobilePlane.js');
+const MobileBounds = require('./icons/MobileBounds.js');
+const Glasses = require('./icons/Glasses.js');
+const VrHeadsetUser = require('./icons/VrHeadsetUser.js');
+const VrHeadsetUserSmall = require('./icons/VrHeadsetUserSmall.js');
+const VrHeadsetSensors = require('./icons/VrHeadsetSensors.js');
+const VrHeadset = require('./icons/VrHeadset.js');
+const VrHeadsetGoggles = require('./icons/VrHeadsetGoggles.js');
+const ImageDashed = require('./icons/ImageDashed.js');
+const ImageCorners = require('./icons/ImageCorners.js');
+const AlertCircle = require('./icons/AlertCircle.js');
+const AlertCircleSmall = require('./icons/AlertCircleSmall.js');
+const AlertSquare = require('./icons/AlertSquare.js');
+const AlertSquareSmall = require('./icons/AlertSquareSmall.js');
+const AlertSquareStack = require('./icons/AlertSquareStack.js');
+const AlertSquareStackOverlap = require('./icons/AlertSquareStackOverlap.js');
+const AlertSquareStackSide = require('./icons/AlertSquareStackSide.js');
+const Warning = require('./icons/Warning.js');
+const WarningRound = require('./icons/WarningRound.js');
+const WarningWide = require('./icons/WarningWide.js');
+const WarningSmall = require('./icons/WarningSmall.js');
 const WarningDashed = require('./icons/WarningDashed.js');
-const WarningForbidden1 = require('./icons/WarningForbidden1.js');
-const WarningForbidden2 = require('./icons/WarningForbidden2.js');
-const WarningForbidden3 = require('./icons/WarningForbidden3.js');
-const WarningForbidden4 = require('./icons/WarningForbidden4.js');
-const WarningHighRisk = require('./icons/WarningHighRisk.js');
-const Warning1 = require('./icons/Warning1.js');
-const Warning2 = require('./icons/Warning2.js');
-const Warning3 = require('./icons/Warning3.js');
-const WarningForbiddenBar = require('./icons/WarningForbiddenBar.js');
-const WarningTriangleForbidden2 = require('./icons/WarningTriangleForbidden2.js');
-const WarningTriangleForbidden3 = require('./icons/WarningTriangleForbidden3.js');
-const WebpageWww = require('./icons/WebpageWww.js');
-const WebsitePortalChair1 = require('./icons/WebsitePortalChair1.js');
-const WebsitePortalChair2 = require('./icons/WebsitePortalChair2.js');
-const WebsitePortalChart = require('./icons/WebsitePortalChart.js');
-const WebsitePortalTrends1 = require('./icons/WebsitePortalTrends1.js');
-const WebsitePortalTrends2 = require('./icons/WebsitePortalTrends2.js');
-const WebsitePortalCompass = require('./icons/WebsitePortalCompass.js');
-const WebsitePortalDating = require('./icons/WebsitePortalDating.js');
-const WebsitePortalHeart = require('./icons/WebsitePortalHeart.js');
-const WebsitePortalHandbag = require('./icons/WebsitePortalHandbag.js');
-const WebsitePortalShoe = require('./icons/WebsitePortalShoe.js');
-const WebsitePortalBill = require('./icons/WebsitePortalBill.js');
-const WebsitePortalBlossom = require('./icons/WebsitePortalBlossom.js');
-const WebsitePortalFlower = require('./icons/WebsitePortalFlower.js');
-const WebsitePortalScale = require('./icons/WebsitePortalScale.js');
-const WebsitePortalCamera = require('./icons/WebsitePortalCamera.js');
-const WebsitePortalFilm = require('./icons/WebsitePortalFilm.js');
-const WebsitePortalShield = require('./icons/WebsitePortalShield.js');
-const WebsitePortalTool1 = require('./icons/WebsitePortalTool1.js');
-const WebsitePortalTool2 = require('./icons/WebsitePortalTool2.js');
-const WebsitePortalDelete = require('./icons/WebsitePortalDelete.js');
-const WebsitePortalWarning = require('./icons/WebsitePortalWarning.js');
-const WebsitePortalWeather = require('./icons/WebsitePortalWeather.js');
-const WidgetDelete1 = require('./icons/WidgetDelete1.js');
-const WidgetDelete2 = require('./icons/WidgetDelete2.js');
-const WifiSignalHotspot1 = require('./icons/WifiSignalHotspot1.js');
-const WifiSignalHotspot2 = require('./icons/WifiSignalHotspot2.js');
-const WifiSignalHotspot3 = require('./icons/WifiSignalHotspot3.js');
-const WifiSignalHotspot4 = require('./icons/WifiSignalHotspot4.js');
-const WifiSignal5 = require('./icons/WifiSignal5.js');
-const WifiSignal6 = require('./icons/WifiSignal6.js');
-const WifiSignal7 = require('./icons/WifiSignal7.js');
-const WifiSignal8 = require('./icons/WifiSignal8.js');
-const WifiSignal9 = require('./icons/WifiSignal9.js');
-const WifiSignalHotspot10 = require('./icons/WifiSignalHotspot10.js');
-const WindowAdvertisementArrowIn1 = require('./icons/WindowAdvertisementArrowIn1.js');
-const WindowAdvertisementArrowIn2 = require('./icons/WindowAdvertisementArrowIn2.js');
-const WindowAdvertisementArrowIn3 = require('./icons/WindowAdvertisementArrowIn3.js');
-const WindowControlFullscreen = require('./icons/WindowControlFullscreen.js');
-const WindowControlFullscreenCircle = require('./icons/WindowControlFullscreenCircle.js');
-const WindowControlFullscreen2 = require('./icons/WindowControlFullscreen2.js');
-const WindowControlMinimize = require('./icons/WindowControlMinimize.js');
-const WindowControlMinimizeSquare = require('./icons/WindowControlMinimizeSquare.js');
-const WindowControlRestore = require('./icons/WindowControlRestore.js');
-const WindowControlRestoreSquare = require('./icons/WindowControlRestoreSquare.js');
-const WindowDockingBottom = require('./icons/WindowDockingBottom.js');
-const WindowDockingFill = require('./icons/WindowDockingFill.js');
-const WindowDockingHorizontal = require('./icons/WindowDockingHorizontal.js');
-const WindowDockingLeft = require('./icons/WindowDockingLeft.js');
-const WindowDockingRight = require('./icons/WindowDockingRight.js');
-const WindowDockingTop = require('./icons/WindowDockingTop.js');
-const WindowDockingVertical = require('./icons/WindowDockingVertical.js');
-const WindowPopUp1 = require('./icons/WindowPopUp1.js');
-const WindowPopUp2 = require('./icons/WindowPopUp2.js');
-const WindowPopUp3 = require('./icons/WindowPopUp3.js');
-const WindowPopUp4 = require('./icons/WindowPopUp4.js');
-const WindowPopUp5 = require('./icons/WindowPopUp5.js');
-const WindowsPopUp1 = require('./icons/WindowsPopUp1.js');
-const WindowsPopUp2 = require('./icons/WindowsPopUp2.js');
-const WindowsPopUp3 = require('./icons/WindowsPopUp3.js');
-const XArrowBack1 = require('./icons/XArrowBack1.js');
-const XArrowBack2 = require('./icons/XArrowBack2.js');
-const XDelete1 = require('./icons/XDelete1.js');
-const XDelete2 = require('./icons/XDelete2.js');
-const XDelete3 = require('./icons/XDelete3.js');
-const XDelete4 = require('./icons/XDelete4.js');
-const XDeleteCircle1 = require('./icons/XDeleteCircle1.js');
-const XDeleteCircle2 = require('./icons/XDeleteCircle2.js');
-const XDeleteCircle3 = require('./icons/XDeleteCircle3.js');
-const XDeleteCircle4 = require('./icons/XDeleteCircle4.js');
-const XDeleteOctagon1 = require('./icons/XDeleteOctagon1.js');
-const XDeleteOctagon2 = require('./icons/XDeleteOctagon2.js');
-const XDeleteSquare1 = require('./icons/XDeleteSquare1.js');
-const XDeleteSquare2 = require('./icons/XDeleteSquare2.js');
-const XDeleteSquare3 = require('./icons/XDeleteSquare3.js');
-const XDeleteSquare4 = require('./icons/XDeleteSquare4.js');
+const WarningOff = require('./icons/WarningOff.js');
+const WarningOffRound = require('./icons/WarningOffRound.js');
+const WarningOffWide = require('./icons/WarningOffWide.js');
+const WarningOffSmall = require('./icons/WarningOffSmall.js');
+const WarningRays = require('./icons/WarningRays.js');
+const Triangle = require('./icons/Triangle.js');
+const TriangleWide = require('./icons/TriangleWide.js');
+const TriangleSmall = require('./icons/TriangleSmall.js');
+const TriangleOff = require('./icons/TriangleOff.js');
+const TriangleOffWide = require('./icons/TriangleOffWide.js');
+const TriangleOffSmall = require('./icons/TriangleOffSmall.js');
+const FolderWww = require('./icons/FolderWww.js');
+const BrowserArmchair = require('./icons/BrowserArmchair.js');
+const BrowserArmchairRound = require('./icons/BrowserArmchairRound.js');
+const BrowserChartArrow = require('./icons/BrowserChartArrow.js');
+const BrowserChart = require('./icons/BrowserChart.js');
+const BrowserChartZigzag = require('./icons/BrowserChartZigzag.js');
+const BrowserCompass = require('./icons/BrowserCompass.js');
+const BrowserHeartCenter = require('./icons/BrowserHeartCenter.js');
+const BrowserHeart = require('./icons/BrowserHeart.js');
+const BrowserHandbag = require('./icons/BrowserHandbag.js');
+const BrowserShoe = require('./icons/BrowserShoe.js');
+const BrowserBanknote = require('./icons/BrowserBanknote.js');
+const BrowserFlowerPointed = require('./icons/BrowserFlowerPointed.js');
+const BrowserFlower = require('./icons/BrowserFlower.js');
+const BrowserScale = require('./icons/BrowserScale.js');
+const BrowserMovieCamera = require('./icons/BrowserMovieCamera.js');
+const BrowserFilm = require('./icons/BrowserFilm.js');
+const BrowserShield = require('./icons/BrowserShield.js');
+const BrowserWrench = require('./icons/BrowserWrench.js');
+const BrowserWrench2 = require('./icons/BrowserWrench2.js');
+const BrowserTrash = require('./icons/BrowserTrash.js');
+const BrowserTriangle = require('./icons/BrowserTriangle.js');
+const BrowserCloudSun = require('./icons/BrowserCloudSun.js');
+const WidgetX = require('./icons/WidgetX.js');
+const WidgetXBlob = require('./icons/WidgetXBlob.js');
+const Hotspot = require('./icons/Hotspot.js');
+const HotspotLarge = require('./icons/HotspotLarge.js');
+const HotspotSides = require('./icons/HotspotSides.js');
+const HotspotSidesLarge = require('./icons/HotspotSidesLarge.js');
+const HotspotStem = require('./icons/HotspotStem.js');
+const HotspotStemLarge = require('./icons/HotspotStemLarge.js');
+const HotspotSidesStem = require('./icons/HotspotSidesStem.js');
+const HotspotSidesStemLarge = require('./icons/HotspotSidesStemLarge.js');
+const HotspotDots = require('./icons/HotspotDots.js');
+const HotspotDotsLarge = require('./icons/HotspotDotsLarge.js');
+const WindowArrowUpRight = require('./icons/WindowArrowUpRight.js');
+const WindowArrowUpRightBare = require('./icons/WindowArrowUpRightBare.js');
+const WindowArrowUpRightPlain = require('./icons/WindowArrowUpRightPlain.js');
+const Fullscreen = require('./icons/Fullscreen.js');
+const FullscreenCircle = require('./icons/FullscreenCircle.js');
+const FullscreenTriangles = require('./icons/FullscreenTriangles.js');
+const Minimize = require('./icons/Minimize.js');
+const MinimizeSquare = require('./icons/MinimizeSquare.js');
+const Restore = require('./icons/Restore.js');
+const RestoreSquare = require('./icons/RestoreSquare.js');
+const DockBottom = require('./icons/DockBottom.js');
+const DockFill = require('./icons/DockFill.js');
+const DockHorizontal = require('./icons/DockHorizontal.js');
+const DockLeft = require('./icons/DockLeft.js');
+const DockRight = require('./icons/DockRight.js');
+const DockTop = require('./icons/DockTop.js');
+const DockVertical = require('./icons/DockVertical.js');
+const WindowModalTitled = require('./icons/WindowModalTitled.js');
+const WindowModalBare = require('./icons/WindowModalBare.js');
+const WindowModal = require('./icons/WindowModal.js');
+const PopoverWindow = require('./icons/PopoverWindow.js');
+const PopoverWindowPlain = require('./icons/PopoverWindowPlain.js');
+const WindowStackShadow = require('./icons/WindowStackShadow.js');
+const WindowStackShadowBare = require('./icons/WindowStackShadowBare.js');
+const WindowStack = require('./icons/WindowStack.js');
+const XUndo = require('./icons/XUndo.js');
+const XUndoWide = require('./icons/XUndoWide.js');
+const XLarge = require('./icons/XLarge.js');
+const X = require('./icons/X.js');
+const XSmall = require('./icons/XSmall.js');
+const XTiny = require('./icons/XTiny.js');
+const XCircleLarge = require('./icons/XCircleLarge.js');
+const XCircle = require('./icons/XCircle.js');
+const XCircleSmall = require('./icons/XCircleSmall.js');
+const XCircleCompact = require('./icons/XCircleCompact.js');
+const XOctagonLarge = require('./icons/XOctagonLarge.js');
+const XOctagon = require('./icons/XOctagon.js');
+const XSquareLarge = require('./icons/XSquareLarge.js');
+const XSquare = require('./icons/XSquare.js');
+const XSquareSmall = require('./icons/XSquareSmall.js');
+const XSquareCompact = require('./icons/XSquareCompact.js');
 
 module.exports = {
   AvatarHeadLongCenterPart: AvatarHeadLongCenterPart.default || AvatarHeadLongCenterPart,
@@ -2514,2374 +2513,4713 @@ module.exports = {
   AvatarFaceSpiky: AvatarFaceSpiky.default || AvatarFaceSpiky,
   AvatarFaceSpikySide: AvatarFaceSpikySide.default || AvatarFaceSpikySide,
   AvatarFaceTopKnot: AvatarFaceTopKnot.default || AvatarFaceTopKnot,
-  ForceTouch: ForceTouch.default || ForceTouch,
-  AccessibilityPerson: AccessibilityPerson.default || AccessibilityPerson,
-  AccessibilityPersonCircle: AccessibilityPersonCircle.default || AccessibilityPersonCircle,
-  AccessibilityPersonNUI1: AccessibilityPersonNUI1.default || AccessibilityPersonNUI1,
-  AccessibilityPersonNUI2: AccessibilityPersonNUI2.default || AccessibilityPersonNUI2,
-  AccessibilityPersonPentagon: AccessibilityPersonPentagon.default || AccessibilityPersonPentagon,
-  AccessibilityPersonSquare: AccessibilityPersonSquare.default || AccessibilityPersonSquare,
-  AccessibilitySettingsPerson1: AccessibilitySettingsPerson1.default || AccessibilitySettingsPerson1,
-  AccessibilitySettingsPerson2: AccessibilitySettingsPerson2.default || AccessibilitySettingsPerson2,
-  AccessibilitySettingsPersonGear3: AccessibilitySettingsPersonGear3.default || AccessibilitySettingsPersonGear3,
-  AccessibilitySettingsPersonGear4: AccessibilitySettingsPersonGear4.default || AccessibilitySettingsPersonGear4,
-  AccessibilitySettingsPersonGearCircle1: AccessibilitySettingsPersonGearCircle1.default || AccessibilitySettingsPersonGearCircle1,
-  AccessibilitySettingsPersonGearCircle2: AccessibilitySettingsPersonGearCircle2.default || AccessibilitySettingsPersonGearCircle2,
-  AccessibilitySettingsPersonGearSquare1: AccessibilitySettingsPersonGearSquare1.default || AccessibilitySettingsPersonGearSquare1,
-  AccessibilitySettingsPersonGearSquare2: AccessibilitySettingsPersonGearSquare2.default || AccessibilitySettingsPersonGearSquare2,
-  AddFontA: AddFontA.default || AddFontA,
-  Add1: Add1.default || Add1,
-  Add2: Add2.default || Add2,
-  AddCircle: AddCircle.default || AddCircle,
-  AddSquare: AddSquare.default || AddSquare,
-  AdvancedSearchLupeGear1: AdvancedSearchLupeGear1.default || AdvancedSearchLupeGear1,
-  AdvancedSearchLupeGear2: AdvancedSearchLupeGear2.default || AdvancedSearchLupeGear2,
-  AdvancedSearchLupeGear3: AdvancedSearchLupeGear3.default || AdvancedSearchLupeGear3,
-  AdvancedSearchGear: AdvancedSearchGear.default || AdvancedSearchGear,
-  AgendaContacts0: AgendaContacts0.default || AgendaContacts0,
-  AgendaContacts1: AgendaContacts1.default || AgendaContacts1,
-  AgendaContacts2: AgendaContacts2.default || AgendaContacts2,
-  AgendaContacts3: AgendaContacts3.default || AgendaContacts3,
-  AgendaContacts4: AgendaContacts4.default || AgendaContacts4,
-  AgendaContacts5: AgendaContacts5.default || AgendaContacts5,
-  AgendaContacts69: AgendaContacts69.default || AgendaContacts69,
-  AgendaContacts7: AgendaContacts7.default || AgendaContacts7,
-  AgendaContacts8: AgendaContacts8.default || AgendaContacts8,
-  AgendaContacts9: AgendaContacts9.default || AgendaContacts9,
-  AgendaContacts10: AgendaContacts10.default || AgendaContacts10,
-  AgendaContacts11: AgendaContacts11.default || AgendaContacts11,
-  Airplay1: Airplay1.default || Airplay1,
-  Airplay2: Airplay2.default || Airplay2,
-  AirplayPairing: AirplayPairing.default || AirplayPairing,
-  AirplaySignal1: AirplaySignal1.default || AirplaySignal1,
-  AirplaySignal2: AirplaySignal2.default || AirplaySignal2,
-  AirplaySignal3: AirplaySignal3.default || AirplaySignal3,
-  AirplaySignal4: AirplaySignal4.default || AirplaySignal4,
-  AirplaySignalSquare1: AirplaySignalSquare1.default || AirplaySignalSquare1,
-  AirplaySignalSquare2: AirplaySignalSquare2.default || AirplaySignalSquare2,
-  AnimatedCircleMoving1: AnimatedCircleMoving1.default || AnimatedCircleMoving1,
-  AnimatedCircleMoving2: AnimatedCircleMoving2.default || AnimatedCircleMoving2,
-  AnimatedDiamondMoving1: AnimatedDiamondMoving1.default || AnimatedDiamondMoving1,
-  AnimatedDiamondMoving2: AnimatedDiamondMoving2.default || AnimatedDiamondMoving2,
-  ApplicationWindow1: ApplicationWindow1.default || ApplicationWindow1,
-  ApplicationWindow2: ApplicationWindow2.default || ApplicationWindow2,
-  ApplicationWindow3: ApplicationWindow3.default || ApplicationWindow3,
-  ApplicationWindow4: ApplicationWindow4.default || ApplicationWindow4,
-  ApplicationWindow5: ApplicationWindow5.default || ApplicationWindow5,
-  ApplicationWindow6: ApplicationWindow6.default || ApplicationWindow6,
-  ApplicationWindow1ArrowLeftRight: ApplicationWindow1ArrowLeftRight.default || ApplicationWindow1ArrowLeftRight,
-  ApplicationWindow1Bulb1: ApplicationWindow1Bulb1.default || ApplicationWindow1Bulb1,
-  ApplicationWindow1Bulb2: ApplicationWindow1Bulb2.default || ApplicationWindow1Bulb2,
-  ApplicationWindow1Chart4: ApplicationWindow1Chart4.default || ApplicationWindow1Chart4,
-  ApplicationWindow1Chart5: ApplicationWindow1Chart5.default || ApplicationWindow1Chart5,
-  ApplicationWindow1Chart6: ApplicationWindow1Chart6.default || ApplicationWindow1Chart6,
-  ApplicationWindowCheck: ApplicationWindowCheck.default || ApplicationWindowCheck,
-  ApplicationWindow1CircleDotsMenu: ApplicationWindow1CircleDotsMenu.default || ApplicationWindow1CircleDotsMenu,
-  ApplicationWindowClock: ApplicationWindowClock.default || ApplicationWindowClock,
-  ApplicationWindow1Cloud4: ApplicationWindow1Cloud4.default || ApplicationWindow1Cloud4,
-  ApplicationWindow1Cloud2: ApplicationWindow1Cloud2.default || ApplicationWindow1Cloud2,
-  ApplicationWindow1Cloud3: ApplicationWindow1Cloud3.default || ApplicationWindow1Cloud3,
-  ApplicationWindow1ColorPicker: ApplicationWindow1ColorPicker.default || ApplicationWindow1ColorPicker,
-  ApplicationWindow1DotsMenu: ApplicationWindow1DotsMenu.default || ApplicationWindow1DotsMenu,
-  ApplicationWindow1Lightning1: ApplicationWindow1Lightning1.default || ApplicationWindow1Lightning1,
-  ApplicationWindow1Lightning2: ApplicationWindow1Lightning2.default || ApplicationWindow1Lightning2,
-  ApplicationWindow1Lightning4: ApplicationWindow1Lightning4.default || ApplicationWindow1Lightning4,
-  ApplicationWindow1Settings3: ApplicationWindow1Settings3.default || ApplicationWindow1Settings3,
-  ApplicationWindow1Settings4: ApplicationWindow1Settings4.default || ApplicationWindow1Settings4,
-  ApplicationWindow1Heart3: ApplicationWindow1Heart3.default || ApplicationWindow1Heart3,
-  ApplicationWindow1Heart4: ApplicationWindow1Heart4.default || ApplicationWindow1Heart4,
-  ApplicationWindow1InternetExplorer2: ApplicationWindow1InternetExplorer2.default || ApplicationWindow1InternetExplorer2,
-  ApplicationWindow1Key1: ApplicationWindow1Key1.default || ApplicationWindow1Key1,
-  ApplicationWindow1Key2: ApplicationWindow1Key2.default || ApplicationWindow1Key2,
-  ApplicationWindow1Key3: ApplicationWindow1Key3.default || ApplicationWindow1Key3,
-  ApplicationWindow1Key4: ApplicationWindow1Key4.default || ApplicationWindow1Key4,
-  ApplicationWindow1Key5: ApplicationWindow1Key5.default || ApplicationWindow1Key5,
-  ApplicationWindow1Search: ApplicationWindow1Search.default || ApplicationWindow1Search,
-  ApplicationWindow1Excel: ApplicationWindow1Excel.default || ApplicationWindow1Excel,
-  ApplicationWindow1Word: ApplicationWindow1Word.default || ApplicationWindow1Word,
-  ApplicationWindow1Music1: ApplicationWindow1Music1.default || ApplicationWindow1Music1,
-  ApplicationWindow1Music2: ApplicationWindow1Music2.default || ApplicationWindow1Music2,
-  ApplicationWindow1MusicNote3: ApplicationWindow1MusicNote3.default || ApplicationWindow1MusicNote3,
-  ApplicationWindow1MusicNote4: ApplicationWindow1MusicNote4.default || ApplicationWindow1MusicNote4,
-  ApplicationWindowRemove: ApplicationWindowRemove.default || ApplicationWindowRemove,
-  ApplicationWindow1Pdf: ApplicationWindow1Pdf.default || ApplicationWindow1Pdf,
-  ApplicationWindowAdd: ApplicationWindowAdd.default || ApplicationWindowAdd,
-  ApplicationWindow1Rosette1: ApplicationWindow1Rosette1.default || ApplicationWindow1Rosette1,
-  ApplicationWindow1Rosette2: ApplicationWindow1Rosette2.default || ApplicationWindow1Rosette2,
-  ApplicationWindow1Rosette3: ApplicationWindow1Rosette3.default || ApplicationWindow1Rosette3,
-  ApplicationWindow1Rosette4: ApplicationWindow1Rosette4.default || ApplicationWindow1Rosette4,
-  ApplicationWindow1Shield1: ApplicationWindow1Shield1.default || ApplicationWindow1Shield1,
-  ApplicationWindow1Shield2: ApplicationWindow1Shield2.default || ApplicationWindow1Shield2,
-  ApplicationWindow1Speech1: ApplicationWindow1Speech1.default || ApplicationWindow1Speech1,
-  ApplicationWindow1Speech2: ApplicationWindow1Speech2.default || ApplicationWindow1Speech2,
-  ApplicationWindow1Speech3: ApplicationWindow1Speech3.default || ApplicationWindow1Speech3,
-  ApplicationWindow1Star1: ApplicationWindow1Star1.default || ApplicationWindow1Star1,
-  ApplicationWindow1Star2: ApplicationWindow1Star2.default || ApplicationWindow1Star2,
-  ApplicationWindow1Tools1: ApplicationWindow1Tools1.default || ApplicationWindow1Tools1,
-  ApplicationWindow1Tools2: ApplicationWindow1Tools2.default || ApplicationWindow1Tools2,
-  ApplicationWindowClose3: ApplicationWindowClose3.default || ApplicationWindowClose3,
-  ApplicationWindow2ArrowLeftRight1: ApplicationWindow2ArrowLeftRight1.default || ApplicationWindow2ArrowLeftRight1,
-  ApplicationWindow2ArrowLeftRight2: ApplicationWindow2ArrowLeftRight2.default || ApplicationWindow2ArrowLeftRight2,
-  ApplicationWindow2Bulb: ApplicationWindow2Bulb.default || ApplicationWindow2Bulb,
-  ApplicationWindow2Chart1: ApplicationWindow2Chart1.default || ApplicationWindow2Chart1,
-  ApplicationWindow2Chart2: ApplicationWindow2Chart2.default || ApplicationWindow2Chart2,
-  ApplicationWindow2Chart3: ApplicationWindow2Chart3.default || ApplicationWindow2Chart3,
-  ApplicationWindow2Check: ApplicationWindow2Check.default || ApplicationWindow2Check,
-  ApplicationWindowCheck2: ApplicationWindowCheck2.default || ApplicationWindowCheck2,
-  ApplicationWindow2CircleDots: ApplicationWindow2CircleDots.default || ApplicationWindow2CircleDots,
-  ApplicationWindow2Cloud1: ApplicationWindow2Cloud1.default || ApplicationWindow2Cloud1,
-  ApplicationWindow2Cloud2: ApplicationWindow2Cloud2.default || ApplicationWindow2Cloud2,
-  ApplicationWindow2Cloud3: ApplicationWindow2Cloud3.default || ApplicationWindow2Cloud3,
-  ApplicationWindow2Cloud4: ApplicationWindow2Cloud4.default || ApplicationWindow2Cloud4,
-  ApplicationWindow2ColorPicker: ApplicationWindow2ColorPicker.default || ApplicationWindow2ColorPicker,
-  ApplicationWindow2DotsMenu: ApplicationWindow2DotsMenu.default || ApplicationWindow2DotsMenu,
-  ApplicationWindow2Lightning1: ApplicationWindow2Lightning1.default || ApplicationWindow2Lightning1,
-  ApplicationWindow2Lightning2: ApplicationWindow2Lightning2.default || ApplicationWindow2Lightning2,
-  ApplicationWindow2Lightning3: ApplicationWindow2Lightning3.default || ApplicationWindow2Lightning3,
-  ApplicationWindow2Settings1: ApplicationWindow2Settings1.default || ApplicationWindow2Settings1,
-  ApplicationWindow2Settings2: ApplicationWindow2Settings2.default || ApplicationWindow2Settings2,
-  ApplicationWindow2Heart1: ApplicationWindow2Heart1.default || ApplicationWindow2Heart1,
-  ApplicationWindow2Heart2: ApplicationWindow2Heart2.default || ApplicationWindow2Heart2,
-  ApplicationWindow2InternetExplorer: ApplicationWindow2InternetExplorer.default || ApplicationWindow2InternetExplorer,
-  ApplicationWindow2Key1: ApplicationWindow2Key1.default || ApplicationWindow2Key1,
-  ApplicationWindow2Key2: ApplicationWindow2Key2.default || ApplicationWindow2Key2,
-  ApplicationWindow2Key3: ApplicationWindow2Key3.default || ApplicationWindow2Key3,
-  ApplicationWindow2Key4: ApplicationWindow2Key4.default || ApplicationWindow2Key4,
-  ApplicationWindow2Key5: ApplicationWindow2Key5.default || ApplicationWindow2Key5,
-  ApplicationWindow2Key6: ApplicationWindow2Key6.default || ApplicationWindow2Key6,
-  ApplicationWindow2Search: ApplicationWindow2Search.default || ApplicationWindow2Search,
-  ApplicationWindow2Excel: ApplicationWindow2Excel.default || ApplicationWindow2Excel,
-  ApplicationWindow2Word: ApplicationWindow2Word.default || ApplicationWindow2Word,
-  ApplicationWindow2Music1: ApplicationWindow2Music1.default || ApplicationWindow2Music1,
-  ApplicationWindow2Music2: ApplicationWindow2Music2.default || ApplicationWindow2Music2,
-  ApplicationWindow2Music3: ApplicationWindow2Music3.default || ApplicationWindow2Music3,
-  ApplicationWindow2Music4: ApplicationWindow2Music4.default || ApplicationWindow2Music4,
-  ApplicationWindowRemove1: ApplicationWindowRemove1.default || ApplicationWindowRemove1,
-  ApplicationWindowRemove2: ApplicationWindowRemove2.default || ApplicationWindowRemove2,
-  ApplicationWindow2Pdf: ApplicationWindow2Pdf.default || ApplicationWindow2Pdf,
-  ApplicationWindowPlay1: ApplicationWindowPlay1.default || ApplicationWindowPlay1,
-  ApplicationWindowPlay2: ApplicationWindowPlay2.default || ApplicationWindowPlay2,
-  ApplicationWindowAdd1: ApplicationWindowAdd1.default || ApplicationWindowAdd1,
-  ApplicationWindowAdd2: ApplicationWindowAdd2.default || ApplicationWindowAdd2,
-  ApplicationWindow2Rosette1: ApplicationWindow2Rosette1.default || ApplicationWindow2Rosette1,
-  ApplicationWindow2Rosette2: ApplicationWindow2Rosette2.default || ApplicationWindow2Rosette2,
-  ApplicationWindow2Medal3: ApplicationWindow2Medal3.default || ApplicationWindow2Medal3,
-  ApplicationWindow2Medal4: ApplicationWindow2Medal4.default || ApplicationWindow2Medal4,
-  ApplicationWindow2Shield1: ApplicationWindow2Shield1.default || ApplicationWindow2Shield1,
-  ApplicationWindow2Shield2: ApplicationWindow2Shield2.default || ApplicationWindow2Shield2,
-  ApplicationWindow2Speech: ApplicationWindow2Speech.default || ApplicationWindow2Speech,
-  ApplicationWindow2Star1: ApplicationWindow2Star1.default || ApplicationWindow2Star1,
-  ApplicationWindow2Star2: ApplicationWindow2Star2.default || ApplicationWindow2Star2,
-  ApplicationWindow2Tools: ApplicationWindow2Tools.default || ApplicationWindow2Tools,
-  ApplicationWindowClose1: ApplicationWindowClose1.default || ApplicationWindowClose1,
-  ApplicationWindowClose22: ApplicationWindowClose22.default || ApplicationWindowClose22,
-  ApplicationWindowCheck3: ApplicationWindowCheck3.default || ApplicationWindowCheck3,
-  AppWindowClock: AppWindowClock.default || AppWindowClock,
-  AppWindowRemove: AppWindowRemove.default || AppWindowRemove,
-  AppWindowAdd: AppWindowAdd.default || AppWindowAdd,
-  AppWindowClose: AppWindowClose.default || AppWindowClose,
-  AppWindowCheck1: AppWindowCheck1.default || AppWindowCheck1,
-  AppWindowCheck2: AppWindowCheck2.default || AppWindowCheck2,
-  AppWindowRemove1: AppWindowRemove1.default || AppWindowRemove1,
-  AppWindowRemove2: AppWindowRemove2.default || AppWindowRemove2,
-  AppWindowPlay1: AppWindowPlay1.default || AppWindowPlay1,
-  AppWindowPlay2: AppWindowPlay2.default || AppWindowPlay2,
-  ApplicationWindowPlus1: ApplicationWindowPlus1.default || ApplicationWindowPlus1,
-  ApplicationWindowPlus2: ApplicationWindowPlus2.default || ApplicationWindowPlus2,
-  ApplicationWindowClose12: ApplicationWindowClose12.default || ApplicationWindowClose12,
-  ApplicationWindowClose23: ApplicationWindowClose23.default || ApplicationWindowClose23,
-  ApplicationWindowLevels1: ApplicationWindowLevels1.default || ApplicationWindowLevels1,
-  ApplicationWindowLevels2: ApplicationWindowLevels2.default || ApplicationWindowLevels2,
-  ApplicationWindowLevels3: ApplicationWindowLevels3.default || ApplicationWindowLevels3,
-  ApplicationWindowLevels4: ApplicationWindowLevels4.default || ApplicationWindowLevels4,
-  ApplicationWindowRocket: ApplicationWindowRocket.default || ApplicationWindowRocket,
-  ApplicationWindowsThemesDotted: ApplicationWindowsThemesDotted.default || ApplicationWindowsThemesDotted,
-  ApplicationWindowsThemesDotted1: ApplicationWindowsThemesDotted1.default || ApplicationWindowsThemesDotted1,
-  ApplicationWindowsThemesStripes: ApplicationWindowsThemesStripes.default || ApplicationWindowsThemesStripes,
-  ApplicationWindowsThemes1: ApplicationWindowsThemes1.default || ApplicationWindowsThemes1,
-  AppsTab1: AppsTab1.default || AppsTab1,
-  AppsTab2: AppsTab2.default || AppsTab2,
-  AppsTab3: AppsTab3.default || AppsTab3,
-  ArrowCheckUpgrade: ArrowCheckUpgrade.default || ArrowCheckUpgrade,
-  ArrowCheckUpgrade2: ArrowCheckUpgrade2.default || ArrowCheckUpgrade2,
-  ArrowCircle1: ArrowCircle1.default || ArrowCircle1,
-  ArrowCircle1Slash: ArrowCircle1Slash.default || ArrowCircle1Slash,
-  ArrowCircle2: ArrowCircle2.default || ArrowCircle2,
-  ArrowCircle2Slash: ArrowCircle2Slash.default || ArrowCircle2Slash,
-  ArrowCircle3: ArrowCircle3.default || ArrowCircle3,
-  ArrowCircle3Slash: ArrowCircle3Slash.default || ArrowCircle3Slash,
-  ArrowCircle4: ArrowCircle4.default || ArrowCircle4,
-  ArrowCircle4Slash: ArrowCircle4Slash.default || ArrowCircle4Slash,
-  ArrowDownPlay1: ArrowDownPlay1.default || ArrowDownPlay1,
-  ArrowDownPlay2: ArrowDownPlay2.default || ArrowDownPlay2,
-  ArrowGearUpgrade1: ArrowGearUpgrade1.default || ArrowGearUpgrade1,
-  ArrowGearUpgrade2: ArrowGearUpgrade2.default || ArrowGearUpgrade2,
-  ArrowHexagon1: ArrowHexagon1.default || ArrowHexagon1,
-  ArrowHexagon1Slash: ArrowHexagon1Slash.default || ArrowHexagon1Slash,
-  ArrowUpgradeClose1: ArrowUpgradeClose1.default || ArrowUpgradeClose1,
-  ArrowUpgradeClose2: ArrowUpgradeClose2.default || ArrowUpgradeClose2,
-  ArrowsOutCircle: ArrowsOutCircle.default || ArrowsOutCircle,
-  ArrowsSynchronize: ArrowsSynchronize.default || ArrowsSynchronize,
-  ArrowsSynchronize1: ArrowsSynchronize1.default || ArrowsSynchronize1,
-  ArrowsSynchronize2: ArrowsSynchronize2.default || ArrowsSynchronize2,
-  ArrowsClockwise1: ArrowsClockwise1.default || ArrowsClockwise1,
-  ArrowsClockwise1Slash: ArrowsClockwise1Slash.default || ArrowsClockwise1Slash,
-  ArrowsClockwise2: ArrowsClockwise2.default || ArrowsClockwise2,
-  ArrowsClockwise2Slash: ArrowsClockwise2Slash.default || ArrowsClockwise2Slash,
-  ArrowsClockwise3: ArrowsClockwise3.default || ArrowsClockwise3,
-  ArrowsClockwise3Slash: ArrowsClockwise3Slash.default || ArrowsClockwise3Slash,
-  ArrowsCounterClockwise1: ArrowsCounterClockwise1.default || ArrowsCounterClockwise1,
-  ArrowsCounterClockwise1Slash: ArrowsCounterClockwise1Slash.default || ArrowsCounterClockwise1Slash,
-  ArrowsCounterClockwise2: ArrowsCounterClockwise2.default || ArrowsCounterClockwise2,
-  ArrowsCounterClockwiseSlash: ArrowsCounterClockwiseSlash.default || ArrowsCounterClockwiseSlash,
-  ArrowsCounterClockwise3: ArrowsCounterClockwise3.default || ArrowsCounterClockwise3,
-  ArrowsCounterClockwise3Slash: ArrowsCounterClockwise3Slash.default || ArrowsCounterClockwise3Slash,
-  ArrowsDownInput1: ArrowsDownInput1.default || ArrowsDownInput1,
-  ArrowsDownInput2: ArrowsDownInput2.default || ArrowsDownInput2,
-  ArrowsFourCircleProcess: ArrowsFourCircleProcess.default || ArrowsFourCircleProcess,
-  ArrowsFourCircleImprovement: ArrowsFourCircleImprovement.default || ArrowsFourCircleImprovement,
-  ArrowsFourCircleProcess3: ArrowsFourCircleProcess3.default || ArrowsFourCircleProcess3,
-  ArrowsFourCircleProcess2: ArrowsFourCircleProcess2.default || ArrowsFourCircleProcess2,
-  ArrowsHexagon1: ArrowsHexagon1.default || ArrowsHexagon1,
-  ArrowsHexagon2: ArrowsHexagon2.default || ArrowsHexagon2,
-  ArrowsHexagonSlash: ArrowsHexagonSlash.default || ArrowsHexagonSlash,
-  ArrowsPointerMove1: ArrowsPointerMove1.default || ArrowsPointerMove1,
-  ArrowsPointerMove2: ArrowsPointerMove2.default || ArrowsPointerMove2,
-  ArrowsRepeat1: ArrowsRepeat1.default || ArrowsRepeat1,
-  ArrowsRepeatSlash: ArrowsRepeatSlash.default || ArrowsRepeatSlash,
-  ArrowsRepeat2: ArrowsRepeat2.default || ArrowsRepeat2,
-  ArrowsRepeat2Slash: ArrowsRepeat2Slash.default || ArrowsRepeat2Slash,
-  ArrowsRepeat3: ArrowsRepeat3.default || ArrowsRepeat3,
-  ArrowsRepeat3Slash: ArrowsRepeat3Slash.default || ArrowsRepeat3Slash,
-  ArrowsRounded1: ArrowsRounded1.default || ArrowsRounded1,
-  ArrowsRounded1Slash: ArrowsRounded1Slash.default || ArrowsRounded1Slash,
-  ArrowsSquared1: ArrowsSquared1.default || ArrowsSquared1,
-  ArrowsSquared1Slash: ArrowsSquared1Slash.default || ArrowsSquared1Slash,
-  ArrowsSynchronizeCircle: ArrowsSynchronizeCircle.default || ArrowsSynchronizeCircle,
-  ArrowsUpOutput1: ArrowsUpOutput1.default || ArrowsUpOutput1,
-  ArrowsUpOutput2: ArrowsUpOutput2.default || ArrowsUpOutput2,
-  AssistiveTechnologyWheelchairSquare: AssistiveTechnologyWheelchairSquare.default || AssistiveTechnologyWheelchairSquare,
-  AssistiveTechnologyWheelchairSquare2: AssistiveTechnologyWheelchairSquare2.default || AssistiveTechnologyWheelchairSquare2,
-  AssistiveTechnologyWheelchairSquare3: AssistiveTechnologyWheelchairSquare3.default || AssistiveTechnologyWheelchairSquare3,
-  AtSign6: AtSign6.default || AtSign6,
-  AtSign7: AtSign7.default || AtSign7,
-  AtSign8: AtSign8.default || AtSign8,
-  AtSign1: AtSign1.default || AtSign1,
-  AtSign1Alert: AtSign1Alert.default || AtSign1Alert,
-  AtSign1Check: AtSign1Check.default || AtSign1Check,
-  AtSign1CircleDots: AtSign1CircleDots.default || AtSign1CircleDots,
-  AtSign1Clock1: AtSign1Clock1.default || AtSign1Clock1,
-  AtSign1Clock2: AtSign1Clock2.default || AtSign1Clock2,
-  AtSign1One: AtSign1One.default || AtSign1One,
-  AtSign1Plus: AtSign1Plus.default || AtSign1Plus,
-  AtSign1Minus: AtSign1Minus.default || AtSign1Minus,
-  AtSign1X: AtSign1X.default || AtSign1X,
-  AtSign2: AtSign2.default || AtSign2,
-  AtSign2Alert: AtSign2Alert.default || AtSign2Alert,
-  AtSign2ArrowReload: AtSign2ArrowReload.default || AtSign2ArrowReload,
-  AtSign2ArrowSync: AtSign2ArrowSync.default || AtSign2ArrowSync,
-  AtSign2Check: AtSign2Check.default || AtSign2Check,
-  AtSign2Clock: AtSign2Clock.default || AtSign2Clock,
-  AtSign2Clock2: AtSign2Clock2.default || AtSign2Clock2,
-  AtSign2Dots: AtSign2Dots.default || AtSign2Dots,
-  AtSign2Equal: AtSign2Equal.default || AtSign2Equal,
-  AtSign2One: AtSign2One.default || AtSign2One,
-  AtSign2Plus: AtSign2Plus.default || AtSign2Plus,
-  AtSign2Minus: AtSign2Minus.default || AtSign2Minus,
-  AtSign2X: AtSign2X.default || AtSign2X,
-  AtSign3Alert: AtSign3Alert.default || AtSign3Alert,
-  AtSign3Check: AtSign3Check.default || AtSign3Check,
-  AtSign3CircleDotsMenu: AtSign3CircleDotsMenu.default || AtSign3CircleDotsMenu,
-  AtSign3Clock1: AtSign3Clock1.default || AtSign3Clock1,
-  AtSign3Clock2: AtSign3Clock2.default || AtSign3Clock2,
-  AtSign3Equal: AtSign3Equal.default || AtSign3Equal,
-  AtSign3One: AtSign3One.default || AtSign3One,
-  AtSign3Plus: AtSign3Plus.default || AtSign3Plus,
-  AtSign3Minus: AtSign3Minus.default || AtSign3Minus,
-  AtSign3X: AtSign3X.default || AtSign3X,
-  AtSign4: AtSign4.default || AtSign4,
-  AtSign4Alert: AtSign4Alert.default || AtSign4Alert,
-  AtSign4ArrowReload: AtSign4ArrowReload.default || AtSign4ArrowReload,
-  AtSign4ArrowSync: AtSign4ArrowSync.default || AtSign4ArrowSync,
-  AtSign4Check: AtSign4Check.default || AtSign4Check,
-  AtSign4Clock: AtSign4Clock.default || AtSign4Clock,
-  AtSign4Settings: AtSign4Settings.default || AtSign4Settings,
-  AtSign4Equal: AtSign4Equal.default || AtSign4Equal,
-  AtSign4Minus: AtSign4Minus.default || AtSign4Minus,
-  AtSign4One: AtSign4One.default || AtSign4One,
-  AtSign4Plus: AtSign4Plus.default || AtSign4Plus,
-  AtSign4X: AtSign4X.default || AtSign4X,
-  AtSign5: AtSign5.default || AtSign5,
-  AtSign5Alert: AtSign5Alert.default || AtSign5Alert,
-  AtSign5ArrowReload: AtSign5ArrowReload.default || AtSign5ArrowReload,
-  AtSign5ArrowSync: AtSign5ArrowSync.default || AtSign5ArrowSync,
-  AtSign5Check: AtSign5Check.default || AtSign5Check,
-  AtSign5Clock: AtSign5Clock.default || AtSign5Clock,
-  AtSign5Settings: AtSign5Settings.default || AtSign5Settings,
-  AtSign5Equal: AtSign5Equal.default || AtSign5Equal,
-  AtSign5Minus: AtSign5Minus.default || AtSign5Minus,
-  AtSign5One: AtSign5One.default || AtSign5One,
-  AtSign5Plus: AtSign5Plus.default || AtSign5Plus,
-  AtSign5X: AtSign5X.default || AtSign5X,
-  AtSignCircle: AtSignCircle.default || AtSignCircle,
-  AtSignSelect1: AtSignSelect1.default || AtSignSelect1,
-  AtSignSelect2: AtSignSelect2.default || AtSignSelect2,
-  AtSign1Equal: AtSign1Equal.default || AtSign1Equal,
-  BadgeCheck1: BadgeCheck1.default || BadgeCheck1,
-  BadgeCheck2: BadgeCheck2.default || BadgeCheck2,
-  BadgeCheck3: BadgeCheck3.default || BadgeCheck3,
-  BadgeCheck4: BadgeCheck4.default || BadgeCheck4,
-  BadgeCheck5: BadgeCheck5.default || BadgeCheck5,
-  BadgeCheck6: BadgeCheck6.default || BadgeCheck6,
-  BadgeCheck7: BadgeCheck7.default || BadgeCheck7,
+  TouchForce: TouchForce.default || TouchForce,
+  Accessibility: Accessibility.default || Accessibility,
+  AccessibilityCircle: AccessibilityCircle.default || AccessibilityCircle,
+  AccessibilityNodes: AccessibilityNodes.default || AccessibilityNodes,
+  AccessibilityNodesFilled: AccessibilityNodesFilled.default || AccessibilityNodesFilled,
+  AccessibilityPentagon: AccessibilityPentagon.default || AccessibilityPentagon,
+  AccessibilitySquare: AccessibilitySquare.default || AccessibilitySquare,
+  AccessibilitySettings: AccessibilitySettings.default || AccessibilitySettings,
+  AccessibilityGearWavy: AccessibilityGearWavy.default || AccessibilityGearWavy,
+  AccessibilityGear: AccessibilityGear.default || AccessibilityGear,
+  AccessibilityGearSharp: AccessibilityGearSharp.default || AccessibilityGearSharp,
+  AccessibilityCircleSettingsLarge: AccessibilityCircleSettingsLarge.default || AccessibilityCircleSettingsLarge,
+  AccessibilityCircleSettings: AccessibilityCircleSettings.default || AccessibilityCircleSettings,
+  AccessibilitySquareSettingsLarge: AccessibilitySquareSettingsLarge.default || AccessibilitySquareSettingsLarge,
+  AccessibilitySquareSettings: AccessibilitySquareSettings.default || AccessibilitySquareSettings,
+  FontPlus: FontPlus.default || FontPlus,
+  Plus: Plus.default || Plus,
+  PlusSmall: PlusSmall.default || PlusSmall,
+  PlusCircle: PlusCircle.default || PlusCircle,
+  PlusSquare: PlusSquare.default || PlusSquare,
+  GearSearch: GearSearch.default || GearSearch,
+  GearSearchCorner: GearSearchCorner.default || GearSearchCorner,
+  GearSearchDown: GearSearchDown.default || GearSearchDown,
+  GearSearchLarge: GearSearchLarge.default || GearSearchLarge,
+  AddressBook: AddressBook.default || AddressBook,
+  AddressBookHooks: AddressBookHooks.default || AddressBookHooks,
+  AddressBookBound: AddressBookBound.default || AddressBookBound,
+  AddressBookAt: AddressBookAt.default || AddressBookAt,
+  AddressBookAtHooks: AddressBookAtHooks.default || AddressBookAtHooks,
+  AddressBookAtBound: AddressBookAtBound.default || AddressBookAtBound,
+  AddressBookBoundSharp: AddressBookBoundSharp.default || AddressBookBoundSharp,
+  AddressBookSpine: AddressBookSpine.default || AddressBookSpine,
+  AddressBookTabs: AddressBookTabs.default || AddressBookTabs,
+  AddressBookStack: AddressBookStack.default || AddressBookStack,
+  AddressBookStackClipped: AddressBookStackClipped.default || AddressBookStackClipped,
+  AddressBookPlain: AddressBookPlain.default || AddressBookPlain,
+  Airplay: Airplay.default || Airplay,
+  AirplayTall: AirplayTall.default || AirplayTall,
+  AirplayPair: AirplayPair.default || AirplayPair,
+  AirplaySignal: AirplaySignal.default || AirplaySignal,
+  AirplaySignalCircle: AirplaySignalCircle.default || AirplaySignalCircle,
+  AirplaySignalLarge: AirplaySignalLarge.default || AirplaySignalLarge,
+  AirplayWifi: AirplayWifi.default || AirplayWifi,
+  AirplaySignalSquare: AirplaySignalSquare.default || AirplaySignalSquare,
+  AirplaySignalSquareLarge: AirplaySignalSquareLarge.default || AirplaySignalSquareLarge,
+  CircleMotion: CircleMotion.default || CircleMotion,
+  CircleMotionDotted: CircleMotionDotted.default || CircleMotionDotted,
+  DiamondMotion: DiamondMotion.default || DiamondMotion,
+  DiamondMotionDotted: DiamondMotionDotted.default || DiamondMotionDotted,
+  Window: Window.default || Window,
+  WindowDotsRight: WindowDotsRight.default || WindowDotsRight,
+  WindowPlain: WindowPlain.default || WindowPlain,
+  WindowBare: WindowBare.default || WindowBare,
+  WindowTwoDots: WindowTwoDots.default || WindowTwoDots,
+  WindowTwoDotsRight: WindowTwoDotsRight.default || WindowTwoDotsRight,
+  WindowArrowLeftRight: WindowArrowLeftRight.default || WindowArrowLeftRight,
+  WindowLightbulbCenter: WindowLightbulbCenter.default || WindowLightbulbCenter,
+  WindowLightbulb: WindowLightbulb.default || WindowLightbulb,
+  WindowChart: WindowChart.default || WindowChart,
+  WindowChartZigzag: WindowChartZigzag.default || WindowChartZigzag,
+  WindowChartArrow: WindowChartArrow.default || WindowChartArrow,
+  WindowCheckCircle: WindowCheckCircle.default || WindowCheckCircle,
+  WindowDotsCircle: WindowDotsCircle.default || WindowDotsCircle,
+  WindowClock: WindowClock.default || WindowClock,
+  WindowCloud: WindowCloud.default || WindowCloud,
+  WindowCloud2: WindowCloud2.default || WindowCloud2,
+  WindowCloudPuffy: WindowCloudPuffy.default || WindowCloudPuffy,
+  WindowEyedropper: WindowEyedropper.default || WindowEyedropper,
+  WindowDotsVertical: WindowDotsVertical.default || WindowDotsVertical,
+  WindowBoltCenter: WindowBoltCenter.default || WindowBoltCenter,
+  WindowBolt: WindowBolt.default || WindowBolt,
+  WindowBoltWide: WindowBoltWide.default || WindowBoltWide,
+  WindowSettingsCenter: WindowSettingsCenter.default || WindowSettingsCenter,
+  WindowSettings: WindowSettings.default || WindowSettings,
+  WindowHeartCenter: WindowHeartCenter.default || WindowHeartCenter,
+  WindowHeart: WindowHeart.default || WindowHeart,
+  WindowLetterE: WindowLetterE.default || WindowLetterE,
+  WindowKeyHorizontal: WindowKeyHorizontal.default || WindowKeyHorizontal,
+  WindowKeySkeleton: WindowKeySkeleton.default || WindowKeySkeleton,
+  WindowKey: WindowKey.default || WindowKey,
+  WindowKeyDot: WindowKeyDot.default || WindowKeyDot,
+  WindowPassword: WindowPassword.default || WindowPassword,
+  WindowSearch: WindowSearch.default || WindowSearch,
+  WindowLetterX: WindowLetterX.default || WindowLetterX,
+  WindowLetterW: WindowLetterW.default || WindowLetterW,
+  WindowMusicCenter: WindowMusicCenter.default || WindowMusicCenter,
+  WindowMusic: WindowMusic.default || WindowMusic,
+  WindowMusicDoubleCenter: WindowMusicDoubleCenter.default || WindowMusicDoubleCenter,
+  WindowMusicDouble: WindowMusicDouble.default || WindowMusicDouble,
+  WindowMinusCircle: WindowMinusCircle.default || WindowMinusCircle,
+  WindowPdf: WindowPdf.default || WindowPdf,
+  WindowPlusCircle: WindowPlusCircle.default || WindowPlusCircle,
+  WindowMedal: WindowMedal.default || WindowMedal,
+  WindowSeal: WindowSeal.default || WindowSeal,
+  WindowAward: WindowAward.default || WindowAward,
+  WindowRosette: WindowRosette.default || WindowRosette,
+  WindowShieldCenter: WindowShieldCenter.default || WindowShieldCenter,
+  WindowShield: WindowShield.default || WindowShield,
+  WindowChat: WindowChat.default || WindowChat,
+  WindowChatCorner: WindowChatCorner.default || WindowChatCorner,
+  WindowChatRound: WindowChatRound.default || WindowChatRound,
+  WindowStarCenter: WindowStarCenter.default || WindowStarCenter,
+  WindowStar: WindowStar.default || WindowStar,
+  WindowWrench: WindowWrench.default || WindowWrench,
+  WindowWrench2: WindowWrench2.default || WindowWrench2,
+  WindowXCircle: WindowXCircle.default || WindowXCircle,
+  WindowArrowLeftRightBare: WindowArrowLeftRightBare.default || WindowArrowLeftRightBare,
+  WindowArrowLeftRightBare2: WindowArrowLeftRightBare2.default || WindowArrowLeftRightBare2,
+  WindowLightbulbBare: WindowLightbulbBare.default || WindowLightbulbBare,
+  WindowChartBare: WindowChartBare.default || WindowChartBare,
+  WindowChartZigzagBare: WindowChartZigzagBare.default || WindowChartZigzagBare,
+  WindowChartArrowBare: WindowChartArrowBare.default || WindowChartArrowBare,
+  WindowCheck: WindowCheck.default || WindowCheck,
+  WindowCheckCenter: WindowCheckCenter.default || WindowCheckCenter,
+  WindowDotsCircleBare: WindowDotsCircleBare.default || WindowDotsCircleBare,
+  WindowCloudCenterBare: WindowCloudCenterBare.default || WindowCloudCenterBare,
+  WindowCloudBare: WindowCloudBare.default || WindowCloudBare,
+  WindowCloudBare2: WindowCloudBare2.default || WindowCloudBare2,
+  WindowCloudPuffyBare: WindowCloudPuffyBare.default || WindowCloudPuffyBare,
+  WindowEyedropperBare: WindowEyedropperBare.default || WindowEyedropperBare,
+  WindowDotsVerticalBare: WindowDotsVerticalBare.default || WindowDotsVerticalBare,
+  WindowBoltCenterBare: WindowBoltCenterBare.default || WindowBoltCenterBare,
+  WindowBoltBare: WindowBoltBare.default || WindowBoltBare,
+  WindowBoltWideBare: WindowBoltWideBare.default || WindowBoltWideBare,
+  WindowSettingsCenterBare: WindowSettingsCenterBare.default || WindowSettingsCenterBare,
+  WindowSettingsBare: WindowSettingsBare.default || WindowSettingsBare,
+  WindowHeartCenterBare: WindowHeartCenterBare.default || WindowHeartCenterBare,
+  WindowHeartBare: WindowHeartBare.default || WindowHeartBare,
+  WindowLetterEBare: WindowLetterEBare.default || WindowLetterEBare,
+  WindowKeyHorizontalBare: WindowKeyHorizontalBare.default || WindowKeyHorizontalBare,
+  WindowKeySkeletonBare: WindowKeySkeletonBare.default || WindowKeySkeletonBare,
+  WindowKeyDotBare: WindowKeyDotBare.default || WindowKeyDotBare,
+  WindowPasswordBare: WindowPasswordBare.default || WindowPasswordBare,
+  WindowChatBare: WindowChatBare.default || WindowChatBare,
+  WindowChatCornerBare: WindowChatCornerBare.default || WindowChatCornerBare,
+  WindowSearchBare: WindowSearchBare.default || WindowSearchBare,
+  WindowLetterXBare: WindowLetterXBare.default || WindowLetterXBare,
+  WindowLetterWBare: WindowLetterWBare.default || WindowLetterWBare,
+  WindowMusicCenterBare: WindowMusicCenterBare.default || WindowMusicCenterBare,
+  WindowMusicBare: WindowMusicBare.default || WindowMusicBare,
+  WindowMusicDoubleCenterBare: WindowMusicDoubleCenterBare.default || WindowMusicDoubleCenterBare,
+  WindowMusicDoubleBare: WindowMusicDoubleBare.default || WindowMusicDoubleBare,
+  WindowMinus: WindowMinus.default || WindowMinus,
+  WindowMinusCenter: WindowMinusCenter.default || WindowMinusCenter,
+  WindowPdfBare: WindowPdfBare.default || WindowPdfBare,
+  WindowPlay: WindowPlay.default || WindowPlay,
+  WindowPlayCenter: WindowPlayCenter.default || WindowPlayCenter,
+  WindowPlus: WindowPlus.default || WindowPlus,
+  WindowPlusCenter: WindowPlusCenter.default || WindowPlusCenter,
+  WindowMedalBare: WindowMedalBare.default || WindowMedalBare,
+  WindowSealBare: WindowSealBare.default || WindowSealBare,
+  WindowAwardBare: WindowAwardBare.default || WindowAwardBare,
+  WindowRosetteBare: WindowRosetteBare.default || WindowRosetteBare,
+  WindowShieldCenterBare: WindowShieldCenterBare.default || WindowShieldCenterBare,
+  WindowShieldBare: WindowShieldBare.default || WindowShieldBare,
+  WindowChatRoundBare: WindowChatRoundBare.default || WindowChatRoundBare,
+  WindowStarCenterBare: WindowStarCenterBare.default || WindowStarCenterBare,
+  WindowStarBare: WindowStarBare.default || WindowStarBare,
+  WindowWrenchBare: WindowWrenchBare.default || WindowWrenchBare,
+  WindowX: WindowX.default || WindowX,
+  WindowXCenter: WindowXCenter.default || WindowXCenter,
+  WindowCheckCirclePlain: WindowCheckCirclePlain.default || WindowCheckCirclePlain,
+  WindowClockPlain: WindowClockPlain.default || WindowClockPlain,
+  WindowMinusCirclePlain: WindowMinusCirclePlain.default || WindowMinusCirclePlain,
+  WindowPlusCirclePlain: WindowPlusCirclePlain.default || WindowPlusCirclePlain,
+  WindowXCirclePlain: WindowXCirclePlain.default || WindowXCirclePlain,
+  WindowCheckPlain: WindowCheckPlain.default || WindowCheckPlain,
+  WindowCheckCenterPlain: WindowCheckCenterPlain.default || WindowCheckCenterPlain,
+  WindowMinusPlain: WindowMinusPlain.default || WindowMinusPlain,
+  WindowMinusCenterPlain: WindowMinusCenterPlain.default || WindowMinusCenterPlain,
+  WindowPlayPlain: WindowPlayPlain.default || WindowPlayPlain,
+  WindowPlayCenterPlain: WindowPlayCenterPlain.default || WindowPlayCenterPlain,
+  WindowPlusPlain: WindowPlusPlain.default || WindowPlusPlain,
+  WindowPlusCenterPlain: WindowPlusCenterPlain.default || WindowPlusCenterPlain,
+  WindowXPlain: WindowXPlain.default || WindowXPlain,
+  WindowXCenterPlain: WindowXCenterPlain.default || WindowXCenterPlain,
+  WindowSliders: WindowSliders.default || WindowSliders,
+  WindowSlidersTwo: WindowSlidersTwo.default || WindowSlidersTwo,
+  WindowSlidersPlain: WindowSlidersPlain.default || WindowSlidersPlain,
+  WindowSlidersTwoPlain: WindowSlidersTwoPlain.default || WindowSlidersTwoPlain,
+  WindowRocket: WindowRocket.default || WindowRocket,
+  WindowStackDottedAll: WindowStackDottedAll.default || WindowStackDottedAll,
+  WindowStackDotted: WindowStackDotted.default || WindowStackDotted,
+  WindowStackStripedAll: WindowStackStripedAll.default || WindowStackStripedAll,
+  WindowStackStriped: WindowStackStriped.default || WindowStackStriped,
+  LayerStack: LayerStack.default || LayerStack,
+  LayerStackRounded: LayerStackRounded.default || LayerStackRounded,
+  LayerStackOpen: LayerStackOpen.default || LayerStackOpen,
+  ArrowClockwiseCheck: ArrowClockwiseCheck.default || ArrowClockwiseCheck,
+  ArrowClockwiseCheckCircle: ArrowClockwiseCheckCircle.default || ArrowClockwiseCheckCircle,
+  ArrowClockwiseBottom: ArrowClockwiseBottom.default || ArrowClockwiseBottom,
+  ArrowClockwiseBottomOff: ArrowClockwiseBottomOff.default || ArrowClockwiseBottomOff,
+  ArrowClockwise: ArrowClockwise.default || ArrowClockwise,
+  ArrowClockwiseOff: ArrowClockwiseOff.default || ArrowClockwiseOff,
+  ArrowCounterclockwiseBottom: ArrowCounterclockwiseBottom.default || ArrowCounterclockwiseBottom,
+  ArrowCounterclockwiseBottomOff: ArrowCounterclockwiseBottomOff.default || ArrowCounterclockwiseBottomOff,
+  ArrowCounterclockwise: ArrowCounterclockwise.default || ArrowCounterclockwise,
+  ArrowCounterclockwiseOff: ArrowCounterclockwiseOff.default || ArrowCounterclockwiseOff,
+  ArrowDownArc: ArrowDownArc.default || ArrowDownArc,
+  ArrowDownArcSmall: ArrowDownArcSmall.default || ArrowDownArcSmall,
+  ArrowClockwiseSettings: ArrowClockwiseSettings.default || ArrowClockwiseSettings,
+  ArrowClockwiseSettingsCorner: ArrowClockwiseSettingsCorner.default || ArrowClockwiseSettingsCorner,
+  ArrowCounterclockwiseHexagon: ArrowCounterclockwiseHexagon.default || ArrowCounterclockwiseHexagon,
+  ArrowCounterclockwiseHexagonOff: ArrowCounterclockwiseHexagonOff.default || ArrowCounterclockwiseHexagonOff,
+  ArrowClockwiseX: ArrowClockwiseX.default || ArrowClockwiseX,
+  ArrowClockwiseXCircle: ArrowClockwiseXCircle.default || ArrowClockwiseXCircle,
+  ArrowExpandCircleDashed: ArrowExpandCircleDashed.default || ArrowExpandCircleDashed,
+  ArrowSyncNodes: ArrowSyncNodes.default || ArrowSyncNodes,
+  ArrowSyncNodesDiagonal: ArrowSyncNodesDiagonal.default || ArrowSyncNodesDiagonal,
+  ArrowSyncNodesDiagonalAngular: ArrowSyncNodesDiagonalAngular.default || ArrowSyncNodesDiagonalAngular,
+  ArrowSyncClockwise: ArrowSyncClockwise.default || ArrowSyncClockwise,
+  ArrowSyncClockwiseOff: ArrowSyncClockwiseOff.default || ArrowSyncClockwiseOff,
+  ArrowSyncClockwiseAngular: ArrowSyncClockwiseAngular.default || ArrowSyncClockwiseAngular,
+  ArrowSyncClockwiseOffAngular: ArrowSyncClockwiseOffAngular.default || ArrowSyncClockwiseOffAngular,
+  ArrowSyncClockwiseRotated: ArrowSyncClockwiseRotated.default || ArrowSyncClockwiseRotated,
+  ArrowSyncClockwiseOffRotated: ArrowSyncClockwiseOffRotated.default || ArrowSyncClockwiseOffRotated,
+  ArrowSyncCounterclockwiseRotated: ArrowSyncCounterclockwiseRotated.default || ArrowSyncCounterclockwiseRotated,
+  ArrowSyncCounterclockwiseOffRotated: ArrowSyncCounterclockwiseOffRotated.default || ArrowSyncCounterclockwiseOffRotated,
+  ArrowSyncCounterclockwiseAngular: ArrowSyncCounterclockwiseAngular.default || ArrowSyncCounterclockwiseAngular,
+  ArrowSyncCounterclockwiseOffAngular: ArrowSyncCounterclockwiseOffAngular.default || ArrowSyncCounterclockwiseOffAngular,
+  ArrowSyncCounterclockwise: ArrowSyncCounterclockwise.default || ArrowSyncCounterclockwise,
+  ArrowSyncCounterclockwiseOff: ArrowSyncCounterclockwiseOff.default || ArrowSyncCounterclockwiseOff,
+  ArrowDownTray: ArrowDownTray.default || ArrowDownTray,
+  ArrowDownTray2: ArrowDownTray2.default || ArrowDownTray2,
+  ArrowCycle: ArrowCycle.default || ArrowCycle,
+  ArrowCyclePlus: ArrowCyclePlus.default || ArrowCyclePlus,
+  ArrowCycle2: ArrowCycle2.default || ArrowCycle2,
+  ArrowCyclePlus2: ArrowCyclePlus2.default || ArrowCyclePlus2,
+  ArrowSyncHexagon: ArrowSyncHexagon.default || ArrowSyncHexagon,
+  ArrowSyncDiamond: ArrowSyncDiamond.default || ArrowSyncDiamond,
+  ArrowSyncDiamondOff: ArrowSyncDiamondOff.default || ArrowSyncDiamondOff,
+  MoveHand: MoveHand.default || MoveHand,
+  MoveHandChevron: MoveHandChevron.default || MoveHandChevron,
+  ArrowRepeat: ArrowRepeat.default || ArrowRepeat,
+  ArrowRepeatOff: ArrowRepeatOff.default || ArrowRepeatOff,
+  ArrowRepeatVertical: ArrowRepeatVertical.default || ArrowRepeatVertical,
+  ArrowRepeatVerticalOff: ArrowRepeatVerticalOff.default || ArrowRepeatVerticalOff,
+  ArrowRepeatCompact: ArrowRepeatCompact.default || ArrowRepeatCompact,
+  ArrowRepeatCompactOff: ArrowRepeatCompactOff.default || ArrowRepeatCompactOff,
+  ArrowSyncClockwise2: ArrowSyncClockwise2.default || ArrowSyncClockwise2,
+  ArrowSyncClockwiseOff2: ArrowSyncClockwiseOff2.default || ArrowSyncClockwiseOff2,
+  ArrowRepeatVerticalCompact: ArrowRepeatVerticalCompact.default || ArrowRepeatVerticalCompact,
+  ArrowRepeatVerticalCompactOff: ArrowRepeatVerticalCompactOff.default || ArrowRepeatVerticalCompactOff,
+  ArrowSyncCircle: ArrowSyncCircle.default || ArrowSyncCircle,
+  ArrowUpTray: ArrowUpTray.default || ArrowUpTray,
+  ArrowUpTraySpread: ArrowUpTraySpread.default || ArrowUpTraySpread,
+  WheelchairSquare: WheelchairSquare.default || WheelchairSquare,
+  WheelchairSquare2: WheelchairSquare2.default || WheelchairSquare2,
+  WheelchairSquare3: WheelchairSquare3.default || WheelchairSquare3,
+  AtRounded: AtRounded.default || AtRounded,
+  AtSpiral: AtSpiral.default || AtSpiral,
+  AtCompact: AtCompact.default || AtCompact,
+  AtCurved: AtCurved.default || AtCurved,
+  AtAlertCurved: AtAlertCurved.default || AtAlertCurved,
+  AtCheckCurved: AtCheckCurved.default || AtCheckCurved,
+  AtDotsCurved: AtDotsCurved.default || AtDotsCurved,
+  AtClockCurved: AtClockCurved.default || AtClockCurved,
+  AtClockCurved2: AtClockCurved2.default || AtClockCurved2,
+  AtOneCurved: AtOneCurved.default || AtOneCurved,
+  AtPlusCurved: AtPlusCurved.default || AtPlusCurved,
+  AtMinusCurved: AtMinusCurved.default || AtMinusCurved,
+  AtXCurved: AtXCurved.default || AtXCurved,
+  At: At.default || At,
+  AtAlert: AtAlert.default || AtAlert,
+  AtRefresh: AtRefresh.default || AtRefresh,
+  AtSync: AtSync.default || AtSync,
+  AtCheck: AtCheck.default || AtCheck,
+  AtClock: AtClock.default || AtClock,
+  AtClock2: AtClock2.default || AtClock2,
+  AtDots: AtDots.default || AtDots,
+  AtEqual: AtEqual.default || AtEqual,
+  AtOne: AtOne.default || AtOne,
+  AtPlus: AtPlus.default || AtPlus,
+  AtMinus: AtMinus.default || AtMinus,
+  AtX: AtX.default || AtX,
+  AtAlertCircle: AtAlertCircle.default || AtAlertCircle,
+  AtCheckCircle: AtCheckCircle.default || AtCheckCircle,
+  AtDotsCircle: AtDotsCircle.default || AtDotsCircle,
+  AtClockCircle: AtClockCircle.default || AtClockCircle,
+  AtClockCircle2: AtClockCircle2.default || AtClockCircle2,
+  AtEqualCircle: AtEqualCircle.default || AtEqualCircle,
+  AtOneCircle: AtOneCircle.default || AtOneCircle,
+  AtPlusCircle: AtPlusCircle.default || AtPlusCircle,
+  AtMinusCircle: AtMinusCircle.default || AtMinusCircle,
+  AtXCircle: AtXCircle.default || AtXCircle,
+  AtTall: AtTall.default || AtTall,
+  AtAlertTall: AtAlertTall.default || AtAlertTall,
+  AtRefreshTall: AtRefreshTall.default || AtRefreshTall,
+  AtSyncTall: AtSyncTall.default || AtSyncTall,
+  AtCheckTall: AtCheckTall.default || AtCheckTall,
+  AtClockTall: AtClockTall.default || AtClockTall,
+  AtDotsTall: AtDotsTall.default || AtDotsTall,
+  AtEqualTall: AtEqualTall.default || AtEqualTall,
+  AtMinusTall: AtMinusTall.default || AtMinusTall,
+  AtOneTall: AtOneTall.default || AtOneTall,
+  AtPlusTall: AtPlusTall.default || AtPlusTall,
+  AtXTall: AtXTall.default || AtXTall,
+  AtBoxy: AtBoxy.default || AtBoxy,
+  AtAlertBoxy: AtAlertBoxy.default || AtAlertBoxy,
+  AtRefreshBoxy: AtRefreshBoxy.default || AtRefreshBoxy,
+  AtSyncBoxy: AtSyncBoxy.default || AtSyncBoxy,
+  AtCheckBoxy: AtCheckBoxy.default || AtCheckBoxy,
+  AtClockBoxy: AtClockBoxy.default || AtClockBoxy,
+  AtDotsBoxy: AtDotsBoxy.default || AtDotsBoxy,
+  AtEqualBoxy: AtEqualBoxy.default || AtEqualBoxy,
+  AtMinusBoxy: AtMinusBoxy.default || AtMinusBoxy,
+  AtOneBoxy: AtOneBoxy.default || AtOneBoxy,
+  AtPlusBoxy: AtPlusBoxy.default || AtPlusBoxy,
+  AtXBoxy: AtXBoxy.default || AtXBoxy,
+  AtCircle: AtCircle.default || AtCircle,
+  AtCorners: AtCorners.default || AtCorners,
+  AtCornersCompact: AtCornersCompact.default || AtCornersCompact,
+  AtEqualCurved: AtEqualCurved.default || AtEqualCurved,
+  BadgeCheckJagged: BadgeCheckJagged.default || BadgeCheckJagged,
+  BadgeCheck: BadgeCheck.default || BadgeCheck,
+  BadgeCheckPetal: BadgeCheckPetal.default || BadgeCheckPetal,
+  BadgeCheckBumpy: BadgeCheckBumpy.default || BadgeCheckBumpy,
+  BadgeCheckWavy: BadgeCheckWavy.default || BadgeCheckWavy,
+  BadgeCheckNotched: BadgeCheckNotched.default || BadgeCheckNotched,
+  BadgeCheckPointed: BadgeCheckPointed.default || BadgeCheckPointed,
   BadgeCheckCircle: BadgeCheckCircle.default || BadgeCheckCircle,
   BadgeCheckSquare: BadgeCheckSquare.default || BadgeCheckSquare,
-  BadgeRosetteQuestionUnverified: BadgeRosetteQuestionUnverified.default || BadgeRosetteQuestionUnverified,
-  BadgeRosetteQuestionUnverified2: BadgeRosetteQuestionUnverified2.default || BadgeRosetteQuestionUnverified2,
-  BadgeRosetteQuestionUnverified3: BadgeRosetteQuestionUnverified3.default || BadgeRosetteQuestionUnverified3,
-  BadgeRosetteQuestionUnverified4: BadgeRosetteQuestionUnverified4.default || BadgeRosetteQuestionUnverified4,
-  BadgeRosetteQuestionUnverified5: BadgeRosetteQuestionUnverified5.default || BadgeRosetteQuestionUnverified5,
-  BadgeRosetteQuestionUnverified6: BadgeRosetteQuestionUnverified6.default || BadgeRosetteQuestionUnverified6,
-  BadgeRosetteQuestion: BadgeRosetteQuestion.default || BadgeRosetteQuestion,
-  Bell1: Bell1.default || Bell1,
-  Bell1Angle: Bell1Angle.default || Bell1Angle,
-  Bell1Check: Bell1Check.default || Bell1Check,
-  Bell1Clock: Bell1Clock.default || Bell1Clock,
-  Bell1Dot: Bell1Dot.default || Bell1Dot,
-  Bell1Silent: Bell1Silent.default || Bell1Silent,
-  Bell1Sounding1: Bell1Sounding1.default || Bell1Sounding1,
-  Bell1XCircle: Bell1XCircle.default || Bell1XCircle,
-  Bell1Sounding2: Bell1Sounding2.default || Bell1Sounding2,
-  Bell2: Bell2.default || Bell2,
-  Bell2Angle: Bell2Angle.default || Bell2Angle,
-  Bell2Check: Bell2Check.default || Bell2Check,
-  Bell2CheckCircle: Bell2CheckCircle.default || Bell2CheckCircle,
-  Bell2Circle: Bell2Circle.default || Bell2Circle,
-  Bell2CircleSilent: Bell2CircleSilent.default || Bell2CircleSilent,
-  Bell2Clock: Bell2Clock.default || Bell2Clock,
-  Bell2Exclamation: Bell2Exclamation.default || Bell2Exclamation,
-  Bell2Octagon: Bell2Octagon.default || Bell2Octagon,
-  Bell2OctagonSilent: Bell2OctagonSilent.default || Bell2OctagonSilent,
-  Bell2Plus: Bell2Plus.default || Bell2Plus,
-  Bell2Dot: Bell2Dot.default || Bell2Dot,
-  Bell2Silent: Bell2Silent.default || Bell2Silent,
-  Bell2Sounding1: Bell2Sounding1.default || Bell2Sounding1,
-  Bell2Square: Bell2Square.default || Bell2Square,
-  Bell2SquareDot: Bell2SquareDot.default || Bell2SquareDot,
-  Bell2SquareSilent: Bell2SquareSilent.default || Bell2SquareSilent,
-  Bell2X: Bell2X.default || Bell2X,
-  Bell2XCircle: Bell2XCircle.default || Bell2XCircle,
-  Bell2Z: Bell2Z.default || Bell2Z,
-  Bell2Sounding2: Bell2Sounding2.default || Bell2Sounding2,
-  Bell3: Bell3.default || Bell3,
-  Bell3Angle: Bell3Angle.default || Bell3Angle,
-  Bell3Check: Bell3Check.default || Bell3Check,
-  Bell3CheckCircle: Bell3CheckCircle.default || Bell3CheckCircle,
-  Bell3Clock: Bell3Clock.default || Bell3Clock,
-  Bell3Exclamation: Bell3Exclamation.default || Bell3Exclamation,
-  Bell3Plus: Bell3Plus.default || Bell3Plus,
-  Bell3Dot: Bell3Dot.default || Bell3Dot,
-  Bell3Silent: Bell3Silent.default || Bell3Silent,
-  Bell3Sounding1: Bell3Sounding1.default || Bell3Sounding1,
-  Bell3X: Bell3X.default || Bell3X,
-  Bell3XCircle: Bell3XCircle.default || Bell3XCircle,
-  Bell3Z: Bell3Z.default || Bell3Z,
-  Bell3Sounding2: Bell3Sounding2.default || Bell3Sounding2,
-  Bell4: Bell4.default || Bell4,
-  Bell4Angle: Bell4Angle.default || Bell4Angle,
-  Bell4Check: Bell4Check.default || Bell4Check,
-  Bell4CheckCircle: Bell4CheckCircle.default || Bell4CheckCircle,
-  Bell4Clock: Bell4Clock.default || Bell4Clock,
-  Bell4Exclamation: Bell4Exclamation.default || Bell4Exclamation,
-  Bell4Plus: Bell4Plus.default || Bell4Plus,
-  Bell4Dot: Bell4Dot.default || Bell4Dot,
-  Bell4Silent: Bell4Silent.default || Bell4Silent,
-  Bell4Sounding1: Bell4Sounding1.default || Bell4Sounding1,
-  Bell4X: Bell4X.default || Bell4X,
-  Bell4XCircle: Bell4XCircle.default || Bell4XCircle,
-  Bell4Z: Bell4Z.default || Bell4Z,
-  Bell4Sounding2: Bell4Sounding2.default || Bell4Sounding2,
-  Bell5: Bell5.default || Bell5,
-  Bell5Angle: Bell5Angle.default || Bell5Angle,
-  Bell5Check: Bell5Check.default || Bell5Check,
-  Bell5CheckCircle: Bell5CheckCircle.default || Bell5CheckCircle,
-  Bell5Circle: Bell5Circle.default || Bell5Circle,
-  Bell5CircleSilent: Bell5CircleSilent.default || Bell5CircleSilent,
-  Bell5Clock: Bell5Clock.default || Bell5Clock,
-  Bell5Exclamation: Bell5Exclamation.default || Bell5Exclamation,
-  Bell5Octagon: Bell5Octagon.default || Bell5Octagon,
-  Bell5OctagonSilent: Bell5OctagonSilent.default || Bell5OctagonSilent,
-  Bell5Plus: Bell5Plus.default || Bell5Plus,
-  Bell5Dot: Bell5Dot.default || Bell5Dot,
-  Bell5Silent: Bell5Silent.default || Bell5Silent,
-  Bell5Sounding1: Bell5Sounding1.default || Bell5Sounding1,
-  Bell5Square: Bell5Square.default || Bell5Square,
-  Bell5SquareDot: Bell5SquareDot.default || Bell5SquareDot,
-  Bell5SquareSilent: Bell5SquareSilent.default || Bell5SquareSilent,
-  Bell5X: Bell5X.default || Bell5X,
-  Bell5XCircle: Bell5XCircle.default || Bell5XCircle,
-  Bell5Z: Bell5Z.default || Bell5Z,
-  Bell5Sounding2: Bell5Sounding2.default || Bell5Sounding2,
-  Bell6: Bell6.default || Bell6,
-  Bell6Angle: Bell6Angle.default || Bell6Angle,
-  Bell6Check: Bell6Check.default || Bell6Check,
-  Bell6CheckCircle: Bell6CheckCircle.default || Bell6CheckCircle,
-  Bell6Clock: Bell6Clock.default || Bell6Clock,
-  Bell6Exclamation: Bell6Exclamation.default || Bell6Exclamation,
-  Bell6Plus: Bell6Plus.default || Bell6Plus,
-  Bell6Dot: Bell6Dot.default || Bell6Dot,
-  Bell6Silent: Bell6Silent.default || Bell6Silent,
-  Bell6Sounding1: Bell6Sounding1.default || Bell6Sounding1,
-  Bell6X: Bell6X.default || Bell6X,
-  Bell6XCircle: Bell6XCircle.default || Bell6XCircle,
-  Bell6Z: Bell6Z.default || Bell6Z,
-  Bell6Sounding2: Bell6Sounding2.default || Bell6Sounding2,
+  BadgeQuestionJagged: BadgeQuestionJagged.default || BadgeQuestionJagged,
+  BadgeQuestion: BadgeQuestion.default || BadgeQuestion,
+  BadgeQuestionPetal: BadgeQuestionPetal.default || BadgeQuestionPetal,
+  BadgeQuestionBumpy: BadgeQuestionBumpy.default || BadgeQuestionBumpy,
+  BadgeQuestionWavy: BadgeQuestionWavy.default || BadgeQuestionWavy,
+  BadgeQuestionNotched: BadgeQuestionNotched.default || BadgeQuestionNotched,
+  BadgeQuestionPointed: BadgeQuestionPointed.default || BadgeQuestionPointed,
+  BellRim: BellRim.default || BellRim,
+  BellTiltedRim: BellTiltedRim.default || BellTiltedRim,
+  BellCheckCircleRim: BellCheckCircleRim.default || BellCheckCircleRim,
+  BellClockRim: BellClockRim.default || BellClockRim,
+  BellDotRim: BellDotRim.default || BellDotRim,
+  BellOffRim: BellOffRim.default || BellOffRim,
+  BellRingLinesRim: BellRingLinesRim.default || BellRingLinesRim,
+  BellXCircleRim: BellXCircleRim.default || BellXCircleRim,
+  BellRingRim: BellRingRim.default || BellRingRim,
+  Bell: Bell.default || Bell,
+  BellTilted: BellTilted.default || BellTilted,
+  BellCheck: BellCheck.default || BellCheck,
+  BellCheckCircle: BellCheckCircle.default || BellCheckCircle,
+  BellCircle: BellCircle.default || BellCircle,
+  BellCircleOff: BellCircleOff.default || BellCircleOff,
+  BellClock: BellClock.default || BellClock,
+  BellAlert: BellAlert.default || BellAlert,
+  BellOctagon: BellOctagon.default || BellOctagon,
+  BellOctagonOff: BellOctagonOff.default || BellOctagonOff,
+  BellPlus: BellPlus.default || BellPlus,
+  BellDot: BellDot.default || BellDot,
+  BellOff: BellOff.default || BellOff,
+  BellRingLines: BellRingLines.default || BellRingLines,
+  BellSquare: BellSquare.default || BellSquare,
+  BellSquareDot: BellSquareDot.default || BellSquareDot,
+  BellSquareOff: BellSquareOff.default || BellSquareOff,
+  BellX: BellX.default || BellX,
+  BellXCircle: BellXCircle.default || BellXCircle,
+  BellSnooze: BellSnooze.default || BellSnooze,
+  BellRing: BellRing.default || BellRing,
+  BellKnob: BellKnob.default || BellKnob,
+  BellTiltedKnob: BellTiltedKnob.default || BellTiltedKnob,
+  BellCheckKnob: BellCheckKnob.default || BellCheckKnob,
+  BellCheckCircleKnob: BellCheckCircleKnob.default || BellCheckCircleKnob,
+  BellClockKnob: BellClockKnob.default || BellClockKnob,
+  BellAlertKnob: BellAlertKnob.default || BellAlertKnob,
+  BellPlusKnob: BellPlusKnob.default || BellPlusKnob,
+  BellDotKnob: BellDotKnob.default || BellDotKnob,
+  BellOffKnob: BellOffKnob.default || BellOffKnob,
+  BellRingLinesKnob: BellRingLinesKnob.default || BellRingLinesKnob,
+  BellXKnob: BellXKnob.default || BellXKnob,
+  BellXCircleKnob: BellXCircleKnob.default || BellXCircleKnob,
+  BellSnoozeKnob: BellSnoozeKnob.default || BellSnoozeKnob,
+  BellRingKnob: BellRingKnob.default || BellRingKnob,
+  BellFlat: BellFlat.default || BellFlat,
+  BellTiltedFlat: BellTiltedFlat.default || BellTiltedFlat,
+  BellCheckFlat: BellCheckFlat.default || BellCheckFlat,
+  BellCheckCircleFlat: BellCheckCircleFlat.default || BellCheckCircleFlat,
+  BellClockFlat: BellClockFlat.default || BellClockFlat,
+  BellAlertFlat: BellAlertFlat.default || BellAlertFlat,
+  BellPlusFlat: BellPlusFlat.default || BellPlusFlat,
+  BellDotFlat: BellDotFlat.default || BellDotFlat,
+  BellOffFlat: BellOffFlat.default || BellOffFlat,
+  BellRingLinesFlat: BellRingLinesFlat.default || BellRingLinesFlat,
+  BellXFlat: BellXFlat.default || BellXFlat,
+  BellXCircleFlat: BellXCircleFlat.default || BellXCircleFlat,
+  BellSnoozeFlat: BellSnoozeFlat.default || BellSnoozeFlat,
+  BellRingFlat: BellRingFlat.default || BellRingFlat,
+  BellDash: BellDash.default || BellDash,
+  BellTiltedDash: BellTiltedDash.default || BellTiltedDash,
+  BellCheckDash: BellCheckDash.default || BellCheckDash,
+  BellCheckCircleDash: BellCheckCircleDash.default || BellCheckCircleDash,
+  BellCircleDash: BellCircleDash.default || BellCircleDash,
+  BellCircleOffDash: BellCircleOffDash.default || BellCircleOffDash,
+  BellClockDash: BellClockDash.default || BellClockDash,
+  BellAlertDash: BellAlertDash.default || BellAlertDash,
+  BellOctagonDash: BellOctagonDash.default || BellOctagonDash,
+  BellOctagonOffDash: BellOctagonOffDash.default || BellOctagonOffDash,
+  BellPlusDash: BellPlusDash.default || BellPlusDash,
+  BellDotDash: BellDotDash.default || BellDotDash,
+  BellOffDash: BellOffDash.default || BellOffDash,
+  BellRingLinesDash: BellRingLinesDash.default || BellRingLinesDash,
+  BellSquareDash: BellSquareDash.default || BellSquareDash,
+  BellSquareDotDash: BellSquareDotDash.default || BellSquareDotDash,
+  BellSquareOffDash: BellSquareOffDash.default || BellSquareOffDash,
+  BellXDash: BellXDash.default || BellXDash,
+  BellXCircleDash: BellXCircleDash.default || BellXCircleDash,
+  BellSnoozeDash: BellSnoozeDash.default || BellSnoozeDash,
+  BellRingDash: BellRingDash.default || BellRingDash,
+  BellWide: BellWide.default || BellWide,
+  BellTiltedWide: BellTiltedWide.default || BellTiltedWide,
+  BellCheckWide: BellCheckWide.default || BellCheckWide,
+  BellCheckCircleWide: BellCheckCircleWide.default || BellCheckCircleWide,
+  BellClockWide: BellClockWide.default || BellClockWide,
+  BellAlertWide: BellAlertWide.default || BellAlertWide,
+  BellPlusWide: BellPlusWide.default || BellPlusWide,
+  BellDotWide: BellDotWide.default || BellDotWide,
+  BellOffWide: BellOffWide.default || BellOffWide,
+  BellRingLinesWide: BellRingLinesWide.default || BellRingLinesWide,
+  BellXWide: BellXWide.default || BellXWide,
+  BellXCircleWide: BellXCircleWide.default || BellXCircleWide,
+  BellSnoozeWide: BellSnoozeWide.default || BellSnoozeWide,
+  BellRingWide: BellRingWide.default || BellRingWide,
+  BinocularsShort: BinocularsShort.default || BinocularsShort,
+  BinocularsEyecups: BinocularsEyecups.default || BinocularsEyecups,
+  BinocularsTall: BinocularsTall.default || BinocularsTall,
+  BinocularsBoxy: BinocularsBoxy.default || BinocularsBoxy,
+  BinocularsBoxyBand: BinocularsBoxyBand.default || BinocularsBoxyBand,
+  BinocularsStraight: BinocularsStraight.default || BinocularsStraight,
+  BinocularsCompact: BinocularsCompact.default || BinocularsCompact,
+  BinocularsWide: BinocularsWide.default || BinocularsWide,
+  BinocularsAngled: BinocularsAngled.default || BinocularsAngled,
+  BinocularsOpera: BinocularsOpera.default || BinocularsOpera,
+  BinocularsCompactRound: BinocularsCompactRound.default || BinocularsCompactRound,
+  BinocularsCompactSquare: BinocularsCompactSquare.default || BinocularsCompactSquare,
   Binoculars: Binoculars.default || Binoculars,
-  Binoculars1: Binoculars1.default || Binoculars1,
-  Binoculars2: Binoculars2.default || Binoculars2,
-  Binoculars3: Binoculars3.default || Binoculars3,
-  Binoculars4: Binoculars4.default || Binoculars4,
-  Binoculars5: Binoculars5.default || Binoculars5,
-  Binoculars6: Binoculars6.default || Binoculars6,
-  Binoculars7: Binoculars7.default || Binoculars7,
-  Binoculars8: Binoculars8.default || Binoculars8,
-  Binoculars9: Binoculars9.default || Binoculars9,
-  Binoculars10: Binoculars10.default || Binoculars10,
-  Binoculars11: Binoculars11.default || Binoculars11,
-  Binoculars12: Binoculars12.default || Binoculars12,
+  BookBookmarkUnderline: BookBookmarkUnderline.default || BookBookmarkUnderline,
+  BookBookmarkThick: BookBookmarkThick.default || BookBookmarkThick,
   BookBookmark: BookBookmark.default || BookBookmark,
-  BookBookmark1: BookBookmark1.default || BookBookmark1,
-  BookBookmark2: BookBookmark2.default || BookBookmark2,
-  BookBookmark3: BookBookmark3.default || BookBookmark3,
-  BookBookmark4: BookBookmark4.default || BookBookmark4,
-  BookBookmark5: BookBookmark5.default || BookBookmark5,
-  BookBookmark6: BookBookmark6.default || BookBookmark6,
-  BookBookmark7: BookBookmark7.default || BookBookmark7,
-  BookBookmark8: BookBookmark8.default || BookBookmark8,
-  BookBookmark9: BookBookmark9.default || BookBookmark9,
-  BookBookmark10: BookBookmark10.default || BookBookmark10,
-  BookInformation1: BookInformation1.default || BookInformation1,
-  BookInformation2: BookInformation2.default || BookInformation2,
-  BookInformation3: BookInformation3.default || BookInformation3,
-  BookInformation4: BookInformation4.default || BookInformation4,
-  BookInformation5: BookInformation5.default || BookInformation5,
-  BookInformation6: BookInformation6.default || BookInformation6,
-  BookInformation7: BookInformation7.default || BookInformation7,
+  BookBookmarkSpine: BookBookmarkSpine.default || BookBookmarkSpine,
+  BookBookmarkPlain: BookBookmarkPlain.default || BookBookmarkPlain,
+  BookBookmarkSpineRounded: BookBookmarkSpineRounded.default || BookBookmarkSpineRounded,
+  BookBookmarkRibbon: BookBookmarkRibbon.default || BookBookmarkRibbon,
+  BookBookmarkFlipped: BookBookmarkFlipped.default || BookBookmarkFlipped,
+  BookBookmarkFlippedCurved: BookBookmarkFlippedCurved.default || BookBookmarkFlippedCurved,
+  BookBookmarkCurved: BookBookmarkCurved.default || BookBookmarkCurved,
+  BookBookmarkRounded: BookBookmarkRounded.default || BookBookmarkRounded,
+  BookInfo: BookInfo.default || BookInfo,
+  BookOpenInfoCurved: BookOpenInfoCurved.default || BookOpenInfoCurved,
+  BookInfoRounded: BookInfoRounded.default || BookInfoRounded,
+  BookInfoThick: BookInfoThick.default || BookInfoThick,
+  NotebookInfo: NotebookInfo.default || NotebookInfo,
+  BookOpenInfo: BookOpenInfo.default || BookOpenInfo,
+  BookInfoTilted: BookInfoTilted.default || BookInfoTilted,
   BookOpenBookmark: BookOpenBookmark.default || BookOpenBookmark,
   Bookmark: Bookmark.default || Bookmark,
-  BookmarkCheck1: BookmarkCheck1.default || BookmarkCheck1,
-  BookmarkCheck2: BookmarkCheck2.default || BookmarkCheck2,
-  BookmarkCircleCheck: BookmarkCircleCheck.default || BookmarkCircleCheck,
-  BookmarkCircleDots: BookmarkCircleDots.default || BookmarkCircleDots,
-  BookmarkLargeCheck: BookmarkLargeCheck.default || BookmarkLargeCheck,
-  BookmarkLargeDots: BookmarkLargeDots.default || BookmarkLargeDots,
-  BookmarkCircleLargeRemove: BookmarkCircleLargeRemove.default || BookmarkCircleLargeRemove,
-  BookmarkCircleLargeAdd: BookmarkCircleLargeAdd.default || BookmarkCircleLargeAdd,
-  BookmarkCircleLargeClose: BookmarkCircleLargeClose.default || BookmarkCircleLargeClose,
-  BookmarkCircleRemove: BookmarkCircleRemove.default || BookmarkCircleRemove,
-  BookmarkCircleAdd: BookmarkCircleAdd.default || BookmarkCircleAdd,
-  BookmarkCircleClose: BookmarkCircleClose.default || BookmarkCircleClose,
-  BookmarkCircled: BookmarkCircled.default || BookmarkCircled,
+  BookmarkCheckCorner: BookmarkCheckCorner.default || BookmarkCheckCorner,
+  BookmarkCheck: BookmarkCheck.default || BookmarkCheck,
+  BookmarkCheckCircle: BookmarkCheckCircle.default || BookmarkCheckCircle,
+  BookmarkDotsCircle: BookmarkDotsCircle.default || BookmarkDotsCircle,
+  BookmarkCheckCircleLarge: BookmarkCheckCircleLarge.default || BookmarkCheckCircleLarge,
+  BookmarkDotsCircleLarge: BookmarkDotsCircleLarge.default || BookmarkDotsCircleLarge,
+  BookmarkMinusCircleLarge: BookmarkMinusCircleLarge.default || BookmarkMinusCircleLarge,
+  BookmarkPlusCircleLarge: BookmarkPlusCircleLarge.default || BookmarkPlusCircleLarge,
+  BookmarkXCircleLarge: BookmarkXCircleLarge.default || BookmarkXCircleLarge,
+  BookmarkMinusCircle: BookmarkMinusCircle.default || BookmarkMinusCircle,
+  BookmarkPlusCircle: BookmarkPlusCircle.default || BookmarkPlusCircle,
+  BookmarkXCircle: BookmarkXCircle.default || BookmarkXCircle,
+  BookmarkCircle: BookmarkCircle.default || BookmarkCircle,
   BookmarkDots: BookmarkDots.default || BookmarkDots,
-  BookmarkDotsFilled: BookmarkDotsFilled.default || BookmarkDotsFilled,
-  BookmarkStar: BookmarkStar.default || BookmarkStar,
-  Bookmark1Folded: Bookmark1Folded.default || Bookmark1Folded,
-  Bookmark1FoldedAlt: Bookmark1FoldedAlt.default || Bookmark1FoldedAlt,
-  Bookmark1FoldedCheck: Bookmark1FoldedCheck.default || Bookmark1FoldedCheck,
-  Bookmark1FoldedRemove: Bookmark1FoldedRemove.default || Bookmark1FoldedRemove,
-  Bookmark1FoldedAdd: Bookmark1FoldedAdd.default || Bookmark1FoldedAdd,
-  Bookmark1FoldedStar: Bookmark1FoldedStar.default || Bookmark1FoldedStar,
-  Bookmark1FoldedClose: Bookmark1FoldedClose.default || Bookmark1FoldedClose,
-  Bookmark1Heart: Bookmark1Heart.default || Bookmark1Heart,
-  Bookmark1HeartAlt: Bookmark1HeartAlt.default || Bookmark1HeartAlt,
-  Bookmark1Remove: Bookmark1Remove.default || Bookmark1Remove,
+  BookmarkDotted: BookmarkDotted.default || BookmarkDotted,
+  BookmarkStarCorner: BookmarkStarCorner.default || BookmarkStarCorner,
+  BookmarkRolled: BookmarkRolled.default || BookmarkRolled,
+  BookmarkFolded: BookmarkFolded.default || BookmarkFolded,
+  BookmarkCheckRolled: BookmarkCheckRolled.default || BookmarkCheckRolled,
+  BookmarkMinusRolled: BookmarkMinusRolled.default || BookmarkMinusRolled,
+  BookmarkPlusRolled: BookmarkPlusRolled.default || BookmarkPlusRolled,
+  BookmarkStarRolled: BookmarkStarRolled.default || BookmarkStarRolled,
+  BookmarkXRolled: BookmarkXRolled.default || BookmarkXRolled,
+  BookmarkHeartRound: BookmarkHeartRound.default || BookmarkHeartRound,
+  BookmarkHeart: BookmarkHeart.default || BookmarkHeart,
+  BookmarkMinusCorner: BookmarkMinusCorner.default || BookmarkMinusCorner,
   BookmarkMinus: BookmarkMinus.default || BookmarkMinus,
+  BookmarkOneCorner: BookmarkOneCorner.default || BookmarkOneCorner,
+  BookmarkThreeCorner: BookmarkThreeCorner.default || BookmarkThreeCorner,
+  BookmarkTwoCorner: BookmarkTwoCorner.default || BookmarkTwoCorner,
   BookmarkOne: BookmarkOne.default || BookmarkOne,
+  BookmarkPage: BookmarkPage.default || BookmarkPage,
+  BookmarkPageSquare: BookmarkPageSquare.default || BookmarkPageSquare,
+  BookmarkPage2: BookmarkPage2.default || BookmarkPage2,
+  BookmarkPlusCorner: BookmarkPlusCorner.default || BookmarkPlusCorner,
+  BookmarkPlus: BookmarkPlus.default || BookmarkPlus,
+  BookmarkSearch: BookmarkSearch.default || BookmarkSearch,
+  BookmarkOff: BookmarkOff.default || BookmarkOff,
+  BookmarkSquare: BookmarkSquare.default || BookmarkSquare,
+  BookmarkStarLarge: BookmarkStarLarge.default || BookmarkStarLarge,
+  BookmarkStar: BookmarkStar.default || BookmarkStar,
+  BookmarkStarRound: BookmarkStarRound.default || BookmarkStarRound,
+  BookmarkStripe: BookmarkStripe.default || BookmarkStripe,
+  BookmarkStriped: BookmarkStriped.default || BookmarkStriped,
   BookmarkThree: BookmarkThree.default || BookmarkThree,
   BookmarkTwo: BookmarkTwo.default || BookmarkTwo,
-  BookmarkNumberOne: BookmarkNumberOne.default || BookmarkNumberOne,
-  BookmarkPage: BookmarkPage.default || BookmarkPage,
-  BookmarkPageTwo: BookmarkPageTwo.default || BookmarkPageTwo,
-  BookmarkPageThree: BookmarkPageThree.default || BookmarkPageThree,
-  BookmarkPlus: BookmarkPlus.default || BookmarkPlus,
-  BookmarkPlusTwo: BookmarkPlusTwo.default || BookmarkPlusTwo,
-  BookmarkSearch: BookmarkSearch.default || BookmarkSearch,
-  BookmarkSlash: BookmarkSlash.default || BookmarkSlash,
-  BookmarkSquared: BookmarkSquared.default || BookmarkSquared,
-  BookmarkStar4: BookmarkStar4.default || BookmarkStar4,
-  BookmarkStar2: BookmarkStar2.default || BookmarkStar2,
-  BookmarkStar3: BookmarkStar3.default || BookmarkStar3,
-  BookmarkStripe: BookmarkStripe.default || BookmarkStripe,
-  BookmarkStripes: BookmarkStripes.default || BookmarkStripes,
-  BookmarkThree2: BookmarkThree2.default || BookmarkThree2,
-  BookmarkTwo2: BookmarkTwo2.default || BookmarkTwo2,
-  BookmarkTwoStripes: BookmarkTwoStripes.default || BookmarkTwoStripes,
+  BookmarkStripeDouble: BookmarkStripeDouble.default || BookmarkStripeDouble,
   BookmarkX: BookmarkX.default || BookmarkX,
-  BookmarkXClose: BookmarkXClose.default || BookmarkXClose,
-  Bookmark2: Bookmark2.default || Bookmark2,
-  Bookmark2Check: Bookmark2Check.default || Bookmark2Check,
-  Bookmark2Minus: Bookmark2Minus.default || Bookmark2Minus,
-  BookmarkOne2: BookmarkOne2.default || BookmarkOne2,
-  Bookmark2Plus: Bookmark2Plus.default || Bookmark2Plus,
-  Bookmark2Slash: Bookmark2Slash.default || Bookmark2Slash,
-  BookmarkThree3: BookmarkThree3.default || BookmarkThree3,
-  Bookmark2Copy: Bookmark2Copy.default || Bookmark2Copy,
-  Bookmark2Close: Bookmark2Close.default || Bookmark2Close,
-  Bookmark3: Bookmark3.default || Bookmark3,
-  Bookmark3Check: Bookmark3Check.default || Bookmark3Check,
-  Bookmark3Minus: Bookmark3Minus.default || Bookmark3Minus,
-  Bookmark3One: Bookmark3One.default || Bookmark3One,
-  Bookmark3Plus: Bookmark3Plus.default || Bookmark3Plus,
-  Bookmark3Slash: Bookmark3Slash.default || Bookmark3Slash,
-  Bookmark3Three: Bookmark3Three.default || Bookmark3Three,
-  Bookmark3Two: Bookmark3Two.default || Bookmark3Two,
-  Bookmark3Close: Bookmark3Close.default || Bookmark3Close,
-  Bookmarks1: Bookmarks1.default || Bookmarks1,
-  BookmarksCheck: BookmarksCheck.default || BookmarksCheck,
-  BookmarksMinus: BookmarksMinus.default || BookmarksMinus,
-  BookmarksPlus: BookmarksPlus.default || BookmarksPlus,
-  BookmarksX: BookmarksX.default || BookmarksX,
-  Bookmarks2: Bookmarks2.default || Bookmarks2,
-  Bookmarks2Check: Bookmarks2Check.default || Bookmarks2Check,
-  Bookmarks2Minus: Bookmarks2Minus.default || Bookmarks2Minus,
-  Bookmarks2Plus: Bookmarks2Plus.default || Bookmarks2Plus,
-  Bookmarks2X: Bookmarks2X.default || Bookmarks2X,
-  BookmarksCollection: BookmarksCollection.default || BookmarksCollection,
+  BookmarkXCorner: BookmarkXCorner.default || BookmarkXCorner,
+  BookmarkCurl: BookmarkCurl.default || BookmarkCurl,
+  BookmarkCheckCurl: BookmarkCheckCurl.default || BookmarkCheckCurl,
+  BookmarkMinusCurl: BookmarkMinusCurl.default || BookmarkMinusCurl,
+  BookmarkOneCurl: BookmarkOneCurl.default || BookmarkOneCurl,
+  BookmarkPlusCurl: BookmarkPlusCurl.default || BookmarkPlusCurl,
+  BookmarkOffCurl: BookmarkOffCurl.default || BookmarkOffCurl,
+  BookmarkThreeCurl: BookmarkThreeCurl.default || BookmarkThreeCurl,
+  BookmarkTwoCurl: BookmarkTwoCurl.default || BookmarkTwoCurl,
+  BookmarkXCurl: BookmarkXCurl.default || BookmarkXCurl,
+  BookmarkRound: BookmarkRound.default || BookmarkRound,
+  BookmarkCheckRound: BookmarkCheckRound.default || BookmarkCheckRound,
+  BookmarkMinusRound: BookmarkMinusRound.default || BookmarkMinusRound,
+  BookmarkOneRound: BookmarkOneRound.default || BookmarkOneRound,
+  BookmarkPlusRound: BookmarkPlusRound.default || BookmarkPlusRound,
+  BookmarkOffRound: BookmarkOffRound.default || BookmarkOffRound,
+  BookmarkThreeRound: BookmarkThreeRound.default || BookmarkThreeRound,
+  BookmarkTwoRound: BookmarkTwoRound.default || BookmarkTwoRound,
+  BookmarkXRound: BookmarkXRound.default || BookmarkXRound,
+  BookmarkStack: BookmarkStack.default || BookmarkStack,
+  BookmarkStackCheck: BookmarkStackCheck.default || BookmarkStackCheck,
+  BookmarkStackMinus: BookmarkStackMinus.default || BookmarkStackMinus,
+  BookmarkStackPlus: BookmarkStackPlus.default || BookmarkStackPlus,
+  BookmarkStackX: BookmarkStackX.default || BookmarkStackX,
+  BookmarkStackEdge: BookmarkStackEdge.default || BookmarkStackEdge,
+  BookmarkStackCheckEdge: BookmarkStackCheckEdge.default || BookmarkStackCheckEdge,
+  BookmarkStackMinusEdge: BookmarkStackMinusEdge.default || BookmarkStackMinusEdge,
+  BookmarkStackPlusEdge: BookmarkStackPlusEdge.default || BookmarkStackPlusEdge,
+  BookmarkStackXEdge: BookmarkStackXEdge.default || BookmarkStackXEdge,
+  BookmarkStackTop: BookmarkStackTop.default || BookmarkStackTop,
+  BoxLidClasp: BoxLidClasp.default || BoxLidClasp,
+  BoxLid: BoxLid.default || BoxLid,
+  BoxLidSlot: BoxLidSlot.default || BoxLidSlot,
+  BoxFrontSlot: BoxFrontSlot.default || BoxFrontSlot,
+  BoxFront: BoxFront.default || BoxFront,
+  BoxTape: BoxTape.default || BoxTape,
+  BoxTapeTorn: BoxTapeTorn.default || BoxTapeTorn,
+  BoxTapeLabel: BoxTapeLabel.default || BoxTapeLabel,
+  BoxTapeArrowUp: BoxTapeArrowUp.default || BoxTapeArrowUp,
+  BoxPerspective: BoxPerspective.default || BoxPerspective,
+  BoxPerspectiveShaded: BoxPerspectiveShaded.default || BoxPerspectiveShaded,
+  BoxOpen: BoxOpen.default || BoxOpen,
+  BoxOpenPerspective: BoxOpenPerspective.default || BoxOpenPerspective,
+  BoxPlain: BoxPlain.default || BoxPlain,
   Box: Box.default || Box,
-  Box1: Box1.default || Box1,
-  Box2: Box2.default || Box2,
-  Box3: Box3.default || Box3,
-  Box4: Box4.default || Box4,
-  Box5: Box5.default || Box5,
-  Box6: Box6.default || Box6,
-  Box7: Box7.default || Box7,
-  Box8: Box8.default || Box8,
-  Box9: Box9.default || Box9,
-  Box10: Box10.default || Box10,
-  Box11: Box11.default || Box11,
-  Box12: Box12.default || Box12,
-  Box13: Box13.default || Box13,
-  Box14: Box14.default || Box14,
-  Box15: Box15.default || Box15,
-  Box16: Box16.default || Box16,
-  Box17: Box17.default || Box17,
-  Briefcase10: Briefcase10.default || Briefcase10,
+  BoxLabel: BoxLabel.default || BoxLabel,
+  BoxOpenSpread: BoxOpenSpread.default || BoxOpenSpread,
+  BoxOpenRaised: BoxOpenRaised.default || BoxOpenRaised,
   Briefcase: Briefcase.default || Briefcase,
-  Briefcase2: Briefcase2.default || Briefcase2,
-  Briefcase3: Briefcase3.default || Briefcase3,
-  Briefcase4: Briefcase4.default || Briefcase4,
-  Briefcase5: Briefcase5.default || Briefcase5,
-  Briefcase6: Briefcase6.default || Briefcase6,
-  Briefcase7: Briefcase7.default || Briefcase7,
-  Briefcase8: Briefcase8.default || Briefcase8,
-  Briefcase9: Briefcase9.default || Briefcase9,
-  BriefcaseOpen: BriefcaseOpen.default || BriefcaseOpen,
-  BriefcaseFilled: BriefcaseFilled.default || BriefcaseFilled,
-  BriefcaseCheck: BriefcaseCheck.default || BriefcaseCheck,
-  BriefcaseDocument: BriefcaseDocument.default || BriefcaseDocument,
-  BriefcaseRemove: BriefcaseRemove.default || BriefcaseRemove,
-  BriefcaseSearch: BriefcaseSearch.default || BriefcaseSearch,
-  BriefcasePlus: BriefcasePlus.default || BriefcasePlus,
-  BriefcaseClose: BriefcaseClose.default || BriefcaseClose,
-  BrowserWindow1: BrowserWindow1.default || BrowserWindow1,
-  BrowserWindow2: BrowserWindow2.default || BrowserWindow2,
-  BrowserWindowDownload1: BrowserWindowDownload1.default || BrowserWindowDownload1,
-  BrowserWindowDownload2: BrowserWindowDownload2.default || BrowserWindowDownload2,
-  BrowserWindowArrowIn: BrowserWindowArrowIn.default || BrowserWindowArrowIn,
-  BrowserWindowUpload1: BrowserWindowUpload1.default || BrowserWindowUpload1,
-  BrowserWindowUpload2: BrowserWindowUpload2.default || BrowserWindowUpload2,
-  BrowserWindowBulbCta1: BrowserWindowBulbCta1.default || BrowserWindowBulbCta1,
-  BrowserWindowBulbCta2: BrowserWindowBulbCta2.default || BrowserWindowBulbCta2,
-  BrowserWindowFlashlight1: BrowserWindowFlashlight1.default || BrowserWindowFlashlight1,
-  BrowserWindowFlashlight2: BrowserWindowFlashlight2.default || BrowserWindowFlashlight2,
-  BrowserWindowForbidden1: BrowserWindowForbidden1.default || BrowserWindowForbidden1,
-  BrowserWindowForbidden: BrowserWindowForbidden.default || BrowserWindowForbidden,
-  BrowserWindowDenied: BrowserWindowDenied.default || BrowserWindowDenied,
-  BrowserWindowGlobe: BrowserWindowGlobe.default || BrowserWindowGlobe,
-  BrowserWindowConnection: BrowserWindowConnection.default || BrowserWindowConnection,
-  BrowserWindowInternet: BrowserWindowInternet.default || BrowserWindowInternet,
-  BrowserWindowWeb: BrowserWindowWeb.default || BrowserWindowWeb,
-  BrowserWindowSpeed: BrowserWindowSpeed.default || BrowserWindowSpeed,
-  BrowserWindowFast: BrowserWindowFast.default || BrowserWindowFast,
-  BrowserWindowRabbit: BrowserWindowRabbit.default || BrowserWindowRabbit,
-  BrowserWindowLevels: BrowserWindowLevels.default || BrowserWindowLevels,
-  BrowserWindowSettings: BrowserWindowSettings.default || BrowserWindowSettings,
-  BrowserWindowAnnouncement: BrowserWindowAnnouncement.default || BrowserWindowAnnouncement,
-  BrowserWindowAnnounce1: BrowserWindowAnnounce1.default || BrowserWindowAnnounce1,
-  BrowserWindowLaunch: BrowserWindowLaunch.default || BrowserWindowLaunch,
-  BrowserWindowLaunch2: BrowserWindowLaunch2.default || BrowserWindowLaunch2,
-  BrowserWindowRestrictions: BrowserWindowRestrictions.default || BrowserWindowRestrictions,
-  BrowserWindowRestrictions2: BrowserWindowRestrictions2.default || BrowserWindowRestrictions2,
-  BrowserWindowSquare: BrowserWindowSquare.default || BrowserWindowSquare,
-  BrowserWindowWeb2: BrowserWindowWeb2.default || BrowserWindowWeb2,
-  BrowserWindowSidebar: BrowserWindowSidebar.default || BrowserWindowSidebar,
-  BulbIdea2: BulbIdea2.default || BulbIdea2,
-  BulbIdea: BulbIdea.default || BulbIdea,
-  Bulb2: Bulb2.default || Bulb2,
-  Bulb3: Bulb3.default || Bulb3,
-  Bulb4: Bulb4.default || Bulb4,
-  Bulb5: Bulb5.default || Bulb5,
-  Bulb6: Bulb6.default || Bulb6,
-  Bulb7: Bulb7.default || Bulb7,
-  Bulb8: Bulb8.default || Bulb8,
-  Bulb9: Bulb9.default || Bulb9,
-  Bulb10: Bulb10.default || Bulb10,
-  Bulb11: Bulb11.default || Bulb11,
-  Bulb12: Bulb12.default || Bulb12,
-  Bulb13: Bulb13.default || Bulb13,
-  Bulb14: Bulb14.default || Bulb14,
-  Bulb15: Bulb15.default || Bulb15,
-  Bulb16: Bulb16.default || Bulb16,
-  Bulb17: Bulb17.default || Bulb17,
-  Bulb18: Bulb18.default || Bulb18,
-  Bulb19: Bulb19.default || Bulb19,
-  Bulb20: Bulb20.default || Bulb20,
-  Bulb21: Bulb21.default || Bulb21,
-  ButtonBubble1: ButtonBubble1.default || ButtonBubble1,
-  ButtonBubble2: ButtonBubble2.default || ButtonBubble2,
-  ButtonBubble3: ButtonBubble3.default || ButtonBubble3,
-  ButtonCursor1: ButtonCursor1.default || ButtonCursor1,
-  ButtonCursor2: ButtonCursor2.default || ButtonCursor2,
-  ButtonDotted1: ButtonDotted1.default || ButtonDotted1,
-  ButtonDotted2: ButtonDotted2.default || ButtonDotted2,
-  ButtonDotted3: ButtonDotted3.default || ButtonDotted3,
-  ButtonLined1: ButtonLined1.default || ButtonLined1,
-  ButtonLined2: ButtonLined2.default || ButtonLined2,
-  ButtonPointer: ButtonPointer.default || ButtonPointer,
-  CapsLockOffArrowUp: CapsLockOffArrowUp.default || CapsLockOffArrowUp,
-  CapsLockOffArrowUp2: CapsLockOffArrowUp2.default || CapsLockOffArrowUp2,
-  CapsLockOnArrowUp: CapsLockOnArrowUp.default || CapsLockOnArrowUp,
-  CapsLockOnArrowUp2: CapsLockOnArrowUp2.default || CapsLockOnArrowUp2,
-  CartSquare: CartSquare.default || CartSquare,
-  Cast1: Cast1.default || Cast1,
-  Cast2: Cast2.default || Cast2,
-  ChartArrowUpCircle: ChartArrowUpCircle.default || ChartArrowUpCircle,
-  ChartArrowUpCircleArrowIn: ChartArrowUpCircleArrowIn.default || ChartArrowUpCircleArrowIn,
-  ChartArrowUpCircleCheck: ChartArrowUpCircleCheck.default || ChartArrowUpCircleCheck,
-  ChartArrowUpCircleMinus: ChartArrowUpCircleMinus.default || ChartArrowUpCircleMinus,
-  ChartArrowUpCirclePlus: ChartArrowUpCirclePlus.default || ChartArrowUpCirclePlus,
-  ChartArrowUpCircleX: ChartArrowUpCircleX.default || ChartArrowUpCircleX,
-  ChartArrowUpRectangle: ChartArrowUpRectangle.default || ChartArrowUpRectangle,
-  ChartArrowUpRectangleArrowIn: ChartArrowUpRectangleArrowIn.default || ChartArrowUpRectangleArrowIn,
-  ChartArrowUpRectangleCheck: ChartArrowUpRectangleCheck.default || ChartArrowUpRectangleCheck,
-  ChartArrowUpRectangleMinus: ChartArrowUpRectangleMinus.default || ChartArrowUpRectangleMinus,
-  ChartArrowUpRectanglePlus: ChartArrowUpRectanglePlus.default || ChartArrowUpRectanglePlus,
-  ChartArrowUpRectangleDot: ChartArrowUpRectangleDot.default || ChartArrowUpRectangleDot,
-  ChartArrowUpRectangleX: ChartArrowUpRectangleX.default || ChartArrowUpRectangleX,
-  ChartCandlestick1: ChartCandlestick1.default || ChartCandlestick1,
+  BriefcaseHandleLong: BriefcaseHandleLong.default || BriefcaseHandleLong,
+  BriefcaseFlap: BriefcaseFlap.default || BriefcaseFlap,
+  BriefcaseFlapFlat: BriefcaseFlapFlat.default || BriefcaseFlapFlat,
+  BriefcaseBeltBroken: BriefcaseBeltBroken.default || BriefcaseBeltBroken,
+  BriefcaseBeltSlot: BriefcaseBeltSlot.default || BriefcaseBeltSlot,
+  BriefcaseFlapClasp: BriefcaseFlapClasp.default || BriefcaseFlapClasp,
+  BriefcaseBeltClasps: BriefcaseBeltClasps.default || BriefcaseBeltClasps,
+  BriefcaseKeyhole: BriefcaseKeyhole.default || BriefcaseKeyhole,
+  BriefcaseFlapCurve: BriefcaseFlapCurve.default || BriefcaseFlapCurve,
+  BriefcaseFlapWide: BriefcaseFlapWide.default || BriefcaseFlapWide,
+  BriefcaseBelt: BriefcaseBelt.default || BriefcaseBelt,
+  BriefcaseStraps: BriefcaseStraps.default || BriefcaseStraps,
+  BriefcaseStriped: BriefcaseStriped.default || BriefcaseStriped,
+  BriefcaseCorners: BriefcaseCorners.default || BriefcaseCorners,
+  BriefcaseSatchel: BriefcaseSatchel.default || BriefcaseSatchel,
+  BriefcaseSide: BriefcaseSide.default || BriefcaseSide,
+  BriefcasePocket: BriefcasePocket.default || BriefcasePocket,
+  Browser: Browser.default || Browser,
+  WindowPlain2: WindowPlain2.default || WindowPlain2,
+  BrowserDownload: BrowserDownload.default || BrowserDownload,
+  WindowDownloadCenterPlain: WindowDownloadCenterPlain.default || WindowDownloadCenterPlain,
+  BrowserArrowUpRight: BrowserArrowUpRight.default || BrowserArrowUpRight,
+  BrowserUpload: BrowserUpload.default || BrowserUpload,
+  WindowUploadPlain: WindowUploadPlain.default || WindowUploadPlain,
+  BrowserLightbulb: BrowserLightbulb.default || BrowserLightbulb,
+  BrowserSunBare: BrowserSunBare.default || BrowserSunBare,
+  BrowserFlashlightOn: BrowserFlashlightOn.default || BrowserFlashlightOn,
+  BrowserFlashlight: BrowserFlashlight.default || BrowserFlashlight,
+  BrowserBan: BrowserBan.default || BrowserBan,
+  BrowserBanBare: BrowserBanBare.default || BrowserBanBare,
+  WindowBanPlain: WindowBanPlain.default || WindowBanPlain,
+  BrowserGlobeMap: BrowserGlobeMap.default || BrowserGlobeMap,
+  BrowserGlobe: BrowserGlobe.default || BrowserGlobe,
+  WindowGlobeMapPlain: WindowGlobeMapPlain.default || WindowGlobeMapPlain,
+  WindowGlobePlain: WindowGlobePlain.default || WindowGlobePlain,
+  BrowserFast: BrowserFast.default || BrowserFast,
+  WindowFastPlain: WindowFastPlain.default || WindowFastPlain,
+  BrowserRabbit: BrowserRabbit.default || BrowserRabbit,
+  BrowserSliders: BrowserSliders.default || BrowserSliders,
+  BrowserSlidersTwo: BrowserSlidersTwo.default || BrowserSlidersTwo,
+  BrowserMegaphoneBare: BrowserMegaphoneBare.default || BrowserMegaphoneBare,
+  BrowserMegaphone: BrowserMegaphone.default || BrowserMegaphone,
+  BrowserRocket: BrowserRocket.default || BrowserRocket,
+  WindowRocketPlain: WindowRocketPlain.default || WindowRocketPlain,
+  BrowserTrafficLight: BrowserTrafficLight.default || BrowserTrafficLight,
+  WindowTrafficLightPlain: WindowTrafficLightPlain.default || WindowTrafficLightPlain,
+  WindowSquare: WindowSquare.default || WindowSquare,
+  BrowserContent: BrowserContent.default || BrowserContent,
+  BrowserSidebar: BrowserSidebar.default || BrowserSidebar,
+  Lightbulb: Lightbulb.default || Lightbulb,
+  LightbulbShine: LightbulbShine.default || LightbulbShine,
+  LightbulbFilament: LightbulbFilament.default || LightbulbFilament,
+  LightbulbBolt: LightbulbBolt.default || LightbulbBolt,
+  LightbulbRound: LightbulbRound.default || LightbulbRound,
+  LightbulbShineRound: LightbulbShineRound.default || LightbulbShineRound,
+  LightbulbFilamentAngledRound: LightbulbFilamentAngledRound.default || LightbulbFilamentAngledRound,
+  LightbulbFilamentWavyRound: LightbulbFilamentWavyRound.default || LightbulbFilamentWavyRound,
+  LightbulbFilamentZigzagRound: LightbulbFilamentZigzagRound.default || LightbulbFilamentZigzagRound,
+  LightbulbFilamentAngledRound2: LightbulbFilamentAngledRound2.default || LightbulbFilamentAngledRound2,
+  LightbulbBoltRound: LightbulbBoltRound.default || LightbulbBoltRound,
+  LightbulbCap: LightbulbCap.default || LightbulbCap,
+  LightbulbShineCap: LightbulbShineCap.default || LightbulbShineCap,
+  LightbulbFilamentCap: LightbulbFilamentCap.default || LightbulbFilamentCap,
+  LightbulbBoltCap: LightbulbBoltCap.default || LightbulbBoltCap,
+  LightbulbScrew: LightbulbScrew.default || LightbulbScrew,
+  LightbulbShineScrew: LightbulbShineScrew.default || LightbulbShineScrew,
+  LightbulbFilamentWavyScrew: LightbulbFilamentWavyScrew.default || LightbulbFilamentWavyScrew,
+  LightbulbRays: LightbulbRays.default || LightbulbRays,
+  LightbulbRaysSlim: LightbulbRaysSlim.default || LightbulbRaysSlim,
+  LightbulbRaysWide: LightbulbRaysWide.default || LightbulbRaysWide,
+  LightbulbRaysCap: LightbulbRaysCap.default || LightbulbRaysCap,
+  ButtonPillBar: ButtonPillBar.default || ButtonPillBar,
+  ButtonPillRaised: ButtonPillRaised.default || ButtonPillRaised,
+  ButtonPill: ButtonPill.default || ButtonPill,
+  ButtonPillCursor: ButtonPillCursor.default || ButtonPillCursor,
+  ButtonCursor: ButtonCursor.default || ButtonCursor,
+  ButtonDots: ButtonDots.default || ButtonDots,
+  ButtonDotsTall: ButtonDotsTall.default || ButtonDotsTall,
+  ButtonPillDots: ButtonPillDots.default || ButtonPillDots,
+  ButtonScribble: ButtonScribble.default || ButtonScribble,
+  ButtonPillScribble: ButtonPillScribble.default || ButtonPillScribble,
+  ButtonPillHand: ButtonPillHand.default || ButtonPillHand,
+  CapsLockOff: CapsLockOff.default || CapsLockOff,
+  CapsLockOffFlat: CapsLockOffFlat.default || CapsLockOffFlat,
+  CapsLock: CapsLock.default || CapsLock,
+  CapsLockFlat: CapsLockFlat.default || CapsLockFlat,
+  ChartLineSquareWide: ChartLineSquareWide.default || ChartLineSquareWide,
+  Cast: Cast.default || Cast,
+  CastRound: CastRound.default || CastRound,
+  ChartTrendUpCircle: ChartTrendUpCircle.default || ChartTrendUpCircle,
+  ChartTrendUpCircleArrowRight: ChartTrendUpCircleArrowRight.default || ChartTrendUpCircleArrowRight,
+  ChartTrendUpCircleCheck: ChartTrendUpCircleCheck.default || ChartTrendUpCircleCheck,
+  ChartTrendUpCircleMinus: ChartTrendUpCircleMinus.default || ChartTrendUpCircleMinus,
+  ChartTrendUpCirclePlus: ChartTrendUpCirclePlus.default || ChartTrendUpCirclePlus,
+  ChartTrendUpCircleX: ChartTrendUpCircleX.default || ChartTrendUpCircleX,
+  ChartTrendUpSquare: ChartTrendUpSquare.default || ChartTrendUpSquare,
+  ChartTrendUpSquareArrowRight: ChartTrendUpSquareArrowRight.default || ChartTrendUpSquareArrowRight,
+  ChartTrendUpSquareCheck: ChartTrendUpSquareCheck.default || ChartTrendUpSquareCheck,
+  ChartTrendUpSquareMinus: ChartTrendUpSquareMinus.default || ChartTrendUpSquareMinus,
+  ChartTrendUpSquarePlus: ChartTrendUpSquarePlus.default || ChartTrendUpSquarePlus,
+  ChartTrendUpSquareDot: ChartTrendUpSquareDot.default || ChartTrendUpSquareDot,
+  ChartTrendUpSquareX: ChartTrendUpSquareX.default || ChartTrendUpSquareX,
+  ChartCandlestick: ChartCandlestick.default || ChartCandlestick,
   ChartCandlestick2: ChartCandlestick2.default || ChartCandlestick2,
-  ChartDoughnutStorage: ChartDoughnutStorage.default || ChartDoughnutStorage,
-  ChartDoughnutStorageStripes: ChartDoughnutStorageStripes.default || ChartDoughnutStorageStripes,
-  ChartHorizontalBars1: ChartHorizontalBars1.default || ChartHorizontalBars1,
-  ChartHorizontalBars2: ChartHorizontalBars2.default || ChartHorizontalBars2,
-  ChartHorizontalBars3: ChartHorizontalBars3.default || ChartHorizontalBars3,
-  ChartHorizontalBars4: ChartHorizontalBars4.default || ChartHorizontalBars4,
-  ChartLineIncrease1: ChartLineIncrease1.default || ChartLineIncrease1,
-  ChartLineIncrease2: ChartLineIncrease2.default || ChartLineIncrease2,
+  ChartDonut: ChartDonut.default || ChartDonut,
+  ChartDonutStriped: ChartDonutStriped.default || ChartDonutStriped,
+  ChartBarHorizontal: ChartBarHorizontal.default || ChartBarHorizontal,
+  ChartBarHorizontalAxis: ChartBarHorizontalAxis.default || ChartBarHorizontalAxis,
+  ChartBarHorizontalPeak: ChartBarHorizontalPeak.default || ChartBarHorizontalPeak,
+  ChartBarHorizontalPeakAxis: ChartBarHorizontalPeakAxis.default || ChartBarHorizontalPeakAxis,
+  ChartTrendUpAxis: ChartTrendUpAxis.default || ChartTrendUpAxis,
+  ChartTrendUp: ChartTrendUp.default || ChartTrendUp,
+  ChartLineWideCircle: ChartLineWideCircle.default || ChartLineWideCircle,
   ChartLineCircle: ChartLineCircle.default || ChartLineCircle,
-  ChartLineCircle2: ChartLineCircle2.default || ChartLineCircle2,
-  ChartLineCircle2ArrowIn: ChartLineCircle2ArrowIn.default || ChartLineCircle2ArrowIn,
-  ChartLineCircle2Check: ChartLineCircle2Check.default || ChartLineCircle2Check,
-  ChartLineCircle2X: ChartLineCircle2X.default || ChartLineCircle2X,
-  ChartLineCircle3: ChartLineCircle3.default || ChartLineCircle3,
-  ChartLineCircle3ArrowIn: ChartLineCircle3ArrowIn.default || ChartLineCircle3ArrowIn,
-  ChartLineCircle3Check: ChartLineCircle3Check.default || ChartLineCircle3Check,
-  ChartLineCircle3Minus: ChartLineCircle3Minus.default || ChartLineCircle3Minus,
-  ChartLineCircle3Plus: ChartLineCircle3Plus.default || ChartLineCircle3Plus,
-  ChartLineCircle3X: ChartLineCircle3X.default || ChartLineCircle3X,
+  ChartLineCircleArrowRight: ChartLineCircleArrowRight.default || ChartLineCircleArrowRight,
+  ChartLineCircleCheck: ChartLineCircleCheck.default || ChartLineCircleCheck,
+  ChartLineCircleX: ChartLineCircleX.default || ChartLineCircleX,
+  ChartLinePeakCircle: ChartLinePeakCircle.default || ChartLinePeakCircle,
+  ChartLinePeakCircleArrowRight: ChartLinePeakCircleArrowRight.default || ChartLinePeakCircleArrowRight,
+  ChartLinePeakCircleCheck: ChartLinePeakCircleCheck.default || ChartLinePeakCircleCheck,
+  ChartLinePeakCircleMinus: ChartLinePeakCircleMinus.default || ChartLinePeakCircleMinus,
+  ChartLinePeakCirclePlus: ChartLinePeakCirclePlus.default || ChartLinePeakCirclePlus,
+  ChartLinePeakCircleX: ChartLinePeakCircleX.default || ChartLinePeakCircleX,
   ChartLineCircleDotted: ChartLineCircleDotted.default || ChartLineCircleDotted,
-  ChartLineDecrease1: ChartLineDecrease1.default || ChartLineDecrease1,
-  ChartLineDecrease2: ChartLineDecrease2.default || ChartLineDecrease2,
-  ChartLineRising: ChartLineRising.default || ChartLineRising,
-  ChartLineVolatile: ChartLineVolatile.default || ChartLineVolatile,
-  ChartLineOscillate1: ChartLineOscillate1.default || ChartLineOscillate1,
-  ChartLineOscillate2: ChartLineOscillate2.default || ChartLineOscillate2,
-  ChartLineSquare2: ChartLineSquare2.default || ChartLineSquare2,
-  ChartLineSquare2ArrowIn: ChartLineSquare2ArrowIn.default || ChartLineSquare2ArrowIn,
-  ChartLineSquare2Check: ChartLineSquare2Check.default || ChartLineSquare2Check,
-  ChartLineSquare2Minus: ChartLineSquare2Minus.default || ChartLineSquare2Minus,
-  ChartLineSquare2Plus: ChartLineSquare2Plus.default || ChartLineSquare2Plus,
-  ChartLineSquare2Dot: ChartLineSquare2Dot.default || ChartLineSquare2Dot,
-  ChartLineSquare2X: ChartLineSquare2X.default || ChartLineSquare2X,
-  ChartLineSquare3: ChartLineSquare3.default || ChartLineSquare3,
-  ChartLineSquare3ArrowIn: ChartLineSquare3ArrowIn.default || ChartLineSquare3ArrowIn,
-  ChartLineSquare3Check: ChartLineSquare3Check.default || ChartLineSquare3Check,
-  ChartLineSquare3Minus: ChartLineSquare3Minus.default || ChartLineSquare3Minus,
-  ChartLineSquare3Plus: ChartLineSquare3Plus.default || ChartLineSquare3Plus,
-  ChartLineSquare3Dot: ChartLineSquare3Dot.default || ChartLineSquare3Dot,
-  ChartLineSquare3X: ChartLineSquare3X.default || ChartLineSquare3X,
-  ChartPie1: ChartPie1.default || ChartPie1,
+  ChartLineDownAxis: ChartLineDownAxis.default || ChartLineDownAxis,
+  ChartLineDownAxisJagged: ChartLineDownAxisJagged.default || ChartLineDownAxisJagged,
+  ChartLineUpAxis: ChartLineUpAxis.default || ChartLineUpAxis,
+  ChartLineUpAxisJagged: ChartLineUpAxisJagged.default || ChartLineUpAxisJagged,
+  ChartLinePeakAxis: ChartLinePeakAxis.default || ChartLinePeakAxis,
+  ChartLinePeak: ChartLinePeak.default || ChartLinePeak,
+  ChartLineSquare: ChartLineSquare.default || ChartLineSquare,
+  ChartLineSquareArrowRight: ChartLineSquareArrowRight.default || ChartLineSquareArrowRight,
+  ChartLineSquareCheck: ChartLineSquareCheck.default || ChartLineSquareCheck,
+  ChartLineSquareMinus: ChartLineSquareMinus.default || ChartLineSquareMinus,
+  ChartLineSquarePlus: ChartLineSquarePlus.default || ChartLineSquarePlus,
+  ChartLineSquareDot: ChartLineSquareDot.default || ChartLineSquareDot,
+  ChartLineSquareX: ChartLineSquareX.default || ChartLineSquareX,
+  ChartLinePeakSquare: ChartLinePeakSquare.default || ChartLinePeakSquare,
+  ChartLinePeakSquareArrowRight: ChartLinePeakSquareArrowRight.default || ChartLinePeakSquareArrowRight,
+  ChartLinePeakSquareCheck: ChartLinePeakSquareCheck.default || ChartLinePeakSquareCheck,
+  ChartLinePeakSquareMinus: ChartLinePeakSquareMinus.default || ChartLinePeakSquareMinus,
+  ChartLinePeakSquarePlus: ChartLinePeakSquarePlus.default || ChartLinePeakSquarePlus,
+  ChartLinePeakSquareDot: ChartLinePeakSquareDot.default || ChartLinePeakSquareDot,
+  ChartLinePeakSquareX: ChartLinePeakSquareX.default || ChartLinePeakSquareX,
+  ChartPie: ChartPie.default || ChartPie,
   ChartPie2: ChartPie2.default || ChartPie2,
-  ChartVerticalBarsDecrease1: ChartVerticalBarsDecrease1.default || ChartVerticalBarsDecrease1,
-  ChartVerticalBarsDecrease2: ChartVerticalBarsDecrease2.default || ChartVerticalBarsDecrease2,
-  ChartVerticalBarsIncrease1: ChartVerticalBarsIncrease1.default || ChartVerticalBarsIncrease1,
-  ChartVerticalBarsIncrease2: ChartVerticalBarsIncrease2.default || ChartVerticalBarsIncrease2,
-  ChartVerticalColumns1: ChartVerticalColumns1.default || ChartVerticalColumns1,
-  ChartVerticalColumns2: ChartVerticalColumns2.default || ChartVerticalColumns2,
-  ChartVerticalColumns3: ChartVerticalColumns3.default || ChartVerticalColumns3,
-  ChartVerticalColumns4: ChartVerticalColumns4.default || ChartVerticalColumns4,
-  ChartVerticalColumns5: ChartVerticalColumns5.default || ChartVerticalColumns5,
-  ChartVerticalColumns6: ChartVerticalColumns6.default || ChartVerticalColumns6,
-  ChartVerticalColumns7: ChartVerticalColumns7.default || ChartVerticalColumns7,
-  ChartVerticalColumnsCircle: ChartVerticalColumnsCircle.default || ChartVerticalColumnsCircle,
-  ChartVerticalColumnsCircleArrowIn: ChartVerticalColumnsCircleArrowIn.default || ChartVerticalColumnsCircleArrowIn,
-  ChartVerticalColumnsCircleCheck: ChartVerticalColumnsCircleCheck.default || ChartVerticalColumnsCircleCheck,
-  ChartVerticalColumnsCircleDotted: ChartVerticalColumnsCircleDotted.default || ChartVerticalColumnsCircleDotted,
-  ChartVerticalColumnsCircleX: ChartVerticalColumnsCircleX.default || ChartVerticalColumnsCircleX,
-  ChartVerticalColumnsLinesCircle: ChartVerticalColumnsLinesCircle.default || ChartVerticalColumnsLinesCircle,
-  ChartVerticalColumnsLinesCircleArrowIn: ChartVerticalColumnsLinesCircleArrowIn.default || ChartVerticalColumnsLinesCircleArrowIn,
-  ChartVerticalColumnsLinesCircleCheck: ChartVerticalColumnsLinesCircleCheck.default || ChartVerticalColumnsLinesCircleCheck,
-  ChartVerticalColumnsLinesCircleDotted: ChartVerticalColumnsLinesCircleDotted.default || ChartVerticalColumnsLinesCircleDotted,
-  ChartVerticalColumnsLinesCircleMinus: ChartVerticalColumnsLinesCircleMinus.default || ChartVerticalColumnsLinesCircleMinus,
-  ChartVerticalColumnsLinesCirclePlus: ChartVerticalColumnsLinesCirclePlus.default || ChartVerticalColumnsLinesCirclePlus,
-  ChartVerticalColumnsLinesCircleX: ChartVerticalColumnsLinesCircleX.default || ChartVerticalColumnsLinesCircleX,
-  ChartVerticalColumnsLinesSquare: ChartVerticalColumnsLinesSquare.default || ChartVerticalColumnsLinesSquare,
-  ChartVerticalColumnsLinesSquareArrowIn: ChartVerticalColumnsLinesSquareArrowIn.default || ChartVerticalColumnsLinesSquareArrowIn,
-  ChartVerticalColumnsLinesSquareCheck: ChartVerticalColumnsLinesSquareCheck.default || ChartVerticalColumnsLinesSquareCheck,
-  ChartVerticalColumnsLinesSquareMinus: ChartVerticalColumnsLinesSquareMinus.default || ChartVerticalColumnsLinesSquareMinus,
-  ChartVerticalColumnsLinesSquareNegative1: ChartVerticalColumnsLinesSquareNegative1.default || ChartVerticalColumnsLinesSquareNegative1,
-  ChartVerticalColumnsLinesSquareNegative2: ChartVerticalColumnsLinesSquareNegative2.default || ChartVerticalColumnsLinesSquareNegative2,
-  ChartVerticalColumnsLinesSquarePlus: ChartVerticalColumnsLinesSquarePlus.default || ChartVerticalColumnsLinesSquarePlus,
-  ChartVerticalColumnsLinesSquareDot: ChartVerticalColumnsLinesSquareDot.default || ChartVerticalColumnsLinesSquareDot,
-  ChartVerticalColumnsLinesSquareX: ChartVerticalColumnsLinesSquareX.default || ChartVerticalColumnsLinesSquareX,
-  ChartVerticalColumnsRectangle: ChartVerticalColumnsRectangle.default || ChartVerticalColumnsRectangle,
-  ChartVerticalColumnsRectangleArrowIn: ChartVerticalColumnsRectangleArrowIn.default || ChartVerticalColumnsRectangleArrowIn,
-  ChartVerticalColumnsRectangleCheck: ChartVerticalColumnsRectangleCheck.default || ChartVerticalColumnsRectangleCheck,
-  ChartVerticalColumnsRectangleMinus: ChartVerticalColumnsRectangleMinus.default || ChartVerticalColumnsRectangleMinus,
-  ChartVerticalColumnsRectangleNegative1: ChartVerticalColumnsRectangleNegative1.default || ChartVerticalColumnsRectangleNegative1,
-  ChartVerticalColumnsRectangleNegative2: ChartVerticalColumnsRectangleNegative2.default || ChartVerticalColumnsRectangleNegative2,
-  ChartVerticalColumnsRectanglePlus: ChartVerticalColumnsRectanglePlus.default || ChartVerticalColumnsRectanglePlus,
-  ChartVerticalColumnsRectangleDot: ChartVerticalColumnsRectangleDot.default || ChartVerticalColumnsRectangleDot,
-  ChartVerticalColumnsRectangleX: ChartVerticalColumnsRectangleX.default || ChartVerticalColumnsRectangleX,
-  ChartVerticalLinesColumns1: ChartVerticalLinesColumns1.default || ChartVerticalLinesColumns1,
-  ChartVerticalLinesColumns2: ChartVerticalLinesColumns2.default || ChartVerticalLinesColumns2,
-  ChartVerticalLinesColumns3: ChartVerticalLinesColumns3.default || ChartVerticalLinesColumns3,
-  ChartVerticalLinesColumns4: ChartVerticalLinesColumns4.default || ChartVerticalLinesColumns4,
-  ChartVerticalBarsArrowHorizontal1: ChartVerticalBarsArrowHorizontal1.default || ChartVerticalBarsArrowHorizontal1,
-  ChartVerticalBarsArrowHorizontal2: ChartVerticalBarsArrowHorizontal2.default || ChartVerticalBarsArrowHorizontal2,
-  CheckMark1: CheckMark1.default || CheckMark1,
-  CheckMark2: CheckMark2.default || CheckMark2,
-  CheckMark3: CheckMark3.default || CheckMark3,
-  CheckMark4: CheckMark4.default || CheckMark4,
-  CheckMarkDouble1: CheckMarkDouble1.default || CheckMarkDouble1,
-  CheckMarkDouble2: CheckMarkDouble2.default || CheckMarkDouble2,
-  CheckMarkDouble3: CheckMarkDouble3.default || CheckMarkDouble3,
-  CheckMarkDoubleSquare: CheckMarkDoubleSquare.default || CheckMarkDoubleSquare,
-  CheckMarkGeometric: CheckMarkGeometric.default || CheckMarkGeometric,
-  CheckMarkHandwritten: CheckMarkHandwritten.default || CheckMarkHandwritten,
-  CheckMarkOrganic: CheckMarkOrganic.default || CheckMarkOrganic,
-  CheckboxCircle1: CheckboxCircle1.default || CheckboxCircle1,
-  CheckboxCircle2: CheckboxCircle2.default || CheckboxCircle2,
-  CheckboxCircle3: CheckboxCircle3.default || CheckboxCircle3,
-  CheckboxCircle4: CheckboxCircle4.default || CheckboxCircle4,
-  CheckboxCircle5: CheckboxCircle5.default || CheckboxCircle5,
-  CheckboxCircle6: CheckboxCircle6.default || CheckboxCircle6,
-  CheckboxCheckedCircle: CheckboxCheckedCircle.default || CheckboxCheckedCircle,
-  CheckboxSquare1: CheckboxSquare1.default || CheckboxSquare1,
-  CheckboxSquare2: CheckboxSquare2.default || CheckboxSquare2,
-  CheckboxSquare3: CheckboxSquare3.default || CheckboxSquare3,
-  CheckboxSquare4: CheckboxSquare4.default || CheckboxSquare4,
-  CheckboxDropAddCircle: CheckboxDropAddCircle.default || CheckboxDropAddCircle,
-  CheckboxDropAddSquare1: CheckboxDropAddSquare1.default || CheckboxDropAddSquare1,
-  CheckboxDropAddSquare2: CheckboxDropAddSquare2.default || CheckboxDropAddSquare2,
-  CheckboxDropAddSquare3: CheckboxDropAddSquare3.default || CheckboxDropAddSquare3,
-  CheckboxIndeterminateCircle1: CheckboxIndeterminateCircle1.default || CheckboxIndeterminateCircle1,
-  CheckboxIndeterminateCircle2: CheckboxIndeterminateCircle2.default || CheckboxIndeterminateCircle2,
-  CheckboxIndeterminateSquare1: CheckboxIndeterminateSquare1.default || CheckboxIndeterminateSquare1,
-  CheckboxIndeterminateSquare2: CheckboxIndeterminateSquare2.default || CheckboxIndeterminateSquare2,
-  CheckboxRadioSelect1: CheckboxRadioSelect1.default || CheckboxRadioSelect1,
-  CheckboxRadioSelect2: CheckboxRadioSelect2.default || CheckboxRadioSelect2,
-  CheckboxRadioSelect3: CheckboxRadioSelect3.default || CheckboxRadioSelect3,
-  CheckboxSquareSelect1: CheckboxSquareSelect1.default || CheckboxSquareSelect1,
-  CheckboxSquareSelect2: CheckboxSquareSelect2.default || CheckboxSquareSelect2,
-  CheckboxUncheckedCircle1: CheckboxUncheckedCircle1.default || CheckboxUncheckedCircle1,
-  CheckboxUncheckedCircle2: CheckboxUncheckedCircle2.default || CheckboxUncheckedCircle2,
-  CheckboxUncheckedSquare1: CheckboxUncheckedSquare1.default || CheckboxUncheckedSquare1,
-  CheckboxUncheckedSquare2: CheckboxUncheckedSquare2.default || CheckboxUncheckedSquare2,
+  ChartBarTrendDownThin: ChartBarTrendDownThin.default || ChartBarTrendDownThin,
+  ChartBarArrowDownThin: ChartBarArrowDownThin.default || ChartBarArrowDownThin,
+  ChartBarTrendUpThin: ChartBarTrendUpThin.default || ChartBarTrendUpThin,
+  ChartBarArrowUpThin: ChartBarArrowUpThin.default || ChartBarArrowUpThin,
+  ChartBarJoined: ChartBarJoined.default || ChartBarJoined,
+  ChartBarJoinedBase: ChartBarJoinedBase.default || ChartBarJoinedBase,
+  ChartBarPeakJoined: ChartBarPeakJoined.default || ChartBarPeakJoined,
+  ChartBarPeakJoinedBase: ChartBarPeakJoinedBase.default || ChartBarPeakJoinedBase,
+  ChartBar: ChartBar.default || ChartBar,
+  ChartBarPeak: ChartBarPeak.default || ChartBarPeak,
+  ChartBarPeakJoinedAxis: ChartBarPeakJoinedAxis.default || ChartBarPeakJoinedAxis,
+  ChartBarCircle: ChartBarCircle.default || ChartBarCircle,
+  ChartBarCircleArrowRight: ChartBarCircleArrowRight.default || ChartBarCircleArrowRight,
+  ChartBarCircleCheck: ChartBarCircleCheck.default || ChartBarCircleCheck,
+  ChartBarCircleDotted: ChartBarCircleDotted.default || ChartBarCircleDotted,
+  ChartBarCircleX: ChartBarCircleX.default || ChartBarCircleX,
+  ChartBarCircleThin: ChartBarCircleThin.default || ChartBarCircleThin,
+  ChartBarCircleArrowRightThin: ChartBarCircleArrowRightThin.default || ChartBarCircleArrowRightThin,
+  ChartBarCircleCheckThin: ChartBarCircleCheckThin.default || ChartBarCircleCheckThin,
+  ChartBarCircleDottedThin: ChartBarCircleDottedThin.default || ChartBarCircleDottedThin,
+  ChartBarCircleMinusThin: ChartBarCircleMinusThin.default || ChartBarCircleMinusThin,
+  ChartBarCirclePlusThin: ChartBarCirclePlusThin.default || ChartBarCirclePlusThin,
+  ChartBarCircleXThin: ChartBarCircleXThin.default || ChartBarCircleXThin,
+  ChartBarSquareThin: ChartBarSquareThin.default || ChartBarSquareThin,
+  ChartBarSquareArrowRightThin: ChartBarSquareArrowRightThin.default || ChartBarSquareArrowRightThin,
+  ChartBarSquareCheckThin: ChartBarSquareCheckThin.default || ChartBarSquareCheckThin,
+  ChartBarSquareMinusThin: ChartBarSquareMinusThin.default || ChartBarSquareMinusThin,
+  ChartBarDownPeakSquareThin: ChartBarDownPeakSquareThin.default || ChartBarDownPeakSquareThin,
+  ChartBarDownSquareThin: ChartBarDownSquareThin.default || ChartBarDownSquareThin,
+  ChartBarSquarePlusThin: ChartBarSquarePlusThin.default || ChartBarSquarePlusThin,
+  ChartBarSquareDotThin: ChartBarSquareDotThin.default || ChartBarSquareDotThin,
+  ChartBarSquareXThin: ChartBarSquareXThin.default || ChartBarSquareXThin,
+  ChartBarSquare: ChartBarSquare.default || ChartBarSquare,
+  ChartBarSquareArrowRight: ChartBarSquareArrowRight.default || ChartBarSquareArrowRight,
+  ChartBarSquareCheck: ChartBarSquareCheck.default || ChartBarSquareCheck,
+  ChartBarSquareMinus: ChartBarSquareMinus.default || ChartBarSquareMinus,
+  ChartBarDownPeakSquare: ChartBarDownPeakSquare.default || ChartBarDownPeakSquare,
+  ChartBarDownSquare: ChartBarDownSquare.default || ChartBarDownSquare,
+  ChartBarSquarePlus: ChartBarSquarePlus.default || ChartBarSquarePlus,
+  ChartBarSquareDot: ChartBarSquareDot.default || ChartBarSquareDot,
+  ChartBarSquareX: ChartBarSquareX.default || ChartBarSquareX,
+  ChartBarThin: ChartBarThin.default || ChartBarThin,
+  ChartBarMixedThin: ChartBarMixedThin.default || ChartBarMixedThin,
+  ChartBarMixedAxisThin: ChartBarMixedAxisThin.default || ChartBarMixedAxisThin,
+  ChartBarAxisThin: ChartBarAxisThin.default || ChartBarAxisThin,
+  ChartBarArrowRightThin: ChartBarArrowRightThin.default || ChartBarArrowRightThin,
+  ChartBarArrowRight: ChartBarArrowRight.default || ChartBarArrowRight,
+  CheckLarge: CheckLarge.default || CheckLarge,
+  Check: Check.default || Check,
+  CheckTall: CheckTall.default || CheckTall,
+  CheckSmall: CheckSmall.default || CheckSmall,
+  CheckDoubleJoined: CheckDoubleJoined.default || CheckDoubleJoined,
+  CheckDouble: CheckDouble.default || CheckDouble,
+  CheckDouble2: CheckDouble2.default || CheckDouble2,
+  CheckDoubleSquare: CheckDoubleSquare.default || CheckDoubleSquare,
+  CheckBold: CheckBold.default || CheckBold,
+  CheckBoldHandwritten: CheckBoldHandwritten.default || CheckBoldHandwritten,
+  CheckBoldOrganic: CheckBoldOrganic.default || CheckBoldOrganic,
+  CheckCircleCompact: CheckCircleCompact.default || CheckCircleCompact,
+  CheckCircleOpen2: CheckCircleOpen2.default || CheckCircleOpen2,
+  CheckCircleOpen3: CheckCircleOpen3.default || CheckCircleOpen3,
+  CheckCircleOpen: CheckCircleOpen.default || CheckCircleOpen,
+  CheckCircleOpenJoined: CheckCircleOpenJoined.default || CheckCircleOpenJoined,
+  CheckCircle: CheckCircle.default || CheckCircle,
+  CheckSquareCircle: CheckSquareCircle.default || CheckSquareCircle,
+  CheckSquare: CheckSquare.default || CheckSquare,
+  CheckSquareCompact: CheckSquareCompact.default || CheckSquareCompact,
+  CheckSquareOpenJoined: CheckSquareOpenJoined.default || CheckSquareOpenJoined,
+  CheckSquareOpen: CheckSquareOpen.default || CheckSquareOpen,
+  CheckCircleStack: CheckCircleStack.default || CheckCircleStack,
+  CheckSquareStack: CheckSquareStack.default || CheckSquareStack,
+  CheckSquareStack2: CheckSquareStack2.default || CheckSquareStack2,
+  CheckSquareStackShadow: CheckSquareStackShadow.default || CheckSquareStackShadow,
+  MinusCircleCompactLarge: MinusCircleCompactLarge.default || MinusCircleCompactLarge,
+  MinusCircleLarge: MinusCircleLarge.default || MinusCircleLarge,
+  MinusSquareCompactLarge: MinusSquareCompactLarge.default || MinusSquareCompactLarge,
+  MinusSquareLarge: MinusSquareLarge.default || MinusSquareLarge,
+  RadioCheck: RadioCheck.default || RadioCheck,
+  RadioCheckOpen: RadioCheckOpen.default || RadioCheckOpen,
+  CheckCircleOpenSquare: CheckCircleOpenSquare.default || CheckCircleOpenSquare,
+  CheckSquareOpenCircle: CheckSquareOpenCircle.default || CheckSquareOpenCircle,
+  CheckSquareOpenSquare: CheckSquareOpenSquare.default || CheckSquareOpenSquare,
+  CheckboxCircleCompact: CheckboxCircleCompact.default || CheckboxCircleCompact,
+  CheckboxCircle: CheckboxCircle.default || CheckboxCircle,
+  CheckboxCompact: CheckboxCompact.default || CheckboxCompact,
+  Checkbox: Checkbox.default || Checkbox,
   Checklist: Checklist.default || Checklist,
-  ChecklistMultiple1: ChecklistMultiple1.default || ChecklistMultiple1,
-  ChecklistMultiple2: ChecklistMultiple2.default || ChecklistMultiple2,
-  ChecklistMultiple3: ChecklistMultiple3.default || ChecklistMultiple3,
-  ChecklistMultiple4: ChecklistMultiple4.default || ChecklistMultiple4,
-  ChecklistMultiple5: ChecklistMultiple5.default || ChecklistMultiple5,
-  ChecklistMultiple6: ChecklistMultiple6.default || ChecklistMultiple6,
-  ChecklistMultiple7: ChecklistMultiple7.default || ChecklistMultiple7,
-  ChecklistMultiple8: ChecklistMultiple8.default || ChecklistMultiple8,
-  ChecklistMultiple9: ChecklistMultiple9.default || ChecklistMultiple9,
-  ChecklistMultiple10: ChecklistMultiple10.default || ChecklistMultiple10,
-  ChecklistSingle1: ChecklistSingle1.default || ChecklistSingle1,
-  ChecklistSingle2: ChecklistSingle2.default || ChecklistSingle2,
-  ChecklistSingle3: ChecklistSingle3.default || ChecklistSingle3,
-  ChecklistSingle4: ChecklistSingle4.default || ChecklistSingle4,
-  ChecklistSingle5: ChecklistSingle5.default || ChecklistSingle5,
-  ChecklistSingle6: ChecklistSingle6.default || ChecklistSingle6,
-  ChecklistSingleChoice7: ChecklistSingleChoice7.default || ChecklistSingleChoice7,
-  ChecklistUnchecked1: ChecklistUnchecked1.default || ChecklistUnchecked1,
-  ChecklistUnchecked2: ChecklistUnchecked2.default || ChecklistUnchecked2,
-  CirclesStates1: CirclesStates1.default || CirclesStates1,
-  CirclesStates2: CirclesStates2.default || CirclesStates2,
-  CirclesStatesArrowTransition: CirclesStatesArrowTransition.default || CirclesStatesArrowTransition,
-  CirclesStateArrowOneWay: CirclesStateArrowOneWay.default || CirclesStateArrowOneWay,
-  CirclesStateArrowBothWays: CirclesStateArrowBothWays.default || CirclesStateArrowBothWays,
-  ClearSymbol1: ClearSymbol1.default || ClearSymbol1,
-  ClearSymbol2: ClearSymbol2.default || ClearSymbol2,
-  ClearSymbol3: ClearSymbol3.default || ClearSymbol3,
-  ClipboardShortlist: ClipboardShortlist.default || ClipboardShortlist,
-  ClipboardShortlistCheck: ClipboardShortlistCheck.default || ClipboardShortlistCheck,
-  ClipboardShortlistMinus: ClipboardShortlistMinus.default || ClipboardShortlistMinus,
-  ClipboardShortlistPlus: ClipboardShortlistPlus.default || ClipboardShortlistPlus,
-  ClipboardShortlistX: ClipboardShortlistX.default || ClipboardShortlistX,
-  Clock1: Clock1.default || Clock1,
-  Clock29: Clock29.default || Clock29,
-  ClockArrowCircle: ClockArrowCircle.default || ClockArrowCircle,
+  ChecklistCircleTopTwo: ChecklistCircleTopTwo.default || ChecklistCircleTopTwo,
+  ChecklistCircleEnds: ChecklistCircleEnds.default || ChecklistCircleEnds,
+  ChecklistSquareTopTwo: ChecklistSquareTopTwo.default || ChecklistSquareTopTwo,
+  ChecklistSquareEnds: ChecklistSquareEnds.default || ChecklistSquareEnds,
+  ChecklistRadioTopTwo: ChecklistRadioTopTwo.default || ChecklistRadioTopTwo,
+  ChecklistRadioEnds: ChecklistRadioEnds.default || ChecklistRadioEnds,
+  ChecklistRadioAll: ChecklistRadioAll.default || ChecklistRadioAll,
+  ChecklistSquareFilledTopTwo: ChecklistSquareFilledTopTwo.default || ChecklistSquareFilledTopTwo,
+  ChecklistSquareFilledEnds: ChecklistSquareFilledEnds.default || ChecklistSquareFilledEnds,
+  ChecklistSquareFilledAll: ChecklistSquareFilledAll.default || ChecklistSquareFilledAll,
+  ChecklistTop: ChecklistTop.default || ChecklistTop,
+  ChecklistCircleTop: ChecklistCircleTop.default || ChecklistCircleTop,
+  ChecklistCircleBottom: ChecklistCircleBottom.default || ChecklistCircleBottom,
+  ChecklistSquareTop: ChecklistSquareTop.default || ChecklistSquareTop,
+  ChecklistSquareBottom: ChecklistSquareBottom.default || ChecklistSquareBottom,
+  ChecklistRadioTop: ChecklistRadioTop.default || ChecklistRadioTop,
+  ChecklistSquareFilledTop: ChecklistSquareFilledTop.default || ChecklistSquareFilledTop,
+  ChecklistCircleEmpty: ChecklistCircleEmpty.default || ChecklistCircleEmpty,
+  ChecklistSquareEmpty: ChecklistSquareEmpty.default || ChecklistSquareEmpty,
+  CircleStack: CircleStack.default || CircleStack,
+  CircleStackTight: CircleStackTight.default || CircleStackTight,
+  CircleOverlapArrowUpRight: CircleOverlapArrowUpRight.default || CircleOverlapArrowUpRight,
+  CircleOverlapArrowDownLeft: CircleOverlapArrowDownLeft.default || CircleOverlapArrowDownLeft,
+  CircleOverlapArrowUpRightDownLeft: CircleOverlapArrowUpRightDownLeft.default || CircleOverlapArrowUpRightDownLeft,
+  BackspaceCompactSmall: BackspaceCompactSmall.default || BackspaceCompactSmall,
+  BackspaceCompact: BackspaceCompact.default || BackspaceCompact,
+  Backspace: Backspace.default || Backspace,
+  ClipboardList: ClipboardList.default || ClipboardList,
+  ClipboardListCheck: ClipboardListCheck.default || ClipboardListCheck,
+  ClipboardListMinus: ClipboardListMinus.default || ClipboardListMinus,
+  ClipboardListPlus: ClipboardListPlus.default || ClipboardListPlus,
+  ClipboardListX: ClipboardListX.default || ClipboardListX,
+  ClockAngled: ClockAngled.default || ClockAngled,
+  Clock: Clock.default || Clock,
+  ClockRefresh: ClockRefresh.default || ClockRefresh,
   ClockArrowDown: ClockArrowDown.default || ClockArrowDown,
   ClockArrowLeft: ClockArrowLeft.default || ClockArrowLeft,
   ClockArrowRight: ClockArrowRight.default || ClockArrowRight,
   ClockArrowUp: ClockArrowUp.default || ClockArrowUp,
-  ClockArrowsLeftRight: ClockArrowsLeftRight.default || ClockArrowsLeftRight,
-  ClockSynchronize: ClockSynchronize.default || ClockSynchronize,
-  ClockAttachment: ClockAttachment.default || ClockAttachment,
-  ClockAttachment2: ClockAttachment2.default || ClockAttachment2,
+  ClockArrowLeftRight: ClockArrowLeftRight.default || ClockArrowLeftRight,
+  ClockSync: ClockSync.default || ClockSync,
+  ClockPaperclip: ClockPaperclip.default || ClockPaperclip,
+  ClockPaperclipTilted: ClockPaperclipTilted.default || ClockPaperclipTilted,
   ClockCheck: ClockCheck.default || ClockCheck,
   ClockCloud: ClockCloud.default || ClockCloud,
-  ClockDots: ClockDots.default || ClockDots,
-  ClockEnvelope: ClockEnvelope.default || ClockEnvelope,
-  ClockExclamationCircle: ClockExclamationCircle.default || ClockExclamationCircle,
+  ClockDotted: ClockDotted.default || ClockDotted,
+  ClockMail: ClockMail.default || ClockMail,
+  ClockAlertCircle: ClockAlertCircle.default || ClockAlertCircle,
   ClockFunnel: ClockFunnel.default || ClockFunnel,
-  ClockGear: ClockGear.default || ClockGear,
-  ClockGear2: ClockGear2.default || ClockGear2,
+  ClockSettingsLarge: ClockSettingsLarge.default || ClockSettingsLarge,
+  ClockSettings: ClockSettings.default || ClockSettings,
   ClockHourglass: ClockHourglass.default || ClockHourglass,
+  ClockLinkTilted: ClockLinkTilted.default || ClockLinkTilted,
   ClockLink: ClockLink.default || ClockLink,
-  ClockLink2: ClockLink2.default || ClockLink2,
   ClockLock: ClockLock.default || ClockLock,
   ClockMinus: ClockMinus.default || ClockMinus,
-  ClockNotificationCircle: ClockNotificationCircle.default || ClockNotificationCircle,
+  ClockDot: ClockDot.default || ClockDot,
   ClockNumberOne: ClockNumberOne.default || ClockNumberOne,
   ClockNumberThree: ClockNumberThree.default || ClockNumberThree,
   ClockNumberTwo: ClockNumberTwo.default || ClockNumberTwo,
   ClockPause: ClockPause.default || ClockPause,
-  ClockPencilEdit: ClockPencilEdit.default || ClockPencilEdit,
-  ClockPinMap: ClockPinMap.default || ClockPinMap,
+  ClockEdit: ClockEdit.default || ClockEdit,
+  ClockPin: ClockPin.default || ClockPin,
   ClockPlus: ClockPlus.default || ClockPlus,
   ClockSearch: ClockSearch.default || ClockSearch,
   ClockSend: ClockSend.default || ClockSend,
-  ClockSlash: ClockSlash.default || ClockSlash,
+  ClockBan: ClockBan.default || ClockBan,
   ClockSnooze: ClockSnooze.default || ClockSnooze,
   ClockStar: ClockStar.default || ClockStar,
   ClockUnlock: ClockUnlock.default || ClockUnlock,
   ClockUser: ClockUser.default || ClockUser,
-  ClockView: ClockView.default || ClockView,
-  ClockWarning: ClockWarning.default || ClockWarning,
-  ClockWarningAlt: ClockWarningAlt.default || ClockWarningAlt,
-  ClockClose: ClockClose.default || ClockClose,
-  ClosePaneArrowLeft1: ClosePaneArrowLeft1.default || ClosePaneArrowLeft1,
-  ClosePaneArrowLeft2: ClosePaneArrowLeft2.default || ClosePaneArrowLeft2,
-  ClosePaneArrowLeft3: ClosePaneArrowLeft3.default || ClosePaneArrowLeft3,
+  ClockEye: ClockEye.default || ClockEye,
+  ClockAlertTriangle: ClockAlertTriangle.default || ClockAlertTriangle,
+  ClockTriangle: ClockTriangle.default || ClockTriangle,
+  ClockX: ClockX.default || ClockX,
+  SidebarArrowLeftStriped: SidebarArrowLeftStriped.default || SidebarArrowLeftStriped,
+  SidebarArrowLeftRows: SidebarArrowLeftRows.default || SidebarArrowLeftRows,
+  SidebarArrowLeft: SidebarArrowLeft.default || SidebarArrowLeft,
   Cloud: Cloud.default || Cloud,
-  CloudAdd: CloudAdd.default || CloudAdd,
+  CloudPlus: CloudPlus.default || CloudPlus,
+  CloudTriangle: CloudTriangle.default || CloudTriangle,
   CloudWarning: CloudWarning.default || CloudWarning,
-  CloudAlert: CloudAlert.default || CloudAlert,
   CloudArrowRight: CloudArrowRight.default || CloudArrowRight,
   CloudArrowUp: CloudArrowUp.default || CloudArrowUp,
-  CloudArrowSync: CloudArrowSync.default || CloudArrowSync,
-  Cloud1BarSlash: Cloud1BarSlash.default || Cloud1BarSlash,
-  Cloud1Box: Cloud1Box.default || Cloud1Box,
-  Cloud1BoxArrowRight: Cloud1BoxArrowRight.default || Cloud1BoxArrowRight,
-  Cloud1BoxTransmission: Cloud1BoxTransmission.default || Cloud1BoxTransmission,
-  Cloud1Bulb: Cloud1Bulb.default || Cloud1Bulb,
-  Cloud1Check: Cloud1Check.default || Cloud1Check,
-  Cloud1Checked: Cloud1Checked.default || Cloud1Checked,
-  Cloud1Download1: Cloud1Download1.default || Cloud1Download1,
-  Cloud1Download2: Cloud1Download2.default || Cloud1Download2,
-  Cloud1Envelope: Cloud1Envelope.default || Cloud1Envelope,
-  CloudAlert2: CloudAlert2.default || CloudAlert2,
+  CloudArrowUpDown: CloudArrowUpDown.default || CloudArrowUpDown,
+  CloudOff: CloudOff.default || CloudOff,
+  CloudSquare: CloudSquare.default || CloudSquare,
+  CloudSquareArrowRight: CloudSquareArrowRight.default || CloudSquareArrowRight,
+  CloudSquareSignal: CloudSquareSignal.default || CloudSquareSignal,
+  CloudLightbulb: CloudLightbulb.default || CloudLightbulb,
+  CloudCheckCorner: CloudCheckCorner.default || CloudCheckCorner,
+  CloudCheck: CloudCheck.default || CloudCheck,
+  CloudDownload: CloudDownload.default || CloudDownload,
+  CloudDownloadLarge: CloudDownloadLarge.default || CloudDownloadLarge,
+  CloudMail: CloudMail.default || CloudMail,
+  CloudAlert: CloudAlert.default || CloudAlert,
   CloudFolder: CloudFolder.default || CloudFolder,
   CloudSettings: CloudSettings.default || CloudSettings,
   CloudLink: CloudLink.default || CloudLink,
-  CloudLinkAlt: CloudLinkAlt.default || CloudLinkAlt,
-  CloudLinkVariant: CloudLinkVariant.default || CloudLinkVariant,
+  CloudLinkDiagonal: CloudLinkDiagonal.default || CloudLinkDiagonal,
+  CloudLinkVertical: CloudLinkVertical.default || CloudLinkVertical,
   CloudLock: CloudLock.default || CloudLock,
-  CloudRemove: CloudRemove.default || CloudRemove,
-  CloudRemoveAlt: CloudRemoveAlt.default || CloudRemoveAlt,
+  CloudMinusCorner: CloudMinusCorner.default || CloudMinusCorner,
+  CloudMinus: CloudMinus.default || CloudMinus,
   CloudMusic: CloudMusic.default || CloudMusic,
-  CloudMusic2: CloudMusic2.default || CloudMusic2,
+  CloudMusicDouble: CloudMusicDouble.default || CloudMusicDouble,
   CloudNetwork: CloudNetwork.default || CloudNetwork,
-  CloudNetworkSecond: CloudNetworkSecond.default || CloudNetworkSecond,
-  CloudNetworkThird: CloudNetworkThird.default || CloudNetworkThird,
-  CloudAdd2: CloudAdd2.default || CloudAdd2,
+  CloudNetworkDots: CloudNetworkDots.default || CloudNetworkDots,
+  CloudNetworkNode: CloudNetworkNode.default || CloudNetworkNode,
+  CloudPlusCorner: CloudPlusCorner.default || CloudPlusCorner,
   CloudPrinter: CloudPrinter.default || CloudPrinter,
-  CloudReceive: CloudReceive.default || CloudReceive,
+  CloudArrowDown: CloudArrowDown.default || CloudArrowDown,
   CloudRefresh: CloudRefresh.default || CloudRefresh,
-  CloudRefreshSecond: CloudRefreshSecond.default || CloudRefreshSecond,
+  CloudRefreshCorner: CloudRefreshCorner.default || CloudRefreshCorner,
   CloudSad: CloudSad.default || CloudSad,
   CloudSend: CloudSend.default || CloudSend,
-  CloudSlash: CloudSlash.default || CloudSlash,
-  CloudSmile: CloudSmile.default || CloudSmile,
-  CloudSynchronize1: CloudSynchronize1.default || CloudSynchronize1,
-  CloudSynchronize2: CloudSynchronize2.default || CloudSynchronize2,
+  CloudBan: CloudBan.default || CloudBan,
+  CloudHappy: CloudHappy.default || CloudHappy,
+  CloudSync: CloudSync.default || CloudSync,
+  CloudSyncCorner: CloudSyncCorner.default || CloudSyncCorner,
   CloudTransfer: CloudTransfer.default || CloudTransfer,
   CloudUnlock: CloudUnlock.default || CloudUnlock,
-  CloudUpload1: CloudUpload1.default || CloudUpload1,
-  CloudUpload2: CloudUpload2.default || CloudUpload2,
-  CloudUpload3: CloudUpload3.default || CloudUpload3,
-  CloudView: CloudView.default || CloudView,
-  CloudClose1: CloudClose1.default || CloudClose1,
-  CloudClose2: CloudClose2.default || CloudClose2,
-  Cloud2: Cloud2.default || Cloud2,
-  CloudAdd3: CloudAdd3.default || CloudAdd3,
-  CloudAlert4: CloudAlert4.default || CloudAlert4,
-  CloudAlert3: CloudAlert3.default || CloudAlert3,
-  CloudArrowRight2: CloudArrowRight2.default || CloudArrowRight2,
-  CloudArrowTransfer: CloudArrowTransfer.default || CloudArrowTransfer,
-  Cloud2Upload: Cloud2Upload.default || Cloud2Upload,
-  CloudArrowVertical: CloudArrowVertical.default || CloudArrowVertical,
-  Cloud2Restricted: Cloud2Restricted.default || Cloud2Restricted,
-  Cloud2BoxRight: Cloud2BoxRight.default || Cloud2BoxRight,
-  Cloud2Box: Cloud2Box.default || Cloud2Box,
-  Cloud2Transmission: Cloud2Transmission.default || Cloud2Transmission,
-  Cloud2Lightbulb: Cloud2Lightbulb.default || Cloud2Lightbulb,
-  Cloud2Check: Cloud2Check.default || Cloud2Check,
-  Cloud2Checked: Cloud2Checked.default || Cloud2Checked,
-  Cloud2Download: Cloud2Download.default || Cloud2Download,
-  Cloud2DownloadAlt: Cloud2DownloadAlt.default || Cloud2DownloadAlt,
-  Cloud2Envelope: Cloud2Envelope.default || Cloud2Envelope,
-  Cloud2Exclamation: Cloud2Exclamation.default || Cloud2Exclamation,
-  Cloud2Folder: Cloud2Folder.default || Cloud2Folder,
-  Cloud2Forbidden: Cloud2Forbidden.default || Cloud2Forbidden,
-  Cloud2Gear: Cloud2Gear.default || Cloud2Gear,
-  Cloud2Happy: Cloud2Happy.default || Cloud2Happy,
-  Cloud2LinkA: Cloud2LinkA.default || Cloud2LinkA,
-  Cloud2LinkB: Cloud2LinkB.default || Cloud2LinkB,
-  Cloud2LinkC: Cloud2LinkC.default || Cloud2LinkC,
-  Cloud2Lock: Cloud2Lock.default || Cloud2Lock,
-  Cloud2Minus1: Cloud2Minus1.default || Cloud2Minus1,
-  Cloud2Minus2: Cloud2Minus2.default || Cloud2Minus2,
-  Cloud2Music1: Cloud2Music1.default || Cloud2Music1,
-  Cloud2Music2: Cloud2Music2.default || Cloud2Music2,
-  Cloud2Network1: Cloud2Network1.default || Cloud2Network1,
-  Cloud2Network2: Cloud2Network2.default || Cloud2Network2,
-  Cloud2Network3: Cloud2Network3.default || Cloud2Network3,
-  Cloud2Plus: Cloud2Plus.default || Cloud2Plus,
-  Cloud2Printer: Cloud2Printer.default || Cloud2Printer,
-  Cloud2Receive: Cloud2Receive.default || Cloud2Receive,
-  Cloud2Refresh1: Cloud2Refresh1.default || Cloud2Refresh1,
-  Cloud2Refresh2: Cloud2Refresh2.default || Cloud2Refresh2,
-  Cloud2Sad: Cloud2Sad.default || Cloud2Sad,
-  Cloud2Send: Cloud2Send.default || Cloud2Send,
-  Cloud2Synchronize1: Cloud2Synchronize1.default || Cloud2Synchronize1,
-  Cloud2Synchronize2: Cloud2Synchronize2.default || Cloud2Synchronize2,
-  Cloud2Unlock: Cloud2Unlock.default || Cloud2Unlock,
-  Cloud2Upload1: Cloud2Upload1.default || Cloud2Upload1,
-  Cloud2Upload2: Cloud2Upload2.default || Cloud2Upload2,
-  Cloud2Upload3: Cloud2Upload3.default || Cloud2Upload3,
-  Cloud2View: Cloud2View.default || Cloud2View,
-  Cloud2Close: Cloud2Close.default || Cloud2Close,
-  Cloud2CloseAlt: Cloud2CloseAlt.default || Cloud2CloseAlt,
-  Cloud3: Cloud3.default || Cloud3,
-  Cloud3Download: Cloud3Download.default || Cloud3Download,
-  Cloud3Upload: Cloud3Upload.default || Cloud3Upload,
-  Cloud3UploadAlt: Cloud3UploadAlt.default || Cloud3UploadAlt,
-  Cloud3Sync: Cloud3Sync.default || Cloud3Sync,
-  Cloud3Box: Cloud3Box.default || Cloud3Box,
-  Cloud3BoxUpload: Cloud3BoxUpload.default || Cloud3BoxUpload,
-  Cloud3BoxTransmit: Cloud3BoxTransmit.default || Cloud3BoxTransmit,
-  Cloud3Bulb: Cloud3Bulb.default || Cloud3Bulb,
-  Cloud3Check: Cloud3Check.default || Cloud3Check,
-  Cloud3Checked: Cloud3Checked.default || Cloud3Checked,
-  Cloud3Download2: Cloud3Download2.default || Cloud3Download2,
-  Cloud3DownloadAlt: Cloud3DownloadAlt.default || Cloud3DownloadAlt,
-  Cloud3Envelope: Cloud3Envelope.default || Cloud3Envelope,
-  Cloud3Exclamation: Cloud3Exclamation.default || Cloud3Exclamation,
-  Cloud3Folder: Cloud3Folder.default || Cloud3Folder,
-  Cloud3Gear: Cloud3Gear.default || Cloud3Gear,
-  Cloud3Happy: Cloud3Happy.default || Cloud3Happy,
-  Cloud3Link1: Cloud3Link1.default || Cloud3Link1,
-  Cloud3Link2: Cloud3Link2.default || Cloud3Link2,
-  Cloud3Link3: Cloud3Link3.default || Cloud3Link3,
-  Cloud3Lock: Cloud3Lock.default || Cloud3Lock,
-  Cloud3Minus1: Cloud3Minus1.default || Cloud3Minus1,
-  Cloud3Minus29: Cloud3Minus29.default || Cloud3Minus29,
-  Cloud3Music1: Cloud3Music1.default || Cloud3Music1,
-  Cloud3Music2: Cloud3Music2.default || Cloud3Music2,
-  Cloud3Network1: Cloud3Network1.default || Cloud3Network1,
-  Cloud3Network: Cloud3Network.default || Cloud3Network,
-  Cloud3NetworkMulti: Cloud3NetworkMulti.default || Cloud3NetworkMulti,
-  Cloud3Plus: Cloud3Plus.default || Cloud3Plus,
-  Cloud3PlusAlt: Cloud3PlusAlt.default || Cloud3PlusAlt,
-  Cloud3Printer: Cloud3Printer.default || Cloud3Printer,
-  Cloud3Refresh: Cloud3Refresh.default || Cloud3Refresh,
-  Cloud3RefreshAlt: Cloud3RefreshAlt.default || Cloud3RefreshAlt,
-  Cloud3Sad: Cloud3Sad.default || Cloud3Sad,
-  Cloud3Send: Cloud3Send.default || Cloud3Send,
-  Cloud3Slash: Cloud3Slash.default || Cloud3Slash,
-  Cloud3Slash2: Cloud3Slash2.default || Cloud3Slash2,
-  Cloud3Sync2: Cloud3Sync2.default || Cloud3Sync2,
-  Cloud3SyncAlt: Cloud3SyncAlt.default || Cloud3SyncAlt,
-  Cloud3Transfer: Cloud3Transfer.default || Cloud3Transfer,
-  Cloud3Unlock: Cloud3Unlock.default || Cloud3Unlock,
-  Cloud3Upload3: Cloud3Upload3.default || Cloud3Upload3,
-  Cloud3UploadAlt2: Cloud3UploadAlt2.default || Cloud3UploadAlt2,
-  Cloud3UploadOpen: Cloud3UploadOpen.default || Cloud3UploadOpen,
-  Cloud3View: Cloud3View.default || Cloud3View,
-  Cloud3Warning: Cloud3Warning.default || Cloud3Warning,
-  Cloud3Warning2: Cloud3Warning2.default || Cloud3Warning2,
-  Cloud3Close: Cloud3Close.default || Cloud3Close,
-  Cloud3X: Cloud3X.default || Cloud3X,
-  CloudSearch1: CloudSearch1.default || CloudSearch1,
+  CloudUpload: CloudUpload.default || CloudUpload,
+  CloudUploadLarge: CloudUploadLarge.default || CloudUploadLarge,
+  CloudUploadBase: CloudUploadBase.default || CloudUploadBase,
+  CloudEye: CloudEye.default || CloudEye,
+  CloudXCorner: CloudXCorner.default || CloudXCorner,
+  CloudX: CloudX.default || CloudX,
+  CloudTall: CloudTall.default || CloudTall,
+  CloudPlusTall: CloudPlusTall.default || CloudPlusTall,
+  CloudTriangleTall: CloudTriangleTall.default || CloudTriangleTall,
+  CloudWarningTall: CloudWarningTall.default || CloudWarningTall,
+  CloudArrowRightTall: CloudArrowRightTall.default || CloudArrowRightTall,
+  CloudTransferTall: CloudTransferTall.default || CloudTransferTall,
+  CloudArrowUpTall: CloudArrowUpTall.default || CloudArrowUpTall,
+  CloudArrowUpDownTall: CloudArrowUpDownTall.default || CloudArrowUpDownTall,
+  CloudOffTall: CloudOffTall.default || CloudOffTall,
+  CloudSquareArrowRightTall: CloudSquareArrowRightTall.default || CloudSquareArrowRightTall,
+  CloudSquareTall: CloudSquareTall.default || CloudSquareTall,
+  CloudSquareSignalTall: CloudSquareSignalTall.default || CloudSquareSignalTall,
+  CloudLightbulbTall: CloudLightbulbTall.default || CloudLightbulbTall,
+  CloudCheckCornerTall: CloudCheckCornerTall.default || CloudCheckCornerTall,
+  CloudCheckTall: CloudCheckTall.default || CloudCheckTall,
+  CloudDownloadTall: CloudDownloadTall.default || CloudDownloadTall,
+  CloudDownloadLargeTall: CloudDownloadLargeTall.default || CloudDownloadLargeTall,
+  CloudMailTall: CloudMailTall.default || CloudMailTall,
+  CloudAlertTall: CloudAlertTall.default || CloudAlertTall,
+  CloudFolderTall: CloudFolderTall.default || CloudFolderTall,
+  CloudBanTall: CloudBanTall.default || CloudBanTall,
+  CloudSettingsTall: CloudSettingsTall.default || CloudSettingsTall,
+  CloudHappyTall: CloudHappyTall.default || CloudHappyTall,
+  CloudLinkTall: CloudLinkTall.default || CloudLinkTall,
+  CloudLinkDiagonalTall: CloudLinkDiagonalTall.default || CloudLinkDiagonalTall,
+  CloudLinkVerticalTall: CloudLinkVerticalTall.default || CloudLinkVerticalTall,
+  CloudLockTall: CloudLockTall.default || CloudLockTall,
+  CloudMinusCornerTall: CloudMinusCornerTall.default || CloudMinusCornerTall,
+  CloudMinusTall: CloudMinusTall.default || CloudMinusTall,
+  CloudMusicTall: CloudMusicTall.default || CloudMusicTall,
+  CloudMusicDoubleTall: CloudMusicDoubleTall.default || CloudMusicDoubleTall,
+  CloudNetworkTall: CloudNetworkTall.default || CloudNetworkTall,
+  CloudNetworkDotsTall: CloudNetworkDotsTall.default || CloudNetworkDotsTall,
+  CloudNetworkNodeTall: CloudNetworkNodeTall.default || CloudNetworkNodeTall,
+  CloudPlusCornerTall: CloudPlusCornerTall.default || CloudPlusCornerTall,
+  CloudPrinterTall: CloudPrinterTall.default || CloudPrinterTall,
+  CloudArrowDownTall: CloudArrowDownTall.default || CloudArrowDownTall,
+  CloudRefreshTall: CloudRefreshTall.default || CloudRefreshTall,
+  CloudRefreshCornerTall: CloudRefreshCornerTall.default || CloudRefreshCornerTall,
+  CloudSadTall: CloudSadTall.default || CloudSadTall,
+  CloudSendTall: CloudSendTall.default || CloudSendTall,
+  CloudSyncTall: CloudSyncTall.default || CloudSyncTall,
+  CloudSyncCornerTall: CloudSyncCornerTall.default || CloudSyncCornerTall,
+  CloudUnlockTall: CloudUnlockTall.default || CloudUnlockTall,
+  CloudUploadBaseTall: CloudUploadBaseTall.default || CloudUploadBaseTall,
+  CloudUploadTall: CloudUploadTall.default || CloudUploadTall,
+  CloudUploadLargeTall: CloudUploadLargeTall.default || CloudUploadLargeTall,
+  CloudEyeTall: CloudEyeTall.default || CloudEyeTall,
+  CloudXCornerTall: CloudXCornerTall.default || CloudXCornerTall,
+  CloudXTall: CloudXTall.default || CloudXTall,
+  CloudRound: CloudRound.default || CloudRound,
+  CloudArrowDownRound: CloudArrowDownRound.default || CloudArrowDownRound,
+  CloudArrowRightRound: CloudArrowRightRound.default || CloudArrowRightRound,
+  CloudArrowUpRound: CloudArrowUpRound.default || CloudArrowUpRound,
+  CloudArrowUpDownRound: CloudArrowUpDownRound.default || CloudArrowUpDownRound,
+  CloudSquareRound: CloudSquareRound.default || CloudSquareRound,
+  CloudSquareArrowRightRound: CloudSquareArrowRightRound.default || CloudSquareArrowRightRound,
+  CloudSquareSignalRound: CloudSquareSignalRound.default || CloudSquareSignalRound,
+  CloudLightbulbRound: CloudLightbulbRound.default || CloudLightbulbRound,
+  CloudCheckCornerRound: CloudCheckCornerRound.default || CloudCheckCornerRound,
+  CloudCheckRound: CloudCheckRound.default || CloudCheckRound,
+  CloudDownloadRound: CloudDownloadRound.default || CloudDownloadRound,
+  CloudDownloadLargeRound: CloudDownloadLargeRound.default || CloudDownloadLargeRound,
+  CloudMailRound: CloudMailRound.default || CloudMailRound,
+  CloudAlertRound: CloudAlertRound.default || CloudAlertRound,
+  CloudFolderRound: CloudFolderRound.default || CloudFolderRound,
+  CloudSettingsRound: CloudSettingsRound.default || CloudSettingsRound,
+  CloudHappyRound: CloudHappyRound.default || CloudHappyRound,
+  CloudLinkRound: CloudLinkRound.default || CloudLinkRound,
+  CloudLinkDiagonalRound: CloudLinkDiagonalRound.default || CloudLinkDiagonalRound,
+  CloudLinkVerticalRound: CloudLinkVerticalRound.default || CloudLinkVerticalRound,
+  CloudLockRound: CloudLockRound.default || CloudLockRound,
+  CloudMinusRound: CloudMinusRound.default || CloudMinusRound,
+  CloudMinusCornerRound: CloudMinusCornerRound.default || CloudMinusCornerRound,
+  CloudMusicRound: CloudMusicRound.default || CloudMusicRound,
+  CloudMusicDoubleRound: CloudMusicDoubleRound.default || CloudMusicDoubleRound,
+  CloudNetworkRound: CloudNetworkRound.default || CloudNetworkRound,
+  CloudNetworkDotsRound: CloudNetworkDotsRound.default || CloudNetworkDotsRound,
+  CloudNetworkNodeRound: CloudNetworkNodeRound.default || CloudNetworkNodeRound,
+  CloudPlusRound: CloudPlusRound.default || CloudPlusRound,
+  CloudPlusCornerRound: CloudPlusCornerRound.default || CloudPlusCornerRound,
+  CloudPrinterRound: CloudPrinterRound.default || CloudPrinterRound,
+  CloudRefreshRound: CloudRefreshRound.default || CloudRefreshRound,
+  CloudRefreshCornerRound: CloudRefreshCornerRound.default || CloudRefreshCornerRound,
+  CloudSadRound: CloudSadRound.default || CloudSadRound,
+  CloudSendRound: CloudSendRound.default || CloudSendRound,
+  CloudBanRound: CloudBanRound.default || CloudBanRound,
+  CloudOffRound: CloudOffRound.default || CloudOffRound,
+  CloudSyncRound: CloudSyncRound.default || CloudSyncRound,
+  CloudSyncCornerRound: CloudSyncCornerRound.default || CloudSyncCornerRound,
+  CloudTransferRound: CloudTransferRound.default || CloudTransferRound,
+  CloudUnlockRound: CloudUnlockRound.default || CloudUnlockRound,
+  CloudUploadBaseRound: CloudUploadBaseRound.default || CloudUploadBaseRound,
+  CloudUploadRound: CloudUploadRound.default || CloudUploadRound,
+  CloudUploadLargeRound: CloudUploadLargeRound.default || CloudUploadLargeRound,
+  CloudEyeRound: CloudEyeRound.default || CloudEyeRound,
+  CloudTriangleRound: CloudTriangleRound.default || CloudTriangleRound,
+  CloudWarningRound: CloudWarningRound.default || CloudWarningRound,
+  CloudXCornerRound: CloudXCornerRound.default || CloudXCornerRound,
+  CloudXRound: CloudXRound.default || CloudXRound,
+  CloudSearch: CloudSearch.default || CloudSearch,
+  CloudSearchRight: CloudSearchRight.default || CloudSearchRight,
   CloudSearch2: CloudSearch2.default || CloudSearch2,
-  CloudSearch3: CloudSearch3.default || CloudSearch3,
-  ComputerDesktopLogout: ComputerDesktopLogout.default || ComputerDesktopLogout,
-  ConcentricCirclesState1: ConcentricCirclesState1.default || ConcentricCirclesState1,
-  ConcentricCirclesState2: ConcentricCirclesState2.default || ConcentricCirclesState2,
-  ConcentricCirclesState3: ConcentricCirclesState3.default || ConcentricCirclesState3,
-  ConcentricCirclesState4: ConcentricCirclesState4.default || ConcentricCirclesState4,
-  ConcentricCirclesState5: ConcentricCirclesState5.default || ConcentricCirclesState5,
-  Connect1: Connect1.default || Connect1,
-  Connect2: Connect2.default || Connect2,
-  ConnectCircle1: ConnectCircle1.default || ConnectCircle1,
-  ConnectCircle2: ConnectCircle2.default || ConnectCircle2,
-  ConnectCircle3: ConnectCircle3.default || ConnectCircle3,
-  ConnectCircle4: ConnectCircle4.default || ConnectCircle4,
-  ConnectRandom1: ConnectRandom1.default || ConnectRandom1,
-  ConnectRandom2: ConnectRandom2.default || ConnectRandom2,
-  ConnectTriangle1: ConnectTriangle1.default || ConnectTriangle1,
-  ConnectTriangle2: ConnectTriangle2.default || ConnectTriangle2,
-  ContinuousShootingBurst1: ContinuousShootingBurst1.default || ContinuousShootingBurst1,
-  ContinuousShootingBurst2: ContinuousShootingBurst2.default || ContinuousShootingBurst2,
-  ContinuousShootingBurst3: ContinuousShootingBurst3.default || ContinuousShootingBurst3,
-  ContinuousShootingBurst4: ContinuousShootingBurst4.default || ContinuousShootingBurst4,
-  ContinuousShootingBurstAF: ContinuousShootingBurstAF.default || ContinuousShootingBurstAF,
-  ContinuousShootingBurstLiveView: ContinuousShootingBurstLiveView.default || ContinuousShootingBurstLiveView,
+  MonitorArrowRight: MonitorArrowRight.default || MonitorArrowRight,
+  CircleConcentricXL: CircleConcentricXL.default || CircleConcentricXL,
+  CircleConcentricLarge: CircleConcentricLarge.default || CircleConcentricLarge,
+  CircleConcentric: CircleConcentric.default || CircleConcentric,
+  CircleConcentricSmall: CircleConcentricSmall.default || CircleConcentricSmall,
+  CircleConcentricXS: CircleConcentricXS.default || CircleConcentricXS,
+  NodesFork: NodesFork.default || NodesFork,
+  NodesForkLarge: NodesForkLarge.default || NodesForkLarge,
+  NodesCircleThreeLarge: NodesCircleThreeLarge.default || NodesCircleThreeLarge,
+  NodesCircleFourLarge: NodesCircleFourLarge.default || NodesCircleFourLarge,
+  NodesCircleThree: NodesCircleThree.default || NodesCircleThree,
+  NodesCircleFour: NodesCircleFour.default || NodesCircleFour,
+  NodesZigzagLarge: NodesZigzagLarge.default || NodesZigzagLarge,
+  NodesZigzag: NodesZigzag.default || NodesZigzag,
+  NodesTriangle: NodesTriangle.default || NodesTriangle,
+  NodesTriangleLarge: NodesTriangleLarge.default || NodesTriangleLarge,
+  Burst: Burst.default || Burst,
+  BurstDotted: BurstDotted.default || BurstDotted,
+  BurstSkewed: BurstSkewed.default || BurstSkewed,
+  BurstSkewedOpen: BurstSkewedOpen.default || BurstSkewedOpen,
+  BurstAF: BurstAF.default || BurstAF,
+  BurstLV: BurstLV.default || BurstLV,
   Cursor: Cursor.default || Cursor,
-  Cursor1: Cursor1.default || Cursor1,
   Cursor2: Cursor2.default || Cursor2,
   Cursor3: Cursor3.default || Cursor3,
   Cursor4: Cursor4.default || Cursor4,
-  Cursor5: Cursor5.default || Cursor5,
-  Cursor6: Cursor6.default || Cursor6,
-  Cursor79: Cursor79.default || Cursor79,
-  Cursor8: Cursor8.default || Cursor8,
-  Cursor9: Cursor9.default || Cursor9,
-  Cursor10: Cursor10.default || Cursor10,
-  CustomerSupport1: CustomerSupport1.default || CustomerSupport1,
-  CustomerSupport2: CustomerSupport2.default || CustomerSupport2,
-  CustomerSupport3: CustomerSupport3.default || CustomerSupport3,
-  CustomerSupport4: CustomerSupport4.default || CustomerSupport4,
-  CustomerSupport5: CustomerSupport5.default || CustomerSupport5,
-  DashboardLayout1: DashboardLayout1.default || DashboardLayout1,
-  DashboardLayout2: DashboardLayout2.default || DashboardLayout2,
-  DashboardLayout3: DashboardLayout3.default || DashboardLayout3,
-  DashboardLayout4: DashboardLayout4.default || DashboardLayout4,
-  DesktopDock1: DesktopDock1.default || DesktopDock1,
-  DesktopDock2: DesktopDock2.default || DesktopDock2,
-  DesktopDownload1: DesktopDownload1.default || DesktopDownload1,
-  DesktopDownload2: DesktopDownload2.default || DesktopDownload2,
-  DesktopDownload3: DesktopDownload3.default || DesktopDownload3,
-  DesktopIcons: DesktopIcons.default || DesktopIcons,
-  DiagramHierarchy1: DiagramHierarchy1.default || DiagramHierarchy1,
-  DiagramHierarchy2: DiagramHierarchy2.default || DiagramHierarchy2,
-  DiagramHierarchy3: DiagramHierarchy3.default || DiagramHierarchy3,
-  DiagramHierarchy4: DiagramHierarchy4.default || DiagramHierarchy4,
-  DiagramHorizontal: DiagramHorizontal.default || DiagramHorizontal,
+  CursorStraight: CursorStraight.default || CursorStraight,
+  CursorStraight2: CursorStraight2.default || CursorStraight2,
+  CursorStraightSlim: CursorStraightSlim.default || CursorStraightSlim,
+  CursorStraightNotched: CursorStraightNotched.default || CursorStraightNotched,
+  CursorUp: CursorUp.default || CursorUp,
+  CursorUp2: CursorUp2.default || CursorUp2,
+  CursorUpSharp: CursorUpSharp.default || CursorUpSharp,
+  SupportProfile: SupportProfile.default || SupportProfile,
+  SupportOval: SupportOval.default || SupportOval,
+  Support: Support.default || Support,
+  SupportOvalMic: SupportOvalMic.default || SupportOvalMic,
+  SupportFace: SupportFace.default || SupportFace,
+  Dashboard: Dashboard.default || Dashboard,
+  DashboardSharp: DashboardSharp.default || DashboardSharp,
+  DashboardSquare: DashboardSquare.default || DashboardSquare,
+  DashboardChart: DashboardChart.default || DashboardChart,
+  ScreenDock: ScreenDock.default || ScreenDock,
+  ScreenDockDots: ScreenDockDots.default || ScreenDockDots,
+  ScreenDownloadDotsTall: ScreenDownloadDotsTall.default || ScreenDownloadDotsTall,
+  ScreenDownloadDots: ScreenDownloadDots.default || ScreenDownloadDots,
+  ScreenDownload: ScreenDownload.default || ScreenDownload,
+  ScreenTaskbar: ScreenTaskbar.default || ScreenTaskbar,
+  DiagramChain: DiagramChain.default || DiagramChain,
+  DiagramChainLarge: DiagramChainLarge.default || DiagramChainLarge,
+  DiagramTree: DiagramTree.default || DiagramTree,
+  DiagramTreeLarge: DiagramTreeLarge.default || DiagramTreeLarge,
+  DiagramTreeRight: DiagramTreeRight.default || DiagramTreeRight,
   DiagramMindMap: DiagramMindMap.default || DiagramMindMap,
-  DiagramTreeStructure: DiagramTreeStructure.default || DiagramTreeStructure,
-  DiagramUnit: DiagramUnit.default || DiagramUnit,
-  DiagramVertical: DiagramVertical.default || DiagramVertical,
-  DiagramWorkflow: DiagramWorkflow.default || DiagramWorkflow,
-  DislikeHand1: DislikeHand1.default || DislikeHand1,
-  DislikeHand2: DislikeHand2.default || DislikeHand2,
-  DislikeHand3: DislikeHand3.default || DislikeHand3,
-  DislikeHand4: DislikeHand4.default || DislikeHand4,
-  DoNotDisturbBar: DoNotDisturbBar.default || DoNotDisturbBar,
-  DomainNameGlobe1: DomainNameGlobe1.default || DomainNameGlobe1,
-  DomainNameGlobe2: DomainNameGlobe2.default || DomainNameGlobe2,
-  DomainNameSearch: DomainNameSearch.default || DomainNameSearch,
-  Door1: Door1.default || Door1,
-  Door1ArrowIn: Door1ArrowIn.default || Door1ArrowIn,
-  Door1X: Door1X.default || Door1X,
-  Door1ArrowOut: Door1ArrowOut.default || Door1ArrowOut,
-  Door2: Door2.default || Door2,
-  Door2ArrowIn: Door2ArrowIn.default || Door2ArrowIn,
-  Door2X: Door2X.default || Door2X,
-  Door2ArrowOut: Door2ArrowOut.default || Door2ArrowOut,
-  Door3: Door3.default || Door3,
-  Door3ArrowIn: Door3ArrowIn.default || Door3ArrowIn,
-  Door3X: Door3X.default || Door3X,
-  Door3ArrowOut: Door3ArrowOut.default || Door3ArrowOut,
-  DoorSquareEnter: DoorSquareEnter.default || DoorSquareEnter,
+  DiagramTreeIndent: DiagramTreeIndent.default || DiagramTreeIndent,
+  DiagramGrid: DiagramGrid.default || DiagramGrid,
+  DiagramDecision: DiagramDecision.default || DiagramDecision,
+  DiagramFlowchart: DiagramFlowchart.default || DiagramFlowchart,
+  HandThumbDown: HandThumbDown.default || HandThumbDown,
+  HandThumbDownFingers: HandThumbDownFingers.default || HandThumbDownFingers,
+  HandThumbDownCuff: HandThumbDownCuff.default || HandThumbDownCuff,
+  HandThumbDownSleeve: HandThumbDownSleeve.default || HandThumbDownSleeve,
+  NoEntry: NoEntry.default || NoEntry,
+  DomainGlobe: DomainGlobe.default || DomainGlobe,
+  DomainGlobeCenter: DomainGlobeCenter.default || DomainGlobeCenter,
+  DomainSearch: DomainSearch.default || DomainSearch,
+  DoorBare: DoorBare.default || DoorBare,
+  DoorArrowInBare: DoorArrowInBare.default || DoorArrowInBare,
+  DoorXBare: DoorXBare.default || DoorXBare,
+  DoorArrowOutBare: DoorArrowOutBare.default || DoorArrowOutBare,
+  Door: Door.default || Door,
+  DoorArrowIn: DoorArrowIn.default || DoorArrowIn,
+  DoorX: DoorX.default || DoorX,
+  DoorArrowOut: DoorArrowOut.default || DoorArrowOut,
+  DoorOpen: DoorOpen.default || DoorOpen,
+  DoorOpenArrowIn: DoorOpenArrowIn.default || DoorOpenArrowIn,
+  DoorOpenX: DoorOpenX.default || DoorOpenX,
+  DoorOpenArrowOut: DoorOpenArrowOut.default || DoorOpenArrowOut,
+  DoorSquare: DoorSquare.default || DoorSquare,
   DoorSquareArrowIn: DoorSquareArrowIn.default || DoorSquareArrowIn,
   DoorSquareX: DoorSquareX.default || DoorSquareX,
-  DoorSquareExit: DoorSquareExit.default || DoorSquareExit,
-  DownloadArrow1: DownloadArrow1.default || DownloadArrow1,
-  DownloadArrow2: DownloadArrow2.default || DownloadArrow2,
-  DownloadBox1: DownloadBox1.default || DownloadBox1,
-  DownloadBox2: DownloadBox2.default || DownloadBox2,
-  DownloadBox3: DownloadBox3.default || DownloadBox3,
-  DownloadCircle1: DownloadCircle1.default || DownloadCircle1,
-  DownloadCircle2: DownloadCircle2.default || DownloadCircle2,
-  DownloadArrowDashed: DownloadArrowDashed.default || DownloadArrowDashed,
-  DownloadDashedCircle: DownloadDashedCircle.default || DownloadDashedCircle,
-  DownloadArrowCircle: DownloadArrowCircle.default || DownloadArrowCircle,
-  DownloadArrowSquare: DownloadArrowSquare.default || DownloadArrowSquare,
-  DownloadArrowSquareAlt: DownloadArrowSquareAlt.default || DownloadArrowSquareAlt,
-  DownloadArrowSquareStack: DownloadArrowSquareStack.default || DownloadArrowSquareStack,
-  DownloadArrowSquareStackAlt: DownloadArrowSquareStackAlt.default || DownloadArrowSquareStackAlt,
-  DownloadArrowSquareStackTwo: DownloadArrowSquareStackTwo.default || DownloadArrowSquareStackTwo,
-  DownloadArrowSquareStackThree: DownloadArrowSquareStackThree.default || DownloadArrowSquareStackThree,
-  DownloadArrowTray: DownloadArrowTray.default || DownloadArrowTray,
-  DownloadArrowTrayAlt: DownloadArrowTrayAlt.default || DownloadArrowTrayAlt,
-  DownloadArrowSquare2: DownloadArrowSquare2.default || DownloadArrowSquare2,
-  DownloadArrowTray2: DownloadArrowTray2.default || DownloadArrowTray2,
-  DownloadDashedArrow: DownloadDashedArrow.default || DownloadDashedArrow,
-  DownloadDashedArrowAlt: DownloadDashedArrowAlt.default || DownloadDashedArrowAlt,
-  DownloadUpdates: DownloadUpdates.default || DownloadUpdates,
-  DragDrop: DragDrop.default || DragDrop,
-  DragDropAlt: DragDropAlt.default || DragDropAlt,
-  DragDropExtended: DragDropExtended.default || DragDropExtended,
-  DragDropFile: DragDropFile.default || DragDropFile,
-  DragDropImage: DragDropImage.default || DragDropImage,
-  DragDropMoveIn: DragDropMoveIn.default || DragDropMoveIn,
-  DragDropMove: DragDropMove.default || DragDropMove,
-  EnvelopeSearch1: EnvelopeSearch1.default || EnvelopeSearch1,
-  EnvelopeSearch2: EnvelopeSearch2.default || EnvelopeSearch2,
-  EnvelopeSearch3: EnvelopeSearch3.default || EnvelopeSearch3,
-  EnvelopeLupeGroup1: EnvelopeLupeGroup1.default || EnvelopeLupeGroup1,
-  EnvelopeLupeGroup2: EnvelopeLupeGroup2.default || EnvelopeLupeGroup2,
-  EnvelopeLupeGroup3: EnvelopeLupeGroup3.default || EnvelopeLupeGroup3,
-  EnvelopeMail: EnvelopeMail.default || EnvelopeMail,
-  EnvelopeMailArrowUp: EnvelopeMailArrowUp.default || EnvelopeMailArrowUp,
-  EnvelopeMailArrowUp2: EnvelopeMailArrowUp2.default || EnvelopeMailArrowUp2,
-  EnvelopeMailArrowUp3: EnvelopeMailArrowUp3.default || EnvelopeMailArrowUp3,
-  EthernetSettings: EthernetSettings.default || EthernetSettings,
-  EyeHideCrossed1: EyeHideCrossed1.default || EyeHideCrossed1,
-  EyeHideCrossed2: EyeHideCrossed2.default || EyeHideCrossed2,
-  EyeHideCrossed3: EyeHideCrossed3.default || EyeHideCrossed3,
-  EyeHideCrossed4: EyeHideCrossed4.default || EyeHideCrossed4,
-  EyeHideCrossed5: EyeHideCrossed5.default || EyeHideCrossed5,
-  EyeHideCrossed6: EyeHideCrossed6.default || EyeHideCrossed6,
-  EyeHideCrossed: EyeHideCrossed.default || EyeHideCrossed,
-  EyeView1: EyeView1.default || EyeView1,
-  EyeView2: EyeView2.default || EyeView2,
-  EyeView3: EyeView3.default || EyeView3,
-  EyeView4: EyeView4.default || EyeView4,
-  EyeView5: EyeView5.default || EyeView5,
-  EyeView6: EyeView6.default || EyeView6,
-  EyeView7: EyeView7.default || EyeView7,
-  FaceIdRecognition1: FaceIdRecognition1.default || FaceIdRecognition1,
-  FaceIdRecognition2: FaceIdRecognition2.default || FaceIdRecognition2,
-  FaceID3: FaceID3.default || FaceID3,
-  FaceID4: FaceID4.default || FaceID4,
+  DoorSquareArrowOut: DoorSquareArrowOut.default || DoorSquareArrowOut,
+  Download: Download.default || Download,
+  DownloadFlat: DownloadFlat.default || DownloadFlat,
+  DownloadBox: DownloadBox.default || DownloadBox,
+  DownloadBoxNotch: DownloadBoxNotch.default || DownloadBoxNotch,
+  DownloadSquareNotch: DownloadSquareNotch.default || DownloadSquareNotch,
+  DownloadCircleFlat: DownloadCircleFlat.default || DownloadCircleFlat,
+  DownloadCircle: DownloadCircle.default || DownloadCircle,
+  DownloadSquareDashed: DownloadSquareDashed.default || DownloadSquareDashed,
+  DownloadCircleDashedHalf: DownloadCircleDashedHalf.default || DownloadCircleDashedHalf,
+  DownloadCircleDashed: DownloadCircleDashed.default || DownloadCircleDashed,
+  DownloadSquare: DownloadSquare.default || DownloadSquare,
+  DownloadSquareOpen: DownloadSquareOpen.default || DownloadSquareOpen,
+  DownloadSquareStack: DownloadSquareStack.default || DownloadSquareStack,
+  DownloadSquareStackCorner: DownloadSquareStackCorner.default || DownloadSquareStackCorner,
+  DownloadSquareStackOpen: DownloadSquareStackOpen.default || DownloadSquareStackOpen,
+  DownloadSquareStackOpen2: DownloadSquareStackOpen2.default || DownloadSquareStackOpen2,
+  DownloadTraySquare: DownloadTraySquare.default || DownloadTraySquare,
+  DownloadTray: DownloadTray.default || DownloadTray,
+  UploadSquare: UploadSquare.default || UploadSquare,
+  UploadTray: UploadTray.default || UploadTray,
+  DownloadDotted: DownloadDotted.default || DownloadDotted,
+  DownloadDottedFlat: DownloadDottedFlat.default || DownloadDottedFlat,
+  DownloadTriangle: DownloadTriangle.default || DownloadTriangle,
+  DragCursor: DragCursor.default || DragCursor,
+  DragHand: DragHand.default || DragHand,
+  DragCursorCenter: DragCursorCenter.default || DragCursorCenter,
+  DragFile: DragFile.default || DragFile,
+  DragImage: DragImage.default || DragImage,
+  DragArrowUpLeft: DragArrowUpLeft.default || DragArrowUpLeft,
+  DragArrowDownRight: DragArrowDownRight.default || DragArrowDownRight,
+  MailSearch: MailSearch.default || MailSearch,
+  MailSearchRounded: MailSearchRounded.default || MailSearchRounded,
+  MailSearchFolds: MailSearchFolds.default || MailSearchFolds,
+  MailStackSearch: MailStackSearch.default || MailStackSearch,
+  MailStackSearchRounded: MailStackSearchRounded.default || MailStackSearchRounded,
+  MailStackSearchFolds: MailStackSearchFolds.default || MailStackSearchFolds,
+  Mail: Mail.default || Mail,
+  MailOpenUpload: MailOpenUpload.default || MailOpenUpload,
+  MailOpenUpload2: MailOpenUpload2.default || MailOpenUpload2,
+  MailOpenUploadWide: MailOpenUploadWide.default || MailOpenUploadWide,
+  Ethernet: Ethernet.default || Ethernet,
+  EyeOffShine: EyeOffShine.default || EyeOffShine,
+  EyeOffLargeShine: EyeOffLargeShine.default || EyeOffLargeShine,
+  EyeOffLidded: EyeOffLidded.default || EyeOffLidded,
+  EyeOffArc: EyeOffArc.default || EyeOffArc,
+  EyeOffPupil: EyeOffPupil.default || EyeOffPupil,
+  EyeOffLargePupil: EyeOffLargePupil.default || EyeOffLargePupil,
+  EyeOff: EyeOff.default || EyeOff,
+  Eye: Eye.default || Eye,
+  EyeLarge: EyeLarge.default || EyeLarge,
+  EyeLidded: EyeLidded.default || EyeLidded,
+  EyeArc: EyeArc.default || EyeArc,
+  EyePupil: EyePupil.default || EyePupil,
+  EyeLargeShine: EyeLargeShine.default || EyeLargeShine,
+  EyeShine: EyeShine.default || EyeShine,
+  ScanFace: ScanFace.default || ScanFace,
+  ScanFaceRound: ScanFaceRound.default || ScanFaceRound,
+  ScanEye: ScanEye.default || ScanEye,
+  ScanEyeLid: ScanEyeLid.default || ScanEyeLid,
   Faq: Faq.default || Faq,
-  FaqBubbles: FaqBubbles.default || FaqBubbles,
-  FeaturesListStars: FeaturesListStars.default || FeaturesListStars,
-  Fingerprint1: Fingerprint1.default || Fingerprint1,
-  Fingerprint2: Fingerprint2.default || Fingerprint2,
-  Fingerprint3: Fingerprint3.default || Fingerprint3,
-  Fingerprint4: Fingerprint4.default || Fingerprint4,
-  Fingerprint5: Fingerprint5.default || Fingerprint5,
-  Fingerprint6: Fingerprint6.default || Fingerprint6,
-  Fingerprint7: Fingerprint7.default || Fingerprint7,
-  Fingerprint8: Fingerprint8.default || Fingerprint8,
+  FaqChat: FaqChat.default || FaqChat,
+  ListStarBullets: ListStarBullets.default || ListStarBullets,
+  Fingerprint: Fingerprint.default || Fingerprint,
+  FingerprintDashed: FingerprintDashed.default || FingerprintDashed,
+  FingerprintSpiral: FingerprintSpiral.default || FingerprintSpiral,
+  FingerprintWide: FingerprintWide.default || FingerprintWide,
+  FingerprintCurl: FingerprintCurl.default || FingerprintCurl,
+  FingerprintCurlStem: FingerprintCurlStem.default || FingerprintCurlStem,
+  FingerprintSpiralDashed: FingerprintSpiralDashed.default || FingerprintSpiralDashed,
+  FingerprintDotted: FingerprintDotted.default || FingerprintDotted,
   Folder: Folder.default || Folder,
-  Folder2: Folder2.default || Folder2,
-  Folder3: Folder3.default || Folder3,
-  Folder4: Folder4.default || Folder4,
-  Folder5: Folder5.default || Folder5,
-  Folder6: Folder6.default || Folder6,
-  Folder7: Folder7.default || Folder7,
-  Folder8: Folder8.default || Folder8,
-  Folder9: Folder9.default || Folder9,
-  Folder10: Folder10.default || Folder10,
-  Folder11: Folder11.default || Folder11,
-  Folder12: Folder12.default || Folder12,
-  Folder13: Folder13.default || Folder13,
-  Folder14: Folder14.default || Folder14,
-  Folder15: Folder15.default || Folder15,
-  Folder16: Folder16.default || Folder16,
-  Folder17: Folder17.default || Folder17,
-  Folder18: Folder18.default || Folder18,
-  Folder19: Folder19.default || Folder19,
-  Folder20: Folder20.default || Folder20,
-  FolderAlert: FolderAlert.default || FolderAlert,
+  FolderDivider: FolderDivider.default || FolderDivider,
+  FolderTabFront: FolderTabFront.default || FolderTabFront,
+  FolderTabBack: FolderTabBack.default || FolderTabBack,
+  FolderStack: FolderStack.default || FolderStack,
+  FolderFile: FolderFile.default || FolderFile,
+  FolderLabel: FolderLabel.default || FolderLabel,
+  FolderText: FolderText.default || FolderText,
+  FolderInner: FolderInner.default || FolderInner,
+  FolderInnerLabel: FolderInnerLabel.default || FolderInnerLabel,
+  FolderStack2: FolderStack2.default || FolderStack2,
+  FolderAjar: FolderAjar.default || FolderAjar,
+  FolderAjarFlat: FolderAjarFlat.default || FolderAjarFlat,
+  FolderStackEdge: FolderStackEdge.default || FolderStackEdge,
+  FolderSide: FolderSide.default || FolderSide,
+  FolderOpenTab: FolderOpenTab.default || FolderOpenTab,
+  FolderOpen: FolderOpen.default || FolderOpen,
+  FolderOpen2: FolderOpen2.default || FolderOpen2,
+  FolderOpenFront: FolderOpenFront.default || FolderOpenFront,
+  FolderPerspective: FolderPerspective.default || FolderPerspective,
+  FolderTriangle: FolderTriangle.default || FolderTriangle,
   FolderCheck: FolderCheck.default || FolderCheck,
-  FolderChecked: FolderChecked.default || FolderChecked,
-  FolderCircleCheck: FolderCircleCheck.default || FolderCircleCheck,
-  FolderCircleNegative: FolderCircleNegative.default || FolderCircleNegative,
-  FolderCirclePlus: FolderCirclePlus.default || FolderCirclePlus,
+  FolderCheckCenter: FolderCheckCenter.default || FolderCheckCenter,
+  FolderCheckCircle: FolderCheckCircle.default || FolderCheckCircle,
+  FolderMinusCircle: FolderMinusCircle.default || FolderMinusCircle,
+  FolderPlusCircle: FolderPlusCircle.default || FolderPlusCircle,
   FolderXCircle: FolderXCircle.default || FolderXCircle,
-  FolderNegative: FolderNegative.default || FolderNegative,
-  FolderNegative2: FolderNegative2.default || FolderNegative2,
-  FolderPlus1: FolderPlus1.default || FolderPlus1,
-  FolderPlus2: FolderPlus2.default || FolderPlus2,
-  FolderWarning: FolderWarning.default || FolderWarning,
-  FolderX1: FolderX1.default || FolderX1,
-  FolderX2: FolderX2.default || FolderX2,
-  Form1: Form1.default || Form1,
-  Form2: Form2.default || Form2,
-  Form3: Form3.default || Form3,
-  Form4: Form4.default || Form4,
-  Form5: Form5.default || Form5,
-  Form6: Form6.default || Form6,
-  FormCheckboxChecked1: FormCheckboxChecked1.default || FormCheckboxChecked1,
-  FormCheckboxChecked2: FormCheckboxChecked2.default || FormCheckboxChecked2,
-  FormCheckboxChecked3: FormCheckboxChecked3.default || FormCheckboxChecked3,
-  FormCheckboxUnchecked1: FormCheckboxUnchecked1.default || FormCheckboxUnchecked1,
-  FormCheckboxUnchecked2: FormCheckboxUnchecked2.default || FormCheckboxUnchecked2,
-  FormCheckboxUnchecked3: FormCheckboxUnchecked3.default || FormCheckboxUnchecked3,
-  FormDropdownSelect1: FormDropdownSelect1.default || FormDropdownSelect1,
-  FormDropdownSelect2: FormDropdownSelect2.default || FormDropdownSelect2,
-  FormDropdownSelect3: FormDropdownSelect3.default || FormDropdownSelect3,
-  FormDropdownSelect4: FormDropdownSelect4.default || FormDropdownSelect4,
-  FormDropdownSelect5: FormDropdownSelect5.default || FormDropdownSelect5,
-  FormDropdownSelect6: FormDropdownSelect6.default || FormDropdownSelect6,
-  FormDropdownSelect7: FormDropdownSelect7.default || FormDropdownSelect7,
+  FolderMinus: FolderMinus.default || FolderMinus,
+  FolderMinusCenter: FolderMinusCenter.default || FolderMinusCenter,
+  FolderPlus: FolderPlus.default || FolderPlus,
+  FolderPlusCenter: FolderPlusCenter.default || FolderPlusCenter,
+  FolderAlertTriangle: FolderAlertTriangle.default || FolderAlertTriangle,
+  FolderX: FolderX.default || FolderX,
+  FolderXCenter: FolderXCenter.default || FolderXCenter,
+  Form: Form.default || Form,
+  FormCentered: FormCentered.default || FormCentered,
+  FormLabels: FormLabels.default || FormLabels,
+  FormRows: FormRows.default || FormRows,
+  FormRowsCheckbox: FormRowsCheckbox.default || FormRowsCheckbox,
+  FormRowsSquare: FormRowsSquare.default || FormRowsSquare,
+  FormCheckboxCheckOpen: FormCheckboxCheckOpen.default || FormCheckboxCheckOpen,
+  FormCheckboxCheck: FormCheckboxCheck.default || FormCheckboxCheck,
+  FormCheckboxCheckLarge: FormCheckboxCheckLarge.default || FormCheckboxCheckLarge,
+  FormCheckboxLong: FormCheckboxLong.default || FormCheckboxLong,
+  FormCheckbox: FormCheckbox.default || FormCheckbox,
+  FormCheckboxLarge: FormCheckboxLarge.default || FormCheckboxLarge,
+  FormDropdownMinimal: FormDropdownMinimal.default || FormDropdownMinimal,
+  FormDropdown: FormDropdown.default || FormDropdown,
+  FormDropdownSlim: FormDropdownSlim.default || FormDropdownSlim,
+  FormDropdownDot: FormDropdownDot.default || FormDropdownDot,
+  FormDropdownExpanded: FormDropdownExpanded.default || FormDropdownExpanded,
+  FormDropdownExpandedLines: FormDropdownExpandedLines.default || FormDropdownExpandedLines,
+  FormDropdownExpandedBullets: FormDropdownExpandedBullets.default || FormDropdownExpandedBullets,
+  FormInputNumberDots: FormInputNumberDots.default || FormInputNumberDots,
   FormInputNumber: FormInputNumber.default || FormInputNumber,
-  FormInputNumber2: FormInputNumber2.default || FormInputNumber2,
-  FormInputText1: FormInputText1.default || FormInputText1,
-  FormInputText2: FormInputText2.default || FormInputText2,
-  FormLockPasswordTooltip: FormLockPasswordTooltip.default || FormLockPasswordTooltip,
-  FormLockPasswordLabelSquare: FormLockPasswordLabelSquare.default || FormLockPasswordLabelSquare,
-  FormRadiusChecked1: FormRadiusChecked1.default || FormRadiusChecked1,
-  FormRadiusChecked2: FormRadiusChecked2.default || FormRadiusChecked2,
-  FormRadiusChecked3: FormRadiusChecked3.default || FormRadiusChecked3,
-  FormRadiusUnchecked1: FormRadiusUnchecked1.default || FormRadiusUnchecked1,
-  FormRadiusUnchecked2: FormRadiusUnchecked2.default || FormRadiusUnchecked2,
-  FormUsernameTooltipDrop: FormUsernameTooltipDrop.default || FormUsernameTooltipDrop,
-  FormUsernameTooltipSquare: FormUsernameTooltipSquare.default || FormUsernameTooltipSquare,
+  FormInput: FormInput.default || FormInput,
+  FormInputCursor: FormInputCursor.default || FormInputCursor,
+  FormLockDrop: FormLockDrop.default || FormLockDrop,
+  FormLockTooltip: FormLockTooltip.default || FormLockTooltip,
+  FormRadioDotLong: FormRadioDotLong.default || FormRadioDotLong,
+  FormRadioDot: FormRadioDot.default || FormRadioDot,
+  FormRadioCheck: FormRadioCheck.default || FormRadioCheck,
+  FormRadioLong: FormRadioLong.default || FormRadioLong,
+  FormRadio: FormRadio.default || FormRadio,
+  FormUserDrop: FormUserDrop.default || FormUserDrop,
+  FormUserTooltip: FormUserTooltip.default || FormUserTooltip,
   Forward: Forward.default || Forward,
-  FunnelFilter1: FunnelFilter1.default || FunnelFilter1,
-  FunnelFilter2: FunnelFilter2.default || FunnelFilter2,
-  FunnelFilter3: FunnelFilter3.default || FunnelFilter3,
-  FunnelFilter4: FunnelFilter4.default || FunnelFilter4,
-  FunnelFilterMail: FunnelFilterMail.default || FunnelFilterMail,
-  FunnelFilterMail2: FunnelFilterMail2.default || FunnelFilterMail2,
-  FunnelFilterMailCircle: FunnelFilterMailCircle.default || FunnelFilterMailCircle,
-  FunnelFilterMailCircle2: FunnelFilterMailCircle2.default || FunnelFilterMailCircle2,
-  FunnelFilterMailSquare: FunnelFilterMailSquare.default || FunnelFilterMailSquare,
-  FunnelFilterSquare: FunnelFilterSquare.default || FunnelFilterSquare,
-  FunnelFilterCoin1: FunnelFilterCoin1.default || FunnelFilterCoin1,
-  FunnelFilterCoin2: FunnelFilterCoin2.default || FunnelFilterCoin2,
-  FunnelFilterDollar: FunnelFilterDollar.default || FunnelFilterDollar,
-  GearSettings: GearSettings.default || GearSettings,
-  GearSettings2: GearSettings2.default || GearSettings2,
-  GearSettings3: GearSettings3.default || GearSettings3,
-  GearSettings4: GearSettings4.default || GearSettings4,
-  GearSettings5: GearSettings5.default || GearSettings5,
-  GearSettings6: GearSettings6.default || GearSettings6,
-  Gears1: Gears1.default || Gears1,
-  Gears2: Gears2.default || Gears2,
-  Gears3: Gears3.default || Gears3,
-  Gears4: Gears4.default || Gears4,
-  Gears5: Gears5.default || Gears5,
-  GeometricFormsDeviation: GeometricFormsDeviation.default || GeometricFormsDeviation,
-  GeometricFormsDeviation2: GeometricFormsDeviation2.default || GeometricFormsDeviation2,
-  GeometricFormsDiscrepancy: GeometricFormsDiscrepancy.default || GeometricFormsDiscrepancy,
-  GeometricFormsDiversity: GeometricFormsDiversity.default || GeometricFormsDiversity,
-  GeometricFormsInconsistency: GeometricFormsInconsistency.default || GeometricFormsInconsistency,
-  GeometricFormsVariation: GeometricFormsVariation.default || GeometricFormsVariation,
-  GraphHorizontalBarsRounded: GraphHorizontalBarsRounded.default || GraphHorizontalBarsRounded,
-  GraphHorizontalBarsDots: GraphHorizontalBarsDots.default || GraphHorizontalBarsDots,
-  GraphHorizontalBarsDotsAlt: GraphHorizontalBarsDotsAlt.default || GraphHorizontalBarsDotsAlt,
-  GraphHorizontalBarsStripes: GraphHorizontalBarsStripes.default || GraphHorizontalBarsStripes,
-  GraphHorizontalBarsStripesAlt: GraphHorizontalBarsStripesAlt.default || GraphHorizontalBarsStripesAlt,
-  GraphHorizontalBarsLines: GraphHorizontalBarsLines.default || GraphHorizontalBarsLines,
-  GripHorizontalCircles: GripHorizontalCircles.default || GripHorizontalCircles,
-  GripHorizontalStripes: GripHorizontalStripes.default || GripHorizontalStripes,
-  GripVerticalCircles: GripVerticalCircles.default || GripVerticalCircles,
-  GripVerticalStripes: GripVerticalStripes.default || GripVerticalStripes,
-  HandCursor: HandCursor.default || HandCursor,
-  HandCursorPointer1: HandCursorPointer1.default || HandCursorPointer1,
-  HandCursorPointer2: HandCursorPointer2.default || HandCursorPointer2,
-  HandCursorPointer3: HandCursorPointer3.default || HandCursorPointer3,
-  HandCursorPointer4: HandCursorPointer4.default || HandCursorPointer4,
-  HandCursorPointer5: HandCursorPointer5.default || HandCursorPointer5,
-  HandCursor6: HandCursor6.default || HandCursor6,
-  HandGear: HandGear.default || HandGear,
-  HandGear1: HandGear1.default || HandGear1,
-  HandStopPrivate: HandStopPrivate.default || HandStopPrivate,
-  HandStopPrivateCircle1: HandStopPrivateCircle1.default || HandStopPrivateCircle1,
-  HandStopPrivateCircle2: HandStopPrivateCircle2.default || HandStopPrivateCircle2,
-  HandTouchFourFingersSwipeDown: HandTouchFourFingersSwipeDown.default || HandTouchFourFingersSwipeDown,
-  HandTouchFourFingersSwipeHorizontal: HandTouchFourFingersSwipeHorizontal.default || HandTouchFourFingersSwipeHorizontal,
-  HandTouchFourFingersSwipeLeft: HandTouchFourFingersSwipeLeft.default || HandTouchFourFingersSwipeLeft,
-  HandTouchFourFingersSwipeRight: HandTouchFourFingersSwipeRight.default || HandTouchFourFingersSwipeRight,
-  HandTouchFourFingersSwipeVertical: HandTouchFourFingersSwipeVertical.default || HandTouchFourFingersSwipeVertical,
-  HandTouchFourFingersSwipeUp: HandTouchFourFingersSwipeUp.default || HandTouchFourFingersSwipeUp,
-  HandTouchOneFingerUndo: HandTouchOneFingerUndo.default || HandTouchOneFingerUndo,
-  HandTouchOneFingerWait: HandTouchOneFingerWait.default || HandTouchOneFingerWait,
-  HandTouchOneFingerMove: HandTouchOneFingerMove.default || HandTouchOneFingerMove,
-  HandTouchOneFingerHoldWait: HandTouchOneFingerHoldWait.default || HandTouchOneFingerHoldWait,
-  HandTouchSwipeDown: HandTouchSwipeDown.default || HandTouchSwipeDown,
-  HandTouchSwipeLeftRight: HandTouchSwipeLeftRight.default || HandTouchSwipeLeftRight,
-  HandTouchSwipeLeft: HandTouchSwipeLeft.default || HandTouchSwipeLeft,
-  HandTouchSwipeLeftLine: HandTouchSwipeLeftLine.default || HandTouchSwipeLeftLine,
-  HandTouchSwipeRight: HandTouchSwipeRight.default || HandTouchSwipeRight,
-  HandTouchSwipeRightLine: HandTouchSwipeRightLine.default || HandTouchSwipeRightLine,
-  HandTouchSwipeUpDown: HandTouchSwipeUpDown.default || HandTouchSwipeUpDown,
-  HandTouchSwipeUp: HandTouchSwipeUp.default || HandTouchSwipeUp,
-  HandTouchTap: HandTouchTap.default || HandTouchTap,
-  HandTouchDoubleTap: HandTouchDoubleTap.default || HandTouchDoubleTap,
-  HandTouchTap2: HandTouchTap2.default || HandTouchTap2,
-  HandTouchTapOne: HandTouchTapOne.default || HandTouchTapOne,
-  HandTouchTapSquare: HandTouchTapSquare.default || HandTouchTapSquare,
-  HandTouchThreeSwipeDown: HandTouchThreeSwipeDown.default || HandTouchThreeSwipeDown,
-  HandTouchThreeSwipeLeftRight: HandTouchThreeSwipeLeftRight.default || HandTouchThreeSwipeLeftRight,
-  HandTouchThreeSwipeLeft: HandTouchThreeSwipeLeft.default || HandTouchThreeSwipeLeft,
-  HandTouchThreeSwipeRight: HandTouchThreeSwipeRight.default || HandTouchThreeSwipeRight,
-  HandTouchThreeSwipeUpDown: HandTouchThreeSwipeUpDown.default || HandTouchThreeSwipeUpDown,
-  HandTouchThreeSwipeUp: HandTouchThreeSwipeUp.default || HandTouchThreeSwipeUp,
-  HandTouchTwoDirectional: HandTouchTwoDirectional.default || HandTouchTwoDirectional,
-  HandTwoFingerDoubleTap: HandTwoFingerDoubleTap.default || HandTwoFingerDoubleTap,
-  HandTwoFingerDoubleTap2: HandTwoFingerDoubleTap2.default || HandTwoFingerDoubleTap2,
-  HandTwoFingerPinch: HandTwoFingerPinch.default || HandTwoFingerPinch,
-  HandTwoFingerSingleTap: HandTwoFingerSingleTap.default || HandTwoFingerSingleTap,
-  HandTwoFingerSingleTap1: HandTwoFingerSingleTap1.default || HandTwoFingerSingleTap1,
-  HandTwoFingerSpread1: HandTwoFingerSpread1.default || HandTwoFingerSpread1,
-  HandTwoFingerSpread2: HandTwoFingerSpread2.default || HandTwoFingerSpread2,
-  HandTwoFingerSwipeDown: HandTwoFingerSwipeDown.default || HandTwoFingerSwipeDown,
-  HandTwoFingerSwipeBidirectional: HandTwoFingerSwipeBidirectional.default || HandTwoFingerSwipeBidirectional,
-  HandTwoFingerSwipeLeft: HandTwoFingerSwipeLeft.default || HandTwoFingerSwipeLeft,
-  HandTwoFingersSwipeRight: HandTwoFingersSwipeRight.default || HandTwoFingersSwipeRight,
-  HandTwoFingersSwipeVertical: HandTwoFingersSwipeVertical.default || HandTwoFingersSwipeVertical,
-  HandTwoFingersSwipeUp: HandTwoFingersSwipeUp.default || HandTwoFingersSwipeUp,
+  Funnel: Funnel.default || Funnel,
+  FunnelRim: FunnelRim.default || FunnelRim,
+  FunnelSimple: FunnelSimple.default || FunnelSimple,
+  FunnelOval: FunnelOval.default || FunnelOval,
+  FilterLines: FilterLines.default || FilterLines,
+  FilterLinesWide: FilterLinesWide.default || FilterLinesWide,
+  FilterLinesCircle: FilterLinesCircle.default || FilterLinesCircle,
+  FilterLinesWideCircle: FilterLinesWideCircle.default || FilterLinesWideCircle,
+  FilterLinesSquare: FilterLinesSquare.default || FilterLinesSquare,
+  FilterLinesWideSquare: FilterLinesWideSquare.default || FilterLinesWideSquare,
+  FunnelCoin: FunnelCoin.default || FunnelCoin,
+  FunnelOvalCoin: FunnelOvalCoin.default || FunnelOvalCoin,
+  FunnelDollar: FunnelDollar.default || FunnelDollar,
+  Gear: Gear.default || Gear,
+  GearAngled: GearAngled.default || GearAngled,
+  GearRound: GearRound.default || GearRound,
+  GearWavy: GearWavy.default || GearWavy,
+  GearHex: GearHex.default || GearHex,
+  GearSpokes: GearSpokes.default || GearSpokes,
+  GearMultiple: GearMultiple.default || GearMultiple,
+  GearStackSpiky: GearStackSpiky.default || GearStackSpiky,
+  GearStack: GearStack.default || GearStack,
+  GearStackSquare: GearStackSquare.default || GearStackSquare,
+  GearCluster: GearCluster.default || GearCluster,
+  GridOddCircle: GridOddCircle.default || GridOddCircle,
+  GridOddSquare: GridOddSquare.default || GridOddSquare,
+  ShapeNested: ShapeNested.default || ShapeNested,
+  ShapeMix: ShapeMix.default || ShapeMix,
+  ShapeUneven: ShapeUneven.default || ShapeUneven,
+  CircleGridMarks: CircleGridMarks.default || CircleGridMarks,
+  ProgressBarMultipleDotted: ProgressBarMultipleDotted.default || ProgressBarMultipleDotted,
+  ProgressBarMultipleDottedSharp: ProgressBarMultipleDottedSharp.default || ProgressBarMultipleDottedSharp,
+  ProgressBarMultipleDottedJoined: ProgressBarMultipleDottedJoined.default || ProgressBarMultipleDottedJoined,
+  ProgressBarMultipleSegmentedSharp: ProgressBarMultipleSegmentedSharp.default || ProgressBarMultipleSegmentedSharp,
+  ProgressBarMultipleStripedJoined: ProgressBarMultipleStripedJoined.default || ProgressBarMultipleStripedJoined,
+  ChartBarHorizontalSquareThin: ChartBarHorizontalSquareThin.default || ChartBarHorizontalSquareThin,
+  GripDotsHorizontal: GripDotsHorizontal.default || GripDotsHorizontal,
+  GripBarsHorizontal: GripBarsHorizontal.default || GripBarsHorizontal,
+  GripDotsVertical: GripDotsVertical.default || GripDotsVertical,
+  GripBarsVertical: GripBarsVertical.default || GripBarsVertical,
+  HandPointer: HandPointer.default || HandPointer,
+  HandPointerRound: HandPointerRound.default || HandPointerRound,
+  HandPointerCuff: HandPointerCuff.default || HandPointerCuff,
+  HandPointerUnderline: HandPointerUnderline.default || HandPointerUnderline,
+  HandPointerFingersRound: HandPointerFingersRound.default || HandPointerFingersRound,
+  HandPointerFingersRound2: HandPointerFingersRound2.default || HandPointerFingersRound2,
+  HandPointerFingers: HandPointerFingers.default || HandPointerFingers,
+  HandSettingsRays: HandSettingsRays.default || HandSettingsRays,
+  HandSettings: HandSettings.default || HandSettings,
+  HandStop: HandStop.default || HandStop,
+  HandStopCircle: HandStopCircle.default || HandStopCircle,
+  HandFistCircle: HandFistCircle.default || HandFistCircle,
+  HandSwipeDownFourFingers: HandSwipeDownFourFingers.default || HandSwipeDownFourFingers,
+  HandSwipeLeftRightFourFingers: HandSwipeLeftRightFourFingers.default || HandSwipeLeftRightFourFingers,
+  HandSwipeLeftFourFingers: HandSwipeLeftFourFingers.default || HandSwipeLeftFourFingers,
+  HandSwipeRightFourFingers: HandSwipeRightFourFingers.default || HandSwipeRightFourFingers,
+  HandSwipeUpDownFourFingers: HandSwipeUpDownFourFingers.default || HandSwipeUpDownFourFingers,
+  HandSwipeUpFourFingers: HandSwipeUpFourFingers.default || HandSwipeUpFourFingers,
+  HandRefresh: HandRefresh.default || HandRefresh,
+  HandClock: HandClock.default || HandClock,
+  HandMove: HandMove.default || HandMove,
+  HandTapClock: HandTapClock.default || HandTapClock,
+  HandSwipeDown: HandSwipeDown.default || HandSwipeDown,
+  HandSwipeLeftRight: HandSwipeLeftRight.default || HandSwipeLeftRight,
+  HandSwipeLeft: HandSwipeLeft.default || HandSwipeLeft,
+  HandSwipeLeftDashed: HandSwipeLeftDashed.default || HandSwipeLeftDashed,
+  HandSwipeRight: HandSwipeRight.default || HandSwipeRight,
+  HandSwipeRightDashed: HandSwipeRightDashed.default || HandSwipeRightDashed,
+  HandSwipeUpDown: HandSwipeUpDown.default || HandSwipeUpDown,
+  HandSwipeUp: HandSwipeUp.default || HandSwipeUp,
+  HandTapDouble: HandTapDouble.default || HandTapDouble,
+  HandTapTwo: HandTapTwo.default || HandTapTwo,
+  HandTap: HandTap.default || HandTap,
+  HandTapOne: HandTapOne.default || HandTapOne,
+  HandTapSquare: HandTapSquare.default || HandTapSquare,
+  HandSwipeDownThreeFingers: HandSwipeDownThreeFingers.default || HandSwipeDownThreeFingers,
+  HandSwipeLeftRightThreeFingers: HandSwipeLeftRightThreeFingers.default || HandSwipeLeftRightThreeFingers,
+  HandSwipeLeftThreeFingers: HandSwipeLeftThreeFingers.default || HandSwipeLeftThreeFingers,
+  HandSwipeRightThreeFingers: HandSwipeRightThreeFingers.default || HandSwipeRightThreeFingers,
+  HandSwipeUpDownThreeFingers: HandSwipeUpDownThreeFingers.default || HandSwipeUpDownThreeFingers,
+  HandSwipeUpThreeFingers: HandSwipeUpThreeFingers.default || HandSwipeUpThreeFingers,
+  HandMoveTwoFingers: HandMoveTwoFingers.default || HandMoveTwoFingers,
+  HandTapDoubleTwoFingers: HandTapDoubleTwoFingers.default || HandTapDoubleTwoFingers,
+  HandTapTwoTwoFingers: HandTapTwoTwoFingers.default || HandTapTwoTwoFingers,
+  HandPinch: HandPinch.default || HandPinch,
+  HandTapTwoFingers: HandTapTwoFingers.default || HandTapTwoFingers,
+  HandTapOneTwoFingers: HandTapOneTwoFingers.default || HandTapOneTwoFingers,
+  HandSpread: HandSpread.default || HandSpread,
+  HandRotate: HandRotate.default || HandRotate,
+  HandSwipeDownTwoFingers: HandSwipeDownTwoFingers.default || HandSwipeDownTwoFingers,
+  HandSwipeLeftRightTwoFingers: HandSwipeLeftRightTwoFingers.default || HandSwipeLeftRightTwoFingers,
+  HandSwipeLeftTwoFingers: HandSwipeLeftTwoFingers.default || HandSwipeLeftTwoFingers,
+  HandSwipeRightTwoFingers: HandSwipeRightTwoFingers.default || HandSwipeRightTwoFingers,
+  HandSwipeUpDownTwoFingers: HandSwipeUpDownTwoFingers.default || HandSwipeUpDownTwoFingers,
+  HandSwipeUpTwoFingers: HandSwipeUpTwoFingers.default || HandSwipeUpTwoFingers,
   HardDriveX: HardDriveX.default || HardDriveX,
-  HardDriveClose: HardDriveClose.default || HardDriveClose,
-  HardDriveStrike: HardDriveStrike.default || HardDriveStrike,
-  HardDriveDisc: HardDriveDisc.default || HardDriveDisc,
-  Heart1: Heart1.default || Heart1,
-  Heart1Striped: Heart1Striped.default || Heart1Striped,
-  Heart1Add: Heart1Add.default || Heart1Add,
-  Heart2: Heart2.default || Heart2,
-  Heart2Striped: Heart2Striped.default || Heart2Striped,
-  Heart2Add: Heart2Add.default || Heart2Add,
-  Heart3: Heart3.default || Heart3,
-  Heart3Dotted: Heart3Dotted.default || Heart3Dotted,
-  HeartAdd: HeartAdd.default || HeartAdd,
-  HeartPositive: HeartPositive.default || HeartPositive,
-  HideSidepanelLeft: HideSidepanelLeft.default || HideSidepanelLeft,
-  HideSidepanelRight: HideSidepanelRight.default || HideSidepanelRight,
-  House1: House1.default || House1,
-  House2: House2.default || House2,
-  House3: House3.default || House3,
-  House4: House4.default || House4,
-  House5: House5.default || House5,
-  House6: House6.default || House6,
-  House7: House7.default || House7,
-  House8: House8.default || House8,
-  House9: House9.default || House9,
-  House10: House10.default || House10,
-  House11: House11.default || House11,
-  House12: House12.default || House12,
-  Information1: Information1.default || Information1,
-  Information2: Information2.default || Information2,
-  Information3: Information3.default || Information3,
-  Information4: Information4.default || Information4,
-  Information5: Information5.default || Information5,
-  InformationCircle1: InformationCircle1.default || InformationCircle1,
-  InformationCircle2: InformationCircle2.default || InformationCircle2,
-  InformationSquare1: InformationSquare1.default || InformationSquare1,
-  InformationSquare2: InformationSquare2.default || InformationSquare2,
-  ImagePhoto1: ImagePhoto1.default || ImagePhoto1,
-  ImagePhoto2: ImagePhoto2.default || ImagePhoto2,
-  Image3: Image3.default || Image3,
-  Image4: Image4.default || Image4,
-  Image5: Image5.default || Image5,
-  Image6: Image6.default || Image6,
-  Image7: Image7.default || Image7,
-  Image8: Image8.default || Image8,
-  Image9: Image9.default || Image9,
-  ImagePhoto10: ImagePhoto10.default || ImagePhoto10,
-  ImagePhoto11: ImagePhoto11.default || ImagePhoto11,
-  InstallUpdateDown1: InstallUpdateDown1.default || InstallUpdateDown1,
-  InstallUpdateDown2: InstallUpdateDown2.default || InstallUpdateDown2,
-  InstallUpdateDown3: InstallUpdateDown3.default || InstallUpdateDown3,
-  InstallUpdateDown4: InstallUpdateDown4.default || InstallUpdateDown4,
-  InstallUpdateDown5: InstallUpdateDown5.default || InstallUpdateDown5,
-  InstallUpdateUp1: InstallUpdateUp1.default || InstallUpdateUp1,
-  InstallUpdateUp2: InstallUpdateUp2.default || InstallUpdateUp2,
-  InstallUpdatesArrowUp3: InstallUpdatesArrowUp3.default || InstallUpdatesArrowUp3,
-  InstallUpdatesArrowUp4: InstallUpdatesArrowUp4.default || InstallUpdatesArrowUp4,
-  InstallUpdatesArrowUp5: InstallUpdatesArrowUp5.default || InstallUpdatesArrowUp5,
-  InstallUpdatesTray1: InstallUpdatesTray1.default || InstallUpdatesTray1,
-  InstallUpdatesTray2: InstallUpdatesTray2.default || InstallUpdatesTray2,
-  InstallUpdatesTrayArrowDown1: InstallUpdatesTrayArrowDown1.default || InstallUpdatesTrayArrowDown1,
-  InstallUpdatesTrayArrowDown2: InstallUpdatesTrayArrowDown2.default || InstallUpdatesTrayArrowDown2,
-  KeyPassword: KeyPassword.default || KeyPassword,
-  KeyPassword1: KeyPassword1.default || KeyPassword1,
-  Key2: Key2.default || Key2,
-  Key3: Key3.default || Key3,
-  Key4: Key4.default || Key4,
-  Key5: Key5.default || Key5,
-  Key6: Key6.default || Key6,
-  Key7: Key7.default || Key7,
-  Key8: Key8.default || Key8,
-  Key9: Key9.default || Key9,
-  KeyPassword10: KeyPassword10.default || KeyPassword10,
-  KeyPassword11: KeyPassword11.default || KeyPassword11,
-  KeyPassword12: KeyPassword12.default || KeyPassword12,
-  KeyPassword13: KeyPassword13.default || KeyPassword13,
-  KeyPassword14: KeyPassword14.default || KeyPassword14,
-  Key15: Key15.default || Key15,
-  Keypad1: Keypad1.default || Keypad1,
-  Keypad2: Keypad2.default || Keypad2,
-  Keypad3: Keypad3.default || Keypad3,
-  Keypad4: Keypad4.default || Keypad4,
-  Keypad5: Keypad5.default || Keypad5,
-  LanguageRectangle: LanguageRectangle.default || LanguageRectangle,
-  LanguageSpeechBubble: LanguageSpeechBubble.default || LanguageSpeechBubble,
-  LevelUpArrow: LevelUpArrow.default || LevelUpArrow,
-  LevelUpArrow2: LevelUpArrow2.default || LevelUpArrow2,
-  LevelsAdjust: LevelsAdjust.default || LevelsAdjust,
-  LevelsAdjustDash2: LevelsAdjustDash2.default || LevelsAdjustDash2,
-  LevelsAdjustDash3: LevelsAdjustDash3.default || LevelsAdjustDash3,
-  LevelsAdjustDash4: LevelsAdjustDash4.default || LevelsAdjustDash4,
-  LevelsAdjustDash5: LevelsAdjustDash5.default || LevelsAdjustDash5,
-  LevelsAdjustDashboard6: LevelsAdjustDashboard6.default || LevelsAdjustDashboard6,
-  LevelsAdjustDashboard7: LevelsAdjustDashboard7.default || LevelsAdjustDashboard7,
-  LevelsAdjustDashboard8: LevelsAdjustDashboard8.default || LevelsAdjustDashboard8,
-  LevelsAdjustDashboard9: LevelsAdjustDashboard9.default || LevelsAdjustDashboard9,
-  LevelsAdjustDash10: LevelsAdjustDash10.default || LevelsAdjustDash10,
-  LifebuoyHelp1: LifebuoyHelp1.default || LifebuoyHelp1,
-  LifebuoyHelp2: LifebuoyHelp2.default || LifebuoyHelp2,
-  LifebuoyHelp3: LifebuoyHelp3.default || LifebuoyHelp3,
-  LifebuoyHelp4: LifebuoyHelp4.default || LifebuoyHelp4,
-  LifebuoyHelp5: LifebuoyHelp5.default || LifebuoyHelp5,
-  LightningQuickMode1: LightningQuickMode1.default || LightningQuickMode1,
-  LightningQuickModeOff: LightningQuickModeOff.default || LightningQuickModeOff,
-  LightningQuickMode2: LightningQuickMode2.default || LightningQuickMode2,
-  LightningQuickMode2Off: LightningQuickMode2Off.default || LightningQuickMode2Off,
-  LightningQuickMode3: LightningQuickMode3.default || LightningQuickMode3,
-  LightningQuickMode3Off: LightningQuickMode3Off.default || LightningQuickMode3Off,
-  LikePositiveHand1: LikePositiveHand1.default || LikePositiveHand1,
-  LikePositionHand2: LikePositionHand2.default || LikePositionHand2,
-  LikePositionHand3: LikePositionHand3.default || LikePositionHand3,
-  LikePositionHand4: LikePositionHand4.default || LikePositionHand4,
-  LinkPersonalHotspot: LinkPersonalHotspot.default || LinkPersonalHotspot,
-  LinkPersonalHotspotAdd: LinkPersonalHotspotAdd.default || LinkPersonalHotspotAdd,
-  LinkPersonalHotspotBroken: LinkPersonalHotspotBroken.default || LinkPersonalHotspotBroken,
-  LinkPersonalHotspotCheck: LinkPersonalHotspotCheck.default || LinkPersonalHotspotCheck,
-  LinkPersonalHotspotMenu: LinkPersonalHotspotMenu.default || LinkPersonalHotspotMenu,
-  LinkPersonalHotspotSettings: LinkPersonalHotspotSettings.default || LinkPersonalHotspotSettings,
-  LinkPersonalHotspotRemove: LinkPersonalHotspotRemove.default || LinkPersonalHotspotRemove,
-  LinkPersonalHotspotX: LinkPersonalHotspotX.default || LinkPersonalHotspotX,
-  List: List.default || List,
+  HardDriveXCircle: HardDriveXCircle.default || HardDriveXCircle,
+  DiscDriveOff: DiscDriveOff.default || DiscDriveOff,
+  DiscDriveX: DiscDriveX.default || DiscDriveX,
+  HeartAngular: HeartAngular.default || HeartAngular,
+  HeartStripedAngular: HeartStripedAngular.default || HeartStripedAngular,
+  HeartPlusAngular: HeartPlusAngular.default || HeartPlusAngular,
+  HeartWide: HeartWide.default || HeartWide,
+  HeartStripedWide: HeartStripedWide.default || HeartStripedWide,
+  HeartPlusWide: HeartPlusWide.default || HeartPlusWide,
+  Heart: Heart.default || Heart,
+  HeartDotted: HeartDotted.default || HeartDotted,
+  HeartPlus: HeartPlus.default || HeartPlus,
+  HeartPlusCenter: HeartPlusCenter.default || HeartPlusCenter,
+  SidebarMenuArrowLeft: SidebarMenuArrowLeft.default || SidebarMenuArrowLeft,
+  SidebarArrowRight: SidebarArrowRight.default || SidebarArrowRight,
+  HouseEaves: HouseEaves.default || HouseEaves,
+  HouseDoorEaves: HouseDoorEaves.default || HouseDoorEaves,
+  House: House.default || House,
+  HouseDoorArch: HouseDoorArch.default || HouseDoorArch,
+  HousePentagon: HousePentagon.default || HousePentagon,
+  HouseDoorPentagon: HouseDoorPentagon.default || HouseDoorPentagon,
+  HouseDoorArchPentagon: HouseDoorArchPentagon.default || HouseDoorArchPentagon,
+  HouseSharp: HouseSharp.default || HouseSharp,
+  HouseDoor: HouseDoor.default || HouseDoor,
+  HouseChimney: HouseChimney.default || HouseChimney,
+  HouseDoorChimney: HouseDoorChimney.default || HouseDoorChimney,
+  HouseDoorGround: HouseDoorGround.default || HouseDoorGround,
+  Info: Info.default || Info,
+  InfoHollow: InfoHollow.default || InfoHollow,
+  InfoPillar: InfoPillar.default || InfoPillar,
+  InfoBlock: InfoBlock.default || InfoBlock,
+  InfoScript: InfoScript.default || InfoScript,
+  InfoCircle: InfoCircle.default || InfoCircle,
+  InfoCircleSmall: InfoCircleSmall.default || InfoCircleSmall,
+  InfoSquare: InfoSquare.default || InfoSquare,
+  InfoSquareSmall: InfoSquareSmall.default || InfoSquareSmall,
+  Image: Image.default || Image,
+  ImageWide: ImageWide.default || ImageWide,
+  ImageHills: ImageHills.default || ImageHills,
+  ImagePeaks: ImagePeaks.default || ImagePeaks,
+  ImageSunRight: ImageSunRight.default || ImageSunRight,
+  ImageFrameless: ImageFrameless.default || ImageFrameless,
+  ImageFrameBroken: ImageFrameBroken.default || ImageFrameBroken,
+  ImageCurve: ImageCurve.default || ImageCurve,
+  ImageMountain: ImageMountain.default || ImageMountain,
+  ImageWave: ImageWave.default || ImageWave,
+  ImageFrameOrnate: ImageFrameOrnate.default || ImageFrameOrnate,
+  GearDownload: GearDownload.default || GearDownload,
+  GearDownloadAngled: GearDownloadAngled.default || GearDownloadAngled,
+  GearDownloadRound: GearDownloadRound.default || GearDownloadRound,
+  GearDownloadWavy: GearDownloadWavy.default || GearDownloadWavy,
+  GearDownloadHex: GearDownloadHex.default || GearDownloadHex,
+  GearUpload: GearUpload.default || GearUpload,
+  GearUploadAngled: GearUploadAngled.default || GearUploadAngled,
+  GearUploadRound: GearUploadRound.default || GearUploadRound,
+  GearUploadWavy: GearUploadWavy.default || GearUploadWavy,
+  GearUploadHex: GearUploadHex.default || GearUploadHex,
+  GearTray: GearTray.default || GearTray,
+  GearTrayWavy: GearTrayWavy.default || GearTrayWavy,
+  GearTrayDownload: GearTrayDownload.default || GearTrayDownload,
+  GearTrayDownloadWavy: GearTrayDownloadWavy.default || GearTrayDownloadWavy,
+  KeyToothed: KeyToothed.default || KeyToothed,
+  KeyBlock: KeyBlock.default || KeyBlock,
+  KeyBlockSmooth: KeyBlockSmooth.default || KeyBlockSmooth,
+  KeySkeleton: KeySkeleton.default || KeySkeleton,
+  KeySkeletonSimple: KeySkeletonSimple.default || KeySkeletonSimple,
+  KeyRight: KeyRight.default || KeyRight,
+  KeyBlockToothed: KeyBlockToothed.default || KeyBlockToothed,
+  KeySkeletonRight: KeySkeletonRight.default || KeySkeletonRight,
+  KeySkeletonRightOval: KeySkeletonRightOval.default || KeySkeletonRightOval,
+  KeyPlain: KeyPlain.default || KeyPlain,
+  Key: Key.default || Key,
+  KeyAngular: KeyAngular.default || KeyAngular,
+  KeySkeletonFlipped: KeySkeletonFlipped.default || KeySkeletonFlipped,
+  KeySmooth: KeySmooth.default || KeySmooth,
+  KeyWide: KeyWide.default || KeyWide,
+  KeySmoothNotch: KeySmoothNotch.default || KeySmoothNotch,
+  Keypad: Keypad.default || Keypad,
+  KeypadRounded: KeypadRounded.default || KeypadRounded,
+  KeypadDots: KeypadDots.default || KeypadDots,
+  KeypadGrid: KeypadGrid.default || KeypadGrid,
+  KeypadJoined: KeypadJoined.default || KeypadJoined,
+  TranslateSquare: TranslateSquare.default || TranslateSquare,
+  TranslateChat: TranslateChat.default || TranslateChat,
+  TrayUpload: TrayUpload.default || TrayUpload,
+  TrayUploadTall: TrayUploadTall.default || TrayUploadTall,
+  AdjustPairVertical: AdjustPairVertical.default || AdjustPairVertical,
+  AdjustPair: AdjustPair.default || AdjustPair,
+  AdjustVertical: AdjustVertical.default || AdjustVertical,
+  Adjust: Adjust.default || Adjust,
+  AdjustTick: AdjustTick.default || AdjustTick,
+  AdjustVerticalTick: AdjustVerticalTick.default || AdjustVerticalTick,
+  AdjustPairBlock: AdjustPairBlock.default || AdjustPairBlock,
+  AdjustBlock: AdjustBlock.default || AdjustBlock,
+  AdjustPairVerticalBlock: AdjustPairVerticalBlock.default || AdjustPairVerticalBlock,
+  AdjustVerticalBlock: AdjustVerticalBlock.default || AdjustVerticalBlock,
+  Lifebuoy: Lifebuoy.default || Lifebuoy,
+  LifebuoyDiagonalLong: LifebuoyDiagonalLong.default || LifebuoyDiagonalLong,
+  LifebuoyRope: LifebuoyRope.default || LifebuoyRope,
+  LifebuoyRopeLong: LifebuoyRopeLong.default || LifebuoyRopeLong,
+  LifebuoyDiagonal: LifebuoyDiagonal.default || LifebuoyDiagonal,
+  Bolt: Bolt.default || Bolt,
+  BoltOff: BoltOff.default || BoltOff,
+  BoltTilted: BoltTilted.default || BoltTilted,
+  BoltOffTilted: BoltOffTilted.default || BoltOffTilted,
+  BoltWide: BoltWide.default || BoltWide,
+  BoltOffWide: BoltOffWide.default || BoltOffWide,
+  HandThumbUp: HandThumbUp.default || HandThumbUp,
+  HandThumbUpFingers: HandThumbUpFingers.default || HandThumbUpFingers,
+  HandThumbUpCuff: HandThumbUpCuff.default || HandThumbUpCuff,
+  HandThumbUpSleeve: HandThumbUpSleeve.default || HandThumbUpSleeve,
+  Link: Link.default || Link,
+  LinkPlus: LinkPlus.default || LinkPlus,
+  LinkBroken: LinkBroken.default || LinkBroken,
+  LinkCheck: LinkCheck.default || LinkCheck,
+  LinkDots: LinkDots.default || LinkDots,
+  LinkMenu: LinkMenu.default || LinkMenu,
+  LinkMinus: LinkMinus.default || LinkMinus,
+  LinkX: LinkX.default || LinkX,
+  ListCheckbox: ListCheckbox.default || ListCheckbox,
   ListStatus: ListStatus.default || ListStatus,
   ListNumbered: ListNumbered.default || ListNumbered,
-  LoadingBar1: LoadingBar1.default || LoadingBar1,
-  LoadingBar2: LoadingBar2.default || LoadingBar2,
-  LoadingBar3: LoadingBar3.default || LoadingBar3,
-  LoadingBar4: LoadingBar4.default || LoadingBar4,
-  LoadingBar5: LoadingBar5.default || LoadingBar5,
-  LoadingBar6: LoadingBar6.default || LoadingBar6,
-  LoadingDotsStep1: LoadingDotsStep1.default || LoadingDotsStep1,
-  LoadingDotsStep2: LoadingDotsStep2.default || LoadingDotsStep2,
-  LoadingDotsStep3: LoadingDotsStep3.default || LoadingDotsStep3,
-  LoadingDotsStep4: LoadingDotsStep4.default || LoadingDotsStep4,
+  ProgressBarSharp: ProgressBarSharp.default || ProgressBarSharp,
+  ProgressBar: ProgressBar.default || ProgressBar,
+  ProgressBarStripedSharp: ProgressBarStripedSharp.default || ProgressBarStripedSharp,
+  ProgressBarStriped: ProgressBarStriped.default || ProgressBarStriped,
+  ProgressBarDotted: ProgressBarDotted.default || ProgressBarDotted,
+  ProgressBarDottedSharp: ProgressBarDottedSharp.default || ProgressBarDottedSharp,
+  ProgressDots: ProgressDots.default || ProgressDots,
+  ProgressDotsLeft: ProgressDotsLeft.default || ProgressDotsLeft,
+  ProgressDotsCenter: ProgressDotsCenter.default || ProgressDotsCenter,
+  ProgressDotsRight: ProgressDotsRight.default || ProgressDotsRight,
+  LockCheckSharp: LockCheckSharp.default || LockCheckSharp,
+  LockOpenCheckSharp: LockOpenCheckSharp.default || LockOpenCheckSharp,
+  LockEyeSharp: LockEyeSharp.default || LockEyeSharp,
+  LockSharp: LockSharp.default || LockSharp,
+  LockOpenSharp: LockOpenSharp.default || LockOpenSharp,
+  LockXSharp: LockXSharp.default || LockXSharp,
   LockCheck: LockCheck.default || LockCheck,
-  LockCheckOpen: LockCheckOpen.default || LockCheckOpen,
-  LockEyePrivacy: LockEyePrivacy.default || LockEyePrivacy,
-  LockLocked: LockLocked.default || LockLocked,
-  LockUnlockedOpen: LockUnlockedOpen.default || LockUnlockedOpen,
-  LockClose: LockClose.default || LockClose,
-  Lock2Check: Lock2Check.default || Lock2Check,
-  Lock2CheckOpen: Lock2CheckOpen.default || Lock2CheckOpen,
-  Lock2Check2: Lock2Check2.default || Lock2Check2,
-  Lock2CheckOpen2: Lock2CheckOpen2.default || Lock2CheckOpen2,
+  LockOpenCheck: LockOpenCheck.default || LockOpenCheck,
+  LockCheckCorner: LockCheckCorner.default || LockCheckCorner,
+  LockOpenCheckCorner: LockOpenCheckCorner.default || LockOpenCheckCorner,
   LockEye: LockEye.default || LockEye,
-  LockEyeAlt: LockEyeAlt.default || LockEyeAlt,
+  LockEyeCorner: LockEyeCorner.default || LockEyeCorner,
   LockKeyhole: LockKeyhole.default || LockKeyhole,
-  LockKeyholeAlt: LockKeyholeAlt.default || LockKeyholeAlt,
-  LockKeyholeOpen: LockKeyholeOpen.default || LockKeyholeOpen,
-  LockLocked2: LockLocked2.default || LockLocked2,
-  LockPassword: LockPassword.default || LockPassword,
-  LockPasswordAlt: LockPasswordAlt.default || LockPasswordAlt,
-  LockUnlocked: LockUnlocked.default || LockUnlocked,
-  LockClose2: LockClose2.default || LockClose2,
-  Lock3Check: Lock3Check.default || Lock3Check,
-  Lock3CheckOpen: Lock3CheckOpen.default || Lock3CheckOpen,
-  Lock3Check2: Lock3Check2.default || Lock3Check2,
-  Lock3Check2Open: Lock3Check2Open.default || Lock3Check2Open,
-  Lock3Eye: Lock3Eye.default || Lock3Eye,
-  Lock3Keyhole: Lock3Keyhole.default || Lock3Keyhole,
-  Lock3Keyhole2: Lock3Keyhole2.default || Lock3Keyhole2,
-  Lock3KeyholeOpen: Lock3KeyholeOpen.default || Lock3KeyholeOpen,
-  Lock3Locked: Lock3Locked.default || Lock3Locked,
-  Lock3Password: Lock3Password.default || Lock3Password,
-  Lock3Open: Lock3Open.default || Lock3Open,
-  Lock3Close: Lock3Close.default || Lock3Close,
-  Lock4Checked: Lock4Checked.default || Lock4Checked,
-  Lock4Check: Lock4Check.default || Lock4Check,
-  Lock4Eye: Lock4Eye.default || Lock4Eye,
-  Lock4Locked: Lock4Locked.default || Lock4Locked,
-  Lock4Password: Lock4Password.default || Lock4Password,
-  Lock4PasswordTwo: Lock4PasswordTwo.default || Lock4PasswordTwo,
-  Lock4Open: Lock4Open.default || Lock4Open,
-  Lock4Close: Lock4Close.default || Lock4Close,
-  Lock5Check: Lock5Check.default || Lock5Check,
-  Lock5CheckOpen: Lock5CheckOpen.default || Lock5CheckOpen,
-  Lock5CheckAlt: Lock5CheckAlt.default || Lock5CheckAlt,
-  Lock5CheckOpenAlt: Lock5CheckOpenAlt.default || Lock5CheckOpenAlt,
-  Lock5Eye: Lock5Eye.default || Lock5Eye,
-  Lock5Keyhole1: Lock5Keyhole1.default || Lock5Keyhole1,
-  Lock5Keyhole2: Lock5Keyhole2.default || Lock5Keyhole2,
-  Lock5KeyholeOpen: Lock5KeyholeOpen.default || Lock5KeyholeOpen,
-  Lock5Locked: Lock5Locked.default || Lock5Locked,
-  Lock5Unlocked: Lock5Unlocked.default || Lock5Unlocked,
-  Lock5Close: Lock5Close.default || Lock5Close,
-  LockArrowPortrait1: LockArrowPortrait1.default || LockArrowPortrait1,
-  LockArrowPortrait2: LockArrowPortrait2.default || LockArrowPortrait2,
-  LockArrowPortrait3: LockArrowPortrait3.default || LockArrowPortrait3,
-  LockPadlockCircle: LockPadlockCircle.default || LockPadlockCircle,
-  LoginArrowIn1: LoginArrowIn1.default || LoginArrowIn1,
-  LoginArrowIn2: LoginArrowIn2.default || LoginArrowIn2,
-  LoginArrowIn3: LoginArrowIn3.default || LoginArrowIn3,
-  LoginArrowIn4: LoginArrowIn4.default || LoginArrowIn4,
-  LogoutArrowOut: LogoutArrowOut.default || LogoutArrowOut,
-  LogoutArrowOut2: LogoutArrowOut2.default || LogoutArrowOut2,
-  LogoutArrowOut3: LogoutArrowOut3.default || LogoutArrowOut3,
-  LogoutArrowOut4: LogoutArrowOut4.default || LogoutArrowOut4,
-  LupePinLocation: LupePinLocation.default || LupePinLocation,
-  LupePin2: LupePin2.default || LupePin2,
-  LupePin3: LupePin3.default || LupePin3,
-  LupePin4: LupePin4.default || LupePin4,
-  LupePin5: LupePin5.default || LupePin5,
-  LupeCheck: LupeCheck.default || LupeCheck,
-  LupeMore: LupeMore.default || LupeMore,
-  LupeClose: LupeClose.default || LupeClose,
-  LupeZoomOut: LupeZoomOut.default || LupeZoomOut,
-  LupeSearch2Check: LupeSearch2Check.default || LupeSearch2Check,
-  LupeSearchDollar: LupeSearchDollar.default || LupeSearchDollar,
-  LupeSearch2More: LupeSearch2More.default || LupeSearch2More,
-  LupeSearch2Close: LupeSearch2Close.default || LupeSearch2Close,
-  LupeSearch2ZoomOut: LupeSearch2ZoomOut.default || LupeSearch2ZoomOut,
-  LupeSearch3Check: LupeSearch3Check.default || LupeSearch3Check,
-  LupeSearch3More: LupeSearch3More.default || LupeSearch3More,
-  LupeSearch3Close: LupeSearch3Close.default || LupeSearch3Close,
-  LupeSearch3ZoomOut: LupeSearch3ZoomOut.default || LupeSearch3ZoomOut,
-  LupeSearchReplace1: LupeSearchReplace1.default || LupeSearchReplace1,
-  LupeSearchReplace2: LupeSearchReplace2.default || LupeSearchReplace2,
-  LupeSearchReplace3: LupeSearchReplace3.default || LupeSearchReplace3,
-  LupeSearchReplace4: LupeSearchReplace4.default || LupeSearchReplace4,
-  LupeSearchInList1: LupeSearchInList1.default || LupeSearchInList1,
-  LupeSearchInList2: LupeSearchInList2.default || LupeSearchInList2,
-  LupeSearchInList3: LupeSearchInList3.default || LupeSearchInList3,
-  LupeSearchReflex: LupeSearchReflex.default || LupeSearchReflex,
-  LupeSearchZoom: LupeSearchZoom.default || LupeSearchZoom,
-  LupeSearchZoom2: LupeSearchZoom2.default || LupeSearchZoom2,
-  LupeSearchZoom3: LupeSearchZoom3.default || LupeSearchZoom3,
-  LupeSearchZoomIn: LupeSearchZoomIn.default || LupeSearchZoomIn,
-  LupeSearchZoomIn2: LupeSearchZoomIn2.default || LupeSearchZoomIn2,
-  LupeSearchZoomIn3: LupeSearchZoomIn3.default || LupeSearchZoomIn3,
-  LupeZoomActual: LupeZoomActual.default || LupeZoomActual,
-  LupeZoomExtend: LupeZoomExtend.default || LupeZoomExtend,
-  LupeZoom2Actual: LupeZoom2Actual.default || LupeZoom2Actual,
-  LupeZoom2Extend: LupeZoom2Extend.default || LupeZoom2Extend,
-  LupeZoom3Actual: LupeZoom3Actual.default || LupeZoom3Actual,
-  LupeZoom3Extend: LupeZoom3Extend.default || LupeZoom3Extend,
-  Mailbox9: Mailbox9.default || Mailbox9,
-  Mailbox1: Mailbox1.default || Mailbox1,
-  Mailbox2: Mailbox2.default || Mailbox2,
-  Mailbox3: Mailbox3.default || Mailbox3,
-  Mailbox4: Mailbox4.default || Mailbox4,
-  Mailbox5: Mailbox5.default || Mailbox5,
-  Mailbox6: Mailbox6.default || Mailbox6,
-  Mailbox79: Mailbox79.default || Mailbox79,
-  Mailbox8: Mailbox8.default || Mailbox8,
-  MenuCircles: MenuCircles.default || MenuCircles,
-  MenuSideBar: MenuSideBar.default || MenuSideBar,
-  MenuSideBarClose: MenuSideBarClose.default || MenuSideBarClose,
-  MenuSideBarOpen: MenuSideBarOpen.default || MenuSideBarOpen,
-  MenuSquared1: MenuSquared1.default || MenuSquared1,
-  MenuSquared2: MenuSquared2.default || MenuSquared2,
-  MenuStripes: MenuStripes.default || MenuStripes,
-  MenuStripes2: MenuStripes2.default || MenuStripes2,
-  MenuStripes3: MenuStripes3.default || MenuStripes3,
-  MenuHamburger1: MenuHamburger1.default || MenuHamburger1,
-  MenuHamburger2: MenuHamburger2.default || MenuHamburger2,
-  MenuHamburgerCircle: MenuHamburgerCircle.default || MenuHamburgerCircle,
-  MenuHamburgerSquare: MenuHamburgerSquare.default || MenuHamburgerSquare,
-  MenuDots1: MenuDots1.default || MenuDots1,
-  MenuDots2: MenuDots2.default || MenuDots2,
-  MenuDots3: MenuDots3.default || MenuDots3,
-  MenuDots4: MenuDots4.default || MenuDots4,
-  MenuThreeStripes1: MenuThreeStripes1.default || MenuThreeStripes1,
-  MenuThreeStripes2: MenuThreeStripes2.default || MenuThreeStripes2,
-  MenuThreeStripes3: MenuThreeStripes3.default || MenuThreeStripes3,
-  MenuThreeStripes4: MenuThreeStripes4.default || MenuThreeStripes4,
-  MenuThreeStripes5: MenuThreeStripes5.default || MenuThreeStripes5,
-  MenuThreeStripes6: MenuThreeStripes6.default || MenuThreeStripes6,
-  MenuThreeStripesCircle: MenuThreeStripesCircle.default || MenuThreeStripesCircle,
-  MenuThreeStripesSquare: MenuThreeStripesSquare.default || MenuThreeStripesSquare,
-  MenuTop: MenuTop.default || MenuTop,
-  MenuTwoStripes1: MenuTwoStripes1.default || MenuTwoStripes1,
-  MinusSignNegative1: MinusSignNegative1.default || MinusSignNegative1,
-  MinusSignNegative2: MinusSignNegative2.default || MinusSignNegative2,
-  MinusSignNegativeCircle1: MinusSignNegativeCircle1.default || MinusSignNegativeCircle1,
-  MinusCircle2: MinusCircle2.default || MinusCircle2,
-  MinusSquare1: MinusSquare1.default || MinusSquare1,
-  MinusSquare2: MinusSquare2.default || MinusSquare2,
-  MobilePopUp: MobilePopUp.default || MobilePopUp,
-  MobileSocialNetwork: MobileSocialNetwork.default || MobileSocialNetwork,
-  MoveUpDown1: MoveUpDown1.default || MoveUpDown1,
-  MoveUpDown2: MoveUpDown2.default || MoveUpDown2,
-  MoveUpDown3: MoveUpDown3.default || MoveUpDown3,
+  LockKeyholeDot: LockKeyholeDot.default || LockKeyholeDot,
+  LockOpenKeyhole: LockOpenKeyhole.default || LockOpenKeyhole,
+  Lock: Lock.default || Lock,
+  LockDots: LockDots.default || LockDots,
+  LockDotsDash: LockDotsDash.default || LockDotsDash,
+  LockOpen: LockOpen.default || LockOpen,
+  LockX: LockX.default || LockX,
+  LockCheckNarrow: LockCheckNarrow.default || LockCheckNarrow,
+  LockOpenCheckNarrow: LockOpenCheckNarrow.default || LockOpenCheckNarrow,
+  LockCheckCornerNarrow: LockCheckCornerNarrow.default || LockCheckCornerNarrow,
+  LockOpenCheckCornerNarrow: LockOpenCheckCornerNarrow.default || LockOpenCheckCornerNarrow,
+  LockEyeNarrow: LockEyeNarrow.default || LockEyeNarrow,
+  LockKeyholeNarrow: LockKeyholeNarrow.default || LockKeyholeNarrow,
+  LockKeyholeDotNarrow: LockKeyholeDotNarrow.default || LockKeyholeDotNarrow,
+  LockOpenKeyholeNarrow: LockOpenKeyholeNarrow.default || LockOpenKeyholeNarrow,
+  LockNarrow: LockNarrow.default || LockNarrow,
+  LockDotsNarrow: LockDotsNarrow.default || LockDotsNarrow,
+  LockOpenNarrow: LockOpenNarrow.default || LockOpenNarrow,
+  LockXNarrow: LockXNarrow.default || LockXNarrow,
+  LockCheckWide: LockCheckWide.default || LockCheckWide,
+  LockOpenCheckWide: LockOpenCheckWide.default || LockOpenCheckWide,
+  LockEyeWide: LockEyeWide.default || LockEyeWide,
+  LockWide: LockWide.default || LockWide,
+  LockDotsWide: LockDotsWide.default || LockDotsWide,
+  LockDotsDashWide: LockDotsDashWide.default || LockDotsDashWide,
+  LockOpenWide: LockOpenWide.default || LockOpenWide,
+  LockXWide: LockXWide.default || LockXWide,
+  LockCheckRound: LockCheckRound.default || LockCheckRound,
+  LockOpenCheckRound: LockOpenCheckRound.default || LockOpenCheckRound,
+  LockCheckCornerRound: LockCheckCornerRound.default || LockCheckCornerRound,
+  LockOpenCheckCornerRound: LockOpenCheckCornerRound.default || LockOpenCheckCornerRound,
+  LockEyeRound: LockEyeRound.default || LockEyeRound,
+  LockKeyholeRound: LockKeyholeRound.default || LockKeyholeRound,
+  LockKeyholeDotRound: LockKeyholeDotRound.default || LockKeyholeDotRound,
+  LockOpenKeyholeRound: LockOpenKeyholeRound.default || LockOpenKeyholeRound,
+  LockRound: LockRound.default || LockRound,
+  LockOpenRound: LockOpenRound.default || LockOpenRound,
+  LockXRound: LockXRound.default || LockXRound,
+  LockRefreshLarge: LockRefreshLarge.default || LockRefreshLarge,
+  LockRefreshSmall: LockRefreshSmall.default || LockRefreshSmall,
+  LockRefresh: LockRefresh.default || LockRefresh,
+  LockCircle: LockCircle.default || LockCircle,
+  Login: Login.default || Login,
+  LoginWide: LoginWide.default || LoginWide,
+  LoginCircle: LoginCircle.default || LoginCircle,
+  LoginSquare: LoginSquare.default || LoginSquare,
+  Logout: Logout.default || Logout,
+  LogoutWide: LogoutWide.default || LogoutWide,
+  LogoutCircle: LogoutCircle.default || LogoutCircle,
+  LogoutSquare: LogoutSquare.default || LogoutSquare,
+  SearchPin: SearchPin.default || SearchPin,
+  SearchPinB: SearchPinB.default || SearchPinB,
+  SearchPin2: SearchPin2.default || SearchPin2,
+  PinSearch: PinSearch.default || PinSearch,
+  PinSearch2: PinSearch2.default || PinSearch2,
+  SearchCheck: SearchCheck.default || SearchCheck,
+  SearchDots: SearchDots.default || SearchDots,
+  SearchX: SearchX.default || SearchX,
+  SearchMinus: SearchMinus.default || SearchMinus,
+  SearchCheckB: SearchCheckB.default || SearchCheckB,
+  SearchDollarB: SearchDollarB.default || SearchDollarB,
+  SearchDotsB: SearchDotsB.default || SearchDotsB,
+  SearchXB: SearchXB.default || SearchXB,
+  SearchMinusB: SearchMinusB.default || SearchMinusB,
+  SearchCheckC: SearchCheckC.default || SearchCheckC,
+  SearchDotsC: SearchDotsC.default || SearchDotsC,
+  SearchXC: SearchXC.default || SearchXC,
+  SearchMinusC: SearchMinusC.default || SearchMinusC,
+  SearchSyncB: SearchSyncB.default || SearchSyncB,
+  SearchSyncDottedB: SearchSyncDottedB.default || SearchSyncDottedB,
+  SearchSync: SearchSync.default || SearchSync,
+  SearchRefresh: SearchRefresh.default || SearchRefresh,
+  ListSearchRing: ListSearchRing.default || ListSearchRing,
+  ListSearchDash: ListSearchDash.default || ListSearchDash,
+  ListSearch: ListSearch.default || ListSearch,
+  SearchShine: SearchShine.default || SearchShine,
+  Search: Search.default || Search,
+  SearchB: SearchB.default || SearchB,
+  SearchC: SearchC.default || SearchC,
+  SearchPlus: SearchPlus.default || SearchPlus,
+  SearchPlusB: SearchPlusB.default || SearchPlusB,
+  SearchPlusC: SearchPlusC.default || SearchPlusC,
+  SearchOneToOne: SearchOneToOne.default || SearchOneToOne,
+  SearchExpand: SearchExpand.default || SearchExpand,
+  SearchOneToOneB: SearchOneToOneB.default || SearchOneToOneB,
+  SearchExpandB: SearchExpandB.default || SearchExpandB,
+  SearchOneToOneC: SearchOneToOneC.default || SearchOneToOneC,
+  SearchExpandC: SearchExpandC.default || SearchExpandC,
+  Mailbox: Mailbox.default || Mailbox,
+  MailboxFlag: MailboxFlag.default || MailboxFlag,
+  MailboxPost: MailboxPost.default || MailboxPost,
+  MailboxPostFlag: MailboxPostFlag.default || MailboxPostFlag,
+  MailboxPostFlagSquare: MailboxPostFlagSquare.default || MailboxPostFlagSquare,
+  MailboxFlagSquare: MailboxFlagSquare.default || MailboxFlagSquare,
+  MailboxMail: MailboxMail.default || MailboxMail,
+  MailboxFlagBare: MailboxFlagBare.default || MailboxFlagBare,
+  MailboxFlagWaving: MailboxFlagWaving.default || MailboxFlagWaving,
+  MenuGridDots: MenuGridDots.default || MenuGridDots,
+  MenuPanel: MenuPanel.default || MenuPanel,
+  MenuPanelChevronLeft: MenuPanelChevronLeft.default || MenuPanelChevronLeft,
+  MenuPanelChevronRight: MenuPanelChevronRight.default || MenuPanelChevronRight,
+  MenuGridSquares: MenuGridSquares.default || MenuGridSquares,
+  MenuGridSquaresSmall: MenuGridSquaresSmall.default || MenuGridSquaresSmall,
+  MenuShortBottom: MenuShortBottom.default || MenuShortBottom,
+  MenuDescending: MenuDescending.default || MenuDescending,
+  MenuShortMiddle: MenuShortMiddle.default || MenuShortMiddle,
+  MenuCompact: MenuCompact.default || MenuCompact,
+  Menu: Menu.default || Menu,
+  MenuCircle2: MenuCircle2.default || MenuCircle2,
+  MenuSquareRounded: MenuSquareRounded.default || MenuSquareRounded,
+  DotsVerticalSmall: DotsVerticalSmall.default || DotsVerticalSmall,
+  DotsVerticalSmallSpaced: DotsVerticalSmallSpaced.default || DotsVerticalSmallSpaced,
+  DotsVertical: DotsVertical.default || DotsVertical,
+  DotsVerticalHollow: DotsVerticalHollow.default || DotsVerticalHollow,
+  MenuDashes: MenuDashes.default || MenuDashes,
+  MenuSmall: MenuSmall.default || MenuSmall,
+  MenuNarrow: MenuNarrow.default || MenuNarrow,
+  MenuLarge: MenuLarge.default || MenuLarge,
+  MenuPills: MenuPills.default || MenuPills,
+  MenuTight: MenuTight.default || MenuTight,
+  MenuCircle: MenuCircle.default || MenuCircle,
+  MenuSquare: MenuSquare.default || MenuSquare,
+  MenuPentagon: MenuPentagon.default || MenuPentagon,
+  MenuTwoLines: MenuTwoLines.default || MenuTwoLines,
+  Minus: Minus.default || Minus,
+  MinusSmall: MinusSmall.default || MinusSmall,
+  MinusCircle: MinusCircle.default || MinusCircle,
+  MinusCircleCompact: MinusCircleCompact.default || MinusCircleCompact,
+  MinusSquare: MinusSquare.default || MinusSquare,
+  MinusSquareCompact: MinusSquareCompact.default || MinusSquareCompact,
+  MobileChat: MobileChat.default || MobileChat,
+  MobileHeart: MobileHeart.default || MobileHeart,
+  MoveUpDown: MoveUpDown.default || MoveUpDown,
+  MoveUpDownChevron: MoveUpDownChevron.default || MoveUpDownChevron,
+  MoveUpDownChevronSmall: MoveUpDownChevronSmall.default || MoveUpDownChevronSmall,
   Music: Music.default || Music,
-  Music1: Music1.default || Music1,
-  Music2: Music2.default || Music2,
-  Music3: Music3.default || Music3,
-  Music4: Music4.default || Music4,
-  Music5: Music5.default || Music5,
-  Music6: Music6.default || Music6,
-  Music7: Music7.default || Music7,
-  Music8: Music8.default || Music8,
-  Music9: Music9.default || Music9,
-  Music10: Music10.default || Music10,
-  Music11: Music11.default || Music11,
-  Music12: Music12.default || Music12,
-  Music13: Music13.default || Music13,
-  NavigationBarMenuArrow: NavigationBarMenuArrow.default || NavigationBarMenuArrow,
+  MusicSixteenth: MusicSixteenth.default || MusicSixteenth,
+  MusicRound: MusicRound.default || MusicRound,
+  MusicSixteenthRound: MusicSixteenthRound.default || MusicSixteenthRound,
+  MusicNoteFlagSquare: MusicNoteFlagSquare.default || MusicNoteFlagSquare,
+  MusicNoteFlagWave: MusicNoteFlagWave.default || MusicNoteFlagWave,
+  MusicNoteFlagRound: MusicNoteFlagRound.default || MusicNoteFlagRound,
+  MusicNoteFlagWaveLarge: MusicNoteFlagWaveLarge.default || MusicNoteFlagWaveLarge,
+  MusicNoteHook: MusicNoteHook.default || MusicNoteHook,
+  MusicNote: MusicNote.default || MusicNote,
+  MusicNoteCurl: MusicNoteCurl.default || MusicNoteCurl,
+  MusicNoteCurlSmall: MusicNoteCurlSmall.default || MusicNoteCurlSmall,
+  MusicMultiple: MusicMultiple.default || MusicMultiple,
+  MusicMultipleMixed: MusicMultipleMixed.default || MusicMultipleMixed,
+  MenuBarCursor: MenuBarCursor.default || MenuBarCursor,
   Newspaper: Newspaper.default || Newspaper,
-  Newspaper1: Newspaper1.default || Newspaper1,
-  Newspaper2: Newspaper2.default || Newspaper2,
-  Newspaper3: Newspaper3.default || Newspaper3,
-  Newspaper4: Newspaper4.default || Newspaper4,
-  Newspaper5: Newspaper5.default || Newspaper5,
-  Newspaper6: Newspaper6.default || Newspaper6,
-  Newspaper7: Newspaper7.default || Newspaper7,
-  Newspaper8: Newspaper8.default || Newspaper8,
-  Newspaper9: Newspaper9.default || Newspaper9,
-  Newspaper10: Newspaper10.default || Newspaper10,
-  Newspaper11: Newspaper11.default || Newspaper11,
-  Newspaper12: Newspaper12.default || Newspaper12,
-  ObserverEyeView1: ObserverEyeView1.default || ObserverEyeView1,
-  ObserverEyeView2: ObserverEyeView2.default || ObserverEyeView2,
-  OfflinePinCheck: OfflinePinCheck.default || OfflinePinCheck,
-  OnlineShopBrowser: OnlineShopBrowser.default || OnlineShopBrowser,
-  OnlineShopBrowser2: OnlineShopBrowser2.default || OnlineShopBrowser2,
-  OnlineShopNotebook: OnlineShopNotebook.default || OnlineShopNotebook,
-  OnlineShopNotebookAlt: OnlineShopNotebookAlt.default || OnlineShopNotebookAlt,
-  OnlineShopLaptopBag2: OnlineShopLaptopBag2.default || OnlineShopLaptopBag2,
-  OnlineShopLaptopBagAlt: OnlineShopLaptopBagAlt.default || OnlineShopLaptopBagAlt,
-  OnlineShopLaptopCart: OnlineShopLaptopCart.default || OnlineShopLaptopCart,
-  OnlineShopLaptopCartAlt: OnlineShopLaptopCartAlt.default || OnlineShopLaptopCartAlt,
-  OnlineShopMobileCart2: OnlineShopMobileCart2.default || OnlineShopMobileCart2,
-  OnlineShopMobileBag: OnlineShopMobileBag.default || OnlineShopMobileBag,
-  OnlineShopMobileCart: OnlineShopMobileCart.default || OnlineShopMobileCart,
-  OnlineShopLaptopBag: OnlineShopLaptopBag.default || OnlineShopLaptopBag,
-  OnlineShopMobileBag2: OnlineShopMobileBag2.default || OnlineShopMobileBag2,
-  OnlineShopDesktopBag: OnlineShopDesktopBag.default || OnlineShopDesktopBag,
-  OpenInBrowserUp: OpenInBrowserUp.default || OpenInBrowserUp,
-  OpenInBrowserUp2: OpenInBrowserUp2.default || OpenInBrowserUp2,
-  OpenInWindowUp: OpenInWindowUp.default || OpenInWindowUp,
-  OpenPaneRight: OpenPaneRight.default || OpenPaneRight,
-  OpenPaneRightAlt: OpenPaneRightAlt.default || OpenPaneRightAlt,
-  OpenPaneRightBold: OpenPaneRightBold.default || OpenPaneRightBold,
-  OverscanSettings1: OverscanSettings1.default || OverscanSettings1,
-  OverscanSettings2: OverscanSettings2.default || OverscanSettings2,
-  OverscanSettings3: OverscanSettings3.default || OverscanSettings3,
-  PageViewAll: PageViewAll.default || PageViewAll,
-  PageViewBadge: PageViewBadge.default || PageViewBadge,
-  PageViewBadgeAlt: PageViewBadgeAlt.default || PageViewBadgeAlt,
-  PageViewCollection: PageViewCollection.default || PageViewCollection,
-  PageViewContent: PageViewContent.default || PageViewContent,
-  PageViewContent2: PageViewContent2.default || PageViewContent2,
-  PageViewList: PageViewList.default || PageViewList,
-  PageViewContinuous: PageViewContinuous.default || PageViewContinuous,
-  PageViewExtraLarge: PageViewExtraLarge.default || PageViewExtraLarge,
-  PageViewExtraLargeAlt: PageViewExtraLargeAlt.default || PageViewExtraLargeAlt,
-  PageViewExtraLargeGrid: PageViewExtraLargeGrid.default || PageViewExtraLargeGrid,
-  PageViewExtraLargeTile: PageViewExtraLargeTile.default || PageViewExtraLargeTile,
-  PageViewExtraLargeCompact: PageViewExtraLargeCompact.default || PageViewExtraLargeCompact,
-  PageViewFull: PageViewFull.default || PageViewFull,
-  PageViewFullscreen: PageViewFullscreen.default || PageViewFullscreen,
-  PageViewGroupItems1: PageViewGroupItems1.default || PageViewGroupItems1,
-  PageViewGroupItems2: PageViewGroupItems2.default || PageViewGroupItems2,
-  PageViewIconsDetails1: PageViewIconsDetails1.default || PageViewIconsDetails1,
-  PageViewIconsDetails2: PageViewIconsDetails2.default || PageViewIconsDetails2,
-  PageViewIconsThumbnails1: PageViewIconsThumbnails1.default || PageViewIconsThumbnails1,
-  PageViewIconsThumbnails2: PageViewIconsThumbnails2.default || PageViewIconsThumbnails2,
-  PageViewIconsThumbnails3: PageViewIconsThumbnails3.default || PageViewIconsThumbnails3,
-  PageViewImageList: PageViewImageList.default || PageViewImageList,
-  PageViewListDetails: PageViewListDetails.default || PageViewListDetails,
-  PageViewListThumbnails: PageViewListThumbnails.default || PageViewListThumbnails,
-  PageViewMultiple: PageViewMultiple.default || PageViewMultiple,
-  PageViewOpenArrowDown1: PageViewOpenArrowDown1.default || PageViewOpenArrowDown1,
-  PageViewOpenArrowDown2: PageViewOpenArrowDown2.default || PageViewOpenArrowDown2,
-  PageViewOpenArrowDown3: PageViewOpenArrowDown3.default || PageViewOpenArrowDown3,
-  PageViewNewTabArrowDown1: PageViewNewTabArrowDown1.default || PageViewNewTabArrowDown1,
-  PageViewNewTabArrowDown2: PageViewNewTabArrowDown2.default || PageViewNewTabArrowDown2,
-  PageViewNewTabArrowDown3: PageViewNewTabArrowDown3.default || PageViewNewTabArrowDown3,
-  PageViewOriginalRatio: PageViewOriginalRatio.default || PageViewOriginalRatio,
-  PageViewOverlappingShow1: PageViewOverlappingShow1.default || PageViewOverlappingShow1,
-  PageViewOverlappingShow2: PageViewOverlappingShow2.default || PageViewOverlappingShow2,
-  PageViewOverlappingShow: PageViewOverlappingShow.default || PageViewOverlappingShow,
-  PageViewOverlappingStatic1: PageViewOverlappingStatic1.default || PageViewOverlappingStatic1,
-  PageViewOverlappingStatic2: PageViewOverlappingStatic2.default || PageViewOverlappingStatic2,
-  PageViewOverlappingStatic3: PageViewOverlappingStatic3.default || PageViewOverlappingStatic3,
-  PageViewOverlappingStatic: PageViewOverlappingStatic.default || PageViewOverlappingStatic,
-  PageViewPictureInPicture1: PageViewPictureInPicture1.default || PageViewPictureInPicture1,
-  PageViewPictureInPicture2: PageViewPictureInPicture2.default || PageViewPictureInPicture2,
-  PageViewSingle: PageViewSingle.default || PageViewSingle,
-  PageViewTiles1: PageViewTiles1.default || PageViewTiles1,
-  PageViewTiles2: PageViewTiles2.default || PageViewTiles2,
-  PageViewClose1: PageViewClose1.default || PageViewClose1,
-  PageViewClose2: PageViewClose2.default || PageViewClose2,
-  PagesLinesTerms: PagesLinesTerms.default || PagesLinesTerms,
-  PagesLinesTerms2: PagesLinesTerms2.default || PagesLinesTerms2,
-  PaidSearchCoins: PaidSearchCoins.default || PaidSearchCoins,
-  PaidSearchDollar1: PaidSearchDollar1.default || PaidSearchDollar1,
-  PaidSearchDollar2: PaidSearchDollar2.default || PaidSearchDollar2,
-  PaidSearchDollarWindow1: PaidSearchDollarWindow1.default || PaidSearchDollarWindow1,
-  PaidSearchDollarWindow2: PaidSearchDollarWindow2.default || PaidSearchDollarWindow2,
-  PaidSearchDollarWindow3: PaidSearchDollarWindow3.default || PaidSearchDollarWindow3,
-  PaidSearchDollar: PaidSearchDollar.default || PaidSearchDollar,
-  PencilEdit1: PencilEdit1.default || PencilEdit1,
-  PencilEdit2: PencilEdit2.default || PencilEdit2,
-  PencilEdit3: PencilEdit3.default || PencilEdit3,
-  PencilEdit4: PencilEdit4.default || PencilEdit4,
-  PencilEdit5: PencilEdit5.default || PencilEdit5,
-  PencilEdit6: PencilEdit6.default || PencilEdit6,
-  PencilEdit7: PencilEdit7.default || PencilEdit7,
-  PencilTracing1: PencilTracing1.default || PencilTracing1,
-  PencilTracing2: PencilTracing2.default || PencilTracing2,
-  PencilTracing3: PencilTracing3.default || PencilTracing3,
-  PencilTracing4: PencilTracing4.default || PencilTracing4,
-  PencilTracing5: PencilTracing5.default || PencilTracing5,
-  PencilTracing6: PencilTracing6.default || PencilTracing6,
-  PencilTracing7: PencilTracing7.default || PencilTracing7,
-  PyramidHierarchy: PyramidHierarchy.default || PyramidHierarchy,
-  PyramidHierarchyUp: PyramidHierarchyUp.default || PyramidHierarchyUp,
-  PlaqueCategory1: PlaqueCategory1.default || PlaqueCategory1,
-  PlaqueCategory2: PlaqueCategory2.default || PlaqueCategory2,
-  Poll1Horizontal: Poll1Horizontal.default || Poll1Horizontal,
-  Poll1Vertical: Poll1Vertical.default || Poll1Vertical,
-  Poll2Horizontal: Poll2Horizontal.default || Poll2Horizontal,
-  Poll2Vertical: Poll2Vertical.default || Poll2Vertical,
-  Poll3Horizontal: Poll3Horizontal.default || Poll3Horizontal,
-  Poll3Vertical: Poll3Vertical.default || Poll3Vertical,
-  Poll4Horizontal: Poll4Horizontal.default || Poll4Horizontal,
-  Poll4Vertical: Poll4Vertical.default || Poll4Vertical,
-  Poll5Horizontal: Poll5Horizontal.default || Poll5Horizontal,
-  Poll5Vertical: Poll5Vertical.default || Poll5Vertical,
-  Poll6SpeechBubble: Poll6SpeechBubble.default || Poll6SpeechBubble,
-  Poll6VerticalSpeech: Poll6VerticalSpeech.default || Poll6VerticalSpeech,
-  Poll7Users: Poll7Users.default || Poll7Users,
-  PopUp1: PopUp1.default || PopUp1,
-  PopUp2: PopUp2.default || PopUp2,
-  PopUp3: PopUp3.default || PopUp3,
-  PopUp4: PopUp4.default || PopUp4,
-  PopUp5: PopUp5.default || PopUp5,
-  PopUp6: PopUp6.default || PopUp6,
-  PopUp7: PopUp7.default || PopUp7,
-  PopUp8: PopUp8.default || PopUp8,
-  PresentationKeynote: PresentationKeynote.default || PresentationKeynote,
-  PresentationKeynoteFile: PresentationKeynoteFile.default || PresentationKeynoteFile,
-  PresentationKeynoteLayout: PresentationKeynoteLayout.default || PresentationKeynoteLayout,
-  ProgressSpinnerLine: ProgressSpinnerLine.default || ProgressSpinnerLine,
-  ProgressSpinnerDoubleLines: ProgressSpinnerDoubleLines.default || ProgressSpinnerDoubleLines,
-  ProgressSpinnerDots1: ProgressSpinnerDots1.default || ProgressSpinnerDots1,
-  ProgressSpinnerDots2: ProgressSpinnerDots2.default || ProgressSpinnerDots2,
-  ProgressSpinnerRadiating1: ProgressSpinnerRadiating1.default || ProgressSpinnerRadiating1,
-  ProgressSpinnerRadiating2: ProgressSpinnerRadiating2.default || ProgressSpinnerRadiating2,
-  ProgressSpinnerRadiating3: ProgressSpinnerRadiating3.default || ProgressSpinnerRadiating3,
-  ProgressSpinnerRadiating4: ProgressSpinnerRadiating4.default || ProgressSpinnerRadiating4,
-  ProgressSpinnerRadiating5: ProgressSpinnerRadiating5.default || ProgressSpinnerRadiating5,
-  ProgressSpinnerDotted: ProgressSpinnerDotted.default || ProgressSpinnerDotted,
+  NewspaperPhoto: NewspaperPhoto.default || NewspaperPhoto,
+  NewspaperHeadline: NewspaperHeadline.default || NewspaperHeadline,
+  NewspaperTorn: NewspaperTorn.default || NewspaperTorn,
+  NewspaperTornWide: NewspaperTornWide.default || NewspaperTornWide,
+  NewspaperCard: NewspaperCard.default || NewspaperCard,
+  NewspaperCornerFold: NewspaperCornerFold.default || NewspaperCornerFold,
+  NewspaperStack: NewspaperStack.default || NewspaperStack,
+  NewspaperTornCurl: NewspaperTornCurl.default || NewspaperTornCurl,
+  NewspaperTornCurlHeadline: NewspaperTornCurlHeadline.default || NewspaperTornCurlHeadline,
+  NewspaperRolled: NewspaperRolled.default || NewspaperRolled,
+  NewspaperIsometric: NewspaperIsometric.default || NewspaperIsometric,
+  NewspaperPhotoLeft: NewspaperPhotoLeft.default || NewspaperPhotoLeft,
+  EyeCone: EyeCone.default || EyeCone,
+  EyeConeWide: EyeConeWide.default || EyeConeWide,
+  CheckUnderlineCircle: CheckUnderlineCircle.default || CheckUnderlineCircle,
+  StoreBrowser: StoreBrowser.default || StoreBrowser,
+  StoreBrowserDoor: StoreBrowserDoor.default || StoreBrowserDoor,
+  LaptopStore: LaptopStore.default || LaptopStore,
+  LaptopStoreFlat: LaptopStoreFlat.default || LaptopStoreFlat,
+  LaptopBag: LaptopBag.default || LaptopBag,
+  LaptopBagFlat: LaptopBagFlat.default || LaptopBagFlat,
+  LaptopCart: LaptopCart.default || LaptopCart,
+  LaptopCartFlat: LaptopCartFlat.default || LaptopCartFlat,
+  MobileCart: MobileCart.default || MobileCart,
+  MobileBag: MobileBag.default || MobileBag,
+  MobileCartCenter: MobileCartCenter.default || MobileCartCenter,
+  LaptopBagCenterFlat: LaptopBagCenterFlat.default || LaptopBagCenterFlat,
+  MobileBagCenter: MobileBagCenter.default || MobileBagCenter,
+  MonitorBag: MonitorBag.default || MonitorBag,
+  BrowserArrowUp: BrowserArrowUp.default || BrowserArrowUp,
+  WindowArrowUpPlain: WindowArrowUpPlain.default || WindowArrowUpPlain,
+  WindowArrowUp: WindowArrowUp.default || WindowArrowUp,
+  PaneArrowRightStriped: PaneArrowRightStriped.default || PaneArrowRightStriped,
+  PaneArrowRightList: PaneArrowRightList.default || PaneArrowRightList,
+  PaneArrowRight: PaneArrowRight.default || PaneArrowRight,
+  Overscan: Overscan.default || Overscan,
+  OverscanSmall: OverscanSmall.default || OverscanSmall,
+  OverscanLeftRight: OverscanLeftRight.default || OverscanLeftRight,
+  WindowGrid: WindowGrid.default || WindowGrid,
+  WindowSeal2: WindowSeal2.default || WindowSeal2,
+  WindowSealPlain: WindowSealPlain.default || WindowSealPlain,
+  LayoutGridShapes: LayoutGridShapes.default || LayoutGridShapes,
+  LayoutListDotted: LayoutListDotted.default || LayoutListDotted,
+  LayoutList: LayoutList.default || LayoutList,
+  LayoutListSymbols: LayoutListSymbols.default || LayoutListSymbols,
+  LayoutContinuous: LayoutContinuous.default || LayoutContinuous,
+  LayoutLargeFlower: LayoutLargeFlower.default || LayoutLargeFlower,
+  LayoutLargeFlowerSharp: LayoutLargeFlowerSharp.default || LayoutLargeFlowerSharp,
+  LayoutLargeImage: LayoutLargeImage.default || LayoutLargeImage,
+  LayoutLargeImageArc: LayoutLargeImageArc.default || LayoutLargeImageArc,
+  LayoutLargeFlowerFramed: LayoutLargeFlowerFramed.default || LayoutLargeFlowerFramed,
+  FullscreenSquare: FullscreenSquare.default || FullscreenSquare,
+  FullscreenSquareSharp: FullscreenSquareSharp.default || FullscreenSquareSharp,
+  SquareStackPlus: SquareStackPlus.default || SquareStackPlus,
+  SquareStackPlusShadow: SquareStackPlusShadow.default || SquareStackPlusShadow,
+  LayoutListDashedDotted: LayoutListDashedDotted.default || LayoutListDashedDotted,
+  LayoutListDashed: LayoutListDashed.default || LayoutListDashed,
+  LayoutGridLabels: LayoutGridLabels.default || LayoutGridLabels,
+  LayoutGridImage: LayoutGridImage.default || LayoutGridImage,
+  LayoutGridMixed: LayoutGridMixed.default || LayoutGridMixed,
+  LayoutListImage: LayoutListImage.default || LayoutListImage,
+  LayoutListSymbolsDashed: LayoutListSymbolsDashed.default || LayoutListSymbolsDashed,
+  LayoutListColumns: LayoutListColumns.default || LayoutListColumns,
+  DocumentMultiple: DocumentMultiple.default || DocumentMultiple,
+  WindowTextDownload: WindowTextDownload.default || WindowTextDownload,
+  WindowListDownload: WindowListDownload.default || WindowListDownload,
+  WindowDownloadPlain: WindowDownloadPlain.default || WindowDownloadPlain,
+  TabDownload: TabDownload.default || TabDownload,
+  TabDownloadSplit: TabDownloadSplit.default || TabDownloadSplit,
+  TabDownloadSharp: TabDownloadSharp.default || TabDownloadSharp,
+  RatioOneToOne: RatioOneToOne.default || RatioOneToOne,
+  WindowOverlapRightDotted: WindowOverlapRightDotted.default || WindowOverlapRightDotted,
+  WindowOverlapRightDottedBack: WindowOverlapRightDottedBack.default || WindowOverlapRightDottedBack,
+  WindowOverlapRight: WindowOverlapRight.default || WindowOverlapRight,
+  WindowOverlapLeftDotted: WindowOverlapLeftDotted.default || WindowOverlapLeftDotted,
+  WindowOverlapLeftDottedBack: WindowOverlapLeftDottedBack.default || WindowOverlapLeftDottedBack,
+  WindowOverlapLeft: WindowOverlapLeft.default || WindowOverlapLeft,
+  WindowOverlapRightList: WindowOverlapRightList.default || WindowOverlapRightList,
+  PictureInPictureTop: PictureInPictureTop.default || PictureInPictureTop,
+  PictureInPicture: PictureInPicture.default || PictureInPicture,
+  Document: Document.default || Document,
+  LayoutTiles: LayoutTiles.default || LayoutTiles,
+  LayoutTilesEmpty: LayoutTilesEmpty.default || LayoutTilesEmpty,
+  WindowTextXCircle: WindowTextXCircle.default || WindowTextXCircle,
+  WindowListXCircle: WindowListXCircle.default || WindowListXCircle,
+  DocumentStack: DocumentStack.default || DocumentStack,
+  DocumentStackShadow: DocumentStackShadow.default || DocumentStackShadow,
+  CoinStackSearch: CoinStackSearch.default || CoinStackSearch,
+  BanknoteSearch: BanknoteSearch.default || BanknoteSearch,
+  BanknoteSearch2: BanknoteSearch2.default || BanknoteSearch2,
+  BrowserDollarSearch: BrowserDollarSearch.default || BrowserDollarSearch,
+  BrowserDollarSearchDots: BrowserDollarSearchDots.default || BrowserDollarSearchDots,
+  BrowserDollarSearchDots2: BrowserDollarSearchDots2.default || BrowserDollarSearchDots2,
+  DollarSearch: DollarSearch.default || DollarSearch,
+  Pencil: Pencil.default || Pencil,
+  PencilPlain: PencilPlain.default || PencilPlain,
+  PencilTip: PencilTip.default || PencilTip,
+  PencilCurved: PencilCurved.default || PencilCurved,
+  PencilBlunt: PencilBlunt.default || PencilBlunt,
+  PencilDetailed: PencilDetailed.default || PencilDetailed,
+  PencilAngular: PencilAngular.default || PencilAngular,
+  PencilUnderline: PencilUnderline.default || PencilUnderline,
+  PencilUnderlinePlain: PencilUnderlinePlain.default || PencilUnderlinePlain,
+  PencilUnderlineTip: PencilUnderlineTip.default || PencilUnderlineTip,
+  PencilUnderlineCurved: PencilUnderlineCurved.default || PencilUnderlineCurved,
+  PencilUnderlineBlunt: PencilUnderlineBlunt.default || PencilUnderlineBlunt,
+  PencilUnderlineDetailed: PencilUnderlineDetailed.default || PencilUnderlineDetailed,
+  PencilUnderlineAngular: PencilUnderlineAngular.default || PencilUnderlineAngular,
+  Pyramid: Pyramid.default || Pyramid,
+  PyramidArrowUp: PyramidArrowUp.default || PyramidArrowUp,
+  Plaque: Plaque.default || Plaque,
+  PlaqueTight: PlaqueTight.default || PlaqueTight,
+  PollHorizontalSquare: PollHorizontalSquare.default || PollHorizontalSquare,
+  PollSquare: PollSquare.default || PollSquare,
+  PollHorizontalPercent: PollHorizontalPercent.default || PollHorizontalPercent,
+  PollPercent: PollPercent.default || PollPercent,
+  PollHorizontalCheckbox: PollHorizontalCheckbox.default || PollHorizontalCheckbox,
+  PollCheckbox: PollCheckbox.default || PollCheckbox,
+  PollHorizontalPlusMinus: PollHorizontalPlusMinus.default || PollHorizontalPlusMinus,
+  PollPlusMinus: PollPlusMinus.default || PollPlusMinus,
+  PollHorizontalCheckX: PollHorizontalCheckX.default || PollHorizontalCheckX,
+  PollCheckX: PollCheckX.default || PollCheckX,
+  PollHorizontalChat: PollHorizontalChat.default || PollHorizontalChat,
+  PollChat: PollChat.default || PollChat,
+  PollUser: PollUser.default || PollUser,
+  Popover: Popover.default || Popover,
+  PopoverBig: PopoverBig.default || PopoverBig,
+  PopoverList: PopoverList.default || PopoverList,
+  PopoverListBig: PopoverListBig.default || PopoverListBig,
+  PopoverUp: PopoverUp.default || PopoverUp,
+  PopoverUpBig: PopoverUpBig.default || PopoverUpBig,
+  PopoverListUp: PopoverListUp.default || PopoverListUp,
+  PopoverListUpBig: PopoverListUpBig.default || PopoverListUpBig,
+  Presentation: Presentation.default || Presentation,
+  PresentationFile: PresentationFile.default || PresentationFile,
+  PresentationChart: PresentationChart.default || PresentationChart,
+  Spinner: Spinner.default || Spinner,
+  SpinnerSplit: SpinnerSplit.default || SpinnerSplit,
+  SpinnerDots: SpinnerDots.default || SpinnerDots,
+  SpinnerDotsFade: SpinnerDotsFade.default || SpinnerDotsFade,
+  SpinnerRaysLong: SpinnerRaysLong.default || SpinnerRaysLong,
+  SpinnerRays2: SpinnerRays2.default || SpinnerRays2,
+  SpinnerRays: SpinnerRays.default || SpinnerRays,
+  SpinnerRaysShort: SpinnerRaysShort.default || SpinnerRaysShort,
+  SpinnerRaysFade: SpinnerRaysFade.default || SpinnerRaysFade,
+  SpinnerRaysDotted: SpinnerRaysDotted.default || SpinnerRaysDotted,
   Puzzle: Puzzle.default || Puzzle,
-  Puzzle1: Puzzle1.default || Puzzle1,
-  Puzzle2: Puzzle2.default || Puzzle2,
-  Puzzle3: Puzzle3.default || Puzzle3,
-  Puzzle4: Puzzle4.default || Puzzle4,
-  QuestionAnswerSpeechBubbles2: QuestionAnswerSpeechBubbles2.default || QuestionAnswerSpeechBubbles2,
-  QuestionMarkCircleHelp1: QuestionMarkCircleHelp1.default || QuestionMarkCircleHelp1,
-  QuestionMarkCircleHelp2: QuestionMarkCircleHelp2.default || QuestionMarkCircleHelp2,
-  QuestionMarkSquareHelp1: QuestionMarkSquareHelp1.default || QuestionMarkSquareHelp1,
-  QuestionMarkSquareHelp2: QuestionMarkSquareHelp2.default || QuestionMarkSquareHelp2,
-  QuestionMarkSquareStack1: QuestionMarkSquareStack1.default || QuestionMarkSquareStack1,
-  QuestionMarkSquareStack2: QuestionMarkSquareStack2.default || QuestionMarkSquareStack2,
-  QuestionMarkSquareStack3: QuestionMarkSquareStack3.default || QuestionMarkSquareStack3,
-  QuestionsAnswersSpeechBubbles: QuestionsAnswersSpeechBubbles.default || QuestionsAnswersSpeechBubbles,
-  RectangleArrowAdvertising: RectangleArrowAdvertising.default || RectangleArrowAdvertising,
-  RectangleArrowOpenPopUp2: RectangleArrowOpenPopUp2.default || RectangleArrowOpenPopUp2,
-  RectangleArrowOpenPopUp3: RectangleArrowOpenPopUp3.default || RectangleArrowOpenPopUp3,
-  ReplaceExchange: ReplaceExchange.default || ReplaceExchange,
-  ReplaceExchange2: ReplaceExchange2.default || ReplaceExchange2,
-  ReplaceExchange3: ReplaceExchange3.default || ReplaceExchange3,
-  ReplaceExchange4: ReplaceExchange4.default || ReplaceExchange4,
-  ReplyArrow: ReplyArrow.default || ReplyArrow,
-  RestoreArrowClockwise1: RestoreArrowClockwise1.default || RestoreArrowClockwise1,
-  RestoreArrowClockwise2: RestoreArrowClockwise2.default || RestoreArrowClockwise2,
-  RestoreArrowCounterclockwise1: RestoreArrowCounterclockwise1.default || RestoreArrowCounterclockwise1,
-  RestoreArrowCounterclockwise2: RestoreArrowCounterclockwise2.default || RestoreArrowCounterclockwise2,
-  RestoredTwoArrowsClockwise: RestoredTwoArrowsClockwise.default || RestoredTwoArrowsClockwise,
-  RestoredTwoArrowsCounterclockwise: RestoredTwoArrowsCounterclockwise.default || RestoredTwoArrowsCounterclockwise,
-  RotateScreen1: RotateScreen1.default || RotateScreen1,
-  RotateScreen2: RotateScreen2.default || RotateScreen2,
-  RotateScreen3: RotateScreen3.default || RotateScreen3,
-  RotateScreen4: RotateScreen4.default || RotateScreen4,
-  RotateScreen5: RotateScreen5.default || RotateScreen5,
-  RotateScreen6: RotateScreen6.default || RotateScreen6,
-  RotatedSquareAlert: RotatedSquareAlert.default || RotatedSquareAlert,
-  RotatedSquareDown: RotatedSquareDown.default || RotatedSquareDown,
-  RotatedSquareMedium: RotatedSquareMedium.default || RotatedSquareMedium,
-  SaveAllFloppyStack: SaveAllFloppyStack.default || SaveAllFloppyStack,
-  SaveAllFloppyStack2: SaveAllFloppyStack2.default || SaveAllFloppyStack2,
-  SaveAllFloppyStack3: SaveAllFloppyStack3.default || SaveAllFloppyStack3,
-  SaveDisk: SaveDisk.default || SaveDisk,
-  SaveFloppyArrowIn: SaveFloppyArrowIn.default || SaveFloppyArrowIn,
-  SaveFloppyCheck: SaveFloppyCheck.default || SaveFloppyCheck,
-  SaveDiskCheck: SaveDiskCheck.default || SaveDiskCheck,
-  SaveDiskMenu: SaveDiskMenu.default || SaveDiskMenu,
-  SaveDiskRemove: SaveDiskRemove.default || SaveDiskRemove,
-  SaveDiskAdd: SaveDiskAdd.default || SaveDiskAdd,
-  SaveDiskClose: SaveDiskClose.default || SaveDiskClose,
-  SaveDiskClock: SaveDiskClock.default || SaveDiskClock,
-  SaveDiskForbidden: SaveDiskForbidden.default || SaveDiskForbidden,
-  SaveDiskDelete: SaveDiskDelete.default || SaveDiskDelete,
-  SaveDiskEdit1: SaveDiskEdit1.default || SaveDiskEdit1,
-  SaveDiskEdit2: SaveDiskEdit2.default || SaveDiskEdit2,
-  SaveDiskPlus: SaveDiskPlus.default || SaveDiskPlus,
-  SaveDiskClose2: SaveDiskClose2.default || SaveDiskClose2,
-  SaveDisk2: SaveDisk2.default || SaveDisk2,
-  SaveDisk3: SaveDisk3.default || SaveDisk3,
-  SaveFolderDown: SaveFolderDown.default || SaveFolderDown,
-  SaveFolderDown2: SaveFolderDown2.default || SaveFolderDown2,
-  SaveSquareDown: SaveSquareDown.default || SaveSquareDown,
+  PuzzleNotched: PuzzleNotched.default || PuzzleNotched,
+  PuzzleKnobs: PuzzleKnobs.default || PuzzleKnobs,
+  PuzzleGrid: PuzzleGrid.default || PuzzleGrid,
+  PuzzleGridMissing: PuzzleGridMissing.default || PuzzleGridMissing,
+  QuestionAnswer: QuestionAnswer.default || QuestionAnswer,
+  QuestionCircle: QuestionCircle.default || QuestionCircle,
+  QuestionCircleSmall: QuestionCircleSmall.default || QuestionCircleSmall,
+  QuestionSquare: QuestionSquare.default || QuestionSquare,
+  QuestionSquareSmall: QuestionSquareSmall.default || QuestionSquareSmall,
+  QuestionSquareStack: QuestionSquareStack.default || QuestionSquareStack,
+  QuestionSquareStackOverlap: QuestionSquareStackOverlap.default || QuestionSquareStackOverlap,
+  QuestionSquareStackLeft: QuestionSquareStackLeft.default || QuestionSquareStackLeft,
+  QuestionAnswerOverlap: QuestionAnswerOverlap.default || QuestionAnswerOverlap,
+  PaneArrowUpRight: PaneArrowUpRight.default || PaneArrowUpRight,
+  WindowArrowUpTall: WindowArrowUpTall.default || WindowArrowUpTall,
+  WindowStackArrowUpRight: WindowStackArrowUpRight.default || WindowStackArrowUpRight,
+  Replace: Replace.default || Replace,
+  ReplaceCircles: ReplaceCircles.default || ReplaceCircles,
+  ReplaceCirclesVertical: ReplaceCirclesVertical.default || ReplaceCirclesVertical,
+  ReplaceDots: ReplaceDots.default || ReplaceDots,
+  Reply: Reply.default || Reply,
+  RestoreClockwise: RestoreClockwise.default || RestoreClockwise,
+  RestoreClockwiseBottom: RestoreClockwiseBottom.default || RestoreClockwiseBottom,
+  RestoreCounterclockwise: RestoreCounterclockwise.default || RestoreCounterclockwise,
+  RestoreCounterclockwiseBottom: RestoreCounterclockwiseBottom.default || RestoreCounterclockwiseBottom,
+  RestoreSyncClockwise: RestoreSyncClockwise.default || RestoreSyncClockwise,
+  RestoreSyncCounterclockwise: RestoreSyncCounterclockwise.default || RestoreSyncCounterclockwise,
+  RotateScreen: RotateScreen.default || RotateScreen,
+  RotateScreenHome: RotateScreenHome.default || RotateScreenHome,
+  RotateScreenBezel: RotateScreenBezel.default || RotateScreenBezel,
+  RotateScreenSpeaker: RotateScreenSpeaker.default || RotateScreenSpeaker,
+  RotateScreenTabLeft: RotateScreenTabLeft.default || RotateScreenTabLeft,
+  RotateScreenTabRight: RotateScreenTabRight.default || RotateScreenTabRight,
+  AlertDiamond: AlertDiamond.default || AlertDiamond,
+  ArrowDownDiamond: ArrowDownDiamond.default || ArrowDownDiamond,
+  DotsDiamond: DotsDiamond.default || DotsDiamond,
+  SaveStack: SaveStack.default || SaveStack,
+  SaveLabelStack: SaveLabelStack.default || SaveLabelStack,
+  SaveStackDownLeft: SaveStackDownLeft.default || SaveStackDownLeft,
+  Save: Save.default || Save,
+  SaveArrowRight: SaveArrowRight.default || SaveArrowRight,
+  SaveCheck: SaveCheck.default || SaveCheck,
+  SaveCheckCircle: SaveCheckCircle.default || SaveCheckCircle,
+  SaveDotsCircle: SaveDotsCircle.default || SaveDotsCircle,
+  SaveMinusCircle: SaveMinusCircle.default || SaveMinusCircle,
+  SavePlusCircle: SavePlusCircle.default || SavePlusCircle,
+  SaveXCircle: SaveXCircle.default || SaveXCircle,
+  SaveClock: SaveClock.default || SaveClock,
+  SaveBan: SaveBan.default || SaveBan,
+  SaveMinus: SaveMinus.default || SaveMinus,
+  SaveEdit: SaveEdit.default || SaveEdit,
+  SaveEdit2: SaveEdit2.default || SaveEdit2,
+  SavePlus: SavePlus.default || SavePlus,
+  SaveX: SaveX.default || SaveX,
+  SaveLabel: SaveLabel.default || SaveLabel,
+  SaveHub: SaveHub.default || SaveHub,
+  FolderOpenDownload: FolderOpenDownload.default || FolderOpenDownload,
+  FolderOpenDownloadCenter: FolderOpenDownloadCenter.default || FolderOpenDownloadCenter,
+  DownloadSquareOpenPlain: DownloadSquareOpenPlain.default || DownloadSquareOpenPlain,
+  SaveFolder: SaveFolder.default || SaveFolder,
   SaveSearch: SaveSearch.default || SaveSearch,
-  SaveSearchMagnify: SaveSearchMagnify.default || SaveSearchMagnify,
-  SaveSearchDisk: SaveSearchDisk.default || SaveSearchDisk,
-  SaveSearchDisk2: SaveSearchDisk2.default || SaveSearchDisk2,
-  SaveSearchFavorite: SaveSearchFavorite.default || SaveSearchFavorite,
   SaveSearch2: SaveSearch2.default || SaveSearch2,
-  SaveSearchLongHandle: SaveSearchLongHandle.default || SaveSearchLongHandle,
-  Scan1: Scan1.default || Scan1,
-  ScanRescan1: ScanRescan1.default || ScanRescan1,
-  Scan2: Scan2.default || Scan2,
-  ScanRescan2: ScanRescan2.default || ScanRescan2,
-  Scanner3: Scanner3.default || Scanner3,
-  ScanRescan3: ScanRescan3.default || ScanRescan3,
-  Scanner4: Scanner4.default || Scanner4,
-  ScannerRescan4: ScannerRescan4.default || ScannerRescan4,
-  Scanner5: Scanner5.default || Scanner5,
-  ScannerRescan5: ScannerRescan5.default || ScannerRescan5,
-  ScreenshotDashed: ScreenshotDashed.default || ScreenshotDashed,
-  ScreenshotDashed2: ScreenshotDashed2.default || ScreenshotDashed2,
+  SaveSearchLarge: SaveSearchLarge.default || SaveSearchLarge,
+  ListStar: ListStar.default || ListStar,
+  SearchDownload: SearchDownload.default || SearchDownload,
+  SearchDownloadLong: SearchDownloadLong.default || SearchDownloadLong,
+  ScannerPaper: ScannerPaper.default || ScannerPaper,
+  ScannerRefreshPaper: ScannerRefreshPaper.default || ScannerRefreshPaper,
+  Scanner: Scanner.default || Scanner,
+  ScannerRefresh: ScannerRefresh.default || ScannerRefresh,
+  ScannerFront: ScannerFront.default || ScannerFront,
+  ScannerRefreshFront: ScannerRefreshFront.default || ScannerRefreshFront,
+  ScannerBox: ScannerBox.default || ScannerBox,
+  ScannerRefreshBox: ScannerRefreshBox.default || ScannerRefreshBox,
+  ScannerRound: ScannerRound.default || ScannerRound,
+  ScannerRefreshRound: ScannerRefreshRound.default || ScannerRefreshRound,
+  ScreenshotPlus: ScreenshotPlus.default || ScreenshotPlus,
+  ScreenshotAreaPlus: ScreenshotAreaPlus.default || ScreenshotAreaPlus,
   ScreenshotCamera: ScreenshotCamera.default || ScreenshotCamera,
-  ScreenshotCamera2: ScreenshotCamera2.default || ScreenshotCamera2,
-  ScreensharingComputers: ScreensharingComputers.default || ScreensharingComputers,
-  ScreensharingArrows: ScreensharingArrows.default || ScreensharingArrows,
-  ScreensharingDisabled1: ScreensharingDisabled1.default || ScreensharingDisabled1,
-  ScreensharingDisabled2: ScreensharingDisabled2.default || ScreensharingDisabled2,
-  ScreensharingLaptop: ScreensharingLaptop.default || ScreensharingLaptop,
-  ScreensharingLaptopLineOut: ScreensharingLaptopLineOut.default || ScreensharingLaptopLineOut,
-  ScreensharingLaptopError: ScreensharingLaptopError.default || ScreensharingLaptopError,
-  ScreensharingRectangles1: ScreensharingRectangles1.default || ScreensharingRectangles1,
-  ScreensharingRectanglesBarDisabled: ScreensharingRectanglesBarDisabled.default || ScreensharingRectanglesBarDisabled,
-  ScreensharingRectangles2: ScreensharingRectangles2.default || ScreensharingRectangles2,
+  ScreenshotCameraPlus: ScreenshotCameraPlus.default || ScreenshotCameraPlus,
+  ScreenShare: ScreenShare.default || ScreenShare,
+  ScreenShareArrows: ScreenShareArrows.default || ScreenShareArrows,
+  ScreenShareX: ScreenShareX.default || ScreenShareX,
+  ScreenShareXDouble: ScreenShareXDouble.default || ScreenShareXDouble,
+  ScreenShareLaptop: ScreenShareLaptop.default || ScreenShareLaptop,
+  LaptopArrowUpRight: LaptopArrowUpRight.default || LaptopArrowUpRight,
+  ScreenShareLaptopX: ScreenShareLaptopX.default || ScreenShareLaptopX,
+  ScreenShareWindows: ScreenShareWindows.default || ScreenShareWindows,
+  ScreenShareWindowsOff: ScreenShareWindowsOff.default || ScreenShareWindowsOff,
+  ScreenShareWindowsDots: ScreenShareWindowsDots.default || ScreenShareWindowsDots,
+  ScrollNarrow: ScrollNarrow.default || ScrollNarrow,
   Scroll: Scroll.default || Scroll,
-  Scroll1: Scroll1.default || Scroll1,
-  Scroll2: Scroll2.default || Scroll2,
-  Scroll3: Scroll3.default || Scroll3,
-  SearchWindowLupe1: SearchWindowLupe1.default || SearchWindowLupe1,
-  SearchWindowLupe2: SearchWindowLupe2.default || SearchWindowLupe2,
-  SearchBrowserLupe1: SearchBrowserLupe1.default || SearchBrowserLupe1,
-  SearchBrowserLupe2: SearchBrowserLupe2.default || SearchBrowserLupe2,
-  Selfie1: Selfie1.default || Selfie1,
-  Selfie2: Selfie2.default || Selfie2,
-  Selfie3: Selfie3.default || Selfie3,
-  Selfie4: Selfie4.default || Selfie4,
-  Selfie5: Selfie5.default || Selfie5,
-  Selfie6: Selfie6.default || Selfie6,
-  SequenceRectangles: SequenceRectangles.default || SequenceRectangles,
-  ShareArrow: ShareArrow.default || ShareArrow,
-  ShareArrowBox: ShareArrowBox.default || ShareArrowBox,
-  ShareConnect1: ShareConnect1.default || ShareConnect1,
-  ShareConnect2: ShareConnect2.default || ShareConnect2,
-  ShoppingBag1: ShoppingBag1.default || ShoppingBag1,
-  ShoppingBag2: ShoppingBag2.default || ShoppingBag2,
-  ShoppingBag3: ShoppingBag3.default || ShoppingBag3,
-  ShoppingBag4: ShoppingBag4.default || ShoppingBag4,
-  ShoppingBag5: ShoppingBag5.default || ShoppingBag5,
-  ShoppingBag6: ShoppingBag6.default || ShoppingBag6,
-  ShoppingBag7: ShoppingBag7.default || ShoppingBag7,
-  ShoppingBag8: ShoppingBag8.default || ShoppingBag8,
-  ShoppingBag9: ShoppingBag9.default || ShoppingBag9,
-  ShoppingBasket1: ShoppingBasket1.default || ShoppingBasket1,
-  ShoppingBasket2: ShoppingBasket2.default || ShoppingBasket2,
-  ShoppingBasket3: ShoppingBasket3.default || ShoppingBasket3,
-  SidebarMenu1: SidebarMenu1.default || SidebarMenu1,
-  SidebarMenu2: SidebarMenu2.default || SidebarMenu2,
-  SidebarMenu3: SidebarMenu3.default || SidebarMenu3,
-  SidebarMenu4: SidebarMenu4.default || SidebarMenu4,
-  SidebarMenu5: SidebarMenu5.default || SidebarMenu5,
-  SignalCellTower1: SignalCellTower1.default || SignalCellTower1,
-  SignalCellTower2: SignalCellTower2.default || SignalCellTower2,
-  SignalCellTower3: SignalCellTower3.default || SignalCellTower3,
-  SignalCellTower4: SignalCellTower4.default || SignalCellTower4,
-  SignalWaveConcentric1: SignalWaveConcentric1.default || SignalWaveConcentric1,
-  SignalWaveConcentric2: SignalWaveConcentric2.default || SignalWaveConcentric2,
-  SirenAlert: SirenAlert.default || SirenAlert,
-  SirenAlert2: SirenAlert2.default || SirenAlert2,
-  SkipLineOver1: SkipLineOver1.default || SkipLineOver1,
-  SkipLineOver2: SkipLineOver2.default || SkipLineOver2,
-  SkipLineOver3: SkipLineOver3.default || SkipLineOver3,
-  SliderLevelControl1: SliderLevelControl1.default || SliderLevelControl1,
-  SliderLevel2: SliderLevel2.default || SliderLevel2,
-  SliderLevel3: SliderLevel3.default || SliderLevel3,
-  SliderLevel4: SliderLevel4.default || SliderLevel4,
-  SquareArrowDown: SquareArrowDown.default || SquareArrowDown,
-  SquareArrowDownLeft: SquareArrowDownLeft.default || SquareArrowDownLeft,
-  SquareArrowDownRight: SquareArrowDownRight.default || SquareArrowDownRight,
-  SquareArrowLeft: SquareArrowLeft.default || SquareArrowLeft,
-  SquareArrowRight: SquareArrowRight.default || SquareArrowRight,
-  SquareArrowUp: SquareArrowUp.default || SquareArrowUp,
-  SquareArrowUpLeft: SquareArrowUpLeft.default || SquareArrowUpLeft,
-  SquareArrowUpRight: SquareArrowUpRight.default || SquareArrowUpRight,
-  SquaresFourGrid1: SquaresFourGrid1.default || SquaresFourGrid1,
-  SquaresFourGrid2: SquaresFourGrid2.default || SquaresFourGrid2,
-  StarFavorite1: StarFavorite1.default || StarFavorite1,
-  StarFavorite1Striped: StarFavorite1Striped.default || StarFavorite1Striped,
-  StarFavorite2: StarFavorite2.default || StarFavorite2,
-  StarFavorite2Striped: StarFavorite2Striped.default || StarFavorite2Striped,
-  StarRating3: StarRating3.default || StarRating3,
-  StarFilledStripes: StarFilledStripes.default || StarFilledStripes,
-  StarSmileFace: StarSmileFace.default || StarSmileFace,
-  StarAddFavorite1: StarAddFavorite1.default || StarAddFavorite1,
-  StarAddFavorite2: StarAddFavorite2.default || StarAddFavorite2,
-  StarAddFavorite3: StarAddFavorite3.default || StarAddFavorite3,
-  SubmitArrowCheck1: SubmitArrowCheck1.default || SubmitArrowCheck1,
-  SubmitArrowCheck2: SubmitArrowCheck2.default || SubmitArrowCheck2,
-  SubmitArrowCheck3: SubmitArrowCheck3.default || SubmitArrowCheck3,
+  ScrollTextNarrow: ScrollTextNarrow.default || ScrollTextNarrow,
+  ScrollText: ScrollText.default || ScrollText,
+  WindowSearchPlain: WindowSearchPlain.default || WindowSearchPlain,
+  WindowSearchDots: WindowSearchDots.default || WindowSearchDots,
+  BrowserSearch: BrowserSearch.default || BrowserSearch,
+  BrowserSearchPlain: BrowserSearchPlain.default || BrowserSearchPlain,
+  Selfie: Selfie.default || Selfie,
+  SelfieBezel: SelfieBezel.default || SelfieBezel,
+  SelfieCamera: SelfieCamera.default || SelfieCamera,
+  SelfieButton: SelfieButton.default || SelfieButton,
+  SelfieNotch: SelfieNotch.default || SelfieNotch,
+  SelfieSquare: SelfieSquare.default || SelfieSquare,
+  SquareStack: SquareStack.default || SquareStack,
+  ShareCorner: ShareCorner.default || ShareCorner,
+  ShareSquare: ShareSquare.default || ShareSquare,
+  ShareNodes: ShareNodes.default || ShareNodes,
+  ShareNodesLarge: ShareNodesLarge.default || ShareNodesLarge,
+  Bag: Bag.default || Bag,
+  BagSmile: BagSmile.default || BagSmile,
+  BagPouch: BagPouch.default || BagPouch,
+  BagRound: BagRound.default || BagRound,
+  BagTapered: BagTapered.default || BagTapered,
+  BagSide: BagSide.default || BagSide,
+  BagTaperedDots: BagTaperedDots.default || BagTaperedDots,
+  BagSmileTapered: BagSmileTapered.default || BagSmileTapered,
+  BagFlared: BagFlared.default || BagFlared,
+  Basket: Basket.default || Basket,
+  BasketBar: BasketBar.default || BasketBar,
+  BasketGrid: BasketGrid.default || BasketGrid,
+  WindowMenu: WindowMenu.default || WindowMenu,
+  WindowMenuPlain: WindowMenuPlain.default || WindowMenuPlain,
+  WindowMenuListPlain: WindowMenuListPlain.default || WindowMenuListPlain,
+  SidebarMenu: SidebarMenu.default || SidebarMenu,
+  MenuListSquare: MenuListSquare.default || MenuListSquare,
+  Antenna: Antenna.default || Antenna,
+  AntennaBraced: AntennaBraced.default || AntennaBraced,
+  AntennaSides: AntennaSides.default || AntennaSides,
+  AntennaTop: AntennaTop.default || AntennaTop,
+  SignalArcs: SignalArcs.default || SignalArcs,
+  SignalArcsDot: SignalArcsDot.default || SignalArcsDot,
+  Siren: Siren.default || Siren,
+  SirenFlat: SirenFlat.default || SirenFlat,
+  Skip: Skip.default || Skip,
+  SkipX: SkipX.default || SkipX,
+  SkipCircles: SkipCircles.default || SkipCircles,
+  SliderPointer: SliderPointer.default || SliderPointer,
+  SliderPointerTrack: SliderPointerTrack.default || SliderPointerTrack,
+  Slider: Slider.default || Slider,
+  SliderTrack: SliderTrack.default || SliderTrack,
+  ArrowDownSquare: ArrowDownSquare.default || ArrowDownSquare,
+  ArrowDownLeftSquare: ArrowDownLeftSquare.default || ArrowDownLeftSquare,
+  ArrowDownRightSquare: ArrowDownRightSquare.default || ArrowDownRightSquare,
+  ArrowLeftSquare: ArrowLeftSquare.default || ArrowLeftSquare,
+  ArrowRightSquare: ArrowRightSquare.default || ArrowRightSquare,
+  ArrowUpSquare: ArrowUpSquare.default || ArrowUpSquare,
+  ArrowUpLeftSquare: ArrowUpLeftSquare.default || ArrowUpLeftSquare,
+  ArrowUpRightSquare: ArrowUpRightSquare.default || ArrowUpRightSquare,
+  Grid: Grid.default || Grid,
+  GridRounded: GridRounded.default || GridRounded,
+  Star: Star.default || Star,
+  StarStriped: StarStriped.default || StarStriped,
+  StarWide: StarWide.default || StarWide,
+  StarStripedWide: StarStripedWide.default || StarStripedWide,
+  StarRound: StarRound.default || StarRound,
+  StarStripedRound: StarStripedRound.default || StarStripedRound,
+  StarHappy: StarHappy.default || StarHappy,
+  StarPlus: StarPlus.default || StarPlus,
+  StarPlusCenter: StarPlusCenter.default || StarPlusCenter,
+  StarPlusRound: StarPlusRound.default || StarPlusRound,
+  Submit: Submit.default || Submit,
+  SubmitOpen: SubmitOpen.default || SubmitOpen,
+  SubmitSquare: SubmitSquare.default || SubmitSquare,
+  SunStar: SunStar.default || SunStar,
+  SunScalloped: SunScalloped.default || SunScalloped,
+  SunSpiky: SunSpiky.default || SunSpiky,
+  SunPointed: SunPointed.default || SunPointed,
+  SunPointedLong: SunPointedLong.default || SunPointedLong,
+  SunPointedShort: SunPointedShort.default || SunPointedShort,
+  SunWavy: SunWavy.default || SunWavy,
+  SunJagged: SunJagged.default || SunJagged,
+  SunCurved: SunCurved.default || SunCurved,
+  SunFaceted: SunFaceted.default || SunFaceted,
   Sun: Sun.default || Sun,
-  Sun1: Sun1.default || Sun1,
-  Sun2: Sun2.default || Sun2,
-  Sun3: Sun3.default || Sun3,
-  Sun4: Sun4.default || Sun4,
-  Sun5: Sun5.default || Sun5,
-  Sun6: Sun6.default || Sun6,
-  Sun79: Sun79.default || Sun79,
-  Sun8: Sun8.default || Sun8,
-  Sun9: Sun9.default || Sun9,
-  SunBrightA: SunBrightA.default || SunBrightA,
-  SunBrightness12: SunBrightness12.default || SunBrightness12,
-  SunBrightness1: SunBrightness1.default || SunBrightness1,
-  SunBrightness1A: SunBrightness1A.default || SunBrightness1A,
-  SunBrightness1B: SunBrightness1B.default || SunBrightness1B,
-  SunBrightness1C: SunBrightness1C.default || SunBrightness1C,
-  SunBrightnessSettings: SunBrightnessSettings.default || SunBrightnessSettings,
-  SunBrightness2: SunBrightness2.default || SunBrightness2,
-  SunBrightness2A: SunBrightness2A.default || SunBrightness2A,
-  SunBrightness2B: SunBrightness2B.default || SunBrightness2B,
-  SunBrightness2C: SunBrightness2C.default || SunBrightness2C,
-  SunBrightness3: SunBrightness3.default || SunBrightness3,
-  SunBrightness3A: SunBrightness3A.default || SunBrightness3A,
-  SunBrightness3B: SunBrightness3B.default || SunBrightness3B,
-  SunBrightness4A: SunBrightness4A.default || SunBrightness4A,
-  SunBrightness4B: SunBrightness4B.default || SunBrightness4B,
-  SunBrightness4C: SunBrightness4C.default || SunBrightness4C,
-  SunBrightness4D: SunBrightness4D.default || SunBrightness4D,
-  SunBrightness5A: SunBrightness5A.default || SunBrightness5A,
-  SunBrightness5B: SunBrightness5B.default || SunBrightness5B,
-  SunBrightness5C: SunBrightness5C.default || SunBrightness5C,
-  SunBrightness5D: SunBrightness5D.default || SunBrightness5D,
-  SunBrightness6A: SunBrightness6A.default || SunBrightness6A,
-  SunBrightness6B: SunBrightness6B.default || SunBrightness6B,
-  SunBrightness6C: SunBrightness6C.default || SunBrightness6C,
-  SunBrightness7A: SunBrightness7A.default || SunBrightness7A,
-  SunBrightness7B9: SunBrightness7B9.default || SunBrightness7B9,
-  SunBrightness7C: SunBrightness7C.default || SunBrightness7C,
-  SunBrightnessB: SunBrightnessB.default || SunBrightnessB,
-  SunBrightnessC: SunBrightnessC.default || SunBrightnessC,
-  SunBrightnessD: SunBrightnessD.default || SunBrightnessD,
-  SunBrightnessSquare1: SunBrightnessSquare1.default || SunBrightnessSquare1,
-  SunBrightnessSquare2: SunBrightnessSquare2.default || SunBrightnessSquare2,
-  SunGearSettings1: SunGearSettings1.default || SunGearSettings1,
-  SunGearSettings2: SunGearSettings2.default || SunGearSettings2,
-  SunGearSettings4: SunGearSettings4.default || SunGearSettings4,
-  SwitchButtonOff: SwitchButtonOff.default || SwitchButtonOff,
-  SwitchButtonOff2: SwitchButtonOff2.default || SwitchButtonOff2,
-  SwitchButtonOn: SwitchButtonOn.default || SwitchButtonOn,
-  SwitchButtonOn2: SwitchButtonOn2.default || SwitchButtonOn2,
-  SwitchKnobButton: SwitchKnobButton.default || SwitchKnobButton,
-  SwitchKnobButton2: SwitchKnobButton2.default || SwitchKnobButton2,
-  SwitchKnobButton3: SwitchKnobButton3.default || SwitchKnobButton3,
-  SwitchKnobButton4: SwitchKnobButton4.default || SwitchKnobButton4,
-  SwitchThreePositions: SwitchThreePositions.default || SwitchThreePositions,
-  SwitchThreePositionsSecond: SwitchThreePositionsSecond.default || SwitchThreePositionsSecond,
-  SwitchThreePositionsThird: SwitchThreePositionsThird.default || SwitchThreePositionsThird,
-  SwitchToggle1: SwitchToggle1.default || SwitchToggle1,
-  SwitchToggle2: SwitchToggle2.default || SwitchToggle2,
-  SwitchToggle3: SwitchToggle3.default || SwitchToggle3,
-  SwitchToggleButtonOnStripes: SwitchToggleButtonOnStripes.default || SwitchToggleButtonOnStripes,
-  SwitchToggleButtonIntermediate: SwitchToggleButtonIntermediate.default || SwitchToggleButtonIntermediate,
-  SwitchToggleButtonOff: SwitchToggleButtonOff.default || SwitchToggleButtonOff,
-  SwitchToggleButtonOn: SwitchToggleButtonOn.default || SwitchToggleButtonOn,
-  SwitchToggleButtonOnDots: SwitchToggleButtonOnDots.default || SwitchToggleButtonOnDots,
-  SwitchToggleIntermediate: SwitchToggleIntermediate.default || SwitchToggleIntermediate,
-  SwitchToggleOff2: SwitchToggleOff2.default || SwitchToggleOff2,
-  SwitchToggleOn2: SwitchToggleOn2.default || SwitchToggleOn2,
-  SwitchToggleOff3: SwitchToggleOff3.default || SwitchToggleOff3,
-  SwitchToggleOn3: SwitchToggleOn3.default || SwitchToggleOn3,
-  SwitchToggleOnDots: SwitchToggleOnDots.default || SwitchToggleOnDots,
-  SwitchToggleOnStripes: SwitchToggleOnStripes.default || SwitchToggleOnStripes,
-  SwitchToggleOff4: SwitchToggleOff4.default || SwitchToggleOff4,
-  SwitchToggleOn4: SwitchToggleOn4.default || SwitchToggleOn4,
-  SwitchToggleOnOff: SwitchToggleOnOff.default || SwitchToggleOnOff,
-  SwitchTwoButtonsToggle: SwitchTwoButtonsToggle.default || SwitchTwoButtonsToggle,
-  SwitchPositionOff1: SwitchPositionOff1.default || SwitchPositionOff1,
-  SwitchPositionOff2: SwitchPositionOff2.default || SwitchPositionOff2,
-  SwitchPositionOn1: SwitchPositionOn1.default || SwitchPositionOn1,
-  SwitchPositionOn2: SwitchPositionOn2.default || SwitchPositionOn2,
-  SynchSettingsArrows: SynchSettingsArrows.default || SynchSettingsArrows,
-  SynchSettingsArrows2: SynchSettingsArrows2.default || SynchSettingsArrows2,
-  SystemDiagnosticClipboard: SystemDiagnosticClipboard.default || SystemDiagnosticClipboard,
-  SystemDiagnosticLaptop: SystemDiagnosticLaptop.default || SystemDiagnosticLaptop,
-  SystemDiagnosticStethoscope: SystemDiagnosticStethoscope.default || SystemDiagnosticStethoscope,
-  SystemDiagnosticStethoscopeAlt: SystemDiagnosticStethoscopeAlt.default || SystemDiagnosticStethoscopeAlt,
-  SystemDiagnosticStethoscopeList: SystemDiagnosticStethoscopeList.default || SystemDiagnosticStethoscopeList,
-  TableGraph: TableGraph.default || TableGraph,
+  SunShortLarge: SunShortLarge.default || SunShortLarge,
+  SunStarHalf: SunStarHalf.default || SunStarHalf,
+  SunDense: SunDense.default || SunDense,
+  SunShortDense: SunShortDense.default || SunShortDense,
+  SunDottedDense: SunDottedDense.default || SunDottedDense,
+  SunSettings: SunSettings.default || SunSettings,
+  SunStarStriped: SunStarStriped.default || SunStarStriped,
+  SunBig: SunBig.default || SunBig,
+  SunShortBig: SunShortBig.default || SunShortBig,
+  SunDottedBig: SunDottedBig.default || SunDottedBig,
+  SunStarBig: SunStarBig.default || SunStarBig,
+  SunShortLarge2: SunShortLarge2.default || SunShortLarge2,
+  SunDottedLarge: SunDottedLarge.default || SunDottedLarge,
+  SunSpoke: SunSpoke.default || SunSpoke,
+  SunSpokeBig: SunSpokeBig.default || SunSpokeBig,
+  SunSpokeLarge: SunSpokeLarge.default || SunSpokeLarge,
+  SunSpokeHuge: SunSpokeHuge.default || SunSpokeHuge,
+  SunMixed: SunMixed.default || SunMixed,
+  SunMixedBig: SunMixedBig.default || SunMixedBig,
+  SunMixedLarge: SunMixedLarge.default || SunMixedLarge,
+  SunMixedHuge: SunMixedHuge.default || SunMixedHuge,
+  SunDenseBig: SunDenseBig.default || SunDenseBig,
+  SunShortDenseLarge: SunShortDenseLarge.default || SunShortDenseLarge,
+  SunDottedRadiantLarge: SunDottedRadiantLarge.default || SunDottedRadiantLarge,
+  SunRadiant: SunRadiant.default || SunRadiant,
+  SunShortRadiant: SunShortRadiant.default || SunShortRadiant,
+  SunDottedRadiant: SunDottedRadiant.default || SunDottedRadiant,
+  SunShort: SunShort.default || SunShort,
+  SunTiny: SunTiny.default || SunTiny,
+  SunDotted: SunDotted.default || SunDotted,
+  SunStarHalfSquare: SunStarHalfSquare.default || SunStarHalfSquare,
+  SunStarSquare: SunStarSquare.default || SunStarSquare,
+  SunStarStripedSettings: SunStarStripedSettings.default || SunStarStripedSettings,
+  SunStarHalfSettings: SunStarHalfSettings.default || SunStarHalfSettings,
+  SunStarSettings: SunStarSettings.default || SunStarSettings,
+  SwitchRockerOff: SwitchRockerOff.default || SwitchRockerOff,
+  SwitchRockerOffPerspective: SwitchRockerOffPerspective.default || SwitchRockerOffPerspective,
+  SwitchRockerOn: SwitchRockerOn.default || SwitchRockerOn,
+  SwitchRockerOnPerspective: SwitchRockerOnPerspective.default || SwitchRockerOnPerspective,
+  SwitchKnobUpLeft: SwitchKnobUpLeft.default || SwitchKnobUpLeft,
+  SwitchKnobUpRight: SwitchKnobUpRight.default || SwitchKnobUpRight,
+  SwitchKnobUpLeftHandle: SwitchKnobUpLeftHandle.default || SwitchKnobUpLeftHandle,
+  SwitchKnobUpRightHandle: SwitchKnobUpRightHandle.default || SwitchKnobUpRightHandle,
+  SwitchDialLeft: SwitchDialLeft.default || SwitchDialLeft,
+  SwitchDialUp: SwitchDialUp.default || SwitchDialUp,
+  SwitchDialRight: SwitchDialRight.default || SwitchDialRight,
+  SwitchLeverCup: SwitchLeverCup.default || SwitchLeverCup,
+  SwitchLeverCupStem: SwitchLeverCupStem.default || SwitchLeverCupStem,
+  SwitchLever: SwitchLever.default || SwitchLever,
+  ToggleOnStriped: ToggleOnStriped.default || ToggleOnStriped,
+  ToggleMiddle: ToggleMiddle.default || ToggleMiddle,
+  ToggleOff: ToggleOff.default || ToggleOff,
+  ToggleOn: ToggleOn.default || ToggleOn,
+  ToggleOnDotted: ToggleOnDotted.default || ToggleOnDotted,
+  ToggleMiddleSlim: ToggleMiddleSlim.default || ToggleMiddleSlim,
+  ToggleOffSlim: ToggleOffSlim.default || ToggleOffSlim,
+  ToggleOnSlim: ToggleOnSlim.default || ToggleOnSlim,
+  ToggleOffSquared: ToggleOffSquared.default || ToggleOffSquared,
+  ToggleOnSquared: ToggleOnSquared.default || ToggleOnSquared,
+  ToggleOnDottedSquared: ToggleOnDottedSquared.default || ToggleOnDottedSquared,
+  ToggleOnStripedSquared: ToggleOnStripedSquared.default || ToggleOnStripedSquared,
+  ToggleOffInset: ToggleOffInset.default || ToggleOffInset,
+  ToggleOnInset: ToggleOnInset.default || ToggleOnInset,
+  ToggleMultiple: ToggleMultiple.default || ToggleMultiple,
+  ToggleMultipleSlim: ToggleMultipleSlim.default || ToggleMultipleSlim,
+  SwitchDialOff: SwitchDialOff.default || SwitchDialOff,
+  SwitchDialOffHandle: SwitchDialOffHandle.default || SwitchDialOffHandle,
+  SwitchDialOn: SwitchDialOn.default || SwitchDialOn,
+  SwitchDialOnHandle: SwitchDialOnHandle.default || SwitchDialOnHandle,
+  GearSync: GearSync.default || GearSync,
+  GearSyncLarge: GearSyncLarge.default || GearSyncLarge,
+  ClipboardPulse: ClipboardPulse.default || ClipboardPulse,
+  LaptopPulse: LaptopPulse.default || LaptopPulse,
+  StethoscopeSquare: StethoscopeSquare.default || StethoscopeSquare,
+  Stethoscope: Stethoscope.default || Stethoscope,
+  StethoscopeRound: StethoscopeRound.default || StethoscopeRound,
+  StethoscopeList: StethoscopeList.default || StethoscopeList,
   Tab: Tab.default || Tab,
-  TabCloseLeft: TabCloseLeft.default || TabCloseLeft,
-  TabCloseRight: TabCloseRight.default || TabCloseRight,
-  TabCheckVerified: TabCheckVerified.default || TabCheckVerified,
-  TabCheckVerified2: TabCheckVerified2.default || TabCheckVerified2,
-  TabCheckVerifiedCircle: TabCheckVerifiedCircle.default || TabCheckVerifiedCircle,
-  TabExtraFeatures: TabExtraFeatures.default || TabExtraFeatures,
-  TabFloppySave: TabFloppySave.default || TabFloppySave,
-  TabFloppySave2: TabFloppySave2.default || TabFloppySave2,
-  TabGearSettings: TabGearSettings.default || TabGearSettings,
-  TabRemove: TabRemove.default || TabRemove,
-  TabRemoveCircle: TabRemoveCircle.default || TabRemoveCircle,
-  TabRemoveCircle2: TabRemoveCircle2.default || TabRemoveCircle2,
-  TabOpenFolder: TabOpenFolder.default || TabOpenFolder,
-  TabAdd: TabAdd.default || TabAdd,
-  TabAddPlus2: TabAddPlus2.default || TabAddPlus2,
-  TabAddPlusCircle: TabAddPlusCircle.default || TabAddPlusCircle,
-  TabSettings: TabSettings.default || TabSettings,
-  TabTool: TabTool.default || TabTool,
-  TabX: TabX.default || TabX,
-  TabClose: TabClose.default || TabClose,
-  TabCloseCircle: TabCloseCircle.default || TabCloseCircle,
-  Tab2: Tab2.default || Tab2,
-  TabCloseLeft2: TabCloseLeft2.default || TabCloseLeft2,
-  TabCloseRight2: TabCloseRight2.default || TabCloseRight2,
-  TabCheckmark: TabCheckmark.default || TabCheckmark,
+  TabArrowLeftX: TabArrowLeftX.default || TabArrowLeftX,
+  TabArrowRightX: TabArrowRightX.default || TabArrowRightX,
+  TabCheckCenter: TabCheckCenter.default || TabCheckCenter,
   TabCheck: TabCheck.default || TabCheck,
-  TabCheck2: TabCheck2.default || TabCheck2,
-  TabDelete: TabDelete.default || TabDelete,
-  TabRemove2: TabRemove2.default || TabRemove2,
-  TabRemoveCircle3: TabRemoveCircle3.default || TabRemoveCircle3,
-  TabAdd2: TabAdd2.default || TabAdd2,
-  TabAddPlus: TabAddPlus.default || TabAddPlus,
-  TabAddCircle: TabAddCircle.default || TabAddCircle,
-  TabSettings2: TabSettings2.default || TabSettings2,
-  Tab2Close: Tab2Close.default || Tab2Close,
-  TabCloseX: TabCloseX.default || TabCloseX,
-  Tab2CloseCircle: Tab2CloseCircle.default || Tab2CloseCircle,
-  Tab3: Tab3.default || Tab3,
-  Tab3ArrowLeft: Tab3ArrowLeft.default || Tab3ArrowLeft,
-  Tab3ArrowRight: Tab3ArrowRight.default || Tab3ArrowRight,
-  Tab3Checked: Tab3Checked.default || Tab3Checked,
-  Tab3Check: Tab3Check.default || Tab3Check,
-  Tab3CheckCircle: Tab3CheckCircle.default || Tab3CheckCircle,
-  Tab3Remove2: Tab3Remove2.default || Tab3Remove2,
-  Tab3Remove: Tab3Remove.default || Tab3Remove,
-  Tab3RemoveCircle: Tab3RemoveCircle.default || Tab3RemoveCircle,
-  Tab3Plus: Tab3Plus.default || Tab3Plus,
-  Tab3Add: Tab3Add.default || Tab3Add,
-  Tab3AddCircle: Tab3AddCircle.default || Tab3AddCircle,
-  Tab3Settings: Tab3Settings.default || Tab3Settings,
-  Tab3X: Tab3X.default || Tab3X,
-  Tab3Close: Tab3Close.default || Tab3Close,
-  Tab3CloseCircle: Tab3CloseCircle.default || Tab3CloseCircle,
-  Tab4: Tab4.default || Tab4,
-  Tab4ArrowLeft: Tab4ArrowLeft.default || Tab4ArrowLeft,
-  Tab4XRight: Tab4XRight.default || Tab4XRight,
-  Tab4Checked: Tab4Checked.default || Tab4Checked,
-  Tab4Check: Tab4Check.default || Tab4Check,
-  Tab4CheckCircle: Tab4CheckCircle.default || Tab4CheckCircle,
-  Tab4Remove: Tab4Remove.default || Tab4Remove,
-  Tab4RemoveCircle: Tab4RemoveCircle.default || Tab4RemoveCircle,
-  Tab4RemoveCircle2: Tab4RemoveCircle2.default || Tab4RemoveCircle2,
-  Tab4Plus: Tab4Plus.default || Tab4Plus,
-  Tab4Plus2: Tab4Plus2.default || Tab4Plus2,
-  Tab4PlusCircle: Tab4PlusCircle.default || Tab4PlusCircle,
-  Tab4Settings: Tab4Settings.default || Tab4Settings,
-  Tab4X: Tab4X.default || Tab4X,
-  Tab4Close: Tab4Close.default || Tab4Close,
-  Tab4CloseCircle: Tab4CloseCircle.default || Tab4CloseCircle,
-  TabChevronSwitch1: TabChevronSwitch1.default || TabChevronSwitch1,
-  TabChevronSwitch2: TabChevronSwitch2.default || TabChevronSwitch2,
-  TabChevronSwitch3: TabChevronSwitch3.default || TabChevronSwitch3,
-  TabDashedUnselected: TabDashedUnselected.default || TabDashedUnselected,
-  TechnicalSupportLaptopGear: TechnicalSupportLaptopGear.default || TechnicalSupportLaptopGear,
-  Tag1: Tag1.default || Tag1,
-  Tag2: Tag2.default || Tag2,
-  Tag3: Tag3.default || Tag3,
-  Tag4: Tag4.default || Tag4,
-  TechnicalSupportLaptopGear2: TechnicalSupportLaptopGear2.default || TechnicalSupportLaptopGear2,
-  TechnicalSupportLaptopGear22: TechnicalSupportLaptopGear22.default || TechnicalSupportLaptopGear22,
-  TechnicalSupportHand: TechnicalSupportHand.default || TechnicalSupportHand,
-  TechnicalSupportHeadset: TechnicalSupportHeadset.default || TechnicalSupportHeadset,
-  TechnicalSupportTool: TechnicalSupportTool.default || TechnicalSupportTool,
-  TechnicalSupportToolAlt: TechnicalSupportToolAlt.default || TechnicalSupportToolAlt,
-  TechnicalSupportToolVariant: TechnicalSupportToolVariant.default || TechnicalSupportToolVariant,
-  TechnicalSupportPersonHeadset: TechnicalSupportPersonHeadset.default || TechnicalSupportPersonHeadset,
-  TechnicalSupportPersonHeadsetAlt: TechnicalSupportPersonHeadsetAlt.default || TechnicalSupportPersonHeadsetAlt,
-  TechnicalSupportPersonHeadsetVar3: TechnicalSupportPersonHeadsetVar3.default || TechnicalSupportPersonHeadsetVar3,
-  TechnicalSupportPersonHeadsetVar4: TechnicalSupportPersonHeadsetVar4.default || TechnicalSupportPersonHeadsetVar4,
-  TechnicalSupportPersonHeadsetVar5: TechnicalSupportPersonHeadsetVar5.default || TechnicalSupportPersonHeadsetVar5,
-  TechnicalSupportHeadset2: TechnicalSupportHeadset2.default || TechnicalSupportHeadset2,
-  TechnicalSupportGear: TechnicalSupportGear.default || TechnicalSupportGear,
-  TechnicalSupportTools: TechnicalSupportTools.default || TechnicalSupportTools,
-  TechnicalSupportToolsAlt: TechnicalSupportToolsAlt.default || TechnicalSupportToolsAlt,
-  ThemesColorPalette: ThemesColorPalette.default || ThemesColorPalette,
-  ThemesRectanglesFilled: ThemesRectanglesFilled.default || ThemesRectanglesFilled,
-  ThemesSquaresFilled: ThemesSquaresFilled.default || ThemesSquaresFilled,
-  ToolHandSupport1: ToolHandSupport1.default || ToolHandSupport1,
-  ToolHandSupport2: ToolHandSupport2.default || ToolHandSupport2,
-  ToolSupport1: ToolSupport1.default || ToolSupport1,
-  ToolSupport2: ToolSupport2.default || ToolSupport2,
-  ToolSupport3: ToolSupport3.default || ToolSupport3,
-  ToolSupport4: ToolSupport4.default || ToolSupport4,
-  ToolSupport5: ToolSupport5.default || ToolSupport5,
-  ToolSupport6: ToolSupport6.default || ToolSupport6,
-  ToolSupport7: ToolSupport7.default || ToolSupport7,
-  ToolbarMoreDetails: ToolbarMoreDetails.default || ToolbarMoreDetails,
-  ToolbarNavigationBottom: ToolbarNavigationBottom.default || ToolbarNavigationBottom,
-  ToolbarNavigationLeft: ToolbarNavigationLeft.default || ToolbarNavigationLeft,
-  ToolbarNavigationPane1: ToolbarNavigationPane1.default || ToolbarNavigationPane1,
-  ToolbarNavigationPane2: ToolbarNavigationPane2.default || ToolbarNavigationPane2,
-  ToolbarNavigationRight: ToolbarNavigationRight.default || ToolbarNavigationRight,
-  ToolbarNavigationTop: ToolbarNavigationTop.default || ToolbarNavigationTop,
-  ToolbarPreviewEye: ToolbarPreviewEye.default || ToolbarPreviewEye,
-  ToolbarPreviewEye2: ToolbarPreviewEye2.default || ToolbarPreviewEye2,
-  ToolbarPreviewEye3: ToolbarPreviewEye3.default || ToolbarPreviewEye3,
-  ToolbarShowBottomPanel: ToolbarShowBottomPanel.default || ToolbarShowBottomPanel,
-  ToolbarShowLeftPanel: ToolbarShowLeftPanel.default || ToolbarShowLeftPanel,
-  ToolbarShowRightPanel: ToolbarShowRightPanel.default || ToolbarShowRightPanel,
-  ToolbarShowTopPanel: ToolbarShowTopPanel.default || ToolbarShowTopPanel,
-  ToolbarStart: ToolbarStart.default || ToolbarStart,
+  TabCheckCircle: TabCheckCircle.default || TabCheckCircle,
+  TabTitle: TabTitle.default || TabTitle,
+  TabSave: TabSave.default || TabSave,
+  TabSave2: TabSave2.default || TabSave2,
+  TabSettings: TabSettings.default || TabSettings,
+  TabMinusCenter: TabMinusCenter.default || TabMinusCenter,
+  TabMinusCircle: TabMinusCircle.default || TabMinusCircle,
+  TabMinus: TabMinus.default || TabMinus,
+  TabFolderOpen: TabFolderOpen.default || TabFolderOpen,
+  TabPlusCenter: TabPlusCenter.default || TabPlusCenter,
+  TabPlus: TabPlus.default || TabPlus,
+  TabPlusCircle: TabPlusCircle.default || TabPlusCircle,
+  TabDots: TabDots.default || TabDots,
+  TabWrench: TabWrench.default || TabWrench,
+  TabXCenter: TabXCenter.default || TabXCenter,
+  TabX: TabX.default || TabX,
+  TabXCircle: TabXCircle.default || TabXCircle,
+  TabStep: TabStep.default || TabStep,
+  TabArrowLeftXStep: TabArrowLeftXStep.default || TabArrowLeftXStep,
+  TabArrowRightXStep: TabArrowRightXStep.default || TabArrowRightXStep,
+  TabCheckCenterStep: TabCheckCenterStep.default || TabCheckCenterStep,
+  TabCheckStep: TabCheckStep.default || TabCheckStep,
+  TabCheckCircleStep: TabCheckCircleStep.default || TabCheckCircleStep,
+  TabMinusCenterStep: TabMinusCenterStep.default || TabMinusCenterStep,
+  TabMinusCircleStep: TabMinusCircleStep.default || TabMinusCircleStep,
+  TabMinusStep: TabMinusStep.default || TabMinusStep,
+  TabPlusCenterStep: TabPlusCenterStep.default || TabPlusCenterStep,
+  TabPlusStep: TabPlusStep.default || TabPlusStep,
+  TabPlusCircleStep: TabPlusCircleStep.default || TabPlusCircleStep,
+  TabDotsStep: TabDotsStep.default || TabDotsStep,
+  TabXCenterStep: TabXCenterStep.default || TabXCenterStep,
+  TabXStep: TabXStep.default || TabXStep,
+  TabXCircleStep: TabXCircleStep.default || TabXCircleStep,
+  TabSharp: TabSharp.default || TabSharp,
+  TabArrowLeftXSharp: TabArrowLeftXSharp.default || TabArrowLeftXSharp,
+  TabArrowRightXSharp: TabArrowRightXSharp.default || TabArrowRightXSharp,
+  TabCheckCenterSharp: TabCheckCenterSharp.default || TabCheckCenterSharp,
+  TabCheckSharp: TabCheckSharp.default || TabCheckSharp,
+  TabCheckCircleSharp: TabCheckCircleSharp.default || TabCheckCircleSharp,
+  TabMinusCenterSharp: TabMinusCenterSharp.default || TabMinusCenterSharp,
+  TabMinusCircleSharp: TabMinusCircleSharp.default || TabMinusCircleSharp,
+  TabMinusSharp: TabMinusSharp.default || TabMinusSharp,
+  TabPlusCenterSharp: TabPlusCenterSharp.default || TabPlusCenterSharp,
+  TabPlusSharp: TabPlusSharp.default || TabPlusSharp,
+  TabPlusCircleSharp: TabPlusCircleSharp.default || TabPlusCircleSharp,
+  TabDotsSharp: TabDotsSharp.default || TabDotsSharp,
+  TabXCenterSharp: TabXCenterSharp.default || TabXCenterSharp,
+  TabXSharp: TabXSharp.default || TabXSharp,
+  TabXCircleSharp: TabXCircleSharp.default || TabXCircleSharp,
+  TabStriped: TabStriped.default || TabStriped,
+  TabArrowLeftXStriped: TabArrowLeftXStriped.default || TabArrowLeftXStriped,
+  TabArrowRightXStriped: TabArrowRightXStriped.default || TabArrowRightXStriped,
+  TabCheckCenterStriped: TabCheckCenterStriped.default || TabCheckCenterStriped,
+  TabCheckStriped: TabCheckStriped.default || TabCheckStriped,
+  TabCheckCircleStriped: TabCheckCircleStriped.default || TabCheckCircleStriped,
+  TabMinusCenterStriped: TabMinusCenterStriped.default || TabMinusCenterStriped,
+  TabMinusCircleStriped: TabMinusCircleStriped.default || TabMinusCircleStriped,
+  TabMinusStriped: TabMinusStriped.default || TabMinusStriped,
+  TabPlusCenterStriped: TabPlusCenterStriped.default || TabPlusCenterStriped,
+  TabPlusStriped: TabPlusStriped.default || TabPlusStriped,
+  TabPlusCircleStriped: TabPlusCircleStriped.default || TabPlusCircleStriped,
+  TabDotsStriped: TabDotsStriped.default || TabDotsStriped,
+  TabXCenterStriped: TabXCenterStriped.default || TabXCenterStriped,
+  TabXStriped: TabXStriped.default || TabXStriped,
+  TabXCircleStriped: TabXCircleStriped.default || TabXCircleStriped,
+  TabChevronDoubleRight: TabChevronDoubleRight.default || TabChevronDoubleRight,
+  TabMultipleChevronRight: TabMultipleChevronRight.default || TabMultipleChevronRight,
+  TabMultipleArrowRight: TabMultipleArrowRight.default || TabMultipleArrowRight,
+  TabDashed: TabDashed.default || TabDashed,
+  TableChartLine: TableChartLine.default || TableChartLine,
+  Tag: Tag.default || Tag,
+  TagEmpty: TagEmpty.default || TagEmpty,
+  TagRounded: TagRounded.default || TagRounded,
+  TagEmptyRounded: TagEmptyRounded.default || TagEmptyRounded,
+  LaptopSettings: LaptopSettings.default || LaptopSettings,
+  LaptopSettingsFlat: LaptopSettingsFlat.default || LaptopSettingsFlat,
+  LaptopHand: LaptopHand.default || LaptopHand,
+  LaptopHeadset: LaptopHeadset.default || LaptopHeadset,
+  LaptopWrench: LaptopWrench.default || LaptopWrench,
+  LaptopWrenchCorner: LaptopWrenchCorner.default || LaptopWrenchCorner,
+  LaptopWrenchFlat: LaptopWrenchFlat.default || LaptopWrenchFlat,
+  UserHeadsetSpiky: UserHeadsetSpiky.default || UserHeadsetSpiky,
+  UserHeadset: UserHeadset.default || UserHeadset,
+  UserHeadsetWavy: UserHeadsetWavy.default || UserHeadsetWavy,
+  UserHeadsetSwept: UserHeadsetSwept.default || UserHeadsetSwept,
+  UserHeadsetLong: UserHeadsetLong.default || UserHeadsetLong,
+  UserHeadsetLongSwept: UserHeadsetLongSwept.default || UserHeadsetLongSwept,
+  GearWrench: GearWrench.default || GearWrench,
+  WrenchScrewdriverDouble: WrenchScrewdriverDouble.default || WrenchScrewdriverDouble,
+  WrenchScrewdriver: WrenchScrewdriver.default || WrenchScrewdriver,
+  SwatchFan: SwatchFan.default || SwatchFan,
+  SwatchStackWide: SwatchStackWide.default || SwatchStackWide,
+  SwatchStack: SwatchStack.default || SwatchStack,
+  WrenchHandOpen: WrenchHandOpen.default || WrenchHandOpen,
+  WrenchHand: WrenchHand.default || WrenchHand,
+  Wrench: Wrench.default || Wrench,
+  WrenchDouble: WrenchDouble.default || WrenchDouble,
+  Wrench2: Wrench2.default || Wrench2,
+  WrenchWide: WrenchWide.default || WrenchWide,
+  WrenchRound: WrenchRound.default || WrenchRound,
+  Screwdriver: Screwdriver.default || Screwdriver,
+  ScrewdriverThick: ScrewdriverThick.default || ScrewdriverThick,
+  MenuListColumnsSquare: MenuListColumnsSquare.default || MenuListColumnsSquare,
+  ToolbarBottom: ToolbarBottom.default || ToolbarBottom,
+  SidebarLeft: SidebarLeft.default || SidebarLeft,
+  CaretLeftRightSquare: CaretLeftRightSquare.default || CaretLeftRightSquare,
+  ChevronLeftRightSquare: ChevronLeftRightSquare.default || ChevronLeftRightSquare,
+  SidebarRight: SidebarRight.default || SidebarRight,
+  ToolbarTop: ToolbarTop.default || ToolbarTop,
+  EyeSquare: EyeSquare.default || EyeSquare,
+  EyeSquareDot: EyeSquareDot.default || EyeSquareDot,
+  EyeSquareArc: EyeSquareArc.default || EyeSquareArc,
+  PanelBottom: PanelBottom.default || PanelBottom,
+  PanelLeft: PanelLeft.default || PanelLeft,
+  PanelRight: PanelRight.default || PanelRight,
+  PanelTop: PanelTop.default || PanelTop,
+  StartMenu: StartMenu.default || StartMenu,
   Toolbox: Toolbox.default || Toolbox,
-  Toolbox1: Toolbox1.default || Toolbox1,
-  Toolbox2: Toolbox2.default || Toolbox2,
-  Toolbox3: Toolbox3.default || Toolbox3,
-  TouchScreenDoubleTouch: TouchScreenDoubleTouch.default || TouchScreenDoubleTouch,
-  TouchScreenMoveDown: TouchScreenMoveDown.default || TouchScreenMoveDown,
-  TouchScreenMoveLeft: TouchScreenMoveLeft.default || TouchScreenMoveLeft,
-  TouchScreenMoveRight: TouchScreenMoveRight.default || TouchScreenMoveRight,
-  TouchScreenMoveUp: TouchScreenMoveUp.default || TouchScreenMoveUp,
-  TouchScreenPinch: TouchScreenPinch.default || TouchScreenPinch,
-  TouchScreenSingleTouch: TouchScreenSingleTouch.default || TouchScreenSingleTouch,
-  TouchScreenSpread: TouchScreenSpread.default || TouchScreenSpread,
-  TouchScreenSwipeDown1: TouchScreenSwipeDown1.default || TouchScreenSwipeDown1,
-  TouchScreenSwipeDown2: TouchScreenSwipeDown2.default || TouchScreenSwipeDown2,
-  TouchScreenSwipeDownSquare: TouchScreenSwipeDownSquare.default || TouchScreenSwipeDownSquare,
-  TouchScreenSwipeLeft1: TouchScreenSwipeLeft1.default || TouchScreenSwipeLeft1,
-  TouchScreenSwipeLeft2: TouchScreenSwipeLeft2.default || TouchScreenSwipeLeft2,
-  TouchScreenSwipeLeftSquare: TouchScreenSwipeLeftSquare.default || TouchScreenSwipeLeftSquare,
-  TouchScreenSwipeRight: TouchScreenSwipeRight.default || TouchScreenSwipeRight,
-  TouchScreenSwipeRight2: TouchScreenSwipeRight2.default || TouchScreenSwipeRight2,
-  TouchScreenSwipeRightSquare: TouchScreenSwipeRightSquare.default || TouchScreenSwipeRightSquare,
-  TouchScreenSwipeUp: TouchScreenSwipeUp.default || TouchScreenSwipeUp,
-  TouchScreenSwipeUp2: TouchScreenSwipeUp2.default || TouchScreenSwipeUp2,
-  TouchScreenSwipeUpSquare: TouchScreenSwipeUpSquare.default || TouchScreenSwipeUpSquare,
-  TouchScreenTwoFingersDouble: TouchScreenTwoFingersDouble.default || TouchScreenTwoFingersDouble,
-  TouchScreenTwoFingersSingle: TouchScreenTwoFingersSingle.default || TouchScreenTwoFingersSingle,
-  TouchScreenTwoFingersSwipeDown: TouchScreenTwoFingersSwipeDown.default || TouchScreenTwoFingersSwipeDown,
-  TouchScreenSwipeDown22: TouchScreenSwipeDown22.default || TouchScreenSwipeDown22,
-  TouchScreenSwipeLeft12: TouchScreenSwipeLeft12.default || TouchScreenSwipeLeft12,
-  TouchScreenSwipeLeft22: TouchScreenSwipeLeft22.default || TouchScreenSwipeLeft22,
-  TouchScreenSwipeRight1: TouchScreenSwipeRight1.default || TouchScreenSwipeRight1,
-  TouchScreenSwipeRight22: TouchScreenSwipeRight22.default || TouchScreenSwipeRight22,
-  TouchScreenSwipeUp1: TouchScreenSwipeUp1.default || TouchScreenSwipeUp1,
-  TouchScreenSwipeUp22: TouchScreenSwipeUp22.default || TouchScreenSwipeUp22,
-  TranslationLanguagesArrows1: TranslationLanguagesArrows1.default || TranslationLanguagesArrows1,
-  TranslationLanguagesArrows2: TranslationLanguagesArrows2.default || TranslationLanguagesArrows2,
-  TranslationLanguagesSpeech1: TranslationLanguagesSpeech1.default || TranslationLanguagesSpeech1,
-  TranslationArrowsSpeech: TranslationArrowsSpeech.default || TranslationArrowsSpeech,
-  TranslationSquares: TranslationSquares.default || TranslationSquares,
-  TrashArrowUpRestore: TrashArrowUpRestore.default || TrashArrowUpRestore,
-  TrashArrowUpRestoreAlt: TrashArrowUpRestoreAlt.default || TrashArrowUpRestoreAlt,
-  TrashArrowUpRestoreAlt2: TrashArrowUpRestoreAlt2.default || TrashArrowUpRestoreAlt2,
-  TrashArrowUpRestore4: TrashArrowUpRestore4.default || TrashArrowUpRestore4,
-  TrashArrowUpRestore5: TrashArrowUpRestore5.default || TrashArrowUpRestore5,
-  TrashArrowUpRestore6: TrashArrowUpRestore6.default || TrashArrowUpRestore6,
-  TrashDelete1: TrashDelete1.default || TrashDelete1,
-  TrashDelete2: TrashDelete2.default || TrashDelete2,
-  TrashDelete3: TrashDelete3.default || TrashDelete3,
-  TrashDelete4: TrashDelete4.default || TrashDelete4,
-  TrashDelete5: TrashDelete5.default || TrashDelete5,
-  Trash6: Trash6.default || Trash6,
-  Trash7: Trash7.default || Trash7,
-  Trash8: Trash8.default || Trash8,
-  Trash9: Trash9.default || Trash9,
-  TrashDelete10: TrashDelete10.default || TrashDelete10,
-  TrashDelete11: TrashDelete11.default || TrashDelete11,
-  TrashForbidden1: TrashForbidden1.default || TrashForbidden1,
-  TrashForbidden2: TrashForbidden2.default || TrashForbidden2,
-  TrashForbidden3: TrashForbidden3.default || TrashForbidden3,
-  TrashRecycle1: TrashRecycle1.default || TrashRecycle1,
-  TrashRecycle2: TrashRecycle2.default || TrashRecycle2,
-  TrashRecycle3: TrashRecycle3.default || TrashRecycle3,
-  TrashDelete42: TrashDelete42.default || TrashDelete42,
-  TrashDelete52: TrashDelete52.default || TrashDelete52,
-  TrashDeleteX1: TrashDeleteX1.default || TrashDeleteX1,
-  TrashDeleteX2: TrashDeleteX2.default || TrashDeleteX2,
-  TrashUndelete1: TrashUndelete1.default || TrashUndelete1,
-  TrashUndelete2: TrashUndelete2.default || TrashUndelete2,
-  TrashUndelete3: TrashUndelete3.default || TrashUndelete3,
-  TrashUndelete4: TrashUndelete4.default || TrashUndelete4,
-  UpgradeProgressBar: UpgradeProgressBar.default || UpgradeProgressBar,
-  UploadArrowCircle: UploadArrowCircle.default || UploadArrowCircle,
-  UploadArrowSquare: UploadArrowSquare.default || UploadArrowSquare,
-  UploadArrow1: UploadArrow1.default || UploadArrow1,
-  UploadArrow2: UploadArrow2.default || UploadArrow2,
-  UploadArrowBox1: UploadArrowBox1.default || UploadArrowBox1,
-  UploadArrowBox2: UploadArrowBox2.default || UploadArrowBox2,
-  UploadArrowBox3: UploadArrowBox3.default || UploadArrowBox3,
-  UploadArrowCircle1: UploadArrowCircle1.default || UploadArrowCircle1,
-  UploadArrowDashed: UploadArrowDashed.default || UploadArrowDashed,
-  UploadArrowDashedProgress1: UploadArrowDashedProgress1.default || UploadArrowDashedProgress1,
-  UploadArrowDashedProgress2: UploadArrowDashedProgress2.default || UploadArrowDashedProgress2,
-  UploadArrowSquares: UploadArrowSquares.default || UploadArrowSquares,
-  UploadSquaresStack2: UploadSquaresStack2.default || UploadSquaresStack2,
-  UploadSquaresStack3: UploadSquaresStack3.default || UploadSquaresStack3,
-  UploadSquaresStack4: UploadSquaresStack4.default || UploadSquaresStack4,
-  UploadTray1: UploadTray1.default || UploadTray1,
-  UploadDashed1: UploadDashed1.default || UploadDashed1,
-  UploadDashed2: UploadDashed2.default || UploadDashed2,
-  UploadUpdates: UploadUpdates.default || UploadUpdates,
-  UpvoteArrowDown1: UpvoteArrowDown1.default || UpvoteArrowDown1,
-  UpvoteArrowDown2: UpvoteArrowDown2.default || UpvoteArrowDown2,
-  UpvoteArrowDown3: UpvoteArrowDown3.default || UpvoteArrowDown3,
-  UpvoteArrowDown: UpvoteArrowDown.default || UpvoteArrowDown,
-  UpvoteButtonsChevron: UpvoteButtonsChevron.default || UpvoteButtonsChevron,
-  UpvoteLikeDislike: UpvoteLikeDislike.default || UpvoteLikeDislike,
-  UpvotePlusMinus: UpvotePlusMinus.default || UpvotePlusMinus,
+  ToolboxAngled: ToolboxAngled.default || ToolboxAngled,
+  ToolboxRound: ToolboxRound.default || ToolboxRound,
+  TagStack: TagStack.default || TagStack,
+  TouchTapDouble: TouchTapDouble.default || TouchTapDouble,
+  TouchMoveDown: TouchMoveDown.default || TouchMoveDown,
+  TouchMoveLeft: TouchMoveLeft.default || TouchMoveLeft,
+  TouchMoveRight: TouchMoveRight.default || TouchMoveRight,
+  TouchMoveUp: TouchMoveUp.default || TouchMoveUp,
+  TouchPinch: TouchPinch.default || TouchPinch,
+  TouchTap: TouchTap.default || TouchTap,
+  TouchSpread: TouchSpread.default || TouchSpread,
+  TouchSwipeDown: TouchSwipeDown.default || TouchSwipeDown,
+  TouchSwipeDownGap: TouchSwipeDownGap.default || TouchSwipeDownGap,
+  TouchSwipeDownSquare: TouchSwipeDownSquare.default || TouchSwipeDownSquare,
+  TouchSwipeLeft: TouchSwipeLeft.default || TouchSwipeLeft,
+  TouchSwipeLeftGap: TouchSwipeLeftGap.default || TouchSwipeLeftGap,
+  TouchSwipeLeftSquare: TouchSwipeLeftSquare.default || TouchSwipeLeftSquare,
+  TouchSwipeRight: TouchSwipeRight.default || TouchSwipeRight,
+  TouchSwipeRightGap: TouchSwipeRightGap.default || TouchSwipeRightGap,
+  TouchSwipeRightSquare: TouchSwipeRightSquare.default || TouchSwipeRightSquare,
+  TouchSwipeUp: TouchSwipeUp.default || TouchSwipeUp,
+  TouchSwipeUpGap: TouchSwipeUpGap.default || TouchSwipeUpGap,
+  TouchSwipeUpSquare: TouchSwipeUpSquare.default || TouchSwipeUpSquare,
+  TouchTapDoubleTwoFingers: TouchTapDoubleTwoFingers.default || TouchTapDoubleTwoFingers,
+  TouchTapTwoFingers: TouchTapTwoFingers.default || TouchTapTwoFingers,
+  TouchSwipeDownTwoFingers: TouchSwipeDownTwoFingers.default || TouchSwipeDownTwoFingers,
+  TouchSwipeDownTwoFingersGap: TouchSwipeDownTwoFingersGap.default || TouchSwipeDownTwoFingersGap,
+  TouchSwipeLeftTwoFingers: TouchSwipeLeftTwoFingers.default || TouchSwipeLeftTwoFingers,
+  TouchSwipeLeftTwoFingersGap: TouchSwipeLeftTwoFingersGap.default || TouchSwipeLeftTwoFingersGap,
+  TouchSwipeRightTwoFingers: TouchSwipeRightTwoFingers.default || TouchSwipeRightTwoFingers,
+  TouchSwipeRightTwoFingersGap: TouchSwipeRightTwoFingersGap.default || TouchSwipeRightTwoFingersGap,
+  TouchSwipeUpTwoFingers: TouchSwipeUpTwoFingers.default || TouchSwipeUpTwoFingers,
+  TouchSwipeUpTwoFingersGap: TouchSwipeUpTwoFingersGap.default || TouchSwipeUpTwoFingersGap,
+  TranslateSync: TranslateSync.default || TranslateSync,
+  TranslateSyncCode: TranslateSyncCode.default || TranslateSyncCode,
+  TranslateChatSplit: TranslateChatSplit.default || TranslateChatSplit,
+  TranslateChatStack: TranslateChatStack.default || TranslateChatStack,
+  TranslateSquareStack: TranslateSquareStack.default || TranslateSquareStack,
+  TrashArrowUpLid: TrashArrowUpLid.default || TrashArrowUpLid,
+  TrashArrowUpNarrow: TrashArrowUpNarrow.default || TrashArrowUpNarrow,
+  TrashArrowUpTapered: TrashArrowUpTapered.default || TrashArrowUpTapered,
+  TrashArrowUpDetached: TrashArrowUpDetached.default || TrashArrowUpDetached,
+  TrashArrowUpNotch: TrashArrowUpNotch.default || TrashArrowUpNotch,
+  TrashArrowUp: TrashArrowUp.default || TrashArrowUp,
+  TrashLid: TrashLid.default || TrashLid,
+  TrashNarrow: TrashNarrow.default || TrashNarrow,
+  TrashTapered: TrashTapered.default || TrashTapered,
+  TrashDetached: TrashDetached.default || TrashDetached,
+  TrashBasket: TrashBasket.default || TrashBasket,
+  TrashNotch: TrashNotch.default || TrashNotch,
+  TrashEmptyNotch: TrashEmptyNotch.default || TrashEmptyNotch,
+  Trash: Trash.default || Trash,
+  TrashEmpty: TrashEmpty.default || TrashEmpty,
+  TrashDome: TrashDome.default || TrashDome,
+  TrashEmptyPeak: TrashEmptyPeak.default || TrashEmptyPeak,
+  TrashBan: TrashBan.default || TrashBan,
+  TrashBanNotch: TrashBanNotch.default || TrashBanNotch,
+  TrashBanDetached: TrashBanDetached.default || TrashBanDetached,
+  TrashRecycleNotch: TrashRecycleNotch.default || TrashRecycleNotch,
+  TrashRecycleRoundNotch: TrashRecycleRoundNotch.default || TrashRecycleRoundNotch,
+  TrashSync: TrashSync.default || TrashSync,
+  TrashSyncNotch: TrashSyncNotch.default || TrashSyncNotch,
+  TrashSyncDetached: TrashSyncDetached.default || TrashSyncDetached,
+  TrashXNotch: TrashXNotch.default || TrashXNotch,
+  TrashX: TrashX.default || TrashX,
+  TrashRefresh: TrashRefresh.default || TrashRefresh,
+  TrashRefreshCenterNotch: TrashRefreshCenterNotch.default || TrashRefreshCenterNotch,
+  TrashRefreshNotch: TrashRefreshNotch.default || TrashRefreshNotch,
+  TrashRefreshDetached: TrashRefreshDetached.default || TrashRefreshDetached,
+  GearProgress: GearProgress.default || GearProgress,
+  UploadCircle: UploadCircle.default || UploadCircle,
+  UploadSquareOpen: UploadSquareOpen.default || UploadSquareOpen,
+  Upload: Upload.default || Upload,
+  UploadFlat: UploadFlat.default || UploadFlat,
+  UploadBox: UploadBox.default || UploadBox,
+  UploadBoxNotch: UploadBoxNotch.default || UploadBoxNotch,
+  UploadSquareNotch: UploadSquareNotch.default || UploadSquareNotch,
+  UploadCircleFlat: UploadCircleFlat.default || UploadCircleFlat,
+  UploadSquareDashed: UploadSquareDashed.default || UploadSquareDashed,
+  UploadCircleDashedHalf: UploadCircleDashedHalf.default || UploadCircleDashedHalf,
+  UploadCircleDashed: UploadCircleDashed.default || UploadCircleDashed,
+  UploadSquareStack: UploadSquareStack.default || UploadSquareStack,
+  UploadSquareStackCorner: UploadSquareStackCorner.default || UploadSquareStackCorner,
+  UploadSquareStackOpen: UploadSquareStackOpen.default || UploadSquareStackOpen,
+  UploadSquareStackOpen2: UploadSquareStackOpen2.default || UploadSquareStackOpen2,
+  UploadTraySquare: UploadTraySquare.default || UploadTraySquare,
+  UploadDotted: UploadDotted.default || UploadDotted,
+  UploadDottedFlat: UploadDottedFlat.default || UploadDottedFlat,
+  UploadTriangle: UploadTriangle.default || UploadTriangle,
+  VoteArrows: VoteArrows.default || VoteArrows,
+  VoteArrowsHollow: VoteArrowsHollow.default || VoteArrowsHollow,
+  VoteTriangles: VoteTriangles.default || VoteTriangles,
+  VoteTrianglesRound: VoteTrianglesRound.default || VoteTrianglesRound,
+  VoteChevronSquare: VoteChevronSquare.default || VoteChevronSquare,
+  VoteThumbs: VoteThumbs.default || VoteThumbs,
+  VotePlusMinus: VotePlusMinus.default || VotePlusMinus,
   VoteArrowsPlusMinus: VoteArrowsPlusMinus.default || VoteArrowsPlusMinus,
-  UserHead362: UserHead362.default || UserHead362,
   UserMenu: UserMenu.default || UserMenu,
-  ViewsGroupAdd: ViewsGroupAdd.default || ViewsGroupAdd,
-  ViewsGroupAdd2: ViewsGroupAdd2.default || ViewsGroupAdd2,
+  SquareStackPlusCircle: SquareStackPlusCircle.default || SquareStackPlusCircle,
+  SquareStackPlusCircleShadow: SquareStackPlusCircleShadow.default || SquareStackPlusCircleShadow,
   Vip: Vip.default || Vip,
-  VipLines: VipLines.default || VipLines,
-  VipRectangle: VipRectangle.default || VipRectangle,
-  Vpn1: Vpn1.default || Vpn1,
-  Vpn2: Vpn2.default || Vpn2,
-  VrArRectangle: VrArRectangle.default || VrArRectangle,
-  VRCubeDashed: VRCubeDashed.default || VRCubeDashed,
-  VRCubeHalf: VRCubeHalf.default || VRCubeHalf,
-  VRCubeFramed1: VRCubeFramed1.default || VRCubeFramed1,
-  VRCubeFramed2: VRCubeFramed2.default || VRCubeFramed2,
-  VRDeviceCubeCentered: VRDeviceCubeCentered.default || VRDeviceCubeCentered,
-  VRDeviceDimensions: VRDeviceDimensions.default || VRDeviceDimensions,
-  VRDeviceLimits: VRDeviceLimits.default || VRDeviceLimits,
-  VRGlasses: VRGlasses.default || VRGlasses,
-  VRHeadsetPerson1: VRHeadsetPerson1.default || VRHeadsetPerson1,
-  VRHeadsetPerson2: VRHeadsetPerson2.default || VRHeadsetPerson2,
-  VRHeadset1: VRHeadset1.default || VRHeadset1,
-  VRHeadset2: VRHeadset2.default || VRHeadset2,
-  VRHeadset3: VRHeadset3.default || VRHeadset3,
-  WallpaperPictureDashed: WallpaperPictureDashed.default || WallpaperPictureDashed,
-  WallpaperPictureFramed: WallpaperPictureFramed.default || WallpaperPictureFramed,
-  WarningExclamationCircle: WarningExclamationCircle.default || WarningExclamationCircle,
-  WarningCircle: WarningCircle.default || WarningCircle,
-  WarningSquare: WarningSquare.default || WarningSquare,
-  WarningSquareAlt: WarningSquareAlt.default || WarningSquareAlt,
-  WarningSquareStack: WarningSquareStack.default || WarningSquareStack,
-  WarningSquareStackAlt: WarningSquareStackAlt.default || WarningSquareStackAlt,
-  WarningSquareStackDouble: WarningSquareStackDouble.default || WarningSquareStackDouble,
-  WarningTriangle: WarningTriangle.default || WarningTriangle,
-  WarningTriangleAlt: WarningTriangleAlt.default || WarningTriangleAlt,
-  WarningTriangleAlt2: WarningTriangleAlt2.default || WarningTriangleAlt2,
-  WarningTriangleAlt3: WarningTriangleAlt3.default || WarningTriangleAlt3,
+  VipBars: VipBars.default || VipBars,
+  VipSquare: VipSquare.default || VipSquare,
+  Vpn: Vpn.default || Vpn,
+  VpnLines: VpnLines.default || VpnLines,
+  ARSquare: ARSquare.default || ARSquare,
+  CubeArrowsOut: CubeArrowsOut.default || CubeArrowsOut,
+  MobileCubeOverlap: MobileCubeOverlap.default || MobileCubeOverlap,
+  CubeFocus: CubeFocus.default || CubeFocus,
+  CubeFocusSmall: CubeFocusSmall.default || CubeFocusSmall,
+  MobileCube: MobileCube.default || MobileCube,
+  MobilePlane: MobilePlane.default || MobilePlane,
+  MobileBounds: MobileBounds.default || MobileBounds,
+  Glasses: Glasses.default || Glasses,
+  VrHeadsetUser: VrHeadsetUser.default || VrHeadsetUser,
+  VrHeadsetUserSmall: VrHeadsetUserSmall.default || VrHeadsetUserSmall,
+  VrHeadsetSensors: VrHeadsetSensors.default || VrHeadsetSensors,
+  VrHeadset: VrHeadset.default || VrHeadset,
+  VrHeadsetGoggles: VrHeadsetGoggles.default || VrHeadsetGoggles,
+  ImageDashed: ImageDashed.default || ImageDashed,
+  ImageCorners: ImageCorners.default || ImageCorners,
+  AlertCircle: AlertCircle.default || AlertCircle,
+  AlertCircleSmall: AlertCircleSmall.default || AlertCircleSmall,
+  AlertSquare: AlertSquare.default || AlertSquare,
+  AlertSquareSmall: AlertSquareSmall.default || AlertSquareSmall,
+  AlertSquareStack: AlertSquareStack.default || AlertSquareStack,
+  AlertSquareStackOverlap: AlertSquareStackOverlap.default || AlertSquareStackOverlap,
+  AlertSquareStackSide: AlertSquareStackSide.default || AlertSquareStackSide,
+  Warning: Warning.default || Warning,
+  WarningRound: WarningRound.default || WarningRound,
+  WarningWide: WarningWide.default || WarningWide,
+  WarningSmall: WarningSmall.default || WarningSmall,
   WarningDashed: WarningDashed.default || WarningDashed,
-  WarningForbidden1: WarningForbidden1.default || WarningForbidden1,
-  WarningForbidden2: WarningForbidden2.default || WarningForbidden2,
-  WarningForbidden3: WarningForbidden3.default || WarningForbidden3,
-  WarningForbidden4: WarningForbidden4.default || WarningForbidden4,
-  WarningHighRisk: WarningHighRisk.default || WarningHighRisk,
-  Warning1: Warning1.default || Warning1,
-  Warning2: Warning2.default || Warning2,
-  Warning3: Warning3.default || Warning3,
-  WarningForbiddenBar: WarningForbiddenBar.default || WarningForbiddenBar,
-  WarningTriangleForbidden2: WarningTriangleForbidden2.default || WarningTriangleForbidden2,
-  WarningTriangleForbidden3: WarningTriangleForbidden3.default || WarningTriangleForbidden3,
-  WebpageWww: WebpageWww.default || WebpageWww,
-  WebsitePortalChair1: WebsitePortalChair1.default || WebsitePortalChair1,
-  WebsitePortalChair2: WebsitePortalChair2.default || WebsitePortalChair2,
-  WebsitePortalChart: WebsitePortalChart.default || WebsitePortalChart,
-  WebsitePortalTrends1: WebsitePortalTrends1.default || WebsitePortalTrends1,
-  WebsitePortalTrends2: WebsitePortalTrends2.default || WebsitePortalTrends2,
-  WebsitePortalCompass: WebsitePortalCompass.default || WebsitePortalCompass,
-  WebsitePortalDating: WebsitePortalDating.default || WebsitePortalDating,
-  WebsitePortalHeart: WebsitePortalHeart.default || WebsitePortalHeart,
-  WebsitePortalHandbag: WebsitePortalHandbag.default || WebsitePortalHandbag,
-  WebsitePortalShoe: WebsitePortalShoe.default || WebsitePortalShoe,
-  WebsitePortalBill: WebsitePortalBill.default || WebsitePortalBill,
-  WebsitePortalBlossom: WebsitePortalBlossom.default || WebsitePortalBlossom,
-  WebsitePortalFlower: WebsitePortalFlower.default || WebsitePortalFlower,
-  WebsitePortalScale: WebsitePortalScale.default || WebsitePortalScale,
-  WebsitePortalCamera: WebsitePortalCamera.default || WebsitePortalCamera,
-  WebsitePortalFilm: WebsitePortalFilm.default || WebsitePortalFilm,
-  WebsitePortalShield: WebsitePortalShield.default || WebsitePortalShield,
-  WebsitePortalTool1: WebsitePortalTool1.default || WebsitePortalTool1,
-  WebsitePortalTool2: WebsitePortalTool2.default || WebsitePortalTool2,
-  WebsitePortalDelete: WebsitePortalDelete.default || WebsitePortalDelete,
-  WebsitePortalWarning: WebsitePortalWarning.default || WebsitePortalWarning,
-  WebsitePortalWeather: WebsitePortalWeather.default || WebsitePortalWeather,
-  WidgetDelete1: WidgetDelete1.default || WidgetDelete1,
-  WidgetDelete2: WidgetDelete2.default || WidgetDelete2,
-  WifiSignalHotspot1: WifiSignalHotspot1.default || WifiSignalHotspot1,
-  WifiSignalHotspot2: WifiSignalHotspot2.default || WifiSignalHotspot2,
-  WifiSignalHotspot3: WifiSignalHotspot3.default || WifiSignalHotspot3,
-  WifiSignalHotspot4: WifiSignalHotspot4.default || WifiSignalHotspot4,
-  WifiSignal5: WifiSignal5.default || WifiSignal5,
-  WifiSignal6: WifiSignal6.default || WifiSignal6,
-  WifiSignal7: WifiSignal7.default || WifiSignal7,
-  WifiSignal8: WifiSignal8.default || WifiSignal8,
-  WifiSignal9: WifiSignal9.default || WifiSignal9,
-  WifiSignalHotspot10: WifiSignalHotspot10.default || WifiSignalHotspot10,
-  WindowAdvertisementArrowIn1: WindowAdvertisementArrowIn1.default || WindowAdvertisementArrowIn1,
-  WindowAdvertisementArrowIn2: WindowAdvertisementArrowIn2.default || WindowAdvertisementArrowIn2,
-  WindowAdvertisementArrowIn3: WindowAdvertisementArrowIn3.default || WindowAdvertisementArrowIn3,
-  WindowControlFullscreen: WindowControlFullscreen.default || WindowControlFullscreen,
-  WindowControlFullscreenCircle: WindowControlFullscreenCircle.default || WindowControlFullscreenCircle,
-  WindowControlFullscreen2: WindowControlFullscreen2.default || WindowControlFullscreen2,
-  WindowControlMinimize: WindowControlMinimize.default || WindowControlMinimize,
-  WindowControlMinimizeSquare: WindowControlMinimizeSquare.default || WindowControlMinimizeSquare,
-  WindowControlRestore: WindowControlRestore.default || WindowControlRestore,
-  WindowControlRestoreSquare: WindowControlRestoreSquare.default || WindowControlRestoreSquare,
-  WindowDockingBottom: WindowDockingBottom.default || WindowDockingBottom,
-  WindowDockingFill: WindowDockingFill.default || WindowDockingFill,
-  WindowDockingHorizontal: WindowDockingHorizontal.default || WindowDockingHorizontal,
-  WindowDockingLeft: WindowDockingLeft.default || WindowDockingLeft,
-  WindowDockingRight: WindowDockingRight.default || WindowDockingRight,
-  WindowDockingTop: WindowDockingTop.default || WindowDockingTop,
-  WindowDockingVertical: WindowDockingVertical.default || WindowDockingVertical,
-  WindowPopUp1: WindowPopUp1.default || WindowPopUp1,
-  WindowPopUp2: WindowPopUp2.default || WindowPopUp2,
-  WindowPopUp3: WindowPopUp3.default || WindowPopUp3,
-  WindowPopUp4: WindowPopUp4.default || WindowPopUp4,
-  WindowPopUp5: WindowPopUp5.default || WindowPopUp5,
-  WindowsPopUp1: WindowsPopUp1.default || WindowsPopUp1,
-  WindowsPopUp2: WindowsPopUp2.default || WindowsPopUp2,
-  WindowsPopUp3: WindowsPopUp3.default || WindowsPopUp3,
-  XArrowBack1: XArrowBack1.default || XArrowBack1,
-  XArrowBack2: XArrowBack2.default || XArrowBack2,
-  XDelete1: XDelete1.default || XDelete1,
-  XDelete2: XDelete2.default || XDelete2,
-  XDelete3: XDelete3.default || XDelete3,
-  XDelete4: XDelete4.default || XDelete4,
-  XDeleteCircle1: XDeleteCircle1.default || XDeleteCircle1,
-  XDeleteCircle2: XDeleteCircle2.default || XDeleteCircle2,
-  XDeleteCircle3: XDeleteCircle3.default || XDeleteCircle3,
-  XDeleteCircle4: XDeleteCircle4.default || XDeleteCircle4,
-  XDeleteOctagon1: XDeleteOctagon1.default || XDeleteOctagon1,
-  XDeleteOctagon2: XDeleteOctagon2.default || XDeleteOctagon2,
-  XDeleteSquare1: XDeleteSquare1.default || XDeleteSquare1,
-  XDeleteSquare2: XDeleteSquare2.default || XDeleteSquare2,
-  XDeleteSquare3: XDeleteSquare3.default || XDeleteSquare3,
-  XDeleteSquare4: XDeleteSquare4.default || XDeleteSquare4,
+  WarningOff: WarningOff.default || WarningOff,
+  WarningOffRound: WarningOffRound.default || WarningOffRound,
+  WarningOffWide: WarningOffWide.default || WarningOffWide,
+  WarningOffSmall: WarningOffSmall.default || WarningOffSmall,
+  WarningRays: WarningRays.default || WarningRays,
+  Triangle: Triangle.default || Triangle,
+  TriangleWide: TriangleWide.default || TriangleWide,
+  TriangleSmall: TriangleSmall.default || TriangleSmall,
+  TriangleOff: TriangleOff.default || TriangleOff,
+  TriangleOffWide: TriangleOffWide.default || TriangleOffWide,
+  TriangleOffSmall: TriangleOffSmall.default || TriangleOffSmall,
+  FolderWww: FolderWww.default || FolderWww,
+  BrowserArmchair: BrowserArmchair.default || BrowserArmchair,
+  BrowserArmchairRound: BrowserArmchairRound.default || BrowserArmchairRound,
+  BrowserChartArrow: BrowserChartArrow.default || BrowserChartArrow,
+  BrowserChart: BrowserChart.default || BrowserChart,
+  BrowserChartZigzag: BrowserChartZigzag.default || BrowserChartZigzag,
+  BrowserCompass: BrowserCompass.default || BrowserCompass,
+  BrowserHeartCenter: BrowserHeartCenter.default || BrowserHeartCenter,
+  BrowserHeart: BrowserHeart.default || BrowserHeart,
+  BrowserHandbag: BrowserHandbag.default || BrowserHandbag,
+  BrowserShoe: BrowserShoe.default || BrowserShoe,
+  BrowserBanknote: BrowserBanknote.default || BrowserBanknote,
+  BrowserFlowerPointed: BrowserFlowerPointed.default || BrowserFlowerPointed,
+  BrowserFlower: BrowserFlower.default || BrowserFlower,
+  BrowserScale: BrowserScale.default || BrowserScale,
+  BrowserMovieCamera: BrowserMovieCamera.default || BrowserMovieCamera,
+  BrowserFilm: BrowserFilm.default || BrowserFilm,
+  BrowserShield: BrowserShield.default || BrowserShield,
+  BrowserWrench: BrowserWrench.default || BrowserWrench,
+  BrowserWrench2: BrowserWrench2.default || BrowserWrench2,
+  BrowserTrash: BrowserTrash.default || BrowserTrash,
+  BrowserTriangle: BrowserTriangle.default || BrowserTriangle,
+  BrowserCloudSun: BrowserCloudSun.default || BrowserCloudSun,
+  WidgetX: WidgetX.default || WidgetX,
+  WidgetXBlob: WidgetXBlob.default || WidgetXBlob,
+  Hotspot: Hotspot.default || Hotspot,
+  HotspotLarge: HotspotLarge.default || HotspotLarge,
+  HotspotSides: HotspotSides.default || HotspotSides,
+  HotspotSidesLarge: HotspotSidesLarge.default || HotspotSidesLarge,
+  HotspotStem: HotspotStem.default || HotspotStem,
+  HotspotStemLarge: HotspotStemLarge.default || HotspotStemLarge,
+  HotspotSidesStem: HotspotSidesStem.default || HotspotSidesStem,
+  HotspotSidesStemLarge: HotspotSidesStemLarge.default || HotspotSidesStemLarge,
+  HotspotDots: HotspotDots.default || HotspotDots,
+  HotspotDotsLarge: HotspotDotsLarge.default || HotspotDotsLarge,
+  WindowArrowUpRight: WindowArrowUpRight.default || WindowArrowUpRight,
+  WindowArrowUpRightBare: WindowArrowUpRightBare.default || WindowArrowUpRightBare,
+  WindowArrowUpRightPlain: WindowArrowUpRightPlain.default || WindowArrowUpRightPlain,
+  Fullscreen: Fullscreen.default || Fullscreen,
+  FullscreenCircle: FullscreenCircle.default || FullscreenCircle,
+  FullscreenTriangles: FullscreenTriangles.default || FullscreenTriangles,
+  Minimize: Minimize.default || Minimize,
+  MinimizeSquare: MinimizeSquare.default || MinimizeSquare,
+  Restore: Restore.default || Restore,
+  RestoreSquare: RestoreSquare.default || RestoreSquare,
+  DockBottom: DockBottom.default || DockBottom,
+  DockFill: DockFill.default || DockFill,
+  DockHorizontal: DockHorizontal.default || DockHorizontal,
+  DockLeft: DockLeft.default || DockLeft,
+  DockRight: DockRight.default || DockRight,
+  DockTop: DockTop.default || DockTop,
+  DockVertical: DockVertical.default || DockVertical,
+  WindowModalTitled: WindowModalTitled.default || WindowModalTitled,
+  WindowModalBare: WindowModalBare.default || WindowModalBare,
+  WindowModal: WindowModal.default || WindowModal,
+  PopoverWindow: PopoverWindow.default || PopoverWindow,
+  PopoverWindowPlain: PopoverWindowPlain.default || PopoverWindowPlain,
+  WindowStackShadow: WindowStackShadow.default || WindowStackShadow,
+  WindowStackShadowBare: WindowStackShadowBare.default || WindowStackShadowBare,
+  WindowStack: WindowStack.default || WindowStack,
+  XUndo: XUndo.default || XUndo,
+  XUndoWide: XUndoWide.default || XUndoWide,
+  XLarge: XLarge.default || XLarge,
+  X: X.default || X,
+  XSmall: XSmall.default || XSmall,
+  XTiny: XTiny.default || XTiny,
+  XCircleLarge: XCircleLarge.default || XCircleLarge,
+  XCircle: XCircle.default || XCircle,
+  XCircleSmall: XCircleSmall.default || XCircleSmall,
+  XCircleCompact: XCircleCompact.default || XCircleCompact,
+  XOctagonLarge: XOctagonLarge.default || XOctagonLarge,
+  XOctagon: XOctagon.default || XOctagon,
+  XSquareLarge: XSquareLarge.default || XSquareLarge,
+  XSquare: XSquare.default || XSquare,
+  XSquareSmall: XSquareSmall.default || XSquareSmall,
+  XSquareCompact: XSquareCompact.default || XSquareCompact,
+  AccessibilityPerson: Accessibility.default || Accessibility,
+  AccessibilityPersonCircle: AccessibilityCircle.default || AccessibilityCircle,
+  AccessibilityPersonNUI1: AccessibilityNodes.default || AccessibilityNodes,
+  AccessibilityPersonNUI2: AccessibilityNodesFilled.default || AccessibilityNodesFilled,
+  AccessibilityPersonPentagon: AccessibilityPentagon.default || AccessibilityPentagon,
+  AccessibilityPersonSquare: AccessibilitySquare.default || AccessibilitySquare,
+  AccessibilitySettingsPerson1: AccessibilitySettings.default || AccessibilitySettings,
+  AccessibilitySettingsPerson2: AccessibilityGearWavy.default || AccessibilityGearWavy,
+  AccessibilitySettingsPersonGear3: AccessibilityGear.default || AccessibilityGear,
+  AccessibilitySettingsPersonGear4: AccessibilityGearSharp.default || AccessibilityGearSharp,
+  AccessibilitySettingsPersonGearCircle1: AccessibilityCircleSettingsLarge.default || AccessibilityCircleSettingsLarge,
+  AccessibilitySettingsPersonGearCircle2: AccessibilityCircleSettings.default || AccessibilityCircleSettings,
+  AccessibilitySettingsPersonGearSquare1: AccessibilitySquareSettingsLarge.default || AccessibilitySquareSettingsLarge,
+  AccessibilitySettingsPersonGearSquare2: AccessibilitySquareSettings.default || AccessibilitySquareSettings,
+  Add1: Plus.default || Plus,
+  Add2: PlusSmall.default || PlusSmall,
+  AddCircle: PlusCircle.default || PlusCircle,
+  AddFontA: FontPlus.default || FontPlus,
+  AddSquare: PlusSquare.default || PlusSquare,
+  AdvancedSearchGear: GearSearchLarge.default || GearSearchLarge,
+  AdvancedSearchLupeGear1: GearSearch.default || GearSearch,
+  AdvancedSearchLupeGear2: GearSearchCorner.default || GearSearchCorner,
+  AdvancedSearchLupeGear3: GearSearchDown.default || GearSearchDown,
+  AgendaContacts0: AddressBook.default || AddressBook,
+  AgendaContacts1: AddressBookHooks.default || AddressBookHooks,
+  AgendaContacts10: AddressBookStackClipped.default || AddressBookStackClipped,
+  AgendaContacts11: AddressBookPlain.default || AddressBookPlain,
+  AgendaContacts2: AddressBookBound.default || AddressBookBound,
+  AgendaContacts3: AddressBookAt.default || AddressBookAt,
+  AgendaContacts4: AddressBookAtHooks.default || AddressBookAtHooks,
+  AgendaContacts5: AddressBookAtBound.default || AddressBookAtBound,
+  AgendaContacts69: AddressBookBoundSharp.default || AddressBookBoundSharp,
+  AgendaContacts7: AddressBookSpine.default || AddressBookSpine,
+  AgendaContacts8: AddressBookTabs.default || AddressBookTabs,
+  AgendaContacts9: AddressBookStack.default || AddressBookStack,
+  Airplay1: Airplay.default || Airplay,
+  Airplay2: AirplayTall.default || AirplayTall,
+  AirplayPairing: AirplayPair.default || AirplayPair,
+  AirplaySignal1: AirplaySignal.default || AirplaySignal,
+  AirplaySignal2: AirplaySignalCircle.default || AirplaySignalCircle,
+  AirplaySignal3: AirplaySignalLarge.default || AirplaySignalLarge,
+  AirplaySignal4: AirplayWifi.default || AirplayWifi,
+  AirplaySignalSquare1: AirplaySignalSquare.default || AirplaySignalSquare,
+  AirplaySignalSquare2: AirplaySignalSquareLarge.default || AirplaySignalSquareLarge,
+  AnimatedCircleMoving1: CircleMotion.default || CircleMotion,
+  AnimatedCircleMoving2: CircleMotionDotted.default || CircleMotionDotted,
+  AnimatedDiamondMoving1: DiamondMotion.default || DiamondMotion,
+  AnimatedDiamondMoving2: DiamondMotionDotted.default || DiamondMotionDotted,
+  ApplicationWindow1: Window.default || Window,
+  ApplicationWindow1ArrowLeftRight: WindowArrowLeftRight.default || WindowArrowLeftRight,
+  ApplicationWindow1Bulb1: WindowLightbulbCenter.default || WindowLightbulbCenter,
+  ApplicationWindow1Bulb2: WindowLightbulb.default || WindowLightbulb,
+  ApplicationWindow1Chart4: WindowChart.default || WindowChart,
+  ApplicationWindow1Chart5: WindowChartZigzag.default || WindowChartZigzag,
+  ApplicationWindow1Chart6: WindowChartArrow.default || WindowChartArrow,
+  ApplicationWindow1CircleDotsMenu: WindowDotsCircle.default || WindowDotsCircle,
+  ApplicationWindow1Cloud2: WindowCloud2.default || WindowCloud2,
+  ApplicationWindow1Cloud3: WindowCloudPuffy.default || WindowCloudPuffy,
+  ApplicationWindow1Cloud4: WindowCloud.default || WindowCloud,
+  ApplicationWindow1ColorPicker: WindowEyedropper.default || WindowEyedropper,
+  ApplicationWindow1DotsMenu: WindowDotsVertical.default || WindowDotsVertical,
+  ApplicationWindow1Excel: WindowLetterX.default || WindowLetterX,
+  ApplicationWindow1Heart3: WindowHeartCenter.default || WindowHeartCenter,
+  ApplicationWindow1Heart4: WindowHeart.default || WindowHeart,
+  ApplicationWindow1InternetExplorer2: WindowLetterE.default || WindowLetterE,
+  ApplicationWindow1Key1: WindowKeyHorizontal.default || WindowKeyHorizontal,
+  ApplicationWindow1Key2: WindowKeySkeleton.default || WindowKeySkeleton,
+  ApplicationWindow1Key3: WindowKey.default || WindowKey,
+  ApplicationWindow1Key4: WindowKeyDot.default || WindowKeyDot,
+  ApplicationWindow1Key5: WindowPassword.default || WindowPassword,
+  ApplicationWindow1Lightning1: WindowBoltCenter.default || WindowBoltCenter,
+  ApplicationWindow1Lightning2: WindowBolt.default || WindowBolt,
+  ApplicationWindow1Lightning4: WindowBoltWide.default || WindowBoltWide,
+  ApplicationWindow1Music1: WindowMusicCenter.default || WindowMusicCenter,
+  ApplicationWindow1Music2: WindowMusic.default || WindowMusic,
+  ApplicationWindow1MusicNote3: WindowMusicDoubleCenter.default || WindowMusicDoubleCenter,
+  ApplicationWindow1MusicNote4: WindowMusicDouble.default || WindowMusicDouble,
+  ApplicationWindow1Pdf: WindowPdf.default || WindowPdf,
+  ApplicationWindow1Rosette1: WindowMedal.default || WindowMedal,
+  ApplicationWindow1Rosette2: WindowSeal.default || WindowSeal,
+  ApplicationWindow1Rosette3: WindowAward.default || WindowAward,
+  ApplicationWindow1Rosette4: WindowRosette.default || WindowRosette,
+  ApplicationWindow1Search: WindowSearch.default || WindowSearch,
+  ApplicationWindow1Settings3: WindowSettingsCenter.default || WindowSettingsCenter,
+  ApplicationWindow1Settings4: WindowSettings.default || WindowSettings,
+  ApplicationWindow1Shield1: WindowShieldCenter.default || WindowShieldCenter,
+  ApplicationWindow1Shield2: WindowShield.default || WindowShield,
+  ApplicationWindow1Speech1: WindowChat.default || WindowChat,
+  ApplicationWindow1Speech2: WindowChatCorner.default || WindowChatCorner,
+  ApplicationWindow1Speech3: WindowChatRound.default || WindowChatRound,
+  ApplicationWindow1Star1: WindowStarCenter.default || WindowStarCenter,
+  ApplicationWindow1Star2: WindowStar.default || WindowStar,
+  ApplicationWindow1Tools1: WindowWrench.default || WindowWrench,
+  ApplicationWindow1Tools2: WindowWrench2.default || WindowWrench2,
+  ApplicationWindow1Word: WindowLetterW.default || WindowLetterW,
+  ApplicationWindow2: WindowDotsRight.default || WindowDotsRight,
+  ApplicationWindow2ArrowLeftRight1: WindowArrowLeftRightBare.default || WindowArrowLeftRightBare,
+  ApplicationWindow2ArrowLeftRight2: WindowArrowLeftRightBare2.default || WindowArrowLeftRightBare2,
+  ApplicationWindow2Bulb: WindowLightbulbBare.default || WindowLightbulbBare,
+  ApplicationWindow2Chart1: WindowChartBare.default || WindowChartBare,
+  ApplicationWindow2Chart2: WindowChartZigzagBare.default || WindowChartZigzagBare,
+  ApplicationWindow2Chart3: WindowChartArrowBare.default || WindowChartArrowBare,
+  ApplicationWindow2Check: WindowCheck.default || WindowCheck,
+  ApplicationWindow2CircleDots: WindowDotsCircleBare.default || WindowDotsCircleBare,
+  ApplicationWindow2Cloud1: WindowCloudCenterBare.default || WindowCloudCenterBare,
+  ApplicationWindow2Cloud2: WindowCloudBare.default || WindowCloudBare,
+  ApplicationWindow2Cloud3: WindowCloudBare2.default || WindowCloudBare2,
+  ApplicationWindow2Cloud4: WindowCloudPuffyBare.default || WindowCloudPuffyBare,
+  ApplicationWindow2ColorPicker: WindowEyedropperBare.default || WindowEyedropperBare,
+  ApplicationWindow2DotsMenu: WindowDotsVerticalBare.default || WindowDotsVerticalBare,
+  ApplicationWindow2Excel: WindowLetterXBare.default || WindowLetterXBare,
+  ApplicationWindow2Heart1: WindowHeartCenterBare.default || WindowHeartCenterBare,
+  ApplicationWindow2Heart2: WindowHeartBare.default || WindowHeartBare,
+  ApplicationWindow2InternetExplorer: WindowLetterEBare.default || WindowLetterEBare,
+  ApplicationWindow2Key1: WindowKeyHorizontalBare.default || WindowKeyHorizontalBare,
+  ApplicationWindow2Key2: WindowKeySkeletonBare.default || WindowKeySkeletonBare,
+  ApplicationWindow2Key3: WindowKeyDotBare.default || WindowKeyDotBare,
+  ApplicationWindow2Key4: WindowPasswordBare.default || WindowPasswordBare,
+  ApplicationWindow2Key5: WindowChatBare.default || WindowChatBare,
+  ApplicationWindow2Key6: WindowChatCornerBare.default || WindowChatCornerBare,
+  ApplicationWindow2Lightning1: WindowBoltCenterBare.default || WindowBoltCenterBare,
+  ApplicationWindow2Lightning2: WindowBoltBare.default || WindowBoltBare,
+  ApplicationWindow2Lightning3: WindowBoltWideBare.default || WindowBoltWideBare,
+  ApplicationWindow2Medal3: WindowAwardBare.default || WindowAwardBare,
+  ApplicationWindow2Medal4: WindowRosetteBare.default || WindowRosetteBare,
+  ApplicationWindow2Music1: WindowMusicCenterBare.default || WindowMusicCenterBare,
+  ApplicationWindow2Music2: WindowMusicBare.default || WindowMusicBare,
+  ApplicationWindow2Music3: WindowMusicDoubleCenterBare.default || WindowMusicDoubleCenterBare,
+  ApplicationWindow2Music4: WindowMusicDoubleBare.default || WindowMusicDoubleBare,
+  ApplicationWindow2Pdf: WindowPdfBare.default || WindowPdfBare,
+  ApplicationWindow2Rosette1: WindowMedalBare.default || WindowMedalBare,
+  ApplicationWindow2Rosette2: WindowSealBare.default || WindowSealBare,
+  ApplicationWindow2Search: WindowSearchBare.default || WindowSearchBare,
+  ApplicationWindow2Settings1: WindowSettingsCenterBare.default || WindowSettingsCenterBare,
+  ApplicationWindow2Settings2: WindowSettingsBare.default || WindowSettingsBare,
+  ApplicationWindow2Shield1: WindowShieldCenterBare.default || WindowShieldCenterBare,
+  ApplicationWindow2Shield2: WindowShieldBare.default || WindowShieldBare,
+  ApplicationWindow2Speech: WindowChatRoundBare.default || WindowChatRoundBare,
+  ApplicationWindow2Star1: WindowStarCenterBare.default || WindowStarCenterBare,
+  ApplicationWindow2Star2: WindowStarBare.default || WindowStarBare,
+  ApplicationWindow2Tools: WindowWrenchBare.default || WindowWrenchBare,
+  ApplicationWindow2Word: WindowLetterWBare.default || WindowLetterWBare,
+  ApplicationWindow3: WindowPlain.default || WindowPlain,
+  ApplicationWindow4: WindowBare.default || WindowBare,
+  ApplicationWindow5: WindowTwoDots.default || WindowTwoDots,
+  ApplicationWindow6: WindowTwoDotsRight.default || WindowTwoDotsRight,
+  ApplicationWindowAdd: WindowPlusCircle.default || WindowPlusCircle,
+  ApplicationWindowAdd1: WindowPlus.default || WindowPlus,
+  ApplicationWindowAdd2: WindowPlusCenter.default || WindowPlusCenter,
+  ApplicationWindowCheck: WindowCheckCircle.default || WindowCheckCircle,
+  ApplicationWindowCheck2: WindowCheckCenter.default || WindowCheckCenter,
+  ApplicationWindowCheck3: WindowCheckCirclePlain.default || WindowCheckCirclePlain,
+  ApplicationWindowClock: WindowClock.default || WindowClock,
+  ApplicationWindowClose1: WindowX.default || WindowX,
+  ApplicationWindowClose12: WindowXPlain.default || WindowXPlain,
+  ApplicationWindowClose22: WindowXCenter.default || WindowXCenter,
+  ApplicationWindowClose23: WindowXCenterPlain.default || WindowXCenterPlain,
+  ApplicationWindowClose3: WindowXCircle.default || WindowXCircle,
+  ApplicationWindowLevels1: WindowSliders.default || WindowSliders,
+  ApplicationWindowLevels2: WindowSlidersTwo.default || WindowSlidersTwo,
+  ApplicationWindowLevels3: WindowSlidersPlain.default || WindowSlidersPlain,
+  ApplicationWindowLevels4: WindowSlidersTwoPlain.default || WindowSlidersTwoPlain,
+  ApplicationWindowPlay1: WindowPlay.default || WindowPlay,
+  ApplicationWindowPlay2: WindowPlayCenter.default || WindowPlayCenter,
+  ApplicationWindowPlus1: WindowPlusPlain.default || WindowPlusPlain,
+  ApplicationWindowPlus2: WindowPlusCenterPlain.default || WindowPlusCenterPlain,
+  ApplicationWindowRemove: WindowMinusCircle.default || WindowMinusCircle,
+  ApplicationWindowRemove1: WindowMinus.default || WindowMinus,
+  ApplicationWindowRemove2: WindowMinusCenter.default || WindowMinusCenter,
+  ApplicationWindowRocket: WindowRocket.default || WindowRocket,
+  ApplicationWindowsThemes1: WindowStackStriped.default || WindowStackStriped,
+  ApplicationWindowsThemesDotted: WindowStackDottedAll.default || WindowStackDottedAll,
+  ApplicationWindowsThemesDotted1: WindowStackDotted.default || WindowStackDotted,
+  ApplicationWindowsThemesStripes: WindowStackStripedAll.default || WindowStackStripedAll,
+  AppsTab1: LayerStack.default || LayerStack,
+  AppsTab2: LayerStackRounded.default || LayerStackRounded,
+  AppsTab3: LayerStackOpen.default || LayerStackOpen,
+  AppWindowAdd: WindowPlusCirclePlain.default || WindowPlusCirclePlain,
+  AppWindowCheck1: WindowCheckPlain.default || WindowCheckPlain,
+  AppWindowCheck2: WindowCheckCenterPlain.default || WindowCheckCenterPlain,
+  AppWindowClock: WindowClockPlain.default || WindowClockPlain,
+  AppWindowClose: WindowXCirclePlain.default || WindowXCirclePlain,
+  AppWindowPlay1: WindowPlayPlain.default || WindowPlayPlain,
+  AppWindowPlay2: WindowPlayCenterPlain.default || WindowPlayCenterPlain,
+  AppWindowRemove: WindowMinusCirclePlain.default || WindowMinusCirclePlain,
+  AppWindowRemove1: WindowMinusPlain.default || WindowMinusPlain,
+  AppWindowRemove2: WindowMinusCenterPlain.default || WindowMinusCenterPlain,
+  ArrowCheckUpgrade: ArrowClockwiseCheck.default || ArrowClockwiseCheck,
+  ArrowCheckUpgrade2: ArrowClockwiseCheckCircle.default || ArrowClockwiseCheckCircle,
+  ArrowCircle1: ArrowClockwiseBottom.default || ArrowClockwiseBottom,
+  ArrowCircle1Slash: ArrowClockwiseBottomOff.default || ArrowClockwiseBottomOff,
+  ArrowCircle2: ArrowClockwise.default || ArrowClockwise,
+  ArrowCircle2Slash: ArrowClockwiseOff.default || ArrowClockwiseOff,
+  ArrowCircle3: ArrowCounterclockwiseBottom.default || ArrowCounterclockwiseBottom,
+  ArrowCircle3Slash: ArrowCounterclockwiseBottomOff.default || ArrowCounterclockwiseBottomOff,
+  ArrowCircle4: ArrowCounterclockwise.default || ArrowCounterclockwise,
+  ArrowCircle4Slash: ArrowCounterclockwiseOff.default || ArrowCounterclockwiseOff,
+  ArrowDownPlay1: ArrowDownArc.default || ArrowDownArc,
+  ArrowDownPlay2: ArrowDownArcSmall.default || ArrowDownArcSmall,
+  ArrowGearUpgrade1: ArrowClockwiseSettings.default || ArrowClockwiseSettings,
+  ArrowGearUpgrade2: ArrowClockwiseSettingsCorner.default || ArrowClockwiseSettingsCorner,
+  ArrowHexagon1: ArrowCounterclockwiseHexagon.default || ArrowCounterclockwiseHexagon,
+  ArrowHexagon1Slash: ArrowCounterclockwiseHexagonOff.default || ArrowCounterclockwiseHexagonOff,
+  ArrowsClockwise1: ArrowSyncClockwise.default || ArrowSyncClockwise,
+  ArrowsClockwise1Slash: ArrowSyncClockwiseOff.default || ArrowSyncClockwiseOff,
+  ArrowsClockwise2: ArrowSyncClockwiseAngular.default || ArrowSyncClockwiseAngular,
+  ArrowsClockwise2Slash: ArrowSyncClockwiseOffAngular.default || ArrowSyncClockwiseOffAngular,
+  ArrowsClockwise3: ArrowSyncClockwiseRotated.default || ArrowSyncClockwiseRotated,
+  ArrowsClockwise3Slash: ArrowSyncClockwiseOffRotated.default || ArrowSyncClockwiseOffRotated,
+  ArrowsCounterClockwise1: ArrowSyncCounterclockwiseRotated.default || ArrowSyncCounterclockwiseRotated,
+  ArrowsCounterClockwise1Slash: ArrowSyncCounterclockwiseOffRotated.default || ArrowSyncCounterclockwiseOffRotated,
+  ArrowsCounterClockwise2: ArrowSyncCounterclockwiseAngular.default || ArrowSyncCounterclockwiseAngular,
+  ArrowsCounterClockwise3: ArrowSyncCounterclockwise.default || ArrowSyncCounterclockwise,
+  ArrowsCounterClockwise3Slash: ArrowSyncCounterclockwiseOff.default || ArrowSyncCounterclockwiseOff,
+  ArrowsCounterClockwiseSlash: ArrowSyncCounterclockwiseOffAngular.default || ArrowSyncCounterclockwiseOffAngular,
+  ArrowsDownInput1: ArrowDownTray.default || ArrowDownTray,
+  ArrowsDownInput2: ArrowDownTray2.default || ArrowDownTray2,
+  ArrowsFourCircleImprovement: ArrowCyclePlus.default || ArrowCyclePlus,
+  ArrowsFourCircleProcess: ArrowCycle.default || ArrowCycle,
+  ArrowsFourCircleProcess2: ArrowCyclePlus2.default || ArrowCyclePlus2,
+  ArrowsFourCircleProcess3: ArrowCycle2.default || ArrowCycle2,
+  ArrowsHexagon1: ArrowSyncHexagon.default || ArrowSyncHexagon,
+  ArrowsHexagon2: ArrowSyncDiamond.default || ArrowSyncDiamond,
+  ArrowsHexagonSlash: ArrowSyncDiamondOff.default || ArrowSyncDiamondOff,
+  ArrowsOutCircle: ArrowExpandCircleDashed.default || ArrowExpandCircleDashed,
+  ArrowsPointerMove1: MoveHand.default || MoveHand,
+  ArrowsPointerMove2: MoveHandChevron.default || MoveHandChevron,
+  ArrowsRepeat1: ArrowRepeat.default || ArrowRepeat,
+  ArrowsRepeat2: ArrowRepeatVertical.default || ArrowRepeatVertical,
+  ArrowsRepeat2Slash: ArrowRepeatVerticalOff.default || ArrowRepeatVerticalOff,
+  ArrowsRepeat3: ArrowRepeatCompact.default || ArrowRepeatCompact,
+  ArrowsRepeat3Slash: ArrowRepeatCompactOff.default || ArrowRepeatCompactOff,
+  ArrowsRepeatSlash: ArrowRepeatOff.default || ArrowRepeatOff,
+  ArrowsRounded1: ArrowSyncClockwise2.default || ArrowSyncClockwise2,
+  ArrowsRounded1Slash: ArrowSyncClockwiseOff2.default || ArrowSyncClockwiseOff2,
+  ArrowsSquared1: ArrowRepeatVerticalCompact.default || ArrowRepeatVerticalCompact,
+  ArrowsSquared1Slash: ArrowRepeatVerticalCompactOff.default || ArrowRepeatVerticalCompactOff,
+  ArrowsSynchronize: ArrowSyncNodes.default || ArrowSyncNodes,
+  ArrowsSynchronize1: ArrowSyncNodesDiagonal.default || ArrowSyncNodesDiagonal,
+  ArrowsSynchronize2: ArrowSyncNodesDiagonalAngular.default || ArrowSyncNodesDiagonalAngular,
+  ArrowsSynchronizeCircle: ArrowSyncCircle.default || ArrowSyncCircle,
+  ArrowsUpOutput1: ArrowUpTray.default || ArrowUpTray,
+  ArrowsUpOutput2: ArrowUpTraySpread.default || ArrowUpTraySpread,
+  ArrowUpgradeClose1: ArrowClockwiseX.default || ArrowClockwiseX,
+  ArrowUpgradeClose2: ArrowClockwiseXCircle.default || ArrowClockwiseXCircle,
+  AssistiveTechnologyWheelchairSquare: WheelchairSquare.default || WheelchairSquare,
+  AssistiveTechnologyWheelchairSquare2: WheelchairSquare2.default || WheelchairSquare2,
+  AssistiveTechnologyWheelchairSquare3: WheelchairSquare3.default || WheelchairSquare3,
+  AtSign1: AtCurved.default || AtCurved,
+  AtSign1Alert: AtAlertCurved.default || AtAlertCurved,
+  AtSign1Check: AtCheckCurved.default || AtCheckCurved,
+  AtSign1CircleDots: AtDotsCurved.default || AtDotsCurved,
+  AtSign1Clock1: AtClockCurved.default || AtClockCurved,
+  AtSign1Clock2: AtClockCurved2.default || AtClockCurved2,
+  AtSign1Equal: AtEqualCurved.default || AtEqualCurved,
+  AtSign1Minus: AtMinusCurved.default || AtMinusCurved,
+  AtSign1One: AtOneCurved.default || AtOneCurved,
+  AtSign1Plus: AtPlusCurved.default || AtPlusCurved,
+  AtSign1X: AtXCurved.default || AtXCurved,
+  AtSign2: At.default || At,
+  AtSign2Alert: AtAlert.default || AtAlert,
+  AtSign2ArrowReload: AtRefresh.default || AtRefresh,
+  AtSign2ArrowSync: AtSync.default || AtSync,
+  AtSign2Check: AtCheck.default || AtCheck,
+  AtSign2Clock: AtClock.default || AtClock,
+  AtSign2Clock2: AtClock2.default || AtClock2,
+  AtSign2Dots: AtDots.default || AtDots,
+  AtSign2Equal: AtEqual.default || AtEqual,
+  AtSign2Minus: AtMinus.default || AtMinus,
+  AtSign2One: AtOne.default || AtOne,
+  AtSign2Plus: AtPlus.default || AtPlus,
+  AtSign2X: AtX.default || AtX,
+  AtSign3Alert: AtAlertCircle.default || AtAlertCircle,
+  AtSign3Check: AtCheckCircle.default || AtCheckCircle,
+  AtSign3CircleDotsMenu: AtDotsCircle.default || AtDotsCircle,
+  AtSign3Clock1: AtClockCircle.default || AtClockCircle,
+  AtSign3Clock2: AtClockCircle2.default || AtClockCircle2,
+  AtSign3Equal: AtEqualCircle.default || AtEqualCircle,
+  AtSign3Minus: AtMinusCircle.default || AtMinusCircle,
+  AtSign3One: AtOneCircle.default || AtOneCircle,
+  AtSign3Plus: AtPlusCircle.default || AtPlusCircle,
+  AtSign3X: AtXCircle.default || AtXCircle,
+  AtSign4: AtTall.default || AtTall,
+  AtSign4Alert: AtAlertTall.default || AtAlertTall,
+  AtSign4ArrowReload: AtRefreshTall.default || AtRefreshTall,
+  AtSign4ArrowSync: AtSyncTall.default || AtSyncTall,
+  AtSign4Check: AtCheckTall.default || AtCheckTall,
+  AtSign4Clock: AtClockTall.default || AtClockTall,
+  AtSign4Equal: AtEqualTall.default || AtEqualTall,
+  AtSign4Minus: AtMinusTall.default || AtMinusTall,
+  AtSign4One: AtOneTall.default || AtOneTall,
+  AtSign4Plus: AtPlusTall.default || AtPlusTall,
+  AtSign4Settings: AtDotsTall.default || AtDotsTall,
+  AtSign4X: AtXTall.default || AtXTall,
+  AtSign5: AtBoxy.default || AtBoxy,
+  AtSign5Alert: AtAlertBoxy.default || AtAlertBoxy,
+  AtSign5ArrowReload: AtRefreshBoxy.default || AtRefreshBoxy,
+  AtSign5ArrowSync: AtSyncBoxy.default || AtSyncBoxy,
+  AtSign5Check: AtCheckBoxy.default || AtCheckBoxy,
+  AtSign5Clock: AtClockBoxy.default || AtClockBoxy,
+  AtSign5Equal: AtEqualBoxy.default || AtEqualBoxy,
+  AtSign5Minus: AtMinusBoxy.default || AtMinusBoxy,
+  AtSign5One: AtOneBoxy.default || AtOneBoxy,
+  AtSign5Plus: AtPlusBoxy.default || AtPlusBoxy,
+  AtSign5Settings: AtDotsBoxy.default || AtDotsBoxy,
+  AtSign5X: AtXBoxy.default || AtXBoxy,
+  AtSign6: AtRounded.default || AtRounded,
+  AtSign7: AtSpiral.default || AtSpiral,
+  AtSign8: AtCompact.default || AtCompact,
+  AtSignCircle: AtCircle.default || AtCircle,
+  AtSignSelect1: AtCorners.default || AtCorners,
+  AtSignSelect2: AtCornersCompact.default || AtCornersCompact,
+  BadgeCheck1: BadgeCheckJagged.default || BadgeCheckJagged,
+  BadgeCheck2: BadgeCheck.default || BadgeCheck,
+  BadgeCheck3: BadgeCheckPetal.default || BadgeCheckPetal,
+  BadgeCheck4: BadgeCheckBumpy.default || BadgeCheckBumpy,
+  BadgeCheck5: BadgeCheckWavy.default || BadgeCheckWavy,
+  BadgeCheck6: BadgeCheckNotched.default || BadgeCheckNotched,
+  BadgeCheck7: BadgeCheckPointed.default || BadgeCheckPointed,
+  BadgeRosetteQuestion: BadgeQuestionPointed.default || BadgeQuestionPointed,
+  BadgeRosetteQuestionUnverified: BadgeQuestionJagged.default || BadgeQuestionJagged,
+  BadgeRosetteQuestionUnverified2: BadgeQuestion.default || BadgeQuestion,
+  BadgeRosetteQuestionUnverified3: BadgeQuestionPetal.default || BadgeQuestionPetal,
+  BadgeRosetteQuestionUnverified4: BadgeQuestionBumpy.default || BadgeQuestionBumpy,
+  BadgeRosetteQuestionUnverified5: BadgeQuestionWavy.default || BadgeQuestionWavy,
+  BadgeRosetteQuestionUnverified6: BadgeQuestionNotched.default || BadgeQuestionNotched,
+  Bell1: BellRim.default || BellRim,
+  Bell1Angle: BellTiltedRim.default || BellTiltedRim,
+  Bell1Check: BellCheckCircleRim.default || BellCheckCircleRim,
+  Bell1Clock: BellClockRim.default || BellClockRim,
+  Bell1Dot: BellDotRim.default || BellDotRim,
+  Bell1Silent: BellOffRim.default || BellOffRim,
+  Bell1Sounding1: BellRingLinesRim.default || BellRingLinesRim,
+  Bell1Sounding2: BellRingRim.default || BellRingRim,
+  Bell1XCircle: BellXCircleRim.default || BellXCircleRim,
+  Bell2: Bell.default || Bell,
+  Bell2Angle: BellTilted.default || BellTilted,
+  Bell2Check: BellCheck.default || BellCheck,
+  Bell2CheckCircle: BellCheckCircle.default || BellCheckCircle,
+  Bell2Circle: BellCircle.default || BellCircle,
+  Bell2CircleSilent: BellCircleOff.default || BellCircleOff,
+  Bell2Clock: BellClock.default || BellClock,
+  Bell2Dot: BellDot.default || BellDot,
+  Bell2Exclamation: BellAlert.default || BellAlert,
+  Bell2Octagon: BellOctagon.default || BellOctagon,
+  Bell2OctagonSilent: BellOctagonOff.default || BellOctagonOff,
+  Bell2Plus: BellPlus.default || BellPlus,
+  Bell2Silent: BellOff.default || BellOff,
+  Bell2Sounding1: BellRingLines.default || BellRingLines,
+  Bell2Sounding2: BellRing.default || BellRing,
+  Bell2Square: BellSquare.default || BellSquare,
+  Bell2SquareDot: BellSquareDot.default || BellSquareDot,
+  Bell2SquareSilent: BellSquareOff.default || BellSquareOff,
+  Bell2X: BellX.default || BellX,
+  Bell2XCircle: BellXCircle.default || BellXCircle,
+  Bell2Z: BellSnooze.default || BellSnooze,
+  Bell3: BellKnob.default || BellKnob,
+  Bell3Angle: BellTiltedKnob.default || BellTiltedKnob,
+  Bell3Check: BellCheckKnob.default || BellCheckKnob,
+  Bell3CheckCircle: BellCheckCircleKnob.default || BellCheckCircleKnob,
+  Bell3Clock: BellClockKnob.default || BellClockKnob,
+  Bell3Dot: BellDotKnob.default || BellDotKnob,
+  Bell3Exclamation: BellAlertKnob.default || BellAlertKnob,
+  Bell3Plus: BellPlusKnob.default || BellPlusKnob,
+  Bell3Silent: BellOffKnob.default || BellOffKnob,
+  Bell3Sounding1: BellRingLinesKnob.default || BellRingLinesKnob,
+  Bell3Sounding2: BellRingKnob.default || BellRingKnob,
+  Bell3X: BellXKnob.default || BellXKnob,
+  Bell3XCircle: BellXCircleKnob.default || BellXCircleKnob,
+  Bell3Z: BellSnoozeKnob.default || BellSnoozeKnob,
+  Bell4: BellFlat.default || BellFlat,
+  Bell4Angle: BellTiltedFlat.default || BellTiltedFlat,
+  Bell4Check: BellCheckFlat.default || BellCheckFlat,
+  Bell4CheckCircle: BellCheckCircleFlat.default || BellCheckCircleFlat,
+  Bell4Clock: BellClockFlat.default || BellClockFlat,
+  Bell4Dot: BellDotFlat.default || BellDotFlat,
+  Bell4Exclamation: BellAlertFlat.default || BellAlertFlat,
+  Bell4Plus: BellPlusFlat.default || BellPlusFlat,
+  Bell4Silent: BellOffFlat.default || BellOffFlat,
+  Bell4Sounding1: BellRingLinesFlat.default || BellRingLinesFlat,
+  Bell4Sounding2: BellRingFlat.default || BellRingFlat,
+  Bell4X: BellXFlat.default || BellXFlat,
+  Bell4XCircle: BellXCircleFlat.default || BellXCircleFlat,
+  Bell4Z: BellSnoozeFlat.default || BellSnoozeFlat,
+  Bell5: BellDash.default || BellDash,
+  Bell5Angle: BellTiltedDash.default || BellTiltedDash,
+  Bell5Check: BellCheckDash.default || BellCheckDash,
+  Bell5CheckCircle: BellCheckCircleDash.default || BellCheckCircleDash,
+  Bell5Circle: BellCircleDash.default || BellCircleDash,
+  Bell5CircleSilent: BellCircleOffDash.default || BellCircleOffDash,
+  Bell5Clock: BellClockDash.default || BellClockDash,
+  Bell5Dot: BellDotDash.default || BellDotDash,
+  Bell5Exclamation: BellAlertDash.default || BellAlertDash,
+  Bell5Octagon: BellOctagonDash.default || BellOctagonDash,
+  Bell5OctagonSilent: BellOctagonOffDash.default || BellOctagonOffDash,
+  Bell5Plus: BellPlusDash.default || BellPlusDash,
+  Bell5Silent: BellOffDash.default || BellOffDash,
+  Bell5Sounding1: BellRingLinesDash.default || BellRingLinesDash,
+  Bell5Sounding2: BellRingDash.default || BellRingDash,
+  Bell5Square: BellSquareDash.default || BellSquareDash,
+  Bell5SquareDot: BellSquareDotDash.default || BellSquareDotDash,
+  Bell5SquareSilent: BellSquareOffDash.default || BellSquareOffDash,
+  Bell5X: BellXDash.default || BellXDash,
+  Bell5XCircle: BellXCircleDash.default || BellXCircleDash,
+  Bell5Z: BellSnoozeDash.default || BellSnoozeDash,
+  Bell6: BellWide.default || BellWide,
+  Bell6Angle: BellTiltedWide.default || BellTiltedWide,
+  Bell6Check: BellCheckWide.default || BellCheckWide,
+  Bell6CheckCircle: BellCheckCircleWide.default || BellCheckCircleWide,
+  Bell6Clock: BellClockWide.default || BellClockWide,
+  Bell6Dot: BellDotWide.default || BellDotWide,
+  Bell6Exclamation: BellAlertWide.default || BellAlertWide,
+  Bell6Plus: BellPlusWide.default || BellPlusWide,
+  Bell6Silent: BellOffWide.default || BellOffWide,
+  Bell6Sounding1: BellRingLinesWide.default || BellRingLinesWide,
+  Bell6Sounding2: BellRingWide.default || BellRingWide,
+  Bell6X: BellXWide.default || BellXWide,
+  Bell6XCircle: BellXCircleWide.default || BellXCircleWide,
+  Bell6Z: BellSnoozeWide.default || BellSnoozeWide,
+  Binoculars1: BinocularsEyecups.default || BinocularsEyecups,
+  Binoculars10: BinocularsCompactRound.default || BinocularsCompactRound,
+  Binoculars11: BinocularsCompactSquare.default || BinocularsCompactSquare,
+  Binoculars12: Binoculars.default || Binoculars,
+  Binoculars2: BinocularsTall.default || BinocularsTall,
+  Binoculars3: BinocularsBoxy.default || BinocularsBoxy,
+  Binoculars4: BinocularsBoxyBand.default || BinocularsBoxyBand,
+  Binoculars5: BinocularsStraight.default || BinocularsStraight,
+  Binoculars6: BinocularsCompact.default || BinocularsCompact,
+  Binoculars7: BinocularsWide.default || BinocularsWide,
+  Binoculars8: BinocularsAngled.default || BinocularsAngled,
+  Binoculars9: BinocularsOpera.default || BinocularsOpera,
+  BookBookmark1: BookBookmarkThick.default || BookBookmarkThick,
+  BookBookmark10: BookBookmarkRounded.default || BookBookmarkRounded,
+  BookBookmark2: BookBookmark.default || BookBookmark,
+  BookBookmark3: BookBookmarkSpine.default || BookBookmarkSpine,
+  BookBookmark4: BookBookmarkPlain.default || BookBookmarkPlain,
+  BookBookmark5: BookBookmarkSpineRounded.default || BookBookmarkSpineRounded,
+  BookBookmark6: BookBookmarkRibbon.default || BookBookmarkRibbon,
+  BookBookmark7: BookBookmarkFlipped.default || BookBookmarkFlipped,
+  BookBookmark8: BookBookmarkFlippedCurved.default || BookBookmarkFlippedCurved,
+  BookBookmark9: BookBookmarkCurved.default || BookBookmarkCurved,
+  BookInformation1: BookInfo.default || BookInfo,
+  BookInformation2: BookOpenInfoCurved.default || BookOpenInfoCurved,
+  BookInformation3: BookInfoRounded.default || BookInfoRounded,
+  BookInformation4: BookInfoThick.default || BookInfoThick,
+  BookInformation5: NotebookInfo.default || NotebookInfo,
+  BookInformation6: BookOpenInfo.default || BookOpenInfo,
+  BookInformation7: BookInfoTilted.default || BookInfoTilted,
+  Bookmark1Folded: BookmarkRolled.default || BookmarkRolled,
+  Bookmark1FoldedAdd: BookmarkPlusRolled.default || BookmarkPlusRolled,
+  Bookmark1FoldedAlt: BookmarkFolded.default || BookmarkFolded,
+  Bookmark1FoldedCheck: BookmarkCheckRolled.default || BookmarkCheckRolled,
+  Bookmark1FoldedClose: BookmarkXRolled.default || BookmarkXRolled,
+  Bookmark1FoldedRemove: BookmarkMinusRolled.default || BookmarkMinusRolled,
+  Bookmark1FoldedStar: BookmarkStarRolled.default || BookmarkStarRolled,
+  Bookmark1Heart: BookmarkHeartRound.default || BookmarkHeartRound,
+  Bookmark1HeartAlt: BookmarkHeart.default || BookmarkHeart,
+  Bookmark1Remove: BookmarkMinusCorner.default || BookmarkMinusCorner,
+  Bookmark2: BookmarkCurl.default || BookmarkCurl,
+  Bookmark2Check: BookmarkCheckCurl.default || BookmarkCheckCurl,
+  Bookmark2Close: BookmarkXCurl.default || BookmarkXCurl,
+  Bookmark2Copy: BookmarkTwoCurl.default || BookmarkTwoCurl,
+  Bookmark2Minus: BookmarkMinusCurl.default || BookmarkMinusCurl,
+  Bookmark2Plus: BookmarkPlusCurl.default || BookmarkPlusCurl,
+  Bookmark2Slash: BookmarkOffCurl.default || BookmarkOffCurl,
+  Bookmark3: BookmarkRound.default || BookmarkRound,
+  Bookmark3Check: BookmarkCheckRound.default || BookmarkCheckRound,
+  Bookmark3Close: BookmarkXRound.default || BookmarkXRound,
+  Bookmark3Minus: BookmarkMinusRound.default || BookmarkMinusRound,
+  Bookmark3One: BookmarkOneRound.default || BookmarkOneRound,
+  Bookmark3Plus: BookmarkPlusRound.default || BookmarkPlusRound,
+  Bookmark3Slash: BookmarkOffRound.default || BookmarkOffRound,
+  Bookmark3Three: BookmarkThreeRound.default || BookmarkThreeRound,
+  Bookmark3Two: BookmarkTwoRound.default || BookmarkTwoRound,
+  BookmarkCheck1: BookmarkCheckCorner.default || BookmarkCheckCorner,
+  BookmarkCheck2: BookmarkCheck.default || BookmarkCheck,
+  BookmarkCircleAdd: BookmarkPlusCircle.default || BookmarkPlusCircle,
+  BookmarkCircleCheck: BookmarkCheckCircle.default || BookmarkCheckCircle,
+  BookmarkCircleClose: BookmarkXCircle.default || BookmarkXCircle,
+  BookmarkCircled: BookmarkCircle.default || BookmarkCircle,
+  BookmarkCircleDots: BookmarkDotsCircle.default || BookmarkDotsCircle,
+  BookmarkCircleLargeAdd: BookmarkPlusCircleLarge.default || BookmarkPlusCircleLarge,
+  BookmarkCircleLargeClose: BookmarkXCircleLarge.default || BookmarkXCircleLarge,
+  BookmarkCircleLargeRemove: BookmarkMinusCircleLarge.default || BookmarkMinusCircleLarge,
+  BookmarkCircleRemove: BookmarkMinusCircle.default || BookmarkMinusCircle,
+  BookmarkDotsFilled: BookmarkDotted.default || BookmarkDotted,
+  BookmarkLargeCheck: BookmarkCheckCircleLarge.default || BookmarkCheckCircleLarge,
+  BookmarkLargeDots: BookmarkDotsCircleLarge.default || BookmarkDotsCircleLarge,
+  BookmarkNumberOne: BookmarkOne.default || BookmarkOne,
+  BookmarkOne2: BookmarkOneCurl.default || BookmarkOneCurl,
+  BookmarkPageThree: BookmarkPage2.default || BookmarkPage2,
+  BookmarkPageTwo: BookmarkPageSquare.default || BookmarkPageSquare,
+  BookmarkPlusTwo: BookmarkPlus.default || BookmarkPlus,
+  Bookmarks1: BookmarkStack.default || BookmarkStack,
+  Bookmarks2: BookmarkStackEdge.default || BookmarkStackEdge,
+  Bookmarks2Check: BookmarkStackCheckEdge.default || BookmarkStackCheckEdge,
+  Bookmarks2Minus: BookmarkStackMinusEdge.default || BookmarkStackMinusEdge,
+  Bookmarks2Plus: BookmarkStackPlusEdge.default || BookmarkStackPlusEdge,
+  Bookmarks2X: BookmarkStackXEdge.default || BookmarkStackXEdge,
+  BookmarksCheck: BookmarkStackCheck.default || BookmarkStackCheck,
+  BookmarksCollection: BookmarkStackTop.default || BookmarkStackTop,
+  BookmarkSlash: BookmarkOff.default || BookmarkOff,
+  BookmarksMinus: BookmarkStackMinus.default || BookmarkStackMinus,
+  BookmarksPlus: BookmarkStackPlus.default || BookmarkStackPlus,
+  BookmarkSquared: BookmarkSquare.default || BookmarkSquare,
+  BookmarkStar2: BookmarkStar.default || BookmarkStar,
+  BookmarkStar3: BookmarkStarRound.default || BookmarkStarRound,
+  BookmarkStar4: BookmarkStarLarge.default || BookmarkStarLarge,
+  BookmarkStripes: BookmarkStriped.default || BookmarkStriped,
+  BookmarksX: BookmarkStackX.default || BookmarkStackX,
+  BookmarkThree2: BookmarkThree.default || BookmarkThree,
+  BookmarkThree3: BookmarkThreeCurl.default || BookmarkThreeCurl,
+  BookmarkTwo2: BookmarkTwo.default || BookmarkTwo,
+  BookmarkTwoStripes: BookmarkStripeDouble.default || BookmarkStripeDouble,
+  BookmarkXClose: BookmarkXCorner.default || BookmarkXCorner,
+  Box1: BoxLid.default || BoxLid,
+  Box10: BoxPerspectiveShaded.default || BoxPerspectiveShaded,
+  Box11: BoxOpen.default || BoxOpen,
+  Box12: BoxOpenPerspective.default || BoxOpenPerspective,
+  Box13: BoxPlain.default || BoxPlain,
+  Box14: Box.default || Box,
+  Box15: BoxLabel.default || BoxLabel,
+  Box16: BoxOpenSpread.default || BoxOpenSpread,
+  Box17: BoxOpenRaised.default || BoxOpenRaised,
+  Box2: BoxLidSlot.default || BoxLidSlot,
+  Box3: BoxFrontSlot.default || BoxFrontSlot,
+  Box4: BoxFront.default || BoxFront,
+  Box5: BoxTape.default || BoxTape,
+  Box6: BoxTapeTorn.default || BoxTapeTorn,
+  Box7: BoxTapeLabel.default || BoxTapeLabel,
+  Box8: BoxTapeArrowUp.default || BoxTapeArrowUp,
+  Box9: BoxPerspective.default || BoxPerspective,
+  Briefcase10: Briefcase.default || Briefcase,
+  Briefcase2: BriefcaseFlap.default || BriefcaseFlap,
+  Briefcase3: BriefcaseFlapFlat.default || BriefcaseFlapFlat,
+  Briefcase4: BriefcaseBeltBroken.default || BriefcaseBeltBroken,
+  Briefcase5: BriefcaseBeltSlot.default || BriefcaseBeltSlot,
+  Briefcase6: BriefcaseFlapClasp.default || BriefcaseFlapClasp,
+  Briefcase7: BriefcaseBeltClasps.default || BriefcaseBeltClasps,
+  Briefcase8: BriefcaseKeyhole.default || BriefcaseKeyhole,
+  Briefcase9: BriefcaseFlapCurve.default || BriefcaseFlapCurve,
+  BriefcaseCheck: BriefcaseStraps.default || BriefcaseStraps,
+  BriefcaseClose: BriefcasePocket.default || BriefcasePocket,
+  BriefcaseDocument: BriefcaseStriped.default || BriefcaseStriped,
+  BriefcaseFilled: BriefcaseBelt.default || BriefcaseBelt,
+  BriefcaseOpen: BriefcaseFlapWide.default || BriefcaseFlapWide,
+  BriefcasePlus: BriefcaseSide.default || BriefcaseSide,
+  BriefcaseRemove: BriefcaseCorners.default || BriefcaseCorners,
+  BriefcaseSearch: BriefcaseSatchel.default || BriefcaseSatchel,
+  BrowserWindow1: Browser.default || Browser,
+  BrowserWindow2: WindowPlain2.default || WindowPlain2,
+  BrowserWindowAnnounce1: BrowserMegaphone.default || BrowserMegaphone,
+  BrowserWindowAnnouncement: BrowserMegaphoneBare.default || BrowserMegaphoneBare,
+  BrowserWindowArrowIn: BrowserArrowUpRight.default || BrowserArrowUpRight,
+  BrowserWindowBulbCta1: BrowserLightbulb.default || BrowserLightbulb,
+  BrowserWindowBulbCta2: BrowserSunBare.default || BrowserSunBare,
+  BrowserWindowConnection: BrowserGlobe.default || BrowserGlobe,
+  BrowserWindowDenied: WindowBanPlain.default || WindowBanPlain,
+  BrowserWindowDownload1: BrowserDownload.default || BrowserDownload,
+  BrowserWindowDownload2: WindowDownloadCenterPlain.default || WindowDownloadCenterPlain,
+  BrowserWindowFast: WindowFastPlain.default || WindowFastPlain,
+  BrowserWindowFlashlight1: BrowserFlashlightOn.default || BrowserFlashlightOn,
+  BrowserWindowFlashlight2: BrowserFlashlight.default || BrowserFlashlight,
+  BrowserWindowForbidden: BrowserBanBare.default || BrowserBanBare,
+  BrowserWindowForbidden1: BrowserBan.default || BrowserBan,
+  BrowserWindowGlobe: BrowserGlobeMap.default || BrowserGlobeMap,
+  BrowserWindowInternet: WindowGlobeMapPlain.default || WindowGlobeMapPlain,
+  BrowserWindowLaunch: BrowserRocket.default || BrowserRocket,
+  BrowserWindowLaunch2: WindowRocketPlain.default || WindowRocketPlain,
+  BrowserWindowLevels: BrowserSliders.default || BrowserSliders,
+  BrowserWindowRabbit: BrowserRabbit.default || BrowserRabbit,
+  BrowserWindowRestrictions: BrowserTrafficLight.default || BrowserTrafficLight,
+  BrowserWindowRestrictions2: WindowTrafficLightPlain.default || WindowTrafficLightPlain,
+  BrowserWindowSettings: BrowserSlidersTwo.default || BrowserSlidersTwo,
+  BrowserWindowSidebar: BrowserSidebar.default || BrowserSidebar,
+  BrowserWindowSpeed: BrowserFast.default || BrowserFast,
+  BrowserWindowSquare: WindowSquare.default || WindowSquare,
+  BrowserWindowUpload1: BrowserUpload.default || BrowserUpload,
+  BrowserWindowUpload2: WindowUploadPlain.default || WindowUploadPlain,
+  BrowserWindowWeb: WindowGlobePlain.default || WindowGlobePlain,
+  BrowserWindowWeb2: BrowserContent.default || BrowserContent,
+  Bulb10: LightbulbBoltRound.default || LightbulbBoltRound,
+  Bulb11: LightbulbCap.default || LightbulbCap,
+  Bulb12: LightbulbShineCap.default || LightbulbShineCap,
+  Bulb13: LightbulbFilamentCap.default || LightbulbFilamentCap,
+  Bulb14: LightbulbBoltCap.default || LightbulbBoltCap,
+  Bulb15: LightbulbScrew.default || LightbulbScrew,
+  Bulb16: LightbulbShineScrew.default || LightbulbShineScrew,
+  Bulb17: LightbulbFilamentWavyScrew.default || LightbulbFilamentWavyScrew,
+  Bulb18: LightbulbRays.default || LightbulbRays,
+  Bulb19: LightbulbRaysSlim.default || LightbulbRaysSlim,
+  Bulb2: LightbulbFilament.default || LightbulbFilament,
+  Bulb20: LightbulbRaysWide.default || LightbulbRaysWide,
+  Bulb21: LightbulbRaysCap.default || LightbulbRaysCap,
+  Bulb3: LightbulbBolt.default || LightbulbBolt,
+  Bulb4: LightbulbRound.default || LightbulbRound,
+  Bulb5: LightbulbShineRound.default || LightbulbShineRound,
+  Bulb6: LightbulbFilamentAngledRound.default || LightbulbFilamentAngledRound,
+  Bulb7: LightbulbFilamentWavyRound.default || LightbulbFilamentWavyRound,
+  Bulb8: LightbulbFilamentZigzagRound.default || LightbulbFilamentZigzagRound,
+  Bulb9: LightbulbFilamentAngledRound2.default || LightbulbFilamentAngledRound2,
+  BulbIdea: LightbulbShine.default || LightbulbShine,
+  BulbIdea2: Lightbulb.default || Lightbulb,
+  ButtonBubble1: ButtonPillBar.default || ButtonPillBar,
+  ButtonBubble2: ButtonPillRaised.default || ButtonPillRaised,
+  ButtonBubble3: ButtonPill.default || ButtonPill,
+  ButtonCursor1: ButtonPillCursor.default || ButtonPillCursor,
+  ButtonCursor2: ButtonCursor.default || ButtonCursor,
+  ButtonDotted1: ButtonDots.default || ButtonDots,
+  ButtonDotted2: ButtonDotsTall.default || ButtonDotsTall,
+  ButtonDotted3: ButtonPillDots.default || ButtonPillDots,
+  ButtonLined1: ButtonScribble.default || ButtonScribble,
+  ButtonLined2: ButtonPillScribble.default || ButtonPillScribble,
+  ButtonPointer: ButtonPillHand.default || ButtonPillHand,
+  CapsLockOffArrowUp: CapsLockOff.default || CapsLockOff,
+  CapsLockOffArrowUp2: CapsLockOffFlat.default || CapsLockOffFlat,
+  CapsLockOnArrowUp: CapsLock.default || CapsLock,
+  CapsLockOnArrowUp2: CapsLockFlat.default || CapsLockFlat,
+  CartSquare: ChartLineSquareWide.default || ChartLineSquareWide,
+  Cast1: Cast.default || Cast,
+  Cast2: CastRound.default || CastRound,
+  ChartArrowUpCircle: ChartTrendUpCircle.default || ChartTrendUpCircle,
+  ChartArrowUpCircleArrowIn: ChartTrendUpCircleArrowRight.default || ChartTrendUpCircleArrowRight,
+  ChartArrowUpCircleCheck: ChartTrendUpCircleCheck.default || ChartTrendUpCircleCheck,
+  ChartArrowUpCircleMinus: ChartTrendUpCircleMinus.default || ChartTrendUpCircleMinus,
+  ChartArrowUpCirclePlus: ChartTrendUpCirclePlus.default || ChartTrendUpCirclePlus,
+  ChartArrowUpCircleX: ChartTrendUpCircleX.default || ChartTrendUpCircleX,
+  ChartArrowUpRectangle: ChartTrendUpSquare.default || ChartTrendUpSquare,
+  ChartArrowUpRectangleArrowIn: ChartTrendUpSquareArrowRight.default || ChartTrendUpSquareArrowRight,
+  ChartArrowUpRectangleCheck: ChartTrendUpSquareCheck.default || ChartTrendUpSquareCheck,
+  ChartArrowUpRectangleDot: ChartTrendUpSquareDot.default || ChartTrendUpSquareDot,
+  ChartArrowUpRectangleMinus: ChartTrendUpSquareMinus.default || ChartTrendUpSquareMinus,
+  ChartArrowUpRectanglePlus: ChartTrendUpSquarePlus.default || ChartTrendUpSquarePlus,
+  ChartArrowUpRectangleX: ChartTrendUpSquareX.default || ChartTrendUpSquareX,
+  ChartCandlestick1: ChartCandlestick.default || ChartCandlestick,
+  ChartDoughnutStorage: ChartDonut.default || ChartDonut,
+  ChartDoughnutStorageStripes: ChartDonutStriped.default || ChartDonutStriped,
+  ChartHorizontalBars1: ChartBarHorizontal.default || ChartBarHorizontal,
+  ChartHorizontalBars2: ChartBarHorizontalAxis.default || ChartBarHorizontalAxis,
+  ChartHorizontalBars3: ChartBarHorizontalPeak.default || ChartBarHorizontalPeak,
+  ChartHorizontalBars4: ChartBarHorizontalPeakAxis.default || ChartBarHorizontalPeakAxis,
+  ChartLineCircle2: ChartLineCircle.default || ChartLineCircle,
+  ChartLineCircle2ArrowIn: ChartLineCircleArrowRight.default || ChartLineCircleArrowRight,
+  ChartLineCircle2Check: ChartLineCircleCheck.default || ChartLineCircleCheck,
+  ChartLineCircle2X: ChartLineCircleX.default || ChartLineCircleX,
+  ChartLineCircle3: ChartLinePeakCircle.default || ChartLinePeakCircle,
+  ChartLineCircle3ArrowIn: ChartLinePeakCircleArrowRight.default || ChartLinePeakCircleArrowRight,
+  ChartLineCircle3Check: ChartLinePeakCircleCheck.default || ChartLinePeakCircleCheck,
+  ChartLineCircle3Minus: ChartLinePeakCircleMinus.default || ChartLinePeakCircleMinus,
+  ChartLineCircle3Plus: ChartLinePeakCirclePlus.default || ChartLinePeakCirclePlus,
+  ChartLineCircle3X: ChartLinePeakCircleX.default || ChartLinePeakCircleX,
+  ChartLineDecrease1: ChartLineDownAxis.default || ChartLineDownAxis,
+  ChartLineDecrease2: ChartLineDownAxisJagged.default || ChartLineDownAxisJagged,
+  ChartLineIncrease1: ChartTrendUpAxis.default || ChartTrendUpAxis,
+  ChartLineIncrease2: ChartTrendUp.default || ChartTrendUp,
+  ChartLineOscillate1: ChartLinePeakAxis.default || ChartLinePeakAxis,
+  ChartLineOscillate2: ChartLinePeak.default || ChartLinePeak,
+  ChartLineRising: ChartLineUpAxis.default || ChartLineUpAxis,
+  ChartLineSquare2: ChartLineSquare.default || ChartLineSquare,
+  ChartLineSquare2ArrowIn: ChartLineSquareArrowRight.default || ChartLineSquareArrowRight,
+  ChartLineSquare2Check: ChartLineSquareCheck.default || ChartLineSquareCheck,
+  ChartLineSquare2Dot: ChartLineSquareDot.default || ChartLineSquareDot,
+  ChartLineSquare2Minus: ChartLineSquareMinus.default || ChartLineSquareMinus,
+  ChartLineSquare2Plus: ChartLineSquarePlus.default || ChartLineSquarePlus,
+  ChartLineSquare2X: ChartLineSquareX.default || ChartLineSquareX,
+  ChartLineSquare3: ChartLinePeakSquare.default || ChartLinePeakSquare,
+  ChartLineSquare3ArrowIn: ChartLinePeakSquareArrowRight.default || ChartLinePeakSquareArrowRight,
+  ChartLineSquare3Check: ChartLinePeakSquareCheck.default || ChartLinePeakSquareCheck,
+  ChartLineSquare3Dot: ChartLinePeakSquareDot.default || ChartLinePeakSquareDot,
+  ChartLineSquare3Minus: ChartLinePeakSquareMinus.default || ChartLinePeakSquareMinus,
+  ChartLineSquare3Plus: ChartLinePeakSquarePlus.default || ChartLinePeakSquarePlus,
+  ChartLineSquare3X: ChartLinePeakSquareX.default || ChartLinePeakSquareX,
+  ChartLineVolatile: ChartLineUpAxisJagged.default || ChartLineUpAxisJagged,
+  ChartPie1: ChartPie.default || ChartPie,
+  ChartVerticalBarsArrowHorizontal1: ChartBarArrowRightThin.default || ChartBarArrowRightThin,
+  ChartVerticalBarsArrowHorizontal2: ChartBarArrowRight.default || ChartBarArrowRight,
+  ChartVerticalBarsDecrease1: ChartBarTrendDownThin.default || ChartBarTrendDownThin,
+  ChartVerticalBarsDecrease2: ChartBarArrowDownThin.default || ChartBarArrowDownThin,
+  ChartVerticalBarsIncrease1: ChartBarTrendUpThin.default || ChartBarTrendUpThin,
+  ChartVerticalBarsIncrease2: ChartBarArrowUpThin.default || ChartBarArrowUpThin,
+  ChartVerticalColumns1: ChartBarJoined.default || ChartBarJoined,
+  ChartVerticalColumns2: ChartBarJoinedBase.default || ChartBarJoinedBase,
+  ChartVerticalColumns3: ChartBarPeakJoined.default || ChartBarPeakJoined,
+  ChartVerticalColumns4: ChartBarPeakJoinedBase.default || ChartBarPeakJoinedBase,
+  ChartVerticalColumns5: ChartBar.default || ChartBar,
+  ChartVerticalColumns6: ChartBarPeak.default || ChartBarPeak,
+  ChartVerticalColumns7: ChartBarPeakJoinedAxis.default || ChartBarPeakJoinedAxis,
+  ChartVerticalColumnsCircle: ChartBarCircle.default || ChartBarCircle,
+  ChartVerticalColumnsCircleArrowIn: ChartBarCircleArrowRight.default || ChartBarCircleArrowRight,
+  ChartVerticalColumnsCircleCheck: ChartBarCircleCheck.default || ChartBarCircleCheck,
+  ChartVerticalColumnsCircleDotted: ChartBarCircleDotted.default || ChartBarCircleDotted,
+  ChartVerticalColumnsCircleX: ChartBarCircleX.default || ChartBarCircleX,
+  ChartVerticalColumnsLinesCircle: ChartBarCircleThin.default || ChartBarCircleThin,
+  ChartVerticalColumnsLinesCircleArrowIn: ChartBarCircleArrowRightThin.default || ChartBarCircleArrowRightThin,
+  ChartVerticalColumnsLinesCircleCheck: ChartBarCircleCheckThin.default || ChartBarCircleCheckThin,
+  ChartVerticalColumnsLinesCircleDotted: ChartBarCircleDottedThin.default || ChartBarCircleDottedThin,
+  ChartVerticalColumnsLinesCircleMinus: ChartBarCircleMinusThin.default || ChartBarCircleMinusThin,
+  ChartVerticalColumnsLinesCirclePlus: ChartBarCirclePlusThin.default || ChartBarCirclePlusThin,
+  ChartVerticalColumnsLinesCircleX: ChartBarCircleXThin.default || ChartBarCircleXThin,
+  ChartVerticalColumnsLinesSquare: ChartBarSquareThin.default || ChartBarSquareThin,
+  ChartVerticalColumnsLinesSquareArrowIn: ChartBarSquareArrowRightThin.default || ChartBarSquareArrowRightThin,
+  ChartVerticalColumnsLinesSquareCheck: ChartBarSquareCheckThin.default || ChartBarSquareCheckThin,
+  ChartVerticalColumnsLinesSquareDot: ChartBarSquareDotThin.default || ChartBarSquareDotThin,
+  ChartVerticalColumnsLinesSquareMinus: ChartBarSquareMinusThin.default || ChartBarSquareMinusThin,
+  ChartVerticalColumnsLinesSquareNegative1: ChartBarDownPeakSquareThin.default || ChartBarDownPeakSquareThin,
+  ChartVerticalColumnsLinesSquareNegative2: ChartBarDownSquareThin.default || ChartBarDownSquareThin,
+  ChartVerticalColumnsLinesSquarePlus: ChartBarSquarePlusThin.default || ChartBarSquarePlusThin,
+  ChartVerticalColumnsLinesSquareX: ChartBarSquareXThin.default || ChartBarSquareXThin,
+  ChartVerticalColumnsRectangle: ChartBarSquare.default || ChartBarSquare,
+  ChartVerticalColumnsRectangleArrowIn: ChartBarSquareArrowRight.default || ChartBarSquareArrowRight,
+  ChartVerticalColumnsRectangleCheck: ChartBarSquareCheck.default || ChartBarSquareCheck,
+  ChartVerticalColumnsRectangleDot: ChartBarSquareDot.default || ChartBarSquareDot,
+  ChartVerticalColumnsRectangleMinus: ChartBarSquareMinus.default || ChartBarSquareMinus,
+  ChartVerticalColumnsRectangleNegative1: ChartBarDownPeakSquare.default || ChartBarDownPeakSquare,
+  ChartVerticalColumnsRectangleNegative2: ChartBarDownSquare.default || ChartBarDownSquare,
+  ChartVerticalColumnsRectanglePlus: ChartBarSquarePlus.default || ChartBarSquarePlus,
+  ChartVerticalColumnsRectangleX: ChartBarSquareX.default || ChartBarSquareX,
+  ChartVerticalLinesColumns1: ChartBarThin.default || ChartBarThin,
+  ChartVerticalLinesColumns2: ChartBarMixedThin.default || ChartBarMixedThin,
+  ChartVerticalLinesColumns3: ChartBarMixedAxisThin.default || ChartBarMixedAxisThin,
+  ChartVerticalLinesColumns4: ChartBarAxisThin.default || ChartBarAxisThin,
+  CheckboxCheckedCircle: CheckSquareCircle.default || CheckSquareCircle,
+  CheckboxCircle1: CheckCircleCompact.default || CheckCircleCompact,
+  CheckboxCircle2: CheckCircleOpen2.default || CheckCircleOpen2,
+  CheckboxCircle3: CheckCircleOpen3.default || CheckCircleOpen3,
+  CheckboxCircle4: CheckCircleOpen.default || CheckCircleOpen,
+  CheckboxCircle5: CheckCircleOpenJoined.default || CheckCircleOpenJoined,
+  CheckboxCircle6: CheckCircle.default || CheckCircle,
+  CheckboxDropAddCircle: CheckCircleStack.default || CheckCircleStack,
+  CheckboxDropAddSquare1: CheckSquareStack.default || CheckSquareStack,
+  CheckboxDropAddSquare2: CheckSquareStack2.default || CheckSquareStack2,
+  CheckboxDropAddSquare3: CheckSquareStackShadow.default || CheckSquareStackShadow,
+  CheckboxIndeterminateCircle1: MinusCircleCompactLarge.default || MinusCircleCompactLarge,
+  CheckboxIndeterminateCircle2: MinusCircleLarge.default || MinusCircleLarge,
+  CheckboxIndeterminateSquare1: MinusSquareCompactLarge.default || MinusSquareCompactLarge,
+  CheckboxIndeterminateSquare2: MinusSquareLarge.default || MinusSquareLarge,
+  CheckboxRadioSelect1: RadioCheck.default || RadioCheck,
+  CheckboxRadioSelect2: RadioCheckOpen.default || RadioCheckOpen,
+  CheckboxRadioSelect3: CheckCircleOpenSquare.default || CheckCircleOpenSquare,
+  CheckboxSquare1: CheckSquare.default || CheckSquare,
+  CheckboxSquare2: CheckSquareCompact.default || CheckSquareCompact,
+  CheckboxSquare3: CheckSquareOpenJoined.default || CheckSquareOpenJoined,
+  CheckboxSquare4: CheckSquareOpen.default || CheckSquareOpen,
+  CheckboxSquareSelect1: CheckSquareOpenCircle.default || CheckSquareOpenCircle,
+  CheckboxSquareSelect2: CheckSquareOpenSquare.default || CheckSquareOpenSquare,
+  CheckboxUncheckedCircle1: CheckboxCircleCompact.default || CheckboxCircleCompact,
+  CheckboxUncheckedCircle2: CheckboxCircle.default || CheckboxCircle,
+  CheckboxUncheckedSquare1: CheckboxCompact.default || CheckboxCompact,
+  CheckboxUncheckedSquare2: Checkbox.default || Checkbox,
+  ChecklistMultiple1: ChecklistCircleTopTwo.default || ChecklistCircleTopTwo,
+  ChecklistMultiple10: ChecklistSquareFilledAll.default || ChecklistSquareFilledAll,
+  ChecklistMultiple2: ChecklistCircleEnds.default || ChecklistCircleEnds,
+  ChecklistMultiple3: ChecklistSquareTopTwo.default || ChecklistSquareTopTwo,
+  ChecklistMultiple4: ChecklistSquareEnds.default || ChecklistSquareEnds,
+  ChecklistMultiple5: ChecklistRadioTopTwo.default || ChecklistRadioTopTwo,
+  ChecklistMultiple6: ChecklistRadioEnds.default || ChecklistRadioEnds,
+  ChecklistMultiple7: ChecklistRadioAll.default || ChecklistRadioAll,
+  ChecklistMultiple8: ChecklistSquareFilledTopTwo.default || ChecklistSquareFilledTopTwo,
+  ChecklistMultiple9: ChecklistSquareFilledEnds.default || ChecklistSquareFilledEnds,
+  ChecklistSingle1: ChecklistTop.default || ChecklistTop,
+  ChecklistSingle2: ChecklistCircleTop.default || ChecklistCircleTop,
+  ChecklistSingle3: ChecklistCircleBottom.default || ChecklistCircleBottom,
+  ChecklistSingle4: ChecklistSquareTop.default || ChecklistSquareTop,
+  ChecklistSingle5: ChecklistSquareBottom.default || ChecklistSquareBottom,
+  ChecklistSingle6: ChecklistRadioTop.default || ChecklistRadioTop,
+  ChecklistSingleChoice7: ChecklistSquareFilledTop.default || ChecklistSquareFilledTop,
+  ChecklistUnchecked1: ChecklistCircleEmpty.default || ChecklistCircleEmpty,
+  ChecklistUnchecked2: ChecklistSquareEmpty.default || ChecklistSquareEmpty,
+  CheckMark1: CheckLarge.default || CheckLarge,
+  CheckMark2: Check.default || Check,
+  CheckMark3: CheckTall.default || CheckTall,
+  CheckMark4: CheckSmall.default || CheckSmall,
+  CheckMarkDouble1: CheckDoubleJoined.default || CheckDoubleJoined,
+  CheckMarkDouble2: CheckDouble.default || CheckDouble,
+  CheckMarkDouble3: CheckDouble2.default || CheckDouble2,
+  CheckMarkDoubleSquare: CheckDoubleSquare.default || CheckDoubleSquare,
+  CheckMarkGeometric: CheckBold.default || CheckBold,
+  CheckMarkHandwritten: CheckBoldHandwritten.default || CheckBoldHandwritten,
+  CheckMarkOrganic: CheckBoldOrganic.default || CheckBoldOrganic,
+  CirclesStateArrowBothWays: CircleOverlapArrowUpRightDownLeft.default || CircleOverlapArrowUpRightDownLeft,
+  CirclesStateArrowOneWay: CircleOverlapArrowDownLeft.default || CircleOverlapArrowDownLeft,
+  CirclesStates1: CircleStack.default || CircleStack,
+  CirclesStates2: CircleStackTight.default || CircleStackTight,
+  CirclesStatesArrowTransition: CircleOverlapArrowUpRight.default || CircleOverlapArrowUpRight,
+  ClearSymbol1: BackspaceCompactSmall.default || BackspaceCompactSmall,
+  ClearSymbol2: BackspaceCompact.default || BackspaceCompact,
+  ClearSymbol3: Backspace.default || Backspace,
+  ClipboardShortlist: ClipboardList.default || ClipboardList,
+  ClipboardShortlistCheck: ClipboardListCheck.default || ClipboardListCheck,
+  ClipboardShortlistMinus: ClipboardListMinus.default || ClipboardListMinus,
+  ClipboardShortlistPlus: ClipboardListPlus.default || ClipboardListPlus,
+  ClipboardShortlistX: ClipboardListX.default || ClipboardListX,
+  Clock1: ClockAngled.default || ClockAngled,
+  Clock29: Clock.default || Clock,
+  ClockArrowCircle: ClockRefresh.default || ClockRefresh,
+  ClockArrowsLeftRight: ClockArrowLeftRight.default || ClockArrowLeftRight,
+  ClockAttachment: ClockPaperclip.default || ClockPaperclip,
+  ClockAttachment2: ClockPaperclipTilted.default || ClockPaperclipTilted,
+  ClockClose: ClockX.default || ClockX,
+  ClockDots: ClockDotted.default || ClockDotted,
+  ClockEnvelope: ClockMail.default || ClockMail,
+  ClockExclamationCircle: ClockAlertCircle.default || ClockAlertCircle,
+  ClockGear: ClockSettingsLarge.default || ClockSettingsLarge,
+  ClockGear2: ClockSettings.default || ClockSettings,
+  ClockLink2: ClockLink.default || ClockLink,
+  ClockNotificationCircle: ClockDot.default || ClockDot,
+  ClockPencilEdit: ClockEdit.default || ClockEdit,
+  ClockPinMap: ClockPin.default || ClockPin,
+  ClockSlash: ClockBan.default || ClockBan,
+  ClockSynchronize: ClockSync.default || ClockSync,
+  ClockView: ClockEye.default || ClockEye,
+  ClockWarning: ClockAlertTriangle.default || ClockAlertTriangle,
+  ClockWarningAlt: ClockTriangle.default || ClockTriangle,
+  ClosePaneArrowLeft1: SidebarArrowLeftStriped.default || SidebarArrowLeftStriped,
+  ClosePaneArrowLeft2: SidebarArrowLeftRows.default || SidebarArrowLeftRows,
+  ClosePaneArrowLeft3: SidebarArrowLeft.default || SidebarArrowLeft,
+  Cloud1BarSlash: CloudOff.default || CloudOff,
+  Cloud1Box: CloudSquare.default || CloudSquare,
+  Cloud1BoxArrowRight: CloudSquareArrowRight.default || CloudSquareArrowRight,
+  Cloud1BoxTransmission: CloudSquareSignal.default || CloudSquareSignal,
+  Cloud1Bulb: CloudLightbulb.default || CloudLightbulb,
+  Cloud1Check: CloudCheckCorner.default || CloudCheckCorner,
+  Cloud1Checked: CloudCheck.default || CloudCheck,
+  Cloud1Download1: CloudDownload.default || CloudDownload,
+  Cloud1Download2: CloudDownloadLarge.default || CloudDownloadLarge,
+  Cloud1Envelope: CloudMail.default || CloudMail,
+  Cloud2: CloudTall.default || CloudTall,
+  Cloud2Box: CloudSquareTall.default || CloudSquareTall,
+  Cloud2BoxRight: CloudSquareArrowRightTall.default || CloudSquareArrowRightTall,
+  Cloud2Check: CloudCheckCornerTall.default || CloudCheckCornerTall,
+  Cloud2Checked: CloudCheckTall.default || CloudCheckTall,
+  Cloud2Close: CloudXCornerTall.default || CloudXCornerTall,
+  Cloud2CloseAlt: CloudXTall.default || CloudXTall,
+  Cloud2Download: CloudDownloadTall.default || CloudDownloadTall,
+  Cloud2DownloadAlt: CloudDownloadLargeTall.default || CloudDownloadLargeTall,
+  Cloud2Envelope: CloudMailTall.default || CloudMailTall,
+  Cloud2Exclamation: CloudAlertTall.default || CloudAlertTall,
+  Cloud2Folder: CloudFolderTall.default || CloudFolderTall,
+  Cloud2Forbidden: CloudBanTall.default || CloudBanTall,
+  Cloud2Gear: CloudSettingsTall.default || CloudSettingsTall,
+  Cloud2Happy: CloudHappyTall.default || CloudHappyTall,
+  Cloud2Lightbulb: CloudLightbulbTall.default || CloudLightbulbTall,
+  Cloud2LinkA: CloudLinkTall.default || CloudLinkTall,
+  Cloud2LinkB: CloudLinkDiagonalTall.default || CloudLinkDiagonalTall,
+  Cloud2LinkC: CloudLinkVerticalTall.default || CloudLinkVerticalTall,
+  Cloud2Lock: CloudLockTall.default || CloudLockTall,
+  Cloud2Minus1: CloudMinusCornerTall.default || CloudMinusCornerTall,
+  Cloud2Minus2: CloudMinusTall.default || CloudMinusTall,
+  Cloud2Music1: CloudMusicTall.default || CloudMusicTall,
+  Cloud2Music2: CloudMusicDoubleTall.default || CloudMusicDoubleTall,
+  Cloud2Network1: CloudNetworkTall.default || CloudNetworkTall,
+  Cloud2Network2: CloudNetworkDotsTall.default || CloudNetworkDotsTall,
+  Cloud2Network3: CloudNetworkNodeTall.default || CloudNetworkNodeTall,
+  Cloud2Plus: CloudPlusCornerTall.default || CloudPlusCornerTall,
+  Cloud2Printer: CloudPrinterTall.default || CloudPrinterTall,
+  Cloud2Receive: CloudArrowDownTall.default || CloudArrowDownTall,
+  Cloud2Refresh1: CloudRefreshTall.default || CloudRefreshTall,
+  Cloud2Refresh2: CloudRefreshCornerTall.default || CloudRefreshCornerTall,
+  Cloud2Restricted: CloudOffTall.default || CloudOffTall,
+  Cloud2Sad: CloudSadTall.default || CloudSadTall,
+  Cloud2Send: CloudSendTall.default || CloudSendTall,
+  Cloud2Synchronize1: CloudSyncTall.default || CloudSyncTall,
+  Cloud2Synchronize2: CloudSyncCornerTall.default || CloudSyncCornerTall,
+  Cloud2Transmission: CloudSquareSignalTall.default || CloudSquareSignalTall,
+  Cloud2Unlock: CloudUnlockTall.default || CloudUnlockTall,
+  Cloud2Upload: CloudArrowUpTall.default || CloudArrowUpTall,
+  Cloud2Upload1: CloudUploadBaseTall.default || CloudUploadBaseTall,
+  Cloud2Upload2: CloudUploadTall.default || CloudUploadTall,
+  Cloud2Upload3: CloudUploadLargeTall.default || CloudUploadLargeTall,
+  Cloud2View: CloudEyeTall.default || CloudEyeTall,
+  Cloud3: CloudRound.default || CloudRound,
+  Cloud3Box: CloudSquareRound.default || CloudSquareRound,
+  Cloud3BoxTransmit: CloudSquareSignalRound.default || CloudSquareSignalRound,
+  Cloud3BoxUpload: CloudSquareArrowRightRound.default || CloudSquareArrowRightRound,
+  Cloud3Bulb: CloudLightbulbRound.default || CloudLightbulbRound,
+  Cloud3Check: CloudCheckCornerRound.default || CloudCheckCornerRound,
+  Cloud3Checked: CloudCheckRound.default || CloudCheckRound,
+  Cloud3Close: CloudXCornerRound.default || CloudXCornerRound,
+  Cloud3Download: CloudArrowDownRound.default || CloudArrowDownRound,
+  Cloud3Download2: CloudDownloadRound.default || CloudDownloadRound,
+  Cloud3DownloadAlt: CloudDownloadLargeRound.default || CloudDownloadLargeRound,
+  Cloud3Envelope: CloudMailRound.default || CloudMailRound,
+  Cloud3Exclamation: CloudAlertRound.default || CloudAlertRound,
+  Cloud3Folder: CloudFolderRound.default || CloudFolderRound,
+  Cloud3Gear: CloudSettingsRound.default || CloudSettingsRound,
+  Cloud3Happy: CloudHappyRound.default || CloudHappyRound,
+  Cloud3Link1: CloudLinkRound.default || CloudLinkRound,
+  Cloud3Link2: CloudLinkDiagonalRound.default || CloudLinkDiagonalRound,
+  Cloud3Link3: CloudLinkVerticalRound.default || CloudLinkVerticalRound,
+  Cloud3Lock: CloudLockRound.default || CloudLockRound,
+  Cloud3Minus1: CloudMinusRound.default || CloudMinusRound,
+  Cloud3Minus29: CloudMinusCornerRound.default || CloudMinusCornerRound,
+  Cloud3Music1: CloudMusicRound.default || CloudMusicRound,
+  Cloud3Music2: CloudMusicDoubleRound.default || CloudMusicDoubleRound,
+  Cloud3Network: CloudNetworkDotsRound.default || CloudNetworkDotsRound,
+  Cloud3Network1: CloudNetworkRound.default || CloudNetworkRound,
+  Cloud3NetworkMulti: CloudNetworkNodeRound.default || CloudNetworkNodeRound,
+  Cloud3Plus: CloudPlusRound.default || CloudPlusRound,
+  Cloud3PlusAlt: CloudPlusCornerRound.default || CloudPlusCornerRound,
+  Cloud3Printer: CloudPrinterRound.default || CloudPrinterRound,
+  Cloud3Refresh: CloudRefreshRound.default || CloudRefreshRound,
+  Cloud3RefreshAlt: CloudRefreshCornerRound.default || CloudRefreshCornerRound,
+  Cloud3Sad: CloudSadRound.default || CloudSadRound,
+  Cloud3Send: CloudSendRound.default || CloudSendRound,
+  Cloud3Slash: CloudBanRound.default || CloudBanRound,
+  Cloud3Slash2: CloudOffRound.default || CloudOffRound,
+  Cloud3Sync: CloudArrowUpDownRound.default || CloudArrowUpDownRound,
+  Cloud3Sync2: CloudSyncRound.default || CloudSyncRound,
+  Cloud3SyncAlt: CloudSyncCornerRound.default || CloudSyncCornerRound,
+  Cloud3Transfer: CloudTransferRound.default || CloudTransferRound,
+  Cloud3Unlock: CloudUnlockRound.default || CloudUnlockRound,
+  Cloud3Upload: CloudArrowRightRound.default || CloudArrowRightRound,
+  Cloud3Upload3: CloudUploadBaseRound.default || CloudUploadBaseRound,
+  Cloud3UploadAlt: CloudArrowUpRound.default || CloudArrowUpRound,
+  Cloud3UploadAlt2: CloudUploadRound.default || CloudUploadRound,
+  Cloud3UploadOpen: CloudUploadLargeRound.default || CloudUploadLargeRound,
+  Cloud3View: CloudEyeRound.default || CloudEyeRound,
+  Cloud3Warning: CloudTriangleRound.default || CloudTriangleRound,
+  Cloud3Warning2: CloudWarningRound.default || CloudWarningRound,
+  Cloud3X: CloudXRound.default || CloudXRound,
+  CloudAdd: CloudPlus.default || CloudPlus,
+  CloudAdd2: CloudPlusCorner.default || CloudPlusCorner,
+  CloudAdd3: CloudPlusTall.default || CloudPlusTall,
+  CloudAlert2: CloudAlert.default || CloudAlert,
+  CloudAlert3: CloudWarningTall.default || CloudWarningTall,
+  CloudAlert4: CloudTriangleTall.default || CloudTriangleTall,
+  CloudArrowRight2: CloudArrowRightTall.default || CloudArrowRightTall,
+  CloudArrowSync: CloudArrowUpDown.default || CloudArrowUpDown,
+  CloudArrowTransfer: CloudTransferTall.default || CloudTransferTall,
+  CloudArrowVertical: CloudArrowUpDownTall.default || CloudArrowUpDownTall,
+  CloudClose1: CloudXCorner.default || CloudXCorner,
+  CloudClose2: CloudX.default || CloudX,
+  CloudLinkAlt: CloudLinkDiagonal.default || CloudLinkDiagonal,
+  CloudLinkVariant: CloudLinkVertical.default || CloudLinkVertical,
+  CloudMusic2: CloudMusicDouble.default || CloudMusicDouble,
+  CloudNetworkSecond: CloudNetworkDots.default || CloudNetworkDots,
+  CloudNetworkThird: CloudNetworkNode.default || CloudNetworkNode,
+  CloudReceive: CloudArrowDown.default || CloudArrowDown,
+  CloudRefreshSecond: CloudRefreshCorner.default || CloudRefreshCorner,
+  CloudRemove: CloudMinusCorner.default || CloudMinusCorner,
+  CloudRemoveAlt: CloudMinus.default || CloudMinus,
+  CloudSearch1: CloudSearch.default || CloudSearch,
+  CloudSearch3: CloudSearch2.default || CloudSearch2,
+  CloudSlash: CloudBan.default || CloudBan,
+  CloudSmile: CloudHappy.default || CloudHappy,
+  CloudSynchronize1: CloudSync.default || CloudSync,
+  CloudSynchronize2: CloudSyncCorner.default || CloudSyncCorner,
+  CloudUpload1: CloudUpload.default || CloudUpload,
+  CloudUpload2: CloudUploadLarge.default || CloudUploadLarge,
+  CloudUpload3: CloudUploadBase.default || CloudUploadBase,
+  CloudView: CloudEye.default || CloudEye,
+  ComputerDesktopLogout: MonitorArrowRight.default || MonitorArrowRight,
+  ConcentricCirclesState1: CircleConcentricXL.default || CircleConcentricXL,
+  ConcentricCirclesState2: CircleConcentricLarge.default || CircleConcentricLarge,
+  ConcentricCirclesState3: CircleConcentric.default || CircleConcentric,
+  ConcentricCirclesState4: CircleConcentricSmall.default || CircleConcentricSmall,
+  ConcentricCirclesState5: CircleConcentricXS.default || CircleConcentricXS,
+  Connect1: NodesFork.default || NodesFork,
+  Connect2: NodesForkLarge.default || NodesForkLarge,
+  ConnectCircle1: NodesCircleThreeLarge.default || NodesCircleThreeLarge,
+  ConnectCircle2: NodesCircleFourLarge.default || NodesCircleFourLarge,
+  ConnectCircle3: NodesCircleThree.default || NodesCircleThree,
+  ConnectCircle4: NodesCircleFour.default || NodesCircleFour,
+  ConnectRandom1: NodesZigzagLarge.default || NodesZigzagLarge,
+  ConnectRandom2: NodesZigzag.default || NodesZigzag,
+  ConnectTriangle1: NodesTriangle.default || NodesTriangle,
+  ConnectTriangle2: NodesTriangleLarge.default || NodesTriangleLarge,
+  ContinuousShootingBurst1: Burst.default || Burst,
+  ContinuousShootingBurst2: BurstDotted.default || BurstDotted,
+  ContinuousShootingBurst3: BurstSkewed.default || BurstSkewed,
+  ContinuousShootingBurst4: BurstSkewedOpen.default || BurstSkewedOpen,
+  ContinuousShootingBurstAF: BurstAF.default || BurstAF,
+  ContinuousShootingBurstLiveView: BurstLV.default || BurstLV,
+  Cursor1: Cursor2.default || Cursor2,
+  Cursor10: CursorUpSharp.default || CursorUpSharp,
+  Cursor5: CursorStraight2.default || CursorStraight2,
+  Cursor6: CursorStraightSlim.default || CursorStraightSlim,
+  Cursor79: CursorStraightNotched.default || CursorStraightNotched,
+  Cursor8: CursorUp.default || CursorUp,
+  Cursor9: CursorUp2.default || CursorUp2,
+  CustomerSupport1: SupportProfile.default || SupportProfile,
+  CustomerSupport2: SupportOval.default || SupportOval,
+  CustomerSupport3: Support.default || Support,
+  CustomerSupport4: SupportOvalMic.default || SupportOvalMic,
+  CustomerSupport5: SupportFace.default || SupportFace,
+  DashboardLayout1: Dashboard.default || Dashboard,
+  DashboardLayout2: DashboardSharp.default || DashboardSharp,
+  DashboardLayout3: DashboardSquare.default || DashboardSquare,
+  DashboardLayout4: DashboardChart.default || DashboardChart,
+  DesktopDock1: ScreenDock.default || ScreenDock,
+  DesktopDock2: ScreenDockDots.default || ScreenDockDots,
+  DesktopDownload1: ScreenDownloadDotsTall.default || ScreenDownloadDotsTall,
+  DesktopDownload2: ScreenDownloadDots.default || ScreenDownloadDots,
+  DesktopDownload3: ScreenDownload.default || ScreenDownload,
+  DesktopIcons: ScreenTaskbar.default || ScreenTaskbar,
+  DiagramHierarchy1: DiagramChain.default || DiagramChain,
+  DiagramHierarchy2: DiagramChainLarge.default || DiagramChainLarge,
+  DiagramHierarchy3: DiagramTree.default || DiagramTree,
+  DiagramHierarchy4: DiagramTreeLarge.default || DiagramTreeLarge,
+  DiagramHorizontal: DiagramTreeRight.default || DiagramTreeRight,
+  DiagramTreeStructure: DiagramTreeIndent.default || DiagramTreeIndent,
+  DiagramUnit: DiagramGrid.default || DiagramGrid,
+  DiagramVertical: DiagramDecision.default || DiagramDecision,
+  DiagramWorkflow: DiagramFlowchart.default || DiagramFlowchart,
+  DislikeHand1: HandThumbDown.default || HandThumbDown,
+  DislikeHand2: HandThumbDownFingers.default || HandThumbDownFingers,
+  DislikeHand3: HandThumbDownCuff.default || HandThumbDownCuff,
+  DislikeHand4: HandThumbDownSleeve.default || HandThumbDownSleeve,
+  DomainNameGlobe1: DomainGlobe.default || DomainGlobe,
+  DomainNameGlobe2: DomainGlobeCenter.default || DomainGlobeCenter,
+  DomainNameSearch: DomainSearch.default || DomainSearch,
+  DoNotDisturbBar: NoEntry.default || NoEntry,
+  Door1: DoorBare.default || DoorBare,
+  Door1ArrowIn: DoorArrowInBare.default || DoorArrowInBare,
+  Door1ArrowOut: DoorArrowOutBare.default || DoorArrowOutBare,
+  Door1X: DoorXBare.default || DoorXBare,
+  Door2: Door.default || Door,
+  Door2ArrowIn: DoorArrowIn.default || DoorArrowIn,
+  Door2ArrowOut: DoorArrowOut.default || DoorArrowOut,
+  Door2X: DoorX.default || DoorX,
+  Door3: DoorOpen.default || DoorOpen,
+  Door3ArrowIn: DoorOpenArrowIn.default || DoorOpenArrowIn,
+  Door3ArrowOut: DoorOpenArrowOut.default || DoorOpenArrowOut,
+  Door3X: DoorOpenX.default || DoorOpenX,
+  DoorSquareEnter: DoorSquare.default || DoorSquare,
+  DoorSquareExit: DoorSquareArrowOut.default || DoorSquareArrowOut,
+  DownloadArrow1: Download.default || Download,
+  DownloadArrow2: DownloadFlat.default || DownloadFlat,
+  DownloadArrowCircle: DownloadCircleDashed.default || DownloadCircleDashed,
+  DownloadArrowDashed: DownloadSquareDashed.default || DownloadSquareDashed,
+  DownloadArrowSquare: DownloadSquare.default || DownloadSquare,
+  DownloadArrowSquare2: UploadSquare.default || UploadSquare,
+  DownloadArrowSquareAlt: DownloadSquareOpen.default || DownloadSquareOpen,
+  DownloadArrowSquareStack: DownloadSquareStack.default || DownloadSquareStack,
+  DownloadArrowSquareStackAlt: DownloadSquareStackCorner.default || DownloadSquareStackCorner,
+  DownloadArrowSquareStackThree: DownloadSquareStackOpen2.default || DownloadSquareStackOpen2,
+  DownloadArrowSquareStackTwo: DownloadSquareStackOpen.default || DownloadSquareStackOpen,
+  DownloadArrowTray: DownloadTraySquare.default || DownloadTraySquare,
+  DownloadArrowTray2: UploadTray.default || UploadTray,
+  DownloadArrowTrayAlt: DownloadTray.default || DownloadTray,
+  DownloadBox1: DownloadBox.default || DownloadBox,
+  DownloadBox2: DownloadBoxNotch.default || DownloadBoxNotch,
+  DownloadBox3: DownloadSquareNotch.default || DownloadSquareNotch,
+  DownloadCircle1: DownloadCircleFlat.default || DownloadCircleFlat,
+  DownloadCircle2: DownloadCircle.default || DownloadCircle,
+  DownloadDashedArrow: DownloadDotted.default || DownloadDotted,
+  DownloadDashedArrowAlt: DownloadDottedFlat.default || DownloadDottedFlat,
+  DownloadDashedCircle: DownloadCircleDashedHalf.default || DownloadCircleDashedHalf,
+  DownloadUpdates: DownloadTriangle.default || DownloadTriangle,
+  DragDrop: DragCursor.default || DragCursor,
+  DragDropAlt: DragHand.default || DragHand,
+  DragDropExtended: DragCursorCenter.default || DragCursorCenter,
+  DragDropFile: DragFile.default || DragFile,
+  DragDropImage: DragImage.default || DragImage,
+  DragDropMove: DragArrowDownRight.default || DragArrowDownRight,
+  DragDropMoveIn: DragArrowUpLeft.default || DragArrowUpLeft,
+  EnvelopeLupeGroup1: MailStackSearch.default || MailStackSearch,
+  EnvelopeLupeGroup2: MailStackSearchRounded.default || MailStackSearchRounded,
+  EnvelopeLupeGroup3: MailStackSearchFolds.default || MailStackSearchFolds,
+  EnvelopeMail: Mail.default || Mail,
+  EnvelopeMailArrowUp: MailOpenUpload.default || MailOpenUpload,
+  EnvelopeMailArrowUp2: MailOpenUpload2.default || MailOpenUpload2,
+  EnvelopeMailArrowUp3: MailOpenUploadWide.default || MailOpenUploadWide,
+  EnvelopeSearch1: MailSearch.default || MailSearch,
+  EnvelopeSearch2: MailSearchRounded.default || MailSearchRounded,
+  EnvelopeSearch3: MailSearchFolds.default || MailSearchFolds,
+  EthernetSettings: Ethernet.default || Ethernet,
+  EyeHideCrossed: EyeOff.default || EyeOff,
+  EyeHideCrossed1: EyeOffShine.default || EyeOffShine,
+  EyeHideCrossed2: EyeOffLargeShine.default || EyeOffLargeShine,
+  EyeHideCrossed3: EyeOffLidded.default || EyeOffLidded,
+  EyeHideCrossed4: EyeOffArc.default || EyeOffArc,
+  EyeHideCrossed5: EyeOffPupil.default || EyeOffPupil,
+  EyeHideCrossed6: EyeOffLargePupil.default || EyeOffLargePupil,
+  EyeView1: Eye.default || Eye,
+  EyeView2: EyeLarge.default || EyeLarge,
+  EyeView3: EyeLidded.default || EyeLidded,
+  EyeView4: EyeArc.default || EyeArc,
+  EyeView5: EyePupil.default || EyePupil,
+  EyeView6: EyeLargeShine.default || EyeLargeShine,
+  EyeView7: EyeShine.default || EyeShine,
+  FaceID3: ScanEye.default || ScanEye,
+  FaceID4: ScanEyeLid.default || ScanEyeLid,
+  FaceIdRecognition1: ScanFace.default || ScanFace,
+  FaceIdRecognition2: ScanFaceRound.default || ScanFaceRound,
+  FaqBubbles: FaqChat.default || FaqChat,
+  FeaturesListStars: ListStarBullets.default || ListStarBullets,
+  Fingerprint1: Fingerprint.default || Fingerprint,
+  Fingerprint2: FingerprintDashed.default || FingerprintDashed,
+  Fingerprint3: FingerprintSpiral.default || FingerprintSpiral,
+  Fingerprint4: FingerprintWide.default || FingerprintWide,
+  Fingerprint5: FingerprintCurl.default || FingerprintCurl,
+  Fingerprint6: FingerprintCurlStem.default || FingerprintCurlStem,
+  Fingerprint7: FingerprintSpiralDashed.default || FingerprintSpiralDashed,
+  Fingerprint8: FingerprintDotted.default || FingerprintDotted,
+  Folder10: FolderInnerLabel.default || FolderInnerLabel,
+  Folder11: FolderStack2.default || FolderStack2,
+  Folder12: FolderAjar.default || FolderAjar,
+  Folder13: FolderAjarFlat.default || FolderAjarFlat,
+  Folder14: FolderStackEdge.default || FolderStackEdge,
+  Folder15: FolderSide.default || FolderSide,
+  Folder16: FolderOpenTab.default || FolderOpenTab,
+  Folder17: FolderOpen.default || FolderOpen,
+  Folder18: FolderOpen2.default || FolderOpen2,
+  Folder19: FolderOpenFront.default || FolderOpenFront,
+  Folder2: FolderDivider.default || FolderDivider,
+  Folder20: FolderPerspective.default || FolderPerspective,
+  Folder3: FolderTabFront.default || FolderTabFront,
+  Folder4: FolderTabBack.default || FolderTabBack,
+  Folder5: FolderStack.default || FolderStack,
+  Folder6: FolderFile.default || FolderFile,
+  Folder7: FolderLabel.default || FolderLabel,
+  Folder8: FolderText.default || FolderText,
+  Folder9: FolderInner.default || FolderInner,
+  FolderAlert: FolderTriangle.default || FolderTriangle,
+  FolderChecked: FolderCheckCenter.default || FolderCheckCenter,
+  FolderCircleCheck: FolderCheckCircle.default || FolderCheckCircle,
+  FolderCircleNegative: FolderMinusCircle.default || FolderMinusCircle,
+  FolderCirclePlus: FolderPlusCircle.default || FolderPlusCircle,
+  FolderNegative: FolderMinus.default || FolderMinus,
+  FolderNegative2: FolderMinusCenter.default || FolderMinusCenter,
+  FolderPlus1: FolderPlus.default || FolderPlus,
+  FolderPlus2: FolderPlusCenter.default || FolderPlusCenter,
+  FolderWarning: FolderAlertTriangle.default || FolderAlertTriangle,
+  FolderX1: FolderX.default || FolderX,
+  FolderX2: FolderXCenter.default || FolderXCenter,
+  ForceTouch: TouchForce.default || TouchForce,
+  Form1: Form.default || Form,
+  Form2: FormCentered.default || FormCentered,
+  Form3: FormLabels.default || FormLabels,
+  Form4: FormRows.default || FormRows,
+  Form5: FormRowsCheckbox.default || FormRowsCheckbox,
+  Form6: FormRowsSquare.default || FormRowsSquare,
+  FormCheckboxChecked1: FormCheckboxCheckOpen.default || FormCheckboxCheckOpen,
+  FormCheckboxChecked2: FormCheckboxCheck.default || FormCheckboxCheck,
+  FormCheckboxChecked3: FormCheckboxCheckLarge.default || FormCheckboxCheckLarge,
+  FormCheckboxUnchecked1: FormCheckboxLong.default || FormCheckboxLong,
+  FormCheckboxUnchecked2: FormCheckbox.default || FormCheckbox,
+  FormCheckboxUnchecked3: FormCheckboxLarge.default || FormCheckboxLarge,
+  FormDropdownSelect1: FormDropdownMinimal.default || FormDropdownMinimal,
+  FormDropdownSelect2: FormDropdown.default || FormDropdown,
+  FormDropdownSelect3: FormDropdownSlim.default || FormDropdownSlim,
+  FormDropdownSelect4: FormDropdownDot.default || FormDropdownDot,
+  FormDropdownSelect5: FormDropdownExpanded.default || FormDropdownExpanded,
+  FormDropdownSelect6: FormDropdownExpandedLines.default || FormDropdownExpandedLines,
+  FormDropdownSelect7: FormDropdownExpandedBullets.default || FormDropdownExpandedBullets,
+  FormInputNumber2: FormInputNumber.default || FormInputNumber,
+  FormInputText1: FormInput.default || FormInput,
+  FormInputText2: FormInputCursor.default || FormInputCursor,
+  FormLockPasswordLabelSquare: FormLockTooltip.default || FormLockTooltip,
+  FormLockPasswordTooltip: FormLockDrop.default || FormLockDrop,
+  FormRadiusChecked1: FormRadioDotLong.default || FormRadioDotLong,
+  FormRadiusChecked2: FormRadioDot.default || FormRadioDot,
+  FormRadiusChecked3: FormRadioCheck.default || FormRadioCheck,
+  FormRadiusUnchecked1: FormRadioLong.default || FormRadioLong,
+  FormRadiusUnchecked2: FormRadio.default || FormRadio,
+  FormUsernameTooltipDrop: FormUserDrop.default || FormUserDrop,
+  FormUsernameTooltipSquare: FormUserTooltip.default || FormUserTooltip,
+  FunnelFilter1: Funnel.default || Funnel,
+  FunnelFilter2: FunnelRim.default || FunnelRim,
+  FunnelFilter3: FunnelSimple.default || FunnelSimple,
+  FunnelFilter4: FunnelOval.default || FunnelOval,
+  FunnelFilterCoin1: FunnelCoin.default || FunnelCoin,
+  FunnelFilterCoin2: FunnelOvalCoin.default || FunnelOvalCoin,
+  FunnelFilterDollar: FunnelDollar.default || FunnelDollar,
+  FunnelFilterMail: FilterLines.default || FilterLines,
+  FunnelFilterMail2: FilterLinesWide.default || FilterLinesWide,
+  FunnelFilterMailCircle: FilterLinesCircle.default || FilterLinesCircle,
+  FunnelFilterMailCircle2: FilterLinesWideCircle.default || FilterLinesWideCircle,
+  FunnelFilterMailSquare: FilterLinesSquare.default || FilterLinesSquare,
+  FunnelFilterSquare: FilterLinesWideSquare.default || FilterLinesWideSquare,
+  Gears1: GearMultiple.default || GearMultiple,
+  Gears2: GearStackSpiky.default || GearStackSpiky,
+  Gears3: GearStack.default || GearStack,
+  Gears4: GearStackSquare.default || GearStackSquare,
+  Gears5: GearCluster.default || GearCluster,
+  GearSettings: Gear.default || Gear,
+  GearSettings2: GearAngled.default || GearAngled,
+  GearSettings3: GearRound.default || GearRound,
+  GearSettings4: GearWavy.default || GearWavy,
+  GearSettings5: GearHex.default || GearHex,
+  GearSettings6: GearSpokes.default || GearSpokes,
+  GeometricFormsDeviation: GridOddCircle.default || GridOddCircle,
+  GeometricFormsDeviation2: GridOddSquare.default || GridOddSquare,
+  GeometricFormsDiscrepancy: ShapeNested.default || ShapeNested,
+  GeometricFormsDiversity: ShapeMix.default || ShapeMix,
+  GeometricFormsInconsistency: ShapeUneven.default || ShapeUneven,
+  GeometricFormsVariation: CircleGridMarks.default || CircleGridMarks,
+  GraphHorizontalBarsDots: ProgressBarMultipleDottedSharp.default || ProgressBarMultipleDottedSharp,
+  GraphHorizontalBarsDotsAlt: ProgressBarMultipleDottedJoined.default || ProgressBarMultipleDottedJoined,
+  GraphHorizontalBarsLines: ChartBarHorizontalSquareThin.default || ChartBarHorizontalSquareThin,
+  GraphHorizontalBarsRounded: ProgressBarMultipleDotted.default || ProgressBarMultipleDotted,
+  GraphHorizontalBarsStripes: ProgressBarMultipleSegmentedSharp.default || ProgressBarMultipleSegmentedSharp,
+  GraphHorizontalBarsStripesAlt: ProgressBarMultipleStripedJoined.default || ProgressBarMultipleStripedJoined,
+  GripHorizontalCircles: GripDotsHorizontal.default || GripDotsHorizontal,
+  GripHorizontalStripes: GripBarsHorizontal.default || GripBarsHorizontal,
+  GripVerticalCircles: GripDotsVertical.default || GripDotsVertical,
+  GripVerticalStripes: GripBarsVertical.default || GripBarsVertical,
+  HandCursor: HandPointer.default || HandPointer,
+  HandCursor6: HandPointerFingers.default || HandPointerFingers,
+  HandCursorPointer1: HandPointerRound.default || HandPointerRound,
+  HandCursorPointer2: HandPointerCuff.default || HandPointerCuff,
+  HandCursorPointer3: HandPointerUnderline.default || HandPointerUnderline,
+  HandCursorPointer4: HandPointerFingersRound.default || HandPointerFingersRound,
+  HandCursorPointer5: HandPointerFingersRound2.default || HandPointerFingersRound2,
+  HandGear: HandSettingsRays.default || HandSettingsRays,
+  HandGear1: HandSettings.default || HandSettings,
+  HandStopPrivate: HandStop.default || HandStop,
+  HandStopPrivateCircle1: HandStopCircle.default || HandStopCircle,
+  HandStopPrivateCircle2: HandFistCircle.default || HandFistCircle,
+  HandTouchDoubleTap: HandTapTwo.default || HandTapTwo,
+  HandTouchFourFingersSwipeDown: HandSwipeDownFourFingers.default || HandSwipeDownFourFingers,
+  HandTouchFourFingersSwipeHorizontal: HandSwipeLeftRightFourFingers.default || HandSwipeLeftRightFourFingers,
+  HandTouchFourFingersSwipeLeft: HandSwipeLeftFourFingers.default || HandSwipeLeftFourFingers,
+  HandTouchFourFingersSwipeRight: HandSwipeRightFourFingers.default || HandSwipeRightFourFingers,
+  HandTouchFourFingersSwipeUp: HandSwipeUpFourFingers.default || HandSwipeUpFourFingers,
+  HandTouchFourFingersSwipeVertical: HandSwipeUpDownFourFingers.default || HandSwipeUpDownFourFingers,
+  HandTouchOneFingerHoldWait: HandTapClock.default || HandTapClock,
+  HandTouchOneFingerMove: HandMove.default || HandMove,
+  HandTouchOneFingerUndo: HandRefresh.default || HandRefresh,
+  HandTouchOneFingerWait: HandClock.default || HandClock,
+  HandTouchSwipeDown: HandSwipeDown.default || HandSwipeDown,
+  HandTouchSwipeLeft: HandSwipeLeft.default || HandSwipeLeft,
+  HandTouchSwipeLeftLine: HandSwipeLeftDashed.default || HandSwipeLeftDashed,
+  HandTouchSwipeLeftRight: HandSwipeLeftRight.default || HandSwipeLeftRight,
+  HandTouchSwipeRight: HandSwipeRight.default || HandSwipeRight,
+  HandTouchSwipeRightLine: HandSwipeRightDashed.default || HandSwipeRightDashed,
+  HandTouchSwipeUp: HandSwipeUp.default || HandSwipeUp,
+  HandTouchSwipeUpDown: HandSwipeUpDown.default || HandSwipeUpDown,
+  HandTouchTap: HandTapDouble.default || HandTapDouble,
+  HandTouchTap2: HandTap.default || HandTap,
+  HandTouchTapOne: HandTapOne.default || HandTapOne,
+  HandTouchTapSquare: HandTapSquare.default || HandTapSquare,
+  HandTouchThreeSwipeDown: HandSwipeDownThreeFingers.default || HandSwipeDownThreeFingers,
+  HandTouchThreeSwipeLeft: HandSwipeLeftThreeFingers.default || HandSwipeLeftThreeFingers,
+  HandTouchThreeSwipeLeftRight: HandSwipeLeftRightThreeFingers.default || HandSwipeLeftRightThreeFingers,
+  HandTouchThreeSwipeRight: HandSwipeRightThreeFingers.default || HandSwipeRightThreeFingers,
+  HandTouchThreeSwipeUp: HandSwipeUpThreeFingers.default || HandSwipeUpThreeFingers,
+  HandTouchThreeSwipeUpDown: HandSwipeUpDownThreeFingers.default || HandSwipeUpDownThreeFingers,
+  HandTouchTwoDirectional: HandMoveTwoFingers.default || HandMoveTwoFingers,
+  HandTwoFingerDoubleTap: HandTapDoubleTwoFingers.default || HandTapDoubleTwoFingers,
+  HandTwoFingerDoubleTap2: HandTapTwoTwoFingers.default || HandTapTwoTwoFingers,
+  HandTwoFingerPinch: HandPinch.default || HandPinch,
+  HandTwoFingerSingleTap: HandTapTwoFingers.default || HandTapTwoFingers,
+  HandTwoFingerSingleTap1: HandTapOneTwoFingers.default || HandTapOneTwoFingers,
+  HandTwoFingerSpread1: HandSpread.default || HandSpread,
+  HandTwoFingerSpread2: HandRotate.default || HandRotate,
+  HandTwoFingersSwipeRight: HandSwipeRightTwoFingers.default || HandSwipeRightTwoFingers,
+  HandTwoFingersSwipeUp: HandSwipeUpTwoFingers.default || HandSwipeUpTwoFingers,
+  HandTwoFingersSwipeVertical: HandSwipeUpDownTwoFingers.default || HandSwipeUpDownTwoFingers,
+  HandTwoFingerSwipeBidirectional: HandSwipeLeftRightTwoFingers.default || HandSwipeLeftRightTwoFingers,
+  HandTwoFingerSwipeDown: HandSwipeDownTwoFingers.default || HandSwipeDownTwoFingers,
+  HandTwoFingerSwipeLeft: HandSwipeLeftTwoFingers.default || HandSwipeLeftTwoFingers,
+  HardDriveClose: HardDriveXCircle.default || HardDriveXCircle,
+  HardDriveDisc: DiscDriveX.default || DiscDriveX,
+  HardDriveStrike: DiscDriveOff.default || DiscDriveOff,
+  Heart1: HeartAngular.default || HeartAngular,
+  Heart1Add: HeartPlusAngular.default || HeartPlusAngular,
+  Heart1Striped: HeartStripedAngular.default || HeartStripedAngular,
+  Heart2: HeartWide.default || HeartWide,
+  Heart2Add: HeartPlusWide.default || HeartPlusWide,
+  Heart2Striped: HeartStripedWide.default || HeartStripedWide,
+  Heart3: Heart.default || Heart,
+  Heart3Dotted: HeartDotted.default || HeartDotted,
+  HeartAdd: HeartPlus.default || HeartPlus,
+  HeartPositive: HeartPlusCenter.default || HeartPlusCenter,
+  HideSidepanelLeft: SidebarMenuArrowLeft.default || SidebarMenuArrowLeft,
+  HideSidepanelRight: SidebarArrowRight.default || SidebarArrowRight,
+  House1: HouseEaves.default || HouseEaves,
+  House10: HouseChimney.default || HouseChimney,
+  House11: HouseDoorChimney.default || HouseDoorChimney,
+  House12: HouseDoorGround.default || HouseDoorGround,
+  House2: HouseDoorEaves.default || HouseDoorEaves,
+  House3: House.default || House,
+  House4: HouseDoorArch.default || HouseDoorArch,
+  House5: HousePentagon.default || HousePentagon,
+  House6: HouseDoorPentagon.default || HouseDoorPentagon,
+  House7: HouseDoorArchPentagon.default || HouseDoorArchPentagon,
+  House8: HouseSharp.default || HouseSharp,
+  House9: HouseDoor.default || HouseDoor,
+  Image3: ImageHills.default || ImageHills,
+  Image4: ImagePeaks.default || ImagePeaks,
+  Image5: ImageSunRight.default || ImageSunRight,
+  Image6: ImageFrameless.default || ImageFrameless,
+  Image7: ImageFrameBroken.default || ImageFrameBroken,
+  Image8: ImageCurve.default || ImageCurve,
+  Image9: ImageMountain.default || ImageMountain,
+  ImagePhoto1: Image.default || Image,
+  ImagePhoto10: ImageWave.default || ImageWave,
+  ImagePhoto11: ImageFrameOrnate.default || ImageFrameOrnate,
+  ImagePhoto2: ImageWide.default || ImageWide,
+  Information1: Info.default || Info,
+  Information2: InfoHollow.default || InfoHollow,
+  Information3: InfoPillar.default || InfoPillar,
+  Information4: InfoBlock.default || InfoBlock,
+  Information5: InfoScript.default || InfoScript,
+  InformationCircle1: InfoCircle.default || InfoCircle,
+  InformationCircle2: InfoCircleSmall.default || InfoCircleSmall,
+  InformationSquare1: InfoSquare.default || InfoSquare,
+  InformationSquare2: InfoSquareSmall.default || InfoSquareSmall,
+  InstallUpdateDown1: GearDownload.default || GearDownload,
+  InstallUpdateDown2: GearDownloadAngled.default || GearDownloadAngled,
+  InstallUpdateDown3: GearDownloadRound.default || GearDownloadRound,
+  InstallUpdateDown4: GearDownloadWavy.default || GearDownloadWavy,
+  InstallUpdateDown5: GearDownloadHex.default || GearDownloadHex,
+  InstallUpdatesArrowUp3: GearUploadRound.default || GearUploadRound,
+  InstallUpdatesArrowUp4: GearUploadWavy.default || GearUploadWavy,
+  InstallUpdatesArrowUp5: GearUploadHex.default || GearUploadHex,
+  InstallUpdatesTray1: GearTray.default || GearTray,
+  InstallUpdatesTray2: GearTrayWavy.default || GearTrayWavy,
+  InstallUpdatesTrayArrowDown1: GearTrayDownload.default || GearTrayDownload,
+  InstallUpdatesTrayArrowDown2: GearTrayDownloadWavy.default || GearTrayDownloadWavy,
+  InstallUpdateUp1: GearUpload.default || GearUpload,
+  InstallUpdateUp2: GearUploadAngled.default || GearUploadAngled,
+  Key15: KeySmoothNotch.default || KeySmoothNotch,
+  Key2: KeyBlockSmooth.default || KeyBlockSmooth,
+  Key3: KeySkeleton.default || KeySkeleton,
+  Key4: KeySkeletonSimple.default || KeySkeletonSimple,
+  Key5: KeyRight.default || KeyRight,
+  Key6: KeyBlockToothed.default || KeyBlockToothed,
+  Key7: KeySkeletonRight.default || KeySkeletonRight,
+  Key8: KeySkeletonRightOval.default || KeySkeletonRightOval,
+  Key9: KeyPlain.default || KeyPlain,
+  Keypad1: Keypad.default || Keypad,
+  Keypad2: KeypadRounded.default || KeypadRounded,
+  Keypad3: KeypadDots.default || KeypadDots,
+  Keypad4: KeypadGrid.default || KeypadGrid,
+  Keypad5: KeypadJoined.default || KeypadJoined,
+  KeyPassword: KeyToothed.default || KeyToothed,
+  KeyPassword1: KeyBlock.default || KeyBlock,
+  KeyPassword10: Key.default || Key,
+  KeyPassword11: KeyAngular.default || KeyAngular,
+  KeyPassword12: KeySkeletonFlipped.default || KeySkeletonFlipped,
+  KeyPassword13: KeySmooth.default || KeySmooth,
+  KeyPassword14: KeyWide.default || KeyWide,
+  LanguageRectangle: TranslateSquare.default || TranslateSquare,
+  LanguageSpeechBubble: TranslateChat.default || TranslateChat,
+  LevelsAdjust: AdjustPairVertical.default || AdjustPairVertical,
+  LevelsAdjustDash10: AdjustVerticalBlock.default || AdjustVerticalBlock,
+  LevelsAdjustDash2: AdjustPair.default || AdjustPair,
+  LevelsAdjustDash3: AdjustVertical.default || AdjustVertical,
+  LevelsAdjustDash4: Adjust.default || Adjust,
+  LevelsAdjustDash5: AdjustTick.default || AdjustTick,
+  LevelsAdjustDashboard6: AdjustVerticalTick.default || AdjustVerticalTick,
+  LevelsAdjustDashboard7: AdjustPairBlock.default || AdjustPairBlock,
+  LevelsAdjustDashboard8: AdjustBlock.default || AdjustBlock,
+  LevelsAdjustDashboard9: AdjustPairVerticalBlock.default || AdjustPairVerticalBlock,
+  LevelUpArrow: TrayUpload.default || TrayUpload,
+  LevelUpArrow2: TrayUploadTall.default || TrayUploadTall,
+  LifebuoyHelp1: Lifebuoy.default || Lifebuoy,
+  LifebuoyHelp2: LifebuoyDiagonalLong.default || LifebuoyDiagonalLong,
+  LifebuoyHelp3: LifebuoyRope.default || LifebuoyRope,
+  LifebuoyHelp4: LifebuoyRopeLong.default || LifebuoyRopeLong,
+  LifebuoyHelp5: LifebuoyDiagonal.default || LifebuoyDiagonal,
+  LightningQuickMode1: Bolt.default || Bolt,
+  LightningQuickMode2: BoltTilted.default || BoltTilted,
+  LightningQuickMode2Off: BoltOffTilted.default || BoltOffTilted,
+  LightningQuickMode3: BoltWide.default || BoltWide,
+  LightningQuickMode3Off: BoltOffWide.default || BoltOffWide,
+  LightningQuickModeOff: BoltOff.default || BoltOff,
+  LikePositionHand2: HandThumbUpFingers.default || HandThumbUpFingers,
+  LikePositionHand3: HandThumbUpCuff.default || HandThumbUpCuff,
+  LikePositionHand4: HandThumbUpSleeve.default || HandThumbUpSleeve,
+  LikePositiveHand1: HandThumbUp.default || HandThumbUp,
+  LinkPersonalHotspot: Link.default || Link,
+  LinkPersonalHotspotAdd: LinkPlus.default || LinkPlus,
+  LinkPersonalHotspotBroken: LinkBroken.default || LinkBroken,
+  LinkPersonalHotspotCheck: LinkCheck.default || LinkCheck,
+  LinkPersonalHotspotMenu: LinkDots.default || LinkDots,
+  LinkPersonalHotspotRemove: LinkMinus.default || LinkMinus,
+  LinkPersonalHotspotSettings: LinkMenu.default || LinkMenu,
+  LinkPersonalHotspotX: LinkX.default || LinkX,
+  List: ListCheckbox.default || ListCheckbox,
+  LoadingBar1: ProgressBarSharp.default || ProgressBarSharp,
+  LoadingBar2: ProgressBar.default || ProgressBar,
+  LoadingBar3: ProgressBarStripedSharp.default || ProgressBarStripedSharp,
+  LoadingBar4: ProgressBarStriped.default || ProgressBarStriped,
+  LoadingBar5: ProgressBarDotted.default || ProgressBarDotted,
+  LoadingBar6: ProgressBarDottedSharp.default || ProgressBarDottedSharp,
+  LoadingDotsStep1: ProgressDots.default || ProgressDots,
+  LoadingDotsStep2: ProgressDotsLeft.default || ProgressDotsLeft,
+  LoadingDotsStep3: ProgressDotsCenter.default || ProgressDotsCenter,
+  LoadingDotsStep4: ProgressDotsRight.default || ProgressDotsRight,
+  Lock2Check: LockCheck.default || LockCheck,
+  Lock2Check2: LockCheckCorner.default || LockCheckCorner,
+  Lock2CheckOpen: LockOpenCheck.default || LockOpenCheck,
+  Lock2CheckOpen2: LockOpenCheckCorner.default || LockOpenCheckCorner,
+  Lock3Check: LockCheckNarrow.default || LockCheckNarrow,
+  Lock3Check2: LockCheckCornerNarrow.default || LockCheckCornerNarrow,
+  Lock3Check2Open: LockOpenCheckCornerNarrow.default || LockOpenCheckCornerNarrow,
+  Lock3CheckOpen: LockOpenCheckNarrow.default || LockOpenCheckNarrow,
+  Lock3Close: LockXNarrow.default || LockXNarrow,
+  Lock3Eye: LockEyeNarrow.default || LockEyeNarrow,
+  Lock3Keyhole: LockKeyholeNarrow.default || LockKeyholeNarrow,
+  Lock3Keyhole2: LockKeyholeDotNarrow.default || LockKeyholeDotNarrow,
+  Lock3KeyholeOpen: LockOpenKeyholeNarrow.default || LockOpenKeyholeNarrow,
+  Lock3Locked: LockNarrow.default || LockNarrow,
+  Lock3Open: LockOpenNarrow.default || LockOpenNarrow,
+  Lock3Password: LockDotsNarrow.default || LockDotsNarrow,
+  Lock4Check: LockOpenCheckWide.default || LockOpenCheckWide,
+  Lock4Checked: LockCheckWide.default || LockCheckWide,
+  Lock4Close: LockXWide.default || LockXWide,
+  Lock4Eye: LockEyeWide.default || LockEyeWide,
+  Lock4Locked: LockWide.default || LockWide,
+  Lock4Open: LockOpenWide.default || LockOpenWide,
+  Lock4Password: LockDotsWide.default || LockDotsWide,
+  Lock4PasswordTwo: LockDotsDashWide.default || LockDotsDashWide,
+  Lock5Check: LockCheckRound.default || LockCheckRound,
+  Lock5CheckAlt: LockCheckCornerRound.default || LockCheckCornerRound,
+  Lock5CheckOpen: LockOpenCheckRound.default || LockOpenCheckRound,
+  Lock5CheckOpenAlt: LockOpenCheckCornerRound.default || LockOpenCheckCornerRound,
+  Lock5Close: LockXRound.default || LockXRound,
+  Lock5Eye: LockEyeRound.default || LockEyeRound,
+  Lock5Keyhole1: LockKeyholeRound.default || LockKeyholeRound,
+  Lock5Keyhole2: LockKeyholeDotRound.default || LockKeyholeDotRound,
+  Lock5KeyholeOpen: LockOpenKeyholeRound.default || LockOpenKeyholeRound,
+  Lock5Locked: LockRound.default || LockRound,
+  Lock5Unlocked: LockOpenRound.default || LockOpenRound,
+  LockArrowPortrait1: LockRefreshLarge.default || LockRefreshLarge,
+  LockArrowPortrait2: LockRefreshSmall.default || LockRefreshSmall,
+  LockArrowPortrait3: LockRefresh.default || LockRefresh,
+  LockCheckOpen: LockOpenCheckSharp.default || LockOpenCheckSharp,
+  LockClose: LockXSharp.default || LockXSharp,
+  LockClose2: LockX.default || LockX,
+  LockEyeAlt: LockEyeCorner.default || LockEyeCorner,
+  LockEyePrivacy: LockEyeSharp.default || LockEyeSharp,
+  LockKeyholeAlt: LockKeyholeDot.default || LockKeyholeDot,
+  LockKeyholeOpen: LockOpenKeyhole.default || LockOpenKeyhole,
+  LockLocked: LockSharp.default || LockSharp,
+  LockLocked2: Lock.default || Lock,
+  LockPadlockCircle: LockCircle.default || LockCircle,
+  LockPassword: LockDots.default || LockDots,
+  LockPasswordAlt: LockDotsDash.default || LockDotsDash,
+  LockUnlocked: LockOpen.default || LockOpen,
+  LockUnlockedOpen: LockOpenSharp.default || LockOpenSharp,
+  LoginArrowIn1: Login.default || Login,
+  LoginArrowIn2: LoginWide.default || LoginWide,
+  LoginArrowIn3: LoginCircle.default || LoginCircle,
+  LoginArrowIn4: LoginSquare.default || LoginSquare,
+  LogoutArrowOut: Logout.default || Logout,
+  LogoutArrowOut2: LogoutWide.default || LogoutWide,
+  LogoutArrowOut3: LogoutCircle.default || LogoutCircle,
+  LogoutArrowOut4: LogoutSquare.default || LogoutSquare,
+  LupeCheck: SearchCheck.default || SearchCheck,
+  LupeClose: SearchX.default || SearchX,
+  LupeMore: SearchDots.default || SearchDots,
+  LupePin2: SearchPinB.default || SearchPinB,
+  LupePin3: SearchPin2.default || SearchPin2,
+  LupePin4: PinSearch.default || PinSearch,
+  LupePin5: PinSearch2.default || PinSearch2,
+  LupePinLocation: SearchPin.default || SearchPin,
+  LupeSearch2Check: SearchCheckB.default || SearchCheckB,
+  LupeSearch2Close: SearchXB.default || SearchXB,
+  LupeSearch2More: SearchDotsB.default || SearchDotsB,
+  LupeSearch2ZoomOut: SearchMinusB.default || SearchMinusB,
+  LupeSearch3Check: SearchCheckC.default || SearchCheckC,
+  LupeSearch3Close: SearchXC.default || SearchXC,
+  LupeSearch3More: SearchDotsC.default || SearchDotsC,
+  LupeSearch3ZoomOut: SearchMinusC.default || SearchMinusC,
+  LupeSearchDollar: SearchDollarB.default || SearchDollarB,
+  LupeSearchInList1: ListSearchRing.default || ListSearchRing,
+  LupeSearchInList2: ListSearchDash.default || ListSearchDash,
+  LupeSearchInList3: ListSearch.default || ListSearch,
+  LupeSearchReflex: SearchShine.default || SearchShine,
+  LupeSearchReplace1: SearchSyncB.default || SearchSyncB,
+  LupeSearchReplace2: SearchSyncDottedB.default || SearchSyncDottedB,
+  LupeSearchReplace3: SearchSync.default || SearchSync,
+  LupeSearchReplace4: SearchRefresh.default || SearchRefresh,
+  LupeSearchZoom: Search.default || Search,
+  LupeSearchZoom2: SearchB.default || SearchB,
+  LupeSearchZoom3: SearchC.default || SearchC,
+  LupeSearchZoomIn: SearchPlus.default || SearchPlus,
+  LupeSearchZoomIn2: SearchPlusB.default || SearchPlusB,
+  LupeSearchZoomIn3: SearchPlusC.default || SearchPlusC,
+  LupeZoom2Actual: SearchOneToOneB.default || SearchOneToOneB,
+  LupeZoom2Extend: SearchExpandB.default || SearchExpandB,
+  LupeZoom3Actual: SearchOneToOneC.default || SearchOneToOneC,
+  LupeZoom3Extend: SearchExpandC.default || SearchExpandC,
+  LupeZoomActual: SearchOneToOne.default || SearchOneToOne,
+  LupeZoomExtend: SearchExpand.default || SearchExpand,
+  LupeZoomOut: SearchMinus.default || SearchMinus,
+  Mailbox1: MailboxFlag.default || MailboxFlag,
+  Mailbox2: MailboxPost.default || MailboxPost,
+  Mailbox3: MailboxPostFlag.default || MailboxPostFlag,
+  Mailbox4: MailboxPostFlagSquare.default || MailboxPostFlagSquare,
+  Mailbox5: MailboxFlagSquare.default || MailboxFlagSquare,
+  Mailbox6: MailboxMail.default || MailboxMail,
+  Mailbox79: MailboxFlagBare.default || MailboxFlagBare,
+  Mailbox8: MailboxFlagWaving.default || MailboxFlagWaving,
+  Mailbox9: Mailbox.default || Mailbox,
+  MenuCircles: MenuGridDots.default || MenuGridDots,
+  MenuDots1: DotsVerticalSmall.default || DotsVerticalSmall,
+  MenuDots2: DotsVerticalSmallSpaced.default || DotsVerticalSmallSpaced,
+  MenuDots3: DotsVertical.default || DotsVertical,
+  MenuDots4: DotsVerticalHollow.default || DotsVerticalHollow,
+  MenuHamburger1: MenuCompact.default || MenuCompact,
+  MenuHamburger2: Menu.default || Menu,
+  MenuHamburgerCircle: MenuCircle2.default || MenuCircle2,
+  MenuHamburgerSquare: MenuSquareRounded.default || MenuSquareRounded,
+  MenuSideBar: MenuPanel.default || MenuPanel,
+  MenuSideBarClose: MenuPanelChevronLeft.default || MenuPanelChevronLeft,
+  MenuSideBarOpen: MenuPanelChevronRight.default || MenuPanelChevronRight,
+  MenuSquared1: MenuGridSquares.default || MenuGridSquares,
+  MenuSquared2: MenuGridSquaresSmall.default || MenuGridSquaresSmall,
+  MenuStripes: MenuShortBottom.default || MenuShortBottom,
+  MenuStripes2: MenuDescending.default || MenuDescending,
+  MenuStripes3: MenuShortMiddle.default || MenuShortMiddle,
+  MenuThreeStripes1: MenuDashes.default || MenuDashes,
+  MenuThreeStripes2: MenuSmall.default || MenuSmall,
+  MenuThreeStripes3: MenuNarrow.default || MenuNarrow,
+  MenuThreeStripes4: MenuLarge.default || MenuLarge,
+  MenuThreeStripes5: MenuPills.default || MenuPills,
+  MenuThreeStripes6: MenuTight.default || MenuTight,
+  MenuThreeStripesCircle: MenuCircle.default || MenuCircle,
+  MenuThreeStripesSquare: MenuSquare.default || MenuSquare,
+  MenuTop: MenuPentagon.default || MenuPentagon,
+  MenuTwoStripes1: MenuTwoLines.default || MenuTwoLines,
+  MinusCircle2: MinusCircleCompact.default || MinusCircleCompact,
+  MinusSignNegative1: Minus.default || Minus,
+  MinusSignNegative2: MinusSmall.default || MinusSmall,
+  MinusSignNegativeCircle1: MinusCircle.default || MinusCircle,
+  MinusSquare1: MinusSquare.default || MinusSquare,
+  MinusSquare2: MinusSquareCompact.default || MinusSquareCompact,
+  MobilePopUp: MobileChat.default || MobileChat,
+  MobileSocialNetwork: MobileHeart.default || MobileHeart,
+  MoveUpDown1: MoveUpDown.default || MoveUpDown,
+  MoveUpDown2: MoveUpDownChevron.default || MoveUpDownChevron,
+  MoveUpDown3: MoveUpDownChevronSmall.default || MoveUpDownChevronSmall,
+  Music1: MusicSixteenth.default || MusicSixteenth,
+  Music10: MusicNoteCurl.default || MusicNoteCurl,
+  Music11: MusicNoteCurlSmall.default || MusicNoteCurlSmall,
+  Music12: MusicMultiple.default || MusicMultiple,
+  Music13: MusicMultipleMixed.default || MusicMultipleMixed,
+  Music2: MusicRound.default || MusicRound,
+  Music3: MusicSixteenthRound.default || MusicSixteenthRound,
+  Music4: MusicNoteFlagSquare.default || MusicNoteFlagSquare,
+  Music5: MusicNoteFlagWave.default || MusicNoteFlagWave,
+  Music6: MusicNoteFlagRound.default || MusicNoteFlagRound,
+  Music7: MusicNoteFlagWaveLarge.default || MusicNoteFlagWaveLarge,
+  Music8: MusicNoteHook.default || MusicNoteHook,
+  Music9: MusicNote.default || MusicNote,
+  NavigationBarMenuArrow: MenuBarCursor.default || MenuBarCursor,
+  Newspaper1: NewspaperPhoto.default || NewspaperPhoto,
+  Newspaper10: NewspaperRolled.default || NewspaperRolled,
+  Newspaper11: NewspaperIsometric.default || NewspaperIsometric,
+  Newspaper12: NewspaperPhotoLeft.default || NewspaperPhotoLeft,
+  Newspaper2: NewspaperHeadline.default || NewspaperHeadline,
+  Newspaper3: NewspaperTorn.default || NewspaperTorn,
+  Newspaper4: NewspaperTornWide.default || NewspaperTornWide,
+  Newspaper5: NewspaperCard.default || NewspaperCard,
+  Newspaper6: NewspaperCornerFold.default || NewspaperCornerFold,
+  Newspaper7: NewspaperStack.default || NewspaperStack,
+  Newspaper8: NewspaperTornCurl.default || NewspaperTornCurl,
+  Newspaper9: NewspaperTornCurlHeadline.default || NewspaperTornCurlHeadline,
+  ObserverEyeView1: EyeCone.default || EyeCone,
+  ObserverEyeView2: EyeConeWide.default || EyeConeWide,
+  OfflinePinCheck: CheckUnderlineCircle.default || CheckUnderlineCircle,
+  OnlineShopBrowser: StoreBrowser.default || StoreBrowser,
+  OnlineShopBrowser2: StoreBrowserDoor.default || StoreBrowserDoor,
+  OnlineShopDesktopBag: MonitorBag.default || MonitorBag,
+  OnlineShopLaptopBag: LaptopBagCenterFlat.default || LaptopBagCenterFlat,
+  OnlineShopLaptopBag2: LaptopBag.default || LaptopBag,
+  OnlineShopLaptopBagAlt: LaptopBagFlat.default || LaptopBagFlat,
+  OnlineShopLaptopCart: LaptopCart.default || LaptopCart,
+  OnlineShopLaptopCartAlt: LaptopCartFlat.default || LaptopCartFlat,
+  OnlineShopMobileBag: MobileBag.default || MobileBag,
+  OnlineShopMobileBag2: MobileBagCenter.default || MobileBagCenter,
+  OnlineShopMobileCart: MobileCartCenter.default || MobileCartCenter,
+  OnlineShopMobileCart2: MobileCart.default || MobileCart,
+  OnlineShopNotebook: LaptopStore.default || LaptopStore,
+  OnlineShopNotebookAlt: LaptopStoreFlat.default || LaptopStoreFlat,
+  OpenInBrowserUp: BrowserArrowUp.default || BrowserArrowUp,
+  OpenInBrowserUp2: WindowArrowUpPlain.default || WindowArrowUpPlain,
+  OpenInWindowUp: WindowArrowUp.default || WindowArrowUp,
+  OpenPaneRight: PaneArrowRightStriped.default || PaneArrowRightStriped,
+  OpenPaneRightAlt: PaneArrowRightList.default || PaneArrowRightList,
+  OpenPaneRightBold: PaneArrowRight.default || PaneArrowRight,
+  OverscanSettings1: Overscan.default || Overscan,
+  OverscanSettings2: OverscanSmall.default || OverscanSmall,
+  OverscanSettings3: OverscanLeftRight.default || OverscanLeftRight,
+  PagesLinesTerms: DocumentStack.default || DocumentStack,
+  PagesLinesTerms2: DocumentStackShadow.default || DocumentStackShadow,
+  PageViewAll: WindowGrid.default || WindowGrid,
+  PageViewBadge: WindowSeal2.default || WindowSeal2,
+  PageViewBadgeAlt: WindowSealPlain.default || WindowSealPlain,
+  PageViewClose1: WindowTextXCircle.default || WindowTextXCircle,
+  PageViewClose2: WindowListXCircle.default || WindowListXCircle,
+  PageViewCollection: LayoutGridShapes.default || LayoutGridShapes,
+  PageViewContent: LayoutListDotted.default || LayoutListDotted,
+  PageViewContent2: LayoutList.default || LayoutList,
+  PageViewContinuous: LayoutContinuous.default || LayoutContinuous,
+  PageViewExtraLarge: LayoutLargeFlower.default || LayoutLargeFlower,
+  PageViewExtraLargeAlt: LayoutLargeFlowerSharp.default || LayoutLargeFlowerSharp,
+  PageViewExtraLargeCompact: LayoutLargeFlowerFramed.default || LayoutLargeFlowerFramed,
+  PageViewExtraLargeGrid: LayoutLargeImage.default || LayoutLargeImage,
+  PageViewExtraLargeTile: LayoutLargeImageArc.default || LayoutLargeImageArc,
+  PageViewFull: FullscreenSquare.default || FullscreenSquare,
+  PageViewFullscreen: FullscreenSquareSharp.default || FullscreenSquareSharp,
+  PageViewGroupItems1: SquareStackPlus.default || SquareStackPlus,
+  PageViewGroupItems2: SquareStackPlusShadow.default || SquareStackPlusShadow,
+  PageViewIconsDetails1: LayoutListDashedDotted.default || LayoutListDashedDotted,
+  PageViewIconsDetails2: LayoutListDashed.default || LayoutListDashed,
+  PageViewIconsThumbnails1: LayoutGridLabels.default || LayoutGridLabels,
+  PageViewIconsThumbnails2: LayoutGridImage.default || LayoutGridImage,
+  PageViewIconsThumbnails3: LayoutGridMixed.default || LayoutGridMixed,
+  PageViewImageList: LayoutListImage.default || LayoutListImage,
+  PageViewList: LayoutListSymbols.default || LayoutListSymbols,
+  PageViewListDetails: LayoutListSymbolsDashed.default || LayoutListSymbolsDashed,
+  PageViewListThumbnails: LayoutListColumns.default || LayoutListColumns,
+  PageViewMultiple: DocumentMultiple.default || DocumentMultiple,
+  PageViewNewTabArrowDown1: TabDownload.default || TabDownload,
+  PageViewNewTabArrowDown2: TabDownloadSplit.default || TabDownloadSplit,
+  PageViewNewTabArrowDown3: TabDownloadSharp.default || TabDownloadSharp,
+  PageViewOpenArrowDown1: WindowTextDownload.default || WindowTextDownload,
+  PageViewOpenArrowDown2: WindowListDownload.default || WindowListDownload,
+  PageViewOpenArrowDown3: WindowDownloadPlain.default || WindowDownloadPlain,
+  PageViewOriginalRatio: RatioOneToOne.default || RatioOneToOne,
+  PageViewOverlappingShow: WindowOverlapRight.default || WindowOverlapRight,
+  PageViewOverlappingShow1: WindowOverlapRightDotted.default || WindowOverlapRightDotted,
+  PageViewOverlappingShow2: WindowOverlapRightDottedBack.default || WindowOverlapRightDottedBack,
+  PageViewOverlappingStatic: WindowOverlapRightList.default || WindowOverlapRightList,
+  PageViewOverlappingStatic1: WindowOverlapLeftDotted.default || WindowOverlapLeftDotted,
+  PageViewOverlappingStatic2: WindowOverlapLeftDottedBack.default || WindowOverlapLeftDottedBack,
+  PageViewOverlappingStatic3: WindowOverlapLeft.default || WindowOverlapLeft,
+  PageViewPictureInPicture1: PictureInPictureTop.default || PictureInPictureTop,
+  PageViewPictureInPicture2: PictureInPicture.default || PictureInPicture,
+  PageViewSingle: Document.default || Document,
+  PageViewTiles1: LayoutTiles.default || LayoutTiles,
+  PageViewTiles2: LayoutTilesEmpty.default || LayoutTilesEmpty,
+  PaidSearchCoins: CoinStackSearch.default || CoinStackSearch,
+  PaidSearchDollar: DollarSearch.default || DollarSearch,
+  PaidSearchDollar1: BanknoteSearch.default || BanknoteSearch,
+  PaidSearchDollar2: BanknoteSearch2.default || BanknoteSearch2,
+  PaidSearchDollarWindow1: BrowserDollarSearch.default || BrowserDollarSearch,
+  PaidSearchDollarWindow2: BrowserDollarSearchDots.default || BrowserDollarSearchDots,
+  PaidSearchDollarWindow3: BrowserDollarSearchDots2.default || BrowserDollarSearchDots2,
+  PencilEdit1: Pencil.default || Pencil,
+  PencilEdit2: PencilPlain.default || PencilPlain,
+  PencilEdit3: PencilTip.default || PencilTip,
+  PencilEdit4: PencilCurved.default || PencilCurved,
+  PencilEdit5: PencilBlunt.default || PencilBlunt,
+  PencilEdit6: PencilDetailed.default || PencilDetailed,
+  PencilEdit7: PencilAngular.default || PencilAngular,
+  PencilTracing1: PencilUnderline.default || PencilUnderline,
+  PencilTracing2: PencilUnderlinePlain.default || PencilUnderlinePlain,
+  PencilTracing3: PencilUnderlineTip.default || PencilUnderlineTip,
+  PencilTracing4: PencilUnderlineCurved.default || PencilUnderlineCurved,
+  PencilTracing5: PencilUnderlineBlunt.default || PencilUnderlineBlunt,
+  PencilTracing6: PencilUnderlineDetailed.default || PencilUnderlineDetailed,
+  PencilTracing7: PencilUnderlineAngular.default || PencilUnderlineAngular,
+  PlaqueCategory1: Plaque.default || Plaque,
+  PlaqueCategory2: PlaqueTight.default || PlaqueTight,
+  Poll1Horizontal: PollHorizontalSquare.default || PollHorizontalSquare,
+  Poll1Vertical: PollSquare.default || PollSquare,
+  Poll2Horizontal: PollHorizontalPercent.default || PollHorizontalPercent,
+  Poll2Vertical: PollPercent.default || PollPercent,
+  Poll3Horizontal: PollHorizontalCheckbox.default || PollHorizontalCheckbox,
+  Poll3Vertical: PollCheckbox.default || PollCheckbox,
+  Poll4Horizontal: PollHorizontalPlusMinus.default || PollHorizontalPlusMinus,
+  Poll4Vertical: PollPlusMinus.default || PollPlusMinus,
+  Poll5Horizontal: PollHorizontalCheckX.default || PollHorizontalCheckX,
+  Poll5Vertical: PollCheckX.default || PollCheckX,
+  Poll6SpeechBubble: PollHorizontalChat.default || PollHorizontalChat,
+  Poll6VerticalSpeech: PollChat.default || PollChat,
+  Poll7Users: PollUser.default || PollUser,
+  PopUp1: Popover.default || Popover,
+  PopUp2: PopoverBig.default || PopoverBig,
+  PopUp3: PopoverList.default || PopoverList,
+  PopUp4: PopoverListBig.default || PopoverListBig,
+  PopUp5: PopoverUp.default || PopoverUp,
+  PopUp6: PopoverUpBig.default || PopoverUpBig,
+  PopUp7: PopoverListUp.default || PopoverListUp,
+  PopUp8: PopoverListUpBig.default || PopoverListUpBig,
+  PresentationKeynote: Presentation.default || Presentation,
+  PresentationKeynoteFile: PresentationFile.default || PresentationFile,
+  PresentationKeynoteLayout: PresentationChart.default || PresentationChart,
+  ProgressSpinnerDots1: SpinnerDots.default || SpinnerDots,
+  ProgressSpinnerDots2: SpinnerDotsFade.default || SpinnerDotsFade,
+  ProgressSpinnerDotted: SpinnerRaysDotted.default || SpinnerRaysDotted,
+  ProgressSpinnerDoubleLines: SpinnerSplit.default || SpinnerSplit,
+  ProgressSpinnerLine: Spinner.default || Spinner,
+  ProgressSpinnerRadiating1: SpinnerRaysLong.default || SpinnerRaysLong,
+  ProgressSpinnerRadiating2: SpinnerRays2.default || SpinnerRays2,
+  ProgressSpinnerRadiating3: SpinnerRays.default || SpinnerRays,
+  ProgressSpinnerRadiating4: SpinnerRaysShort.default || SpinnerRaysShort,
+  ProgressSpinnerRadiating5: SpinnerRaysFade.default || SpinnerRaysFade,
+  Puzzle1: PuzzleNotched.default || PuzzleNotched,
+  Puzzle2: PuzzleKnobs.default || PuzzleKnobs,
+  Puzzle3: PuzzleGrid.default || PuzzleGrid,
+  Puzzle4: PuzzleGridMissing.default || PuzzleGridMissing,
+  PyramidHierarchy: Pyramid.default || Pyramid,
+  PyramidHierarchyUp: PyramidArrowUp.default || PyramidArrowUp,
+  QuestionAnswerSpeechBubbles2: QuestionAnswer.default || QuestionAnswer,
+  QuestionMarkCircleHelp1: QuestionCircle.default || QuestionCircle,
+  QuestionMarkCircleHelp2: QuestionCircleSmall.default || QuestionCircleSmall,
+  QuestionMarkSquareHelp1: QuestionSquare.default || QuestionSquare,
+  QuestionMarkSquareHelp2: QuestionSquareSmall.default || QuestionSquareSmall,
+  QuestionMarkSquareStack1: QuestionSquareStack.default || QuestionSquareStack,
+  QuestionMarkSquareStack2: QuestionSquareStackOverlap.default || QuestionSquareStackOverlap,
+  QuestionMarkSquareStack3: QuestionSquareStackLeft.default || QuestionSquareStackLeft,
+  QuestionsAnswersSpeechBubbles: QuestionAnswerOverlap.default || QuestionAnswerOverlap,
+  RectangleArrowAdvertising: PaneArrowUpRight.default || PaneArrowUpRight,
+  RectangleArrowOpenPopUp2: WindowArrowUpTall.default || WindowArrowUpTall,
+  RectangleArrowOpenPopUp3: WindowStackArrowUpRight.default || WindowStackArrowUpRight,
+  ReplaceExchange: Replace.default || Replace,
+  ReplaceExchange2: ReplaceCircles.default || ReplaceCircles,
+  ReplaceExchange3: ReplaceCirclesVertical.default || ReplaceCirclesVertical,
+  ReplaceExchange4: ReplaceDots.default || ReplaceDots,
+  ReplyArrow: Reply.default || Reply,
+  RestoreArrowClockwise1: RestoreClockwise.default || RestoreClockwise,
+  RestoreArrowClockwise2: RestoreClockwiseBottom.default || RestoreClockwiseBottom,
+  RestoreArrowCounterclockwise1: RestoreCounterclockwise.default || RestoreCounterclockwise,
+  RestoreArrowCounterclockwise2: RestoreCounterclockwiseBottom.default || RestoreCounterclockwiseBottom,
+  RestoredTwoArrowsClockwise: RestoreSyncClockwise.default || RestoreSyncClockwise,
+  RestoredTwoArrowsCounterclockwise: RestoreSyncCounterclockwise.default || RestoreSyncCounterclockwise,
+  RotatedSquareAlert: AlertDiamond.default || AlertDiamond,
+  RotatedSquareDown: ArrowDownDiamond.default || ArrowDownDiamond,
+  RotatedSquareMedium: DotsDiamond.default || DotsDiamond,
+  RotateScreen1: RotateScreen.default || RotateScreen,
+  RotateScreen2: RotateScreenHome.default || RotateScreenHome,
+  RotateScreen3: RotateScreenBezel.default || RotateScreenBezel,
+  RotateScreen4: RotateScreenSpeaker.default || RotateScreenSpeaker,
+  RotateScreen5: RotateScreenTabLeft.default || RotateScreenTabLeft,
+  RotateScreen6: RotateScreenTabRight.default || RotateScreenTabRight,
+  SaveAllFloppyStack: SaveStack.default || SaveStack,
+  SaveAllFloppyStack2: SaveLabelStack.default || SaveLabelStack,
+  SaveAllFloppyStack3: SaveStackDownLeft.default || SaveStackDownLeft,
+  SaveDisk: Save.default || Save,
+  SaveDisk2: SaveLabel.default || SaveLabel,
+  SaveDisk3: SaveHub.default || SaveHub,
+  SaveDiskAdd: SavePlusCircle.default || SavePlusCircle,
+  SaveDiskCheck: SaveCheckCircle.default || SaveCheckCircle,
+  SaveDiskClock: SaveClock.default || SaveClock,
+  SaveDiskClose: SaveXCircle.default || SaveXCircle,
+  SaveDiskClose2: SaveX.default || SaveX,
+  SaveDiskDelete: SaveMinus.default || SaveMinus,
+  SaveDiskEdit1: SaveEdit.default || SaveEdit,
+  SaveDiskEdit2: SaveEdit2.default || SaveEdit2,
+  SaveDiskForbidden: SaveBan.default || SaveBan,
+  SaveDiskMenu: SaveDotsCircle.default || SaveDotsCircle,
+  SaveDiskPlus: SavePlus.default || SavePlus,
+  SaveDiskRemove: SaveMinusCircle.default || SaveMinusCircle,
+  SaveFloppyArrowIn: SaveArrowRight.default || SaveArrowRight,
+  SaveFloppyCheck: SaveCheck.default || SaveCheck,
+  SaveFolderDown: FolderOpenDownload.default || FolderOpenDownload,
+  SaveFolderDown2: FolderOpenDownloadCenter.default || FolderOpenDownloadCenter,
+  SaveSearchDisk: SaveSearch2.default || SaveSearch2,
+  SaveSearchDisk2: SaveSearchLarge.default || SaveSearchLarge,
+  SaveSearchFavorite: ListStar.default || ListStar,
+  SaveSearchLongHandle: SearchDownloadLong.default || SearchDownloadLong,
+  SaveSearchMagnify: SaveSearch.default || SaveSearch,
+  SaveSquareDown: DownloadSquareOpenPlain.default || DownloadSquareOpenPlain,
+  Scan1: ScannerPaper.default || ScannerPaper,
+  Scan2: Scanner.default || Scanner,
+  Scanner3: ScannerFront.default || ScannerFront,
+  Scanner4: ScannerBox.default || ScannerBox,
+  Scanner5: ScannerRound.default || ScannerRound,
+  ScannerRescan4: ScannerRefreshBox.default || ScannerRefreshBox,
+  ScannerRescan5: ScannerRefreshRound.default || ScannerRefreshRound,
+  ScanRescan1: ScannerRefreshPaper.default || ScannerRefreshPaper,
+  ScanRescan2: ScannerRefresh.default || ScannerRefresh,
+  ScanRescan3: ScannerRefreshFront.default || ScannerRefreshFront,
+  ScreensharingArrows: ScreenShareArrows.default || ScreenShareArrows,
+  ScreensharingComputers: ScreenShare.default || ScreenShare,
+  ScreensharingDisabled1: ScreenShareX.default || ScreenShareX,
+  ScreensharingDisabled2: ScreenShareXDouble.default || ScreenShareXDouble,
+  ScreensharingLaptop: ScreenShareLaptop.default || ScreenShareLaptop,
+  ScreensharingLaptopError: ScreenShareLaptopX.default || ScreenShareLaptopX,
+  ScreensharingLaptopLineOut: LaptopArrowUpRight.default || LaptopArrowUpRight,
+  ScreensharingRectangles1: ScreenShareWindows.default || ScreenShareWindows,
+  ScreensharingRectangles2: ScreenShareWindowsDots.default || ScreenShareWindowsDots,
+  ScreensharingRectanglesBarDisabled: ScreenShareWindowsOff.default || ScreenShareWindowsOff,
+  ScreenshotCamera2: ScreenshotCameraPlus.default || ScreenshotCameraPlus,
+  ScreenshotDashed: ScreenshotPlus.default || ScreenshotPlus,
+  ScreenshotDashed2: ScreenshotAreaPlus.default || ScreenshotAreaPlus,
+  Scroll1: Scroll.default || Scroll,
+  Scroll2: ScrollTextNarrow.default || ScrollTextNarrow,
+  Scroll3: ScrollText.default || ScrollText,
+  SearchBrowserLupe1: BrowserSearch.default || BrowserSearch,
+  SearchBrowserLupe2: BrowserSearchPlain.default || BrowserSearchPlain,
+  SearchWindowLupe1: WindowSearchPlain.default || WindowSearchPlain,
+  SearchWindowLupe2: WindowSearchDots.default || WindowSearchDots,
+  Selfie1: Selfie.default || Selfie,
+  Selfie2: SelfieBezel.default || SelfieBezel,
+  Selfie3: SelfieCamera.default || SelfieCamera,
+  Selfie4: SelfieButton.default || SelfieButton,
+  Selfie5: SelfieNotch.default || SelfieNotch,
+  Selfie6: SelfieSquare.default || SelfieSquare,
+  SequenceRectangles: SquareStack.default || SquareStack,
+  ShareArrow: ShareCorner.default || ShareCorner,
+  ShareArrowBox: ShareSquare.default || ShareSquare,
+  ShareConnect1: ShareNodes.default || ShareNodes,
+  ShareConnect2: ShareNodesLarge.default || ShareNodesLarge,
+  ShoppingBag1: Bag.default || Bag,
+  ShoppingBag2: BagSmile.default || BagSmile,
+  ShoppingBag3: BagPouch.default || BagPouch,
+  ShoppingBag4: BagRound.default || BagRound,
+  ShoppingBag5: BagTapered.default || BagTapered,
+  ShoppingBag6: BagSide.default || BagSide,
+  ShoppingBag7: BagTaperedDots.default || BagTaperedDots,
+  ShoppingBag8: BagSmileTapered.default || BagSmileTapered,
+  ShoppingBag9: BagFlared.default || BagFlared,
+  ShoppingBasket1: Basket.default || Basket,
+  ShoppingBasket2: BasketBar.default || BasketBar,
+  ShoppingBasket3: BasketGrid.default || BasketGrid,
+  SidebarMenu1: WindowMenu.default || WindowMenu,
+  SidebarMenu2: WindowMenuPlain.default || WindowMenuPlain,
+  SidebarMenu3: WindowMenuListPlain.default || WindowMenuListPlain,
+  SidebarMenu4: SidebarMenu.default || SidebarMenu,
+  SidebarMenu5: MenuListSquare.default || MenuListSquare,
+  SignalCellTower1: Antenna.default || Antenna,
+  SignalCellTower2: AntennaBraced.default || AntennaBraced,
+  SignalCellTower3: AntennaSides.default || AntennaSides,
+  SignalCellTower4: AntennaTop.default || AntennaTop,
+  SignalWaveConcentric1: SignalArcs.default || SignalArcs,
+  SignalWaveConcentric2: SignalArcsDot.default || SignalArcsDot,
+  SirenAlert: Siren.default || Siren,
+  SirenAlert2: SirenFlat.default || SirenFlat,
+  SkipLineOver1: Skip.default || Skip,
+  SkipLineOver2: SkipX.default || SkipX,
+  SkipLineOver3: SkipCircles.default || SkipCircles,
+  SliderLevel2: SliderPointerTrack.default || SliderPointerTrack,
+  SliderLevel3: Slider.default || Slider,
+  SliderLevel4: SliderTrack.default || SliderTrack,
+  SliderLevelControl1: SliderPointer.default || SliderPointer,
+  SquareArrowDown: ArrowDownSquare.default || ArrowDownSquare,
+  SquareArrowDownLeft: ArrowDownLeftSquare.default || ArrowDownLeftSquare,
+  SquareArrowDownRight: ArrowDownRightSquare.default || ArrowDownRightSquare,
+  SquareArrowLeft: ArrowLeftSquare.default || ArrowLeftSquare,
+  SquareArrowRight: ArrowRightSquare.default || ArrowRightSquare,
+  SquareArrowUp: ArrowUpSquare.default || ArrowUpSquare,
+  SquareArrowUpLeft: ArrowUpLeftSquare.default || ArrowUpLeftSquare,
+  SquareArrowUpRight: ArrowUpRightSquare.default || ArrowUpRightSquare,
+  SquaresFourGrid1: Grid.default || Grid,
+  SquaresFourGrid2: GridRounded.default || GridRounded,
+  StarAddFavorite1: StarPlus.default || StarPlus,
+  StarAddFavorite2: StarPlusCenter.default || StarPlusCenter,
+  StarAddFavorite3: StarPlusRound.default || StarPlusRound,
+  StarFavorite1: Star.default || Star,
+  StarFavorite1Striped: StarStriped.default || StarStriped,
+  StarFavorite2: StarWide.default || StarWide,
+  StarFavorite2Striped: StarStripedWide.default || StarStripedWide,
+  StarFilledStripes: StarStripedRound.default || StarStripedRound,
+  StarRating3: StarRound.default || StarRound,
+  StarSmileFace: StarHappy.default || StarHappy,
+  SubmitArrowCheck1: Submit.default || Submit,
+  SubmitArrowCheck2: SubmitOpen.default || SubmitOpen,
+  SubmitArrowCheck3: SubmitSquare.default || SubmitSquare,
+  Sun1: SunScalloped.default || SunScalloped,
+  Sun2: SunSpiky.default || SunSpiky,
+  Sun3: SunPointed.default || SunPointed,
+  Sun4: SunPointedLong.default || SunPointedLong,
+  Sun5: SunPointedShort.default || SunPointedShort,
+  Sun6: SunWavy.default || SunWavy,
+  Sun79: SunJagged.default || SunJagged,
+  Sun8: SunCurved.default || SunCurved,
+  Sun9: SunFaceted.default || SunFaceted,
+  SunBrightA: Sun.default || Sun,
+  SunBrightness1: SunStarHalf.default || SunStarHalf,
+  SunBrightness12: SunShortLarge.default || SunShortLarge,
+  SunBrightness1A: SunDense.default || SunDense,
+  SunBrightness1B: SunShortDense.default || SunShortDense,
+  SunBrightness1C: SunDottedDense.default || SunDottedDense,
+  SunBrightness2: SunStarStriped.default || SunStarStriped,
+  SunBrightness2A: SunBig.default || SunBig,
+  SunBrightness2B: SunShortBig.default || SunShortBig,
+  SunBrightness2C: SunDottedBig.default || SunDottedBig,
+  SunBrightness3: SunStarBig.default || SunStarBig,
+  SunBrightness3A: SunShortLarge2.default || SunShortLarge2,
+  SunBrightness3B: SunDottedLarge.default || SunDottedLarge,
+  SunBrightness4A: SunSpoke.default || SunSpoke,
+  SunBrightness4B: SunSpokeBig.default || SunSpokeBig,
+  SunBrightness4C: SunSpokeLarge.default || SunSpokeLarge,
+  SunBrightness4D: SunSpokeHuge.default || SunSpokeHuge,
+  SunBrightness5A: SunMixed.default || SunMixed,
+  SunBrightness5B: SunMixedBig.default || SunMixedBig,
+  SunBrightness5C: SunMixedLarge.default || SunMixedLarge,
+  SunBrightness5D: SunMixedHuge.default || SunMixedHuge,
+  SunBrightness6A: SunDenseBig.default || SunDenseBig,
+  SunBrightness6B: SunShortDenseLarge.default || SunShortDenseLarge,
+  SunBrightness6C: SunDottedRadiantLarge.default || SunDottedRadiantLarge,
+  SunBrightness7A: SunRadiant.default || SunRadiant,
+  SunBrightness7B9: SunShortRadiant.default || SunShortRadiant,
+  SunBrightness7C: SunDottedRadiant.default || SunDottedRadiant,
+  SunBrightnessB: SunShort.default || SunShort,
+  SunBrightnessC: SunTiny.default || SunTiny,
+  SunBrightnessD: SunDotted.default || SunDotted,
+  SunBrightnessSettings: SunSettings.default || SunSettings,
+  SunBrightnessSquare1: SunStarHalfSquare.default || SunStarHalfSquare,
+  SunBrightnessSquare2: SunStarSquare.default || SunStarSquare,
+  SunGearSettings1: SunStarStripedSettings.default || SunStarStripedSettings,
+  SunGearSettings2: SunStarHalfSettings.default || SunStarHalfSettings,
+  SunGearSettings4: SunStarSettings.default || SunStarSettings,
+  SwitchButtonOff: SwitchRockerOff.default || SwitchRockerOff,
+  SwitchButtonOff2: SwitchRockerOffPerspective.default || SwitchRockerOffPerspective,
+  SwitchButtonOn: SwitchRockerOn.default || SwitchRockerOn,
+  SwitchButtonOn2: SwitchRockerOnPerspective.default || SwitchRockerOnPerspective,
+  SwitchKnobButton: SwitchKnobUpLeft.default || SwitchKnobUpLeft,
+  SwitchKnobButton2: SwitchKnobUpRight.default || SwitchKnobUpRight,
+  SwitchKnobButton3: SwitchKnobUpLeftHandle.default || SwitchKnobUpLeftHandle,
+  SwitchKnobButton4: SwitchKnobUpRightHandle.default || SwitchKnobUpRightHandle,
+  SwitchPositionOff1: SwitchDialOff.default || SwitchDialOff,
+  SwitchPositionOff2: SwitchDialOffHandle.default || SwitchDialOffHandle,
+  SwitchPositionOn1: SwitchDialOn.default || SwitchDialOn,
+  SwitchPositionOn2: SwitchDialOnHandle.default || SwitchDialOnHandle,
+  SwitchThreePositions: SwitchDialLeft.default || SwitchDialLeft,
+  SwitchThreePositionsSecond: SwitchDialUp.default || SwitchDialUp,
+  SwitchThreePositionsThird: SwitchDialRight.default || SwitchDialRight,
+  SwitchToggle1: SwitchLeverCup.default || SwitchLeverCup,
+  SwitchToggle2: SwitchLeverCupStem.default || SwitchLeverCupStem,
+  SwitchToggle3: SwitchLever.default || SwitchLever,
+  SwitchToggleButtonIntermediate: ToggleMiddle.default || ToggleMiddle,
+  SwitchToggleButtonOff: ToggleOff.default || ToggleOff,
+  SwitchToggleButtonOn: ToggleOn.default || ToggleOn,
+  SwitchToggleButtonOnDots: ToggleOnDotted.default || ToggleOnDotted,
+  SwitchToggleButtonOnStripes: ToggleOnStriped.default || ToggleOnStriped,
+  SwitchToggleIntermediate: ToggleMiddleSlim.default || ToggleMiddleSlim,
+  SwitchToggleOff2: ToggleOffSlim.default || ToggleOffSlim,
+  SwitchToggleOff3: ToggleOffSquared.default || ToggleOffSquared,
+  SwitchToggleOff4: ToggleOffInset.default || ToggleOffInset,
+  SwitchToggleOn2: ToggleOnSlim.default || ToggleOnSlim,
+  SwitchToggleOn3: ToggleOnSquared.default || ToggleOnSquared,
+  SwitchToggleOn4: ToggleOnInset.default || ToggleOnInset,
+  SwitchToggleOnDots: ToggleOnDottedSquared.default || ToggleOnDottedSquared,
+  SwitchToggleOnOff: ToggleMultiple.default || ToggleMultiple,
+  SwitchToggleOnStripes: ToggleOnStripedSquared.default || ToggleOnStripedSquared,
+  SwitchTwoButtonsToggle: ToggleMultipleSlim.default || ToggleMultipleSlim,
+  SynchSettingsArrows: GearSync.default || GearSync,
+  SynchSettingsArrows2: GearSyncLarge.default || GearSyncLarge,
+  SystemDiagnosticClipboard: ClipboardPulse.default || ClipboardPulse,
+  SystemDiagnosticLaptop: LaptopPulse.default || LaptopPulse,
+  SystemDiagnosticStethoscope: StethoscopeSquare.default || StethoscopeSquare,
+  SystemDiagnosticStethoscopeAlt: Stethoscope.default || Stethoscope,
+  SystemDiagnosticStethoscopeList: StethoscopeRound.default || StethoscopeRound,
+  Tab2: TabStep.default || TabStep,
+  Tab2Close: TabXCenterStep.default || TabXCenterStep,
+  Tab2CloseCircle: TabXCircleStep.default || TabXCircleStep,
+  Tab3: TabSharp.default || TabSharp,
+  Tab3Add: TabPlusSharp.default || TabPlusSharp,
+  Tab3AddCircle: TabPlusCircleSharp.default || TabPlusCircleSharp,
+  Tab3ArrowLeft: TabArrowLeftXSharp.default || TabArrowLeftXSharp,
+  Tab3ArrowRight: TabArrowRightXSharp.default || TabArrowRightXSharp,
+  Tab3Check: TabCheckSharp.default || TabCheckSharp,
+  Tab3CheckCircle: TabCheckCircleSharp.default || TabCheckCircleSharp,
+  Tab3Checked: TabCheckCenterSharp.default || TabCheckCenterSharp,
+  Tab3Close: TabXSharp.default || TabXSharp,
+  Tab3CloseCircle: TabXCircleSharp.default || TabXCircleSharp,
+  Tab3Plus: TabPlusCenterSharp.default || TabPlusCenterSharp,
+  Tab3Remove: TabMinusCircleSharp.default || TabMinusCircleSharp,
+  Tab3Remove2: TabMinusCenterSharp.default || TabMinusCenterSharp,
+  Tab3RemoveCircle: TabMinusSharp.default || TabMinusSharp,
+  Tab3Settings: TabDotsSharp.default || TabDotsSharp,
+  Tab3X: TabXCenterSharp.default || TabXCenterSharp,
+  Tab4: TabStriped.default || TabStriped,
+  Tab4ArrowLeft: TabArrowLeftXStriped.default || TabArrowLeftXStriped,
+  Tab4Check: TabCheckStriped.default || TabCheckStriped,
+  Tab4CheckCircle: TabCheckCircleStriped.default || TabCheckCircleStriped,
+  Tab4Checked: TabCheckCenterStriped.default || TabCheckCenterStriped,
+  Tab4Close: TabXStriped.default || TabXStriped,
+  Tab4CloseCircle: TabXCircleStriped.default || TabXCircleStriped,
+  Tab4Plus: TabPlusCenterStriped.default || TabPlusCenterStriped,
+  Tab4Plus2: TabPlusStriped.default || TabPlusStriped,
+  Tab4PlusCircle: TabPlusCircleStriped.default || TabPlusCircleStriped,
+  Tab4Remove: TabMinusCenterStriped.default || TabMinusCenterStriped,
+  Tab4RemoveCircle: TabMinusCircleStriped.default || TabMinusCircleStriped,
+  Tab4RemoveCircle2: TabMinusStriped.default || TabMinusStriped,
+  Tab4Settings: TabDotsStriped.default || TabDotsStriped,
+  Tab4X: TabXCenterStriped.default || TabXCenterStriped,
+  Tab4XRight: TabArrowRightXStriped.default || TabArrowRightXStriped,
+  TabAdd: TabPlusCenter.default || TabPlusCenter,
+  TabAdd2: TabPlusCenterStep.default || TabPlusCenterStep,
+  TabAddCircle: TabPlusCircleStep.default || TabPlusCircleStep,
+  TabAddPlus: TabPlusStep.default || TabPlusStep,
+  TabAddPlus2: TabPlus.default || TabPlus,
+  TabAddPlusCircle: TabPlusCircle.default || TabPlusCircle,
+  TabCheck2: TabCheckCircleStep.default || TabCheckCircleStep,
+  TabCheckmark: TabCheckCenterStep.default || TabCheckCenterStep,
+  TabCheckVerified: TabCheckCenter.default || TabCheckCenter,
+  TabCheckVerified2: TabCheck.default || TabCheck,
+  TabCheckVerifiedCircle: TabCheckCircle.default || TabCheckCircle,
+  TabChevronSwitch1: TabChevronDoubleRight.default || TabChevronDoubleRight,
+  TabChevronSwitch2: TabMultipleChevronRight.default || TabMultipleChevronRight,
+  TabChevronSwitch3: TabMultipleArrowRight.default || TabMultipleArrowRight,
+  TabClose: TabX.default || TabX,
+  TabCloseCircle: TabXCircle.default || TabXCircle,
+  TabCloseLeft: TabArrowLeftX.default || TabArrowLeftX,
+  TabCloseLeft2: TabArrowLeftXStep.default || TabArrowLeftXStep,
+  TabCloseRight: TabArrowRightX.default || TabArrowRightX,
+  TabCloseRight2: TabArrowRightXStep.default || TabArrowRightXStep,
+  TabCloseX: TabXStep.default || TabXStep,
+  TabDashedUnselected: TabDashed.default || TabDashed,
+  TabDelete: TabMinusCenterStep.default || TabMinusCenterStep,
+  TabExtraFeatures: TabTitle.default || TabTitle,
+  TabFloppySave: TabSave.default || TabSave,
+  TabFloppySave2: TabSave2.default || TabSave2,
+  TabGearSettings: TabSettings.default || TabSettings,
+  TableGraph: StethoscopeList.default || StethoscopeList,
+  TabOpenFolder: TabFolderOpen.default || TabFolderOpen,
+  TabRemove: TabMinusCenter.default || TabMinusCenter,
+  TabRemove2: TabMinusCircleStep.default || TabMinusCircleStep,
+  TabRemoveCircle: TabMinusCircle.default || TabMinusCircle,
+  TabRemoveCircle2: TabMinus.default || TabMinus,
+  TabRemoveCircle3: TabMinusStep.default || TabMinusStep,
+  TabSettings2: TabDotsStep.default || TabDotsStep,
+  TabTool: TabWrench.default || TabWrench,
+  Tag1: Tag.default || Tag,
+  Tag2: TagEmpty.default || TagEmpty,
+  Tag3: TagRounded.default || TagRounded,
+  Tag4: TagEmptyRounded.default || TagEmptyRounded,
+  TechnicalSupportGear: GearWrench.default || GearWrench,
+  TechnicalSupportHand: LaptopHand.default || LaptopHand,
+  TechnicalSupportHeadset: LaptopHeadset.default || LaptopHeadset,
+  TechnicalSupportHeadset2: UserHeadsetLongSwept.default || UserHeadsetLongSwept,
+  TechnicalSupportLaptopGear: TableChartLine.default || TableChartLine,
+  TechnicalSupportLaptopGear2: LaptopSettings.default || LaptopSettings,
+  TechnicalSupportLaptopGear22: LaptopSettingsFlat.default || LaptopSettingsFlat,
+  TechnicalSupportPersonHeadset: UserHeadsetSpiky.default || UserHeadsetSpiky,
+  TechnicalSupportPersonHeadsetAlt: UserHeadset.default || UserHeadset,
+  TechnicalSupportPersonHeadsetVar3: UserHeadsetWavy.default || UserHeadsetWavy,
+  TechnicalSupportPersonHeadsetVar4: UserHeadsetSwept.default || UserHeadsetSwept,
+  TechnicalSupportPersonHeadsetVar5: UserHeadsetLong.default || UserHeadsetLong,
+  TechnicalSupportTool: LaptopWrench.default || LaptopWrench,
+  TechnicalSupportToolAlt: LaptopWrenchCorner.default || LaptopWrenchCorner,
+  TechnicalSupportTools: WrenchScrewdriverDouble.default || WrenchScrewdriverDouble,
+  TechnicalSupportToolsAlt: WrenchScrewdriver.default || WrenchScrewdriver,
+  TechnicalSupportToolVariant: LaptopWrenchFlat.default || LaptopWrenchFlat,
+  ThemesColorPalette: SwatchFan.default || SwatchFan,
+  ThemesRectanglesFilled: SwatchStackWide.default || SwatchStackWide,
+  ThemesSquaresFilled: SwatchStack.default || SwatchStack,
+  ToolbarMoreDetails: MenuListColumnsSquare.default || MenuListColumnsSquare,
+  ToolbarNavigationBottom: ToolbarBottom.default || ToolbarBottom,
+  ToolbarNavigationLeft: SidebarLeft.default || SidebarLeft,
+  ToolbarNavigationPane1: CaretLeftRightSquare.default || CaretLeftRightSquare,
+  ToolbarNavigationPane2: ChevronLeftRightSquare.default || ChevronLeftRightSquare,
+  ToolbarNavigationRight: SidebarRight.default || SidebarRight,
+  ToolbarNavigationTop: ToolbarTop.default || ToolbarTop,
+  ToolbarPreviewEye: EyeSquare.default || EyeSquare,
+  ToolbarPreviewEye2: EyeSquareDot.default || EyeSquareDot,
+  ToolbarPreviewEye3: EyeSquareArc.default || EyeSquareArc,
+  ToolbarShowBottomPanel: PanelBottom.default || PanelBottom,
+  ToolbarShowLeftPanel: PanelLeft.default || PanelLeft,
+  ToolbarShowRightPanel: PanelRight.default || PanelRight,
+  ToolbarShowTopPanel: PanelTop.default || PanelTop,
+  ToolbarStart: StartMenu.default || StartMenu,
+  Toolbox1: ToolboxAngled.default || ToolboxAngled,
+  Toolbox2: ToolboxRound.default || ToolboxRound,
+  Toolbox3: TagStack.default || TagStack,
+  ToolHandSupport1: WrenchHandOpen.default || WrenchHandOpen,
+  ToolHandSupport2: WrenchHand.default || WrenchHand,
+  ToolSupport1: Wrench.default || Wrench,
+  ToolSupport2: WrenchDouble.default || WrenchDouble,
+  ToolSupport3: Wrench2.default || Wrench2,
+  ToolSupport4: WrenchWide.default || WrenchWide,
+  ToolSupport5: WrenchRound.default || WrenchRound,
+  ToolSupport6: Screwdriver.default || Screwdriver,
+  ToolSupport7: ScrewdriverThick.default || ScrewdriverThick,
+  TouchScreenDoubleTouch: TouchTapDouble.default || TouchTapDouble,
+  TouchScreenMoveDown: TouchMoveDown.default || TouchMoveDown,
+  TouchScreenMoveLeft: TouchMoveLeft.default || TouchMoveLeft,
+  TouchScreenMoveRight: TouchMoveRight.default || TouchMoveRight,
+  TouchScreenMoveUp: TouchMoveUp.default || TouchMoveUp,
+  TouchScreenPinch: TouchPinch.default || TouchPinch,
+  TouchScreenSingleTouch: TouchTap.default || TouchTap,
+  TouchScreenSpread: TouchSpread.default || TouchSpread,
+  TouchScreenSwipeDown1: TouchSwipeDown.default || TouchSwipeDown,
+  TouchScreenSwipeDown2: TouchSwipeDownGap.default || TouchSwipeDownGap,
+  TouchScreenSwipeDown22: TouchSwipeDownTwoFingersGap.default || TouchSwipeDownTwoFingersGap,
+  TouchScreenSwipeDownSquare: TouchSwipeDownSquare.default || TouchSwipeDownSquare,
+  TouchScreenSwipeLeft1: TouchSwipeLeft.default || TouchSwipeLeft,
+  TouchScreenSwipeLeft12: TouchSwipeLeftTwoFingers.default || TouchSwipeLeftTwoFingers,
+  TouchScreenSwipeLeft2: TouchSwipeLeftGap.default || TouchSwipeLeftGap,
+  TouchScreenSwipeLeft22: TouchSwipeLeftTwoFingersGap.default || TouchSwipeLeftTwoFingersGap,
+  TouchScreenSwipeLeftSquare: TouchSwipeLeftSquare.default || TouchSwipeLeftSquare,
+  TouchScreenSwipeRight: TouchSwipeRight.default || TouchSwipeRight,
+  TouchScreenSwipeRight1: TouchSwipeRightTwoFingers.default || TouchSwipeRightTwoFingers,
+  TouchScreenSwipeRight2: TouchSwipeRightGap.default || TouchSwipeRightGap,
+  TouchScreenSwipeRight22: TouchSwipeRightTwoFingersGap.default || TouchSwipeRightTwoFingersGap,
+  TouchScreenSwipeRightSquare: TouchSwipeRightSquare.default || TouchSwipeRightSquare,
+  TouchScreenSwipeUp: TouchSwipeUp.default || TouchSwipeUp,
+  TouchScreenSwipeUp1: TouchSwipeUpTwoFingers.default || TouchSwipeUpTwoFingers,
+  TouchScreenSwipeUp2: TouchSwipeUpGap.default || TouchSwipeUpGap,
+  TouchScreenSwipeUp22: TouchSwipeUpTwoFingersGap.default || TouchSwipeUpTwoFingersGap,
+  TouchScreenSwipeUpSquare: TouchSwipeUpSquare.default || TouchSwipeUpSquare,
+  TouchScreenTwoFingersDouble: TouchTapDoubleTwoFingers.default || TouchTapDoubleTwoFingers,
+  TouchScreenTwoFingersSingle: TouchTapTwoFingers.default || TouchTapTwoFingers,
+  TouchScreenTwoFingersSwipeDown: TouchSwipeDownTwoFingers.default || TouchSwipeDownTwoFingers,
+  TranslationArrowsSpeech: TranslateChatStack.default || TranslateChatStack,
+  TranslationLanguagesArrows1: TranslateSync.default || TranslateSync,
+  TranslationLanguagesArrows2: TranslateSyncCode.default || TranslateSyncCode,
+  TranslationLanguagesSpeech1: TranslateChatSplit.default || TranslateChatSplit,
+  TranslationSquares: TranslateSquareStack.default || TranslateSquareStack,
+  Trash6: TrashNotch.default || TrashNotch,
+  Trash7: TrashEmptyNotch.default || TrashEmptyNotch,
+  Trash8: Trash.default || Trash,
+  Trash9: TrashEmpty.default || TrashEmpty,
+  TrashArrowUpRestore: TrashArrowUpLid.default || TrashArrowUpLid,
+  TrashArrowUpRestore4: TrashArrowUpDetached.default || TrashArrowUpDetached,
+  TrashArrowUpRestore5: TrashArrowUpNotch.default || TrashArrowUpNotch,
+  TrashArrowUpRestore6: TrashArrowUp.default || TrashArrowUp,
+  TrashArrowUpRestoreAlt: TrashArrowUpNarrow.default || TrashArrowUpNarrow,
+  TrashArrowUpRestoreAlt2: TrashArrowUpTapered.default || TrashArrowUpTapered,
+  TrashDelete1: TrashLid.default || TrashLid,
+  TrashDelete10: TrashDome.default || TrashDome,
+  TrashDelete11: TrashEmptyPeak.default || TrashEmptyPeak,
+  TrashDelete2: TrashNarrow.default || TrashNarrow,
+  TrashDelete3: TrashTapered.default || TrashTapered,
+  TrashDelete4: TrashDetached.default || TrashDetached,
+  TrashDelete42: TrashSyncNotch.default || TrashSyncNotch,
+  TrashDelete5: TrashBasket.default || TrashBasket,
+  TrashDelete52: TrashSyncDetached.default || TrashSyncDetached,
+  TrashDeleteX1: TrashXNotch.default || TrashXNotch,
+  TrashDeleteX2: TrashX.default || TrashX,
+  TrashForbidden1: TrashBan.default || TrashBan,
+  TrashForbidden2: TrashBanNotch.default || TrashBanNotch,
+  TrashForbidden3: TrashBanDetached.default || TrashBanDetached,
+  TrashRecycle1: TrashRecycleNotch.default || TrashRecycleNotch,
+  TrashRecycle2: TrashRecycleRoundNotch.default || TrashRecycleRoundNotch,
+  TrashRecycle3: TrashSync.default || TrashSync,
+  TrashUndelete1: TrashRefresh.default || TrashRefresh,
+  TrashUndelete2: TrashRefreshCenterNotch.default || TrashRefreshCenterNotch,
+  TrashUndelete3: TrashRefreshNotch.default || TrashRefreshNotch,
+  TrashUndelete4: TrashRefreshDetached.default || TrashRefreshDetached,
+  UpgradeProgressBar: GearProgress.default || GearProgress,
+  UploadArrow1: Upload.default || Upload,
+  UploadArrow2: UploadFlat.default || UploadFlat,
+  UploadArrowBox1: UploadBox.default || UploadBox,
+  UploadArrowBox2: UploadBoxNotch.default || UploadBoxNotch,
+  UploadArrowBox3: UploadSquareNotch.default || UploadSquareNotch,
+  UploadArrowCircle: UploadCircle.default || UploadCircle,
+  UploadArrowCircle1: UploadCircleFlat.default || UploadCircleFlat,
+  UploadArrowDashed: UploadSquareDashed.default || UploadSquareDashed,
+  UploadArrowDashedProgress1: UploadCircleDashedHalf.default || UploadCircleDashedHalf,
+  UploadArrowDashedProgress2: UploadCircleDashed.default || UploadCircleDashed,
+  UploadArrowSquare: UploadSquareOpen.default || UploadSquareOpen,
+  UploadArrowSquares: UploadSquareStack.default || UploadSquareStack,
+  UploadDashed1: UploadDotted.default || UploadDotted,
+  UploadDashed2: UploadDottedFlat.default || UploadDottedFlat,
+  UploadSquaresStack2: UploadSquareStackCorner.default || UploadSquareStackCorner,
+  UploadSquaresStack3: UploadSquareStackOpen.default || UploadSquareStackOpen,
+  UploadSquaresStack4: UploadSquareStackOpen2.default || UploadSquareStackOpen2,
+  UploadTray1: UploadTraySquare.default || UploadTraySquare,
+  UploadUpdates: UploadTriangle.default || UploadTriangle,
+  UpvoteArrowDown: VoteTrianglesRound.default || VoteTrianglesRound,
+  UpvoteArrowDown1: VoteArrows.default || VoteArrows,
+  UpvoteArrowDown2: VoteArrowsHollow.default || VoteArrowsHollow,
+  UpvoteArrowDown3: VoteTriangles.default || VoteTriangles,
+  UpvoteButtonsChevron: VoteChevronSquare.default || VoteChevronSquare,
+  UpvoteLikeDislike: VoteThumbs.default || VoteThumbs,
+  UpvotePlusMinus: VotePlusMinus.default || VotePlusMinus,
+  UserFaceAfro: AvatarFaceAfro.default || AvatarFaceAfro,
+  UserFaceBald: AvatarFaceBald.default || AvatarFaceBald,
+  UserFaceBowlCut: AvatarFaceBowlCut.default || AvatarFaceBowlCut,
+  UserFaceCurly: AvatarFaceCurly.default || AvatarFaceCurly,
+  UserFaceCurlyBob: AvatarFaceCurlyBob.default || AvatarFaceCurlyBob,
+  UserFaceCurlyTop: AvatarFaceCurlyTop.default || AvatarFaceCurlyTop,
+  UserFaceFlatTop: AvatarFaceFlatTop.default || AvatarFaceFlatTop,
+  UserFaceFlippedEnds: AvatarFaceFlippedEnds.default || AvatarFaceFlippedEnds,
+  UserFaceLongBangs: AvatarFaceLongBangs.default || AvatarFaceLongBangs,
+  UserFaceLongBraids: AvatarFaceLongBraids.default || AvatarFaceLongBraids,
+  UserFaceLongCenterPart: AvatarFaceLongCenterPart.default || AvatarFaceLongCenterPart,
+  UserFaceLongSideBangs: AvatarFaceLongSideBangs.default || AvatarFaceLongSideBangs,
+  UserFaceLongSidePart: AvatarFaceLongSidePart.default || AvatarFaceLongSidePart,
+  UserFaceLongSideSwept: AvatarFaceLongSideSwept.default || AvatarFaceLongSideSwept,
+  UserFaceLongSweptBangs: AvatarFaceLongSweptBangs.default || AvatarFaceLongSweptBangs,
+  UserFaceLongTextured: AvatarFaceLongTextured.default || AvatarFaceLongTextured,
+  UserFaceLongWavy: AvatarFaceLongWavy.default || AvatarFaceLongWavy,
+  UserFaceMohawk: AvatarFaceMohawk.default || AvatarFaceMohawk,
+  UserFacePompadour: AvatarFacePompadour.default || AvatarFacePompadour,
+  UserFaceRoundSidePart: AvatarFaceRoundSidePart.default || AvatarFaceRoundSidePart,
+  UserFaceShortCombed: AvatarFaceShortCombed.default || AvatarFaceShortCombed,
+  UserFaceShortFringe: AvatarFaceShortFringe.default || AvatarFaceShortFringe,
+  UserFaceShoulderSidePart: AvatarFaceShoulderSidePart.default || AvatarFaceShoulderSidePart,
+  UserFaceSidePartBob: AvatarFaceSidePartBob.default || AvatarFaceSidePartBob,
+  UserFaceSideSweptShort: AvatarFaceSideSweptShort.default || AvatarFaceSideSweptShort,
+  UserFaceSpaceBuns: AvatarFaceSpaceBuns.default || AvatarFaceSpaceBuns,
+  UserFaceSpiky: AvatarFaceSpiky.default || AvatarFaceSpiky,
+  UserFaceSpikySide: AvatarFaceSpikySide.default || AvatarFaceSpikySide,
+  UserFaceSweptBangs: AvatarFaceSweptBangs.default || AvatarFaceSweptBangs,
+  UserFaceSwoop: AvatarFaceSwoop.default || AvatarFaceSwoop,
+  UserFaceTexturedMid: AvatarFaceTexturedMid.default || AvatarFaceTexturedMid,
+  UserFaceTexturedPonytail: AvatarFaceTexturedPonytail.default || AvatarFaceTexturedPonytail,
+  UserFaceTexturedPuffs: AvatarFaceTexturedPuffs.default || AvatarFaceTexturedPuffs,
+  UserFaceTexturedShort: AvatarFaceTexturedShort.default || AvatarFaceTexturedShort,
+  UserFaceTopKnot: AvatarFaceTopKnot.default || AvatarFaceTopKnot,
+  UserFaceWavyBob: AvatarFaceWavyBob.default || AvatarFaceWavyBob,
+  UserHeadAfro: AvatarHeadAfro.default || AvatarHeadAfro,
+  UserHeadBald: AvatarHeadBald.default || AvatarHeadBald,
+  UserHeadBluntBob: AvatarHeadBluntBob.default || AvatarHeadBluntBob,
+  UserHeadBobBangs: AvatarHeadBobBangs.default || AvatarHeadBobBangs,
+  UserHeadCrewCut: AvatarHeadCrewCut.default || AvatarHeadCrewCut,
+  UserHeadCurly: AvatarHeadCurly.default || AvatarHeadCurly,
+  UserHeadCurlyBob: AvatarHeadCurlyBob.default || AvatarHeadCurlyBob,
+  UserHeadCurlyTop: AvatarHeadCurlyTop.default || AvatarHeadCurlyTop,
+  UserHeadFlatTop: AvatarHeadFlatTop.default || AvatarHeadFlatTop,
+  UserHeadFlippedEnds: AvatarHeadFlippedEnds.default || AvatarHeadFlippedEnds,
+  UserHeadLongBraids: AvatarHeadLongBraids.default || AvatarHeadLongBraids,
+  UserHeadLongCenterPart: AvatarHeadLongCenterPart.default || AvatarHeadLongCenterPart,
+  UserHeadLongSideSwept: AvatarHeadLongSideSwept.default || AvatarHeadLongSideSwept,
+  UserHeadLongTextured: AvatarHeadLongTextured.default || AvatarHeadLongTextured,
+  UserHeadLongWavy: AvatarHeadLongWavy.default || AvatarHeadLongWavy,
+  UserHeadMohawk: AvatarHeadMohawk.default || AvatarHeadMohawk,
+  UserHeadPompadour: AvatarHeadPompadour.default || AvatarHeadPompadour,
+  UserHeadRoundCenterPart: AvatarHeadRoundCenterPart.default || AvatarHeadRoundCenterPart,
+  UserHeadShort: AvatarHeadShort.default || AvatarHeadShort,
+  UserHeadShortCombed: AvatarHeadShortCombed.default || AvatarHeadShortCombed,
+  UserHeadShortFringe: AvatarHeadShortFringe.default || AvatarHeadShortFringe,
+  UserHeadShoulderCenterPart: AvatarHeadShoulderCenterPart.default || AvatarHeadShoulderCenterPart,
+  UserHeadShoulderCenterPart2: AvatarHeadShoulderCenterPart2.default || AvatarHeadShoulderCenterPart2,
+  UserHeadShoulderSidePart: AvatarHeadShoulderSidePart.default || AvatarHeadShoulderSidePart,
+  UserHeadSideBangs: AvatarHeadSideBangs.default || AvatarHeadSideBangs,
+  UserHeadSidePartBob: AvatarHeadSidePartBob.default || AvatarHeadSidePartBob,
+  UserHeadSpaceBuns: AvatarHeadSpaceBuns.default || AvatarHeadSpaceBuns,
+  UserHeadSpiky: AvatarHeadSpiky.default || AvatarHeadSpiky,
+  UserHeadSpikySide: AvatarHeadSpikySide.default || AvatarHeadSpikySide,
+  UserHeadSweptBangs: AvatarHeadSweptBangs.default || AvatarHeadSweptBangs,
+  UserHeadSwoop: AvatarHeadSwoop.default || AvatarHeadSwoop,
+  UserHeadTexturedMid: AvatarHeadTexturedMid.default || AvatarHeadTexturedMid,
+  UserHeadTexturedPuffs: AvatarHeadTexturedPuffs.default || AvatarHeadTexturedPuffs,
+  UserHeadTexturedShort: AvatarHeadTexturedShort.default || AvatarHeadTexturedShort,
+  UserHeadWavyBob: AvatarHeadWavyBob.default || AvatarHeadWavyBob,
+  ViewsGroupAdd: SquareStackPlusCircle.default || SquareStackPlusCircle,
+  ViewsGroupAdd2: SquareStackPlusCircleShadow.default || SquareStackPlusCircleShadow,
+  VipLines: VipBars.default || VipBars,
+  VipRectangle: VipSquare.default || VipSquare,
+  Vpn1: Vpn.default || Vpn,
+  Vpn2: VpnLines.default || VpnLines,
+  VrArRectangle: ARSquare.default || ARSquare,
+  VRCubeDashed: CubeArrowsOut.default || CubeArrowsOut,
+  VRCubeFramed1: CubeFocus.default || CubeFocus,
+  VRCubeFramed2: CubeFocusSmall.default || CubeFocusSmall,
+  VRCubeHalf: MobileCubeOverlap.default || MobileCubeOverlap,
+  VRDeviceCubeCentered: MobileCube.default || MobileCube,
+  VRDeviceDimensions: MobilePlane.default || MobilePlane,
+  VRDeviceLimits: MobileBounds.default || MobileBounds,
+  VRGlasses: Glasses.default || Glasses,
+  VRHeadset1: VrHeadsetSensors.default || VrHeadsetSensors,
+  VRHeadset2: VrHeadset.default || VrHeadset,
+  VRHeadset3: VrHeadsetGoggles.default || VrHeadsetGoggles,
+  VRHeadsetPerson1: VrHeadsetUser.default || VrHeadsetUser,
+  VRHeadsetPerson2: VrHeadsetUserSmall.default || VrHeadsetUserSmall,
+  WallpaperPictureDashed: ImageDashed.default || ImageDashed,
+  WallpaperPictureFramed: ImageCorners.default || ImageCorners,
+  Warning1: Triangle.default || Triangle,
+  Warning2: TriangleWide.default || TriangleWide,
+  Warning3: TriangleSmall.default || TriangleSmall,
+  WarningCircle: AlertCircleSmall.default || AlertCircleSmall,
+  WarningExclamationCircle: AlertCircle.default || AlertCircle,
+  WarningForbidden1: WarningOff.default || WarningOff,
+  WarningForbidden2: WarningOffRound.default || WarningOffRound,
+  WarningForbidden3: WarningOffWide.default || WarningOffWide,
+  WarningForbidden4: WarningOffSmall.default || WarningOffSmall,
+  WarningForbiddenBar: TriangleOff.default || TriangleOff,
+  WarningHighRisk: WarningRays.default || WarningRays,
+  WarningSquare: AlertSquare.default || AlertSquare,
+  WarningSquareAlt: AlertSquareSmall.default || AlertSquareSmall,
+  WarningSquareStack: AlertSquareStack.default || AlertSquareStack,
+  WarningSquareStackAlt: AlertSquareStackOverlap.default || AlertSquareStackOverlap,
+  WarningSquareStackDouble: AlertSquareStackSide.default || AlertSquareStackSide,
+  WarningTriangle: Warning.default || Warning,
+  WarningTriangleAlt: WarningRound.default || WarningRound,
+  WarningTriangleAlt2: WarningWide.default || WarningWide,
+  WarningTriangleAlt3: WarningSmall.default || WarningSmall,
+  WarningTriangleForbidden2: TriangleOffWide.default || TriangleOffWide,
+  WarningTriangleForbidden3: TriangleOffSmall.default || TriangleOffSmall,
+  WebpageWww: FolderWww.default || FolderWww,
+  WebsitePortalBill: BrowserBanknote.default || BrowserBanknote,
+  WebsitePortalBlossom: BrowserFlowerPointed.default || BrowserFlowerPointed,
+  WebsitePortalCamera: BrowserMovieCamera.default || BrowserMovieCamera,
+  WebsitePortalChair1: BrowserArmchair.default || BrowserArmchair,
+  WebsitePortalChair2: BrowserArmchairRound.default || BrowserArmchairRound,
+  WebsitePortalChart: BrowserChartArrow.default || BrowserChartArrow,
+  WebsitePortalCompass: BrowserCompass.default || BrowserCompass,
+  WebsitePortalDating: BrowserHeartCenter.default || BrowserHeartCenter,
+  WebsitePortalDelete: BrowserTrash.default || BrowserTrash,
+  WebsitePortalFilm: BrowserFilm.default || BrowserFilm,
+  WebsitePortalFlower: BrowserFlower.default || BrowserFlower,
+  WebsitePortalHandbag: BrowserHandbag.default || BrowserHandbag,
+  WebsitePortalHeart: BrowserHeart.default || BrowserHeart,
+  WebsitePortalScale: BrowserScale.default || BrowserScale,
+  WebsitePortalShield: BrowserShield.default || BrowserShield,
+  WebsitePortalShoe: BrowserShoe.default || BrowserShoe,
+  WebsitePortalTool1: BrowserWrench.default || BrowserWrench,
+  WebsitePortalTool2: BrowserWrench2.default || BrowserWrench2,
+  WebsitePortalTrends1: BrowserChart.default || BrowserChart,
+  WebsitePortalTrends2: BrowserChartZigzag.default || BrowserChartZigzag,
+  WebsitePortalWarning: BrowserTriangle.default || BrowserTriangle,
+  WebsitePortalWeather: BrowserCloudSun.default || BrowserCloudSun,
+  WidgetDelete1: WidgetX.default || WidgetX,
+  WidgetDelete2: WidgetXBlob.default || WidgetXBlob,
+  WifiSignal5: HotspotStem.default || HotspotStem,
+  WifiSignal6: HotspotStemLarge.default || HotspotStemLarge,
+  WifiSignal7: HotspotSidesStem.default || HotspotSidesStem,
+  WifiSignal8: HotspotSidesStemLarge.default || HotspotSidesStemLarge,
+  WifiSignal9: HotspotDots.default || HotspotDots,
+  WifiSignalHotspot1: Hotspot.default || Hotspot,
+  WifiSignalHotspot10: HotspotDotsLarge.default || HotspotDotsLarge,
+  WifiSignalHotspot2: HotspotLarge.default || HotspotLarge,
+  WifiSignalHotspot3: HotspotSides.default || HotspotSides,
+  WifiSignalHotspot4: HotspotSidesLarge.default || HotspotSidesLarge,
+  WindowAdvertisementArrowIn1: WindowArrowUpRight.default || WindowArrowUpRight,
+  WindowAdvertisementArrowIn2: WindowArrowUpRightBare.default || WindowArrowUpRightBare,
+  WindowAdvertisementArrowIn3: WindowArrowUpRightPlain.default || WindowArrowUpRightPlain,
+  WindowControlFullscreen: Fullscreen.default || Fullscreen,
+  WindowControlFullscreen2: FullscreenTriangles.default || FullscreenTriangles,
+  WindowControlFullscreenCircle: FullscreenCircle.default || FullscreenCircle,
+  WindowControlMinimize: Minimize.default || Minimize,
+  WindowControlMinimizeSquare: MinimizeSquare.default || MinimizeSquare,
+  WindowControlRestore: Restore.default || Restore,
+  WindowControlRestoreSquare: RestoreSquare.default || RestoreSquare,
+  WindowDockingBottom: DockBottom.default || DockBottom,
+  WindowDockingFill: DockFill.default || DockFill,
+  WindowDockingHorizontal: DockHorizontal.default || DockHorizontal,
+  WindowDockingLeft: DockLeft.default || DockLeft,
+  WindowDockingRight: DockRight.default || DockRight,
+  WindowDockingTop: DockTop.default || DockTop,
+  WindowDockingVertical: DockVertical.default || DockVertical,
+  WindowPopUp1: WindowModalTitled.default || WindowModalTitled,
+  WindowPopUp2: WindowModalBare.default || WindowModalBare,
+  WindowPopUp3: WindowModal.default || WindowModal,
+  WindowPopUp4: PopoverWindow.default || PopoverWindow,
+  WindowPopUp5: PopoverWindowPlain.default || PopoverWindowPlain,
+  WindowsPopUp1: WindowStackShadow.default || WindowStackShadow,
+  WindowsPopUp2: WindowStackShadowBare.default || WindowStackShadowBare,
+  WindowsPopUp3: WindowStack.default || WindowStack,
+  XArrowBack1: XUndo.default || XUndo,
+  XArrowBack2: XUndoWide.default || XUndoWide,
+  XDelete1: XLarge.default || XLarge,
+  XDelete2: X.default || X,
+  XDelete3: XSmall.default || XSmall,
+  XDelete4: XTiny.default || XTiny,
+  XDeleteCircle1: XCircleLarge.default || XCircleLarge,
+  XDeleteCircle2: XCircle.default || XCircle,
+  XDeleteCircle3: XCircleSmall.default || XCircleSmall,
+  XDeleteCircle4: XCircleCompact.default || XCircleCompact,
+  XDeleteOctagon1: XOctagonLarge.default || XOctagonLarge,
+  XDeleteOctagon2: XOctagon.default || XOctagon,
+  XDeleteSquare1: XSquareLarge.default || XSquareLarge,
+  XDeleteSquare2: XSquare.default || XSquare,
+  XDeleteSquare3: XSquareSmall.default || XSquareSmall,
+  XDeleteSquare4: XSquareCompact.default || XSquareCompact,
 };

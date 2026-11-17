@@ -1,17 +1,18 @@
 {
-  "name": "CloudAdd3",
+  "name": "CloudPlusTall",
   "description": "A cloud icon with a plus symbol for uploading or adding to cloud storage",
   "tags": [
     "cloud",
     "add",
+    "create",
     "plus",
     "upload",
-    "create",
     "new",
-    "storage"
+    "storage",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud plus tall",
+  "aliases": [
+    "CloudAdd3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

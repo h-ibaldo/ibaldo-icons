@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsRectanglePlus",
-  "displayName": "Chart vertical columns rectangle plus",
+  "name": "ChartBarSquarePlus",
+  "displayName": "Chart bar square plus",
   "originalTitle": "Chart Vertical Columns Rectangle Positive Add Plus",
   "description": "Column chart with plus indicator for adding new data series or chart elements. Used in analytics interfaces for expanding data visualization capabilities.",
   "tags": [
     "chart",
-    "column",
+    "vertical",
+    "columns",
+    "rectangle",
+    "positive",
     "add",
+    "create",
+    "column",
     "plus",
     "expand",
     "data",
-    "series",
-    "analytics"
+    "series"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.758Z"
+  "generatedAt": "2026-02-15T00:53:19.758Z",
+  "aliases": [
+    "ChartVerticalColumnsRectanglePlus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

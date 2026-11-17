@@ -1,20 +1,20 @@
 {
-  "name": "ContinuousShootingBurstAF",
+  "name": "BurstAF",
   "description": "A continuous shooting burst icon with rectangles indicating autofocus area detection during rapid-fire photography",
   "tags": [
+    "burst",
     "continuous",
     "shooting",
-    "burst",
+    "bursts",
     "rectangles",
-    "autofocus",
-    "AF",
+    "af",
     "focus",
     "area",
+    "autofocus",
     "camera"
   ],
   "categories": [
-    "media",
-    "devices"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Burst A F",
+  "aliases": [
+    "ContinuousShootingBurstAF"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

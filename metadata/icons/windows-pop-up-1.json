@@ -1,17 +1,22 @@
 {
-  "name": "WindowsPopUp1",
+  "name": "WindowStackShadow",
   "description": "A multiple pop-up windows icon displaying multiple floating dialog boxes",
   "tags": [
+    "window",
     "windows",
+    "pop",
+    "up",
     "pop-up",
     "multiple",
     "dialog",
     "floating",
     "modal",
     "interface",
-    "variant1"
+    "stack",
+    "shadow"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window stack shadow",
+  "aliases": [
+    "WindowsPopUp1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

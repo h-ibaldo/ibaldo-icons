@@ -1,20 +1,21 @@
 {
-  "name": "WifiSignalHotspot10",
+  "name": "HotspotDotsLarge",
   "description": "A wifi signal icon with hotspot indicator, maximum strength level",
   "tags": [
+    "hotspot",
     "wifi",
     "signal",
-    "hotspot",
     "wireless",
     "connection",
     "network",
     "internet",
     "mobile",
-    "strong"
+    "strong",
+    "dots",
+    "large"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hotspot dots large",
+  "aliases": [
+    "WifiSignalHotspot10"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

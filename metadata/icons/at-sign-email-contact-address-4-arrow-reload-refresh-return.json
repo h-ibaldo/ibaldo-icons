@@ -1,21 +1,24 @@
 {
-  "name": "AtSign4ArrowReload",
-  "displayName": "At sign 4 arrow reload",
+  "name": "AtRefreshTall",
+  "displayName": "At refresh tall",
   "originalTitle": "At Sign Email Contact Address 4 Arrow Reload Refresh Return",
   "description": "Email address with reload arrow for refreshing or reloading email content. Used to refresh inbox or reload email data.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "refresh",
+    "contact",
+    "address",
+    "arrow",
     "reload",
+    "return",
+    "refresh",
     "update",
     "sync",
-    "at-sign",
-    "contact",
-    "arrow"
+    "at-sign"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.762Z"
+  "generatedAt": "2026-02-15T00:53:19.762Z",
+  "aliases": [
+    "AtSign4ArrowReload"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

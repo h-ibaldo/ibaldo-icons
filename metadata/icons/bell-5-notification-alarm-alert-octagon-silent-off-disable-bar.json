@@ -1,21 +1,25 @@
 {
-  "name": "Bell5OctagonSilent",
-  "displayName": "Bell 5 octagon silent",
+  "name": "BellOctagonOffDash",
+  "displayName": "Bell octagon off dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Octagon Silent Off Disable Bar",
   "description": "Octagon-shaped notification bell with silent/disabled indicator. Used to show notifications are muted or disabled in warning contexts.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "silent",
-    "muted",
+    "disable",
+    "bar",
     "disabled",
+    "mute",
+    "muted",
     "octagon",
-    "warning",
-    "off"
+    "warning"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.787Z"
+  "generatedAt": "2026-02-15T00:53:19.787Z",
+  "aliases": [
+    "Bell5OctagonSilent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

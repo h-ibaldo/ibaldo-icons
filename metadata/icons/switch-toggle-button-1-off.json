@@ -1,14 +1,15 @@
 {
-  "name": "SwitchToggleButtonOff",
+  "name": "ToggleOff",
   "description": "A toggle button switch in off state",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
+    "disabled",
+    "mute",
     "off",
     "inactive",
-    "state",
-    "disabled"
+    "state"
   ],
   "categories": [
     "interface"
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle off",
+  "aliases": [
+    "SwitchToggleButtonOff"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

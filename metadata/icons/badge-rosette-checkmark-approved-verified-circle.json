@@ -5,17 +5,20 @@
   "description": "Circular verification badge with checkmark for approved or certified status. Clean design suitable for profile verification or quality indicators.",
   "tags": [
     "badge",
-    "circle",
+    "rosette",
     "checkmark",
-    "verified",
     "approved",
+    "verified",
+    "done",
+    "success",
+    "circle",
     "certified",
     "profile",
-    "validation"
+    "validation",
+    "check"
   ],
   "categories": [
-    "interface",
-    "business"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,7 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.739Z"
+  "generatedAt": "2026-02-15T00:53:19.739Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

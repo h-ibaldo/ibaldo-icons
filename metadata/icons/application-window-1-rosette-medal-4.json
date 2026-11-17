@@ -1,9 +1,10 @@
 {
-  "name": "ApplicationWindow1Rosette4",
-  "displayName": "Application window 1 rosette 4",
+  "name": "WindowRosette",
+  "displayName": "Window rosette",
   "originalTitle": "Application Window 1 Rosette Medal 4",
   "description": "Application window with medal or award icon representing achievement or recognition software. Used to indicate gaming applications, award systems, or achievement tracking programs.",
   "tags": [
+    "window",
     "application",
     "medal",
     "award",
@@ -11,11 +12,12 @@
     "recognition",
     "trophy",
     "winner",
-    "success"
+    "success",
+    "rosette"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.770Z"
+  "generatedAt": "2026-02-15T00:53:19.770Z",
+  "aliases": [
+    "ApplicationWindow1Rosette4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

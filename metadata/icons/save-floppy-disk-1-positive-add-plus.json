@@ -1,17 +1,18 @@
 {
-  "name": "SaveDiskPlus",
+  "name": "SavePlus",
   "description": "A floppy disk save icon with a plus symbol indicating the ability to add or create new saved items",
   "tags": [
     "save",
-    "floppy disk",
-    "plus",
-    "add",
+    "floppy",
+    "disk",
     "positive",
+    "add",
     "create",
+    "floppy-disk",
+    "plus",
     "storage"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save plus",
+  "aliases": [
+    "SaveDiskPlus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

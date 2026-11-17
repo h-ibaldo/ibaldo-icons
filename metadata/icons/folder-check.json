@@ -3,16 +3,17 @@
   "description": "A folder icon with a checkmark indicating completed, verified, or approved folder status.",
   "tags": [
     "folder",
+    "done",
+    "success",
+    "verified",
     "check",
     "checkmark",
-    "verified",
     "approved",
     "complete",
     "directory"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder check",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

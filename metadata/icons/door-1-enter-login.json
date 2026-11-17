@@ -1,6 +1,6 @@
 {
-  "name": "Door1",
-  "displayName": "Door 1",
+  "name": "DoorBare",
+  "displayName": "Door bare",
   "originalTitle": "Door 1 Enter Login",
   "description": "Basic door icon representing entry, login, or access points. Used for authentication interfaces, entry systems, or access control.",
   "tags": [
@@ -11,10 +11,10 @@
     "entry",
     "authentication",
     "signin",
-    "portal"
+    "portal",
+    "bare"
   ],
   "categories": [
-    "interface",
     "security"
   ],
   "accessibility": {
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.800Z"
+  "generatedAt": "2026-02-15T00:53:19.800Z",
+  "aliases": [
+    "Door1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,19 +1,18 @@
 {
-  "name": "TechnicalSupportHand",
+  "name": "LaptopHand",
   "description": "A laptop with a helping hand icon representing technical support assistance",
   "tags": [
-    "technical support",
     "laptop",
+    "technical",
+    "support",
+    "technical-support",
     "hand",
     "help",
     "assistance",
-    "customer service",
-    "support"
+    "customer-service"
   ],
   "categories": [
-    "interface",
-    "business",
-    "communication"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop hand",
+  "aliases": [
+    "TechnicalSupportHand"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

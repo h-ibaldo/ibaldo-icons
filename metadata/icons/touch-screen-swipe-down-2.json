@@ -1,5 +1,5 @@
 {
-  "name": "TouchScreenSwipeDown2",
+  "name": "TouchSwipeDownGap",
   "description": "A touch screen gesture icon showing a finger swiping downward on a display, variant 2",
   "tags": [
     "touch",
@@ -11,11 +11,11 @@
     "mobile",
     "finger",
     "direction",
-    "variant"
+    "gap"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Touch swipe down gap",
+  "aliases": [
+    "TouchScreenSwipeDown2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

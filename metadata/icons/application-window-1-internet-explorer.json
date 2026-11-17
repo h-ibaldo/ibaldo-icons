@@ -1,21 +1,22 @@
 {
-  "name": "ApplicationWindow1InternetExplorer2",
-  "displayName": "Application window 1 internet explorer 2",
+  "name": "WindowLetterE",
+  "displayName": "Window letter E",
   "originalTitle": "Application Window 1 Internet Explorer",
   "description": "Application window representing Internet Explorer web browser. Used to indicate web browsing functionality or browser-based applications.",
   "tags": [
-    "application",
     "window",
-    "browser",
+    "application",
     "internet",
     "explorer",
+    "browser",
     "web",
     "browsing",
-    "microsoft"
+    "microsoft",
+    "letter"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.768Z"
+  "generatedAt": "2026-02-15T00:53:19.768Z",
+  "aliases": [
+    "ApplicationWindow1InternetExplorer2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

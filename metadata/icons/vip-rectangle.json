@@ -1,5 +1,5 @@
 {
-  "name": "VipRectangle",
+  "name": "VipSquare",
   "description": "A VIP badge or label icon in rectangular form indicating premium or exclusive membership tier",
   "tags": [
     "vip",
@@ -9,10 +9,10 @@
     "exclusive",
     "membership",
     "label",
-    "tier"
+    "tier",
+    "square"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vip square",
+  "aliases": [
+    "VipRectangle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

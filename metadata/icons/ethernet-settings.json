@@ -1,5 +1,5 @@
 {
-  "name": "EthernetSettings",
+  "name": "Ethernet",
   "description": "An ethernet network icon with settings controls for network configuration",
   "tags": [
     "ethernet",
@@ -13,8 +13,7 @@
     "preferences"
   ],
   "categories": [
-    "devices",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "interactive",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Ethernet",
+  "aliases": [
+    "EthernetSettings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

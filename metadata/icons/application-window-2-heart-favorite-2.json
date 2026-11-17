@@ -1,21 +1,22 @@
 {
-  "name": "ApplicationWindow2Heart2",
-  "displayName": "Application window 2 heart 2",
+  "name": "WindowHeartBare",
+  "displayName": "Window heart bare",
   "originalTitle": "Application Window 2 Heart Favorite 2",
   "description": "Application window with heart icon variant for social or preference applications. Used to represent dating apps, social media, wishlist applications, or favorite content managers.",
   "tags": [
-    "application",
     "window",
-    "heart",
+    "application",
     "favorite",
+    "heart",
     "social",
     "like",
     "wishlist",
-    "dating"
+    "dating",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "social"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.773Z"
+  "generatedAt": "2026-02-15T00:53:19.773Z",
+  "aliases": [
+    "ApplicationWindow2Heart2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,17 +1,19 @@
 {
-  "name": "Gears2",
+  "name": "GearStackSpiky",
   "description": "Two interlocking gears symbolizing collaboration, synchronization, or system integration.",
   "tags": [
+    "gear",
     "gears",
     "settings",
     "interlocking",
     "collaboration",
     "sync",
     "synchronization",
-    "mechanical"
+    "mechanical",
+    "stack",
+    "spiky"
   ],
   "categories": [
-    "interface",
     "development"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear stack spiky",
+  "aliases": [
+    "Gears2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

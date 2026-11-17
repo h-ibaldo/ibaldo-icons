@@ -3,18 +3,16 @@
   "description": "A hard drive icon with an X mark indicating uninstall or removal of a program or application",
   "tags": [
     "hard",
-    "drive",
-    "x",
-    "close",
     "uninstall",
-    "remove",
     "program",
     "application",
-    "delete"
+    "close",
+    "delete",
+    "remove",
+    "drive"
   ],
   "categories": [
-    "devices",
-    "interface"
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -31,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hard drive X",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

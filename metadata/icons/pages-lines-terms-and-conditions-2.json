@@ -1,19 +1,18 @@
 {
-  "name": "PagesLinesTerms2",
+  "name": "DocumentStackShadow",
   "description": "An alternate variant of the multi-page terms and conditions document icon.",
   "tags": [
+    "document",
     "pages",
-    "lines",
     "terms",
     "conditions",
-    "document",
     "legal",
     "agreement",
-    "variant"
+    "stack",
+    "shadow"
   ],
   "categories": [
-    "files",
-    "business"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Document stack shadow",
+  "aliases": [
+    "PagesLinesTerms2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

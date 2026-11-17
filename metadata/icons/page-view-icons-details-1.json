@@ -1,16 +1,17 @@
 {
-  "name": "PageViewIconsDetails1",
+  "name": "LayoutListDashedDotted",
   "description": "A page view icon displaying icons with detailed information in a list format",
   "tags": [
+    "layout",
     "page",
     "view",
     "icons",
     "details",
     "information",
     "list",
-    "layout",
     "detailed",
-    "variant1"
+    "dashed",
+    "dotted"
   ],
   "categories": [
     "interface"
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout list dashed dotted",
+  "aliases": [
+    "PageViewIconsDetails1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

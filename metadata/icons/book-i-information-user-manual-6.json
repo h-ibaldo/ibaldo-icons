@@ -1,19 +1,22 @@
 {
-  "name": "BookInformation6",
+  "name": "BookOpenInfo",
   "description": "A book icon with an information symbol for user manual and documentation reference - variant 6",
   "tags": [
     "book",
     "information",
-    "user manual",
+    "user",
+    "manual",
+    "user-manual",
     "guide",
     "documentation",
     "help",
     "educational",
-    "reference"
+    "reference",
+    "open",
+    "info"
   ],
   "categories": [
-    "education",
-    "interface"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Book open info",
+  "aliases": [
+    "BookInformation6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

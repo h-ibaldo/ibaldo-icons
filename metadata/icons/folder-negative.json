@@ -1,15 +1,15 @@
 {
-  "name": "FolderNegative",
+  "name": "FolderMinus",
   "description": "A folder icon with a minus or negative indicator, signifying folder deletion or removal.",
   "tags": [
     "folder",
     "negative",
-    "minus",
     "remove",
+    "subtract",
+    "minus",
     "delete"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder minus",
+  "aliases": [
+    "FolderNegative"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

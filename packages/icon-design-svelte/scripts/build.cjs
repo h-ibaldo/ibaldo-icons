@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Build script for @icon-design/svelte
+ * Build script for @primor/icons-svelte
  * Converts SVG icons to Svelte components with tree-shaking support
  */
 
@@ -141,7 +141,7 @@ function getAllSVGFiles(dir, files = []) {
 
 // Main build function
 async function build() {
-  console.log('🎨 Building @icon-design/svelte...\n');
+  console.log('🎨 Building @primor/icons-svelte...\n');
   
   // Clean and create directories
   if (fs.existsSync(DIST_DIR)) {
@@ -153,7 +153,7 @@ async function build() {
   // Names come from metadata/icons/ via the shared module, so the package
   // uses exactly the same names as the website (see NAMING-GUIDE.md).
   const { loadIconNames } = require('../../../scripts/utils/icon-names.cjs');
-  const { icons } = loadIconNames();
+  const { icons, aliases } = loadIconNames();
   console.log(`📁 Found ${icons.length} icons in static/icons/optimized/\n`);
 
   const components = [];
@@ -197,9 +197,15 @@ async function build() {
   // Generate main index file
   console.log('📦 Generating index files...\n');
   
+  // Old names (metadata "aliases") stay exported for one major version,
+  // pointing to the renamed component. See NAMING-GUIDE.md, "Renaming".
+  const built = new Set(components.map(c => c.name));
+  const liveAliases = aliases.filter(a => built.has(a.name));
+
   // Index.js - re-exports all components
   const indexJs = components
     .map(c => `export { default as ${c.name} } from './icons/${c.name}.svelte';`)
+    .concat(liveAliases.map(a => `export { default as ${a.alias} } from './icons/${a.name}.svelte';`))
     .join('\n');
   
   fs.writeFileSync(path.join(DIST_DIR, 'index.js'), indexJs);
@@ -207,19 +213,20 @@ async function build() {
   // Index.d.ts - TypeScript declarations
   const indexDts = components
     .map(c => `export { default as ${c.name} } from './icons/${c.name}.svelte';`)
+    .concat(liveAliases.map(a => `/** @deprecated Renamed to \`${a.name}\`. This old name will be removed in the next major version. */\nexport { default as ${a.alias} } from './icons/${a.name}.svelte';`))
     .join('\n');
   
   fs.writeFileSync(path.join(DIST_DIR, 'index.d.ts'), indexDts);
   
-  console.log(`✅ Built ${components.length} Svelte components`);
+  console.log(`✅ Built ${components.length} Svelte components (+ ${liveAliases.length} deprecated aliases)`);
   console.log(`   📂 Components: dist/icons/`);
   console.log(`   📂 Types: dist/*.d.ts\n`);
   
   // Print some example usage
   console.log('📖 Example usage:\n');
-  console.log('   import { AvatarFaceTopKnot } from "@icon-design/svelte";');
+  console.log('   import { AvatarFaceTopKnot } from "@primor/icons-svelte";');
   console.log('   // or');
-  console.log('   import AvatarFaceTopKnot from "@icon-design/svelte/icons/AvatarFaceTopKnot.svelte";\n');
+  console.log('   import AvatarFaceTopKnot from "@primor/icons-svelte/icons/AvatarFaceTopKnot.svelte";\n');
   console.log('   <AvatarFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
 }
 

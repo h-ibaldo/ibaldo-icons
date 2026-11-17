@@ -1,18 +1,17 @@
 {
-  "name": "ShoppingBasket3",
+  "name": "BasketGrid",
   "description": "A shopping basket icon in style variant 3 for e-commerce and retail applications",
   "tags": [
-    "shopping",
     "basket",
+    "shopping",
     "cart",
     "purchase",
     "retail",
     "ecommerce",
-    "variant3"
+    "grid"
   ],
   "categories": [
-    "shopping",
-    "interface"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Basket grid",
+  "aliases": [
+    "ShoppingBasket3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

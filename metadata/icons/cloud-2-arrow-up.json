@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Upload",
+  "name": "CloudArrowUpTall",
   "description": "A cloud icon with an upward arrow indicating upload or sync functionality",
   "tags": [
     "cloud",
@@ -8,11 +8,12 @@
     "up",
     "sync",
     "transfer",
-    "storage"
+    "storage",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow up tall",
+  "aliases": [
+    "Cloud2Upload"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

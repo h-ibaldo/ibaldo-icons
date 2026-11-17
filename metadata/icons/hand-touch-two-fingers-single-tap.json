@@ -1,18 +1,22 @@
 {
-  "name": "HandTwoFingerSingleTap",
+  "name": "HandTapTwoFingers",
   "description": "A hand with two fingers performing a single tap gesture interaction",
   "tags": [
     "hand",
     "touch",
-    "two fingers",
-    "single tap",
+    "single",
+    "two-fingers",
+    "single-tap",
     "gesture",
     "interaction",
-    "multitouch"
+    "multitouch",
+    "tap",
+    "two",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand tap two fingers",
+  "aliases": [
+    "HandTwoFingerSingleTap"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Binoculars",
+  "name": "BinocularsShort",
   "description": "A binoculars icon for viewing, magnification, or observation purposes",
   "tags": [
     "binoculars",
@@ -8,11 +8,11 @@
     "observation",
     "search",
     "zoom",
-    "inspect"
+    "inspect",
+    "short"
   ],
   "categories": [
-    "interface",
-    "location"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Binoculars short",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

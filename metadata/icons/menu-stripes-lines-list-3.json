@@ -1,14 +1,15 @@
 {
-  "name": "MenuStripes3",
+  "name": "MenuShortMiddle",
   "description": "A menu icon with three horizontal lines representing a navigation list, variant 3",
   "tags": [
     "menu",
     "stripes",
-    "lines",
     "list",
     "navigation",
     "hamburger",
-    "interface"
+    "interface",
+    "short",
+    "middle"
   ],
   "categories": [
     "interface"
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu short middle",
+  "aliases": [
+    "MenuStripes3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

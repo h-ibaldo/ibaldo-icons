@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Upload1",
+  "name": "CloudUploadBaseTall",
   "description": "A cloud icon with an upload arrow indicating file or data upload to cloud storage.",
   "tags": [
     "cloud",
@@ -8,10 +8,12 @@
     "data",
     "storage",
     "transfer",
-    "file"
+    "file",
+    "base",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud upload base tall",
+  "aliases": [
+    "Cloud2Upload1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

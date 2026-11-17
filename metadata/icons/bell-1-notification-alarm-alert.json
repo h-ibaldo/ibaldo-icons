@@ -1,20 +1,21 @@
 {
-  "name": "Bell1",
-  "displayName": "Bell 1",
+  "name": "BellRim",
+  "displayName": "Bell rim",
   "originalTitle": "Bell 1 Notification Alarm Alert",
   "description": "Basic notification bell icon for alerts and reminders. Used to indicate new notifications or enable notification settings.",
   "tags": [
     "bell",
     "notification",
-    "alert",
     "alarm",
+    "alert",
     "reminder",
     "notify",
-    "sound"
+    "sound",
+    "rim"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.780Z"
+  "generatedAt": "2026-02-15T00:53:19.780Z",
+  "aliases": [
+    "Bell1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

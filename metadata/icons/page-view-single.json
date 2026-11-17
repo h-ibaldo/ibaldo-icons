@@ -1,17 +1,20 @@
 {
-  "name": "PageViewSingle",
+  "name": "Document",
   "description": "A page view icon showing a single page or window view, representing a full-screen or solitary content display.",
   "tags": [
-    "page view",
+    "document",
+    "page",
+    "view",
     "single",
-    "full screen",
+    "page-view",
+    "full-screen",
     "window",
     "content",
-    "simple view",
+    "simple-view",
     "interface"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Document",
+  "aliases": [
+    "PageViewSingle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

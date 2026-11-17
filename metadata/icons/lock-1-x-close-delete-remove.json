@@ -1,19 +1,18 @@
 {
-  "name": "LockClose",
+  "name": "LockXSharp",
   "description": "A lock icon with an X or close symbol indicating removal of security or closing protection",
   "tags": [
     "lock",
     "close",
-    "x",
     "delete",
     "remove",
     "dismiss",
     "cancel",
-    "unsecure"
+    "unsecure",
+    "sharp"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock X sharp",
+  "aliases": [
+    "LockClose"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

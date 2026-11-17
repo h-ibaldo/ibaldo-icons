@@ -1,21 +1,20 @@
 {
-  "name": "EnvelopeLupeGroup1",
+  "name": "MailStackSearch",
   "description": "A magnifying glass searching through grouped envelopes for mail and email communications",
   "tags": [
+    "mail",
     "envelope",
     "lupe",
-    "search",
-    "mail",
     "email",
     "group",
+    "search",
     "find",
     "message",
     "correspondence",
-    "variant1"
+    "stack"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mail stack search",
+  "aliases": [
+    "EnvelopeLupeGroup1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

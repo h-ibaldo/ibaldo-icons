@@ -1,19 +1,19 @@
 {
-  "name": "OnlineShopLaptopBagAlt",
+  "name": "LaptopBagFlat",
   "description": "An alternative online shop icon with laptop and shopping bag design for e-commerce representation",
   "tags": [
+    "laptop",
     "online",
     "shop",
     "store",
     "ecommerce",
-    "laptop",
     "bag",
     "shopping",
     "retail",
-    "purchase"
+    "purchase",
+    "flat"
   ],
   "categories": [
-    "shopping",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop bag flat",
+  "aliases": [
+    "OnlineShopLaptopBagAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

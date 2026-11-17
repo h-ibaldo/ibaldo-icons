@@ -1,18 +1,21 @@
 {
-  "name": "Cloud2Plus",
+  "name": "CloudPlusCornerTall",
   "description": "A cloud icon with a plus symbol indicating addition or upload to cloud storage",
   "tags": [
     "cloud",
-    "plus",
     "add",
+    "create",
+    "plus",
     "upload",
     "storage",
     "increase",
-    "expand"
+    "expand",
+    "corner",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud plus corner tall",
+  "aliases": [
+    "Cloud2Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

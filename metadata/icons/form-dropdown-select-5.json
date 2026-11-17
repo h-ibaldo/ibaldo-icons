@@ -1,15 +1,15 @@
 {
-  "name": "FormDropdownSelect5",
+  "name": "FormDropdownExpanded",
   "description": "A form dropdown select field icon with variant 5 styling for selection interfaces",
   "tags": [
     "form",
-    "dropdown",
     "select",
+    "dropdown",
     "input",
     "field",
     "menu",
     "choice",
-    "variant5"
+    "expanded"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form dropdown expanded",
+  "aliases": [
+    "FormDropdownSelect5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

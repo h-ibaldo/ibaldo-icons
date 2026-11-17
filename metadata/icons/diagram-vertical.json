@@ -1,6 +1,6 @@
 {
-  "name": "DiagramVertical",
-  "displayName": "Diagram vertical",
+  "name": "DiagramDecision",
+  "displayName": "Diagram decision",
   "originalTitle": "Diagram Vertical",
   "description": "Vertical flow diagram showing top-to-bottom processes or hierarchical flow. Used to represent vertical workflows, organizational levels, or sequential steps.",
   "tags": [
@@ -11,11 +11,11 @@
     "workflow",
     "sequence",
     "steps",
-    "hierarchy"
+    "hierarchy",
+    "decision"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.760Z"
+  "generatedAt": "2026-02-15T00:53:19.760Z",
+  "aliases": [
+    "DiagramVertical"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

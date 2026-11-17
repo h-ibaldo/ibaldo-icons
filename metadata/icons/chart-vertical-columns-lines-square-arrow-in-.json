@@ -1,21 +1,23 @@
 {
-  "name": "ChartVerticalColumnsLinesSquareArrowIn",
-  "displayName": "Chart vertical columns lines square arrow in",
+  "name": "ChartBarSquareArrowRightThin",
+  "displayName": "Chart bar square arrow right thin",
   "originalTitle": "Chart Vertical Columns Lines Square Arrow In",
   "description": "Combined column and line chart with square import arrow for data integration functionality. Used to represent importing complex datasets or merging multiple data sources into charts.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
-    "lines",
     "import",
     "arrow",
     "square",
     "data",
-    "integration"
+    "integration",
+    "bar",
+    "right",
+    "thin"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.757Z"
+  "generatedAt": "2026-02-15T00:53:19.757Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesSquareArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

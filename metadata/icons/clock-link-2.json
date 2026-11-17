@@ -1,5 +1,5 @@
 {
-  "name": "ClockLink2",
+  "name": "ClockLink",
   "description": "A secondary variant of a clock icon with a link symbol, representing time-based connections with alternative styling.",
   "tags": [
     "clock",
@@ -7,12 +7,10 @@
     "time",
     "connection",
     "reference",
-    "variant",
     "schedule"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock link",
+  "aliases": [
+    "ClockLink2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

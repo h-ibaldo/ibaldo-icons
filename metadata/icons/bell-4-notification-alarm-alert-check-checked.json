@@ -1,21 +1,25 @@
 {
-  "name": "Bell4Check",
-  "displayName": "Bell 4 check",
+  "name": "BellCheckFlat",
+  "displayName": "Bell check flat",
   "originalTitle": "Bell 4 Notification Alarm Alert Check Checked",
   "description": "Notification bell with checkmark showing acknowledged or completed notifications. Indicates alerts have been reviewed or acted upon.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "checked",
+    "done",
+    "success",
+    "verified",
     "acknowledged",
     "completed",
     "reviewed",
-    "confirmed",
-    "done"
+    "confirmed"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.785Z"
+  "generatedAt": "2026-02-15T00:53:19.785Z",
+  "aliases": [
+    "Bell4Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

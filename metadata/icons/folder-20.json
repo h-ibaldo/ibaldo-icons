@@ -1,5 +1,5 @@
 {
-  "name": "Folder20",
+  "name": "FolderPerspective",
   "description": "A folder icon variant 20 for file management and storage systems.",
   "tags": [
     "folder",
@@ -9,11 +9,10 @@
     "documents",
     "organize",
     "archive",
-    "20"
+    "perspective"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder perspective",
+  "aliases": [
+    "Folder20"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,9 +1,9 @@
 {
-  "name": "AnimatedDiamondMoving1",
+  "name": "DiamondMotion",
   "description": "First variant of an animated diamond shape with movement indicating dynamic activity or loading",
   "tags": [
-    "animated",
     "diamond",
+    "animated",
     "moving",
     "loading",
     "progress",
@@ -11,8 +11,7 @@
     "activity"
   ],
   "categories": [
-    "interface",
-    "time"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Diamond motion",
+  "aliases": [
+    "AnimatedDiamondMoving1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

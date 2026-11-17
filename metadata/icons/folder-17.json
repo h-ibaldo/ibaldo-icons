@@ -1,5 +1,5 @@
 {
-  "name": "Folder17",
+  "name": "FolderOpen",
   "description": "A folder icon variant 17 for file and document storage representation.",
   "tags": [
     "folder",
@@ -9,11 +9,10 @@
     "documents",
     "organize",
     "archive",
-    "17"
+    "open"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder open",
+  "aliases": [
+    "Folder17"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

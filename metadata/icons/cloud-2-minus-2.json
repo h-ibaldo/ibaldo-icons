@@ -1,18 +1,19 @@
 {
-  "name": "Cloud2Minus2",
+  "name": "CloudMinusTall",
   "description": "A cloud icon with a minus symbol in an alternate style for cloud storage removal",
   "tags": [
     "cloud",
-    "minus",
     "remove",
+    "subtract",
+    "minus",
     "delete",
     "storage",
     "decrease",
-    "subtract"
+    "tall"
   ],
   "categories": [
-    "interface",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud minus tall",
+  "aliases": [
+    "Cloud2Minus2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,22 +1,22 @@
 {
-  "name": "DownloadDashedCircle",
+  "name": "DownloadCircleDashedHalf",
   "description": "A download arrow icon with a dashed circle indicating in-progress download status",
   "tags": [
     "download",
     "arrow",
     "down",
+    "progress",
     "dashed",
     "circle",
     "in-progress",
     "loading",
     "file",
-    "transfer"
+    "transfer",
+    "half"
   ],
   "categories": [
-    "arrows",
-    "interface",
     "files",
-    "time"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download circle dashed half",
+  "aliases": [
+    "DownloadDashedCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,19 @@
 {
-  "name": "TrashArrowUpRestoreAlt2",
+  "name": "TrashArrowUpTapered",
   "description": "Another trash restore icon variant featuring an upward arrow for comprehensive recovery and undo functionality",
   "tags": [
     "trash",
-    "arrow up",
     "restore",
+    "arrow-up",
     "recover",
     "undo",
     "delete",
     "recycle",
-    "alternate"
+    "arrow",
+    "up",
+    "tapered"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash arrow up tapered",
+  "aliases": [
+    "TrashArrowUpRestoreAlt2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,14 +1,15 @@
 {
-  "name": "TabAdd",
+  "name": "TabPlusCenter",
   "description": "A tab interface icon with a plus symbol for adding new tabs",
   "tags": [
     "tab",
-    "add",
-    "plus",
     "positive",
+    "add",
     "create",
+    "plus",
     "new",
-    "interface"
+    "interface",
+    "center"
   ],
   "categories": [
     "interface"
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab plus center",
+  "aliases": [
+    "TabAdd"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

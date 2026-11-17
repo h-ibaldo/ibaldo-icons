@@ -1,19 +1,19 @@
 {
-  "name": "Cloud3Printer",
+  "name": "CloudPrinterRound",
   "description": "A cloud icon combined with a printer symbol representing cloud printing and remote printing services.",
   "tags": [
     "cloud",
     "printer",
     "print",
     "printing",
-    "cloud print",
+    "cloud-print",
     "remote",
-    "device"
+    "device",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "business"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud printer round",
+  "aliases": [
+    "Cloud3Printer"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

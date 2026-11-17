@@ -1,19 +1,22 @@
 {
-  "name": "ApplicationWindow2Settings1",
-  "displayName": "Application window 2 settings 1",
+  "name": "WindowSettingsCenterBare",
+  "displayName": "Window settings center bare",
   "originalTitle": "Application Window 2 Gear Settings 1",
   "description": "Application window with gear icon representing configuration or settings applications. Used to indicate system preferences, application settings, or configuration tools.",
   "tags": [
-    "application",
     "window",
-    "settings",
+    "application",
     "gear",
+    "settings",
     "configuration",
     "preferences",
     "options",
-    "tools"
+    "tools",
+    "center",
+    "bare"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.773Z"
+  "generatedAt": "2026-02-15T00:53:19.773Z",
+  "aliases": [
+    "ApplicationWindow2Settings1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

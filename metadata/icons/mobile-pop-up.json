@@ -1,18 +1,20 @@
 {
-  "name": "MobilePopUp",
+  "name": "MobileChat",
   "description": "A mobile device displaying a pop-up dialog or modal window",
   "tags": [
     "mobile",
+    "pop",
+    "up",
     "popup",
     "modal",
     "dialog",
     "notification",
     "alert",
     "window",
-    "phone"
+    "phone",
+    "chat"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mobile chat",
+  "aliases": [
+    "MobilePopUp"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

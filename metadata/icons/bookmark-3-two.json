@@ -1,5 +1,5 @@
 {
-  "name": "Bookmark3Two",
+  "name": "BookmarkTwoRound",
   "description": "A bookmark icon displaying the number two for paired or two bookmarks",
   "tags": [
     "bookmark",
@@ -7,10 +7,10 @@
     "number",
     "pair",
     "dual",
-    "variant"
+    "round"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark two round",
+  "aliases": [
+    "Bookmark3Two"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

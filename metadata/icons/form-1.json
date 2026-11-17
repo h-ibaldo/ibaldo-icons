@@ -1,5 +1,5 @@
 {
-  "name": "Form1",
+  "name": "Form",
   "description": "A basic form icon representing data input, application forms, questionnaires, or document submission interfaces",
   "tags": [
     "form",
@@ -12,8 +12,7 @@
     "interface"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form",
+  "aliases": [
+    "Form1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

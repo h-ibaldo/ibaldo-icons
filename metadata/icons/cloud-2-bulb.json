@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Lightbulb",
+  "name": "CloudLightbulbTall",
   "description": "A cloud icon with a lightbulb representing cloud-based ideas or intelligent cloud services",
   "tags": [
     "cloud",
@@ -8,11 +8,12 @@
     "idea",
     "innovation",
     "smart",
-    "intelligence"
+    "intelligence",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud lightbulb tall",
+  "aliases": [
+    "Cloud2Lightbulb"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

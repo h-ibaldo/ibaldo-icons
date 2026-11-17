@@ -1,5 +1,5 @@
 {
-  "name": "CloudSynchronize1",
+  "name": "CloudSync",
   "description": "A cloud icon with a synchronization arrow indicating two-way data sync with cloud storage variant 1",
   "tags": [
     "cloud",
@@ -13,8 +13,8 @@
     "network"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud sync",
+  "aliases": [
+    "CloudSynchronize1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

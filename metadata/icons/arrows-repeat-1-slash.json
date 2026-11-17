@@ -1,17 +1,19 @@
 {
-  "name": "ArrowsRepeatSlash",
+  "name": "ArrowRepeatOff",
   "description": "A repeat rotation arrows icon with slash indicating disabled or unavailable refresh functionality",
   "tags": [
+    "arrow",
     "arrows",
-    "repeat",
     "slash",
     "disabled",
+    "mute",
+    "repeat",
     "refresh",
     "rotation",
-    "unavailable"
+    "unavailable",
+    "off"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow repeat off",
+  "aliases": [
+    "ArrowsRepeatSlash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

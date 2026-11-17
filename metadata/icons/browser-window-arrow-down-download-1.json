@@ -1,5 +1,5 @@
 {
-  "name": "BrowserWindowDownload1",
+  "name": "BrowserDownload",
   "description": "A browser window icon with a downward arrow indicating download functionality.",
   "tags": [
     "browser",
@@ -11,8 +11,8 @@
     "transfer"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser download",
+  "aliases": [
+    "BrowserWindowDownload1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

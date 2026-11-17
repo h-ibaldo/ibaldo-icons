@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Upload3",
+  "name": "CloudUploadLargeTall",
   "description": "A third variant cloud upload icon with distinct visual design for uploading files to cloud services.",
   "tags": [
     "cloud",
@@ -9,10 +9,11 @@
     "storage",
     "transfer",
     "file",
-    "variant"
+    "large",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud upload large tall",
+  "aliases": [
+    "Cloud2Upload3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

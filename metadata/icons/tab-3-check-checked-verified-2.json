@@ -1,13 +1,16 @@
 {
-  "name": "Tab3Check",
+  "name": "TabCheckSharp",
   "description": "A tab icon with a checkmark indicating a verified, completed, or selected tab state",
   "tags": [
     "tab",
-    "check",
     "checked",
     "verified",
+    "done",
+    "success",
+    "check",
     "checkmark",
-    "interface"
+    "interface",
+    "sharp"
   ],
   "categories": [
     "interface"
@@ -27,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab check sharp",
+  "aliases": [
+    "Tab3Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

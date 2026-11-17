@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Envelope",
+  "name": "CloudMailTall",
   "description": "A cloud icon with an envelope symbol representing cloud-based email or message storage.",
   "tags": [
     "cloud",
@@ -8,11 +8,12 @@
     "message",
     "storage",
     "communication",
-    "mail"
+    "mail",
+    "tall"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud mail tall",
+  "aliases": [
+    "Cloud2Envelope"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,21 +1,25 @@
 {
-  "name": "Bell1Silent",
-  "displayName": "Bell 1 silent",
+  "name": "BellOffRim",
+  "displayName": "Bell off rim",
   "originalTitle": "Bell 1 Notification Alarm Alert Silent Off Disabled Bar",
   "description": "Muted notification bell with strike-through indicating disabled notifications. Used to show silent mode or turned-off alerts.",
   "tags": [
     "bell",
-    "muted",
+    "notification",
+    "alarm",
+    "alert",
     "silent",
     "disabled",
+    "bar",
+    "mute",
+    "muted",
     "off",
-    "notification",
     "quiet",
     "do-not-disturb"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.780Z"
+  "generatedAt": "2026-02-15T00:53:19.780Z",
+  "aliases": [
+    "Bell1Silent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

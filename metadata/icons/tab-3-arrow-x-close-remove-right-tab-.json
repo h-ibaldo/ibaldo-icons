@@ -1,18 +1,18 @@
 {
-  "name": "Tab3ArrowRight",
+  "name": "TabArrowRightXSharp",
   "description": "A tab icon with a right-pointing arrow for navigating to the next tab",
   "tags": [
     "tab",
+    "close",
+    "remove",
+    "delete",
     "arrow",
     "right",
-    "close",
-    "x",
-    "remove",
-    "navigation"
+    "navigation",
+    "sharp"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab arrow right X sharp",
+  "aliases": [
+    "Tab3ArrowRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

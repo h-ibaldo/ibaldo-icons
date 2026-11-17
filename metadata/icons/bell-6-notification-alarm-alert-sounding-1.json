@@ -1,21 +1,24 @@
 {
-  "name": "Bell6Sounding1",
-  "displayName": "Bell 6 sounding 1",
+  "name": "BellRingLinesWide",
+  "displayName": "Bell ring lines wide",
   "originalTitle": "Bell 6 Notification Alarm Alert Sounding 1",
   "description": "Notification bell with motion lines indicating an active alert or ringing notification. Used to show that a notification is currently being triggered or sounded.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
+    "sounding",
     "ringing",
     "active",
-    "sounding",
-    "alert",
     "motion",
-    "vibrating"
+    "vibrating",
+    "ring",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.789Z"
+  "generatedAt": "2026-02-15T00:53:19.789Z",
+  "aliases": [
+    "Bell6Sounding1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

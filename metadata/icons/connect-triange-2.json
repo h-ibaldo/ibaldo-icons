@@ -1,18 +1,19 @@
 {
-  "name": "ConnectTriangle2",
+  "name": "NodesTriangleLarge",
   "description": "A connection icon with triangular nodes in an alternate arrangement, showing linked geometric network elements.",
   "tags": [
+    "nodes",
     "connect",
+    "triange",
     "triangle",
     "connection",
     "network",
     "link",
     "geometry",
-    "variant"
+    "large"
   ],
   "categories": [
-    "interface",
-    "development"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Nodes triangle large",
+  "aliases": [
+    "ConnectTriangle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

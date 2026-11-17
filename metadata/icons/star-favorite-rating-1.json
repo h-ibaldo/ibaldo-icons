@@ -1,5 +1,5 @@
 {
-  "name": "StarFavorite1",
+  "name": "Star",
   "description": "A star favorite or rating icon, first variant",
   "tags": [
     "star",
@@ -11,7 +11,6 @@
     "bookmark"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Star",
+  "aliases": [
+    "StarFavorite1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

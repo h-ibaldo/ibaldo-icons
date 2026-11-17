@@ -1,6 +1,6 @@
 {
-  "name": "ButtonBubble3",
-  "displayName": "Button bubble 3",
+  "name": "ButtonPill",
+  "displayName": "Button pill",
   "originalTitle": "Button Bubble 3",
   "description": "Interactive button with bubble-style design for user interface actions. Features a rounded, speech bubble-like appearance for engaging user interactions.",
   "tags": [
@@ -11,7 +11,8 @@
     "action",
     "interactive",
     "ui",
-    "rounded"
+    "rounded",
+    "pill"
   ],
   "categories": [
     "interface"
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.790Z"
+  "generatedAt": "2026-02-15T00:53:19.790Z",
+  "aliases": [
+    "ButtonBubble3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

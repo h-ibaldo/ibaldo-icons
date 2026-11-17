@@ -1,19 +1,20 @@
 {
-  "name": "ConnectCircle1",
+  "name": "NodesCircleThreeLarge",
   "description": "A connection icon enclosed in a circle for network or link actions",
   "tags": [
+    "nodes",
     "connect",
     "circle",
     "connection",
     "network",
     "link",
     "communication",
-    "circular"
+    "circular",
+    "three",
+    "large"
   ],
   "categories": [
-    "interface",
-    "communication",
-    "development"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Nodes circle three large",
+  "aliases": [
+    "ConnectCircle1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

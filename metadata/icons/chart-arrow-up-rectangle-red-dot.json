@@ -1,10 +1,14 @@
 {
-  "name": "ChartArrowUpRectangleDot",
-  "displayName": "Chart arrow up rectangle dot",
+  "name": "ChartTrendUpSquareDot",
+  "displayName": "Chart trend up square dot",
   "originalTitle": "Chart Arrow Up Rectangle Red Dot",
   "description": "Chart with upward trend and notification dot indicating new data or alerts. Used to show chart updates or important metrics requiring attention.",
   "tags": [
     "chart",
+    "arrow",
+    "rectangle",
+    "unread",
+    "badge",
     "notification",
     "alert",
     "growth",
@@ -14,8 +18,7 @@
     "update"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.742Z"
+  "generatedAt": "2026-02-15T00:53:19.742Z",
+  "aliases": [
+    "ChartArrowUpRectangleDot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

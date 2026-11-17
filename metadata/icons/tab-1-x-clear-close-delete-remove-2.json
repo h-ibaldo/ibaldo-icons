@@ -1,13 +1,12 @@
 {
-  "name": "TabClose",
+  "name": "TabX",
   "description": "A tab interface icon with an X symbol for closing or removing tabs",
   "tags": [
     "tab",
+    "clear",
     "close",
-    "x",
     "delete",
     "remove",
-    "clear",
     "interface"
   ],
   "categories": [
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab X",
+  "aliases": [
+    "TabClose"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

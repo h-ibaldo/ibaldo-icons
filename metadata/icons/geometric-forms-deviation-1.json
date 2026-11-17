@@ -1,18 +1,20 @@
 {
-  "name": "GeometricFormsDeviation",
+  "name": "GridOddCircle",
   "description": "A geometric forms icon displaying deviation and variance in shapes and composition.",
   "tags": [
+    "grid",
     "geometric",
     "forms",
     "deviation",
     "variance",
     "shapes",
     "abstract",
-    "composition"
+    "composition",
+    "odd",
+    "circle"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Grid odd circle",
+  "aliases": [
+    "GeometricFormsDeviation"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

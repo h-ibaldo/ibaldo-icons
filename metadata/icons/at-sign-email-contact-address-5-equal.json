@@ -1,21 +1,24 @@
 {
-  "name": "AtSign5Equal",
-  "displayName": "At sign 5 equal",
+  "name": "AtEqualBoxy",
+  "displayName": "At equal boxy",
   "originalTitle": "At Sign Email Contact Address 5 Equal",
   "description": "At symbol with equals sign for email comparison, matching, or equivalence functions. Used in email filtering or contact matching features.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "equal",
     "compare",
     "match",
     "filter",
-    "contact",
     "equivalent",
-    "same"
+    "same",
+    "boxy"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.764Z"
+  "generatedAt": "2026-02-15T00:53:19.764Z",
+  "aliases": [
+    "AtSign5Equal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

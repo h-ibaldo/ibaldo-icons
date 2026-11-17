@@ -1,21 +1,24 @@
 {
-  "name": "Bell6Clock",
-  "displayName": "Bell 6 clock",
+  "name": "BellClockWide",
+  "displayName": "Bell clock wide",
   "originalTitle": "Bell 6 Notification Alarm Alert Clock",
   "description": "Notification bell with clock overlay, indicating scheduled notifications or time-based alerts. Used for reminders, appointments, or timed notifications.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "clock",
     "scheduled",
     "reminder",
     "time",
     "appointment",
-    "timer"
+    "timer",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "time"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.789Z"
+  "generatedAt": "2026-02-15T00:53:19.789Z",
+  "aliases": [
+    "Bell6Clock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

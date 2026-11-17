@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Happy",
+  "name": "CloudHappyRound",
   "description": "A cloud icon with a happy or smiling face expression, conveying positive cloud services or cheerful data storage",
   "tags": [
     "cloud",
@@ -9,11 +9,12 @@
     "positive",
     "cheerful",
     "storage",
-    "emotion"
+    "emotion",
+    "round"
   ],
   "categories": [
-    "interface",
-    "weather"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud happy round",
+  "aliases": [
+    "Cloud3Happy"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Image5",
+  "name": "ImageSunRight",
   "description": "A picture photo icon variant 5 indicating image or visual content placement",
   "tags": [
     "image",
@@ -8,11 +8,12 @@
     "visual",
     "media",
     "gallery",
-    "variant5"
+    "sun",
+    "right"
   ],
   "categories": [
-    "interface",
-    "media"
+    "media",
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Image sun right",
+  "aliases": [
+    "Image5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

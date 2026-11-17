@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Warning2",
+  "name": "CloudWarningRound",
   "description": "A cloud icon with a warning triangle indicator for alert conditions",
   "tags": [
     "cloud",
@@ -8,11 +8,12 @@
     "caution",
     "notification",
     "danger",
-    "status"
+    "status",
+    "round"
   ],
   "categories": [
-    "interface",
-    "weather"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud warning round",
+  "aliases": [
+    "Cloud3Warning2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

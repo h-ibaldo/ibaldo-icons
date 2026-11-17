@@ -1,17 +1,16 @@
 {
-  "name": "Information3",
+  "name": "InfoPillar",
   "description": "An information icon with a variant 3 design style for displaying help, details, or explanatory content.",
   "tags": [
-    "information",
     "info",
+    "information",
     "help",
     "details",
     "explanation",
-    "variant 3"
+    "pillar"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Info pillar",
+  "aliases": [
+    "Information3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,23 @@
 {
-  "name": "ChartVerticalBarsDecrease1",
-  "displayName": "Chart vertical bars decrease 1",
+  "name": "ChartBarTrendDownThin",
+  "displayName": "Chart bar trend down thin",
   "originalTitle": "Chart Vertical Bars Arrow Down Decrease 1",
   "description": "Bar chart with downward arrow indicating declining performance or decreasing metrics. Used to visualize negative trends in data analysis.",
   "tags": [
     "chart",
+    "vertical",
     "bars",
+    "arrow",
     "decrease",
     "decline",
     "down",
-    "arrow",
     "negative",
-    "trend"
+    "trend",
+    "bar",
+    "thin"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.754Z"
+  "generatedAt": "2026-02-15T00:53:19.754Z",
+  "aliases": [
+    "ChartVerticalBarsDecrease1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

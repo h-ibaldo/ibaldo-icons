@@ -1,5 +1,5 @@
 {
-  "name": "UploadArrowBox3",
+  "name": "UploadSquareNotch",
   "description": "Another variant of the upload arrow box icon with distinct visual styling",
   "tags": [
     "upload",
@@ -8,10 +8,12 @@
     "box",
     "file",
     "container",
-    "style"
+    "style",
+    "square",
+    "notch"
   ],
   "categories": [
-    "interface",
+    "files",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload square notch",
+  "aliases": [
+    "UploadArrowBox3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsRectangle",
-  "displayName": "Chart vertical columns rectangle",
+  "name": "ChartBarSquare",
+  "displayName": "Chart bar square",
   "originalTitle": "Chart Vertical Columns Rectangle",
   "description": "Standard vertical column chart in rectangular format for data visualization. Used for displaying business metrics, survey results, or comparative statistical data.",
   "tags": [
     "chart",
+    "vertical",
+    "columns",
+    "rectangle",
     "column",
     "graph",
     "data",
     "visualization",
     "statistics",
     "business",
-    "metrics"
+    "metrics",
+    "bar"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.759Z"
+  "generatedAt": "2026-02-15T00:53:19.759Z",
+  "aliases": [
+    "ChartVerticalColumnsRectangle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

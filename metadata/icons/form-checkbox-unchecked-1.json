@@ -1,16 +1,17 @@
 {
-  "name": "FormCheckboxUnchecked1",
+  "name": "FormCheckboxLong",
   "description": "An unchecked form checkbox icon in the first style variant, indicating an unselected or incomplete form field state.",
   "tags": [
     "form",
-    "checkbox",
     "unchecked",
+    "checkbox",
     "unselected",
     "input",
     "empty",
     "deselected",
     "toggle",
-    "validation"
+    "validation",
+    "long"
   ],
   "categories": [
     "interface"
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form checkbox long",
+  "aliases": [
+    "FormCheckboxUnchecked1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

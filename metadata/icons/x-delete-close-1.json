@@ -1,15 +1,15 @@
 {
-  "name": "XDelete1",
+  "name": "XLarge",
   "description": "A close or delete icon for dismissing content or removing items on first variant",
   "tags": [
-    "x",
     "delete",
     "close",
     "remove",
     "dismiss",
     "cancel",
     "exit",
-    "action"
+    "action",
+    "large"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "X large",
+  "aliases": [
+    "XDelete1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

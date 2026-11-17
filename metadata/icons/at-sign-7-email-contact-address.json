@@ -1,16 +1,18 @@
 {
-  "name": "AtSign7",
-  "displayName": "At sign 7",
+  "name": "AtSpiral",
+  "displayName": "At spiral",
   "originalTitle": "At Sign 7 Email Contact Address",
   "description": "At symbol (@) for email addresses and contact information. Used in email forms, contact fields, and communication interfaces.",
   "tags": [
     "at",
+    "sign",
     "email",
     "contact",
     "address",
     "symbol",
     "communication",
-    "mail"
+    "mail",
+    "spiral"
   ],
   "categories": [
     "communication"
@@ -31,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.761Z"
+  "generatedAt": "2026-02-15T00:53:19.761Z",
+  "aliases": [
+    "AtSign7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

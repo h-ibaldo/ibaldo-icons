@@ -1,19 +1,22 @@
 {
-  "name": "PageViewBadgeAlt",
+  "name": "WindowSealPlain",
   "description": "An alternative page view icon with a badge notification indicator for new items",
   "tags": [
+    "window",
     "page",
     "view",
     "badge",
+    "rousette",
     "new",
     "notification",
     "roulette",
     "indicator",
-    "variant"
+    "seal",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window seal plain",
+  "aliases": [
+    "PageViewBadgeAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

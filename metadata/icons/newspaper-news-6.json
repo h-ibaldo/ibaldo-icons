@@ -1,5 +1,5 @@
 {
-  "name": "Newspaper6",
+  "name": "NewspaperCornerFold",
   "description": "A newspaper icon variant 6 representing news media and publications",
   "tags": [
     "newspaper",
@@ -10,10 +10,10 @@
     "article",
     "information",
     "reading",
-    "journal"
+    "journal",
+    "fold"
   ],
   "categories": [
-    "media",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Newspaper corner fold",
+  "aliases": [
+    "Newspaper6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:34:27.643Z"
 }

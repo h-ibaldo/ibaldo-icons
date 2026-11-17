@@ -1,5 +1,5 @@
 {
-  "name": "Clock1",
+  "name": "ClockAngled",
   "description": "A standard clock icon displaying time",
   "tags": [
     "clock",
@@ -7,11 +7,11 @@
     "watch",
     "timer",
     "hour",
-    "minute"
+    "minute",
+    "angled"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock angled",
+  "aliases": [
+    "Clock1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

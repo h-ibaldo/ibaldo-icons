@@ -1,19 +1,20 @@
 {
-  "name": "ObserverEyeView1",
+  "name": "EyeCone",
   "description": "An eye icon representing observation, visibility, or view action in variant one",
   "tags": [
-    "observer",
     "eye",
+    "observer",
     "view",
     "watch",
     "visible",
     "see",
     "visibility",
-    "inspect"
+    "inspect",
+    "cone"
   ],
   "categories": [
     "interface",
-    "accessibility"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Eye cone",
+  "aliases": [
+    "ObserverEyeView1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

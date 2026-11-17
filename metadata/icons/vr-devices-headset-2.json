@@ -1,19 +1,16 @@
 {
-  "name": "VRHeadset2",
+  "name": "VrHeadset",
   "description": "An alternative virtual reality headset icon design for VR device and immersive technology representation.",
   "tags": [
     "vr",
-    "virtual reality",
-    "headset",
     "devices",
+    "virtual-reality",
+    "headset",
     "technology",
-    "immersive",
-    "variant",
-    "3d"
+    "immersive"
   ],
   "categories": [
-    "devices",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vr headset",
+  "aliases": [
+    "VRHeadset2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

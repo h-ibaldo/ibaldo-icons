@@ -1,20 +1,22 @@
 {
-  "name": "ApplicationWindow1Music1",
-  "displayName": "Application window 1 music 1",
+  "name": "WindowMusicCenter",
+  "displayName": "Window music center",
   "originalTitle": "Application Window 1 Music Note 1",
   "description": "Application window with music note icon representing audio or music software. Used to indicate music players, audio editing applications, or sound-related programs.",
   "tags": [
+    "window",
     "application",
+    "note",
     "music",
     "audio",
     "sound",
     "player",
-    "note",
     "media",
-    "entertainment"
+    "entertainment",
+    "center"
   ],
   "categories": [
-    "media",
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.769Z"
+  "generatedAt": "2026-02-15T00:53:19.769Z",
+  "aliases": [
+    "ApplicationWindow1Music1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

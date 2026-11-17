@@ -1,17 +1,21 @@
 {
-  "name": "ChartArrowUpRectangle",
-  "displayName": "Chart arrow up rectangle",
+  "name": "ChartTrendUpSquare",
+  "displayName": "Chart trend up square",
   "originalTitle": "Chart Arrow Up Rectangle",
   "description": "Basic chart with upward trending arrow showing positive growth or increase. Used to display analytics, metrics, and performance improvements.",
   "tags": [
     "chart",
+    "arrow",
+    "rectangle",
     "growth",
     "increase",
     "analytics",
     "metrics",
     "performance",
     "trend",
-    "statistics"
+    "statistics",
+    "up",
+    "square"
   ],
   "categories": [
     "business"
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.742Z"
+  "generatedAt": "2026-02-15T00:53:19.742Z",
+  "aliases": [
+    "ChartArrowUpRectangle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

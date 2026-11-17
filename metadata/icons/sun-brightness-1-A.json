@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightness1A",
+  "name": "SunDense",
   "description": "A sun brightness control icon in variant 1A style, used for adjustable brightness levels",
   "tags": [
     "sun",
@@ -7,11 +7,11 @@
     "light",
     "control",
     "adjustment",
-    "variant 1A"
+    "dense"
   ],
   "categories": [
-    "interface",
-    "weather"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun dense",
+  "aliases": [
+    "SunBrightness1A"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

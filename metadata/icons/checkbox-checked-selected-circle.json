@@ -1,10 +1,14 @@
 {
-  "name": "CheckboxCheckedCircle",
+  "name": "CheckSquareCircle",
   "description": "A checked checkbox in circular form indicating selected or confirmed state",
   "tags": [
+    "check",
     "checkbox",
     "checked",
     "selected",
+    "done",
+    "success",
+    "verified",
     "circle",
     "checkmark",
     "input",
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Check square circle",
+  "aliases": [
+    "CheckboxCheckedCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

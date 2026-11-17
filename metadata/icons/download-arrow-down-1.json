@@ -1,5 +1,5 @@
 {
-  "name": "DownloadArrow1",
+  "name": "Download",
   "description": "A simple download arrow icon pointing downward for file downloads",
   "tags": [
     "download",
@@ -10,9 +10,8 @@
     "receive"
   ],
   "categories": [
-    "arrows",
-    "interface",
-    "files"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download",
+  "aliases": [
+    "DownloadArrow1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

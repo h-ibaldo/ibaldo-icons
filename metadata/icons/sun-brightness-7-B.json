@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightness7B9",
+  "name": "SunShortRadiant",
   "description": "A sun brightness control icon variant 7B for adjusting display illumination levels",
   "tags": [
     "sun",
@@ -9,11 +9,12 @@
     "display",
     "control",
     "adjustment",
-    "variant"
+    "short",
+    "radiant"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun short radiant",
+  "aliases": [
+    "SunBrightness7B9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

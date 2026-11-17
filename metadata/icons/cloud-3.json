@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3",
+  "name": "CloudRound",
   "description": "A basic cloud icon representing cloud storage or weather conditions",
   "tags": [
     "cloud",
@@ -7,11 +7,12 @@
     "weather",
     "sky",
     "data",
-    "backup"
+    "backup",
+    "round"
   ],
   "categories": [
-    "interface",
-    "weather"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud round",
+  "aliases": [
+    "Cloud3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

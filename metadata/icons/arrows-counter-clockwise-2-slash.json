@@ -1,17 +1,21 @@
 {
-  "name": "ArrowsCounterClockwiseSlash",
+  "name": "ArrowSyncCounterclockwiseOffAngular",
   "description": "A counter-clockwise rotation arrow icon with a slash indicating disabled or unavailable reverse action",
   "tags": [
+    "arrow",
     "arrows",
-    "counter-clockwise",
+    "counter",
+    "clockwise",
     "slash",
+    "synchronize",
     "disabled",
+    "mute",
+    "counter-clockwise",
     "unavailable",
     "rotation",
     "reverse"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync counterclockwise off angular",
+  "aliases": [
+    "ArrowsCounterClockwiseSlash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

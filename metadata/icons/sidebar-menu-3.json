@@ -1,17 +1,19 @@
 {
-  "name": "SidebarMenu3",
+  "name": "WindowMenuListPlain",
   "description": "A sidebar menu icon with three horizontal lines representing a collapsible navigation panel variant.",
   "tags": [
+    "window",
     "sidebar",
     "menu",
     "navigation",
     "hamburger",
-    "3",
-    "lines",
     "interface",
-    "toggle"
+    "toggle",
+    "list",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window menu list plain",
+  "aliases": [
+    "SidebarMenu3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,18 +1,18 @@
 {
-  "name": "Bookmark1FoldedAdd",
+  "name": "BookmarkPlusRolled",
   "description": "A folded bookmark icon with a plus symbol for adding or saving new marked pages.",
   "tags": [
     "bookmark",
     "folded",
     "add",
+    "create",
     "plus",
     "save",
-    "create",
     "mark",
-    "positive"
+    "positive",
+    "rolled"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark plus rolled",
+  "aliases": [
+    "Bookmark1FoldedAdd"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

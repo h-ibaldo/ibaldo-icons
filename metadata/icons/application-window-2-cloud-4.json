@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow2Cloud4",
-  "displayName": "Application window 2 cloud 4",
+  "name": "WindowCloudPuffyBare",
+  "displayName": "Window cloud puffy bare",
   "originalTitle": "Application Window 2 Cloud 4",
   "description": "Application window with cloud integration icon representing cloud-based software or cloud storage applications. Used to indicate cloud connectivity or cloud-enabled desktop applications.",
   "tags": [
-    "application",
     "window",
+    "application",
     "cloud",
     "storage",
     "sync",
     "software",
     "desktop",
-    "integration"
+    "integration",
+    "puffy",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.772Z"
+  "generatedAt": "2026-02-15T00:53:19.772Z",
+  "aliases": [
+    "ApplicationWindow2Cloud4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

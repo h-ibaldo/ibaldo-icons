@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Download",
+  "name": "CloudArrowDownRound",
   "description": "A cloud icon with a downward arrow for downloading from cloud storage",
   "tags": [
     "cloud",
@@ -7,11 +7,11 @@
     "down",
     "download",
     "receive",
-    "import"
+    "import",
+    "round"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow down round",
+  "aliases": [
+    "Cloud3Download"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

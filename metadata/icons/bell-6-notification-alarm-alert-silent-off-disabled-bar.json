@@ -1,21 +1,25 @@
 {
-  "name": "Bell6Silent",
-  "displayName": "Bell 6 silent",
+  "name": "BellOffWide",
+  "displayName": "Bell off wide",
   "originalTitle": "Bell 6 Notification Alarm Alert Silent Off Disabled Bar",
   "description": "Notification bell with a line through it, indicating disabled or silenced notifications. Used to show that alerts are turned off or muted.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "silent",
-    "muted",
     "disabled",
+    "bar",
+    "mute",
+    "muted",
     "off",
     "quiet",
     "blocked"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.789Z"
+  "generatedAt": "2026-02-15T00:53:19.789Z",
+  "aliases": [
+    "Bell6Silent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow2Heart1",
-  "displayName": "Application window 2 heart 1",
+  "name": "WindowHeartCenterBare",
+  "displayName": "Window heart center bare",
   "originalTitle": "Application Window 2 Heart Favorite 1",
   "description": "Application window with heart icon representing favorites, bookmarks, or liked items applications. Used to indicate preference management, favorites lists, or social applications.",
   "tags": [
-    "application",
     "window",
-    "heart",
+    "application",
     "favorite",
+    "heart",
     "like",
     "bookmark",
     "love",
-    "preference"
+    "preference",
+    "center",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "social"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.773Z"
+  "generatedAt": "2026-02-15T00:53:19.773Z",
+  "aliases": [
+    "ApplicationWindow2Heart1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,20 +1,23 @@
 {
-  "name": "ApplicationWindow2Speech",
-  "displayName": "Application window 2 speech",
+  "name": "WindowChatRoundBare",
+  "displayName": "Window chat round bare",
   "originalTitle": "Application Window 2 Speech",
   "description": "Application window with speech bubble icon. Used for chat applications, messaging interfaces, or communication software.",
   "tags": [
     "window",
+    "application",
     "speech",
     "chat",
     "message",
     "communication",
     "bubble",
-    "talk"
+    "talk",
+    "round",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.761Z"
+  "generatedAt": "2026-02-15T00:53:19.761Z",
+  "aliases": [
+    "ApplicationWindow2Speech"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

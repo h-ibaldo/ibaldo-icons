@@ -1,21 +1,23 @@
 {
-  "name": "HandTouchFourFingersSwipeHorizontal",
+  "name": "HandSwipeLeftRightFourFingers",
   "description": "A hand gesture icon showing four fingers swiping left and right, representing horizontal navigation or page transitions",
   "tags": [
     "hand",
     "touch",
-    "four fingers",
+    "arrow",
+    "four-fingers",
     "swipe",
     "left",
     "right",
-    "arrow",
     "gesture",
     "horizontal",
-    "navigation"
+    "navigation",
+    "four",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "gestures"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand swipe left right four fingers",
+  "aliases": [
+    "HandTouchFourFingersSwipeHorizontal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,16 +1,19 @@
 {
-  "name": "FormDropdownSelect4",
+  "name": "FormDropdownDot",
   "description": "A dropdown select form control icon in the fourth style variant, indicating a selectable dropdown menu option.",
   "tags": [
     "form",
-    "dropdown",
     "select",
+    "unread",
+    "badge",
+    "dropdown",
     "menu",
     "selection",
     "expand",
     "input",
     "control",
-    "chevron"
+    "chevron",
+    "dot"
   ],
   "categories": [
     "interface"
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form dropdown dot",
+  "aliases": [
+    "FormDropdownSelect4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

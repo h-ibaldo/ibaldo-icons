@@ -1,19 +1,18 @@
 {
-  "name": "AdvancedSearchLupeGear1",
+  "name": "GearSearch",
   "description": "An advanced search icon combining a magnifying glass with a gear symbol, variant 1",
   "tags": [
-    "advanced",
-    "search",
-    "lupe",
-    "magnifying glass",
     "gear",
+    "advanced",
+    "lupe",
+    "search",
+    "magnifying-glass",
     "settings",
     "filters",
     "configuration",
     "refinement"
   ],
   "categories": [
-    "interface",
     "development"
   ],
   "accessibility": {
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear search",
+  "aliases": [
+    "AdvancedSearchLupeGear1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

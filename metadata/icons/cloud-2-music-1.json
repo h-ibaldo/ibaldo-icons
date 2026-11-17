@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Music1",
+  "name": "CloudMusicTall",
   "description": "A cloud icon with a musical note indicating cloud-based music storage or streaming",
   "tags": [
     "cloud",
@@ -8,12 +8,12 @@
     "streaming",
     "media",
     "song",
-    "sound"
+    "sound",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "media",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud music tall",
+  "aliases": [
+    "Cloud2Music1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

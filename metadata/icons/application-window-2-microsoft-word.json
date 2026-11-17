@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow2Word",
-  "displayName": "Application window 2 word",
+  "name": "WindowLetterWBare",
+  "displayName": "Window letter W bare",
   "originalTitle": "Application Window 2 Microsoft Word",
   "description": "Application window representing Microsoft Word document software. Used to indicate Word documents, text editing applications, or document processing.",
   "tags": [
     "window",
     "application",
-    "word",
     "microsoft",
+    "word",
     "document",
     "text",
     "editor",
-    "office"
+    "office",
+    "letter",
+    "bare"
   ],
   "categories": [
-    "files",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.775Z"
+  "generatedAt": "2026-02-15T00:53:19.775Z",
+  "aliases": [
+    "ApplicationWindow2Word"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

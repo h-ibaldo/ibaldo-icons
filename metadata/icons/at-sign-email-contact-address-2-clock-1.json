@@ -1,21 +1,23 @@
 {
-  "name": "AtSign2Clock",
-  "displayName": "At sign 2 clock",
+  "name": "AtClock",
+  "displayName": "At clock",
   "originalTitle": "At Sign Email Contact Address 2 Clock 1",
   "description": "Email address with clock indicating pending, scheduled, or time-related email status. Used for delayed send or time-based email functions.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "scheduled",
     "pending",
     "time",
     "clock",
     "at-sign",
-    "contact",
     "delay"
   ],
   "categories": [
-    "communication",
-    "time"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.762Z"
+  "generatedAt": "2026-02-15T00:53:19.762Z",
+  "aliases": [
+    "AtSign2Clock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

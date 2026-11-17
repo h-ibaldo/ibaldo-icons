@@ -1,18 +1,21 @@
 {
-  "name": "ApplicationWindowCheck3",
+  "name": "WindowCheckCirclePlain",
   "description": "A third variant of an application window icon with a checkmark for verified or completed status",
   "tags": [
-    "application",
     "window",
-    "check",
+    "application",
     "mark",
-    "checkmark",
-    "verified",
+    "done",
     "success",
+    "verified",
+    "check",
+    "checkmark",
     "interface",
-    "variant"
+    "circle",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window check circle plain",
+  "aliases": [
+    "ApplicationWindowCheck3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

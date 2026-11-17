@@ -1,16 +1,17 @@
 {
-  "name": "ToolSupport5",
+  "name": "WrenchRound",
   "description": "A tool icon for support functionality in the fifth variant style",
   "tags": [
+    "wrench",
     "tool",
     "support",
     "help",
     "assistance",
-    "service"
+    "service",
+    "round"
   ],
   "categories": [
-    "business",
-    "interface"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Wrench round",
+  "aliases": [
+    "ToolSupport5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

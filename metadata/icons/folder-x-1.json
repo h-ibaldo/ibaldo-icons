@@ -1,15 +1,14 @@
 {
-  "name": "FolderX1",
+  "name": "FolderX",
   "description": "A folder icon with an X mark, representing folder closure or deletion action.",
   "tags": [
     "folder",
-    "x",
     "close",
     "delete",
-    "remove"
+    "remove",
+    "icon-ui"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder X",
+  "aliases": [
+    "FolderX1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

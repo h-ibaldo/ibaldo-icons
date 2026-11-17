@@ -1,18 +1,20 @@
 {
-  "name": "ArrowHexagon1Slash",
+  "name": "ArrowCounterclockwiseHexagonOff",
   "description": "An arrow icon inside a hexagon shape with a diagonal slash, indicating a disabled or restricted directional action.",
   "tags": [
     "arrow",
-    "hexagon",
     "slash",
     "disabled",
+    "mute",
+    "hexagon",
     "restricted",
     "direction",
     "blocked",
-    "prohibition"
+    "prohibition",
+    "counterclockwise",
+    "off"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow counterclockwise hexagon off",
+  "aliases": [
+    "ArrowHexagon1Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

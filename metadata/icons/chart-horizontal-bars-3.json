@@ -1,9 +1,11 @@
 {
-  "name": "ChartHorizontalBars3",
-  "displayName": "Chart horizontal bars 3",
+  "name": "ChartBarHorizontalPeak",
+  "displayName": "Chart bar horizontal peak",
   "originalTitle": "Chart Horizontal Bars 3",
   "description": "Third variation of horizontal bar chart for data comparison. Used in dashboards and reports for categorical data analysis.",
   "tags": [
+    "chart",
+    "bars",
     "bar",
     "horizontal",
     "comparison",
@@ -11,7 +13,8 @@
     "report",
     "data",
     "analytics",
-    "categories"
+    "categories",
+    "peak"
   ],
   "categories": [
     "business"
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.745Z"
+  "generatedAt": "2026-02-15T00:53:19.745Z",
+  "aliases": [
+    "ChartHorizontalBars3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

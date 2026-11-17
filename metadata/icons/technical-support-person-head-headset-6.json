@@ -1,20 +1,22 @@
 {
-  "name": "TechnicalSupportHeadset2",
+  "name": "UserHeadsetLongSwept",
   "description": "A technical support person icon wearing a headset, representing customer service and help desk representatives",
   "tags": [
-    "technical support",
+    "user",
+    "technical",
+    "support",
     "person",
     "head",
+    "technical-support",
     "headset",
-    "customer service",
-    "help desk",
+    "customer-service",
+    "help-desk",
     "agent",
-    "representative"
+    "representative",
+    "long"
   ],
   "categories": [
-    "interface",
-    "people",
-    "communication"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User headset long swept",
+  "aliases": [
+    "TechnicalSupportHeadset2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,24 @@
 {
-  "name": "ChartArrowUpCircleCheck",
-  "displayName": "Chart arrow up circle check",
+  "name": "ChartTrendUpCircleCheck",
+  "displayName": "Chart trend up circle check",
   "originalTitle": "Chart Arrow Up Circle Check Checked",
   "description": "Growth chart with upward arrow and checkmark indicating successful metrics or completed analysis. Shows positive performance validation.",
   "tags": [
     "chart",
     "arrow",
+    "checked",
+    "done",
+    "success",
+    "verified",
     "up",
     "check",
-    "success",
     "analytics",
     "performance",
-    "validation"
+    "validation",
+    "trend"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.740Z"
+  "generatedAt": "2026-02-15T00:53:19.740Z",
+  "aliases": [
+    "ChartArrowUpCircleCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

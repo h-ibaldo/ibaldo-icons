@@ -1,19 +1,21 @@
 {
-  "name": "ApplicationWindowRemove",
+  "name": "WindowMinusCircle",
   "description": "An application window with a remove or delete action indicator",
   "tags": [
-    "application",
     "window",
+    "application",
+    "negative",
     "remove",
     "delete",
+    "subtract",
     "minus",
-    "negative",
     "close",
-    "action"
+    "action",
+    "circle"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window minus circle",
+  "aliases": [
+    "ApplicationWindowRemove"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

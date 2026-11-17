@@ -1,8 +1,9 @@
 {
-  "name": "PyramidHierarchyUp",
+  "name": "PyramidArrowUp",
   "description": "A pyramid hierarchy diagram with an upward arrow indicating progression through Maslow's levels of needs",
   "tags": [
     "pyramid",
+    "piramid",
     "hierarchy",
     "maslow",
     "arrow",
@@ -13,8 +14,7 @@
     "growth"
   ],
   "categories": [
-    "business",
-    "education"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pyramid arrow up",
+  "aliases": [
+    "PyramidHierarchyUp"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

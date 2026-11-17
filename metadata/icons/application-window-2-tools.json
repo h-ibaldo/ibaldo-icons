@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow2Tools",
-  "displayName": "Application window 2 tools",
+  "name": "WindowWrenchBare",
+  "displayName": "Window wrench bare",
   "originalTitle": "Application Window 2 Tools",
   "description": "Application window with tools icon representing utility or configuration software. Used to indicate system tools, settings applications, or maintenance programs.",
   "tags": [
@@ -11,11 +11,13 @@
     "settings",
     "configuration",
     "maintenance",
-    "system"
+    "system",
+    "wrench",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.776Z"
+  "generatedAt": "2026-02-15T00:53:19.776Z",
+  "aliases": [
+    "ApplicationWindow2Tools"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

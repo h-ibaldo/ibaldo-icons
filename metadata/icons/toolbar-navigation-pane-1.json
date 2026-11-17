@@ -1,14 +1,17 @@
 {
-  "name": "ToolbarNavigationPane1",
+  "name": "CaretLeftRightSquare",
   "description": "A toolbar navigation pane icon, variant 1, for managing collapsible or dockable navigation panels.",
   "tags": [
+    "caret",
     "toolbar",
     "navigation",
     "pane",
     "panel",
     "sidebar",
     "dock",
-    "variant1"
+    "left",
+    "right",
+    "square"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Caret left right square",
+  "aliases": [
+    "ToolbarNavigationPane1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

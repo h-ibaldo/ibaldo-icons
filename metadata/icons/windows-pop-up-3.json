@@ -1,17 +1,21 @@
 {
-  "name": "WindowsPopUp3",
+  "name": "WindowStack",
   "description": "A multiple pop-up windows icon variant representing several floating dialog box layers",
   "tags": [
+    "window",
     "windows",
+    "pop",
+    "up",
     "pop-up",
     "multiple",
     "dialog",
     "floating",
     "modal",
     "interface",
-    "variant3"
+    "stack"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window stack",
+  "aliases": [
+    "WindowsPopUp3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

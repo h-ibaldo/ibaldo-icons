@@ -1,18 +1,19 @@
 {
-  "name": "ScreensharingArrows",
+  "name": "ScreenShareArrows",
   "description": "A screen sharing icon showing multiple computers connected with bidirectional arrows for collaborative sharing",
   "tags": [
+    "screen",
     "screensharing",
-    "screen sharing",
     "computers",
+    "screen-sharing",
     "arrows",
     "connection",
     "collaboration",
     "network",
-    "sync"
+    "sync",
+    "share"
   ],
   "categories": [
-    "interface",
     "devices",
     "communication"
   ],
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screen share arrows",
+  "aliases": [
+    "ScreensharingArrows"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

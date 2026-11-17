@@ -1,20 +1,21 @@
 {
-  "name": "InstallUpdatesArrowUp4",
+  "name": "GearUploadWavy",
   "description": "An installation and updates icon featuring a gear with an upward arrow for software installation or system upgrade in variant 4",
   "tags": [
+    "gear",
     "install",
     "updates",
-    "gear",
     "arrow",
     "up",
     "upgrade",
     "software",
     "system",
     "refresh",
-    "arrow-up"
+    "arrow-up",
+    "upload",
+    "wavy"
   ],
   "categories": [
-    "interface",
     "development"
   ],
   "accessibility": {
@@ -32,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear upload wavy",
+  "aliases": [
+    "InstallUpdatesArrowUp4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

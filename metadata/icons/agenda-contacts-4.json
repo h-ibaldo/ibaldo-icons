@@ -1,20 +1,21 @@
 {
-  "name": "AgendaContacts4",
+  "name": "AddressBookAtHooks",
   "description": "An agenda contacts icon representing the fourth variant for managing contact information and directories",
   "tags": [
+    "address",
     "agenda",
     "contacts",
-    "4",
     "organizer",
     "people",
     "directory",
     "management",
-    "contact list"
+    "contact-list",
+    "book",
+    "at",
+    "hooks"
   ],
   "categories": [
-    "interface",
-    "business",
-    "people"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Address book at hooks",
+  "aliases": [
+    "AgendaContacts4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,20 @@
 {
-  "name": "UpvoteButtonsChevron",
+  "name": "VoteChevronSquare",
   "description": "Upvote and downvote button pair with chevron arrows for voting interactions",
   "tags": [
+    "vote",
     "upvote",
     "buttons",
-    "chevron",
     "arrow",
     "up",
     "down",
+    "chevron",
     "voting",
-    "interaction"
+    "interaction",
+    "square"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "social"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vote chevron square",
+  "aliases": [
+    "UpvoteButtonsChevron"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

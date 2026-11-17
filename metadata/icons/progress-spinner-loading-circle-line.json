@@ -1,12 +1,11 @@
 {
-  "name": "ProgressSpinnerLine",
+  "name": "Spinner",
   "description": "A loading progress spinner with a single circular line indicating ongoing activity",
   "tags": [
-    "progress",
     "spinner",
+    "progress",
     "loading",
     "circle",
-    "line",
     "animation",
     "activity"
   ],
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Spinner",
+  "aliases": [
+    "ProgressSpinnerLine"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "DragDropExtended",
+  "name": "DragCursorCenter",
   "description": "An extended drag and drop icon variant showing multiple draggable elements or enhanced interaction.",
   "tags": [
     "drag",
@@ -8,7 +8,9 @@
     "interaction",
     "ui",
     "extended",
-    "multi"
+    "multi",
+    "cursor",
+    "center"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Drag cursor center",
+  "aliases": [
+    "DragDropExtended"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

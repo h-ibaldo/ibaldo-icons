@@ -1,10 +1,13 @@
 {
-  "name": "FormCheckboxChecked3",
+  "name": "FormCheckboxCheckLarge",
   "description": "A checked form checkbox icon in the third style variant, showing a selected or confirmed form field state.",
   "tags": [
     "form",
-    "checkbox",
     "checked",
+    "done",
+    "success",
+    "verified",
+    "checkbox",
     "selected",
     "input",
     "validation",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form checkbox check large",
+  "aliases": [
+    "FormCheckboxChecked3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

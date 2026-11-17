@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Synchronize1",
+  "name": "CloudSyncTall",
   "description": "A cloud icon with a synchronize symbol indicating cloud data synchronization or backup operation.",
   "tags": [
     "cloud",
@@ -8,10 +8,11 @@
     "backup",
     "update",
     "data",
-    "storage"
+    "storage",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud sync tall",
+  "aliases": [
+    "Cloud2Synchronize1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

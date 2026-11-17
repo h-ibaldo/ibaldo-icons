@@ -1,19 +1,18 @@
 {
-  "name": "OnlineShopLaptopBag2",
+  "name": "LaptopBag",
   "description": "An online shop icon combining a laptop with a shopping bag, illustrating e-commerce on laptop devices",
   "tags": [
+    "laptop",
     "online",
     "shop",
     "store",
     "ecommerce",
-    "laptop",
     "bag",
     "shopping",
     "retail",
     "purchase"
   ],
   "categories": [
-    "shopping",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop bag",
+  "aliases": [
+    "OnlineShopLaptopBag2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

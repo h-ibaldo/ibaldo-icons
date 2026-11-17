@@ -1,5 +1,5 @@
 {
-  "name": "FormInputNumber",
+  "name": "FormInputNumberDots",
   "description": "A form number input field icon for numeric data entry and validation",
   "tags": [
     "form",
@@ -7,7 +7,8 @@
     "number",
     "numeric",
     "field",
-    "data entry"
+    "data-entry",
+    "dots"
   ],
   "categories": [
     "interface"
@@ -27,5 +28,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form input number dots",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

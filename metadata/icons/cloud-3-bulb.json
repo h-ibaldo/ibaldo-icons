@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Bulb",
+  "name": "CloudLightbulbRound",
   "description": "A cloud icon with a lightbulb indicating cloud-based ideas or intelligent cloud solutions",
   "tags": [
     "cloud",
@@ -8,12 +8,13 @@
     "innovation",
     "intelligence",
     "smart",
-    "inspiration"
+    "inspiration",
+    "lightbulb",
+    "round"
   ],
   "categories": [
-    "interface",
-    "business",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud lightbulb round",
+  "aliases": [
+    "Cloud3Bulb"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

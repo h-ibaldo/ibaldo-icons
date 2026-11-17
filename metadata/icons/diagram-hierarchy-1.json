@@ -1,21 +1,21 @@
 {
-  "name": "DiagramHierarchy1",
-  "displayName": "Diagram hierarchy 1",
+  "name": "DiagramChain",
+  "displayName": "Diagram chain",
   "originalTitle": "Diagram Hierarchy 1",
   "description": "Organizational hierarchy diagram showing structured relationships. Used to represent company structures, family trees, or any hierarchical organization system.",
   "tags": [
+    "diagram",
     "hierarchy",
     "organization",
     "structure",
     "tree",
     "management",
     "levels",
-    "diagram",
-    "flowchart"
+    "flowchart",
+    "chain"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.759Z"
+  "generatedAt": "2026-02-15T00:53:19.759Z",
+  "aliases": [
+    "DiagramHierarchy1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

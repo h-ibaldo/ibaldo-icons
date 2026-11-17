@@ -1,14 +1,17 @@
 {
-  "name": "Tab3Settings",
+  "name": "TabDotsSharp",
   "description": "A tab icon with three dots representing a settings or options menu",
   "tags": [
     "tab",
-    "three dots",
+    "three",
     "settings",
+    "three-dots",
     "options",
     "menu",
     "more",
-    "interface"
+    "interface",
+    "dots",
+    "sharp"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab dots sharp",
+  "aliases": [
+    "Tab3Settings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

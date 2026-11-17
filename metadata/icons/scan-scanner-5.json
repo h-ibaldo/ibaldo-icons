@@ -1,16 +1,15 @@
 {
-  "name": "Scanner5",
+  "name": "ScannerRound",
   "description": "A scanner icon in its fifth variant style for document scanning and imaging applications.",
   "tags": [
-    "scan",
     "scanner",
+    "scan",
     "document",
     "imaging",
     "capture",
-    "variant5"
+    "round"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scanner round",
+  "aliases": [
+    "Scanner5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

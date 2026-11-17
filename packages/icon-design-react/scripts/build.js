@@ -151,7 +151,7 @@ async function build() {
   // Names come from metadata/icons/ via the shared module, so the package
   // uses exactly the same names as the website (see NAMING-GUIDE.md).
   const { loadIconNames } = require('../../../scripts/utils/icon-names.cjs');
-  const { icons } = loadIconNames();
+  const { icons, aliases } = loadIconNames();
   console.log(`📁 Found ${icons.length} icons in static/icons/optimized/\n`);
 
   const components = [];
@@ -215,8 +215,15 @@ async function build() {
   console.log('📦 Generating index files...\n');
   
   // ESM index
+  // Old names (metadata "aliases") stay exported for one major version,
+  // pointing to the renamed component. See NAMING-GUIDE.md, "Renaming".
+  const built = new Set(components.map(c => c.name));
+  const liveAliases = aliases.filter(a => built.has(a.name));
+  const deprecatedDoc = (a) => `/** @deprecated Renamed to \`${a.name}\`. This old name will be removed in the next major version. */`;
+
   const esmIndex = components
     .map(c => `export { ${c.name} } from './icons/${c.name}.js';`)
+    .concat(liveAliases.map(a => `export { ${a.name} as ${a.alias} } from './icons/${a.name}.js';`))
     .join('\n');
   
   fs.writeFileSync(path.join(ESM_DIR, 'index.js'), esmIndex);
@@ -232,6 +239,7 @@ ${components.map(c => `const ${c.name} = require('./icons/${c.name}.js');`).join
 
 module.exports = {
 ${components.map(c => `  ${c.name}: ${c.name}.default || ${c.name},`).join('\n')}
+${liveAliases.map(a => `  ${a.alias}: ${a.name}.default || ${a.name},`).join('\n')}
 };
 `;
   
@@ -240,6 +248,7 @@ ${components.map(c => `  ${c.name}: ${c.name}.default || ${c.name},`).join('\n')
   // TypeScript index declaration
   const dtsIndex = components
     .map(c => `export { ${c.name} } from './icons/${c.name}';`)
+    .concat(liveAliases.map(a => `${deprecatedDoc(a)}\nexport declare const ${a.alias}: typeof import('./icons/${a.name}').${a.name};`))
     .join('\n');
   
   fs.writeFileSync(path.join(DIST_DIR, 'index.d.ts'), dtsIndex);
@@ -251,16 +260,16 @@ ${components.map(c => `  ${c.name}: ${c.name}.default || ${c.name},`).join('\n')
   
   fs.writeFileSync(path.join(dtsIconsDir, 'index.d.ts'), iconsDtsIndex);
   
-  console.log(`✅ Built ${components.length} React components`);
+  console.log(`✅ Built ${components.length} React components (+ ${liveAliases.length} deprecated aliases)`);
   console.log(`   📂 ESM: dist/esm/`);
   console.log(`   📂 CJS: dist/cjs/`);
   console.log(`   📂 Types: dist/*.d.ts\n`);
   
   // Print some example usage
   console.log('📖 Example usage:\n');
-  console.log('   import { AvatarFaceTopKnot } from "@icon-design/react";');
+  console.log('   import { AvatarFaceTopKnot } from "@primor/icons-react";');
   console.log('   // or');
-  console.log('   import AvatarFaceTopKnot from "@icon-design/react/icons/AvatarFaceTopKnot";\n');
+  console.log('   import AvatarFaceTopKnot from "@primor/icons-react/icons/AvatarFaceTopKnot";\n');
   console.log('   <AvatarFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
 }
 

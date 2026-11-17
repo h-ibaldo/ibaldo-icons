@@ -1,5 +1,5 @@
 {
-  "name": "Lock3KeyholeOpen",
+  "name": "LockOpenKeyholeNarrow",
   "description": "A lock icon with an open keyhole state, indicating unlocked key-based security access",
   "tags": [
     "lock",
@@ -9,11 +9,11 @@
     "key",
     "access",
     "unlock",
-    "unlocked"
+    "unlocked",
+    "narrow"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open keyhole narrow",
+  "aliases": [
+    "Lock3KeyholeOpen"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

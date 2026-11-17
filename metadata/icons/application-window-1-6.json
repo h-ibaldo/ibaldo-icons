@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow6",
-  "displayName": "Application window 6",
+  "name": "WindowTwoDotsRight",
+  "displayName": "Window two dots right",
   "originalTitle": "Application Window 1 6",
   "description": "Sixth application window variant completing the window icon series. Used for diverse application representations.",
   "tags": [
@@ -10,11 +10,14 @@
     "software",
     "interface",
     "program",
-    "desktop"
+    "desktop",
+    "two",
+    "dots",
+    "right"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.766Z"
+  "generatedAt": "2026-02-15T00:53:19.766Z",
+  "aliases": [
+    "ApplicationWindow6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

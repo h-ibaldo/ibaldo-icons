@@ -1,17 +1,18 @@
 {
-  "name": "SaveSearch",
+  "name": "SaveFolder",
   "description": "A save icon combined with search functionality representing the ability to search and save files across storage locations",
   "tags": [
     "save",
     "search",
-    "floppy disk",
+    "floppy",
+    "disk",
+    "floppy-disk",
     "folder",
     "find",
     "storage",
     "files"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +30,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save folder",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,24 @@
 {
-  "name": "ChartDoughnutStorageStripes",
-  "displayName": "Chart doughnut storage stripes",
+  "name": "ChartDonutStriped",
+  "displayName": "Chart donut striped",
   "originalTitle": "Chart Doughnut Storage Filled Stripes",
   "description": "Doughnut chart with striped pattern showing storage usage or capacity. Used to display disk space, memory usage, or quota consumption.",
   "tags": [
+    "chart",
     "doughnut",
     "storage",
+    "filled",
+    "stripes",
     "capacity",
     "usage",
     "disk",
     "memory",
     "quota",
-    "space"
+    "space",
+    "donut"
   ],
   "categories": [
-    "business",
-    "devices"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.743Z"
+  "generatedAt": "2026-02-15T00:53:19.743Z",
+  "aliases": [
+    "ChartDoughnutStorageStripes"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

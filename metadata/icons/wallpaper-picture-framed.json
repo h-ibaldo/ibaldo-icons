@@ -1,18 +1,18 @@
 {
-  "name": "WallpaperPictureFramed",
+  "name": "ImageCorners",
   "description": "A framed wallpaper or picture icon indicating a decorative image or photo with frame border",
   "tags": [
+    "image",
     "wallpaper",
     "picture",
-    "image",
     "framed",
     "frame",
     "border",
     "gallery",
-    "decoration"
+    "decoration",
+    "corners"
   ],
   "categories": [
-    "interface",
     "media",
     "files"
   ],
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Image corners",
+  "aliases": [
+    "WallpaperPictureFramed"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

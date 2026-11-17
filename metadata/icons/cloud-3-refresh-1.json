@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Refresh",
+  "name": "CloudRefreshRound",
   "description": "A cloud icon with a refresh or sync symbol indicating cloud synchronization and data updates.",
   "tags": [
     "cloud",
@@ -8,12 +8,12 @@
     "synchronization",
     "update",
     "reload",
-    "restore"
+    "restore",
+    "round"
   ],
   "categories": [
-    "interface",
     "files",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud refresh round",
+  "aliases": [
+    "Cloud3Refresh"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

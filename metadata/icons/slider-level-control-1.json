@@ -1,5 +1,5 @@
 {
-  "name": "SliderLevelControl1",
+  "name": "SliderPointer",
   "description": "A slider level control icon representing volume, brightness, or adjustment settings with a single position indicator.",
   "tags": [
     "slider",
@@ -9,7 +9,7 @@
     "brightness",
     "adjustment",
     "settings",
-    "1"
+    "pointer"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Slider pointer",
+  "aliases": [
+    "SliderLevelControl1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

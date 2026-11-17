@@ -1,22 +1,23 @@
 {
-  "name": "ChartLineCircle2X",
-  "displayName": "Chart line circle 2 x",
+  "name": "ChartLineCircleX",
+  "displayName": "Chart line circle X",
   "originalTitle": "Chart Line Circle 2 X Delete Error",
   "description": "Line chart with X mark indicating failed data analysis or error in metrics tracking. Used to show chart errors or invalid analytics data.",
   "tags": [
     "chart",
-    "analytics",
-    "error",
     "delete",
+    "error",
+    "close",
+    "remove",
+    "analytics",
     "fail",
     "data",
     "metrics",
     "invalid",
-    "remove"
+    "circle"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -34,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.750Z"
+  "generatedAt": "2026-02-15T00:53:19.750Z",
+  "aliases": [
+    "ChartLineCircle2X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

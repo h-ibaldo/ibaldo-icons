@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsLinesSquareNegative1",
-  "displayName": "Chart vertical columns lines square negative 1",
+  "name": "ChartBarDownPeakSquareThin",
+  "displayName": "Chart bar down peak square thin",
   "originalTitle": "Chart Vertical Columns Lines Square Negative Y Axis 1",
   "description": "Combined column and line chart with square indicator showing negative values on the y-axis. Used to represent charts displaying negative data points or below-baseline metrics.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
-    "lines",
     "negative",
+    "axis",
     "y-axis",
     "square",
     "below",
-    "metrics"
+    "metrics",
+    "bar",
+    "down",
+    "peak"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.757Z"
+  "generatedAt": "2026-02-15T00:53:19.757Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesSquareNegative1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

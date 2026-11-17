@@ -1,19 +1,20 @@
 {
-  "name": "WebsitePortalChart",
+  "name": "BrowserChartArrow",
   "description": "A website portal icon with an upward arrow and chart representing trends, analytics, and statistical growth.",
   "tags": [
+    "browser",
     "website",
     "portal",
-    "chart",
-    "arrow",
     "trends",
     "stats",
+    "chart",
+    "arrow",
     "analytics",
     "growth"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser chart arrow",
+  "aliases": [
+    "WebsitePortalChart"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

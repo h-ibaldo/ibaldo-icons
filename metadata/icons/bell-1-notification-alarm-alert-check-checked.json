@@ -1,21 +1,25 @@
 {
-  "name": "Bell1Check",
-  "displayName": "Bell 1 check",
+  "name": "BellCheckCircleRim",
+  "displayName": "Bell check circle rim",
   "originalTitle": "Bell 1 Notification Alarm Alert Check Checked",
   "description": "Notification bell with checkmark indicating acknowledged or read notifications. Used to show completed or confirmed alerts.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
+    "checked",
+    "done",
+    "success",
+    "verified",
     "check",
     "confirmed",
     "read",
-    "acknowledged",
-    "alert",
-    "verified"
+    "acknowledged"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.780Z"
+  "generatedAt": "2026-02-15T00:53:19.780Z",
+  "aliases": [
+    "Bell1Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

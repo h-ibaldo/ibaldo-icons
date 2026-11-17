@@ -1,21 +1,24 @@
 {
-  "name": "ApplicationWindow2Lightning3",
-  "displayName": "Application window 2 lightning 3",
+  "name": "WindowBoltWideBare",
+  "displayName": "Window bolt wide bare",
   "originalTitle": "Application Window 2 Energy Lightning 3",
   "description": "Application window with lightning bolt icon variation for energy-related software or quick action applications. Used to represent fast processing, energy tools, or performance applications.",
   "tags": [
-    "application",
     "window",
-    "lightning",
+    "application",
     "energy",
+    "lightning",
     "quick",
     "fast",
     "power",
-    "speed"
+    "speed",
+    "bolt",
+    "wide",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.773Z"
+  "generatedAt": "2026-02-15T00:53:19.773Z",
+  "aliases": [
+    "ApplicationWindow2Lightning3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,16 +1,15 @@
 {
-  "name": "Scanner3",
+  "name": "ScannerFront",
   "description": "A scanner icon representing document or image scanning functionality in its third variant style.",
   "tags": [
-    "scan",
     "scanner",
+    "scan",
     "document",
     "imaging",
     "capture",
-    "variant3"
+    "front"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scanner front",
+  "aliases": [
+    "Scanner3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

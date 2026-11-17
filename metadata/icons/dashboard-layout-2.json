@@ -1,6 +1,6 @@
 {
-  "name": "DashboardLayout2",
-  "displayName": "Dashboard layout 2",
+  "name": "DashboardSharp",
+  "displayName": "Dashboard sharp",
   "originalTitle": "Dashboard Layout 2",
   "description": "Alternative dashboard layout icon with different panel arrangement. Used for dashboard customization or layout selection options.",
   "tags": [
@@ -11,10 +11,10 @@
     "admin",
     "analytics",
     "grid",
-    "overview"
+    "overview",
+    "sharp"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.798Z"
+  "generatedAt": "2026-02-15T00:53:19.798Z",
+  "aliases": [
+    "DashboardLayout2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,18 @@
 {
-  "name": "ProgressSpinnerRadiating5",
+  "name": "SpinnerRaysFade",
   "description": "A progress spinner with five radiating lines indicating loading activity",
   "tags": [
-    "progress",
     "spinner",
+    "progress",
     "loading",
-    "lines",
     "radiating",
     "animation",
     "activity",
-    "variant 5"
+    "rays",
+    "fade"
   ],
   "categories": [
-    "interface",
-    "time"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Spinner rays fade",
+  "aliases": [
+    "ProgressSpinnerRadiating5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

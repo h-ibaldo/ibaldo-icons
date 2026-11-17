@@ -1,6 +1,6 @@
 {
-  "name": "ButtonPointer",
-  "displayName": "Button pointer",
+  "name": "ButtonPillHand",
+  "displayName": "Button pill hand",
   "originalTitle": "Button Pointer",
   "description": "Button with pointer or arrow element indicating direction or action. Used for navigation, submission, or directional user interactions.",
   "tags": [
@@ -11,11 +11,12 @@
     "navigation",
     "action",
     "ui",
-    "forward"
+    "forward",
+    "pill",
+    "hand"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.791Z"
+  "generatedAt": "2026-02-15T00:53:19.791Z",
+  "aliases": [
+    "ButtonPointer"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

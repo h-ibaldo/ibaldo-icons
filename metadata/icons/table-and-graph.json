@@ -1,20 +1,21 @@
 {
-  "name": "TechnicalSupportLaptopGear",
+  "name": "TableChartLine",
   "description": "A technical support icon featuring a laptop with gear symbol for IT assistance and troubleshooting",
   "tags": [
+    "table",
+    "graph",
     "technical",
     "support",
     "laptop",
     "gear",
     "help",
-    "IT",
+    "it",
     "troubleshooting",
-    "service"
+    "service",
+    "chart"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "development"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Table chart line",
+  "aliases": [
+    "TechnicalSupportLaptopGear"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

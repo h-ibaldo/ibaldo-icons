@@ -1,19 +1,22 @@
 {
-  "name": "Lock4Checked",
+  "name": "LockCheckWide",
   "description": "A locked padlock icon with a checkmark symbol for approved or validated state",
   "tags": [
     "lock",
-    "check",
     "checked",
+    "done",
+    "success",
+    "verified",
+    "check",
     "checkmark",
     "approved",
     "validated",
     "security",
-    "padlock"
+    "padlock",
+    "wide"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock check wide",
+  "aliases": [
+    "Lock4Checked"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

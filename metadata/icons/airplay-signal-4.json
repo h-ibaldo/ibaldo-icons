@@ -1,5 +1,5 @@
 {
-  "name": "AirplaySignal4",
+  "name": "AirplayWifi",
   "description": "An Airplay icon with signal strength indicator showing maximum wireless connection quality at level 4",
   "tags": [
     "airplay",
@@ -8,11 +8,11 @@
     "wireless",
     "connection",
     "quality",
-    "level"
+    "level",
+    "wifi"
   ],
   "categories": [
-    "devices",
-    "communication"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Airplay wifi",
+  "aliases": [
+    "AirplaySignal4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

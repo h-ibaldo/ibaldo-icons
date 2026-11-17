@@ -1,10 +1,10 @@
 {
-  "name": "OnlineShopBrowser",
+  "name": "StoreBrowser",
   "description": "An online shop or e-commerce store displayed in a web browser window",
   "tags": [
+    "store",
     "online",
     "shop",
-    "store",
     "ecommerce",
     "browser",
     "web",
@@ -12,9 +12,7 @@
     "retail"
   ],
   "categories": [
-    "shopping",
-    "interface",
-    "devices"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Store browser",
+  "aliases": [
+    "OnlineShopBrowser"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

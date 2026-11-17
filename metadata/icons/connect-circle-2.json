@@ -1,19 +1,20 @@
 {
-  "name": "ConnectCircle2",
+  "name": "NodesCircleFourLarge",
   "description": "A second variant of the circular connection icon for network representation",
   "tags": [
+    "nodes",
     "connect",
     "circle",
     "connection",
     "network",
     "link",
     "communication",
-    "circular"
+    "circular",
+    "four",
+    "large"
   ],
   "categories": [
-    "interface",
-    "communication",
-    "development"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Nodes circle four large",
+  "aliases": [
+    "ConnectCircle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,20 @@
 {
-  "name": "SunBrightness2",
+  "name": "SunStarStriped",
   "description": "A sun icon indicating brightness level 2, representing medium-low light intensity",
   "tags": [
     "sun",
     "brightness",
     "light",
     "level",
-    "2",
     "medium",
     "intensity",
-    "display"
+    "display",
+    "star",
+    "striped"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun star striped",
+  "aliases": [
+    "SunBrightness2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

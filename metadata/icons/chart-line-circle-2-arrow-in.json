@@ -1,17 +1,18 @@
 {
-  "name": "ChartLineCircle2ArrowIn",
-  "displayName": "Chart line circle 2 arrow in",
+  "name": "ChartLineCircleArrowRight",
+  "displayName": "Chart line circle arrow right",
   "originalTitle": "Chart Line Circle 2 Arrow In",
   "description": "Line chart with circular elements and inward arrows for data flow visualization. Used to show data relationships and interconnected metrics.",
   "tags": [
-    "line",
     "chart",
     "circle",
     "flow",
     "relationship",
     "connection",
     "data",
-    "metrics"
+    "metrics",
+    "arrow",
+    "right"
   ],
   "categories": [
     "business"
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.750Z"
+  "generatedAt": "2026-02-15T00:53:19.750Z",
+  "aliases": [
+    "ChartLineCircle2ArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

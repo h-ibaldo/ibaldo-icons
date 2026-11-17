@@ -1,7 +1,8 @@
 {
-  "name": "Bulb5",
+  "name": "LightbulbShineRound",
   "description": "A light bulb icon representing ideas and innovation in variant 5 style",
   "tags": [
+    "lightbulb",
     "bulb",
     "idea",
     "light",
@@ -9,11 +10,11 @@
     "creativity",
     "solution",
     "inspiration",
-    "variant5"
+    "shine",
+    "round"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lightbulb shine round",
+  "aliases": [
+    "Bulb5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

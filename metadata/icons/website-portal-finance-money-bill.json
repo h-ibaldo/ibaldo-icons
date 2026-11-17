@@ -1,7 +1,8 @@
 {
-  "name": "WebsitePortalBill",
+  "name": "BrowserBanknote",
   "description": "A website portal icon for financial services featuring a bill or money symbol representing payments and transactions",
   "tags": [
+    "browser",
     "website",
     "portal",
     "finance",
@@ -9,11 +10,12 @@
     "bill",
     "payment",
     "transaction",
-    "banking"
+    "banking",
+    "banknote"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser banknote",
+  "aliases": [
+    "WebsitePortalBill"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

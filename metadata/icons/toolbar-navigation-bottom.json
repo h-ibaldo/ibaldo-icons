@@ -1,5 +1,5 @@
 {
-  "name": "ToolbarNavigationBottom",
+  "name": "ToolbarBottom",
   "description": "A toolbar navigation icon indicating or controlling bottom-positioned navigation elements.",
   "tags": [
     "toolbar",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toolbar bottom",
+  "aliases": [
+    "ToolbarNavigationBottom"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

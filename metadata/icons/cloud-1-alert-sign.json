@@ -1,16 +1,15 @@
 {
-  "name": "CloudAlert",
+  "name": "CloudWarning",
   "description": "A cloud icon with an alert or sign symbol for cloud-based notifications",
   "tags": [
     "cloud",
     "alert",
-    "warning",
-    "notification",
     "sign",
+    "warning",
     "notification"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -28,5 +27,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud warning",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

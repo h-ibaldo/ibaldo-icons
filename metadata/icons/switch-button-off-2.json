@@ -1,14 +1,16 @@
 {
-  "name": "SwitchButtonOff2",
+  "name": "SwitchRockerOffPerspective",
   "description": "An alternate design of a toggle switch button in the off position with a different visual style.",
   "tags": [
     "switch",
     "button",
+    "disabled",
+    "mute",
     "off",
     "toggle",
-    "disabled",
     "inactive",
-    "variant"
+    "rocker",
+    "perspective"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch rocker off perspective",
+  "aliases": [
+    "SwitchButtonOff2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

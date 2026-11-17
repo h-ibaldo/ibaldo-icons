@@ -1,19 +1,18 @@
 {
-  "name": "BadgeRosetteQuestionUnverified3",
+  "name": "BadgeQuestionPetal",
   "description": "A third variant of the rosette badge with question mark, providing design flexibility for unverified credential states.",
   "tags": [
     "badge",
     "rosette",
-    "question",
     "mark",
     "unverified",
+    "question",
     "uncertain",
-    "variant",
-    "verification"
+    "verification",
+    "petal"
   ],
   "categories": [
-    "interface",
-    "security"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Badge question petal",
+  "aliases": [
+    "BadgeRosetteQuestionUnverified3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

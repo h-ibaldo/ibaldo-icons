@@ -1,5 +1,5 @@
 {
-  "name": "ClockEnvelope",
+  "name": "ClockMail",
   "description": "A clock icon combined with an envelope symbol representing scheduled messages or timed communications",
   "tags": [
     "clock",
@@ -8,11 +8,11 @@
     "message",
     "time",
     "schedule",
-    "communication"
+    "communication",
+    "mail"
   ],
   "categories": [
-    "time",
-    "communication"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock mail",
+  "aliases": [
+    "ClockEnvelope"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

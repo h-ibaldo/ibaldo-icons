@@ -1,18 +1,19 @@
 {
-  "name": "FolderCircleCheck",
+  "name": "FolderCheckCircle",
   "description": "A folder icon with a circular checkmark badge indicating successful completion or verification.",
   "tags": [
     "folder",
+    "done",
+    "success",
+    "verified",
     "circle",
     "check",
     "checkmark",
-    "verified",
     "approved",
     "badge"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder check circle",
+  "aliases": [
+    "FolderCircleCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

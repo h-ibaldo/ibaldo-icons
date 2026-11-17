@@ -1,18 +1,18 @@
 {
-  "name": "SearchBrowserLupe2",
+  "name": "BrowserSearchPlain",
   "description": "A search icon with magnifying glass for searching within a browser window in its second variant.",
   "tags": [
-    "search",
     "browser",
     "lupe",
-    "magnifying glass",
-    "find",
     "window",
-    "variant2"
+    "search",
+    "magnifying-glass",
+    "find",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser search plain",
+  "aliases": [
+    "SearchBrowserLupe2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

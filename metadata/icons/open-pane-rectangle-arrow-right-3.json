@@ -1,9 +1,9 @@
 {
-  "name": "OpenPaneRightBold",
+  "name": "PaneArrowRight",
   "description": "A bold variant icon of a rectangle pane opening to the right with an arrow",
   "tags": [
-    "open",
     "pane",
+    "open",
     "rectangle",
     "arrow",
     "right",
@@ -12,8 +12,7 @@
     "bold"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pane arrow right",
+  "aliases": [
+    "OpenPaneRightBold"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

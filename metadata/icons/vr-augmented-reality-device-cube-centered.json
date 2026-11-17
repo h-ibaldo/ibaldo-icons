@@ -1,18 +1,19 @@
 {
-  "name": "VRDeviceCubeCentered",
+  "name": "MobileCube",
   "description": "A VR augmented reality device icon with centered cube representing balanced virtual interaction",
   "tags": [
+    "mobile",
     "vr",
-    "augmented reality",
+    "augmented",
+    "reality",
     "device",
-    "cube",
     "centered",
-    "3d",
+    "augmented-reality",
+    "cube",
     "balanced"
   ],
   "categories": [
-    "devices",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mobile cube",
+  "aliases": [
+    "VRDeviceCubeCentered"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,7 +1,8 @@
 {
-  "name": "CirclesStates1",
+  "name": "CircleStack",
   "description": "A set of circular states or progress indicators showing multiple status variations",
   "tags": [
+    "circle",
     "circles",
     "states",
     "progress",
@@ -9,7 +10,7 @@
     "status",
     "cycle",
     "multiple",
-    "variant"
+    "stack"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle stack",
+  "aliases": [
+    "CirclesStates1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "TouchScreenSwipeRight",
+  "name": "TouchSwipeRight",
   "description": "A touch screen icon showing a right swipe gesture, representing rightward navigation or interaction on a mobile device.",
   "tags": [
     "touch",
@@ -9,12 +9,11 @@
     "gesture",
     "interaction",
     "mobile",
-    "navigation",
-    "variant"
+    "navigation"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Touch swipe right",
+  "aliases": [
+    "TouchScreenSwipeRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

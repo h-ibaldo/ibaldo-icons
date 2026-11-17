@@ -1,7 +1,8 @@
 {
-  "name": "LanguageSpeechBubble",
+  "name": "TranslateChat",
   "description": "A language icon with speech bubble indicating communication and language dialogue options",
   "tags": [
+    "translate",
     "language",
     "speech",
     "bubble",
@@ -11,8 +12,8 @@
     "translation"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Translate chat",
+  "aliases": [
+    "LanguageSpeechBubble"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

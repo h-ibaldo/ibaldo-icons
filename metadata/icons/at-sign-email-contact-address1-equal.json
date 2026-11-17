@@ -1,21 +1,23 @@
 {
-  "name": "AtSign1Equal",
-  "displayName": "At sign 1 equal",
+  "name": "AtEqualCurved",
+  "displayName": "At equal curved",
   "originalTitle": "At Sign Email Contact Address1 Equal",
   "description": "At symbol with equals sign for email address matching or comparison functions. Used in contact deduplication or email verification processes.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
     "equal",
     "match",
     "compare",
-    "contact",
     "address",
     "duplicate",
-    "verify"
+    "verify",
+    "curved"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.765Z"
+  "generatedAt": "2026-02-15T00:53:19.765Z",
+  "aliases": [
+    "AtSign1Equal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

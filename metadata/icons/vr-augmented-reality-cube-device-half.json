@@ -1,18 +1,20 @@
 {
-  "name": "VRCubeHalf",
+  "name": "MobileCubeOverlap",
   "description": "A VR augmented reality cube device icon shown in half or split view for device interaction",
   "tags": [
+    "mobile",
     "vr",
-    "augmented reality",
-    "cube",
+    "augmented",
+    "reality",
     "device",
     "half",
+    "augmented-reality",
+    "cube",
     "split",
-    "3d model"
+    "overlap"
   ],
   "categories": [
-    "devices",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mobile cube overlap",
+  "aliases": [
+    "VRCubeHalf"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

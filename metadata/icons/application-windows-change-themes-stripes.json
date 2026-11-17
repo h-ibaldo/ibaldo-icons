@@ -1,18 +1,24 @@
 {
-  "name": "ApplicationWindowsThemesStripes",
-  "displayName": "Application windows themes stripes",
+  "name": "WindowStackStripedAll",
+  "displayName": "Window stack striped all",
   "originalTitle": "Application Windows Change Themes Stripes",
   "description": "Application windows with theme customization stripes. Represents theme selection, UI customization, or appearance settings.",
   "tags": [
+    "window",
+    "application",
     "windows",
+    "change",
     "themes",
-    "customization",
     "stripes",
+    "customization",
     "appearance",
     "settings",
-    "design"
+    "design",
+    "stack",
+    "striped"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -31,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.761Z"
+  "generatedAt": "2026-02-15T00:53:19.761Z",
+  "aliases": [
+    "ApplicationWindowsThemesStripes"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

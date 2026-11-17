@@ -1,19 +1,18 @@
 {
-  "name": "PagesLinesTerms",
+  "name": "DocumentStack",
   "description": "A multi-page document icon with lines representing terms and conditions text.",
   "tags": [
+    "document",
     "pages",
-    "lines",
     "terms",
     "conditions",
-    "document",
     "legal",
     "agreement",
-    "text"
+    "text",
+    "stack"
   ],
   "categories": [
-    "files",
-    "business"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Document stack",
+  "aliases": [
+    "PagesLinesTerms"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

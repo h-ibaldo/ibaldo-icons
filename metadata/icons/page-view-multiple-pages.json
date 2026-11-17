@@ -1,17 +1,16 @@
 {
-  "name": "PageViewMultiple",
+  "name": "DocumentMultiple",
   "description": "A page view icon showing multiple pages stacked or layered together",
   "tags": [
+    "document",
     "page",
     "view",
-    "multiple",
     "pages",
-    "document",
+    "multiple",
     "stack",
     "layer"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Document multiple",
+  "aliases": [
+    "PageViewMultiple"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

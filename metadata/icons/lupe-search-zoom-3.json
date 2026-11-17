@@ -1,18 +1,16 @@
 {
-  "name": "LupeSearchZoom3",
+  "name": "SearchC",
   "description": "A third variant of magnifying glass search icon with zoom magnification capabilities",
   "tags": [
-    "lupe",
     "search",
+    "lupe",
     "zoom",
-    "magnifying glass",
+    "magnifying-glass",
     "magnify",
-    "variant",
     "find"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search C",
+  "aliases": [
+    "LupeSearchZoom3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

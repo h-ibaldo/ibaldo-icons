@@ -1,21 +1,20 @@
 {
-  "name": "DiagramWorkflow",
-  "displayName": "Diagram workflow",
+  "name": "DiagramFlowchart",
+  "displayName": "Diagram flowchart",
   "originalTitle": "Diagram Workflow",
   "description": "Workflow diagram showing process steps and decision points. Used to map out business processes, user journeys, or any systematic workflow with multiple stages.",
   "tags": [
+    "diagram",
     "workflow",
     "process",
     "steps",
     "flowchart",
     "business",
     "procedure",
-    "diagram",
     "system"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.760Z"
+  "generatedAt": "2026-02-15T00:53:19.760Z",
+  "aliases": [
+    "DiagramWorkflow"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

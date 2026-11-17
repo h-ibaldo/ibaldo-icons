@@ -1,18 +1,16 @@
 {
-  "name": "ShoppingBag1",
+  "name": "Bag",
   "description": "A first variant of a shopping bag icon representing retail purchases and commerce",
   "tags": [
-    "shopping",
     "bag",
+    "shopping",
     "cart",
     "purchase",
     "retail",
-    "commerce",
-    "variant1"
+    "commerce"
   ],
   "categories": [
-    "shopping",
-    "interface"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bag",
+  "aliases": [
+    "ShoppingBag1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

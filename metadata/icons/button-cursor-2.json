@@ -1,6 +1,6 @@
 {
-  "name": "ButtonCursor2",
-  "displayName": "Button cursor 2",
+  "name": "ButtonCursor",
+  "displayName": "Button cursor",
   "originalTitle": "Button Cursor 2",
   "description": "Alternative button design with cursor pointer for interactive elements. Indicates clickable interface components and user actions.",
   "tags": [
@@ -32,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.790Z"
+  "generatedAt": "2026-02-15T00:53:19.790Z",
+  "aliases": [
+    "ButtonCursor2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

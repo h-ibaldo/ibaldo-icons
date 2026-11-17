@@ -1,15 +1,14 @@
 {
-  "name": "TabCloseRight",
+  "name": "TabArrowRightX",
   "description": "A tab close icon with an arrow pointing right for removing the right tab",
   "tags": [
     "tab",
-    "arrow",
     "close",
     "remove",
+    "delete",
+    "arrow",
     "right",
-    "x",
-    "navigation",
-    "delete"
+    "navigation"
   ],
   "categories": [
     "interface"
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab arrow right X",
+  "aliases": [
+    "TabCloseRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

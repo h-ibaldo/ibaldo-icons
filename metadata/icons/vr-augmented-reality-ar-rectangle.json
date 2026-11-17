@@ -1,19 +1,20 @@
 {
-  "name": "VrArRectangle",
+  "name": "ARSquare",
   "description": "A virtual reality and augmented reality icon in rectangular format for immersive technology experiences",
   "tags": [
     "vr",
-    "augmented reality",
+    "augmented",
+    "reality",
     "ar",
     "rectangle",
+    "augmented-reality",
     "immersive",
-    "3d",
     "virtual",
     "technology",
-    "extended reality"
+    "extended-reality",
+    "square"
   ],
   "categories": [
-    "devices",
     "interface"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "A R square",
+  "aliases": [
+    "VrArRectangle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

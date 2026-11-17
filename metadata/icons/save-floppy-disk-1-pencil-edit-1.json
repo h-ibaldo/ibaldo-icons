@@ -1,5 +1,5 @@
 {
-  "name": "SaveDiskEdit1",
+  "name": "SaveEdit",
   "description": "A floppy disk save icon with a pencil, indicating editing or modifying the first version of a save file",
   "tags": [
     "save",
@@ -9,11 +9,9 @@
     "edit",
     "modify",
     "update",
-    "write",
-    "version 1"
+    "write"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save edit",
+  "aliases": [
+    "SaveDiskEdit1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

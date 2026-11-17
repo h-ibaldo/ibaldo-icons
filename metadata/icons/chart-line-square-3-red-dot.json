@@ -1,21 +1,24 @@
 {
-  "name": "ChartLineSquare3Dot",
-  "displayName": "Chart line square 3 dot",
+  "name": "ChartLinePeakSquareDot",
+  "displayName": "Chart line peak square dot",
   "originalTitle": "Chart Line Square 3 Red Dot",
   "description": "Alternative line chart with notification dot for data alerts or updates. Used for real-time dashboard notifications or indicating new analytics information.",
   "tags": [
     "chart",
+    "unread",
+    "badge",
     "notification",
     "alert",
     "dot",
     "update",
     "new",
     "status",
-    "realtime"
+    "realtime",
+    "peak",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.754Z"
+  "generatedAt": "2026-02-15T00:53:19.754Z",
+  "aliases": [
+    "ChartLineSquare3Dot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

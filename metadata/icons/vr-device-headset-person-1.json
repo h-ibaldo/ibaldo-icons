@@ -1,18 +1,17 @@
 {
-  "name": "VRHeadsetPerson1",
+  "name": "VrHeadsetUser",
   "description": "A VR device headset worn by person icon, first variant, showing user wearing virtual reality equipment",
   "tags": [
     "vr",
     "device",
-    "headset",
     "person",
+    "headset",
     "user",
     "wearing",
     "avatar"
   ],
   "categories": [
-    "devices",
-    "people"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vr headset user",
+  "aliases": [
+    "VRHeadsetPerson1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

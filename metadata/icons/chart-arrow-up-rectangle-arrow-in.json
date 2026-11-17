@@ -1,6 +1,6 @@
 {
-  "name": "ChartArrowUpRectangleArrowIn",
-  "displayName": "Chart arrow up rectangle arrow in",
+  "name": "ChartTrendUpSquareArrowRight",
+  "displayName": "Chart trend up square arrow right",
   "originalTitle": "Chart Arrow Up Rectangle Arrow In",
   "description": "Rectangular growth chart with upward arrow and import function. Used for importing analytics data or uploading performance metrics.",
   "tags": [
@@ -11,11 +11,13 @@
     "import",
     "analytics",
     "data",
-    "upload"
+    "upload",
+    "trend",
+    "square",
+    "right"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.741Z"
+  "generatedAt": "2026-02-15T00:53:19.741Z",
+  "aliases": [
+    "ChartArrowUpRectangleArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

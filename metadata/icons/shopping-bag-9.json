@@ -1,18 +1,17 @@
 {
-  "name": "ShoppingBag9",
+  "name": "BagFlared",
   "description": "A shopping bag icon in style variant 9 for e-commerce and retail applications",
   "tags": [
-    "shopping",
     "bag",
+    "shopping",
     "cart",
     "purchase",
     "retail",
     "ecommerce",
-    "variant9"
+    "flared"
   ],
   "categories": [
-    "shopping",
-    "interface"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bag flared",
+  "aliases": [
+    "ShoppingBag9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,7 +1,8 @@
 {
-  "name": "LevelUpArrow",
+  "name": "TrayUpload",
   "description": "An upward arrow icon indicating level progression or improvement",
   "tags": [
+    "tray",
     "level",
     "up",
     "arrow",
@@ -9,11 +10,11 @@
     "growth",
     "increase",
     "ascend",
-    "promotion"
+    "promotion",
+    "upload"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tray upload",
+  "aliases": [
+    "LevelUpArrow"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

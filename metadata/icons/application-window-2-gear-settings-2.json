@@ -1,19 +1,21 @@
 {
-  "name": "ApplicationWindow2Settings2",
-  "displayName": "Application window 2 settings 2",
+  "name": "WindowSettingsBare",
+  "displayName": "Window settings bare",
   "originalTitle": "Application Window 2 Gear Settings 2",
   "description": "Application window with gear icon variant for system configuration or administrative tools. Used to represent control panels, system settings, or management applications.",
   "tags": [
-    "application",
     "window",
-    "settings",
+    "application",
     "gear",
+    "settings",
     "system",
     "admin",
     "control",
-    "management"
+    "management",
+    "bare"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.773Z"
+  "generatedAt": "2026-02-15T00:53:19.773Z",
+  "aliases": [
+    "ApplicationWindow2Settings2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

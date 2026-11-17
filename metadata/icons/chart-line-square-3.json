@@ -1,21 +1,21 @@
 {
-  "name": "ChartLineSquare3",
-  "displayName": "Chart line square 3",
+  "name": "ChartLinePeakSquare",
+  "displayName": "Chart line peak square",
   "originalTitle": "Chart Line Square 3",
   "description": "Line chart icon representing data trends and analytics over time. Used for displaying statistical information and performance metrics in dashboards.",
   "tags": [
     "chart",
-    "line",
     "graph",
     "analytics",
     "data",
     "statistics",
     "trends",
-    "metrics"
+    "metrics",
+    "peak",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.754Z"
+  "generatedAt": "2026-02-15T00:53:19.754Z",
+  "aliases": [
+    "ChartLineSquare3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

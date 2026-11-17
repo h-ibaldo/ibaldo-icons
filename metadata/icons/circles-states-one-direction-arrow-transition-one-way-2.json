@@ -1,19 +1,22 @@
 {
-  "name": "CirclesStateArrowOneWay",
+  "name": "CircleOverlapArrowDownLeft",
   "description": "A directional arrow icon showing circles transitioning in one direction, representing unidirectional flow or progression",
   "tags": [
+    "circle",
     "circles",
     "states",
+    "one",
     "direction",
-    "arrow",
     "transition",
+    "way",
+    "arrow",
     "one-way",
     "flow",
-    "unidirectional"
+    "unidirectional",
+    "overlap"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle overlap arrow down left",
+  "aliases": [
+    "CirclesStateArrowOneWay"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

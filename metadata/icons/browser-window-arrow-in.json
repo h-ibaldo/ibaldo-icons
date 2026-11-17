@@ -1,18 +1,19 @@
 {
-  "name": "BrowserWindowArrowIn",
+  "name": "BrowserArrowUpRight",
   "description": "A browser window icon with an inward-pointing arrow indicating import or incoming action.",
   "tags": [
     "browser",
     "window",
     "arrow",
-    "in",
     "import",
     "incoming",
-    "direction"
+    "direction",
+    "up",
+    "right"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser arrow up right",
+  "aliases": [
+    "BrowserWindowArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

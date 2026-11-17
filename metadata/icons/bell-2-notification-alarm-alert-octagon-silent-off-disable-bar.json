@@ -1,21 +1,25 @@
 {
-  "name": "Bell2OctagonSilent",
-  "displayName": "Bell 2 octagon silent",
+  "name": "BellOctagonOff",
+  "displayName": "Bell octagon off",
   "originalTitle": "Bell 2 Notification Alarm Alert Octagon Silent Off Disable Bar",
   "description": "Notification bell in octagon with bar indicating blocked or disabled notifications. Used to show notification restrictions or do not disturb mode.",
   "tags": [
     "bell",
     "notification",
-    "blocked",
-    "disabled",
-    "octagon",
-    "restricted",
+    "alarm",
+    "alert",
     "silent",
-    "stop"
+    "disable",
+    "bar",
+    "disabled",
+    "mute",
+    "blocked",
+    "octagon",
+    "restricted"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.781Z"
+  "generatedAt": "2026-02-15T00:53:19.781Z",
+  "aliases": [
+    "Bell2OctagonSilent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

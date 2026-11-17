@@ -1,5 +1,5 @@
 {
-  "name": "TrashUndelete1",
+  "name": "TrashRefresh",
   "description": "A trash bin icon with a restore or recovery indicator for undeletion",
   "tags": [
     "trash",
@@ -8,10 +8,11 @@
     "recover",
     "undo",
     "bin",
-    "recycle"
+    "recycle",
+    "refresh"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash refresh",
+  "aliases": [
+    "TrashUndelete1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

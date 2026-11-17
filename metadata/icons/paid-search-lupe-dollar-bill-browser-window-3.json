@@ -1,21 +1,20 @@
 {
-  "name": "PaidSearchDollarWindow3",
+  "name": "BrowserDollarSearchDots2",
   "description": "Another variant of the paid search browser window icon with search magnifier and currency symbol.",
   "tags": [
+    "browser",
     "paid",
-    "search",
     "lupe",
+    "bill",
+    "window",
+    "search",
     "magnifying",
     "glass",
-    "dollar",
-    "bill",
-    "browser",
-    "window",
-    "variant"
+    "dollar"
   ],
   "categories": [
-    "business",
-    "devices"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser dollar search dots2",
+  "aliases": [
+    "PaidSearchDollarWindow3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,9 +1,10 @@
 {
-  "name": "ChartDoughnutStorage",
-  "displayName": "Chart doughnut storage",
+  "name": "ChartDonut",
+  "displayName": "Chart donut",
   "originalTitle": "Chart Doughnut Storage",
   "description": "Simple doughnut chart for displaying storage or capacity data. Used to show disk usage, memory allocation, or resource consumption.",
   "tags": [
+    "chart",
     "doughnut",
     "storage",
     "capacity",
@@ -11,11 +12,11 @@
     "disk",
     "memory",
     "allocation",
-    "resources"
+    "resources",
+    "donut"
   ],
   "categories": [
-    "business",
-    "devices"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.743Z"
+  "generatedAt": "2026-02-15T00:53:19.743Z",
+  "aliases": [
+    "ChartDoughnutStorage"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,19 +1,21 @@
 {
-  "name": "HandTouchThreeSwipeLeft",
+  "name": "HandSwipeLeftThreeFingers",
   "description": "A three-finger leftward swipe gesture icon with a left arrow indicating leftward directional movement",
   "tags": [
     "hand",
     "touch",
-    "three fingers",
+    "arrow",
+    "three-fingers",
     "swipe",
     "left",
-    "arrow",
     "gesture",
-    "directional"
+    "directional",
+    "three",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand swipe left three fingers",
+  "aliases": [
+    "HandTouchThreeSwipeLeft"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "LockArrowPortrait3",
+  "name": "LockRefresh",
   "description": "A third variant of lock with portrait orientation arrow for secure device orientation settings",
   "tags": [
     "lock",
@@ -8,12 +8,11 @@
     "orientation",
     "rotation",
     "device",
-    "variant",
-    "screen"
+    "screen",
+    "refresh"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock refresh",
+  "aliases": [
+    "LockArrowPortrait3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

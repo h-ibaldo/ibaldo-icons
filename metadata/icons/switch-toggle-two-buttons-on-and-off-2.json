@@ -1,15 +1,18 @@
 {
-  "name": "SwitchTwoButtonsToggle",
+  "name": "ToggleMultipleSlim",
   "description": "A dual toggle interface showing both on and off states simultaneously with two button options.",
   "tags": [
-    "switch",
     "toggle",
-    "two buttons",
-    "on",
+    "switch",
+    "two",
+    "buttons",
     "off",
+    "two-buttons",
     "dual",
     "comparison",
-    "control"
+    "control",
+    "multiple",
+    "slim"
   ],
   "categories": [
     "interface"
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle multiple slim",
+  "aliases": [
+    "SwitchTwoButtonsToggle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

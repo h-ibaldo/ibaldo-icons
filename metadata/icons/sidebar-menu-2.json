@@ -1,18 +1,19 @@
 {
-  "name": "SidebarMenu2",
+  "name": "WindowMenuPlain",
   "description": "A sidebar menu icon in style variant 2 for navigation and interface layouts",
   "tags": [
+    "window",
     "sidebar",
     "menu",
     "navigation",
     "hamburger",
     "interface",
     "layout",
-    "variant2"
+    "plain"
   ],
   "categories": [
-    "interface",
-    "navigation"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window menu plain",
+  "aliases": [
+    "SidebarMenu2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

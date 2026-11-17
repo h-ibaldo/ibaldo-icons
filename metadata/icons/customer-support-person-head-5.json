@@ -1,20 +1,23 @@
 {
-  "name": "CustomerSupport5",
-  "displayName": "Customer support 5",
+  "name": "SupportFace",
+  "displayName": "Support face",
   "originalTitle": "Customer Support Person Head 5",
   "description": "Customer service representative icon for support and assistance features. Indicates availability of customer help, live support, or service desk functionality.",
   "tags": [
-    "customer",
-    "service",
     "support",
+    "customer",
+    "person",
+    "head",
+    "service",
     "help",
     "representative",
     "assistance",
     "desk",
-    "live"
+    "live",
+    "face"
   ],
   "categories": [
-    "business",
+    "communication",
     "people"
   ],
   "accessibility": {
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.802Z"
+  "generatedAt": "2026-02-15T00:53:19.802Z",
+  "aliases": [
+    "CustomerSupport5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

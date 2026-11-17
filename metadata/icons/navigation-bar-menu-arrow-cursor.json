@@ -1,19 +1,18 @@
 {
-  "name": "NavigationBarMenuArrow",
+  "name": "MenuBarCursor",
   "description": "A navigation bar with menu options and directional arrow cursor for navigation control",
   "tags": [
-    "navigation",
-    "bar",
     "menu",
+    "navigation",
     "arrow",
+    "bar",
     "cursor",
     "direction",
     "interface",
     "control"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu bar cursor",
+  "aliases": [
+    "NavigationBarMenuArrow"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

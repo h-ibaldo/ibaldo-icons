@@ -1,14 +1,16 @@
 {
-  "name": "WidgetDelete2",
+  "name": "WidgetXBlob",
   "description": "A widget icon with a delete action, second variant, for removing widgets",
   "tags": [
     "widget",
     "delete",
+    "close",
     "remove",
     "action",
     "interface",
     "tool",
-    "eliminate"
+    "eliminate",
+    "blob"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Widget X blob",
+  "aliases": [
+    "WidgetDelete2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

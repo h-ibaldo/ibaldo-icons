@@ -1,7 +1,8 @@
 {
-  "name": "WebsitePortalCamera",
+  "name": "BrowserMovieCamera",
   "description": "A website portal icon for movies and entertainment featuring a camera representing video and film production",
   "tags": [
+    "browser",
     "website",
     "portal",
     "movies",
@@ -9,11 +10,12 @@
     "video",
     "film",
     "entertainment",
-    "production"
+    "production",
+    "movie"
   ],
   "categories": [
-    "interface",
-    "media"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser movie camera",
+  "aliases": [
+    "WebsitePortalCamera"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

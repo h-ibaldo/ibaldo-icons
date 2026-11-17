@@ -1,19 +1,18 @@
 {
-  "name": "ProgressSpinnerDotted",
+  "name": "SpinnerRaysDotted",
   "description": "A progress spinner with dotted radiating lines showing loading status",
   "tags": [
-    "progress",
     "spinner",
+    "progress",
     "loading",
-    "lines",
     "radiating",
     "dotted",
     "animation",
-    "activity"
+    "activity",
+    "rays"
   ],
   "categories": [
-    "interface",
-    "time"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Spinner rays dotted",
+  "aliases": [
+    "ProgressSpinnerDotted"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

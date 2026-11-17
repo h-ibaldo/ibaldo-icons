@@ -1,16 +1,17 @@
 {
-  "name": "Add2",
-  "displayName": "Add 2",
+  "name": "PlusSmall",
+  "displayName": "Plus small",
   "originalTitle": "Add Plus 2",
   "description": "Alternative plus icon for adding functionality. Used for creating new content or expanding options.",
   "tags": [
-    "add",
     "plus",
+    "add",
     "create",
     "new",
     "insert",
     "addition",
-    "expand"
+    "expand",
+    "small"
   ],
   "categories": [
     "interface"
@@ -31,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.765Z"
+  "generatedAt": "2026-02-15T00:53:19.765Z",
+  "aliases": [
+    "Add2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

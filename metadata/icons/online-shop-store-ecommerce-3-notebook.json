@@ -1,19 +1,19 @@
 {
-  "name": "OnlineShopNotebook",
+  "name": "LaptopStore",
   "description": "An online shop icon displayed on a notebook or tablet screen, representing mobile e-commerce shopping",
   "tags": [
+    "laptop",
     "online",
     "shop",
-    "store",
     "ecommerce",
     "notebook",
+    "store",
     "tablet",
     "shopping",
     "mobile",
     "retail"
   ],
   "categories": [
-    "shopping",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop store",
+  "aliases": [
+    "OnlineShopNotebook"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -44,8 +44,9 @@ function readMetadata(filename) {
 
 /**
  * @returns {{
- *   icons: Array<{ filename: string, file: string, name: string, metadata: object|null }>,
+ *   icons: Array<{ filename: string, file: string, name: string, aliases: string[], metadata: object|null }>,
  *   byFilename: Map<string, string>,
+ *   aliases: Array<{ alias: string, name: string, filename: string }>,
  *   problems: string[]
  * }}
  */
@@ -87,13 +88,38 @@ function loadIconNames({ quiet = false } = {}) {
     icons.push({ filename, file: path.join(ICONS_DIR, `${filename}.svg`), name, metadata });
   }
 
+  // Aliases: old names kept for one major version (NAMING-GUIDE.md, "Renaming").
+  // An alias is dropped if it is not a valid name, equals a current name, or
+  // was already claimed by another icon.
+  const aliasOwner = new Map();
+  for (const icon of icons) {
+    icon.aliases = [];
+    for (const alias of (icon.metadata && icon.metadata.aliases) || []) {
+      if (!VALID_NAME.test(alias)) {
+        problems.push(`${icon.filename}: invalid alias "${alias}", skipped`);
+      } else if (taken.has(alias)) {
+        problems.push(`${icon.filename}: alias "${alias}" is a current icon name, skipped`);
+      } else if (aliasOwner.has(alias)) {
+        problems.push(`${icon.filename}: alias "${alias}" already used by ${aliasOwner.get(alias).filename}, skipped`);
+      } else {
+        aliasOwner.set(alias, icon);
+        icon.aliases.push(alias);
+      }
+    }
+  }
+
   if (!quiet && problems.length) {
     console.warn(`\n⚠️  ${problems.length} naming problems (fix in metadata/icons/, see NAMING-GUIDE.md):`);
     for (const p of problems) console.warn(`   - ${p}`);
     console.warn('');
   }
 
-  return { icons, byFilename, problems };
+  // aliases: [{ alias, name, filename }], sorted by alias
+  const aliases = [...aliasOwner.entries()]
+    .map(([alias, icon]) => ({ alias, name: icon.name, filename: icon.filename }))
+    .sort((a, b) => a.alias.localeCompare(b.alias));
+
+  return { icons, byFilename, aliases, problems };
 }
 
 module.exports = { loadIconNames, ICONS_DIR, METADATA_DIR };

@@ -1,5 +1,5 @@
 {
-  "name": "UploadArrowCircle",
+  "name": "UploadCircle",
   "description": "An upload icon with a downward arrow inside a circle for file or data transfer",
   "tags": [
     "upload",
@@ -7,11 +7,10 @@
     "down",
     "circle",
     "transfer",
-    "upload",
     "download"
   ],
   "categories": [
-    "interface",
+    "files",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload circle",
+  "aliases": [
+    "UploadArrowCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

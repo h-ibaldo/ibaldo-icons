@@ -1,18 +1,20 @@
 {
-  "name": "Lock5Check",
+  "name": "LockCheckRound",
   "description": "A lock icon with a checkmark, representing verified or secure status",
   "tags": [
     "lock",
-    "check",
     "checked",
-    "security",
+    "done",
+    "success",
     "verified",
+    "check",
+    "security",
     "confirm",
-    "approve"
+    "approve",
+    "round"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock check round",
+  "aliases": [
+    "Lock5Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Sync",
+  "name": "CloudArrowUpDownRound",
   "description": "A cloud icon with up and down arrows for synchronizing cloud data",
   "tags": [
     "cloud",
@@ -8,11 +8,11 @@
     "down",
     "sync",
     "synchronize",
-    "bidirectional"
+    "bidirectional",
+    "round"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow up down round",
+  "aliases": [
+    "Cloud3Sync"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

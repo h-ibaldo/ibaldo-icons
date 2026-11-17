@@ -1,7 +1,8 @@
 {
-  "name": "LightningQuickMode3",
+  "name": "BoltWide",
   "description": "A lightning bolt icon representing a third variant of quick mode or power acceleration.",
   "tags": [
+    "bolt",
     "lightning",
     "thunder",
     "flash",
@@ -9,12 +10,11 @@
     "power",
     "quick",
     "mode",
-    "variant",
     "fast",
-    "boost"
+    "boost",
+    "wide"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -32,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bolt wide",
+  "aliases": [
+    "LightningQuickMode3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

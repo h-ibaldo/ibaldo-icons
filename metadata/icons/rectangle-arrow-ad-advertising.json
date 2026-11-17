@@ -1,17 +1,19 @@
 {
-  "name": "RectangleArrowAdvertising",
+  "name": "PaneArrowUpRight",
   "description": "A rectangle with arrow icon indicating advertising content or promotional banner display",
   "tags": [
+    "pane",
     "rectangle",
-    "arrow",
     "ad",
     "advertising",
+    "arrow",
     "promotion",
-    "banner"
+    "banner",
+    "up",
+    "right"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pane arrow up right",
+  "aliases": [
+    "RectangleArrowAdvertising"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

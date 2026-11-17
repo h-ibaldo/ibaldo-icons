@@ -1,18 +1,19 @@
 {
-  "name": "ClockExclamationCircle",
+  "name": "ClockAlertCircle",
   "description": "A clock icon with an exclamation mark in a circle indicating urgent timing or time-sensitive alerts",
   "tags": [
     "clock",
     "exclamation",
+    "error",
+    "attention",
     "alert",
     "warning",
     "time",
     "urgent",
-    "attention"
+    "circle"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock alert circle",
+  "aliases": [
+    "ClockExclamationCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

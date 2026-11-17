@@ -1,21 +1,24 @@
 {
-  "name": "AtSign3Alert",
-  "displayName": "At sign 3 alert",
+  "name": "AtAlertCircle",
+  "displayName": "At alert circle",
   "originalTitle": "At Sign Email Contact Address 3 Alert Exclamation",
   "description": "At symbol with alert indicator for email warnings or notifications. Used to show email delivery issues or important messages.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "exclamation",
+    "error",
+    "attention",
     "alert",
     "warning",
     "notification",
-    "exclamation",
-    "contact",
-    "address",
     "at-sign"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.779Z"
+  "generatedAt": "2026-02-15T00:53:19.779Z",
+  "aliases": [
+    "AtSign3Alert"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

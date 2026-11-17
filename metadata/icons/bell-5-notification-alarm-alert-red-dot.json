@@ -1,21 +1,23 @@
 {
-  "name": "Bell5Dot",
-  "displayName": "Bell 5 dot",
+  "name": "BellDotDash",
+  "displayName": "Bell dot dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Red Dot",
   "description": "Notification bell with red dot indicator showing unread alerts. Used to display the presence of new, unread notifications.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "unread",
+    "badge",
     "new",
     "dot",
     "indicator",
-    "alert",
-    "badge"
+    "dash"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.787Z"
+  "generatedAt": "2026-02-15T00:53:19.787Z",
+  "aliases": [
+    "Bell5Dot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

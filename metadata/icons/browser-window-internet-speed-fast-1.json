@@ -1,5 +1,5 @@
 {
-  "name": "BrowserWindowSpeed",
+  "name": "BrowserFast",
   "description": "A browser window icon with a fast speed indicator or gauge showing internet performance and connection speed",
   "tags": [
     "browser",
@@ -13,8 +13,8 @@
     "quick"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser fast",
+  "aliases": [
+    "BrowserWindowSpeed"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

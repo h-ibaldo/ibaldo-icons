@@ -1,5 +1,5 @@
 {
-  "name": "Fingerprint5",
+  "name": "FingerprintCurl",
   "description": "A fingerprint biometric scan icon, variant 5, for touch identification and secure authentication",
   "tags": [
     "fingerprint",
@@ -9,11 +9,10 @@
     "security",
     "touch",
     "identification",
-    "variant 5"
+    "curl"
   ],
   "categories": [
-    "security",
-    "devices"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Fingerprint curl",
+  "aliases": [
+    "Fingerprint5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

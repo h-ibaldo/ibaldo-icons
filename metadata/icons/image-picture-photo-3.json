@@ -1,5 +1,5 @@
 {
-  "name": "Image3",
+  "name": "ImageHills",
   "description": "A picture photo icon variant 3 representing visual media and image content",
   "tags": [
     "image",
@@ -8,11 +8,11 @@
     "visual",
     "media",
     "gallery",
-    "variant3"
+    "hills"
   ],
   "categories": [
-    "interface",
-    "media"
+    "media",
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Image hills",
+  "aliases": [
+    "Image3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

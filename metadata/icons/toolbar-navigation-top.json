@@ -1,5 +1,5 @@
 {
-  "name": "ToolbarNavigationTop",
+  "name": "ToolbarTop",
   "description": "A toolbar navigation icon indicating or controlling top-positioned navigation elements.",
   "tags": [
     "toolbar",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toolbar top",
+  "aliases": [
+    "ToolbarNavigationTop"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

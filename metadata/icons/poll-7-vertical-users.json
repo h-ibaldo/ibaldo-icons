@@ -1,5 +1,5 @@
 {
-  "name": "Poll7Users",
+  "name": "PollUser",
   "description": "A vertical poll icon with seven options showing user participation and voting engagement",
   "tags": [
     "poll",
@@ -9,12 +9,11 @@
     "voting",
     "feedback",
     "people",
-    "participation"
+    "participation",
+    "user"
   ],
   "categories": [
-    "interface",
-    "business",
-    "people"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Poll user",
+  "aliases": [
+    "Poll7Users"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

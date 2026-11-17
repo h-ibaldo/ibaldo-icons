@@ -1,22 +1,24 @@
 {
-  "name": "ChartLineCircle3Plus",
-  "displayName": "Chart line circle 3 plus",
+  "name": "ChartLinePeakCirclePlus",
+  "displayName": "Chart line peak circle plus",
   "originalTitle": "Chart Line Circle 3 Positive Add Plus",
   "description": "Line chart with plus sign for adding or increasing chart data. Used to add new chart elements or increase data points.",
   "tags": [
     "chart",
+    "positive",
     "add",
+    "create",
     "plus",
     "increase",
     "data",
     "analytics",
-    "create",
     "expand",
-    "grow"
+    "grow",
+    "peak",
+    "circle"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -34,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.751Z"
+  "generatedAt": "2026-02-15T00:53:19.751Z",
+  "aliases": [
+    "ChartLineCircle3Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

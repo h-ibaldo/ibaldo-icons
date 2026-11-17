@@ -1,5 +1,5 @@
 {
-  "name": "LogoutArrowOut2",
+  "name": "LogoutWide",
   "description": "A logout icon with an arrow pointing outward, representing user session exit or sign-out action.",
   "tags": [
     "logout",
@@ -9,11 +9,12 @@
     "sign-out",
     "session",
     "user",
-    "leave"
+    "leave",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "security"
+    "security",
+    "arrows"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Logout wide",
+  "aliases": [
+    "LogoutArrowOut2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

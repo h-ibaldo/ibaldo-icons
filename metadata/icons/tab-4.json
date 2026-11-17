@@ -1,5 +1,5 @@
 {
-  "name": "Tab4",
+  "name": "TabStriped",
   "description": "A basic tab interface icon representing a tabbed navigation element",
   "tags": [
     "tab",
@@ -7,7 +7,8 @@
     "interface",
     "tabs",
     "panel",
-    "sheet"
+    "sheet",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab striped",
+  "aliases": [
+    "Tab4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

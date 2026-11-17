@@ -1,17 +1,16 @@
 {
-  "name": "ScanRescan3",
+  "name": "ScannerRefreshFront",
   "description": "A scanner icon with rescan functionality for the third variant of document scanning with refresh capability",
   "tags": [
-    "scan",
     "scanner",
+    "scan",
     "rescan",
     "document",
     "refresh",
-    "variant3"
+    "front"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scanner refresh front",
+  "aliases": [
+    "ScanRescan3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

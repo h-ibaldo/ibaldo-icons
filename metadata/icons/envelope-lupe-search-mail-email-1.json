@@ -1,13 +1,13 @@
 {
-  "name": "EnvelopeSearch1",
+  "name": "MailSearch",
   "description": "An envelope mail icon with a search magnifying glass showing the first variant for email lookup",
   "tags": [
-    "envelope",
-    "search",
     "mail",
+    "envelope",
+    "lupe",
     "email",
-    "magnifying glass",
-    "variant1"
+    "search",
+    "magnifying-glass"
   ],
   "categories": [
     "communication"
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mail search",
+  "aliases": [
+    "EnvelopeSearch1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

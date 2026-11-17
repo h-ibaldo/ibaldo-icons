@@ -1,17 +1,18 @@
 {
-  "name": "ArrowsClockwise1",
+  "name": "ArrowSyncClockwise",
   "description": "Clockwise rotating arrow icon indicating forward rotation or refresh action",
   "tags": [
+    "arrow",
     "arrows",
+    "synchronize",
     "clockwise",
     "rotation",
     "refresh",
     "rotate",
     "forward",
-    "variant1"
+    "sync"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync clockwise",
+  "aliases": [
+    "ArrowsClockwise1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

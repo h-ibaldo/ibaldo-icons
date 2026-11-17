@@ -1,12 +1,12 @@
 {
-  "name": "Information4",
+  "name": "InfoBlock",
   "description": "An information icon in a standard variant style for displaying help or details.",
   "tags": [
-    "information",
     "info",
+    "information",
     "help",
     "details",
-    "details"
+    "block"
   ],
   "categories": [
     "interface"
@@ -26,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Info block",
+  "aliases": [
+    "Information4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

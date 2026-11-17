@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightness1C",
+  "name": "SunDottedDense",
   "description": "A sun brightness control icon in variant 1C style, representing adjustable light intensity",
   "tags": [
     "sun",
@@ -7,11 +7,12 @@
     "light",
     "control",
     "adjustment",
-    "variant 1C"
+    "dotted",
+    "dense"
   ],
   "categories": [
-    "interface",
-    "weather"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun dotted dense",
+  "aliases": [
+    "SunBrightness1C"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

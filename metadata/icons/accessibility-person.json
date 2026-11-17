@@ -1,5 +1,5 @@
 {
-  "name": "AccessibilityPerson",
+  "name": "Accessibility",
   "description": "A fundamental accessibility icon depicting a person silhouette, representing inclusive design and universal access",
   "tags": [
     "accessibility",
@@ -12,8 +12,7 @@
     "symbol"
   ],
   "categories": [
-    "accessibility",
-    "people"
+    "accessibility"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Accessibility",
+  "aliases": [
+    "AccessibilityPerson"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

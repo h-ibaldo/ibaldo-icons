@@ -2,19 +2,21 @@
   "name": "VoteArrowsPlusMinus",
   "description": "An upvote icon combining plus and minus symbols with directional arrows for increment or decrement actions",
   "tags": [
+    "vote",
     "upvote",
-    "plus",
-    "minus",
     "arrow",
     "up",
     "down",
-    "positive",
-    "negative",
-    "increment"
+    "add",
+    "create",
+    "remove",
+    "subtract",
+    "plus",
+    "minus",
+    "positive"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "social"
   ],
   "accessibility": {
     "role": "interactive",
@@ -34,5 +36,5 @@
   "deprecated": false,
   "displayName": "Vote arrows plus minus",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:22:05.539Z"
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

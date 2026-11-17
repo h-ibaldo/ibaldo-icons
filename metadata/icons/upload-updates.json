@@ -1,5 +1,5 @@
 {
-  "name": "UploadUpdates",
+  "name": "UploadTriangle",
   "description": "An upload icon indicating software updates or system upgrades with an upward arrow",
   "tags": [
     "upload",
@@ -8,11 +8,12 @@
     "up",
     "software",
     "upgrade",
-    "system"
+    "system",
+    "triangle"
   ],
   "categories": [
-    "interface",
-    "development"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload triangle",
+  "aliases": [
+    "UploadUpdates"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

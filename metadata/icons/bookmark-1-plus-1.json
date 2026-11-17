@@ -1,17 +1,17 @@
 {
-  "name": "BookmarkPlus",
+  "name": "BookmarkPlusCorner",
   "description": "A bookmark icon with a plus symbol for adding new bookmarks or favorites",
   "tags": [
     "bookmark",
-    "plus",
     "add",
     "create",
+    "plus",
     "new",
     "flag",
-    "save"
+    "save",
+    "corner"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark plus corner",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Newspaper2",
+  "name": "NewspaperHeadline",
   "description": "A newspaper icon representing news, journalism, or articles in its second style variant.",
   "tags": [
     "newspaper",
@@ -9,11 +9,11 @@
     "article",
     "press",
     "media",
-    "reading"
+    "reading",
+    "headline"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Newspaper headline",
+  "aliases": [
+    "Newspaper2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

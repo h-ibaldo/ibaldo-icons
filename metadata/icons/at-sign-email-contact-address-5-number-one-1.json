@@ -1,21 +1,24 @@
 {
-  "name": "AtSign5One",
-  "displayName": "At sign 5 one",
+  "name": "AtOneBoxy",
+  "displayName": "At one boxy",
   "originalTitle": "At Sign Email Contact Address 5 Number One 1",
   "description": "At symbol with number one indicating primary email address or first contact method. Used to designate main or priority email addresses.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "number",
     "primary",
     "first",
     "main",
     "priority",
-    "contact",
-    "number",
-    "one"
+    "one",
+    "boxy"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.764Z"
+  "generatedAt": "2026-02-15T00:53:19.764Z",
+  "aliases": [
+    "AtSign5One"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

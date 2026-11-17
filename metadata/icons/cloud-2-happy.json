@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Happy",
+  "name": "CloudHappyTall",
   "description": "A cloud icon with a happy face representing positive cloud status, satisfaction, or successful operations.",
   "tags": [
     "cloud",
@@ -8,11 +8,12 @@
     "face",
     "positive",
     "success",
-    "satisfied"
+    "satisfied",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud happy tall",
+  "aliases": [
+    "Cloud2Happy"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

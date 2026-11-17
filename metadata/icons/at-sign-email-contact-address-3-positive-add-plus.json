@@ -1,22 +1,24 @@
 {
-  "name": "AtSign3Plus",
-  "displayName": "At sign 3 plus",
+  "name": "AtPlusCircle",
+  "displayName": "At plus circle",
   "originalTitle": "At Sign Email Contact Address 3 Positive Add Plus",
   "description": "At symbol with plus sign for adding new email addresses or contacts. Used to create new email entries or subscribe to mailing lists.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "add",
-    "plus",
-    "new",
-    "create",
     "contact",
     "address",
+    "positive",
+    "add",
+    "create",
+    "plus",
+    "new",
     "subscribe",
     "at-sign"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -34,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.779Z"
+  "generatedAt": "2026-02-15T00:53:19.779Z",
+  "aliases": [
+    "AtSign3Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

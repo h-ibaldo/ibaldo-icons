@@ -1,5 +1,5 @@
 {
-  "name": "ShareConnect1",
+  "name": "ShareNodes",
   "description": "A share icon with connection elements for linking and collaborative features",
   "tags": [
     "share",
@@ -7,11 +7,11 @@
     "link",
     "network",
     "collaboration",
-    "connection"
+    "connection",
+    "nodes"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "arrows"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Share nodes",
+  "aliases": [
+    "ShareConnect1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

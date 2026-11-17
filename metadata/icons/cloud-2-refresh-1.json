@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Refresh1",
+  "name": "CloudRefreshTall",
   "description": "A cloud icon with a refresh symbol indicating cloud synchronization or data reload operation.",
   "tags": [
     "cloud",
@@ -8,10 +8,11 @@
     "sync",
     "update",
     "data",
-    "storage"
+    "storage",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud refresh tall",
+  "aliases": [
+    "Cloud2Refresh1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

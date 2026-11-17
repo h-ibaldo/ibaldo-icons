@@ -1,9 +1,9 @@
 {
-  "name": "EnvelopeMail",
+  "name": "Mail",
   "description": "A standard envelope icon representing email, messages, or mail communication functionality",
   "tags": [
-    "envelope",
     "mail",
+    "envelope",
     "email",
     "message",
     "communication",
@@ -11,8 +11,7 @@
     "contact"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mail",
+  "aliases": [
+    "EnvelopeMail"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

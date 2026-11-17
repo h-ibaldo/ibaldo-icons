@@ -1,15 +1,15 @@
 {
-  "name": "SidebarMenu5",
+  "name": "MenuListSquare",
   "description": "A sidebar menu icon with five horizontal lines representing a detailed collapsible navigation panel variant.",
   "tags": [
-    "sidebar",
     "menu",
+    "sidebar",
     "navigation",
     "hamburger",
-    "5",
-    "lines",
     "interface",
-    "toggle"
+    "toggle",
+    "list",
+    "square"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu list square",
+  "aliases": [
+    "SidebarMenu5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

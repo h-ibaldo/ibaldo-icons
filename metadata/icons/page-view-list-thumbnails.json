@@ -1,15 +1,16 @@
 {
-  "name": "PageViewListThumbnails",
+  "name": "LayoutListColumns",
   "description": "A page view icon combining list layout with thumbnail previews for each item",
   "tags": [
+    "layout",
     "page",
     "view",
-    "list",
     "thumbnails",
+    "list",
     "preview",
-    "layout",
     "images",
-    "gallery"
+    "gallery",
+    "columns"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout list columns",
+  "aliases": [
+    "PageViewListThumbnails"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

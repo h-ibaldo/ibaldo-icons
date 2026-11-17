@@ -1,11 +1,11 @@
 {
-  "name": "ApplicationWindowPlay1",
+  "name": "WindowPlay",
   "description": "An application window icon with a play symbol indicating media playback or launch functionality",
   "tags": [
-    "application",
     "window",
-    "play",
+    "application",
     "sign",
+    "play",
     "media",
     "playback",
     "launch",
@@ -13,8 +13,8 @@
     "interface"
   ],
   "categories": [
-    "interface",
-    "media"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window play",
+  "aliases": [
+    "ApplicationWindowPlay1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

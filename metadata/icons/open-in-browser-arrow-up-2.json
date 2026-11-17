@@ -1,18 +1,20 @@
 {
-  "name": "OpenInBrowserUp2",
+  "name": "WindowArrowUpPlain",
   "description": "An icon representing opening content in a browser with an upward arrow indicator",
   "tags": [
+    "window",
     "open",
     "browser",
     "arrow",
     "up",
     "external",
     "link",
-    "navigation"
+    "navigation",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window arrow up plain",
+  "aliases": [
+    "OpenInBrowserUp2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,21 +1,24 @@
 {
-  "name": "ApplicationWindow2ArrowLeftRight2",
-  "displayName": "Application window 2 arrow left right 2",
+  "name": "WindowArrowLeftRightBare2",
+  "displayName": "Window arrow left right bare2",
   "originalTitle": "Application Window 2 Arrow Left Right Sort 2",
   "description": "Alternative application window with bidirectional arrows for sorting and organizing data. Used in data tables, file managers, or content organization interfaces.",
   "tags": [
     "window",
     "application",
-    "arrows",
     "sort",
+    "arrows",
     "organize",
     "reorder",
     "data",
-    "horizontal"
+    "horizontal",
+    "arrow",
+    "left",
+    "right"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.771Z"
+  "generatedAt": "2026-02-15T00:53:19.771Z",
+  "aliases": [
+    "ApplicationWindow2ArrowLeftRight2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,15 +1,15 @@
 {
-  "name": "Tab4Plus2",
+  "name": "TabPlusStriped",
   "description": "A tab interface icon with a plus symbol for adding content, variant 2",
   "tags": [
     "tab",
-    "plus",
-    "add",
     "positive",
+    "add",
     "create",
+    "plus",
     "new",
-    "variant",
-    "addition"
+    "addition",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab plus striped",
+  "aliases": [
+    "Tab4Plus2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

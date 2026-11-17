@@ -1,7 +1,8 @@
 {
-  "name": "OnlineShopDesktopBag",
+  "name": "MonitorBag",
   "description": "An online shop icon featuring a desktop computer with a shopping bag, representing e-commerce on desktop platforms",
   "tags": [
+    "monitor",
     "online",
     "shop",
     "store",
@@ -13,8 +14,7 @@
     "purchase"
   ],
   "categories": [
-    "shopping",
-    "interface"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Monitor bag",
+  "aliases": [
+    "OnlineShopDesktopBag"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

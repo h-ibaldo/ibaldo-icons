@@ -1,5 +1,5 @@
 {
-  "name": "HandCursorPointer2",
+  "name": "HandPointerCuff",
   "description": "An alternative hand pointer cursor variant for diverse design implementations or specific interaction contexts.",
   "tags": [
     "hand",
@@ -8,11 +8,12 @@
     "click",
     "interactive",
     "touch",
-    "gesture"
+    "gesture",
+    "cuff"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand pointer cuff",
+  "aliases": [
+    "HandCursorPointer2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

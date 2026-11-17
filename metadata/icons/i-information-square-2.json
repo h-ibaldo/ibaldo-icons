@@ -1,12 +1,12 @@
 {
-  "name": "InformationSquare2",
+  "name": "InfoSquareSmall",
   "description": "An information icon enclosed in a square in an alternate variant for displaying help or details.",
   "tags": [
-    "information",
     "info",
+    "information",
     "help",
     "square",
-    "variant"
+    "small"
   ],
   "categories": [
     "interface"
@@ -26,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Info square small",
+  "aliases": [
+    "InformationSquare2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

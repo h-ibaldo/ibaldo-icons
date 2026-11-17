@@ -1,18 +1,18 @@
 {
-  "name": "ToolSupport7",
+  "name": "ScrewdriverThick",
   "description": "A support or help tool icon, variant 7, for accessing assistance and technical support features.",
   "tags": [
+    "screwdriver",
     "tool",
     "support",
     "help",
     "assistance",
     "technical",
     "service",
-    "variant7"
+    "thick"
   ],
   "categories": [
-    "interface",
-    "business"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screwdriver thick",
+  "aliases": [
+    "ToolSupport7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

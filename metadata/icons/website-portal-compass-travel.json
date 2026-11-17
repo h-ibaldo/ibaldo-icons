@@ -1,19 +1,20 @@
 {
-  "name": "WebsitePortalCompass",
+  "name": "BrowserCompass",
   "description": "A website portal icon with a compass symbol representing navigation, travel direction, and exploration features.",
   "tags": [
+    "browser",
     "website",
     "portal",
-    "compass",
     "travel",
+    "compass",
     "navigation",
     "direction",
     "exploration",
     "location"
   ],
   "categories": [
-    "interface",
-    "location"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser compass",
+  "aliases": [
+    "WebsitePortalCompass"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

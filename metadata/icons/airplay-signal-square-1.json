@@ -1,5 +1,5 @@
 {
-  "name": "AirplaySignalSquare1",
+  "name": "AirplaySignalSquare",
   "description": "A square-framed Airplay signal icon representing wireless connection quality at level 1",
   "tags": [
     "airplay",
@@ -12,8 +12,7 @@
     "frame"
   ],
   "categories": [
-    "devices",
-    "communication"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Airplay signal square",
+  "aliases": [
+    "AirplaySignalSquare1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

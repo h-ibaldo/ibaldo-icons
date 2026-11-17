@@ -1,17 +1,18 @@
 {
-  "name": "CloudAlert3",
+  "name": "CloudWarningTall",
   "description": "A cloud icon with an alert sign indicating cloud-related warnings or issues",
   "tags": [
     "cloud",
     "alert",
-    "warning",
     "sign",
+    "warning",
     "notification",
     "caution",
-    "issue"
+    "issue",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud warning tall",
+  "aliases": [
+    "CloudAlert3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "PencilEdit5",
+  "name": "PencilBlunt",
   "description": "A pencil editing icon representing the fifth variant style for text and content modification.",
   "tags": [
     "pencil",
@@ -7,11 +7,10 @@
     "write",
     "modify",
     "compose",
-    "variant5"
+    "blunt"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pencil blunt",
+  "aliases": [
+    "PencilEdit5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

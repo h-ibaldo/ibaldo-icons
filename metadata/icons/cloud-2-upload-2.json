@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Upload2",
+  "name": "CloudUploadTall",
   "description": "An alternative cloud upload icon variant with different visual styling for cloud data uploads.",
   "tags": [
     "cloud",
@@ -9,10 +9,10 @@
     "storage",
     "transfer",
     "file",
-    "variant"
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud upload tall",
+  "aliases": [
+    "Cloud2Upload2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

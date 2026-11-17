@@ -1,17 +1,21 @@
 {
-  "name": "HardDriveDisc",
+  "name": "DiscDriveX",
   "description": "A hard drive icon with a disc symbol representing optical media or disk storage for program uninstallation.",
   "tags": [
-    "hard drive",
     "disc",
-    "optical",
-    "disk",
+    "hard",
     "uninstall",
     "program",
-    "application"
+    "application",
+    "close",
+    "delete",
+    "remove",
+    "hard-drive",
+    "optical",
+    "disk",
+    "drive"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Disc drive X",
+  "aliases": [
+    "HardDriveDisc"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

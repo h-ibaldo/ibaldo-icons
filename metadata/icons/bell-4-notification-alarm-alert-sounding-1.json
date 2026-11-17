@@ -1,21 +1,24 @@
 {
-  "name": "Bell4Sounding1",
-  "displayName": "Bell 4 sounding 1",
+  "name": "BellRingLinesFlat",
+  "displayName": "Bell ring lines flat",
   "originalTitle": "Bell 4 Notification Alarm Alert Sounding 1",
   "description": "Animated notification bell showing active ringing or sounding state. Used to indicate currently active alerts or incoming notifications.",
   "tags": [
     "bell",
-    "ringing",
+    "notification",
+    "alarm",
+    "alert",
     "sounding",
+    "ringing",
     "active",
     "animated",
-    "alert",
-    "notification",
-    "motion"
+    "motion",
+    "ring",
+    "flat"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.786Z"
+  "generatedAt": "2026-02-15T00:53:19.786Z",
+  "aliases": [
+    "Bell4Sounding1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

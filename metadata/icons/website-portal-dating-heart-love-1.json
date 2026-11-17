@@ -1,19 +1,21 @@
 {
-  "name": "WebsitePortalDating",
+  "name": "BrowserHeartCenter",
   "description": "A website portal icon featuring a heart symbol representing dating, love, and relationship connection services.",
   "tags": [
+    "browser",
     "website",
     "portal",
     "dating",
-    "heart",
     "love",
+    "heart",
     "romance",
     "relationships",
-    "social"
+    "social",
+    "center"
   ],
   "categories": [
-    "interface",
-    "social"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser heart center",
+  "aliases": [
+    "WebsitePortalDating"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

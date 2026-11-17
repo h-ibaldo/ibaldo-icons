@@ -1,21 +1,25 @@
 {
-  "name": "Bell5Exclamation",
-  "displayName": "Bell 5 exclamation",
+  "name": "BellAlertDash",
+  "displayName": "Bell alert dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Exclamation",
   "description": "Notification bell with exclamation mark indicating urgent or important alerts. Used for high-priority notifications or critical system messages.",
   "tags": [
     "bell",
+    "notification",
+    "alarm",
+    "exclamation",
+    "error",
+    "attention",
     "urgent",
     "important",
     "critical",
-    "exclamation",
     "priority",
     "warning",
     "alert"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.787Z"
+  "generatedAt": "2026-02-15T00:53:19.787Z",
+  "aliases": [
+    "Bell5Exclamation"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow1Lightning1",
-  "displayName": "Application window 1 lightning 1",
+  "name": "WindowBoltCenter",
+  "displayName": "Window bolt center",
   "originalTitle": "Application Window 1 Energy Lightning 1",
   "description": "Application window with lightning bolt icon representing high-performance or energy-efficient software. Used to indicate fast or powerful applications.",
   "tags": [
-    "application",
     "window",
-    "lightning",
+    "application",
     "energy",
+    "lightning",
     "power",
     "fast",
     "performance",
-    "speed"
+    "speed",
+    "bolt",
+    "center"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.767Z"
+  "generatedAt": "2026-02-15T00:53:19.767Z",
+  "aliases": [
+    "ApplicationWindow1Lightning1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

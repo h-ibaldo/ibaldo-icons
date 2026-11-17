@@ -1,5 +1,5 @@
 {
-  "name": "CloudUpload2",
+  "name": "CloudUploadLarge",
   "description": "A cloud icon with an upload arrow indicating file transfer to cloud storage variant 2",
   "tags": [
     "cloud",
@@ -10,11 +10,12 @@
     "file",
     "data",
     "network",
-    "storage"
+    "storage",
+    "large"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud upload large",
+  "aliases": [
+    "CloudUpload2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

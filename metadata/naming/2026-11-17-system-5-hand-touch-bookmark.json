@@ -1,0 +1,4452 @@
+{
+  "3d-touch": {
+    "name": "TouchForce",
+    "displayName": "Touch force",
+    "aliases": [
+      "ForceTouch"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "haptic",
+      "interaction",
+      "pressure",
+      "feedback",
+      "input",
+      "gesture",
+      "force"
+    ]
+  },
+  "accessibility-person": {
+    "name": "Accessibility",
+    "displayName": "Accessibility",
+    "aliases": [
+      "AccessibilityPerson"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "inclusive",
+      "universal",
+      "user",
+      "support",
+      "diversity",
+      "symbol"
+    ]
+  },
+  "accessibility-person-circle": {
+    "name": "AccessibilityCircle",
+    "displayName": "Accessibility circle",
+    "aliases": [
+      "AccessibilityPersonCircle"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "circle",
+      "inclusive",
+      "universal",
+      "user",
+      "support",
+      "diversity"
+    ]
+  },
+  "accessibility-person-natural-user-interface-1": {
+    "name": "AccessibilityNodes",
+    "displayName": "Accessibility nodes",
+    "aliases": [
+      "AccessibilityPersonNUI1"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "natural",
+      "user",
+      "interface",
+      "natural-user-interface",
+      "nui",
+      "inclusive",
+      "interaction",
+      "gesture",
+      "inclusive-design",
+      "nodes"
+    ]
+  },
+  "accessibility-person-natural-user-interface-2": {
+    "name": "AccessibilityNodesFilled",
+    "displayName": "Accessibility nodes filled",
+    "aliases": [
+      "AccessibilityPersonNUI2"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "natural",
+      "user",
+      "interface",
+      "natural-user-interface",
+      "nui",
+      "inclusive",
+      "interaction",
+      "gesture",
+      "inclusive-design",
+      "nodes"
+    ]
+  },
+  "accessibility-person-pentagon": {
+    "name": "AccessibilityPentagon",
+    "displayName": "Accessibility pentagon",
+    "aliases": [
+      "AccessibilityPersonPentagon"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "pentagon",
+      "inclusive",
+      "universal",
+      "user",
+      "support",
+      "geometric"
+    ]
+  },
+  "accessibility-person-square": {
+    "name": "AccessibilitySquare",
+    "displayName": "Accessibility square",
+    "aliases": [
+      "AccessibilityPersonSquare"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "square",
+      "inclusive",
+      "universal",
+      "user",
+      "support",
+      "geometric"
+    ]
+  },
+  "accessibility-settings-person-gear-1": {
+    "name": "AccessibilitySettings",
+    "displayName": "Accessibility settings",
+    "aliases": [
+      "AccessibilitySettingsPerson1"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "gear",
+      "settings",
+      "configure",
+      "customize",
+      "options",
+      "preferences"
+    ]
+  },
+  "accessibility-settings-person-gear-2": {
+    "name": "AccessibilityGearWavy",
+    "displayName": "Accessibility gear wavy",
+    "aliases": [
+      "AccessibilitySettingsPerson2"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "settings",
+      "person",
+      "gear",
+      "configure",
+      "customize",
+      "options",
+      "preferences",
+      "wavy"
+    ]
+  },
+  "accessibility-settings-person-gear-3": {
+    "name": "AccessibilityGear",
+    "displayName": "Accessibility gear",
+    "aliases": [
+      "AccessibilitySettingsPersonGear3"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "settings",
+      "person",
+      "gear",
+      "configuration",
+      "adjustments",
+      "preferences",
+      "user"
+    ]
+  },
+  "accessibility-settings-person-gear-4": {
+    "name": "AccessibilityGearSharp",
+    "displayName": "Accessibility gear sharp",
+    "aliases": [
+      "AccessibilitySettingsPersonGear4"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "settings",
+      "person",
+      "gear",
+      "configuration",
+      "adjustments",
+      "preferences",
+      "user",
+      "sharp"
+    ]
+  },
+  "accessibility-settings-person-gear-circle-1": {
+    "name": "AccessibilityCircleSettingsLarge",
+    "displayName": "Accessibility circle settings large",
+    "aliases": [
+      "AccessibilitySettingsPersonGearCircle1"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "gear",
+      "settings",
+      "circle",
+      "configuration",
+      "adjustments",
+      "preferences",
+      "contained",
+      "large"
+    ]
+  },
+  "accessibility-settings-person-gear-circle-2": {
+    "name": "AccessibilityCircleSettings",
+    "displayName": "Accessibility circle settings",
+    "aliases": [
+      "AccessibilitySettingsPersonGearCircle2"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "gear",
+      "settings",
+      "circle",
+      "configuration",
+      "adjustments",
+      "preferences",
+      "contained"
+    ]
+  },
+  "accessibility-settings-person-gear-square-1": {
+    "name": "AccessibilitySquareSettingsLarge",
+    "displayName": "Accessibility square settings large",
+    "aliases": [
+      "AccessibilitySettingsPersonGearSquare1"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "gear",
+      "settings",
+      "square",
+      "configuration",
+      "adjustments",
+      "preferences",
+      "contained",
+      "large"
+    ]
+  },
+  "accessibility-settings-person-gear-square-2": {
+    "name": "AccessibilitySquareSettings",
+    "displayName": "Accessibility square settings",
+    "aliases": [
+      "AccessibilitySettingsPersonGearSquare2"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "person",
+      "gear",
+      "settings",
+      "square",
+      "configuration",
+      "adjustments",
+      "preferences",
+      "contained"
+    ]
+  },
+  "assistive-technology-wheelchair-square-1": {
+    "name": "WheelchairSquare",
+    "displayName": "Wheelchair square",
+    "aliases": [
+      "AssistiveTechnologyWheelchairSquare"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "wheelchair",
+      "assistive",
+      "technology",
+      "square",
+      "accessibility",
+      "mobility",
+      "inclusive",
+      "disability-support"
+    ]
+  },
+  "assistive-technology-wheelchair-square-2": {
+    "name": "WheelchairSquare2",
+    "displayName": "Wheelchair square2",
+    "aliases": [
+      "AssistiveTechnologyWheelchairSquare2"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "wheelchair",
+      "assistive",
+      "technology",
+      "square",
+      "accessibility",
+      "mobility",
+      "inclusive"
+    ]
+  },
+  "assistive-technology-wheelchair-square-3": {
+    "name": "WheelchairSquare3",
+    "displayName": "Wheelchair square3",
+    "aliases": [
+      "AssistiveTechnologyWheelchairSquare3"
+    ],
+    "categories": [
+      "accessibility"
+    ],
+    "tags": [
+      "wheelchair",
+      "assistive",
+      "technology",
+      "square",
+      "accessibility",
+      "mobility",
+      "inclusive"
+    ]
+  },
+  "bookmark": {
+    "name": "Bookmark",
+    "displayName": "Bookmark",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "save",
+      "favorite",
+      "mark",
+      "ribbon",
+      "tag"
+    ]
+  },
+  "bookmark-1-check-1": {
+    "name": "BookmarkCheckCorner",
+    "displayName": "Bookmark check corner",
+    "aliases": [
+      "BookmarkCheck1"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "confirmed",
+      "mark",
+      "save",
+      "corner"
+    ]
+  },
+  "bookmark-1-check-2": {
+    "name": "BookmarkCheck",
+    "displayName": "Bookmark check",
+    "aliases": [
+      "BookmarkCheck2"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "confirmed",
+      "mark",
+      "save"
+    ]
+  },
+  "bookmark-1-circle-check": {
+    "name": "BookmarkCheckCircle",
+    "displayName": "Bookmark check circle",
+    "aliases": [
+      "BookmarkCircleCheck"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "done",
+      "success",
+      "verified",
+      "circle",
+      "check",
+      "checkmark",
+      "confirmed",
+      "badge",
+      "save"
+    ]
+  },
+  "bookmark-1-circle-dots": {
+    "name": "BookmarkDotsCircle",
+    "displayName": "Bookmark dots circle",
+    "aliases": [
+      "BookmarkCircleDots"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "circle",
+      "dots",
+      "ellipsis",
+      "menu",
+      "options",
+      "more",
+      "save"
+    ]
+  },
+  "bookmark-1-circle-large-check": {
+    "name": "BookmarkCheckCircleLarge",
+    "displayName": "Bookmark check circle large",
+    "aliases": [
+      "BookmarkLargeCheck"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "done",
+      "success",
+      "verified",
+      "large",
+      "check",
+      "checkmark",
+      "confirmed",
+      "badge",
+      "save",
+      "size",
+      "circle"
+    ]
+  },
+  "bookmark-1-circle-large-dots": {
+    "name": "BookmarkDotsCircleLarge",
+    "displayName": "Bookmark dots circle large",
+    "aliases": [
+      "BookmarkLargeDots"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "large",
+      "circle",
+      "dots",
+      "ellipsis",
+      "menu",
+      "options",
+      "more",
+      "save",
+      "size"
+    ]
+  },
+  "bookmark-1-circle-large-minus": {
+    "name": "BookmarkMinusCircleLarge",
+    "displayName": "Bookmark minus circle large",
+    "aliases": [
+      "BookmarkCircleLargeRemove"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "remove",
+      "subtract",
+      "circle",
+      "large",
+      "minus",
+      "delete",
+      "unfavorite",
+      "save"
+    ]
+  },
+  "bookmark-1-circle-large-plus": {
+    "name": "BookmarkPlusCircleLarge",
+    "displayName": "Bookmark plus circle large",
+    "aliases": [
+      "BookmarkCircleLargeAdd"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "add",
+      "create",
+      "circle",
+      "large",
+      "plus",
+      "save",
+      "favorite"
+    ]
+  },
+  "bookmark-1-circle-large-x": {
+    "name": "BookmarkXCircleLarge",
+    "displayName": "Bookmark X circle large",
+    "aliases": [
+      "BookmarkCircleLargeClose"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "close",
+      "delete",
+      "remove",
+      "circle",
+      "large",
+      "dismiss",
+      "exit"
+    ]
+  },
+  "bookmark-1-circle-minus": {
+    "name": "BookmarkMinusCircle",
+    "displayName": "Bookmark minus circle",
+    "aliases": [
+      "BookmarkCircleRemove"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "remove",
+      "subtract",
+      "circle",
+      "minus",
+      "delete",
+      "unfavorite",
+      "save",
+      "flag"
+    ]
+  },
+  "bookmark-1-circle-plus": {
+    "name": "BookmarkPlusCircle",
+    "displayName": "Bookmark plus circle",
+    "aliases": [
+      "BookmarkCircleAdd"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "add",
+      "create",
+      "circle",
+      "plus",
+      "save",
+      "favorite",
+      "flag"
+    ]
+  },
+  "bookmark-1-circle-x": {
+    "name": "BookmarkXCircle",
+    "displayName": "Bookmark X circle",
+    "aliases": [
+      "BookmarkCircleClose"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "close",
+      "delete",
+      "remove",
+      "circle",
+      "dismiss",
+      "exit",
+      "cancel"
+    ]
+  },
+  "bookmark-1-circled": {
+    "name": "BookmarkCircle",
+    "displayName": "Bookmark circle",
+    "aliases": [
+      "BookmarkCircled"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "circled",
+      "circle",
+      "save",
+      "flag",
+      "favorite",
+      "outline",
+      "bordered"
+    ]
+  },
+  "bookmark-1-dots-": {
+    "name": "BookmarkDots",
+    "displayName": "Bookmark dots",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "dots",
+      "menu",
+      "options",
+      "more",
+      "actions",
+      "ellipsis",
+      "save"
+    ]
+  },
+  "bookmark-1-dots-filled": {
+    "name": "BookmarkDotted",
+    "displayName": "Bookmark dotted",
+    "aliases": [
+      "BookmarkDotsFilled"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "dots",
+      "filled",
+      "menu",
+      "options",
+      "more",
+      "actions",
+      "save",
+      "dotted"
+    ]
+  },
+  "bookmark-1-favorite-star": {
+    "name": "BookmarkStarCorner",
+    "displayName": "Bookmark star corner",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "favorite",
+      "star",
+      "save",
+      "rating",
+      "flag",
+      "important",
+      "highlight",
+      "corner"
+    ]
+  },
+  "bookmark-1-folded-1": {
+    "name": "BookmarkRolled",
+    "displayName": "Bookmark rolled",
+    "aliases": [
+      "Bookmark1Folded"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "folded",
+      "mark",
+      "save",
+      "ribbon",
+      "page",
+      "organize",
+      "rolled"
+    ]
+  },
+  "bookmark-1-folded-2": {
+    "name": "BookmarkFolded",
+    "displayName": "Bookmark folded",
+    "aliases": [
+      "Bookmark1FoldedAlt"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "folded",
+      "mark",
+      "save",
+      "ribbon",
+      "page"
+    ]
+  },
+  "bookmark-1-folded-check": {
+    "name": "BookmarkCheckRolled",
+    "displayName": "Bookmark check rolled",
+    "aliases": [
+      "Bookmark1FoldedCheck"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "folded",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "completed",
+      "mark",
+      "save",
+      "rolled"
+    ]
+  },
+  "bookmark-1-folded-minus": {
+    "name": "BookmarkMinusRolled",
+    "displayName": "Bookmark minus rolled",
+    "aliases": [
+      "Bookmark1FoldedRemove"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "folded",
+      "remove",
+      "subtract",
+      "delete",
+      "minus",
+      "unsave",
+      "mark",
+      "negative",
+      "rolled"
+    ]
+  },
+  "bookmark-1-folded-plus": {
+    "name": "BookmarkPlusRolled",
+    "displayName": "Bookmark plus rolled",
+    "aliases": [
+      "Bookmark1FoldedAdd"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "folded",
+      "add",
+      "create",
+      "plus",
+      "save",
+      "mark",
+      "positive",
+      "rolled"
+    ]
+  },
+  "bookmark-1-folded-star": {
+    "name": "BookmarkStarRolled",
+    "displayName": "Bookmark star rolled",
+    "aliases": [
+      "Bookmark1FoldedStar"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "folded",
+      "star",
+      "favorite",
+      "important",
+      "mark",
+      "save",
+      "rating",
+      "rolled"
+    ]
+  },
+  "bookmark-1-folded-x": {
+    "name": "BookmarkXRolled",
+    "displayName": "Bookmark X rolled",
+    "aliases": [
+      "Bookmark1FoldedClose"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "folded",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "exit",
+      "mark",
+      "rolled"
+    ]
+  },
+  "bookmark-1-heart-1": {
+    "name": "BookmarkHeartRound",
+    "displayName": "Bookmark heart round",
+    "aliases": [
+      "Bookmark1Heart"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "heart",
+      "favorite",
+      "love",
+      "like",
+      "mark",
+      "save",
+      "affection",
+      "round"
+    ]
+  },
+  "bookmark-1-heart-2": {
+    "name": "BookmarkHeart",
+    "displayName": "Bookmark heart",
+    "aliases": [
+      "Bookmark1HeartAlt"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "heart",
+      "favorite",
+      "love",
+      "like",
+      "mark",
+      "save"
+    ]
+  },
+  "bookmark-1-minus-1": {
+    "name": "BookmarkMinusCorner",
+    "displayName": "Bookmark minus corner",
+    "aliases": [
+      "Bookmark1Remove"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "remove",
+      "subtract",
+      "delete",
+      "minus",
+      "unsave",
+      "mark",
+      "negative",
+      "corner"
+    ]
+  },
+  "bookmark-1-minus-2": {
+    "name": "BookmarkMinus",
+    "displayName": "Bookmark minus",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "flag",
+      "save",
+      "unfavorite"
+    ]
+  },
+  "bookmark-1-number-one": {
+    "name": "BookmarkOneCorner",
+    "displayName": "Bookmark one corner",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "number",
+      "one",
+      "count",
+      "first",
+      "badge",
+      "corner"
+    ]
+  },
+  "bookmark-1-number-three": {
+    "name": "BookmarkThreeCorner",
+    "displayName": "Bookmark three corner",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "number",
+      "three",
+      "count",
+      "badge",
+      "quantity",
+      "corner"
+    ]
+  },
+  "bookmark-1-number-two": {
+    "name": "BookmarkTwoCorner",
+    "displayName": "Bookmark two corner",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "number",
+      "two",
+      "count",
+      "badge",
+      "quantity",
+      "corner"
+    ]
+  },
+  "bookmark-1-one": {
+    "name": "BookmarkOne",
+    "displayName": "Bookmark one",
+    "aliases": [
+      "BookmarkNumberOne"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "one",
+      "number",
+      "first",
+      "flag",
+      "save"
+    ]
+  },
+  "bookmark-1-page-1": {
+    "name": "BookmarkPage",
+    "displayName": "Bookmark page",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "page",
+      "flag",
+      "save",
+      "document",
+      "marker"
+    ]
+  },
+  "bookmark-1-page-2": {
+    "name": "BookmarkPageSquare",
+    "displayName": "Bookmark page square",
+    "aliases": [
+      "BookmarkPageTwo"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "page",
+      "two",
+      "flag",
+      "save",
+      "document",
+      "square"
+    ]
+  },
+  "bookmark-1-page-3": {
+    "name": "BookmarkPage2",
+    "displayName": "Bookmark page2",
+    "aliases": [
+      "BookmarkPageThree"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "page",
+      "three",
+      "flag",
+      "save",
+      "document"
+    ]
+  },
+  "bookmark-1-plus-1": {
+    "name": "BookmarkPlusCorner",
+    "displayName": "Bookmark plus corner",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "flag",
+      "save",
+      "corner"
+    ]
+  },
+  "bookmark-1-plus-2": {
+    "name": "BookmarkPlus",
+    "displayName": "Bookmark plus",
+    "aliases": [
+      "BookmarkPlusTwo"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "add",
+      "create",
+      "plus",
+      "two",
+      "flag"
+    ]
+  },
+  "bookmark-1-search": {
+    "name": "BookmarkSearch",
+    "displayName": "Bookmark search",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "search",
+      "find",
+      "navigation",
+      "saved"
+    ]
+  },
+  "bookmark-1-slash": {
+    "name": "BookmarkOff",
+    "displayName": "Bookmark off",
+    "aliases": [
+      "BookmarkSlash"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "slash",
+      "disabled",
+      "mute",
+      "remove",
+      "crossed",
+      "off"
+    ]
+  },
+  "bookmark-1-squared": {
+    "name": "BookmarkSquare",
+    "displayName": "Bookmark square",
+    "aliases": [
+      "BookmarkSquared"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "squared",
+      "square",
+      "shape",
+      "icon-ui"
+    ]
+  },
+  "bookmark-1-star": {
+    "name": "BookmarkStarLarge",
+    "displayName": "Bookmark star large",
+    "aliases": [
+      "BookmarkStar4"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "star",
+      "favorite",
+      "rating",
+      "large"
+    ]
+  },
+  "bookmark-1-star-2": {
+    "name": "BookmarkStar",
+    "displayName": "Bookmark star",
+    "aliases": [
+      "BookmarkStar2"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "star",
+      "favorite",
+      "rating",
+      "icon-ui"
+    ]
+  },
+  "bookmark-1-star-3": {
+    "name": "BookmarkStarRound",
+    "displayName": "Bookmark star round",
+    "aliases": [
+      "BookmarkStar3"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "star",
+      "favorite",
+      "rating",
+      "premium",
+      "round"
+    ]
+  },
+  "bookmark-1-stripe": {
+    "name": "BookmarkStripe",
+    "displayName": "Bookmark stripe",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "stripe",
+      "band",
+      "pattern",
+      "icon-ui"
+    ]
+  },
+  "bookmark-1-stripes": {
+    "name": "BookmarkStriped",
+    "displayName": "Bookmark striped",
+    "aliases": [
+      "BookmarkStripes"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "stripes",
+      "pattern",
+      "bands",
+      "striped"
+    ]
+  },
+  "bookmark-1-three": {
+    "name": "BookmarkThree",
+    "displayName": "Bookmark three",
+    "aliases": [
+      "BookmarkThree2"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "three",
+      "multiple",
+      "stacked",
+      "count"
+    ]
+  },
+  "bookmark-1-two": {
+    "name": "BookmarkTwo",
+    "displayName": "Bookmark two",
+    "aliases": [
+      "BookmarkTwo2"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "two",
+      "marker",
+      "page",
+      "favorite",
+      "collection"
+    ]
+  },
+  "bookmark-1-two-stripes": {
+    "name": "BookmarkStripeDouble",
+    "displayName": "Bookmark stripe double",
+    "aliases": [
+      "BookmarkTwoStripes"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "two",
+      "stripes",
+      "double",
+      "stripe"
+    ]
+  },
+  "bookmark-1-x": {
+    "name": "BookmarkX",
+    "displayName": "Bookmark X",
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "close",
+      "delete",
+      "remove",
+      "marker",
+      "favorite"
+    ]
+  },
+  "bookmark-1-x-1": {
+    "name": "BookmarkXCorner",
+    "displayName": "Bookmark X corner",
+    "aliases": [
+      "BookmarkXClose"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "corner"
+    ]
+  },
+  "bookmark-2": {
+    "name": "BookmarkCurl",
+    "displayName": "Bookmark curl",
+    "aliases": [
+      "Bookmark2"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "save",
+      "favorite",
+      "marker",
+      "curl"
+    ]
+  },
+  "bookmark-2-check": {
+    "name": "BookmarkCheckCurl",
+    "displayName": "Bookmark check curl",
+    "aliases": [
+      "Bookmark2Check"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "complete",
+      "confirmed",
+      "curl"
+    ]
+  },
+  "bookmark-2-minus": {
+    "name": "BookmarkMinusCurl",
+    "displayName": "Bookmark minus curl",
+    "aliases": [
+      "Bookmark2Minus"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "negative",
+      "reduce",
+      "curl"
+    ]
+  },
+  "bookmark-2-one": {
+    "name": "BookmarkOneCurl",
+    "displayName": "Bookmark one curl",
+    "aliases": [
+      "BookmarkOne2"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "one",
+      "marker",
+      "page",
+      "favorite",
+      "single",
+      "curl"
+    ]
+  },
+  "bookmark-2-plus": {
+    "name": "BookmarkPlusCurl",
+    "displayName": "Bookmark plus curl",
+    "aliases": [
+      "Bookmark2Plus"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "positive",
+      "expand",
+      "curl"
+    ]
+  },
+  "bookmark-2-slash": {
+    "name": "BookmarkOffCurl",
+    "displayName": "Bookmark off curl",
+    "aliases": [
+      "Bookmark2Slash"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "slash",
+      "disabled",
+      "mute",
+      "inactive",
+      "cancel",
+      "blocked",
+      "forbidden",
+      "off",
+      "curl"
+    ]
+  },
+  "bookmark-2-three": {
+    "name": "BookmarkThreeCurl",
+    "displayName": "Bookmark three curl",
+    "aliases": [
+      "BookmarkThree3"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "three",
+      "marker",
+      "page",
+      "favorite",
+      "collection",
+      "curl"
+    ]
+  },
+  "bookmark-2-two": {
+    "name": "BookmarkTwoCurl",
+    "displayName": "Bookmark two curl",
+    "aliases": [
+      "Bookmark2Copy"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "two",
+      "copy",
+      "duplicate",
+      "clone",
+      "replicate",
+      "curl"
+    ]
+  },
+  "bookmark-2-x": {
+    "name": "BookmarkXCurl",
+    "displayName": "Bookmark X curl",
+    "aliases": [
+      "Bookmark2Close"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "curl"
+    ]
+  },
+  "bookmark-3": {
+    "name": "BookmarkRound",
+    "displayName": "Bookmark round",
+    "aliases": [
+      "Bookmark3"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "save",
+      "favorite",
+      "mark",
+      "ribbon",
+      "tag",
+      "round"
+    ]
+  },
+  "bookmark-3-check": {
+    "name": "BookmarkCheckRound",
+    "displayName": "Bookmark check round",
+    "aliases": [
+      "Bookmark3Check"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "marked",
+      "confirmed",
+      "round"
+    ]
+  },
+  "bookmark-3-minus": {
+    "name": "BookmarkMinusRound",
+    "displayName": "Bookmark minus round",
+    "aliases": [
+      "Bookmark3Minus"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "reduce",
+      "negative",
+      "round"
+    ]
+  },
+  "bookmark-3-one": {
+    "name": "BookmarkOneRound",
+    "displayName": "Bookmark one round",
+    "aliases": [
+      "Bookmark3One"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "one",
+      "number",
+      "first",
+      "single",
+      "round"
+    ]
+  },
+  "bookmark-3-plus": {
+    "name": "BookmarkPlusRound",
+    "displayName": "Bookmark plus round",
+    "aliases": [
+      "Bookmark3Plus"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "positive",
+      "round"
+    ]
+  },
+  "bookmark-3-slash": {
+    "name": "BookmarkOffRound",
+    "displayName": "Bookmark off round",
+    "aliases": [
+      "Bookmark3Slash"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "slash",
+      "disabled",
+      "mute",
+      "inactive",
+      "off",
+      "deny",
+      "round"
+    ]
+  },
+  "bookmark-3-three": {
+    "name": "BookmarkThreeRound",
+    "displayName": "Bookmark three round",
+    "aliases": [
+      "Bookmark3Three"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "three",
+      "number",
+      "multiple",
+      "quantity",
+      "round"
+    ]
+  },
+  "bookmark-3-two": {
+    "name": "BookmarkTwoRound",
+    "displayName": "Bookmark two round",
+    "aliases": [
+      "Bookmark3Two"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "two",
+      "number",
+      "pair",
+      "dual",
+      "round"
+    ]
+  },
+  "bookmark-3-x": {
+    "name": "BookmarkXRound",
+    "displayName": "Bookmark X round",
+    "aliases": [
+      "Bookmark3Close"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "close",
+      "delete",
+      "remove",
+      "clear",
+      "round"
+    ]
+  },
+  "bookmarks-1": {
+    "name": "BookmarkStack",
+    "displayName": "Bookmark stack",
+    "aliases": [
+      "Bookmarks1"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "save",
+      "favorite",
+      "mark",
+      "collection",
+      "items",
+      "stack"
+    ]
+  },
+  "bookmarks-1-check": {
+    "name": "BookmarkStackCheck",
+    "displayName": "Bookmark stack check",
+    "aliases": [
+      "BookmarksCheck"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "save",
+      "favorite",
+      "mark",
+      "stack"
+    ]
+  },
+  "bookmarks-1-minus": {
+    "name": "BookmarkStackMinus",
+    "displayName": "Bookmark stack minus",
+    "aliases": [
+      "BookmarksMinus"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "unbookmark",
+      "save",
+      "favorite",
+      "stack"
+    ]
+  },
+  "bookmarks-1-plus": {
+    "name": "BookmarkStackPlus",
+    "displayName": "Bookmark stack plus",
+    "aliases": [
+      "BookmarksPlus"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "save",
+      "favorite",
+      "stack"
+    ]
+  },
+  "bookmarks-1-x": {
+    "name": "BookmarkStackX",
+    "displayName": "Bookmark stack X",
+    "aliases": [
+      "BookmarksX"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "save",
+      "favorite",
+      "stack"
+    ]
+  },
+  "bookmarks-2": {
+    "name": "BookmarkStackEdge",
+    "displayName": "Bookmark stack edge",
+    "aliases": [
+      "Bookmarks2"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "favorites",
+      "save",
+      "collection",
+      "double",
+      "two",
+      "stack",
+      "edge"
+    ]
+  },
+  "bookmarks-2-check": {
+    "name": "BookmarkStackCheckEdge",
+    "displayName": "Bookmark stack check edge",
+    "aliases": [
+      "Bookmarks2Check"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "save",
+      "favorite",
+      "mark",
+      "stack",
+      "edge"
+    ]
+  },
+  "bookmarks-2-minus": {
+    "name": "BookmarkStackMinusEdge",
+    "displayName": "Bookmark stack minus edge",
+    "aliases": [
+      "Bookmarks2Minus"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "unbookmark",
+      "save",
+      "favorite",
+      "stack",
+      "edge"
+    ]
+  },
+  "bookmarks-2-plus": {
+    "name": "BookmarkStackPlusEdge",
+    "displayName": "Bookmark stack plus edge",
+    "aliases": [
+      "Bookmarks2Plus"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "save",
+      "favorite",
+      "stack",
+      "edge"
+    ]
+  },
+  "bookmarks-2-x": {
+    "name": "BookmarkStackXEdge",
+    "displayName": "Bookmark stack X edge",
+    "aliases": [
+      "Bookmarks2X"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "close",
+      "delete",
+      "remove",
+      "favorites",
+      "save",
+      "stack",
+      "edge"
+    ]
+  },
+  "bookmarks-collection": {
+    "name": "BookmarkStackTop",
+    "displayName": "Bookmark stack top",
+    "aliases": [
+      "BookmarksCollection"
+    ],
+    "categories": [
+      "files"
+    ],
+    "tags": [
+      "bookmark",
+      "bookmarks",
+      "collection",
+      "favorites",
+      "save",
+      "group",
+      "folder",
+      "stack",
+      "top"
+    ]
+  },
+  "cursor": {
+    "name": "Cursor",
+    "displayName": "Cursor",
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "click",
+      "select",
+      "navigation",
+      "interaction",
+      "mouse",
+      "standard"
+    ]
+  },
+  "cursor-1": {
+    "name": "Cursor2",
+    "displayName": "Cursor2",
+    "aliases": [
+      "Cursor1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "click",
+      "interaction",
+      "control",
+      "navigate"
+    ]
+  },
+  "cursor-2": {
+    "name": "Cursor3",
+    "displayName": "Cursor3",
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "click",
+      "interaction",
+      "control"
+    ]
+  },
+  "cursor-3": {
+    "name": "Cursor4",
+    "displayName": "Cursor4",
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "click",
+      "interaction",
+      "control"
+    ]
+  },
+  "cursor-4": {
+    "name": "CursorStraight",
+    "displayName": "Cursor straight",
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "click",
+      "interaction",
+      "control",
+      "straight"
+    ]
+  },
+  "cursor-5": {
+    "name": "CursorStraight2",
+    "displayName": "Cursor straight2",
+    "aliases": [
+      "Cursor5"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "click",
+      "interaction",
+      "control"
+    ]
+  },
+  "cursor-6": {
+    "name": "CursorStraightSlim",
+    "displayName": "Cursor straight slim",
+    "aliases": [
+      "Cursor6"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "click",
+      "select",
+      "navigation",
+      "interaction",
+      "mouse",
+      "straight",
+      "slim"
+    ]
+  },
+  "cursor-7": {
+    "name": "CursorStraightNotched",
+    "displayName": "Cursor straight notched",
+    "aliases": [
+      "Cursor79"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "click",
+      "select",
+      "navigation",
+      "interaction",
+      "mouse",
+      "straight",
+      "notched"
+    ]
+  },
+  "cursor-8": {
+    "name": "CursorUp",
+    "displayName": "Cursor up",
+    "aliases": [
+      "Cursor8"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "click",
+      "select",
+      "navigation",
+      "interaction",
+      "mouse",
+      "up"
+    ]
+  },
+  "cursor-9": {
+    "name": "CursorUp2",
+    "displayName": "Cursor up2",
+    "aliases": [
+      "Cursor9"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "click",
+      "select",
+      "navigation",
+      "interaction",
+      "mouse"
+    ]
+  },
+  "cursor-10": {
+    "name": "CursorUpSharp",
+    "displayName": "Cursor up sharp",
+    "aliases": [
+      "Cursor10"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "click",
+      "interaction",
+      "control",
+      "up",
+      "sharp"
+    ]
+  },
+  "dislike-hand-1": {
+    "name": "HandThumbDown",
+    "displayName": "Hand thumb down",
+    "aliases": [
+      "DislikeHand1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "dislike",
+      "thumbs",
+      "down",
+      "negative",
+      "feedback",
+      "rating",
+      "disapproval",
+      "thumb"
+    ]
+  },
+  "dislike-hand-2": {
+    "name": "HandThumbDownFingers",
+    "displayName": "Hand thumb down fingers",
+    "aliases": [
+      "DislikeHand2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "dislike",
+      "thumbs",
+      "down",
+      "negative",
+      "feedback",
+      "rating",
+      "vote",
+      "thumb",
+      "fingers"
+    ]
+  },
+  "dislike-hand-3": {
+    "name": "HandThumbDownCuff",
+    "displayName": "Hand thumb down cuff",
+    "aliases": [
+      "DislikeHand3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "dislike",
+      "thumbs",
+      "down",
+      "negative",
+      "reaction",
+      "rating",
+      "disapproval",
+      "thumb",
+      "cuff"
+    ]
+  },
+  "dislike-hand-4": {
+    "name": "HandThumbDownSleeve",
+    "displayName": "Hand thumb down sleeve",
+    "aliases": [
+      "DislikeHand4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "dislike",
+      "thumbs",
+      "down",
+      "negative",
+      "preference",
+      "rating",
+      "unfavorable",
+      "thumb",
+      "sleeve"
+    ]
+  },
+  "drag-and-drop-1": {
+    "name": "DragCursor",
+    "displayName": "Drag cursor",
+    "aliases": [
+      "DragDrop"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "drag",
+      "drop",
+      "move",
+      "interaction",
+      "ui",
+      "action",
+      "gesture",
+      "cursor"
+    ]
+  },
+  "drag-and-drop-2": {
+    "name": "DragHand",
+    "displayName": "Drag hand",
+    "aliases": [
+      "DragDropAlt"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "drag",
+      "drop",
+      "move",
+      "interaction",
+      "ui",
+      "hand"
+    ]
+  },
+  "drag-and-drop-3": {
+    "name": "DragCursorCenter",
+    "displayName": "Drag cursor center",
+    "aliases": [
+      "DragDropExtended"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "drag",
+      "drop",
+      "move",
+      "interaction",
+      "ui",
+      "extended",
+      "multi",
+      "cursor",
+      "center"
+    ]
+  },
+  "drag-and-drop-file": {
+    "name": "DragFile",
+    "displayName": "Drag file",
+    "aliases": [
+      "DragDropFile"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "drag",
+      "drop",
+      "file",
+      "upload",
+      "move",
+      "document",
+      "interaction"
+    ]
+  },
+  "drag-and-drop-image": {
+    "name": "DragImage",
+    "displayName": "Drag image",
+    "aliases": [
+      "DragDropImage"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "drag",
+      "drop",
+      "image",
+      "upload",
+      "move",
+      "picture",
+      "interaction"
+    ]
+  },
+  "drag-and-drop-move-in": {
+    "name": "DragArrowUpLeft",
+    "displayName": "Drag arrow up left",
+    "aliases": [
+      "DragDropMoveIn"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "drag",
+      "drop",
+      "move",
+      "import",
+      "transfer",
+      "inbound",
+      "input",
+      "gesture",
+      "arrow",
+      "up",
+      "left"
+    ]
+  },
+  "drag-and-drop-move-in-out": {
+    "name": "DragArrowDownRight",
+    "displayName": "Drag arrow down right",
+    "aliases": [
+      "DragDropMove"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "drag",
+      "drop",
+      "move",
+      "out",
+      "transfer",
+      "exchange",
+      "interaction",
+      "gesture",
+      "arrow",
+      "down",
+      "right"
+    ]
+  },
+  "grip-horizontal-circles": {
+    "name": "GripDotsHorizontal",
+    "displayName": "Grip dots horizontal",
+    "aliases": [
+      "GripHorizontalCircles"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "grip",
+      "circles",
+      "horizontal",
+      "handle",
+      "drag",
+      "move",
+      "dots",
+      "ui-control"
+    ]
+  },
+  "grip-horizontal-stripes": {
+    "name": "GripBarsHorizontal",
+    "displayName": "Grip bars horizontal",
+    "aliases": [
+      "GripHorizontalStripes"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "grip",
+      "stripes",
+      "horizontal",
+      "handle",
+      "drag",
+      "move",
+      "ui-control",
+      "bars"
+    ]
+  },
+  "grip-vertical-circles": {
+    "name": "GripDotsVertical",
+    "displayName": "Grip dots vertical",
+    "aliases": [
+      "GripVerticalCircles"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "grip",
+      "circles",
+      "vertical",
+      "handle",
+      "drag",
+      "move",
+      "dots",
+      "ui-control"
+    ]
+  },
+  "grip-vertical-stripes": {
+    "name": "GripBarsVertical",
+    "displayName": "Grip bars vertical",
+    "aliases": [
+      "GripVerticalStripes"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "grip",
+      "stripes",
+      "vertical",
+      "handle",
+      "drag",
+      "move",
+      "ui-control",
+      "bars"
+    ]
+  },
+  "hand-cursor-pointer": {
+    "name": "HandPointer",
+    "displayName": "Hand pointer",
+    "aliases": [
+      "HandCursor"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "cursor",
+      "pointer",
+      "click",
+      "select",
+      "interactive",
+      "gesture",
+      "default"
+    ]
+  },
+  "hand-cursor-pointer-1": {
+    "name": "HandPointerRound",
+    "displayName": "Hand pointer round",
+    "aliases": [
+      "HandCursorPointer1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "cursor",
+      "pointer",
+      "click",
+      "interactive",
+      "touch",
+      "gesture",
+      "round"
+    ]
+  },
+  "hand-cursor-pointer-2": {
+    "name": "HandPointerCuff",
+    "displayName": "Hand pointer cuff",
+    "aliases": [
+      "HandCursorPointer2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "cursor",
+      "pointer",
+      "click",
+      "interactive",
+      "touch",
+      "gesture",
+      "cuff"
+    ]
+  },
+  "hand-cursor-pointer-3": {
+    "name": "HandPointerUnderline",
+    "displayName": "Hand pointer underline",
+    "aliases": [
+      "HandCursorPointer3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "cursor",
+      "pointer",
+      "click",
+      "interactive",
+      "touch",
+      "gesture",
+      "underline"
+    ]
+  },
+  "hand-cursor-pointer-4": {
+    "name": "HandPointerFingersRound",
+    "displayName": "Hand pointer fingers round",
+    "aliases": [
+      "HandCursorPointer4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "cursor",
+      "pointer",
+      "click",
+      "interactive",
+      "touch",
+      "gesture",
+      "fingers",
+      "round"
+    ]
+  },
+  "hand-cursor-pointer-5": {
+    "name": "HandPointerFingersRound2",
+    "displayName": "Hand pointer fingers round2",
+    "aliases": [
+      "HandCursorPointer5"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "cursor",
+      "pointer",
+      "click",
+      "interactive",
+      "touch",
+      "gesture",
+      "fingers"
+    ]
+  },
+  "hand-cursor-pointer-6": {
+    "name": "HandPointerFingers",
+    "displayName": "Hand pointer fingers",
+    "aliases": [
+      "HandCursor6"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "cursor",
+      "pointer",
+      "click",
+      "select",
+      "interactive",
+      "gesture",
+      "fingers"
+    ]
+  },
+  "hand-gear-services": {
+    "name": "HandSettingsRays",
+    "displayName": "Hand settings rays",
+    "aliases": [
+      "HandGear"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "gear",
+      "services",
+      "settings",
+      "support",
+      "configuration",
+      "technical",
+      "default",
+      "rays"
+    ]
+  },
+  "hand-gear-services-1": {
+    "name": "HandSettings",
+    "displayName": "Hand settings",
+    "aliases": [
+      "HandGear1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "gear",
+      "services",
+      "settings",
+      "support",
+      "configuration",
+      "technical"
+    ]
+  },
+  "hand-stop-private": {
+    "name": "HandStop",
+    "displayName": "Hand stop",
+    "aliases": [
+      "HandStopPrivate"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "private",
+      "stop",
+      "restriction",
+      "blocked",
+      "gesture",
+      "access-control",
+      "security"
+    ]
+  },
+  "hand-stop-private-circle-1": {
+    "name": "HandStopCircle",
+    "displayName": "Hand stop circle",
+    "aliases": [
+      "HandStopPrivateCircle1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "private",
+      "stop",
+      "circle",
+      "restriction",
+      "gesture",
+      "access-control"
+    ]
+  },
+  "hand-stop-private-circle-2": {
+    "name": "HandFistCircle",
+    "displayName": "Hand fist circle",
+    "aliases": [
+      "HandStopPrivateCircle2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "stop",
+      "private",
+      "circle",
+      "restriction",
+      "gesture",
+      "access-control",
+      "fist"
+    ]
+  },
+  "hand-touch-four-fingers-swipe-down-arrow-down": {
+    "name": "HandSwipeDownFourFingers",
+    "displayName": "Hand swipe down four fingers",
+    "aliases": [
+      "HandTouchFourFingersSwipeDown"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "four-fingers",
+      "swipe",
+      "down",
+      "gesture",
+      "scroll",
+      "navigation",
+      "four",
+      "fingers"
+    ]
+  },
+  "hand-touch-four-fingers-swipe-left-and-right-arrow-left-and-right": {
+    "name": "HandSwipeLeftRightFourFingers",
+    "displayName": "Hand swipe left right four fingers",
+    "aliases": [
+      "HandTouchFourFingersSwipeHorizontal"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "four-fingers",
+      "swipe",
+      "left",
+      "right",
+      "gesture",
+      "horizontal",
+      "navigation",
+      "four",
+      "fingers"
+    ]
+  },
+  "hand-touch-four-fingers-swipe-left-arrow-left": {
+    "name": "HandSwipeLeftFourFingers",
+    "displayName": "Hand swipe left four fingers",
+    "aliases": [
+      "HandTouchFourFingersSwipeLeft"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "four-fingers",
+      "swipe",
+      "left",
+      "gesture",
+      "navigation",
+      "backward",
+      "four",
+      "fingers"
+    ]
+  },
+  "hand-touch-four-fingers-swipe-right-arrow-right": {
+    "name": "HandSwipeRightFourFingers",
+    "displayName": "Hand swipe right four fingers",
+    "aliases": [
+      "HandTouchFourFingersSwipeRight"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "four-fingers",
+      "swipe",
+      "right",
+      "gesture",
+      "navigation",
+      "forward",
+      "four",
+      "fingers"
+    ]
+  },
+  "hand-touch-four-fingers-swipe-up-and-down-arrow-up-and-down": {
+    "name": "HandSwipeUpDownFourFingers",
+    "displayName": "Hand swipe up down four fingers",
+    "aliases": [
+      "HandTouchFourFingersSwipeVertical"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "four-fingers",
+      "swipe",
+      "up",
+      "down",
+      "gesture",
+      "scroll",
+      "vertical",
+      "navigation",
+      "four"
+    ]
+  },
+  "hand-touch-four-fingers-swipe-up-arrow-up": {
+    "name": "HandSwipeUpFourFingers",
+    "displayName": "Hand swipe up four fingers",
+    "aliases": [
+      "HandTouchFourFingersSwipeUp"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "four-fingers",
+      "swipe",
+      "up",
+      "gesture",
+      "scroll",
+      "navigation",
+      "four",
+      "fingers"
+    ]
+  },
+  "hand-touch-one-finger-circular-arrow-return-undo": {
+    "name": "HandRefresh",
+    "displayName": "Hand refresh",
+    "aliases": [
+      "HandTouchOneFingerUndo"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "circular",
+      "arrow",
+      "return",
+      "undo",
+      "one-finger",
+      "gesture",
+      "action",
+      "refresh"
+    ]
+  },
+  "hand-touch-one-finger-clock-time-wait": {
+    "name": "HandClock",
+    "displayName": "Hand clock",
+    "aliases": [
+      "HandTouchOneFingerWait"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "time",
+      "wait",
+      "one-finger",
+      "clock",
+      "gesture",
+      "hold",
+      "timer"
+    ]
+  },
+  "hand-touch-one-finger-directional-arrows-move": {
+    "name": "HandMove",
+    "displayName": "Hand move",
+    "aliases": [
+      "HandTouchOneFingerMove"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "directional",
+      "arrows",
+      "one-finger",
+      "move",
+      "gesture",
+      "drag",
+      "navigation"
+    ]
+  },
+  "hand-touch-one-finger-hold-clock-time-wait": {
+    "name": "HandTapClock",
+    "displayName": "Hand tap clock",
+    "aliases": [
+      "HandTouchOneFingerHoldWait"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "hold",
+      "time",
+      "wait",
+      "one-finger",
+      "clock",
+      "gesture",
+      "long-press",
+      "timer"
+    ]
+  },
+  "hand-touch-one-finger-swipe-down-arrow-down": {
+    "name": "HandSwipeDown",
+    "displayName": "Hand swipe down",
+    "aliases": [
+      "HandTouchSwipeDown"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "arrow",
+      "swipe",
+      "down",
+      "gesture",
+      "interaction",
+      "mobile"
+    ]
+  },
+  "hand-touch-one-finger-swipe-left-and-right-arrow-left-and-right": {
+    "name": "HandSwipeLeftRight",
+    "displayName": "Hand swipe left right",
+    "aliases": [
+      "HandTouchSwipeLeftRight"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "arrow",
+      "swipe",
+      "left",
+      "right",
+      "gesture",
+      "horizontal",
+      "interaction"
+    ]
+  },
+  "hand-touch-one-finger-swipe-left-arrow-left": {
+    "name": "HandSwipeLeft",
+    "displayName": "Hand swipe left",
+    "aliases": [
+      "HandTouchSwipeLeft"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "arrow",
+      "swipe",
+      "left",
+      "gesture",
+      "interaction",
+      "mobile"
+    ]
+  },
+  "hand-touch-one-finger-swipe-left-line": {
+    "name": "HandSwipeLeftDashed",
+    "displayName": "Hand swipe left dashed",
+    "aliases": [
+      "HandTouchSwipeLeftLine"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "swipe",
+      "left",
+      "gesture",
+      "interaction",
+      "directional",
+      "dashed"
+    ]
+  },
+  "hand-touch-one-finger-swipe-right-arrow-right": {
+    "name": "HandSwipeRight",
+    "displayName": "Hand swipe right",
+    "aliases": [
+      "HandTouchSwipeRight"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "arrow",
+      "swipe",
+      "right",
+      "gesture",
+      "interaction",
+      "mobile"
+    ]
+  },
+  "hand-touch-one-finger-swipe-right-line": {
+    "name": "HandSwipeRightDashed",
+    "displayName": "Hand swipe right dashed",
+    "aliases": [
+      "HandTouchSwipeRightLine"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "swipe",
+      "right",
+      "gesture",
+      "interaction",
+      "directional",
+      "dashed"
+    ]
+  },
+  "hand-touch-one-finger-swipe-up-and-down-arrow-up-and-down": {
+    "name": "HandSwipeUpDown",
+    "displayName": "Hand swipe up down",
+    "aliases": [
+      "HandTouchSwipeUpDown"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "arrow",
+      "swipe",
+      "up",
+      "down",
+      "gesture",
+      "vertical",
+      "interaction"
+    ]
+  },
+  "hand-touch-one-finger-swipe-up-arrow-up": {
+    "name": "HandSwipeUp",
+    "displayName": "Hand swipe up",
+    "aliases": [
+      "HandTouchSwipeUp"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "arrow",
+      "swipe",
+      "up",
+      "gesture",
+      "interaction",
+      "mobile"
+    ]
+  },
+  "hand-touch-one-finger-tap-double-tap": {
+    "name": "HandTapDouble",
+    "displayName": "Hand tap double",
+    "aliases": [
+      "HandTouchTap"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "tap",
+      "gesture",
+      "interaction",
+      "mobile",
+      "click",
+      "double"
+    ]
+  },
+  "hand-touch-one-finger-tap-double-tap-two-2": {
+    "name": "HandTapTwo",
+    "displayName": "Hand tap two",
+    "aliases": [
+      "HandTouchDoubleTap"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "double",
+      "tap",
+      "gesture",
+      "interaction",
+      "mobile",
+      "double-tap",
+      "two"
+    ]
+  },
+  "hand-touch-one-finger-tap-single-tap-": {
+    "name": "HandTap",
+    "displayName": "Hand tap",
+    "aliases": [
+      "HandTouchTap2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "single",
+      "tap",
+      "gesture",
+      "interaction",
+      "mobile"
+    ]
+  },
+  "hand-touch-one-finger-tap-single-tap-one-1": {
+    "name": "HandTapOne",
+    "displayName": "Hand tap one",
+    "aliases": [
+      "HandTouchTapOne"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "finger",
+      "single",
+      "tap",
+      "one",
+      "gesture",
+      "numbered",
+      "sequence"
+    ]
+  },
+  "hand-touch-one-finger-tap-squared": {
+    "name": "HandTapSquare",
+    "displayName": "Hand tap square",
+    "aliases": [
+      "HandTouchTapSquare"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "one",
+      "finger",
+      "squared",
+      "tap",
+      "single",
+      "square",
+      "gesture",
+      "framed"
+    ]
+  },
+  "hand-touch-three-fingers-swipe-down-arrow-down": {
+    "name": "HandSwipeDownThreeFingers",
+    "displayName": "Hand swipe down three fingers",
+    "aliases": [
+      "HandTouchThreeSwipeDown"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "three-fingers",
+      "swipe",
+      "down",
+      "gesture",
+      "directional",
+      "three",
+      "fingers"
+    ]
+  },
+  "hand-touch-three-fingers-swipe-left-and-right-arrow-left-and-right": {
+    "name": "HandSwipeLeftRightThreeFingers",
+    "displayName": "Hand swipe left right three fingers",
+    "aliases": [
+      "HandTouchThreeSwipeLeftRight"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "three-fingers",
+      "swipe",
+      "left",
+      "right",
+      "bidirectional",
+      "gesture",
+      "three",
+      "fingers"
+    ]
+  },
+  "hand-touch-three-fingers-swipe-left-arrow-left": {
+    "name": "HandSwipeLeftThreeFingers",
+    "displayName": "Hand swipe left three fingers",
+    "aliases": [
+      "HandTouchThreeSwipeLeft"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "three-fingers",
+      "swipe",
+      "left",
+      "gesture",
+      "directional",
+      "three",
+      "fingers"
+    ]
+  },
+  "hand-touch-three-fingers-swipe-right-arrow-right": {
+    "name": "HandSwipeRightThreeFingers",
+    "displayName": "Hand swipe right three fingers",
+    "aliases": [
+      "HandTouchThreeSwipeRight"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "three-fingers",
+      "swipe",
+      "right",
+      "gesture",
+      "directional",
+      "three",
+      "fingers"
+    ]
+  },
+  "hand-touch-three-fingers-swipe-up-and-down-arrow-up-and-down": {
+    "name": "HandSwipeUpDownThreeFingers",
+    "displayName": "Hand swipe up down three fingers",
+    "aliases": [
+      "HandTouchThreeSwipeUpDown"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "three-fingers",
+      "swipe",
+      "up",
+      "down",
+      "bidirectional",
+      "gesture",
+      "three",
+      "fingers"
+    ]
+  },
+  "hand-touch-three-fingers-swipe-up-arrow-up": {
+    "name": "HandSwipeUpThreeFingers",
+    "displayName": "Hand swipe up three fingers",
+    "aliases": [
+      "HandTouchThreeSwipeUp"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "three-fingers",
+      "swipe",
+      "up",
+      "gesture",
+      "directional",
+      "three",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-directional-arrows-move": {
+    "name": "HandMoveTwoFingers",
+    "displayName": "Hand move two fingers",
+    "aliases": [
+      "HandTouchTwoDirectional"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "directional",
+      "arrows",
+      "two-fingers",
+      "move",
+      "gesture",
+      "navigation",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-double-tap": {
+    "name": "HandTapDoubleTwoFingers",
+    "displayName": "Hand tap double two fingers",
+    "aliases": [
+      "HandTwoFingerDoubleTap"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "two-fingers",
+      "double-tap",
+      "gesture",
+      "interaction",
+      "multitouch",
+      "tap",
+      "double",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-double-tap-number-2-two": {
+    "name": "HandTapTwoTwoFingers",
+    "displayName": "Hand tap two two fingers",
+    "aliases": [
+      "HandTwoFingerDoubleTap2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "double",
+      "number",
+      "two-fingers",
+      "double-tap",
+      "gesture",
+      "interaction",
+      "tap",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-pinch": {
+    "name": "HandPinch",
+    "displayName": "Hand pinch",
+    "aliases": [
+      "HandTwoFingerPinch"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "two",
+      "fingers",
+      "two-fingers",
+      "pinch",
+      "gesture",
+      "zoom",
+      "scale",
+      "interaction"
+    ]
+  },
+  "hand-touch-two-fingers-single-tap": {
+    "name": "HandTapTwoFingers",
+    "displayName": "Hand tap two fingers",
+    "aliases": [
+      "HandTwoFingerSingleTap"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "single",
+      "two-fingers",
+      "single-tap",
+      "gesture",
+      "interaction",
+      "multitouch",
+      "tap",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-single-tap-number-1-one": {
+    "name": "HandTapOneTwoFingers",
+    "displayName": "Hand tap one two fingers",
+    "aliases": [
+      "HandTwoFingerSingleTap1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "single",
+      "number",
+      "two-fingers",
+      "single-tap",
+      "gesture",
+      "interaction",
+      "tap",
+      "one",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-spread-1": {
+    "name": "HandSpread",
+    "displayName": "Hand spread",
+    "aliases": [
+      "HandTwoFingerSpread1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "two",
+      "fingers",
+      "two-fingers",
+      "spread",
+      "gesture",
+      "expand",
+      "interaction"
+    ]
+  },
+  "hand-touch-two-fingers-spread-2": {
+    "name": "HandRotate",
+    "displayName": "Hand rotate",
+    "aliases": [
+      "HandTwoFingerSpread2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "two",
+      "fingers",
+      "spread",
+      "two-fingers",
+      "gesture",
+      "expand",
+      "interaction",
+      "rotate"
+    ]
+  },
+  "hand-touch-two-fingers-swipe-down-arrow-down": {
+    "name": "HandSwipeDownTwoFingers",
+    "displayName": "Hand swipe down two fingers",
+    "aliases": [
+      "HandTwoFingerSwipeDown"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "two-fingers",
+      "swipe",
+      "down",
+      "gesture",
+      "interaction",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-swipe-left-and-right-arrow-left-and-right": {
+    "name": "HandSwipeLeftRightTwoFingers",
+    "displayName": "Hand swipe left right two fingers",
+    "aliases": [
+      "HandTwoFingerSwipeBidirectional"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "two-fingers",
+      "swipe",
+      "left",
+      "right",
+      "gesture",
+      "interaction",
+      "bidirectional",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-swipe-left-arrow-left": {
+    "name": "HandSwipeLeftTwoFingers",
+    "displayName": "Hand swipe left two fingers",
+    "aliases": [
+      "HandTwoFingerSwipeLeft"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "two-fingers",
+      "swipe",
+      "left",
+      "gesture",
+      "interaction",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-swipe-right-arrow-right": {
+    "name": "HandSwipeRightTwoFingers",
+    "displayName": "Hand swipe right two fingers",
+    "aliases": [
+      "HandTwoFingersSwipeRight"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "two-fingers",
+      "swipe",
+      "right",
+      "gesture",
+      "interaction",
+      "mobile",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-swipe-up-and-down-arrow": {
+    "name": "HandSwipeUpDownTwoFingers",
+    "displayName": "Hand swipe up down two fingers",
+    "aliases": [
+      "HandTwoFingersSwipeVertical"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "two-fingers",
+      "swipe",
+      "up",
+      "down",
+      "vertical",
+      "gesture",
+      "interaction",
+      "two",
+      "fingers"
+    ]
+  },
+  "hand-touch-two-fingers-swipe-up-arrow-up": {
+    "name": "HandSwipeUpTwoFingers",
+    "displayName": "Hand swipe up two fingers",
+    "aliases": [
+      "HandTwoFingersSwipeUp"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "touch",
+      "arrow",
+      "two-fingers",
+      "swipe",
+      "up",
+      "gesture",
+      "interaction",
+      "mobile",
+      "two",
+      "fingers"
+    ]
+  },
+  "like-positive-hand-1": {
+    "name": "HandThumbUp",
+    "displayName": "Hand thumb up",
+    "aliases": [
+      "LikePositiveHand1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "like",
+      "positive",
+      "thumbs-up",
+      "approval",
+      "feedback",
+      "endorsement",
+      "thumb",
+      "up"
+    ]
+  },
+  "like-positive-hand-2": {
+    "name": "HandThumbUpFingers",
+    "displayName": "Hand thumb up fingers",
+    "aliases": [
+      "LikePositionHand2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "like",
+      "positive",
+      "thumbs-up",
+      "approval",
+      "feedback",
+      "gesture",
+      "thumb",
+      "up",
+      "fingers"
+    ]
+  },
+  "like-positive-hand-3": {
+    "name": "HandThumbUpCuff",
+    "displayName": "Hand thumb up cuff",
+    "aliases": [
+      "LikePositionHand3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "like",
+      "positive",
+      "thumbs-up",
+      "approval",
+      "feedback",
+      "gesture",
+      "thumb",
+      "up",
+      "cuff"
+    ]
+  },
+  "like-positive-hand-4": {
+    "name": "HandThumbUpSleeve",
+    "displayName": "Hand thumb up sleeve",
+    "aliases": [
+      "LikePositionHand4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "hand",
+      "like",
+      "positive",
+      "thumbs-up",
+      "approval",
+      "feedback",
+      "gesture",
+      "thumb",
+      "up",
+      "sleeve"
+    ]
+  },
+  "touch-screen-double-touch": {
+    "name": "TouchTapDouble",
+    "displayName": "Touch tap double",
+    "aliases": [
+      "TouchScreenDoubleTouch"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "double",
+      "tap",
+      "gesture",
+      "interaction",
+      "mobile"
+    ]
+  },
+  "touch-screen-move-down": {
+    "name": "TouchMoveDown",
+    "displayName": "Touch move down",
+    "aliases": [
+      "TouchScreenMoveDown"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "move",
+      "down",
+      "swipe",
+      "gesture",
+      "drag",
+      "direction"
+    ]
+  },
+  "touch-screen-move-left": {
+    "name": "TouchMoveLeft",
+    "displayName": "Touch move left",
+    "aliases": [
+      "TouchScreenMoveLeft"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "move",
+      "left",
+      "swipe",
+      "gesture",
+      "drag",
+      "direction"
+    ]
+  },
+  "touch-screen-move-right": {
+    "name": "TouchMoveRight",
+    "displayName": "Touch move right",
+    "aliases": [
+      "TouchScreenMoveRight"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "move",
+      "right",
+      "gesture",
+      "swipe",
+      "interaction",
+      "mobile",
+      "finger",
+      "direction"
+    ]
+  },
+  "touch-screen-move-up": {
+    "name": "TouchMoveUp",
+    "displayName": "Touch move up",
+    "aliases": [
+      "TouchScreenMoveUp"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "move",
+      "up",
+      "gesture",
+      "swipe",
+      "interaction",
+      "mobile",
+      "finger",
+      "direction"
+    ]
+  },
+  "touch-screen-pinch": {
+    "name": "TouchPinch",
+    "displayName": "Touch pinch",
+    "aliases": [
+      "TouchScreenPinch"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "pinch",
+      "gesture",
+      "zoom",
+      "interaction",
+      "mobile",
+      "fingers",
+      "multi-touch"
+    ]
+  },
+  "touch-screen-single-touch": {
+    "name": "TouchTap",
+    "displayName": "Touch tap",
+    "aliases": [
+      "TouchScreenSingleTouch"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "single",
+      "finger",
+      "gesture",
+      "tap",
+      "interaction",
+      "mobile",
+      "contact"
+    ]
+  },
+  "touch-screen-spread": {
+    "name": "TouchSpread",
+    "displayName": "Touch spread",
+    "aliases": [
+      "TouchScreenSpread"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "spread",
+      "gesture",
+      "zoom",
+      "expand",
+      "interaction",
+      "mobile",
+      "multi-touch",
+      "fingers"
+    ]
+  },
+  "touch-screen-swipe-down-1": {
+    "name": "TouchSwipeDown",
+    "displayName": "Touch swipe down",
+    "aliases": [
+      "TouchScreenSwipeDown1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "down",
+      "gesture",
+      "interaction",
+      "mobile",
+      "finger",
+      "direction"
+    ]
+  },
+  "touch-screen-swipe-down-2": {
+    "name": "TouchSwipeDownGap",
+    "displayName": "Touch swipe down gap",
+    "aliases": [
+      "TouchScreenSwipeDown2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "down",
+      "gesture",
+      "interaction",
+      "mobile",
+      "finger",
+      "direction",
+      "gap"
+    ]
+  },
+  "touch-screen-swipe-down-square": {
+    "name": "TouchSwipeDownSquare",
+    "displayName": "Touch swipe down square",
+    "aliases": [
+      "TouchScreenSwipeDownSquare"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "down",
+      "gesture",
+      "interaction",
+      "mobile",
+      "finger",
+      "square",
+      "direction"
+    ]
+  },
+  "touch-screen-swipe-left-1": {
+    "name": "TouchSwipeLeft",
+    "displayName": "Touch swipe left",
+    "aliases": [
+      "TouchScreenSwipeLeft1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "left",
+      "gesture",
+      "interaction",
+      "mobile",
+      "finger",
+      "direction"
+    ]
+  },
+  "touch-screen-swipe-left-2": {
+    "name": "TouchSwipeLeftGap",
+    "displayName": "Touch swipe left gap",
+    "aliases": [
+      "TouchScreenSwipeLeft2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "left",
+      "gesture",
+      "interaction",
+      "mobile",
+      "finger",
+      "direction",
+      "gap"
+    ]
+  },
+  "touch-screen-swipe-left-square": {
+    "name": "TouchSwipeLeftSquare",
+    "displayName": "Touch swipe left square",
+    "aliases": [
+      "TouchScreenSwipeLeftSquare"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "left",
+      "square",
+      "gesture",
+      "interaction",
+      "mobile",
+      "navigation"
+    ]
+  },
+  "touch-screen-swipe-right-1": {
+    "name": "TouchSwipeRight",
+    "displayName": "Touch swipe right",
+    "aliases": [
+      "TouchScreenSwipeRight"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "right",
+      "gesture",
+      "interaction",
+      "mobile",
+      "navigation"
+    ]
+  },
+  "touch-screen-swipe-right-2": {
+    "name": "TouchSwipeRightGap",
+    "displayName": "Touch swipe right gap",
+    "aliases": [
+      "TouchScreenSwipeRight2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "right",
+      "gesture",
+      "interaction",
+      "mobile",
+      "navigation",
+      "gap"
+    ]
+  },
+  "touch-screen-swipe-right-square": {
+    "name": "TouchSwipeRightSquare",
+    "displayName": "Touch swipe right square",
+    "aliases": [
+      "TouchScreenSwipeRightSquare"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "right",
+      "square",
+      "gesture",
+      "interaction",
+      "mobile",
+      "navigation"
+    ]
+  },
+  "touch-screen-swipe-up-1": {
+    "name": "TouchSwipeUp",
+    "displayName": "Touch swipe up",
+    "aliases": [
+      "TouchScreenSwipeUp"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "up",
+      "gesture",
+      "interaction",
+      "mobile",
+      "navigation",
+      "scroll"
+    ]
+  },
+  "touch-screen-swipe-up-2": {
+    "name": "TouchSwipeUpGap",
+    "displayName": "Touch swipe up gap",
+    "aliases": [
+      "TouchScreenSwipeUp2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "up",
+      "gesture",
+      "interaction",
+      "mobile",
+      "navigation",
+      "scroll",
+      "gap"
+    ]
+  },
+  "touch-screen-swipe-up-square": {
+    "name": "TouchSwipeUpSquare",
+    "displayName": "Touch swipe up square",
+    "aliases": [
+      "TouchScreenSwipeUpSquare"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "swipe",
+      "up",
+      "square",
+      "gesture",
+      "interaction",
+      "mobile",
+      "navigation",
+      "scroll"
+    ]
+  },
+  "touch-screen-two-fingers-double-touch": {
+    "name": "TouchTapDoubleTwoFingers",
+    "displayName": "Touch tap double two fingers",
+    "aliases": [
+      "TouchScreenTwoFingersDouble"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "two",
+      "fingers",
+      "double",
+      "tap",
+      "gesture",
+      "interaction",
+      "mobile",
+      "zoom"
+    ]
+  },
+  "touch-screen-two-fingers-single-touch": {
+    "name": "TouchTapTwoFingers",
+    "displayName": "Touch tap two fingers",
+    "aliases": [
+      "TouchScreenTwoFingersSingle"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "single",
+      "two",
+      "fingers",
+      "tap",
+      "gesture",
+      "interaction",
+      "mobile"
+    ]
+  },
+  "touch-screen-two-fingers-swipe-down-1": {
+    "name": "TouchSwipeDownTwoFingers",
+    "displayName": "Touch swipe down two fingers",
+    "aliases": [
+      "TouchScreenTwoFingersSwipeDown"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "two",
+      "fingers",
+      "swipe",
+      "down",
+      "gesture",
+      "interaction",
+      "mobile",
+      "navigation"
+    ]
+  },
+  "touch-screen-two-fingers-swipe-down-2": {
+    "name": "TouchSwipeDownTwoFingersGap",
+    "displayName": "Touch swipe down two fingers gap",
+    "aliases": [
+      "TouchScreenSwipeDown22"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "two-fingers",
+      "swipe",
+      "down",
+      "gesture",
+      "multi-touch",
+      "interaction",
+      "two",
+      "fingers",
+      "gap"
+    ]
+  },
+  "touch-screen-two-fingers-swipe-left-1": {
+    "name": "TouchSwipeLeftTwoFingers",
+    "displayName": "Touch swipe left two fingers",
+    "aliases": [
+      "TouchScreenSwipeLeft12"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "two-fingers",
+      "swipe",
+      "left",
+      "gesture",
+      "multi-touch",
+      "navigation",
+      "two",
+      "fingers"
+    ]
+  },
+  "touch-screen-two-fingers-swipe-left-2": {
+    "name": "TouchSwipeLeftTwoFingersGap",
+    "displayName": "Touch swipe left two fingers gap",
+    "aliases": [
+      "TouchScreenSwipeLeft22"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "two-fingers",
+      "swipe",
+      "left",
+      "gesture",
+      "multi-touch",
+      "navigation",
+      "two",
+      "fingers",
+      "gap"
+    ]
+  },
+  "touch-screen-two-fingers-swipe-right-1": {
+    "name": "TouchSwipeRightTwoFingers",
+    "displayName": "Touch swipe right two fingers",
+    "aliases": [
+      "TouchScreenSwipeRight1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "two-fingers",
+      "swipe",
+      "right",
+      "gesture",
+      "multi-touch",
+      "navigation",
+      "two",
+      "fingers"
+    ]
+  },
+  "touch-screen-two-fingers-swipe-right-2": {
+    "name": "TouchSwipeRightTwoFingersGap",
+    "displayName": "Touch swipe right two fingers gap",
+    "aliases": [
+      "TouchScreenSwipeRight22"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "two-fingers",
+      "swipe",
+      "right",
+      "gesture",
+      "multi-touch",
+      "navigation",
+      "two",
+      "fingers",
+      "gap"
+    ]
+  },
+  "touch-screen-two-fingers-swipe-up-1": {
+    "name": "TouchSwipeUpTwoFingers",
+    "displayName": "Touch swipe up two fingers",
+    "aliases": [
+      "TouchScreenSwipeUp1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "two-fingers",
+      "swipe",
+      "up",
+      "gesture",
+      "multi-touch",
+      "scrolling",
+      "two",
+      "fingers"
+    ]
+  },
+  "touch-screen-two-fingers-swipe-up-2": {
+    "name": "TouchSwipeUpTwoFingersGap",
+    "displayName": "Touch swipe up two fingers gap",
+    "aliases": [
+      "TouchScreenSwipeUp22"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "touch",
+      "screen",
+      "two-fingers",
+      "swipe",
+      "up",
+      "gesture",
+      "multi-touch",
+      "scrolling",
+      "two",
+      "fingers",
+      "gap"
+    ]
+  }
+}

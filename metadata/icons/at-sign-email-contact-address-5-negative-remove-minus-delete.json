@@ -1,21 +1,24 @@
 {
-  "name": "AtSign5Minus",
-  "displayName": "At sign 5 minus",
+  "name": "AtMinusBoxy",
+  "displayName": "At minus boxy",
   "originalTitle": "At Sign Email Contact Address 5 Negative Remove Minus Delete",
   "description": "At symbol with minus sign for removing email addresses or deleting contacts. Used for contact removal or unsubscribe functions.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "negative",
     "remove",
     "delete",
+    "subtract",
     "minus",
     "unsubscribe",
-    "contact",
-    "subtract",
-    "negative"
+    "boxy"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.764Z"
+  "generatedAt": "2026-02-15T00:53:19.764Z",
+  "aliases": [
+    "AtSign5Minus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

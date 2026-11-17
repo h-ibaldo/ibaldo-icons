@@ -1,19 +1,20 @@
 {
-  "name": "Poll6SpeechBubble",
+  "name": "PollHorizontalChat",
   "description": "A horizontal poll icon with six options integrated into a speech bubble for feedback collection",
   "tags": [
     "poll",
+    "speech",
+    "bubble",
     "horizontal",
-    "speech bubble",
+    "speech-bubble",
     "survey",
     "voting",
     "feedback",
     "communication",
-    "questionnaire"
+    "questionnaire",
+    "chat"
   ],
   "categories": [
-    "interface",
-    "communication",
     "business"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Poll horizontal chat",
+  "aliases": [
+    "Poll6SpeechBubble"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

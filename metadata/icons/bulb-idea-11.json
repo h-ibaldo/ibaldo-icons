@@ -1,7 +1,8 @@
 {
-  "name": "Bulb11",
+  "name": "LightbulbCap",
   "description": "A lightbulb icon representing ideas and creative thinking, variant 11.",
   "tags": [
+    "lightbulb",
     "bulb",
     "idea",
     "light",
@@ -9,11 +10,11 @@
     "innovation",
     "inspiration",
     "concept",
-    "thinking"
+    "thinking",
+    "cap"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lightbulb cap",
+  "aliases": [
+    "Bulb11"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

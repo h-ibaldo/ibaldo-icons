@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsLinesCircleArrowIn",
-  "displayName": "Chart vertical columns lines circle arrow in",
+  "name": "ChartBarCircleArrowRightThin",
+  "displayName": "Chart bar circle arrow right thin",
   "originalTitle": "Chart Vertical Columns Lines Circle Arrow In",
   "description": "Combined column and line chart with import arrow indicator for data integration or chart importing functionality. Used to represent importing analytics data or merging chart datasets.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
-    "lines",
     "import",
     "arrow",
     "data",
     "integration",
-    "analytics"
+    "analytics",
+    "bar",
+    "circle",
+    "right",
+    "thin"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.756Z"
+  "generatedAt": "2026-02-15T00:53:19.756Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesCircleArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

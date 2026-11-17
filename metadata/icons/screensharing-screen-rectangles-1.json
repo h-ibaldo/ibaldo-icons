@@ -1,18 +1,17 @@
 {
-  "name": "ScreensharingRectangles1",
+  "name": "ScreenShareWindows",
   "description": "A screensharing icon with multiple rectangle shapes representing active screen sharing",
   "tags": [
-    "screensharing",
     "screen",
+    "screensharing",
     "rectangles",
     "share",
     "active",
-    "variant"
+    "windows"
   ],
   "categories": [
-    "interface",
-    "communication",
-    "devices"
+    "devices",
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screen share windows",
+  "aliases": [
+    "ScreensharingRectangles1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

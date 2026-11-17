@@ -1,19 +1,20 @@
 {
-  "name": "SaveFloppyCheck",
+  "name": "SaveCheck",
   "description": "A save icon featuring a floppy disk with a checkmark indicating successful save completion",
   "tags": [
     "save",
     "floppy",
     "disk",
-    "check",
     "checked",
+    "done",
+    "success",
+    "verified",
+    "check",
     "checkmark",
     "confirmed",
-    "storage",
-    "success"
+    "storage"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save check",
+  "aliases": [
+    "SaveFloppyCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

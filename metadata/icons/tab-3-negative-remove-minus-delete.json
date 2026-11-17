@@ -1,14 +1,17 @@
 {
-  "name": "Tab3Remove2",
+  "name": "TabMinusCenterSharp",
   "description": "A tab icon with a negative or minus symbol for removing or deleting tab content",
   "tags": [
     "tab",
     "negative",
     "remove",
-    "minus",
     "delete",
+    "subtract",
+    "minus",
     "action",
-    "interface"
+    "interface",
+    "center",
+    "sharp"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab minus center sharp",
+  "aliases": [
+    "Tab3Remove2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

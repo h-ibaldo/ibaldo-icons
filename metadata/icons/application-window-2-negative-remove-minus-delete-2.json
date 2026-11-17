@@ -1,18 +1,20 @@
 {
-  "name": "ApplicationWindowRemove2",
+  "name": "WindowMinusCenter",
   "description": "An alternate variant of an application window icon with a negative or remove symbol",
   "tags": [
-    "application",
     "window",
+    "application",
     "negative",
     "remove",
-    "minus",
     "delete",
+    "subtract",
+    "minus",
     "interface",
-    "variant",
-    "action"
+    "action",
+    "center"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window minus center",
+  "aliases": [
+    "ApplicationWindowRemove2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

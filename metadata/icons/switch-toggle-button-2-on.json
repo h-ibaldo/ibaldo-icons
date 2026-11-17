@@ -1,14 +1,14 @@
 {
-  "name": "SwitchToggleOn2",
+  "name": "ToggleOnSlim",
   "description": "A toggle switch button in the on position, variant 2 with distinct styling.",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
-    "on",
     "enabled",
     "active",
-    "control"
+    "control",
+    "slim"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle on slim",
+  "aliases": [
+    "SwitchToggleOn2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

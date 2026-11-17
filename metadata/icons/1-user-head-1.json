@@ -36,6 +36,9 @@
   "deprecated": false,
   "generatedAt": "2026-02-15T00:53:19.765Z",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "updatedAt": "2026-11-17T15:34:27.643Z",
+  "aliases": [
+    "UserHeadLongCenterPart"
+  ],
   "featured": true
 }

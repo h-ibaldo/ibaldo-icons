@@ -1,5 +1,5 @@
 {
-  "name": "ArrowCircle3",
+  "name": "ArrowCounterclockwiseBottom",
   "description": "A directional arrow enclosed in a circle, indicating a primary navigation or action direction.",
   "tags": [
     "arrow",
@@ -7,10 +7,11 @@
     "direction",
     "navigation",
     "movement",
-    "action"
+    "action",
+    "counterclockwise",
+    "bottom"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow counterclockwise bottom",
+  "aliases": [
+    "ArrowCircle3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

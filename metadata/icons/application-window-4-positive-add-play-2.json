@@ -1,18 +1,21 @@
 {
-  "name": "AppWindowPlay2",
+  "name": "WindowPlayCenterPlain",
   "description": "An application window icon with a play symbol or plus indicator in an alternate style",
   "tags": [
-    "application",
     "window",
-    "play",
+    "application",
+    "positive",
     "add",
+    "play",
     "plus",
     "media",
-    "interface"
+    "interface",
+    "center",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "media"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window play center plain",
+  "aliases": [
+    "AppWindowPlay2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

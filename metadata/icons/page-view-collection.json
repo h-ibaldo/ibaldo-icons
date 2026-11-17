@@ -1,18 +1,18 @@
 {
-  "name": "PageViewCollection",
+  "name": "LayoutGridShapes",
   "description": "An icon depicting multiple pages or a collection view layout for browsing content",
   "tags": [
+    "layout",
     "page",
     "view",
     "collection",
     "multiple",
-    "layout",
     "grid",
-    "content"
+    "content",
+    "shapes"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout grid shapes",
+  "aliases": [
+    "PageViewCollection"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

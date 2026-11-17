@@ -1,20 +1,19 @@
 {
-  "name": "FunnelFilterSquare",
+  "name": "FilterLinesWideSquare",
   "description": "A funnel filter icon with horizontal lines and mail square styling for sorting and organization controls.",
   "tags": [
-    "funnel",
     "filter",
+    "funnel",
     "horizontal",
-    "lines",
     "mail",
     "square",
     "sort",
     "organize",
-    "flow"
+    "flow",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Filter lines wide square",
+  "aliases": [
+    "FunnelFilterSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

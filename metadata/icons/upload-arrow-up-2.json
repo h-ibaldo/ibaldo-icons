@@ -1,5 +1,5 @@
 {
-  "name": "UploadArrow2",
+  "name": "UploadFlat",
   "description": "A variant upload icon with an upward arrow in an alternative style for file transfer",
   "tags": [
     "upload",
@@ -7,11 +7,11 @@
     "up",
     "file",
     "transfer",
-    "variant",
-    "direction"
+    "direction",
+    "flat"
   ],
   "categories": [
-    "interface",
+    "files",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload flat",
+  "aliases": [
+    "UploadArrow2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

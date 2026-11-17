@@ -1,5 +1,5 @@
 {
-  "name": "HandCursorPointer1",
+  "name": "HandPointerRound",
   "description": "A pointing hand cursor icon indicating clickable elements or interactive user interface controls.",
   "tags": [
     "hand",
@@ -8,11 +8,12 @@
     "click",
     "interactive",
     "touch",
-    "gesture"
+    "gesture",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand pointer round",
+  "aliases": [
+    "HandCursorPointer1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,19 +1,21 @@
 {
-  "name": "LockCheckOpen",
+  "name": "LockOpenCheckSharp",
   "description": "A lock icon with a checkmark indicating secure verification in an open state",
   "tags": [
     "lock",
-    "check",
     "checked",
+    "done",
+    "success",
+    "verified",
+    "check",
     "open",
     "secure",
-    "verified",
     "verification",
-    "checkmark"
+    "checkmark",
+    "sharp"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open check sharp",
+  "aliases": [
+    "LockCheckOpen"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

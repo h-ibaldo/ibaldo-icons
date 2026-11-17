@@ -1,14 +1,15 @@
 {
-  "name": "Bookmark2",
+  "name": "BookmarkCurl",
   "description": "A standard bookmark icon for marking and saving favorite pages",
   "tags": [
     "bookmark",
     "save",
     "favorite",
-    "marker"
+    "marker",
+    "curl"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -25,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark curl",
+  "aliases": [
+    "Bookmark2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

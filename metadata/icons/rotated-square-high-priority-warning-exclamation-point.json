@@ -1,18 +1,22 @@
 {
-  "name": "RotatedSquareAlert",
+  "name": "AlertDiamond",
   "description": "A rotated square icon with high priority warning and exclamation mark indicating critical alerts",
   "tags": [
+    "alert",
     "rotated",
     "square",
-    "high priority",
+    "high",
+    "priority",
     "warning",
     "exclamation",
-    "alert",
+    "point",
+    "error",
+    "attention",
+    "high-priority",
     "critical"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Alert diamond",
+  "aliases": [
+    "RotatedSquareAlert"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

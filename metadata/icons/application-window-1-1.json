@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow1",
-  "displayName": "Application window 1",
+  "name": "Window",
+  "displayName": "Window",
   "originalTitle": "Application Window 1 1",
   "description": "Basic application window icon representing software interfaces. Used for apps, programs, and window management.",
   "tags": [
@@ -13,8 +13,8 @@
     "desktop"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.766Z"
+  "generatedAt": "2026-02-15T00:53:19.766Z",
+  "aliases": [
+    "ApplicationWindow1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

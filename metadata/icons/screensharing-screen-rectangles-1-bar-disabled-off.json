@@ -1,19 +1,21 @@
 {
-  "name": "ScreensharingRectanglesBarDisabled",
+  "name": "ScreenShareWindowsOff",
   "description": "A screensharing icon with multiple rectangles and a bar showing a disabled or inactive sharing state",
   "tags": [
-    "screensharing",
     "screen",
+    "screensharing",
     "rectangles",
     "bar",
     "disabled",
+    "mute",
     "off",
-    "inactive"
+    "inactive",
+    "share",
+    "windows"
   ],
   "categories": [
-    "interface",
-    "communication",
-    "devices"
+    "devices",
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screen share windows off",
+  "aliases": [
+    "ScreensharingRectanglesBarDisabled"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

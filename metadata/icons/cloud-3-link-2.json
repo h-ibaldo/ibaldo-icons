@@ -1,19 +1,20 @@
 {
-  "name": "Cloud3Link2",
+  "name": "CloudLinkDiagonalRound",
   "description": "An alternative cloud link icon variant for cloud connectivity and data sharing functionality",
   "tags": [
     "cloud",
     "link",
-    "variant",
     "connect",
     "share",
     "chain",
     "connectivity",
-    "network"
+    "network",
+    "diagonal",
+    "round"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud link diagonal round",
+  "aliases": [
+    "Cloud3Link2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

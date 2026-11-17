@@ -1,19 +1,19 @@
 {
-  "name": "TechnicalSupportTool",
+  "name": "LaptopWrench",
   "description": "A laptop with a wrench tool icon indicating technical troubleshooting and repair support",
   "tags": [
-    "technical support",
     "laptop",
+    "technical",
+    "support",
     "tool",
+    "technical-support",
     "wrench",
     "repair",
     "troubleshooting",
     "maintenance"
   ],
   "categories": [
-    "interface",
-    "business",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop wrench",
+  "aliases": [
+    "TechnicalSupportTool"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

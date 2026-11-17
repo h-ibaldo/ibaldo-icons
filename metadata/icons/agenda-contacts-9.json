@@ -1,20 +1,20 @@
 {
-  "name": "AgendaContacts9",
+  "name": "AddressBookStack",
   "description": "An agenda contacts icon representing the ninth variant for organizing and managing contact information",
   "tags": [
+    "address",
     "agenda",
     "contacts",
-    "9",
     "organizer",
     "people",
     "directory",
     "management",
-    "contact list"
+    "contact-list",
+    "book",
+    "stack"
   ],
   "categories": [
-    "interface",
-    "business",
-    "people"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Address book stack",
+  "aliases": [
+    "AgendaContacts9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

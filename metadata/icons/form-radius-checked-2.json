@@ -1,16 +1,18 @@
 {
-  "name": "FormRadiusChecked2",
+  "name": "FormRadioDot",
   "description": "A rounded form radio button in checked state, second variant style",
   "tags": [
     "form",
-    "radio",
-    "checked",
     "radius",
+    "checked",
+    "unread",
+    "badge",
+    "radio",
     "rounded",
     "input",
     "selection",
     "button",
-    "variant2"
+    "dot"
   ],
   "categories": [
     "interface"
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form radio dot",
+  "aliases": [
+    "FormRadiusChecked2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

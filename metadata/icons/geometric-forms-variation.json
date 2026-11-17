@@ -1,14 +1,17 @@
 {
-  "name": "GeometricFormsVariation",
+  "name": "CircleGridMarks",
   "description": "A geometric forms icon displaying variation and multiple different shape types",
   "tags": [
+    "circle",
     "geometric",
     "forms",
     "variation",
     "variety",
     "diverse",
     "multiple",
-    "shapes"
+    "shapes",
+    "grid",
+    "marks"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle grid marks",
+  "aliases": [
+    "GeometricFormsVariation"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,24 @@
 {
-  "name": "AtSign4Plus",
-  "displayName": "At sign 4 plus",
+  "name": "AtPlusTall",
+  "displayName": "At plus tall",
   "originalTitle": "At Sign Email Contact Address 4 Positive Add Plus",
   "description": "Email address with plus sign for adding new email addresses or contacts. Used to create new email entries or add additional contacts.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "positive",
     "add",
+    "create",
     "plus",
     "new",
-    "create",
     "at-sign",
-    "contact",
     "subscribe"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.763Z"
+  "generatedAt": "2026-02-15T00:53:19.763Z",
+  "aliases": [
+    "AtSign4Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

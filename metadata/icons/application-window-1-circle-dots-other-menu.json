@@ -1,18 +1,22 @@
 {
-  "name": "ApplicationWindow1CircleDotsMenu",
-  "displayName": "Application window 1 circle dots menu",
+  "name": "WindowDotsCircle",
+  "displayName": "Window dots circle",
   "originalTitle": "Application Window 1 Circle Dots Other Menu",
   "description": "Application window with menu dots indicating additional options. Used for window settings and contextual menus.",
   "tags": [
     "window",
+    "application",
+    "other",
     "menu",
     "dots",
     "options",
     "settings",
     "more",
-    "context"
+    "context",
+    "circle"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -31,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.767Z"
+  "generatedAt": "2026-02-15T00:53:19.767Z",
+  "aliases": [
+    "ApplicationWindow1CircleDotsMenu"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

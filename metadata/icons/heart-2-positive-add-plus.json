@@ -1,17 +1,18 @@
 {
-  "name": "Heart2Add",
+  "name": "HeartPlusWide",
   "description": "A heart icon with a plus symbol in an alternative design variant for adding to favorites or likes.",
   "tags": [
     "heart",
     "positive",
     "add",
+    "create",
     "plus",
     "like",
     "favorite",
-    "love"
+    "love",
+    "wide"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Heart plus wide",
+  "aliases": [
+    "Heart2Add"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

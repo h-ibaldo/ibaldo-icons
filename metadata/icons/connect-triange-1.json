@@ -1,8 +1,10 @@
 {
-  "name": "ConnectTriangle1",
+  "name": "NodesTriangle",
   "description": "A connection icon with triangular nodes, representing linked geometric shapes in a network topology.",
   "tags": [
+    "nodes",
     "connect",
+    "triange",
     "triangle",
     "connection",
     "network",
@@ -11,8 +13,7 @@
     "node"
   ],
   "categories": [
-    "interface",
-    "development"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Nodes triangle",
+  "aliases": [
+    "ConnectTriangle1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

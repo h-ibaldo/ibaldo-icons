@@ -1,20 +1,19 @@
 {
-  "name": "Cloud3UploadOpen",
+  "name": "CloudUploadLargeRound",
   "description": "A second alternate variation of the cloud upload icon with distinct styling options",
   "tags": [
     "cloud",
     "upload",
     "arrow",
-    "alternate",
-    "variant",
     "second",
     "transfer",
-    "file"
+    "file",
+    "large",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "arrows"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,7 +31,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "Cloud 3 upload open",
+  "displayName": "Cloud upload large round",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:22:05.539Z"
+  "updatedAt": "2026-11-17T15:32:48.656Z",
+  "aliases": [
+    "Cloud3UploadOpen"
+  ]
 }

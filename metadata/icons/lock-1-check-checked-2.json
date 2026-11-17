@@ -1,19 +1,21 @@
 {
-  "name": "LockCheck",
+  "name": "LockCheckSharp",
   "description": "A lock icon with a checkmark indicating secure verification or authenticated status",
   "tags": [
     "lock",
-    "check",
     "checked",
-    "secure",
+    "done",
+    "success",
     "verified",
+    "check",
+    "secure",
     "verification",
     "checkmark",
-    "approved"
+    "approved",
+    "sharp"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock check sharp",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

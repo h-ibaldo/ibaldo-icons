@@ -1,10 +1,11 @@
 {
-  "name": "WebpageWww",
+  "name": "FolderWww",
   "description": "A webpage icon with www indicating a website or web file",
   "tags": [
+    "folder",
     "webpage",
-    "www",
     "file",
+    "www",
     "web",
     "browser",
     "internet",
@@ -12,7 +13,6 @@
     "site"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder www",
+  "aliases": [
+    "WebpageWww"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

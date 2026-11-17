@@ -1,19 +1,19 @@
 {
-  "name": "PageViewContent2",
+  "name": "LayoutList",
   "description": "A page view icon displaying content layout in a compact grid format",
   "tags": [
+    "layout",
     "page",
     "view",
     "content",
-    "layout",
     "display",
     "grid",
     "document",
-    "viewport"
+    "viewport",
+    "list"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout list",
+  "aliases": [
+    "PageViewContent2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

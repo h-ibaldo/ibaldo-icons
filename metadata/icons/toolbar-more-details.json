@@ -1,14 +1,18 @@
 {
-  "name": "ToolbarMoreDetails",
+  "name": "MenuListColumnsSquare",
   "description": "A toolbar icon for expanding or revealing more details and additional information options.",
   "tags": [
+    "menu",
     "toolbar",
     "more",
     "details",
     "expand",
     "additional",
     "options",
-    "info"
+    "info",
+    "list",
+    "columns",
+    "square"
   ],
   "categories": [
     "interface"
@@ -28,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu list columns square",
+  "aliases": [
+    "ToolbarMoreDetails"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

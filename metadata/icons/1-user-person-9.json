@@ -33,6 +33,9 @@
   "deprecated": false,
   "displayName": "Avatar face, side part bob",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T09:15:33.182Z",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceSidePartBob"
+  ],
   "featured": true
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Sun8",
+  "name": "SunCurved",
   "description": "A sun icon in variant 8 style, ideal for weather or brightness controls",
   "tags": [
     "sun",
@@ -7,11 +7,11 @@
     "weather",
     "bright",
     "daytime",
-    "variant 8"
+    "curved"
   ],
   "categories": [
     "weather",
-    "nature"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun curved",
+  "aliases": [
+    "Sun8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

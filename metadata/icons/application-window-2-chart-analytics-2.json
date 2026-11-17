@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow2Chart2",
-  "displayName": "Application window 2 chart 2",
+  "name": "WindowChartZigzagBare",
+  "displayName": "Window chart zigzag bare",
   "originalTitle": "Application Window 2 Chart Analytics 2",
   "description": "Alternative application window with chart icon for data analysis and reporting functionality. Used in business intelligence, metrics tracking, or performance monitoring tools.",
   "tags": [
     "window",
     "application",
-    "chart",
     "analytics",
+    "chart",
     "data",
     "visualization",
     "dashboard",
-    "statistics"
+    "statistics",
+    "zigzag",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.771Z"
+  "generatedAt": "2026-02-15T00:53:19.771Z",
+  "aliases": [
+    "ApplicationWindow2Chart2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

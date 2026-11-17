@@ -1,17 +1,19 @@
 {
-  "name": "Cloud2Close",
+  "name": "CloudXCornerTall",
   "description": "A cloud icon with an X symbol for closing or dismissing cloud services",
   "tags": [
     "cloud",
     "close",
-    "x",
-    "dismiss",
+    "delete",
     "remove",
+    "dismiss",
     "cancel",
-    "exit"
+    "exit",
+    "corner",
+    "tall"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud X corner tall",
+  "aliases": [
+    "Cloud2Close"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

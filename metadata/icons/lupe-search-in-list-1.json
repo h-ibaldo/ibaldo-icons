@@ -1,15 +1,16 @@
 {
-  "name": "LupeSearchInList1",
+  "name": "ListSearchRing",
   "description": "A magnifying glass search icon integrated within a list interface variant",
   "tags": [
-    "lupe",
-    "search",
-    "magnifying glass",
     "list",
+    "lupe",
+    "ringing",
+    "search",
+    "magnifying-glass",
     "in-list",
     "find",
     "locate",
-    "variant 1"
+    "ring"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "List search ring",
+  "aliases": [
+    "LupeSearchInList1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

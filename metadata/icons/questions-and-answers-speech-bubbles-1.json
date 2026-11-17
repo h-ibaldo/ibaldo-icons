@@ -1,7 +1,8 @@
 {
-  "name": "QuestionsAnswersSpeechBubbles",
+  "name": "QuestionAnswerOverlap",
   "description": "A questions and answers icon featuring two speech bubbles for dialogue and communication",
   "tags": [
+    "question",
     "questions",
     "answers",
     "speech",
@@ -9,10 +10,11 @@
     "dialogue",
     "communication",
     "chat",
-    "conversation"
+    "conversation",
+    "answer",
+    "overlap"
   ],
   "categories": [
-    "communication",
     "interface"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Question answer overlap",
+  "aliases": [
+    "QuestionsAnswersSpeechBubbles"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

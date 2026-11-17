@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow2Cloud3",
-  "displayName": "Application window 2 cloud 3",
+  "name": "WindowCloudBare2",
+  "displayName": "Window cloud bare2",
   "originalTitle": "Application Window 2 Cloud 3",
   "description": "Third variation of application window with cloud icon for online services and cloud functionality. Used for web applications, cloud storage interfaces, or remote computing tools.",
   "tags": [
@@ -14,8 +14,8 @@
     "backup"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.772Z"
+  "generatedAt": "2026-02-15T00:53:19.772Z",
+  "aliases": [
+    "ApplicationWindow2Cloud3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

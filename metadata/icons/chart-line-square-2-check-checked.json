@@ -1,21 +1,23 @@
 {
-  "name": "ChartLineSquare2Check",
-  "displayName": "Chart line square 2 check",
+  "name": "ChartLineSquareCheck",
+  "displayName": "Chart line square check",
   "originalTitle": "Chart Line Square 2 Check Checked",
   "description": "Line chart with checkmark indicating successful data analysis or validated metrics. Used to show completed reports or verified analytics.",
   "tags": [
     "chart",
-    "check",
+    "checked",
+    "done",
     "success",
     "verified",
+    "check",
     "complete",
     "analytics",
     "validated",
-    "approved"
+    "approved",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.753Z"
+  "generatedAt": "2026-02-15T00:53:19.753Z",
+  "aliases": [
+    "ChartLineSquare2Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

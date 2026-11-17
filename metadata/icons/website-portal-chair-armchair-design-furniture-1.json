@@ -1,19 +1,20 @@
 {
-  "name": "WebsitePortalChair1",
+  "name": "BrowserArmchair",
   "description": "A website portal icon featuring an armchair design element representing comfortable furniture and interior design.",
   "tags": [
+    "browser",
     "website",
     "portal",
     "chair",
-    "armchair",
     "design",
     "furniture",
+    "armchair",
     "interior",
     "comfort"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser armchair",
+  "aliases": [
+    "WebsitePortalChair1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

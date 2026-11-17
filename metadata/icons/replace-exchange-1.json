@@ -1,5 +1,5 @@
 {
-  "name": "ReplaceExchange",
+  "name": "Replace",
   "description": "A replace or exchange icon indicating swap or substitution action",
   "tags": [
     "replace",
@@ -10,7 +10,6 @@
     "arrows"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Replace",
+  "aliases": [
+    "ReplaceExchange"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

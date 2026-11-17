@@ -1,6 +1,6 @@
 {
-  "name": "DashboardLayout1",
-  "displayName": "Dashboard layout 1",
+  "name": "Dashboard",
+  "displayName": "Dashboard",
   "originalTitle": "Dashboard Layout 1",
   "description": "Dashboard layout icon showing a grid-based interface design. Used to represent dashboard views, analytics panels, or admin interfaces.",
   "tags": [
@@ -14,7 +14,6 @@
     "overview"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -33,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.798Z"
+  "generatedAt": "2026-02-15T00:53:19.798Z",
+  "aliases": [
+    "DashboardLayout1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

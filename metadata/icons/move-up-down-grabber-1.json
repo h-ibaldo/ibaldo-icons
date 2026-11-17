@@ -1,17 +1,17 @@
 {
-  "name": "MoveUpDown1",
+  "name": "MoveUpDown",
   "description": "A grabber icon with directional arrows indicating vertical movement or dragging capability",
   "tags": [
     "move",
+    "grabber",
     "up",
     "down",
-    "grabber",
     "drag",
     "vertical",
     "reorder"
   ],
   "categories": [
-    "interface"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Move up down",
+  "aliases": [
+    "MoveUpDown1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

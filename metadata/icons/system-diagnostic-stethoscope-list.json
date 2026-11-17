@@ -1,19 +1,21 @@
 {
-  "name": "TableGraph",
+  "name": "StethoscopeList",
   "description": "A data visualization icon combining table and graph elements for analytics and reporting",
   "tags": [
+    "stethoscope",
+    "system",
+    "diagnostic",
     "table",
     "graph",
     "chart",
     "data",
     "analytics",
     "visualization",
-    "report"
+    "report",
+    "list"
   ],
   "categories": [
-    "interface",
-    "business",
-    "development"
+    "health"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Stethoscope list",
+  "aliases": [
+    "TableGraph"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

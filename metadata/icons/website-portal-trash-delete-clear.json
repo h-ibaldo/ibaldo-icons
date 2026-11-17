@@ -1,18 +1,19 @@
 {
-  "name": "WebsitePortalDelete",
+  "name": "BrowserTrash",
   "description": "A website portal icon with a trash or delete symbol to clear content",
   "tags": [
+    "browser",
     "website",
     "portal",
-    "trash",
     "delete",
     "clear",
+    "trash",
     "remove",
     "bin"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser trash",
+  "aliases": [
+    "WebsitePortalDelete"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

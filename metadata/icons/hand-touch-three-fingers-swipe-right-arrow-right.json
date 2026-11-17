@@ -1,19 +1,21 @@
 {
-  "name": "HandTouchThreeSwipeRight",
+  "name": "HandSwipeRightThreeFingers",
   "description": "A three-finger rightward swipe gesture icon with a right arrow indicating rightward directional movement",
   "tags": [
     "hand",
     "touch",
-    "three fingers",
+    "arrow",
+    "three-fingers",
     "swipe",
     "right",
-    "arrow",
     "gesture",
-    "directional"
+    "directional",
+    "three",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand swipe right three fingers",
+  "aliases": [
+    "HandTouchThreeSwipeRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

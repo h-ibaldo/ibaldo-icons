@@ -1,19 +1,21 @@
 {
-  "name": "SignalCellTower2",
+  "name": "AntennaBraced",
   "description": "A cell tower signal icon showing the second strength level variant of cellular network connectivity.",
   "tags": [
+    "antenna",
     "signal",
-    "cell tower",
+    "cell",
+    "tower",
+    "cell-tower",
     "network",
     "connectivity",
-    "2",
     "strength",
     "wireless",
-    "reception"
+    "reception",
+    "braced"
   ],
   "categories": [
-    "devices",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Antenna braced",
+  "aliases": [
+    "SignalCellTower2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

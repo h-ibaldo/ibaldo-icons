@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Transfer",
+  "name": "CloudTransferRound",
   "description": "A cloud icon with arrows indicating bidirectional data transfer or exchange with cloud storage",
   "tags": [
     "cloud",
@@ -9,12 +9,12 @@
     "arrows",
     "sync",
     "data",
-    "movement"
+    "movement",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "arrows"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud transfer round",
+  "aliases": [
+    "Cloud3Transfer"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

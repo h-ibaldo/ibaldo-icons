@@ -1,16 +1,19 @@
 {
-  "name": "AtSign1One",
-  "displayName": "At sign 1 one",
+  "name": "AtOneCurved",
+  "displayName": "At one curved",
   "originalTitle": "At Sign Email Contact Address 1 Number One 1",
   "description": "At symbol with number one indicator. Represents primary email address, first contact method, or main communication channel.",
   "tags": [
     "at",
+    "sign",
     "email",
     "contact",
+    "address",
     "number",
     "one",
     "primary",
-    "first"
+    "first",
+    "curved"
   ],
   "categories": [
     "communication"
@@ -31,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.761Z"
+  "generatedAt": "2026-02-15T00:53:19.761Z",
+  "aliases": [
+    "AtSign1One"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

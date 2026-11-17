@@ -1,21 +1,22 @@
 {
-  "name": "HandTouchSwipeUpDown",
+  "name": "HandSwipeUpDown",
   "description": "A one-finger hand touch gesture swiping up and down with bidirectional arrows",
   "tags": [
     "hand",
     "touch",
+    "one",
+    "finger",
+    "arrow",
     "swipe",
     "up",
     "down",
-    "arrow",
     "gesture",
-    "finger",
     "vertical",
     "interaction"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand swipe up down",
+  "aliases": [
+    "HandTouchSwipeUpDown"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

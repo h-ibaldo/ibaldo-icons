@@ -1,20 +1,22 @@
 {
-  "name": "ScreensharingLaptopError",
+  "name": "ScreenShareLaptopX",
   "description": "A screensharing icon with a laptop and an X indicating an error or disabled screen sharing state",
   "tags": [
-    "screensharing",
     "screen",
-    "laptop",
-    "x",
+    "screensharing",
     "error",
     "disabled",
     "off",
-    "failed"
+    "close",
+    "delete",
+    "remove",
+    "laptop",
+    "failed",
+    "share"
   ],
   "categories": [
-    "interface",
-    "communication",
-    "devices"
+    "devices",
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screen share laptop X",
+  "aliases": [
+    "ScreensharingLaptopError"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

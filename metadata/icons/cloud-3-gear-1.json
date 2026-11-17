@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Gear",
+  "name": "CloudSettingsRound",
   "description": "A cloud icon with a gear symbol representing cloud settings, cloud configuration, or cloud management",
   "tags": [
     "cloud",
@@ -8,12 +8,12 @@
     "configuration",
     "management",
     "control",
-    "options"
+    "options",
+    "round"
   ],
   "categories": [
-    "interface",
-    "business",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud settings round",
+  "aliases": [
+    "Cloud3Gear"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

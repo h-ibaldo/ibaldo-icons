@@ -1,21 +1,23 @@
 {
-  "name": "AtSign1Clock2",
-  "displayName": "At sign 1 clock 2",
+  "name": "AtClockCurved2",
+  "displayName": "At clock curved2",
   "originalTitle": "At Sign Email Contact Address 1 Clock 2",
   "description": "Alternative email address with clock icon for email scheduling, timing, or time-sensitive contact features. Used for email delays, scheduling systems, or temporal email management.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "scheduled",
     "time",
     "pending",
     "clock",
     "delayed",
-    "contact",
     "timing"
   ],
   "categories": [
-    "communication",
-    "time"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.777Z"
+  "generatedAt": "2026-02-15T00:53:19.777Z",
+  "aliases": [
+    "AtSign1Clock2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

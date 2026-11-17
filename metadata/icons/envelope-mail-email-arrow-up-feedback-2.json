@@ -1,20 +1,19 @@
 {
-  "name": "EnvelopeMailArrowUp2",
+  "name": "MailOpenUpload2",
   "description": "A variant of the envelope with upward arrow icon, offering an alternative visual style for email sending or feedback actions",
   "tags": [
-    "envelope",
     "mail",
+    "envelope",
     "email",
     "arrow",
     "up",
-    "send",
     "feedback",
-    "variant",
-    "outbound"
+    "send",
+    "outbound",
+    "open"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mail open upload2",
+  "aliases": [
+    "EnvelopeMailArrowUp2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

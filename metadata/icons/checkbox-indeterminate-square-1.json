@@ -1,17 +1,21 @@
 {
-  "name": "CheckboxIndeterminateSquare1",
-  "displayName": "Checkbox indeterminate square 1",
+  "name": "MinusSquareCompactLarge",
+  "displayName": "Minus square compact large",
   "originalTitle": "Checkbox Indeterminate Square 1",
   "description": "Square checkbox in indeterminate state, first variant. Shows a partially selected state when dealing with nested or grouped checkbox selections.",
   "tags": [
+    "minus",
     "checkbox",
     "indeterminate",
+    "remove",
+    "subtract",
     "square",
     "partial",
     "mixed",
     "form",
     "input",
-    "state"
+    "state",
+    "compact"
   ],
   "categories": [
     "interface"
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.794Z"
+  "generatedAt": "2026-02-15T00:53:19.794Z",
+  "aliases": [
+    "CheckboxIndeterminateSquare1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

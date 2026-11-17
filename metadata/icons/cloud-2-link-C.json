@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2LinkC",
+  "name": "CloudLinkVerticalTall",
   "description": "A cloud icon with a link or chain symbol in another variant style representing cloud network connections.",
   "tags": [
     "cloud",
@@ -8,11 +8,13 @@
     "connection",
     "connectivity",
     "sharing",
-    "integration"
+    "integration",
+    "vertical",
+    "tall"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud link vertical tall",
+  "aliases": [
+    "Cloud2LinkC"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,15 +1,15 @@
 {
-  "name": "SwitchToggleButtonOnDots",
+  "name": "ToggleOnDotted",
   "description": "A toggle button switch in on state with filled dots pattern",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
-    "on",
     "filled",
     "dots",
     "pattern",
-    "state"
+    "state",
+    "dotted"
   ],
   "categories": [
     "interface"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle on dotted",
+  "aliases": [
+    "SwitchToggleButtonOnDots"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

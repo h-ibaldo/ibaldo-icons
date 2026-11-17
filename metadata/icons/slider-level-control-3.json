@@ -1,5 +1,5 @@
 {
-  "name": "SliderLevel3",
+  "name": "Slider",
   "description": "A slider control icon with level adjustment indicator for volume, brightness, or similar settings",
   "tags": [
     "slider",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Slider",
+  "aliases": [
+    "SliderLevel3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,17 @@
 {
-  "name": "InstallUpdatesTray1",
+  "name": "GearTray",
   "description": "An installation and updates icon featuring a gear within a system tray interface in variant 1",
   "tags": [
+    "gear",
     "install",
     "updates",
     "tray",
-    "gear",
     "system",
     "settings",
     "configuration",
-    "notification tray"
+    "notification-tray"
   ],
   "categories": [
-    "interface",
     "development"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear tray",
+  "aliases": [
+    "InstallUpdatesTray1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

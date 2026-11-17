@@ -1,5 +1,5 @@
 {
-  "name": "PencilTracing7",
+  "name": "PencilUnderlineAngular",
   "description": "A pencil tracing icon representing the seventh variant for drawing, sketching, and outline creation.",
   "tags": [
     "pencil",
@@ -7,11 +7,11 @@
     "draw",
     "sketch",
     "outline",
-    "variant7"
+    "underline",
+    "angular"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pencil underline angular",
+  "aliases": [
+    "PencilTracing7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,22 @@
 {
-  "name": "DiagramHierarchy2",
-  "displayName": "Diagram hierarchy 2",
+  "name": "DiagramChainLarge",
+  "displayName": "Diagram chain large",
   "originalTitle": "Diagram Hierarchy 2",
   "description": "Alternative hierarchical structure diagram for organizational charts. Used to display reporting relationships and organizational levels in a visual format.",
   "tags": [
+    "diagram",
     "hierarchy",
     "organization",
     "structure",
     "tree",
     "management",
     "levels",
-    "diagram",
-    "flowchart"
+    "flowchart",
+    "chain",
+    "large"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.760Z"
+  "generatedAt": "2026-02-15T00:53:19.760Z",
+  "aliases": [
+    "DiagramHierarchy2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }
