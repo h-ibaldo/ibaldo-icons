@@ -1,19 +1,19 @@
 {
-  "name": "ApplicationWindow2Check",
+  "name": "WindowCheck",
   "description": "Second variant of an application window with a checkmark for success confirmation",
   "tags": [
-    "application",
     "window",
-    "check",
+    "application",
     "mark",
-    "verified",
+    "done",
     "success",
-    "approved",
-    "variant"
+    "verified",
+    "check",
+    "approved"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window check",
+  "aliases": [
+    "ApplicationWindow2Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

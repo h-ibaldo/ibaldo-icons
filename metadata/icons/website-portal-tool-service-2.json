@@ -1,7 +1,8 @@
 {
-  "name": "WebsitePortalTool2",
+  "name": "BrowserWrench2",
   "description": "A website portal icon representing a tool or service interface, variant 2",
   "tags": [
+    "browser",
     "website",
     "portal",
     "tool",
@@ -10,8 +11,8 @@
     "web"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser wrench2",
+  "aliases": [
+    "WebsitePortalTool2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,19 +1,20 @@
 {
-  "name": "WebsitePortalChair2",
+  "name": "BrowserArmchairRound",
   "description": "An alternative website portal icon variant with armchair furniture design for interior and comfort representation.",
   "tags": [
+    "browser",
     "website",
     "portal",
     "chair",
-    "armchair",
     "design",
     "furniture",
+    "armchair",
     "interior",
-    "variant"
+    "round"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser armchair round",
+  "aliases": [
+    "WebsitePortalChair2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

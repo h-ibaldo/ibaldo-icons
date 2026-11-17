@@ -1,19 +1,18 @@
 {
-  "name": "OpenPaneRightAlt",
+  "name": "PaneArrowRightList",
   "description": "An alternative icon showing a rectangular pane expanding rightward with directional arrow",
   "tags": [
-    "open",
     "pane",
+    "open",
     "rectangle",
     "arrow",
     "right",
     "panel",
     "expand",
-    "variant"
+    "list"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pane arrow right list",
+  "aliases": [
+    "OpenPaneRightAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

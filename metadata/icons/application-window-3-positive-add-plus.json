@@ -1,16 +1,19 @@
 {
-  "name": "AppWindowAdd",
+  "name": "WindowPlusCirclePlain",
   "description": "An application window icon with a plus symbol, indicating window creation or addition functionality",
   "tags": [
-    "application",
     "window",
-    "add",
-    "plus",
+    "application",
     "positive",
+    "add",
     "create",
-    "interface"
+    "plus",
+    "interface",
+    "circle",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window plus circle plain",
+  "aliases": [
+    "AppWindowAdd"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

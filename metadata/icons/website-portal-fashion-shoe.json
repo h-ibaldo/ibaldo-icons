@@ -1,7 +1,8 @@
 {
-  "name": "WebsitePortalShoe",
+  "name": "BrowserShoe",
   "description": "A website portal icon for fashion services featuring a shoe representing footwear and apparel",
   "tags": [
+    "browser",
     "website",
     "portal",
     "fashion",
@@ -12,8 +13,8 @@
     "retail"
   ],
   "categories": [
-    "interface",
-    "shopping"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser shoe",
+  "aliases": [
+    "WebsitePortalShoe"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

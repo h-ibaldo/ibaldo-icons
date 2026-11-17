@@ -1,14 +1,17 @@
 {
-  "name": "PopUp8",
+  "name": "PopoverListUpBig",
   "description": "A pop-up window icon representing the eighth variant of modal dialog display",
   "tags": [
+    "popover",
+    "pop",
     "pop-up",
     "modal",
     "dialog",
     "window",
     "interface",
-    "variant",
-    "8"
+    "list",
+    "up",
+    "big"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Popover list up big",
+  "aliases": [
+    "PopUp8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

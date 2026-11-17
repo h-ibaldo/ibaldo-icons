@@ -1,19 +1,20 @@
 {
-  "name": "WebsitePortalFlower",
+  "name": "BrowserFlower",
   "description": "A website portal icon featuring a flower blossom variant representing botanical or lifestyle services",
   "tags": [
+    "browser",
     "website",
     "portal",
-    "flower",
     "blossom",
+    "flower",
     "nature",
     "gardening",
     "lifestyle",
     "botanical"
   ],
   "categories": [
-    "interface",
-    "nature"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser flower",
+  "aliases": [
+    "WebsitePortalFlower"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

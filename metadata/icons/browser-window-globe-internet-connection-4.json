@@ -1,20 +1,21 @@
 {
-  "name": "BrowserWindowWeb",
+  "name": "WindowGlobePlain",
   "description": "A browser window icon with globe visualization representing web access and global internet connectivity",
   "tags": [
-    "browser",
     "window",
-    "globe",
+    "browser",
     "internet",
     "connection",
+    "globe",
     "web",
     "network",
     "online",
-    "worldwide"
+    "worldwide",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window globe plain",
+  "aliases": [
+    "BrowserWindowWeb"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

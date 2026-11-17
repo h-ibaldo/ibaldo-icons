@@ -1,14 +1,18 @@
 {
-  "name": "PopUp2",
+  "name": "PopoverBig",
   "description": "A pop-up window icon showing the second variant design for modal dialogs and notifications",
   "tags": [
+    "popover",
+    "pop",
+    "up",
     "pop-up",
     "popup",
     "modal",
     "dialog",
     "window",
     "notification",
-    "interface"
+    "interface",
+    "big"
   ],
   "categories": [
     "interface"
@@ -28,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Popover big",
+  "aliases": [
+    "PopUp2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

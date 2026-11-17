@@ -1,20 +1,20 @@
 {
-  "name": "ApplicationWindow1Pdf",
-  "displayName": "Application window 1 pdf",
+  "name": "WindowPdf",
+  "displayName": "Window pdf",
   "originalTitle": "Application Window 1 Pdf",
   "description": "Application window displaying a PDF document. Used to represent PDF viewers, document applications, or file management interfaces.",
   "tags": [
     "window",
+    "application",
     "pdf",
     "document",
-    "application",
     "file",
     "viewer",
     "interface"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.760Z"
+  "generatedAt": "2026-02-15T00:53:19.760Z",
+  "aliases": [
+    "ApplicationWindow1Pdf"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

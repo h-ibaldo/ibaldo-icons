@@ -1,18 +1,17 @@
 {
-  "name": "BrowserWindowAnnounce1",
+  "name": "BrowserMegaphone",
   "description": "A variant browser window with megaphone icon indicating advertisement and communication features",
   "tags": [
     "browser",
     "window",
-    "megaphone",
     "advertisement",
+    "megaphone",
     "announcement",
-    "promotion",
-    "variant"
+    "promotion"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser megaphone",
+  "aliases": [
+    "BrowserWindowAnnounce1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

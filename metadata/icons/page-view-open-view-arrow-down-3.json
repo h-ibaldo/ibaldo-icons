@@ -1,18 +1,21 @@
 {
-  "name": "PageViewOpenArrowDown3",
+  "name": "WindowDownloadPlain",
   "description": "A page view icon with an open arrow pointing downward, variant 3",
   "tags": [
+    "window",
     "page",
     "view",
     "open",
     "arrow",
     "down",
     "expand",
-    "dropdown"
+    "dropdown",
+    "download",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window download plain",
+  "aliases": [
+    "PageViewOpenArrowDown3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

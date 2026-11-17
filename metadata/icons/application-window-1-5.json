@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow5",
-  "displayName": "Application window 5",
+  "name": "WindowTwoDots",
+  "displayName": "Window two dots",
   "originalTitle": "Application Window 1 5",
   "description": "Fifth application window style for varied interface designs. Represents software windows and application states.",
   "tags": [
@@ -10,11 +10,13 @@
     "software",
     "interface",
     "program",
-    "desktop"
+    "desktop",
+    "two",
+    "dots"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.766Z"
+  "generatedAt": "2026-02-15T00:53:19.766Z",
+  "aliases": [
+    "ApplicationWindow5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

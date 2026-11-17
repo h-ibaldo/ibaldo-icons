@@ -1,21 +1,22 @@
 {
-  "name": "ApplicationWindow2Shield2",
-  "displayName": "Application window 2 shield 2",
+  "name": "WindowShieldBare",
+  "displayName": "Window shield bare",
   "originalTitle": "Application Window 2 Shield 2",
   "description": "Protected application interface icon showing secure software environment. Represents application security features, protected windows, or secure program access.",
   "tags": [
-    "application",
     "window",
+    "application",
     "protection",
     "shield",
     "security",
     "secure",
     "interface",
-    "safe"
+    "safe",
+    "bare"
   ],
   "categories": [
-    "security",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.803Z"
+  "generatedAt": "2026-02-15T00:53:19.803Z",
+  "aliases": [
+    "ApplicationWindow2Shield2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

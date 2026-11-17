@@ -1,18 +1,18 @@
 {
-  "name": "OpenPaneRight",
+  "name": "PaneArrowRightStriped",
   "description": "An icon depicting a rectangle pane opening to the right with an arrow indicator",
   "tags": [
-    "open",
     "pane",
+    "open",
     "rectangle",
     "arrow",
     "right",
     "panel",
-    "expand"
+    "expand",
+    "striped"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Pane arrow right striped",
+  "aliases": [
+    "OpenPaneRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

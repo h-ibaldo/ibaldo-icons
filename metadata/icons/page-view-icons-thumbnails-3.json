@@ -1,7 +1,8 @@
 {
-  "name": "PageViewIconsThumbnails3",
+  "name": "LayoutGridMixed",
   "description": "A third variant page view icon representing icon thumbnails with unique spacing or density",
   "tags": [
+    "layout",
     "page",
     "view",
     "icons",
@@ -10,7 +11,7 @@
     "grid",
     "gallery",
     "small",
-    "variant3"
+    "mixed"
   ],
   "categories": [
     "interface"
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout grid mixed",
+  "aliases": [
+    "PageViewIconsThumbnails3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

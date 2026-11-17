@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow1Tools2",
-  "displayName": "Application window 1 tools 2",
+  "name": "WindowWrench2",
+  "displayName": "Window wrench2",
   "originalTitle": "Application Window 1 Tools 2",
   "description": "Alternative application window with tools icon for settings and configuration options. Used to access application tools, system utilities, or customization features.",
   "tags": [
@@ -14,8 +14,8 @@
     "maintenance"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.771Z"
+  "generatedAt": "2026-02-15T00:53:19.771Z",
+  "aliases": [
+    "ApplicationWindow1Tools2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

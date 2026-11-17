@@ -1,16 +1,18 @@
 {
-  "name": "ApplicationWindowLevels1",
+  "name": "WindowSliders",
   "description": "An application window icon with levels sliders representing settings or adjustment controls",
   "tags": [
-    "application",
     "window",
+    "application",
     "levels",
     "settings",
     "adjustment",
     "controls",
-    "interface"
+    "interface",
+    "sliders"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window sliders",
+  "aliases": [
+    "ApplicationWindowLevels1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

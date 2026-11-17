@@ -1,11 +1,12 @@
 {
-  "name": "ApplicationWindow1Search",
-  "displayName": "Application window 1 search",
+  "name": "WindowSearch",
+  "displayName": "Window search",
   "originalTitle": "Application Window 1 Lupe Search",
   "description": "Application window with magnifying glass icon representing search functionality. Used to indicate search applications or search features within software.",
   "tags": [
-    "application",
     "window",
+    "application",
+    "lupe",
     "search",
     "magnifying",
     "glass",
@@ -14,8 +15,8 @@
     "query"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.769Z"
+  "generatedAt": "2026-02-15T00:53:19.769Z",
+  "aliases": [
+    "ApplicationWindow1Search"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

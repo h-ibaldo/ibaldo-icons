@@ -1,19 +1,18 @@
 {
-  "name": "PageViewList",
+  "name": "LayoutListSymbols",
   "description": "A page view icon showing content organized in a vertical list layout",
   "tags": [
+    "layout",
     "page",
     "view",
-    "list",
     "content",
-    "layout",
+    "list",
     "display",
     "document",
-    "lines"
+    "symbols"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout list symbols",
+  "aliases": [
+    "PageViewList"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,19 +1,20 @@
 {
-  "name": "ApplicationWindow1Chart5",
-  "displayName": "Application window 1 chart 5",
+  "name": "WindowChartZigzag",
+  "displayName": "Window chart zigzag",
   "originalTitle": "Application Window 1 Chart Analytics 2",
   "description": "Alternative application window with analytics chart display. Used for data analysis, metrics, or business reporting interfaces.",
   "tags": [
     "window",
-    "chart",
+    "application",
     "analytics",
+    "chart",
     "graph",
     "data",
-    "application",
-    "metrics"
+    "metrics",
+    "zigzag"
   ],
   "categories": [
-    "business",
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.736Z"
+  "generatedAt": "2026-02-15T00:53:19.736Z",
+  "aliases": [
+    "ApplicationWindow1Chart5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

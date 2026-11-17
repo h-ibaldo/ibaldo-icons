@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow2ColorPicker",
-  "displayName": "Application window 2 color picker",
+  "name": "WindowEyedropperBare",
+  "displayName": "Window eyedropper bare",
   "originalTitle": "Application Window 2 Color Picker",
   "description": "Application window with color picker tool icon for design and graphics software. Used to represent color selection functionality or design applications.",
   "tags": [
-    "application",
     "window",
+    "application",
     "color",
     "picker",
     "design",
     "graphics",
     "palette",
-    "tool"
+    "tool",
+    "eyedropper",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.772Z"
+  "generatedAt": "2026-02-15T00:53:19.772Z",
+  "aliases": [
+    "ApplicationWindow2ColorPicker"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

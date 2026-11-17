@@ -1,19 +1,20 @@
 {
-  "name": "PageViewExtraLarge",
+  "name": "LayoutLargeFlower",
   "description": "A page view icon displaying content with extra large icon sizing for enhanced visibility",
   "tags": [
+    "layout",
     "page",
     "view",
     "extra",
-    "large",
     "icons",
+    "large",
     "size",
     "zoom",
-    "display"
+    "display",
+    "flower"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout large flower",
+  "aliases": [
+    "PageViewExtraLarge"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

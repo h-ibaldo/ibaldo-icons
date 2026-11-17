@@ -1,21 +1,21 @@
 {
-  "name": "PaidSearchDollarWindow1",
+  "name": "BrowserDollarSearch",
   "description": "A paid search icon combining a magnifying glass, dollar bill, and browser window for online advertising analytics.",
   "tags": [
+    "browser",
     "paid",
-    "search",
     "lupe",
+    "bill",
+    "window",
+    "search",
     "magnifying",
     "glass",
     "dollar",
-    "bill",
-    "browser",
-    "window",
     "advertising"
   ],
   "categories": [
-    "business",
-    "devices"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser dollar search",
+  "aliases": [
+    "PaidSearchDollarWindow1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

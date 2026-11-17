@@ -1,21 +1,25 @@
 {
-  "name": "ApplicationWindow2ArrowLeftRight1",
-  "displayName": "Application window 2 arrow left right 1",
+  "name": "WindowArrowLeftRightBare",
+  "displayName": "Window arrow left right bare",
   "originalTitle": "Application Window 2 Arrow Left Right Sort 1",
   "description": "Application window with horizontal arrows indicating sorting or data organization functionality. Used for sorting columns, reordering content, or data manipulation features.",
   "tags": [
     "window",
     "application",
-    "arrows",
     "sort",
+    "arrows",
     "organize",
     "reorder",
     "data",
-    "horizontal"
+    "horizontal",
+    "arrow",
+    "left",
+    "right",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.771Z"
+  "generatedAt": "2026-02-15T00:53:19.771Z",
+  "aliases": [
+    "ApplicationWindow2ArrowLeftRight1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,14 +1,15 @@
 {
-  "name": "PopUp5",
+  "name": "PopoverUp",
   "description": "A pop-up window icon representing the fifth variant of modal dialog display",
   "tags": [
+    "popover",
+    "pop",
     "pop-up",
     "modal",
     "dialog",
     "window",
     "interface",
-    "variant",
-    "5"
+    "up"
   ],
   "categories": [
     "interface"
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Popover up",
+  "aliases": [
+    "PopUp5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

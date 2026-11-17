@@ -1,7 +1,10 @@
 {
-  "name": "PopUp3",
+  "name": "PopoverList",
   "description": "The third variant pop-up window icon for representing alerts and modal windows",
   "tags": [
+    "popover",
+    "pop",
+    "up",
     "pop-up",
     "popup",
     "modal",
@@ -9,7 +12,8 @@
     "window",
     "notification",
     "alert",
-    "interface"
+    "interface",
+    "list"
   ],
   "categories": [
     "interface"
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Popover list",
+  "aliases": [
+    "PopUp3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

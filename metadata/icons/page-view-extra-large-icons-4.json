@@ -1,19 +1,20 @@
 {
-  "name": "PageViewExtraLargeTile",
+  "name": "LayoutLargeImageArc",
   "description": "A page view icon showing extra large icon tiles with spacing for prominent display",
   "tags": [
+    "layout",
     "page",
     "view",
     "extra",
-    "large",
     "icons",
+    "large",
     "tile",
-    "layout",
-    "spacing"
+    "spacing",
+    "image",
+    "arc"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout large image arc",
+  "aliases": [
+    "PageViewExtraLargeTile"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

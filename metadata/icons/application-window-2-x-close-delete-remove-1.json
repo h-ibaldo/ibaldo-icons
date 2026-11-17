@@ -1,10 +1,9 @@
 {
-  "name": "ApplicationWindowClose1",
+  "name": "WindowX",
   "description": "An application window icon with an X or close symbol for dismissing or exiting the window",
   "tags": [
-    "application",
     "window",
-    "x",
+    "application",
     "close",
     "delete",
     "remove",
@@ -13,6 +12,7 @@
     "interface"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window X",
+  "aliases": [
+    "ApplicationWindowClose1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

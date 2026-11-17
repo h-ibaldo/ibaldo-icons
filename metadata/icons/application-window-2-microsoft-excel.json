@@ -1,21 +1,25 @@
 {
-  "name": "ApplicationWindow2Excel",
-  "displayName": "Application window 2 excel",
+  "name": "WindowLetterXBare",
+  "displayName": "Window letter X bare",
   "originalTitle": "Application Window 2 Microsoft Excel",
   "description": "Application window representing Microsoft Excel spreadsheet software. Used to indicate Excel files, spreadsheet applications, or data analysis tools.",
   "tags": [
     "window",
     "application",
-    "excel",
     "microsoft",
+    "excel",
+    "close",
+    "delete",
+    "remove",
     "spreadsheet",
     "data",
     "table",
-    "office"
+    "office",
+    "letter"
   ],
   "categories": [
-    "files",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.775Z"
+  "generatedAt": "2026-02-15T00:53:19.775Z",
+  "aliases": [
+    "ApplicationWindow2Excel"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

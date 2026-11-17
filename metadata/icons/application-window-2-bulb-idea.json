@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow2Bulb",
-  "displayName": "Application window 2 bulb",
+  "name": "WindowLightbulbBare",
+  "displayName": "Window lightbulb bare",
   "originalTitle": "Application Window 2 Bulb Idea",
   "description": "Application window with lightbulb icon representing ideas, innovation, or help features. Used for tips, suggestions, creative tools, or inspiration functionality.",
   "tags": [
@@ -11,11 +11,13 @@
     "innovation",
     "creativity",
     "tips",
-    "help"
+    "help",
+    "lightbulb",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "education"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.771Z"
+  "generatedAt": "2026-02-15T00:53:19.771Z",
+  "aliases": [
+    "ApplicationWindow2Bulb"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

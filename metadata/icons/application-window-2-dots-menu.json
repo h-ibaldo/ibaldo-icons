@@ -1,19 +1,22 @@
 {
-  "name": "ApplicationWindow2DotsMenu",
-  "displayName": "Application window 2 dots menu",
+  "name": "WindowDotsVerticalBare",
+  "displayName": "Window dots vertical bare",
   "originalTitle": "Application Window 2 Dots Menu",
   "description": "Application window with three dots menu icon representing additional options or settings. Used to indicate expandable menus or more actions within an application.",
   "tags": [
-    "application",
     "window",
+    "application",
     "menu",
     "dots",
     "options",
     "more",
     "actions",
-    "settings"
+    "settings",
+    "vertical",
+    "bare"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.772Z"
+  "generatedAt": "2026-02-15T00:53:19.772Z",
+  "aliases": [
+    "ApplicationWindow2DotsMenu"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

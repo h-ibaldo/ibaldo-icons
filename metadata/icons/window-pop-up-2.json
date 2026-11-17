@@ -1,16 +1,19 @@
 {
-  "name": "WindowPopUp2",
+  "name": "WindowModalBare",
   "description": "A pop-up window icon variant showing a floating dialog box with alternate styling",
   "tags": [
     "window",
+    "pop",
+    "up",
     "pop-up",
     "dialog",
     "floating",
     "modal",
     "interface",
-    "variant2"
+    "bare"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window modal bare",
+  "aliases": [
+    "WindowPopUp2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

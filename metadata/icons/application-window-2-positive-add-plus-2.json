@@ -1,17 +1,18 @@
 {
-  "name": "ApplicationWindowAdd2",
+  "name": "WindowPlusCenter",
   "description": "An alternate variant of an application window icon with a positive or add symbol",
   "tags": [
-    "application",
     "window",
+    "application",
     "positive",
     "add",
-    "plus",
     "create",
+    "plus",
     "interface",
-    "variant"
+    "center"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window plus center",
+  "aliases": [
+    "ApplicationWindowAdd2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

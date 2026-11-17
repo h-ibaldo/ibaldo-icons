@@ -1,19 +1,19 @@
 {
-  "name": "ApplicationWindow1Chart4",
-  "displayName": "Application window 1 chart 4",
+  "name": "WindowChart",
+  "displayName": "Window chart",
   "originalTitle": "Application Window 1 Chart Analytics 1",
   "description": "Application window displaying analytics chart or graph. Represents data visualization, reporting, or business intelligence applications.",
   "tags": [
     "window",
-    "chart",
+    "application",
     "analytics",
+    "chart",
     "graph",
     "data",
-    "application",
     "dashboard"
   ],
   "categories": [
-    "business",
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -32,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.736Z"
+  "generatedAt": "2026-02-15T00:53:19.736Z",
+  "aliases": [
+    "ApplicationWindow1Chart4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

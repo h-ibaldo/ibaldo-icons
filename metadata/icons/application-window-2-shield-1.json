@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow2Shield1",
-  "displayName": "Application window 2 shield 1",
+  "name": "WindowShieldCenterBare",
+  "displayName": "Window shield center bare",
   "originalTitle": "Application Window 2 Shield 1",
   "description": "Secure application window icon representing protected software or secure app environments. Used to indicate application security, protected windows, or secure software access.",
   "tags": [
-    "application",
     "window",
+    "application",
     "security",
     "shield",
     "protection",
     "secure",
     "software",
-    "safe"
+    "safe",
+    "center",
+    "bare"
   ],
   "categories": [
-    "security",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.802Z"
+  "generatedAt": "2026-02-15T00:53:19.802Z",
+  "aliases": [
+    "ApplicationWindow2Shield1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

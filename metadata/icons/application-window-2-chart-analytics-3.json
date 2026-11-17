@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow2Chart3",
-  "displayName": "Application window 2 chart 3",
+  "name": "WindowChartArrowBare",
+  "displayName": "Window chart arrow bare",
   "originalTitle": "Application Window 2 Chart Analytics 3",
   "description": "Third variation of application window with chart icon for analytics and data visualization. Used for financial dashboards, performance metrics, or business intelligence tools.",
   "tags": [
     "window",
     "application",
-    "chart",
     "analytics",
+    "chart",
     "data",
     "visualization",
     "dashboard",
-    "statistics"
+    "statistics",
+    "arrow",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.771Z"
+  "generatedAt": "2026-02-15T00:53:19.771Z",
+  "aliases": [
+    "ApplicationWindow2Chart3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

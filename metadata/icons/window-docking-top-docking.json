@@ -1,19 +1,18 @@
 {
-  "name": "WindowDockingTop",
+  "name": "DockTop",
   "description": "A window docking icon showing top alignment for organizing application windows",
   "tags": [
+    "dock",
     "window",
     "docking",
     "top",
     "alignment",
     "layout",
-    "dock",
     "organize",
     "interface"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Dock top",
+  "aliases": [
+    "WindowDockingTop"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

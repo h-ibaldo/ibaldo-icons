@@ -1,21 +1,25 @@
 {
-  "name": "ApplicationWindowsThemes1",
-  "displayName": "Application windows themes 1",
+  "name": "WindowStackStriped",
+  "displayName": "Window stack striped",
   "originalTitle": "Application Windows Change Themes Stripes 1",
   "description": "Application window theme customization icon representing visual theme or appearance settings. Used for changing application themes, color schemes, or visual preferences.",
   "tags": [
+    "window",
+    "application",
+    "windows",
+    "change",
+    "themes",
+    "stripes",
     "theme",
     "customization",
     "appearance",
     "settings",
-    "window",
     "visual",
-    "preferences",
-    "design"
+    "preferences"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.776Z"
+  "generatedAt": "2026-02-15T00:53:19.776Z",
+  "aliases": [
+    "ApplicationWindowsThemes1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

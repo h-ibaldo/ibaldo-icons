@@ -1,5 +1,5 @@
 {
-  "name": "BrowserWindowSidebar",
+  "name": "BrowserSidebar",
   "description": "A second variant of browser window with web page display and internet content features",
   "tags": [
     "browser",
@@ -8,11 +8,11 @@
     "page",
     "content",
     "internet",
-    "variant"
+    "sidebar"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,7 +30,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "displayName": "Browser window sidebar",
+  "displayName": "Browser sidebar",
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T01:22:05.539Z"
+  "updatedAt": "2026-11-17T15:32:49.112Z",
+  "aliases": [
+    "BrowserWindowSidebar"
+  ]
 }

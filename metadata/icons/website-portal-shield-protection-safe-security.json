@@ -1,19 +1,20 @@
 {
-  "name": "WebsitePortalShield",
+  "name": "BrowserShield",
   "description": "A website portal icon for security services featuring a shield representing protection and safety",
   "tags": [
+    "browser",
     "website",
     "portal",
-    "shield",
     "protection",
     "safe",
     "security",
+    "shield",
     "privacy",
     "defense"
   ],
   "categories": [
-    "interface",
-    "security"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser shield",
+  "aliases": [
+    "WebsitePortalShield"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

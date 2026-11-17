@@ -1,17 +1,21 @@
 {
-  "name": "RectangleArrowOpenPopUp3",
+  "name": "WindowStackArrowUpRight",
   "description": "A rectangle with outward arrow icon indicating opening content in a pop-up window variant three",
   "tags": [
+    "window",
     "rectangle",
-    "arrow",
     "open",
+    "pop",
+    "arrow",
     "pop-up",
     "external",
     "link",
-    "variant",
-    "3"
+    "stack",
+    "up",
+    "right"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window stack arrow up right",
+  "aliases": [
+    "RectangleArrowOpenPopUp3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

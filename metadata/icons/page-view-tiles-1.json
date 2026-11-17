@@ -1,13 +1,16 @@
 {
-  "name": "PageViewTiles1",
+  "name": "LayoutTiles",
   "description": "A page view icon displaying tile layout variant 1, showing content arranged in a grid of equal-sized tiles.",
   "tags": [
-    "page view",
+    "layout",
+    "page",
+    "view",
+    "page-view",
     "tiles",
-    "grid layout",
-    "grid view",
+    "grid-layout",
+    "grid-view",
     "mosaic",
-    "tile arrangement",
+    "tile-arrangement",
     "interface"
   ],
   "categories": [
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout tiles",
+  "aliases": [
+    "PageViewTiles1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

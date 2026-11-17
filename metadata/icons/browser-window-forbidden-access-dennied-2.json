@@ -1,20 +1,23 @@
 {
-  "name": "BrowserWindowForbidden",
+  "name": "BrowserBanBare",
   "description": "A browser window icon with a forbidden or access denied symbol indicating restricted content",
   "tags": [
     "browser",
     "window",
     "forbidden",
     "access",
+    "dennied",
+    "blocked",
     "denied",
     "block",
     "restrict",
     "error",
-    "security"
+    "security",
+    "ban"
   ],
   "categories": [
-    "interface",
-    "security"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser ban bare",
+  "aliases": [
+    "BrowserWindowForbidden"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

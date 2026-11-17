@@ -1,9 +1,9 @@
 {
-  "name": "OpenInBrowserUp",
+  "name": "BrowserArrowUp",
   "description": "An open in browser icon with an upward arrow indicating launching or expanding content in a web browser",
   "tags": [
-    "open",
     "browser",
+    "open",
     "arrow",
     "up",
     "external",
@@ -12,8 +12,8 @@
     "web"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser arrow up",
+  "aliases": [
+    "OpenInBrowserUp"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

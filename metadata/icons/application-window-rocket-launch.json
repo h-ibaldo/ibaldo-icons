@@ -1,18 +1,18 @@
 {
-  "name": "ApplicationWindowRocket",
+  "name": "WindowRocket",
   "description": "An application window icon with a rocket symbol indicating launch, deployment, or startup functionality",
   "tags": [
-    "application",
     "window",
-    "rocket",
+    "application",
     "launch",
+    "rocket",
     "deploy",
     "start",
     "interface"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window rocket",
+  "aliases": [
+    "ApplicationWindowRocket"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

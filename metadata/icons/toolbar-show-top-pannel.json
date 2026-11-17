@@ -1,18 +1,18 @@
 {
-  "name": "ToolbarShowTopPanel",
+  "name": "PanelTop",
   "description": "A toolbar icon for showing or revealing the top panel in an application interface",
   "tags": [
+    "panel",
     "toolbar",
     "show",
+    "pannel",
     "top",
-    "panel",
     "reveal",
     "display",
     "ui"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Panel top",
+  "aliases": [
+    "ToolbarShowTopPanel"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

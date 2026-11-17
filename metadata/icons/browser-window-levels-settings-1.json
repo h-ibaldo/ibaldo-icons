@@ -1,5 +1,5 @@
 {
-  "name": "BrowserWindowLevels",
+  "name": "BrowserSliders",
   "description": "A browser window icon with levels or settings controls for adjusting internet and connection parameters",
   "tags": [
     "browser",
@@ -10,10 +10,11 @@
     "control",
     "configuration",
     "internet",
-    "options"
+    "options",
+    "sliders"
   ],
   "categories": [
-    "interface",
+    "devices",
     "development"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser sliders",
+  "aliases": [
+    "BrowserWindowLevels"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }
