@@ -60,12 +60,13 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   `Edit` (pencil), `Eye`, `Sync` (two curved arrows), `Refresh` (one curved arrow), `Upload`/`Download`
   (arrow joined to the object), `Arrow` + direction (loose arrow), `Transfer` (two straight opposite arrows),
   `Link`, `Star`, `Heart`, `Mail`, `User`, `Shield`, `Bolt`, `Music`, `Dots`, `Dollar`, `Pin`, `Paperclip`,
-  `Chat`, `Happy`/`Sad`, `One`/`Two`/`Three` (drawn digits).
+  `Chat`, `Happy`/`Sad`, `One`/`Two`/`Three`/`Five`/`Ten`/`Fifteen`/`Thirty` (drawn digits), `Translate` (文 glyph).
 - Containers and shapes: `Circle`, `Square`, `Octagon`, `Hexagon`, `Triangle`, `Diamond`, `Pentagon`.
   Outline: `Dashed`, `Dotted`. Fill: `Striped`, `Dotted`, `Filled`.
 - Directions: `Up`, `Down`, `Left`, `Right`, `UpDown`, `LeftRight`, `UpRight`, `UpLeft`, `DownRight`, `DownLeft`,
   `Clockwise`, `Counterclockwise`, `In`, `Out`.
 - States: `Open`/`Closed` (only if the family has both), `On`, `Off`, `Empty`, `Half`, `Full`.
+- Levels: `Low`/`Medium`/`High` (how many sound arcs are drawn: 1/2/3), e.g. `VolumeHigh`.
 - Count: `Stack` (overlapping copies; never plural families), `Double` (two equal marks), `Two`/`Three` when count is the point.
 - Size: `Small` · (none) · `Large`; `XS`/`XL` only for graded series. Proportion: `Wide`, `Tall`, `Narrow`.
 
@@ -96,7 +97,10 @@ Lock   Open          Check                           Corner       Narrow  → Lo
 - **Style series** (the same ideas drawn on several base drawings, e.g. bell-1…6): the most neutral base gets
   no word; every other base gets **one descriptive style word, the same on every icon of that base**, at the end.
   Current series: Bell `Rim`/`Knob`/`Flat`/`Dash`/`Wide`; Cloud `Tall`/`Round`; Lock `Sharp`/`Narrow`/`Wide`/`Round`;
-  At `Curved`/`Circle`/`Tall`/`Boxy`; Tab `Step`/`Sharp`/`Striped`; Window `Bare`/`Plain`; Chart bars `Thin`.
+  At `Curved`/`Circle`/`Tall`/`Boxy`; Tab `Step`/`Sharp`/`Striped`; Window `Bare`/`Plain`; Chart bars `Thin`;
+  media controls `Circle`/`Square` (container) and `Thick` (bars drawn as outlined thick bars);
+  Microphone `Bare` (no foot)/`Grille`/`Boxy`; ArrowRepeat `Tall`/`Curved`; ArrowClockwise/Counterclockwise `Chevron`
+  (chevron arrowhead leaving the circle); Volume `Wide` (small inner arc, wider outer arcs).
   Letters `B`, `C` only when no difference can be described (today only `Search`, `SearchB`, `SearchC`).
 - **Near-duplicates** (same base, same badge, tiny drawing difference): name the difference when you can
   (`CloudDownloadLarge`). Only when you cannot, add a trailing `2`, `3`. The library keeps these (about 50).

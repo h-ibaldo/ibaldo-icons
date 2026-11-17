@@ -17,10 +17,15 @@
  *
  * Fields in the batch replace the same fields in the existing metadata file;
  * other fields are kept. Nothing is written unless every entry is valid and
- * every name is unique across the whole library.
+ * every name is unique across the whole library, aliases included.
+ *
+ * With --create, entries for new icons (an SVG in static/icons/optimized/ but
+ * no metadata file yet) create the file. New entries must have every field
+ * (name, displayName, description, tags, categories, accessibility); the
+ * script fills technical, version, contributors and deprecated.
  *
  * Usage:
- *   node scripts/apply-metadata.js <batch.json> [--dry-run]
+ *   node scripts/apply-metadata.js <batch.json> [--dry-run] [--create]
  */
 
 import fs from 'fs';
@@ -37,12 +42,20 @@ const ROLES = ['decorative', 'informative', 'interactive'];
 const NAME_RE = new RegExp(schema.properties.name.pattern);
 const TAG_RE = new RegExp(schema.properties.tags.items.pattern);
 const BANNED_TAGS = ['variant', 'icon', 'primor'];
+const REQUIRED_ON_CREATE = ['name', 'displayName', 'description', 'tags', 'categories', 'accessibility'];
+const optimizedDir = path.join(root, 'static', 'icons', 'optimized');
+
+let CREATE = false;
 
 // Checks the fields present in a batch entry. "name" is always required;
 // the other fields are optional, so a batch can change only names.
 function validate(filename, m) {
   const errors = [];
-  if (!fs.existsSync(path.join(metaDir, `${filename}.json`))) errors.push('no metadata file');
+  if (!fs.existsSync(path.join(metaDir, `${filename}.json`))) {
+    if (!CREATE) errors.push('no metadata file (use --create for new icons)');
+    else if (!fs.existsSync(path.join(optimizedDir, `${filename}.svg`))) errors.push('no SVG in static/icons/optimized/');
+    else for (const k of REQUIRED_ON_CREATE) if (!(k in m)) errors.push(`new icon needs "${k}"`);
+  }
   if (!NAME_RE.test(m.name || '')) errors.push(`bad name "${m.name}"`);
   if ('description' in m) {
     const d = m.description || '';
@@ -73,20 +86,28 @@ function validate(filename, m) {
 function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
+  CREATE = args.includes('--create');
   const batchPath = args.find((a) => !a.startsWith('--'));
   if (!batchPath) {
-    console.log('Usage: node scripts/apply-metadata.js <batch.json> [--dry-run]');
+    console.log('Usage: node scripts/apply-metadata.js <batch.json> [--dry-run] [--create]');
     process.exit(1);
   }
   const batch = JSON.parse(fs.readFileSync(batchPath, 'utf8'));
 
-  // Every name in the library after this batch is applied
+  // Every name and alias in the library after this batch is applied
   const finalNames = new Map();
-  for (const f of fs.readdirSync(metaDir).filter((f) => f.endsWith('.json'))) {
-    const filename = f.replace(/\.json$/, '');
-    const name = batch[filename]?.name ?? JSON.parse(fs.readFileSync(path.join(metaDir, f), 'utf8')).name;
-    if (!finalNames.has(name)) finalNames.set(name, []);
-    finalNames.get(name).push(filename);
+  const aliasOwners = new Map();
+  const existing = fs.readdirSync(metaDir).filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, ''));
+  const created = Object.keys(batch).filter((f) => !existing.includes(f));
+  for (const filename of [...existing, ...created]) {
+    const current = existing.includes(filename) ? JSON.parse(fs.readFileSync(path.join(metaDir, `${filename}.json`), 'utf8')) : {};
+    const entry = { ...current, ...batch[filename] };
+    if (!finalNames.has(entry.name)) finalNames.set(entry.name, []);
+    finalNames.get(entry.name).push(filename);
+    for (const alias of entry.aliases || []) {
+      if (!aliasOwners.has(alias)) aliasOwners.set(alias, []);
+      aliasOwners.get(alias).push(filename);
+    }
   }
 
   let failed = false;
@@ -94,6 +115,8 @@ function main() {
     const errors = validate(filename, entry);
     const owners = finalNames.get(entry.name) || [];
     if (owners.length > 1) errors.push(`name "${entry.name}" also used by ${owners.filter((o) => o !== filename).join(', ')}`);
+    const aliasUsers = (aliasOwners.get(entry.name) || []).filter((o) => o !== filename);
+    if (aliasUsers.length) errors.push(`name "${entry.name}" is an alias of ${aliasUsers.join(', ')}`);
     if (errors.length) {
       failed = true;
       console.error(`✗ ${filename}: ${errors.join('; ')}`);
@@ -108,9 +131,19 @@ function main() {
   const now = new Date().toISOString();
   for (const [filename, entry] of Object.entries(batch)) {
     const file = path.join(metaDir, `${filename}.json`);
-    const current = JSON.parse(fs.readFileSync(file, 'utf8'));
-    const oldName = current.name;
-    const next = { ...current, ...entry, filename, namedBy: 'claude-code', updatedAt: now };
+    const isNew = !fs.existsSync(file);
+    const current = isNew
+      ? {
+          technical: { viewBox: '0 0 24 24', strokeWidth: 1.5, hasStroke: true, hasFill: false },
+          contributors: ['Henrique Ibaldo'],
+          version: '1.0.0',
+          deprecated: false
+        }
+      : JSON.parse(fs.readFileSync(file, 'utf8'));
+    const oldName = isNew ? '(new)' : current.name;
+    // New files list the descriptive fields first, like the existing ones
+    const head = isNew ? { ...Object.fromEntries(REQUIRED_ON_CREATE.map((k) => [k, entry[k]])), filename } : {};
+    const next = { ...head, ...current, ...entry, filename, namedBy: 'claude-code', updatedAt: now };
     if (!dryRun) fs.writeFileSync(file, JSON.stringify(next, null, 2) + '\n', 'utf8');
     // A file has exactly one name: drop every older key that points to it
     for (const [key, file] of Object.entries(nameIndex)) {

@@ -1,0 +1,37 @@
+{
+  "name": "ArrowClockwiseFiveChevron",
+  "displayName": "Arrow clockwise five chevron",
+  "description": "Clockwise circular arrow with the number 5 inside and a chevron arrowhead leaving the circle at the top.",
+  "tags": [
+    "skip-forward",
+    "forward-5",
+    "seconds",
+    "seek",
+    "jump",
+    "fast-forward",
+    "clockwise",
+    "media"
+  ],
+  "categories": [
+    "media",
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Forward 5 seconds"
+  },
+  "filename": "arrow-clockwise-five-chevron",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T16:04:08.263Z"
+}

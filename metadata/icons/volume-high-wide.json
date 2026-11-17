@@ -1,0 +1,35 @@
+{
+  "name": "VolumeHighWide",
+  "displayName": "Volume high wide",
+  "description": "Speaker cone with three sound arcs, a small inner arc and wider outer arcs.",
+  "tags": [
+    "volume",
+    "loud",
+    "high",
+    "max",
+    "sound",
+    "speaker",
+    "audio"
+  ],
+  "categories": [
+    "media"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Volume high"
+  },
+  "filename": "volume-high-wide",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T16:04:08.263Z"
+}
