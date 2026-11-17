@@ -60,7 +60,7 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   `Edit` (pencil), `Eye`, `Sync` (two curved arrows), `Refresh` (one curved arrow), `Upload`/`Download`
   (arrow joined to the object), `Arrow` + direction (loose arrow), `Transfer` (two straight opposite arrows),
   `Link`, `Star`, `Heart`, `Mail`, `User`, `Shield`, `Bolt`, `Music`, `Dots`, `Dollar`, `Pin`, `Paperclip`,
-  `Chat`, `Happy`/`Sad`/`Laugh`, `Typing` (three dots; two dots = `Dots`), `Reply`/`ReplyAll`/`Forward`, `Image`, `Video`, `Quote`, `Hash`, `Letters` (drawn text), `One`/`Two`/`Three`/`Five`/`Ten`/`Fifteen`/`Thirty` (drawn digits), `Translate` (文 glyph).
+  `Chat`, `Happy`/`Sad`/`Laugh`, `Typing` (three dots; two dots = `Dots`), `Reply`/`ReplyAll`/`Forward`, `Image`, `Video`, `Quote`, `Hash`, `Letters` (drawn text), `One`/`Two`/`Three`/`Five`/`Seven`/`Ten`/`Fifteen`/`Seventeen`/`Thirty`/`ThirtyOne` (drawn digits), `Percent`, `Translate` (文 glyph).
 - Containers and shapes: `Circle`, `Square`, `Octagon`, `Hexagon`, `Triangle`, `Diamond`, `Pentagon`.
   Outline: `Dashed`, `Dotted`. Fill: `Striped`, `Dotted`, `Filled`.
 - Directions: `Up`, `Down`, `Left`, `Right`, `UpDown`, `LeftRight`, `UpRight`, `UpLeft`, `DownRight`, `DownLeft`,
@@ -107,6 +107,8 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   Stopwatch `Tick`/`Bare`/`Knob`/`Detached`; Hourglass `Curved`/`Diagonal` (`Stand` = with boards); ClosedCaption `Boxy`/`Barrel`/`Cushion`/`Bare`;
   Pointer (arrow without tail) `Straight`; Cursor `Ripple`/`RippleDouble` (click arcs) and `Stem`; Navigation `Sharp`/`Round`;
   Gauge frames `Square`/`Dashed`/`Open`/`Flat`/`Half`/`Semicircle`/`Split`/`ThreeQuarter`/`Arch`/`Curved`; SquareStack `Overlap`/`Shadow`;
+  Calendar (no word = header line) `Plain`/`Slot`/`Bar`/`Flip`; Bluetooth `Narrow`; Tag `Round`/`Tilted`; Book `Block`; Notebook `Detached`;
+  ClosedCaption `Wide`/`Compact`; List with dash bullets `Dash`; Trash `Bucket`;
   Clipboard lists with 2 rows `Short`; dashed rings `DashedHalf`/`DashedHalfSmall`/`DashedHalfSparse`/`DashedHalfLong`/`DashedLong`/`DashedQuarter`.
   Letters `B`, `C` only when no difference can be described (today only `Search`, `SearchB`, `SearchC`).
 - **Near-duplicates** (same base, same badge, tiny drawing difference): name the difference when you can

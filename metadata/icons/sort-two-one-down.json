@@ -1,0 +1,35 @@
+{
+  "name": "SortTwoOneDown",
+  "displayName": "Sort two one down",
+  "description": "Digits 2 above 1 beside an arrow pointing down.",
+  "tags": [
+    "sort",
+    "order",
+    "numbers",
+    "arrow",
+    "descending",
+    "numeric",
+    "arrange"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Sort descending"
+  },
+  "filename": "sort-two-one-down",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

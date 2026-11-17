@@ -1,0 +1,39 @@
+{
+  "name": "CheckboxCheckDashed",
+  "displayName": "Checkbox check dashed",
+  "description": "Checked rounded square with a dashed empty square behind it.",
+  "tags": [
+    "checkbox",
+    "check",
+    "select",
+    "square",
+    "multiple",
+    "selection",
+    "done",
+    "confirm",
+    "approved",
+    "dashed",
+    "form"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Checkbox"
+  },
+  "filename": "checkbox-check-dashed",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

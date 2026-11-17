@@ -1,0 +1,32 @@
+import { createElement, forwardRef } from 'react';
+
+const TagStringRound = forwardRef(function TagStringRound(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M6.02 8.02L6.02 14.191C6.02 14.719 6.23 15.23 6.605 15.605L12.434 21.434C13.211 22.211 14.48 22.211 15.262 21.434L21.434 15.262C22.211 14.48 22.211 13.211 21.434 12.434L15.605 6.605C15.23 6.23 14.719 6.02 14.191 6.02L8.02 6.02C6.914 6.02 6.02 6.914 6.02 8.02Z","key":"0"}),
+    createElement('path', {"d":"M9.688 10.188C9.414 10.188 9.188 9.965 9.188 9.688C9.188 9.414 9.414 9.188 9.688 9.188C9.965 9.188 10.188 9.414 10.188 9.688C10.188 9.965 9.965 10.188 9.688 10.188Z","key":"1"}),
+    createElement('path', {"d":"M10.391 6.02C10.23 5.469 9.949 4.949 9.516 4.52L8.016 3.02C6.637 1.637 4.398 1.637 3.016 3.02C1.637 4.398 1.637 6.637 3.016 8.02L4.516 9.52C5.898 10.898 8.137 10.898 9.516 9.52","key":"2"})
+  );
+});
+
+TagStringRound.displayName = 'TagStringRound';
+
+export default TagStringRound;
+export { TagStringRound };

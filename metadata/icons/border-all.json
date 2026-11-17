@@ -1,0 +1,36 @@
+{
+  "name": "BorderAll",
+  "displayName": "Border all",
+  "description": "Rounded square divided into four by a cross.",
+  "tags": [
+    "border",
+    "table",
+    "cell",
+    "spreadsheet",
+    "all",
+    "cells",
+    "format",
+    "grid"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "All borders"
+  },
+  "filename": "border-all",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

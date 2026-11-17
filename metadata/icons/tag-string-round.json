@@ -1,0 +1,35 @@
+{
+  "name": "TagStringRound",
+  "displayName": "Tag string round",
+  "description": "Large rounded tag hanging from a string loop.",
+  "tags": [
+    "tag",
+    "label",
+    "price",
+    "price-tag",
+    "string",
+    "hanging",
+    "shopping"
+  ],
+  "categories": [
+    "shopping"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Price tag"
+  },
+  "filename": "tag-string-round",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

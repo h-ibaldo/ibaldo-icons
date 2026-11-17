@@ -1,0 +1,33 @@
+{
+  "name": "Bookshelf",
+  "displayName": "Bookshelf",
+  "description": "Three books of different heights standing on a shelf.",
+  "tags": [
+    "bookshelf",
+    "books",
+    "library",
+    "shelf",
+    "reading"
+  ],
+  "categories": [
+    "education"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Bookshelf"
+  },
+  "filename": "bookshelf",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "TagBarsTilted",
+  "displayName": "Tag bars tilted",
+  "description": "Tilted price tag with two short bars.",
+  "tags": [
+    "tag",
+    "label",
+    "price",
+    "price-tag",
+    "barcode",
+    "product",
+    "tilted",
+    "shopping"
+  ],
+  "categories": [
+    "shopping"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Price tag"
+  },
+  "filename": "tag-bars-tilted",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}
