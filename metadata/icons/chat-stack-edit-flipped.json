@@ -1,0 +1,38 @@
+{
+  "name": "ChatStackEditFlipped",
+  "displayName": "Chat stack edit flipped",
+  "description": "Speech bubble with its tail pointing up at the top left, over a second bubble with its tail at the bottom right, with a pencil inside.",
+  "tags": [
+    "chat",
+    "message",
+    "edit",
+    "pencil",
+    "write",
+    "compose",
+    "conversation",
+    "chat-stack",
+    "flipped",
+    "comment"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Edit message"
+  },
+  "filename": "chat-stack-edit-flipped",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

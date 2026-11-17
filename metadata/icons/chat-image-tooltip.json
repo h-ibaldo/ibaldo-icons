@@ -1,0 +1,40 @@
+{
+  "name": "ChatImageTooltip",
+  "displayName": "Chat image tooltip",
+  "description": "Rounded-rectangle speech bubble with a centered V-shaped tail, with a picture inside.",
+  "tags": [
+    "chat",
+    "message",
+    "image",
+    "photo",
+    "picture",
+    "media",
+    "attachment",
+    "speech-bubble",
+    "square",
+    "tooltip",
+    "comment"
+  ],
+  "categories": [
+    "communication",
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Image message"
+  },
+  "filename": "chat-image-tooltip",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

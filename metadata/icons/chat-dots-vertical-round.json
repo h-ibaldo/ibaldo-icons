@@ -1,0 +1,39 @@
+{
+  "name": "ChatDotsVerticalRound",
+  "displayName": "Chat dots vertical round",
+  "description": "Circular speech bubble with a small footed tail at the bottom left, with three vertical dots at the edge.",
+  "tags": [
+    "chat",
+    "message",
+    "dots",
+    "kebab",
+    "more",
+    "options",
+    "menu",
+    "speech-bubble",
+    "round",
+    "circle",
+    "comment"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Chat options"
+  },
+  "filename": "chat-dots-vertical-round",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

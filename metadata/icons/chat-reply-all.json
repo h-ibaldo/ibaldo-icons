@@ -1,0 +1,37 @@
+{
+  "name": "ChatReplyAll",
+  "displayName": "Chat reply all",
+  "description": "Oval speech bubble with a curled tail at the bottom left, with a double reply arrow inside.",
+  "tags": [
+    "chat",
+    "message",
+    "reply-all",
+    "reply",
+    "respond",
+    "arrow",
+    "speech-bubble",
+    "oval",
+    "comment"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Reply all"
+  },
+  "filename": "chat-reply-all",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

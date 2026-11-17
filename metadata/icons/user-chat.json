@@ -1,0 +1,36 @@
+{
+  "name": "UserChat",
+  "displayName": "User chat",
+  "description": "Person outline with two small square speech bubbles above, tails pointing toward each other.",
+  "tags": [
+    "user",
+    "chat",
+    "person",
+    "conversation",
+    "talk",
+    "discussion",
+    "speaking"
+  ],
+  "categories": [
+    "communication",
+    "people"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Person chatting"
+  },
+  "filename": "user-chat",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

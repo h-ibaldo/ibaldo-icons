@@ -60,7 +60,7 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   `Edit` (pencil), `Eye`, `Sync` (two curved arrows), `Refresh` (one curved arrow), `Upload`/`Download`
   (arrow joined to the object), `Arrow` + direction (loose arrow), `Transfer` (two straight opposite arrows),
   `Link`, `Star`, `Heart`, `Mail`, `User`, `Shield`, `Bolt`, `Music`, `Dots`, `Dollar`, `Pin`, `Paperclip`,
-  `Chat`, `Happy`/`Sad`, `One`/`Two`/`Three`/`Five`/`Ten`/`Fifteen`/`Thirty` (drawn digits), `Translate` (文 glyph).
+  `Chat`, `Happy`/`Sad`/`Laugh`, `Typing` (three dots; two dots = `Dots`), `Reply`/`ReplyAll`/`Forward`, `Image`, `Video`, `Quote`, `Hash`, `Letters` (drawn text), `One`/`Two`/`Three`/`Five`/`Ten`/`Fifteen`/`Thirty` (drawn digits), `Translate` (文 glyph).
 - Containers and shapes: `Circle`, `Square`, `Octagon`, `Hexagon`, `Triangle`, `Diamond`, `Pentagon`.
   Outline: `Dashed`, `Dotted`. Fill: `Striped`, `Dotted`, `Filled`.
 - Directions: `Up`, `Down`, `Left`, `Right`, `UpDown`, `LeftRight`, `UpRight`, `UpLeft`, `DownRight`, `DownLeft`,
@@ -101,6 +101,8 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   media controls `Circle`/`Square` (container) and `Thick` (bars drawn as outlined thick bars);
   Microphone `Bare` (no foot)/`Grille`/`Boxy`; ArrowRepeat `Tall`/`Curved`; ArrowClockwise/Counterclockwise `Chevron`
   (chevron arrowhead leaving the circle); Volume `Wide` (small inner arc, wider outer arcs).
+  Chat (bubble shape; the oval has no word) `Boxy`/`Tooltip`/`Round`/`Slant`/`Sharp`/`Broken`/`Wide`/`Pointed`/`Tall`/`Side`/`Flat`;
+  ChatStack `Layered`/`Facing`/`Notch`/`Flipped`/`Staggered` (or the front bubble's word).
   Letters `B`, `C` only when no difference can be described (today only `Search`, `SearchB`, `SearchC`).
 - **Near-duplicates** (same base, same badge, tiny drawing difference): name the difference when you can
   (`CloudDownloadLarge`). Only when you cannot, add a trailing `2`, `3`. The library keeps these (about 50).
