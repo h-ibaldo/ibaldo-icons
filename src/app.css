@@ -2,7 +2,14 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@font-face {
+	font-family: 'Pirilampo';
+	src: url('/fonts/PirilampoVF.woff2') format('woff2-variations'), url('/fonts/PirilampoVF.woff2') format('woff2');
+	font-weight: 300 700;
+	font-style: normal;
+	font-display: swap;
+}
+
 body {
-	font-family: area-variable, sans-serif;
-    letter-spacing: 0.01em;
+	font-family: 'Pirilampo', sans-serif;
 }

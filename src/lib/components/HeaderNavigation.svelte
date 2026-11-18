@@ -275,7 +275,7 @@
 
     <div class="flex items-center overflow-hidden">
 
-        <nav class="space-x-4 text-sm desktop-only nav-links font-medium {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
+        <nav class="space-x-4 text-sm desktop-only nav-links font-normal {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
             <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
             <a href="/about" class="text-indigo-500 hover:text-indigo-600">About</a>
             <a href="/packages" class="text-indigo-500 hover:text-indigo-600">Packages</a>

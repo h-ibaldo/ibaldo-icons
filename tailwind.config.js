@@ -9,13 +9,16 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Geist', 'sans-serif'],
+				sans: ['Pirilampo', 'sans-serif'],
 			},
             fontSize: {
                 xs: ['0.65rem', { lineHeight: '1rem' }],
                 sm: ['0.775rem', { lineHeight: '1.25rem' }],
                 base: ['1rem', { lineHeight: '1.5rem' }],
             },
+			fontWeight: {
+				semibold: '500',
+			},
 			colors: {
 				indigo: {
 					50: '#e6e6ff',
