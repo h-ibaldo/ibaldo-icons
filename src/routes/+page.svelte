@@ -10,7 +10,7 @@
   let size = 48;
   let weight = 1.5;
   let currentCategory = '';
-  let selectedCategory = '';
+  let selectedCategories = [];
   let search = '';
   let svgCache = {};
   // SVG bundles (see scripts/generate-icons-index.js): chunk index -> URL,
@@ -345,10 +345,11 @@
   }
 
   $: filteredIcons = (() => {
-    const inCategory = selectedCategory
+    // Several categories: an icon shows if it is in any of them
+    const inCategory = selectedCategories.length
       ? currentIcons.filter((icon) => {
           const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
-          return iconCats.includes(selectedCategory);
+          return iconCats.some((c) => selectedCategories.includes(c));
         })
       : currentIcons;
     const words = search.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -363,7 +364,8 @@
 
   // Virtual window over the filtered icons. The hero text takes the first
   // two cells of row 0 when there is no search.
-  $: heroSlots = search ? 0 : 2;
+  $: filtering = !!search || selectedCategories.length > 0;
+  $: heroSlots = filtering ? 0 : 2;
   $: totalRows = Math.ceil((filteredIcons.length + heroSlots) / cols);
   $: firstRow = Math.min(startRow, Math.max(0, totalRows - 1));
   $: lastRow = Math.min(totalRows, Math.max(endRow, firstRow + 1));
@@ -379,6 +381,10 @@
   $: filteredIcons, size, typeof window !== 'undefined' && onScrollOrResize();
 
   $: totalIcons = allIcons.length;
+  $: categoryCounts = allIcons.reduce((counts, icon) => {
+    for (const c of icon.categories || []) counts[c] = (counts[c] || 0) + 1;
+    return counts;
+  }, {});
 </script>
 
 <style>
@@ -645,14 +651,16 @@
   {/if}
 </div>
 
-<ActionsBar bind:search bind:size bind:weight bind:selectedCategory {totalIcons} {categories} />
+<ActionsBar bind:search bind:size bind:weight bind:selectedCategories {totalIcons} {categories} {categoryCounts} />
 <div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden mobile-content" id="main-content" tabindex="-1">
 
   <div class="mb-8">
       {#if currentIcons.length > 0}
-          {#if filteredIcons.length === 0 && search}
+          {#if filteredIcons.length === 0 && filtering}
             <div class="flex items-center justify-center py-16">
-              <p class="text-gray-600 text-sm">No icons found for "{search}"</p>
+              <p class="text-gray-600 text-sm">
+                No icons found{search ? ` for "${search}"` : ''}{selectedCategories.length ? ` in ${selectedCategories.join(', ')}` : ''}
+              </p>
             </div>
           {:else}
               <div bind:this={gridWrapper} style="padding-top: {padTop}px; padding-bottom: {padBottom}px;">
@@ -664,7 +672,7 @@
                   style="--icon-size: {size}px; --stroke-width: {weight}px;"
               >
                   <!-- Hero text block - responsive column spans -->
-                  {#if !search && firstRow === 0}
+                  {#if !filtering && firstRow === 0}
                   <div class="hero-text-cols row-span-1 sm:row-span-1 flex items-center justify-start sm:p-4 text-grid-cell">
                     <p class="text-sm font-normal leading-relaxed text-black text-start">
                         <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">

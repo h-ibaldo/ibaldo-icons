@@ -1,6 +1,7 @@
 <script>
-    import { onMount, onDestroy } from 'svelte';
-    import { fade } from 'svelte/transition';
+    import { onMount, onDestroy, tick } from 'svelte';
+    import { fade, slide } from 'svelte/transition';
+    import { cubicOut } from 'svelte/easing';
     import { browser } from '$app/environment';
 
     export let search = '';
@@ -8,56 +9,67 @@
     export let weight = 1;
     export let totalIcons = 0;
     export let categories = [];
-    export let selectedCategory = '';
+    // Several categories can be selected; an icon shows if it is in any of them
+    export let selectedCategories = [];
+    // { category: number of icons }, shown next to each filter
+    export let categoryCounts = {};
     
     let isSmallScreen = false;
     let maxSize = 92;
-    let searchFocused = false;
     let searchInput;
-    let showClearButton = false;
-    let animationTimeout;
     let resizeTimeout;
-    let placeholderText = 'Search icons...';
+    let shortcutLabel = '';
 
-    // Category dropdown state
-    let dropdownOpen = false;
-    let categorySearch = '';
-    let categoryInput;
-    let dropdownEl;
+    // Search: only an icon in the bar; clicking it slides a blue search bar
+    // in above the dark bar. Closing it clears the search.
+    let searchOpen = false;
 
-    $: categoryLabel = selectedCategory
-        ? selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1)
-        : 'All';
-
-    $: filteredCategories = categories.filter(c =>
-        !categorySearch || c.toLowerCase().includes(categorySearch.toLowerCase())
-    );
-
-    function openDropdown() {
-        dropdownOpen = true;
-        categorySearch = '';
-        // Focus the input after DOM update
-        setTimeout(() => { if (categoryInput) categoryInput.focus(); }, 0);
+    async function openSearch() {
+        searchOpen = true;
+        filtersOpen = false;
+        await tick();
+        if (searchInput) searchInput.focus();
     }
 
-    function closeDropdown() {
-        dropdownOpen = false;
-        categorySearch = '';
+    function closeSearch() {
+        searchOpen = false;
+        search = '';
     }
 
-    function selectCategory(cat) {
-        selectedCategory = cat;
-        closeDropdown();
+    function toggleSearch() {
+        if (searchOpen) closeSearch();
+        else openSearch();
     }
 
-    function handleDropdownKeydown(e) {
-        if (e.key === 'Escape') closeDropdown();
+    // Filters: the funnel opens a panel under the bar, as wide as the bar,
+    // with every category in columns (no scrolling). Multiple selection.
+    let filtersOpen = false;
+    let containerEl;
+
+    function toggleFilters() {
+        filtersOpen = !filtersOpen;
     }
+
+    function toggleCategory(cat) {
+        selectedCategories = selectedCategories.includes(cat)
+            ? selectedCategories.filter((c) => c !== cat)
+            : [...selectedCategories, cat];
+    }
+
+    function removeCategory(cat) {
+        selectedCategories = selectedCategories.filter((c) => c !== cat);
+    }
+
+    function clearCategories() {
+        selectedCategories = [];
+    }
+
+    const label = (cat) => cat.charAt(0).toUpperCase() + cat.slice(1);
 
     function handleOutsideClick(e) {
-        if (dropdownEl && !dropdownEl.contains(e.target)) closeDropdown();
+        if (filtersOpen && containerEl && !containerEl.contains(e.target)) filtersOpen = false;
     }
-    
+
     // Local values for immediate slider feedback
     let localSize = size;
     let localWeight = weight;
@@ -124,82 +136,32 @@
     function handleResize() {
         clearTimeout(resizeTimeout);
         resizeTimeout = setTimeout(() => {
-            windowWidth = window.innerWidth;
             checkScreenSize();
-            placeholderText = getPlaceholderText();
         }, 150);
-    }
-    
-    function clearSearch() {
-        search = '';
-        // Keep focus on input after clearing
-        if (searchInput) {
-            searchInput.focus();
-        }
-    }
-    
-    function handleFocus() {
-        searchFocused = true;
-        // Clear any existing timeout
-        if (animationTimeout) {
-            clearTimeout(animationTimeout);
-        }
-        // Show clear button after animation completes (0.1s delay + 0.3s duration = 400ms)
-        animationTimeout = setTimeout(() => {
-            showClearButton = true;
-        }, 400);
-    }
-    
-    function handleBlur() {
-        searchFocused = false;
-        showClearButton = false;
-        // Clear any pending timeout
-        if (animationTimeout) {
-            clearTimeout(animationTimeout);
-            animationTimeout = null;
-        }
     }
     
     function handleKeyDown(e) {
         // Cmd+K (Mac) or Ctrl+K (Windows/Linux)
         if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) {
             e.preventDefault();
-            if (searchInput) {
-                searchInput.focus();
-            }
+            openSearch();
         }
+        if (e.key === 'Escape' && filtersOpen) filtersOpen = false;
     }
     
-    let windowWidth = 0;
-    
-    function getPlaceholderText() {
-        if (!browser) return 'Search icons...';
-        const showShortcut = windowWidth > 767;
-        const baseText = 'Search icons...';
-        // const baseText = totalIcons > 0 ? `Search ${totalIcons} icons...` : 'Search icons...';
-        if (!showShortcut) {
-            return baseText;
-        }
-        const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0 || 
-                      navigator.userAgent.toUpperCase().indexOf('MAC') >= 0;
-        const shortcut = isMac ? '⌘K' : 'Ctrl+K';
-        return `${baseText} ${shortcut}`;
+    function getShortcutLabel() {
+        if (!browser) return '';
+        const isMac = /MAC/i.test(navigator.platform) || /MAC/i.test(navigator.userAgent);
+        return isMac ? '⌘K' : 'Ctrl+K';
     }
-    
-    $: if (browser) {
-        // Reference totalIcons explicitly for reactivity
-        const _ = totalIcons;
-        placeholderText = getPlaceholderText();
-    }
-    
+
     onMount(() => {
         checkScreenSize();
         if (browser) {
             // Cache grid element reference for performance
             gridElement = document.querySelector('[role="list"]');
 
-            windowWidth = window.innerWidth;
-            placeholderText = getPlaceholderText();
+            shortcutLabel = getShortcutLabel();
             window.addEventListener('resize', handleResize);
             window.addEventListener('keydown', handleKeyDown);
             window.addEventListener('mousedown', handleOutsideClick, { passive: true });
@@ -212,9 +174,6 @@
             window.removeEventListener('keydown', handleKeyDown);
             window.removeEventListener('mousedown', handleOutsideClick);
         }
-        if (animationTimeout) {
-            clearTimeout(animationTimeout);
-        }
         if (resizeTimeout) {
             clearTimeout(resizeTimeout);
         }
@@ -225,15 +184,16 @@
 </script>
 
 <style>
+    /* Sticky wrapper: blue search bar (optional), dark bar, filter panel */
     .actions-bar-container {
         position: sticky;
         top: 0;
         z-index: 40;
-        /* background: black; */
-        /* transition: all 0.3s ease; */
-        margin: auto;
+        margin: 30px auto 0;
         max-width: 100%;
         width: 750px;
+        display: flex;
+        flex-direction: column;
     }
 
     .actions-bar {
@@ -241,84 +201,172 @@
         align-items: center;
         gap: 0.5rem;
         padding: 0.25rem 0.25rem;
-        max-width: 1200px;
-        margin: 30px auto 10px;
         min-height: 3rem;
     }
 
-    .search-category-row {
+    .bar-buttons {
         display: flex;
         align-items: center;
-        gap: 0.5rem;
         flex: 0 0 auto;
     }
 
-    .search-wrapper {
+    .bar-button {
         position: relative;
-        flex: 0 0 180px;
-    }
-
-    .category-wrapper {
-        flex: 0 0 180px;
-    }
-
-    .search-icon {
-        position: absolute;
-        left: 12px;
-        top: 50%;
-        transform: translateY(-50%);
-        color: white;
-        pointer-events: none;
-    }
-
-    .clear-button {
-        position: absolute;
-        right: 12px;
-        top: 50%;
-        transform: translateY(-50%);
-        background: none;
-        border: none;
-        padding: 0;
-        cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 12px;
-        height: 12px;
+        width: 2.5rem;
+        height: 2.5rem;
         color: white;
-        opacity: 0.7;
-        transition: opacity 0.2s ease;
-    }
-
-    .clear-button:hover {
-        opacity: 1;
-    }
-
-    .clear-button:focus-visible {
-        outline: 2px solid white;
-        outline-offset: 2px;
-        opacity: 1;
-    }
-
-    .search-input {
-        width: 100%;
-        background-color: transparent;
+        opacity: 0.75;
+        background: transparent;
         border: none;
+        cursor: pointer;
+        transition: opacity 0.15s ease, background-color 0.15s ease;
+    }
+    .bar-button:hover, .bar-button.active { opacity: 1; }
+    .bar-button.active { background-color: rgba(255, 255, 255, 0.08); }
+    .bar-button:focus-visible { outline: 2px solid white; outline-offset: -2px; opacity: 1; }
+    .bar-button svg :global(*) { stroke-width: 2; }
+
+    /* Number of active filters on the funnel */
+    .badge {
+        position: absolute;
+        top: 4px;
+        right: 2px;
+        min-width: 16px;
+        height: 16px;
+        padding: 0 4px;
+        border-radius: 8px;
+        background: #0900FF;
         color: white;
-        padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+        font-size: 10px;
+        line-height: 16px;
+        font-variant-numeric: tabular-nums;
+    }
+
+    /* Blue search bar that slides in above the dark bar */
+    .search-bar {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: #0900FF;
+        padding: 0 0.25rem 0 0.75rem;
+        overflow: hidden;
+    }
+    .search-input {
+        flex: 1;
+        min-width: 0;
+        height: 3rem;
+        background: #0700CC;
+        border: none;
         outline: none;
+        color: white;
         font-size: 14px;
-        transition: background-color 0.3s ease;
+        padding: 0 0.75rem;
     }
-
-    .search-input:focus {
-        background-color: #0700CC;
-        padding-right: 2rem;
-    }
-
-    .search-input::placeholder {
+    .search-input::placeholder { color: rgba(255, 255, 255, 0.6); }
+    .search-bar .bar-button { opacity: 0.85; }
+    .shortcut {
         color: rgba(255, 255, 255, 0.6);
+        font-size: 12px;
+        white-space: nowrap;
     }
+
+    /* Filter panel: as wide as the bar, categories in columns */
+    .filter-panel {
+        background: rgb(15 23 42);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+    }
+    .filter-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 2px;
+        padding: 0.75rem;
+    }
+    .filter-option {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.4rem 0.5rem;
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 13px;
+        text-align: left;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.1s ease, color 0.1s ease;
+    }
+    .filter-option:hover { background: rgba(255, 255, 255, 0.07); color: white; }
+    .filter-option.selected { color: white; }
+    .filter-option:focus-visible { outline: 2px solid white; outline-offset: -2px; }
+    .check {
+        flex: 0 0 auto;
+        width: 14px;
+        height: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .filter-option.selected .check { background: #0900FF; border-color: #0900FF; }
+    .count {
+        margin-left: auto;
+        color: rgba(255, 255, 255, 0.35);
+        font-size: 11px;
+        font-variant-numeric: tabular-nums;
+    }
+    .filter-footer {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 0.75rem 0.75rem;
+    }
+    .text-button {
+        background: none;
+        border: none;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 12px;
+        cursor: pointer;
+        padding: 0.25rem 0.5rem;
+    }
+    .text-button:hover { color: white; }
+
+    /* Active filters, below the bar and above the icons */
+    .pills {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 12px auto 0;
+        max-width: 100%;
+        width: 750px;
+    }
+    .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.25rem 0.35rem 0.25rem 0.6rem;
+        background: rgb(15 23 42);
+        color: white;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .pill button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16px;
+        height: 16px;
+        background: none;
+        border: none;
+        color: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        padding: 0;
+    }
+    .pill button:hover { color: white; }
+    .pills .text-button { color: rgb(71 85 105); }
+    .pills .text-button:hover { color: rgb(15 23 42); }
 
     .slider-group {
         display: flex;
@@ -426,50 +474,31 @@
         border-width: 0;
     }
 
-    /* Dropdown search placeholder + scrollbar (can't be done with standard Tailwind) */
-    .dropdown-search::placeholder { color: rgba(255,255,255,0.35); }
-    .dropdown-list { scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.2) transparent; }
+    @media (max-width: 900px) {
+        .filter-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
 
     @media (max-width: 768px) {
         .actions-bar-container {
             position: fixed;
             bottom: 0;
-            top:auto;
+            top: auto;
             left: 0;
             right: 0;
-            z-index: 40;
+            margin: 0;
+            width: auto;
             max-width: 100vw;
         }
+        /* The bar sits at the bottom, so the filter panel opens above it */
+        .filter-panel { order: -1; border-top: none; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         .actions-bar {
-            flex-direction: column;
-            gap: 1rem;
+            gap: 0.75rem;
             padding: 0.5rem 0.5rem 1.5rem 0.5rem;
-            margin: 0;
         }
-
-        .search-category-row {
-            width: 100%;
-            gap: 0;
-        }
-
-        .search-wrapper {
-            flex: 0 0 50%;
-        }
-
-        .category-wrapper {
-            flex: 0 0 50%;
-        }
-        
-        .search-input {
-            font-size: 16px; /* Prevent zoom on mobile when focusing */
-        }
-        
-        .search-input:focus {
-            width: 100%;
-            background-color: #0700CC;
-            transition-delay: 0.1s;
-            padding-right: 2rem; /* Make room for clear button */
-        }
+        .search-input { font-size: 16px; } /* no zoom on focus */
+        .shortcut { display: none; }
+        .pills { padding: 0 1rem; }
 
         .slider-group {
             width: 100%;
@@ -501,106 +530,62 @@
     }
 </style>
 
-<div class="actions-bar-container bg-slate-900">
-    <div class="actions-bar">
-        <!-- Search + Category row -->
-        <div class="search-category-row">
-
-        <!-- Search -->
-        <div class="search-wrapper">
+<div class="actions-bar-container" bind:this={containerEl}>
+    {#if searchOpen}
+        <div class="search-bar" transition:slide={{ duration: 220, easing: cubicOut }}>
             <label for="icon-search" class="sr-only">Search icons</label>
-            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <circle cx="11" cy="11" r="8"></circle>
-                <path d="m21 21-4.35-4.35"></path>
-            </svg>
             <input
                 id="icon-search"
                 bind:this={searchInput}
                 type="text"
-                placeholder={placeholderText || (totalIcons > 0 ? `Search ${totalIcons} icons...` : 'Search icons...')}
+                placeholder={totalIcons > 0 ? `Search ${totalIcons.toLocaleString('en-US')} icons...` : 'Search icons...'}
                 bind:value={search}
-                onfocus={handleFocus}
-                onblur={handleBlur}
-                onkeydown={(e) => {
-                    if (e.key === 'Escape') {
-                        if (searchInput) {
-                            searchInput.blur();
-                        }
-                    }
-                }}
-                class="search-input focus:outline-none focus:ring-0 focus:bg-indigo-600"
-                aria-label="Search icons"
+                onkeydown={(e) => { if (e.key === 'Escape') closeSearch(); }}
+                class="search-input"
+                autocomplete="off"
+                spellcheck="false"
             />
-            {#if showClearButton && search}
+            {#if shortcutLabel}<span class="shortcut" aria-hidden="true">{shortcutLabel}</span>{/if}
+            <button type="button" class="bar-button" onclick={closeSearch} aria-label="Close search">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true">
+                    <line x1="2" y1="22" x2="22" y2="2"></line>
+                    <line x1="22" y1="22" x2="2" y2="2"></line>
+                </svg>
+            </button>
+        </div>
+    {/if}
+
+    <div class="actions-bar bg-slate-900">
+        <div class="bar-buttons">
+            <button
+                type="button"
+                class="bar-button {searchOpen || search ? 'active' : ''}"
+                onclick={toggleSearch}
+                aria-label="Search icons"
+                aria-expanded={searchOpen}
+                aria-controls="icon-search"
+            >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="9"></circle>
+                    <line x1="17.364" y1="17.364" x2="22" y2="22"></line>
+                </svg>
+            </button>
+            {#if categories.length > 0}
                 <button
                     type="button"
-                    class="clear-button"
-                    onclick={clearSearch}
-                    onmousedown={(e) => e.preventDefault()}
-                    aria-label="Clear search"
-                    transition:fade={{ duration: 200 }}
+                    class="bar-button {filtersOpen || selectedCategories.length ? 'active' : ''}"
+                    onclick={toggleFilters}
+                    aria-label="Filter by category"
+                    aria-expanded={filtersOpen}
+                    aria-controls="filter-panel"
                 >
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <line x1="1.999999990790457" y1="22.000000000897671" x2="21.999999990790457" y2="2.000000000897671"></line>
-                        <line x1="21.999999990799552" y1="22.000000001345143" x2="1.999999991699951" y2="2.000000000448381"></line>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M3.926 3h16.072c.817 0 1.29.927.809 1.588L13.962 14v6l-4 2v-8L3.117 4.588C2.636 3.927 3.108 3 3.926 3Z"></path>
                     </svg>
+                    {#if selectedCategories.length}<span class="badge">{selectedCategories.length}</span>{/if}
                 </button>
             {/if}
         </div>
-
-        <!-- Category Dropdown -->
-        {#if categories.length > 0}
-        <div class="category-wrapper relative" bind:this={dropdownEl}>
-            <button
-                type="button"
-                class="flex items-center gap-1.5 bg-transparent border-none text-white text-sm cursor-pointer px-2 py-1.5 whitespace-nowrap opacity-70 hover:opacity-100 transition-opacity duration-150"
-                onclick={openDropdown}
-                aria-haspopup="listbox"
-                aria-expanded={dropdownOpen}
-                aria-label="Filter by category"
-            >
-                {categoryLabel}
-                <svg class="shrink-0 transition-transform duration-150 {dropdownOpen ? 'rotate-180' : ''}" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-            </button>
-
-            {#if dropdownOpen}
-            <div class="absolute top-[calc(100%+6px)] left-0 bg-slate-900 border border-white/10 min-w-40 z-[100] overflow-hidden" role="dialog" tabindex="-1" onkeydown={handleDropdownKeydown}>
-                <input
-                    bind:this={categoryInput}
-                    bind:value={categorySearch}
-                    type="text"
-                    class="dropdown-search w-full bg-transparent border-0 border-b border-white/10 text-white text-[13px] px-3 py-2 outline-none"
-                    placeholder="Search..."
-                    aria-label="Search categories"
-                />
-                <div class="dropdown-list max-h-[220px] overflow-y-auto" role="listbox">
-                    <button
-                        type="button"
-                        class="block w-full text-left bg-transparent border-none text-[13px] px-3 py-1.5 cursor-pointer transition-colors duration-100 {selectedCategory === '' ? 'text-white bg-indigo-600/40' : 'text-white/70 hover:bg-white/[0.07] hover:text-white'}"
-                        role="option"
-                        aria-selected={selectedCategory === ''}
-                        onclick={() => selectCategory('')}
-                    >All</button>
-                    {#each filteredCategories as cat}
-                        <button
-                            type="button"
-                            class="block w-full text-left bg-transparent border-none text-[13px] px-3 py-1.5 cursor-pointer transition-colors duration-100 {selectedCategory === cat ? 'text-white bg-indigo-600/40' : 'text-white/70 hover:bg-white/[0.07] hover:text-white'}"
-                            role="option"
-                            aria-selected={selectedCategory === cat}
-                            onclick={() => selectCategory(cat)}
-                        >{cat.charAt(0).toUpperCase() + cat.slice(1)}</button>
-                    {:else}
-                        <span class="block text-white/35 text-[13px] px-3 py-2">No results</span>
-                    {/each}
-                </div>
-            </div>
-            {/if}
-        </div>
-        {/if}
-
-        </div><!-- end search-category-row -->
 
         <!-- Size Slider -->
         <div class="slider-group">
@@ -646,4 +631,53 @@
             <span class="slider-value" aria-hidden="true">{localWeight}pt</span>
         </div>
     </div>
+
+    {#if filtersOpen}
+        <div id="filter-panel" class="filter-panel" role="group" aria-label="Categories" transition:slide={{ duration: 200, easing: cubicOut }}>
+            <div class="filter-grid">
+                {#each categories as cat}
+                    {@const selected = selectedCategories.includes(cat)}
+                    <button
+                        type="button"
+                        class="filter-option {selected ? 'selected' : ''}"
+                        role="checkbox"
+                        aria-checked={selected}
+                        onclick={() => toggleCategory(cat)}
+                    >
+                        <span class="check" aria-hidden="true">
+                            {#if selected}
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 12.5 9.5 18 20 6"></polyline></svg>
+                            {/if}
+                        </span>
+                        {label(cat)}
+                        {#if categoryCounts[cat]}<span class="count">{categoryCounts[cat].toLocaleString('en-US')}</span>{/if}
+                    </button>
+                {/each}
+            </div>
+            {#if selectedCategories.length}
+                <div class="filter-footer">
+                    <button type="button" class="text-button" onclick={clearCategories}>Clear filters</button>
+                </div>
+            {/if}
+        </div>
+    {/if}
 </div>
+
+{#if selectedCategories.length}
+    <div class="pills" aria-label="Active filters" transition:fade={{ duration: 150 }}>
+        {#each selectedCategories as cat (cat)}
+            <span class="pill" transition:fade={{ duration: 150 }}>
+                {label(cat)}
+                <button type="button" onclick={() => removeCategory(cat)} aria-label="Remove filter {label(cat)}">
+                    <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
+                        <line x1="2" y1="22" x2="22" y2="2"></line>
+                        <line x1="22" y1="22" x2="2" y2="2"></line>
+                    </svg>
+                </button>
+            </span>
+        {/each}
+        {#if selectedCategories.length > 1}
+            <button type="button" class="text-button" onclick={clearCategories}>Clear all</button>
+        {/if}
+    </div>
+{/if}
