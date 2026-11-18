@@ -1,6 +1,6 @@
 <script>
     import { onMount, onDestroy, tick } from 'svelte';
-    import { fade, slide } from 'svelte/transition';
+    import { slide } from 'svelte/transition';
     import { cubicOut } from 'svelte/easing';
     import { browser } from '$app/environment';
 
@@ -724,9 +724,9 @@
     {/if}
 
     {#if selectedCategories.length || (search && !searchOpen)}
-        <div class="pills" aria-label="Active filters" transition:fade={{ duration: 150 }}>
+        <div class="pills" aria-label="Active filters">
             {#if search && !searchOpen}
-                <span class="pill pill-search" transition:fade={{ duration: 150 }}>
+                <span class="pill pill-search">
                     <button type="button" class="pill-label" onclick={openSearch} aria-label="Edit search">“{search}”</button>
                     <button type="button" onclick={clearSearch} aria-label="Clear search">
                         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
@@ -737,7 +737,7 @@
                 </span>
             {/if}
             {#each selectedCategories as cat (cat)}
-                <span class="pill" transition:fade={{ duration: 150 }}>
+                <span class="pill">
                     {label(cat)}
                     <button type="button" onclick={() => removeCategory(cat)} aria-label="Remove filter {label(cat)}">
                         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
