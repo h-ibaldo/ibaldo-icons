@@ -544,11 +544,11 @@
     
     /* Icon color */
     .color-wrapper { position: relative; flex: 0 0 auto; }
-    /* Flat color with a constant light border. 30 CSS px = 60 px on a 2x screen */
+    /* Flat color with a constant light border */
     .swatch {
         display: block;
-        width: 30px;
-        height: 30px;
+        width: 23px;
+        height: 23px;
         border: 1px solid #cbd5e1;
     }
     .color-popover {
