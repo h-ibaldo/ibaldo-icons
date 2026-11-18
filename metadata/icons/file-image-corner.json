@@ -1,0 +1,35 @@
+{
+  "name": "FileImageCorner",
+  "displayName": "File image corner",
+  "description": "File page with a small folded corner with a sun and two mountains sticking out at the bottom left.",
+  "tags": [
+    "file",
+    "image",
+    "picture",
+    "photo",
+    "mountains",
+    "corner"
+  ],
+  "categories": [
+    "files",
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Image file"
+  },
+  "filename": "file-image-corner",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:36:35.080Z"
+}

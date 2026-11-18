@@ -1,0 +1,35 @@
+{
+  "name": "FileCheckCornerCut",
+  "displayName": "File check corner cut",
+  "description": "File page with a cut corner with a check mark at the bottom right corner.",
+  "tags": [
+    "file",
+    "check",
+    "done",
+    "approved",
+    "verified",
+    "corner",
+    "cut-corner"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "File done"
+  },
+  "filename": "file-check-corner-cut",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:36:35.080Z"
+}

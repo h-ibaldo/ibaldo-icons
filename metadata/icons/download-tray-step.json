@@ -1,0 +1,35 @@
+{
+  "name": "DownloadTrayStep",
+  "displayName": "Download tray step",
+  "description": "Arrow pointing down into a flat tray with a stepped bottom.",
+  "tags": [
+    "download",
+    "tray",
+    "arrow",
+    "save",
+    "inbox",
+    "receive"
+  ],
+  "categories": [
+    "files",
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Download"
+  },
+  "filename": "download-tray-step",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:36:35.080Z"
+}

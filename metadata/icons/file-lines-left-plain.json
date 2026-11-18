@@ -1,0 +1,35 @@
+{
+  "name": "FileLinesLeftPlain",
+  "displayName": "File lines left plain",
+  "description": "Plain rounded rectangle page with left-aligned text lines of different lengths.",
+  "tags": [
+    "file",
+    "document",
+    "text",
+    "lines",
+    "notes",
+    "paragraph",
+    "plain"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Text file"
+  },
+  "filename": "file-lines-left-plain",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:36:35.080Z"
+}

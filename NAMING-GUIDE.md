@@ -112,6 +112,7 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   Link (11 bases, all named) `Slanted`/`Wide`/`Bracket`/`Round`/`Flat`/`Bar`/`Notched`/`Clip`/`Compact`/`Interlocked`/`Slim`, vertical `Vertical`/`Boxy`;
   Arrow parts `Uturn`, `Corner`, `Converge`/`Diverge`, `Orbit`, `Harpoon`, `Hook`, `FromDot`/`ToDot`/`FromBar`, `Joined`, `Segmented`, `Out`/`In` (through a gap);
   Medal `Strap`/`Banner`/`Hook`/`Folded`/`Stripe`;
+  File (folded corner = no word) `Cut`/`Plain`; simple arrows by head size (none)/`Narrow`/`Slim`, larger circle arrows/chevrons `Large`;
   Clipboard lists with 2 rows `Short`; dashed rings `DashedHalf`/`DashedHalfSmall`/`DashedHalfSparse`/`DashedHalfLong`/`DashedLong`/`DashedQuarter`.
   Letters `B`, `C` only when no difference can be described (today only `Search`, `SearchB`, `SearchC`).
 - **Near-duplicates** (same base, same badge, tiny drawing difference): name the difference when you can

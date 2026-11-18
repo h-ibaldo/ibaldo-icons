@@ -2746,6 +2746,9 @@ const Crop = require('./icons/Crop.js');
 const CropArrowBend = require('./icons/CropArrowBend.js');
 const CropCircle = require('./icons/CropCircle.js');
 const CropDashed = require('./icons/CropDashed.js');
+const CropMarksSquare = require('./icons/CropMarksSquare.js');
+const CropMarksThreeLines = require('./icons/CropMarksThreeLines.js');
+const CropMarksTwoLines = require('./icons/CropMarksTwoLines.js');
 const CropOff = require('./icons/CropOff.js');
 const CropSquare = require('./icons/CropSquare.js');
 const CropSync = require('./icons/CropSync.js');
@@ -2902,6 +2905,7 @@ const UploadSquare = require('./icons/UploadSquare.js');
 const UploadTray = require('./icons/UploadTray.js');
 const DownloadDotted = require('./icons/DownloadDotted.js');
 const DownloadDottedFlat = require('./icons/DownloadDottedFlat.js');
+const DownloadTrayStep = require('./icons/DownloadTrayStep.js');
 const DownloadTriangle = require('./icons/DownloadTriangle.js');
 const DragCursor = require('./icons/DragCursor.js');
 const DragHand = require('./icons/DragHand.js');
@@ -2910,6 +2914,10 @@ const DragFile = require('./icons/DragFile.js');
 const DragImage = require('./icons/DragImage.js');
 const DragArrowUpLeft = require('./icons/DragArrowUpLeft.js');
 const DragArrowDownRight = require('./icons/DragArrowDownRight.js');
+const Ear = require('./icons/Ear.js');
+const EarPulse = require('./icons/EarPulse.js');
+const EarRingLeft = require('./icons/EarRingLeft.js');
+const EarRingRight = require('./icons/EarRingRight.js');
 const EarbudsBluetooth = require('./icons/EarbudsBluetooth.js');
 const Eject = require('./icons/Eject.js');
 const EjectCircle = require('./icons/EjectCircle.js');
@@ -2955,16 +2963,213 @@ const FastForwardCircle = require('./icons/FastForwardCircle.js');
 const FastForwardSquare = require('./icons/FastForwardSquare.js');
 const ListStarBullets = require('./icons/ListStarBullets.js');
 const File = require('./icons/File.js');
+const FileArrowBend = require('./icons/FileArrowBend.js');
+const FileArrowBendCut = require('./icons/FileArrowBendCut.js');
+const FileArrowBendPlain = require('./icons/FileArrowBendPlain.js');
+const FileArrowDown = require('./icons/FileArrowDown.js');
+const FileArrowDownCorner = require('./icons/FileArrowDownCorner.js');
+const FileArrowDownCornerCut = require('./icons/FileArrowDownCornerCut.js');
+const FileArrowDownCornerPlain = require('./icons/FileArrowDownCornerPlain.js');
+const FileArrowDownCut = require('./icons/FileArrowDownCut.js');
+const FileArrowDownPlain = require('./icons/FileArrowDownPlain.js');
+const FileArrowIn = require('./icons/FileArrowIn.js');
+const FileArrowInCut = require('./icons/FileArrowInCut.js');
+const FileArrowInPlain = require('./icons/FileArrowInPlain.js');
+const FileArrowOut = require('./icons/FileArrowOut.js');
+const FileArrowOutCut = require('./icons/FileArrowOutCut.js');
+const FileArrowOutPlain = require('./icons/FileArrowOutPlain.js');
+const FileArrowUp = require('./icons/FileArrowUp.js');
+const FileArrowUpCorner = require('./icons/FileArrowUpCorner.js');
+const FileArrowUpCornerCut = require('./icons/FileArrowUpCornerCut.js');
+const FileArrowUpCornerPlain = require('./icons/FileArrowUpCornerPlain.js');
+const FileArrowUpCut = require('./icons/FileArrowUpCut.js');
+const FileArrowUpPlain = require('./icons/FileArrowUpPlain.js');
+const FileArrowUpRightCorner = require('./icons/FileArrowUpRightCorner.js');
+const FileArrowUpRightCornerCut = require('./icons/FileArrowUpRightCornerCut.js');
+const FileArrowUpRightCornerPlain = require('./icons/FileArrowUpRightCornerPlain.js');
+const FileArrowUturnRight = require('./icons/FileArrowUturnRight.js');
+const FileArrowUturnRightCut = require('./icons/FileArrowUturnRightCut.js');
+const FileArrowUturnRightPlain = require('./icons/FileArrowUturnRightPlain.js');
+const FileArticle = require('./icons/FileArticle.js');
+const FileArticleCut = require('./icons/FileArticleCut.js');
+const FileArticlePlain = require('./icons/FileArticlePlain.js');
+const FileBan = require('./icons/FileBan.js');
+const FileBanCut = require('./icons/FileBanCut.js');
+const FileBanPlain = require('./icons/FileBanPlain.js');
 const FileBrackets = require('./icons/FileBrackets.js');
 const FileBracketsRight = require('./icons/FileBracketsRight.js');
+const FileCast = require('./icons/FileCast.js');
+const FileCastCorner = require('./icons/FileCastCorner.js');
+const FileCastCornerCut = require('./icons/FileCastCornerCut.js');
+const FileCastCornerPlain = require('./icons/FileCastCornerPlain.js');
+const FileCastCut = require('./icons/FileCastCut.js');
+const FileCastPlain = require('./icons/FileCastPlain.js');
+const FileChartBar = require('./icons/FileChartBar.js');
+const FileChartBarCut = require('./icons/FileChartBarCut.js');
+const FileChartBarPlain = require('./icons/FileChartBarPlain.js');
+const FileCheck = require('./icons/FileCheck.js');
+const FileCheckCircle = require('./icons/FileCheckCircle.js');
+const FileCheckCircleCut = require('./icons/FileCheckCircleCut.js');
+const FileCheckCirclePlain = require('./icons/FileCheckCirclePlain.js');
+const FileCheckCorner = require('./icons/FileCheckCorner.js');
+const FileCheckCornerCut = require('./icons/FileCheckCornerCut.js');
+const FileCheckCornerPlain = require('./icons/FileCheckCornerPlain.js');
+const FileCheckCut = require('./icons/FileCheckCut.js');
+const FileCheckPlain = require('./icons/FileCheckPlain.js');
 const FileCode = require('./icons/FileCode.js');
 const FileCodeRight = require('./icons/FileCodeRight.js');
+const FileCut = require('./icons/FileCut.js');
+const FileEdit = require('./icons/FileEdit.js');
+const FileEditCorner = require('./icons/FileEditCorner.js');
+const FileEditCornerCut = require('./icons/FileEditCornerCut.js');
+const FileEditCornerPlain = require('./icons/FileEditCornerPlain.js');
+const FileEditCut = require('./icons/FileEditCut.js');
+const FileEditDetailed = require('./icons/FileEditDetailed.js');
+const FileEditDetailedCut = require('./icons/FileEditDetailedCut.js');
+const FileEditDetailedPlain = require('./icons/FileEditDetailedPlain.js');
+const FileEditLeft = require('./icons/FileEditLeft.js');
+const FileEditLeftCut = require('./icons/FileEditLeftCut.js');
+const FileEditLeftPlain = require('./icons/FileEditLeftPlain.js');
+const FileEditPlain = require('./icons/FileEditPlain.js');
+const FileEye = require('./icons/FileEye.js');
+const FileEyeCut = require('./icons/FileEyeCut.js');
+const FileEyePlain = require('./icons/FileEyePlain.js');
+const FileFilter = require('./icons/FileFilter.js');
+const FileFilterCut = require('./icons/FileFilterCut.js');
+const FileFilterPlain = require('./icons/FileFilterPlain.js');
+const FileImage = require('./icons/FileImage.js');
+const FileImageCorner = require('./icons/FileImageCorner.js');
+const FileImageCornerCut = require('./icons/FileImageCornerCut.js');
+const FileImageCornerPlain = require('./icons/FileImageCornerPlain.js');
+const FileImageCut = require('./icons/FileImageCut.js');
+const FileImageInset = require('./icons/FileImageInset.js');
+const FileImageInsetCut = require('./icons/FileImageInsetCut.js');
+const FileImageInsetPlain = require('./icons/FileImageInsetPlain.js');
+const FileImagePlain = require('./icons/FileImagePlain.js');
+const FileJoinedArrowDiagonal = require('./icons/FileJoinedArrowDiagonal.js');
+const FileJoinedArrowDiagonalCut = require('./icons/FileJoinedArrowDiagonalCut.js');
+const FileJoinedCodeCut = require('./icons/FileJoinedCodeCut.js');
+const FileJoinedDots = require('./icons/FileJoinedDots.js');
+const FileJoinedDotsCut = require('./icons/FileJoinedDotsCut.js');
+const FileLines = require('./icons/FileLines.js');
+const FileLinesCut = require('./icons/FileLinesCut.js');
+const FileLinesDashed = require('./icons/FileLinesDashed.js');
+const FileLinesDashedCut = require('./icons/FileLinesDashedCut.js');
+const FileLinesDashedPlain = require('./icons/FileLinesDashedPlain.js');
+const FileLinesEdit = require('./icons/FileLinesEdit.js');
+const FileLinesEditCorner = require('./icons/FileLinesEditCorner.js');
+const FileLinesEditCornerCut = require('./icons/FileLinesEditCornerCut.js');
+const FileLinesEditCornerPlain = require('./icons/FileLinesEditCornerPlain.js');
+const FileLinesEditCut = require('./icons/FileLinesEditCut.js');
+const FileLinesEditPlain = require('./icons/FileLinesEditPlain.js');
+const FileLinesLeft = require('./icons/FileLinesLeft.js');
+const FileLinesLeftCut = require('./icons/FileLinesLeftCut.js');
+const FileLinesLeftPlain = require('./icons/FileLinesLeftPlain.js');
+const FileLinesPlain = require('./icons/FileLinesPlain.js');
+const FileLinesSearch = require('./icons/FileLinesSearch.js');
+const FileLinesSearchCut = require('./icons/FileLinesSearchCut.js');
+const FileLinesSearchPlain = require('./icons/FileLinesSearchPlain.js');
 const FileLinkBracket = require('./icons/FileLinkBracket.js');
 const FileLinkLeftSlanted = require('./icons/FileLinkLeftSlanted.js');
 const FileLinkSlanted = require('./icons/FileLinkSlanted.js');
+const FileLock = require('./icons/FileLock.js');
+const FileLockCut = require('./icons/FileLockCut.js');
+const FileLockPlain = require('./icons/FileLockPlain.js');
+const FileMail = require('./icons/FileMail.js');
+const FileMailCut = require('./icons/FileMailCut.js');
+const FileMailPlain = require('./icons/FileMailPlain.js');
+const FileMinus = require('./icons/FileMinus.js');
+const FileMinusCircle = require('./icons/FileMinusCircle.js');
+const FileMinusCircleCut = require('./icons/FileMinusCircleCut.js');
+const FileMinusCirclePlain = require('./icons/FileMinusCirclePlain.js');
+const FileMinusCorner = require('./icons/FileMinusCorner.js');
+const FileMinusCornerCut = require('./icons/FileMinusCornerCut.js');
+const FileMinusCornerPlain = require('./icons/FileMinusCornerPlain.js');
+const FileMinusCut = require('./icons/FileMinusCut.js');
+const FileMinusPlain = require('./icons/FileMinusPlain.js');
+const FileNetwork = require('./icons/FileNetwork.js');
+const FileNetworkCut = require('./icons/FileNetworkCut.js');
+const FileNetworkDots = require('./icons/FileNetworkDots.js');
+const FileNetworkDotsCut = require('./icons/FileNetworkDotsCut.js');
+const FileNetworkDotsPlain = require('./icons/FileNetworkDotsPlain.js');
+const FileNetworkPlain = require('./icons/FileNetworkPlain.js');
+const FilePaperclip = require('./icons/FilePaperclip.js');
+const FilePaperclipCut = require('./icons/FilePaperclipCut.js');
+const FilePaperclipHorizontal = require('./icons/FilePaperclipHorizontal.js');
+const FilePaperclipHorizontalCut = require('./icons/FilePaperclipHorizontalCut.js');
+const FilePaperclipHorizontalPlain = require('./icons/FilePaperclipHorizontalPlain.js');
+const FilePaperclipPlain = require('./icons/FilePaperclipPlain.js');
+const FilePlain = require('./icons/FilePlain.js');
+const FilePlus = require('./icons/FilePlus.js');
+const FilePlusCircle = require('./icons/FilePlusCircle.js');
+const FilePlusCircleCut = require('./icons/FilePlusCircleCut.js');
+const FilePlusCirclePlain = require('./icons/FilePlusCirclePlain.js');
+const FilePlusCorner = require('./icons/FilePlusCorner.js');
+const FilePlusCornerCut = require('./icons/FilePlusCornerCut.js');
+const FilePlusCornerPlain = require('./icons/FilePlusCornerPlain.js');
+const FilePlusCut = require('./icons/FilePlusCut.js');
+const FilePlusPlain = require('./icons/FilePlusPlain.js');
+const FilePushpin = require('./icons/FilePushpin.js');
+const FilePushpinCut = require('./icons/FilePushpinCut.js');
+const FilePushpinPlain = require('./icons/FilePushpinPlain.js');
+const FileRefresh = require('./icons/FileRefresh.js');
+const FileRefreshCut = require('./icons/FileRefreshCut.js');
+const FileRefreshPlain = require('./icons/FileRefreshPlain.js');
+const FileSearch = require('./icons/FileSearch.js');
+const FileSearchCut = require('./icons/FileSearchCut.js');
+const FileSearchPlain = require('./icons/FileSearchPlain.js');
+const FileSettings = require('./icons/FileSettings.js');
+const FileSettingsCut = require('./icons/FileSettingsCut.js');
+const FileSettingsPlain = require('./icons/FileSettingsPlain.js');
+const FileStack = require('./icons/FileStack.js');
 const FileStackBrackets = require('./icons/FileStackBrackets.js');
 const FileStackCode = require('./icons/FileStackCode.js');
+const FileStackCut = require('./icons/FileStackCut.js');
+const FileStackLines = require('./icons/FileStackLines.js');
+const FileStackLinesCut = require('./icons/FileStackLinesCut.js');
+const FileStackLinesPlain = require('./icons/FileStackLinesPlain.js');
 const FileStackLink = require('./icons/FileStackLink.js');
+const FileStackOverlap = require('./icons/FileStackOverlap.js');
+const FileStackOverlapCut = require('./icons/FileStackOverlapCut.js');
+const FileStackOverlapPlain = require('./icons/FileStackOverlapPlain.js');
+const FileStackPaperclip = require('./icons/FileStackPaperclip.js');
+const FileStackPaperclipCut = require('./icons/FileStackPaperclipCut.js');
+const FileStackPaperclipPlain = require('./icons/FileStackPaperclipPlain.js');
+const FileStackPlain = require('./icons/FileStackPlain.js');
+const FileStamp = require('./icons/FileStamp.js');
+const FileStampCut = require('./icons/FileStampCut.js');
+const FileStampPlain = require('./icons/FileStampPlain.js');
+const FileStar = require('./icons/FileStar.js');
+const FileStarCut = require('./icons/FileStarCut.js');
+const FileStarPlain = require('./icons/FileStarPlain.js');
+const FileSync = require('./icons/FileSync.js');
+const FileSyncCut = require('./icons/FileSyncCut.js');
+const FileSyncPlain = require('./icons/FileSyncPlain.js');
+const FileTriangle = require('./icons/FileTriangle.js');
+const FileTriangleCut = require('./icons/FileTriangleCut.js');
+const FileTrianglePlain = require('./icons/FileTrianglePlain.js');
+const FileUnlockCut = require('./icons/FileUnlockCut.js');
+const FileUser = require('./icons/FileUser.js');
+const FileUserCut = require('./icons/FileUserCut.js');
+const FileUserDouble = require('./icons/FileUserDouble.js');
+const FileUserDoubleCut = require('./icons/FileUserDoubleCut.js');
+const FileUserDoublePlain = require('./icons/FileUserDoublePlain.js');
+const FileUserPlain = require('./icons/FileUserPlain.js');
+const FileWarning = require('./icons/FileWarning.js');
+const FileWarningCut = require('./icons/FileWarningCut.js');
+const FileWarningPlain = require('./icons/FileWarningPlain.js');
+const FileWink = require('./icons/FileWink.js');
+const FileWinkCut = require('./icons/FileWinkCut.js');
+const FileWinkPlain = require('./icons/FileWinkPlain.js');
+const FileX = require('./icons/FileX.js');
+const FileXCircle = require('./icons/FileXCircle.js');
+const FileXCircleCut = require('./icons/FileXCircleCut.js');
+const FileXCirclePlain = require('./icons/FileXCirclePlain.js');
+const FileXCorner = require('./icons/FileXCorner.js');
+const FileXCornerCut = require('./icons/FileXCornerCut.js');
+const FileXCornerPlain = require('./icons/FileXCornerPlain.js');
+const FileXCut = require('./icons/FileXCut.js');
+const FileXPlain = require('./icons/FileXPlain.js');
 const Fingerprint = require('./icons/Fingerprint.js');
 const FingerprintDashed = require('./icons/FingerprintDashed.js');
 const FingerprintSpiral = require('./icons/FingerprintSpiral.js');
@@ -3134,8 +3339,18 @@ const ShapeNested = require('./icons/ShapeNested.js');
 const ShapeMix = require('./icons/ShapeMix.js');
 const ShapeUneven = require('./icons/ShapeUneven.js');
 const CircleGridMarks = require('./icons/CircleGridMarks.js');
+const Globe = require('./icons/Globe.js');
+const GlobeArrowUpRight = require('./icons/GlobeArrowUpRight.js');
 const GlobeCursor = require('./icons/GlobeCursor.js');
+const GlobeDots = require('./icons/GlobeDots.js');
+const GlobeGrid = require('./icons/GlobeGrid.js');
+const GlobeGridArrowUpRight = require('./icons/GlobeGridArrowUpRight.js');
 const GlobeGridCursor = require('./icons/GlobeGridCursor.js');
+const GlobeGridCurved = require('./icons/GlobeGridCurved.js');
+const GlobeGridCurvedTilted = require('./icons/GlobeGridCurvedTilted.js');
+const GlobeGridDots = require('./icons/GlobeGridDots.js');
+const GlobeGridTilted = require('./icons/GlobeGridTilted.js');
+const GlobeTilted = require('./icons/GlobeTilted.js');
 const ProgressBarMultipleDotted = require('./icons/ProgressBarMultipleDotted.js');
 const ProgressBarMultipleDottedSharp = require('./icons/ProgressBarMultipleDottedSharp.js');
 const ProgressBarMultipleDottedJoined = require('./icons/ProgressBarMultipleDottedJoined.js');
@@ -4237,6 +4452,12 @@ const SaveSearchLarge = require('./icons/SaveSearchLarge.js');
 const ListStar = require('./icons/ListStar.js');
 const SearchDownload = require('./icons/SearchDownload.js');
 const SearchDownloadLong = require('./icons/SearchDownloadLong.js');
+const ScanFile = require('./icons/ScanFile.js');
+const ScanFileBeam = require('./icons/ScanFileBeam.js');
+const ScanFileLarge = require('./icons/ScanFileLarge.js');
+const ScanFileSlot = require('./icons/ScanFileSlot.js');
+const ScanFileSlotPlain = require('./icons/ScanFileSlotPlain.js');
+const ScanGlobe = require('./icons/ScanGlobe.js');
 const ScannerPaper = require('./icons/ScannerPaper.js');
 const ScannerRefreshPaper = require('./icons/ScannerRefreshPaper.js');
 const Scanner = require('./icons/Scanner.js');
@@ -4353,8 +4574,14 @@ const ArrowUpLeftSquare = require('./icons/ArrowUpLeftSquare.js');
 const ArrowUpRightSquare = require('./icons/ArrowUpRightSquare.js');
 const SquareCheckCircle = require('./icons/SquareCheckCircle.js');
 const SquareDot = require('./icons/SquareDot.js');
+const SquareEditCheck = require('./icons/SquareEditCheck.js');
+const SquareEditMinus = require('./icons/SquareEditMinus.js');
+const SquareEditPlus = require('./icons/SquareEditPlus.js');
+const SquareEditX = require('./icons/SquareEditX.js');
+const SquareLinesLeft = require('./icons/SquareLinesLeft.js');
 const SquarePlusLinkClip = require('./icons/SquarePlusLinkClip.js');
 const SquarePlusLinkSlanted = require('./icons/SquarePlusLinkSlanted.js');
+const SquareRounded = require('./icons/SquareRounded.js');
 const SquareStackArrowBend = require('./icons/SquareStackArrowBend.js');
 const SquareStackArrowRight = require('./icons/SquareStackArrowRight.js');
 const SquareStackBracketsShadow = require('./icons/SquareStackBracketsShadow.js');
@@ -4839,6 +5066,8 @@ const TrashRefreshCenterNotch = require('./icons/TrashRefreshCenterNotch.js');
 const TrashRefreshNotch = require('./icons/TrashRefreshNotch.js');
 const TrashRefreshDetached = require('./icons/TrashRefreshDetached.js');
 const TrashXBucket = require('./icons/TrashXBucket.js');
+const TrayLines = require('./icons/TrayLines.js');
+const TrayLinesTall = require('./icons/TrayLinesTall.js');
 const TrayStack = require('./icons/TrayStack.js');
 const TrayStackCheck = require('./icons/TrayStackCheck.js');
 const TrayStackCheckFlat = require('./icons/TrayStackCheckFlat.js');
@@ -4882,6 +5111,7 @@ const UploadSquareStackOpen2 = require('./icons/UploadSquareStackOpen2.js');
 const UploadTraySquare = require('./icons/UploadTraySquare.js');
 const UploadDotted = require('./icons/UploadDotted.js');
 const UploadDottedFlat = require('./icons/UploadDottedFlat.js');
+const UploadTrayStep = require('./icons/UploadTrayStep.js');
 const UploadTriangle = require('./icons/UploadTriangle.js');
 const VoteArrows = require('./icons/VoteArrows.js');
 const VoteArrowsHollow = require('./icons/VoteArrowsHollow.js');
@@ -7851,6 +8081,9 @@ module.exports = {
   CropArrowBend: CropArrowBend.default || CropArrowBend,
   CropCircle: CropCircle.default || CropCircle,
   CropDashed: CropDashed.default || CropDashed,
+  CropMarksSquare: CropMarksSquare.default || CropMarksSquare,
+  CropMarksThreeLines: CropMarksThreeLines.default || CropMarksThreeLines,
+  CropMarksTwoLines: CropMarksTwoLines.default || CropMarksTwoLines,
   CropOff: CropOff.default || CropOff,
   CropSquare: CropSquare.default || CropSquare,
   CropSync: CropSync.default || CropSync,
@@ -8007,6 +8240,7 @@ module.exports = {
   UploadTray: UploadTray.default || UploadTray,
   DownloadDotted: DownloadDotted.default || DownloadDotted,
   DownloadDottedFlat: DownloadDottedFlat.default || DownloadDottedFlat,
+  DownloadTrayStep: DownloadTrayStep.default || DownloadTrayStep,
   DownloadTriangle: DownloadTriangle.default || DownloadTriangle,
   DragCursor: DragCursor.default || DragCursor,
   DragHand: DragHand.default || DragHand,
@@ -8015,6 +8249,10 @@ module.exports = {
   DragImage: DragImage.default || DragImage,
   DragArrowUpLeft: DragArrowUpLeft.default || DragArrowUpLeft,
   DragArrowDownRight: DragArrowDownRight.default || DragArrowDownRight,
+  Ear: Ear.default || Ear,
+  EarPulse: EarPulse.default || EarPulse,
+  EarRingLeft: EarRingLeft.default || EarRingLeft,
+  EarRingRight: EarRingRight.default || EarRingRight,
   EarbudsBluetooth: EarbudsBluetooth.default || EarbudsBluetooth,
   Eject: Eject.default || Eject,
   EjectCircle: EjectCircle.default || EjectCircle,
@@ -8060,16 +8298,213 @@ module.exports = {
   FastForwardSquare: FastForwardSquare.default || FastForwardSquare,
   ListStarBullets: ListStarBullets.default || ListStarBullets,
   File: File.default || File,
+  FileArrowBend: FileArrowBend.default || FileArrowBend,
+  FileArrowBendCut: FileArrowBendCut.default || FileArrowBendCut,
+  FileArrowBendPlain: FileArrowBendPlain.default || FileArrowBendPlain,
+  FileArrowDown: FileArrowDown.default || FileArrowDown,
+  FileArrowDownCorner: FileArrowDownCorner.default || FileArrowDownCorner,
+  FileArrowDownCornerCut: FileArrowDownCornerCut.default || FileArrowDownCornerCut,
+  FileArrowDownCornerPlain: FileArrowDownCornerPlain.default || FileArrowDownCornerPlain,
+  FileArrowDownCut: FileArrowDownCut.default || FileArrowDownCut,
+  FileArrowDownPlain: FileArrowDownPlain.default || FileArrowDownPlain,
+  FileArrowIn: FileArrowIn.default || FileArrowIn,
+  FileArrowInCut: FileArrowInCut.default || FileArrowInCut,
+  FileArrowInPlain: FileArrowInPlain.default || FileArrowInPlain,
+  FileArrowOut: FileArrowOut.default || FileArrowOut,
+  FileArrowOutCut: FileArrowOutCut.default || FileArrowOutCut,
+  FileArrowOutPlain: FileArrowOutPlain.default || FileArrowOutPlain,
+  FileArrowUp: FileArrowUp.default || FileArrowUp,
+  FileArrowUpCorner: FileArrowUpCorner.default || FileArrowUpCorner,
+  FileArrowUpCornerCut: FileArrowUpCornerCut.default || FileArrowUpCornerCut,
+  FileArrowUpCornerPlain: FileArrowUpCornerPlain.default || FileArrowUpCornerPlain,
+  FileArrowUpCut: FileArrowUpCut.default || FileArrowUpCut,
+  FileArrowUpPlain: FileArrowUpPlain.default || FileArrowUpPlain,
+  FileArrowUpRightCorner: FileArrowUpRightCorner.default || FileArrowUpRightCorner,
+  FileArrowUpRightCornerCut: FileArrowUpRightCornerCut.default || FileArrowUpRightCornerCut,
+  FileArrowUpRightCornerPlain: FileArrowUpRightCornerPlain.default || FileArrowUpRightCornerPlain,
+  FileArrowUturnRight: FileArrowUturnRight.default || FileArrowUturnRight,
+  FileArrowUturnRightCut: FileArrowUturnRightCut.default || FileArrowUturnRightCut,
+  FileArrowUturnRightPlain: FileArrowUturnRightPlain.default || FileArrowUturnRightPlain,
+  FileArticle: FileArticle.default || FileArticle,
+  FileArticleCut: FileArticleCut.default || FileArticleCut,
+  FileArticlePlain: FileArticlePlain.default || FileArticlePlain,
+  FileBan: FileBan.default || FileBan,
+  FileBanCut: FileBanCut.default || FileBanCut,
+  FileBanPlain: FileBanPlain.default || FileBanPlain,
   FileBrackets: FileBrackets.default || FileBrackets,
   FileBracketsRight: FileBracketsRight.default || FileBracketsRight,
+  FileCast: FileCast.default || FileCast,
+  FileCastCorner: FileCastCorner.default || FileCastCorner,
+  FileCastCornerCut: FileCastCornerCut.default || FileCastCornerCut,
+  FileCastCornerPlain: FileCastCornerPlain.default || FileCastCornerPlain,
+  FileCastCut: FileCastCut.default || FileCastCut,
+  FileCastPlain: FileCastPlain.default || FileCastPlain,
+  FileChartBar: FileChartBar.default || FileChartBar,
+  FileChartBarCut: FileChartBarCut.default || FileChartBarCut,
+  FileChartBarPlain: FileChartBarPlain.default || FileChartBarPlain,
+  FileCheck: FileCheck.default || FileCheck,
+  FileCheckCircle: FileCheckCircle.default || FileCheckCircle,
+  FileCheckCircleCut: FileCheckCircleCut.default || FileCheckCircleCut,
+  FileCheckCirclePlain: FileCheckCirclePlain.default || FileCheckCirclePlain,
+  FileCheckCorner: FileCheckCorner.default || FileCheckCorner,
+  FileCheckCornerCut: FileCheckCornerCut.default || FileCheckCornerCut,
+  FileCheckCornerPlain: FileCheckCornerPlain.default || FileCheckCornerPlain,
+  FileCheckCut: FileCheckCut.default || FileCheckCut,
+  FileCheckPlain: FileCheckPlain.default || FileCheckPlain,
   FileCode: FileCode.default || FileCode,
   FileCodeRight: FileCodeRight.default || FileCodeRight,
+  FileCut: FileCut.default || FileCut,
+  FileEdit: FileEdit.default || FileEdit,
+  FileEditCorner: FileEditCorner.default || FileEditCorner,
+  FileEditCornerCut: FileEditCornerCut.default || FileEditCornerCut,
+  FileEditCornerPlain: FileEditCornerPlain.default || FileEditCornerPlain,
+  FileEditCut: FileEditCut.default || FileEditCut,
+  FileEditDetailed: FileEditDetailed.default || FileEditDetailed,
+  FileEditDetailedCut: FileEditDetailedCut.default || FileEditDetailedCut,
+  FileEditDetailedPlain: FileEditDetailedPlain.default || FileEditDetailedPlain,
+  FileEditLeft: FileEditLeft.default || FileEditLeft,
+  FileEditLeftCut: FileEditLeftCut.default || FileEditLeftCut,
+  FileEditLeftPlain: FileEditLeftPlain.default || FileEditLeftPlain,
+  FileEditPlain: FileEditPlain.default || FileEditPlain,
+  FileEye: FileEye.default || FileEye,
+  FileEyeCut: FileEyeCut.default || FileEyeCut,
+  FileEyePlain: FileEyePlain.default || FileEyePlain,
+  FileFilter: FileFilter.default || FileFilter,
+  FileFilterCut: FileFilterCut.default || FileFilterCut,
+  FileFilterPlain: FileFilterPlain.default || FileFilterPlain,
+  FileImage: FileImage.default || FileImage,
+  FileImageCorner: FileImageCorner.default || FileImageCorner,
+  FileImageCornerCut: FileImageCornerCut.default || FileImageCornerCut,
+  FileImageCornerPlain: FileImageCornerPlain.default || FileImageCornerPlain,
+  FileImageCut: FileImageCut.default || FileImageCut,
+  FileImageInset: FileImageInset.default || FileImageInset,
+  FileImageInsetCut: FileImageInsetCut.default || FileImageInsetCut,
+  FileImageInsetPlain: FileImageInsetPlain.default || FileImageInsetPlain,
+  FileImagePlain: FileImagePlain.default || FileImagePlain,
+  FileJoinedArrowDiagonal: FileJoinedArrowDiagonal.default || FileJoinedArrowDiagonal,
+  FileJoinedArrowDiagonalCut: FileJoinedArrowDiagonalCut.default || FileJoinedArrowDiagonalCut,
+  FileJoinedCodeCut: FileJoinedCodeCut.default || FileJoinedCodeCut,
+  FileJoinedDots: FileJoinedDots.default || FileJoinedDots,
+  FileJoinedDotsCut: FileJoinedDotsCut.default || FileJoinedDotsCut,
+  FileLines: FileLines.default || FileLines,
+  FileLinesCut: FileLinesCut.default || FileLinesCut,
+  FileLinesDashed: FileLinesDashed.default || FileLinesDashed,
+  FileLinesDashedCut: FileLinesDashedCut.default || FileLinesDashedCut,
+  FileLinesDashedPlain: FileLinesDashedPlain.default || FileLinesDashedPlain,
+  FileLinesEdit: FileLinesEdit.default || FileLinesEdit,
+  FileLinesEditCorner: FileLinesEditCorner.default || FileLinesEditCorner,
+  FileLinesEditCornerCut: FileLinesEditCornerCut.default || FileLinesEditCornerCut,
+  FileLinesEditCornerPlain: FileLinesEditCornerPlain.default || FileLinesEditCornerPlain,
+  FileLinesEditCut: FileLinesEditCut.default || FileLinesEditCut,
+  FileLinesEditPlain: FileLinesEditPlain.default || FileLinesEditPlain,
+  FileLinesLeft: FileLinesLeft.default || FileLinesLeft,
+  FileLinesLeftCut: FileLinesLeftCut.default || FileLinesLeftCut,
+  FileLinesLeftPlain: FileLinesLeftPlain.default || FileLinesLeftPlain,
+  FileLinesPlain: FileLinesPlain.default || FileLinesPlain,
+  FileLinesSearch: FileLinesSearch.default || FileLinesSearch,
+  FileLinesSearchCut: FileLinesSearchCut.default || FileLinesSearchCut,
+  FileLinesSearchPlain: FileLinesSearchPlain.default || FileLinesSearchPlain,
   FileLinkBracket: FileLinkBracket.default || FileLinkBracket,
   FileLinkLeftSlanted: FileLinkLeftSlanted.default || FileLinkLeftSlanted,
   FileLinkSlanted: FileLinkSlanted.default || FileLinkSlanted,
+  FileLock: FileLock.default || FileLock,
+  FileLockCut: FileLockCut.default || FileLockCut,
+  FileLockPlain: FileLockPlain.default || FileLockPlain,
+  FileMail: FileMail.default || FileMail,
+  FileMailCut: FileMailCut.default || FileMailCut,
+  FileMailPlain: FileMailPlain.default || FileMailPlain,
+  FileMinus: FileMinus.default || FileMinus,
+  FileMinusCircle: FileMinusCircle.default || FileMinusCircle,
+  FileMinusCircleCut: FileMinusCircleCut.default || FileMinusCircleCut,
+  FileMinusCirclePlain: FileMinusCirclePlain.default || FileMinusCirclePlain,
+  FileMinusCorner: FileMinusCorner.default || FileMinusCorner,
+  FileMinusCornerCut: FileMinusCornerCut.default || FileMinusCornerCut,
+  FileMinusCornerPlain: FileMinusCornerPlain.default || FileMinusCornerPlain,
+  FileMinusCut: FileMinusCut.default || FileMinusCut,
+  FileMinusPlain: FileMinusPlain.default || FileMinusPlain,
+  FileNetwork: FileNetwork.default || FileNetwork,
+  FileNetworkCut: FileNetworkCut.default || FileNetworkCut,
+  FileNetworkDots: FileNetworkDots.default || FileNetworkDots,
+  FileNetworkDotsCut: FileNetworkDotsCut.default || FileNetworkDotsCut,
+  FileNetworkDotsPlain: FileNetworkDotsPlain.default || FileNetworkDotsPlain,
+  FileNetworkPlain: FileNetworkPlain.default || FileNetworkPlain,
+  FilePaperclip: FilePaperclip.default || FilePaperclip,
+  FilePaperclipCut: FilePaperclipCut.default || FilePaperclipCut,
+  FilePaperclipHorizontal: FilePaperclipHorizontal.default || FilePaperclipHorizontal,
+  FilePaperclipHorizontalCut: FilePaperclipHorizontalCut.default || FilePaperclipHorizontalCut,
+  FilePaperclipHorizontalPlain: FilePaperclipHorizontalPlain.default || FilePaperclipHorizontalPlain,
+  FilePaperclipPlain: FilePaperclipPlain.default || FilePaperclipPlain,
+  FilePlain: FilePlain.default || FilePlain,
+  FilePlus: FilePlus.default || FilePlus,
+  FilePlusCircle: FilePlusCircle.default || FilePlusCircle,
+  FilePlusCircleCut: FilePlusCircleCut.default || FilePlusCircleCut,
+  FilePlusCirclePlain: FilePlusCirclePlain.default || FilePlusCirclePlain,
+  FilePlusCorner: FilePlusCorner.default || FilePlusCorner,
+  FilePlusCornerCut: FilePlusCornerCut.default || FilePlusCornerCut,
+  FilePlusCornerPlain: FilePlusCornerPlain.default || FilePlusCornerPlain,
+  FilePlusCut: FilePlusCut.default || FilePlusCut,
+  FilePlusPlain: FilePlusPlain.default || FilePlusPlain,
+  FilePushpin: FilePushpin.default || FilePushpin,
+  FilePushpinCut: FilePushpinCut.default || FilePushpinCut,
+  FilePushpinPlain: FilePushpinPlain.default || FilePushpinPlain,
+  FileRefresh: FileRefresh.default || FileRefresh,
+  FileRefreshCut: FileRefreshCut.default || FileRefreshCut,
+  FileRefreshPlain: FileRefreshPlain.default || FileRefreshPlain,
+  FileSearch: FileSearch.default || FileSearch,
+  FileSearchCut: FileSearchCut.default || FileSearchCut,
+  FileSearchPlain: FileSearchPlain.default || FileSearchPlain,
+  FileSettings: FileSettings.default || FileSettings,
+  FileSettingsCut: FileSettingsCut.default || FileSettingsCut,
+  FileSettingsPlain: FileSettingsPlain.default || FileSettingsPlain,
+  FileStack: FileStack.default || FileStack,
   FileStackBrackets: FileStackBrackets.default || FileStackBrackets,
   FileStackCode: FileStackCode.default || FileStackCode,
+  FileStackCut: FileStackCut.default || FileStackCut,
+  FileStackLines: FileStackLines.default || FileStackLines,
+  FileStackLinesCut: FileStackLinesCut.default || FileStackLinesCut,
+  FileStackLinesPlain: FileStackLinesPlain.default || FileStackLinesPlain,
   FileStackLink: FileStackLink.default || FileStackLink,
+  FileStackOverlap: FileStackOverlap.default || FileStackOverlap,
+  FileStackOverlapCut: FileStackOverlapCut.default || FileStackOverlapCut,
+  FileStackOverlapPlain: FileStackOverlapPlain.default || FileStackOverlapPlain,
+  FileStackPaperclip: FileStackPaperclip.default || FileStackPaperclip,
+  FileStackPaperclipCut: FileStackPaperclipCut.default || FileStackPaperclipCut,
+  FileStackPaperclipPlain: FileStackPaperclipPlain.default || FileStackPaperclipPlain,
+  FileStackPlain: FileStackPlain.default || FileStackPlain,
+  FileStamp: FileStamp.default || FileStamp,
+  FileStampCut: FileStampCut.default || FileStampCut,
+  FileStampPlain: FileStampPlain.default || FileStampPlain,
+  FileStar: FileStar.default || FileStar,
+  FileStarCut: FileStarCut.default || FileStarCut,
+  FileStarPlain: FileStarPlain.default || FileStarPlain,
+  FileSync: FileSync.default || FileSync,
+  FileSyncCut: FileSyncCut.default || FileSyncCut,
+  FileSyncPlain: FileSyncPlain.default || FileSyncPlain,
+  FileTriangle: FileTriangle.default || FileTriangle,
+  FileTriangleCut: FileTriangleCut.default || FileTriangleCut,
+  FileTrianglePlain: FileTrianglePlain.default || FileTrianglePlain,
+  FileUnlockCut: FileUnlockCut.default || FileUnlockCut,
+  FileUser: FileUser.default || FileUser,
+  FileUserCut: FileUserCut.default || FileUserCut,
+  FileUserDouble: FileUserDouble.default || FileUserDouble,
+  FileUserDoubleCut: FileUserDoubleCut.default || FileUserDoubleCut,
+  FileUserDoublePlain: FileUserDoublePlain.default || FileUserDoublePlain,
+  FileUserPlain: FileUserPlain.default || FileUserPlain,
+  FileWarning: FileWarning.default || FileWarning,
+  FileWarningCut: FileWarningCut.default || FileWarningCut,
+  FileWarningPlain: FileWarningPlain.default || FileWarningPlain,
+  FileWink: FileWink.default || FileWink,
+  FileWinkCut: FileWinkCut.default || FileWinkCut,
+  FileWinkPlain: FileWinkPlain.default || FileWinkPlain,
+  FileX: FileX.default || FileX,
+  FileXCircle: FileXCircle.default || FileXCircle,
+  FileXCircleCut: FileXCircleCut.default || FileXCircleCut,
+  FileXCirclePlain: FileXCirclePlain.default || FileXCirclePlain,
+  FileXCorner: FileXCorner.default || FileXCorner,
+  FileXCornerCut: FileXCornerCut.default || FileXCornerCut,
+  FileXCornerPlain: FileXCornerPlain.default || FileXCornerPlain,
+  FileXCut: FileXCut.default || FileXCut,
+  FileXPlain: FileXPlain.default || FileXPlain,
   Fingerprint: Fingerprint.default || Fingerprint,
   FingerprintDashed: FingerprintDashed.default || FingerprintDashed,
   FingerprintSpiral: FingerprintSpiral.default || FingerprintSpiral,
@@ -8239,8 +8674,18 @@ module.exports = {
   ShapeMix: ShapeMix.default || ShapeMix,
   ShapeUneven: ShapeUneven.default || ShapeUneven,
   CircleGridMarks: CircleGridMarks.default || CircleGridMarks,
+  Globe: Globe.default || Globe,
+  GlobeArrowUpRight: GlobeArrowUpRight.default || GlobeArrowUpRight,
   GlobeCursor: GlobeCursor.default || GlobeCursor,
+  GlobeDots: GlobeDots.default || GlobeDots,
+  GlobeGrid: GlobeGrid.default || GlobeGrid,
+  GlobeGridArrowUpRight: GlobeGridArrowUpRight.default || GlobeGridArrowUpRight,
   GlobeGridCursor: GlobeGridCursor.default || GlobeGridCursor,
+  GlobeGridCurved: GlobeGridCurved.default || GlobeGridCurved,
+  GlobeGridCurvedTilted: GlobeGridCurvedTilted.default || GlobeGridCurvedTilted,
+  GlobeGridDots: GlobeGridDots.default || GlobeGridDots,
+  GlobeGridTilted: GlobeGridTilted.default || GlobeGridTilted,
+  GlobeTilted: GlobeTilted.default || GlobeTilted,
   ProgressBarMultipleDotted: ProgressBarMultipleDotted.default || ProgressBarMultipleDotted,
   ProgressBarMultipleDottedSharp: ProgressBarMultipleDottedSharp.default || ProgressBarMultipleDottedSharp,
   ProgressBarMultipleDottedJoined: ProgressBarMultipleDottedJoined.default || ProgressBarMultipleDottedJoined,
@@ -9342,6 +9787,12 @@ module.exports = {
   ListStar: ListStar.default || ListStar,
   SearchDownload: SearchDownload.default || SearchDownload,
   SearchDownloadLong: SearchDownloadLong.default || SearchDownloadLong,
+  ScanFile: ScanFile.default || ScanFile,
+  ScanFileBeam: ScanFileBeam.default || ScanFileBeam,
+  ScanFileLarge: ScanFileLarge.default || ScanFileLarge,
+  ScanFileSlot: ScanFileSlot.default || ScanFileSlot,
+  ScanFileSlotPlain: ScanFileSlotPlain.default || ScanFileSlotPlain,
+  ScanGlobe: ScanGlobe.default || ScanGlobe,
   ScannerPaper: ScannerPaper.default || ScannerPaper,
   ScannerRefreshPaper: ScannerRefreshPaper.default || ScannerRefreshPaper,
   Scanner: Scanner.default || Scanner,
@@ -9458,8 +9909,14 @@ module.exports = {
   ArrowUpRightSquare: ArrowUpRightSquare.default || ArrowUpRightSquare,
   SquareCheckCircle: SquareCheckCircle.default || SquareCheckCircle,
   SquareDot: SquareDot.default || SquareDot,
+  SquareEditCheck: SquareEditCheck.default || SquareEditCheck,
+  SquareEditMinus: SquareEditMinus.default || SquareEditMinus,
+  SquareEditPlus: SquareEditPlus.default || SquareEditPlus,
+  SquareEditX: SquareEditX.default || SquareEditX,
+  SquareLinesLeft: SquareLinesLeft.default || SquareLinesLeft,
   SquarePlusLinkClip: SquarePlusLinkClip.default || SquarePlusLinkClip,
   SquarePlusLinkSlanted: SquarePlusLinkSlanted.default || SquarePlusLinkSlanted,
+  SquareRounded: SquareRounded.default || SquareRounded,
   SquareStackArrowBend: SquareStackArrowBend.default || SquareStackArrowBend,
   SquareStackArrowRight: SquareStackArrowRight.default || SquareStackArrowRight,
   SquareStackBracketsShadow: SquareStackBracketsShadow.default || SquareStackBracketsShadow,
@@ -9944,6 +10401,8 @@ module.exports = {
   TrashRefreshNotch: TrashRefreshNotch.default || TrashRefreshNotch,
   TrashRefreshDetached: TrashRefreshDetached.default || TrashRefreshDetached,
   TrashXBucket: TrashXBucket.default || TrashXBucket,
+  TrayLines: TrayLines.default || TrayLines,
+  TrayLinesTall: TrayLinesTall.default || TrayLinesTall,
   TrayStack: TrayStack.default || TrayStack,
   TrayStackCheck: TrayStackCheck.default || TrayStackCheck,
   TrayStackCheckFlat: TrayStackCheckFlat.default || TrayStackCheckFlat,
@@ -9987,6 +10446,7 @@ module.exports = {
   UploadTraySquare: UploadTraySquare.default || UploadTraySquare,
   UploadDotted: UploadDotted.default || UploadDotted,
   UploadDottedFlat: UploadDottedFlat.default || UploadDottedFlat,
+  UploadTrayStep: UploadTrayStep.default || UploadTrayStep,
   UploadTriangle: UploadTriangle.default || UploadTriangle,
   VoteArrows: VoteArrows.default || VoteArrows,
   VoteArrowsHollow: VoteArrowsHollow.default || VoteArrowsHollow,

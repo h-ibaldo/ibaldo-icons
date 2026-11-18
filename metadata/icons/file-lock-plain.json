@@ -1,0 +1,36 @@
+{
+  "name": "FileLockPlain",
+  "displayName": "File lock plain",
+  "description": "Plain rounded rectangle page with a padlock at the bottom left.",
+  "tags": [
+    "file",
+    "lock",
+    "locked",
+    "secure",
+    "private",
+    "protected",
+    "plain"
+  ],
+  "categories": [
+    "files",
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Locked file"
+  },
+  "filename": "file-lock-plain",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:36:35.080Z"
+}

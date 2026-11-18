@@ -1,0 +1,35 @@
+{
+  "name": "GlobeGridCurved",
+  "displayName": "Globe grid curved",
+  "description": "Globe with one meridian and curved latitude lines.",
+  "tags": [
+    "globe",
+    "world",
+    "earth",
+    "internet",
+    "grid",
+    "curved"
+  ],
+  "categories": [
+    "communication",
+    "location"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Globe"
+  },
+  "filename": "globe-grid-curved",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:36:35.080Z"
+}
