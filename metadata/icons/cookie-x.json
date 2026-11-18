@@ -1,0 +1,40 @@
+{
+  "name": "CookieX",
+  "displayName": "Cookie x",
+  "description": "Bitten cookie with an X in the bite.",
+  "tags": [
+    "reject",
+    "decline",
+    "cookie",
+    "cookies",
+    "consent",
+    "privacy",
+    "tracking",
+    "browser",
+    "x",
+    "close",
+    "remove",
+    "cancel"
+  ],
+  "categories": [
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cookies"
+  },
+  "filename": "cookie-x",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

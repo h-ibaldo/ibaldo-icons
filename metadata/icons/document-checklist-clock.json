@@ -1,0 +1,38 @@
+{
+  "name": "DocumentChecklistClock",
+  "displayName": "Document checklist clock",
+  "description": "Document with three checked lines and a clock at the bottom right.",
+  "tags": [
+    "document",
+    "page",
+    "file",
+    "sheet",
+    "pending",
+    "deadline",
+    "time",
+    "clock",
+    "reminder",
+    "list"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Scheduled tasks"
+  },
+  "filename": "document-checklist-clock",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

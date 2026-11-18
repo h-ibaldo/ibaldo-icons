@@ -1,0 +1,39 @@
+{
+  "name": "CalendarHeart",
+  "displayName": "Calendar heart",
+  "description": "Calendar with a heart inside.",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "event",
+    "date-night",
+    "valentine",
+    "anniversary",
+    "favorite",
+    "like",
+    "heart",
+    "day"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Special date"
+  },
+  "filename": "calendar-heart",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

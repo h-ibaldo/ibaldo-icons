@@ -1,0 +1,37 @@
+{
+  "name": "LinkBurstVertical",
+  "displayName": "Link burst vertical",
+  "description": "Vertical link of two rounded loops with three rays on each side.",
+  "tags": [
+    "link",
+    "chain",
+    "url",
+    "connect",
+    "connected",
+    "burst",
+    "rays",
+    "active",
+    "vertical"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Link connected"
+  },
+  "filename": "link-burst-vertical",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "AlarmPlusArc",
+  "displayName": "Alarm plus arc",
+  "description": "Alarm clock with curved bell arcs and feet, with a plus sign on the face.",
+  "tags": [
+    "alarm",
+    "alarm-clock",
+    "clock",
+    "time",
+    "wake-up",
+    "plus",
+    "add",
+    "arc"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Add alarm"
+  },
+  "filename": "alarm-plus-arc",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

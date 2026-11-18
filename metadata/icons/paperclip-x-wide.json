@@ -1,0 +1,39 @@
+{
+  "name": "PaperclipXWide",
+  "displayName": "Paperclip x wide",
+  "description": "Wide diagonal paperclip with fat rounded ends with an X beside it.",
+  "tags": [
+    "paperclip",
+    "attachment",
+    "attach",
+    "clip",
+    "file",
+    "x",
+    "remove",
+    "delete",
+    "detach",
+    "wide"
+  ],
+  "categories": [
+    "files",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Remove attachment"
+  },
+  "filename": "paperclip-x-wide",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

@@ -1,0 +1,6095 @@
+{
+  "old-icon-set-5-p0148": {
+    "name": "Command",
+    "displayName": "Command",
+    "description": "Command key symbol: a square with a loop at each corner.",
+    "tags": [
+      "command",
+      "cmd",
+      "keyboard",
+      "shortcut",
+      "mac",
+      "key"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Command key"
+    }
+  },
+  "old-icon-set-5-p0149": {
+    "name": "CommandSquare",
+    "displayName": "Command square",
+    "description": "Command key symbol inside a rounded square.",
+    "tags": [
+      "square",
+      "button",
+      "command",
+      "cmd",
+      "keyboard",
+      "shortcut",
+      "mac",
+      "key"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Command key"
+    }
+  },
+  "old-icon-set-5-p0150": {
+    "name": "CommandCircle",
+    "displayName": "Command circle",
+    "description": "Command key symbol inside a circle.",
+    "tags": [
+      "circle",
+      "command",
+      "cmd",
+      "keyboard",
+      "shortcut",
+      "mac",
+      "key"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Command key"
+    }
+  },
+  "old-icon-set-5-p0151": {
+    "name": "CommandSquareShadow",
+    "displayName": "Command square shadow",
+    "description": "Command key symbol in a rounded square with an L-shaped shadow line behind it.",
+    "tags": [
+      "square",
+      "stack",
+      "command",
+      "cmd",
+      "keyboard",
+      "shortcut",
+      "mac",
+      "key"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Command key"
+    }
+  },
+  "old-icon-set-5-p0152": {
+    "name": "CommandSquareStack",
+    "displayName": "Command square stack",
+    "description": "Command key symbol in a rounded square with a second square stacked behind it.",
+    "tags": [
+      "square",
+      "stack",
+      "keys",
+      "command",
+      "cmd",
+      "keyboard",
+      "shortcut",
+      "mac",
+      "key"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Command key"
+    }
+  },
+  "old-icon-set-5-p0153": {
+    "name": "Code",
+    "displayName": "Code",
+    "description": "Angle brackets with a slash between them.",
+    "tags": [
+      "brackets",
+      "markup",
+      "code",
+      "html",
+      "xml",
+      "tag",
+      "developer",
+      "programming"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code"
+    }
+  },
+  "old-icon-set-5-p0155": {
+    "name": "WindowCode",
+    "displayName": "Window code",
+    "description": "Window with three dots in its title bar and a code sign below.",
+    "tags": [
+      "browser",
+      "dots",
+      "window",
+      "app",
+      "code",
+      "html",
+      "developer",
+      "programming"
+    ],
+    "categories": [
+      "development",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code window"
+    }
+  },
+  "old-icon-set-5-p0156": {
+    "name": "WindowCodePlain",
+    "displayName": "Window code plain",
+    "description": "Window with a plain title bar and a code sign below.",
+    "tags": [
+      "browser",
+      "window",
+      "app",
+      "code",
+      "html",
+      "developer",
+      "programming"
+    ],
+    "categories": [
+      "development",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code window"
+    }
+  },
+  "old-icon-set-5-p0157": {
+    "name": "CodeCircle",
+    "displayName": "Code circle",
+    "description": "Angle brackets with a slash inside a circle.",
+    "tags": [
+      "circle",
+      "code",
+      "html",
+      "xml",
+      "tag",
+      "developer",
+      "programming"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code"
+    }
+  },
+  "old-icon-set-5-p0158": {
+    "name": "CodeSquare",
+    "displayName": "Code square",
+    "description": "Angle brackets with a slash inside a rounded square.",
+    "tags": [
+      "square",
+      "button",
+      "code",
+      "html",
+      "xml",
+      "tag",
+      "developer",
+      "programming"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code"
+    }
+  },
+  "old-icon-set-5-p0159": {
+    "name": "MonitorCode",
+    "displayName": "Monitor code",
+    "description": "Computer monitor on a stand showing a code sign.",
+    "tags": [
+      "code",
+      "developer",
+      "programming",
+      "desktop",
+      "monitor",
+      "screen",
+      "display",
+      "computer"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code on screen"
+    }
+  },
+  "old-icon-set-5-p0160": {
+    "name": "SearchCode",
+    "displayName": "Search code",
+    "description": "Magnifier with a code sign inside the lens.",
+    "tags": [
+      "brackets",
+      "search",
+      "magnifier",
+      "find",
+      "code",
+      "inspect",
+      "developer"
+    ],
+    "categories": [
+      "development",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Search code"
+    }
+  },
+  "old-icon-set-5-p0161": {
+    "name": "SearchBrackets",
+    "displayName": "Search brackets",
+    "description": "Magnifier with angle brackets inside the lens.",
+    "tags": [
+      "brackets",
+      "search",
+      "magnifier",
+      "find",
+      "code",
+      "inspect",
+      "developer"
+    ],
+    "categories": [
+      "development",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Search code"
+    }
+  },
+  "old-icon-set-5-p0162": {
+    "name": "SearchBracketsC",
+    "displayName": "Search brackets c",
+    "description": "Magnifier with a smaller lens and long handle, angle brackets inside the lens.",
+    "tags": [
+      "brackets",
+      "search",
+      "magnifier",
+      "find",
+      "code",
+      "inspect",
+      "developer"
+    ],
+    "categories": [
+      "development",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Search code"
+    }
+  },
+  "old-icon-set-5-p0163": {
+    "name": "SquareStackBracketsShadow",
+    "displayName": "Square stack brackets shadow",
+    "description": "Angle brackets in a rounded square with an L-shaped copy behind it.",
+    "tags": [
+      "code",
+      "copy",
+      "snippet",
+      "brackets",
+      "developer",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy code"
+    }
+  },
+  "old-icon-set-5-p0164": {
+    "name": "ClipboardCode",
+    "displayName": "Clipboard code",
+    "description": "Clipboard whose bottom edge is replaced by a code sign.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "code",
+      "snippet",
+      "developer",
+      "programming"
+    ],
+    "categories": [
+      "development",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paste code"
+    }
+  },
+  "old-icon-set-5-p0165": {
+    "name": "ClipboardBrackets",
+    "displayName": "Clipboard brackets",
+    "description": "Clipboard whose bottom edge is replaced by angle brackets.",
+    "tags": [
+      "brackets",
+      "clipboard",
+      "paste",
+      "code",
+      "snippet",
+      "developer",
+      "programming"
+    ],
+    "categories": [
+      "development",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paste code"
+    }
+  },
+  "old-icon-set-5-p0166": {
+    "name": "FileCode",
+    "displayName": "File code",
+    "description": "Page with a folded corner and a code sign over its bottom left.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "code",
+      "source",
+      "developer"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code file"
+    }
+  },
+  "old-icon-set-5-p0167": {
+    "name": "FileCodeRight",
+    "displayName": "File code right",
+    "description": "Page with a folded corner and a code sign over its bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "code",
+      "source",
+      "developer"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code file"
+    }
+  },
+  "old-icon-set-5-p0168": {
+    "name": "FileStackCode",
+    "displayName": "File stack code",
+    "description": "Two stacked pages with folded corners and a code sign over the front page.",
+    "tags": [
+      "files",
+      "multiple",
+      "file",
+      "document",
+      "page",
+      "code",
+      "source",
+      "developer"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code files"
+    }
+  },
+  "old-icon-set-5-p0169": {
+    "name": "DocumentStackCodeShadow",
+    "displayName": "Document stack code shadow",
+    "description": "Rounded page with an L-shaped copy behind it and a code sign over its bottom edge.",
+    "tags": [
+      "document",
+      "copy",
+      "duplicate",
+      "code",
+      "snippet",
+      "developer"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy code"
+    }
+  },
+  "old-icon-set-5-p0170": {
+    "name": "FileBrackets",
+    "displayName": "File brackets",
+    "description": "Page with a folded corner and angle brackets over its bottom left.",
+    "tags": [
+      "brackets",
+      "file",
+      "document",
+      "page",
+      "code",
+      "source",
+      "developer"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code file"
+    }
+  },
+  "old-icon-set-5-p0171": {
+    "name": "FileBracketsRight",
+    "displayName": "File brackets right",
+    "description": "Page with a folded corner and angle brackets over its bottom right.",
+    "tags": [
+      "brackets",
+      "file",
+      "document",
+      "page",
+      "code",
+      "source",
+      "developer"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code file"
+    }
+  },
+  "old-icon-set-5-p0172": {
+    "name": "FileStackBrackets",
+    "displayName": "File stack brackets",
+    "description": "Two stacked pages with folded corners and angle brackets over the front page.",
+    "tags": [
+      "brackets",
+      "files",
+      "file",
+      "document",
+      "page",
+      "code",
+      "source",
+      "developer"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code files"
+    }
+  },
+  "old-icon-set-5-p0173": {
+    "name": "DocumentStackBracketsShadow",
+    "displayName": "Document stack brackets shadow",
+    "description": "Rounded page with an L-shaped copy behind it and angle brackets over its bottom edge.",
+    "tags": [
+      "brackets",
+      "document",
+      "copy",
+      "duplicate",
+      "code",
+      "snippet",
+      "developer"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy code"
+    }
+  },
+  "old-icon-set-5-p0174": {
+    "name": "CloudCode",
+    "displayName": "Cloud code",
+    "description": "Cloud outline open at the bottom with a code sign below it.",
+    "tags": [
+      "cloud",
+      "code",
+      "deploy",
+      "serverless",
+      "hosting",
+      "developer"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cloud code"
+    }
+  },
+  "old-icon-set-5-p0175": {
+    "name": "CompassPocket",
+    "displayName": "Compass pocket",
+    "description": "Pocket compass: a circle with a ring on top and a needle through the center.",
+    "tags": [
+      "pocket",
+      "needle",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0176": {
+    "name": "Compass",
+    "displayName": "Compass",
+    "description": "Circle with a diamond compass needle inside.",
+    "tags": [
+      "safari",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0177": {
+    "name": "CompassTicks",
+    "displayName": "Compass ticks",
+    "description": "Circle with four tick marks and a diamond compass needle.",
+    "tags": [
+      "ticks",
+      "north",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0178": {
+    "name": "CompassPivot",
+    "displayName": "Compass pivot",
+    "description": "Circle with a large diamond needle and a dot at its pivot.",
+    "tags": [
+      "pivot",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0179": {
+    "name": "CompassRose",
+    "displayName": "Compass rose",
+    "description": "Circle with eight tick marks and a four-point star in the center.",
+    "tags": [
+      "rose",
+      "star",
+      "north",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0180": {
+    "name": "CompassSquare",
+    "displayName": "Compass square",
+    "description": "Diamond compass needle inside a rounded square.",
+    "tags": [
+      "square",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0181": {
+    "name": "CompassOff",
+    "displayName": "Compass off",
+    "description": "Circle with a diamond compass needle, crossed by a diagonal slash.",
+    "tags": [
+      "off",
+      "disabled",
+      "no-location",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0182": {
+    "name": "CompassSquareOff",
+    "displayName": "Compass square off",
+    "description": "Rounded square with a diamond compass needle, crossed by a diagonal slash.",
+    "tags": [
+      "off",
+      "disabled",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation",
+      "square"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0183": {
+    "name": "CompassX",
+    "displayName": "Compass x",
+    "description": "Diamond compass needle in a circle, with an X at the top left corner.",
+    "tags": [
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation",
+      "x",
+      "close",
+      "remove",
+      "cancel"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0184": {
+    "name": "CompassPlus",
+    "displayName": "Compass plus",
+    "description": "Diamond compass needle in a circle, with a plus at the top left corner.",
+    "tags": [
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation",
+      "plus",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0185": {
+    "name": "CompassCheck",
+    "displayName": "Compass check",
+    "description": "Diamond compass needle in a circle, with a check mark at the top left corner.",
+    "tags": [
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation",
+      "check",
+      "done",
+      "approved"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0186": {
+    "name": "CompassMinus",
+    "displayName": "Compass minus",
+    "description": "Diamond compass needle in a circle, with a minus at the top left corner.",
+    "tags": [
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation",
+      "minus",
+      "remove",
+      "subtract"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0187": {
+    "name": "CompassOctagon",
+    "displayName": "Compass octagon",
+    "description": "Diamond compass needle inside an octagon.",
+    "tags": [
+      "octagon",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0188": {
+    "name": "CompassDashed",
+    "displayName": "Compass dashed",
+    "description": "Diamond compass needle inside a dashed circle.",
+    "tags": [
+      "loading",
+      "compass",
+      "navigation",
+      "direction",
+      "explore",
+      "travel",
+      "orientation",
+      "dashed"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compass"
+    }
+  },
+  "old-icon-set-5-p0189": {
+    "name": "Cookie",
+    "displayName": "Cookie",
+    "description": "Round cookie with a smooth bite out of the top right and chocolate chips.",
+    "tags": [
+      "biscuit",
+      "cookie",
+      "cookies",
+      "consent",
+      "privacy",
+      "tracking",
+      "browser"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cookies"
+    }
+  },
+  "old-icon-set-5-p0190": {
+    "name": "CookieCrumbs",
+    "displayName": "Cookie crumbs",
+    "description": "Round cookie with a bumpy bite, chips and crumbs flying off the bite.",
+    "tags": [
+      "crumbs",
+      "biscuit",
+      "cookie",
+      "cookies",
+      "consent",
+      "privacy",
+      "tracking",
+      "browser"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cookies"
+    }
+  },
+  "old-icon-set-5-p0191": {
+    "name": "CookieBumpy",
+    "displayName": "Cookie bumpy",
+    "description": "Round cookie with a bumpy bite out of the top right and chocolate chips.",
+    "tags": [
+      "biscuit",
+      "cookie",
+      "cookies",
+      "consent",
+      "privacy",
+      "tracking",
+      "browser"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cookies"
+    }
+  },
+  "old-icon-set-5-p0192": {
+    "name": "CookieX",
+    "displayName": "Cookie x",
+    "description": "Bitten cookie with an X in the bite.",
+    "tags": [
+      "reject",
+      "decline",
+      "cookie",
+      "cookies",
+      "consent",
+      "privacy",
+      "tracking",
+      "browser",
+      "x",
+      "close",
+      "remove",
+      "cancel"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cookies"
+    }
+  },
+  "old-icon-set-5-p0193": {
+    "name": "CookieCheck",
+    "displayName": "Cookie check",
+    "description": "Bitten cookie with a check mark in the bite.",
+    "tags": [
+      "accept",
+      "allow",
+      "cookie",
+      "cookies",
+      "consent",
+      "privacy",
+      "tracking",
+      "browser",
+      "check",
+      "done",
+      "approved"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cookies"
+    }
+  },
+  "old-icon-set-5-p0194": {
+    "name": "CookieBanCrumbs",
+    "displayName": "Cookie ban crumbs",
+    "description": "Cookie with crumbs and a ban sign at its bottom left.",
+    "tags": [
+      "reject",
+      "block",
+      "cookie",
+      "cookies",
+      "consent",
+      "privacy",
+      "tracking",
+      "browser",
+      "ban",
+      "blocked",
+      "forbidden"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cookies"
+    }
+  },
+  "old-icon-set-5-p0195": {
+    "name": "CookieToggleOffCrumbs",
+    "displayName": "Cookie toggle off crumbs",
+    "description": "Cookie with crumbs and a toggle switch in the off position at its bottom left.",
+    "tags": [
+      "toggle",
+      "switch",
+      "off",
+      "cookie",
+      "cookies",
+      "consent",
+      "privacy",
+      "tracking",
+      "browser",
+      "disabled"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cookies"
+    }
+  },
+  "old-icon-set-5-p0196": {
+    "name": "CookieToggleOnCrumbs",
+    "displayName": "Cookie toggle on crumbs",
+    "description": "Cookie with crumbs and a toggle switch in the on position at its bottom left.",
+    "tags": [
+      "toggle",
+      "switch",
+      "on",
+      "cookie",
+      "cookies",
+      "consent",
+      "privacy",
+      "tracking",
+      "browser"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cookies"
+    }
+  },
+  "old-icon-set-5-p0197": {
+    "name": "CookieSettingsCrumbs",
+    "displayName": "Cookie settings crumbs",
+    "description": "Cookie with crumbs and a gear at its bottom left.",
+    "tags": [
+      "manage",
+      "cookie",
+      "cookies",
+      "consent",
+      "privacy",
+      "tracking",
+      "browser",
+      "settings",
+      "gear",
+      "preferences"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cookies"
+    }
+  },
+  "old-icon-set-5-p0198": {
+    "name": "SquareStackArrowBend",
+    "displayName": "Square stack arrow bend",
+    "description": "Two overlapping squares with a bent arrow going from the back square into the front one.",
+    "tags": [
+      "move",
+      "arrow",
+      "bring-forward",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move to layer"
+    }
+  },
+  "old-icon-set-5-p0199": {
+    "name": "SquareStackOverlap",
+    "displayName": "Square stack overlap",
+    "description": "Two overlapping rounded squares, both outlines drawn.",
+    "tags": [
+      "duplicate",
+      "copy",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0200": {
+    "name": "SquareStackLinesDashed",
+    "displayName": "Square stack lines dashed",
+    "description": "Square with two lines in front of a dashed copy of itself.",
+    "tags": [
+      "duplicate",
+      "text",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "dashed"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0201": {
+    "name": "CornersSquare",
+    "displayName": "Corners square",
+    "description": "Four frame corners with a small square in the bottom left corner.",
+    "tags": [
+      "minimize",
+      "picture-in-picture",
+      "frame",
+      "corners",
+      "resize",
+      "fit",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Resize"
+    }
+  },
+  "old-icon-set-5-p0202": {
+    "name": "SquareStackPlusDashed",
+    "displayName": "Square stack plus dashed",
+    "description": "Square with a plus in front of a dashed copy of itself.",
+    "tags": [
+      "duplicate",
+      "layer",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "plus",
+      "add",
+      "new",
+      "dashed"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0203": {
+    "name": "SquareStackDashed",
+    "displayName": "Square stack dashed",
+    "description": "Square in front of a dashed copy of itself.",
+    "tags": [
+      "duplicate",
+      "layer",
+      "ghost",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "dashed"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0204": {
+    "name": "SquareStackImageDashed",
+    "displayName": "Square stack image dashed",
+    "description": "Square holding a small image in front of a dashed copy of itself.",
+    "tags": [
+      "image",
+      "picture",
+      "duplicate",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "dashed"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0205": {
+    "name": "ImageSquareDashed",
+    "displayName": "Image square dashed",
+    "description": "Small image square inside a dashed square frame.",
+    "tags": [
+      "frame",
+      "image",
+      "picture",
+      "photo",
+      "selection",
+      "dashed",
+      "square"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Select image"
+    }
+  },
+  "old-icon-set-5-p0206": {
+    "name": "PictureInPictureArrowDownRight",
+    "displayName": "Picture in picture arrow down right",
+    "description": "Wide window with an arrow pointing down right to a small square at its corner.",
+    "tags": [
+      "minimize",
+      "arrow",
+      "picture-in-picture",
+      "pip",
+      "window",
+      "video",
+      "overlay"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Picture in picture"
+    }
+  },
+  "old-icon-set-5-p0207": {
+    "name": "SquareStackX",
+    "displayName": "Square stack x",
+    "description": "Two overlapping squares with an X in the front one.",
+    "tags": [
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "x",
+      "close",
+      "remove",
+      "cancel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0208": {
+    "name": "SquareStackSquareDashed",
+    "displayName": "Square stack square dashed",
+    "description": "Two overlapping squares inside a dashed square frame.",
+    "tags": [
+      "group",
+      "select",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "square",
+      "dashed"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0209": {
+    "name": "SquareStackLockDashed",
+    "displayName": "Square stack lock dashed",
+    "description": "Square with a padlock in front of a dashed copy of itself.",
+    "tags": [
+      "lock-layer",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "lock",
+      "locked",
+      "secure",
+      "dashed"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0210": {
+    "name": "SquareStackLines",
+    "displayName": "Square stack lines",
+    "description": "Square open on the right, followed by three vertical lines like stacked sheets seen from the side.",
+    "tags": [
+      "sheets",
+      "slices",
+      "deck",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0211": {
+    "name": "PictureInPictureArrowUpLeft",
+    "displayName": "Picture in picture arrow up left",
+    "description": "Wide window with an arrow pointing up left away from a small square at its corner.",
+    "tags": [
+      "maximize",
+      "arrow",
+      "expand",
+      "picture-in-picture",
+      "pip",
+      "window",
+      "video",
+      "overlay"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Picture in picture"
+    }
+  },
+  "old-icon-set-5-p0212": {
+    "name": "RectanglePairDashed",
+    "displayName": "Rectangle pair dashed",
+    "description": "Tall dashed rectangle next to a tall solid rectangle.",
+    "tags": [
+      "dashed",
+      "duplicate",
+      "layers",
+      "panels",
+      "columns",
+      "arrange",
+      "move"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move panel"
+    }
+  },
+  "old-icon-set-5-p0213": {
+    "name": "SquareStackPlusCorner",
+    "displayName": "Square stack plus corner",
+    "description": "Two overlapping squares with a plus outside the top right corner of the upper square.",
+    "tags": [
+      "add-layer",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "plus",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0214": {
+    "name": "SquareStackCircle",
+    "displayName": "Square stack circle",
+    "description": "Square with an L-shaped shadow line, inside a circle.",
+    "tags": [
+      "copy",
+      "duplicate",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0215": {
+    "name": "SquareStackSquare",
+    "displayName": "Square stack square",
+    "description": "Square with an L-shaped shadow line, inside a rounded square.",
+    "tags": [
+      "copy",
+      "duplicate",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0216": {
+    "name": "SquareStackArrowRight",
+    "displayName": "Square stack arrow right",
+    "description": "Two overlapping squares with an arrow pointing right inside the front one.",
+    "tags": [
+      "move",
+      "arrow",
+      "layers",
+      "arrange",
+      "stack",
+      "squares",
+      "overlap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "old-icon-set-5-p0217": {
+    "name": "Copyright",
+    "displayName": "Copyright",
+    "description": "Large letter C inside a circle.",
+    "tags": [
+      "copyright",
+      "license",
+      "rights",
+      "legal",
+      "trademark",
+      "c"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copyright"
+    }
+  },
+  "old-icon-set-5-p0218": {
+    "name": "CopyrightCompact",
+    "displayName": "Copyright compact",
+    "description": "Small letter C inside a large circle.",
+    "tags": [
+      "copyright",
+      "license",
+      "rights",
+      "legal",
+      "trademark",
+      "c"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copyright"
+    }
+  },
+  "old-icon-set-5-p0219": {
+    "name": "CopyrightSmall",
+    "displayName": "Copyright small",
+    "description": "Letter C inside a smaller circle.",
+    "tags": [
+      "copyright",
+      "license",
+      "rights",
+      "legal",
+      "trademark",
+      "c"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copyright"
+    }
+  },
+  "old-icon-set-5-p0220": {
+    "name": "RectanglePairArrowIn",
+    "displayName": "Rectangle pair arrow in",
+    "description": "Two offset tall rectangles, each with an arrow pointing toward the other.",
+    "tags": [
+      "swap",
+      "merge",
+      "arrows",
+      "layers",
+      "panels",
+      "columns",
+      "arrange",
+      "move"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move panel"
+    }
+  },
+  "old-icon-set-5-p0221": {
+    "name": "Crop",
+    "displayName": "Crop",
+    "description": "Two crossing right angles forming a crop frame.",
+    "tags": [
+      "crop",
+      "trim",
+      "cut",
+      "image",
+      "edit",
+      "resize"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Crop"
+    }
+  },
+  "old-icon-set-5-p0222": {
+    "name": "CropSync",
+    "displayName": "Crop sync",
+    "description": "Crop frame inside two curved arrows forming a circle.",
+    "tags": [
+      "rotate",
+      "crop",
+      "trim",
+      "cut",
+      "image",
+      "edit",
+      "resize",
+      "sync",
+      "refresh",
+      "loading"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Crop"
+    }
+  },
+  "old-icon-set-5-p0223": {
+    "name": "CropArrowBend",
+    "displayName": "Crop arrow bend",
+    "description": "Crop frame with bent arrows at the top right and bottom left.",
+    "tags": [
+      "rotate",
+      "swap",
+      "orientation",
+      "crop",
+      "trim",
+      "cut",
+      "image",
+      "edit",
+      "resize"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Crop"
+    }
+  },
+  "old-icon-set-5-p0224": {
+    "name": "CropSquare",
+    "displayName": "Crop square",
+    "description": "Crop frame inside a rounded square.",
+    "tags": [
+      "crop",
+      "trim",
+      "cut",
+      "image",
+      "edit",
+      "resize",
+      "square"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Crop"
+    }
+  },
+  "old-icon-set-5-p0225": {
+    "name": "CropOff",
+    "displayName": "Crop off",
+    "description": "Crop frame crossed by a diagonal slash.",
+    "tags": [
+      "no-crop",
+      "crop",
+      "trim",
+      "cut",
+      "image",
+      "edit",
+      "resize",
+      "off",
+      "disabled"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Crop"
+    }
+  },
+  "old-icon-set-5-p0226": {
+    "name": "CropDashed",
+    "displayName": "Crop dashed",
+    "description": "Crop frame with a dashed diagonal line through it.",
+    "tags": [
+      "aspect-ratio",
+      "free",
+      "crop",
+      "trim",
+      "cut",
+      "image",
+      "edit",
+      "resize",
+      "dashed"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Crop"
+    }
+  },
+  "old-icon-set-5-p0227": {
+    "name": "CropCircle",
+    "displayName": "Crop circle",
+    "description": "Crop frame inside a circle.",
+    "tags": [
+      "crop",
+      "trim",
+      "cut",
+      "image",
+      "edit",
+      "resize",
+      "circle"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Crop"
+    }
+  },
+  "old-icon-set-5-p0228": {
+    "name": "CheckUnderlineCircleCompact",
+    "displayName": "Check underline circle compact",
+    "description": "Small check mark above a short line inside a circle.",
+    "tags": [
+      "circle",
+      "check",
+      "done",
+      "complete",
+      "approve",
+      "accept",
+      "task"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Done"
+    }
+  },
+  "old-icon-set-5-p0229": {
+    "name": "CheckOverlineCircle",
+    "displayName": "Check overline circle",
+    "description": "Check mark below a short line inside a circle.",
+    "tags": [
+      "circle",
+      "check",
+      "done",
+      "complete",
+      "approve",
+      "accept",
+      "task"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Done"
+    }
+  },
+  "old-icon-set-5-p0230": {
+    "name": "CheckUnderlineSquare",
+    "displayName": "Check underline square",
+    "description": "Check mark above a short line inside a rounded square.",
+    "tags": [
+      "square",
+      "check",
+      "done",
+      "complete",
+      "approve",
+      "accept",
+      "task"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Done"
+    }
+  },
+  "old-icon-set-5-p0231": {
+    "name": "CheckOverlineSquare",
+    "displayName": "Check overline square",
+    "description": "Check mark below a short line inside a rounded square.",
+    "tags": [
+      "square",
+      "check",
+      "done",
+      "complete",
+      "approve",
+      "accept",
+      "task"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Done"
+    }
+  },
+  "old-icon-set-5-p0232": {
+    "name": "XUnderlineCircle",
+    "displayName": "X underline circle",
+    "description": "X above a short line inside a circle.",
+    "tags": [
+      "circle",
+      "x",
+      "close",
+      "cancel",
+      "reject",
+      "remove",
+      "decline"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Rejected"
+    }
+  },
+  "old-icon-set-5-p0233": {
+    "name": "XOverlineCircle",
+    "displayName": "X overline circle",
+    "description": "X below a short line inside a circle.",
+    "tags": [
+      "circle",
+      "x",
+      "close",
+      "cancel",
+      "reject",
+      "remove",
+      "decline"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Rejected"
+    }
+  },
+  "old-icon-set-5-p0234": {
+    "name": "XUnderlineSquare",
+    "displayName": "X underline square",
+    "description": "X above a short line inside a rounded square.",
+    "tags": [
+      "square",
+      "x",
+      "close",
+      "cancel",
+      "reject",
+      "remove",
+      "decline"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Rejected"
+    }
+  },
+  "old-icon-set-5-p0235": {
+    "name": "XOverlineSquare",
+    "displayName": "X overline square",
+    "description": "X below a short line inside a rounded square.",
+    "tags": [
+      "square",
+      "x",
+      "close",
+      "cancel",
+      "reject",
+      "remove",
+      "decline"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Rejected"
+    }
+  },
+  "old-icon-set-5-p0236": {
+    "name": "Crown",
+    "displayName": "Crown",
+    "description": "Crown with three points and straight sides.",
+    "tags": [
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "premium",
+      "vip"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crown"
+    }
+  },
+  "old-icon-set-5-p0237": {
+    "name": "CrownUnderline",
+    "displayName": "Crown underline",
+    "description": "Crown with three points and straight sides above a line.",
+    "tags": [
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "premium",
+      "vip"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crown"
+    }
+  },
+  "old-icon-set-5-p0238": {
+    "name": "CrownTapered",
+    "displayName": "Crown tapered",
+    "description": "Crown with three points and sides that taper toward the base, above a line.",
+    "tags": [
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "premium",
+      "vip"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crown"
+    }
+  },
+  "old-icon-set-5-p0239": {
+    "name": "CrownJewel",
+    "displayName": "Crown jewel",
+    "description": "Tapered crown with a ball on each point and curved dips, above a line.",
+    "tags": [
+      "jewels",
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "premium",
+      "vip"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crown"
+    }
+  },
+  "old-icon-set-5-p0240": {
+    "name": "CrownBand",
+    "displayName": "Crown band",
+    "description": "Crown with balls on its points and a band across the bottom.",
+    "tags": [
+      "jewels",
+      "band",
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "premium",
+      "vip"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crown"
+    }
+  },
+  "old-icon-set-5-p0241": {
+    "name": "CrownDots",
+    "displayName": "Crown dots",
+    "description": "Crown with three dots floating above its points, above a line.",
+    "tags": [
+      "dots",
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "premium",
+      "vip"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crown"
+    }
+  },
+  "old-icon-set-5-p0242": {
+    "name": "CrownJewelStraight",
+    "displayName": "Crown jewel straight",
+    "description": "Crown with straight sides and a ball on each of its three points.",
+    "tags": [
+      "jewels",
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "premium",
+      "vip"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crown"
+    }
+  },
+  "old-icon-set-5-p0243": {
+    "name": "CrownRoyal",
+    "displayName": "Crown royal",
+    "description": "Rounded royal crown with arches and a ball on top, above a line.",
+    "tags": [
+      "monarch",
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "premium",
+      "vip"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crown"
+    }
+  },
+  "old-icon-set-5-p0244": {
+    "name": "Trophy",
+    "displayName": "Trophy",
+    "description": "Cup with two handles on a stem and base.",
+    "tags": [
+      "trophy",
+      "cup",
+      "award",
+      "winner",
+      "prize",
+      "achievement"
+    ],
+    "categories": [
+      "sports",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trophy"
+    }
+  },
+  "old-icon-set-5-p0245": {
+    "name": "TrophyPointed",
+    "displayName": "Trophy pointed",
+    "description": "Cup with a pointed bottom and two handles on a stem and base.",
+    "tags": [
+      "trophy",
+      "cup",
+      "award",
+      "winner",
+      "prize",
+      "achievement"
+    ],
+    "categories": [
+      "sports",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trophy"
+    }
+  },
+  "old-icon-set-5-p0246": {
+    "name": "TrophyRound",
+    "displayName": "Trophy round",
+    "description": "Round cup with two handles on a short stem and a two-line base.",
+    "tags": [
+      "trophy",
+      "cup",
+      "award",
+      "winner",
+      "prize",
+      "achievement"
+    ],
+    "categories": [
+      "sports",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trophy"
+    }
+  },
+  "old-icon-set-5-p0247": {
+    "name": "TrophySquare",
+    "displayName": "Trophy square",
+    "description": "Trophy cup inside a rounded square.",
+    "tags": [
+      "square",
+      "badge",
+      "trophy",
+      "cup",
+      "award",
+      "winner",
+      "prize",
+      "achievement"
+    ],
+    "categories": [
+      "sports",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trophy"
+    }
+  },
+  "old-icon-set-5-p0248": {
+    "name": "TrophyCircle",
+    "displayName": "Trophy circle",
+    "description": "Trophy cup inside a circle.",
+    "tags": [
+      "circle",
+      "badge",
+      "trophy",
+      "cup",
+      "award",
+      "winner",
+      "prize",
+      "achievement"
+    ],
+    "categories": [
+      "sports",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trophy"
+    }
+  },
+  "old-icon-set-5-p0251": {
+    "name": "PointerCheckCircle",
+    "displayName": "Pointer check circle",
+    "description": "Tilted arrow pointer with a check mark in a circle at its bottom right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "check",
+      "done",
+      "approved",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0254": {
+    "name": "PointerCrosshair",
+    "displayName": "Pointer crosshair",
+    "description": "Tilted arrow pointer with a circle crossed by a plus at its bottom right.",
+    "tags": [
+      "crosshair",
+      "target",
+      "add",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0255": {
+    "name": "PointerAlertCircle",
+    "displayName": "Pointer alert circle",
+    "description": "Tilted arrow pointer with an exclamation mark in a circle at its bottom right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "alert",
+      "warning",
+      "error",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0256": {
+    "name": "PointerSync",
+    "displayName": "Pointer sync",
+    "description": "Tilted arrow pointer with two curved arrows forming a circle at its bottom right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "sync",
+      "refresh",
+      "loading"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0257": {
+    "name": "PointerStraight",
+    "displayName": "Pointer straight",
+    "description": "Arrow pointer with a straight left edge, without a tail.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0258": {
+    "name": "PointerPlusStraight",
+    "displayName": "Pointer plus straight",
+    "description": "Straight arrow pointer with a plus at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "plus",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0259": {
+    "name": "PointerMinusStraight",
+    "displayName": "Pointer minus straight",
+    "description": "Straight arrow pointer with a minus at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "minus",
+      "remove",
+      "subtract"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0260": {
+    "name": "PointerCheckStraight",
+    "displayName": "Pointer check straight",
+    "description": "Straight arrow pointer with a check mark at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "check",
+      "done",
+      "approved"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0261": {
+    "name": "PointerXStraight",
+    "displayName": "Pointer x straight",
+    "description": "Straight arrow pointer with an X at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "x",
+      "close",
+      "remove",
+      "cancel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0262": {
+    "name": "PointerPlusCircleStraight",
+    "displayName": "Pointer plus circle straight",
+    "description": "Straight arrow pointer with a plus in a circle at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "plus",
+      "add",
+      "new",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0263": {
+    "name": "PointerMinusCircleStraight",
+    "displayName": "Pointer minus circle straight",
+    "description": "Straight arrow pointer with a minus in a circle at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "minus",
+      "remove",
+      "subtract",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0264": {
+    "name": "PointerCheckCircleStraight",
+    "displayName": "Pointer check circle straight",
+    "description": "Straight arrow pointer with a check mark in a circle at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "check",
+      "done",
+      "approved",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0265": {
+    "name": "PointerXCircleStraight",
+    "displayName": "Pointer x circle straight",
+    "description": "Straight arrow pointer with an X in a circle at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "x",
+      "close",
+      "remove",
+      "cancel",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0266": {
+    "name": "PointerClockStraight",
+    "displayName": "Pointer clock straight",
+    "description": "Straight arrow pointer with a clock at its top right.",
+    "tags": [
+      "busy",
+      "loading",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "clock",
+      "time",
+      "wait"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0267": {
+    "name": "PointerBanStraight",
+    "displayName": "Pointer ban straight",
+    "description": "Straight arrow pointer with a ban sign at its top right.",
+    "tags": [
+      "not-allowed",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "ban",
+      "blocked",
+      "forbidden"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0269": {
+    "name": "PointerDotsCircleStraight",
+    "displayName": "Pointer dots circle straight",
+    "description": "Straight arrow pointer with two dots in a circle at its top right.",
+    "tags": [
+      "dots",
+      "more",
+      "typing",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0270": {
+    "name": "PointerQuestionStraight",
+    "displayName": "Pointer question straight",
+    "description": "Straight arrow pointer with a question mark at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "question",
+      "help"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0271": {
+    "name": "PointerSettingsStraight",
+    "displayName": "Pointer settings straight",
+    "description": "Straight arrow pointer with a gear at its top right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "settings",
+      "gear",
+      "preferences"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0272": {
+    "name": "PointerCardStraight",
+    "displayName": "Pointer card straight",
+    "description": "Straight arrow pointer with a small card holding two lines at its top right.",
+    "tags": [
+      "tooltip",
+      "card",
+      "text",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0273": {
+    "name": "PointerCardStraight2",
+    "displayName": "Pointer card straight 2",
+    "description": "Straight arrow pointer with a small card holding two equal lines at its top right.",
+    "tags": [
+      "tooltip",
+      "card",
+      "text",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0274": {
+    "name": "PointerSparkleStraight",
+    "displayName": "Pointer sparkle straight",
+    "description": "Straight arrow pointer with a sparkle of four short dashes at its top right.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "ai",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0275": {
+    "name": "PointerHourglassStraight",
+    "displayName": "Pointer hourglass straight",
+    "description": "Straight arrow pointer with an hourglass at its top right.",
+    "tags": [
+      "hourglass",
+      "busy",
+      "loading",
+      "wait",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0276": {
+    "name": "QuestionCirclePointer",
+    "displayName": "Question circle pointer",
+    "description": "Large circle with a question mark and a small arrow pointer at its bottom left.",
+    "tags": [
+      "question",
+      "help",
+      "support",
+      "pointer",
+      "cursor",
+      "mouse",
+      "click",
+      "select",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Help"
+    }
+  },
+  "old-icon-set-5-p0277": {
+    "name": "CursorRippleDoubleStem",
+    "displayName": "Cursor ripple double stem",
+    "description": "Arrow with a triangle head and straight stem pointing up left into two concentric arcs.",
+    "tags": [
+      "ripple",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0278": {
+    "name": "CursorRippleDoubleUpRightStem",
+    "displayName": "Cursor ripple double up right stem",
+    "description": "Arrow with a triangle head and straight stem pointing up right into two concentric arcs.",
+    "tags": [
+      "ripple",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0279": {
+    "name": "CursorRippleDoubleSharp",
+    "displayName": "Cursor ripple double sharp",
+    "description": "Sharp-cornered cursor pointing up left into two concentric arcs.",
+    "tags": [
+      "ripple",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0280": {
+    "name": "CursorRippleDoubleUpRightSharp",
+    "displayName": "Cursor ripple double up right sharp",
+    "description": "Sharp-cornered cursor pointing up right into two concentric arcs.",
+    "tags": [
+      "ripple",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0281": {
+    "name": "CursorLargeCircle",
+    "displayName": "Cursor large circle",
+    "description": "Large cursor inside a circle.",
+    "tags": [
+      "circle",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0282": {
+    "name": "PointerShine",
+    "displayName": "Pointer shine",
+    "description": "Tilted arrow pointer with short rays at its tip.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "tap",
+      "highlight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0283": {
+    "name": "PointerField",
+    "displayName": "Pointer field",
+    "description": "Tilted arrow pointer below a rounded input field holding three dots.",
+    "tags": [
+      "input",
+      "field",
+      "form",
+      "password",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0284": {
+    "name": "GlobeCursor",
+    "displayName": "Globe cursor",
+    "description": "Globe with meridians partly covered by a cursor.",
+    "tags": [
+      "globe",
+      "web",
+      "website",
+      "internet",
+      "link",
+      "cursor",
+      "click"
+    ],
+    "categories": [
+      "interface",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open website"
+    }
+  },
+  "old-icon-set-5-p0285": {
+    "name": "GlobeGridCursor",
+    "displayName": "Globe grid cursor",
+    "description": "Globe with a grid of meridians and parallels partly covered by a cursor.",
+    "tags": [
+      "grid",
+      "globe",
+      "web",
+      "website",
+      "internet",
+      "link",
+      "cursor",
+      "click"
+    ],
+    "categories": [
+      "interface",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open website"
+    }
+  },
+  "old-icon-set-5-p0286": {
+    "name": "PointerCircle",
+    "displayName": "Pointer circle",
+    "description": "Tilted arrow pointer pointing up left inside a circle.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0287": {
+    "name": "PointerUpRightCircle",
+    "displayName": "Pointer up right circle",
+    "description": "Tilted arrow pointer pointing up right inside a circle.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0288": {
+    "name": "PointerSquare",
+    "displayName": "Pointer square",
+    "description": "Tilted arrow pointer pointing up left inside a rounded square.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0289": {
+    "name": "PointerUpRightSquare",
+    "displayName": "Pointer up right square",
+    "description": "Tilted arrow pointer pointing up right inside a rounded square.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0290": {
+    "name": "CursorShine",
+    "displayName": "Cursor shine",
+    "description": "Cursor with short rays around its tip.",
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap",
+      "highlight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0291": {
+    "name": "CursorRippleDouble",
+    "displayName": "Cursor ripple double",
+    "description": "Rounded cursor pointing up left into two concentric arcs.",
+    "tags": [
+      "ripple",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0292": {
+    "name": "CursorRipple",
+    "displayName": "Cursor ripple",
+    "description": "Cursor pointing up left into one arc.",
+    "tags": [
+      "ripple",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0293": {
+    "name": "CursorUpShine",
+    "displayName": "Cursor up shine",
+    "description": "Upward cursor arrow with short rays above its tip.",
+    "tags": [
+      "up",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap",
+      "highlight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0294": {
+    "name": "InfoCirclePointer",
+    "displayName": "Info circle pointer",
+    "description": "Large circle with an i and a small arrow pointer at its top right.",
+    "tags": [
+      "info",
+      "information",
+      "pointer",
+      "cursor",
+      "mouse",
+      "click",
+      "select",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Information"
+    }
+  },
+  "old-icon-set-5-p0295": {
+    "name": "PlusCirclePointer",
+    "displayName": "Plus circle pointer",
+    "description": "Large circle with a plus and a small arrow pointer at its top right.",
+    "tags": [
+      "plus",
+      "add",
+      "new",
+      "pointer",
+      "cursor",
+      "mouse",
+      "click",
+      "select",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add"
+    }
+  },
+  "old-icon-set-5-p0296": {
+    "name": "ListCursor",
+    "displayName": "List cursor",
+    "description": "Four lines of text with a cursor at the bottom right.",
+    "tags": [
+      "text",
+      "select",
+      "cursor",
+      "click",
+      "list",
+      "lines"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Select text"
+    }
+  },
+  "old-icon-set-5-p0297": {
+    "name": "ListCirclePointer",
+    "displayName": "List circle pointer",
+    "description": "Lines of text in a circle open at the bottom right, where a tilted pointer sits.",
+    "tags": [
+      "text",
+      "pointer",
+      "select",
+      "circle",
+      "list",
+      "lines"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Select text"
+    }
+  },
+  "old-icon-set-5-p0298": {
+    "name": "PointerSquareCorner",
+    "displayName": "Pointer square corner",
+    "description": "Rounded square open at the bottom right, where a tilted pointer sits.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0299": {
+    "name": "ListSquarePointer",
+    "displayName": "List square pointer",
+    "description": "Lines of text in a rounded square open at the bottom right, where a tilted pointer sits.",
+    "tags": [
+      "text",
+      "pointer",
+      "select",
+      "square",
+      "list",
+      "lines"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Select text"
+    }
+  },
+  "old-icon-set-5-p0300": {
+    "name": "CursorSquareCorner",
+    "displayName": "Cursor square corner",
+    "description": "Rounded square open at the bottom right, where a cursor sits.",
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0301": {
+    "name": "ListSquareCursor",
+    "displayName": "List square cursor",
+    "description": "Bulleted list in a rounded square with a cursor over its bottom right.",
+    "tags": [
+      "cursor",
+      "select",
+      "click",
+      "square",
+      "list",
+      "text",
+      "lines"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Select item"
+    }
+  },
+  "old-icon-set-5-p0302": {
+    "name": "ListSquareCursorTop",
+    "displayName": "List square cursor top",
+    "description": "Lines aligned right in a rounded square with a cursor breaking its top left corner.",
+    "tags": [
+      "cursor",
+      "select",
+      "click",
+      "square",
+      "list",
+      "text",
+      "lines"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Select item"
+    }
+  },
+  "old-icon-set-5-p0303": {
+    "name": "CursorRectangleDashed",
+    "displayName": "Cursor rectangle dashed",
+    "description": "Cursor over the bottom edge of a wide dashed rectangle.",
+    "tags": [
+      "selection",
+      "select-area",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "dashed"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0304": {
+    "name": "CursorSquareDashed",
+    "displayName": "Cursor square dashed",
+    "description": "Cursor over the left edge of a dashed square.",
+    "tags": [
+      "selection",
+      "select-area",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "square",
+      "dashed"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0305": {
+    "name": "PointerRectangleDashedStraight",
+    "displayName": "Pointer rectangle dashed straight",
+    "description": "Straight arrow pointer over the bottom edge of a wide dashed rectangle.",
+    "tags": [
+      "selection",
+      "select-area",
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "dashed"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0316": {
+    "name": "CursorRippleSmall",
+    "displayName": "Cursor ripple small",
+    "description": "Large cursor pointing up left into one small arc.",
+    "tags": [
+      "ripple",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0317": {
+    "name": "CursorRippleLarge",
+    "displayName": "Cursor ripple large",
+    "description": "Large cursor pointing up left into one wide arc.",
+    "tags": [
+      "ripple",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0318": {
+    "name": "CursorRippleDouble2",
+    "displayName": "Cursor ripple double 2",
+    "description": "Cursor with a notched tail pointing up left into two concentric arcs.",
+    "tags": [
+      "ripple",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0319": {
+    "name": "CursorUpRipple",
+    "displayName": "Cursor up ripple",
+    "description": "Upward cursor arrow with one arc around its tip.",
+    "tags": [
+      "up",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap",
+      "ripple"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0320": {
+    "name": "CursorUpRippleDouble",
+    "displayName": "Cursor up ripple double",
+    "description": "Upward cursor arrow with two concentric arcs around its tip.",
+    "tags": [
+      "up",
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "tap",
+      "ripple"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0321": {
+    "name": "PointerShineLarge",
+    "displayName": "Pointer shine large",
+    "description": "Large tilted arrow pointer with short rays at its tip.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "tap",
+      "highlight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0322": {
+    "name": "PointerShineUpRight",
+    "displayName": "Pointer shine up right",
+    "description": "Large tilted arrow pointer pointing up right with short rays at its tip.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "tap",
+      "highlight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer"
+    }
+  },
+  "old-icon-set-5-p0323": {
+    "name": "CursorCircle",
+    "displayName": "Cursor circle",
+    "description": "Cursor pointing up left inside a circle.",
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0324": {
+    "name": "CursorUpRightCircle",
+    "displayName": "Cursor up right circle",
+    "description": "Cursor pointing up right inside a circle.",
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0325": {
+    "name": "CursorSquare",
+    "displayName": "Cursor square",
+    "description": "Cursor pointing up left inside a rounded square.",
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0326": {
+    "name": "CursorUpRightSquare",
+    "displayName": "Cursor up right square",
+    "description": "Cursor pointing up right inside a rounded square.",
+    "tags": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "arrow",
+      "click",
+      "select",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cursor"
+    }
+  },
+  "old-icon-set-5-p0327": {
+    "name": "GaugeUpLeftOpen",
+    "displayName": "Gauge up left open",
+    "description": "Circle with a gap at the top left and a needle pointing up left from a dot.",
+    "tags": [
+      "timer",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0328": {
+    "name": "GaugeArrowRight",
+    "displayName": "Gauge arrow right",
+    "description": "Circle with a needle, open at the bottom left where an arrow points right.",
+    "tags": [
+      "arrow",
+      "start",
+      "go",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0329": {
+    "name": "Gauge",
+    "displayName": "Gauge",
+    "description": "Circle with a short needle pointing up right from a dot.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0330": {
+    "name": "GaugeArc",
+    "displayName": "Gauge arc",
+    "description": "Circle with a needle from a dot, an inner arc and a small tick.",
+    "tags": [
+      "scale",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0331": {
+    "name": "GaugeLongTicks",
+    "displayName": "Gauge long ticks",
+    "description": "Circle with eight tick marks and a needle crossing the center dot.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0332": {
+    "name": "GaugeTicks",
+    "displayName": "Gauge ticks",
+    "description": "Circle with four tick marks on the upper half and a needle from a dot.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0333": {
+    "name": "GaugeArcSemicircle",
+    "displayName": "Gauge arc semicircle",
+    "description": "Semicircle with an inner arc, a small tick and a needle from a dot.",
+    "tags": [
+      "scale",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0335": {
+    "name": "GaugeTicksHalf",
+    "displayName": "Gauge ticks half",
+    "description": "Half dial with flat ends, tick marks and a needle from a small ring.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0336": {
+    "name": "GaugeTicksSplit",
+    "displayName": "Gauge ticks split",
+    "description": "Dial split in two: upper half with ticks and a needle from a ring, and a separate lower arc.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0337": {
+    "name": "GaugeTeardropHalf",
+    "displayName": "Gauge teardrop half",
+    "description": "Half dial with flat ends and a teardrop needle.",
+    "tags": [
+      "needle",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0338": {
+    "name": "GaugeTeardropSplit",
+    "displayName": "Gauge teardrop split",
+    "description": "Dial split in two: upper half with a teardrop needle and a separate lower arc.",
+    "tags": [
+      "needle",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0339": {
+    "name": "GaugeTicksDrop",
+    "displayName": "Gauge ticks drop",
+    "description": "Circle with four tick marks and a water drop in the center.",
+    "tags": [
+      "ticks",
+      "humidity",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "drop",
+      "pressure",
+      "water",
+      "fuel"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0340": {
+    "name": "GaugeTeardropOpen",
+    "displayName": "Gauge teardrop open",
+    "description": "Circle with a gap at the top right and a teardrop needle.",
+    "tags": [
+      "needle",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0341": {
+    "name": "GaugeOpen",
+    "displayName": "Gauge open",
+    "description": "Circle with a gap at the top right and a long needle through a ring crossing it.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0342": {
+    "name": "GaugeArcOpen",
+    "displayName": "Gauge arc open",
+    "description": "Circle with a gap at the top right, an inner arc and a long needle through a ring.",
+    "tags": [
+      "scale",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0343": {
+    "name": "GaugeDropArrowRight",
+    "displayName": "Gauge drop arrow right",
+    "description": "Circle with a water drop, open at the bottom left where an arrow points right.",
+    "tags": [
+      "arrow",
+      "humidity",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "drop",
+      "pressure",
+      "water",
+      "fuel"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0344": {
+    "name": "GaugeDrop",
+    "displayName": "Gauge drop",
+    "description": "Circle with a water drop in the center.",
+    "tags": [
+      "humidity",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "drop",
+      "pressure",
+      "water",
+      "fuel"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0345": {
+    "name": "GaugeFlatCircle",
+    "displayName": "Gauge flat circle",
+    "description": "Small dial with a flat bottom and a needle, inside a circle.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "circle"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0346": {
+    "name": "GaugeFlatCircleLarge",
+    "displayName": "Gauge flat circle large",
+    "description": "Large dial with a flat bottom and a needle, inside a circle.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "circle"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0347": {
+    "name": "StopwatchDots",
+    "displayName": "Stopwatch dots",
+    "description": "Stopwatch: circle with a button bar on top and a ring of dots inside.",
+    "tags": [
+      "dots",
+      "stopwatch",
+      "timer",
+      "loading",
+      "countdown",
+      "time"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stopwatch"
+    }
+  },
+  "old-icon-set-5-p0348": {
+    "name": "GaugeTeardropDotsSquare",
+    "displayName": "Gauge teardrop dots square",
+    "description": "Rounded square with dot marks and a teardrop needle.",
+    "tags": [
+      "needle",
+      "dots",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "square"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0349": {
+    "name": "GaugeTeardropTicksSquare",
+    "displayName": "Gauge teardrop ticks square",
+    "description": "Rounded square with four tick marks and a teardrop needle.",
+    "tags": [
+      "needle",
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "square"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0350": {
+    "name": "GaugeSquare",
+    "displayName": "Gauge square",
+    "description": "Rounded square with a long needle through a ring.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "square"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0351": {
+    "name": "GaugeTicksSquare",
+    "displayName": "Gauge ticks square",
+    "description": "Rounded square with four tick marks and a long needle through a ring.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "square"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0352": {
+    "name": "GaugeDotsSquare",
+    "displayName": "Gauge dots square",
+    "description": "Rounded square with dot marks and a long needle through a ring.",
+    "tags": [
+      "dots",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "square"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0353": {
+    "name": "GaugeDropThreeQuarter",
+    "displayName": "Gauge drop three quarter",
+    "description": "Three-quarter dial with tick marks and a water drop in the center.",
+    "tags": [
+      "humidity",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "drop",
+      "pressure",
+      "water",
+      "fuel"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0354": {
+    "name": "GaugeThreeQuarter",
+    "displayName": "Gauge three quarter",
+    "description": "Three-quarter dial with tick marks and a needle from a ring.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0355": {
+    "name": "GaugeXThreeQuarter",
+    "displayName": "Gauge x three quarter",
+    "description": "Three-quarter dial with tick marks and a needle, with an X at the bottom right.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "x",
+      "close",
+      "remove",
+      "cancel"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0356": {
+    "name": "GaugePlusThreeQuarter",
+    "displayName": "Gauge plus three quarter",
+    "description": "Three-quarter dial with tick marks and a needle, with a plus at the bottom right.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "plus",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0357": {
+    "name": "GaugeMinusThreeQuarter",
+    "displayName": "Gauge minus three quarter",
+    "description": "Three-quarter dial with tick marks and a needle, with a minus at the bottom right.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "minus",
+      "remove",
+      "subtract"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0358": {
+    "name": "GaugeCheckThreeQuarter",
+    "displayName": "Gauge check three quarter",
+    "description": "Three-quarter dial with tick marks and a needle, with a check mark at the bottom right.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "check",
+      "done",
+      "approved"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0359": {
+    "name": "GaugeTeardropCurved",
+    "displayName": "Gauge teardrop curved",
+    "description": "Dial with a curved bottom edge and a teardrop needle pointing up left.",
+    "tags": [
+      "needle",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0360": {
+    "name": "GaugeDropDashed",
+    "displayName": "Gauge drop dashed",
+    "description": "Dashed circle with a water drop in the center.",
+    "tags": [
+      "humidity",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "drop",
+      "pressure",
+      "water",
+      "fuel",
+      "dashed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0361": {
+    "name": "GaugeDashed",
+    "displayName": "Gauge dashed",
+    "description": "Dashed circle with a needle from a dot.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "dashed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0362": {
+    "name": "GaugeArcDashed",
+    "displayName": "Gauge arc dashed",
+    "description": "Dashed circle with a dashed inner arc, a small tick and a needle from a dot.",
+    "tags": [
+      "scale",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "dashed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0363": {
+    "name": "GaugeLongDashed",
+    "displayName": "Gauge long dashed",
+    "description": "Partly dashed circle with a long needle through a ring crossing its gap.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "dashed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0364": {
+    "name": "GaugeLongTicksFlat",
+    "displayName": "Gauge long ticks flat",
+    "description": "Dial with a flat bottom, four tick marks and a long needle through a ring.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0365": {
+    "name": "GaugeTicksDotsSquare",
+    "displayName": "Gauge ticks dots square",
+    "description": "Rounded square with tick and dot marks and a long needle through a ring.",
+    "tags": [
+      "ticks",
+      "dots",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "square"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0366": {
+    "name": "MonitorPulse",
+    "displayName": "Monitor pulse",
+    "description": "Screen with a pulse line, above a line and three dots.",
+    "tags": [
+      "pulse",
+      "heartbeat",
+      "activity",
+      "dashboard",
+      "monitor",
+      "screen",
+      "display",
+      "computer"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Activity monitor"
+    }
+  },
+  "old-icon-set-5-p0367": {
+    "name": "GaugeTeardropArch",
+    "displayName": "Gauge teardrop arch",
+    "description": "Dial open at the bottom with short dash ticks and an upright teardrop needle.",
+    "tags": [
+      "needle",
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0368": {
+    "name": "PulseSquare",
+    "displayName": "Pulse square",
+    "description": "Rounded square crossed by a pulse line.",
+    "tags": [
+      "square",
+      "chart",
+      "pulse",
+      "heartbeat",
+      "activity",
+      "monitor",
+      "health",
+      "vitals"
+    ],
+    "categories": [
+      "health"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Activity"
+    }
+  },
+  "old-icon-set-5-p0369": {
+    "name": "GaugeArch",
+    "displayName": "Gauge arch",
+    "description": "Dial open at the bottom with dash ticks and a needle from a small dot ring.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0370": {
+    "name": "GaugeLongArch",
+    "displayName": "Gauge long arch",
+    "description": "Dial open at the bottom with dash ticks and a long needle reaching the rim.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0371": {
+    "name": "GaugeTicksFlat",
+    "displayName": "Gauge ticks flat",
+    "description": "Dial with a flat bottom, three tick marks and a needle from a ring.",
+    "tags": [
+      "ticks",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0372": {
+    "name": "GaugeFlat",
+    "displayName": "Gauge flat",
+    "description": "Dial with a flat bottom and a needle from a ring.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0373": {
+    "name": "GaugeTeardropFlat",
+    "displayName": "Gauge teardrop flat",
+    "description": "Dial with a flat bottom and a teardrop needle.",
+    "tags": [
+      "needle",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0374": {
+    "name": "GaugeLong",
+    "displayName": "Gauge long",
+    "description": "Circle with a long needle crossing a ring in the center.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0375": {
+    "name": "GaugeDots",
+    "displayName": "Gauge dots",
+    "description": "Circle with dot marks and a needle from a ring.",
+    "tags": [
+      "dots",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0376": {
+    "name": "GaugeArcFlat",
+    "displayName": "Gauge arc flat",
+    "description": "Dial with a flat bottom, an inner arc, a small tick and a needle from a dot.",
+    "tags": [
+      "scale",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0377": {
+    "name": "GaugeDropSquare",
+    "displayName": "Gauge drop square",
+    "description": "Water drop inside a rounded square.",
+    "tags": [
+      "humidity",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "drop",
+      "pressure",
+      "water",
+      "fuel",
+      "square"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0378": {
+    "name": "DashboardGauge",
+    "displayName": "Dashboard gauge",
+    "description": "Semicircle gauge with an inner arc above two small squares and two bars.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "widgets",
+      "performance",
+      "dashboard",
+      "analytics",
+      "report",
+      "statistics",
+      "data"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dashboard"
+    }
+  },
+  "old-icon-set-5-p0379": {
+    "name": "GaugeTeardropDashed",
+    "displayName": "Gauge teardrop dashed",
+    "description": "Dashed circle with a teardrop needle.",
+    "tags": [
+      "needle",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed",
+      "dashed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0380": {
+    "name": "GaugeHalf",
+    "displayName": "Gauge half",
+    "description": "Half dial with flat ends and a needle from a ring.",
+    "tags": [
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0381": {
+    "name": "GaugeArcHalf",
+    "displayName": "Gauge arc half",
+    "description": "Half dial with flat ends, an inner arc and a needle from a ring.",
+    "tags": [
+      "scale",
+      "gauge",
+      "speedometer",
+      "dashboard",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0382": {
+    "name": "DashboardPieTrendUp",
+    "displayName": "Dashboard pie trend up",
+    "description": "Pie chart with list lines beside it and a trend line with an arrow up below.",
+    "tags": [
+      "pie",
+      "chart",
+      "trend",
+      "growth",
+      "list",
+      "dashboard",
+      "analytics",
+      "report",
+      "statistics",
+      "data"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dashboard"
+    }
+  },
+  "old-icon-set-5-p0383": {
+    "name": "DashboardTrendUpPie",
+    "displayName": "Dashboard trend up pie",
+    "description": "Trend line with an arrow up above a pie chart with list lines.",
+    "tags": [
+      "pie",
+      "chart",
+      "trend",
+      "growth",
+      "list",
+      "dashboard",
+      "analytics",
+      "report",
+      "statistics",
+      "data"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dashboard"
+    }
+  },
+  "old-icon-set-5-p0384": {
+    "name": "DashboardPieListBars",
+    "displayName": "Dashboard pie list bars",
+    "description": "Pie chart with list lines above a stepped bar chart.",
+    "tags": [
+      "pie",
+      "chart",
+      "bars",
+      "list",
+      "dashboard",
+      "analytics",
+      "report",
+      "statistics",
+      "data"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dashboard"
+    }
+  },
+  "old-icon-set-5-p0385": {
+    "name": "DashboardPieBars",
+    "displayName": "Dashboard pie bars",
+    "description": "Pie chart above a stepped bar chart.",
+    "tags": [
+      "pie",
+      "chart",
+      "bars",
+      "dashboard",
+      "analytics",
+      "report",
+      "statistics",
+      "data"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dashboard"
+    }
+  },
+  "old-icon-set-5-p0386": {
+    "name": "DashboardPieSliderBars",
+    "displayName": "Dashboard pie slider bars",
+    "description": "Pie chart with a slider knob above a row of thin bars.",
+    "tags": [
+      "pie",
+      "chart",
+      "slider",
+      "bars",
+      "dashboard",
+      "analytics",
+      "report",
+      "statistics",
+      "data"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dashboard"
+    }
+  },
+  "old-icon-set-5-p0387": {
+    "name": "DashboardSlidersPieTrend",
+    "displayName": "Dashboard sliders pie trend",
+    "description": "Two sliders and a pie chart above a line chart on axes.",
+    "tags": [
+      "pie",
+      "chart",
+      "sliders",
+      "trend",
+      "dashboard",
+      "analytics",
+      "report",
+      "statistics",
+      "data"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dashboard"
+    }
+  },
+  "old-icon-set-5-p0388": {
+    "name": "DashboardSlidersPieBars",
+    "displayName": "Dashboard sliders pie bars",
+    "description": "Two vertical sliders and a pie chart above a row of thin bars.",
+    "tags": [
+      "pie",
+      "chart",
+      "sliders",
+      "bars",
+      "dashboard",
+      "analytics",
+      "report",
+      "statistics",
+      "data"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dashboard"
+    }
+  },
+  "old-icon-set-5-p0389": {
+    "name": "GaugeTrio",
+    "displayName": "Gauge trio",
+    "description": "Large half gauge with ticks and a ring needle above two small half gauges.",
+    "tags": [
+      "three",
+      "dashboard",
+      "monitoring",
+      "gauge",
+      "speedometer",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0390": {
+    "name": "GaugeTrio2",
+    "displayName": "Gauge trio 2",
+    "description": "Large half gauge with ticks and a dot needle above two small half gauges.",
+    "tags": [
+      "three",
+      "dashboard",
+      "monitoring",
+      "gauge",
+      "speedometer",
+      "meter",
+      "performance",
+      "speed"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0391": {
+    "name": "GaugeTrioCircle",
+    "displayName": "Gauge trio circle",
+    "description": "Large half gauge above two small round gauges.",
+    "tags": [
+      "three",
+      "dashboard",
+      "monitoring",
+      "gauge",
+      "speedometer",
+      "meter",
+      "performance",
+      "speed",
+      "circle"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-5-p0409": {
+    "name": "Ban",
+    "displayName": "Ban",
+    "description": "Circle crossed by a diagonal slash.",
+    "tags": [
+      "no-entry",
+      "ban",
+      "forbidden",
+      "blocked",
+      "prohibited",
+      "not-allowed",
+      "stop"
+    ],
+    "categories": [
+      "interface",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Not allowed"
+    }
+  },
+  "old-icon-set-5-p0410": {
+    "name": "BanOctagon",
+    "displayName": "Ban octagon",
+    "description": "Octagon crossed by a diagonal slash.",
+    "tags": [
+      "octagon",
+      "stop-sign",
+      "ban",
+      "forbidden",
+      "blocked",
+      "prohibited",
+      "not-allowed",
+      "stop"
+    ],
+    "categories": [
+      "interface",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Not allowed"
+    }
+  },
+  "old-icon-set-5-p0411": {
+    "name": "BanCircle",
+    "displayName": "Ban circle",
+    "description": "Small ban sign inside a circle.",
+    "tags": [
+      "circle",
+      "ban",
+      "forbidden",
+      "blocked",
+      "prohibited",
+      "not-allowed",
+      "stop"
+    ],
+    "categories": [
+      "interface",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Not allowed"
+    }
+  },
+  "old-icon-set-5-p0412": {
+    "name": "NavigationUpRightSharp",
+    "displayName": "Navigation up right sharp",
+    "description": "Thin sharp navigation arrow pointing up right.",
+    "tags": [
+      "up-right",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0413": {
+    "name": "NavigationUpRight",
+    "displayName": "Navigation up right",
+    "description": "Navigation arrow with rounded corners pointing up right.",
+    "tags": [
+      "up-right",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0414": {
+    "name": "NavigationUpRightRound",
+    "displayName": "Navigation up right round",
+    "description": "Wide, very rounded navigation arrow pointing up right.",
+    "tags": [
+      "up-right",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0415": {
+    "name": "NavigationUpLeftSharp",
+    "displayName": "Navigation up left sharp",
+    "description": "Thin sharp navigation arrow pointing up left.",
+    "tags": [
+      "up-left",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0416": {
+    "name": "NavigationUpLeft",
+    "displayName": "Navigation up left",
+    "description": "Navigation arrow with rounded corners pointing up left.",
+    "tags": [
+      "up-left",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0417": {
+    "name": "NavigationUpLeftRound",
+    "displayName": "Navigation up left round",
+    "description": "Wide, very rounded navigation arrow pointing up left.",
+    "tags": [
+      "up-left",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0418": {
+    "name": "NavigationUpSharp",
+    "displayName": "Navigation up sharp",
+    "description": "Thin sharp navigation arrow pointing up.",
+    "tags": [
+      "up",
+      "north",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0419": {
+    "name": "NavigationUp",
+    "displayName": "Navigation up",
+    "description": "Navigation arrow with rounded corners pointing up.",
+    "tags": [
+      "up",
+      "north",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0420": {
+    "name": "NavigationUpRound",
+    "displayName": "Navigation up round",
+    "description": "Wide, very rounded navigation arrow pointing up.",
+    "tags": [
+      "up",
+      "north",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0421": {
+    "name": "NavigationRightSquare",
+    "displayName": "Navigation right square",
+    "description": "Navigation arrow pointing right inside a rounded square.",
+    "tags": [
+      "right",
+      "square",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0422": {
+    "name": "NavigationLeftSquare",
+    "displayName": "Navigation left square",
+    "description": "Navigation arrow pointing left inside a rounded square.",
+    "tags": [
+      "left",
+      "square",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0423": {
+    "name": "NavigationUpSquare",
+    "displayName": "Navigation up square",
+    "description": "Navigation arrow pointing up inside a rounded square.",
+    "tags": [
+      "up",
+      "square",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0424": {
+    "name": "NavigationDownSquare",
+    "displayName": "Navigation down square",
+    "description": "Navigation arrow pointing down inside a rounded square.",
+    "tags": [
+      "down",
+      "square",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0425": {
+    "name": "NavigationUpRightSquare",
+    "displayName": "Navigation up right square",
+    "description": "Navigation arrow pointing up right inside a rounded square.",
+    "tags": [
+      "up-right",
+      "square",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0426": {
+    "name": "NavigationUpLeftSquare",
+    "displayName": "Navigation up left square",
+    "description": "Navigation arrow pointing up left inside a rounded square.",
+    "tags": [
+      "up-left",
+      "square",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0427": {
+    "name": "NavigationDownRightSquare",
+    "displayName": "Navigation down right square",
+    "description": "Navigation arrow pointing down right inside a rounded square.",
+    "tags": [
+      "down-right",
+      "square",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0428": {
+    "name": "NavigationDownLeftSquare",
+    "displayName": "Navigation down left square",
+    "description": "Navigation arrow pointing down left inside a rounded square.",
+    "tags": [
+      "down-left",
+      "square",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0429": {
+    "name": "NavigationRightCircle",
+    "displayName": "Navigation right circle",
+    "description": "Navigation arrow pointing right inside a circle.",
+    "tags": [
+      "right",
+      "circle",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0430": {
+    "name": "NavigationLeftCircle",
+    "displayName": "Navigation left circle",
+    "description": "Navigation arrow pointing left inside a circle.",
+    "tags": [
+      "left",
+      "circle",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0431": {
+    "name": "NavigationUpCircle",
+    "displayName": "Navigation up circle",
+    "description": "Navigation arrow pointing up inside a circle.",
+    "tags": [
+      "up",
+      "circle",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0432": {
+    "name": "NavigationDownCircle",
+    "displayName": "Navigation down circle",
+    "description": "Navigation arrow pointing down inside a circle.",
+    "tags": [
+      "down",
+      "circle",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0433": {
+    "name": "NavigationUpRightCircle",
+    "displayName": "Navigation up right circle",
+    "description": "Navigation arrow pointing up right inside a circle.",
+    "tags": [
+      "up-right",
+      "circle",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0434": {
+    "name": "NavigationUpLeftCircle",
+    "displayName": "Navigation up left circle",
+    "description": "Navigation arrow pointing up left inside a circle.",
+    "tags": [
+      "up-left",
+      "circle",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0435": {
+    "name": "NavigationDownRightCircle",
+    "displayName": "Navigation down right circle",
+    "description": "Navigation arrow pointing down right inside a circle.",
+    "tags": [
+      "down-right",
+      "circle",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0436": {
+    "name": "NavigationDownLeftCircle",
+    "displayName": "Navigation down left circle",
+    "description": "Navigation arrow pointing down left inside a circle.",
+    "tags": [
+      "down-left",
+      "circle",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0437": {
+    "name": "NavigationUpCircleSegmented",
+    "displayName": "Navigation up circle segmented",
+    "description": "Navigation arrow pointing up inside a circle drawn in uneven segments.",
+    "tags": [
+      "loading",
+      "progress",
+      "segments",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map",
+      "circle"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0438": {
+    "name": "NavigationUpCircleDashedHalf",
+    "displayName": "Navigation up circle dashed half",
+    "description": "Navigation arrow pointing up inside a circle whose left half is dashed.",
+    "tags": [
+      "loading",
+      "progress",
+      "half",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map",
+      "circle",
+      "dashed"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0439": {
+    "name": "NavigationUpCircleDashed",
+    "displayName": "Navigation up circle dashed",
+    "description": "Navigation arrow pointing up inside a dashed circle.",
+    "tags": [
+      "loading",
+      "searching",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map",
+      "circle",
+      "dashed"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0440": {
+    "name": "NavigationUpCircleDashedQuarter",
+    "displayName": "Navigation up circle dashed quarter",
+    "description": "Navigation arrow pointing up inside a circle whose top left quarter is dashed.",
+    "tags": [
+      "loading",
+      "progress",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map",
+      "circle",
+      "dashed"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0441": {
+    "name": "NavigationUpCircleX",
+    "displayName": "Navigation up circle x",
+    "description": "Navigation arrow pointing up in a circle, with an X at the top right.",
+    "tags": [
+      "location-off",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map",
+      "circle",
+      "x",
+      "close",
+      "remove",
+      "cancel"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0442": {
+    "name": "NavigationUpCircleCheck",
+    "displayName": "Navigation up circle check",
+    "description": "Navigation arrow pointing up in a circle, with a check mark at the top right.",
+    "tags": [
+      "location-found",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map",
+      "circle",
+      "check",
+      "done",
+      "approved"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0443": {
+    "name": "NavigationUpRightCorners",
+    "displayName": "Navigation up right corners",
+    "description": "Navigation arrow pointing up right inside four frame corners.",
+    "tags": [
+      "focus",
+      "center",
+      "recenter",
+      "navigation",
+      "location",
+      "gps",
+      "direction",
+      "arrow",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Navigation"
+    }
+  },
+  "old-icon-set-5-p0444": {
+    "name": "ChevronOutCorners",
+    "displayName": "Chevron out corners",
+    "description": "Four chevrons pointing outward inside four frame corners.",
+    "tags": [
+      "chevron",
+      "corners",
+      "move",
+      "expand",
+      "pan",
+      "arrows",
+      "frame",
+      "drag"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move"
+    }
+  },
+  "old-icon-set-5-p0445": {
+    "name": "ListXSquareCenter",
+    "displayName": "List x square center",
+    "description": "Rounded square with an X centered above two lines.",
+    "tags": [
+      "x",
+      "remove",
+      "clear",
+      "square",
+      "list",
+      "text",
+      "lines",
+      "close",
+      "cancel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List"
+    }
+  },
+  "old-icon-set-5-p0446": {
+    "name": "ListXSquare",
+    "displayName": "List x square",
+    "description": "Rounded square with a short line and an X above two lines.",
+    "tags": [
+      "x",
+      "remove",
+      "clear",
+      "square",
+      "list",
+      "text",
+      "lines",
+      "close",
+      "cancel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List"
+    }
+  },
+  "old-icon-set-5-p0447": {
+    "name": "ListXSquareCorner",
+    "displayName": "List x square corner",
+    "description": "Rounded square with three lines and an X at the bottom right.",
+    "tags": [
+      "x",
+      "remove",
+      "clear",
+      "square",
+      "list",
+      "text",
+      "lines",
+      "close",
+      "cancel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List"
+    }
+  },
+  "old-icon-set-5-p0448": {
+    "name": "PictureInPictureX",
+    "displayName": "Picture in picture x",
+    "description": "Rounded square with a smaller square in its bottom right corner holding an X.",
+    "tags": [
+      "close",
+      "picture-in-picture",
+      "pip",
+      "window",
+      "video",
+      "overlay",
+      "x",
+      "remove",
+      "cancel"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Picture in picture"
+    }
+  },
+  "old-icon-set-5-p0449": {
+    "name": "Divide",
+    "displayName": "Divide",
+    "description": "Division sign: a line with a dot above and below.",
+    "tags": [
+      "divide",
+      "division",
+      "math",
+      "calculator",
+      "operator",
+      "obelus"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Divide"
+    }
+  },
+  "old-icon-set-5-p0450": {
+    "name": "DivideHollow",
+    "displayName": "Divide hollow",
+    "description": "Division sign with hollow ring dots above and below the line.",
+    "tags": [
+      "hollow",
+      "divide",
+      "division",
+      "math",
+      "calculator",
+      "operator",
+      "obelus"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Divide"
+    }
+  },
+  "old-icon-set-5-p0451": {
+    "name": "DivideSquareCompact",
+    "displayName": "Divide square compact",
+    "description": "Small division sign inside a rounded square.",
+    "tags": [
+      "square",
+      "divide",
+      "division",
+      "math",
+      "calculator",
+      "operator",
+      "obelus"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Divide"
+    }
+  },
+  "old-icon-set-5-p0452": {
+    "name": "DivideCircleCompact",
+    "displayName": "Divide circle compact",
+    "description": "Small division sign inside a circle.",
+    "tags": [
+      "circle",
+      "divide",
+      "division",
+      "math",
+      "calculator",
+      "operator",
+      "obelus"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Divide"
+    }
+  },
+  "old-icon-set-5-p0453": {
+    "name": "DivideSquare",
+    "displayName": "Divide square",
+    "description": "Division sign inside a rounded square.",
+    "tags": [
+      "square",
+      "divide",
+      "division",
+      "math",
+      "calculator",
+      "operator",
+      "obelus"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Divide"
+    }
+  },
+  "old-icon-set-5-p0454": {
+    "name": "DivideCircle",
+    "displayName": "Divide circle",
+    "description": "Division sign inside a circle.",
+    "tags": [
+      "circle",
+      "divide",
+      "division",
+      "math",
+      "calculator",
+      "operator",
+      "obelus"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Divide"
+    }
+  }
+}

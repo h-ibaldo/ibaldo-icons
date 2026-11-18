@@ -1,0 +1,37 @@
+{
+  "name": "AlarmBoltBare",
+  "displayName": "Alarm bolt bare",
+  "description": "Alarm clock with straight bell strokes and no feet, with a lightning bolt on the face.",
+  "tags": [
+    "alarm",
+    "alarm-clock",
+    "clock",
+    "time",
+    "wake-up",
+    "bolt",
+    "lightning",
+    "quick",
+    "bare"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Quick alarm"
+  },
+  "filename": "alarm-bolt-bare",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

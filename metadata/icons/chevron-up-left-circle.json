@@ -1,0 +1,35 @@
+{
+  "name": "ChevronUpLeftCircle",
+  "displayName": "Chevron up left circle",
+  "description": "Corner chevron pointing up and to the left inside a circle.",
+  "tags": [
+    "chevron",
+    "caret",
+    "upleft",
+    "navigation",
+    "circle",
+    "button"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Chevron up left"
+  },
+  "filename": "chevron-up-left-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ChevronCornerStaggeredSquare",
+  "displayName": "Chevron corner staggered square",
+  "description": "Two offset corner chevrons pointing toward each other inside a rounded square.",
+  "tags": [
+    "chevron",
+    "staggered",
+    "corner",
+    "collapse",
+    "merge",
+    "minimize",
+    "square"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Collapse"
+  },
+  "filename": "chevron-corner-staggered-square",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

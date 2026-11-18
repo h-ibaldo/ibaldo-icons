@@ -1,0 +1,37 @@
+{
+  "name": "CalendarStackDotted",
+  "displayName": "Calendar stack dotted",
+  "description": "Calendar page with a grid of dots in front of a second offset page.",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "event",
+    "pages",
+    "multiple",
+    "stack",
+    "dotted",
+    "day"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Calendars"
+  },
+  "filename": "calendar-stack-dotted",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

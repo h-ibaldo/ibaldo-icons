@@ -1,0 +1,35 @@
+{
+  "name": "BookLabelTilted",
+  "displayName": "Book label tilted",
+  "description": "Closed book lying tilted, with a title bar on the cover.",
+  "tags": [
+    "book",
+    "reading",
+    "library",
+    "ebook",
+    "tilted",
+    "cover",
+    "education"
+  ],
+  "categories": [
+    "education"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Book"
+  },
+  "filename": "book-label-tilted",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

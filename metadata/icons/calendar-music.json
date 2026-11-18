@@ -1,0 +1,36 @@
+{
+  "name": "CalendarMusic",
+  "displayName": "Calendar music",
+  "description": "Calendar with a music note in the middle.",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "event",
+    "concert",
+    "festival",
+    "music",
+    "day"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Music event"
+  },
+  "filename": "calendar-music",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

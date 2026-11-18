@@ -1,0 +1,38 @@
+{
+  "name": "MedalStripe",
+  "displayName": "Medal stripe",
+  "description": "Small round medal hanging from a striped ribbon.",
+  "tags": [
+    "medal",
+    "award",
+    "prize",
+    "winner",
+    "achievement",
+    "military",
+    "honor",
+    "service",
+    "ribbon"
+  ],
+  "categories": [
+    "social",
+    "sports"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Medal"
+  },
+  "filename": "medal-stripe",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

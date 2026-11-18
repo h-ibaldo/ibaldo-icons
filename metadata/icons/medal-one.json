@@ -1,0 +1,38 @@
+{
+  "name": "MedalOne",
+  "displayName": "Medal one",
+  "description": "Round medal with the number 1 and two ribbon tails below.",
+  "tags": [
+    "medal",
+    "award",
+    "prize",
+    "winner",
+    "achievement",
+    "first",
+    "place",
+    "one",
+    "ribbon"
+  ],
+  "categories": [
+    "social",
+    "sports"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "First place"
+  },
+  "filename": "medal-one",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "TextAppCircle",
+  "displayName": "Text app circle",
+  "description": "Letters APP across a circle broken at both sides.",
+  "tags": [
+    "app",
+    "application",
+    "letters",
+    "mobile",
+    "software",
+    "store",
+    "circle"
+  ],
+  "categories": [
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "App"
+  },
+  "filename": "text-app-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

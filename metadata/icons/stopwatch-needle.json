@@ -1,0 +1,35 @@
+{
+  "name": "StopwatchNeedle",
+  "displayName": "Stopwatch needle",
+  "description": "Stopwatch with two side knobs and a needle with a filled hub.",
+  "tags": [
+    "stopwatch",
+    "timer",
+    "time",
+    "chronometer",
+    "needle",
+    "dial",
+    "gauge"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Stopwatch"
+  },
+  "filename": "stopwatch-needle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

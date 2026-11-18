@@ -1,0 +1,8200 @@
+{
+  "old-icon-set-4-p0002": {
+    "name": "ClipboardText",
+    "displayName": "Clipboard text",
+    "description": "Clipboard with two horizontal text lines.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "text",
+      "lines"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clipboard"
+    }
+  },
+  "old-icon-set-4-p0003": {
+    "name": "ClipboardPageText",
+    "displayName": "Clipboard page text",
+    "description": "Clipboard with a sheet holding two text lines in front of it.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "copy",
+      "page",
+      "text"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paste"
+    }
+  },
+  "old-icon-set-4-p0004": {
+    "name": "ClipboardPage",
+    "displayName": "Clipboard page",
+    "description": "Clipboard with a blank square sheet in front of it.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "copy",
+      "page",
+      "sheet"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paste"
+    }
+  },
+  "old-icon-set-4-p0006": {
+    "name": "ClipboardMinusCenter",
+    "displayName": "Clipboard minus center",
+    "description": "Clipboard with a minus sign in the middle.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "minus",
+      "remove",
+      "empty"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from clipboard"
+    }
+  },
+  "old-icon-set-4-p0009": {
+    "name": "ClipboardPlus",
+    "displayName": "Clipboard plus",
+    "description": "Clipboard with a plus sign at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "plus",
+      "add"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to clipboard"
+    }
+  },
+  "old-icon-set-4-p0010": {
+    "name": "ClipboardMinus",
+    "displayName": "Clipboard minus",
+    "description": "Clipboard with a minus sign at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "minus",
+      "remove"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from clipboard"
+    }
+  },
+  "old-icon-set-4-p0011": {
+    "name": "ClipboardX",
+    "displayName": "Clipboard x",
+    "description": "Clipboard with an X at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "x",
+      "remove",
+      "delete",
+      "cancel"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from clipboard"
+    }
+  },
+  "old-icon-set-4-p0012": {
+    "name": "ClipboardCheck",
+    "displayName": "Clipboard check",
+    "description": "Clipboard with a check mark at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "check",
+      "done",
+      "complete"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clipboard done"
+    }
+  },
+  "old-icon-set-4-p0013": {
+    "name": "ClipboardPlusCircle",
+    "displayName": "Clipboard plus circle",
+    "description": "Clipboard with a plus sign in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "plus",
+      "add",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to clipboard"
+    }
+  },
+  "old-icon-set-4-p0014": {
+    "name": "ClipboardMinusCircle",
+    "displayName": "Clipboard minus circle",
+    "description": "Clipboard with a minus sign in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "minus",
+      "remove",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from clipboard"
+    }
+  },
+  "old-icon-set-4-p0015": {
+    "name": "ClipboardXCircle",
+    "displayName": "Clipboard x circle",
+    "description": "Clipboard with an X in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from clipboard"
+    }
+  },
+  "old-icon-set-4-p0016": {
+    "name": "ClipboardCheckCircle",
+    "displayName": "Clipboard check circle",
+    "description": "Clipboard with a check mark in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "check",
+      "done",
+      "complete",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clipboard done"
+    }
+  },
+  "old-icon-set-4-p0017": {
+    "name": "ClipboardListShort",
+    "displayName": "Clipboard list short",
+    "description": "Clipboard with a two-row bulleted list.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "short",
+      "bullets"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clipboard list"
+    }
+  },
+  "old-icon-set-4-p0018": {
+    "name": "ClipboardListPlusShort",
+    "displayName": "Clipboard list plus short",
+    "description": "Clipboard with a two-row list and a plus sign at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "plus",
+      "add",
+      "short"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to list"
+    }
+  },
+  "old-icon-set-4-p0019": {
+    "name": "ClipboardListMinusShort",
+    "displayName": "Clipboard list minus short",
+    "description": "Clipboard with a two-row list and a minus sign at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "minus",
+      "remove",
+      "short"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "old-icon-set-4-p0020": {
+    "name": "ClipboardListXShort",
+    "displayName": "Clipboard list x short",
+    "description": "Clipboard with a two-row list and an X at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "short"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "old-icon-set-4-p0021": {
+    "name": "ClipboardListCheckShort",
+    "displayName": "Clipboard list check short",
+    "description": "Clipboard with a two-row list and a check mark at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "check",
+      "done",
+      "complete",
+      "short"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List done"
+    }
+  },
+  "old-icon-set-4-p0022": {
+    "name": "ClipboardListPlusCircleShort",
+    "displayName": "Clipboard list plus circle short",
+    "description": "Clipboard with a two-row list and a plus sign in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "plus",
+      "add",
+      "circle",
+      "short"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to list"
+    }
+  },
+  "old-icon-set-4-p0023": {
+    "name": "ClipboardListMinusCircleShort",
+    "displayName": "Clipboard list minus circle short",
+    "description": "Clipboard with a two-row list and a minus sign in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "minus",
+      "remove",
+      "circle",
+      "short"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "old-icon-set-4-p0024": {
+    "name": "ClipboardListXCircleShort",
+    "displayName": "Clipboard list x circle short",
+    "description": "Clipboard with a two-row list and an X in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "circle",
+      "short"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "old-icon-set-4-p0025": {
+    "name": "ClipboardListCheckCircleShort",
+    "displayName": "Clipboard list check circle short",
+    "description": "Clipboard with a two-row list and a check mark in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "check",
+      "done",
+      "complete",
+      "circle",
+      "short"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List done"
+    }
+  },
+  "old-icon-set-4-p0026": {
+    "name": "ClipboardListPlusCircle",
+    "displayName": "Clipboard list plus circle",
+    "description": "Clipboard with a three-row list and a plus sign in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "plus",
+      "add",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to list"
+    }
+  },
+  "old-icon-set-4-p0027": {
+    "name": "ClipboardListMinusCircle",
+    "displayName": "Clipboard list minus circle",
+    "description": "Clipboard with a three-row list and a minus sign in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "minus",
+      "remove",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "old-icon-set-4-p0028": {
+    "name": "ClipboardListXCircle",
+    "displayName": "Clipboard list x circle",
+    "description": "Clipboard with a three-row list and an X in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "old-icon-set-4-p0029": {
+    "name": "ClipboardListCheckCircle",
+    "displayName": "Clipboard list check circle",
+    "description": "Clipboard with a three-row list and a check mark in a circle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "check",
+      "done",
+      "complete",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List done"
+    }
+  },
+  "old-icon-set-4-p0030": {
+    "name": "ClipboardImage",
+    "displayName": "Clipboard image",
+    "description": "Clipboard with a small picture in front of its lower-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "image",
+      "picture",
+      "photo"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paste image"
+    }
+  },
+  "old-icon-set-4-p0031": {
+    "name": "ClipboardImageLarge",
+    "displayName": "Clipboard image large",
+    "description": "Clipboard with a large picture sticking out past its lower-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "image",
+      "picture",
+      "photo",
+      "large"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paste image"
+    }
+  },
+  "old-icon-set-4-p0032": {
+    "name": "ClipboardLinkTilted",
+    "displayName": "Clipboard link tilted",
+    "description": "Clipboard with a diagonal chain link at the lower right.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "link",
+      "url",
+      "chain",
+      "tilted"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paste link"
+    }
+  },
+  "old-icon-set-4-p0033": {
+    "name": "ClipboardLink",
+    "displayName": "Clipboard link",
+    "description": "Clipboard with a horizontal chain link at the bottom right.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "link",
+      "url",
+      "chain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paste link"
+    }
+  },
+  "old-icon-set-4-p0034": {
+    "name": "ClipboardTriangle",
+    "displayName": "Clipboard triangle",
+    "description": "Clipboard with an empty triangle at the bottom-right corner.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "triangle",
+      "shape",
+      "warning"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clipboard"
+    }
+  },
+  "old-icon-set-4-p0035": {
+    "name": "ClipboardWarning",
+    "displayName": "Clipboard warning",
+    "description": "Clipboard with a warning triangle holding an exclamation mark.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "warning",
+      "alert",
+      "error",
+      "triangle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clipboard warning"
+    }
+  },
+  "old-icon-set-4-p0036": {
+    "name": "ClipboardListCheckX",
+    "displayName": "Clipboard list check x",
+    "description": "Clipboard with two list rows, one ending in a check mark and one in an X.",
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks",
+      "todo",
+      "check",
+      "x",
+      "status",
+      "review"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Review list"
+    }
+  },
+  "old-icon-set-4-p0037": {
+    "name": "FormControlsCheck",
+    "displayName": "Form controls check",
+    "description": "Checked square checkbox, a radio button and a toggle switch.",
+    "tags": [
+      "form",
+      "controls",
+      "checkbox",
+      "radio",
+      "toggle",
+      "settings",
+      "options",
+      "check"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Form controls"
+    }
+  },
+  "old-icon-set-4-p0038": {
+    "name": "FormControlsX",
+    "displayName": "Form controls x",
+    "description": "Square checkbox with an X, a radio button and a toggle switch.",
+    "tags": [
+      "form",
+      "controls",
+      "checkbox",
+      "radio",
+      "toggle",
+      "settings",
+      "options",
+      "x"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Form controls"
+    }
+  },
+  "old-icon-set-4-p0039": {
+    "name": "FormControlsPlus",
+    "displayName": "Form controls plus",
+    "description": "Square checkbox with a plus sign, a radio button and a toggle switch.",
+    "tags": [
+      "form",
+      "controls",
+      "checkbox",
+      "radio",
+      "toggle",
+      "settings",
+      "options",
+      "plus"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Form controls"
+    }
+  },
+  "old-icon-set-4-p0040": {
+    "name": "FormControlsGridPlus",
+    "displayName": "Form controls grid plus",
+    "description": "Two-by-two grid of a radio button, a plus box, a checked box and a circled X.",
+    "tags": [
+      "form",
+      "controls",
+      "checkbox",
+      "radio",
+      "grid",
+      "options",
+      "plus",
+      "check"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Form controls"
+    }
+  },
+  "old-icon-set-4-p0041": {
+    "name": "FormControlsGridX",
+    "displayName": "Form controls grid x",
+    "description": "Two-by-two grid of a radio button, an X box, a checked box and a circled X.",
+    "tags": [
+      "form",
+      "controls",
+      "checkbox",
+      "radio",
+      "grid",
+      "options",
+      "x",
+      "check"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Form controls"
+    }
+  },
+  "old-icon-set-4-p0042": {
+    "name": "OptionsCheckXSync",
+    "displayName": "Options check x sync",
+    "description": "Circled check and circled X with two curved arrows swapping them.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "x",
+      "swap",
+      "sync",
+      "toggle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Switch state"
+    }
+  },
+  "old-icon-set-4-p0043": {
+    "name": "OptionsCheckX",
+    "displayName": "Options check x",
+    "description": "Small circled check above a larger circled X.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "x",
+      "yes-no",
+      "approve",
+      "reject"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Yes or no"
+    }
+  },
+  "old-icon-set-4-p0044": {
+    "name": "OptionsRadioCheckX",
+    "displayName": "Options radio check x",
+    "description": "Radio button, circled check and circled X arranged in a triangle.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "radio",
+      "check",
+      "x",
+      "multiple-choice"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Options"
+    }
+  },
+  "old-icon-set-4-p0045": {
+    "name": "OptionsCheckCursor",
+    "displayName": "Options check cursor",
+    "description": "Three circled checks with a pointer cursor in the fourth corner.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "cursor",
+      "pointer",
+      "click",
+      "multiple-choice"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Select options"
+    }
+  },
+  "old-icon-set-4-p0046": {
+    "name": "OptionsCheckSquareInfoSquare",
+    "displayName": "Options check square info square",
+    "description": "Small checked square behind a larger square with an info sign.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "info",
+      "square",
+      "details"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Option info"
+    }
+  },
+  "old-icon-set-4-p0047": {
+    "name": "OptionsCheckInfoSquare",
+    "displayName": "Options check info square",
+    "description": "Small circled check behind a larger square with an info sign.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "info",
+      "square",
+      "details"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Option info"
+    }
+  },
+  "old-icon-set-4-p0048": {
+    "name": "OptionsCheckInfo",
+    "displayName": "Options check info",
+    "description": "Small circled check behind a larger circle with an info sign.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "info",
+      "circle",
+      "details"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Option info"
+    }
+  },
+  "old-icon-set-4-p0049": {
+    "name": "OptionsPlusMinus",
+    "displayName": "Options plus minus",
+    "description": "Circled plus sign above a circled minus sign.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "plus",
+      "minus",
+      "add",
+      "remove",
+      "zoom"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add or remove"
+    }
+  },
+  "old-icon-set-4-p0050": {
+    "name": "OptionsCheckDots",
+    "displayName": "Options check dots",
+    "description": "Small circled check behind a larger circle with two dots.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "dots",
+      "pending",
+      "more"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pending option"
+    }
+  },
+  "old-icon-set-4-p0051": {
+    "name": "OptionsCheckPlus",
+    "displayName": "Options check plus",
+    "description": "Small circled check behind a larger circled plus sign.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "plus",
+      "add"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add option"
+    }
+  },
+  "old-icon-set-4-p0052": {
+    "name": "OptionsCheckAsterisk",
+    "displayName": "Options check asterisk",
+    "description": "Small circled check behind a larger circle with an asterisk.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "asterisk",
+      "required",
+      "star"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Required option"
+    }
+  },
+  "old-icon-set-4-p0053": {
+    "name": "OptionsCheckEquals",
+    "displayName": "Options check equals",
+    "description": "Small circled check behind a larger circle with an equals sign.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "check",
+      "equals",
+      "equal",
+      "same"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Equal option"
+    }
+  },
+  "old-icon-set-4-p0054": {
+    "name": "OptionsDotsInfo",
+    "displayName": "Options dots info",
+    "description": "Small circle with two dots behind a larger circle with an info sign.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "dots",
+      "info",
+      "pending",
+      "details"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Option info"
+    }
+  },
+  "old-icon-set-4-p0055": {
+    "name": "OptionsDotsAsterisk",
+    "displayName": "Options dots asterisk",
+    "description": "Small circle with two dots behind a larger circle with an asterisk.",
+    "tags": [
+      "options",
+      "choice",
+      "states",
+      "select",
+      "dots",
+      "asterisk",
+      "required",
+      "pending"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Required option"
+    }
+  },
+  "old-icon-set-4-p0056": {
+    "name": "CheckSquareNested",
+    "displayName": "Check square nested",
+    "description": "Rounded square with a smaller checked square set into its lower-right part.",
+    "tags": [
+      "check",
+      "checkbox",
+      "square",
+      "select",
+      "selected",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Selected"
+    }
+  },
+  "old-icon-set-4-p0057": {
+    "name": "CircleDashed",
+    "displayName": "Circle dashed",
+    "description": "Circle drawn with twelve short dashes.",
+    "tags": [
+      "circle",
+      "dashed",
+      "empty",
+      "unchecked",
+      "pending",
+      "placeholder"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Empty"
+    }
+  },
+  "old-icon-set-4-p0058": {
+    "name": "CheckCircleDashedHalfSmall",
+    "displayName": "Check circle dashed half small",
+    "description": "Check mark inside a circle with short dashes on the left half and a solid right half.",
+    "tags": [
+      "check",
+      "circle",
+      "dashed",
+      "task",
+      "half",
+      "progress",
+      "loading",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Task progress"
+    }
+  },
+  "old-icon-set-4-p0059": {
+    "name": "CheckCircleDashedHalf",
+    "displayName": "Check circle dashed half",
+    "description": "Check mark inside a circle with three dashes on the left and a solid right half.",
+    "tags": [
+      "check",
+      "circle",
+      "dashed",
+      "task",
+      "half",
+      "progress",
+      "loading",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Task progress"
+    }
+  },
+  "old-icon-set-4-p0060": {
+    "name": "CheckCircleDashedHalfBottom",
+    "displayName": "Check circle dashed half bottom",
+    "description": "Check mark inside a circle with dashes on the left and along the bottom and a solid right side.",
+    "tags": [
+      "check",
+      "circle",
+      "dashed",
+      "task",
+      "progress",
+      "loading",
+      "in-progress",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Task progress"
+    }
+  },
+  "old-icon-set-4-p0061": {
+    "name": "CheckCircleDashedHalfSparse",
+    "displayName": "Check circle dashed half sparse",
+    "description": "Check mark inside a circle with three small, widely spaced dashes on the left and a solid right half.",
+    "tags": [
+      "check",
+      "circle",
+      "dashed",
+      "task",
+      "half",
+      "progress",
+      "starting",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Task progress"
+    }
+  },
+  "old-icon-set-4-p0062": {
+    "name": "CheckCircleDashed",
+    "displayName": "Check circle dashed",
+    "description": "Check mark inside a circle drawn with eight even dashes.",
+    "tags": [
+      "check",
+      "circle",
+      "dashed",
+      "task",
+      "pending",
+      "waiting",
+      "scheduled",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Task progress"
+    }
+  },
+  "old-icon-set-4-p0063": {
+    "name": "CheckCircleDashedLong",
+    "displayName": "Check circle dashed long",
+    "description": "Check mark inside a circle drawn with six long dashes.",
+    "tags": [
+      "check",
+      "circle",
+      "dashed",
+      "task",
+      "pending",
+      "waiting",
+      "scheduled",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Task progress"
+    }
+  },
+  "old-icon-set-4-p0064": {
+    "name": "CheckCircleDashedHalfLong",
+    "displayName": "Check circle dashed half long",
+    "description": "Check mark inside a circle with long dashes on the left and a solid right half.",
+    "tags": [
+      "check",
+      "circle",
+      "dashed",
+      "task",
+      "half",
+      "progress",
+      "loading",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Task progress"
+    }
+  },
+  "old-icon-set-4-p0065": {
+    "name": "CheckCircleDashedQuarter",
+    "displayName": "Check circle dashed quarter",
+    "description": "Check mark inside a circle with dashes on the upper left and a mostly solid outline.",
+    "tags": [
+      "check",
+      "circle",
+      "dashed",
+      "task",
+      "progress",
+      "almost-done",
+      "loading",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Task progress"
+    }
+  },
+  "old-icon-set-4-p0066": {
+    "name": "ArrowClockwiseCheckSquare",
+    "displayName": "Arrow clockwise check square",
+    "description": "Clockwise circular arrow with a checked square at the lower right.",
+    "tags": [
+      "arrow",
+      "clockwise",
+      "update",
+      "sync",
+      "check",
+      "square",
+      "success"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Updated"
+    }
+  },
+  "old-icon-set-4-p0067": {
+    "name": "ArrowClockwiseCheckCircleSmall",
+    "displayName": "Arrow clockwise check circle small",
+    "description": "Clockwise circular arrow with a small circled check at the lower right.",
+    "tags": [
+      "arrow",
+      "clockwise",
+      "update",
+      "sync",
+      "check",
+      "circle",
+      "success"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Updated"
+    }
+  },
+  "old-icon-set-4-p0068": {
+    "name": "FormRadioCheckSmall",
+    "displayName": "Form radio check small",
+    "description": "Small circled check followed by a short horizontal line.",
+    "tags": [
+      "form",
+      "radio",
+      "check",
+      "option",
+      "selected",
+      "field"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Selected option"
+    }
+  },
+  "old-icon-set-4-p0069": {
+    "name": "SquareCheckCircle",
+    "displayName": "Square check circle",
+    "description": "Open rounded square with a circled check at its top-right corner.",
+    "tags": [
+      "square",
+      "check",
+      "circle",
+      "done",
+      "approved",
+      "task"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Done"
+    }
+  },
+  "old-icon-set-4-p0070": {
+    "name": "Paperclip",
+    "displayName": "Paperclip",
+    "description": "Diagonal paperclip with a wide rounded bottom.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0071": {
+    "name": "PaperclipWide",
+    "displayName": "Paperclip wide",
+    "description": "Wide diagonal paperclip with fat rounded ends.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "wide",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0072": {
+    "name": "PaperclipLong",
+    "displayName": "Paperclip long",
+    "description": "Long, slim diagonal paperclip with a single loop.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "long",
+      "slim",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0073": {
+    "name": "PaperclipShort",
+    "displayName": "Paperclip short",
+    "description": "Short diagonal paperclip with a single round loop.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "short",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0074": {
+    "name": "PaperclipRound",
+    "displayName": "Paperclip round",
+    "description": "Diagonal paperclip with a large round lower loop.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "round",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0075": {
+    "name": "PaperclipVertical",
+    "displayName": "Paperclip vertical",
+    "description": "Upright paperclip.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "vertical",
+      "upright",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0076": {
+    "name": "PaperclipSlim",
+    "displayName": "Paperclip slim",
+    "description": "Narrow upright paperclip.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "vertical",
+      "slim",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0077": {
+    "name": "PaperclipNarrow",
+    "displayName": "Paperclip narrow",
+    "description": "Narrow diagonal paperclip with three parallel strokes.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "narrow",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0078": {
+    "name": "PaperclipFlipped",
+    "displayName": "Paperclip flipped",
+    "description": "Diagonal paperclip with its open end at the top left.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "flipped",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0079": {
+    "name": "PaperclipCurl",
+    "displayName": "Paperclip curl",
+    "description": "Small open paperclip curl.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "curl",
+      "open",
+      "office"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0080": {
+    "name": "PaperclipArrowUp",
+    "displayName": "Paperclip arrow up",
+    "description": "Diagonal paperclip with a wide rounded bottom with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0081": {
+    "name": "PaperclipArrowUpWide",
+    "displayName": "Paperclip arrow up wide",
+    "description": "Wide diagonal paperclip with fat rounded ends with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send",
+      "wide"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0082": {
+    "name": "PaperclipArrowUpLong",
+    "displayName": "Paperclip arrow up long",
+    "description": "Long, slim diagonal paperclip with a single loop with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send",
+      "long",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0083": {
+    "name": "PaperclipArrowUpShort",
+    "displayName": "Paperclip arrow up short",
+    "description": "Short diagonal paperclip with a single round loop with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0084": {
+    "name": "PaperclipArrowUpRound",
+    "displayName": "Paperclip arrow up round",
+    "description": "Diagonal paperclip with a large round lower loop with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send",
+      "round"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0085": {
+    "name": "PaperclipArrowUpVertical",
+    "displayName": "Paperclip arrow up vertical",
+    "description": "Upright paperclip with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send",
+      "vertical",
+      "upright"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0086": {
+    "name": "PaperclipArrowUpSlim",
+    "displayName": "Paperclip arrow up slim",
+    "description": "Narrow upright paperclip with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send",
+      "vertical",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0087": {
+    "name": "PaperclipArrowUpNarrow",
+    "displayName": "Paperclip arrow up narrow",
+    "description": "Narrow diagonal paperclip with three parallel strokes with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send",
+      "narrow"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0088": {
+    "name": "PaperclipArrowUpFlipped",
+    "displayName": "Paperclip arrow up flipped",
+    "description": "Diagonal paperclip with its open end at the top left with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send",
+      "flipped"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0089": {
+    "name": "PaperclipArrowUpCurl",
+    "displayName": "Paperclip arrow up curl",
+    "description": "Small open paperclip curl with an arrow pointing up beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "upload",
+      "arrow",
+      "up",
+      "send",
+      "curl",
+      "open"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload attachment"
+    }
+  },
+  "old-icon-set-4-p0090": {
+    "name": "PaperclipX",
+    "displayName": "Paperclip x",
+    "description": "Diagonal paperclip with a wide rounded bottom with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0091": {
+    "name": "PaperclipXWide",
+    "displayName": "Paperclip x wide",
+    "description": "Wide diagonal paperclip with fat rounded ends with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach",
+      "wide"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0092": {
+    "name": "PaperclipXLong",
+    "displayName": "Paperclip x long",
+    "description": "Long, slim diagonal paperclip with a single loop with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach",
+      "long",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0093": {
+    "name": "PaperclipXShort",
+    "displayName": "Paperclip x short",
+    "description": "Short diagonal paperclip with a single round loop with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0094": {
+    "name": "PaperclipXRound",
+    "displayName": "Paperclip x round",
+    "description": "Diagonal paperclip with a large round lower loop with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach",
+      "round"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0095": {
+    "name": "PaperclipXVertical",
+    "displayName": "Paperclip x vertical",
+    "description": "Upright paperclip with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach",
+      "vertical",
+      "upright"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0096": {
+    "name": "PaperclipXSlim",
+    "displayName": "Paperclip x slim",
+    "description": "Narrow upright paperclip with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach",
+      "vertical",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0097": {
+    "name": "PaperclipXNarrow",
+    "displayName": "Paperclip x narrow",
+    "description": "Narrow diagonal paperclip with three parallel strokes with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach",
+      "narrow"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0098": {
+    "name": "PaperclipXFlipped",
+    "displayName": "Paperclip x flipped",
+    "description": "Diagonal paperclip with its open end at the top left with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach",
+      "flipped"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0099": {
+    "name": "PaperclipXCurl",
+    "displayName": "Paperclip x curl",
+    "description": "Small open paperclip curl with an X beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "x",
+      "remove",
+      "delete",
+      "detach",
+      "curl",
+      "open"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0100": {
+    "name": "PaperclipPlus",
+    "displayName": "Paperclip plus",
+    "description": "Diagonal paperclip with a wide rounded bottom with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0101": {
+    "name": "PaperclipPlusWide",
+    "displayName": "Paperclip plus wide",
+    "description": "Wide diagonal paperclip with fat rounded ends with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment",
+      "wide"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0102": {
+    "name": "PaperclipPlusLong",
+    "displayName": "Paperclip plus long",
+    "description": "Long, slim diagonal paperclip with a single loop with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment",
+      "long",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0103": {
+    "name": "PaperclipPlusShort",
+    "displayName": "Paperclip plus short",
+    "description": "Short diagonal paperclip with a single round loop with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0104": {
+    "name": "PaperclipPlusRound",
+    "displayName": "Paperclip plus round",
+    "description": "Diagonal paperclip with a large round lower loop with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment",
+      "round"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0105": {
+    "name": "PaperclipPlusVertical",
+    "displayName": "Paperclip plus vertical",
+    "description": "Upright paperclip with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment",
+      "vertical",
+      "upright"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0106": {
+    "name": "PaperclipPlusSlim",
+    "displayName": "Paperclip plus slim",
+    "description": "Narrow upright paperclip with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment",
+      "vertical",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0107": {
+    "name": "PaperclipPlusNarrow",
+    "displayName": "Paperclip plus narrow",
+    "description": "Narrow diagonal paperclip with three parallel strokes with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment",
+      "narrow"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0108": {
+    "name": "PaperclipPlusFlipped",
+    "displayName": "Paperclip plus flipped",
+    "description": "Diagonal paperclip with its open end at the top left with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment",
+      "flipped"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0109": {
+    "name": "PaperclipPlusCurl",
+    "displayName": "Paperclip plus curl",
+    "description": "Small open paperclip curl with a plus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "plus",
+      "add",
+      "new-attachment",
+      "curl",
+      "open"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add attachment"
+    }
+  },
+  "old-icon-set-4-p0110": {
+    "name": "PaperclipMinus",
+    "displayName": "Paperclip minus",
+    "description": "Diagonal paperclip with a wide rounded bottom with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0111": {
+    "name": "PaperclipMinusWide",
+    "displayName": "Paperclip minus wide",
+    "description": "Wide diagonal paperclip with fat rounded ends with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach",
+      "wide"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0112": {
+    "name": "PaperclipMinusLong",
+    "displayName": "Paperclip minus long",
+    "description": "Long, slim diagonal paperclip with a single loop with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach",
+      "long",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0113": {
+    "name": "PaperclipMinusShort",
+    "displayName": "Paperclip minus short",
+    "description": "Short diagonal paperclip with a single round loop with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0114": {
+    "name": "PaperclipMinusRound",
+    "displayName": "Paperclip minus round",
+    "description": "Diagonal paperclip with a large round lower loop with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach",
+      "round"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0115": {
+    "name": "PaperclipMinusVertical",
+    "displayName": "Paperclip minus vertical",
+    "description": "Upright paperclip with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach",
+      "vertical",
+      "upright"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0116": {
+    "name": "PaperclipMinusSlim",
+    "displayName": "Paperclip minus slim",
+    "description": "Narrow upright paperclip with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach",
+      "vertical",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0117": {
+    "name": "PaperclipMinusNarrow",
+    "displayName": "Paperclip minus narrow",
+    "description": "Narrow diagonal paperclip with three parallel strokes with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach",
+      "narrow"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0118": {
+    "name": "PaperclipMinusFlipped",
+    "displayName": "Paperclip minus flipped",
+    "description": "Diagonal paperclip with its open end at the top left with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach",
+      "flipped"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0119": {
+    "name": "PaperclipMinusCurl",
+    "displayName": "Paperclip minus curl",
+    "description": "Small open paperclip curl with a minus sign beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "minus",
+      "remove",
+      "detach",
+      "curl",
+      "open"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0120": {
+    "name": "PaperclipCheck",
+    "displayName": "Paperclip check",
+    "description": "Diagonal paperclip with a wide rounded bottom with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0121": {
+    "name": "PaperclipCheckWide",
+    "displayName": "Paperclip check wide",
+    "description": "Wide diagonal paperclip with fat rounded ends with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done",
+      "wide"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0122": {
+    "name": "PaperclipCheckLong",
+    "displayName": "Paperclip check long",
+    "description": "Long, slim diagonal paperclip with a single loop with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done",
+      "long",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0123": {
+    "name": "PaperclipCheckShort",
+    "displayName": "Paperclip check short",
+    "description": "Short diagonal paperclip with a single round loop with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0124": {
+    "name": "PaperclipCheckRound",
+    "displayName": "Paperclip check round",
+    "description": "Diagonal paperclip with a large round lower loop with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done",
+      "round"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0125": {
+    "name": "PaperclipCheckVertical",
+    "displayName": "Paperclip check vertical",
+    "description": "Upright paperclip with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done",
+      "vertical",
+      "upright"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0126": {
+    "name": "PaperclipCheckSlim",
+    "displayName": "Paperclip check slim",
+    "description": "Narrow upright paperclip with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done",
+      "vertical",
+      "slim"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0127": {
+    "name": "PaperclipCheckNarrow",
+    "displayName": "Paperclip check narrow",
+    "description": "Narrow diagonal paperclip with three parallel strokes with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done",
+      "narrow"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0128": {
+    "name": "PaperclipCheckFlipped",
+    "displayName": "Paperclip check flipped",
+    "description": "Diagonal paperclip with its open end at the top left with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done",
+      "flipped"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0129": {
+    "name": "PaperclipCheckCurl",
+    "displayName": "Paperclip check curl",
+    "description": "Small open paperclip curl with a check mark beside it.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "check",
+      "attached",
+      "done",
+      "curl",
+      "open"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0130": {
+    "name": "MailPaperclip",
+    "displayName": "Mail paperclip",
+    "description": "Envelope with a horizontal paperclip across its lower-right corner.",
+    "tags": [
+      "mail",
+      "email",
+      "envelope",
+      "attachment",
+      "paperclip",
+      "attach",
+      "message"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail attachment"
+    }
+  },
+  "old-icon-set-4-p0131": {
+    "name": "MailPaperclipRound",
+    "displayName": "Mail paperclip round",
+    "description": "Envelope with a short, round paperclip at its lower-right corner.",
+    "tags": [
+      "mail",
+      "email",
+      "envelope",
+      "attachment",
+      "paperclip",
+      "attach",
+      "message",
+      "round"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail attachment"
+    }
+  },
+  "old-icon-set-4-p0132": {
+    "name": "MailPaperclipTilted",
+    "displayName": "Mail paperclip tilted",
+    "description": "Envelope with a diagonal paperclip at its lower-right corner.",
+    "tags": [
+      "mail",
+      "email",
+      "envelope",
+      "attachment",
+      "paperclip",
+      "attach",
+      "message",
+      "tilted"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail attachment"
+    }
+  },
+  "old-icon-set-4-p0133": {
+    "name": "PaperclipSquareOpenVertical",
+    "displayName": "Paperclip square open vertical",
+    "description": "Upright paperclip clipped onto the open top edge of a rounded square.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "file",
+      "card",
+      "square",
+      "vertical"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0137": {
+    "name": "SquareStackPaperclip",
+    "displayName": "Square stack paperclip",
+    "description": "Two stacked squares with a horizontal paperclip on the front one.",
+    "tags": [
+      "square",
+      "stack",
+      "copy",
+      "files",
+      "paperclip",
+      "attachment",
+      "attach"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachments"
+    }
+  },
+  "old-icon-set-4-p0138": {
+    "name": "SquareStackPaperclipCurl",
+    "displayName": "Square stack paperclip curl",
+    "description": "Two stacked squares with a small paperclip curl inside the front one.",
+    "tags": [
+      "square",
+      "stack",
+      "copy",
+      "files",
+      "paperclip",
+      "attachment",
+      "curl"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachments"
+    }
+  },
+  "old-icon-set-4-p0139": {
+    "name": "SquareStackPaperclipTilted",
+    "displayName": "Square stack paperclip tilted",
+    "description": "Two stacked squares with a diagonal paperclip inside the front one.",
+    "tags": [
+      "square",
+      "stack",
+      "copy",
+      "files",
+      "paperclip",
+      "attachment",
+      "tilted"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachments"
+    }
+  },
+  "old-icon-set-4-p0140": {
+    "name": "PaperclipSquareOpenShort",
+    "displayName": "Paperclip square open short",
+    "description": "Rounded square with a short round paperclip breaking out of its top-right corner.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "square",
+      "open",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0141": {
+    "name": "PaperclipSquareShort",
+    "displayName": "Paperclip square short",
+    "description": "Short round paperclip inside a rounded square.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "square",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0142": {
+    "name": "PaperclipSquareOpenThin",
+    "displayName": "Paperclip square open thin",
+    "description": "Rounded square with a thin paperclip breaking out of its top-right corner.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "square",
+      "open",
+      "thin"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0143": {
+    "name": "PaperclipSquareThin",
+    "displayName": "Paperclip square thin",
+    "description": "Thin paperclip inside a rounded square.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "square",
+      "thin"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0144": {
+    "name": "PaperclipCircleShort",
+    "displayName": "Paperclip circle short",
+    "description": "Short round paperclip inside a circle.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0145": {
+    "name": "PaperclipCircleXShort",
+    "displayName": "Paperclip circle x short",
+    "description": "Short round paperclip inside a circle with an X in the gap at the lower right.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "x",
+      "remove",
+      "delete",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0146": {
+    "name": "PaperclipCircleArrowRightShort",
+    "displayName": "Paperclip circle arrow right short",
+    "description": "Short round paperclip inside a circle with an arrow pointing right into the gap at the top left.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "arrow",
+      "right",
+      "forward",
+      "send",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Forward attachment"
+    }
+  },
+  "old-icon-set-4-p0147": {
+    "name": "PaperclipCircleArrowLeftShort",
+    "displayName": "Paperclip circle arrow left short",
+    "description": "Short round paperclip inside a circle with an arrow pointing left into the gap at the lower right.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "arrow",
+      "left",
+      "back",
+      "receive",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receive attachment"
+    }
+  },
+  "old-icon-set-4-p0148": {
+    "name": "PaperclipCircleCheckShort",
+    "displayName": "Paperclip circle check short",
+    "description": "Short round paperclip inside a circle with a check mark in the gap at the lower right.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "check",
+      "attached",
+      "done",
+      "short"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0149": {
+    "name": "PaperclipSquareOpen",
+    "displayName": "Paperclip square open",
+    "description": "Rounded square with a paperclip breaking out of its top-right corner.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "square",
+      "open"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0150": {
+    "name": "PaperclipSquare",
+    "displayName": "Paperclip square",
+    "description": "Paperclip inside a rounded square.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "square"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0151": {
+    "name": "PaperclipCircle",
+    "displayName": "Paperclip circle",
+    "description": "Paperclip inside a circle.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0152": {
+    "name": "PaperclipCircleX",
+    "displayName": "Paperclip circle x",
+    "description": "Paperclip inside a circle with an X in the gap at the lower right.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "x",
+      "remove",
+      "delete"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0153": {
+    "name": "PaperclipCircleArrowRight",
+    "displayName": "Paperclip circle arrow right",
+    "description": "Paperclip inside a circle with an arrow pointing right into the gap at the top left.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "arrow",
+      "right",
+      "forward",
+      "send"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Forward attachment"
+    }
+  },
+  "old-icon-set-4-p0154": {
+    "name": "PaperclipCircleArrowLeft",
+    "displayName": "Paperclip circle arrow left",
+    "description": "Paperclip inside a circle with an arrow pointing left into the gap at the lower right.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "arrow",
+      "left",
+      "back",
+      "receive"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receive attachment"
+    }
+  },
+  "old-icon-set-4-p0155": {
+    "name": "PaperclipCircleCheck",
+    "displayName": "Paperclip circle check",
+    "description": "Paperclip inside a circle with a check mark in the gap at the lower right.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "check",
+      "attached",
+      "done"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0156": {
+    "name": "PaperclipSquareOpenLong",
+    "displayName": "Paperclip square open long",
+    "description": "Rounded square with a long slim paperclip breaking out of its top-right corner.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "square",
+      "open",
+      "long"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0157": {
+    "name": "PaperclipSquareLong",
+    "displayName": "Paperclip square long",
+    "description": "Long slim paperclip inside a rounded square.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "square",
+      "long"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0158": {
+    "name": "PaperclipCircleLong",
+    "displayName": "Paperclip circle long",
+    "description": "Long slim paperclip inside a circle.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "long"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attachment"
+    }
+  },
+  "old-icon-set-4-p0159": {
+    "name": "PaperclipCircleXLong",
+    "displayName": "Paperclip circle x long",
+    "description": "Long slim paperclip inside a circle with an X in the gap at the lower right.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "x",
+      "remove",
+      "delete",
+      "long"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove attachment"
+    }
+  },
+  "old-icon-set-4-p0160": {
+    "name": "PaperclipCircleArrowRightLong",
+    "displayName": "Paperclip circle arrow right long",
+    "description": "Long slim paperclip inside a circle with an arrow pointing right into the gap at the top left.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "arrow",
+      "right",
+      "forward",
+      "send",
+      "long"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Forward attachment"
+    }
+  },
+  "old-icon-set-4-p0161": {
+    "name": "PaperclipCircleArrowLeftLong",
+    "displayName": "Paperclip circle arrow left long",
+    "description": "Long slim paperclip inside a circle with an arrow pointing left into the gap at the lower right.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "arrow",
+      "left",
+      "back",
+      "receive",
+      "long"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receive attachment"
+    }
+  },
+  "old-icon-set-4-p0162": {
+    "name": "PaperclipCircleCheckLong",
+    "displayName": "Paperclip circle check long",
+    "description": "Long slim paperclip inside a circle with a check mark in the gap at the lower right.",
+    "tags": [
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "circle",
+      "check",
+      "attached",
+      "done",
+      "long"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached"
+    }
+  },
+  "old-icon-set-4-p0163": {
+    "name": "ImagePaperclip",
+    "displayName": "Image paperclip",
+    "description": "Picture with a horizontal paperclip above its top-left corner.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "paperclip",
+      "attachment",
+      "attach",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image attachment"
+    }
+  },
+  "old-icon-set-4-p0164": {
+    "name": "ImagePaperclipCurl",
+    "displayName": "Image paperclip curl",
+    "description": "Picture with an open paperclip curl above its top-left corner.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "paperclip",
+      "attachment",
+      "attach",
+      "curl"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image attachment"
+    }
+  },
+  "old-icon-set-4-p0165": {
+    "name": "ImagePaperclipTilted",
+    "displayName": "Image paperclip tilted",
+    "description": "Picture with a diagonal paperclip above its top-left corner.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "paperclip",
+      "attachment",
+      "attach",
+      "tilted"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image attachment"
+    }
+  },
+  "old-icon-set-4-p0166": {
+    "name": "CircleCrescent",
+    "displayName": "Circle crescent",
+    "description": "Circle with a crescent-shaped arc inside its left side.",
+    "tags": [
+      "circle",
+      "crescent",
+      "moon",
+      "eclipse",
+      "contrast",
+      "phase"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crescent"
+    }
+  },
+  "old-icon-set-4-p0167": {
+    "name": "CircleOff",
+    "displayName": "Circle off",
+    "description": "Circle crossed by a diagonal slash that breaks its outline.",
+    "tags": [
+      "circle",
+      "off",
+      "slash",
+      "disabled",
+      "none",
+      "empty-set"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Off"
+    }
+  },
+  "old-icon-set-4-p0168": {
+    "name": "BowlingBall",
+    "displayName": "Bowling ball",
+    "description": "Ball with three small finger holes arranged in a triangle.",
+    "tags": [
+      "bowling",
+      "ball",
+      "sports",
+      "holes",
+      "game",
+      "circle"
+    ],
+    "categories": [
+      "sports"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bowling"
+    }
+  },
+  "old-icon-set-4-p0169": {
+    "name": "CircleHashtag",
+    "displayName": "Circle hashtag",
+    "description": "Open circle with a hash sign in the gap at the lower right.",
+    "tags": [
+      "circle",
+      "hashtag",
+      "hash",
+      "number",
+      "tag",
+      "channel"
+    ],
+    "categories": [
+      "interface",
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hashtag"
+    }
+  },
+  "old-icon-set-4-p0170": {
+    "name": "CircleCrescentDashed",
+    "displayName": "Circle crescent dashed",
+    "description": "Circle with a dashed crescent arc inside its right side.",
+    "tags": [
+      "circle",
+      "crescent",
+      "dashed",
+      "moon",
+      "eclipse",
+      "phase"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crescent"
+    }
+  },
+  "old-icon-set-4-p0172": {
+    "name": "XCircleStackArc",
+    "displayName": "X circle stack arc",
+    "description": "Circled X with the arc of a second circle behind its top right.",
+    "tags": [
+      "x",
+      "circle",
+      "stack",
+      "remove",
+      "delete",
+      "cancel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove"
+    }
+  },
+  "old-icon-set-4-p0173": {
+    "name": "PlusCircleStackArc",
+    "displayName": "Plus circle stack arc",
+    "description": "Circled plus sign with the arc of a second circle behind its top left.",
+    "tags": [
+      "plus",
+      "circle",
+      "stack",
+      "add",
+      "new",
+      "more"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add"
+    }
+  },
+  "old-icon-set-4-p0174": {
+    "name": "CheckCircleStackArc",
+    "displayName": "Check circle stack arc",
+    "description": "Circled check with the arc of a second circle behind its lower right.",
+    "tags": [
+      "check",
+      "circle",
+      "stack",
+      "done",
+      "multiple",
+      "approved"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Done"
+    }
+  },
+  "old-icon-set-4-p0175": {
+    "name": "BuildingAnnex",
+    "displayName": "Building annex",
+    "description": "Tall office block with dot windows next to a lower annex.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "windows",
+      "tower"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0176": {
+    "name": "BuildingAnnexGrid",
+    "displayName": "Building annex grid",
+    "description": "Tall block with a grid of square windows next to a lower annex.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "windows",
+      "tower",
+      "apartment"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0177": {
+    "name": "Building",
+    "displayName": "Building",
+    "description": "Building with a cornice on top and a grid of six square windows.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "apartment",
+      "windows"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0178": {
+    "name": "BuildingDoor",
+    "displayName": "Building door",
+    "description": "Building with a cornice, square windows and a door at the bottom.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "apartment",
+      "door",
+      "entrance"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0179": {
+    "name": "BuildingCityAntenna",
+    "displayName": "Building city antenna",
+    "description": "Three towers side by side, the middle one with an antenna.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "skyline",
+      "downtown",
+      "antenna",
+      "skyscraper"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "City"
+    }
+  },
+  "old-icon-set-4-p0180": {
+    "name": "BuildingCity",
+    "displayName": "Building city",
+    "description": "Three towers side by side, the tallest in the middle and a slanted roof on the left.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "skyline",
+      "downtown",
+      "skyscraper"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "City"
+    }
+  },
+  "old-icon-set-4-p0181": {
+    "name": "BuildingCityCornice",
+    "displayName": "Building city cornice",
+    "description": "Three blocks with flat overhanging roofs, the tallest in the middle.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "skyline",
+      "downtown",
+      "cornice"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "City"
+    }
+  },
+  "old-icon-set-4-p0182": {
+    "name": "BuildingDoorWide",
+    "displayName": "Building door wide",
+    "description": "Wide building with a roof line above, dot windows and a door.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "door",
+      "wide",
+      "hotel",
+      "store"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0183": {
+    "name": "BuildingAnnexDoor",
+    "displayName": "Building annex door",
+    "description": "Building with a roof line, dot windows and a door next to a lower annex.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "door",
+      "annex",
+      "headquarters"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0184": {
+    "name": "BuildingGable",
+    "displayName": "Building gable",
+    "description": "Building with two gabled roofs, dot windows and a door.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "gable",
+      "roof",
+      "warehouse",
+      "hotel"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0185": {
+    "name": "BuildingSlanted",
+    "displayName": "Building slanted",
+    "description": "Building with a slanted roof, tall slit windows and a door.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "slanted",
+      "modern",
+      "tower"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0186": {
+    "name": "BuildingAnnexSlanted",
+    "displayName": "Building annex slanted",
+    "description": "Building with balcony rows and dot windows next to an annex with a slanted roof.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "annex",
+      "slanted",
+      "apartment",
+      "balcony"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0187": {
+    "name": "BuildingIsometric",
+    "displayName": "Building isometric",
+    "description": "Isometric cube-shaped building with dot windows on two sides.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "isometric",
+      "3d",
+      "cube",
+      "block"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Building"
+    }
+  },
+  "old-icon-set-4-p0188": {
+    "name": "BuildingCityIsometric",
+    "displayName": "Building city isometric",
+    "description": "Isometric group of three blocks, the tallest in the middle.",
+    "tags": [
+      "building",
+      "office",
+      "company",
+      "business",
+      "city",
+      "isometric",
+      "3d",
+      "skyline",
+      "downtown"
+    ],
+    "categories": [
+      "business",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "City"
+    }
+  },
+  "old-icon-set-4-p0207": {
+    "name": "ClockClockwiseBottom",
+    "displayName": "Clock clockwise bottom",
+    "description": "Clock face whose outline is a clockwise arrow ending at the lower left.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "clockwise",
+      "arrow",
+      "redo",
+      "forward",
+      "later"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time forward"
+    }
+  },
+  "old-icon-set-4-p0208": {
+    "name": "ClockCounterclockwise",
+    "displayName": "Clock counterclockwise",
+    "description": "Clock face whose outline is a counterclockwise arrow ending at the top left.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "counterclockwise",
+      "arrow",
+      "history",
+      "undo",
+      "recent",
+      "past"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "History"
+    }
+  },
+  "old-icon-set-4-p0209": {
+    "name": "ClockCounterclockwiseBottom",
+    "displayName": "Clock counterclockwise bottom",
+    "description": "Clock face whose outline is a counterclockwise arrow ending at the lower right.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "counterclockwise",
+      "arrow",
+      "history",
+      "back",
+      "past"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "History"
+    }
+  },
+  "old-icon-set-4-p0210": {
+    "name": "ClockClockwise",
+    "displayName": "Clock clockwise",
+    "description": "Clock face whose outline is a clockwise arrow ending at the top right.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "clockwise",
+      "arrow",
+      "redo",
+      "forward",
+      "future"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time forward"
+    }
+  },
+  "old-icon-set-4-p0211": {
+    "name": "ClockTurnLeftSmall",
+    "displayName": "Clock turn left small",
+    "description": "Small clock whose outline continues into a straight arrow pointing left across the top.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "arrow",
+      "left",
+      "undo",
+      "history",
+      "back",
+      "small"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "History"
+    }
+  },
+  "old-icon-set-4-p0212": {
+    "name": "ClockTurnRightSmall",
+    "displayName": "Clock turn right small",
+    "description": "Small clock whose outline continues into a straight arrow pointing right across the top.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "arrow",
+      "right",
+      "redo",
+      "forward",
+      "later",
+      "small"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time forward"
+    }
+  },
+  "old-icon-set-4-p0213": {
+    "name": "ClockTurnLeft",
+    "displayName": "Clock turn left",
+    "description": "Clock whose outline continues into a straight arrow pointing left across the top.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "arrow",
+      "left",
+      "undo",
+      "history",
+      "back"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "History"
+    }
+  },
+  "old-icon-set-4-p0214": {
+    "name": "ClockTurnRight",
+    "displayName": "Clock turn right",
+    "description": "Clock whose outline continues into a straight arrow pointing right across the top.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "arrow",
+      "right",
+      "redo",
+      "forward",
+      "later"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time forward"
+    }
+  },
+  "old-icon-set-4-p0215": {
+    "name": "ClockTicks",
+    "displayName": "Clock ticks",
+    "description": "Clock face with eight tick marks around the edge.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "ticks",
+      "dial",
+      "watch",
+      "analog"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clock"
+    }
+  },
+  "old-icon-set-4-p0216": {
+    "name": "ClockTicksSquared",
+    "displayName": "Clock ticks squared",
+    "description": "Rounded square clock with dots marking the hours.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "ticks",
+      "dots",
+      "square",
+      "wall-clock",
+      "analog"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clock"
+    }
+  },
+  "old-icon-set-4-p0217": {
+    "name": "ClockDottedArcClockwise",
+    "displayName": "Clock dotted arc clockwise",
+    "description": "Clock face with a dotted arc on the upper left and a clockwise arrowhead at the lower left.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dotted",
+      "clockwise",
+      "arrow",
+      "countdown",
+      "progress",
+      "history"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0218": {
+    "name": "ClockDottedArcAngled",
+    "displayName": "Clock dotted arc angled",
+    "description": "Clock face with hands pointing to twelve and eight and a dotted arc on the upper left.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dotted",
+      "countdown",
+      "progress",
+      "remaining",
+      "timer"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0219": {
+    "name": "ClockDottedArc",
+    "displayName": "Clock dotted arc",
+    "description": "Clock face with hands pointing to twelve and three and a dotted arc on the upper left.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dotted",
+      "countdown",
+      "progress",
+      "remaining",
+      "timer"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0220": {
+    "name": "ClockSplit",
+    "displayName": "Clock split",
+    "description": "Clock face with hands pointing to twelve and eight and a short separate arc on the upper left.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "split",
+      "segment",
+      "progress",
+      "timer",
+      "gap"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clock"
+    }
+  },
+  "old-icon-set-4-p0221": {
+    "name": "ClockMantel",
+    "displayName": "Clock mantel",
+    "description": "Small clock set in an arch-topped mantel case.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "mantel",
+      "table-clock",
+      "desk",
+      "antique",
+      "home"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clock"
+    }
+  },
+  "old-icon-set-4-p0222": {
+    "name": "ClockSquare",
+    "displayName": "Clock square",
+    "description": "Clock face inside a rounded square.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "square",
+      "button",
+      "app",
+      "schedule"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clock"
+    }
+  },
+  "old-icon-set-4-p0223": {
+    "name": "ClockSquared",
+    "displayName": "Clock squared",
+    "description": "Clock with a rounded square face.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "square",
+      "squared",
+      "wall-clock",
+      "schedule"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clock"
+    }
+  },
+  "old-icon-set-4-p0224": {
+    "name": "ClockTicksAngled",
+    "displayName": "Clock ticks angled",
+    "description": "Clock face with four tick marks crossing the edge and hands pointing to twelve and four.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "ticks",
+      "dial",
+      "watch",
+      "analog"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clock"
+    }
+  },
+  "old-icon-set-4-p0225": {
+    "name": "Watch",
+    "displayName": "Watch",
+    "description": "Wristwatch with a round face, strap ends above and below and a side crown.",
+    "tags": [
+      "watch",
+      "wristwatch",
+      "time",
+      "clock",
+      "accessory",
+      "analog"
+    ],
+    "categories": [
+      "time",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Watch"
+    }
+  },
+  "old-icon-set-4-p0226": {
+    "name": "ClockThreeSquared",
+    "displayName": "Clock three squared",
+    "description": "Square clock face with four tick marks and the digit 3 in the middle.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "three",
+      "digit",
+      "square",
+      "countdown",
+      "number"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Three o'clock"
+    }
+  },
+  "old-icon-set-4-p0227": {
+    "name": "DatabaseClock",
+    "displayName": "Database clock",
+    "description": "Rounded database block with three rows and a clock at the lower right.",
+    "tags": [
+      "database",
+      "server",
+      "storage",
+      "clock",
+      "time",
+      "backup",
+      "history"
+    ],
+    "categories": [
+      "development",
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Database history"
+    }
+  },
+  "old-icon-set-4-p0228": {
+    "name": "CylinderClock",
+    "displayName": "Cylinder clock",
+    "description": "Cylinder seen from the side, crossed by two horizontal lines, with a clock on its right.",
+    "tags": [
+      "cylinder",
+      "capsule",
+      "clock",
+      "time",
+      "timeline",
+      "storage"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scheduled"
+    }
+  },
+  "old-icon-set-4-p0237": {
+    "name": "Timer",
+    "displayName": "Timer",
+    "description": "Circle with a gap at the top and a needle pointing to the upper left.",
+    "tags": [
+      "timer",
+      "countdown",
+      "time",
+      "gauge",
+      "dial",
+      "clock"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer"
+    }
+  },
+  "old-icon-set-4-p0240": {
+    "name": "ClockDashedHalf",
+    "displayName": "Clock dashed half",
+    "description": "Clock face with hands pointing to twelve and four, outlined with three dashes on the left and a solid right half.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dashed",
+      "half",
+      "progress",
+      "loading"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0241": {
+    "name": "ClockDashedHalfBottom",
+    "displayName": "Clock dashed half bottom",
+    "description": "Clock face with hands pointing to twelve and four, outlined with dashes on the left and along the bottom and a solid right side.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dashed",
+      "progress",
+      "loading",
+      "in-progress"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0242": {
+    "name": "ClockDashedHalfSparse",
+    "displayName": "Clock dashed half sparse",
+    "description": "Clock face with hands pointing to twelve and four, outlined with three small, widely spaced dashes on the left and a solid right half.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dashed",
+      "half",
+      "progress",
+      "starting"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0243": {
+    "name": "ClockDashed",
+    "displayName": "Clock dashed",
+    "description": "Clock face with hands pointing to twelve and four, outlined with eight even dashes.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dashed",
+      "pending",
+      "waiting",
+      "scheduled"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0244": {
+    "name": "ClockDashedLong",
+    "displayName": "Clock dashed long",
+    "description": "Clock face with hands pointing to twelve and four, outlined with six long dashes.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dashed",
+      "pending",
+      "waiting",
+      "scheduled"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0245": {
+    "name": "ClockDashedHalfLong",
+    "displayName": "Clock dashed half long",
+    "description": "Clock face with hands pointing to twelve and four, outlined with long dashes on the left and a solid right half.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dashed",
+      "half",
+      "progress",
+      "loading"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0246": {
+    "name": "ClockDashedQuarter",
+    "displayName": "Clock dashed quarter",
+    "description": "Clock face with hands pointing to twelve and four, outlined with dashes on the upper left and a mostly solid outline.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dashed",
+      "progress",
+      "almost-done",
+      "loading"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time progress"
+    }
+  },
+  "old-icon-set-4-p0247": {
+    "name": "ClockDashedQuarterRight",
+    "displayName": "Clock dashed quarter right",
+    "description": "Clock face with hands pointing to twelve and three and dashes on the upper-right quarter.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "dashed",
+      "quarter",
+      "fifteen-minutes",
+      "progress"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quarter hour"
+    }
+  },
+  "old-icon-set-4-p0248": {
+    "name": "ClockFastAngled",
+    "displayName": "Clock fast angled",
+    "description": "Clock face with hands pointing to twelve and four and speed lines on the left.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "fast",
+      "speed",
+      "quick",
+      "express",
+      "delivery"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Fast"
+    }
+  },
+  "old-icon-set-4-p0249": {
+    "name": "ClockFast",
+    "displayName": "Clock fast",
+    "description": "Clock face with hands pointing to twelve and three and speed lines on the left.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "fast",
+      "speed",
+      "quick",
+      "express",
+      "delivery"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Fast"
+    }
+  },
+  "old-icon-set-4-p0250": {
+    "name": "ClockCircleDashed",
+    "displayName": "Clock circle dashed",
+    "description": "Small clock face inside a partly dashed ring.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "circle",
+      "dashed",
+      "ring",
+      "pending",
+      "scheduled"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scheduled"
+    }
+  },
+  "old-icon-set-4-p0251": {
+    "name": "StopwatchFastTick",
+    "displayName": "Stopwatch fast tick",
+    "description": "Stopwatch with a crown and side tick, speed lines on the left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "fast",
+      "speed",
+      "quick",
+      "express"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Fast"
+    }
+  },
+  "old-icon-set-4-p0252": {
+    "name": "StopwatchFastKnob",
+    "displayName": "Stopwatch fast knob",
+    "description": "Stopwatch with a floating top bar and side knob, speed lines on the left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "fast",
+      "speed",
+      "quick",
+      "express"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Fast"
+    }
+  },
+  "old-icon-set-4-p0253": {
+    "name": "StopwatchNeedle",
+    "displayName": "Stopwatch needle",
+    "description": "Stopwatch with two side knobs and a needle with a filled hub.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "needle",
+      "dial",
+      "gauge"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stopwatch"
+    }
+  },
+  "old-icon-set-4-p0254": {
+    "name": "StopwatchNeedleArcLeft",
+    "displayName": "Stopwatch needle arc left",
+    "description": "Stopwatch with a needle and an arc along the lower left of the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "needle",
+      "arc",
+      "progress",
+      "elapsed"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Elapsed time"
+    }
+  },
+  "old-icon-set-4-p0255": {
+    "name": "StopwatchNeedleArcRight",
+    "displayName": "Stopwatch needle arc right",
+    "description": "Stopwatch with a needle pointing down and an arc along the right of the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "needle",
+      "arc",
+      "progress",
+      "elapsed"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Elapsed time"
+    }
+  },
+  "old-icon-set-4-p0256": {
+    "name": "Alarm",
+    "displayName": "Alarm",
+    "description": "Alarm clock with two round bells and feet, hands pointing to twelve and three.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "reminder"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm"
+    }
+  },
+  "old-icon-set-4-p0257": {
+    "name": "AlarmPlus",
+    "displayName": "Alarm plus",
+    "description": "Alarm clock with two round bells and feet, with a plus sign on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "plus",
+      "add"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add alarm"
+    }
+  },
+  "old-icon-set-4-p0258": {
+    "name": "AlarmMinus",
+    "displayName": "Alarm minus",
+    "description": "Alarm clock with two round bells and feet, with a minus sign on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "minus",
+      "remove"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove alarm"
+    }
+  },
+  "old-icon-set-4-p0259": {
+    "name": "AlarmCheck",
+    "displayName": "Alarm check",
+    "description": "Alarm clock with two round bells and feet, with a check mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "check",
+      "done",
+      "complete"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm set"
+    }
+  },
+  "old-icon-set-4-p0260": {
+    "name": "AlarmX",
+    "displayName": "Alarm x",
+    "description": "Alarm clock with two round bells and feet, with an X on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "x",
+      "remove",
+      "delete",
+      "cancel"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel alarm"
+    }
+  },
+  "old-icon-set-4-p0261": {
+    "name": "AlarmSnooze",
+    "displayName": "Alarm snooze",
+    "description": "Alarm clock with two round bells and feet, with the letter Z on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "snooze",
+      "z",
+      "sleep",
+      "later"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze alarm"
+    }
+  },
+  "old-icon-set-4-p0262": {
+    "name": "AlarmBolt",
+    "displayName": "Alarm bolt",
+    "description": "Alarm clock with two round bells and feet, with a lightning bolt on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "bolt",
+      "lightning",
+      "quick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quick alarm"
+    }
+  },
+  "old-icon-set-4-p0263": {
+    "name": "AlarmAlert",
+    "displayName": "Alarm alert",
+    "description": "Alarm clock with two round bells and feet, with an exclamation mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "alert",
+      "exclamation",
+      "attention"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm alert"
+    }
+  },
+  "old-icon-set-4-p0264": {
+    "name": "AlarmQuestion",
+    "displayName": "Alarm question",
+    "description": "Alarm clock with two round bells and feet, with a question mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "question",
+      "help",
+      "unknown"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm help"
+    }
+  },
+  "old-icon-set-4-p0265": {
+    "name": "AlarmPie",
+    "displayName": "Alarm pie",
+    "description": "Alarm clock with two round bells and feet, with a quarter pie segment on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "pie",
+      "quarter",
+      "elapsed",
+      "progress"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm timer"
+    }
+  },
+  "old-icon-set-4-p0266": {
+    "name": "AlarmBan",
+    "displayName": "Alarm ban",
+    "description": "Alarm clock with two round bells and feet, with a slashed circle on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "ban",
+      "blocked",
+      "disabled"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm off"
+    }
+  },
+  "old-icon-set-4-p0267": {
+    "name": "AlarmArc",
+    "displayName": "Alarm arc",
+    "description": "Alarm clock with curved bell arcs and feet, hands pointing to twelve and three.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "reminder",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm"
+    }
+  },
+  "old-icon-set-4-p0268": {
+    "name": "AlarmPlusArc",
+    "displayName": "Alarm plus arc",
+    "description": "Alarm clock with curved bell arcs and feet, with a plus sign on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "plus",
+      "add",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add alarm"
+    }
+  },
+  "old-icon-set-4-p0269": {
+    "name": "AlarmMinusArc",
+    "displayName": "Alarm minus arc",
+    "description": "Alarm clock with curved bell arcs and feet, with a minus sign on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "minus",
+      "remove",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove alarm"
+    }
+  },
+  "old-icon-set-4-p0270": {
+    "name": "AlarmCheckArc",
+    "displayName": "Alarm check arc",
+    "description": "Alarm clock with curved bell arcs and feet, with a check mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "check",
+      "done",
+      "complete",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm set"
+    }
+  },
+  "old-icon-set-4-p0271": {
+    "name": "AlarmXArc",
+    "displayName": "Alarm x arc",
+    "description": "Alarm clock with curved bell arcs and feet, with an X on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel alarm"
+    }
+  },
+  "old-icon-set-4-p0272": {
+    "name": "AlarmSnoozeArc",
+    "displayName": "Alarm snooze arc",
+    "description": "Alarm clock with curved bell arcs and feet, with the letter Z on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "snooze",
+      "z",
+      "sleep",
+      "later",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze alarm"
+    }
+  },
+  "old-icon-set-4-p0273": {
+    "name": "AlarmBoltArc",
+    "displayName": "Alarm bolt arc",
+    "description": "Alarm clock with curved bell arcs and feet, with a lightning bolt on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "bolt",
+      "lightning",
+      "quick",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quick alarm"
+    }
+  },
+  "old-icon-set-4-p0274": {
+    "name": "AlarmAlertArc",
+    "displayName": "Alarm alert arc",
+    "description": "Alarm clock with curved bell arcs and feet, with an exclamation mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "alert",
+      "exclamation",
+      "attention",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm alert"
+    }
+  },
+  "old-icon-set-4-p0275": {
+    "name": "AlarmQuestionArc",
+    "displayName": "Alarm question arc",
+    "description": "Alarm clock with curved bell arcs and feet, with a question mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "question",
+      "help",
+      "unknown",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm help"
+    }
+  },
+  "old-icon-set-4-p0276": {
+    "name": "AlarmPieArc",
+    "displayName": "Alarm pie arc",
+    "description": "Alarm clock with curved bell arcs and feet, with a quarter pie segment on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "pie",
+      "quarter",
+      "elapsed",
+      "progress",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm timer"
+    }
+  },
+  "old-icon-set-4-p0277": {
+    "name": "AlarmBanArc",
+    "displayName": "Alarm ban arc",
+    "description": "Alarm clock with curved bell arcs and feet, with a slashed circle on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "ban",
+      "blocked",
+      "disabled",
+      "arc"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm off"
+    }
+  },
+  "old-icon-set-4-p0278": {
+    "name": "AlarmStraight",
+    "displayName": "Alarm straight",
+    "description": "Alarm clock with straight bell strokes and feet, hands pointing to twelve and three.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "reminder",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm"
+    }
+  },
+  "old-icon-set-4-p0279": {
+    "name": "AlarmPlusStraight",
+    "displayName": "Alarm plus straight",
+    "description": "Alarm clock with straight bell strokes and feet, with a plus sign on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "plus",
+      "add",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add alarm"
+    }
+  },
+  "old-icon-set-4-p0280": {
+    "name": "AlarmMinusStraight",
+    "displayName": "Alarm minus straight",
+    "description": "Alarm clock with straight bell strokes and feet, with a minus sign on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "minus",
+      "remove",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove alarm"
+    }
+  },
+  "old-icon-set-4-p0281": {
+    "name": "AlarmCheckStraight",
+    "displayName": "Alarm check straight",
+    "description": "Alarm clock with straight bell strokes and feet, with a check mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "check",
+      "done",
+      "complete",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm set"
+    }
+  },
+  "old-icon-set-4-p0282": {
+    "name": "AlarmXStraight",
+    "displayName": "Alarm x straight",
+    "description": "Alarm clock with straight bell strokes and feet, with an X on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel alarm"
+    }
+  },
+  "old-icon-set-4-p0283": {
+    "name": "AlarmSnoozeStraight",
+    "displayName": "Alarm snooze straight",
+    "description": "Alarm clock with straight bell strokes and feet, with the letter Z on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "snooze",
+      "z",
+      "sleep",
+      "later",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze alarm"
+    }
+  },
+  "old-icon-set-4-p0284": {
+    "name": "AlarmBoltStraight",
+    "displayName": "Alarm bolt straight",
+    "description": "Alarm clock with straight bell strokes and feet, with a lightning bolt on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "bolt",
+      "lightning",
+      "quick",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quick alarm"
+    }
+  },
+  "old-icon-set-4-p0285": {
+    "name": "AlarmAlertStraight",
+    "displayName": "Alarm alert straight",
+    "description": "Alarm clock with straight bell strokes and feet, with an exclamation mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "alert",
+      "exclamation",
+      "attention",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm alert"
+    }
+  },
+  "old-icon-set-4-p0286": {
+    "name": "AlarmQuestionStraight",
+    "displayName": "Alarm question straight",
+    "description": "Alarm clock with straight bell strokes and feet, with a question mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "question",
+      "help",
+      "unknown",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm help"
+    }
+  },
+  "old-icon-set-4-p0287": {
+    "name": "AlarmPieStraight",
+    "displayName": "Alarm pie straight",
+    "description": "Alarm clock with straight bell strokes and feet, with a quarter pie segment on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "pie",
+      "quarter",
+      "elapsed",
+      "progress",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm timer"
+    }
+  },
+  "old-icon-set-4-p0288": {
+    "name": "AlarmBanStraight",
+    "displayName": "Alarm ban straight",
+    "description": "Alarm clock with straight bell strokes and feet, with a slashed circle on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "ban",
+      "blocked",
+      "disabled",
+      "straight"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm off"
+    }
+  },
+  "old-icon-set-4-p0289": {
+    "name": "AlarmBare",
+    "displayName": "Alarm bare",
+    "description": "Alarm clock with straight bell strokes and no feet, hands pointing to twelve and three.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "reminder",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm"
+    }
+  },
+  "old-icon-set-4-p0290": {
+    "name": "AlarmPlusBare",
+    "displayName": "Alarm plus bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with a plus sign on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "plus",
+      "add",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add alarm"
+    }
+  },
+  "old-icon-set-4-p0291": {
+    "name": "AlarmMinusBare",
+    "displayName": "Alarm minus bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with a minus sign on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "minus",
+      "remove",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove alarm"
+    }
+  },
+  "old-icon-set-4-p0292": {
+    "name": "AlarmCheckBare",
+    "displayName": "Alarm check bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with a check mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "check",
+      "done",
+      "complete",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm set"
+    }
+  },
+  "old-icon-set-4-p0293": {
+    "name": "AlarmXBare",
+    "displayName": "Alarm x bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with an X on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel alarm"
+    }
+  },
+  "old-icon-set-4-p0294": {
+    "name": "AlarmSnoozeBare",
+    "displayName": "Alarm snooze bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with the letter Z on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "snooze",
+      "z",
+      "sleep",
+      "later",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze alarm"
+    }
+  },
+  "old-icon-set-4-p0295": {
+    "name": "AlarmBoltBare",
+    "displayName": "Alarm bolt bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with a lightning bolt on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "bolt",
+      "lightning",
+      "quick",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quick alarm"
+    }
+  },
+  "old-icon-set-4-p0296": {
+    "name": "AlarmAlertBare",
+    "displayName": "Alarm alert bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with an exclamation mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "alert",
+      "exclamation",
+      "attention",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm alert"
+    }
+  },
+  "old-icon-set-4-p0297": {
+    "name": "AlarmQuestionBare",
+    "displayName": "Alarm question bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with a question mark on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "question",
+      "help",
+      "unknown",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm help"
+    }
+  },
+  "old-icon-set-4-p0298": {
+    "name": "AlarmPieBare",
+    "displayName": "Alarm pie bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with a quarter pie segment on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "pie",
+      "quarter",
+      "elapsed",
+      "progress",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm timer"
+    }
+  },
+  "old-icon-set-4-p0299": {
+    "name": "AlarmBanBare",
+    "displayName": "Alarm ban bare",
+    "description": "Alarm clock with straight bell strokes and no feet, with a slashed circle on the face.",
+    "tags": [
+      "alarm",
+      "alarm-clock",
+      "clock",
+      "time",
+      "wake-up",
+      "ban",
+      "blocked",
+      "disabled",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Alarm off"
+    }
+  },
+  "old-icon-set-4-p0300": {
+    "name": "Stopwatch",
+    "displayName": "Stopwatch",
+    "description": "Stopwatch with a crown and a button on each side and a hand pointing to twelve.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "stop",
+      "lap"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stopwatch"
+    }
+  },
+  "old-icon-set-4-p0301": {
+    "name": "StopwatchPlus",
+    "displayName": "Stopwatch plus",
+    "description": "Stopwatch with a crown and a button on each side and a plus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "plus",
+      "add"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add time"
+    }
+  },
+  "old-icon-set-4-p0302": {
+    "name": "StopwatchMinus",
+    "displayName": "Stopwatch minus",
+    "description": "Stopwatch with a crown and a button on each side and a minus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "minus",
+      "remove"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Subtract time"
+    }
+  },
+  "old-icon-set-4-p0303": {
+    "name": "StopwatchCheck",
+    "displayName": "Stopwatch check",
+    "description": "Stopwatch with a crown and a button on each side and a check mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "check",
+      "done",
+      "complete"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer done"
+    }
+  },
+  "old-icon-set-4-p0304": {
+    "name": "StopwatchX",
+    "displayName": "Stopwatch x",
+    "description": "Stopwatch with a crown and a button on each side and an X on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "x",
+      "remove",
+      "delete",
+      "cancel"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel timer"
+    }
+  },
+  "old-icon-set-4-p0305": {
+    "name": "StopwatchSnooze",
+    "displayName": "Stopwatch snooze",
+    "description": "Stopwatch with a crown and a button on each side and the letter Z on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "snooze",
+      "z",
+      "sleep",
+      "later"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze"
+    }
+  },
+  "old-icon-set-4-p0306": {
+    "name": "StopwatchBolt",
+    "displayName": "Stopwatch bolt",
+    "description": "Stopwatch with a crown and a button on each side and a lightning bolt on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "bolt",
+      "lightning",
+      "quick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quick timer"
+    }
+  },
+  "old-icon-set-4-p0307": {
+    "name": "StopwatchAlert",
+    "displayName": "Stopwatch alert",
+    "description": "Stopwatch with a crown and a button on each side and an exclamation mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "alert",
+      "exclamation",
+      "attention"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer alert"
+    }
+  },
+  "old-icon-set-4-p0308": {
+    "name": "StopwatchQuestion",
+    "displayName": "Stopwatch question",
+    "description": "Stopwatch with a crown and a button on each side and a question mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "question",
+      "help",
+      "unknown"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer help"
+    }
+  },
+  "old-icon-set-4-p0309": {
+    "name": "StopwatchPie",
+    "displayName": "Stopwatch pie",
+    "description": "Stopwatch with a crown and a button on each side and a quarter pie segment on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pie",
+      "quarter",
+      "elapsed",
+      "progress"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Elapsed time"
+    }
+  },
+  "old-icon-set-4-p0310": {
+    "name": "StopwatchClockwise",
+    "displayName": "Stopwatch clockwise",
+    "description": "Stopwatch with a crown and a button on each side, with its outline drawn as a clockwise arrow ending at the lower left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "clockwise",
+      "restart",
+      "reset",
+      "repeat"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Restart timer"
+    }
+  },
+  "old-icon-set-4-p0311": {
+    "name": "StopwatchDotted",
+    "displayName": "Stopwatch dotted",
+    "description": "Stopwatch with a crown and a button on each side and a dotted arc on the upper left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "dotted",
+      "countdown",
+      "progress",
+      "remaining"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Countdown"
+    }
+  },
+  "old-icon-set-4-p0312": {
+    "name": "StopwatchPin",
+    "displayName": "Stopwatch pin",
+    "description": "Stopwatch with a crown and a button on each side and a map pin at the lower left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pin",
+      "location",
+      "map",
+      "place"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location time"
+    }
+  },
+  "old-icon-set-4-p0313": {
+    "name": "StopwatchOff",
+    "displayName": "Stopwatch off",
+    "description": "Stopwatch with a crown and a button on each side, with a diagonal slash through it.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "off",
+      "disabled",
+      "stop",
+      "no-timer"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer off"
+    }
+  },
+  "old-icon-set-4-p0315": {
+    "name": "StopwatchPlusTick",
+    "displayName": "Stopwatch plus tick",
+    "description": "Stopwatch with a crown and a short tick on the right and a plus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "plus",
+      "add",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add time"
+    }
+  },
+  "old-icon-set-4-p0316": {
+    "name": "StopwatchMinusTick",
+    "displayName": "Stopwatch minus tick",
+    "description": "Stopwatch with a crown and a short tick on the right and a minus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "minus",
+      "remove",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Subtract time"
+    }
+  },
+  "old-icon-set-4-p0317": {
+    "name": "StopwatchCheckTick",
+    "displayName": "Stopwatch check tick",
+    "description": "Stopwatch with a crown and a short tick on the right and a check mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "check",
+      "done",
+      "complete",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer done"
+    }
+  },
+  "old-icon-set-4-p0318": {
+    "name": "StopwatchXTick",
+    "displayName": "Stopwatch x tick",
+    "description": "Stopwatch with a crown and a short tick on the right and an X on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel timer"
+    }
+  },
+  "old-icon-set-4-p0319": {
+    "name": "StopwatchSnoozeTick",
+    "displayName": "Stopwatch snooze tick",
+    "description": "Stopwatch with a crown and a short tick on the right and the letter Z on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "snooze",
+      "z",
+      "sleep",
+      "later",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze"
+    }
+  },
+  "old-icon-set-4-p0320": {
+    "name": "StopwatchBoltTick",
+    "displayName": "Stopwatch bolt tick",
+    "description": "Stopwatch with a crown and a short tick on the right and a lightning bolt on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "bolt",
+      "lightning",
+      "quick",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quick timer"
+    }
+  },
+  "old-icon-set-4-p0321": {
+    "name": "StopwatchAlertTick",
+    "displayName": "Stopwatch alert tick",
+    "description": "Stopwatch with a crown and a short tick on the right and an exclamation mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "alert",
+      "exclamation",
+      "attention",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer alert"
+    }
+  },
+  "old-icon-set-4-p0322": {
+    "name": "StopwatchQuestionTick",
+    "displayName": "Stopwatch question tick",
+    "description": "Stopwatch with a crown and a short tick on the right and a question mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "question",
+      "help",
+      "unknown",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer help"
+    }
+  },
+  "old-icon-set-4-p0323": {
+    "name": "StopwatchPieTick",
+    "displayName": "Stopwatch pie tick",
+    "description": "Stopwatch with a crown and a short tick on the right and a quarter pie segment on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pie",
+      "quarter",
+      "elapsed",
+      "progress",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Elapsed time"
+    }
+  },
+  "old-icon-set-4-p0326": {
+    "name": "StopwatchPinTick",
+    "displayName": "Stopwatch pin tick",
+    "description": "Stopwatch with a crown and a short tick on the right and a map pin at the lower left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pin",
+      "location",
+      "map",
+      "place",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location time"
+    }
+  },
+  "old-icon-set-4-p0327": {
+    "name": "StopwatchOffTick",
+    "displayName": "Stopwatch off tick",
+    "description": "Stopwatch with a crown and a short tick on the right, with a diagonal slash through it.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "off",
+      "disabled",
+      "stop",
+      "no-timer",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer off"
+    }
+  },
+  "old-icon-set-4-p0329": {
+    "name": "StopwatchPlusBare",
+    "displayName": "Stopwatch plus bare",
+    "description": "Stopwatch with only a crown on top and a plus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "plus",
+      "add",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add time"
+    }
+  },
+  "old-icon-set-4-p0330": {
+    "name": "StopwatchMinusBare",
+    "displayName": "Stopwatch minus bare",
+    "description": "Stopwatch with only a crown on top and a minus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "minus",
+      "remove",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Subtract time"
+    }
+  },
+  "old-icon-set-4-p0331": {
+    "name": "StopwatchCheckBare",
+    "displayName": "Stopwatch check bare",
+    "description": "Stopwatch with only a crown on top and a check mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "check",
+      "done",
+      "complete",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer done"
+    }
+  },
+  "old-icon-set-4-p0332": {
+    "name": "StopwatchXBare",
+    "displayName": "Stopwatch x bare",
+    "description": "Stopwatch with only a crown on top and an X on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel timer"
+    }
+  },
+  "old-icon-set-4-p0333": {
+    "name": "StopwatchSnoozeBare",
+    "displayName": "Stopwatch snooze bare",
+    "description": "Stopwatch with only a crown on top and the letter Z on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "snooze",
+      "z",
+      "sleep",
+      "later",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze"
+    }
+  },
+  "old-icon-set-4-p0334": {
+    "name": "StopwatchBoltBare",
+    "displayName": "Stopwatch bolt bare",
+    "description": "Stopwatch with only a crown on top and a lightning bolt on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "bolt",
+      "lightning",
+      "quick",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quick timer"
+    }
+  },
+  "old-icon-set-4-p0335": {
+    "name": "StopwatchAlertBare",
+    "displayName": "Stopwatch alert bare",
+    "description": "Stopwatch with only a crown on top and an exclamation mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "alert",
+      "exclamation",
+      "attention",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer alert"
+    }
+  },
+  "old-icon-set-4-p0336": {
+    "name": "StopwatchQuestionBare",
+    "displayName": "Stopwatch question bare",
+    "description": "Stopwatch with only a crown on top and a question mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "question",
+      "help",
+      "unknown",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer help"
+    }
+  },
+  "old-icon-set-4-p0337": {
+    "name": "StopwatchPieBare",
+    "displayName": "Stopwatch pie bare",
+    "description": "Stopwatch with only a crown on top and a quarter pie segment on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pie",
+      "quarter",
+      "elapsed",
+      "progress",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Elapsed time"
+    }
+  },
+  "old-icon-set-4-p0338": {
+    "name": "StopwatchClockwiseBare",
+    "displayName": "Stopwatch clockwise bare",
+    "description": "Stopwatch with only a crown on top, with its outline drawn as a clockwise arrow ending at the lower left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "clockwise",
+      "restart",
+      "reset",
+      "repeat",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Restart timer"
+    }
+  },
+  "old-icon-set-4-p0339": {
+    "name": "StopwatchDottedBare",
+    "displayName": "Stopwatch dotted bare",
+    "description": "Stopwatch with only a crown on top and a dotted arc on the upper left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "dotted",
+      "countdown",
+      "progress",
+      "remaining",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Countdown"
+    }
+  },
+  "old-icon-set-4-p0340": {
+    "name": "StopwatchPinBare",
+    "displayName": "Stopwatch pin bare",
+    "description": "Stopwatch with only a crown on top and a map pin at the lower left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pin",
+      "location",
+      "map",
+      "place",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location time"
+    }
+  },
+  "old-icon-set-4-p0341": {
+    "name": "StopwatchOffBare",
+    "displayName": "Stopwatch off bare",
+    "description": "Stopwatch with only a crown on top, with a diagonal slash through it.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "off",
+      "disabled",
+      "stop",
+      "no-timer",
+      "bare"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer off"
+    }
+  },
+  "old-icon-set-4-p0342": {
+    "name": "StopwatchKnob",
+    "displayName": "Stopwatch knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and a hand pointing to twelve.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "stop",
+      "lap",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stopwatch"
+    }
+  },
+  "old-icon-set-4-p0343": {
+    "name": "StopwatchPlusKnob",
+    "displayName": "Stopwatch plus knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and a plus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "plus",
+      "add",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add time"
+    }
+  },
+  "old-icon-set-4-p0344": {
+    "name": "StopwatchMinusKnob",
+    "displayName": "Stopwatch minus knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and a minus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "minus",
+      "remove",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Subtract time"
+    }
+  },
+  "old-icon-set-4-p0345": {
+    "name": "StopwatchCheckKnob",
+    "displayName": "Stopwatch check knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and a check mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "check",
+      "done",
+      "complete",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer done"
+    }
+  },
+  "old-icon-set-4-p0346": {
+    "name": "StopwatchXKnob",
+    "displayName": "Stopwatch x knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and an X on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel timer"
+    }
+  },
+  "old-icon-set-4-p0347": {
+    "name": "StopwatchSnoozeKnob",
+    "displayName": "Stopwatch snooze knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and the letter Z on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "snooze",
+      "z",
+      "sleep",
+      "later",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze"
+    }
+  },
+  "old-icon-set-4-p0348": {
+    "name": "StopwatchBoltKnob",
+    "displayName": "Stopwatch bolt knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and a lightning bolt on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "bolt",
+      "lightning",
+      "quick",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quick timer"
+    }
+  },
+  "old-icon-set-4-p0349": {
+    "name": "StopwatchAlertKnob",
+    "displayName": "Stopwatch alert knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and an exclamation mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "alert",
+      "exclamation",
+      "attention",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer alert"
+    }
+  },
+  "old-icon-set-4-p0350": {
+    "name": "StopwatchQuestionKnob",
+    "displayName": "Stopwatch question knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and a question mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "question",
+      "help",
+      "unknown",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer help"
+    }
+  },
+  "old-icon-set-4-p0351": {
+    "name": "StopwatchPieKnob",
+    "displayName": "Stopwatch pie knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and a quarter pie segment on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pie",
+      "quarter",
+      "elapsed",
+      "progress",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Elapsed time"
+    }
+  },
+  "old-icon-set-4-p0352": {
+    "name": "StopwatchClockwiseKnob",
+    "displayName": "Stopwatch clockwise knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right, with its outline drawn as a clockwise arrow ending at the lower left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "clockwise",
+      "restart",
+      "reset",
+      "repeat",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Restart timer"
+    }
+  },
+  "old-icon-set-4-p0353": {
+    "name": "StopwatchDottedKnob",
+    "displayName": "Stopwatch dotted knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and a dotted arc on the upper left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "dotted",
+      "countdown",
+      "progress",
+      "remaining",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Countdown"
+    }
+  },
+  "old-icon-set-4-p0354": {
+    "name": "StopwatchPinKnob",
+    "displayName": "Stopwatch pin knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right and a map pin at the lower left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pin",
+      "location",
+      "map",
+      "place",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location time"
+    }
+  },
+  "old-icon-set-4-p0355": {
+    "name": "StopwatchOffKnob",
+    "displayName": "Stopwatch off knob",
+    "description": "Stopwatch with a floating top bar and a knob on the right, with a diagonal slash through it.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "off",
+      "disabled",
+      "stop",
+      "no-timer",
+      "knob"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer off"
+    }
+  },
+  "old-icon-set-4-p0356": {
+    "name": "StopwatchDetached",
+    "displayName": "Stopwatch detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and a hand pointing to twelve.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "stop",
+      "lap",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stopwatch"
+    }
+  },
+  "old-icon-set-4-p0357": {
+    "name": "StopwatchPlusDetached",
+    "displayName": "Stopwatch plus detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and a plus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "plus",
+      "add",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add time"
+    }
+  },
+  "old-icon-set-4-p0358": {
+    "name": "StopwatchMinusDetached",
+    "displayName": "Stopwatch minus detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and a minus sign on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "minus",
+      "remove",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Subtract time"
+    }
+  },
+  "old-icon-set-4-p0359": {
+    "name": "StopwatchCheckDetached",
+    "displayName": "Stopwatch check detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and a check mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "check",
+      "done",
+      "complete",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer done"
+    }
+  },
+  "old-icon-set-4-p0360": {
+    "name": "StopwatchXDetached",
+    "displayName": "Stopwatch x detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and an X on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel timer"
+    }
+  },
+  "old-icon-set-4-p0361": {
+    "name": "StopwatchSnoozeDetached",
+    "displayName": "Stopwatch snooze detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and the letter Z on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "snooze",
+      "z",
+      "sleep",
+      "later",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze"
+    }
+  },
+  "old-icon-set-4-p0362": {
+    "name": "StopwatchBoltDetached",
+    "displayName": "Stopwatch bolt detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and a lightning bolt on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "bolt",
+      "lightning",
+      "quick",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quick timer"
+    }
+  },
+  "old-icon-set-4-p0363": {
+    "name": "StopwatchAlertDetached",
+    "displayName": "Stopwatch alert detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and an exclamation mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "alert",
+      "exclamation",
+      "attention",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer alert"
+    }
+  },
+  "old-icon-set-4-p0364": {
+    "name": "StopwatchQuestionDetached",
+    "displayName": "Stopwatch question detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and a question mark on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "question",
+      "help",
+      "unknown",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer help"
+    }
+  },
+  "old-icon-set-4-p0365": {
+    "name": "StopwatchPieDetached",
+    "displayName": "Stopwatch pie detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and a quarter pie segment on the dial.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pie",
+      "quarter",
+      "elapsed",
+      "progress",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Elapsed time"
+    }
+  },
+  "old-icon-set-4-p0366": {
+    "name": "StopwatchClockwiseDetached",
+    "displayName": "Stopwatch clockwise detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right, with its outline drawn as a clockwise arrow ending at the lower left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "clockwise",
+      "restart",
+      "reset",
+      "repeat",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Restart timer"
+    }
+  },
+  "old-icon-set-4-p0367": {
+    "name": "StopwatchDottedDetached",
+    "displayName": "Stopwatch dotted detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and a dotted arc on the upper left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "dotted",
+      "countdown",
+      "progress",
+      "remaining",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Countdown"
+    }
+  },
+  "old-icon-set-4-p0368": {
+    "name": "StopwatchPinDetached",
+    "displayName": "Stopwatch pin detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right and a map pin at the lower left.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "pin",
+      "location",
+      "map",
+      "place",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location time"
+    }
+  },
+  "old-icon-set-4-p0369": {
+    "name": "StopwatchOffDetached",
+    "displayName": "Stopwatch off detached",
+    "description": "Stopwatch with a floating top bar and a detached tick on the right, with a diagonal slash through it.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "off",
+      "disabled",
+      "stop",
+      "no-timer",
+      "detached"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer off"
+    }
+  },
+  "old-icon-set-4-p0370": {
+    "name": "Hourglass",
+    "displayName": "Hourglass",
+    "description": "Hourglass drawn with crossing straight sides.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "empty",
+      "waiting"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0371": {
+    "name": "HourglassSand",
+    "displayName": "Hourglass sand",
+    "description": "Hourglass drawn with crossing straight sides, with sand settled at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "done",
+      "time-up"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time up"
+    }
+  },
+  "old-icon-set-4-p0372": {
+    "name": "HourglassSandFalling",
+    "displayName": "Hourglass sand falling",
+    "description": "Hourglass drawn with crossing straight sides, with a grain falling and sand at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "falling",
+      "in-progress"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Waiting"
+    }
+  },
+  "old-icon-set-4-p0376": {
+    "name": "HourglassStand",
+    "displayName": "Hourglass stand",
+    "description": "Hourglass with crossing straight sides between a top and a bottom board.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "empty",
+      "waiting",
+      "stand"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0377": {
+    "name": "HourglassStandSand",
+    "displayName": "Hourglass stand sand",
+    "description": "Hourglass with crossing straight sides between a top and a bottom board, with sand settled at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "done",
+      "time-up",
+      "stand"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time up"
+    }
+  },
+  "old-icon-set-4-p0378": {
+    "name": "HourglassStandSandFalling",
+    "displayName": "Hourglass stand sand falling",
+    "description": "Hourglass with crossing straight sides between a top and a bottom board, with a grain falling and sand at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "falling",
+      "in-progress",
+      "stand"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Waiting"
+    }
+  },
+  "old-icon-set-4-p0379": {
+    "name": "HourglassCurved",
+    "displayName": "Hourglass curved",
+    "description": "Hourglass with curved, pinched sides.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "empty",
+      "waiting",
+      "curved"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0380": {
+    "name": "HourglassSandCurved",
+    "displayName": "Hourglass sand curved",
+    "description": "Hourglass with curved, pinched sides, with sand settled at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "done",
+      "time-up",
+      "curved"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time up"
+    }
+  },
+  "old-icon-set-4-p0381": {
+    "name": "HourglassSandFallingCurved",
+    "displayName": "Hourglass sand falling curved",
+    "description": "Hourglass with curved, pinched sides, with a grain falling and sand at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "falling",
+      "in-progress",
+      "curved"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Waiting"
+    }
+  },
+  "old-icon-set-4-p0382": {
+    "name": "HourglassDiagonal",
+    "displayName": "Hourglass diagonal",
+    "description": "Hourglass drawn as a broken Z with a diagonal stroke.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "empty",
+      "waiting",
+      "diagonal"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0383": {
+    "name": "HourglassSandDiagonal",
+    "displayName": "Hourglass sand diagonal",
+    "description": "Hourglass drawn as a broken Z with a diagonal stroke, with sand settled at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "done",
+      "time-up",
+      "diagonal"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time up"
+    }
+  },
+  "old-icon-set-4-p0384": {
+    "name": "HourglassSandFallingDiagonal",
+    "displayName": "Hourglass sand falling diagonal",
+    "description": "Hourglass drawn as a broken Z with a diagonal stroke, with a grain falling and sand at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "falling",
+      "in-progress",
+      "diagonal"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Waiting"
+    }
+  },
+  "old-icon-set-4-p0385": {
+    "name": "HourglassStandCurved",
+    "displayName": "Hourglass stand curved",
+    "description": "Hourglass with curved, pinched sides between a top and a bottom board.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "empty",
+      "waiting",
+      "stand",
+      "curved"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0386": {
+    "name": "HourglassStandSandCurved",
+    "displayName": "Hourglass stand sand curved",
+    "description": "Hourglass with curved, pinched sides between a top and a bottom board, with sand settled at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "done",
+      "time-up",
+      "stand",
+      "curved"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time up"
+    }
+  },
+  "old-icon-set-4-p0387": {
+    "name": "HourglassStandSandFallingCurved",
+    "displayName": "Hourglass stand sand falling curved",
+    "description": "Hourglass with curved, pinched sides between a top and a bottom board, with a grain falling and sand at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "falling",
+      "in-progress",
+      "stand",
+      "curved"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Waiting"
+    }
+  },
+  "old-icon-set-4-p0388": {
+    "name": "HourglassCircleWide",
+    "displayName": "Hourglass circle wide",
+    "description": "Short, wide hourglass with curved sides inside a circle.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "circle",
+      "wide"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0389": {
+    "name": "HourglassStandCircle",
+    "displayName": "Hourglass stand circle",
+    "description": "Hourglass with crossing sides and boards inside a circle.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "circle",
+      "stand"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0390": {
+    "name": "HourglassCircleCurved",
+    "displayName": "Hourglass circle curved",
+    "description": "Narrow hourglass with curved sides inside a circle.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "circle",
+      "curved"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0391": {
+    "name": "HourglassCircleDiagonal",
+    "displayName": "Hourglass circle diagonal",
+    "description": "Broken Z-shaped hourglass inside a circle.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "circle",
+      "diagonal"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0392": {
+    "name": "HourglassStandCircleCurved",
+    "displayName": "Hourglass stand circle curved",
+    "description": "Hourglass with curved sides and boards inside a circle.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "circle",
+      "stand"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0393": {
+    "name": "HourglassCircleRound",
+    "displayName": "Hourglass circle round",
+    "description": "Hourglass with rounded bulbs inside a circle.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0394": {
+    "name": "HourglassCircle",
+    "displayName": "Hourglass circle",
+    "description": "Hourglass with crossing straight sides inside a circle.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "circle"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0395": {
+    "name": "HourglassSyncRound",
+    "displayName": "Hourglass sync round",
+    "description": "Hourglass with rounded bulbs inside two curved arrows going around it.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sync",
+      "rotate",
+      "flip",
+      "restart",
+      "round"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Restart timer"
+    }
+  },
+  "old-icon-set-4-p0397": {
+    "name": "HourglassSync",
+    "displayName": "Hourglass sync",
+    "description": "Hourglass with crossing straight sides inside two curved arrows going around it.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sync",
+      "rotate",
+      "flip",
+      "restart"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Restart timer"
+    }
+  },
+  "old-icon-set-4-p0398": {
+    "name": "HourglassSquareWide",
+    "displayName": "Hourglass square wide",
+    "description": "Short, wide hourglass with curved sides inside a rounded square.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "square",
+      "wide"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0399": {
+    "name": "HourglassStandSquare",
+    "displayName": "Hourglass stand square",
+    "description": "Hourglass with crossing sides and boards inside a rounded square.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "square",
+      "stand"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0400": {
+    "name": "HourglassSquareCurved",
+    "displayName": "Hourglass square curved",
+    "description": "Narrow hourglass with curved sides inside a rounded square.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "square",
+      "curved"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0401": {
+    "name": "HourglassSquareDiagonal",
+    "displayName": "Hourglass square diagonal",
+    "description": "Broken Z-shaped hourglass inside a rounded square.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "square",
+      "diagonal"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0402": {
+    "name": "HourglassStandSquareCurved",
+    "displayName": "Hourglass stand square curved",
+    "description": "Hourglass with curved sides and boards inside a rounded square.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "square",
+      "stand"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0403": {
+    "name": "HourglassSquareRound",
+    "displayName": "Hourglass square round",
+    "description": "Hourglass with rounded bulbs inside a rounded square.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "square",
+      "round"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0404": {
+    "name": "HourglassSquare",
+    "displayName": "Hourglass square",
+    "description": "Hourglass with crossing straight sides inside a rounded square.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "square"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0405": {
+    "name": "ClosedCaptionBoxy",
+    "displayName": "Closed caption boxy",
+    "description": "Letters CC with flat sides inside a rounded rectangle.",
+    "tags": [
+      "closed-caption",
+      "cc",
+      "captions",
+      "subtitles",
+      "accessibility",
+      "video",
+      "boxy"
+    ],
+    "categories": [
+      "media",
+      "accessibility"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Closed captions"
+    }
+  },
+  "old-icon-set-4-p0406": {
+    "name": "ClosedCaption",
+    "displayName": "Closed caption",
+    "description": "Round letters CC inside a rounded rectangle.",
+    "tags": [
+      "closed-caption",
+      "cc",
+      "captions",
+      "subtitles",
+      "accessibility",
+      "video",
+      "rectangle"
+    ],
+    "categories": [
+      "media",
+      "accessibility"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Closed captions"
+    }
+  },
+  "old-icon-set-4-p0407": {
+    "name": "ClosedCaptionBarrel",
+    "displayName": "Closed caption barrel",
+    "description": "Letters CC inside a frame with outward-curving sides.",
+    "tags": [
+      "closed-caption",
+      "cc",
+      "captions",
+      "subtitles",
+      "accessibility",
+      "video",
+      "barrel",
+      "curved"
+    ],
+    "categories": [
+      "media",
+      "accessibility"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Closed captions"
+    }
+  },
+  "old-icon-set-4-p0408": {
+    "name": "ClosedCaptionCushion",
+    "displayName": "Closed caption cushion",
+    "description": "Letters CC inside a cushion-shaped frame like an old TV screen.",
+    "tags": [
+      "closed-caption",
+      "cc",
+      "captions",
+      "subtitles",
+      "accessibility",
+      "video",
+      "tv",
+      "screen"
+    ],
+    "categories": [
+      "media",
+      "accessibility"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Closed captions"
+    }
+  },
+  "old-icon-set-4-p0409": {
+    "name": "ClosedCaptionBare",
+    "displayName": "Closed caption bare",
+    "description": "Letters CC with no frame.",
+    "tags": [
+      "closed-caption",
+      "cc",
+      "captions",
+      "subtitles",
+      "accessibility",
+      "video",
+      "letters",
+      "bare"
+    ],
+    "categories": [
+      "media",
+      "accessibility"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Closed captions"
+    }
+  }
+}

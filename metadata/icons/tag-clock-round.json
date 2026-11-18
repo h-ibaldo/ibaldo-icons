@@ -1,0 +1,38 @@
+{
+  "name": "TagClockRound",
+  "displayName": "Tag clock round",
+  "description": "Rounded diagonal tag with a clock at the bottom right.",
+  "tags": [
+    "tag",
+    "label",
+    "price",
+    "price-tag",
+    "limited-offer",
+    "deadline",
+    "time",
+    "clock",
+    "reminder",
+    "shopping"
+  ],
+  "categories": [
+    "shopping"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Tag time"
+  },
+  "filename": "tag-clock-round",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

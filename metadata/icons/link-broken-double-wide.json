@@ -1,0 +1,36 @@
+{
+  "name": "LinkBrokenDoubleWide",
+  "displayName": "Link broken double wide",
+  "description": "Diagonal chain of two wide rounded links split in two, with two rays at each break.",
+  "tags": [
+    "link",
+    "chain",
+    "url",
+    "hyperlink",
+    "broken",
+    "unlink",
+    "disconnect",
+    "break"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Broken link"
+  },
+  "filename": "link-broken-double-wide",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

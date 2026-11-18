@@ -1,0 +1,37 @@
+{
+  "name": "CalendarEditDotted",
+  "displayName": "Calendar edit dotted",
+  "description": "Calendar with day dots and a pencil at the bottom right corner.",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "event",
+    "edit",
+    "pencil",
+    "write",
+    "dotted",
+    "day"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Edit schedule"
+  },
+  "filename": "calendar-edit-dotted",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

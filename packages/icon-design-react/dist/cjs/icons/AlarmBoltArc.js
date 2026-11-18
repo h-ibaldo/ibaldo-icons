@@ -1,0 +1,38 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+
+const AlarmBoltArc = forwardRef(function AlarmBoltArc(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M18 19L20 21","key":"0"}),
+    createElement('path', {"d":"M6 19L4 21","key":"1"}),
+    createElement('path', {"d":"M20 13C20 17.418 16.418 21 12 21C7.582 21 4 17.418 4 13C4 8.582 7.582 5 12 5C16.418 5 20 8.582 20 13Z","key":"2"}),
+    createElement('path', {"d":"M13 9L10 12L14 14L11 17","key":"3"}),
+    createElement('path', {"d":"M22 6.5C22 4.566 20.434 3 18.5 3","key":"4"}),
+    createElement('path', {"d":"M2 6.5C2 4.566 3.566 3 5.5 3","key":"5"})
+  );
+});
+
+AlarmBoltArc.displayName = 'AlarmBoltArc';
+
+module.exports = AlarmBoltArc;
+module.exports.AlarmBoltArc = AlarmBoltArc;
+module.exports.default = AlarmBoltArc;

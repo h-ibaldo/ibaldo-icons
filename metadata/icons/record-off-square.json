@@ -1,0 +1,36 @@
+{
+  "name": "RecordOffSquare",
+  "displayName": "Record off square",
+  "description": "Record dot crossed by a diagonal slash inside a rounded square.",
+  "tags": [
+    "record",
+    "recording-off",
+    "stop-recording",
+    "no-recording",
+    "disabled",
+    "media",
+    "square",
+    "button"
+  ],
+  "categories": [
+    "media"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Recording off"
+  },
+  "filename": "record-off-square",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T16:04:08.263Z"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "AlignCenterHorizontal",
+  "displayName": "Align center horizontal",
+  "description": "Two side-by-side boxes centered on a horizontal line.",
+  "tags": [
+    "align",
+    "alignment",
+    "center",
+    "middle",
+    "objects",
+    "layout",
+    "horizontal"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Align middle"
+  },
+  "filename": "align-center-horizontal",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

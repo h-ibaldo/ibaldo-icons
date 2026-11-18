@@ -1,0 +1,39 @@
+{
+  "name": "CodeSlashSmall",
+  "displayName": "Code slash small",
+  "description": "Short curly braces around a forward slash.",
+  "tags": [
+    "code",
+    "braces",
+    "curly-brackets",
+    "programming",
+    "json",
+    "snippet",
+    "slash",
+    "html",
+    "tag",
+    "small",
+    "developer"
+  ],
+  "categories": [
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Code"
+  },
+  "filename": "code-slash-small",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+
+const ChatPlusCircle = forwardRef(function ChatPlusCircle(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M22 7C22 9.762 19.762 12 17 12C14.238 12 12 9.762 12 7C12 4.238 14.238 2 17 2C19.762 2 22 4.238 22 7Z","key":"0"}),
+    createElement('path', {"d":"M13.855 3.145C13.254 3.055 12.633 3 12 3C6.477 3 2 6.582 2 11C2 13.84 3.855 16.328 6.645 17.75C6.664 18.895 6.391 20.082 5.719 21.113C5.48 21.48 5.762 21.973 6.195 21.898C8.313 21.535 9.781 20.23 10.715 18.926C11.137 18.969 11.563 19 12 19C17.523 19 22 15.418 22 11C22 10.262 21.867 9.551 21.629 8.871","key":"1"}),
+    createElement('path', {"d":"M17 9L17 5","key":"2"}),
+    createElement('path', {"d":"M15 7L19 7","key":"3"})
+  );
+});
+
+ChatPlusCircle.displayName = 'ChatPlusCircle';
+
+export default ChatPlusCircle;
+export { ChatPlusCircle };

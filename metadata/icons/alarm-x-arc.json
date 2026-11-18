@@ -1,0 +1,38 @@
+{
+  "name": "AlarmXArc",
+  "displayName": "Alarm x arc",
+  "description": "Alarm clock with curved bell arcs and feet, with an X on the face.",
+  "tags": [
+    "alarm",
+    "alarm-clock",
+    "clock",
+    "time",
+    "wake-up",
+    "x",
+    "remove",
+    "delete",
+    "cancel",
+    "arc"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cancel alarm"
+  },
+  "filename": "alarm-x-arc",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

@@ -1,0 +1,34 @@
+import { createElement, forwardRef } from 'react';
+
+const BluetoothDotDoubleNarrow = forwardRef(function BluetoothDotDoubleNarrow(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M12 2L17 7L12 12L7 7","key":"0"}),
+    createElement('path', {"d":"M7 17L12 12L17 17L12 22","key":"1"}),
+    createElement('path', {"d":"M12 2L12 22","key":"2"}),
+    createElement('path', {"d":"M19 12L19 12","key":"3"}),
+    createElement('path', {"d":"M5 12L5 12","key":"4"})
+  );
+});
+
+BluetoothDotDoubleNarrow.displayName = 'BluetoothDotDoubleNarrow';
+
+export default BluetoothDotDoubleNarrow;
+export { BluetoothDotDoubleNarrow };

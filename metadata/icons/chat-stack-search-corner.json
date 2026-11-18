@@ -1,0 +1,38 @@
+{
+  "name": "ChatStackSearchCorner",
+  "displayName": "Chat stack search corner",
+  "description": "Two overlapping oval speech bubbles facing each other, with a magnifying glass at the corner where the outline breaks.",
+  "tags": [
+    "chat",
+    "message",
+    "search",
+    "find",
+    "magnifier",
+    "lookup",
+    "conversation",
+    "chat-stack",
+    "oval",
+    "comment"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Search messages"
+  },
+  "filename": "chat-stack-search-corner",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ChatClockPointed",
+  "displayName": "Chat clock pointed",
+  "description": "Rounded speech bubble with a long pointed tail at the bottom, with a clock inside.",
+  "tags": [
+    "chat",
+    "message",
+    "clock",
+    "pending",
+    "scheduled",
+    "time",
+    "speech-bubble",
+    "rounded",
+    "pointed",
+    "comment"
+  ],
+  "categories": [
+    "communication",
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Message pending"
+  },
+  "filename": "chat-clock-pointed",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

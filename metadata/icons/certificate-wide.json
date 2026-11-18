@@ -1,0 +1,35 @@
+{
+  "name": "CertificateWide",
+  "displayName": "Certificate wide",
+  "description": "Wide frame with a top line and a round medal with ribbon at the bottom.",
+  "tags": [
+    "certificate",
+    "diploma",
+    "award",
+    "document",
+    "medal",
+    "achievement"
+  ],
+  "categories": [
+    "education",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Certificate"
+  },
+  "filename": "certificate-wide",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

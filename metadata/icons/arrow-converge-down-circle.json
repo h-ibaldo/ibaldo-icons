@@ -1,0 +1,35 @@
+{
+  "name": "ArrowConvergeDownCircle",
+  "displayName": "Arrow converge down circle",
+  "description": "Three arrows meeting at the center of a circle, two of them pointing down.",
+  "tags": [
+    "arrow",
+    "converge",
+    "merge",
+    "collapse",
+    "meet",
+    "center",
+    "circle"
+  ],
+  "categories": [
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Merge"
+  },
+  "filename": "arrow-converge-down-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

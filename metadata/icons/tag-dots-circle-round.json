@@ -1,0 +1,39 @@
+{
+  "name": "TagDotsCircleRound",
+  "displayName": "Tag dots circle round",
+  "description": "Rounded diagonal tag with two dots in a circle at the bottom right.",
+  "tags": [
+    "tag",
+    "label",
+    "price",
+    "price-tag",
+    "more",
+    "options",
+    "pending",
+    "dots",
+    "circle",
+    "round",
+    "shopping"
+  ],
+  "categories": [
+    "shopping"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Tag options"
+  },
+  "filename": "tag-dots-circle-round",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

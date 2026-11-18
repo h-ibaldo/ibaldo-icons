@@ -1,0 +1,35 @@
+{
+  "name": "WindowSettingsCenterPlain",
+  "displayName": "Window settings center plain",
+  "description": "Window with a plain title bar and a gear in the middle.",
+  "tags": [
+    "window",
+    "app",
+    "interface",
+    "dialog",
+    "settings",
+    "gear",
+    "configure"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Window settings"
+  },
+  "filename": "window-settings-center-plain",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

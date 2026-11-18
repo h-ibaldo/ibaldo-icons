@@ -1,0 +1,2362 @@
+{
+  "skip-back-circle": {
+    "name": "SkipBackCircle",
+    "displayName": "Skip back circle",
+    "description": "Vertical bar with a triangle pointing left against it inside a circle.",
+    "tags": [
+      "skip",
+      "previous",
+      "previous-track",
+      "back",
+      "playlist",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Previous track"
+    }
+  },
+  "skip-forward-circle": {
+    "name": "SkipForwardCircle",
+    "displayName": "Skip forward circle",
+    "description": "Triangle pointing right against a vertical bar inside a circle.",
+    "tags": [
+      "skip",
+      "next",
+      "next-track",
+      "forward",
+      "playlist",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Next track"
+    }
+  },
+  "step-back-circle": {
+    "name": "StepBackCircle",
+    "displayName": "Step back circle",
+    "description": "Triangle pointing left followed by a vertical bar inside a circle.",
+    "tags": [
+      "step",
+      "previous-frame",
+      "frame",
+      "back",
+      "reverse",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Step back"
+    }
+  },
+  "step-forward-circle": {
+    "name": "StepForwardCircle",
+    "displayName": "Step forward circle",
+    "description": "Vertical bar followed by a triangle pointing right inside a circle.",
+    "tags": [
+      "step",
+      "next-frame",
+      "frame",
+      "forward",
+      "play-pause",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Step forward"
+    }
+  },
+  "record-off-circle": {
+    "name": "RecordOffCircle",
+    "displayName": "Record off circle",
+    "description": "Record dot crossed by a diagonal slash inside a circle.",
+    "tags": [
+      "record",
+      "recording-off",
+      "stop-recording",
+      "no-recording",
+      "disabled",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Recording off"
+    }
+  },
+  "record-ring-circle": {
+    "name": "RecordRingCircle",
+    "displayName": "Record ring circle",
+    "description": "Record dot with a sound arc on its right inside a circle.",
+    "tags": [
+      "record",
+      "recording",
+      "live",
+      "on-air",
+      "broadcast",
+      "sound",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Recording live"
+    }
+  },
+  "fast-forward-circle": {
+    "name": "FastForwardCircle",
+    "displayName": "Fast forward circle",
+    "description": "Two triangles pointing right inside a circle.",
+    "tags": [
+      "fast-forward",
+      "forward",
+      "seek",
+      "speed",
+      "skip",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Fast forward"
+    }
+  },
+  "rewind-circle": {
+    "name": "RewindCircle",
+    "displayName": "Rewind circle",
+    "description": "Two triangles pointing left inside a circle.",
+    "tags": [
+      "rewind",
+      "back",
+      "seek",
+      "reverse",
+      "skip",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Rewind"
+    }
+  },
+  "skip-forward-double-circle": {
+    "name": "SkipForwardDoubleCircle",
+    "displayName": "Skip forward double circle",
+    "description": "Two triangles pointing right against a vertical bar inside a circle.",
+    "tags": [
+      "skip",
+      "next",
+      "end",
+      "last",
+      "fast-forward",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Skip to end"
+    }
+  },
+  "skip-back-double-circle": {
+    "name": "SkipBackDoubleCircle",
+    "displayName": "Skip back double circle",
+    "description": "Vertical bar with two triangles pointing left against it inside a circle.",
+    "tags": [
+      "skip",
+      "previous",
+      "beginning",
+      "first",
+      "rewind",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Skip to start"
+    }
+  },
+  "eject-circle": {
+    "name": "EjectCircle",
+    "displayName": "Eject circle",
+    "description": "Triangle pointing up above a horizontal bar inside a circle.",
+    "tags": [
+      "eject",
+      "unmount",
+      "remove",
+      "disc",
+      "open",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Eject"
+    }
+  },
+  "eject-down-circle": {
+    "name": "EjectDownCircle",
+    "displayName": "Eject down circle",
+    "description": "Horizontal bar above a triangle pointing down inside a circle.",
+    "tags": [
+      "insert",
+      "load",
+      "mount",
+      "eject",
+      "down",
+      "player",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Insert"
+    }
+  },
+  "pause-circle": {
+    "name": "PauseCircle",
+    "displayName": "Pause circle",
+    "description": "Two vertical bars inside a circle.",
+    "tags": [
+      "pause",
+      "hold",
+      "break",
+      "player",
+      "video",
+      "audio",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Pause"
+    }
+  },
+  "stop-circle": {
+    "name": "StopCircle",
+    "displayName": "Stop circle",
+    "description": "Square stop symbol inside a circle.",
+    "tags": [
+      "stop",
+      "end",
+      "halt",
+      "player",
+      "video",
+      "audio",
+      "media",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Stop"
+    }
+  },
+  "play-square": {
+    "name": "PlaySquare",
+    "displayName": "Play square",
+    "description": "Triangle pointing right inside a rounded square.",
+    "tags": [
+      "play",
+      "start",
+      "resume",
+      "player",
+      "video",
+      "audio",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Play"
+    }
+  },
+  "skip-back-square": {
+    "name": "SkipBackSquare",
+    "displayName": "Skip back square",
+    "description": "Vertical bar with a triangle pointing left against it inside a rounded square.",
+    "tags": [
+      "skip",
+      "previous",
+      "previous-track",
+      "back",
+      "playlist",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Previous track"
+    }
+  },
+  "skip-forward-square": {
+    "name": "SkipForwardSquare",
+    "displayName": "Skip forward square",
+    "description": "Triangle pointing right against a vertical bar inside a rounded square.",
+    "tags": [
+      "skip",
+      "next",
+      "next-track",
+      "forward",
+      "playlist",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Next track"
+    }
+  },
+  "step-back-square": {
+    "name": "StepBackSquare",
+    "displayName": "Step back square",
+    "description": "Triangle pointing left followed by a vertical bar inside a rounded square.",
+    "tags": [
+      "step",
+      "previous-frame",
+      "frame",
+      "back",
+      "reverse",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Step back"
+    }
+  },
+  "step-forward-square": {
+    "name": "StepForwardSquare",
+    "displayName": "Step forward square",
+    "description": "Vertical bar followed by a triangle pointing right inside a rounded square.",
+    "tags": [
+      "step",
+      "next-frame",
+      "frame",
+      "forward",
+      "play-pause",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Step forward"
+    }
+  },
+  "record-square": {
+    "name": "RecordSquare",
+    "displayName": "Record square",
+    "description": "Round record dot inside a rounded square.",
+    "tags": [
+      "record",
+      "recording",
+      "rec",
+      "capture",
+      "video",
+      "audio",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Record"
+    }
+  },
+  "record-off-square": {
+    "name": "RecordOffSquare",
+    "displayName": "Record off square",
+    "description": "Record dot crossed by a diagonal slash inside a rounded square.",
+    "tags": [
+      "record",
+      "recording-off",
+      "stop-recording",
+      "no-recording",
+      "disabled",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Recording off"
+    }
+  },
+  "record-ring-square": {
+    "name": "RecordRingSquare",
+    "displayName": "Record ring square",
+    "description": "Record dot with a sound arc on its right inside a rounded square.",
+    "tags": [
+      "record",
+      "recording",
+      "live",
+      "on-air",
+      "broadcast",
+      "sound",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Recording live"
+    }
+  },
+  "fast-forward-square": {
+    "name": "FastForwardSquare",
+    "displayName": "Fast forward square",
+    "description": "Two triangles pointing right inside a rounded square.",
+    "tags": [
+      "fast-forward",
+      "forward",
+      "seek",
+      "speed",
+      "skip",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Fast forward"
+    }
+  },
+  "rewind-square": {
+    "name": "RewindSquare",
+    "displayName": "Rewind square",
+    "description": "Two triangles pointing left inside a rounded square.",
+    "tags": [
+      "rewind",
+      "back",
+      "seek",
+      "reverse",
+      "skip",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Rewind"
+    }
+  },
+  "skip-forward-double-square": {
+    "name": "SkipForwardDoubleSquare",
+    "displayName": "Skip forward double square",
+    "description": "Two triangles pointing right against a vertical bar inside a rounded square.",
+    "tags": [
+      "skip",
+      "next",
+      "end",
+      "last",
+      "fast-forward",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Skip to end"
+    }
+  },
+  "skip-back-double-square": {
+    "name": "SkipBackDoubleSquare",
+    "displayName": "Skip back double square",
+    "description": "Vertical bar with two triangles pointing left against it inside a rounded square.",
+    "tags": [
+      "skip",
+      "previous",
+      "beginning",
+      "first",
+      "rewind",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Skip to start"
+    }
+  },
+  "eject-square": {
+    "name": "EjectSquare",
+    "displayName": "Eject square",
+    "description": "Triangle pointing up above a horizontal bar inside a rounded square.",
+    "tags": [
+      "eject",
+      "unmount",
+      "remove",
+      "disc",
+      "open",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Eject"
+    }
+  },
+  "eject-down-square": {
+    "name": "EjectDownSquare",
+    "displayName": "Eject down square",
+    "description": "Horizontal bar above a triangle pointing down inside a rounded square.",
+    "tags": [
+      "insert",
+      "load",
+      "mount",
+      "eject",
+      "down",
+      "player",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Insert"
+    }
+  },
+  "pause-square": {
+    "name": "PauseSquare",
+    "displayName": "Pause square",
+    "description": "Two vertical bars inside a rounded square.",
+    "tags": [
+      "pause",
+      "hold",
+      "break",
+      "player",
+      "video",
+      "audio",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Pause"
+    }
+  },
+  "stop-square": {
+    "name": "StopSquare",
+    "displayName": "Stop square",
+    "description": "Square stop symbol inside a rounded square.",
+    "tags": [
+      "stop",
+      "end",
+      "halt",
+      "player",
+      "video",
+      "audio",
+      "media",
+      "square",
+      "button"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Stop"
+    }
+  },
+  "skip-back-thick": {
+    "name": "SkipBackThick",
+    "displayName": "Skip back thick",
+    "description": "Vertical bar with a triangle pointing left against it, with the bars drawn as thick outlined bars.",
+    "tags": [
+      "skip",
+      "previous",
+      "previous-track",
+      "back",
+      "playlist",
+      "player",
+      "media",
+      "bold",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Previous track"
+    }
+  },
+  "skip-forward-thick": {
+    "name": "SkipForwardThick",
+    "displayName": "Skip forward thick",
+    "description": "Triangle pointing right against a vertical bar, with the bars drawn as thick outlined bars.",
+    "tags": [
+      "skip",
+      "next",
+      "next-track",
+      "forward",
+      "playlist",
+      "player",
+      "media",
+      "bold",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Next track"
+    }
+  },
+  "step-back-thick": {
+    "name": "StepBackThick",
+    "displayName": "Step back thick",
+    "description": "Triangle pointing left followed by a vertical bar, with the bars drawn as thick outlined bars.",
+    "tags": [
+      "step",
+      "previous-frame",
+      "frame",
+      "back",
+      "reverse",
+      "player",
+      "media",
+      "bold",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Step back"
+    }
+  },
+  "step-forward-thick": {
+    "name": "StepForwardThick",
+    "displayName": "Step forward thick",
+    "description": "Vertical bar followed by a triangle pointing right, with the bars drawn as thick outlined bars.",
+    "tags": [
+      "step",
+      "next-frame",
+      "frame",
+      "forward",
+      "play-pause",
+      "player",
+      "media",
+      "bold",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Step forward"
+    }
+  },
+  "skip-forward-double-thick": {
+    "name": "SkipForwardDoubleThick",
+    "displayName": "Skip forward double thick",
+    "description": "Two triangles pointing right against a vertical bar, with the bars drawn as thick outlined bars.",
+    "tags": [
+      "skip",
+      "next",
+      "end",
+      "last",
+      "fast-forward",
+      "player",
+      "media",
+      "bold",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Skip to end"
+    }
+  },
+  "skip-back-double-thick": {
+    "name": "SkipBackDoubleThick",
+    "displayName": "Skip back double thick",
+    "description": "Vertical bar with two triangles pointing left against it, with the bars drawn as thick outlined bars.",
+    "tags": [
+      "skip",
+      "previous",
+      "beginning",
+      "first",
+      "rewind",
+      "player",
+      "media",
+      "bold",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Skip to start"
+    }
+  },
+  "eject-thick": {
+    "name": "EjectThick",
+    "displayName": "Eject thick",
+    "description": "Triangle pointing up above a horizontal bar, with the bars drawn as thick outlined bars.",
+    "tags": [
+      "eject",
+      "unmount",
+      "remove",
+      "disc",
+      "open",
+      "player",
+      "media",
+      "bold",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Eject"
+    }
+  },
+  "eject-down-thick": {
+    "name": "EjectDownThick",
+    "displayName": "Eject down thick",
+    "description": "Horizontal bar above a triangle pointing down, with the bars drawn as thick outlined bars.",
+    "tags": [
+      "insert",
+      "load",
+      "mount",
+      "eject",
+      "down",
+      "player",
+      "media",
+      "bold",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Insert"
+    }
+  },
+  "pause-thick": {
+    "name": "PauseThick",
+    "displayName": "Pause thick",
+    "description": "Two vertical bars, with the bars drawn as thick outlined bars.",
+    "tags": [
+      "pause",
+      "hold",
+      "break",
+      "player",
+      "video",
+      "audio",
+      "media",
+      "bold",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Pause"
+    }
+  },
+  "play": {
+    "name": "Play",
+    "displayName": "Play",
+    "description": "Triangle pointing right.",
+    "tags": [
+      "play",
+      "start",
+      "resume",
+      "player",
+      "video",
+      "audio",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Play"
+    }
+  },
+  "skip-back": {
+    "name": "SkipBack",
+    "displayName": "Skip back",
+    "description": "Vertical bar with a triangle pointing left against it.",
+    "tags": [
+      "skip",
+      "previous",
+      "previous-track",
+      "back",
+      "playlist",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Previous track"
+    }
+  },
+  "skip-forward": {
+    "name": "SkipForward",
+    "displayName": "Skip forward",
+    "description": "Triangle pointing right against a vertical bar.",
+    "tags": [
+      "skip",
+      "next",
+      "next-track",
+      "forward",
+      "playlist",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Next track"
+    }
+  },
+  "step-back": {
+    "name": "StepBack",
+    "displayName": "Step back",
+    "description": "Triangle pointing left followed by a vertical bar.",
+    "tags": [
+      "step",
+      "previous-frame",
+      "frame",
+      "back",
+      "reverse",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Step back"
+    }
+  },
+  "step-forward": {
+    "name": "StepForward",
+    "displayName": "Step forward",
+    "description": "Vertical bar followed by a triangle pointing right.",
+    "tags": [
+      "step",
+      "next-frame",
+      "frame",
+      "forward",
+      "play-pause",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Step forward"
+    }
+  },
+  "record-off": {
+    "name": "RecordOff",
+    "displayName": "Record off",
+    "description": "Record dot crossed by a diagonal slash.",
+    "tags": [
+      "record",
+      "recording-off",
+      "stop-recording",
+      "no-recording",
+      "disabled",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Recording off"
+    }
+  },
+  "record-ring": {
+    "name": "RecordRing",
+    "displayName": "Record ring",
+    "description": "Record dot with a sound arc on its right.",
+    "tags": [
+      "record",
+      "recording",
+      "live",
+      "on-air",
+      "broadcast",
+      "sound",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Recording live"
+    }
+  },
+  "fast-forward": {
+    "name": "FastForward",
+    "displayName": "Fast forward",
+    "description": "Two triangles pointing right.",
+    "tags": [
+      "fast-forward",
+      "forward",
+      "seek",
+      "speed",
+      "skip",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Fast forward"
+    }
+  },
+  "rewind": {
+    "name": "Rewind",
+    "displayName": "Rewind",
+    "description": "Two triangles pointing left.",
+    "tags": [
+      "rewind",
+      "back",
+      "seek",
+      "reverse",
+      "skip",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Rewind"
+    }
+  },
+  "skip-forward-double": {
+    "name": "SkipForwardDouble",
+    "displayName": "Skip forward double",
+    "description": "Two triangles pointing right against a vertical bar.",
+    "tags": [
+      "skip",
+      "next",
+      "end",
+      "last",
+      "fast-forward",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Skip to end"
+    }
+  },
+  "skip-back-double": {
+    "name": "SkipBackDouble",
+    "displayName": "Skip back double",
+    "description": "Vertical bar with two triangles pointing left against it.",
+    "tags": [
+      "skip",
+      "previous",
+      "beginning",
+      "first",
+      "rewind",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Skip to start"
+    }
+  },
+  "eject": {
+    "name": "Eject",
+    "displayName": "Eject",
+    "description": "Triangle pointing up above a horizontal bar.",
+    "tags": [
+      "eject",
+      "unmount",
+      "remove",
+      "disc",
+      "open",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Eject"
+    }
+  },
+  "eject-down": {
+    "name": "EjectDown",
+    "displayName": "Eject down",
+    "description": "Horizontal bar above a triangle pointing down.",
+    "tags": [
+      "insert",
+      "load",
+      "mount",
+      "eject",
+      "down",
+      "player",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Insert"
+    }
+  },
+  "pause": {
+    "name": "Pause",
+    "displayName": "Pause",
+    "description": "Two vertical bars.",
+    "tags": [
+      "pause",
+      "hold",
+      "break",
+      "player",
+      "video",
+      "audio",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Pause"
+    }
+  },
+  "stop": {
+    "name": "Stop",
+    "displayName": "Stop",
+    "description": "Square stop symbol.",
+    "tags": [
+      "stop",
+      "end",
+      "halt",
+      "player",
+      "video",
+      "audio",
+      "media",
+      "control"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Stop"
+    }
+  },
+  "arrow-repeat-tall": {
+    "name": "ArrowRepeatTall",
+    "displayName": "Arrow repeat tall",
+    "description": "Two arrows forming a tall loop with rounded corners, the top one pointing right and the bottom one left.",
+    "tags": [
+      "repeat",
+      "loop",
+      "replay",
+      "cycle",
+      "playlist",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Repeat"
+    }
+  },
+  "arrow-repeat-one-tall": {
+    "name": "ArrowRepeatOneTall",
+    "displayName": "Arrow repeat one tall",
+    "description": "Two arrows forming a tall loop with rounded corners, the top one pointing right and the bottom one left, with the digit 1 inside.",
+    "tags": [
+      "repeat-one",
+      "repeat",
+      "loop",
+      "single",
+      "track",
+      "playlist",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Repeat one"
+    }
+  },
+  "arrow-repeat-curved": {
+    "name": "ArrowRepeatCurved",
+    "displayName": "Arrow repeat curved",
+    "description": "Two arrows forming an oval loop with curved ends, the top one pointing right and the bottom one left.",
+    "tags": [
+      "repeat",
+      "loop",
+      "replay",
+      "cycle",
+      "playlist",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Repeat"
+    }
+  },
+  "arrow-repeat-one-curved": {
+    "name": "ArrowRepeatOneCurved",
+    "displayName": "Arrow repeat one curved",
+    "description": "Two arrows forming an oval loop with curved ends, the top one pointing right and the bottom one left, with the digit 1 inside.",
+    "tags": [
+      "repeat-one",
+      "repeat",
+      "loop",
+      "single",
+      "track",
+      "playlist",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Repeat one"
+    }
+  },
+  "arrow-clockwise-fifteen-double-chevron": {
+    "name": "ArrowClockwiseFifteenDoubleChevron",
+    "displayName": "Arrow clockwise fifteen double chevron",
+    "description": "Clockwise circular arrow with the number 15 inside and a double chevron arrowhead leaving the circle at the top.",
+    "tags": [
+      "skip-forward",
+      "forward-15",
+      "seconds",
+      "seek",
+      "jump",
+      "fast-forward",
+      "clockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Forward 15 seconds"
+    }
+  },
+  "arrow-counterclockwise-fifteen-double-chevron": {
+    "name": "ArrowCounterclockwiseFifteenDoubleChevron",
+    "displayName": "Arrow counterclockwise fifteen double chevron",
+    "description": "Counterclockwise circular arrow with the number 15 inside and a double chevron arrowhead leaving the circle at the top.",
+    "tags": [
+      "skip-back",
+      "back-15",
+      "seconds",
+      "seek",
+      "replay",
+      "rewind",
+      "counterclockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Back 15 seconds"
+    }
+  },
+  "arrow-clockwise-five-chevron": {
+    "name": "ArrowClockwiseFiveChevron",
+    "displayName": "Arrow clockwise five chevron",
+    "description": "Clockwise circular arrow with the number 5 inside and a chevron arrowhead leaving the circle at the top.",
+    "tags": [
+      "skip-forward",
+      "forward-5",
+      "seconds",
+      "seek",
+      "jump",
+      "fast-forward",
+      "clockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Forward 5 seconds"
+    }
+  },
+  "arrow-counterclockwise-five-chevron": {
+    "name": "ArrowCounterclockwiseFiveChevron",
+    "displayName": "Arrow counterclockwise five chevron",
+    "description": "Counterclockwise circular arrow with the number 5 inside and a chevron arrowhead leaving the circle at the top.",
+    "tags": [
+      "skip-back",
+      "back-5",
+      "seconds",
+      "seek",
+      "replay",
+      "rewind",
+      "counterclockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Back 5 seconds"
+    }
+  },
+  "arrow-clockwise-thirty-chevron": {
+    "name": "ArrowClockwiseThirtyChevron",
+    "displayName": "Arrow clockwise thirty chevron",
+    "description": "Clockwise circular arrow with the number 30 inside and a chevron arrowhead leaving the circle at the top.",
+    "tags": [
+      "skip-forward",
+      "forward-30",
+      "seconds",
+      "seek",
+      "jump",
+      "fast-forward",
+      "clockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Forward 30 seconds"
+    }
+  },
+  "arrow-counterclockwise-thirty-chevron": {
+    "name": "ArrowCounterclockwiseThirtyChevron",
+    "displayName": "Arrow counterclockwise thirty chevron",
+    "description": "Counterclockwise circular arrow with the number 30 inside and a chevron arrowhead leaving the circle at the top.",
+    "tags": [
+      "skip-back",
+      "back-30",
+      "seconds",
+      "seek",
+      "replay",
+      "rewind",
+      "counterclockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Back 30 seconds"
+    }
+  },
+  "arrow-clockwise-ten-chevron": {
+    "name": "ArrowClockwiseTenChevron",
+    "displayName": "Arrow clockwise ten chevron",
+    "description": "Clockwise circular arrow with the number 10 inside and a chevron arrowhead leaving the circle at the top.",
+    "tags": [
+      "skip-forward",
+      "forward-10",
+      "seconds",
+      "seek",
+      "jump",
+      "fast-forward",
+      "clockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Forward 10 seconds"
+    }
+  },
+  "arrow-counterclockwise-ten-chevron": {
+    "name": "ArrowCounterclockwiseTenChevron",
+    "displayName": "Arrow counterclockwise ten chevron",
+    "description": "Counterclockwise circular arrow with the number 10 inside and a chevron arrowhead leaving the circle at the top.",
+    "tags": [
+      "skip-back",
+      "back-10",
+      "seconds",
+      "seek",
+      "replay",
+      "rewind",
+      "counterclockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Back 10 seconds"
+    }
+  },
+  "signal-bars": {
+    "name": "SignalBars",
+    "displayName": "Signal bars",
+    "description": "Five vertical bars rising in height from left to right.",
+    "tags": [
+      "volume",
+      "level",
+      "signal",
+      "bars",
+      "strength",
+      "equalizer",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Volume level"
+    }
+  },
+  "signal-bars-square": {
+    "name": "SignalBarsSquare",
+    "displayName": "Signal bars square",
+    "description": "Four vertical bars rising in height inside a rounded rectangle.",
+    "tags": [
+      "volume",
+      "level",
+      "signal",
+      "bars",
+      "meter",
+      "equalizer",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Volume level"
+    }
+  },
+  "arrow-shuffle": {
+    "name": "ArrowShuffle",
+    "displayName": "Arrow shuffle",
+    "description": "Two arrows crossing each other, both pointing right.",
+    "tags": [
+      "shuffle",
+      "random",
+      "mix",
+      "crossing",
+      "playlist",
+      "arrows",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Shuffle"
+    }
+  },
+  "arrow-counterclockwise-chevron": {
+    "name": "ArrowCounterclockwiseChevron",
+    "displayName": "Arrow counterclockwise chevron",
+    "description": "Counterclockwise circular arrow with a chevron arrowhead leaving the circle at the top.",
+    "tags": [
+      "replay",
+      "restart",
+      "undo",
+      "rotate-left",
+      "again",
+      "counterclockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Replay"
+    }
+  },
+  "arrow-clockwise-five": {
+    "name": "ArrowClockwiseFive",
+    "displayName": "Arrow clockwise five",
+    "description": "Clockwise circular arrow with the number 5 inside and a corner arrowhead at the top right.",
+    "tags": [
+      "skip-forward",
+      "forward-5",
+      "seconds",
+      "seek",
+      "jump",
+      "fast-forward",
+      "clockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Forward 5 seconds"
+    }
+  },
+  "arrow-counterclockwise-five": {
+    "name": "ArrowCounterclockwiseFive",
+    "displayName": "Arrow counterclockwise five",
+    "description": "Counterclockwise circular arrow with the number 5 inside and a corner arrowhead at the top left.",
+    "tags": [
+      "skip-back",
+      "back-5",
+      "seconds",
+      "seek",
+      "replay",
+      "rewind",
+      "counterclockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Back 5 seconds"
+    }
+  },
+  "arrow-clockwise-thirty": {
+    "name": "ArrowClockwiseThirty",
+    "displayName": "Arrow clockwise thirty",
+    "description": "Clockwise circular arrow with the number 30 inside and a corner arrowhead at the top right.",
+    "tags": [
+      "skip-forward",
+      "forward-30",
+      "seconds",
+      "seek",
+      "jump",
+      "fast-forward",
+      "clockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Forward 30 seconds"
+    }
+  },
+  "arrow-counterclockwise-thirty": {
+    "name": "ArrowCounterclockwiseThirty",
+    "displayName": "Arrow counterclockwise thirty",
+    "description": "Counterclockwise circular arrow with the number 30 inside and a corner arrowhead at the top left.",
+    "tags": [
+      "skip-back",
+      "back-30",
+      "seconds",
+      "seek",
+      "replay",
+      "rewind",
+      "counterclockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Back 30 seconds"
+    }
+  },
+  "arrow-clockwise-ten": {
+    "name": "ArrowClockwiseTen",
+    "displayName": "Arrow clockwise ten",
+    "description": "Clockwise circular arrow with the number 10 inside and a corner arrowhead at the top right.",
+    "tags": [
+      "skip-forward",
+      "forward-10",
+      "seconds",
+      "seek",
+      "jump",
+      "fast-forward",
+      "clockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Forward 10 seconds"
+    }
+  },
+  "arrow-counterclockwise-ten": {
+    "name": "ArrowCounterclockwiseTen",
+    "displayName": "Arrow counterclockwise ten",
+    "description": "Counterclockwise circular arrow with the number 10 inside and a corner arrowhead at the top left.",
+    "tags": [
+      "skip-back",
+      "back-10",
+      "seconds",
+      "seek",
+      "replay",
+      "rewind",
+      "counterclockwise",
+      "media"
+    ],
+    "categories": [
+      "media",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Back 10 seconds"
+    }
+  },
+  "microphone": {
+    "name": "Microphone",
+    "displayName": "Microphone",
+    "description": "Microphone with a rounded capsule, holder arc, stem and foot.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "speak",
+      "podcast"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone"
+    }
+  },
+  "microphone-bare": {
+    "name": "MicrophoneBare",
+    "displayName": "Microphone bare",
+    "description": "Microphone with a rounded capsule, holder arc and stem, without a foot.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "speak",
+      "podcast"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone"
+    }
+  },
+  "microphone-grille": {
+    "name": "MicrophoneGrille",
+    "displayName": "Microphone grille",
+    "description": "Studio microphone with grille lines on the capsule, stem and foot.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "studio",
+      "podcast",
+      "speak"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone"
+    }
+  },
+  "microphone-boxy": {
+    "name": "MicrophoneBoxy",
+    "displayName": "Microphone boxy",
+    "description": "Microphone with a squarer capsule, wide holder arc, stem and foot.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "speak",
+      "podcast"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone"
+    }
+  },
+  "microphone-off": {
+    "name": "MicrophoneOff",
+    "displayName": "Microphone off",
+    "description": "Microphone with a rounded capsule, holder arc, stem and foot, crossed by a diagonal slash.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "mute",
+      "muted",
+      "off"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone off"
+    }
+  },
+  "microphone-off-bare": {
+    "name": "MicrophoneOffBare",
+    "displayName": "Microphone off bare",
+    "description": "Microphone with a rounded capsule, holder arc and stem, without a foot, crossed by a diagonal slash.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "mute",
+      "muted",
+      "off"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone off"
+    }
+  },
+  "microphone-off-grille": {
+    "name": "MicrophoneOffGrille",
+    "displayName": "Microphone off grille",
+    "description": "Studio microphone with grille lines on the capsule, stem and foot, crossed by a diagonal slash.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "mute",
+      "muted",
+      "off",
+      "studio",
+      "podcast"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone off"
+    }
+  },
+  "microphone-off-boxy": {
+    "name": "MicrophoneOffBoxy",
+    "displayName": "Microphone off boxy",
+    "description": "Microphone with a squarer capsule, wide holder arc, stem and foot, crossed by a diagonal slash.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "mute",
+      "muted",
+      "off"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone off"
+    }
+  },
+  "microphone-play-circle": {
+    "name": "MicrophonePlayCircle",
+    "displayName": "Microphone play circle",
+    "description": "Microphone with a rounded capsule, holder arc, stem and foot, with a play triangle in a circle at the lower right.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "play",
+      "playback",
+      "listen"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Play recording"
+    }
+  },
+  "microphone-play-circle-bare": {
+    "name": "MicrophonePlayCircleBare",
+    "displayName": "Microphone play circle bare",
+    "description": "Microphone with a rounded capsule, holder arc and stem, without a foot, with a play triangle in a circle at the lower right.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "play",
+      "playback",
+      "listen"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Play recording"
+    }
+  },
+  "microphone-play-circle-grille": {
+    "name": "MicrophonePlayCircleGrille",
+    "displayName": "Microphone play circle grille",
+    "description": "Studio microphone with grille lines on the capsule, stem and foot, with a play triangle in a circle at the lower right.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "play",
+      "playback",
+      "listen",
+      "studio",
+      "podcast"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Play recording"
+    }
+  },
+  "microphone-play-circle-boxy": {
+    "name": "MicrophonePlayCircleBoxy",
+    "displayName": "Microphone play circle boxy",
+    "description": "Microphone with a squarer capsule, wide holder arc, stem and foot, with a play triangle in a circle at the lower right.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "play",
+      "playback",
+      "listen"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Play recording"
+    }
+  },
+  "microphone-ban": {
+    "name": "MicrophoneBan",
+    "displayName": "Microphone ban",
+    "description": "Microphone with a rounded capsule, holder arc, stem and foot, with a ban sign at the lower right.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "blocked",
+      "not-allowed",
+      "disabled"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone blocked"
+    }
+  },
+  "microphone-ban-bare": {
+    "name": "MicrophoneBanBare",
+    "displayName": "Microphone ban bare",
+    "description": "Microphone with a rounded capsule, holder arc and stem, without a foot, with a ban sign at the lower right.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "blocked",
+      "not-allowed",
+      "disabled"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone blocked"
+    }
+  },
+  "microphone-ban-grille": {
+    "name": "MicrophoneBanGrille",
+    "displayName": "Microphone ban grille",
+    "description": "Studio microphone with grille lines on the capsule, stem and foot, with a ban sign at the lower right.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "blocked",
+      "not-allowed",
+      "disabled",
+      "studio",
+      "podcast"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone blocked"
+    }
+  },
+  "microphone-ban-boxy": {
+    "name": "MicrophoneBanBoxy",
+    "displayName": "Microphone ban boxy",
+    "description": "Microphone with a squarer capsule, wide holder arc, stem and foot, with a ban sign at the lower right.",
+    "tags": [
+      "microphone",
+      "mic",
+      "audio",
+      "voice",
+      "record",
+      "blocked",
+      "not-allowed",
+      "disabled"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Microphone blocked"
+    }
+  },
+  "volume": {
+    "name": "Volume",
+    "displayName": "Volume",
+    "description": "Speaker cone without sound waves.",
+    "tags": [
+      "volume",
+      "speaker",
+      "sound",
+      "audio",
+      "quiet",
+      "silent"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Volume"
+    }
+  },
+  "volume-off": {
+    "name": "VolumeOff",
+    "displayName": "Volume off",
+    "description": "Speaker cone with a gap, crossed by a diagonal slash.",
+    "tags": [
+      "mute",
+      "muted",
+      "sound-off",
+      "silent",
+      "volume",
+      "speaker",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Sound off"
+    }
+  },
+  "volume-x": {
+    "name": "VolumeX",
+    "displayName": "Volume X",
+    "description": "Speaker cone with an X on its right.",
+    "tags": [
+      "mute",
+      "muted",
+      "no-sound",
+      "silent",
+      "volume",
+      "speaker",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Mute"
+    }
+  },
+  "volume-ban": {
+    "name": "VolumeBan",
+    "displayName": "Volume ban",
+    "description": "Speaker cone with a ban sign over its right side.",
+    "tags": [
+      "blocked",
+      "not-allowed",
+      "mute",
+      "no-sound",
+      "volume",
+      "speaker",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Sound blocked"
+    }
+  },
+  "volume-high": {
+    "name": "VolumeHigh",
+    "displayName": "Volume high",
+    "description": "Speaker cone with three sound arcs.",
+    "tags": [
+      "volume",
+      "loud",
+      "high",
+      "max",
+      "sound",
+      "speaker",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Volume high"
+    }
+  },
+  "volume-medium": {
+    "name": "VolumeMedium",
+    "displayName": "Volume medium",
+    "description": "Speaker cone with two sound arcs.",
+    "tags": [
+      "volume",
+      "medium",
+      "sound",
+      "speaker",
+      "audio",
+      "level"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Volume medium"
+    }
+  },
+  "volume-low": {
+    "name": "VolumeLow",
+    "displayName": "Volume low",
+    "description": "Speaker cone with one sound arc.",
+    "tags": [
+      "volume",
+      "low",
+      "quiet",
+      "soft",
+      "sound",
+      "speaker",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Volume low"
+    }
+  },
+  "volume-high-off": {
+    "name": "VolumeHighOff",
+    "displayName": "Volume high off",
+    "description": "Speaker cone with three sound arcs, crossed by a diagonal slash.",
+    "tags": [
+      "mute",
+      "muted",
+      "sound-off",
+      "silent",
+      "volume",
+      "speaker",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Sound off"
+    }
+  },
+  "volume-high-wide": {
+    "name": "VolumeHighWide",
+    "displayName": "Volume high wide",
+    "description": "Speaker cone with three sound arcs, a small inner arc and wider outer arcs.",
+    "tags": [
+      "volume",
+      "loud",
+      "high",
+      "max",
+      "sound",
+      "speaker",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Volume high"
+    }
+  },
+  "volume-medium-wide": {
+    "name": "VolumeMediumWide",
+    "displayName": "Volume medium wide",
+    "description": "Speaker cone with two sound arcs, a small inner arc and wider outer arcs.",
+    "tags": [
+      "volume",
+      "medium",
+      "sound",
+      "speaker",
+      "audio",
+      "level"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Volume medium"
+    }
+  },
+  "volume-low-wide": {
+    "name": "VolumeLowWide",
+    "displayName": "Volume low wide",
+    "description": "Speaker cone with one sound arc, a small inner arc and wider outer arcs.",
+    "tags": [
+      "volume",
+      "low",
+      "quiet",
+      "soft",
+      "sound",
+      "speaker",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Volume low"
+    }
+  },
+  "volume-high-off-wide": {
+    "name": "VolumeHighOffWide",
+    "displayName": "Volume high off wide",
+    "description": "Speaker cone with three sound arcs, a small inner arc and wider outer arcs, crossed by a diagonal slash.",
+    "tags": [
+      "mute",
+      "muted",
+      "sound-off",
+      "silent",
+      "volume",
+      "speaker",
+      "audio"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Sound off"
+    }
+  },
+  "volume-translate": {
+    "name": "VolumeTranslate",
+    "displayName": "Volume translate",
+    "description": "Speaker cone next to the character 文, a translation symbol.",
+    "tags": [
+      "translate",
+      "language",
+      "audio-translation",
+      "dubbing",
+      "speech",
+      "volume",
+      "speaker"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Audio translation"
+    }
+  }
+}

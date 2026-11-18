@@ -1,0 +1,36 @@
+{
+  "name": "LinkDotsCompact",
+  "displayName": "Link dots compact",
+  "description": "Small diagonal capsule split in two halves around a center bar, with two dots at the top left.",
+  "tags": [
+    "link",
+    "chain",
+    "url",
+    "hyperlink",
+    "dots",
+    "more",
+    "options",
+    "menu"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Link options"
+  },
+  "filename": "link-dots-compact",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

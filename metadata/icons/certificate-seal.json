@@ -1,0 +1,36 @@
+{
+  "name": "CertificateSeal",
+  "displayName": "Certificate seal",
+  "description": "Document with text lines and a jagged seal with ribbon at the right.",
+  "tags": [
+    "certificate",
+    "diploma",
+    "award",
+    "document",
+    "seal",
+    "rosette",
+    "achievement"
+  ],
+  "categories": [
+    "education",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Certificate"
+  },
+  "filename": "certificate-seal",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

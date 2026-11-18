@@ -1,0 +1,39 @@
+{
+  "name": "ChatStackSun",
+  "displayName": "Chat stack sun",
+  "description": "Two overlapping oval speech bubbles facing each other, with a sun with rays inside.",
+  "tags": [
+    "chat",
+    "message",
+    "sun",
+    "brightness",
+    "day",
+    "light-mode",
+    "theme",
+    "conversation",
+    "chat-stack",
+    "oval",
+    "comment"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Chat theme"
+  },
+  "filename": "chat-stack-sun",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

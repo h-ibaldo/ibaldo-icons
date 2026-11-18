@@ -1,0 +1,38 @@
+{
+  "name": "ChatStackPlusCircleFlipped",
+  "displayName": "Chat stack plus circle flipped",
+  "description": "Speech bubble with its tail pointing up at the top left, over a second bubble with its tail at the bottom right, with a plus in a small circle at the corner.",
+  "tags": [
+    "chat",
+    "message",
+    "plus",
+    "add",
+    "new-message",
+    "compose",
+    "conversation",
+    "chat-stack",
+    "flipped",
+    "comment"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "New message"
+  },
+  "filename": "chat-stack-plus-circle-flipped",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "GaugeXThreeQuarter",
+  "displayName": "Gauge x three quarter",
+  "description": "Three-quarter dial with tick marks and a needle, with an X at the bottom right.",
+  "tags": [
+    "gauge",
+    "speedometer",
+    "dashboard",
+    "meter",
+    "performance",
+    "speed",
+    "x",
+    "close",
+    "remove",
+    "cancel"
+  ],
+  "categories": [
+    "interface",
+    "transportation"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Gauge"
+  },
+  "filename": "gauge-x-three-quarter",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

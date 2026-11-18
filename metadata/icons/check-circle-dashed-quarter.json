@@ -1,0 +1,36 @@
+{
+  "name": "CheckCircleDashedQuarter",
+  "displayName": "Check circle dashed quarter",
+  "description": "Check mark inside a circle with dashes on the upper left and a mostly solid outline.",
+  "tags": [
+    "check",
+    "circle",
+    "dashed",
+    "task",
+    "progress",
+    "almost-done",
+    "loading",
+    "done"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Task progress"
+  },
+  "filename": "check-circle-dashed-quarter",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

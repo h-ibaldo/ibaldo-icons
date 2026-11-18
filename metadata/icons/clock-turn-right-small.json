@@ -1,0 +1,37 @@
+{
+  "name": "ClockTurnRightSmall",
+  "displayName": "Clock turn right small",
+  "description": "Small clock whose outline continues into a straight arrow pointing right across the top.",
+  "tags": [
+    "clock",
+    "time",
+    "hour",
+    "arrow",
+    "right",
+    "redo",
+    "forward",
+    "later",
+    "small"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Time forward"
+  },
+  "filename": "clock-turn-right-small",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

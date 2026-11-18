@@ -1,0 +1,45 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+
+const ArrowConvergeSix = forwardRef(function ArrowConvergeSix(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M14 5L12 7L10 5","key":"0"}),
+    createElement('path', {"d":"M12 2L12 7","key":"1"}),
+    createElement('path', {"d":"M10 19L12 17L14 19","key":"2"}),
+    createElement('path', {"d":"M12 22L12 17","key":"3"}),
+    createElement('path', {"d":"M6.938 6.77L7.668 9.5L4.938 10.23","key":"4"}),
+    createElement('path', {"d":"M3.34 7L7.668 9.5","key":"5"}),
+    createElement('path', {"d":"M17.063 17.23L16.332 14.5L19.063 13.77","key":"6"}),
+    createElement('path', {"d":"M20.66 17L16.332 14.5","key":"7"}),
+    createElement('path', {"d":"M4.938 13.77L7.668 14.5L6.938 17.23","key":"8"}),
+    createElement('path', {"d":"M3.34 17L7.668 14.5","key":"9"}),
+    createElement('path', {"d":"M19.063 10.23L16.332 9.5L17.063 6.77","key":"10"}),
+    createElement('path', {"d":"M20.66 7L16.332 9.5","key":"11"}),
+    createElement('path', {"d":"M12 11C11.445 11 11 11.449 11 12C11 12.551 11.445 13 12 13C12.555 13 13 12.551 13 12C13 11.449 12.555 11 12 11Z","key":"12"})
+  );
+});
+
+ArrowConvergeSix.displayName = 'ArrowConvergeSix';
+
+module.exports = ArrowConvergeSix;
+module.exports.ArrowConvergeSix = ArrowConvergeSix;
+module.exports.default = ArrowConvergeSix;

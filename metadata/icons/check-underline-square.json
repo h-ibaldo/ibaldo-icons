@@ -1,0 +1,35 @@
+{
+  "name": "CheckUnderlineSquare",
+  "displayName": "Check underline square",
+  "description": "Check mark above a short line inside a rounded square.",
+  "tags": [
+    "square",
+    "check",
+    "done",
+    "complete",
+    "approve",
+    "accept",
+    "task"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Done"
+  },
+  "filename": "check-underline-square",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

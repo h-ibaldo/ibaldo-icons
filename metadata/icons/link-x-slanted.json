@@ -1,0 +1,37 @@
+{
+  "name": "LinkXSlanted",
+  "displayName": "Link x slanted",
+  "description": "Diagonal chain of two links with inner hooks, with an X at the bottom right.",
+  "tags": [
+    "link",
+    "chain",
+    "url",
+    "hyperlink",
+    "x",
+    "remove",
+    "unlink",
+    "delete",
+    "close"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Remove link"
+  },
+  "filename": "link-x-slanted",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

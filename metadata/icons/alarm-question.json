@@ -1,0 +1,36 @@
+{
+  "name": "AlarmQuestion",
+  "displayName": "Alarm question",
+  "description": "Alarm clock with two round bells and feet, with a question mark on the face.",
+  "tags": [
+    "alarm",
+    "alarm-clock",
+    "clock",
+    "time",
+    "wake-up",
+    "question",
+    "help",
+    "unknown"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Alarm help"
+  },
+  "filename": "alarm-question",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

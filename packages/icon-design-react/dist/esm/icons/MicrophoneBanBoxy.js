@@ -1,0 +1,35 @@
+import { createElement, forwardRef } from 'react';
+
+const MicrophoneBanBoxy = forwardRef(function MicrophoneBanBoxy(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M6 22L14 22","key":"0"}),
+    createElement('path', {"d":"M10 22L10 18","key":"1"}),
+    createElement('path', {"d":"M22 13C22 10.238 19.762 8 17 8C14.238 8 12 10.238 12 13C12 15.762 14.238 18 17 18C19.762 18 22 15.762 22 13Z","key":"2"}),
+    createElement('path', {"d":"M14 5L14 4C14 2.895 13.105 2 12 2L8 2C6.895 2 6 2.895 6 4L6 12C6 13.105 6.895 14 8 14","key":"3"}),
+    createElement('path', {"d":"M2 11L2 12C2 15.313 4.688 18 8 18L10 18","key":"4"}),
+    createElement('path', {"d":"M13.465 16.535L20.535 9.465","key":"5"})
+  );
+});
+
+MicrophoneBanBoxy.displayName = 'MicrophoneBanBoxy';
+
+export default MicrophoneBanBoxy;
+export { MicrophoneBanBoxy };

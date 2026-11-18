@@ -1,0 +1,37 @@
+{
+  "name": "CommandSquareStack",
+  "displayName": "Command square stack",
+  "description": "Command key symbol in a rounded square with a second square stacked behind it.",
+  "tags": [
+    "square",
+    "stack",
+    "keys",
+    "command",
+    "cmd",
+    "keyboard",
+    "shortcut",
+    "mac",
+    "key"
+  ],
+  "categories": [
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Command key"
+  },
+  "filename": "command-square-stack",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

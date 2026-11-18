@@ -1,0 +1,38 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+
+const CookieBumpy = forwardRef(function CookieBumpy(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M21 13C18.238 13 16 10.762 16 8C13.238 8 11 5.762 11 3C11 2.672 11.035 2.355 11.098 2.047C5.996 2.504 2 6.781 2 12C2 17.523 6.477 22 12 22C17.219 22 21.496 18.004 21.953 12.902C21.645 12.965 21.328 13 21 13Z","key":"0"}),
+    createElement('path', {"d":"M8 9C8 9.551 7.555 10 7 10C6.445 10 6 9.551 6 9C6 8.449 6.445 8 7 8C7.555 8 8 8.449 8 9Z","key":"1"}),
+    createElement('path', {"d":"M12 17C12 17.551 11.555 18 11 18C10.445 18 10 17.551 10 17C10 16.449 10.445 16 11 16C11.555 16 12 16.449 12 17Z","key":"2"}),
+    createElement('path', {"d":"M11 12L11 12","key":"3"}),
+    createElement('path', {"d":"M7 14L7 14","key":"4"}),
+    createElement('path', {"d":"M16 16L16 16","key":"5"})
+  );
+});
+
+CookieBumpy.displayName = 'CookieBumpy';
+
+module.exports = CookieBumpy;
+module.exports.CookieBumpy = CookieBumpy;
+module.exports.default = CookieBumpy;

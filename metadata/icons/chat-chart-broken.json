@@ -1,0 +1,40 @@
+{
+  "name": "ChatChartBroken",
+  "displayName": "Chat chart broken",
+  "description": "Rounded-rectangle speech bubble with a detached slanted stroke as its tail, with three rising bars inside.",
+  "tags": [
+    "chat",
+    "message",
+    "chart",
+    "bars",
+    "stats",
+    "poll",
+    "signal",
+    "speech-bubble",
+    "square",
+    "broken",
+    "comment"
+  ],
+  "categories": [
+    "communication",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Chat statistics"
+  },
+  "filename": "chat-chart-broken",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

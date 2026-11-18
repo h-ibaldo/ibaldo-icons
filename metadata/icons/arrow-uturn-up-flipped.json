@@ -1,0 +1,35 @@
+{
+  "name": "ArrowUturnUpFlipped",
+  "displayName": "Arrow uturn up flipped",
+  "description": "U-turn arrow, head pointing up on the left, curving at the bottom with a short tail on the right.",
+  "tags": [
+    "arrow",
+    "u-turn",
+    "uturn",
+    "up",
+    "turn",
+    "back",
+    "return"
+  ],
+  "categories": [
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "U-turn up"
+  },
+  "filename": "arrow-uturn-up-flipped",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

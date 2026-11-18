@@ -1,0 +1,40 @@
+{
+  "name": "ChatStackOffTooltip",
+  "displayName": "Chat stack off tooltip",
+  "description": "Speech bubble with a centered V tail and the outline of a second bubble behind it, crossed by a diagonal slash.",
+  "tags": [
+    "chat",
+    "message",
+    "off",
+    "disabled",
+    "muted",
+    "no-chat",
+    "slash",
+    "conversation",
+    "chat-stack",
+    "square",
+    "tooltip",
+    "comment"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Chat off"
+  },
+  "filename": "chat-stack-off-tooltip",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

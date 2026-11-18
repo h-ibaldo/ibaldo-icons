@@ -56,8 +56,14 @@ function innerSvg(file) {
 // instead of the filename, to review names against the drawings.
 const NAMES = process.argv.includes('--names');
 
+// --batch <file.json>: label each cell with the name a naming batch gives it
+// (batch keyed by the SVG basename), to review names before they are applied.
+const BATCH_ARG = process.argv.indexOf('--batch');
+const BATCH = BATCH_ARG !== -1 ? JSON.parse(fs.readFileSync(process.argv[BATCH_ARG + 1], 'utf8')) : null;
+
 function labelFor(file) {
   const base = path.basename(file, '.svg');
+  if (BATCH) return BATCH[base] ? BATCH[base].name + (BATCH[base].hold ? ' (hold)' : '') : `? ${base}`;
   if (!NAMES) return base;
   const meta = path.join('metadata', 'icons', `${base}.json`);
   return fs.existsSync(meta) ? JSON.parse(fs.readFileSync(meta, 'utf8')).name : `? ${base}`;
@@ -79,7 +85,7 @@ async function renderSheet(files, outPath) {
       return `
   <rect x="${x + 0.5}" y="${y + 0.5}" width="${CELL - 1}" height="${CELL - 1}" fill="#fff" stroke="#ddd"/>
   <svg x="${x + (CELL - ICON) / 2}" y="${y + (LARGE ? 20 : 24)}" width="${ICON}" height="${ICON}" viewBox="0 0 24 24" fill="none" stroke-width="${STROKE}">${innerSvg(file)}</svg>
-  <text x="${x + CELL / 2}" y="${y + CELL - (LARGE ? 30 : 28)}" font-family="Helvetica, Arial, sans-serif" font-size="${LARGE ? 18 : 12}" text-anchor="middle" fill="#333">${label}</text>`;
+  <text x="${x + CELL / 2}" y="${y + CELL - (LARGE ? 30 : 28)}" font-family="Helvetica, Arial, sans-serif" font-size="${Math.min(LARGE ? 18 : 12, Math.floor(((CELL - 8) / label.length) * 1.8))}" text-anchor="middle" fill="#333">${label}</text>`;
     })
     .join('');
   const sheet = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"><rect width="100%" height="100%" fill="#fff"/>${cells}</svg>`;
@@ -87,7 +93,7 @@ async function renderSheet(files, outPath) {
 }
 
 async function main() {
-  const [outDir, ...inputs] = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+  const [outDir, ...inputs] = process.argv.slice(2).filter((a, i, all) => !a.startsWith('--') && all[i - 1] !== '--batch');
   if (!outDir || inputs.length === 0) {
     console.log('Usage: node scripts/contact-sheet.js <out-dir> <svg-file-or-prefix>...');
     process.exit(1);

@@ -1,0 +1,36 @@
+{
+  "name": "ChevronDoubleDownLeft",
+  "displayName": "Chevron double down left",
+  "description": "Two corner chevrons pointing down and to the left.",
+  "tags": [
+    "chevron",
+    "double",
+    "downleft",
+    "fast",
+    "skip",
+    "scroll",
+    "navigation"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Double chevron down left"
+  },
+  "filename": "chevron-double-down-left",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

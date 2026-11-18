@@ -1,0 +1,39 @@
+{
+  "name": "CookieCheck",
+  "displayName": "Cookie check",
+  "description": "Bitten cookie with a check mark in the bite.",
+  "tags": [
+    "accept",
+    "allow",
+    "cookie",
+    "cookies",
+    "consent",
+    "privacy",
+    "tracking",
+    "browser",
+    "check",
+    "done",
+    "approved"
+  ],
+  "categories": [
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Cookies"
+  },
+  "filename": "cookie-check",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

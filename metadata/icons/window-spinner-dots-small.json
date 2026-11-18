@@ -1,0 +1,40 @@
+{
+  "name": "WindowSpinnerDotsSmall",
+  "displayName": "Window spinner dots small",
+  "description": "Window with three dots in the title bar and a small ring of dots in the middle.",
+  "tags": [
+    "window",
+    "app",
+    "interface",
+    "dialog",
+    "loading",
+    "spinner",
+    "progress",
+    "wait",
+    "more",
+    "pending",
+    "dots",
+    "small"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Loading window"
+  },
+  "filename": "window-spinner-dots-small",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}
