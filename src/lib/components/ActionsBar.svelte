@@ -31,8 +31,12 @@
         if (searchInput) searchInput.focus();
     }
 
+    // Closing keeps the query; it stays visible as a pill under the bar
     function closeSearch() {
         searchOpen = false;
+    }
+
+    function clearSearch() {
         search = '';
     }
 
@@ -281,6 +285,17 @@
         padding: 0 0.75rem;
     }
     .search-input::placeholder { color: rgba(255, 255, 255, 0.6); }
+    /* No focus ring or border: the input is part of the blue bar */
+    .search-input,
+    .search-input:focus,
+    .search-input:focus-visible {
+        border: 0;
+        border-radius: 0;
+        outline: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        appearance: none;
+    }
     .search-bar .bar-button { opacity: 0.85; }
     .shortcut {
         color: rgba(255, 255, 255, 0.6);
@@ -387,6 +402,8 @@
         padding: 0;
     }
     .pill button:hover { color: white; }
+    .pill-search { background: #0900FF; }
+    .pill .pill-label { width: auto; height: auto; color: white; font-size: 12px; }
     .pills .text-button { color: rgb(71 85 105); }
     .pills .text-button:hover { color: rgb(15 23 42); }
 
@@ -694,8 +711,19 @@
         </div>
     {/if}
 
-    {#if selectedCategories.length}
+    {#if selectedCategories.length || (search && !searchOpen)}
         <div class="pills" aria-label="Active filters" transition:fade={{ duration: 150 }}>
+            {#if search && !searchOpen}
+                <span class="pill pill-search" transition:fade={{ duration: 150 }}>
+                    <button type="button" class="pill-label" onclick={openSearch} aria-label="Edit search">“{search}”</button>
+                    <button type="button" onclick={clearSearch} aria-label="Clear search">
+                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
+                            <line x1="2" y1="22" x2="22" y2="2"></line>
+                            <line x1="22" y1="22" x2="2" y2="2"></line>
+                        </svg>
+                    </button>
+                </span>
+            {/if}
             {#each selectedCategories as cat (cat)}
                 <span class="pill" transition:fade={{ duration: 150 }}>
                     {label(cat)}
