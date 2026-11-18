@@ -34,6 +34,9 @@ Lote de nomes: `metadata/naming/2026-11-17-import-messaging-bubbles.json` (chave
 - Quase-duplicados com `2`: `ChatStackLetterTTooltip2` e `ChatStackLetterTSlant2` (o balão de trás virou uma linha).
 - `QuestionAnswer` e `QuestionAnswerOverlap` da biblioteca parecem `ChatStack`/`ChatStackFacing`: podem virar aliases.
 
-## Fora da importação
+## Fora da importação (entrou depois)
+
+Em 18/11 o Henrique aprovou: a p0396 entrou como `ChatClockTooltip2`.
+
 
 - **p0396** (`ChatClockTooltip2`, hold): está entre os `Broken`, mas tem a cauda em V dos `Tooltip` e é quase cópia de p0135 (`ChatClockTooltip`).

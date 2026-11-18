@@ -13,6 +13,7 @@
     "interface",
     "location",
     "media",
+    "nature",
     "people",
     "security",
     "shopping",
@@ -24,30 +25,30 @@
   ],
   "chunks": [
     "/icons/chunks/chunk-0-63767fa6.json",
-    "/icons/chunks/chunk-1-fe6b7674.json",
-    "/icons/chunks/chunk-2-ad32663b.json",
-    "/icons/chunks/chunk-3-06787115.json",
-    "/icons/chunks/chunk-4-d7a7f528.json",
-    "/icons/chunks/chunk-5-6a4c1773.json",
-    "/icons/chunks/chunk-6-3b17dddc.json",
-    "/icons/chunks/chunk-7-f8bcdcbf.json",
-    "/icons/chunks/chunk-8-4c45a5a5.json",
-    "/icons/chunks/chunk-9-bbb2d93e.json",
-    "/icons/chunks/chunk-10-836773b1.json",
-    "/icons/chunks/chunk-11-9a552dc1.json",
-    "/icons/chunks/chunk-12-c1065f81.json",
-    "/icons/chunks/chunk-13-cf050174.json",
-    "/icons/chunks/chunk-14-d7d6a247.json",
-    "/icons/chunks/chunk-15-e4994f25.json",
-    "/icons/chunks/chunk-16-ea2dccf4.json",
-    "/icons/chunks/chunk-17-32c7873b.json",
-    "/icons/chunks/chunk-18-3980d4e6.json",
-    "/icons/chunks/chunk-19-1597a592.json",
-    "/icons/chunks/chunk-20-b7de535e.json",
-    "/icons/chunks/chunk-21-e667a49d.json",
-    "/icons/chunks/chunk-22-62d817bf.json",
-    "/icons/chunks/chunk-23-3199b172.json",
-    "/icons/chunks/chunk-24-30a13946.json"
+    "/icons/chunks/chunk-1-096aec7b.json",
+    "/icons/chunks/chunk-2-bcd4dcda.json",
+    "/icons/chunks/chunk-3-9e0b43b0.json",
+    "/icons/chunks/chunk-4-6f5a79a7.json",
+    "/icons/chunks/chunk-5-3bae0a1d.json",
+    "/icons/chunks/chunk-6-429f7169.json",
+    "/icons/chunks/chunk-7-afae9c97.json",
+    "/icons/chunks/chunk-8-f1cf0c73.json",
+    "/icons/chunks/chunk-9-18ebf4aa.json",
+    "/icons/chunks/chunk-10-501c2474.json",
+    "/icons/chunks/chunk-11-7d8e79b2.json",
+    "/icons/chunks/chunk-12-2ae1532e.json",
+    "/icons/chunks/chunk-13-2138918a.json",
+    "/icons/chunks/chunk-14-b45b228a.json",
+    "/icons/chunks/chunk-15-019d6d80.json",
+    "/icons/chunks/chunk-16-5747d494.json",
+    "/icons/chunks/chunk-17-4ed81eea.json",
+    "/icons/chunks/chunk-18-bcd0c37c.json",
+    "/icons/chunks/chunk-19-be497fbe.json",
+    "/icons/chunks/chunk-20-30b277d7.json",
+    "/icons/chunks/chunk-21-6fb51edc.json",
+    "/icons/chunks/chunk-22-65a71f44.json",
+    "/icons/chunks/chunk-23-3ecddda6.json",
+    "/icons/chunks/chunk-24-74475a02.json"
   ],
   "icons": {
     "optimized": [
@@ -6031,6 +6032,28 @@
         "chunk": 1
       },
       {
+        "name": "ArrowCounterclockwiseChevron2",
+        "displayName": "Arrow counterclockwise chevron 2",
+        "path": "/icons/optimized/arrow-counterclockwise-chevron2.svg",
+        "filename": "arrow-counterclockwise-chevron2.svg",
+        "category": "optimized",
+        "categories": [
+          "arrows"
+        ],
+        "tags": [
+          "arrow",
+          "counterclockwise",
+          "undo",
+          "history",
+          "restore",
+          "back",
+          "rotate"
+        ],
+        "description": "Circle open at the top left, ending in a chevron arrowhead pointing left.",
+        "searchText": "arrowcounterclockwisechevron2 arrow counterclockwise chevron 2 arrow counterclockwise undo history restore back rotate circle open at the top left, ending in a chevron arrowhead pointing left. arrows",
+        "chunk": 1
+      },
+      {
         "name": "ArrowCounterclockwiseCircle",
         "displayName": "Arrow counterclockwise circle",
         "path": "/icons/optimized/arrow-counterclockwise-circle.svg",
@@ -10195,7 +10218,7 @@
         ],
         "description": "Circle whose line curls inward into an arrow pointing up and to the right.",
         "searchText": "arrowuprightcirclejoined arrow up right circle joined arrow diagonal up-right circle joined continuous loop return circle whose line curls inward into an arrow pointing up and to the right. arrows",
-        "chunk": 1
+        "chunk": 2
       },
       {
         "name": "ArrowUpRightCircleOut",
@@ -15470,7 +15493,7 @@
         ],
         "description": "Notification bell with clock symbol for scheduled alerts or time-based notifications. Used for reminders and timed notifications.",
         "searchText": "bellclockrim bell clock rim bell1clock bell notification alarm alert clock scheduled reminder time timer rim notification bell with clock symbol for scheduled alerts or time-based notifications. used for reminders and timed notifications. communication interface",
-        "chunk": 2
+        "chunk": 3
       },
       {
         "name": "BellClockWide",
@@ -20828,7 +20851,7 @@
         ],
         "description": "A bookmark icon with an X close symbol indicating removal or dismissal",
         "searchText": "bookmarkxcurl bookmark x curl bookmark2close bookmark close delete remove dismiss curl a bookmark icon with an x close symbol indicating removal or dismissal files",
-        "chunk": 3
+        "chunk": 4
       },
       {
         "name": "BookmarkXRolled",
@@ -25841,7 +25864,7 @@
         ],
         "description": "Calendar with a heart inside.",
         "searchText": "calendarheart calendar heart calendar date schedule event date-night valentine anniversary favorite like heart day calendar with a heart inside. time",
-        "chunk": 4
+        "chunk": 5
       },
       {
         "name": "CalendarHeartCorner",
@@ -31200,7 +31223,7 @@
         ],
         "description": "Rounded-rectangle speech bubble with a slanted tail left of center, with a check mark in a small circle at the corner.",
         "searchText": "chatcheckcircleslant chat check circle slant chat message check sent delivered done speech-bubble square slanted comment rounded-rectangle speech bubble with a slanted tail left of center, with a check mark in a small circle at the corner. communication",
-        "chunk": 5
+        "chunk": 6
       },
       {
         "name": "ChatCheckCircleTall",
@@ -32304,6 +32327,32 @@
         ],
         "description": "Rounded-rectangle speech bubble with a centered V-shaped tail, with a clock inside.",
         "searchText": "chatclocktooltip chat clock tooltip chat message clock pending scheduled time speech-bubble square tooltip comment rounded-rectangle speech bubble with a centered v-shaped tail, with a clock inside. communication time",
+        "chunk": 6
+      },
+      {
+        "name": "ChatClockTooltip2",
+        "displayName": "Chat clock tooltip 2",
+        "path": "/icons/optimized/chat-clock-tooltip2.svg",
+        "filename": "chat-clock-tooltip2.svg",
+        "category": "optimized",
+        "categories": [
+          "communication",
+          "time"
+        ],
+        "tags": [
+          "chat",
+          "message",
+          "clock",
+          "pending",
+          "scheduled",
+          "time",
+          "speech-bubble",
+          "square",
+          "broken",
+          "comment"
+        ],
+        "description": "Rounded-rectangle speech bubble with a centered V tail and a clock at the corner where the outline breaks.",
+        "searchText": "chatclocktooltip2 chat clock tooltip 2 chat message clock pending scheduled time speech-bubble square broken comment rounded-rectangle speech bubble with a centered v tail and a clock at the corner where the outline breaks. communication time",
         "chunk": 6
       },
       {
@@ -36201,7 +36250,7 @@
         ],
         "description": "Rounded-rectangle speech bubble with a slanted tail left of center, with the letters SOS inside.",
         "searchText": "chatlettersslant chat letters slant chat message sos letters emergency help speech-bubble square slanted comment rounded-rectangle speech bubble with a slanted tail left of center, with the letters sos inside. communication",
-        "chunk": 6
+        "chunk": 7
       },
       {
         "name": "ChatLettersTooltip",
@@ -36226,7 +36275,7 @@
         ],
         "description": "Rounded-rectangle speech bubble with a centered V-shaped tail, with the letters SOS inside.",
         "searchText": "chatletterstooltip chat letters tooltip chat message sos letters emergency help speech-bubble square tooltip comment rounded-rectangle speech bubble with a centered v-shaped tail, with the letters sos inside. communication",
-        "chunk": 6
+        "chunk": 7
       },
       {
         "name": "ChatLettersWide",
@@ -41180,7 +41229,7 @@
         ],
         "description": "Two rounded-rectangle speech bubbles facing each other, with notched tails, with a check mark inside.",
         "searchText": "chatstackchecknotch chat stack check notch chat message check sent delivered done conversation chat-stack square comment two rounded-rectangle speech bubbles facing each other, with notched tails, with a check mark inside. communication",
-        "chunk": 7
+        "chunk": 8
       },
       {
         "name": "ChatStackCheckSlant",
@@ -41206,7 +41255,7 @@
         ],
         "description": "Speech bubble with a slanted tail and the outline of a second bubble behind it, with a check mark inside.",
         "searchText": "chatstackcheckslant chat stack check slant chat message check sent delivered done conversation chat-stack square slanted comment speech bubble with a slanted tail and the outline of a second bubble behind it, with a check mark inside. communication",
-        "chunk": 7
+        "chunk": 8
       },
       {
         "name": "ChatStackCheckTooltip",
@@ -46355,7 +46404,7 @@
         ],
         "description": "Speech bubble with a detached stroke tail and the outline of a second bubble behind it, with a magnifying glass at the corner where the outline breaks.",
         "searchText": "chatstacksearchcornerbroken chat stack search corner broken chat message search find magnifier lookup conversation chat-stack square broken comment speech bubble with a detached stroke tail and the outline of a second bubble behind it, with a magnifying glass at the corner where the outline breaks. communication",
-        "chunk": 8
+        "chunk": 9
       },
       {
         "name": "ChatStackSearchCornerFacing",
@@ -46380,7 +46429,7 @@
         ],
         "description": "Two rounded-square speech bubbles facing each other, the back one peeking out at the bottom right, with a magnifying glass at the corner where the outline breaks.",
         "searchText": "chatstacksearchcornerfacing chat stack search corner facing chat message search find magnifier lookup conversation chat-stack square comment two rounded-square speech bubbles facing each other, the back one peeking out at the bottom right, with a magnifying glass at the corner where the outline breaks. communication",
-        "chunk": 8
+        "chunk": 9
       },
       {
         "name": "ChatStackSearchCornerFlipped",
@@ -51384,7 +51433,7 @@
         ],
         "description": "Rounded-rectangle speech bubble with a centered V-shaped tail, with an X in a small circle at the corner.",
         "searchText": "chatxcircletooltip chat x circle tooltip chat message x close delete cancel speech-bubble square tooltip comment rounded-rectangle speech bubble with a centered v-shaped tail, with an x in a small circle at the corner. communication",
-        "chunk": 9
+        "chunk": 10
       },
       {
         "name": "ChatXCircleWide",
@@ -51409,7 +51458,7 @@
         ],
         "description": "Wide flat oval speech bubble with a short angled tail, with an X in a small circle at the corner.",
         "searchText": "chatxcirclewide chat x circle wide chat message x close delete cancel speech-bubble oval wide comment wide flat oval speech bubble with a short angled tail, with an x in a small circle at the corner. communication",
-        "chunk": 9
+        "chunk": 10
       },
       {
         "name": "ChatXCorner",
@@ -55554,6 +55603,28 @@
         "chunk": 10
       },
       {
+        "name": "ClipboardLinkTilted2",
+        "displayName": "Clipboard link tilted 2",
+        "path": "/icons/optimized/clipboard-link-tilted2.svg",
+        "filename": "clipboard-link-tilted2.svg",
+        "category": "optimized",
+        "categories": [
+          "files",
+          "communication"
+        ],
+        "tags": [
+          "clipboard",
+          "link",
+          "copy",
+          "url",
+          "paste",
+          "chain"
+        ],
+        "description": "Clipboard with a split capsule link at the bottom right.",
+        "searchText": "clipboardlinktilted2 clipboard link tilted 2 clipboard link copy url paste chain clipboard with a split capsule link at the bottom right. files communication",
+        "chunk": 10
+      },
+      {
         "name": "ClipboardList",
         "displayName": "Clipboard list",
         "path": "/icons/optimized/clipboard-shortlist.svg",
@@ -56359,7 +56430,7 @@
         ],
         "description": "A clock icon with an exclamation mark in a circle indicating urgent timing or time-sensitive alerts",
         "searchText": "clockalertcircle clock alert circle clockexclamationcircle clock exclamation error attention alert warning time urgent circle a clock icon with an exclamation mark in a circle indicating urgent timing or time-sensitive alerts time",
-        "chunk": 10
+        "chunk": 11
       },
       {
         "name": "ClockAlertTriangle",
@@ -56385,7 +56456,7 @@
         ],
         "description": "A clock icon with a warning indicator for time-sensitive alerts",
         "searchText": "clockalerttriangle clock alert triangle clockwarning clock warning error attention alert time caution triangle a clock icon with a warning indicator for time-sensitive alerts time",
-        "chunk": 10
+        "chunk": 11
       },
       {
         "name": "ClockAngled",
@@ -56410,7 +56481,7 @@
         ],
         "description": "A standard clock icon displaying time",
         "searchText": "clockangled clock angled clock1 clock time watch timer hour minute angled a standard clock icon displaying time time",
-        "chunk": 10
+        "chunk": 11
       },
       {
         "name": "ClockArrowDown",
@@ -61424,7 +61495,7 @@
         ],
         "description": "A cloud icon with a box and rightward arrow representing cloud upload or export functionality",
         "searchText": "cloudsquarearrowright cloud square arrow right cloud1boxarrowright cloud box arrow right upload export send transfer square a cloud icon with a box and rightward arrow representing cloud upload or export functionality files devices",
-        "chunk": 11
+        "chunk": 12
       },
       {
         "name": "CloudSquareArrowRightRound",
@@ -61453,7 +61524,7 @@
         ],
         "description": "A cloud icon with a box and rightward arrow for sending cloud packages",
         "searchText": "cloudsquarearrowrightround cloud square arrow right round cloud3boxupload cloud box arrow right upload send package transmission square round a cloud icon with a box and rightward arrow for sending cloud packages files devices",
-        "chunk": 11
+        "chunk": 12
       },
       {
         "name": "CloudSquareArrowRightTall",
@@ -61481,7 +61552,7 @@
         ],
         "description": "A cloud icon with a box and rightward arrow showing export or send to external storage",
         "searchText": "cloudsquarearrowrighttall cloud square arrow right tall cloud2boxright cloud box arrow right export send transfer square tall a cloud icon with a box and rightward arrow showing export or send to external storage files devices",
-        "chunk": 11
+        "chunk": 12
       },
       {
         "name": "CloudSquareRound",
@@ -66356,7 +66427,7 @@
         ],
         "description": "An alternate variant of the multi-page terms and conditions document icon.",
         "searchText": "documentstackshadow document stack shadow pageslinesterms2 document pages terms conditions legal agreement stack shadow an alternate variant of the multi-page terms and conditions document icon. files",
-        "chunk": 12
+        "chunk": 13
       },
       {
         "name": "DollarSearch",
@@ -66385,7 +66456,7 @@
         ],
         "description": "A magnifying glass search icon combined with a dollar sign symbol for paid search advertising and cost analysis",
         "searchText": "dollarsearch dollar search paidsearchdollar dollar paid lupe sign search magnifying-glass advertising cost finance ppc a magnifying glass search icon combined with a dollar sign symbol for paid search advertising and cost analysis business shopping",
-        "chunk": 12
+        "chunk": 13
       },
       {
         "name": "DomainGlobe",
@@ -66412,7 +66483,7 @@
         ],
         "description": "A domain name dot com icon with a globe showing the first variant of web domain registration",
         "searchText": "domainglobe domain globe domainnameglobe1 domain name dot com domain-name dot-com globe web internet a domain name dot com icon with a globe showing the first variant of web domain registration development",
-        "chunk": 12
+        "chunk": 13
       },
       {
         "name": "DomainGlobeCenter",
@@ -71570,7 +71641,7 @@
         ],
         "description": "A funnel filter icon with dollar sign symbol for sales and financial filtering",
         "searchText": "funneldollar funnel dollar funnelfilterdollar funnel filter money sales sign dollar dollar-sign financial sort a funnel filter icon with dollar sign symbol for sales and financial filtering interface",
-        "chunk": 13
+        "chunk": 14
       },
       {
         "name": "FunnelOval",
@@ -71597,7 +71668,7 @@
         ],
         "description": "A funnel icon representing filter functionality, fourth variant style",
         "searchText": "funneloval funnel oval funnelfilter4 funnel filter refine search sort data interface control oval a funnel icon representing filter functionality, fourth variant style interface",
-        "chunk": 13
+        "chunk": 14
       },
       {
         "name": "FunnelOvalCoin",
@@ -71623,7 +71694,7 @@
         ],
         "description": "A funnel filter icon with money and coin symbols for sales filtering operations variant two",
         "searchText": "funnelovalcoin funnel oval coin funnelfiltercoin2 funnel filter money sales coin financial sort oval a funnel filter icon with money and coin symbols for sales filtering operations variant two interface",
-        "chunk": 13
+        "chunk": 14
       },
       {
         "name": "FunnelRim",
@@ -76865,7 +76936,7 @@
         ],
         "description": "Hourglass drawn as a broken Z with a diagonal stroke, with a grain falling and sand at the bottom.",
         "searchText": "hourglasssandfallingdiagonal hourglass sand falling diagonal hourglass sand-timer time wait loading sand falling in-progress diagonal hourglass drawn as a broken z with a diagonal stroke, with a grain falling and sand at the bottom. time",
-        "chunk": 14
+        "chunk": 15
       },
       {
         "name": "HourglassSquare",
@@ -76886,7 +76957,7 @@
         ],
         "description": "Hourglass with crossing straight sides inside a rounded square.",
         "searchText": "hourglasssquare hourglass square hourglass sand-timer time wait loading square hourglass with crossing straight sides inside a rounded square. time",
-        "chunk": 14
+        "chunk": 15
       },
       {
         "name": "HourglassSquareCurved",
@@ -76908,7 +76979,7 @@
         ],
         "description": "Narrow hourglass with curved sides inside a rounded square.",
         "searchText": "hourglasssquarecurved hourglass square curved hourglass sand-timer time wait loading square curved narrow hourglass with curved sides inside a rounded square. time",
-        "chunk": 14
+        "chunk": 15
       },
       {
         "name": "HourglassSquareDiagonal",
@@ -81955,7 +82026,7 @@
         ],
         "description": "Two notched oval rings joined by a bar, with a check mark at the bottom right.",
         "searchText": "linkchecknotched link check notched link chain url hyperlink check linked connected done verified two notched oval rings joined by a bar, with a check mark at the bottom right. communication",
-        "chunk": 15
+        "chunk": 16
       },
       {
         "name": "LinkCheckRound",
@@ -81979,7 +82050,7 @@
         ],
         "description": "Two round interlocking loops side by side, with a check mark at the bottom right.",
         "searchText": "linkcheckround link check round link chain url hyperlink check linked connected done verified two round interlocking loops side by side, with a check mark at the bottom right. communication",
-        "chunk": 15
+        "chunk": 16
       },
       {
         "name": "LinkCheckSlanted",
@@ -82003,7 +82074,7 @@
         ],
         "description": "Diagonal chain of two links with inner hooks, with a check mark at the bottom right.",
         "searchText": "linkcheckslanted link check slanted link chain url hyperlink check linked connected done verified diagonal chain of two links with inner hooks, with a check mark at the bottom right. communication",
-        "chunk": 15
+        "chunk": 16
       },
       {
         "name": "LinkCheckSlim",
@@ -86638,7 +86709,7 @@
         ],
         "description": "A lock icon with password dots indicating password protection and authentication.",
         "searchText": "lockdots lock dots lockpassword lock password dots security authentication protection secret a lock icon with password dots indicating password protection and authentication. security",
-        "chunk": 16
+        "chunk": 17
       },
       {
         "name": "LockDotsDash",
@@ -86663,7 +86734,7 @@
         ],
         "description": "An alternative lock icon with password dots for secure authentication representation.",
         "searchText": "lockdotsdash lock dots dash lockpasswordalt lock password dots security authentication protection dash an alternative lock icon with password dots for secure authentication representation. security",
-        "chunk": 16
+        "chunk": 17
       },
       {
         "name": "LockDotsDashWide",
@@ -86690,7 +86761,7 @@
         ],
         "description": "A locked padlock with password dots in a secondary style for secure entry representation",
         "searchText": "lockdotsdashwide lock dots dash wide lock4passwordtwo lock password dots secure authentication padlock security dash wide a locked padlock with password dots in a secondary style for secure entry representation security",
-        "chunk": 16
+        "chunk": 17
       },
       {
         "name": "LockDotsNarrow",
@@ -90866,6 +90937,213 @@
         "chunk": 17
       },
       {
+        "name": "Moon",
+        "displayName": "Moon",
+        "path": "/icons/optimized/moon.svg",
+        "filename": "moon.svg",
+        "category": "optimized",
+        "categories": [
+          "weather",
+          "nature"
+        ],
+        "tags": [
+          "moon",
+          "crescent",
+          "night",
+          "dark-mode",
+          "sleep",
+          "evening",
+          "lunar"
+        ],
+        "description": "Crescent moon opening to the upper right.",
+        "searchText": "moon moon moon crescent night dark-mode sleep evening lunar crescent moon opening to the upper right. weather nature",
+        "chunk": 17
+      },
+      {
+        "name": "MoonCircle",
+        "displayName": "Moon circle",
+        "path": "/icons/optimized/moon-circle.svg",
+        "filename": "moon-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "weather",
+          "interface"
+        ],
+        "tags": [
+          "moon",
+          "circle",
+          "dark-mode",
+          "night",
+          "theme",
+          "button",
+          "crescent"
+        ],
+        "description": "Crescent moon inside a circle.",
+        "searchText": "mooncircle moon circle moon circle dark-mode night theme button crescent crescent moon inside a circle. weather interface",
+        "chunk": 17
+      },
+      {
+        "name": "MoonClock",
+        "displayName": "Moon clock",
+        "path": "/icons/optimized/moon-clock.svg",
+        "filename": "moon-clock.svg",
+        "category": "optimized",
+        "categories": [
+          "time",
+          "weather"
+        ],
+        "tags": [
+          "moon",
+          "clock",
+          "bedtime",
+          "night-schedule",
+          "sleep-timer",
+          "schedule",
+          "dark-mode"
+        ],
+        "description": "Crescent moon with a clock at the upper right, cut around it.",
+        "searchText": "moonclock moon clock moon clock bedtime night-schedule sleep-timer schedule dark-mode crescent moon with a clock at the upper right, cut around it. time weather",
+        "chunk": 17
+      },
+      {
+        "name": "MoonFull",
+        "displayName": "Moon full",
+        "path": "/icons/optimized/moon-full.svg",
+        "filename": "moon-full.svg",
+        "category": "optimized",
+        "categories": [
+          "nature",
+          "weather"
+        ],
+        "tags": [
+          "moon",
+          "full-moon",
+          "craters",
+          "lunar",
+          "night",
+          "astronomy",
+          "space"
+        ],
+        "description": "Full moon drawn as a circle with three round craters.",
+        "searchText": "moonfull moon full moon full-moon craters lunar night astronomy space full moon drawn as a circle with three round craters. nature weather",
+        "chunk": 17
+      },
+      {
+        "name": "MoonOff",
+        "displayName": "Moon off",
+        "path": "/icons/optimized/moon-off.svg",
+        "filename": "moon-off.svg",
+        "category": "optimized",
+        "categories": [
+          "weather",
+          "interface"
+        ],
+        "tags": [
+          "moon",
+          "off",
+          "dark-mode-off",
+          "light-mode",
+          "disabled",
+          "night",
+          "crescent"
+        ],
+        "description": "Crescent moon crossed by a diagonal slash.",
+        "searchText": "moonoff moon off moon off dark-mode-off light-mode disabled night crescent crescent moon crossed by a diagonal slash. weather interface",
+        "chunk": 17
+      },
+      {
+        "name": "MoonSnooze",
+        "displayName": "Moon snooze",
+        "path": "/icons/optimized/moon-snooze.svg",
+        "filename": "moon-snooze.svg",
+        "category": "optimized",
+        "categories": [
+          "weather",
+          "time"
+        ],
+        "tags": [
+          "moon",
+          "snooze",
+          "sleep",
+          "sleeping",
+          "zzz",
+          "do-not-disturb",
+          "rest"
+        ],
+        "description": "Crescent moon with two letters Z in its opening.",
+        "searchText": "moonsnooze moon snooze moon snooze sleep sleeping zzz do-not-disturb rest crescent moon with two letters z in its opening. weather time",
+        "chunk": 17
+      },
+      {
+        "name": "MoonSparkle",
+        "displayName": "Moon sparkle",
+        "path": "/icons/optimized/moon-sparkle.svg",
+        "filename": "moon-sparkle.svg",
+        "category": "optimized",
+        "categories": [
+          "weather",
+          "nature"
+        ],
+        "tags": [
+          "moon",
+          "sparkle",
+          "stars",
+          "night",
+          "clear-sky",
+          "dark-mode",
+          "magic"
+        ],
+        "description": "Crescent moon with two four-point sparkles in its opening.",
+        "searchText": "moonsparkle moon sparkle moon sparkle stars night clear-sky dark-mode magic crescent moon with two four-point sparkles in its opening. weather nature",
+        "chunk": 17
+      },
+      {
+        "name": "MoonSquare",
+        "displayName": "Moon square",
+        "path": "/icons/optimized/moon-square.svg",
+        "filename": "moon-square.svg",
+        "category": "optimized",
+        "categories": [
+          "weather",
+          "interface"
+        ],
+        "tags": [
+          "moon",
+          "square",
+          "dark-mode",
+          "night",
+          "theme",
+          "button",
+          "crescent"
+        ],
+        "description": "Crescent moon inside a rounded square.",
+        "searchText": "moonsquare moon square moon square dark-mode night theme button crescent crescent moon inside a rounded square. weather interface",
+        "chunk": 17
+      },
+      {
+        "name": "MoonStar",
+        "displayName": "Moon star",
+        "path": "/icons/optimized/moon-star.svg",
+        "filename": "moon-star.svg",
+        "category": "optimized",
+        "categories": [
+          "weather",
+          "nature"
+        ],
+        "tags": [
+          "moon",
+          "star",
+          "night",
+          "sky",
+          "dark-mode",
+          "evening",
+          "crescent"
+        ],
+        "description": "Crescent moon with a small five-point star in its opening.",
+        "searchText": "moonstar moon star moon star night sky dark-mode evening crescent crescent moon with a small five-point star in its opening. weather nature",
+        "chunk": 17
+      },
+      {
         "name": "MoveHand",
         "displayName": "Move hand",
         "path": "/icons/optimized/arrows-pointer-move-1.svg",
@@ -91551,7 +91829,7 @@
         ],
         "description": "Navigation arrow pointing right inside a circle.",
         "searchText": "navigationrightcircle navigation right circle right circle navigation location gps direction arrow map navigation arrow pointing right inside a circle. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationRightSquare",
@@ -91574,7 +91852,7 @@
         ],
         "description": "Navigation arrow pointing right inside a rounded square.",
         "searchText": "navigationrightsquare navigation right square right square navigation location gps direction arrow map navigation arrow pointing right inside a rounded square. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUp",
@@ -91597,7 +91875,7 @@
         ],
         "description": "Navigation arrow with rounded corners pointing up.",
         "searchText": "navigationup navigation up up north navigation location gps direction arrow map navigation arrow with rounded corners pointing up. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpCircle",
@@ -91620,7 +91898,7 @@
         ],
         "description": "Navigation arrow pointing up inside a circle.",
         "searchText": "navigationupcircle navigation up circle up circle navigation location gps direction arrow map navigation arrow pointing up inside a circle. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpCircleCheck",
@@ -91646,7 +91924,7 @@
         ],
         "description": "Navigation arrow pointing up in a circle, with a check mark at the top right.",
         "searchText": "navigationupcirclecheck navigation up circle check location-found navigation location gps direction arrow map circle check done approved navigation arrow pointing up in a circle, with a check mark at the top right. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpCircleDashed",
@@ -91671,7 +91949,7 @@
         ],
         "description": "Navigation arrow pointing up inside a dashed circle.",
         "searchText": "navigationupcircledashed navigation up circle dashed loading searching navigation location gps direction arrow map circle dashed navigation arrow pointing up inside a dashed circle. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpCircleDashedHalf",
@@ -91697,7 +91975,7 @@
         ],
         "description": "Navigation arrow pointing up inside a circle whose left half is dashed.",
         "searchText": "navigationupcircledashedhalf navigation up circle dashed half loading progress half navigation location gps direction arrow map circle dashed navigation arrow pointing up inside a circle whose left half is dashed. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpCircleDashedQuarter",
@@ -91722,7 +92000,7 @@
         ],
         "description": "Navigation arrow pointing up inside a circle whose top left quarter is dashed.",
         "searchText": "navigationupcircledashedquarter navigation up circle dashed quarter loading progress navigation location gps direction arrow map circle dashed navigation arrow pointing up inside a circle whose top left quarter is dashed. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpCircleSegmented",
@@ -91747,7 +92025,7 @@
         ],
         "description": "Navigation arrow pointing up inside a circle drawn in uneven segments.",
         "searchText": "navigationupcirclesegmented navigation up circle segmented loading progress segments navigation location gps direction arrow map circle navigation arrow pointing up inside a circle drawn in uneven segments. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpCircleX",
@@ -91774,7 +92052,7 @@
         ],
         "description": "Navigation arrow pointing up in a circle, with an X at the top right.",
         "searchText": "navigationupcirclex navigation up circle x location-off navigation location gps direction arrow map circle x close remove cancel navigation arrow pointing up in a circle, with an x at the top right. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpLeft",
@@ -91796,7 +92074,7 @@
         ],
         "description": "Navigation arrow with rounded corners pointing up left.",
         "searchText": "navigationupleft navigation up left up-left navigation location gps direction arrow map navigation arrow with rounded corners pointing up left. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpLeftCircle",
@@ -91819,7 +92097,7 @@
         ],
         "description": "Navigation arrow pointing up left inside a circle.",
         "searchText": "navigationupleftcircle navigation up left circle up-left circle navigation location gps direction arrow map navigation arrow pointing up left inside a circle. location",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "NavigationUpLeftRound",
@@ -96538,7 +96816,7 @@
         ],
         "description": "Square plus icon for adding functionality with geometric styling. Used in grid layouts and structured interfaces.",
         "searchText": "plussquare plus square addsquare plus add create new square button insert square plus icon for adding functionality with geometric styling. used in grid layouts and structured interfaces. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PlusSquareDot",
@@ -96561,7 +96839,7 @@
         ],
         "description": "Plus in a rounded square open at the top right, with a small ring in the gap.",
         "searchText": "plussquaredot plus square dot plus add new create square widget notification dot plus in a rounded square open at the top right, with a small ring in the gap. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerAlertCircle",
@@ -96586,7 +96864,7 @@
         ],
         "description": "Tilted arrow pointer with an exclamation mark in a circle at its bottom right.",
         "searchText": "pointeralertcircle pointer alert circle pointer cursor arrow mouse select click alert warning error circle tilted arrow pointer with an exclamation mark in a circle at its bottom right. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerBanStraight",
@@ -96611,7 +96889,7 @@
         ],
         "description": "Straight arrow pointer with a ban sign at its top right.",
         "searchText": "pointerbanstraight pointer ban straight not-allowed pointer cursor arrow mouse select click ban blocked forbidden straight arrow pointer with a ban sign at its top right. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerCardStraight",
@@ -96635,7 +96913,7 @@
         ],
         "description": "Straight arrow pointer with a small card holding two lines at its top right.",
         "searchText": "pointercardstraight pointer card straight tooltip card text pointer cursor arrow mouse select click straight arrow pointer with a small card holding two lines at its top right. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerCardStraight2",
@@ -96659,7 +96937,7 @@
         ],
         "description": "Straight arrow pointer with a small card holding two equal lines at its top right.",
         "searchText": "pointercardstraight2 pointer card straight 2 tooltip card text pointer cursor arrow mouse select click straight arrow pointer with a small card holding two equal lines at its top right. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerCheckCircle",
@@ -96684,7 +96962,7 @@
         ],
         "description": "Tilted arrow pointer with a check mark in a circle at its bottom right.",
         "searchText": "pointercheckcircle pointer check circle pointer cursor arrow mouse select click check done approved circle tilted arrow pointer with a check mark in a circle at its bottom right. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerCheckCircleStraight",
@@ -96709,7 +96987,7 @@
         ],
         "description": "Straight arrow pointer with a check mark in a circle at its top right.",
         "searchText": "pointercheckcirclestraight pointer check circle straight pointer cursor arrow mouse select click check done approved circle straight arrow pointer with a check mark in a circle at its top right. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerCheckStraight",
@@ -96733,7 +97011,7 @@
         ],
         "description": "Straight arrow pointer with a check mark at its top right.",
         "searchText": "pointercheckstraight pointer check straight pointer cursor arrow mouse select click check done approved straight arrow pointer with a check mark at its top right. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerCircle",
@@ -96755,7 +97033,7 @@
         ],
         "description": "Tilted arrow pointer pointing up left inside a circle.",
         "searchText": "pointercircle pointer circle pointer cursor arrow mouse select click circle tilted arrow pointer pointing up left inside a circle. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerClockStraight",
@@ -96781,7 +97059,7 @@
         ],
         "description": "Straight arrow pointer with a clock at its top right.",
         "searchText": "pointerclockstraight pointer clock straight busy loading pointer cursor arrow mouse select click clock time wait straight arrow pointer with a clock at its top right. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerCrosshair",
@@ -96805,7 +97083,7 @@
         ],
         "description": "Tilted arrow pointer with a circle crossed by a plus at its bottom right.",
         "searchText": "pointercrosshair pointer crosshair crosshair target add pointer cursor arrow mouse select click tilted arrow pointer with a circle crossed by a plus at its bottom right. interface",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "PointerDotsCircleStraight",
@@ -101697,7 +101975,7 @@
         ],
         "description": "A magnifying glass search icon with zoom functionality for magnification",
         "searchText": "search search lupesearchzoom search lupe zoom magnifying-glass magnify find enlarge a magnifying glass search icon with zoom functionality for magnification interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchB",
@@ -101721,7 +101999,7 @@
         ],
         "description": "A second variant of magnifying glass search icon with zoom magnification capabilities",
         "searchText": "searchb search b lupesearchzoom2 search lupe zoom magnifying-glass magnify find a second variant of magnifying glass search icon with zoom magnification capabilities interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchBrackets",
@@ -101744,7 +102022,7 @@
         ],
         "description": "Magnifier with angle brackets inside the lens.",
         "searchText": "searchbrackets search brackets brackets search magnifier find code inspect developer magnifier with angle brackets inside the lens. development interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchBracketsC",
@@ -101767,7 +102045,7 @@
         ],
         "description": "Magnifier with a smaller lens and long handle, angle brackets inside the lens.",
         "searchText": "searchbracketsc search brackets c brackets search magnifier find code inspect developer magnifier with a smaller lens and long handle, angle brackets inside the lens. development interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchC",
@@ -101791,7 +102069,7 @@
         ],
         "description": "A third variant of magnifying glass search icon with zoom magnification capabilities",
         "searchText": "searchc search c lupesearchzoom3 search lupe zoom magnifying-glass magnify find a third variant of magnifying glass search icon with zoom magnification capabilities interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchCheck",
@@ -101819,7 +102097,7 @@
         ],
         "description": "A magnifying glass search icon with a checkmark indicating verified or confirmed search results",
         "searchText": "searchcheck search check lupecheck search lupe checked verified done success check confirm validate approval a magnifying glass search icon with a checkmark indicating verified or confirmed search results interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchCheckB",
@@ -101846,7 +102124,7 @@
         ],
         "description": "A magnifying glass search icon variant 2 with a checkmark indicating verified search results",
         "searchText": "searchcheckb search check b lupesearch2check search lupe checked verified done success check confirm validate a magnifying glass search icon variant 2 with a checkmark indicating verified search results interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchCheckC",
@@ -101873,7 +102151,7 @@
         ],
         "description": "A magnifying glass search icon with a checkmark indicating verified or completed search results",
         "searchText": "searchcheckc search check c lupesearch3check search lupe checked verified done success magnifying-glass check checkmark a magnifying glass search icon with a checkmark indicating verified or completed search results interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchCode",
@@ -101896,7 +102174,7 @@
         ],
         "description": "Magnifier with a code sign inside the lens.",
         "searchText": "searchcode search code brackets search magnifier find code inspect developer magnifier with a code sign inside the lens. development interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchDollarB",
@@ -101922,7 +102200,7 @@
         ],
         "description": "A magnifying glass search icon with a dollar sign for searching financial information or price-related content",
         "searchText": "searchdollarb search dollar b lupesearchdollar search lupe sign money paid dollar finance price a magnifying glass search icon with a dollar sign for searching financial information or price-related content interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchDots",
@@ -101948,7 +102226,7 @@
         ],
         "description": "A magnifying glass search icon with three dots indicating additional search options or menu",
         "searchText": "searchdots search dots lupemore search lupe more three dots ellipsis options menu a magnifying glass search icon with three dots indicating additional search options or menu interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchDotsB",
@@ -101975,7 +102253,7 @@
         ],
         "description": "A magnifying glass search icon with three dots indicating additional options or menu",
         "searchText": "searchdotsb search dots b lupesearch2more search lupe more three magnifying-glass three-dots options menu dots a magnifying glass search icon with three dots indicating additional options or menu interface",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "SearchDotsC",
@@ -106641,7 +106919,7 @@
         ],
         "description": "Stopwatch with a floating top bar and a detached tick on the right and a quarter pie segment on the dial.",
         "searchText": "stopwatchpiedetached stopwatch pie detached stopwatch timer time chronometer pie quarter elapsed progress detached stopwatch with a floating top bar and a detached tick on the right and a quarter pie segment on the dial. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPieKnob",
@@ -106665,7 +106943,7 @@
         ],
         "description": "Stopwatch with a floating top bar and a knob on the right and a quarter pie segment on the dial.",
         "searchText": "stopwatchpieknob stopwatch pie knob stopwatch timer time chronometer pie quarter elapsed progress knob stopwatch with a floating top bar and a knob on the right and a quarter pie segment on the dial. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPieTick",
@@ -106689,7 +106967,7 @@
         ],
         "description": "Stopwatch with a crown and a short tick on the right and a quarter pie segment on the dial.",
         "searchText": "stopwatchpietick stopwatch pie tick stopwatch timer time chronometer pie quarter elapsed progress tick stopwatch with a crown and a short tick on the right and a quarter pie segment on the dial. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPin",
@@ -106712,7 +106990,7 @@
         ],
         "description": "Stopwatch with a crown and a button on each side and a map pin at the lower left.",
         "searchText": "stopwatchpin stopwatch pin stopwatch timer time chronometer pin location map place stopwatch with a crown and a button on each side and a map pin at the lower left. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPinBare",
@@ -106736,7 +107014,7 @@
         ],
         "description": "Stopwatch with only a crown on top and a map pin at the lower left.",
         "searchText": "stopwatchpinbare stopwatch pin bare stopwatch timer time chronometer pin location map place bare stopwatch with only a crown on top and a map pin at the lower left. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPinDetached",
@@ -106760,7 +107038,7 @@
         ],
         "description": "Stopwatch with a floating top bar and a detached tick on the right and a map pin at the lower left.",
         "searchText": "stopwatchpindetached stopwatch pin detached stopwatch timer time chronometer pin location map place detached stopwatch with a floating top bar and a detached tick on the right and a map pin at the lower left. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPinKnob",
@@ -106784,7 +107062,7 @@
         ],
         "description": "Stopwatch with a floating top bar and a knob on the right and a map pin at the lower left.",
         "searchText": "stopwatchpinknob stopwatch pin knob stopwatch timer time chronometer pin location map place knob stopwatch with a floating top bar and a knob on the right and a map pin at the lower left. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPinTick",
@@ -106808,7 +107086,7 @@
         ],
         "description": "Stopwatch with a crown and a short tick on the right and a map pin at the lower left.",
         "searchText": "stopwatchpintick stopwatch pin tick stopwatch timer time chronometer pin location map place tick stopwatch with a crown and a short tick on the right and a map pin at the lower left. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPlus",
@@ -106829,7 +107107,7 @@
         ],
         "description": "Stopwatch with a crown and a button on each side and a plus sign on the dial.",
         "searchText": "stopwatchplus stopwatch plus stopwatch timer time chronometer plus add stopwatch with a crown and a button on each side and a plus sign on the dial. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPlusBare",
@@ -106851,7 +107129,7 @@
         ],
         "description": "Stopwatch with only a crown on top and a plus sign on the dial.",
         "searchText": "stopwatchplusbare stopwatch plus bare stopwatch timer time chronometer plus add bare stopwatch with only a crown on top and a plus sign on the dial. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPlusDetached",
@@ -106873,7 +107151,7 @@
         ],
         "description": "Stopwatch with a floating top bar and a detached tick on the right and a plus sign on the dial.",
         "searchText": "stopwatchplusdetached stopwatch plus detached stopwatch timer time chronometer plus add detached stopwatch with a floating top bar and a detached tick on the right and a plus sign on the dial. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPlusKnob",
@@ -106895,7 +107173,7 @@
         ],
         "description": "Stopwatch with a floating top bar and a knob on the right and a plus sign on the dial.",
         "searchText": "stopwatchplusknob stopwatch plus knob stopwatch timer time chronometer plus add knob stopwatch with a floating top bar and a knob on the right and a plus sign on the dial. time",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "StopwatchPlusTick",
@@ -111866,7 +112144,7 @@
         ],
         "description": "Tilted price tag with a small circular arrow at the bottom right.",
         "searchText": "tagrefreshsmalltilted tag refresh small tilted tag label price price-tag price-change return refresh restore repeat small tilted shopping tilted price tag with a small circular arrow at the bottom right. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagRefreshTilted",
@@ -111892,7 +112170,7 @@
         ],
         "description": "Tilted price tag with a circular arrow at the bottom right.",
         "searchText": "tagrefreshtilted tag refresh tilted tag label price price-tag price-change return refresh restore repeat tilted shopping tilted price tag with a circular arrow at the bottom right. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagRounded",
@@ -111916,7 +112194,7 @@
         ],
         "description": "A tag icon in the third variant style for marking and classification",
         "searchText": "tagrounded tag rounded tag3 tag label mark classify organize rounded a tag icon in the third variant style for marking and classification shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagSquareTilted",
@@ -111939,7 +112217,7 @@
         ],
         "description": "Tilted price tag in the corner of an open rounded square.",
         "searchText": "tagsquaretilted tag square tilted tag label price price-tag square rounded-square tilted shopping tilted price tag in the corner of an open rounded square. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagStack",
@@ -111966,7 +112244,7 @@
         ],
         "description": "A third toolbox icon variant offering alternative visual representation for tool collection and storage.",
         "searchText": "tagstack tag stack toolbox3 tag toolbox tools container equipment construction repair maintenance stack a third toolbox icon variant offering alternative visual representation for tool collection and storage. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagStackOffset",
@@ -111988,7 +112266,7 @@
         ],
         "description": "Price tag pointing left with the outline of a second tag behind it.",
         "searchText": "tagstackoffset tag stack offset tag label price price-tag stack multiple shopping price tag pointing left with the outline of a second tag behind it. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagStackTilted",
@@ -112011,7 +112289,7 @@
         ],
         "description": "Tilted price tag with the outline of a second tag behind it.",
         "searchText": "tagstacktilted tag stack tilted tag label price price-tag stack multiple tilted shopping tilted price tag with the outline of a second tag behind it. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagStringRound",
@@ -112033,7 +112311,7 @@
         ],
         "description": "Large rounded tag hanging from a string loop.",
         "searchText": "tagstringround tag string round tag label price price-tag string hanging shopping large rounded tag hanging from a string loop. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagTilted",
@@ -112054,7 +112332,7 @@
         ],
         "description": "Tilted price tag pointing up-right with a hole.",
         "searchText": "tagtilted tag tilted tag label price price-tag tilted shopping tilted price tag pointing up-right with a hole. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagXCircleRound",
@@ -112079,7 +112357,7 @@
         ],
         "description": "Large rounded tag with an X in a circle at the corner.",
         "searchText": "tagxcircleround tag x circle round tag label price price-tag circle close cancel delete round shopping large rounded tag with an x in a circle at the corner. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "TagXTilted",
@@ -112103,7 +112381,7 @@
         ],
         "description": "Tilted price tag with an X at the bottom right.",
         "searchText": "tagxtilted tag x tilted tag label price price-tag close cancel delete tilted shopping tilted price tag with an x at the bottom right. shopping",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "Text2DSquare",
@@ -112126,7 +112404,7 @@
         ],
         "description": "Letters 2D inside a rounded square.",
         "searchText": "text2dsquare text 2d square 2d two-dimensional flat view letters text square format letters 2d inside a rounded square. media",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "Text2DSquareSmall",
@@ -116998,7 +117276,7 @@
         ],
         "description": "Wide video camera inside a rounded square.",
         "searchText": "videosquare video square video camera video-call recording square rounded-square meeting wide video camera inside a rounded square. media communication",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VideoSquareLarge",
@@ -117022,7 +117300,7 @@
         ],
         "description": "Large video camera inside a rounded square.",
         "searchText": "videosquarelarge video square large video camera video-call recording square rounded-square large meeting large video camera inside a rounded square. media communication",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VideoSquareSmall",
@@ -117046,7 +117324,7 @@
         ],
         "description": "Small video camera inside a rounded square.",
         "searchText": "videosquaresmall video square small video camera video-call recording square rounded-square small meeting small video camera inside a rounded square. media communication",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VideoTeardrop",
@@ -117068,7 +117346,7 @@
         ],
         "description": "Video camera inside a teardrop shape with a square top right corner.",
         "searchText": "videoteardrop video teardrop video camera video-call recording teardrop meeting video camera inside a teardrop shape with a square top right corner. media communication",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "Vip",
@@ -117091,7 +117369,7 @@
         ],
         "description": "A VIP premium membership icon representing exclusive status or priority access",
         "searchText": "vip vip vip premium exclusive membership status priority badge elite a vip premium membership icon representing exclusive status or priority access business",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VipBars",
@@ -117117,7 +117395,7 @@
         ],
         "description": "A VIP designation icon with linear design elements indicating premium or exclusive membership status",
         "searchText": "vipbars vip bars viplines vip premium exclusive membership status special priority bars a vip designation icon with linear design elements indicating premium or exclusive membership status business",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VipSquare",
@@ -117144,7 +117422,7 @@
         ],
         "description": "A VIP badge or label icon in rectangular form indicating premium or exclusive membership tier",
         "searchText": "vipsquare vip square viprectangle vip rectangle badge premium exclusive membership label tier square a vip badge or label icon in rectangular form indicating premium or exclusive membership tier business",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "Volume",
@@ -117165,7 +117443,7 @@
         ],
         "description": "Speaker cone without sound waves.",
         "searchText": "volume volume volume speaker sound audio quiet silent speaker cone without sound waves. media",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VolumeBan",
@@ -117187,7 +117465,7 @@
         ],
         "description": "Speaker cone with a ban sign over its right side.",
         "searchText": "volumeban volume ban blocked not-allowed mute no-sound volume speaker audio speaker cone with a ban sign over its right side. media",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VolumeHigh",
@@ -117209,7 +117487,7 @@
         ],
         "description": "Speaker cone with three sound arcs.",
         "searchText": "volumehigh volume high volume loud high max sound speaker audio speaker cone with three sound arcs. media",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VolumeHighOff",
@@ -117231,7 +117509,7 @@
         ],
         "description": "Speaker cone with three sound arcs, crossed by a diagonal slash.",
         "searchText": "volumehighoff volume high off mute muted sound-off silent volume speaker audio speaker cone with three sound arcs, crossed by a diagonal slash. media",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VolumeHighOffWide",
@@ -117253,7 +117531,7 @@
         ],
         "description": "Speaker cone with three sound arcs, a small inner arc and wider outer arcs, crossed by a diagonal slash.",
         "searchText": "volumehighoffwide volume high off wide mute muted sound-off silent volume speaker audio speaker cone with three sound arcs, a small inner arc and wider outer arcs, crossed by a diagonal slash. media",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "VolumeHighWide",
@@ -122451,7 +122729,7 @@
         ],
         "description": "A search icon with magnifying glass for searching within an application window in its second variant.",
         "searchText": "windowsearchdots window search dots searchwindowlupe2 window application lupe search magnifying-glass find dots a search icon with magnifying glass for searching within an application window in its second variant. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowSearchPlain",
@@ -122477,7 +122755,7 @@
         ],
         "description": "A search icon with magnifying glass for searching within an application window in its first variant.",
         "searchText": "windowsearchplain window search plain searchwindowlupe1 window application lupe search magnifying-glass find plain a search icon with magnifying glass for searching within an application window in its first variant. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowSettings",
@@ -122504,7 +122782,7 @@
         ],
         "description": "Alternative settings application window with gear icon for configuration and preferences management. Represents system or application settings interfaces.",
         "searchText": "windowsettings window settings applicationwindow1settings4 window application gear settings preferences configuration system control alternative settings application window with gear icon for configuration and preferences management. represents system or application settings interfaces. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowSettingsBare",
@@ -122532,7 +122810,7 @@
         ],
         "description": "Application window with gear icon variant for system configuration or administrative tools. Used to represent control panels, system settings, or management applications.",
         "searchText": "windowsettingsbare window settings bare applicationwindow2settings2 window application gear settings system admin control management bare application window with gear icon variant for system configuration or administrative tools. used to represent control panels, system settings, or management applications. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowSettingsCenter",
@@ -122560,7 +122838,7 @@
         ],
         "description": "Application window with gear icon representing settings or configuration panels. Used to indicate system preferences or application configuration interfaces.",
         "searchText": "windowsettingscenter window settings center applicationwindow1settings3 window application gear settings configuration preferences options control center application window with gear icon representing settings or configuration panels. used to indicate system preferences or application configuration interfaces. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowSettingsCenterBare",
@@ -122589,7 +122867,7 @@
         ],
         "description": "Application window with gear icon representing configuration or settings applications. Used to indicate system preferences, application settings, or configuration tools.",
         "searchText": "windowsettingscenterbare window settings center bare applicationwindow2settings1 window application gear settings configuration preferences options tools center bare application window with gear icon representing configuration or settings applications. used to indicate system preferences, application settings, or configuration tools. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowShield",
@@ -122615,7 +122893,7 @@
         ],
         "description": "Application window with security shield icon. Represents secure applications, protected software, or security-focused interfaces.",
         "searchText": "windowshield window shield applicationwindow1shield2 window application shield security protection secure safety application window with security shield icon. represents secure applications, protected software, or security-focused interfaces. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowShieldBare",
@@ -122643,7 +122921,7 @@
         ],
         "description": "Protected application interface icon showing secure software environment. Represents application security features, protected windows, or secure program access.",
         "searchText": "windowshieldbare window shield bare applicationwindow2shield2 window application protection shield security secure interface safe bare protected application interface icon showing secure software environment. represents application security features, protected windows, or secure program access. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowShieldCenter",
@@ -122672,7 +122950,7 @@
         ],
         "description": "Application window with shield icon representing security or protection software. Used to indicate antivirus applications, security tools, or system protection programs.",
         "searchText": "windowshieldcenter window shield center applicationwindow1shield1 window application shield security protection antivirus safety defense guard center application window with shield icon representing security or protection software. used to indicate antivirus applications, security tools, or system protection programs. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowShieldCenterBare",
@@ -122701,7 +122979,7 @@
         ],
         "description": "Secure application window icon representing protected software or secure app environments. Used to indicate application security, protected windows, or secure software access.",
         "searchText": "windowshieldcenterbare window shield center bare applicationwindow2shield1 window application security shield protection secure software safe center bare secure application window icon representing protected software or secure app environments. used to indicate application security, protected windows, or secure software access. devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowShieldPlain",
@@ -122723,7 +123001,7 @@
         ],
         "description": "Window with a title bar and a shield at the bottom right corner.",
         "searchText": "windowshieldplain window shield plain window app interface dialog shield security protected window with a title bar and a shield at the bottom right corner. interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowSliders",
@@ -122750,7 +123028,7 @@
         ],
         "description": "An application window icon with levels sliders representing settings or adjustment controls",
         "searchText": "windowsliders window sliders applicationwindowlevels1 window application levels settings adjustment controls interface sliders an application window icon with levels sliders representing settings or adjustment controls devices interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "WindowSlidersPlain",

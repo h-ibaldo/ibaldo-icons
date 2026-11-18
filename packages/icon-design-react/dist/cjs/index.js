@@ -357,6 +357,7 @@ const ArrowCounterclockwiseBottomCircle = require('./icons/ArrowCounterclockwise
 const ArrowCounterclockwiseBottomSquare = require('./icons/ArrowCounterclockwiseBottomSquare.js');
 const ArrowCounterclockwiseCheckChevron = require('./icons/ArrowCounterclockwiseCheckChevron.js');
 const ArrowCounterclockwiseChevron = require('./icons/ArrowCounterclockwiseChevron.js');
+const ArrowCounterclockwiseChevron2 = require('./icons/ArrowCounterclockwiseChevron2.js');
 const ArrowCounterclockwiseCircle = require('./icons/ArrowCounterclockwiseCircle.js');
 const ArrowCounterclockwiseDotsChevron = require('./icons/ArrowCounterclockwiseDotsChevron.js');
 const ArrowCounterclockwiseDottedChevron = require('./icons/ArrowCounterclockwiseDottedChevron.js');
@@ -1344,6 +1345,7 @@ const ChatClockSharp = require('./icons/ChatClockSharp.js');
 const ChatClockSlant = require('./icons/ChatClockSlant.js');
 const ChatClockTall = require('./icons/ChatClockTall.js');
 const ChatClockTooltip = require('./icons/ChatClockTooltip.js');
+const ChatClockTooltip2 = require('./icons/ChatClockTooltip2.js');
 const ChatClockWide = require('./icons/ChatClockWide.js');
 const ChatDollar = require('./icons/ChatDollar.js');
 const ChatDollarBoxy = require('./icons/ChatDollarBoxy.js');
@@ -2263,6 +2265,7 @@ const ClipboardImage = require('./icons/ClipboardImage.js');
 const ClipboardImageLarge = require('./icons/ClipboardImageLarge.js');
 const ClipboardLink = require('./icons/ClipboardLink.js');
 const ClipboardLinkTilted = require('./icons/ClipboardLinkTilted.js');
+const ClipboardLinkTilted2 = require('./icons/ClipboardLinkTilted2.js');
 const ClipboardListCheckCircle = require('./icons/ClipboardListCheckCircle.js');
 const ClipboardListCheckCircleShort = require('./icons/ClipboardListCheckCircleShort.js');
 const ClipboardListCheckShort = require('./icons/ClipboardListCheckShort.js');
@@ -3641,6 +3644,15 @@ const MonitorChatBoxy = require('./icons/MonitorChatBoxy.js');
 const MonitorChatSlant = require('./icons/MonitorChatSlant.js');
 const MonitorCode = require('./icons/MonitorCode.js');
 const MonitorPulse = require('./icons/MonitorPulse.js');
+const Moon = require('./icons/Moon.js');
+const MoonCircle = require('./icons/MoonCircle.js');
+const MoonClock = require('./icons/MoonClock.js');
+const MoonFull = require('./icons/MoonFull.js');
+const MoonOff = require('./icons/MoonOff.js');
+const MoonSnooze = require('./icons/MoonSnooze.js');
+const MoonSparkle = require('./icons/MoonSparkle.js');
+const MoonSquare = require('./icons/MoonSquare.js');
+const MoonStar = require('./icons/MoonStar.js');
 const MoveUpDown = require('./icons/MoveUpDown.js');
 const MoveUpDownChevron = require('./icons/MoveUpDownChevron.js');
 const MoveUpDownChevronSmall = require('./icons/MoveUpDownChevronSmall.js');
@@ -5222,6 +5234,7 @@ module.exports = {
   ArrowCounterclockwiseBottomSquare: ArrowCounterclockwiseBottomSquare.default || ArrowCounterclockwiseBottomSquare,
   ArrowCounterclockwiseCheckChevron: ArrowCounterclockwiseCheckChevron.default || ArrowCounterclockwiseCheckChevron,
   ArrowCounterclockwiseChevron: ArrowCounterclockwiseChevron.default || ArrowCounterclockwiseChevron,
+  ArrowCounterclockwiseChevron2: ArrowCounterclockwiseChevron2.default || ArrowCounterclockwiseChevron2,
   ArrowCounterclockwiseCircle: ArrowCounterclockwiseCircle.default || ArrowCounterclockwiseCircle,
   ArrowCounterclockwiseDotsChevron: ArrowCounterclockwiseDotsChevron.default || ArrowCounterclockwiseDotsChevron,
   ArrowCounterclockwiseDottedChevron: ArrowCounterclockwiseDottedChevron.default || ArrowCounterclockwiseDottedChevron,
@@ -6209,6 +6222,7 @@ module.exports = {
   ChatClockSlant: ChatClockSlant.default || ChatClockSlant,
   ChatClockTall: ChatClockTall.default || ChatClockTall,
   ChatClockTooltip: ChatClockTooltip.default || ChatClockTooltip,
+  ChatClockTooltip2: ChatClockTooltip2.default || ChatClockTooltip2,
   ChatClockWide: ChatClockWide.default || ChatClockWide,
   ChatDollar: ChatDollar.default || ChatDollar,
   ChatDollarBoxy: ChatDollarBoxy.default || ChatDollarBoxy,
@@ -7128,6 +7142,7 @@ module.exports = {
   ClipboardImageLarge: ClipboardImageLarge.default || ClipboardImageLarge,
   ClipboardLink: ClipboardLink.default || ClipboardLink,
   ClipboardLinkTilted: ClipboardLinkTilted.default || ClipboardLinkTilted,
+  ClipboardLinkTilted2: ClipboardLinkTilted2.default || ClipboardLinkTilted2,
   ClipboardListCheckCircle: ClipboardListCheckCircle.default || ClipboardListCheckCircle,
   ClipboardListCheckCircleShort: ClipboardListCheckCircleShort.default || ClipboardListCheckCircleShort,
   ClipboardListCheckShort: ClipboardListCheckShort.default || ClipboardListCheckShort,
@@ -8506,6 +8521,15 @@ module.exports = {
   MonitorChatSlant: MonitorChatSlant.default || MonitorChatSlant,
   MonitorCode: MonitorCode.default || MonitorCode,
   MonitorPulse: MonitorPulse.default || MonitorPulse,
+  Moon: Moon.default || Moon,
+  MoonCircle: MoonCircle.default || MoonCircle,
+  MoonClock: MoonClock.default || MoonClock,
+  MoonFull: MoonFull.default || MoonFull,
+  MoonOff: MoonOff.default || MoonOff,
+  MoonSnooze: MoonSnooze.default || MoonSnooze,
+  MoonSparkle: MoonSparkle.default || MoonSparkle,
+  MoonSquare: MoonSquare.default || MoonSquare,
+  MoonStar: MoonStar.default || MoonStar,
   MoveUpDown: MoveUpDown.default || MoveUpDown,
   MoveUpDownChevron: MoveUpDownChevron.default || MoveUpDownChevron,
   MoveUpDownChevronSmall: MoveUpDownChevronSmall.default || MoveUpDownChevronSmall,

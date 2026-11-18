@@ -27,7 +27,10 @@ Folhas com os nomes: [`old-icon-set-1-1.png`](old-icon-set-1-1.png) e [`-2.png`]
 - `Award` e `CursorSquare` já estavam tomados: a roseta redonda virou `AwardRound` e a p0035, `CursorSquareCornerLarge`.
 - Parecidos com a biblioteca (entraram): `PlusCircleStackArcLeft`, `BackspaceRound`, `Arrow…SquareLong` (≈ `ArrowUpRightSquare`), `NodesTriangleUpright`.
 
-## Fora da importação
+## Fora da importação (entraram depois)
+
+Em 18/11 o Henrique aprovou: as duas entraram como `ArrowCounterclockwiseChevron2` e `ClipboardLinkTilted2`.
+
 
 - p0611 (`ArrowCounterclockwiseChevron2`): quase igual a `ArrowCounterclockwiseChevron` (media-control). As versões com selo (612–621) entraram.
 - p0525 (`ClipboardLinkTilted2`): quase igual a `ClipboardLinkTilted` (old-icon-set-4).
