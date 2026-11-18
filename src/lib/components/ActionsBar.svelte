@@ -390,6 +390,7 @@
     .pills.empty { padding-top: 0; padding-bottom: 0; }
     .pill {
         display: inline-flex;
+        height: 24px; /* same height as "Clear all", so the row never shifts */
         transform-origin: left center;
         align-items: center;
         gap: 0.35rem;
@@ -414,7 +415,14 @@
     .pill button:hover { color: white; }
     .pill-search { background: #0900FF; }
     .pill .pill-label { width: auto; height: auto; color: white; font-size: 12px; }
-    .pills .text-button { color: rgb(71 85 105); }
+    .pills .text-button {
+        display: inline-flex;
+        align-items: center;
+        height: 24px;
+        padding: 0 0.5rem;
+        line-height: 1;
+        color: rgb(71 85 105);
+    }
     .pills .text-button:hover { color: rgb(15 23 42); }
 
     .slider-group {
