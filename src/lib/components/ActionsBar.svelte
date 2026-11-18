@@ -1,6 +1,7 @@
 <script>
     import { onMount, onDestroy, tick } from 'svelte';
-    import { slide } from 'svelte/transition';
+    import { slide, scale, fade } from 'svelte/transition';
+    import { flip } from 'svelte/animate';
     import { cubicOut } from 'svelte/easing';
     import { browser } from '$app/environment';
 
@@ -76,6 +77,9 @@
             css: (t) => `clip-path: inset(0 ${(1 - t) * 100}% 0 0)`
         };
     }
+
+    // Pills grow in from 70% and fade; neighbours slide over (flip)
+    const pillAnim = { duration: 180, start: 0.7, easing: cubicOut };
 
     const label = (cat) => cat.charAt(0).toUpperCase() + cat.slice(1);
 
@@ -382,8 +386,11 @@
         gap: 0.5rem;
         padding: 10px 0;
     }
+    .pills { transition: padding 0.18s ease; }
+    .pills.empty { padding-top: 0; padding-bottom: 0; }
     .pill {
         display: inline-flex;
+        transform-origin: left center;
         align-items: center;
         gap: 0.35rem;
         padding: 0.25rem 0.35rem 0.25rem 0.6rem;
@@ -723,10 +730,10 @@
         </div>
     {/if}
 
-    {#if selectedCategories.length || (search && !searchOpen)}
-        <div class="pills" aria-label="Active filters">
+    <!-- Always rendered so pills can animate out, including the last one -->
+    <div class="pills {selectedCategories.length || (search && !searchOpen) ? '' : 'empty'}" aria-label="Active filters">
             {#if search && !searchOpen}
-                <span class="pill pill-search">
+                <span class="pill pill-search" transition:scale={pillAnim}>
                     <button type="button" class="pill-label" onclick={openSearch} aria-label="Edit search">“{search}”</button>
                     <button type="button" onclick={clearSearch} aria-label="Clear search">
                         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
@@ -737,7 +744,7 @@
                 </span>
             {/if}
             {#each selectedCategories as cat (cat)}
-                <span class="pill">
+                <span class="pill" transition:scale={pillAnim} animate:flip={{ duration: 200 }}>
                     {label(cat)}
                     <button type="button" onclick={() => removeCategory(cat)} aria-label="Remove filter {label(cat)}">
                         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
@@ -748,8 +755,7 @@
                 </span>
             {/each}
             {#if selectedCategories.length > 1}
-                <button type="button" class="text-button" onclick={clearCategories}>Clear all</button>
+                <button type="button" class="text-button" onclick={clearCategories} transition:fade={{ duration: 150 }}>Clear all</button>
             {/if}
         </div>
-    {/if}
 </div>
