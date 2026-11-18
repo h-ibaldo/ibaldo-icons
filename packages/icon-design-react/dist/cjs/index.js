@@ -3644,15 +3644,6 @@ const MonitorChatBoxy = require('./icons/MonitorChatBoxy.js');
 const MonitorChatSlant = require('./icons/MonitorChatSlant.js');
 const MonitorCode = require('./icons/MonitorCode.js');
 const MonitorPulse = require('./icons/MonitorPulse.js');
-const Moon = require('./icons/Moon.js');
-const MoonCircle = require('./icons/MoonCircle.js');
-const MoonClock = require('./icons/MoonClock.js');
-const MoonFull = require('./icons/MoonFull.js');
-const MoonOff = require('./icons/MoonOff.js');
-const MoonSnooze = require('./icons/MoonSnooze.js');
-const MoonSparkle = require('./icons/MoonSparkle.js');
-const MoonSquare = require('./icons/MoonSquare.js');
-const MoonStar = require('./icons/MoonStar.js');
 const MoveUpDown = require('./icons/MoveUpDown.js');
 const MoveUpDownChevron = require('./icons/MoveUpDownChevron.js');
 const MoveUpDownChevronSmall = require('./icons/MoveUpDownChevronSmall.js');
@@ -8521,15 +8512,6 @@ module.exports = {
   MonitorChatSlant: MonitorChatSlant.default || MonitorChatSlant,
   MonitorCode: MonitorCode.default || MonitorCode,
   MonitorPulse: MonitorPulse.default || MonitorPulse,
-  Moon: Moon.default || Moon,
-  MoonCircle: MoonCircle.default || MoonCircle,
-  MoonClock: MoonClock.default || MoonClock,
-  MoonFull: MoonFull.default || MoonFull,
-  MoonOff: MoonOff.default || MoonOff,
-  MoonSnooze: MoonSnooze.default || MoonSnooze,
-  MoonSparkle: MoonSparkle.default || MoonSparkle,
-  MoonSquare: MoonSquare.default || MoonSquare,
-  MoonStar: MoonStar.default || MoonStar,
   MoveUpDown: MoveUpDown.default || MoveUpDown,
   MoveUpDownChevron: MoveUpDownChevron.default || MoveUpDownChevron,
   MoveUpDownChevronSmall: MoveUpDownChevronSmall.default || MoveUpDownChevronSmall,
