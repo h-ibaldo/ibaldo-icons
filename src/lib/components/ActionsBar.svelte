@@ -387,7 +387,7 @@
         align-items: center;
         gap: 0.35rem;
         padding: 0.25rem 0.35rem 0.25rem 0.6rem;
-        background: rgb(15 23 42);
+        background: rgb(51 65 85); /* slate-700 */
         color: white;
         font-size: 12px;
         line-height: 1.2;
@@ -400,7 +400,7 @@
         height: 16px;
         background: none;
         border: none;
-        color: rgba(255, 255, 255, 0.7);
+        color: rgb(203 213 225); /* slate-300 */
         cursor: pointer;
         padding: 0;
     }
