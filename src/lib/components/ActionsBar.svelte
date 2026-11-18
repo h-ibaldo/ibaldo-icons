@@ -2,6 +2,7 @@
     import { onMount, onDestroy, tick } from 'svelte';
     import { slide, scale, fade } from 'svelte/transition';
     import { flip } from 'svelte/animate';
+    import ColorPicker from './ColorPicker.svelte';
     import { cubicOut } from 'svelte/easing';
     import { browser } from '$app/environment';
 
@@ -85,7 +86,7 @@
 
     // Color picker: presets plus the native picker for any color
     const COLOR_PRESETS = [
-        { name: 'Default', value: '' },
+        { name: 'Black (default)', value: '' },
         { name: 'Slate', value: '#64748b' },
         { name: 'Blue', value: '#0900FF' },
         { name: 'Indigo', value: '#4f46e5' },
@@ -98,9 +99,8 @@
     let colorOpen = false;
     let colorEl;
 
-    function pickColor(value) {
-        color = value;
-    }
+    // What the default ('' = currentColor) looks like on the page
+    const DEFAULT_INK = '#000000';
 
     const label = (cat) => cat.charAt(0).toUpperCase() + cat.slice(1);
 
@@ -544,64 +544,21 @@
     
     /* Icon color */
     .color-wrapper { position: relative; flex: 0 0 auto; }
+    /* Flat color with a constant light border. 30 CSS px = 60 px on a 2x screen */
     .swatch {
         display: block;
-        width: 16px;
-        height: 16px;
-        border: 1px solid rgba(255, 255, 255, 0.6);
+        width: 30px;
+        height: 30px;
+        border: 1px solid #cbd5e1;
     }
-    /* Default ink: white over black, split diagonally */
-    .swatch-default { background: linear-gradient(135deg, #fff 50%, #111 50%); }
     .color-popover {
         position: absolute;
         top: calc(100% + 0.25rem);
         right: 0;
         z-index: 3;
-        width: 188px;
+        width: 232px;
         background: rgb(30 41 59);
-        padding: 0.5rem;
-    }
-    .color-grid {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 4px;
-    }
-    .color-option {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        aspect-ratio: 1;
-        background: transparent;
-        border: 1px solid transparent;
-        cursor: pointer;
-    }
-    .color-option:hover { border-color: rgba(255, 255, 255, 0.3); }
-    .color-option.selected { border-color: white; }
-    .color-option .swatch { width: 20px; height: 20px; border-color: rgba(255, 255, 255, 0.25); }
-    .custom-color {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        margin-top: 0.5rem;
-        padding-top: 0.5rem;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        color: rgba(255, 255, 255, 0.75);
-        font-size: 12px;
-        cursor: pointer;
-    }
-    .custom-color input {
-        width: 24px;
-        height: 24px;
-        padding: 0;
-        border: none;
-        background: none;
-        cursor: pointer;
-    }
-    .custom-color .hex {
-        margin-left: auto;
-        color: rgba(255, 255, 255, 0.4);
-        font-variant-numeric: tabular-nums;
-        text-transform: uppercase;
+        padding: 0.75rem;
     }
 
     .sr-only {
@@ -796,29 +753,11 @@
                 aria-expanded={colorOpen}
                 aria-haspopup="dialog"
             >
-                <span class="swatch {color ? '' : 'swatch-default'}" style={color ? `background: ${color}` : ''}></span>
+                <span class="swatch" style="background: {color || DEFAULT_INK}"></span>
             </button>
             {#if colorOpen}
                 <div class="color-popover" role="dialog" aria-label="Icon color" transition:slide={{ duration: 160, easing: cubicOut }}>
-                    <div class="color-grid">
-                        {#each COLOR_PRESETS as preset}
-                            <button
-                                type="button"
-                                class="color-option {color === preset.value ? 'selected' : ''}"
-                                onclick={() => pickColor(preset.value)}
-                                aria-label={preset.name}
-                                aria-pressed={color === preset.value}
-                                title={preset.name}
-                            >
-                                <span class="swatch {preset.value ? '' : 'swatch-default'}" style={preset.value ? `background: ${preset.value}` : ''}></span>
-                            </button>
-                        {/each}
-                    </div>
-                    <label class="custom-color">
-                        <input type="color" value={color || '#111111'} oninput={(e) => pickColor(e.target.value)} />
-                        <span>Custom</span>
-                        <span class="hex">{color || 'Default'}</span>
-                    </label>
+                    <ColorPicker bind:value={color} presets={COLOR_PRESETS} defaultColor={DEFAULT_INK} />
                 </div>
             {/if}
         </div>
