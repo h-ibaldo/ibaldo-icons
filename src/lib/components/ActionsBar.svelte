@@ -26,7 +26,6 @@
 
     async function openSearch() {
         searchOpen = true;
-        filtersOpen = false;
         await tick();
         if (searchInput) searchInput.focus();
     }
@@ -214,7 +213,7 @@
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        padding: 0.25rem 0.25rem;
+        padding: 0.25rem var(--bar-pad, 0.25rem);
         min-height: 3rem;
     }
 
@@ -263,9 +262,14 @@
     .bar-stack { position: relative; }
 
     /* Blue search bar: covers the dark bar completely, all one blue */
+    /* Starts at the search button and covers the bar to the right; the
+       funnel (first button) stays visible and usable */
     .search-bar {
         position: absolute;
-        inset: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: calc(var(--bar-pad, 0.25rem) + 2.5rem);
         z-index: 2;
         display: flex;
         align-items: center;
@@ -533,9 +537,10 @@
         .collapse-button svg { transform: rotate(180deg); } /* panel is above the bar: collapse downward */
         .pills { order: -2; }
         .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .actions-bar-container { --bar-pad: 0.5rem; }
         .actions-bar {
             gap: 0.75rem;
-            padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+            padding: 0.5rem var(--bar-pad) 1.5rem;
         }
         .search-input { font-size: 16px; } /* no zoom on focus */
         .shortcut { display: none; }
@@ -599,19 +604,6 @@
 
     <div class="actions-bar bg-slate-900">
         <div class="bar-buttons">
-            <button
-                type="button"
-                class="bar-button {searchOpen || search ? 'active' : ''}"
-                onclick={toggleSearch}
-                aria-label="Search icons"
-                aria-expanded={searchOpen}
-                aria-controls="icon-search"
-            >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <circle cx="11" cy="11" r="9"></circle>
-                    <line x1="17.364" y1="17.364" x2="22" y2="22"></line>
-                </svg>
-            </button>
             {#if categories.length > 0}
                 <button
                     type="button"
@@ -627,6 +619,19 @@
                     {#if selectedCategories.length}<span class="badge">{selectedCategories.length}</span>{/if}
                 </button>
             {/if}
+            <button
+                type="button"
+                class="bar-button {searchOpen || search ? 'active' : ''}"
+                onclick={toggleSearch}
+                aria-label="Search icons"
+                aria-expanded={searchOpen}
+                aria-controls="icon-search"
+            >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="9"></circle>
+                    <line x1="17.364" y1="17.364" x2="22" y2="22"></line>
+                </svg>
+            </button>
         </div>
 
         <!-- Size Slider -->
