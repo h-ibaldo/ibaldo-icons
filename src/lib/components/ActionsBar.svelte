@@ -373,17 +373,13 @@
 
     /* Active filters, below the bar and above the icons */
     /* Active filters: part of the sticky block, so they scroll with the bar.
-       White strip so icons scrolling underneath don't show through. */
+       No background: the icons pass behind the pills. */
     .pills {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         gap: 0.5rem;
         padding: 10px 0;
-        background: white;
-        /* extend the white strip to the full window width (the bar is 750px) */
-        box-shadow: 0 0 0 100vmax white;
-        clip-path: inset(0 -100vmax);
     }
     .pill {
         display: inline-flex;
