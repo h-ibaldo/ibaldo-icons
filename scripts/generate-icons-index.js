@@ -8,6 +8,7 @@
  */
 
 import { promises as fs } from 'fs';
+import { createHash } from 'crypto';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import iconNames from './utils/icon-names.cjs';
@@ -16,6 +17,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const INDEX_PATH = join(__dirname, '..', 'static', 'icons-index.json');
 const COUNT_PATH = join(__dirname, '..', 'src', 'lib', 'icon-count.js');
 const FOLDER = 'optimized';
+const CHUNKS_DIR = join(__dirname, '..', 'static', 'icons', 'chunks');
+// Icons per SVG bundle. The site loads a bundle when one of its icons scrolls
+// into view, so ~25 requests cover the whole library instead of one per icon.
+const CHUNK_SIZE = 200;
 
 // "AvatarFaceTopKnot" -> "Avatar face top knot"
 function toSentenceCase(name) {
@@ -61,8 +66,27 @@ async function generateIndex() {
   // Featured icons (the avatars) first, then alphabetical
   entries.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || a.name.localeCompare(b.name));
 
+  // SVG bundles, in display order: chunk-<n>-<hash>.json = { "<filename>": "<svg>" }.
+  // The hash in the name makes each bundle safe to cache forever.
+  await fs.rm(CHUNKS_DIR, { recursive: true, force: true });
+  await fs.mkdir(CHUNKS_DIR, { recursive: true });
+  const chunks = [];
+  for (let start = 0; start < entries.length; start += CHUNK_SIZE) {
+    const bundle = {};
+    for (const entry of entries.slice(start, start + CHUNK_SIZE)) {
+      bundle[entry.filename] = (await fs.readFile(join(iconNames.ICONS_DIR, entry.filename), 'utf-8')).trim();
+    }
+    const body = JSON.stringify(bundle);
+    const hash = createHash('sha1').update(body).digest('hex').slice(0, 8);
+    const file = `chunk-${chunks.length}-${hash}.json`;
+    await fs.writeFile(join(CHUNKS_DIR, file), body, 'utf-8');
+    for (const entry of entries.slice(start, start + CHUNK_SIZE)) entry.chunk = chunks.length;
+    chunks.push(`/icons/chunks/${file}`);
+  }
+
   const index = {
     categories: [...categories].sort(),
+    chunks,
     icons: { [FOLDER]: entries }
   };
 
@@ -75,7 +99,7 @@ async function generateIndex() {
     'utf-8'
   );
   console.log(`✓ Index generated: ${INDEX_PATH}`);
-  console.log(`✓ ${entries.length} icons, ${index.categories.length} categories`);
+  console.log(`✓ ${entries.length} icons, ${index.categories.length} categories, ${chunks.length} SVG bundles`);
 }
 
 generateIndex().catch((error) => {
