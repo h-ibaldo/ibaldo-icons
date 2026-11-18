@@ -64,6 +64,16 @@
         selectedCategories = [];
     }
 
+    // The blue search bar rolls over the dark bar from left to right, like a
+    // carpet laid on top of it (and rolls back when closing)
+    function roll(node, { duration = 320 } = {}) {
+        return {
+            duration,
+            easing: cubicOut,
+            css: (t) => `clip-path: inset(0 ${(1 - t) * 100}% 0 0)`
+        };
+    }
+
     const label = (cat) => cat.charAt(0).toUpperCase() + cat.slice(1);
 
     function handleOutsideClick(e) {
@@ -245,20 +255,25 @@
         font-variant-numeric: tabular-nums;
     }
 
-    /* Blue search bar that slides in above the dark bar */
+    /* The dark bar and the blue search bar laid over it */
+    .bar-stack { position: relative; }
+
+    /* Blue search bar: covers the dark bar completely, all one blue */
     .search-bar {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
         display: flex;
         align-items: center;
         gap: 0.5rem;
         background: #0900FF;
         padding: 0 0.25rem 0 0.75rem;
-        overflow: hidden;
     }
     .search-input {
         flex: 1;
         min-width: 0;
-        height: 3rem;
-        background: #0700CC;
+        height: 100%;
+        background: transparent;
         border: none;
         outline: none;
         color: white;
@@ -275,7 +290,7 @@
 
     /* Filter panel: as wide as the bar, categories in columns */
     .filter-panel {
-        background: rgb(15 23 42);
+        background: rgb(30 41 59); /* one step lighter than the bar */
         border-top: 1px solid rgba(255, 255, 255, 0.1);
         overflow: hidden;
     }
@@ -531,8 +546,9 @@
 </style>
 
 <div class="actions-bar-container" bind:this={containerEl}>
+    <div class="bar-stack">
     {#if searchOpen}
-        <div class="search-bar" transition:slide={{ duration: 220, easing: cubicOut }}>
+        <div class="search-bar" transition:roll>
             <label for="icon-search" class="sr-only">Search icons</label>
             <input
                 id="icon-search"
@@ -630,6 +646,8 @@
             </div>
             <span class="slider-value" aria-hidden="true">{localWeight}pt</span>
         </div>
+    </div>
+
     </div>
 
     {#if filtersOpen}
