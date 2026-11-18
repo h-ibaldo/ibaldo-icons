@@ -320,26 +320,46 @@
   $: currentIcons = allIcons;
 
   // Filter icons based on category and search
-  $: filteredIcons = currentIcons.filter(icon => {
-    if (selectedCategory) {
-      const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
-      if (!iconCats.includes(selectedCategory)) return false;
-    }
-    if (!search) return true;
+  // Search: an icon matches when every word of the query is in its search
+  // text (name, aliases, tags, description, categories) or the whole query
+  // is in its name. Results are ranked so the icons NAMED after the query come
+  // first: exact name, name starts with it, name contains it, alias or display
+  // name, exact tag, partial tag, and last description only. Inside a rank
+  // the order stays alphabetical (Array.sort is stable).
+  function searchRank(icon, words, joined) {
+    const name = icon.name.toLowerCase();
+    if (name === joined) return 0;
+    if (name.startsWith(joined)) return 1;
+    if (name.includes(joined)) return 2;
+    if ((icon.aliases || []).some((a) => a.toLowerCase().includes(joined)) ||
+        (icon.displayName || '').toLowerCase().includes(words.join(' '))) return 3;
+    const tags = (icon.tags || []).map((t) => t.toLowerCase());
+    if (words.every((w) => tags.includes(w))) return 4;
+    if (words.every((w) => tags.some((t) => t.includes(w)))) return 5;
+    return 6;
+  }
 
-    const searchLower = search.toLowerCase();
+  function matchesSearch(icon, words, joined) {
+    const text = icon.searchText || [icon.name, icon.displayName, ...(icon.tags || []), icon.description || ''].join(' ').toLowerCase();
+    return icon.name.toLowerCase().includes(joined) || words.every((w) => text.includes(w));
+  }
 
-    // Use pre-computed searchText if available (includes name, displayName, tags, description)
-    if (icon.searchText) {
-      return icon.searchText.includes(searchLower);
-    }
-
-    // Fallback to basic search
-    return icon.name.toLowerCase().includes(searchLower) ||
-           (icon.displayName && icon.displayName.toLowerCase().includes(searchLower)) ||
-           (icon.tags && icon.tags.some(tag => tag.toLowerCase().includes(searchLower))) ||
-           (icon.description && icon.description.toLowerCase().includes(searchLower));
-  });
+  $: filteredIcons = (() => {
+    const inCategory = selectedCategory
+      ? currentIcons.filter((icon) => {
+          const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
+          return iconCats.includes(selectedCategory);
+        })
+      : currentIcons;
+    const words = search.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    if (!words.length) return inCategory;
+    const joined = words.join('');
+    return inCategory
+      .filter((icon) => matchesSearch(icon, words, joined))
+      .map((icon) => ({ icon, rank: searchRank(icon, words, joined) }))
+      .sort((x, y) => x.rank - y.rank)
+      .map((x) => x.icon);
+  })();
 
   // Virtual window over the filtered icons. The hero text takes the first
   // two cells of row 0 when there is no search.
