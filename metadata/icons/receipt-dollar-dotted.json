@@ -1,0 +1,38 @@
+{
+  "name": "ReceiptDollarDotted",
+  "displayName": "Receipt dollar dotted",
+  "description": "Rolled receipt with a jagged top, a dotted list and a dollar sign.",
+  "tags": [
+    "receipt",
+    "bill",
+    "invoice",
+    "payment",
+    "dotted",
+    "money",
+    "price",
+    "dollar",
+    "expense"
+  ],
+  "categories": [
+    "shopping",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Receipt"
+  },
+  "filename": "receipt-dollar-dotted",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "DocumentListHeart",
+  "displayName": "Document list heart",
+  "description": "Document with a bulleted list and a heart at the bottom right.",
+  "tags": [
+    "document",
+    "page",
+    "file",
+    "sheet",
+    "wishlist",
+    "favorite",
+    "like",
+    "heart",
+    "list"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Favorites list"
+  },
+  "filename": "document-list-heart",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

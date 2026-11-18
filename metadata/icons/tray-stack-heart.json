@@ -1,0 +1,37 @@
+{
+  "name": "TrayStackHeart",
+  "displayName": "Tray stack heart",
+  "description": "Tray with two stacked trays behind it and a heart on the front.",
+  "tags": [
+    "tray",
+    "stack",
+    "archive",
+    "inbox",
+    "favorite",
+    "like",
+    "heart",
+    "storage",
+    "drawer"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Favorite archive"
+  },
+  "filename": "tray-stack-heart",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

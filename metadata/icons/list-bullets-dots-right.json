@@ -1,0 +1,37 @@
+{
+  "name": "ListBulletsDotsRight",
+  "displayName": "List bullets dots right",
+  "description": "Bulleted list of five lines with a column of dot pairs on the right.",
+  "tags": [
+    "list",
+    "items",
+    "lines",
+    "menu",
+    "table",
+    "columns",
+    "more",
+    "pending",
+    "dots"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "List"
+  },
+  "filename": "list-bullets-dots-right",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

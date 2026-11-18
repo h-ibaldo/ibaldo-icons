@@ -1,0 +1,35 @@
+{
+  "name": "CalendarSevenHeader",
+  "displayName": "Calendar seven header",
+  "description": "Calendar with a header line and the digit 7 below it.",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "event",
+    "seven",
+    "week",
+    "day"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Date"
+  },
+  "filename": "calendar-seven-header",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

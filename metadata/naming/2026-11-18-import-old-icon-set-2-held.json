@@ -1,0 +1,2741 @@
+{
+  "old-icon-set-2-p0011": {
+    "name": "BluetoothRectangle",
+    "displayName": "Bluetooth rectangle",
+    "description": "Bluetooth rune inside a tall rectangle with small rounded corners.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "frame",
+      "rectangle"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0012": {
+    "name": "BluetoothRectangleBroken",
+    "displayName": "Bluetooth rectangle broken",
+    "description": "Broken Bluetooth rune (top drawn as a detached hook) inside a tall rectangle with small rounded corners.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "frame",
+      "rectangle",
+      "broken"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0013": {
+    "name": "BluetoothPill",
+    "displayName": "Bluetooth pill",
+    "description": "Bluetooth rune inside a tall pill shape.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "frame",
+      "pill",
+      "capsule"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0014": {
+    "name": "BluetoothOffPillBroken",
+    "displayName": "Bluetooth off pill broken",
+    "description": "Broken Bluetooth rune (top drawn as a detached hook) inside a tall pill shape, crossed by a diagonal slash.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "disconnected",
+      "disabled",
+      "off",
+      "pill",
+      "capsule",
+      "broken"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth off"
+    }
+  },
+  "old-icon-set-2-p0015": {
+    "name": "BluetoothRectangleRound",
+    "displayName": "Bluetooth rectangle round",
+    "description": "Bluetooth rune inside a tall rectangle with large rounded corners.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "frame",
+      "rectangle"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0016": {
+    "name": "BluetoothRectangleRoundBroken",
+    "displayName": "Bluetooth rectangle round broken",
+    "description": "Broken Bluetooth rune (top drawn as a detached hook) inside a tall rectangle with large rounded corners.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "frame",
+      "rectangle",
+      "broken"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0017": {
+    "name": "BluetoothCircle",
+    "displayName": "Bluetooth circle",
+    "description": "Bluetooth rune inside a circle.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "button",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0018": {
+    "name": "BluetoothSquare",
+    "displayName": "Bluetooth square",
+    "description": "Bluetooth rune inside a rounded square.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "button",
+      "square",
+      "rounded-square"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0019": {
+    "name": "BluetoothCircleBroken",
+    "displayName": "Bluetooth circle broken",
+    "description": "Broken Bluetooth rune (top drawn as a detached hook) inside a circle.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "button",
+      "circle",
+      "round",
+      "broken"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0020": {
+    "name": "BluetoothSquareBroken",
+    "displayName": "Bluetooth square broken",
+    "description": "Broken Bluetooth rune (top drawn as a detached hook) inside a rounded square.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "button",
+      "square",
+      "rounded-square",
+      "broken"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0021": {
+    "name": "BluetoothDotDoubleCircle",
+    "displayName": "Bluetooth dot double circle",
+    "description": "Bluetooth rune with a small dot on each side, inside a circle.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "connected",
+      "paired",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth connected"
+    }
+  },
+  "old-icon-set-2-p0022": {
+    "name": "BluetoothDotDoubleSquare",
+    "displayName": "Bluetooth dot double square",
+    "description": "Bluetooth rune with a small dot on each side, inside a rounded square.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "connected",
+      "paired",
+      "square",
+      "rounded-square"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth connected"
+    }
+  },
+  "old-icon-set-2-p0023": {
+    "name": "BluetoothSmall",
+    "displayName": "Bluetooth small",
+    "description": "Small bluetooth rune.",
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "connection",
+      "pairing",
+      "on",
+      "small"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth"
+    }
+  },
+  "old-icon-set-2-p0024": {
+    "name": "VolumeBluetooth",
+    "displayName": "Volume bluetooth",
+    "description": "Speaker with a small Bluetooth rune at the bottom right.",
+    "tags": [
+      "speaker",
+      "sound",
+      "audio",
+      "volume",
+      "bluetooth-speaker",
+      "wireless",
+      "bluetooth",
+      "pairing"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth speaker"
+    }
+  },
+  "old-icon-set-2-p0025": {
+    "name": "EarbudsBluetooth",
+    "displayName": "Earbuds bluetooth",
+    "description": "Pair of earbuds with a small Bluetooth rune at the bottom right.",
+    "tags": [
+      "earbuds",
+      "earphones",
+      "headphones",
+      "audio",
+      "airpods",
+      "pairing",
+      "bluetooth",
+      "wireless"
+    ],
+    "categories": [
+      "devices",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bluetooth earbuds"
+    }
+  },
+  "old-icon-set-2-p0031": {
+    "name": "BombFuse",
+    "displayName": "Bomb fuse",
+    "description": "Round bomb with a cap and a long arched fuse throwing sparks.",
+    "tags": [
+      "bomb",
+      "explosive",
+      "danger",
+      "boom",
+      "fuse",
+      "spark",
+      "threat"
+    ],
+    "categories": [
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bomb"
+    }
+  },
+  "old-icon-set-2-p0042": {
+    "name": "BookOpenText",
+    "displayName": "Book open text",
+    "description": "Open book with two text lines on each page.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "ebook",
+      "text",
+      "read",
+      "education"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open book"
+    }
+  },
+  "old-icon-set-2-p0057": {
+    "name": "NotebookBinder",
+    "displayName": "Notebook binder",
+    "description": "Notebook with no left edge, held by three ring clips.",
+    "tags": [
+      "notebook",
+      "notes",
+      "spiral",
+      "journal",
+      "binder",
+      "rings",
+      "diary"
+    ],
+    "categories": [
+      "education",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Notebook"
+    }
+  },
+  "old-icon-set-2-p0068": {
+    "name": "BookOpenCoverCircle",
+    "displayName": "Book open cover circle",
+    "description": "Open book lying on its cover, inside a circle.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "ebook",
+      "circle",
+      "round",
+      "education"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open book"
+    }
+  },
+  "old-icon-set-2-p0112": {
+    "name": "BookshelfDouble",
+    "displayName": "Bookshelf double",
+    "description": "Bookshelf frame with two rows of books.",
+    "tags": [
+      "bookshelf",
+      "books",
+      "library",
+      "shelf",
+      "shelves",
+      "bookcase",
+      "reading"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bookshelf"
+    }
+  },
+  "old-icon-set-2-p0123": {
+    "name": "TagPercentRound",
+    "displayName": "Tag percent round",
+    "description": "Rounded diagonal tag with a hole and a percent sign.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "discount",
+      "sale",
+      "percent",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount"
+    }
+  },
+  "old-icon-set-2-p0124": {
+    "name": "TagPercentStringRound",
+    "displayName": "Tag percent string round",
+    "description": "Rounded diagonal tag with a percent sign, hanging from a straight string.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "string",
+      "discount",
+      "sale",
+      "percent",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount"
+    }
+  },
+  "old-icon-set-2-p0125": {
+    "name": "TagStringUpRound",
+    "displayName": "Tag string up round",
+    "description": "Rounded diagonal tag hanging from a straight string that goes up.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "string",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Price tag"
+    }
+  },
+  "old-icon-set-2-p0127": {
+    "name": "TagBarsStringRound",
+    "displayName": "Tag bars string round",
+    "description": "Rounded diagonal tag with two bars, hanging from a straight string.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "string",
+      "barcode",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Price tag"
+    }
+  },
+  "old-icon-set-2-p0129": {
+    "name": "TagPlusCircleRound",
+    "displayName": "Tag plus circle round",
+    "description": "Rounded diagonal tag with a plus in a circle at the bottom right.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "add",
+      "plus",
+      "circle",
+      "round",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add tag"
+    }
+  },
+  "old-icon-set-2-p0130": {
+    "name": "TagMinusCircleRound",
+    "displayName": "Tag minus circle round",
+    "description": "Rounded diagonal tag with a minus in a circle at the bottom right.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "remove",
+      "minus",
+      "circle",
+      "round",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove tag"
+    }
+  },
+  "old-icon-set-2-p0132": {
+    "name": "TagDotsCircleRound",
+    "displayName": "Tag dots circle round",
+    "description": "Rounded diagonal tag with two dots in a circle at the bottom right.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "more",
+      "options",
+      "pending",
+      "dots",
+      "circle",
+      "round",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tag options"
+    }
+  },
+  "old-icon-set-2-p0133": {
+    "name": "TagClockRound",
+    "displayName": "Tag clock round",
+    "description": "Rounded diagonal tag with a clock at the bottom right.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "limited-offer",
+      "deadline",
+      "time",
+      "clock",
+      "reminder",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tag time"
+    }
+  },
+  "old-icon-set-2-p0141": {
+    "name": "TagDotsTilted",
+    "displayName": "Tag dots tilted",
+    "description": "Tilted tag with three dots in a column below its right end.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "more",
+      "options",
+      "pending",
+      "dots",
+      "tilted",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tag options"
+    }
+  },
+  "old-icon-set-2-p0145": {
+    "name": "TagSyncRound",
+    "displayName": "Tag sync round",
+    "description": "Rounded diagonal tag with two curved arrows at the bottom right.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "price-update",
+      "sync",
+      "update",
+      "reload",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Update price"
+    }
+  },
+  "old-icon-set-2-p0146": {
+    "name": "TagRefreshRound",
+    "displayName": "Tag refresh round",
+    "description": "Rounded diagonal tag with one curved arrow at the bottom right.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "price-update",
+      "refresh",
+      "reload",
+      "repeat",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Refresh price"
+    }
+  },
+  "old-icon-set-2-p0149": {
+    "name": "TagStackSquareTilted",
+    "displayName": "Tag stack square tilted",
+    "description": "Two stacked tilted tags inside a rounded square.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "tags",
+      "stack",
+      "multiple",
+      "square",
+      "rounded-square",
+      "tilted",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tags"
+    }
+  },
+  "old-icon-set-2-p0151": {
+    "name": "TagOffSquareTilted",
+    "displayName": "Tag off square tilted",
+    "description": "Tilted tag inside a rounded square with a diagonal slash.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "no-tag",
+      "disabled",
+      "off",
+      "square",
+      "rounded-square",
+      "tilted",
+      "shopping"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tag off"
+    }
+  },
+  "old-icon-set-2-p0170": {
+    "name": "TrashCircleBucket",
+    "displayName": "Trash circle bucket",
+    "description": "Bucket-shaped trash can inside a circle.",
+    "tags": [
+      "trash",
+      "bin",
+      "bucket",
+      "delete",
+      "circle",
+      "round",
+      "waste"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Delete"
+    }
+  },
+  "old-icon-set-2-p0171": {
+    "name": "TrashSquareBucket",
+    "displayName": "Trash square bucket",
+    "description": "Bucket-shaped trash can inside a rounded square.",
+    "tags": [
+      "trash",
+      "bin",
+      "bucket",
+      "delete",
+      "square",
+      "rounded-square",
+      "waste"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Delete"
+    }
+  },
+  "old-icon-set-2-p0182": {
+    "name": "CodeSlashSquareLarge",
+    "displayName": "Code slash square large",
+    "description": "Large curly braces with a slash between them, filling a rounded square.",
+    "tags": [
+      "code",
+      "braces",
+      "curly-brackets",
+      "programming",
+      "square",
+      "slash",
+      "html",
+      "tag",
+      "rounded-square",
+      "large",
+      "developer"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code"
+    }
+  },
+  "old-icon-set-2-p0201": {
+    "name": "SunCircleSplitSparse",
+    "displayName": "Sun circle split sparse",
+    "description": "Small sun with six rays inside a ring split into three arcs, one arc on top.",
+    "tags": [
+      "brightness",
+      "sun",
+      "light",
+      "display",
+      "auto",
+      "loading",
+      "circle",
+      "round",
+      "auto-brightness"
+    ],
+    "categories": [
+      "interface",
+      "weather"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Brightness"
+    }
+  },
+  "old-icon-set-2-p0202": {
+    "name": "SunCircleSplitSparseTilted",
+    "displayName": "Sun circle split sparse tilted",
+    "description": "Small sun with six rays inside a ring split into three rotated arcs.",
+    "tags": [
+      "brightness",
+      "sun",
+      "light",
+      "display",
+      "auto",
+      "loading",
+      "circle",
+      "round",
+      "tilted",
+      "auto-brightness"
+    ],
+    "categories": [
+      "interface",
+      "weather"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Brightness"
+    }
+  },
+  "old-icon-set-2-p0203": {
+    "name": "SunCircleSplit",
+    "displayName": "Sun circle split",
+    "description": "Small sun with eight rays inside a ring split into three arcs, one arc on top.",
+    "tags": [
+      "brightness",
+      "sun",
+      "light",
+      "display",
+      "auto",
+      "loading",
+      "circle",
+      "round",
+      "auto-brightness"
+    ],
+    "categories": [
+      "interface",
+      "weather"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Brightness"
+    }
+  },
+  "old-icon-set-2-p0204": {
+    "name": "SunCircleSplitTilted",
+    "displayName": "Sun circle split tilted",
+    "description": "Small sun with eight rays inside a ring split into three rotated arcs.",
+    "tags": [
+      "brightness",
+      "sun",
+      "light",
+      "display",
+      "auto",
+      "loading",
+      "circle",
+      "round",
+      "tilted",
+      "auto-brightness"
+    ],
+    "categories": [
+      "interface",
+      "weather"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Brightness"
+    }
+  },
+  "old-icon-set-2-p0228": {
+    "name": "WidgetDotsCircle",
+    "displayName": "Widget dots circle",
+    "description": "Circle with a window panel, with three dots in its title bar, filling the bottom right part.",
+    "tags": [
+      "widget",
+      "app",
+      "panel",
+      "layout",
+      "dots",
+      "more",
+      "pending",
+      "circle",
+      "round",
+      "card"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Widget"
+    }
+  },
+  "old-icon-set-2-p0229": {
+    "name": "WidgetDotsSquare",
+    "displayName": "Widget dots square",
+    "description": "Rounded square with a window panel, with three dots in its title bar, filling the bottom right part.",
+    "tags": [
+      "widget",
+      "app",
+      "panel",
+      "layout",
+      "dots",
+      "more",
+      "pending",
+      "square",
+      "rounded-square",
+      "card"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Widget"
+    }
+  },
+  "old-icon-set-2-p0230": {
+    "name": "WidgetWifiDotsSquare",
+    "displayName": "Widget wifi dots square",
+    "description": "Rounded square with signal arcs at the top right and a small window panel with three dots at the bottom left.",
+    "tags": [
+      "widget",
+      "app",
+      "panel",
+      "layout",
+      "wireless",
+      "wifi",
+      "dots",
+      "more",
+      "pending",
+      "square",
+      "rounded-square",
+      "card"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wireless widget"
+    }
+  },
+  "old-icon-set-2-p0231": {
+    "name": "WindowProgressBar",
+    "displayName": "Window progress bar",
+    "description": "Window with three dots in the title bar and a striped progress bar in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "progress",
+      "loading"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Loading window"
+    }
+  },
+  "old-icon-set-2-p0232": {
+    "name": "WindowToggle",
+    "displayName": "Window toggle",
+    "description": "Window with three dots in the title bar and a toggle switch in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "toggle",
+      "switch"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Window toggle"
+    }
+  },
+  "old-icon-set-2-p0233": {
+    "name": "WindowButton",
+    "displayName": "Window button",
+    "description": "Window with three dots in the title bar and a pill-shaped button in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "action",
+      "button"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Window button"
+    }
+  },
+  "old-icon-set-2-p0234": {
+    "name": "WindowSyncLarge",
+    "displayName": "Window sync large",
+    "description": "Window with three dots in the title bar and two large curved arrows in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "sync",
+      "update",
+      "reload",
+      "large"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync window"
+    }
+  },
+  "old-icon-set-2-p0235": {
+    "name": "WindowSync",
+    "displayName": "Window sync",
+    "description": "Window with three dots in the title bar and two curved arrows forming a circle in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "sync",
+      "update",
+      "reload"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync window"
+    }
+  },
+  "old-icon-set-2-p0236": {
+    "name": "WindowSpinnerDotsSmall",
+    "displayName": "Window spinner dots small",
+    "description": "Window with three dots in the title bar and a small ring of dots in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "loading",
+      "spinner",
+      "progress",
+      "wait",
+      "more",
+      "pending",
+      "dots",
+      "small"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Loading window"
+    }
+  },
+  "old-icon-set-2-p0237": {
+    "name": "WindowSpinnerDots",
+    "displayName": "Window spinner dots",
+    "description": "Window with three dots in the title bar and a ring of eight dots in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "loading",
+      "spinner",
+      "progress",
+      "wait",
+      "more",
+      "pending",
+      "dots"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Loading window"
+    }
+  },
+  "old-icon-set-2-p0238": {
+    "name": "WindowSpinnerDotsArc",
+    "displayName": "Window spinner dots arc",
+    "description": "Window with three dots in the title bar and an open arc of five dots in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "loading",
+      "spinner",
+      "progress",
+      "wait",
+      "more",
+      "pending",
+      "dots"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Loading window"
+    }
+  },
+  "old-icon-set-2-p0239": {
+    "name": "WindowSpinnerRays",
+    "displayName": "Window spinner rays",
+    "description": "Window with three dots in the title bar and a spinner of short rays in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "loading",
+      "spinner",
+      "progress",
+      "wait"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Loading window"
+    }
+  },
+  "old-icon-set-2-p0245": {
+    "name": "WwwWindow",
+    "displayName": "Www window",
+    "description": "Letters WWW between a window title bar with three dots and a bottom line.",
+    "tags": [
+      "www",
+      "website",
+      "web",
+      "internet",
+      "window",
+      "browser",
+      "url",
+      "domain"
+    ],
+    "categories": [
+      "communication",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Website"
+    }
+  },
+  "old-icon-set-2-p0247": {
+    "name": "WindowKeyhole",
+    "displayName": "Window keyhole",
+    "description": "Window with three dots in the title bar and a keyhole in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "keyhole",
+      "lock",
+      "secure",
+      "private"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked window"
+    }
+  },
+  "old-icon-set-2-p0248": {
+    "name": "WindowSettingsCenterNotch",
+    "displayName": "Window settings center notch",
+    "description": "Window with three dots in the title bar, a gear in the middle and a small notch on the left edge.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "notch",
+      "panel",
+      "settings",
+      "gear",
+      "configure"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Window settings"
+    }
+  },
+  "old-icon-set-2-p0256": {
+    "name": "WindowLock",
+    "displayName": "Window lock",
+    "description": "Window with three dots in the title bar and a padlock at the bottom right corner.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "lock",
+      "private",
+      "secure"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked window"
+    }
+  },
+  "old-icon-set-2-p0280": {
+    "name": "WindowSyncLargePlain",
+    "displayName": "Window sync large plain",
+    "description": "Window with a plain title bar and two large curved arrows in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "sync",
+      "update",
+      "reload",
+      "large"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync window"
+    }
+  },
+  "old-icon-set-2-p0281": {
+    "name": "WindowSyncPlain",
+    "displayName": "Window sync plain",
+    "description": "Window with a plain title bar and two curved arrows forming a circle in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "sync",
+      "update",
+      "reload"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync window"
+    }
+  },
+  "old-icon-set-2-p0282": {
+    "name": "WindowSpinnerDotsSmallPlain",
+    "displayName": "Window spinner dots small plain",
+    "description": "Window with a plain title bar and a small ring of dots in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "loading",
+      "spinner",
+      "progress",
+      "wait",
+      "more",
+      "pending",
+      "dots",
+      "small"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Loading window"
+    }
+  },
+  "old-icon-set-2-p0283": {
+    "name": "WindowSpinnerDotsPlain",
+    "displayName": "Window spinner dots plain",
+    "description": "Window with a plain title bar and a ring of eight dots in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "loading",
+      "spinner",
+      "progress",
+      "wait",
+      "more",
+      "pending",
+      "dots"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Loading window"
+    }
+  },
+  "old-icon-set-2-p0284": {
+    "name": "WindowSpinnerDotsArcPlain",
+    "displayName": "Window spinner dots arc plain",
+    "description": "Window with a plain title bar and an open arc of five dots in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "loading",
+      "spinner",
+      "progress",
+      "wait",
+      "more",
+      "pending",
+      "dots"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Loading window"
+    }
+  },
+  "old-icon-set-2-p0285": {
+    "name": "WindowSpinnerRaysPlain",
+    "displayName": "Window spinner rays plain",
+    "description": "Window with a plain title bar and a spinner of short rays in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "loading",
+      "spinner",
+      "progress",
+      "wait"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Loading window"
+    }
+  },
+  "old-icon-set-2-p0286": {
+    "name": "WindowSettingsCenterPlain",
+    "displayName": "Window settings center plain",
+    "description": "Window with a plain title bar and a gear in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "settings",
+      "gear",
+      "configure"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Window settings"
+    }
+  },
+  "old-icon-set-2-p0293": {
+    "name": "WindowKeyholePlain",
+    "displayName": "Window keyhole plain",
+    "description": "Window with a plain title bar and a keyhole in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "keyhole",
+      "lock",
+      "secure",
+      "private"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked window"
+    }
+  },
+  "old-icon-set-2-p0294": {
+    "name": "WindowSettingsCenterNotchPlain",
+    "displayName": "Window settings center notch plain",
+    "description": "Window with a plain title bar, a gear in the middle and a small notch on the left edge.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "notch",
+      "panel",
+      "settings",
+      "gear",
+      "configure"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Window settings"
+    }
+  },
+  "old-icon-set-2-p0295": {
+    "name": "WindowStarCenterPlain",
+    "displayName": "Window star center plain",
+    "description": "Window with a plain title bar and a star in the middle.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "star",
+      "favorite",
+      "important"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite window"
+    }
+  },
+  "old-icon-set-2-p0311": {
+    "name": "CardProfile",
+    "displayName": "Card profile",
+    "description": "Card with a circle and two lines in the top section, above a divider line.",
+    "tags": [
+      "card",
+      "profile",
+      "user",
+      "account",
+      "contact",
+      "header",
+      "avatar",
+      "id-card"
+    ],
+    "categories": [
+      "people",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Profile card"
+    }
+  },
+  "old-icon-set-2-p0315": {
+    "name": "ScanWindowBare",
+    "displayName": "Scan window bare",
+    "description": "Small window with two dots and no title bar, inside four viewfinder corners.",
+    "tags": [
+      "scan",
+      "focus",
+      "viewfinder",
+      "window",
+      "screenshot",
+      "capture"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Capture window"
+    }
+  },
+  "old-icon-set-2-p0318": {
+    "name": "TrayStackPlus",
+    "displayName": "Tray stack plus",
+    "description": "Tray with two stacked trays behind it and a plus on the front.",
+    "tags": [
+      "tray",
+      "stack",
+      "archive",
+      "inbox",
+      "add",
+      "plus",
+      "storage",
+      "drawer"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to archive"
+    }
+  },
+  "old-icon-set-2-p0321": {
+    "name": "TrayStackHeart",
+    "displayName": "Tray stack heart",
+    "description": "Tray with two stacked trays behind it and a heart on the front.",
+    "tags": [
+      "tray",
+      "stack",
+      "archive",
+      "inbox",
+      "favorite",
+      "like",
+      "heart",
+      "storage",
+      "drawer"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite archive"
+    }
+  },
+  "old-icon-set-2-p0322": {
+    "name": "TrayStackFlat",
+    "displayName": "Tray stack flat",
+    "description": "Tray with two flat lines stacked above it.",
+    "tags": [
+      "tray",
+      "stack",
+      "archive",
+      "inbox",
+      "storage",
+      "drawer"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Archive"
+    }
+  },
+  "old-icon-set-2-p0323": {
+    "name": "TrayStackCheckFlat",
+    "displayName": "Tray stack check flat",
+    "description": "Tray with two flat lines stacked above it and a check on the front.",
+    "tags": [
+      "tray",
+      "stack",
+      "archive",
+      "inbox",
+      "done",
+      "confirm",
+      "approved",
+      "storage",
+      "drawer"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Archived"
+    }
+  },
+  "old-icon-set-2-p0324": {
+    "name": "TrayStackPlusFlat",
+    "displayName": "Tray stack plus flat",
+    "description": "Tray with two flat lines stacked above it and a plus on the front.",
+    "tags": [
+      "tray",
+      "stack",
+      "archive",
+      "inbox",
+      "add",
+      "plus",
+      "storage",
+      "drawer"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to archive"
+    }
+  },
+  "old-icon-set-2-p0325": {
+    "name": "TrayStackMinusFlat",
+    "displayName": "Tray stack minus flat",
+    "description": "Tray with two flat lines stacked above it and a minus on the front.",
+    "tags": [
+      "tray",
+      "stack",
+      "archive",
+      "inbox",
+      "remove",
+      "minus",
+      "storage",
+      "drawer"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from archive"
+    }
+  },
+  "old-icon-set-2-p0326": {
+    "name": "TrayStackXFlat",
+    "displayName": "Tray stack x flat",
+    "description": "Tray with two flat lines stacked above it and an X on the front.",
+    "tags": [
+      "tray",
+      "stack",
+      "archive",
+      "inbox",
+      "close",
+      "cancel",
+      "delete",
+      "storage",
+      "drawer"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete archive"
+    }
+  },
+  "old-icon-set-2-p0327": {
+    "name": "TrayStackHeartFlat",
+    "displayName": "Tray stack heart flat",
+    "description": "Tray with two flat lines stacked above it and a heart on the front.",
+    "tags": [
+      "tray",
+      "stack",
+      "archive",
+      "inbox",
+      "favorite",
+      "like",
+      "heart",
+      "storage",
+      "drawer"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite archive"
+    }
+  },
+  "old-icon-set-2-p0357": {
+    "name": "ListClockDash",
+    "displayName": "List clock dash",
+    "description": "Clock at the top left beside short lines, above two dash-bullet lines.",
+    "tags": [
+      "list",
+      "items",
+      "lines",
+      "menu",
+      "history",
+      "recent",
+      "schedule",
+      "time",
+      "clock",
+      "reminder"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Recent list"
+    }
+  },
+  "old-icon-set-2-p0366": {
+    "name": "DocumentList",
+    "displayName": "Document list",
+    "description": "Document with a bulleted list of three lines.",
+    "tags": [
+      "document",
+      "page",
+      "file",
+      "sheet",
+      "bullets",
+      "list"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List document"
+    }
+  },
+  "old-icon-set-2-p0367": {
+    "name": "DocumentListPlusCircle",
+    "displayName": "Document list plus circle",
+    "description": "Document with a bulleted list and a plus in a circle at the bottom right.",
+    "tags": [
+      "document",
+      "page",
+      "file",
+      "sheet",
+      "add",
+      "plus",
+      "circle",
+      "round",
+      "list"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to list"
+    }
+  },
+  "old-icon-set-2-p0368": {
+    "name": "DocumentListMinusCircle",
+    "displayName": "Document list minus circle",
+    "description": "Document with a bulleted list and a minus in a circle at the bottom right.",
+    "tags": [
+      "document",
+      "page",
+      "file",
+      "sheet",
+      "remove",
+      "minus",
+      "circle",
+      "round",
+      "list"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "old-icon-set-2-p0369": {
+    "name": "DocumentListXCircle",
+    "displayName": "Document list x circle",
+    "description": "Document with a bulleted list and an X in a circle at the bottom right.",
+    "tags": [
+      "document",
+      "page",
+      "file",
+      "sheet",
+      "close",
+      "cancel",
+      "delete",
+      "circle",
+      "round",
+      "list"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete list"
+    }
+  },
+  "old-icon-set-2-p0370": {
+    "name": "DocumentListCheckCircle",
+    "displayName": "Document list check circle",
+    "description": "Document with a bulleted list and a check in a circle at the bottom right.",
+    "tags": [
+      "document",
+      "page",
+      "file",
+      "sheet",
+      "done",
+      "confirm",
+      "approved",
+      "circle",
+      "round",
+      "list"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List done"
+    }
+  },
+  "old-icon-set-2-p0381": {
+    "name": "DocumentChecklistClock",
+    "displayName": "Document checklist clock",
+    "description": "Document with three checked lines and a clock at the bottom right.",
+    "tags": [
+      "document",
+      "page",
+      "file",
+      "sheet",
+      "pending",
+      "deadline",
+      "time",
+      "clock",
+      "reminder",
+      "list"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scheduled tasks"
+    }
+  },
+  "old-icon-set-2-p0383": {
+    "name": "DocumentListHeart",
+    "displayName": "Document list heart",
+    "description": "Document with a bulleted list and a heart at the bottom right.",
+    "tags": [
+      "document",
+      "page",
+      "file",
+      "sheet",
+      "wishlist",
+      "favorite",
+      "like",
+      "heart",
+      "list"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorites list"
+    }
+  },
+  "old-icon-set-2-p0387": {
+    "name": "DocumentListCurl",
+    "displayName": "Document list curl",
+    "description": "Document with a bulleted list and a folded bottom right corner.",
+    "tags": [
+      "document",
+      "page",
+      "file",
+      "sheet",
+      "note",
+      "list"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List document"
+    }
+  },
+  "old-icon-set-2-p0394": {
+    "name": "ReceiptDollarDotted",
+    "displayName": "Receipt dollar dotted",
+    "description": "Rolled receipt with a jagged top, a dotted list and a dollar sign.",
+    "tags": [
+      "receipt",
+      "bill",
+      "invoice",
+      "payment",
+      "dotted",
+      "money",
+      "price",
+      "dollar",
+      "expense"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "old-icon-set-2-p0395": {
+    "name": "ListBulletsDotsRight",
+    "displayName": "List bullets dots right",
+    "description": "Bulleted list of five lines with a column of dot pairs on the right.",
+    "tags": [
+      "list",
+      "items",
+      "lines",
+      "menu",
+      "table",
+      "columns",
+      "more",
+      "pending",
+      "dots"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List"
+    }
+  },
+  "old-icon-set-2-p0397": {
+    "name": "WindowListPlusPlain",
+    "displayName": "Window list plus plain",
+    "description": "Window with a plain title bar and a dash-bullet list, with a plus at the bottom right.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "add",
+      "plus"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to list"
+    }
+  },
+  "old-icon-set-2-p0398": {
+    "name": "WindowListMinusPlain",
+    "displayName": "Window list minus plain",
+    "description": "Window with a plain title bar and a dash-bullet list, with a minus at the bottom right.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "remove",
+      "minus"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "old-icon-set-2-p0399": {
+    "name": "WindowListXPlain",
+    "displayName": "Window list x plain",
+    "description": "Window with a plain title bar and a dash-bullet list, with an X at the bottom right.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "delete",
+      "close",
+      "cancel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete from list"
+    }
+  },
+  "old-icon-set-2-p0400": {
+    "name": "WindowListCheckPlain",
+    "displayName": "Window list check plain",
+    "description": "Window with a plain title bar and a dash-bullet list, with a check at the bottom right.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "done",
+      "confirm",
+      "approved"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List done"
+    }
+  },
+  "old-icon-set-2-p0401": {
+    "name": "WindowListPlusCirclePlain",
+    "displayName": "Window list plus circle plain",
+    "description": "Window with a plain title bar and a dash-bullet list, with a plus in a circle at the bottom right.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "add",
+      "plus",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to list"
+    }
+  },
+  "old-icon-set-2-p0402": {
+    "name": "WindowListMinusCirclePlain",
+    "displayName": "Window list minus circle plain",
+    "description": "Window with a plain title bar and a dash-bullet list, with a minus in a circle at the bottom right.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "remove",
+      "minus",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "old-icon-set-2-p0403": {
+    "name": "WindowListXCirclePlain",
+    "displayName": "Window list x circle plain",
+    "description": "Window with a plain title bar and a dash-bullet list, with an X in a circle at the bottom right.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "delete",
+      "close",
+      "cancel",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete from list"
+    }
+  },
+  "old-icon-set-2-p0404": {
+    "name": "WindowListCheckCirclePlain",
+    "displayName": "Window list check circle plain",
+    "description": "Window with a plain title bar and a dash-bullet list, with a check in a circle at the bottom right.",
+    "tags": [
+      "window",
+      "app",
+      "interface",
+      "dialog",
+      "done",
+      "confirm",
+      "approved",
+      "circle",
+      "round"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List done"
+    }
+  },
+  "old-icon-set-2-p0418": {
+    "name": "CalendarHash",
+    "displayName": "Calendar hash",
+    "description": "Calendar with a header line and a horizontal line crossed by two short vertical lines.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "timeline",
+      "week",
+      "hash",
+      "range",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar range"
+    }
+  },
+  "old-icon-set-2-p0431": {
+    "name": "CalendarSevenHeader",
+    "displayName": "Calendar seven header",
+    "description": "Calendar with a header line and the digit 7 below it.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "seven",
+      "week",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Date"
+    }
+  },
+  "old-icon-set-2-p0432": {
+    "name": "CalendarSeventeenHeader",
+    "displayName": "Calendar seventeen header",
+    "description": "Calendar with a header line and the number 17 below it.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "seventeen",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Date"
+    }
+  },
+  "old-icon-set-2-p0454": {
+    "name": "CalendarPlus",
+    "displayName": "Calendar plus",
+    "description": "Calendar with a header line and a plus below it.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "add",
+      "new-event",
+      "plus",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add event"
+    }
+  },
+  "old-icon-set-2-p0469": {
+    "name": "CalendarWarning",
+    "displayName": "Calendar warning",
+    "description": "Calendar open at the bottom right with a warning triangle with an exclamation mark.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "alert",
+      "conflict",
+      "warning",
+      "attention",
+      "caution",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar warning"
+    }
+  },
+  "old-icon-set-2-p0477": {
+    "name": "CalendarPercentHeader",
+    "displayName": "Calendar percent header",
+    "description": "Calendar with a header line and a percent sign below it.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "sale",
+      "discount",
+      "promotion",
+      "percent",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sale date"
+    }
+  },
+  "old-icon-set-2-p0479": {
+    "name": "CalendarSearchDotted",
+    "displayName": "Calendar search dotted",
+    "description": "Calendar with a header line, a grid of dots and a magnifier at the bottom right.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "find-date",
+      "search",
+      "find",
+      "dotted",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search calendar"
+    }
+  },
+  "old-icon-set-2-p0480": {
+    "name": "CalendarSearchHeader",
+    "displayName": "Calendar search header",
+    "description": "Calendar with a header line and a magnifier at the bottom right.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "find-date",
+      "search",
+      "find",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search calendar"
+    }
+  },
+  "old-icon-set-2-p0492": {
+    "name": "CalendarSettings",
+    "displayName": "Calendar settings",
+    "description": "Calendar open at the bottom right with a gear.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "preferences",
+      "configure",
+      "settings",
+      "gear",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar settings"
+    }
+  },
+  "old-icon-set-2-p0504": {
+    "name": "CalendarMusic",
+    "displayName": "Calendar music",
+    "description": "Calendar with a music note in the middle.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "concert",
+      "festival",
+      "music",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Music event"
+    }
+  },
+  "old-icon-set-2-p0514": {
+    "name": "DeskUser",
+    "displayName": "Desk user",
+    "description": "Person behind a table between two chair arms, with three small squares above.",
+    "tags": [
+      "desk",
+      "meeting",
+      "office",
+      "reception",
+      "interview",
+      "counter",
+      "service",
+      "user",
+      "person",
+      "assign",
+      "workspace"
+    ],
+    "categories": [
+      "people",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Meeting"
+    }
+  },
+  "old-icon-set-2-p0515": {
+    "name": "CalendarStackDotted",
+    "displayName": "Calendar stack dotted",
+    "description": "Calendar page with a grid of dots in front of a second offset page.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "pages",
+      "multiple",
+      "stack",
+      "dotted",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendars"
+    }
+  },
+  "old-icon-set-2-p0516": {
+    "name": "PeopleHoldingHands",
+    "displayName": "People holding hands",
+    "description": "Two people with round heads holding hands.",
+    "tags": [
+      "people",
+      "couple",
+      "friends",
+      "together",
+      "partners",
+      "pair",
+      "relationship",
+      "holding-hands"
+    ],
+    "categories": [
+      "people",
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Two people"
+    }
+  },
+  "old-icon-set-2-p0520": {
+    "name": "CalendarAlertCircle",
+    "displayName": "Calendar alert circle",
+    "description": "Calendar with an exclamation mark in a circle at the bottom right.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "important",
+      "reminder",
+      "alert",
+      "exclamation",
+      "circle",
+      "round",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar alert"
+    }
+  },
+  "old-icon-set-2-p0522": {
+    "name": "PeopleHoldingHandsSlim",
+    "displayName": "People holding hands slim",
+    "description": "Two slim stick-like people holding hands.",
+    "tags": [
+      "people",
+      "couple",
+      "friends",
+      "together",
+      "partners",
+      "pair",
+      "relationship",
+      "holding-hands"
+    ],
+    "categories": [
+      "people",
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Two people"
+    }
+  },
+  "old-icon-set-2-p0525": {
+    "name": "CalendarCellsRight",
+    "displayName": "Calendar cells right",
+    "description": "Calendar with a grid of day cells drawn as corner marks, with two small squares in the right column.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "selected-days",
+      "grid",
+      "cells",
+      "days",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Selected days"
+    }
+  },
+  "old-icon-set-2-p0526": {
+    "name": "CalendarCellsLeft",
+    "displayName": "Calendar cells left",
+    "description": "Calendar with a grid of day cells drawn as corner marks, with two small squares in the left column.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "selected-days",
+      "grid",
+      "cells",
+      "days",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Selected days"
+    }
+  },
+  "old-icon-set-2-p0528": {
+    "name": "TableClock",
+    "displayName": "Table clock",
+    "description": "Grid table open at the bottom right with a clock.",
+    "tags": [
+      "table",
+      "timesheet",
+      "schedule",
+      "grid",
+      "clock",
+      "hours",
+      "shift",
+      "time",
+      "reminder",
+      "spreadsheet"
+    ],
+    "categories": [
+      "time",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timesheet"
+    }
+  },
+  "old-icon-set-2-p0534": {
+    "name": "VideoReels",
+    "displayName": "Video reels",
+    "description": "Video camera with two film reels on top.",
+    "tags": [
+      "video",
+      "camera",
+      "video-call",
+      "recording",
+      "movie-camera",
+      "film",
+      "movie",
+      "cinema",
+      "reels",
+      "meeting"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Movie camera"
+    }
+  },
+  "old-icon-set-2-p0542": {
+    "name": "VideoSquareDot",
+    "displayName": "Video square dot",
+    "description": "Small video camera inside a rounded square with a dot at the top right corner.",
+    "tags": [
+      "video",
+      "camera",
+      "video-call",
+      "recording",
+      "notification",
+      "live",
+      "square",
+      "rounded-square",
+      "meeting"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Video"
+    }
+  },
+  "old-icon-set-2-p0564": {
+    "name": "CertificateSeal",
+    "displayName": "Certificate seal",
+    "description": "Document with text lines and a jagged seal with ribbon at the right.",
+    "tags": [
+      "certificate",
+      "diploma",
+      "award",
+      "document",
+      "seal",
+      "rosette",
+      "achievement"
+    ],
+    "categories": [
+      "education",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Certificate"
+    }
+  },
+  "old-icon-set-2-p0566": {
+    "name": "BadgeJagged",
+    "displayName": "Badge jagged",
+    "description": "Jagged rosette badge with an empty circle in the center.",
+    "tags": [
+      "badge",
+      "rosette",
+      "seal",
+      "award",
+      "quality",
+      "stamp",
+      "verified"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Badge"
+    }
+  },
+  "old-icon-set-2-p0568": {
+    "name": "AwardSquare",
+    "displayName": "Award square",
+    "description": "Star-shaped rosette with two ribbon tails inside a frame open at the bottom.",
+    "tags": [
+      "award",
+      "prize",
+      "ribbon",
+      "star",
+      "frame",
+      "square",
+      "rounded-square",
+      "achievement",
+      "winner"
+    ],
+    "categories": [
+      "social",
+      "sports"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Award"
+    }
+  },
+  "old-icon-set-2-p0569": {
+    "name": "CertificateSealWide",
+    "displayName": "Certificate seal wide",
+    "description": "Wide frame with a top line and a jagged seal with ribbon at the bottom.",
+    "tags": [
+      "certificate",
+      "diploma",
+      "award",
+      "document",
+      "seal",
+      "rosette",
+      "achievement"
+    ],
+    "categories": [
+      "education",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Certificate"
+    }
+  },
+  "old-icon-set-2-p0570": {
+    "name": "CertificateWide",
+    "displayName": "Certificate wide",
+    "description": "Wide frame with a top line and a round medal with ribbon at the bottom.",
+    "tags": [
+      "certificate",
+      "diploma",
+      "award",
+      "document",
+      "medal",
+      "achievement"
+    ],
+    "categories": [
+      "education",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Certificate"
+    }
+  },
+  "old-icon-set-2-p0572": {
+    "name": "CertificateTall",
+    "displayName": "Certificate tall",
+    "description": "Tall frame with a top line and a round medal with ribbon at the bottom.",
+    "tags": [
+      "certificate",
+      "diploma",
+      "award",
+      "document",
+      "medal",
+      "achievement"
+    ],
+    "categories": [
+      "education",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Certificate"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "CalendarCellsRight",
+  "displayName": "Calendar cells right",
+  "description": "Calendar with a grid of day cells drawn as corner marks, with two small squares in the right column.",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "event",
+    "selected-days",
+    "grid",
+    "cells",
+    "days",
+    "day"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Selected days"
+  },
+  "filename": "calendar-cells-right",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}
