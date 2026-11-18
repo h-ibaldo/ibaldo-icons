@@ -275,8 +275,10 @@
         align-items: center;
         gap: 0.5rem;
         background: #0900FF;
-        padding: 0 0.25rem 0 0.75rem;
+        padding: 0 0.25rem 0 0;
+        gap: 0;
     }
+    .search-bar .search-bar-icon { flex: 0 0 auto; opacity: 1; }
     .search-input {
         flex: 1;
         min-width: 0;
@@ -286,7 +288,7 @@
         outline: none;
         color: white;
         font-size: 14px;
-        padding: 0 0.75rem;
+        padding: 0 0.75rem 0 0.25rem;
     }
     .search-input::placeholder { color: rgba(255, 255, 255, 0.6); }
     /* No focus ring or border: the input is part of the blue bar */
@@ -580,6 +582,14 @@
     <div class="bar-stack">
     {#if searchOpen}
         <div class="search-bar" transition:roll>
+            <!-- Same size and place as the search button underneath, so the
+                 magnifier stays exactly where it was -->
+            <button type="button" class="bar-button search-bar-icon" onclick={closeSearch} aria-label="Close search" tabindex="-1">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="9"></circle>
+                    <line x1="17.364" y1="17.364" x2="22" y2="22"></line>
+                </svg>
+            </button>
             <label for="icon-search" class="sr-only">Search icons</label>
             <input
                 id="icon-search"
