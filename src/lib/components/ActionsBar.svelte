@@ -238,7 +238,8 @@
         transition: opacity 0.15s ease, background-color 0.15s ease;
     }
     .bar-button:hover, .bar-button.active { opacity: 1; }
-    .bar-button.active { background-color: rgba(255, 255, 255, 0.08); }
+    /* Active = full opacity only; a background box showed the bar's padding
+       on three sides next to the blue search bar */
     .bar-button:focus-visible { outline: 2px solid white; outline-offset: -2px; opacity: 1; }
     .bar-button svg :global(*) { stroke-width: 2; }
 
