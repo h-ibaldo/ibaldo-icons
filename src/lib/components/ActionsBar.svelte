@@ -14,6 +14,8 @@
     export let selectedCategories = [];
     // { category: number of icons }, shown next to each filter
     export let categoryCounts = {};
+    // Icon color: '' = default ink
+    export let color = '';
     
     let isSmallScreen = false;
     let maxSize = 92;
@@ -81,10 +83,30 @@
     // Pills grow in from 70% and fade; neighbours slide over (flip)
     const pillAnim = { duration: 180, start: 0.7, easing: cubicOut };
 
+    // Color picker: presets plus the native picker for any color
+    const COLOR_PRESETS = [
+        { name: 'Default', value: '' },
+        { name: 'Slate', value: '#64748b' },
+        { name: 'Blue', value: '#0900FF' },
+        { name: 'Indigo', value: '#4f46e5' },
+        { name: 'Teal', value: '#0d9488' },
+        { name: 'Green', value: '#16a34a' },
+        { name: 'Amber', value: '#d97706' },
+        { name: 'Red', value: '#dc2626' },
+        { name: 'Pink', value: '#db2777' }
+    ];
+    let colorOpen = false;
+    let colorEl;
+
+    function pickColor(value) {
+        color = value;
+    }
+
     const label = (cat) => cat.charAt(0).toUpperCase() + cat.slice(1);
 
     function handleOutsideClick(e) {
         if (filtersOpen && containerEl && !containerEl.contains(e.target)) filtersOpen = false;
+        if (colorOpen && colorEl && !colorEl.contains(e.target)) colorOpen = false;
     }
 
     // Local values for immediate slider feedback
@@ -164,6 +186,7 @@
             openSearch();
         }
         if (e.key === 'Escape' && filtersOpen) filtersOpen = false;
+        if (e.key === 'Escape' && colorOpen) colorOpen = false;
     }
     
     function getShortcutLabel() {
@@ -519,6 +542,68 @@
         box-shadow: 0 0 0 2px #0900FF;
     }
     
+    /* Icon color */
+    .color-wrapper { position: relative; flex: 0 0 auto; }
+    .swatch {
+        display: block;
+        width: 16px;
+        height: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    /* Default ink: white over black, split diagonally */
+    .swatch-default { background: linear-gradient(135deg, #fff 50%, #111 50%); }
+    .color-popover {
+        position: absolute;
+        top: calc(100% + 0.25rem);
+        right: 0;
+        z-index: 3;
+        width: 188px;
+        background: rgb(30 41 59);
+        padding: 0.5rem;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 4px;
+    }
+    .color-option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1;
+        background: transparent;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+    .color-option:hover { border-color: rgba(255, 255, 255, 0.3); }
+    .color-option.selected { border-color: white; }
+    .color-option .swatch { width: 20px; height: 20px; border-color: rgba(255, 255, 255, 0.25); }
+    .custom-color {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .custom-color input {
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    .custom-color .hex {
+        margin-left: auto;
+        color: rgba(255, 255, 255, 0.4);
+        font-variant-numeric: tabular-nums;
+        text-transform: uppercase;
+    }
+
     .sr-only {
         position: absolute;
         width: 1px;
@@ -548,7 +633,8 @@
         }
         /* The bar sits at the bottom, so the filter panel opens above it */
         .filter-panel { order: -1; border-top: none; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-        .collapse-button svg { transform: rotate(180deg); } /* panel is above the bar: collapse downward */
+        .collapse-button svg { transform: rotate(180deg); }
+        .color-popover { top: auto; bottom: calc(100% + 0.25rem); } /* panel is above the bar: collapse downward */
         .pills { order: -2; }
         .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         .actions-bar-container { --bar-pad: 0.5rem; }
@@ -698,6 +784,43 @@
                 />
             </div>
             <span class="slider-value" aria-hidden="true">{localWeight}pt</span>
+        </div>
+
+        <!-- Icon color -->
+        <div class="color-wrapper" bind:this={colorEl}>
+            <button
+                type="button"
+                class="bar-button {colorOpen || color ? 'active' : ''}"
+                onclick={() => (colorOpen = !colorOpen)}
+                aria-label="Icon color"
+                aria-expanded={colorOpen}
+                aria-haspopup="dialog"
+            >
+                <span class="swatch {color ? '' : 'swatch-default'}" style={color ? `background: ${color}` : ''}></span>
+            </button>
+            {#if colorOpen}
+                <div class="color-popover" role="dialog" aria-label="Icon color" transition:slide={{ duration: 160, easing: cubicOut }}>
+                    <div class="color-grid">
+                        {#each COLOR_PRESETS as preset}
+                            <button
+                                type="button"
+                                class="color-option {color === preset.value ? 'selected' : ''}"
+                                onclick={() => pickColor(preset.value)}
+                                aria-label={preset.name}
+                                aria-pressed={color === preset.value}
+                                title={preset.name}
+                            >
+                                <span class="swatch {preset.value ? '' : 'swatch-default'}" style={preset.value ? `background: ${preset.value}` : ''}></span>
+                            </button>
+                        {/each}
+                    </div>
+                    <label class="custom-color">
+                        <input type="color" value={color || '#111111'} oninput={(e) => pickColor(e.target.value)} />
+                        <span>Custom</span>
+                        <span class="hex">{color || 'Default'}</span>
+                    </label>
+                </div>
+            {/if}
         </div>
     </div>
 

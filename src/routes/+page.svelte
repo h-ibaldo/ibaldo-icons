@@ -9,6 +9,8 @@
   let loadingCategories = true;
   let size = 48;
   let weight = 1.5;
+  // Icon color ('' = default ink); the grid's `color` drives currentColor
+  let iconColor = '';
   let currentCategory = '';
   let selectedCategories = [];
   let search = '';
@@ -158,6 +160,8 @@
     
     const svgString = icon.svg;
     let processed = svgString;
+    // Downloaded SVGs carry the chosen color instead of currentColor
+    if (iconColor) processed = processed.replace(/currentColor/g, iconColor);
     
     // Update width and height
     processed = processed.replace(/(<svg[^>]*\s)width=["']\d+["']/gi, `$1width="${targetSize}"`);
@@ -651,7 +655,7 @@
   {/if}
 </div>
 
-<ActionsBar bind:search bind:size bind:weight bind:selectedCategories {totalIcons} {categories} {categoryCounts} />
+<ActionsBar bind:search bind:size bind:weight bind:color={iconColor} bind:selectedCategories {totalIcons} {categories} {categoryCounts} />
 <div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden mobile-content" id="main-content" tabindex="-1">
 
   <div class="mb-8">
@@ -669,7 +673,7 @@
                   class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 sm:gap-x-4 justify-items-center"
                   role="list"
                   aria-label="Icon grid"
-                  style="--icon-size: {size}px; --stroke-width: {weight}px;"
+                  style="--icon-size: {size}px; --stroke-width: {weight}px;{iconColor ? ` color: ${iconColor};` : ''}"
               >
                   <!-- Hero text block - responsive column spans -->
                   {#if !filtering && firstRow === 0}
