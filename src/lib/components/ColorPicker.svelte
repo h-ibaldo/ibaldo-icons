@@ -4,6 +4,8 @@
     export let value = '';
     export let presets = [];
     export let defaultColor = '#000000';
+    // Wide layout: area on the left, controls on the right (full-width panel)
+    export let wide = false;
 
     let hue = 0, sat = 0, val = 0; // h 0-360, s/v 0-1
     let hexInput = '';
@@ -103,7 +105,7 @@
     $: current = (value || defaultColor).toUpperCase();
 </script>
 
-<div class="picker">
+<div class="picker {wide ? 'wide' : ''}">
     <div
         class="area"
         bind:this={area}
@@ -119,6 +121,7 @@
         <div class="handle" style="left: {sat * 100}%; top: {(1 - val) * 100}%; background: {current}"></div>
     </div>
 
+    <div class="controls">
     <input
         class="hue"
         type="range"
@@ -160,6 +163,7 @@
             {/each}
         </div>
     {/if}
+    </div>
 </div>
 
 <style>
@@ -169,6 +173,18 @@
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+    }
+    .controls { display: flex; flex-direction: column; gap: 0.5rem; }
+    .picker.wide {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 240px;
+        gap: 0.75rem;
+    }
+    .picker.wide .area { height: 150px; }
+    .picker.wide .controls { justify-content: space-between; }
+    @media (max-width: 640px) {
+        .picker.wide { grid-template-columns: 1fr; }
+        .picker.wide .area { height: 120px; }
     }
     .area {
         position: relative;

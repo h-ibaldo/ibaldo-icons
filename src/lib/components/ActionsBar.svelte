@@ -55,6 +55,12 @@
 
     function toggleFilters() {
         filtersOpen = !filtersOpen;
+        if (filtersOpen) colorOpen = false;
+    }
+
+    function toggleColor() {
+        colorOpen = !colorOpen;
+        if (colorOpen) filtersOpen = false;
     }
 
     function toggleCategory(cat) {
@@ -106,7 +112,7 @@
 
     function handleOutsideClick(e) {
         if (filtersOpen && containerEl && !containerEl.contains(e.target)) filtersOpen = false;
-        if (colorOpen && colorEl && !colorEl.contains(e.target)) colorOpen = false;
+        if (colorOpen && containerEl && !containerEl.contains(e.target)) colorOpen = false;
     }
 
     // Local values for immediate slider feedback
@@ -551,15 +557,8 @@
         height: 23px;
         border: 1px solid #cbd5e1;
     }
-    .color-popover {
-        position: absolute;
-        top: calc(100% + 0.25rem);
-        right: 0;
-        z-index: 3;
-        width: 232px;
-        background: rgb(30 41 59);
-        padding: 0.75rem;
-    }
+    .color-panel { padding: 0.75rem 0.75rem 0; }
+    .color-panel .filter-footer { padding: 0.25rem 0 0.25rem; }
 
     .sr-only {
         position: absolute;
@@ -748,18 +747,13 @@
             <button
                 type="button"
                 class="bar-button {colorOpen || color ? 'active' : ''}"
-                onclick={() => (colorOpen = !colorOpen)}
+                onclick={toggleColor}
                 aria-label="Icon color"
                 aria-expanded={colorOpen}
-                aria-haspopup="dialog"
+                aria-controls="color-panel"
             >
                 <span class="swatch" style="background: {color || DEFAULT_INK}"></span>
             </button>
-            {#if colorOpen}
-                <div class="color-popover" role="dialog" aria-label="Icon color" transition:slide={{ duration: 160, easing: cubicOut }}>
-                    <ColorPicker bind:value={color} presets={COLOR_PRESETS} defaultColor={DEFAULT_INK} />
-                </div>
-            {/if}
         </div>
     </div>
 
@@ -792,6 +786,19 @@
                     <button type="button" class="text-button" onclick={clearCategories}>Clear filters</button>
                 {/if}
                 <button type="button" class="bar-button collapse-button" onclick={() => (filtersOpen = false)} aria-label="Close filters">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <polyline points="5 15.5 12 8.5 19 15.5"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    {/if}
+
+    {#if colorOpen}
+        <div id="color-panel" class="filter-panel color-panel" role="dialog" aria-label="Icon color" transition:slide={{ duration: 200, easing: cubicOut }}>
+            <ColorPicker bind:value={color} presets={COLOR_PRESETS} defaultColor={DEFAULT_INK} wide />
+            <div class="filter-footer">
+                <button type="button" class="bar-button collapse-button" onclick={() => (colorOpen = false)} aria-label="Close color panel">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                         <polyline points="5 15.5 12 8.5 19 15.5"></polyline>
                     </svg>
