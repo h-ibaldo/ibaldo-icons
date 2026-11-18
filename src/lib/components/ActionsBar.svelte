@@ -335,8 +335,11 @@
     .filter-footer {
         display: flex;
         justify-content: flex-end;
-        padding: 0 0.75rem 0.75rem;
+        align-items: center;
+        gap: 0.25rem;
+        padding: 0 0.25rem 0.25rem 0.75rem;
     }
+    .collapse-button { width: 2rem; height: 2rem; }
     .text-button {
         background: none;
         border: none;
@@ -348,14 +351,18 @@
     .text-button:hover { color: white; }
 
     /* Active filters, below the bar and above the icons */
+    /* Active filters: part of the sticky block, so they scroll with the bar.
+       White strip so icons scrolling underneath don't show through. */
     .pills {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         gap: 0.5rem;
-        margin: 12px auto 0;
-        max-width: 100%;
-        width: 750px;
+        padding: 10px 0;
+        background: white;
+        /* extend the white strip to the full window width (the bar is 750px) */
+        box-shadow: 0 0 0 100vmax white;
+        clip-path: inset(0 -100vmax);
     }
     .pill {
         display: inline-flex;
@@ -506,6 +513,8 @@
         }
         /* The bar sits at the bottom, so the filter panel opens above it */
         .filter-panel { order: -1; border-top: none; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .collapse-button svg { transform: rotate(180deg); } /* panel is above the bar: collapse downward */
+        .pills { order: -2; }
         .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         .actions-bar {
             gap: 0.75rem;
@@ -513,7 +522,7 @@
         }
         .search-input { font-size: 16px; } /* no zoom on focus */
         .shortcut { display: none; }
-        .pills { padding: 0 1rem; }
+        .pills { padding: 8px 1rem; }
 
         .slider-group {
             width: 100%;
@@ -672,30 +681,35 @@
                     </button>
                 {/each}
             </div>
-            {#if selectedCategories.length}
-                <div class="filter-footer">
+            <div class="filter-footer">
+                {#if selectedCategories.length}
                     <button type="button" class="text-button" onclick={clearCategories}>Clear filters</button>
-                </div>
+                {/if}
+                <button type="button" class="bar-button collapse-button" onclick={() => (filtersOpen = false)} aria-label="Close filters">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <polyline points="5 15.5 12 8.5 19 15.5"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    {/if}
+
+    {#if selectedCategories.length}
+        <div class="pills" aria-label="Active filters" transition:fade={{ duration: 150 }}>
+            {#each selectedCategories as cat (cat)}
+                <span class="pill" transition:fade={{ duration: 150 }}>
+                    {label(cat)}
+                    <button type="button" onclick={() => removeCategory(cat)} aria-label="Remove filter {label(cat)}">
+                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
+                            <line x1="2" y1="22" x2="22" y2="2"></line>
+                            <line x1="22" y1="22" x2="2" y2="2"></line>
+                        </svg>
+                    </button>
+                </span>
+            {/each}
+            {#if selectedCategories.length > 1}
+                <button type="button" class="text-button" onclick={clearCategories}>Clear all</button>
             {/if}
         </div>
     {/if}
 </div>
-
-{#if selectedCategories.length}
-    <div class="pills" aria-label="Active filters" transition:fade={{ duration: 150 }}>
-        {#each selectedCategories as cat (cat)}
-            <span class="pill" transition:fade={{ duration: 150 }}>
-                {label(cat)}
-                <button type="button" onclick={() => removeCategory(cat)} aria-label="Remove filter {label(cat)}">
-                    <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
-                        <line x1="2" y1="22" x2="22" y2="2"></line>
-                        <line x1="22" y1="22" x2="2" y2="2"></line>
-                    </svg>
-                </button>
-            </span>
-        {/each}
-        {#if selectedCategories.length > 1}
-            <button type="button" class="text-button" onclick={clearCategories}>Clear all</button>
-        {/if}
-    </div>
-{/if}
