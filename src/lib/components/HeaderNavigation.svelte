@@ -1,5 +1,8 @@
 <script>
     import { onMount } from 'svelte';
+    import { ICON_COUNT } from '$lib/icon-count.js';
+
+    const iconCountLabel = `${ICON_COUNT.toLocaleString('en-US')} icons`;
 
     let isDrawerOpen = false;
     let isMobile = false;
@@ -263,6 +266,12 @@
     <h1 class="text-sm font-semibold">
         <a href="/" class="text-inherit no-underline hover:opacity-80">Primor Icons</a>
     </h1>
+
+    <p
+        class="absolute left-1/2 -translate-x-1/2 text-sm text-gray-400 pointer-events-none transition-opacity duration-300"
+        class:opacity-0={isScrolled}
+        aria-hidden={isScrolled}
+    >{iconCountLabel}</p>
 
     <div class="flex items-center overflow-hidden">
 

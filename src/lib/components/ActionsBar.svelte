@@ -4,7 +4,7 @@
     import { browser } from '$app/environment';
 
     export let search = '';
-    export let size = 24;
+    export let size = 48;
     export let weight = 1;
     export let totalIcons = 0;
     export let categories = [];

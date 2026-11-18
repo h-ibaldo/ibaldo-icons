@@ -7,7 +7,7 @@
   let categories = [];
   let loadingCategory = false;
   let loadingCategories = true;
-  let size = 24;
+  let size = 48;
   let weight = 1.5;
   let currentCategory = '';
   let selectedCategory = '';
