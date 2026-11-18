@@ -1,0 +1,37 @@
+{
+  "name": "LinkBrokenDoubleBracketLarge",
+  "displayName": "Link broken double bracket large",
+  "description": "Two large rounded brackets pulled apart, with rays above and below the gap.",
+  "tags": [
+    "link",
+    "chain",
+    "url",
+    "hyperlink",
+    "broken",
+    "unlink",
+    "disconnect",
+    "break",
+    "large"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Broken link"
+  },
+  "filename": "link-broken-double-bracket-large",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:48.514Z"
+}

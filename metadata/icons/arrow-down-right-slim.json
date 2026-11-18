@@ -1,0 +1,36 @@
+{
+  "name": "ArrowDownRightSlim",
+  "displayName": "Arrow down right slim",
+  "description": "Arrow pointing down right with a small arrowhead.",
+  "tags": [
+    "arrow",
+    "down-right",
+    "diagonal",
+    "southeast",
+    "direction",
+    "navigation",
+    "slim",
+    "thin"
+  ],
+  "categories": [
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Arrow down right"
+  },
+  "filename": "arrow-down-right-slim",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:48.514Z"
+}

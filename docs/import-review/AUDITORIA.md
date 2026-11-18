@@ -5,11 +5,11 @@ Ponto de partida: `ICONS-import/manifest.csv`, 3.293 pranchetas. A importação 
 | Grupo | Qtd. | Situação |
 |---|---:|---|
 | `new` dos old sets | 2.442 | importados (121 do old-icon-set-2 entrando agora) |
-| **`in-library-unmatched`** (marcados como "já importados", mas **não estão** na biblioteca) | **116** | **faltavam**. São os desenhos-base: setas e chevrons simples, balão vazio, bateria, livro, etiqueta, maleta, calendário, câmera, prancheta, cronômetro, ampulheta, arquivo. Entrando agora. Folha: [`unmatched-116.png`](unmatched-116.png) |
+| **`in-library-unmatched`** (marcados como "já importados", mas **não estão** na biblioteca) | **116** | **faltavam**. São os desenhos-base: setas e chevrons simples, balão vazio, bateria, livro, etiqueta, maleta, calendário, câmera, prancheta, cronômetro, ampulheta, arquivo. **Entraram em 18/11** (`metadata/naming/2026-11-18-import-unmatched.json`). Folha: [`unmatched-116.png`](unmatched-116.png) |
 | `in-library` | 453 | conferido: todos apontam para um arquivo que existe na biblioteca |
 | `duplicate` | 8 | cópias de outra página `new` do mesmo lote, que entrou |
 | `empty` | 168 | pranchetas vazias |
-| **`sketches-base` excluído** | **449** | **o arquivo inteiro ficou de fora** na extração ("sketches, não é fonte"). 260 eram `new` e 189 `in-library-unmatched`. Comparando com a biblioteca de hoje: 35 muito parecidos (≥ 0,90), 63 parecidos (0,80–0,90) e **~355 sem par**: carrinho, bandeira, olho, power, câmera, megafone, banco, alinhamento, pinos de mapa, cestas, ingressos e mais. Folhas: [`sketches-base-excluded-1.png`](sketches-base-excluded-1.png), [`-2.png`](sketches-base-excluded-2.png) |
+| **`sketches-base` excluído** | **449** | **fica de fora (decisão do Henrique, 18/11)**. O arquivo inteiro ficou de fora na extração ("sketches, não é fonte"). 260 eram `new` e 189 `in-library-unmatched`. Comparando com a biblioteca de hoje: 35 muito parecidos (≥ 0,90), 63 parecidos (0,80–0,90) e **~355 sem par**: carrinho, bandeira, olho, power, câmera, megafone, banco, alinhamento, pinos de mapa, cestas, ingressos e mais. Folhas: [`sketches-base-excluded-1.png`](sketches-base-excluded-1.png), [`-2.png`](sketches-base-excluded-2.png) |
 | `popular-01` excluído | 4 | estavam `new` (setas circulares cortadas, um sol). Primeiros 4 da folha acima |
 | `popular-01` e `ui-application` excluídos | 688 | estavam `in-library` |
 
@@ -21,3 +21,11 @@ Ponto de partida: `ICONS-import/manifest.csv`, 3.293 pranchetas. A importação 
 ## Lição para importações futuras
 
 Antes de importar, mostrar a contagem de **todos** os status do manifest (não só `new`) e pedir decisão sobre cada grupo que não for claramente "está na biblioteca".
+
+## old icon-set 6: desenho fora das pranchetas
+
+Nesse arquivo só o primeiro ícone está numa prancheta. O resto (a família de arquivos em vários estilos, orelhas, globos…) está solto na tela, e por isso não aparece na parte PDF do `.ai`.
+Extraí direto dos dados internos (`AIPrivateData`, zstd): 386 desenhos, 84 cópias internas e 1 já na biblioteca. **Restam 301**, sendo nomeados.
+Nos outros arquivos, a extração completa acha principalmente pedaços soltos e ícones já presentes. Uma checagem fina (cruzando com as posições das pranchetas) ainda está pendente.
+
+Palavras novas dos 116: setas pelo tamanho da ponta, (nenhuma)/`Narrow`/`Slim`; `Large` nas setas e chevrons em círculo maiores; `Open`/`In` nas setas para quadrado aberto; Battery `Boxy`; Clock `Top`; Video `Joined`.

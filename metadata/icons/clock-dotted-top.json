@@ -1,0 +1,37 @@
+{
+  "name": "ClockDottedTop",
+  "displayName": "Clock dotted top",
+  "description": "Clock whose rim opens at the top right for a vertical row of dots.",
+  "tags": [
+    "clock",
+    "time",
+    "hour",
+    "watch",
+    "dotted",
+    "pending",
+    "waiting",
+    "history",
+    "top"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Pending"
+  },
+  "filename": "clock-dotted-top",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:49.244Z"
+}

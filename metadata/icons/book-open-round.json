@@ -1,0 +1,36 @@
+{
+  "name": "BookOpenRound",
+  "displayName": "Book open round",
+  "description": "Open book with rounded pages arching at the top and bottom of the spine.",
+  "tags": [
+    "book",
+    "reading",
+    "library",
+    "ebook",
+    "open",
+    "pages",
+    "education",
+    "round"
+  ],
+  "categories": [
+    "education"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Open book"
+  },
+  "filename": "book-open-round",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:48.906Z"
+}

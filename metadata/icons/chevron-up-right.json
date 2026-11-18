@@ -1,0 +1,36 @@
+{
+  "name": "ChevronUpRight",
+  "displayName": "Chevron up right",
+  "description": "Corner chevron pointing up right, drawn as two straight lines at a right angle.",
+  "tags": [
+    "chevron",
+    "corner",
+    "bracket",
+    "up-right",
+    "diagonal",
+    "northeast",
+    "navigation"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Chevron up right"
+  },
+  "filename": "chevron-up-right",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:48.514Z"
+}

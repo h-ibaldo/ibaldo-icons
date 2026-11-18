@@ -1,0 +1,37 @@
+{
+  "name": "ClockSnoozeTop",
+  "displayName": "Clock snooze top",
+  "description": "Clock whose rim opens at the top right for a letter Z.",
+  "tags": [
+    "clock",
+    "time",
+    "hour",
+    "watch",
+    "snooze",
+    "sleep",
+    "later",
+    "z",
+    "top"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Snooze"
+  },
+  "filename": "clock-snooze-top",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:49.244Z"
+}

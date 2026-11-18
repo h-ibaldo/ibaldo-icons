@@ -1,0 +1,38 @@
+{
+  "name": "ChevronLeftCircleLarge",
+  "displayName": "Chevron left circle large",
+  "description": "Large chevron pointing left inside a circle.",
+  "tags": [
+    "chevron",
+    "caret",
+    "left",
+    "west",
+    "back",
+    "circle",
+    "button",
+    "navigation",
+    "large"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Chevron left"
+  },
+  "filename": "chevron-left-circle-large",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:48.514Z"
+}

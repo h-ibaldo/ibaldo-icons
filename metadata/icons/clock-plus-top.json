@@ -1,0 +1,37 @@
+{
+  "name": "ClockPlusTop",
+  "displayName": "Clock plus top",
+  "description": "Clock whose rim opens at the top right for a plus sign.",
+  "tags": [
+    "clock",
+    "time",
+    "hour",
+    "watch",
+    "plus",
+    "add",
+    "new",
+    "schedule",
+    "top"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Add time"
+  },
+  "filename": "clock-plus-top",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:49.244Z"
+}
