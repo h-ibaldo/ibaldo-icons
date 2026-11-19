@@ -177,7 +177,7 @@
     .controls { display: flex; flex-direction: column; gap: 0.5rem; }
     .picker.wide {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) 240px;
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* two equal columns */
         gap: 0.75rem;
     }
     /* Controls keep tight, even gaps; the area stretches to their height */
