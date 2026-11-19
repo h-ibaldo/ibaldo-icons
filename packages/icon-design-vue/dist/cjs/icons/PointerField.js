@@ -1,0 +1,41 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const PointerField = defineComponent({
+  name: 'PointerField',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M12.031 13.379L14.766 21.57C14.934 22.078 15.625 22.156 15.902 21.695L17.867 18.414L21.148 16.449C21.609 16.172 21.531 15.48 21.023 15.313L12.832 12.578C12.34 12.414 11.871 12.887 12.031 13.379Z"}),
+          h('path', {"d":"M8 12L4 12C2.895 12 2 11.105 2 10L2 4C2 2.895 2.895 2 4 2L20 2C21.105 2 22 2.895 22 4L22 11"}),
+          h('path', {"d":"M12 7L12 7"}),
+          h('path', {"d":"M7 7L7 7"}),
+          h('path', {"d":"M17 7L17 7"})
+        ]
+      );
+  }
+});
+
+module.exports = PointerField;
+module.exports.PointerField = PointerField;
+module.exports.default = PointerField;

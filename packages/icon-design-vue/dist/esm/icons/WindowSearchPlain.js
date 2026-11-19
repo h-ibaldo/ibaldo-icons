@@ -1,0 +1,37 @@
+import { defineComponent, h } from 'vue';
+
+const WindowSearchPlain = defineComponent({
+  name: 'WindowSearchPlain',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M10.999999976140316,21.998779299956368H3.999999976089384c-1.104569499659192,0-2-.895430500338989-2-2V3.998779299956368c0-1.104569499661011.895430500340808-2,2-2h16c1.104569499661011,0,2,.895430500338989,2,2v7"}),
+          h('line', {"x1":"1.999999976089384","y1":"6.998779299956368","x2":"21.999999976089384","y2":"6.998779299956368"}),
+          h('circle', {"cx":"15.999999976089384","cy":"15.998779300000933","r":"4.000000000000455"}),
+          h('line', {"x1":"18.828430151999783","y1":"18.827209475653945","x2":"21.999999976360414","y2":"21.998779299730813"})
+        ]
+      );
+  }
+});
+
+export default WindowSearchPlain;
+export { WindowSearchPlain };

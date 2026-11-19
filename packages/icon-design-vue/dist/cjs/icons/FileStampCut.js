@@ -1,0 +1,39 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const FileStampCut = defineComponent({
+  name: 'FileStampCut',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M4 17L4 18.586C4 19.491 3.64 20.36 3 21L2 22L12.586 22C13.491 22 14.36 21.64 15 21L15 21C15.64 20.36 16 19.491 16 18.586L16 17C16 15.895 15.105 15 14 15L6 15C4.895 15 4 15.895 4 17Z"}),
+          h('path', {"d":"M10 15L9.064 10.321C9.023 10.113 9.052 9.897 9.146 9.707L9.146 9.707C9.498 9.004 10.502 9.004 10.854 9.707L10.854 9.707C10.948 9.897 10.977 10.113 10.936 10.321L10 15Z"}),
+          h('path', {"d":"M19 22C20.105 22 21 21.105 21 20L21 7.828C21 7.298 20.789 6.789 20.414 6.414L16.586 2.586C16.211 2.211 15.702 2 15.172 2L7 2C5.895 2 5 2.895 5 4L5 11"})
+        ]
+      );
+  }
+});
+
+module.exports = FileStampCut;
+module.exports.FileStampCut = FileStampCut;
+module.exports.default = FileStampCut;

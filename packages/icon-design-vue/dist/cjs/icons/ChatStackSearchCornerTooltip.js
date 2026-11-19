@@ -1,0 +1,40 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const ChatStackSearchCornerTooltip = defineComponent({
+  name: 'ChatStackSearchCornerTooltip',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M2 12L2 15C2 16.656 3.344 18 5 18L7 18L10 22L13 18L15 18C16.656 18 18 16.656 18 15L18 9C18 7.344 16.656 6 15 6L13 6"}),
+          h('path', {"d":"M22 14L22 5C22 3.344 20.656 2 19 2L12 2"}),
+          h('path', {"d":"M9 5.5C9 7.434 7.434 9 5.5 9C3.566 9 2 7.434 2 5.5C2 3.566 3.566 2 5.5 2C7.434 2 9 3.566 9 5.5Z"}),
+          h('path', {"d":"M7.973 7.973L10 10"})
+        ]
+      );
+  }
+});
+
+module.exports = ChatStackSearchCornerTooltip;
+module.exports.ChatStackSearchCornerTooltip = ChatStackSearchCornerTooltip;
+module.exports.default = ChatStackSearchCornerTooltip;

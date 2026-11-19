@@ -2,7 +2,7 @@
 
     <h1 class="text-2xl font-bold mb-4">Packages</h1>
 
-    <p class="mb-4">Ibaldo Icons is available as framework components for React and Svelte.</p>
+    <p class="mb-4">Ibaldo Icons is available as framework components for React, Svelte and Vue.</p>
     <p class="mb-4">Each package ships the full icon set as individual components — tree-shakeable, typed, and ready to use.</p>
 
     <h2 class="font-bold mb-2 mt-8">React</h2>
@@ -13,14 +13,14 @@
 
     <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @ibaldo/icons-react</code></pre>
 
-    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>import &#123; UserHead1, AddPlus1, Settings &#125; from '@ibaldo/icons-react';
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>import &#123; Play, ChatCheck, Volume &#125; from '@ibaldo/icons-react';
 
 function App() &#123;
   return (
     &lt;div&gt;
-      &lt;UserHead1 /&gt;
-      &lt;AddPlus1 size=&#123;32&#125; /&gt;
-      &lt;Settings color="#333" strokeWidth=&#123;2&#125; /&gt;
+      &lt;Play /&gt;
+      &lt;ChatCheck size=&#123;32&#125; /&gt;
+      &lt;Volume color="#333" strokeWidth=&#123;2&#125; /&gt;
     &lt;/div&gt;
   );
 &#125;</code></pre>
@@ -34,16 +34,34 @@ function App() &#123;
     <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @ibaldo/icons-svelte</code></pre>
 
     <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>&lt;script&gt;
-  import &#123; UserHead1, AddPlus1, Settings &#125; from '@ibaldo/icons-svelte';
+  import &#123; Play, ChatCheck, Volume &#125; from '@ibaldo/icons-svelte';
 &lt;/script&gt;
 
-&lt;UserHead1 /&gt;
-&lt;AddPlus1 size=&#123;32&#125; /&gt;
-&lt;Settings color="#333" strokeWidth=&#123;2&#125; /&gt;</code></pre>
+&lt;Play /&gt;
+&lt;ChatCheck size=&#123;32&#125; /&gt;
+&lt;Volume color="#333" strokeWidth=&#123;2&#125; /&gt;</code></pre>
+
+    <h2 class="font-bold mb-2 mt-8">Vue</h2>
+
+    <p class="mb-4">
+        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/icons-vue</code>
+    </p>
+
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @ibaldo/icons-vue</code></pre>
+
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>&lt;script setup&gt;
+import &#123; Play, ChatCheck, Volume &#125; from '@ibaldo/icons-vue';
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;Play /&gt;
+  &lt;ChatCheck :size="32" /&gt;
+  &lt;Volume color="#333" :stroke-width="2" /&gt;
+&lt;/template&gt;</code></pre>
 
     <h2 class="font-bold mb-2 mt-8">Props</h2>
 
-    <p class="mb-4">All icons accept the same props across both packages.</p>
+    <p class="mb-4">All icons accept the same props in every package (in Vue templates, <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">strokeWidth</code> can be written <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">stroke-width</code>).</p>
 
     <div class="overflow-x-auto mb-4">
         <table class="text-base w-full border-collapse">
@@ -85,10 +103,10 @@ function App() &#123;
     <p class="mb-4">Import only what you use.</p>
 
     <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>// Named import — bundle includes only this icon
-import &#123; PlayButton &#125; from '@ibaldo/icons-react';
+import &#123; Play &#125; from '@ibaldo/icons-react';
 
 // Path import — explicit, same result
-import PlayButton from '@ibaldo/icons-react/icons/PlayButton';</code></pre>
+import Play from '@ibaldo/icons-react/icons/Play';</code></pre>
 
     <p class="mb-4">Both approaches are tree-shakeable. Named imports are preferred.</p>
 
@@ -96,7 +114,8 @@ import PlayButton from '@ibaldo/icons-react/icons/PlayButton';</code></pre>
 
     <p class="mb-4">
         <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-react" target="_blank">@ibaldo/icons-react</a> ·
-        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-svelte" target="_blank">@ibaldo/icons-svelte</a>
+        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-svelte" target="_blank">@ibaldo/icons-svelte</a> ·
+        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-vue" target="_blank">@ibaldo/icons-vue</a>
     </p>
 
 </div>

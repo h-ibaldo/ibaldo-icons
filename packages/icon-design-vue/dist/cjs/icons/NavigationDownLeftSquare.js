@@ -1,0 +1,38 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const NavigationDownLeftSquare = defineComponent({
+  name: 'NavigationDownLeftSquare',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M16.449 14.07L9.375 15.84C8.641 16.02 7.977 15.359 8.16 14.625L9.93 7.551C10.156 6.648 11.379 6.516 11.797 7.348L13.266 10.289C13.363 10.48 13.52 10.637 13.711 10.734L16.652 12.207C17.484 12.621 17.348 13.844 16.449 14.07Z"}),
+          h('path', {"d":"M2 5L2 19C2 20.656 3.344 22 5 22L19 22C20.656 22 22 20.656 22 19L22 5C22 3.344 20.656 2 19 2L5 2C3.344 2 2 3.344 2 5Z"})
+        ]
+      );
+  }
+});
+
+module.exports = NavigationDownLeftSquare;
+module.exports.NavigationDownLeftSquare = NavigationDownLeftSquare;
+module.exports.default = NavigationDownLeftSquare;

@@ -1,0 +1,37 @@
+import { defineComponent, h } from 'vue';
+
+const ClockLock = defineComponent({
+  name: 'ClockLock',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('polyline', {"points":"12 6.999999999887223 12 11.999999999887223 17 11.999999999887223"}),
+          h('rect', {"x":"2","y":"17.999999999887223","width":"7","height":"4"}),
+          h('path', {"d":"M3,17.999999999887223l.000000018630089-2.500002487569873c.000000010280928-1.380710486588214,1.119287013409121-2.499997512430127,2.499997499999154-2.499997512430127h.000005000001693c1.380710489009289,0,2.499997462078682,1.11928699856071,2.499997468938091,2.499997487571818l.000000012430974,2.500002512428182"}),
+          h('path', {"d":"M13,21.949462890508585c5.053283691409888-.501831054680224,9-4.76416015625,9-9.949462890621362,0-5.522827148439319-4.477111816409888-10-10-10C7.162170410159888,1.999999999887223,3.127502441409888,5.435546874887223,2.200866699220569,9.999999999887223"})
+        ]
+      );
+  }
+});
+
+export default ClockLock;
+export { ClockLock };

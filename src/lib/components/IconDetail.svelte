@@ -12,7 +12,7 @@
     export let color = '';    // '' = currentColor
     export let onClose = () => {};
 
-    const TABS = ['React', 'Svelte', 'SVG'];
+    const TABS = ['React', 'Svelte', 'Vue'];
     let tab = 'React';
     let copied = '';          // key of the last thing copied, for feedback
     let copiedTimer;
@@ -47,9 +47,16 @@
         color ? `color="${color}"` : ''
     ].filter(Boolean).join(' ');
 
-    // Package tabs show (and copy) only the component
+    // Package tabs show (and copy) only the component.
+    // Vue binds non-string props with ":" and uses kebab-case (stroke-width).
     $: component = `<${icon.name}${props ? ' ' + props : ''} />`;
-    $: code = tab === 'SVG' ? svgCode : component;
+    $: vueProps = [
+        size !== 24 ? `:size="${size}"` : '',
+        Number(weight) !== 1.5 ? `:stroke-width="${fmt(weight)}"` : '',
+        color ? `color="${color}"` : ''
+    ].filter(Boolean).join(' ');
+    $: vueComponent = `<${icon.name}${vueProps ? ' ' + vueProps : ''} />`;
+    $: code = tab === 'Vue' ? vueComponent : component;
 
     async function copy(text, key) {
         try {

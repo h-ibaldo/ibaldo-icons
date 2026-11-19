@@ -1,0 +1,38 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const PaperclipCheckWide = defineComponent({
+  name: 'PaperclipCheckWide',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M10 6L4.863 11.137C2.379 13.621 2.379 17.648 4.863 20.133L4.867 20.137C7.352 22.621 11.379 22.621 13.863 20.137L20.758 13.242C22.414 11.586 22.414 8.902 20.758 7.246L20.754 7.242C19.098 5.586 16.414 5.586 14.758 7.242L8.121 13.879C7.293 14.707 7.293 16.051 8.121 16.879C8.949 17.707 10.293 17.707 11.121 16.879L16 12"}),
+          h('path', {"d":"M2 4L4 6L8 2"})
+        ]
+      );
+  }
+});
+
+module.exports = PaperclipCheckWide;
+module.exports.PaperclipCheckWide = PaperclipCheckWide;
+module.exports.default = PaperclipCheckWide;

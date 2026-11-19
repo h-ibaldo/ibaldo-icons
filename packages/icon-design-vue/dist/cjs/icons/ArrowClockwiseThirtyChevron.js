@@ -1,0 +1,42 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const ArrowClockwiseThirtyChevron = defineComponent({
+  name: 'ArrowClockwiseThirtyChevron',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M18 2L20 4L18 6"}),
+          h('path', {"d":"M12 4C7.027 4 3 8.027 3 13C3 17.973 7.027 22 12 22C16.973 22 21 17.973 21 13C21 11.945 20.809 10.938 20.477 10"}),
+          h('path', {"d":"M12 4L20 4"}),
+          h('path', {"d":"M15 17C13.895 17 13 16.105 13 15L13 11C13 9.895 13.895 9 15 9C16.105 9 17 9.895 17 11L17 15C17 16.105 16.105 17 15 17Z"}),
+          h('path', {"d":"M7 16.723C7.402 16.957 7.887 17.07 8.41 16.957C9.363 16.75 10 15.832 10 14.859C10 13.832 9.168 13 8.145 13L8 13"}),
+          h('path', {"d":"M7 9.277C7.402 9.043 7.887 8.93 8.41 9.043C9.363 9.25 10 10.168 10 11.141C10 12.168 9.168 13 8.145 13L8 13"})
+        ]
+      );
+  }
+});
+
+module.exports = ArrowClockwiseThirtyChevron;
+module.exports.ArrowClockwiseThirtyChevron = ArrowClockwiseThirtyChevron;
+module.exports.default = ArrowClockwiseThirtyChevron;

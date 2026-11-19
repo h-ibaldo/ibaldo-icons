@@ -1,0 +1,41 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const BookInfoThick = defineComponent({
+  name: 'BookInfoThick',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('line', {"x1":"20","y1":"16.999999999989086","x2":"20","y2":"22"}),
+          h('path', {"d":"M3,19.499997499999154V4.500000011859811c0-1.380711873469409,1.11928812386941-2.499999998348358,2.499999997340637-2.499999999610736l14.500000001758963-.00000001133867c.552284750179751-.000000000499313,1.0000000009004.447715249810244,1.0000000009004,1v12.999999999089596c0,.552284749832324-.447715250169495,1-1,1H5.499997499999154c-1.380710493858714,0-2.499997499999154,1.119287006131344-2.499997499999154,2.499997499991878v.000005000008969c0,1.380710493860533,1.119287006128616,2.49999749998824,2.499997499990059,2.49999749998824h15.500002500009941"}),
+          h('line', {"x1":"7","y1":"2","x2":"7","y2":"16.999999999989086"}),
+          h('line', {"x1":"14","y1":"5.989999999999782","x2":"14","y2":"6"}),
+          h('polyline', {"points":"14 13 14 9 13 9"})
+        ]
+      );
+  }
+});
+
+module.exports = BookInfoThick;
+module.exports.BookInfoThick = BookInfoThick;
+module.exports.default = BookInfoThick;

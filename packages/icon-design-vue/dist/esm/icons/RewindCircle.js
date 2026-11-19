@@ -1,0 +1,36 @@
+import { defineComponent, h } from 'vue';
+
+const RewindCircle = defineComponent({
+  name: 'RewindCircle',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12Z"}),
+          h('path', {"d":"M11.453 8.961L11.453 15.039C11.453 15.434 11.012 15.672 10.68 15.453L6.121 12.414C5.828 12.215 5.828 11.785 6.121 11.586L10.68 8.547C11.012 8.328 11.453 8.566 11.453 8.961Z"}),
+          h('path', {"d":"M17 8.961L17 15.039C17 15.434 16.559 15.672 16.23 15.453L11.672 12.414C11.379 12.215 11.379 11.785 11.672 11.586L16.23 8.547C16.559 8.328 17 8.566 17 8.961Z"})
+        ]
+      );
+  }
+});
+
+export default RewindCircle;
+export { RewindCircle };

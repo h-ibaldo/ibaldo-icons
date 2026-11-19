@@ -1,0 +1,39 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const VideoCircleSmall = defineComponent({
+  name: 'VideoCircleSmall',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12Z"}),
+          h('path', {"d":"M12 15L8 15C7.449 15 7 14.551 7 14L7 10C7 9.449 7.449 9 8 9L12 9C12.551 9 13 9.449 13 10L13 14C13 14.551 12.551 15 12 15Z"}),
+          h('path', {"d":"M13 11L16 9L17 9L17 15L16 15L13 13"})
+        ]
+      );
+  }
+});
+
+module.exports = VideoCircleSmall;
+module.exports.VideoCircleSmall = VideoCircleSmall;
+module.exports.default = VideoCircleSmall;

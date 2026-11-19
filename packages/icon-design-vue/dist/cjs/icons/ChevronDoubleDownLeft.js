@@ -1,0 +1,38 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const ChevronDoubleDownLeft = defineComponent({
+  name: 'ChevronDoubleDownLeft',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M16 20L4 20L4 8"}),
+          h('path', {"d":"M20 16L8 16L8 4"})
+        ]
+      );
+  }
+});
+
+module.exports = ChevronDoubleDownLeft;
+module.exports.ChevronDoubleDownLeft = ChevronDoubleDownLeft;
+module.exports.default = ChevronDoubleDownLeft;
