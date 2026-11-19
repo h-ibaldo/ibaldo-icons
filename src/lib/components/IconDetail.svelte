@@ -153,7 +153,7 @@
 
         <div class="actions">
             <button type="button" class="btn primary" onclick={() => copy(svgCode, 'svg')}>
-                {copied === 'svg' ? 'Copied!' : 'Copy SVG'}
+                <span class="swap"><span class:off={copied === 'svg'}>Copy SVG</span><span class:off={copied !== 'svg'} aria-live="polite">Copied!</span></span>
             </button>
             <button type="button" class="btn" onclick={downloadSvg}>Download SVG</button>
             <button type="button" class="btn" onclick={downloadPng}>Download PNG</button>
@@ -166,7 +166,7 @@
                 <button type="button" role="tab" class="tab {tab === t ? 'active' : ''}" aria-selected={tab === t} onclick={() => (tab = t)}>{t}</button>
             {/each}
             <button type="button" class="copy-code" onclick={() => copy(code, 'code')}>
-                {copied === 'code' ? 'Copied!' : 'Copy'}
+                <span class="swap"><span class:off={copied === 'code'}>Copy</span><span class:off={copied !== 'code'} aria-live="polite">Copied!</span></span>
             </button>
         </div>
         <pre><code>{code}</code></pre>
@@ -238,6 +238,11 @@
         transition: background-color 0.15s ease;
     }
     .btn:hover { background: rgb(226 232 240); }
+    /* Both labels share one grid cell, so the button keeps the width of the
+       longer one when "Copy" turns into "Copied!" */
+    .swap { display: inline-grid; }
+    .swap > span { grid-area: 1 / 1; text-align: center; }
+    .swap > .off { visibility: hidden; }
     .btn.primary { background: #0900FF; color: white; }
     .btn.primary:hover { background: #0700CC; }
     .icon-button {
