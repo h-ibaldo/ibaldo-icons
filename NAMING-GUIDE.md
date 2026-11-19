@@ -1,6 +1,6 @@
 # Naming guide
 
-How icons in Primor Icons get their names and metadata. Read this before naming
+How icons in Ibaldo Icons get their names and metadata. Read this before naming
 or renaming any icon, whether you are a person or Claude.
 
 The files in `metadata/icons/*.json` are the **single source of truth**. The site,

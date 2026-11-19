@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://primoricons.com/schemas/icon-metadata.json",
+  "$id": "https://ibald.ooo/icons/schemas/icon-metadata.json",
   "title": "Icon Metadata Schema",
-  "description": "Metadata structure for Primor Icons",
+  "description": "Metadata structure for Ibaldo Icons",
   "type": "object",
   "required": ["name", "filename", "description", "tags", "categories"],
   "properties": {

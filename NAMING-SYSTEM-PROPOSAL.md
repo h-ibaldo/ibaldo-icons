@@ -1,4 +1,4 @@
-# Proposta: sistema de nomes para toda a Primor Icons
+# Proposta: sistema de nomes para toda a Ibaldo Icons
 
 Status: **aprovada e aplicada** (ver seção 12).
 O mapeamento completo dos 2.441 ícones está em `metadata/naming/proposed-all.json`
@@ -244,7 +244,7 @@ Uma duplicata é exata: `user-head-36` é igual a `1-user-head-36`.
 | **Material Symbols** | `snake_case`, ação primeiro às vezes (`add_circle`, `cloud_upload`); estilo em fontes separadas. | Evitamos começar pela ação: `PlusCircle` sim, mas `CloudPlus` em vez de `AddCloud`. |
 | **Heroicons** | Poucos ícones, nomes curtos com contêiner no fim (`ArrowUpCircle`). | Mesma ordem: contêiner depois do que ele envolve. |
 
-A Primor tem uma situação que nenhuma dessas tem: **várias versões desenhadas do mesmo objeto**
+A Ibaldo Icons tem uma situação que nenhuma dessas tem: **várias versões desenhadas do mesmo objeto**
 (6 sinos, 5 cadeados). Por isso precisamos da palavra de estilo no fim, e não de números.
 
 ## 9. Antes e depois (12 famílias)

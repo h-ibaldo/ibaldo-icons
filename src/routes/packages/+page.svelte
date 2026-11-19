@@ -2,18 +2,18 @@
 
     <h1 class="text-2xl font-bold mb-4">Packages</h1>
 
-    <p class="mb-4">Primor Icons is available as framework components for React and Svelte.</p>
+    <p class="mb-4">Ibaldo Icons is available as framework components for React and Svelte.</p>
     <p class="mb-4">Each package ships the full icon set as individual components — tree-shakeable, typed, and ready to use.</p>
 
     <h2 class="font-bold mb-2 mt-8">React</h2>
 
     <p class="mb-4">
-        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@primor/icons-react</code>
+        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/icons-react</code>
     </p>
 
-    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @primor/icons-react</code></pre>
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @ibaldo/icons-react</code></pre>
 
-    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>import &#123; UserHead1, AddPlus1, Settings &#125; from '@primor/icons-react';
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>import &#123; UserHead1, AddPlus1, Settings &#125; from '@ibaldo/icons-react';
 
 function App() &#123;
   return (
@@ -28,13 +28,13 @@ function App() &#123;
     <h2 class="font-bold mb-2 mt-8">Svelte</h2>
 
     <p class="mb-4">
-        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@primor/icons-svelte</code>
+        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/icons-svelte</code>
     </p>
 
-    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @primor/icons-svelte</code></pre>
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @ibaldo/icons-svelte</code></pre>
 
     <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>&lt;script&gt;
-  import &#123; UserHead1, AddPlus1, Settings &#125; from '@primor/icons-svelte';
+  import &#123; UserHead1, AddPlus1, Settings &#125; from '@ibaldo/icons-svelte';
 &lt;/script&gt;
 
 &lt;UserHead1 /&gt;
@@ -85,18 +85,18 @@ function App() &#123;
     <p class="mb-4">Import only what you use.</p>
 
     <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>// Named import — bundle includes only this icon
-import &#123; PlayButton &#125; from '@primor/icons-react';
+import &#123; PlayButton &#125; from '@ibaldo/icons-react';
 
 // Path import — explicit, same result
-import PlayButton from '@primor/icons-react/icons/PlayButton';</code></pre>
+import PlayButton from '@ibaldo/icons-react/icons/PlayButton';</code></pre>
 
     <p class="mb-4">Both approaches are tree-shakeable. Named imports are preferred.</p>
 
     <h2 class="font-bold mb-2 mt-8">NPM</h2>
 
     <p class="mb-4">
-        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@primor/icons-react" target="_blank">@primor/icons-react</a> ·
-        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@primor/icons-svelte" target="_blank">@primor/icons-svelte</a>
+        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-react" target="_blank">@ibaldo/icons-react</a> ·
+        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-svelte" target="_blank">@ibaldo/icons-svelte</a>
     </p>
 
 </div>

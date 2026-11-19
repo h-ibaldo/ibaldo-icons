@@ -1,4 +1,4 @@
-# Primor Icons - Automated Icon Processing System
+# Ibaldo Icons - Automated Icon Processing System
 
 Professional icon library with AI-powered metadata generation and automated component building.
 
@@ -272,7 +272,7 @@ This project is not currently accepting external contributions.
 
 ## 📄 License
 
-Primor Icons License — See [LICENSE](./LICENSE) for details.
+Ibaldo Icons License — See [LICENSE](./LICENSE) for details.
 
 ---
 
@@ -281,7 +281,7 @@ Primor Icons License — See [LICENSE](./LICENSE) for details.
 - **Total Icons:** 2,441
 - **Categories:** AI-determined (interface, media, arrows, etc.)
 - **Packages:** React, Svelte
-- **Website:** primoricons.com
+- **Website:** ibald.ooo/icons
 
 ---
 

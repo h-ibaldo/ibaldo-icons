@@ -10,9 +10,9 @@
 
 <div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-2xl">
 
-    <h1 class="text-2xl font-bold mb-4">About Primor Icons</h1>
+    <h1 class="text-2xl font-bold mb-4">About Ibaldo Icons</h1>
 
-    <p class="mb-4"><span class="">Primor Icons</span> is a line-based icon library built as a long-term design system.</p>
+    <p class="mb-4"><span class="">Ibaldo Icons</span> is a line-based icon library built as a long-term design system.</p>
 
     <p class="mb-4">Icons are not neutral.</p>
     <p class="mb-4">They carry assumptions, defaults, and cultural shortcuts. Most libraries collapse those choices into a single “correct” form.</p>   
@@ -22,7 +22,7 @@
     <p class="mb-4">Many icons in the library exist in multiple forms — not as stylistic noise, but as alternative interpretations of the same idea. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter. There is no single “user” shape, no default identity.</p>
     <p class="mb-4">The library is designed to be evolving.</p>
     <p class="mb-4">It grows over time through use, observation, and requests, rather than predefined completeness. Missing icons are not gaps to be rushed, but signals of where the system should expand next.</p>
-    <p class="mb-4"><span class="font-bold">Primor Icons</span> is not a UI framework or a full design system.</p>
+    <p class="mb-4"><span class="font-bold">Ibaldo Icons</span> is not a UI framework or a full design system.</p>
     <p class="mb-4">It is a foundational layer: a flexible, opinionated icon set meant to adapt to different interfaces, products, and contexts without forcing a single visual conclusion.</p>
     <p class="mb-4">The project is designed and maintained by Henrique Ibaldo as an ongoing exploration of systems, constraints, and long-term visual consistency.</p>
     <p class="mb-4">Icons are opinions.<br>

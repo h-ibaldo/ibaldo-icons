@@ -264,7 +264,7 @@
 
 <header class="flex justify-between items-center px-4 py-3 z-10 header-navigation">
     <h1 class="text-sm font-semibold">
-        <a href="/" class="text-inherit no-underline hover:opacity-80">Primor Icons</a>
+        <a href="/" class="text-inherit no-underline hover:opacity-80">Ibaldo Icons</a>
     </h1>
 
     <p
