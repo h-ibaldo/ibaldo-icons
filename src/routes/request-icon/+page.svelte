@@ -51,10 +51,12 @@
         {/if}
     </form>
 
+    <!-- Hidden for now: link to the most-liked requests on X
     <p class="mb-8">
         <a class="hover:text-indigo-500 underline" href={votesUrl} target="_blank" rel="noopener">See the top requests</a>
         and like the ones you want too.
     </p>
+    -->
 
     <h2 class="mb-2 font-semibold">Notes</h2>
 
