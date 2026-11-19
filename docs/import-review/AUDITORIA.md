@@ -43,4 +43,4 @@ Extraí todo o desenho dos 11 `.ai` (`scripts/ai-extract/extract_all.py`) e cruz
 | old-icon-set 5, messaging-bubbles | | 0 | 0 | — |
 | sketches-base | 785 | 24 | 21 | fica de fora (decisão do Henrique) |
 
-Conclusão: fora o old icon-set 6, só o **ui-application** tem desenho solto que pode valer importar.
+Conclusão: fora o old icon-set 6, só o **ui-application** tem desenho solto que poderia valer importar. **Decisão do Henrique (19/11): não precisa.** A importação dos .ai está encerrada.
