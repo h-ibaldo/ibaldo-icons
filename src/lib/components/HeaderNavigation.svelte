@@ -1,6 +1,7 @@
 <script>
     import { onMount } from 'svelte';
     import { page } from '$app/stores';
+    import { theme, toggleTheme } from '$lib/theme.js';
     import { ICON_COUNT } from '$lib/icon-count.js';
 
     // Current page: black text with a 1px black underline; others stay blue
@@ -182,6 +183,19 @@
         min-height: 3rem;
     }
 
+    .theme-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.75rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    :global(html.dark) .drawer { background: rgb(15 23 42); color: rgb(226 232 240); }
+
     .nav-links {
         transition: opacity 0.3s ease, visibility 0.3s ease;
         overflow: visible;
@@ -281,6 +295,30 @@
     >{iconCountLabel}</p>
 
     <div class="flex items-center overflow-hidden">
+        <!-- Light / dark theme -->
+        <button
+            type="button"
+            class="theme-toggle text-indigo-500 hover:text-indigo-600"
+            on:click={toggleTheme}
+            aria-label={$theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+            title={$theme === 'dark' ? 'Light mode' : 'Dark mode'}
+        >
+            {#if $theme === 'dark'}
+                <!-- sun -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line>
+                    <line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line>
+                    <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+                    <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+                </svg>
+            {:else}
+                <!-- moon -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"></path>
+                </svg>
+            {/if}
+        </button>
 
         <nav class="space-x-4 text-sm desktop-only nav-links font-normal {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
             <a href="/" class="{linkClass('/')}">Icons</a>

@@ -3,6 +3,7 @@
     import { slide, scale, fade } from 'svelte/transition';
     import { flip } from 'svelte/animate';
     import ColorPicker from './ColorPicker.svelte';
+    import { theme } from '$lib/theme.js';
     import { cubicOut } from 'svelte/easing';
     import { browser } from '$app/environment';
 
@@ -101,7 +102,7 @@
 
     // Color picker: presets plus the native picker for any color
     const COLOR_PRESETS = [
-        { name: 'Black (default)', value: '' },
+        { name: 'Default', value: '' },
         { name: 'Slate', value: '#64748b' },
         { name: 'Blue', value: '#0900FF' },
         { name: 'Indigo', value: '#4f46e5' },
@@ -115,7 +116,7 @@
     let colorEl;
 
     // What the default ('' = currentColor) looks like on the page
-    const DEFAULT_INK = '#000000';
+    $: DEFAULT_INK = $theme === 'dark' ? '#F8FAFC' : '#000000';
 
     const label = (cat) => cat.charAt(0).toUpperCase() + cat.slice(1);
 
@@ -471,6 +472,8 @@
         color: rgb(71 85 105);
     }
     .pills .text-button:hover { color: rgb(15 23 42); }
+    :global(html.dark) .pills .text-button { color: rgb(148 163 184); }
+    :global(html.dark) .pills .text-button:hover { color: white; }
 
     .slider-group {
         display: flex;

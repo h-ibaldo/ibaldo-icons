@@ -10,6 +10,7 @@
     export let size = 24;
     export let weight = 1.5;
     export let color = '';    // '' = currentColor
+    export let defaultInk = '#000000'; // what the default color looks like (follows the theme)
     export let onClose = () => {};
 
     const TABS = ['React', 'Svelte', 'Vue', 'React Native'];
@@ -38,7 +39,7 @@
 
     $: svgCode = buildSvg(icon?.svg, { px: size, stroke: weight, ink: color });
     // Preview: same stroke (in grid units) as the icons on the page
-    $: previewSvg = buildSvg(icon?.svg, { px: 168, stroke: weight, ink: color || '#0f172a' });
+    $: previewSvg = buildSvg(icon?.svg, { px: 168, stroke: weight, ink: color || defaultInk });
 
     // Props that differ from the package defaults (size 24, strokeWidth 1.5, currentColor)
     $: props = [
@@ -100,7 +101,7 @@
     // PNG at the size chosen in the actions bar
     function downloadPng() {
         const pngSize = size;
-        const src = buildSvg(icon.svg, { px: pngSize, stroke: weight, ink: color || '#000000' });
+        const src = buildSvg(icon.svg, { px: pngSize, stroke: weight, ink: color || defaultInk });
         const img = new Image();
         const url = URL.createObjectURL(new Blob([src], { type: 'image/svg+xml' }));
         img.onload = () => {
@@ -295,6 +296,35 @@
         color: rgb(30 41 59);
         white-space: pre;
     }
+    /* Dark theme */
+    :global(html.dark) .sheet {
+        background: rgb(15 23 42);
+        color: rgb(241 245 249);
+        border-color: rgb(51 65 85);
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+    :global(html.dark) .preview {
+        background-color: rgb(30 41 59);
+        background-image:
+            linear-gradient(rgb(51 65 85) 1px, transparent 1px),
+            linear-gradient(90deg, rgb(51 65 85) 1px, transparent 1px);
+    }
+    :global(html.dark) .display { color: rgb(148 163 184); }
+    :global(html.dark) .chip { background: rgb(30 41 59); color: rgb(203 213 225); }
+    :global(html.dark) .chip.chip-cat { background: rgb(71 85 105); color: white; }
+    :global(html.dark) .btn { background: rgb(30 41 59); color: rgb(241 245 249); }
+    :global(html.dark) .btn:hover { background: rgb(51 65 85); }
+    :global(html.dark) .btn.primary { background: #0900FF; color: white; }
+    :global(html.dark) .btn.primary:hover { background: #0700CC; }
+    :global(html.dark) .icon-button { color: rgb(148 163 184); }
+    :global(html.dark) .icon-button:hover { color: white; }
+    :global(html.dark) .code { background: rgb(30 41 59); }
+    :global(html.dark) .tabs { border-bottom-color: rgb(51 65 85); }
+    :global(html.dark) .tab, :global(html.dark) .copy-code { color: rgb(148 163 184); }
+    :global(html.dark) .tab:hover, :global(html.dark) .copy-code:hover, :global(html.dark) .tab.active { color: white; }
+    :global(html.dark) .tab.active { border-bottom-color: white; }
+    :global(html.dark) pre { color: rgb(226 232 240); }
+
     button:focus-visible, select:focus-visible { outline: 2px solid #0900FF; outline-offset: -2px; }
 
     @media (max-width: 860px) {

@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import ActionsBar from '$lib/components/ActionsBar.svelte';
   import IconDetail from '$lib/components/IconDetail.svelte';
+  import { theme } from '$lib/theme.js';
 
   let iconsByCategory = {};
   let allIcons = [];
@@ -504,8 +505,13 @@
     }
   }
   
-  /* The icon open in the detail sheet */
-  .icon-container.selected { background-color: #e2e8f0 !important; }
+  /* Hover / press / open-in-sheet backgrounds (CSS, so they follow the theme) */
+  .icon-container:hover { background-color: #f1f5f9; }
+  .icon-container:active { background-color: #cbd5e1; }
+  .icon-container.selected { background-color: #e2e8f0; }
+  :global(html.dark) .icon-container:hover { background-color: rgb(30 41 59); }
+  :global(html.dark) .icon-container:active { background-color: rgb(51 65 85); }
+  :global(html.dark) .icon-container.selected { background-color: rgb(30 41 59); }
 
   /* Visible focus indicator for keyboard navigation */
   .icon-container:focus-visible {
@@ -729,10 +735,6 @@
                           <div
                               class="icon-container rounded-lg p-1 {selectedIcon === icon ? 'selected' : ''}"
                               on:click={() => selectIcon(icon)}
-                              on:pointerenter={(e) => e.currentTarget.style.backgroundColor = '#f1f5f9'}
-                              on:pointerleave={(e) => e.currentTarget.style.backgroundColor = ''}
-                              on:pointerdown={(e) => e.currentTarget.style.backgroundColor = '#cbd5e1'}
-                              on:pointerup={(e) => e.currentTarget.style.backgroundColor = '#f1f5f9'}
                               role="button"
                               tabindex="0"
                               aria-label="{icon.name} icon"
@@ -788,5 +790,5 @@
 </div>
 
 {#if selectedIcon}
-  <IconDetail icon={selectedIcon} {size} {weight} color={iconColor} onClose={closeDetail} />
+  <IconDetail icon={selectedIcon} {size} {weight} color={iconColor} defaultInk={$theme === 'dark' ? '#F8FAFC' : '#000000'} onClose={closeDetail} />
 {/if}
