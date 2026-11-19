@@ -197,6 +197,29 @@
         border: none;
         cursor: pointer;
     }
+    /* Collapses with the nav links when the page scrolls: leaves after the
+       links and comes back before them */
+    .theme-toggle {
+        transform: translate3d(0, 0, 0);
+        transition: transform 0.4s ease 0.8s, opacity 0.3s ease 0.9s;
+    }
+    .theme-toggle.hide {
+        opacity: 0;
+        pointer-events: none;
+        transform: translate3d(50px, 0, 0);
+        transition-delay: 0.5s, 0.5s;
+    }
+    .drawer-theme {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 1rem;
+        background: none;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+    }
     :global(html.dark) .drawer { background: rgb(15 23 42); color: rgb(226 232 240); }
 
     .nav-links {
@@ -301,8 +324,9 @@
         <!-- Light / dark theme -->
         <button
             type="button"
-            class="theme-toggle text-indigo-500 hover:text-indigo-600"
+            class="theme-toggle text-indigo-500 hover:text-indigo-600 {isScrolled ? 'hide' : ''}"
             on:click={toggleTheme}
+            tabindex={isScrolled ? -1 : 0}
             aria-label={$theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
             title={$theme === 'dark' ? 'Light mode' : 'Dark mode'}
         >
@@ -393,5 +417,13 @@
         <a href="/packages" class="{linkClass('/packages')} self-start" on:click={closeDrawer}>Packages</a>
         <a href="/license" class="{linkClass('/license')} self-start" on:click={closeDrawer}>License</a>
         <a href="/request-icon" class="{linkClass('/request-icon')} self-start" on:click={closeDrawer}>Request icon</a>
+        <!-- Theme control (the header toggle hides while scrolled) -->
+        <button type="button" class="drawer-theme text-indigo-500 hover:text-indigo-600 self-start" on:click={toggleTheme}>
+            {#if $theme === 'dark'}
+                <Sun size={18} aria-hidden="true" /> Light mode
+            {:else}
+                <CircleCrescent size={18} aria-hidden="true" /> Dark mode
+            {/if}
+        </button>
     </nav>
 </div>
