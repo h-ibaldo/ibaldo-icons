@@ -387,12 +387,19 @@
         font-size: 11px;
         font-variant-numeric: tabular-nums;
     }
+    /* Chevron centered; "Clear filters" sits at the right edge */
     .filter-footer {
+        position: relative;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
-        gap: 0.25rem;
-        padding: 0 0.25rem 0.25rem 0.75rem;
+        padding: 0 0.25rem 0.25rem;
+    }
+    .filter-footer .text-button {
+        position: absolute;
+        right: 0.75rem;
+        top: 50%;
+        transform: translateY(calc(-50% - 0.125rem));
     }
     .collapse-button { width: 2rem; height: 2rem; }
     .text-button {
