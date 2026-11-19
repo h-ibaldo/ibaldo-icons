@@ -180,8 +180,10 @@
         grid-template-columns: minmax(0, 1fr) 240px;
         gap: 0.75rem;
     }
-    .picker.wide .area { height: 150px; }
-    .picker.wide .controls { justify-content: space-between; }
+    /* Controls keep tight, even gaps; the area stretches to their height */
+    .picker.wide .area { height: auto; min-height: 96px; }
+    .picker.wide .controls { justify-content: flex-start; gap: 0.75rem; }
+    .picker.wide .presets { padding-top: 0.75rem; }
     @media (max-width: 640px) {
         .picker.wide { grid-template-columns: 1fr; }
         .picker.wide .area { height: 120px; }
