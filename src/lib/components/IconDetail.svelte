@@ -194,6 +194,7 @@
         gap: 1.25rem;
         position: relative;
         padding: 1rem;
+        border-radius: var(--r-lg);
         background: white;
         color: rgb(15 23 42);
         border: 1px solid rgb(226 232 240);
@@ -201,6 +202,7 @@
     }
     /* Big preview on the 24 grid */
     .preview {
+        border-radius: var(--r-md);
         width: 168px;
         height: 168px;
         display: flex;
@@ -221,13 +223,15 @@
     .chips { display: flex; flex-wrap: wrap; gap: 4px; }
     .chip {
         font-size: 11px;
-        padding: 2px 6px;
+        padding: 2px 8px;
+        border-radius: var(--r-full);
         background: rgb(241 245 249);
         color: rgb(71 85 105);
     }
     .chip-cat { background: rgb(51 65 85); color: white; }
     .actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
     .btn {
+        border-radius: var(--r-sm);
         height: 32px;
         padding: 0 0.75rem;
         font-size: 12px;
@@ -246,6 +250,7 @@
     .btn.primary { background: #0900FF; color: white; }
     .btn.primary:hover { background: #0700CC; }
     .icon-button {
+        border-radius: var(--r-sm);
         width: 28px;
         height: 28px;
         display: flex;
@@ -259,7 +264,7 @@
     .icon-button:hover { color: rgb(15 23 42); }
     /* Close sits in the sheet's top-right corner, not inside a column */
     .close { position: absolute; top: 0.5rem; right: 0.5rem; }
-    .code { display: flex; flex-direction: column; min-width: 0; background: rgb(248 250 252); margin-right: 1.75rem; }
+    .code { display: flex; flex-direction: column; min-width: 0; background: rgb(248 250 252); margin-right: 1.75rem; border-radius: var(--r-md); overflow: hidden; }
     .tabs { display: flex; align-items: center; border-bottom: 1px solid rgb(226 232 240); }
     .tab {
         padding: 0.5rem 0.75rem;
@@ -284,6 +289,7 @@
     }
     .copy-code:hover { color: rgb(15 23 42); }
     pre {
+        border-radius: 0;
         margin: 0;
         padding: 0.75rem;
         flex: 1;

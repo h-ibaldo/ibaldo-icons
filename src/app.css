@@ -39,3 +39,17 @@ html.dark .border-gray-900 { border-color: rgb(226 232 240); }
 html.dark .text-indigo-500 { color: #8a85ff; }
 html.dark .hover\:text-indigo-500:hover,
 html.dark .hover\:text-indigo-600:hover { color: #b3b0ff; }
+
+/* ---------- Corner radii ----------
+   The icons have round caps and joins and rounded corners (radius 3 on the
+   24 grid, ~12%); the UI follows with one small scale. */
+:root {
+	--r-xs: 4px;
+	--r-sm: 6px;
+	--r-md: 10px;
+	--r-lg: 14px;
+	--r-full: 999px;
+}
+pre {
+	border-radius: var(--r-md);
+}

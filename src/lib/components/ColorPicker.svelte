@@ -190,6 +190,7 @@
     }
     .area {
         position: relative;
+        border-radius: var(--r-md);
         height: 120px;
         cursor: crosshair;
         touch-action: none;
@@ -199,6 +200,7 @@
     .area:focus-visible { box-shadow: 0 0 0 2px white; }
     .handle {
         position: absolute;
+        border-radius: 50%;
         width: 14px;
         height: 14px;
         margin: -7px 0 0 -7px;
@@ -212,6 +214,7 @@
         width: 100%;
         height: 12px;
         margin: 0;
+        border-radius: var(--r-full);
         background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
         cursor: pointer;
         outline: none;
@@ -222,11 +225,12 @@
         height: 16px;
         background: white;
         border: 1px solid rgba(0, 0, 0, 0.4);
+        border-radius: var(--r-xs);
     }
     .hue::-moz-range-thumb {
         width: 8px;
         height: 16px;
-        border-radius: 0;
+        border-radius: var(--r-xs);
         background: white;
         border: 1px solid rgba(0, 0, 0, 0.4);
     }
@@ -237,6 +241,7 @@
         gap: 0.5rem;
     }
     .swatch {
+        border-radius: var(--r-sm);
         flex: 0 0 auto;
         width: 24px;
         height: 24px;
@@ -249,7 +254,7 @@
         padding: 0 0.5rem;
         background: rgba(255, 255, 255, 0.06);
         border: 1px solid rgba(255, 255, 255, 0.12);
-        border-radius: 0;
+        border-radius: var(--r-sm);
         color: white;
         font-size: 12px;
         font-variant-numeric: tabular-nums;
@@ -266,6 +271,7 @@
         border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
     .preset {
+        border-radius: var(--r-sm);
         aspect-ratio: 1;
         border: 1px solid var(--swatch-border);
         padding: 0;

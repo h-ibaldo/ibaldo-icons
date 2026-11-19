@@ -72,12 +72,13 @@
         padding: 0 0.75rem;
         font-size: 16px;
         border: 1px solid rgb(203 213 225);
-        border-radius: 0;
+        border-radius: var(--r-sm);
         background: transparent;
         box-shadow: none;
     }
     .concept-input:focus { border-color: #0900FF; box-shadow: none; outline: none; }
     .post-button {
+        border-radius: var(--r-sm);
         height: 48px;
         padding: 0 1.25rem;
         font-size: 16px;

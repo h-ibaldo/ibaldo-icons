@@ -541,7 +541,7 @@
         background: #0900FF;
         border: 1px solid white;
         cursor: pointer;
-        border-radius: 0;
+        border-radius: var(--r-xs);
         /* Optimistic UI: smooth thumb movement */
         transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1),
                     background-color 0.15s ease;
@@ -554,7 +554,7 @@
         background: #0900FF;
         border: none;
         cursor: pointer;
-        border-radius: 0;
+        border-radius: var(--r-xs);
         /* Optimistic UI: smooth thumb movement */
         transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1),
                     background-color 0.15s ease;
@@ -601,6 +601,21 @@
     .color-panel { padding: 0.75rem 0.75rem 0; }
     .color-panel .filter-footer { padding: 0.25rem 0 0.25rem; }
 
+    /* ---- Rounded corners (scale in app.css) ---- */
+    .actions-bar { border-radius: var(--r-lg); }
+    /* The blue bar covers the bar from the search button to the right edge */
+    .search-bar { border-radius: 0 var(--r-lg) var(--r-lg) 0; }
+    /* A panel open under the bar: they read as one block */
+    .actions-bar-container.panel-open .actions-bar { border-radius: var(--r-lg) var(--r-lg) 0 0; }
+    .actions-bar-container.panel-open .search-bar { border-radius: 0 var(--r-lg) 0 0; }
+    .filter-panel { border-radius: 0 0 var(--r-lg) var(--r-lg); }
+    .bar-button { border-radius: var(--r-sm); }
+    .filter-option { border-radius: var(--r-sm); }
+    .check { border-radius: var(--r-xs); }
+    .pill { border-radius: var(--r-full); padding-left: 0.7rem; padding-right: 0.45rem; }
+    .pills .text-button { border-radius: var(--r-full); }
+    .swatch { border-radius: var(--r-sm); }
+
     .sr-only {
         position: absolute;
         width: 1px;
@@ -638,6 +653,11 @@
         .pills { order: -2; }
         .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         .actions-bar-container { --bar-pad: 0.5rem; }
+        /* Edge-to-edge at the bottom of the screen: square, panels round on top */
+        .actions-bar, .search-bar,
+        .actions-bar-container.panel-open .actions-bar,
+        .actions-bar-container.panel-open .search-bar { border-radius: 0; }
+        .filter-panel { border-radius: var(--r-lg) var(--r-lg) 0 0; }
         .actions-bar {
             gap: 0.75rem;
             padding: 0.5rem var(--bar-pad) 1.5rem;
@@ -681,7 +701,7 @@
     }
 </style>
 
-<div class="actions-bar-container" bind:this={containerEl}>
+<div class="actions-bar-container {filtersOpen || colorOpen || adjustOpen ? 'panel-open' : ''}" bind:this={containerEl}>
     <div class="bar-stack">
     {#if searchOpen}
         <div class="search-bar" transition:roll>
