@@ -1,0 +1,36 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Line, Polyline, Rect } = RNSvg;
+
+const ArrowUpSquare = forwardRef(function ArrowUpSquare(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Polyline, {"points":"9.025268534540373 10.999999998695785 12.025268534680436 7.99999999883039 15.025268534540373 10.999999998964995","key":"0"}),
+    createElement(Line, {"x1":"12.025268534320276","y1":"15.99999999883039","x2":"12.025268534680436","y2":"7.999999998826752","key":"1"}),
+    createElement(Rect, {"x":"2.025268534409406","y":"1.999999998828571","width":"20","height":"20","rx":"1.999999999997726","ry":"1.999999999997726","key":"2"})
+  );
+});
+
+ArrowUpSquare.displayName = 'ArrowUpSquare';
+
+module.exports = ArrowUpSquare;
+module.exports.ArrowUpSquare = ArrowUpSquare;
+module.exports.default = ArrowUpSquare;

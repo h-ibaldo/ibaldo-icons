@@ -1,0 +1,36 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const FileStampCut = forwardRef(function FileStampCut(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M4 17L4 18.586C4 19.491 3.64 20.36 3 21L2 22L12.586 22C13.491 22 14.36 21.64 15 21L15 21C15.64 20.36 16 19.491 16 18.586L16 17C16 15.895 15.105 15 14 15L6 15C4.895 15 4 15.895 4 17Z","key":"0"}),
+    createElement(Path, {"d":"M10 15L9.064 10.321C9.023 10.113 9.052 9.897 9.146 9.707L9.146 9.707C9.498 9.004 10.502 9.004 10.854 9.707L10.854 9.707C10.948 9.897 10.977 10.113 10.936 10.321L10 15Z","key":"1"}),
+    createElement(Path, {"d":"M19 22C20.105 22 21 21.105 21 20L21 7.828C21 7.298 20.789 6.789 20.414 6.414L16.586 2.586C16.211 2.211 15.702 2 15.172 2L7 2C5.895 2 5 2.895 5 4L5 11","key":"2"})
+  );
+});
+
+FileStampCut.displayName = 'FileStampCut';
+
+module.exports = FileStampCut;
+module.exports.FileStampCut = FileStampCut;
+module.exports.default = FileStampCut;

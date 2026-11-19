@@ -1,0 +1,35 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const EyeShine = forwardRef(function EyeShine(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M12.025268539455283,5.997562040162848c-4.272705078119543,0-8.178466796869543,2.44097900390625-10,6,1.821533203130457,3.559020996094659,5.727294921880457,6,10,6,4.272705078130457,0,8.178466796880457-2.440979003905341,10-6-1.821533203119543-3.55902099609375-5.727294921869543-6-10-6Z","key":"0"}),
+    createElement(Path, {"d":"M12.025268539455283,8.997562040162848c-1.656854249398748,0-3,1.343145750601252-3,3,0,1.656854249399657,1.343145750601252,3,3,3,1.656854249400567,0,3-1.343145750600343,3-3","key":"1"})
+  );
+});
+
+EyeShine.displayName = 'EyeShine';
+
+module.exports = EyeShine;
+module.exports.EyeShine = EyeShine;
+module.exports.default = EyeShine;

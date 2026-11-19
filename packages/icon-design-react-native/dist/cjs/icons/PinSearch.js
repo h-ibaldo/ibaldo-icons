@@ -1,0 +1,37 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Circle, Line, Path } = RNSvg;
+
+const PinSearch = forwardRef(function PinSearch(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Circle, {"cx":"17.99999997652958","cy":"16.998779299956368","r":"4","key":"0"}),
+    createElement(Line, {"x1":"15.171569800750149","y1":"19.827209475737618","x2":"12.999999976489562","y2":"21.998779299956368","key":"1"}),
+    createElement(Path, {"d":"M7.999999976489562,1.998779299956368C4.686279273370019,1.998779299956368,1.999999976489562,4.685058596831368,1.999999976489562,7.998779299956368c0,1.9208984375.763061523441138,3.7630615234375,2.121337890630457,5.121337890625l3.878662109369543,3.878662109375,3.878662109380457-3.878662109375c1.358276367180224-1.3582763671875,2.121337890619543-3.200439453125,2.121337890619543-5.121337890625,0-3.313720703125-2.686279296869543-6-6-6Z","key":"2"}),
+    createElement(Circle, {"cx":"7.999999976489562","cy":"7.998779299956368","r":"1","key":"3"})
+  );
+});
+
+PinSearch.displayName = 'PinSearch';
+
+module.exports = PinSearch;
+module.exports.PinSearch = PinSearch;
+module.exports.default = PinSearch;

@@ -1,0 +1,32 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const TagRefreshRound = forwardRef(function TagRefreshRound(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M6.5 8C6.223 8 6 7.777 6 7.5C6 7.223 6.223 7 6.5 7C6.777 7 7 7.223 7 7.5C7 7.777 6.777 8 6.5 8Z","key":"0"}),
+    createElement(Path, {"d":"M13 5L11.586 3.586C11.211 3.211 10.703 3 10.172 3L4 3C2.895 3 2 3.895 2 5L2 11.172C2 11.703 2.211 12.211 2.586 12.586L10.586 20.586C11.367 21.367 12.633 21.367 13.414 20.586L14.5 19.5","key":"1"}),
+    createElement(Path, {"d":"M11 16L11 13L14 13","key":"2"}),
+    createElement(Path, {"d":"M12.102 13C12.563 15.281 14.582 17 17 17C19.762 17 22 14.762 22 12C22 9.238 19.762 7 17 7C15.371 7 13.938 7.793 13.023 9","key":"3"})
+  );
+});
+
+TagRefreshRound.displayName = 'TagRefreshRound';
+
+export default TagRefreshRound;
+export { TagRefreshRound };

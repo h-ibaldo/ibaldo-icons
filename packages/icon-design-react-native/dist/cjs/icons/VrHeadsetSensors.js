@@ -1,0 +1,45 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Circle, Path, Polyline, Rect } = RNSvg;
+
+const VrHeadsetSensors = forwardRef(function VrHeadsetSensors(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Rect, {"x":"3.025268549509747","y":"8.998782739598028","width":"18","height":"11","rx":"4","ry":"4","key":"0"}),
+    createElement(Polyline, {"points":"13.025268549509747 8.998782739598028 13.025268549509747 2.998782739598028 11.025268549509747 2.998782739598028 11.025268549509747 8.998782739598028","key":"1"}),
+    createElement(Circle, {"cx":"9.525268549509747","cy":"13.498782739598028","r":".5","key":"2"}),
+    createElement(Circle, {"cx":"14.525268549509747","cy":"13.498782739598028","r":".5","key":"3"}),
+    createElement(Circle, {"cx":"17.525268549509747","cy":"10.498782739598028","r":".5","key":"4"}),
+    createElement(Circle, {"cx":"6.525268549509747","cy":"10.498782739598028","r":".5","key":"5"}),
+    createElement(Circle, {"cx":"4.525268549509747","cy":"14.498782739598028","r":".5","key":"6"}),
+    createElement(Circle, {"cx":"7.525268549509747","cy":"18.498782739598028","r":".5","key":"7"}),
+    createElement(Circle, {"cx":"16.525268549509747","cy":"18.498782739598028","r":".5","key":"8"}),
+    createElement(Circle, {"cx":"19.525268549509747","cy":"14.498782739598028","r":".5","key":"9"}),
+    createElement(Path, {"d":"M18.719726557319518,9.387698755223028l-1.247363261689316-2.494591741298791c-.290293730799931-.580556094326312-.761049422880205-1.051301612707903-1.341611790790012-1.341582796663715l-3.105482955330444-1.552741477662494","key":"10"}),
+    createElement(Path, {"d":"M5.330810541950086,9.387698755350357l1.247363261580176-2.494591741356999c.290293730769918-.580556094337226.761049422829274-1.051301612740644,1.341611790739989-1.341582796721923l3.105482955239495-1.552741477800737","key":"11"})
+  );
+});
+
+VrHeadsetSensors.displayName = 'VrHeadsetSensors';
+
+module.exports = VrHeadsetSensors;
+module.exports.VrHeadsetSensors = VrHeadsetSensors;
+module.exports.default = VrHeadsetSensors;

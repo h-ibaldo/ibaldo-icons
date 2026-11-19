@@ -1,0 +1,41 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const WindowSettingsCenterNotch = forwardRef(function WindowSettingsCenterNotch(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M20 22L4 22C2.895 22 2 21.105 2 20L2 4C2 2.895 2.895 2 4 2L20 2C21.105 2 22 2.895 22 4L22 20C22 21.105 21.105 22 20 22Z","key":"0"}),
+    createElement(Path, {"d":"M2 8L22 8","key":"1"}),
+    createElement(Path, {"d":"M5 5L5 5","key":"2"}),
+    createElement(Path, {"d":"M8 5L8 5","key":"3"}),
+    createElement(Path, {"d":"M11 5L11 5","key":"4"}),
+    createElement(Path, {"d":"M15 15C15 13.344 13.656 12 12 12C10.344 12 9 13.344 9 15C9 16.656 10.344 18 12 18C13.656 18 15 16.656 15 15Z","key":"5"}),
+    createElement(Path, {"d":"M12 11L12 12","key":"6"}),
+    createElement(Path, {"d":"M12 18L12 19","key":"7"}),
+    createElement(Path, {"d":"M8.535 13L9.402 13.5","key":"8"}),
+    createElement(Path, {"d":"M14.598 16.5L15.465 17","key":"9"}),
+    createElement(Path, {"d":"M8.535 17L9.402 16.5","key":"10"}),
+    createElement(Path, {"d":"M14.598 13.5L15.465 13","key":"11"}),
+    createElement(Path, {"d":"M2 17L4 15L2 13","key":"12"})
+  );
+});
+
+WindowSettingsCenterNotch.displayName = 'WindowSettingsCenterNotch';
+
+export default WindowSettingsCenterNotch;
+export { WindowSettingsCenterNotch };

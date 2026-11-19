@@ -1,0 +1,32 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const LinkSplitSlanted = forwardRef(function LinkSplitSlanted(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M12 5L13.5 3.5C15.434 1.566 18.566 1.566 20.5 3.5C22.434 5.434 22.434 8.566 20.5 10.5L19 12","key":"0"}),
+    createElement(Path, {"d":"M12 19L10.5 20.5C8.566 22.434 5.434 22.434 3.5 20.5C1.566 18.566 1.566 15.434 3.5 13.5L5 12","key":"1"}),
+    createElement(Path, {"d":"M5 5L9 9","key":"2"}),
+    createElement(Path, {"d":"M15 15L19 19","key":"3"})
+  );
+});
+
+LinkSplitSlanted.displayName = 'LinkSplitSlanted';
+
+export default LinkSplitSlanted;
+export { LinkSplitSlanted };

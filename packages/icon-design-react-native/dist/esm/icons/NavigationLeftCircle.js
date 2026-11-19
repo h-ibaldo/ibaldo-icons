@@ -1,0 +1,30 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const NavigationLeftCircle = forwardRef(function NavigationLeftCircle(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2C6.477 2 2 6.477 2 12Z","key":"0"}),
+    createElement(Path, {"d":"M13.68 7.391L7.43 11.145C6.781 11.531 6.781 12.469 7.43 12.859L13.68 16.609C14.48 17.086 15.438 16.316 15.145 15.438L14.105 12.316C14.035 12.113 14.035 11.887 14.105 11.684L15.145 8.566C15.438 7.684 14.48 6.914 13.68 7.391Z","key":"1"})
+  );
+});
+
+NavigationLeftCircle.displayName = 'NavigationLeftCircle';
+
+export default NavigationLeftCircle;
+export { NavigationLeftCircle };

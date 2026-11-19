@@ -1,0 +1,37 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const GaugeFlatCircle = forwardRef(function GaugeFlatCircle(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12Z","key":"0"}),
+    createElement(Path, {"d":"M13 12C13 11.445 12.551 11 12 11C11.449 11 11 11.445 11 12C11 12.555 11.449 13 12 13C12.551 13 13 12.555 13 12Z","key":"1"}),
+    createElement(Path, {"d":"M16.5 7.5L12 12","key":"2"}),
+    createElement(Path, {"d":"M13 6.09C12.676 6.035 12.34 6 12 6C8.688 6 6 8.688 6 12C6 14.086 7.066 15.926 8.688 17L15.313 17C16.934 15.926 18 14.086 18 12C18 11.656 17.965 11.324 17.91 11","key":"3"})
+  );
+});
+
+GaugeFlatCircle.displayName = 'GaugeFlatCircle';
+
+module.exports = GaugeFlatCircle;
+module.exports.GaugeFlatCircle = GaugeFlatCircle;
+module.exports.default = GaugeFlatCircle;

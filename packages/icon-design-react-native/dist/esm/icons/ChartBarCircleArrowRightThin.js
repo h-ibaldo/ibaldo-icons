@@ -1,0 +1,34 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Path, Polyline } from 'react-native-svg';
+
+const ChartBarCircleArrowRightThin = forwardRef(function ChartBarCircleArrowRightThin(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Polyline, {"points":"6 18.000000000480213 8 20.000000000480213 6 22.000000000480213","key":"0"}),
+    createElement(Line, {"x1":"2","y1":"20.000000000480213","x2":"8","y2":"20.000000000480213","key":"1"}),
+    createElement(Path, {"d":"M12,22.000000000480213c5.522827148450233,0,10-4.4771728515625,10-10,0-5.52294921875-4.477172851549767-10-10-10C6.477172851560681,2.000000000480213,2,6.477050781730213,2,12.000000000480213c0,1.04541015625.161682128909888,2.052734375.459228515630457,3","key":"2"}),
+    createElement(Line, {"x1":"8","y1":"14.000000000480213","x2":"8","y2":"11.000000000480213","key":"3"}),
+    createElement(Line, {"x1":"12","y1":"14.000000000480213","x2":"12","y2":"8.000000000480213","key":"4"}),
+    createElement(Line, {"x1":"16","y1":"14.000000000480213","x2":"16","y2":"10.000000000480213","key":"5"})
+  );
+});
+
+ChartBarCircleArrowRightThin.displayName = 'ChartBarCircleArrowRightThin';
+
+export default ChartBarCircleArrowRightThin;
+export { ChartBarCircleArrowRightThin };

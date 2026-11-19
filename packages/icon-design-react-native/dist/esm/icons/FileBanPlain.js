@@ -1,0 +1,31 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const FileBanPlain = forwardRef(function FileBanPlain(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M19.536 13.498L12.464 20.569","key":"0"}),
+    createElement(Path, {"d":"M11 17.034C11 14.272 13.239 12.034 16 12.034C18.761 12.034 21 14.272 21 17.034C21 19.795 18.761 22.034 16 22.034C13.239 22.034 11 19.795 11 17.034Z","key":"1"}),
+    createElement(Path, {"d":"M20 10.034L20 4.034C20 2.929 19.105 2.034 18 2.034L6 2.034C4.895 2.034 4 2.929 4 4.034L4 20.034C4 21.138 4.895 22.034 6 22.034L10 22.034","key":"2"})
+  );
+});
+
+FileBanPlain.displayName = 'FileBanPlain';
+
+export default FileBanPlain;
+export { FileBanPlain };

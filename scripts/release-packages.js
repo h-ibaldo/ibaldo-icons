@@ -60,6 +60,11 @@ const packages = [
     name: '@ibaldo/icons-vue',
     path: resolve(projectRoot, 'packages/icon-design-vue'),
     buildScript: 'node scripts/build.cjs'
+  },
+  {
+    name: '@ibaldo/icons-react-native',
+    path: resolve(projectRoot, 'packages/icon-design-react-native'),
+    buildScript: 'node scripts/build.cjs'
   }
 ];
 
@@ -262,6 +267,7 @@ async function main() {
 - @ibaldo/icons-react v${newVersion}
 - @ibaldo/icons-svelte v${newVersion}
 - @ibaldo/icons-vue v${newVersion}
+- @ibaldo/icons-react-native v${newVersion}
 
 Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`;
 

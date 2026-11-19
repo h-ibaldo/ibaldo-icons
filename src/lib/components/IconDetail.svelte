@@ -12,7 +12,7 @@
     export let color = '';    // '' = currentColor
     export let onClose = () => {};
 
-    const TABS = ['React', 'Svelte', 'Vue'];
+    const TABS = ['React', 'Svelte', 'Vue', 'React Native'];
     let tab = 'React';
     let copied = '';          // key of the last thing copied, for feedback
     let copiedTimer;

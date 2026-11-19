@@ -1,0 +1,32 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const CodeSlashSquare = forwardRef(function CodeSlashSquare(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M17 22L7 22C4.238 22 2 19.762 2 17L2 7C2 4.238 4.238 2 7 2L17 2C19.762 2 22 4.238 22 7L22 17C22 19.762 19.762 22 17 22Z","key":"0"}),
+    createElement(Path, {"d":"M8 17C7.449 17 7 16.551 7 16L7 13L6 12L7 11L7 8C7 7.449 7.449 7 8 7","key":"1"}),
+    createElement(Path, {"d":"M16 17C16.551 17 17 16.551 17 16L17 13L18 12L17 11L17 8C17 7.449 16.551 7 16 7","key":"2"}),
+    createElement(Path, {"d":"M11 14L13 10","key":"3"})
+  );
+});
+
+CodeSlashSquare.displayName = 'CodeSlashSquare';
+
+export default CodeSlashSquare;
+export { CodeSlashSquare };

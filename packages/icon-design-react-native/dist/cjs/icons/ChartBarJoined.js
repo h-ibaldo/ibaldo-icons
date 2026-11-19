@@ -1,0 +1,36 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Line, Polygon } = RNSvg;
+
+const ChartBarJoined = forwardRef(function ChartBarJoined(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Polygon, {"points":"15.016630450973025 3.000000000480213 15.016630450973025 8.000000000480213 9.016630450973025 8.000000000480213 9.016630450973025 13.000000000480213 3.016630450973025 13.000000000480213 3.016630450973025 21.000000000480213 9.016630450973025 21.000000000480213 15.016630450973025 21.000000000480213 21.016630450973025 21.000000000480213 21.016630450973025 3.000000000480213 15.016630450973025 3.000000000480213","key":"0"}),
+    createElement(Line, {"x1":"15.016630450973025","y1":"8.000000000480213","x2":"15.016630450973025","y2":"21.000000000480213","key":"1"}),
+    createElement(Line, {"x1":"9.016630450973025","y1":"13.000000000480213","x2":"9.016630450973025","y2":"21.000000000480213","key":"2"})
+  );
+});
+
+ChartBarJoined.displayName = 'ChartBarJoined';
+
+module.exports = ChartBarJoined;
+module.exports.ChartBarJoined = ChartBarJoined;
+module.exports.default = ChartBarJoined;

@@ -1,0 +1,31 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Path, Polyline } from 'react-native-svg';
+
+const Upload = forwardRef(function Upload(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Polyline, {"points":"6.97473145017193 7.999999999336069 11.974731451290609 3.000000000462023 16.97473145017193 8.000000001585249","key":"0"}),
+    createElement(Line, {"x1":"11.974731448374769","y1":"16.000000000462023","x2":"11.974731451290609","y2":"3.000000000462023","key":"1"}),
+    createElement(Path, {"d":"M1.974731450037325,18.000000000462023v1c0,1.104569499660101.895430500335351,2.000000000000909,2,2.000000000000909h16c1.104569499661011,0,2-.895430500340808,2-2.000000000000909v-1","key":"2"})
+  );
+});
+
+Upload.displayName = 'Upload';
+
+export default Upload;
+export { Upload };

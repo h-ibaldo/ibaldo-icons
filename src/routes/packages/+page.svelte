@@ -2,7 +2,7 @@
 
     <h1 class="text-2xl font-bold mb-4">Packages</h1>
 
-    <p class="mb-4">Ibaldo Icons is available as framework components for React, Svelte and Vue.</p>
+    <p class="mb-4">Ibaldo Icons is available as framework components for React, Svelte, Vue and React Native.</p>
     <p class="mb-4">Each package ships the full icon set as individual components — tree-shakeable, typed, and ready to use.</p>
 
     <h2 class="font-bold mb-2 mt-8">React</h2>
@@ -58,6 +58,28 @@ import &#123; Play, ChatCheck, Volume &#125; from '@ibaldo/icons-vue';
   &lt;ChatCheck :size="32" /&gt;
   &lt;Volume color="#333" :stroke-width="2" /&gt;
 &lt;/template&gt;</code></pre>
+
+    <h2 class="font-bold mb-2 mt-8">React Native</h2>
+
+    <p class="mb-4">
+        <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/icons-react-native</code>
+    </p>
+
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>npm install @ibaldo/icons-react-native react-native-svg</code></pre>
+
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>import &#123; Play, ChatCheck, Volume &#125; from '@ibaldo/icons-react-native';
+
+export default function App() &#123;
+  return (
+    &lt;&gt;
+      &lt;Play /&gt;
+      &lt;ChatCheck size=&#123;32&#125; /&gt;
+      &lt;Volume color="#333" strokeWidth=&#123;2&#125; /&gt;
+    &lt;/&gt;
+  );
+&#125;</code></pre>
+
+    <p class="mb-4">Works with Expo and bare React Native. Requires <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">react-native-svg</code>.</p>
 
     <h2 class="font-bold mb-2 mt-8">Props</h2>
 
@@ -115,7 +137,8 @@ import Play from '@ibaldo/icons-react/icons/Play';</code></pre>
     <p class="mb-4">
         <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-react" target="_blank">@ibaldo/icons-react</a> ·
         <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-svelte" target="_blank">@ibaldo/icons-svelte</a> ·
-        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-vue" target="_blank">@ibaldo/icons-vue</a>
+        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-vue" target="_blank">@ibaldo/icons-vue</a> ·
+        <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-react-native" target="_blank">@ibaldo/icons-react-native</a>
     </p>
 
 </div>

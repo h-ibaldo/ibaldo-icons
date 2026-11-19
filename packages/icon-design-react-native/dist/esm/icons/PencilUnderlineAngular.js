@@ -1,0 +1,31 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Polygon } from 'react-native-svg';
+
+const PencilUnderlineAngular = forwardRef(function PencilUnderlineAngular(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Polygon, {"points":"22 6.171572891049436 18 2.171572891049436 2 18.171572891049436 2.00000000036016 22.171572890689276 6.00000000036016 22.171572890689276 22 6.171572891049436","key":"0"}),
+    createElement(Line, {"x1":"14.99999999963984","y1":"5.171572890689276","x2":"19","y2":"9.171572891049436","key":"1"}),
+    createElement(Line, {"x1":"11","y1":"22.171572891049436","x2":"22","y2":"22.171572891049436","key":"2"})
+  );
+});
+
+PencilUnderlineAngular.displayName = 'PencilUnderlineAngular';
+
+export default PencilUnderlineAngular;
+export { PencilUnderlineAngular };

@@ -147,6 +147,23 @@ async function buildReactPackage() {
 }
 
 /**
+ * Build React Native package
+ */
+async function buildReactNativePackage() {
+  console.log('\n📱 Building React Native package...');
+
+  try {
+    await execAsync('npm run build', {
+      cwd: path.join(projectRoot, 'packages', 'icon-design-react-native')
+    });
+    console.log('✅ React Native package built');
+  } catch (error) {
+    console.error('❌ React Native package build failed:', error.message);
+    throw error;
+  }
+}
+
+/**
  * Build Vue package
  */
 async function buildVuePackage() {
@@ -253,7 +270,8 @@ async function main() {
     await Promise.all([
       buildReactPackage(),
       buildSveltePackage(),
-      buildVuePackage()
+      buildVuePackage(),
+      buildReactNativePackage()
     ]);
   } catch (error) {
     console.error('\n❌ Package builds failed');
@@ -275,6 +293,7 @@ async function main() {
   console.log(`  ⚛️  React: packages/icon-design-react/dist/`);
   console.log(`  🔶 Svelte: packages/icon-design-svelte/dist/`);
   console.log(`  🟢 Vue: packages/icon-design-vue/dist/`);
+  console.log(`  📱 React Native: packages/icon-design-react-native/dist/`);
   console.log(`  📋 Index: static/icons-index.json`);
   console.log('\n' + '='.repeat(60) + '\n');
 }

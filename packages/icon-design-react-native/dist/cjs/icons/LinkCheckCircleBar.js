@@ -1,0 +1,38 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const LinkCheckCircleBar = forwardRef(function LinkCheckCircleBar(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M12 17C12 14.238 14.238 12 17 12C19.762 12 22 14.238 22 17C22 19.762 19.762 22 17 22C14.238 22 12 19.762 12 17Z","key":"0"}),
+    createElement(Path, {"d":"M13.828 8.172L15.172 6.828C16.277 5.723 16.277 3.934 15.172 2.828C14.066 1.723 12.277 1.723 11.172 2.828L9.828 4.172C8.723 5.277 8.723 7.066 9.828 8.172C10.383 8.723 11.105 9 11.828 9C12.555 9 13.277 8.723 13.828 8.172Z","key":"1"}),
+    createElement(Path, {"d":"M6.828 15.172L8.172 13.828C9.277 12.723 9.277 10.934 8.172 9.828C7.066 8.723 5.277 8.723 4.172 9.828L2.828 11.172C1.723 12.277 1.723 14.066 2.828 15.172C3.934 16.277 5.723 16.277 6.828 15.172Z","key":"2"}),
+    createElement(Path, {"d":"M6 12L12 6","key":"3"}),
+    createElement(Path, {"d":"M15.5 17.02L16.5 18.02L18.5 16.02","key":"4"})
+  );
+});
+
+LinkCheckCircleBar.displayName = 'LinkCheckCircleBar';
+
+module.exports = LinkCheckCircleBar;
+module.exports.LinkCheckCircleBar = LinkCheckCircleBar;
+module.exports.default = LinkCheckCircleBar;

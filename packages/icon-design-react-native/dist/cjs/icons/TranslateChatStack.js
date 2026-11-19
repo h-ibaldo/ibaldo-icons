@@ -1,0 +1,41 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Line, Path, Polyline } = RNSvg;
+
+const TranslateChatStack = forwardRef(function TranslateChatStack(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Line, {"x1":"5.025268548975873","y1":"4.997565476121054","x2":"5.025268548975873","y2":"10.997565476121054","key":"0"}),
+    createElement(Line, {"x1":"5.025268548975873","y1":"10.997565476121054","x2":"9.025268548975873","y2":"10.997565476121054","key":"1"}),
+    createElement(Line, {"x1":"5.025268548975873","y1":"4.997565476121054","x2":"9.025268548975873","y2":"4.997565476121054","key":"2"}),
+    createElement(Line, {"x1":"5.025268548975873","y1":"7.997565476121054","x2":"8.025268548975873","y2":"7.997565476121054","key":"3"}),
+    createElement(Path, {"d":"M12.025268548526583,13.997565476121054h-7l-3,3V3.997565476121054c0-1.104569499661011.895430500338989-2,2-2h6c1.104569499659192,0,2,.895430500338989,2,2v10Z","key":"4"}),
+    createElement(Path, {"d":"M14.025268548526583,18.997565476212003l5,.000000000218279,2.999999999869033,3.000000000138243.000000000580258-13c.000000000049113-1.104569499657373-.895430500249859-2.000000000040018-1.99999999991087-2.000000000087311l-8-.00000000036016-.00000000044929,10c-.000000000049113,1.104569499661011.895430500249859,2.000000000040018,1.99999999991087,2.000000000090949Z","key":"5"}),
+    createElement(Polyline, {"points":"19.025268548755776 15.997565476121054 19.025268548926761 9.997565476430282 15.025268548926761 9.997565476252021 15.025268548755776 15.997565475939155","key":"6"}),
+    createElement(Line, {"x1":"15.025268548755776","y1":"13.997565476259297","x2":"19.025268548755776","y2":"13.997565476430282","key":"7"})
+  );
+});
+
+TranslateChatStack.displayName = 'TranslateChatStack';
+
+module.exports = TranslateChatStack;
+module.exports.TranslateChatStack = TranslateChatStack;
+module.exports.default = TranslateChatStack;

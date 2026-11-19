@@ -1,0 +1,30 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const ArrowDownSlim = forwardRef(function ArrowDownSlim(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M15 17L12 20L9 17","key":"0"}),
+    createElement(Path, {"d":"M12 20L12 4","key":"1"})
+  );
+});
+
+ArrowDownSlim.displayName = 'ArrowDownSlim';
+
+export default ArrowDownSlim;
+export { ArrowDownSlim };

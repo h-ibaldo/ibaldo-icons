@@ -1,0 +1,38 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const LinkMenuRound = forwardRef(function LinkMenuRound(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M13 13.762C14.203 14.566 15 15.941 15 17.5C15 19.984 12.984 22 10.5 22L6.5 22C4.016 22 2 19.984 2 17.5C2 15.188 3.754 13.301 6 13.051","key":"0"}),
+    createElement(Path, {"d":"M11 18.238C9.797 17.434 9 16.059 9 14.5C9 12.016 11.016 10 13.5 10L17.5 10C19.984 10 22 12.016 22 14.5C22 16.813 20.246 18.699 18 18.949","key":"1"}),
+    createElement(Path, {"d":"M2 2L9 2","key":"2"}),
+    createElement(Path, {"d":"M2 5L9 5","key":"3"}),
+    createElement(Path, {"d":"M2 8L6 8","key":"4"})
+  );
+});
+
+LinkMenuRound.displayName = 'LinkMenuRound';
+
+module.exports = LinkMenuRound;
+module.exports.LinkMenuRound = LinkMenuRound;
+module.exports.default = LinkMenuRound;
