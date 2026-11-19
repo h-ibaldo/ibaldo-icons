@@ -390,14 +390,27 @@
   // Virtual window over the filtered icons. The hero text takes the first
   // two cells of row 0 when there is no search.
   $: filtering = !!search || selectedCategories.length > 0;
-  $: heroSlots = filtering ? 0 : 2;
+  // The hero text takes two cells in the middle of the second row
+  // (cols 4-5 of 8), only when nothing is filtered.
+  const HERO = { path: '__hero__', hero: true };
+  $: heroSlot = filtering ? -1 : cols + Math.floor((cols - 2) / 2);
+  $: heroSlots = heroSlot >= 0 ? 2 : 0;
   $: totalRows = Math.ceil((filteredIcons.length + heroSlots) / cols);
   $: firstRow = Math.min(startRow, Math.max(0, totalRows - 1));
   $: lastRow = Math.min(totalRows, Math.max(endRow, firstRow + 1));
-  $: visibleIcons = filteredIcons.slice(
-    Math.max(0, firstRow * cols - heroSlots),
-    Math.max(0, lastRow * cols - heroSlots)
-  );
+
+  // Items for grid cells [a, b), with the hero (2 cells) inserted at slot h
+  function sliceSlots(list, a, b, h) {
+    if (h < 0) return list.slice(a, b);
+    const out = list.slice(a, Math.max(a, Math.min(b, h)));
+    if (a <= h && b > h) out.push(HERO);
+    const start = Math.max(a, h + 2) - 2;
+    const end = b - 2;
+    if (end > start) out.push(...list.slice(start, end));
+    return out;
+  }
+  $: visibleItems = sliceSlots(filteredIcons, firstRow * cols, lastRow * cols, heroSlot);
+  $: visibleIcons = visibleItems.filter((item) => item !== HERO);
   $: padTop = firstRow * rowHeight;
   $: padBottom = Math.max(0, (totalRows - lastRow) * rowHeight);
   $: loadChunksFor(visibleIcons);
@@ -705,18 +718,17 @@
                   style="--icon-size: {size}px; --stroke-width: {weight}px;{iconColor ? ` color: ${iconColor};` : ''}"
               >
                   <!-- Hero text block - responsive column spans -->
-                  {#if !filtering && firstRow === 0}
-                  <div class="hero-text-cols row-span-1 sm:row-span-1 flex items-center justify-start sm:p-4 text-grid-cell">
-                    <p class="text-sm font-normal leading-relaxed text-black text-start">
-                        <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
-                            Icons made with conviction. <br>Multiple designs per concept. <br>For designers who refuse to settle.
-                            <!-- <br>{totalIcons.toLocaleString()} line icons for designers  -->
-                        </a>
-                    </p>
-                  </div>
-                  {/if}
 
-                  {#each visibleIcons as icon, index (icon.path)}
+                  {#each visibleItems as icon, index (icon.path)}
+                    {#if icon === HERO}
+                      <div class="hero-text-cols flex items-center justify-center text-center sm:p-4 text-grid-cell">
+                        <p class="text-sm font-normal leading-relaxed text-black text-center">
+                          <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
+                            Icons made with conviction. <br>Multiple designs per concept. <br>For designers who refuse to settle.
+                          </a>
+                        </p>
+                      </div>
+                    {:else}
                       {#if index === 8 && !search && false}
                         <!-- Attribution text - positioned based on grid columns -->
                         <!-- 4 col: 2,4-4,4 | 6 col: 5,3-6,3 | 8 col: 7,3-8,3 | 12 col: 10,4-11,4 -->
@@ -781,6 +793,7 @@
                           </div>
                           <div class="icon-tooltip" aria-hidden="true">{icon.displayName || icon.name}</div>
                       </div>
+                    {/if}
                   {/each}
               </div>
               </div>
