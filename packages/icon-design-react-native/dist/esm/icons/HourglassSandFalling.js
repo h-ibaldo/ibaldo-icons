@@ -1,0 +1,32 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const HourglassSandFalling = forwardRef(function HourglassSandFalling(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M16.922 7.898L12 12L7.078 7.898C6.395 7.328 6 6.484 6 5.594L6 2L18 2L18 5.594C18 6.484 17.605 7.328 16.922 7.898Z","key":"0"}),
+    createElement(Path, {"d":"M7.078 16.102L12 12L16.922 16.102C17.605 16.672 18 17.516 18 18.406L18 22L6 22L6 18.406C6 17.516 6.395 16.672 7.078 16.102Z","key":"1"}),
+    createElement(Path, {"d":"M10 19L14 19","key":"2"}),
+    createElement(Path, {"d":"M12 8L12 8","key":"3"})
+  );
+});
+
+HourglassSandFalling.displayName = 'HourglassSandFalling';
+
+export default HourglassSandFalling;
+export { HourglassSandFalling };

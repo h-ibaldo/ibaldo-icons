@@ -1,0 +1,35 @@
+import { defineComponent, h } from 'vue';
+
+const FolderTabBack = defineComponent({
+  name: 'FolderTabBack',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M20.000000001569788,20.999999999998181H4.000000021309461c-1.104569499659192,0-2-.895430500340808-2-2V4.999999999998181c0-1.104569499659192.895430500340808-2,2-2h5.763932766771177c.757543728890596,0,1.45006968063899.428004318559033,1.788853900299728,1.105571845610029l.894429358630077,1.788856308779941c.338784219649824.677567527050996,1.031310171400037,1.105571845610029,1.788853900299728,1.105571845610029h5.763929969860328c1.104569490989888,0,1.999999986979674.895430488249986,1.999999996509359,1.999999979250788l.000000086320142,10.000000005060429c.000000009529685,1.104569505529071-.895430492890227,2.000000015688784-1.999999998430212,2.000000015688784Z"}),
+          h('line', {"x1":"2","y1":"6.999999999998181","x2":"14","y2":"6.999999999998181"})
+        ]
+      );
+  }
+});
+
+export default FolderTabBack;
+export { FolderTabBack };

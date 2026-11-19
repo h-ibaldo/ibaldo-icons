@@ -1,0 +1,38 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const BookmarkHeart = defineComponent({
+  name: 'BookmarkHeart',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M18.000000026693669,1.999999999998181H6.000000026693669c-.552284749830505,0-1,.447715250169495-1,1v19l7-4,7,4V2.999999999998181c0-.552284749830505-.447715250169495-1-1-1Z"}),
+          h('path', {"d":"M11.292893245508822,13.29289321881879l-2.793826842695125-2.79382684266966c-.8279114982397-.8279114982397-.827911498567119-2.170221252890769-.000000000731234-2.998132751529738l.001867248505732-.00186724851028c.827911498001413-.827911498799949,2.170221253127238-.827911499110996,2.998132751519734-.000000000711225l.500933624589379.500933624600293.500933624600293-.500933624600293c.827911498392496-.827911498390677,2.170221253498312-.827911498070534,2.998132751494268.000000000711225l.001867248492999.001867248498456c.827911497834066.827911498630783.827911497513924,2.170221253271848-.000000000714863,2.998132751501544l-2.793826842689668,2.793826842698763c-.390524291749898.390524291749898-1.023689270617979.390524291760812-1.414213562371515.000000000010914Z"})
+        ]
+      );
+  }
+});
+
+module.exports = BookmarkHeart;
+module.exports.BookmarkHeart = BookmarkHeart;
+module.exports.default = BookmarkHeart;

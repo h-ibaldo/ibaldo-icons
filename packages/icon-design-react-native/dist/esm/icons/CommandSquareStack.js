@@ -1,0 +1,31 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const CommandSquareStack = forwardRef(function CommandSquareStack(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M9 13.5L9 7.5C9 6.672 8.328 6 7.5 6C6.672 6 6 6.672 6 7.5C6 8.328 6.672 9 7.5 9L13.5 9C14.328 9 15 8.328 15 7.5C15 6.672 14.328 6 13.5 6C12.672 6 12 6.672 12 7.5L12 13.5C12 14.328 12.672 15 13.5 15C14.328 15 15 14.328 15 13.5C15 12.672 14.328 12 13.5 12L7.5 12C6.672 12 6 12.672 6 13.5C6 14.328 6.672 15 7.5 15C8.328 15 9 14.328 9 13.5Z","key":"0"}),
+    createElement(Path, {"d":"M14 19L7 19C4.238 19 2 16.762 2 14L2 7C2 4.238 4.238 2 7 2L14 2C16.762 2 19 4.238 19 7L19 14C19 16.762 16.762 19 14 19Z","key":"1"}),
+    createElement(Path, {"d":"M17 3L20.5 5.801C21.449 6.559 22 7.707 22 8.922L22 17C22 19.762 19.762 22 17 22L10.402 22C9.496 22 8.613 21.691 7.902 21.125L4 18","key":"2"})
+  );
+});
+
+CommandSquareStack.displayName = 'CommandSquareStack';
+
+export default CommandSquareStack;
+export { CommandSquareStack };

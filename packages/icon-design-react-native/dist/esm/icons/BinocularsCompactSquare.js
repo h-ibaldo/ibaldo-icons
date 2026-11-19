@@ -1,0 +1,34 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Circle, Line, Path } from 'react-native-svg';
+
+const BinocularsCompactSquare = forwardRef(function BinocularsCompactSquare(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Circle, {"cx":"17.999988017749274","cy":"15.936828613188482","r":"4","key":"0"}),
+    createElement(Circle, {"cx":"5.999988017749274","cy":"15.936828613188482","r":"4","key":"1"}),
+    createElement(Path, {"d":"M9.999988017749274,8.936828613188482v-1.751708984369543c0-1.794006347659888-1.454345703128638-3.248291015630457-3.248291015628638-3.248291015630457-1.587890625,0-2.943115234371362,1.148010253909888-3.2041015625,2.714294433599207l-1.351684570319776,8.110107421871362","key":"2"}),
+    createElement(Path, {"d":"M21.804065166190412,14.761230468659051l-1.351684570319776-8.110107421871362c-.260986328121362-1.566284179689319-1.6162109375-2.714294433599207-3.2041015625-2.714294433599207-1.7939453125,0-3.248291015621362,1.454284667970569-3.248291015621362,3.248291015630457v1.751708984369543","key":"3"}),
+    createElement(Line, {"x1":"9.999988017749274","y1":"15.936828613008402","x2":"13.999988017749274","y2":"15.936828613008402","key":"4"}),
+    createElement(Line, {"x1":"9.999988017749274","y1":"8.936828613008402","x2":"13.999988017749274","y2":"8.936828613008402","key":"5"})
+  );
+});
+
+BinocularsCompactSquare.displayName = 'BinocularsCompactSquare';
+
+export default BinocularsCompactSquare;
+export { BinocularsCompactSquare };

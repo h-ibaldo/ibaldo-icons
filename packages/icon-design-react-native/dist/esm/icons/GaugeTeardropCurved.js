@@ -1,0 +1,30 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const GaugeTeardropCurved = forwardRef(function GaugeTeardropCurved(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M7.758 8.758L10.023 14.422C10.371 15.293 11.156 15.91 12.082 16.043C13.809 16.289 15.289 14.809 15.043 13.082C14.91 12.156 14.293 11.371 13.426 11.023Z","key":"0"}),
+    createElement(Path, {"d":"M5.996 20.984C7.887 20.355 9.898 20 12 20C14.102 20 16.113 20.355 18.004 20.984C20.426 19.16 22 16.266 22 13C22 7.477 17.523 3 12 3C6.477 3 2 7.477 2 13C2 16.266 3.574 19.16 5.996 20.984Z","key":"1"})
+  );
+});
+
+GaugeTeardropCurved.displayName = 'GaugeTeardropCurved';
+
+export default GaugeTeardropCurved;
+export { GaugeTeardropCurved };

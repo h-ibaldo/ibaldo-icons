@@ -1,0 +1,37 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const VideoSquareDot = forwardRef(function VideoSquareDot(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M22 10L22 17C22 19.762 19.762 22 17 22L7 22C4.238 22 2 19.762 2 17L2 7C2 4.238 4.238 2 7 2L14 2","key":"0"}),
+    createElement(Path, {"d":"M12 15L8 15C7.449 15 7 14.551 7 14L7 10C7 9.449 7.449 9 8 9L12 9C12.551 9 13 9.449 13 10L13 14C13 14.551 12.551 15 12 15Z","key":"1"}),
+    createElement(Path, {"d":"M13 11L16 9L17 9L17 15L16 15L13 13","key":"2"}),
+    createElement(Path, {"d":"M17 4.5C17 5.883 18.117 7 19.5 7C20.883 7 22 5.883 22 4.5C22 3.117 20.883 2 19.5 2C18.117 2 17 3.117 17 4.5Z","key":"3"})
+  );
+});
+
+VideoSquareDot.displayName = 'VideoSquareDot';
+
+module.exports = VideoSquareDot;
+module.exports.VideoSquareDot = VideoSquareDot;
+module.exports.default = VideoSquareDot;

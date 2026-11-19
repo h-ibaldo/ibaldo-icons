@@ -32,7 +32,7 @@ const CATEGORIES = schema.properties.categories.items.enum;
 const ROLES = ['decorative', 'informative', 'interactive'];
 const NAME_RE = new RegExp(schema.properties.name.pattern);
 const TAG_RE = new RegExp(schema.properties.tags.items.pattern);
-const BANNED_TAGS = ['variant', 'icon', 'primor'];
+const BANNED_TAGS = ['variant', 'icon', 'primor', 'ibaldo'];
 const BANNED_WORDS = /(Alt|Second|New|Variant|Line|Outline|Icon)(?=[A-Z0-9]|$)/;
 
 export const kebab = (n) => n.replace(/([a-z])([0-9]+[A-Z])/g, '$1-$2').replace(/([a-z])([A-Z])/g, '$1-$2').replace(/([0-9])([A-Z][a-z])/g, '$1-$2').replace(/([A-Z])([A-Z][a-z])/g, '$1-$2').toLowerCase();

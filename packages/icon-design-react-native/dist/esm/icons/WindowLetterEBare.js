@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Path, Rect } from 'react-native-svg';
+
+const WindowLetterEBare = forwardRef(function WindowLetterEBare(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Rect, {"x":"2.00000000018008","y":"2.00000000044929","width":"20","height":"20","rx":"1.999999999999977","ry":"1.999999999999977","key":"0"}),
+    createElement(Path, {"d":"M8.00000000018008,14.000000000448381l5.997598620318968-.000021466898943c1.218019061090672-.000004359594641,1.946827561740065-1.390960825471666,1.224016852480418-2.371325610527492-.897699011369696-1.217569810519308-2.469127782580472-1.907930968866822-4.164178872770208-1.520980246301406-1.445633061759509.330012918812827-2.619850956849405,1.504263966031431-2.949805855449085,2.949910271571753-.597708755580243,2.618768377089509,1.375930365480599,4.942417052156088,3.892369255419908,4.942417052156088h.381967129280383c.735250589219504,0,1.460403738448804-.171185433864594,2.118031870719278-.499999499998921l.000001000000339-.000000500001079","key":"1"}),
+    createElement(Line, {"x1":"5.010000000180298","y1":"5.000000000448381","x2":"5.00000000018008","y2":"5.000000000448381","key":"2"}),
+    createElement(Line, {"x1":"8.010000000180298","y1":"5.000000000448381","x2":"8.00000000018008","y2":"5.000000000448381","key":"3"}),
+    createElement(Line, {"x1":"11.010000000180298","y1":"5.000000000448381","x2":"11.00000000018008","y2":"5.000000000448381","key":"4"})
+  );
+});
+
+WindowLetterEBare.displayName = 'WindowLetterEBare';
+
+export default WindowLetterEBare;
+export { WindowLetterEBare };

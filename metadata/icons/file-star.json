@@ -1,0 +1,34 @@
+{
+  "name": "FileStar",
+  "displayName": "File star",
+  "description": "File page with a small folded corner with a star at the bottom right.",
+  "tags": [
+    "file",
+    "star",
+    "favorite",
+    "starred",
+    "important",
+    "bookmark"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Favorite file"
+  },
+  "filename": "file-star",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:36:35.080Z"
+}

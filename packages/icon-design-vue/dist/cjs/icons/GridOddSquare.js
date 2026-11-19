@@ -1,0 +1,40 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const GridOddSquare = defineComponent({
+  name: 'GridOddSquare',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('circle', {"cx":"6.00000000018008","cy":"6.000000000446562","r":"4"}),
+          h('circle', {"cx":"18.00000000018008","cy":"18.000000000447017","r":"3.999999999999773"}),
+          h('rect', {"x":"14.00000000018008","y":"2.000000000446562","width":"8","height":"8"}),
+          h('circle', {"cx":"6.00000000018008","cy":"18.000000000447017","r":"3.999999999999773"})
+        ]
+      );
+  }
+});
+
+module.exports = GridOddSquare;
+module.exports.GridOddSquare = GridOddSquare;
+module.exports.default = GridOddSquare;

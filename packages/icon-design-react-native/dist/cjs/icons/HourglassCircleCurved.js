@@ -1,0 +1,38 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const HourglassCircleCurved = forwardRef(function HourglassCircleCurved(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12Z","key":"0"}),
+    createElement(Path, {"d":"M15 17L15 15.605C15 15.211 14.883 14.824 14.664 14.496L13.738 13.109C13.293 12.438 13.293 11.563 13.738 10.891L14.664 9.504C14.883 9.176 15 8.789 15 8.395L15 7","key":"1"}),
+    createElement(Path, {"d":"M9 17L15 17","key":"2"}),
+    createElement(Path, {"d":"M9 7L9 8.395C9 8.789 9.117 9.176 9.336 9.504L10.262 10.891C10.707 11.563 10.707 12.438 10.262 13.109L9.336 14.496C9.117 14.824 9 15.211 9 15.605L9 17","key":"3"}),
+    createElement(Path, {"d":"M15 7L9 7","key":"4"})
+  );
+});
+
+HourglassCircleCurved.displayName = 'HourglassCircleCurved';
+
+module.exports = HourglassCircleCurved;
+module.exports.HourglassCircleCurved = HourglassCircleCurved;
+module.exports.default = HourglassCircleCurved;

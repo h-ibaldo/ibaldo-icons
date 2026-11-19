@@ -1,0 +1,36 @@
+{
+  "name": "ChevronDownRight",
+  "displayName": "Chevron down right",
+  "description": "Corner chevron pointing down right, drawn as two straight lines at a right angle.",
+  "tags": [
+    "chevron",
+    "corner",
+    "bracket",
+    "down-right",
+    "diagonal",
+    "southeast",
+    "navigation"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Chevron down right"
+  },
+  "filename": "chevron-down-right",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:48.514Z"
+}

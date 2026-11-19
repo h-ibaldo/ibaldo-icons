@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Build script for @primor/icons-svelte
+ * Build script for @ibaldo/icons-svelte
  * Converts SVG icons to Svelte components with tree-shaking support
  */
 
@@ -141,7 +141,7 @@ function getAllSVGFiles(dir, files = []) {
 
 // Main build function
 async function build() {
-  console.log('🎨 Building @primor/icons-svelte...\n');
+  console.log('🎨 Building @ibaldo/icons-svelte...\n');
   
   // Clean and create directories
   if (fs.existsSync(DIST_DIR)) {
@@ -224,9 +224,9 @@ async function build() {
   
   // Print some example usage
   console.log('📖 Example usage:\n');
-  console.log('   import { AvatarFaceTopKnot } from "@primor/icons-svelte";');
+  console.log('   import { AvatarFaceTopKnot } from "@ibaldo/icons-svelte";');
   console.log('   // or');
-  console.log('   import AvatarFaceTopKnot from "@primor/icons-svelte/icons/AvatarFaceTopKnot.svelte";\n');
+  console.log('   import AvatarFaceTopKnot from "@ibaldo/icons-svelte/icons/AvatarFaceTopKnot.svelte";\n');
   console.log('   <AvatarFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
 }
 

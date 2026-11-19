@@ -1,0 +1,40 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const NewspaperTorn = defineComponent({
+  name: 'NewspaperTorn',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M17.999988017745636,17.936828613277612l-.000000032989192-16-2.000000032981916,1-1.999996798709617-1-2.000003135319275,1-2-1-2,1-2-1-2,1L1.999988017745636,1.936828613277612v17c0,1.656854249489697,1.343145750510303,3,3,3h14c1.656854249489697,0,3-1.343145750510303,3-3V6.936828613277612"}),
+          h('rect', {"x":"5.999988017745636","y":"6.936828613277612","width":"8","height":"3"}),
+          h('line', {"x1":"5.999988017745636","y1":"13.936828613277612","x2":"13.999988017745636","y2":"13.936828613277612"}),
+          h('line', {"x1":"5.999988017745636","y1":"17.936828613277612","x2":"13.999988017745636","y2":"17.936828613277612"})
+        ]
+      );
+  }
+});
+
+module.exports = NewspaperTorn;
+module.exports.NewspaperTorn = NewspaperTorn;
+module.exports.default = NewspaperTorn;

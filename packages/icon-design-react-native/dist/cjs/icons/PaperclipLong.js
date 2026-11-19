@@ -1,0 +1,34 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const PaperclipLong = forwardRef(function PaperclipLong(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M14 8L5.828 17.172C4.723 18.277 4.723 20.066 5.828 21.172C6.934 22.277 8.723 22.277 9.828 21.172L19.551 10.449C21.484 8.516 21.484 5.383 19.551 3.449C17.617 1.516 14.484 1.516 12.551 3.449L4 13","key":"0"})
+  );
+});
+
+PaperclipLong.displayName = 'PaperclipLong';
+
+module.exports = PaperclipLong;
+module.exports.PaperclipLong = PaperclipLong;
+module.exports.default = PaperclipLong;

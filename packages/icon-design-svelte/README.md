@@ -1,15 +1,15 @@
-# @primor/icons-svelte (Primor Icons)
+# @ibaldo/icons-svelte (Ibaldo Icons)
 
-Svelte components for [Primor Icons](https://primoricons.com) — A line-based icon library with variations, not conclusions.
+Svelte components for [Ibaldo Icons](https://ibald.ooo/icons) — A line-based icon library with variations, not conclusions.
 
 ## Installation
 
 ```bash
-npm install @primor/icons-svelte
+npm install @ibaldo/icons-svelte
 # or
-yarn add @primor/icons-svelte
+yarn add @ibaldo/icons-svelte
 # or
-pnpm add @primor/icons-svelte
+pnpm add @ibaldo/icons-svelte
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ pnpm add @primor/icons-svelte
 
 ```svelte
 <script>
-  import { UserHead1, AddPlus1, Settings } from '@primor/icons-svelte';
+  import { UserHead1, AddPlus1, Settings } from '@ibaldo/icons-svelte';
 </script>
 
 <UserHead1 />
@@ -30,7 +30,7 @@ pnpm add @primor/icons-svelte
 
 ```svelte
 <script>
-  import UserHead1 from '@primor/icons-svelte/icons/UserHead1.svelte';
+  import UserHead1 from '@ibaldo/icons-svelte/icons/UserHead1.svelte';
 </script>
 
 <UserHead1 />
@@ -89,8 +89,8 @@ This package is compatible with Svelte 3, 4, and 5.
 
 > Icons are opinions. Choose variations, not conclusions.
 
-Primor Icons offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
+Ibaldo Icons offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
 
 ## License
 
-Primor Icons License © Henrique Ibaldo
+MIT © Henrique Ibaldo

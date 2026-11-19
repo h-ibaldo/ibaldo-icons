@@ -1,7 +1,7 @@
 {
-  "name": "@primor/icons-react",
+  "name": "@ibaldo/icons-react",
   "version": "0.1.15",
-  "description": "React components for Primor Icons - A line-based icon library with variations, not conclusions",
+  "description": "React components for Ibaldo Icons - A line-based icon library with variations, not conclusions",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -35,12 +35,12 @@
     "icons",
     "react",
     "svg",
-    "primor-icons",
+    "ibaldo-icons",
     "ui",
     "components"
   ],
   "author": "Henrique Ibaldo",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0"
   },

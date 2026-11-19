@@ -1,6 +1,6 @@
 # Icon Processing Workflow
 
-This document describes the new scalable workflow for adding and managing icons in Primor Icons.
+This document describes the new scalable workflow for adding and managing icons in Ibaldo Icons.
 
 ## Philosophy
 

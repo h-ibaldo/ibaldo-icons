@@ -1,0 +1,37 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Line, Path } = RNSvg;
+
+const TabPlusCenter = forwardRef(function TabPlusCenter(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M8.025268532079281,1.99877930112325h8.558125457540882c.911351166329041,0,1.773289868140637.414269157099625,2.342606428330328,1.125914857337193l2.441874542459118,3.052343178074807c.425551315509438.531939144388161.657393571669672,1.192870657007006.657393571669672,1.874085142662807v.947656821925193","key":"0"}),
+    createElement(Path, {"d":"M20.025268532079281,21.99877930112325H4.025268532079281c-1.104569499659192,0-2-.895430500338989-2-2V3.99877930112325c0-1.104569499661011.895430500340808-2,2-2h3.558125457540882c.911351166329041,0,1.773289868140637.414269157099625,2.342606428330328,1.125914857337193l2.1985362282594,2.748170285325614c.569316560189691.711645700237568,1.431255261999468,1.125914857337193,2.342606428330328,1.125914857337193h5.558125457539063c1.104569499661011,0,2,.895430500338989,2,2v11c0,1.104569499661011-.895430500338989,2-2,2Z","key":"1"}),
+    createElement(Line, {"x1":"12.025268532079281","y1":"10.99877930112325","x2":"12.025268532079281","y2":"17.99877930112325","key":"2"}),
+    createElement(Line, {"x1":"15.525268532079281","y1":"14.49877930112325","x2":"8.525268532079281","y2":"14.49877930112325","key":"3"})
+  );
+});
+
+TabPlusCenter.displayName = 'TabPlusCenter';
+
+module.exports = TabPlusCenter;
+module.exports.TabPlusCenter = TabPlusCenter;
+module.exports.default = TabPlusCenter;

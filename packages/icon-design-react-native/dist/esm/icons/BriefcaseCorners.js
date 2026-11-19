@@ -1,0 +1,34 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path, Rect } from 'react-native-svg';
+
+const BriefcaseCorners = forwardRef(function BriefcaseCorners(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Rect, {"x":"2","y":"6.999999999998181","width":"20","height":"14","rx":"1","ry":"1","key":"0"}),
+    createElement(Path, {"d":"M7.999999999989086,6.999999999998181v-3c0-.552284749830505.447715250171314-1,1-1h6.000000000010914c.552284749829596,0,1,.447715250169495,1,1v3","key":"1"}),
+    createElement(Path, {"d":"M2,10.999999999998181c2.20916748046875,0,4-1.790832519529431,4-4","key":"2"}),
+    createElement(Path, {"d":"M18,6.999999999998181c0,2.209167480470569,1.79083251953125,4,4,4","key":"3"}),
+    createElement(Path, {"d":"M22.00000000018008,17.000000000898581c-2.20916748046875-.000000000200089-4.000000000160071,1.790832519169271-4.00000000036016,3.99999999963984","key":"4"}),
+    createElement(Path, {"d":"M5.99999999981992,20.999999999457941c.000000000200089-2.20916748046875-1.790832519169271-4.000000000160071-3.99999999963984-4.00000000036016","key":"5"})
+  );
+});
+
+BriefcaseCorners.displayName = 'BriefcaseCorners';
+
+export default BriefcaseCorners;
+export { BriefcaseCorners };

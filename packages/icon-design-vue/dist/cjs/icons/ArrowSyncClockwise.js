@@ -1,0 +1,40 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const ArrowSyncClockwise = defineComponent({
+  name: 'ArrowSyncClockwise',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('polyline', {"points":"2 13 4 11 6 13"}),
+          h('polyline', {"points":"22.000000000100044 11.000000000169166 19.999999999919964 12.999999999989086 18.000000000100044 10.999999999809006"}),
+          h('path', {"d":"M5.581312473929756,7.224193875519632c1.458376179940387-1.956869189469217,3.790532082850405-3.224193875519632,6.418687526070244-3.224193875519632,4.418277998400299,0,8,3.581722001588787,8,8"}),
+          h('path', {"d":"M18.418687525650057,16.775806125049712c-1.458376180110463,1.956869189329154-3.790532083140533,3.224193875179481-6.418687526360372,3.224193874950288-4.41827799839939-.000000000400178-7.999999999679858-3.581722002320021-7.999999999289685-8.00000000072032"})
+        ]
+      );
+  }
+});
+
+module.exports = ArrowSyncClockwise;
+module.exports.ArrowSyncClockwise = ArrowSyncClockwise;
+module.exports.default = ArrowSyncClockwise;

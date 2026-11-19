@@ -1,0 +1,31 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Path, Polyline } from 'react-native-svg';
+
+const ArrowDownArcSmall = forwardRef(function ArrowDownArcSmall(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Polyline, {"points":"8.00000000018008 11.000000000842192 12.00000000018008 15.000000000842192 16.00000000018008 11.000000000842192","key":"0"}),
+    createElement(Line, {"x1":"12.00000000018008","y1":"3.000000000842192","x2":"12.00000000018008","y2":"15.000000000842192","key":"1"}),
+    createElement(Path, {"d":"M6.08984375018008,16.000000000842192c.47705078125,2.83660888671875,2.93798828125,5,5.91015625,5s5.43310546875-2.16339111328125,5.91015625-5","key":"2"})
+  );
+});
+
+ArrowDownArcSmall.displayName = 'ArrowDownArcSmall';
+
+export default ArrowDownArcSmall;
+export { ArrowDownArcSmall };

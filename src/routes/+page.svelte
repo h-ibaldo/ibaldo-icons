@@ -1,6 +1,8 @@
 <script>
   import { onMount } from 'svelte';
   import ActionsBar from '$lib/components/ActionsBar.svelte';
+  import IconDetail from '$lib/components/IconDetail.svelte';
+  import { theme } from '$lib/theme.js';
 
   let iconsByCategory = {};
   let allIcons = [];
@@ -9,8 +11,10 @@
   let loadingCategories = true;
   let size = 48;
   let weight = 1.5;
+  // Icon color ('' = default ink); the grid's `color` drives currentColor
+  let iconColor = '';
   let currentCategory = '';
-  let selectedCategory = '';
+  let selectedCategories = [];
   let search = '';
   let svgCache = {};
   // SVG bundles (see scripts/generate-icons-index.js): chunk index -> URL,
@@ -158,6 +162,8 @@
     
     const svgString = icon.svg;
     let processed = svgString;
+    // Downloaded SVGs carry the chosen color instead of currentColor
+    if (iconColor) processed = processed.replace(/currentColor/g, iconColor);
     
     // Update width and height
     processed = processed.replace(/(<svg[^>]*\s)width=["']\d+["']/gi, `$1width="${targetSize}"`);
@@ -261,11 +267,24 @@
     }
   }
 
-  // Handle icon download (used by both click and keyboard)
-  async function handleIconDownload(icon) {
+  // Clicking an icon opens its detail sheet (copy code / SVG, download SVG / PNG).
+  // The open icon is in the URL (?icon=Name) so the link can be shared.
+  let selectedIcon = null;
+
+  async function selectIcon(icon) {
     await ensureSVGLoaded(icon);
-    const processedSVG = processSVGForDownload(icon, size, weight);
-    downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
+    selectedIcon = icon;
+    svgTick++;
+    const url = new URL(window.location.href);
+    url.searchParams.set('icon', icon.name);
+    history.replaceState(history.state, '', url);
+  }
+
+  function closeDetail() {
+    selectedIcon = null;
+    const url = new URL(window.location.href);
+    url.searchParams.delete('icon');
+    history.replaceState(history.state, '', url);
   }
 
   // Read the grid's real column count and row height (they change with the
@@ -308,7 +327,13 @@
 
     window.addEventListener('scroll', onScrollOrResize, { passive: true });
     window.addEventListener('resize', onScrollOrResize, { passive: true });
-    loadCategories().then(onScrollOrResize);
+    loadCategories().then(() => {
+      onScrollOrResize();
+      // Open the icon named in the URL, if any
+      const name = new URL(window.location.href).searchParams.get('icon');
+      const icon = name && allIcons.find((i) => i.name === name);
+      if (icon) selectIcon(icon);
+    });
 
     return () => {
       window.removeEventListener('scroll', onScrollOrResize);
@@ -320,37 +345,74 @@
   $: currentIcons = allIcons;
 
   // Filter icons based on category and search
-  $: filteredIcons = currentIcons.filter(icon => {
-    if (selectedCategory) {
-      const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
-      if (!iconCats.includes(selectedCategory)) return false;
-    }
-    if (!search) return true;
+  // Search: an icon matches when every word of the query is in its search
+  // text (name, aliases, tags, description, categories) or the whole query
+  // is in its name. Results are ranked so the icons NAMED after the query come
+  // first: exact name, name starts with it, name contains it, alias or display
+  // name, exact tag, partial tag, and last description only. Inside a rank
+  // the order stays alphabetical (Array.sort is stable).
+  function searchRank(icon, words, joined) {
+    const name = icon.name.toLowerCase();
+    if (name === joined) return 0;
+    if (name.startsWith(joined)) return 1;
+    if (name.includes(joined)) return 2;
+    if ((icon.aliases || []).some((a) => a.toLowerCase().includes(joined)) ||
+        (icon.displayName || '').toLowerCase().includes(words.join(' '))) return 3;
+    const tags = (icon.tags || []).map((t) => t.toLowerCase());
+    if (words.every((w) => tags.includes(w))) return 4;
+    if (words.every((w) => tags.some((t) => t.includes(w)))) return 5;
+    return 6;
+  }
 
-    const searchLower = search.toLowerCase();
+  function matchesSearch(icon, words, joined) {
+    const text = icon.searchText || [icon.name, icon.displayName, ...(icon.tags || []), icon.description || ''].join(' ').toLowerCase();
+    return icon.name.toLowerCase().includes(joined) || words.every((w) => text.includes(w));
+  }
 
-    // Use pre-computed searchText if available (includes name, displayName, tags, description)
-    if (icon.searchText) {
-      return icon.searchText.includes(searchLower);
-    }
-
-    // Fallback to basic search
-    return icon.name.toLowerCase().includes(searchLower) ||
-           (icon.displayName && icon.displayName.toLowerCase().includes(searchLower)) ||
-           (icon.tags && icon.tags.some(tag => tag.toLowerCase().includes(searchLower))) ||
-           (icon.description && icon.description.toLowerCase().includes(searchLower));
-  });
+  $: filteredIcons = (() => {
+    // Several categories: an icon shows if it is in any of them
+    const inCategory = selectedCategories.length
+      ? currentIcons.filter((icon) => {
+          const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
+          return iconCats.some((c) => selectedCategories.includes(c));
+        })
+      : currentIcons;
+    const words = search.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    if (!words.length) return inCategory;
+    const joined = words.join('');
+    return inCategory
+      .filter((icon) => matchesSearch(icon, words, joined))
+      .map((icon) => ({ icon, rank: searchRank(icon, words, joined) }))
+      .sort((x, y) => x.rank - y.rank)
+      .map((x) => x.icon);
+  })();
 
   // Virtual window over the filtered icons. The hero text takes the first
   // two cells of row 0 when there is no search.
-  $: heroSlots = search ? 0 : 2;
+  $: filtering = !!search || selectedCategories.length > 0;
+  // The hero text sits in the middle of the second row, only when nothing is
+  // filtered: 2 cells with an even column count (cols 4-5 of 8), 3 with an
+  // odd one (cols 2-4 of 5), so it is always centered on the page.
+  const HERO = { path: '__hero__', hero: true };
+  $: heroSpan = cols % 2 ? 3 : 2;
+  $: heroSlot = filtering ? -1 : cols + (cols - heroSpan) / 2;
+  $: heroSlots = heroSlot >= 0 ? heroSpan : 0;
   $: totalRows = Math.ceil((filteredIcons.length + heroSlots) / cols);
   $: firstRow = Math.min(startRow, Math.max(0, totalRows - 1));
   $: lastRow = Math.min(totalRows, Math.max(endRow, firstRow + 1));
-  $: visibleIcons = filteredIcons.slice(
-    Math.max(0, firstRow * cols - heroSlots),
-    Math.max(0, lastRow * cols - heroSlots)
-  );
+
+  // Items for grid cells [a, b), with the hero (n cells) inserted at slot h
+  function sliceSlots(list, a, b, h, n) {
+    if (h < 0) return list.slice(a, b);
+    const out = list.slice(a, Math.max(a, Math.min(b, h)));
+    if (a <= h && b > h) out.push(HERO);
+    const start = Math.max(a, h + n) - n;
+    const end = b - n;
+    if (end > start) out.push(...list.slice(start, end));
+    return out;
+  }
+  $: visibleItems = sliceSlots(filteredIcons, firstRow * cols, lastRow * cols, heroSlot, heroSpan);
+  $: visibleIcons = visibleItems.filter((item) => item !== HERO);
   $: padTop = firstRow * rowHeight;
   $: padBottom = Math.max(0, (totalRows - lastRow) * rowHeight);
   $: loadChunksFor(visibleIcons);
@@ -359,6 +421,10 @@
   $: filteredIcons, size, typeof window !== 'undefined' && onScrollOrResize();
 
   $: totalIcons = allIcons.length;
+  $: categoryCounts = allIcons.reduce((counts, icon) => {
+    for (const c of icon.categories || []) counts[c] = (counts[c] || 0) + 1;
+    return counts;
+  }, {});
 </script>
 
 <style>
@@ -454,6 +520,14 @@
     }
   }
   
+  /* Hover / press / open-in-sheet backgrounds (CSS, so they follow the theme) */
+  .icon-container:hover { background-color: #f1f5f9; }
+  .icon-container:active { background-color: #cbd5e1; }
+  .icon-container.selected { background-color: #e2e8f0; }
+  :global(html.dark) .icon-container:hover { background-color: rgb(30 41 59); }
+  :global(html.dark) .icon-container:active { background-color: rgb(51 65 85); }
+  :global(html.dark) .icon-container.selected { background-color: rgb(30 41 59); }
+
   /* Visible focus indicator for keyboard navigation */
   .icon-container:focus-visible {
     outline: 3px solid #0900FF;
@@ -625,14 +699,16 @@
   {/if}
 </div>
 
-<ActionsBar bind:search bind:size bind:weight bind:selectedCategory {totalIcons} {categories} />
+<ActionsBar bind:search bind:size bind:weight bind:color={iconColor} bind:selectedCategories {totalIcons} {categories} {categoryCounts} />
 <div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden mobile-content" id="main-content" tabindex="-1">
 
   <div class="mb-8">
       {#if currentIcons.length > 0}
-          {#if filteredIcons.length === 0 && search}
+          {#if filteredIcons.length === 0 && filtering}
             <div class="flex items-center justify-center py-16">
-              <p class="text-gray-600 text-sm">No icons found for "{search}"</p>
+              <p class="text-gray-600 text-sm">
+                No icons found{search ? ` for "${search}"` : ''}{selectedCategories.length ? ` in ${selectedCategories.join(', ')}` : ''}
+              </p>
             </div>
           {:else}
               <div bind:this={gridWrapper} style="padding-top: {padTop}px; padding-bottom: {padBottom}px;">
@@ -641,21 +717,20 @@
                   class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 sm:gap-x-4 justify-items-center"
                   role="list"
                   aria-label="Icon grid"
-                  style="--icon-size: {size}px; --stroke-width: {weight}px;"
+                  style="--icon-size: {size}px; --stroke-width: {weight}px;{iconColor ? ` color: ${iconColor};` : ''}"
               >
                   <!-- Hero text block - responsive column spans -->
-                  {#if !search && firstRow === 0}
-                  <div class="hero-text-cols row-span-1 sm:row-span-1 flex items-center justify-start sm:p-4 text-grid-cell">
-                    <p class="text-sm font-normal leading-relaxed text-black text-start">
-                        <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
-                            Icons made with conviction. <br>Multiple designs per concept. <br>For designers who refuse to settle.
-                            <!-- <br>{totalIcons.toLocaleString()} line icons for designers  -->
-                        </a>
-                    </p>
-                  </div>
-                  {/if}
 
-                  {#each visibleIcons as icon, index (icon.path)}
+                  {#each visibleItems as icon, index (icon.path)}
+                    {#if icon === HERO}
+                      <div class="hero-text-cols flex items-center justify-center text-center sm:p-4 text-grid-cell" style="grid-column: span {heroSpan};">
+                        <p class="text-sm font-normal leading-relaxed text-black text-center">
+                          <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
+                            Icons made with conviction. <br>Multiple designs per concept. <br>For designers who refuse to settle.
+                          </a>
+                        </p>
+                      </div>
+                    {:else}
                       {#if index === 8 && !search && false}
                         <!-- Attribution text - positioned based on grid columns -->
                         <!-- 4 col: 2,4-4,4 | 6 col: 5,3-6,3 | 8 col: 7,3-8,3 | 12 col: 10,4-11,4 -->
@@ -672,19 +747,16 @@
                       {/if}
                       <div class="flex flex-col items-center icon-item" role="listitem">
                           <div
-                              class="icon-container rounded-lg p-1"
-                              on:click={() => handleIconDownload(icon)}
-                              on:pointerenter={(e) => e.currentTarget.style.backgroundColor = '#f1f5f9'}
-                              on:pointerleave={(e) => e.currentTarget.style.backgroundColor = ''}
-                              on:pointerdown={(e) => e.currentTarget.style.backgroundColor = '#cbd5e1'}
-                              on:pointerup={(e) => e.currentTarget.style.backgroundColor = '#f1f5f9'}
+                              class="icon-container rounded-lg p-1 {selectedIcon === icon ? 'selected' : ''}"
+                              on:click={() => selectIcon(icon)}
                               role="button"
                               tabindex="0"
-                              aria-label="Download {icon.name} icon"
+                              aria-label="{icon.name} icon"
+                              aria-pressed={selectedIcon === icon}
                               on:keydown={(e) => {
                                 if (e.key === 'Enter' || e.key === ' ') {
                                   e.preventDefault();
-                                  handleIconDownload(icon);
+                                  selectIcon(icon);
                                 }
                               }}
                           >
@@ -723,6 +795,7 @@
                           </div>
                           <div class="icon-tooltip" aria-hidden="true">{icon.displayName || icon.name}</div>
                       </div>
+                    {/if}
                   {/each}
               </div>
               </div>
@@ -730,3 +803,7 @@
       {/if}
   </div>
 </div>
+
+{#if selectedIcon}
+  <IconDetail icon={selectedIcon} {size} {weight} color={iconColor} defaultInk={$theme === 'dark' ? '#F8FAFC' : '#000000'} onClose={closeDetail} />
+{/if}

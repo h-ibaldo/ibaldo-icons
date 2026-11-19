@@ -1,0 +1,35 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const FlameTriangleCurled = forwardRef(function FlameTriangleCurled(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M10.719 4.094L2.395 17.719C1.785 18.719 2.504 20 3.676 20L20.324 20C21.496 20 22.215 18.719 21.605 17.719L13.281 4.094C12.695 3.137 11.305 3.137 10.719 4.094Z","key":"0"}),
+    createElement(Path, {"d":"M9 14C9 15.656 10.344 17 12 17C13.656 17 15 15.656 15 14C15 11.902 12.625 11.043 12 9C11.074 10.551 11.211 11.59 12.098 12.977C12.707 13.926 11.781 14.73 10.809 14.285C10.32 14.063 9.852 13.297 9.746 11.922C9.129 12.586 9 13.551 9 14Z","key":"1"})
+  );
+});
+
+FlameTriangleCurled.displayName = 'FlameTriangleCurled';
+
+module.exports = FlameTriangleCurled;
+module.exports.FlameTriangleCurled = FlameTriangleCurled;
+module.exports.default = FlameTriangleCurled;

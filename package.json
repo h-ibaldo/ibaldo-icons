@@ -1,5 +1,5 @@
 {
-	"name": "primor-icons",
+	"name": "ibaldo-icons",
 	"version": "0.1.0",
 	"description": "A comprehensive line-based icon library with 2,441+ icons, named from the drawings, and React/Svelte packages",
 	"type": "module",
@@ -14,8 +14,8 @@
 		"icon-components"
 	],
 	"author": "Henrique Ibaldo",
-	"license": "SEE LICENSE IN LICENSE",
-	"homepage": "https://primoricons.com",
+	"license": "MIT",
+	"homepage": "https://ibald.ooo/icons",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/h-ibaldo/primor-icons.git"

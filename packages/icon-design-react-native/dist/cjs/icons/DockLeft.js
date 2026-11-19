@@ -1,0 +1,36 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Line, Polyline, Rect } = RNSvg;
+
+const DockLeft = forwardRef(function DockLeft(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Rect, {"x":"-2.025268582488934","y":"5.998779298535737","width":"20","height":"12","rx":"1","ry":"1","transform":"translate(19.973510716046803 4.02404788102467) rotate(90)","key":"0"}),
+    createElement(Polyline, {"points":"21.974731417241856 14.998779298673981 18.974731417511066 11.998779298401132 21.974731417782095 8.998779298673981","key":"1"}),
+    createElement(Line, {"x1":"1.974731417511066","y1":"5.998779298535737","x2":"13.974731417511066","y2":"5.998779298535737","key":"2"})
+  );
+});
+
+DockLeft.displayName = 'DockLeft';
+
+module.exports = DockLeft;
+module.exports.DockLeft = DockLeft;
+module.exports.default = DockLeft;

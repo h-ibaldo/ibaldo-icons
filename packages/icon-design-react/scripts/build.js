@@ -267,9 +267,9 @@ ${liveAliases.map(a => `  ${a.alias}: ${a.name}.default || ${a.name},`).join('\n
   
   // Print some example usage
   console.log('📖 Example usage:\n');
-  console.log('   import { AvatarFaceTopKnot } from "@primor/icons-react";');
+  console.log('   import { AvatarFaceTopKnot } from "@ibaldo/icons-react";');
   console.log('   // or');
-  console.log('   import AvatarFaceTopKnot from "@primor/icons-react/icons/AvatarFaceTopKnot";\n');
+  console.log('   import AvatarFaceTopKnot from "@ibaldo/icons-react/icons/AvatarFaceTopKnot";\n');
   console.log('   <AvatarFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
 }
 

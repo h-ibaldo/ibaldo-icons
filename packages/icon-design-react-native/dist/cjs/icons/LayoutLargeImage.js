@@ -1,0 +1,37 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Polyline, Rect } = RNSvg;
+
+const LayoutLargeImage = forwardRef(function LayoutLargeImage(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Rect, {"x":"12.000000000840657","y":"7.998779295019602","width":"1.999999999732154","height":"1.999999995666315","rx":".999998992457853","ry":".999998992457853","key":"0"}),
+    createElement(Rect, {"x":"1.999999993602614","y":"1.998779299956368","width":"20","height":"20","rx":"1","ry":"1","key":"1"}),
+    createElement(Rect, {"x":"4.999999993602614","y":"4.998779299956368","width":"14","height":"14","rx":"1","ry":"1","key":"2"}),
+    createElement(Polyline, {"points":"5.499999993602614 18.498779299956368 10.999999993602614 12.998779299956368 13.999999993602614 15.498779299956368 18.999999993602614 9.998779299956368","key":"3"})
+  );
+});
+
+LayoutLargeImage.displayName = 'LayoutLargeImage';
+
+module.exports = LayoutLargeImage;
+module.exports.LayoutLargeImage = LayoutLargeImage;
+module.exports.default = LayoutLargeImage;

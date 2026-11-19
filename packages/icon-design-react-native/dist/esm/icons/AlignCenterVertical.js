@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const AlignCenterVertical = forwardRef(function AlignCenterVertical(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M12 14L12 10.094","key":"0"}),
+    createElement(Path, {"d":"M12 5L12 2","key":"1"}),
+    createElement(Path, {"d":"M12 22L12 19.094","key":"2"}),
+    createElement(Path, {"d":"M20 6.094L20 9C20 9.605 19.512 10.094 18.906 10.094L5.094 10.094C4.488 10.094 4 9.605 4 9L4 6.094C4 5.488 4.488 5 5.094 5L18.906 5C19.512 5 20 5.488 20 6.094Z","key":"3"}),
+    createElement(Path, {"d":"M17.094 15.191L17.094 18C17.094 18.605 16.605 19.094 16 19.094L8 19.094C7.395 19.094 6.906 18.605 6.906 18L6.906 15.191C6.906 14.586 7.395 14.094 8 14.094L16 14.094C16.605 14.094 17.094 14.586 17.094 15.191Z","key":"4"})
+  );
+});
+
+AlignCenterVertical.displayName = 'AlignCenterVertical';
+
+export default AlignCenterVertical;
+export { AlignCenterVertical };

@@ -1,0 +1,31 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Path, Polyline } from 'react-native-svg';
+
+const LogoutSquare = forwardRef(function LogoutSquare(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Polyline, {"points":"4.974731450043691 15.000000000481123 1.974731450043691 12.000000000481123 4.974731450043691 9.000000000481123","key":"0"}),
+    createElement(Line, {"x1":"12.974731450043691","y1":"12.000000000481123","x2":"1.974731450043691","y2":"12.000000000481123","key":"1"}),
+    createElement(Path, {"d":"M1.974731450043691,6.056394887018541v-3.056394886537419c0-.552284749832324.447715250171314-1,1-1h18c.552284749832324,0,1,.447715250167676,1,1v18c0,.552284749828686-.447715250167676,1-1,1H2.974731450043691c-.552284749828686,0-1-.447715250171314-1-1v-2.943605113462581","key":"2"})
+  );
+});
+
+LogoutSquare.displayName = 'LogoutSquare';
+
+export default LogoutSquare;
+export { LogoutSquare };

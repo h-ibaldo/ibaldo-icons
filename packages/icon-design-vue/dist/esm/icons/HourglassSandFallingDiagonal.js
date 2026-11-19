@@ -1,0 +1,38 @@
+import { defineComponent, h } from 'vue';
+
+const HourglassSandFallingDiagonal = defineComponent({
+  name: 'HourglassSandFallingDiagonal',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M6.48 18.438C6.172 18.801 6 19.262 6 19.742L6 22L18 22L18 19.742C18 19.262 17.828 18.801 17.52 18.438L6.48 5.563C6.172 5.199 6 4.738 6 4.258L6 2L18 2L18 4.258C18 4.738 17.828 5.199 17.52 5.563"}),
+          h('path', {"d":"M9.691 14.691L6.48 18.438"}),
+          h('path', {"d":"M17.52 5.563L14.309 9.309"}),
+          h('path', {"d":"M11 19L13 19"}),
+          h('path', {"d":"M12 7L12 7"})
+        ]
+      );
+  }
+});
+
+export default HourglassSandFallingDiagonal;
+export { HourglassSandFallingDiagonal };

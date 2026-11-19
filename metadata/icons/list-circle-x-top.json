@@ -1,0 +1,35 @@
+{
+  "name": "ListCircleXTop",
+  "displayName": "List circle x top",
+  "description": "Three list lines with an X bullet on top and two ring bullets below.",
+  "tags": [
+    "list",
+    "items",
+    "bullets",
+    "x",
+    "remove",
+    "options",
+    "checklist"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "List"
+  },
+  "filename": "list-circle-x-top",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:48.906Z"
+}

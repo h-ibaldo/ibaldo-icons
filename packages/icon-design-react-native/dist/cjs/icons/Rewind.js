@@ -1,0 +1,35 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const Rewind = forwardRef(function Rewind(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M22 4.641L22 19.363C22 20.188 21.02 20.621 20.41 20.066L12.313 12.703C11.895 12.328 11.895 11.672 12.313 11.297L20.41 3.934C21.02 3.379 22 3.813 22 4.641Z","key":"0"}),
+    createElement(Path, {"d":"M12 4.641L12 19.363C12 20.188 11.02 20.621 10.41 20.066L2.313 12.703C1.895 12.328 1.895 11.672 2.313 11.297L10.41 3.934C11.02 3.379 12 3.813 12 4.641Z","key":"1"})
+  );
+});
+
+Rewind.displayName = 'Rewind';
+
+module.exports = Rewind;
+module.exports.Rewind = Rewind;
+module.exports.default = Rewind;

@@ -41,7 +41,7 @@ const CATEGORIES = schema.properties.categories.items.enum;
 const ROLES = ['decorative', 'informative', 'interactive'];
 const NAME_RE = new RegExp(schema.properties.name.pattern);
 const TAG_RE = new RegExp(schema.properties.tags.items.pattern);
-const BANNED_TAGS = ['variant', 'icon', 'primor'];
+const BANNED_TAGS = ['variant', 'icon', 'primor', 'ibaldo'];
 const REQUIRED_ON_CREATE = ['name', 'displayName', 'description', 'tags', 'categories', 'accessibility'];
 const optimizedDir = path.join(root, 'static', 'icons', 'optimized');
 

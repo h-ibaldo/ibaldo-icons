@@ -1,0 +1,31 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Rect } from 'react-native-svg';
+
+const AlertSquareSmall = forwardRef(function AlertSquareSmall(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Rect, {"x":"3.974731450040053","y":"4.000000000479304","width":"16","height":"16","rx":"3","ry":"3","key":"0"}),
+    createElement(Line, {"x1":"11.974731450040053","y1":"15.010000000480431","x2":"11.974731450040053","y2":"15.000000000479304","key":"1"}),
+    createElement(Line, {"x1":"11.974731450040053","y1":"9.000000000479304","x2":"11.974731450040053","y2":"12.000000000479304","key":"2"})
+  );
+});
+
+AlertSquareSmall.displayName = 'AlertSquareSmall';
+
+export default AlertSquareSmall;
+export { AlertSquareSmall };

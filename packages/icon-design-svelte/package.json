@@ -1,7 +1,7 @@
 {
-  "name": "@primor/icons-svelte",
+  "name": "@ibaldo/icons-svelte",
   "version": "0.1.15",
-  "description": "Svelte components for Primor Icons - A line-based icon library with variations, not conclusions",
+  "description": "Svelte components for Ibaldo Icons - A line-based icon library with variations, not conclusions",
   "type": "module",
   "svelte": "./dist/index.js",
   "main": "./dist/index.js",
@@ -36,12 +36,12 @@
     "icons",
     "svelte",
     "svg",
-    "primor-icons",
+    "ibaldo-icons",
     "ui",
     "components"
   ],
   "author": "Henrique Ibaldo",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "peerDependencies": {
     "svelte": ">=3.0.0 || >=4.0.0 || >=5.0.0"
   }

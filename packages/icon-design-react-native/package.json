@@ -1,0 +1,53 @@
+{
+  "name": "@ibaldo/icons-react-native",
+  "version": "0.1.15",
+  "description": "React Native components for Ibaldo Icons - A line-based icon library with variations, not conclusions",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "react-native": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "react-native": "./dist/esm/index.js",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "react-native": "./dist/esm/icons/*.js",
+      "import": "./dist/esm/icons/*.js",
+      "require": "./dist/cjs/icons/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h-ibaldo/primor-icons.git",
+    "directory": "packages/icon-design-react-native"
+  },
+  "keywords": [
+    "icons",
+    "react-native",
+    "expo",
+    "svg",
+    "ibaldo-icons",
+    "ui",
+    "components"
+  ],
+  "author": "Henrique Ibaldo",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": "*",
+    "react-native-svg": ">=12.0.0"
+  }
+}

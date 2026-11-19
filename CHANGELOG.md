@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   (family first, drawn mark instead of meaning, style word last, no Illustrator numbers).
   Examples: `Cloud3UploadAlt2` → `CloudUploadRound`, `Bell4Z` → `BellSnoozeFlat`,
   `TechnicalSupportLaptopGear` → `TableChartLine`. Full table: [`RENAMED-ICONS.md`](RENAMED-ICONS.md).
-- Old names still work as **deprecated aliases** in `@primor/icons-react` and `@primor/icons-svelte`
+- Old names still work as **deprecated aliases** in `@ibaldo/icons-react` and `@ibaldo/icons-svelte`
   (re-exports from the package index, marked `@deprecated` in the types). They will be removed in the
   major version after this one. Deep imports (`/icons/<Name>`) only work with the new names.
 - 26 old names now belong to a different icon, so they have no alias (listed at the top of `RENAMED-ICONS.md`).

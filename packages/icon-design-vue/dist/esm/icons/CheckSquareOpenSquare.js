@@ -1,0 +1,36 @@
+import { defineComponent, h } from 'vue';
+
+const CheckSquareOpenSquare = defineComponent({
+  name: 'CheckSquareOpenSquare',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('rect', {"x":"2.025268554611102","y":"2.000000000709406","width":"20","height":"20","rx":"3","ry":"3"}),
+          h('path', {"d":"M17.025268554611102,12.000000000709406v3c0,1.104569499661011-.895430500351722,2-2,2h-6c-1.104569499671925,0-2-.895430500338989-2-2v-6c0-1.104569499661011.895430500328075-2,2-2h3"}),
+          h('polyline', {"points":"10.025268554611102 11.000000000709406 12.025268554611102 13.000000000709406 16.025268554611102 8.000000000709406"})
+        ]
+      );
+  }
+});
+
+export default CheckSquareOpenSquare;
+export { CheckSquareOpenSquare };

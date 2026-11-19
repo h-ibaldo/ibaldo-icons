@@ -1,0 +1,39 @@
+import { defineComponent, h } from 'vue';
+
+const NavigationUpCircleSegmented = defineComponent({
+  name: 'NavigationUpCircleSegmented',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M7.207 20.777C8.633 21.555 10.266 22 12 22C13.945 22 15.758 21.434 17.293 20.473"}),
+          h('path', {"d":"M2.031 12.617C2.148 14.535 2.801 16.309 3.852 17.781"}),
+          h('path', {"d":"M20.473 17.293C21.438 15.758 22 13.945 22 12C22 7.254 18.688 3.285 14.25 2.266"}),
+          h('path', {"d":"M9.75 2.266C9.176 2.395 8.617 2.57 8.09 2.797"}),
+          h('path', {"d":"M4.457 5.449C3.754 6.258 3.176 7.176 2.762 8.18"}),
+          h('path', {"d":"M7.391 13.68L11.145 7.43C11.531 6.781 12.469 6.781 12.859 7.43L16.609 13.68C17.086 14.48 16.316 15.438 15.438 15.145L12.316 14.105C12.113 14.035 11.887 14.035 11.684 14.105L8.566 15.145C7.684 15.438 6.914 14.48 7.391 13.68Z"})
+        ]
+      );
+  }
+});
+
+export default NavigationUpCircleSegmented;
+export { NavigationUpCircleSegmented };
