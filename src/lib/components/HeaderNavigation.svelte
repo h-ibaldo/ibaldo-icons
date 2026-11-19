@@ -343,7 +343,7 @@
             <a href="/" class="{linkClass('/')}">Icons</a>
             <a href="/about" class="{linkClass('/about')}">About</a>
             <a href="/packages" class="{linkClass('/packages')}">Packages</a>
-            <!-- <a href="/request-icon" class="{linkClass('/request-icon')}">Request icon</a> -->
+            <a href="/request-icon" class="{linkClass('/request-icon')}">Request icon</a>
         </nav>
         
         <button

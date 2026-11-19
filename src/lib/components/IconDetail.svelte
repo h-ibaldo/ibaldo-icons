@@ -216,7 +216,7 @@
     .preview :global(svg) { width: 168px; height: 168px; }
     .info { display: flex; flex-direction: column; gap: 0.75rem; min-width: 0; }
     .title-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
-    .name { font-size: 18px; font-weight: 600; line-height: 1.2; word-break: break-word; }
+    .name { font-size: 18px; font-weight: 500; line-height: 1.2; word-break: break-word; }
     .display { font-size: 12px; color: rgb(100 116 139); margin-top: 2px; }
     .chips { display: flex; flex-wrap: wrap; gap: 4px; }
     .chip {

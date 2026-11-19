@@ -5,7 +5,7 @@
     <p class="mb-4">Ibaldo Icons is available as framework components for React, Svelte, Vue and React Native.</p>
     <p class="mb-4">Each package ships the full icon set as individual components — tree-shakeable, typed, and ready to use.</p>
 
-    <h2 class="font-bold mb-2 mt-8">React</h2>
+    <h2 class="font-semibold mb-2 mt-8">React</h2>
 
     <p class="mb-4">
         <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/icons-react</code>
@@ -25,7 +25,7 @@ function App() &#123;
   );
 &#125;</code></pre>
 
-    <h2 class="font-bold mb-2 mt-8">Svelte</h2>
+    <h2 class="font-semibold mb-2 mt-8">Svelte</h2>
 
     <p class="mb-4">
         <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/icons-svelte</code>
@@ -41,7 +41,7 @@ function App() &#123;
 &lt;ChatCheck size=&#123;32&#125; /&gt;
 &lt;Volume color="#333" strokeWidth=&#123;2&#125; /&gt;</code></pre>
 
-    <h2 class="font-bold mb-2 mt-8">Vue</h2>
+    <h2 class="font-semibold mb-2 mt-8">Vue</h2>
 
     <p class="mb-4">
         <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/icons-vue</code>
@@ -59,7 +59,7 @@ import &#123; Play, ChatCheck, Volume &#125; from '@ibaldo/icons-vue';
   &lt;Volume color="#333" :stroke-width="2" /&gt;
 &lt;/template&gt;</code></pre>
 
-    <h2 class="font-bold mb-2 mt-8">React Native</h2>
+    <h2 class="font-semibold mb-2 mt-8">React Native</h2>
 
     <p class="mb-4">
         <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">@ibaldo/icons-react-native</code>
@@ -81,7 +81,7 @@ export default function App() &#123;
 
     <p class="mb-4">Works with Expo and bare React Native. Requires <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">react-native-svg</code>.</p>
 
-    <h2 class="font-bold mb-2 mt-8">Props</h2>
+    <h2 class="font-semibold mb-2 mt-8">Props</h2>
 
     <p class="mb-4">All icons accept the same props in every package (in Vue templates, <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">strokeWidth</code> can be written <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">stroke-width</code>).</p>
 
@@ -89,10 +89,10 @@ export default function App() &#123;
         <table class="text-base w-full border-collapse">
             <thead>
                 <tr class="border-b border-gray-200">
-                    <th class="text-left py-2 pr-6 font-bold">Prop</th>
-                    <th class="text-left py-2 pr-6 font-bold">Type</th>
-                    <th class="text-left py-2 pr-6 font-bold">Default</th>
-                    <th class="text-left py-2 font-bold">Description</th>
+                    <th class="text-left py-2 pr-6 font-semibold">Prop</th>
+                    <th class="text-left py-2 pr-6 font-semibold">Type</th>
+                    <th class="text-left py-2 pr-6 font-semibold">Default</th>
+                    <th class="text-left py-2 font-semibold">Description</th>
                 </tr>
             </thead>
             <tbody class="text-gray-700">
@@ -120,7 +120,7 @@ export default function App() &#123;
 
     <p class="mb-4">Additional props are forwarded to the underlying <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">&lt;svg&gt;</code> element.</p>
 
-    <h2 class="font-bold mb-2 mt-8">Tree-shaking</h2>
+    <h2 class="font-semibold mb-2 mt-8">Tree-shaking</h2>
 
     <p class="mb-4">Import only what you use.</p>
 
@@ -132,7 +132,7 @@ import Play from '@ibaldo/icons-react/icons/Play';</code></pre>
 
     <p class="mb-4">Both approaches are tree-shakeable. Named imports are preferred.</p>
 
-    <h2 class="font-bold mb-2 mt-8">NPM</h2>
+    <h2 class="font-semibold mb-2 mt-8">NPM</h2>
 
     <p class="mb-4">
         <a class="hover:text-indigo-500 underline" href="https://www.npmjs.com/package/@ibaldo/icons-react" target="_blank">@ibaldo/icons-react</a> ·

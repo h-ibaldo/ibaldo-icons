@@ -22,7 +22,7 @@
     <p class="mb-4">Many icons in the library exist in multiple forms — not as stylistic noise, but as alternative interpretations of the same idea. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter. There is no single “user” shape, no default identity.</p>
     <p class="mb-4">The library is designed to be evolving.</p>
     <p class="mb-4">It grows over time through use, observation, and requests, rather than predefined completeness. Missing icons are not gaps to be rushed, but signals of where the system should expand next.</p>
-    <p class="mb-4"><span class="font-bold">Ibaldo Icons</span> is not a UI framework or a full design system.</p>
+    <p class="mb-4"><span class="font-semibold">Ibaldo Icons</span> is not a UI framework or a full design system.</p>
     <p class="mb-4">It is a foundational layer: a flexible, opinionated icon set meant to adapt to different interfaces, products, and contexts without forcing a single visual conclusion.</p>
     <p class="mb-4">The project is designed and maintained by Henrique Ibaldo as an ongoing exploration of systems, constraints, and long-term visual consistency.</p>
     <p class="mb-4">Icons are opinions.<br>

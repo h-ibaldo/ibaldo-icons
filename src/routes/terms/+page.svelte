@@ -5,7 +5,7 @@
 <p class="text-xs text-gray-500 mb-5">Last updated: March 2026</p>
 
 <p class="mb-4">
-<span class="font-bold">Ibaldo Icons</span> provides an icon library made available under the MIT License.
+<span class="font-semibold">Ibaldo Icons</span> provides an icon library made available under the MIT License.
 </p>
 
 <p class="mb-4">
