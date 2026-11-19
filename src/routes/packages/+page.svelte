@@ -1,6 +1,6 @@
 <div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-2xl font-book">
 
-    <h1 class="text-2xl font-bold mb-4">Packages</h1>
+    <h1 class="text-2xl font-semibold mb-4">Packages</h1>
 
     <p class="mb-4">Ibaldo Icons is available as framework components for React, Svelte, Vue and React Native.</p>
     <p class="mb-4">Each package ships the full icon set as individual components — tree-shakeable, typed, and ready to use.</p>

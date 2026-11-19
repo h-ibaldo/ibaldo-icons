@@ -10,7 +10,7 @@
 
 <div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-2xl font-book">
 
-    <h1 class="text-2xl font-bold mb-4">About Ibaldo Icons</h1>
+    <h1 class="text-2xl font-semibold mb-4">About Ibaldo Icons</h1>
 
     <p class="mb-4"><span class="">Ibaldo Icons</span> is a line-based icon library built as a long-term design system.</p>
 
