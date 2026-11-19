@@ -1,4 +1,10 @@
 <script>
+    import Check from '$icons/Check.svelte';
+    import ChevronUp from '$icons/ChevronUp.svelte';
+    import Funnel from '$icons/Funnel.svelte';
+    import Search from '$icons/Search.svelte';
+    import AdjustPair from '$icons/AdjustPair.svelte';
+    import X from '$icons/X.svelte';
     import { onMount, onDestroy, tick } from 'svelte';
     import { slide, scale, fade } from 'svelte/transition';
     import { flip } from 'svelte/animate';
@@ -434,7 +440,6 @@
         gap: 0.5rem;
         padding: 10px 0;
     }
-    .pills { transition: padding 0.18s ease; }
     .pills.empty { padding-top: 0; padding-bottom: 0; }
     .pill {
         display: inline-flex;
@@ -683,10 +688,7 @@
             <!-- Same size and place as the search button underneath, so the
                  magnifier stays exactly where it was -->
             <button type="button" class="bar-button search-bar-icon" onclick={closeSearch} aria-label="Close search" tabindex="-1">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <circle cx="11" cy="11" r="9"></circle>
-                    <line x1="17.364" y1="17.364" x2="22" y2="22"></line>
-                </svg>
+                <Search size={18} aria-hidden="true" />
             </button>
             <label for="icon-search" class="sr-only">Search icons</label>
             <input
@@ -702,10 +704,7 @@
             />
             {#if shortcutLabel}<span class="shortcut" aria-hidden="true">{shortcutLabel}</span>{/if}
             <button type="button" class="bar-button" onclick={closeSearch} aria-label="Close search">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true">
-                    <line x1="2" y1="22" x2="22" y2="2"></line>
-                    <line x1="22" y1="22" x2="2" y2="2"></line>
-                </svg>
+                <X size={14} aria-hidden="true" />
             </button>
         </div>
     {/if}
@@ -721,9 +720,7 @@
                     aria-expanded={filtersOpen}
                     aria-controls="filter-panel"
                 >
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <path d="M3.926 3h16.072c.817 0 1.29.927.809 1.588L13.962 14v6l-4 2v-8L3.117 4.588C2.636 3.927 3.108 3 3.926 3Z"></path>
-                    </svg>
+                    <Funnel size={18} aria-hidden="true" />
                     {#if selectedCategories.length}<span class="badge">{selectedCategories.length}</span>{/if}
                 </button>
             {/if}
@@ -735,10 +732,7 @@
                 aria-expanded={searchOpen}
                 aria-controls="icon-search"
             >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <circle cx="11" cy="11" r="9"></circle>
-                    <line x1="17.364" y1="17.364" x2="22" y2="22"></line>
-                </svg>
+                <Search size={18} aria-hidden="true" />
             </button>
         </div>
 
@@ -751,12 +745,7 @@
             aria-expanded={adjustOpen}
             aria-controls="adjust-panel"
         >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <line x1="3" y1="7" x2="21" y2="7"></line>
-                <line x1="3" y1="17" x2="21" y2="17"></line>
-                <circle cx="9" cy="7" r="2.5" fill="rgb(15 23 42)"></circle>
-                <circle cx="15" cy="17" r="2.5" fill="rgb(15 23 42)"></circle>
-            </svg>
+            <AdjustPair size={18} aria-hidden="true" />
         </button>
 
         <!-- Size Slider -->
@@ -834,7 +823,7 @@
                     >
                         <span class="check" aria-hidden="true">
                             {#if selected}
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 12.5 9.5 18 20 6"></polyline></svg>
+                                <Check size={10} strokeWidth={3.5} aria-hidden="true" />
                             {/if}
                         </span>
                         {label(cat)}
@@ -847,9 +836,7 @@
                     <button type="button" class="text-button" onclick={clearCategories}>Clear filters</button>
                 {/if}
                 <button type="button" class="bar-button collapse-button" onclick={() => (filtersOpen = false)} aria-label="Close filters">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <polyline points="5 15.5 12 8.5 19 15.5"></polyline>
-                    </svg>
+                    <ChevronUp size={16} aria-hidden="true" />
                 </button>
             </div>
         </div>
@@ -887,9 +874,7 @@
             </label>
             <div class="filter-footer">
                 <button type="button" class="bar-button collapse-button" onclick={() => (adjustOpen = false)} aria-label="Close size and stroke">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <polyline points="5 15.5 12 8.5 19 15.5"></polyline>
-                    </svg>
+                    <ChevronUp size={16} aria-hidden="true" />
                 </button>
             </div>
         </div>
@@ -900,9 +885,7 @@
             <ColorPicker bind:value={color} presets={COLOR_PRESETS} defaultColor={DEFAULT_INK} wide />
             <div class="filter-footer">
                 <button type="button" class="bar-button collapse-button" onclick={() => (colorOpen = false)} aria-label="Close color panel">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <polyline points="5 15.5 12 8.5 19 15.5"></polyline>
-                    </svg>
+                    <ChevronUp size={16} aria-hidden="true" />
                 </button>
             </div>
         </div>
@@ -914,10 +897,7 @@
                 <span class="pill pill-search" transition:scale={pillAnim}>
                     <button type="button" class="pill-label" onclick={openSearch} aria-label="Edit search">“{search}”</button>
                     <button type="button" onclick={clearSearch} aria-label="Clear search">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
-                            <line x1="2" y1="22" x2="22" y2="2"></line>
-                            <line x1="22" y1="22" x2="2" y2="2"></line>
-                        </svg>
+                        <X size={9} strokeWidth={3} aria-hidden="true" />
                     </button>
                 </span>
             {/if}
@@ -925,10 +905,7 @@
                 <span class="pill" transition:scale={pillAnim} animate:flip={{ duration: 200 }}>
                     {label(cat)}
                     <button type="button" onclick={() => removeCategory(cat)} aria-label="Remove filter {label(cat)}">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true">
-                            <line x1="2" y1="22" x2="22" y2="2"></line>
-                            <line x1="22" y1="22" x2="2" y2="2"></line>
-                        </svg>
+                        <X size={9} strokeWidth={3} aria-hidden="true" />
                     </button>
                 </span>
             {/each}

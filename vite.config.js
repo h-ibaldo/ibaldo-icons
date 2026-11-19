@@ -9,6 +9,10 @@ export default defineConfig({
 			'.ngrok-free.dev',
 			'.ngrok.io'
 		],
+		fs: {
+			// The site imports its UI icons from the library's Svelte package
+			allow: ['packages/icon-design-svelte/dist']
+		},
 		watch: {
 			// Claude Code worktrees are full copies of the repo; watching them
 			// overwhelms the file watcher and edits stop reloading.

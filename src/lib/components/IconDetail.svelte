@@ -1,4 +1,5 @@
 <script>
+    import X from '$icons/X.svelte';
     // Icon detail sheet: opens at the bottom when an icon is clicked.
     // Preview on the 24 grid, name and tags, code for each package, and
     // copy / download as SVG or PNG. Uses the current size, weight and color.
@@ -139,9 +140,7 @@
                 <p class="display">{icon.displayName || ''}</p>
             </div>
             <button type="button" class="icon-button close" onclick={onClose} aria-label="Close">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
-                    <line x1="2" y1="22" x2="22" y2="2"></line><line x1="22" y1="22" x2="2" y2="2"></line>
-                </svg>
+                <X size={14} strokeWidth={2} aria-hidden="true" />
             </button>
         </div>
 
