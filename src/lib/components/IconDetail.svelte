@@ -16,28 +16,29 @@
     let tab = 'React';
     let copied = '';          // key of the last thing copied, for feedback
     let copiedTimer;
-    let pngSize = 256;
-    const PNG_SIZES = [64, 128, 256, 512, 1024];
 
     const fmt = (n) => String(Number(n));
 
     // SVG with the chosen size, stroke and color baked in
-    function buildSvg(svg, { px = size, forPng = false } = {}) {
+    // Every input is a parameter, so reactive statements re-run when the bar's
+    // size, weight or color change
+    function buildSvg(svg, { px, stroke, ink }) {
         if (!svg) return '';
         let out = svg
             .replace(/<svg([^>]*)>/i, (m, attrs) => {
                 attrs = attrs.replace(/\s(width|height|stroke-width|class|style|aria-hidden)="[^"]*"/gi, '');
                 attrs = attrs.replace(/\s+/g, ' ').trimEnd();
-                return `<svg${attrs} width="${px}" height="${px}" stroke-width="${fmt(weight)}">`;
+                return `<svg${attrs} width="${px}" height="${px}" stroke-width="${fmt(stroke)}">`;
             })
             .replace(/>\s+</g, '>\n  <')
             .trim();
-        const ink = color || (forPng ? '#000000' : '');
         if (ink) out = out.replace(/currentColor/g, ink);
         return out + '\n';
     }
 
-    $: svgCode = buildSvg(icon?.svg);
+    $: svgCode = buildSvg(icon?.svg, { px: size, stroke: weight, ink: color });
+    // Preview: same stroke (in grid units) as the icons on the page
+    $: previewSvg = buildSvg(icon?.svg, { px: 168, stroke: weight, ink: color || '#0f172a' });
 
     // Props that differ from the package defaults (size 24, strokeWidth 1.5, currentColor)
     $: props = [
@@ -89,8 +90,10 @@
         save(new Blob([svgCode], { type: 'image/svg+xml' }), `${baseName()}.svg`);
     }
 
+    // PNG at the size chosen in the actions bar
     function downloadPng() {
-        const src = buildSvg(icon.svg, { px: pngSize, forPng: true });
+        const pngSize = size;
+        const src = buildSvg(icon.svg, { px: pngSize, stroke: weight, ink: color || '#000000' });
         const img = new Image();
         const url = URL.createObjectURL(new Blob([src], { type: 'image/svg+xml' }));
         img.onload = () => {
@@ -118,9 +121,7 @@
 <div class="sheet-wrap">
 <section class="sheet" role="dialog" aria-label="{icon.displayName || icon.name} icon" transition:fly={{ y: 40, duration: 220, easing: cubicOut }}>
     <div class="preview">
-        {#if icon.svg}
-            {@html buildSvg(icon.svg, { px: 128 }).replace(/currentColor/g, color || 'white')}
-        {/if}
+        {#if icon.svg}{@html previewSvg}{/if}
     </div>
 
     <div class="info">
@@ -129,7 +130,7 @@
                 <h2 class="name">{icon.name}</h2>
                 <p class="display">{icon.displayName || ''}</p>
             </div>
-            <button type="button" class="icon-button" onclick={onClose} aria-label="Close">
+            <button type="button" class="icon-button close" onclick={onClose} aria-label="Close">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
                     <line x1="2" y1="22" x2="22" y2="2"></line><line x1="22" y1="22" x2="2" y2="2"></line>
                 </svg>
@@ -148,12 +149,7 @@
                 {copied === 'svg' ? 'Copied!' : 'Copy SVG'}
             </button>
             <button type="button" class="btn" onclick={downloadSvg}>Download SVG</button>
-            <span class="png">
-                <button type="button" class="btn" onclick={downloadPng}>Download PNG</button>
-                <select bind:value={pngSize} aria-label="PNG size">
-                    {#each PNG_SIZES as s}<option value={s}>{s}px</option>{/each}
-                </select>
-            </span>
+            <button type="button" class="btn" onclick={downloadPng}>Download PNG <span class="btn-note">{size}px</span></button>
         </div>
     </div>
 
@@ -189,10 +185,12 @@
         display: grid;
         grid-template-columns: 168px minmax(0, 1fr) minmax(0, 1.1fr);
         gap: 1.25rem;
+        position: relative;
         padding: 1rem;
-        background: rgb(15 23 42);
-        color: white;
-        box-shadow: 0 20px 50px rgba(15, 23, 42, 0.35);
+        background: white;
+        color: rgb(15 23 42);
+        border: 1px solid rgb(226 232 240);
+        box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
     }
     /* Big preview on the 24 grid */
     .preview {
@@ -201,10 +199,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: rgb(30 41 59);
+        background-color: rgb(248 250 252);
         background-image:
-            linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+            linear-gradient(rgb(226 232 240) 1px, transparent 1px),
+            linear-gradient(90deg, rgb(226 232 240) 1px, transparent 1px);
         background-size: 7px 7px; /* 168 / 24 */
         background-position: -0.5px -0.5px;
     }
@@ -212,13 +210,13 @@
     .info { display: flex; flex-direction: column; gap: 0.75rem; min-width: 0; }
     .title-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
     .name { font-size: 18px; font-weight: 600; line-height: 1.2; word-break: break-word; }
-    .display { font-size: 12px; color: rgba(255, 255, 255, 0.5); margin-top: 2px; }
+    .display { font-size: 12px; color: rgb(100 116 139); margin-top: 2px; }
     .chips { display: flex; flex-wrap: wrap; gap: 4px; }
     .chip {
         font-size: 11px;
         padding: 2px 6px;
-        background: rgb(30 41 59);
-        color: rgba(255, 255, 255, 0.7);
+        background: rgb(241 245 249);
+        color: rgb(71 85 105);
     }
     .chip-cat { background: rgb(51 65 85); color: white; }
     .actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
@@ -226,62 +224,54 @@
         height: 32px;
         padding: 0 0.75rem;
         font-size: 12px;
-        color: white;
-        background: rgb(51 65 85);
+        color: rgb(15 23 42);
+        background: rgb(241 245 249);
         border: none;
         cursor: pointer;
         transition: background-color 0.15s ease;
     }
-    .btn:hover { background: rgb(71 85 105); }
-    .btn.primary { background: #0900FF; }
+    .btn:hover { background: rgb(226 232 240); }
+    .btn.primary { background: #0900FF; color: white; }
     .btn.primary:hover { background: #0700CC; }
-    .png { display: inline-flex; }
-    .png select {
-        height: 32px;
-        padding: 0 1.6rem 0 0.5rem;
-        font-size: 12px;
-        color: white;
-        background-color: rgb(30 41 59);
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-    }
+    .btn-note { margin-left: 0.25rem; color: rgb(100 116 139); }
     .icon-button {
         width: 28px;
         height: 28px;
         display: flex;
         align-items: center;
         justify-content: center;
-        color: rgba(255, 255, 255, 0.7);
+        color: rgb(100 116 139);
         background: none;
         border: none;
         cursor: pointer;
     }
-    .icon-button:hover { color: white; }
-    .code { display: flex; flex-direction: column; min-width: 0; background: rgb(30 41 59); }
-    .tabs { display: flex; align-items: center; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+    .icon-button:hover { color: rgb(15 23 42); }
+    /* Close sits in the sheet's top-right corner, not inside a column */
+    .close { position: absolute; top: 0.5rem; right: 0.5rem; }
+    .code { display: flex; flex-direction: column; min-width: 0; background: rgb(248 250 252); margin-right: 1.75rem; }
+    .tabs { display: flex; align-items: center; border-bottom: 1px solid rgb(226 232 240); }
     .tab {
         padding: 0.5rem 0.75rem;
         font-size: 12px;
-        color: rgba(255, 255, 255, 0.55);
+        color: rgb(100 116 139);
         background: none;
         border: none;
         border-bottom: 1px solid transparent;
         margin-bottom: -1px;
         cursor: pointer;
     }
-    .tab:hover { color: white; }
-    .tab.active { color: white; border-bottom-color: white; }
+    .tab:hover { color: rgb(15 23 42); }
+    .tab.active { color: rgb(15 23 42); border-bottom-color: rgb(15 23 42); }
     .copy-code {
         margin-left: auto;
         padding: 0.5rem 0.75rem;
         font-size: 12px;
-        color: rgba(255, 255, 255, 0.7);
+        color: rgb(71 85 105);
         background: none;
         border: none;
         cursor: pointer;
     }
-    .copy-code:hover { color: white; }
+    .copy-code:hover { color: rgb(15 23 42); }
     pre {
         margin: 0;
         padding: 0.75rem;
@@ -291,16 +281,16 @@
         font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
         font-size: 11.5px;
         line-height: 1.55;
-        color: rgb(226 232 240);
+        color: rgb(30 41 59);
         white-space: pre;
     }
-    button:focus-visible, select:focus-visible { outline: 2px solid white; outline-offset: -2px; }
+    button:focus-visible, select:focus-visible { outline: 2px solid #0900FF; outline-offset: -2px; }
 
     @media (max-width: 860px) {
         .sheet { grid-template-columns: 120px minmax(0, 1fr); }
         .preview, .preview :global(svg) { width: 120px; height: 120px; }
         .preview { background-size: 5px 5px; }
-        .code { grid-column: 1 / -1; }
+        .code { grid-column: 1 / -1; margin-right: 0; }
     }
     @media (max-width: 768px) {
         .sheet-wrap { bottom: 0; }
