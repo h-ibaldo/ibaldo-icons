@@ -390,26 +390,28 @@
   // Virtual window over the filtered icons. The hero text takes the first
   // two cells of row 0 when there is no search.
   $: filtering = !!search || selectedCategories.length > 0;
-  // The hero text takes two cells in the middle of the second row
-  // (cols 4-5 of 8), only when nothing is filtered.
+  // The hero text sits in the middle of the second row, only when nothing is
+  // filtered: 2 cells with an even column count (cols 4-5 of 8), 3 with an
+  // odd one (cols 2-4 of 5), so it is always centered on the page.
   const HERO = { path: '__hero__', hero: true };
-  $: heroSlot = filtering ? -1 : cols + Math.floor((cols - 2) / 2);
-  $: heroSlots = heroSlot >= 0 ? 2 : 0;
+  $: heroSpan = cols % 2 ? 3 : 2;
+  $: heroSlot = filtering ? -1 : cols + (cols - heroSpan) / 2;
+  $: heroSlots = heroSlot >= 0 ? heroSpan : 0;
   $: totalRows = Math.ceil((filteredIcons.length + heroSlots) / cols);
   $: firstRow = Math.min(startRow, Math.max(0, totalRows - 1));
   $: lastRow = Math.min(totalRows, Math.max(endRow, firstRow + 1));
 
-  // Items for grid cells [a, b), with the hero (2 cells) inserted at slot h
-  function sliceSlots(list, a, b, h) {
+  // Items for grid cells [a, b), with the hero (n cells) inserted at slot h
+  function sliceSlots(list, a, b, h, n) {
     if (h < 0) return list.slice(a, b);
     const out = list.slice(a, Math.max(a, Math.min(b, h)));
     if (a <= h && b > h) out.push(HERO);
-    const start = Math.max(a, h + 2) - 2;
-    const end = b - 2;
+    const start = Math.max(a, h + n) - n;
+    const end = b - n;
     if (end > start) out.push(...list.slice(start, end));
     return out;
   }
-  $: visibleItems = sliceSlots(filteredIcons, firstRow * cols, lastRow * cols, heroSlot);
+  $: visibleItems = sliceSlots(filteredIcons, firstRow * cols, lastRow * cols, heroSlot, heroSpan);
   $: visibleIcons = visibleItems.filter((item) => item !== HERO);
   $: padTop = firstRow * rowHeight;
   $: padBottom = Math.max(0, (totalRows - lastRow) * rowHeight);
@@ -721,7 +723,7 @@
 
                   {#each visibleItems as icon, index (icon.path)}
                     {#if icon === HERO}
-                      <div class="hero-text-cols flex items-center justify-center text-center sm:p-4 text-grid-cell">
+                      <div class="hero-text-cols flex items-center justify-center text-center sm:p-4 text-grid-cell" style="grid-column: span {heroSpan};">
                         <p class="text-sm font-normal leading-relaxed text-black text-center">
                           <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
                             Icons made with conviction. <br>Multiple designs per concept. <br>For designers who refuse to settle.
