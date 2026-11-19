@@ -41,7 +41,7 @@
     "components"
   ],
   "author": "Henrique Ibaldo",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "peerDependencies": {
     "svelte": ">=3.0.0 || >=4.0.0 || >=5.0.0"
   }

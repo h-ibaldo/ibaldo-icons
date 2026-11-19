@@ -272,7 +272,7 @@ This project is not currently accepting external contributions.
 
 ## 📄 License
 
-Ibaldo Icons License — See [LICENSE](./LICENSE) for details.
+MIT — see [LICENSE](./LICENSE).
 
 ---
 

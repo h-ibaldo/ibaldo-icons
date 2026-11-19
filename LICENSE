@@ -1,85 +1,21 @@
-Ibaldo Icons License Agreement
-Version 1.0
+MIT License
 
-This License Agreement ("Agreement") governs the use of Ibaldo Icons ("Icons"), designed and owned by Henrique Ibaldo ("Licensor"), operating as Primor Studio.
+Copyright (c) 2025-2026 Henrique Ibaldo
 
----
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Free License
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Permission is granted, free of charge, to any individual to use the Icons under the following conditions:
-
-Permitted uses:
-- Personal projects with no commercial intent
-- Open source projects released under an approved open source license
-- Educational and non-profit purposes
-- Portfolio and concept work not used in commercial products
-
-Conditions:
-- Attribution is required. You must credit "Ibaldo Icons by Primor Studio" with a link to ibald.ooo/icons wherever reasonably possible
-- You may not sell, sublicense, or redistribute the Icons as a standalone product or as part of a competing icon library, design system, or resource pack
-- You may not use the Icons in any commercial product, client work, or project that generates revenue without purchasing a commercial license
-
----
-
-Pro License — Single Designer
-
-For freelancers, independent designers, and individual developers using the Icons in commercial work.
-
-Permitted uses:
-- Unlimited commercial projects for yourself or your clients
-- Web, mobile, and desktop applications
-- Client deliverables and billable work
-- SaaS products and internal tools
-
-Conditions:
-- License is granted to one named individual and is non-transferable
-- You may not share, sublicense, or distribute the Icons to third parties
-- You may not use the Icons to create a competing icon library, UI kit, or design resource product
-- Attribution is appreciated but not required
-
----
-
-Team License
-
-For design teams, agencies, and companies with multiple designers or developers using the Icons.
-
-Permitted uses:
-- All uses covered under the Pro License
-- Use by multiple designers or developers within a single organization
-- Use in products shipped to end users
-
-Conditions:
-- License is granted to a single organization and may not be shared outside that organization
-- You may not sublicense or redistribute the Icons
-- You may not use the Icons to create a competing icon library, UI kit, or design resource product
-- Attribution is appreciated but not required
-
----
-
-Enterprise License
-
-For organizations requiring broader usage rights, higher seat counts, or custom terms.
-Contact hello@primor.co to discuss enterprise licensing. Custom terms are available for large teams, high-traffic SaaS products, and OEM usage.
-
----
-
-General Terms — All Tiers
-
-No redistribution. You may not sell, license, sublicense, or redistribute the Icons as a standalone product or as part of any design resource, template, or toolkit regardless of whether modified.
-
-No competing products. You may not use the Icons, in whole or in part, to create an icon library, icon font, or similar product that competes with Ibaldo Icons.
-
-No modification for redistribution. You may modify the Icons for use within your own projects, but modified versions may not be redistributed or sold.
-
-Termination. This license terminates automatically if you breach any of its terms. Upon termination you must cease all use and delete all copies of the Icons.
-
-No warranty. The Icons are provided "as is" without warranty of any kind. The Licensor is not liable for any damages arising from their use.
-
-Governing law. This Agreement is governed by the laws of Brazil.
-
----
-
-Copyright (c) 2025 Henrique Ibaldo / Primor Studio
-
-For questions about licensing, contact hello@primor.co
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

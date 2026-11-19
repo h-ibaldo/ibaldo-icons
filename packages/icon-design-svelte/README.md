@@ -93,4 +93,4 @@ Ibaldo Icons offers multiple interpretations of the same concept rather than a s
 
 ## License
 
-Ibaldo Icons License © Henrique Ibaldo
+MIT © Henrique Ibaldo
