@@ -16,10 +16,10 @@ export default {
                 xs: ['0.65rem', { lineHeight: '1rem' }],
                 sm: ['0.8rem', { lineHeight: '1.25rem' }],
                 base: ['1rem', { lineHeight: '1.5rem' }],
-                // Large text is set lighter (Pirilampo is variable, 300-700)
-                '2xl': ['1.5rem', { lineHeight: '2rem', fontWeight: '350' }],
             },
 			fontWeight: {
+				// Pirilampo is variable (300-700): 350 is a "book" weight for large text
+				book: '350',
 				semibold: '500',
 				bold: '600',
 			},

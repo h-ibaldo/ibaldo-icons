@@ -1,4 +1,4 @@
-<div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-2xl">
+<div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-2xl font-book">
 
     <h1 class="text-2xl font-bold mb-4">Request icon</h1>
     <p>Have a missing concept?</p>
