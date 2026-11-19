@@ -634,6 +634,10 @@
             gap: 0.75rem;
             padding: 0.5rem var(--bar-pad) 1.5rem;
         }
+        /* Same vertical padding as the bar, so the magnifier lines up with
+           the funnel instead of centering in the taller mobile bar */
+        .search-bar { padding-top: 0.5rem; padding-bottom: 1.5rem; }
+        .search-input { height: 2.5rem; }
         .search-input { font-size: 16px; } /* no zoom on focus */
         .shortcut { display: none; }
         .pills { padding: 8px 1rem; }
