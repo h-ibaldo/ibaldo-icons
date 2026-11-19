@@ -156,7 +156,7 @@
                 {copied === 'svg' ? 'Copied!' : 'Copy SVG'}
             </button>
             <button type="button" class="btn" onclick={downloadSvg}>Download SVG</button>
-            <button type="button" class="btn" onclick={downloadPng}>Download PNG <span class="btn-note">{size}px</span></button>
+            <button type="button" class="btn" onclick={downloadPng}>Download PNG</button>
         </div>
     </div>
 
@@ -240,7 +240,6 @@
     .btn:hover { background: rgb(226 232 240); }
     .btn.primary { background: #0900FF; color: white; }
     .btn.primary:hover { background: #0700CC; }
-    .btn-note { margin-left: 0.25rem; color: rgb(100 116 139); }
     .icon-button {
         width: 28px;
         height: 28px;
