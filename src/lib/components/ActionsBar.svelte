@@ -53,14 +53,23 @@
     let filtersOpen = false;
     let containerEl;
 
+    // Mobile only: size and stroke sliders move into their own panel
+    let adjustOpen = false;
+
+    // One panel open at a time
     function toggleFilters() {
         filtersOpen = !filtersOpen;
-        if (filtersOpen) colorOpen = false;
+        if (filtersOpen) colorOpen = adjustOpen = false;
     }
 
     function toggleColor() {
         colorOpen = !colorOpen;
-        if (colorOpen) filtersOpen = false;
+        if (colorOpen) filtersOpen = adjustOpen = false;
+    }
+
+    function toggleAdjust() {
+        adjustOpen = !adjustOpen;
+        if (adjustOpen) filtersOpen = colorOpen = false;
     }
 
     function toggleCategory(cat) {
@@ -113,6 +122,7 @@
     function handleOutsideClick(e) {
         if (filtersOpen && containerEl && !containerEl.contains(e.target)) filtersOpen = false;
         if (colorOpen && containerEl && !containerEl.contains(e.target)) colorOpen = false;
+        if (adjustOpen && containerEl && !containerEl.contains(e.target)) adjustOpen = false;
     }
 
     // Local values for immediate slider feedback
@@ -193,6 +203,7 @@
         }
         if (e.key === 'Escape' && filtersOpen) filtersOpen = false;
         if (e.key === 'Escape' && colorOpen) colorOpen = false;
+        if (e.key === 'Escape' && adjustOpen) adjustOpen = false;
     }
     
     function getShortcutLabel() {
@@ -468,6 +479,21 @@
         flex: 1;
     }
 
+    /* Size/stroke panel: mobile only */
+    .adjust-button, .adjust-panel { display: none; }
+    .adjust-panel { padding: 1rem 1rem 0; }
+    .adjust-row {
+        display: grid;
+        grid-template-columns: 56px minmax(0, 1fr) 48px;
+        align-items: center;
+        gap: 0.75rem;
+        min-height: 44px;
+        color: white;
+        font-size: 13px;
+    }
+    .adjust-label { color: rgba(255, 255, 255, 0.7); }
+    .adjust-value { text-align: right; font-variant-numeric: tabular-nums; }
+
     
     .slider-label {
         color: white;
@@ -612,9 +638,10 @@
         .shortcut { display: none; }
         .pills { padding: 8px 1rem; }
 
-        .slider-group {
-            width: 100%;
-        }
+        /* Sliders move into the panel; the bar keeps only buttons */
+        .slider-group { display: none; }
+        .adjust-button { display: flex; margin-left: auto; }
+        .adjust-panel { display: block; }
 
         .slider {
             max-width: none;
@@ -708,6 +735,23 @@
             </button>
         </div>
 
+        <!-- Mobile: opens the size/stroke panel (the sliders below are hidden) -->
+        <button
+            type="button"
+            class="bar-button adjust-button {adjustOpen ? 'active' : ''}"
+            onclick={toggleAdjust}
+            aria-label="Size and stroke"
+            aria-expanded={adjustOpen}
+            aria-controls="adjust-panel"
+        >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="3" y1="7" x2="21" y2="7"></line>
+                <line x1="3" y1="17" x2="21" y2="17"></line>
+                <circle cx="9" cy="7" r="2.5" fill="rgb(15 23 42)"></circle>
+                <circle cx="15" cy="17" r="2.5" fill="rgb(15 23 42)"></circle>
+            </svg>
+        </button>
+
         <!-- Size Slider -->
         <div class="slider-group">
             <label for="size" class="slider-label text-right hidden">Size</label>
@@ -796,6 +840,46 @@
                     <button type="button" class="text-button" onclick={clearCategories}>Clear filters</button>
                 {/if}
                 <button type="button" class="bar-button collapse-button" onclick={() => (filtersOpen = false)} aria-label="Close filters">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <polyline points="5 15.5 12 8.5 19 15.5"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    {/if}
+
+    {#if adjustOpen}
+        <div id="adjust-panel" class="filter-panel adjust-panel" role="group" aria-label="Size and stroke" transition:slide={{ duration: 200, easing: cubicOut }}>
+            <label class="adjust-row">
+                <span class="adjust-label">Size</span>
+                <input
+                    type="range"
+                    min="12"
+                    max={maxSize}
+                    step="4"
+                    value={localSize}
+                    oninput={(e) => updateSize(Number(e.target.value))}
+                    class="range-input"
+                    aria-label="Icon size"
+                />
+                <span class="adjust-value">{localSize}px</span>
+            </label>
+            <label class="adjust-row">
+                <span class="adjust-label">Stroke</span>
+                <input
+                    type="range"
+                    min="0.5"
+                    max="2.5"
+                    step="0.5"
+                    value={localWeight}
+                    oninput={(e) => updateWeight(Number(e.target.value))}
+                    class="range-input"
+                    aria-label="Icon stroke weight"
+                />
+                <span class="adjust-value">{localWeight}pt</span>
+            </label>
+            <div class="filter-footer">
+                <button type="button" class="bar-button collapse-button" onclick={() => (adjustOpen = false)} aria-label="Close size and stroke">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                         <polyline points="5 15.5 12 8.5 19 15.5"></polyline>
                     </svg>
