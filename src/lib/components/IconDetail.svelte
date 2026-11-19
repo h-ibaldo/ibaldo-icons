@@ -47,9 +47,13 @@
         color ? `color="${color}"` : ''
     ].filter(Boolean).join(' ');
 
-    $: reactCode = `import { ${icon.name} } from '@ibaldo/icons-react';\n\n<${icon.name}${props ? ' ' + props : ''} />\n`;
-    $: svelteCode = `<script>\n  import { ${icon.name} } from '@ibaldo/icons-svelte';\n</` + `script>\n\n<${icon.name}${props ? ' ' + props : ''} />\n`;
-    $: code = tab === 'React' ? reactCode : tab === 'Svelte' ? svelteCode : svgCode;
+    // Package tabs show (and copy) only the component; the import is a hint below
+    $: component = `<${icon.name}${props ? ' ' + props : ''} />`;
+    $: importHint =
+        tab === 'React' ? `import { ${icon.name} } from '@ibaldo/icons-react'`
+        : tab === 'Svelte' ? `import { ${icon.name} } from '@ibaldo/icons-svelte'`
+        : '';
+    $: code = tab === 'SVG' ? svgCode : component;
 
     async function copy(text, key) {
         try {
@@ -163,6 +167,11 @@
             </button>
         </div>
         <pre><code>{code}</code></pre>
+        {#if importHint}
+            <button type="button" class="import-hint" onclick={() => copy(importHint, 'import')} title="Copy import">
+                {copied === 'import' ? 'Copied!' : importHint}
+            </button>
+        {/if}
     </div>
 </section>
 </div>
@@ -284,6 +293,23 @@
         color: rgb(30 41 59);
         white-space: pre;
     }
+    .import-hint {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 0.4rem 0.75rem;
+        border: none;
+        border-top: 1px solid rgb(226 232 240);
+        background: none;
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 11px;
+        color: rgb(100 116 139);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        cursor: pointer;
+    }
+    .import-hint:hover { color: rgb(15 23 42); }
     button:focus-visible, select:focus-visible { outline: 2px solid #0900FF; outline-offset: -2px; }
 
     @media (max-width: 860px) {
