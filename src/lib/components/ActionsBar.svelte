@@ -579,7 +579,10 @@
         border-width: 0;
     }
 
-    @media (max-width: 900px) {
+    /* Narrower bar where 750px would cover the site name and the menu button
+       once the bar sticks to the top */
+    @media (max-width: 1140px) {
+        .actions-bar-container { width: 550px; }
         .filter-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     }
 
