@@ -18,6 +18,7 @@ export default {
             },
 			fontWeight: {
 				semibold: '500',
+				bold: '600',
 			},
 			colors: {
 				indigo: {

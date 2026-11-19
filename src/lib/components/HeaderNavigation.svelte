@@ -1,6 +1,13 @@
 <script>
     import { onMount } from 'svelte';
+    import { page } from '$app/stores';
     import { ICON_COUNT } from '$lib/icon-count.js';
+
+    // Current page: black text with a 1px black underline; others stay blue
+    const LINK = 'text-indigo-500 hover:text-indigo-600';
+    const ACTIVE = 'text-black border-b border-black';
+    $: path = $page.url.pathname;
+    $: linkClass = (href) => (href === '/' ? path === '/' : path.startsWith(href)) ? ACTIVE : LINK;
 
     const iconCountLabel = `${ICON_COUNT.toLocaleString('en-US')} icons`;
 
@@ -276,10 +283,10 @@
     <div class="flex items-center overflow-hidden">
 
         <nav class="space-x-4 text-sm desktop-only nav-links font-normal {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
-            <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
-            <a href="/about" class="text-indigo-500 hover:text-indigo-600">About</a>
-            <a href="/packages" class="text-indigo-500 hover:text-indigo-600">Packages</a>
-            <!-- <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600">Request icon</a> -->
+            <a href="/" class="{linkClass('/')}">Icons</a>
+            <a href="/about" class="{linkClass('/about')}">About</a>
+            <a href="/packages" class="{linkClass('/packages')}">Packages</a>
+            <!-- <a href="/request-icon" class="{linkClass('/request-icon')}">Request icon</a> -->
         </nav>
         
         <button
@@ -351,10 +358,10 @@
         </button>
     </div>
     <nav class="flex flex-col space-y-4 text-md" aria-label="Mobile navigation">
-        <a href="/" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Icons</a>
-        <a href="/about" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>About</a>
-        <a href="/packages" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Packages</a>
-        <a href="/license" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>License</a>
-        <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Request icon</a>
+        <a href="/" class="{linkClass('/')} self-start" on:click={closeDrawer}>Icons</a>
+        <a href="/about" class="{linkClass('/about')} self-start" on:click={closeDrawer}>About</a>
+        <a href="/packages" class="{linkClass('/packages')} self-start" on:click={closeDrawer}>Packages</a>
+        <a href="/license" class="{linkClass('/license')} self-start" on:click={closeDrawer}>License</a>
+        <a href="/request-icon" class="{linkClass('/request-icon')} self-start" on:click={closeDrawer}>Request icon</a>
     </nav>
 </div>
