@@ -29,3 +29,18 @@ Extraí direto dos dados internos (`AIPrivateData`, zstd): 386 desenhos, 84 cóp
 Nos outros arquivos, a extração completa acha principalmente pedaços soltos e ícones já presentes. Uma checagem fina (cruzando com as posições das pranchetas) ainda está pendente.
 
 Palavras novas dos 116: setas pelo tamanho da ponta, (nenhuma)/`Narrow`/`Slim`; `Large` nas setas e chevrons em círculo maiores; `Open`/`In` nas setas para quadrado aberto; Battery `Boxy`; Clock `Top`; Video `Joined`.
+
+## Desenho fora das pranchetas, em todos os arquivos (19/11)
+
+Extraí todo o desenho dos 11 `.ai` (`scripts/ai-extract/extract_all.py`) e cruzei com as posições das pranchetas, que ficam nos dados internos do arquivo.
+
+| Arquivo | Pranchetas | Desenhos fora | Fora e sem par na biblioteca | O que são |
+|---|---:|---:|---:|---|
+| old icon-set 6 | 1 | 392 | 341 | a família `File`, **já importada** (230 + 70 rascunhos fora) |
+| **ui-application** | 21 | **~2.000** | **284** | a tela tem ~1.800 ícones soltos; ~1.540 já estão na biblioteca (é de onde vieram os grupos `application-1/2`). Os 284 restantes misturam variações reais (raios, acessibilidade com engrenagem, olhos, mãos, sinos, alarmes) com peças soltas. Folhas: [`ui-application-outside-1.png`](ui-application-outside-1.png), [`-2.png`](ui-application-outside-2.png) |
+| media-control | 109 | 130 | 91 | peças de montagem (triângulos, barras, ondas de som) e rascunhos de arquivo |
+| old-icon-set 1, 2, 4 e popular-01 | | 4 / 37 / 22 / 6 | 2 / 17 / 13 / 4 | variações de ícones já importados e peças. Folha (com o media-control): [`outside-artboards-small.png`](outside-artboards-small.png) |
+| old-icon-set 5, messaging-bubbles | | 0 | 0 | — |
+| sketches-base | 785 | 24 | 21 | fica de fora (decisão do Henrique) |
+
+Conclusão: fora o old icon-set 6, só o **ui-application** tem desenho solto que pode valer importar.
