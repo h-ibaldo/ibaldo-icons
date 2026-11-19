@@ -121,6 +121,15 @@
     let colorOpen = false;
     let colorEl;
 
+    // The bar keeps its square bottom corners until a closing panel has
+    // finished sliding up; only then do the corners round (CSS transition).
+    // Rounding them right away left a notch while the panel was collapsing.
+    let panelShown = false;
+    $: if (filtersOpen || colorOpen || adjustOpen) panelShown = true;
+    function onPanelClosed() {
+        if (!(filtersOpen || colorOpen || adjustOpen)) panelShown = false;
+    }
+
     // What the default ('' = currentColor) looks like on the page
     $: DEFAULT_INK = $theme === 'dark' ? '#F8FAFC' : '#000000';
 
@@ -602,9 +611,9 @@
     .color-panel .filter-footer { padding: 0.25rem 0 0.25rem; }
 
     /* ---- Rounded corners (scale in app.css) ---- */
-    .actions-bar { border-radius: var(--r-lg); }
+    .actions-bar { border-radius: var(--r-lg); transition: border-radius 0.15s ease; }
     /* The blue bar covers the bar from the search button to the right edge */
-    .search-bar { border-radius: 0 var(--r-lg) var(--r-lg) 0; }
+    .search-bar { border-radius: 0 var(--r-lg) var(--r-lg) 0; transition: border-radius 0.15s ease; }
     /* A panel open under the bar: they read as one block */
     .actions-bar-container.panel-open .actions-bar { border-radius: var(--r-lg) var(--r-lg) 0 0; }
     .actions-bar-container.panel-open .search-bar { border-radius: 0 var(--r-lg) 0 0; }
@@ -701,7 +710,7 @@
     }
 </style>
 
-<div class="actions-bar-container {filtersOpen || colorOpen || adjustOpen ? 'panel-open' : ''}" bind:this={containerEl}>
+<div class="actions-bar-container {panelShown ? 'panel-open' : ''}" bind:this={containerEl}>
     <div class="bar-stack">
     {#if searchOpen}
         <div class="search-bar" transition:roll>
@@ -830,7 +839,7 @@
     </div>
 
     {#if filtersOpen}
-        <div id="filter-panel" class="filter-panel" role="group" aria-label="Categories" transition:slide={{ duration: 200, easing: cubicOut }}>
+        <div id="filter-panel" class="filter-panel" role="group" aria-label="Categories" transition:slide={{ duration: 200, easing: cubicOut }} onoutroend={onPanelClosed}>
             <div class="filter-grid">
                 {#each categories as cat}
                     {@const selected = selectedCategories.includes(cat)}
@@ -863,7 +872,7 @@
     {/if}
 
     {#if adjustOpen}
-        <div id="adjust-panel" class="filter-panel adjust-panel" role="group" aria-label="Size and stroke" transition:slide={{ duration: 200, easing: cubicOut }}>
+        <div id="adjust-panel" class="filter-panel adjust-panel" role="group" aria-label="Size and stroke" transition:slide={{ duration: 200, easing: cubicOut }} onoutroend={onPanelClosed}>
             <label class="adjust-row">
                 <span class="adjust-label">Size</span>
                 <input
@@ -901,7 +910,7 @@
     {/if}
 
     {#if colorOpen}
-        <div id="color-panel" class="filter-panel color-panel" role="dialog" aria-label="Icon color" transition:slide={{ duration: 200, easing: cubicOut }}>
+        <div id="color-panel" class="filter-panel color-panel" role="dialog" aria-label="Icon color" transition:slide={{ duration: 200, easing: cubicOut }} onoutroend={onPanelClosed}>
             <ColorPicker bind:value={color} presets={COLOR_PRESETS} defaultColor={DEFAULT_INK} wide />
             <div class="filter-footer">
                 <button type="button" class="bar-button collapse-button" onclick={() => (colorOpen = false)} aria-label="Close color panel">
