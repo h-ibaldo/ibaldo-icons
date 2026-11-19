@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import ActionsBar from '$lib/components/ActionsBar.svelte';
+  import IconDetail from '$lib/components/IconDetail.svelte';
 
   let iconsByCategory = {};
   let allIcons = [];
@@ -265,11 +266,24 @@
     }
   }
 
-  // Handle icon download (used by both click and keyboard)
-  async function handleIconDownload(icon) {
+  // Clicking an icon opens its detail sheet (copy code / SVG, download SVG / PNG).
+  // The open icon is in the URL (?icon=Name) so the link can be shared.
+  let selectedIcon = null;
+
+  async function selectIcon(icon) {
     await ensureSVGLoaded(icon);
-    const processedSVG = processSVGForDownload(icon, size, weight);
-    downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
+    selectedIcon = icon;
+    svgTick++;
+    const url = new URL(window.location.href);
+    url.searchParams.set('icon', icon.name);
+    history.replaceState(history.state, '', url);
+  }
+
+  function closeDetail() {
+    selectedIcon = null;
+    const url = new URL(window.location.href);
+    url.searchParams.delete('icon');
+    history.replaceState(history.state, '', url);
   }
 
   // Read the grid's real column count and row height (they change with the
@@ -312,7 +326,13 @@
 
     window.addEventListener('scroll', onScrollOrResize, { passive: true });
     window.addEventListener('resize', onScrollOrResize, { passive: true });
-    loadCategories().then(onScrollOrResize);
+    loadCategories().then(() => {
+      onScrollOrResize();
+      // Open the icon named in the URL, if any
+      const name = new URL(window.location.href).searchParams.get('icon');
+      const icon = name && allIcons.find((i) => i.name === name);
+      if (icon) selectIcon(icon);
+    });
 
     return () => {
       window.removeEventListener('scroll', onScrollOrResize);
@@ -484,6 +504,9 @@
     }
   }
   
+  /* The icon open in the detail sheet */
+  .icon-container.selected { background-color: #e2e8f0 !important; }
+
   /* Visible focus indicator for keyboard navigation */
   .icon-container:focus-visible {
     outline: 3px solid #0900FF;
@@ -704,19 +727,20 @@
                       {/if}
                       <div class="flex flex-col items-center icon-item" role="listitem">
                           <div
-                              class="icon-container rounded-lg p-1"
-                              on:click={() => handleIconDownload(icon)}
+                              class="icon-container rounded-lg p-1 {selectedIcon === icon ? 'selected' : ''}"
+                              on:click={() => selectIcon(icon)}
                               on:pointerenter={(e) => e.currentTarget.style.backgroundColor = '#f1f5f9'}
                               on:pointerleave={(e) => e.currentTarget.style.backgroundColor = ''}
                               on:pointerdown={(e) => e.currentTarget.style.backgroundColor = '#cbd5e1'}
                               on:pointerup={(e) => e.currentTarget.style.backgroundColor = '#f1f5f9'}
                               role="button"
                               tabindex="0"
-                              aria-label="Download {icon.name} icon"
+                              aria-label="{icon.name} icon"
+                              aria-pressed={selectedIcon === icon}
                               on:keydown={(e) => {
                                 if (e.key === 'Enter' || e.key === ' ') {
                                   e.preventDefault();
-                                  handleIconDownload(icon);
+                                  selectIcon(icon);
                                 }
                               }}
                           >
@@ -762,3 +786,7 @@
       {/if}
   </div>
 </div>
+
+{#if selectedIcon}
+  <IconDetail icon={selectedIcon} {size} {weight} color={iconColor} onClose={closeDetail} />
+{/if}
