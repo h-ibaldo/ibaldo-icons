@@ -2,7 +2,7 @@
     // Requests are public posts on X: they spread the library, and likes
     // decide what gets drawn first.
     const HANDLE = 'ibaldo';
-    const HASHTAG = 'IbaldoIcons';
+    const HASHTAG = 'ibaldoicons';
     const SITE = 'https://ibald.ooo/icons';
 
     let concept = '';
