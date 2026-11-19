@@ -13,7 +13,7 @@ export default {
 			},
             fontSize: {
                 xs: ['0.65rem', { lineHeight: '1rem' }],
-                sm: ['0.775rem', { lineHeight: '1.25rem' }],
+                sm: ['0.8rem', { lineHeight: '1.25rem' }],
                 base: ['1rem', { lineHeight: '1.5rem' }],
             },
 			fontWeight: {
