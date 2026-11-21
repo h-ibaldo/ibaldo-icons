@@ -260,7 +260,7 @@ Tools:
 | `list_variants({ family })` | Every icon in one family (e.g. `Bell`, `AvatarFace`) with the parts of each name (badge, container, style). |
 | `list_categories()` | Categories with icon counts. |
 
-The server is a SvelteKit route (`src/routes/mcp/+server.js`, logic in `src/lib/server/mcp/core.js`): stateless Streamable HTTP, no sessions, no AI calls. The icon data is bundled into the server function at build time. Test it with `node scripts/test-mcp.js` (direct) or `node scripts/test-mcp.js http://localhost:5173/mcp` (against a running site).
+The server is a SvelteKit route (`src/routes/mcp/+server.js`, logic in `src/lib/server/mcp/core.js`): stateless Streamable HTTP, no sessions, no AI calls. The icon data is bundled into the server function at build time. Test it with `node scripts/test-mcp.js` (direct) or `node scripts/test-mcp.js http://localhost:5173/icons/mcp` (against a running site).
 
 ---
 
