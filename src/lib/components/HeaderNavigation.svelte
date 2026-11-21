@@ -4,13 +4,14 @@
     import X from '$icons/X.svelte';
     import { onMount } from 'svelte';
     import { page } from '$app/stores';
+    import { base } from '$app/paths';
     import { theme, toggleTheme } from '$lib/theme.js';
     import { ICON_COUNT } from '$lib/icon-count.js';
 
     // Current page: black text with a 1px black underline; others stay blue
     const LINK = 'text-indigo-500 hover:text-indigo-600';
     const ACTIVE = 'text-black border-b border-black';
-    $: path = $page.url.pathname;
+    $: path = $page.url.pathname.slice(base.length) || "/";
     $: linkClass = (href) => (href === '/' ? path === '/' : path.startsWith(href)) ? ACTIVE : LINK;
 
     const iconCountLabel = `${ICON_COUNT.toLocaleString('en-US')} icons`;
@@ -311,7 +312,7 @@
 
 <header class="flex justify-between items-center px-4 py-3 z-10 header-navigation">
     <h1 class="text-sm font-semibold">
-        <a href="/" class="text-inherit no-underline hover:opacity-80">Ibaldo Icons</a>
+        <a href="{base}/" class="text-inherit no-underline hover:opacity-80">Ibaldo Icons</a>
     </h1>
 
     <p
@@ -340,10 +341,10 @@
         </button>
 
         <nav class="space-x-4 text-sm desktop-only nav-links font-normal {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
-            <a href="/" class="{linkClass('/')}">Icons</a>
-            <a href="/about" class="{linkClass('/about')}">About</a>
-            <a href="/packages" class="{linkClass('/packages')}">Packages</a>
-            <a href="/request-icon" class="{linkClass('/request-icon')}">Request icon</a>
+            <a href="{base}/" class="{linkClass('/')}">Icons</a>
+            <a href="{base}/about" class="{linkClass('/about')}">About</a>
+            <a href="{base}/packages" class="{linkClass('/packages')}">Packages</a>
+            <a href="{base}/request-icon" class="{linkClass('/request-icon')}">Request icon</a>
         </nav>
         
         <button
@@ -412,11 +413,11 @@
         </button>
     </div>
     <nav class="flex flex-col space-y-4 text-md" aria-label="Mobile navigation">
-        <a href="/" class="{linkClass('/')} self-start" on:click={closeDrawer}>Icons</a>
-        <a href="/about" class="{linkClass('/about')} self-start" on:click={closeDrawer}>About</a>
-        <a href="/packages" class="{linkClass('/packages')} self-start" on:click={closeDrawer}>Packages</a>
-        <a href="/license" class="{linkClass('/license')} self-start" on:click={closeDrawer}>License</a>
-        <a href="/request-icon" class="{linkClass('/request-icon')} self-start" on:click={closeDrawer}>Request icon</a>
+        <a href="{base}/" class="{linkClass('/')} self-start" on:click={closeDrawer}>Icons</a>
+        <a href="{base}/about" class="{linkClass('/about')} self-start" on:click={closeDrawer}>About</a>
+        <a href="{base}/packages" class="{linkClass('/packages')} self-start" on:click={closeDrawer}>Packages</a>
+        <a href="{base}/license" class="{linkClass('/license')} self-start" on:click={closeDrawer}>License</a>
+        <a href="{base}/request-icon" class="{linkClass('/request-icon')} self-start" on:click={closeDrawer}>Request icon</a>
         <!-- Theme control (the header toggle hides while scrolled) -->
         <button type="button" class="drawer-theme text-indigo-500 hover:text-indigo-600 self-start" on:click={toggleTheme}>
             {#if $theme === 'dark'}

@@ -3,6 +3,8 @@ import vercel from '@sveltejs/adapter-vercel';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
+		// Served at ibald.ooo/icons (ibald.ooo rewrites /icons/* to this project)
+		paths: { base: '/icons' },
 		adapter: vercel({
 			runtime: 'nodejs20.x'
 		}),

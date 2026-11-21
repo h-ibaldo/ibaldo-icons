@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <div class="pb-4 pt-12 px-4 sm:px-14 w-full max-w-4xl mx-auto leading-[1.8] text-sm">
 
 <h1 class="text-2xl font-semibold mb-1">Terms of Service</h1>
@@ -13,7 +17,7 @@ All icons and related materials are provided <strong>"as is"</strong>, without w
 </p>
 
 <p class="mb-4">
-Use of the icons is governed by the <a href="/license" class="underline hover:text-gray-900">MIT License</a>. You are responsible for ensuring that your use complies with applicable laws and regulations.
+Use of the icons is governed by the <a href="{base}/license" class="underline hover:text-gray-900">MIT License</a>. You are responsible for ensuring that your use complies with applicable laws and regulations.
 </p>
 
 <p class="mb-4">

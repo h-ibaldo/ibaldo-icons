@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Tests the Ibaldo Icons MCP server.
 //   node scripts/test-mcp.js                          -> calls the handler directly (no server)
-//   node scripts/test-mcp.js http://localhost:5199/mcp -> same checks over HTTP against a running site
+//   node scripts/test-mcp.js http://localhost:5173/icons/mcp -> same checks over HTTP against a running site
 import { readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';

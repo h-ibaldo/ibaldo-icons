@@ -1,5 +1,6 @@
 // Hosted, read-only MCP server for Ibaldo Icons (Streamable HTTP, stateless).
 // Add it to an agent with one URL: <site>/mcp. Logic lives in $lib/server/mcp/core.js.
+import { base } from '$app/paths';
 import { createMcpServer } from '$lib/server/mcp/core.js';
 // Bundled into the server function at build time, so nothing is fetched per request.
 import indexRaw from '../../../static/icons-index.json?raw';
@@ -84,7 +85,7 @@ const NOTE = `<!doctype html><meta charset="utf-8"><meta name="viewport" content
 <p>This URL is an MCP server for AI agents (Claude, Cursor and others). It lets them search the icons and get the exact SVG or import code.</p>
 <p>Add this page's URL to your agent as a remote MCP server (Streamable HTTP). Nothing to install, no key needed.</p>
 <pre style="background:#f3f4f6;padding:1rem;overflow-x:auto;font-size:15px">claude mcp add --transport http ibaldo-icons URL</pre>
-<p>Tools: search_icons, get_icon, list_variants, list_categories. <a href="/packages#mcp">More on the packages page</a>.</p>
+<p>Tools: search_icons, get_icon, list_variants, list_categories. <a href="${base}/packages#mcp">More on the packages page</a>.</p>
 <script>document.querySelector('pre').textContent=document.querySelector('pre').textContent.replace('URL',location.href.split('?')[0])</script>
 </body>`;
 

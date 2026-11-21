@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import { base } from '$app/paths';
   import ActionsBar from '$lib/components/ActionsBar.svelte';
   import IconDetail from '$lib/components/IconDetail.svelte';
   import { theme } from '$lib/theme.js';
@@ -207,10 +208,10 @@
   async function loadCategories() {
     try {
         // Load the index directly from static folder (no API needed)
-        const res = await fetch('/icons-index.json?v=12');
+        const res = await fetch(`${base}/icons-index.json?v=12`);
         if (!res.ok) throw new Error('Failed to fetch index');
         const index = await res.json();
-        chunkUrls = index.chunks || [];
+        chunkUrls = (index.chunks || []).map((u) => base + u);
         // Load all icons from folder-based structure
         allIcons = [];
         const allFolderKeys = Object.keys(index.icons || {});
@@ -733,7 +734,7 @@
                     {#if icon === HERO}
                       <div class="hero-text-cols flex items-center justify-center text-center sm:p-4 text-grid-cell" style="grid-column: span {heroSpan};">
                         <p class="text-sm font-normal leading-relaxed text-black text-center">
-                          <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
+                          <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="{base}/about">
                             Icons made with conviction. <br>Multiple designs per concept. <br>For designers who refuse to settle.
                           </a>
                         </p>
