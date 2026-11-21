@@ -28,7 +28,6 @@
     <ol class="list-decimal list-inside mb-8">
         <li>Follow <a class="hover:text-indigo-500 underline" href="https://x.com/{HANDLE}" target="_blank" rel="noopener">@{HANDLE}</a> on X</li>
         <li>Post your request with <span class="font-semibold">#{HASHTAG}</span> (the button below writes it for you)</li>
-        <li>Get people to like it: more likes, sooner it's drawn</li>
         <li>When it ships, you get a reply with the icon and your name in the credits</li>
     </ol>
 
