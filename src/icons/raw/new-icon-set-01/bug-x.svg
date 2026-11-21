@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M6 15C6 11.133 8.688 8 12 8C15.313 8 18 11.133 18 15C18 18.867 15.313 22 12 22C8.688 22 6 18.867 6 15Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8.133 9.648C8.047 9.281 8 8.898 8 8.5C8 6.016 9.789 4 12 4C14.211 4 16 6.016 16 8.5C16 8.898 15.953 9.281 15.867 9.648" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15 5L18 2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9 5L6 2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 12L21 11L21 8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 18L21 19L21 22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 15L22 15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 12L3 11L3 8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 18L3 19L3 22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 15L2 15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14.852 12L9.148 17.699" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14.852 17.699L9.148 12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

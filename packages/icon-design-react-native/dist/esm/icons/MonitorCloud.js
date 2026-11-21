@@ -1,0 +1,32 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const MonitorCloud = forwardRef(function MonitorCloud(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M2 4L22 4L22 18L2 18Z","key":"0"}),
+    createElement(Path, {"d":"M12 21L12 18","key":"1"}),
+    createElement(Path, {"d":"M18 21L6 21","key":"2"}),
+    createElement(Path, {"d":"M15 14C16.105 14 17 13.105 17 12C17 10.895 16.105 10 15 10C14.945 10 14.887 10.004 14.832 10.008C14.422 8.84 13.309 8 12 8C10.691 8 9.578 8.84 9.168 10.008C9.113 10.004 9.055 10 9 10C7.895 10 7 10.895 7 12C7 13.105 7.895 14 9 14Z","key":"3"})
+  );
+});
+
+MonitorCloud.displayName = 'MonitorCloud';
+
+export default MonitorCloud;
+export { MonitorCloud };

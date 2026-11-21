@@ -1,0 +1,39 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const WebcamSquare = forwardRef(function WebcamSquare(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M7.5 9.5C7.5 7.016 9.516 5 12 5C14.484 5 16.5 7.016 16.5 9.5C16.5 11.984 14.484 14 12 14C9.516 14 7.5 11.984 7.5 9.5Z","key":"0"}),
+    createElement(Path, {"d":"M10 9.5C10 8.395 10.895 7.5 12 7.5","key":"1"}),
+    createElement(Path, {"d":"M10 17L10 22","key":"2"}),
+    createElement(Path, {"d":"M14 17L14 22","key":"3"}),
+    createElement(Path, {"d":"M19 22L5 22","key":"4"}),
+    createElement(Path, {"d":"M8 2L16 2C18.211 2 20 3.789 20 6L20 13C20 15.211 18.211 17 16 17L8 17C5.789 17 4 15.211 4 13L4 6C4 3.789 5.789 2 8 2Z","key":"5"})
+  );
+});
+
+WebcamSquare.displayName = 'WebcamSquare';
+
+module.exports = WebcamSquare;
+module.exports.WebcamSquare = WebcamSquare;
+module.exports.default = WebcamSquare;

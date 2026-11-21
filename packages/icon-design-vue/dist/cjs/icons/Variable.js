@@ -1,0 +1,40 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const Variable = defineComponent({
+  name: 'Variable',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M6 21.168C3.645 19.625 2 16.102 2 12C2 7.898 3.645 4.375 6 2.832"}),
+          h('path', {"d":"M18 21.168C20.355 19.625 22 16.102 22 12C22 7.898 20.355 4.375 18 2.832"}),
+          h('path', {"d":"M7 17L7.867 17C8.57 17 9.223 16.633 9.582 16.027L14.418 7.973C14.777 7.367 15.43 7 16.133 7L17 7"}),
+          h('path', {"d":"M16 17L14 17L10 7L8 7"})
+        ]
+      );
+  }
+});
+
+module.exports = Variable;
+module.exports.Variable = Variable;
+module.exports.default = Variable;

@@ -1,0 +1,34 @@
+{
+  "name": "GraphicsCard",
+  "displayName": "Graphics card",
+  "description": "Expansion card with a bracket on the left and connectors along the bottom.",
+  "tags": [
+    "graphics-card",
+    "gpu",
+    "expansion-card",
+    "hardware",
+    "pcie",
+    "video-card"
+  ],
+  "categories": [
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Graphics card"
+  },
+  "filename": "graphics-card",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

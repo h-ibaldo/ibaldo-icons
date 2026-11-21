@@ -1,0 +1,34 @@
+{
+  "name": "PiggyBankCoin",
+  "displayName": "Piggy bank coin",
+  "description": "Piggy bank with a coin dropping into its back.",
+  "tags": [
+    "piggy-bank",
+    "savings",
+    "money",
+    "finance",
+    "coin",
+    "deposit"
+  ],
+  "categories": [
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Savings"
+  },
+  "filename": "piggy-bank-coin",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

@@ -1,0 +1,32 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const BadgePercentJagged = forwardRef(function BadgePercentJagged(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M12.754 2.969L13.945 4.34C14.191 4.621 14.566 4.742 14.926 4.66L16.699 4.25C17.289 4.113 17.867 4.531 17.918 5.137L18.078 6.949C18.109 7.316 18.344 7.637 18.684 7.781L20.355 8.492C20.914 8.73 21.137 9.406 20.82 9.926L19.887 11.484C19.695 11.801 19.695 12.199 19.887 12.516L20.82 14.074C21.137 14.594 20.914 15.27 20.355 15.508L18.684 16.219C18.344 16.363 18.109 16.684 18.078 17.051L17.918 18.863C17.867 19.469 17.289 19.887 16.699 19.75L14.926 19.34C14.566 19.258 14.191 19.379 13.945 19.66L12.754 21.031C12.355 21.488 11.645 21.488 11.246 21.031L10.055 19.66C9.813 19.379 9.434 19.258 9.074 19.34L7.301 19.75C6.711 19.887 6.133 19.469 6.082 18.863L5.922 17.051C5.891 16.684 5.656 16.363 5.316 16.219L3.645 15.508C3.086 15.27 2.863 14.594 3.18 14.074L4.113 12.516C4.305 12.199 4.305 11.801 4.113 11.484L3.18 9.926C2.863 9.406 3.086 8.73 3.645 8.492L5.316 7.781C5.656 7.637 5.891 7.316 5.922 6.949L6.082 5.137C6.133 4.531 6.711 4.113 7.301 4.25L9.074 4.66C9.434 4.742 9.813 4.621 10.055 4.34L11.246 2.969C11.645 2.512 12.355 2.512 12.754 2.969Z","key":"0"}),
+    createElement(Path, {"d":"M9 15L15 9","key":"1"}),
+    createElement(Path, {"d":"M9 9L9 9","key":"2"}),
+    createElement(Path, {"d":"M15 15L15 15","key":"3"})
+  );
+});
+
+BadgePercentJagged.displayName = 'BadgePercentJagged';
+
+export default BadgePercentJagged;
+export { BadgePercentJagged };

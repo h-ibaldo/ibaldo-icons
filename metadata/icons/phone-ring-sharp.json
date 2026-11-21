@@ -1,0 +1,36 @@
+{
+  "name": "PhoneRingSharp",
+  "displayName": "Phone ring sharp",
+  "description": "Angular telephone handset with two sound arcs at the top right.",
+  "tags": [
+    "phone",
+    "call",
+    "telephone",
+    "handset",
+    "ringing",
+    "calling",
+    "incoming",
+    "angular"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Phone ringing"
+  },
+  "filename": "phone-ring-sharp",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

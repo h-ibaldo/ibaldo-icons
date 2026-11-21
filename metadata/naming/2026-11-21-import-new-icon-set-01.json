@@ -1,0 +1,8691 @@
+{
+  "new-icon-set-01-p0001": {
+    "name": "Phone",
+    "displayName": "Phone",
+    "description": "Telephone handset with rounded ends.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "symbol"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone"
+    }
+  },
+  "new-icon-set-01-p0002": {
+    "name": "PhoneSharp",
+    "displayName": "Phone sharp",
+    "description": "Angular telephone handset with rounded ends.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone"
+    }
+  },
+  "new-icon-set-01-p0003": {
+    "name": "PhoneArrowDownLeft",
+    "displayName": "Phone arrow down left",
+    "description": "Telephone handset with an arrow pointing down-left beside it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Incoming call"
+    }
+  },
+  "new-icon-set-01-p0004": {
+    "name": "PhoneArrowDownLeftSharp",
+    "displayName": "Phone arrow down left sharp",
+    "description": "Angular telephone handset with an arrow pointing down-left beside it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Incoming call"
+    }
+  },
+  "new-icon-set-01-p0005": {
+    "name": "PhoneArrowUpRight",
+    "displayName": "Phone arrow up right",
+    "description": "Telephone handset with an arrow pointing up-right beside it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "outgoing"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Outgoing call"
+    }
+  },
+  "new-icon-set-01-p0006": {
+    "name": "PhoneArrowUpRightSharp",
+    "displayName": "Phone arrow up right sharp",
+    "description": "Angular telephone handset with an arrow pointing up-right beside it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "outgoing",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Outgoing call"
+    }
+  },
+  "new-icon-set-01-p0007": {
+    "name": "PhoneTransferDiagonal",
+    "displayName": "Phone transfer diagonal",
+    "description": "Telephone handset with two opposite diagonal arrows.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming",
+      "outgoing",
+      "history"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call transfer"
+    }
+  },
+  "new-icon-set-01-p0008": {
+    "name": "PhoneTransferDiagonalSharp",
+    "displayName": "Phone transfer diagonal sharp",
+    "description": "Angular telephone handset with two opposite diagonal arrows.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming",
+      "outgoing",
+      "history",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call transfer"
+    }
+  },
+  "new-icon-set-01-p0009": {
+    "name": "PhoneCircle",
+    "displayName": "Phone circle",
+    "description": "Telephone handset inside a circle.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "contact"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone"
+    }
+  },
+  "new-icon-set-01-p0010": {
+    "name": "PhoneCircleArrowIn",
+    "displayName": "Phone circle arrow in",
+    "description": "Telephone handset in a circle with an arrow entering through a gap at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming",
+      "received"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Incoming call"
+    }
+  },
+  "new-icon-set-01-p0011": {
+    "name": "PhoneCircleArrowOut",
+    "displayName": "Phone circle arrow out",
+    "description": "Telephone handset in a circle with an arrow leaving through a gap at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "outgoing",
+      "dial"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Outgoing call"
+    }
+  },
+  "new-icon-set-01-p0012": {
+    "name": "PhoneArrowDownLeftCircle",
+    "displayName": "Phone arrow down left circle",
+    "description": "Telephone handset and an arrow pointing down-left inside a circle.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming",
+      "received"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Incoming call"
+    }
+  },
+  "new-icon-set-01-p0013": {
+    "name": "PhoneArrowUpRightCircle",
+    "displayName": "Phone arrow up right circle",
+    "description": "Telephone handset and an arrow pointing up-right inside a circle.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "outgoing",
+      "dial"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Outgoing call"
+    }
+  },
+  "new-icon-set-01-p0014": {
+    "name": "PhoneX",
+    "displayName": "Phone X",
+    "description": "Telephone handset with an X at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "missed",
+      "decline",
+      "end"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call declined"
+    }
+  },
+  "new-icon-set-01-p0015": {
+    "name": "PhoneXSharp",
+    "displayName": "Phone X sharp",
+    "description": "Angular telephone handset with an X at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "missed",
+      "decline",
+      "end",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call declined"
+    }
+  },
+  "new-icon-set-01-p0016": {
+    "name": "PhoneBan",
+    "displayName": "Phone ban",
+    "description": "Telephone handset with a ban sign at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "blocked",
+      "block"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Blocked call"
+    }
+  },
+  "new-icon-set-01-p0017": {
+    "name": "PhoneBanSharp",
+    "displayName": "Phone ban sharp",
+    "description": "Angular telephone handset with a ban sign at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "blocked",
+      "block",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Blocked call"
+    }
+  },
+  "new-icon-set-01-p0018": {
+    "name": "PhoneArrowBendUp",
+    "displayName": "Phone arrow bend up",
+    "description": "Telephone handset with a bent arrow going up at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "forward",
+      "outgoing"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Forward call"
+    }
+  },
+  "new-icon-set-01-p0019": {
+    "name": "PhoneArrowBendUpSharp",
+    "displayName": "Phone arrow bend up sharp",
+    "description": "Angular telephone handset with a bent arrow going up at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "forward",
+      "outgoing",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Forward call"
+    }
+  },
+  "new-icon-set-01-p0020": {
+    "name": "PhoneHangupArrowBounce",
+    "displayName": "Phone hangup arrow bounce",
+    "description": "Horizontal telephone handset with an arrow that dips down and bounces up-right above it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "missed",
+      "hang-up"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Missed call"
+    }
+  },
+  "new-icon-set-01-p0021": {
+    "name": "PhoneHangupArrowBounceSharp",
+    "displayName": "Phone hangup arrow bounce sharp",
+    "description": "Horizontal angular telephone handset with an arrow that dips down and bounces up-right above it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "missed",
+      "hang-up",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Missed call"
+    }
+  },
+  "new-icon-set-01-p0022": {
+    "name": "PhoneRing",
+    "displayName": "Phone ring",
+    "description": "Telephone handset with two sound arcs at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "ringing",
+      "calling",
+      "incoming"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone ringing"
+    }
+  },
+  "new-icon-set-01-p0023": {
+    "name": "PhoneRingSharp",
+    "displayName": "Phone ring sharp",
+    "description": "Angular telephone handset with two sound arcs at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "ringing",
+      "calling",
+      "incoming",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone ringing"
+    }
+  },
+  "new-icon-set-01-p0024": {
+    "name": "PhoneRingHigh",
+    "displayName": "Phone ring high",
+    "description": "Small telephone handset with three sound arcs at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "ringing",
+      "calling",
+      "loud"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone ringing"
+    }
+  },
+  "new-icon-set-01-p0025": {
+    "name": "PhoneArrowLeft",
+    "displayName": "Phone arrow left",
+    "description": "Telephone handset with an arrow pointing left beside it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming",
+      "received"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Incoming call"
+    }
+  },
+  "new-icon-set-01-p0026": {
+    "name": "PhoneArrowLeftSharp",
+    "displayName": "Phone arrow left sharp",
+    "description": "Angular telephone handset with an arrow pointing left beside it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming",
+      "received",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Incoming call"
+    }
+  },
+  "new-icon-set-01-p0027": {
+    "name": "PhoneArrowRight",
+    "displayName": "Phone arrow right",
+    "description": "Telephone handset with an arrow pointing right beside it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "outgoing",
+      "dial"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Outgoing call"
+    }
+  },
+  "new-icon-set-01-p0028": {
+    "name": "PhoneArrowRightSharp",
+    "displayName": "Phone arrow right sharp",
+    "description": "Angular telephone handset with an arrow pointing right beside it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "outgoing",
+      "dial",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Outgoing call"
+    }
+  },
+  "new-icon-set-01-p0029": {
+    "name": "PhoneCheck",
+    "displayName": "Phone check",
+    "description": "Telephone handset with a check mark at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "answered",
+      "accepted",
+      "done"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call answered"
+    }
+  },
+  "new-icon-set-01-p0030": {
+    "name": "PhoneCheckSharp",
+    "displayName": "Phone check sharp",
+    "description": "Angular telephone handset with a check mark at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "answered",
+      "accepted",
+      "done",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call answered"
+    }
+  },
+  "new-icon-set-01-p0031": {
+    "name": "PhoneChat",
+    "displayName": "Phone chat",
+    "description": "Telephone handset with a square speech bubble at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "message",
+      "sms",
+      "text"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call message"
+    }
+  },
+  "new-icon-set-01-p0032": {
+    "name": "PhoneChatSharp",
+    "displayName": "Phone chat sharp",
+    "description": "Angular telephone handset with a square speech bubble at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "message",
+      "sms",
+      "text",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call message"
+    }
+  },
+  "new-icon-set-01-p0033": {
+    "name": "PhoneChatRound",
+    "displayName": "Phone chat round",
+    "description": "Telephone handset with a rounded speech bubble at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "message",
+      "sms",
+      "text"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call message"
+    }
+  },
+  "new-icon-set-01-p0034": {
+    "name": "PhoneChatRoundSharp",
+    "displayName": "Phone chat round sharp",
+    "description": "Angular telephone handset with a rounded speech bubble at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "message",
+      "sms",
+      "text",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call message"
+    }
+  },
+  "new-icon-set-01-p0035": {
+    "name": "PhoneTransfer",
+    "displayName": "Phone transfer",
+    "description": "Telephone handset with two opposite horizontal arrows.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "transfer",
+      "switch",
+      "redirect"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call transfer"
+    }
+  },
+  "new-icon-set-01-p0036": {
+    "name": "PhoneTransferSharp",
+    "displayName": "Phone transfer sharp",
+    "description": "Angular telephone handset with two opposite horizontal arrows.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "transfer",
+      "switch",
+      "redirect",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call transfer"
+    }
+  },
+  "new-icon-set-01-p0037": {
+    "name": "PhonePlusOne",
+    "displayName": "Phone plus one",
+    "description": "Telephone handset with a plus one at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "add",
+      "new",
+      "count"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add call"
+    }
+  },
+  "new-icon-set-01-p0038": {
+    "name": "PhonePlusOneSharp",
+    "displayName": "Phone plus one sharp",
+    "description": "Angular telephone handset with a plus one at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "add",
+      "new",
+      "count",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add call"
+    }
+  },
+  "new-icon-set-01-p0039": {
+    "name": "PhoneChevronDownLeft",
+    "displayName": "Phone chevron down left",
+    "description": "Telephone handset with a corner chevron pointing down-left.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming",
+      "received"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Incoming call"
+    }
+  },
+  "new-icon-set-01-p0040": {
+    "name": "PhoneChevronDownLeftSharp",
+    "displayName": "Phone chevron down left sharp",
+    "description": "Angular telephone handset with a corner chevron pointing down-left.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "incoming",
+      "received",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Incoming call"
+    }
+  },
+  "new-icon-set-01-p0041": {
+    "name": "PhoneChevronUpRight",
+    "displayName": "Phone chevron up right",
+    "description": "Telephone handset with a corner chevron pointing up-right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "outgoing",
+      "dial"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Outgoing call"
+    }
+  },
+  "new-icon-set-01-p0042": {
+    "name": "PhoneChevronUpRightSharp",
+    "displayName": "Phone chevron up right sharp",
+    "description": "Angular telephone handset with a corner chevron pointing up-right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "outgoing",
+      "dial",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Outgoing call"
+    }
+  },
+  "new-icon-set-01-p0043": {
+    "name": "PhoneOff",
+    "displayName": "Phone off",
+    "description": "Telephone handset with a slash through it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "disabled",
+      "mute",
+      "no-calls"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone off"
+    }
+  },
+  "new-icon-set-01-p0044": {
+    "name": "PhoneOffSharp",
+    "displayName": "Phone off sharp",
+    "description": "Angular telephone handset with a slash through it.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "disabled",
+      "mute",
+      "no-calls",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone off"
+    }
+  },
+  "new-icon-set-01-p0045": {
+    "name": "MobileNotch",
+    "displayName": "Mobile notch",
+    "description": "Smartphone outline with a short pill at the top.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "speaker",
+      "camera"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mobile phone"
+    }
+  },
+  "new-icon-set-01-p0046": {
+    "name": "MobileButton",
+    "displayName": "Mobile button",
+    "description": "Smartphone outline with a short pill at the bottom.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "home-button"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mobile phone"
+    }
+  },
+  "new-icon-set-01-p0047": {
+    "name": "Mobile",
+    "displayName": "Mobile",
+    "description": "Smartphone outline with a bar across the top and the bottom.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "screen"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mobile phone"
+    }
+  },
+  "new-icon-set-01-p0048": {
+    "name": "MobilePower",
+    "displayName": "Mobile power",
+    "description": "Smartphone with top and bottom bars and a power symbol on the screen.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "power",
+      "on",
+      "restart"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone power"
+    }
+  },
+  "new-icon-set-01-p0049": {
+    "name": "MobilePowerNotch",
+    "displayName": "Mobile power notch",
+    "description": "Smartphone with a pill at the top and a power symbol on the screen.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "power",
+      "on",
+      "restart"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone power"
+    }
+  },
+  "new-icon-set-01-p0050": {
+    "name": "MobileOffButton",
+    "displayName": "Mobile off button",
+    "description": "Smartphone with a pill at the bottom and a slash through it.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "disabled",
+      "no-phones",
+      "off"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone off"
+    }
+  },
+  "new-icon-set-01-p0051": {
+    "name": "MobileOffNotch",
+    "displayName": "Mobile off notch",
+    "description": "Smartphone with a pill at the top and a slash through it.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "disabled",
+      "no-phones",
+      "off"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone off"
+    }
+  },
+  "new-icon-set-01-p0052": {
+    "name": "MobileOff",
+    "displayName": "Mobile off",
+    "description": "Smartphone with top and bottom bars and a slash through it.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "disabled",
+      "no-phones",
+      "off"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone off"
+    }
+  },
+  "new-icon-set-01-p0053": {
+    "name": "MobileVolumeNotch",
+    "displayName": "Mobile volume notch",
+    "description": "Smartphone with a pill at the top and a speaker on its right edge.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "volume",
+      "sound",
+      "speaker",
+      "loudspeaker"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone speaker"
+    }
+  },
+  "new-icon-set-01-p0054": {
+    "name": "MobileVolumeButton",
+    "displayName": "Mobile volume button",
+    "description": "Smartphone with a pill at the bottom and a speaker on its right edge.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "volume",
+      "sound",
+      "speaker",
+      "loudspeaker"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone speaker"
+    }
+  },
+  "new-icon-set-01-p0055": {
+    "name": "MobileVolume",
+    "displayName": "Mobile volume",
+    "description": "Smartphone with top and bottom bars and a speaker on its right edge.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "volume",
+      "sound",
+      "speaker",
+      "loudspeaker"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone speaker"
+    }
+  },
+  "new-icon-set-01-p0056": {
+    "name": "PhoneBan2",
+    "displayName": "Phone ban 2",
+    "description": "Telephone handset with a ban sign at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "blocked"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Blocked call"
+    },
+    "hold": "same drawing as p0016 (PhoneBan) in this file"
+  },
+  "new-icon-set-01-p0057": {
+    "name": "PhoneBanSharp2",
+    "displayName": "Phone ban sharp 2",
+    "description": "Angular telephone handset with a ban sign at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "blocked"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Blocked call"
+    },
+    "hold": "same drawing as p0017 (PhoneBanSharp) in this file"
+  },
+  "new-icon-set-01-p0058": {
+    "name": "PhoneMusic",
+    "displayName": "Phone music",
+    "description": "Telephone handset with a music note at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "ringtone",
+      "hold-music",
+      "sound"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ringtone"
+    }
+  },
+  "new-icon-set-01-p0059": {
+    "name": "PhoneMusicSharp",
+    "displayName": "Phone music sharp",
+    "description": "Angular telephone handset with a music note at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "ringtone",
+      "hold-music",
+      "sound",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ringtone"
+    }
+  },
+  "new-icon-set-01-p0060": {
+    "name": "PhoneLock",
+    "displayName": "Phone lock",
+    "description": "Telephone handset with a closed padlock at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "secure",
+      "private",
+      "locked"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Secure call"
+    }
+  },
+  "new-icon-set-01-p0061": {
+    "name": "PhoneLockSharp",
+    "displayName": "Phone lock sharp",
+    "description": "Angular telephone handset with a closed padlock at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "secure",
+      "private",
+      "locked",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Secure call"
+    }
+  },
+  "new-icon-set-01-p0062": {
+    "name": "PhoneUnlock",
+    "displayName": "Phone unlock",
+    "description": "Telephone handset with an open padlock at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "unlocked",
+      "open",
+      "public"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unlocked call"
+    }
+  },
+  "new-icon-set-01-p0063": {
+    "name": "PhoneUnlockSharp",
+    "displayName": "Phone unlock sharp",
+    "description": "Angular telephone handset with an open padlock at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "unlocked",
+      "open",
+      "public",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unlocked call"
+    }
+  },
+  "new-icon-set-01-p0064": {
+    "name": "PhoneList",
+    "displayName": "Phone list",
+    "description": "Telephone handset with three bulleted list lines at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "call-log",
+      "history",
+      "contacts"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call list"
+    }
+  },
+  "new-icon-set-01-p0065": {
+    "name": "PhoneListSharp",
+    "displayName": "Phone list sharp",
+    "description": "Angular telephone handset with three bulleted list lines at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "call-log",
+      "history",
+      "contacts",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call list"
+    }
+  },
+  "new-icon-set-01-p0066": {
+    "name": "Voicemail",
+    "displayName": "Voicemail",
+    "description": "Two circles joined by a line along their bottom: the voicemail symbol.",
+    "tags": [
+      "voicemail",
+      "message",
+      "tape",
+      "recording",
+      "answering-machine"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Voicemail"
+    }
+  },
+  "new-icon-set-01-p0067": {
+    "name": "VoicemailSquare",
+    "displayName": "Voicemail square",
+    "description": "Voicemail symbol inside a rounded square.",
+    "tags": [
+      "voicemail",
+      "message",
+      "tape",
+      "recording",
+      "answering-machine",
+      "cassette"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Voicemail"
+    }
+  },
+  "new-icon-set-01-p0068": {
+    "name": "ChatVoicemailBoxy",
+    "displayName": "Chat voicemail boxy",
+    "description": "Boxy speech bubble with a voicemail symbol inside.",
+    "tags": [
+      "chat",
+      "message",
+      "bubble",
+      "voicemail",
+      "voice-message",
+      "audio"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Voice message"
+    }
+  },
+  "new-icon-set-01-p0069": {
+    "name": "PhoneVoicemail",
+    "displayName": "Phone voicemail",
+    "description": "Telephone handset with a voicemail symbol at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "voicemail",
+      "message",
+      "recording"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Voicemail"
+    }
+  },
+  "new-icon-set-01-p0070": {
+    "name": "PhoneVoicemailSharp",
+    "displayName": "Phone voicemail sharp",
+    "description": "Angular telephone handset with a voicemail symbol at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "voicemail",
+      "message",
+      "recording",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Voicemail"
+    }
+  },
+  "new-icon-set-01-p0071": {
+    "name": "MailVoicemail",
+    "displayName": "Mail voicemail",
+    "description": "Envelope with a voicemail symbol in a rounded box over its bottom right.",
+    "tags": [
+      "mail",
+      "email",
+      "envelope",
+      "voicemail",
+      "voice-message",
+      "inbox"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Voice mail"
+    }
+  },
+  "new-icon-set-01-p0072": {
+    "name": "Camera",
+    "displayName": "Camera",
+    "description": "Camera body with a raised top and a round lens.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "capture"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera"
+    }
+  },
+  "new-icon-set-01-p0073": {
+    "name": "CameraStripe",
+    "displayName": "Camera stripe",
+    "description": "Camera body with a raised top, a round lens and a horizontal band across.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "capture"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera"
+    }
+  },
+  "new-icon-set-01-p0074": {
+    "name": "CameraKnob",
+    "displayName": "Camera knob",
+    "description": "Camera with a raised top, a knob on the left, a round lens and a small flash at the right.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "capture",
+      "dslr"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera"
+    }
+  },
+  "new-icon-set-01-p0075": {
+    "name": "CameraDetailed",
+    "displayName": "Camera detailed",
+    "description": "Camera with a raised top, a knob, a round lens and small marks on its sides.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "capture",
+      "dslr",
+      "professional"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera"
+    }
+  },
+  "new-icon-set-01-p0076": {
+    "name": "CameraBox",
+    "displayName": "Camera box",
+    "description": "Rounded box camera with a lens at the right and a small flash at the top left.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "capture",
+      "compact"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera"
+    }
+  },
+  "new-icon-set-01-p0077": {
+    "name": "CameraRetro",
+    "displayName": "Camera retro",
+    "description": "Square retro camera with stripes at the top left, a viewfinder and a big lens.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "vintage",
+      "instant",
+      "social"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera"
+    }
+  },
+  "new-icon-set-01-p0078": {
+    "name": "Aperture",
+    "displayName": "Aperture",
+    "description": "Circle with six shutter blades meeting at a hexagon in the middle.",
+    "tags": [
+      "aperture",
+      "shutter",
+      "lens",
+      "photography",
+      "camera",
+      "iris",
+      "focus"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Aperture"
+    }
+  },
+  "new-icon-set-01-p0079": {
+    "name": "Lens",
+    "displayName": "Lens",
+    "description": "Circle with an inner circle that has a small highlight cut into its top right.",
+    "tags": [
+      "lens",
+      "camera",
+      "glass",
+      "optics",
+      "camera-lens",
+      "eye",
+      "record"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Lens"
+    }
+  },
+  "new-icon-set-01-p0080": {
+    "name": "CameraOff",
+    "displayName": "Camera off",
+    "description": "Camera with a slash through it, its outline broken around the slash.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "disabled",
+      "no-photos",
+      "off"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera off"
+    }
+  },
+  "new-icon-set-01-p0081": {
+    "name": "CameraOffOverlap",
+    "displayName": "Camera off overlap",
+    "description": "Camera with a slash drawn over the whole body.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "disabled",
+      "no-photos",
+      "off"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera off"
+    }
+  },
+  "new-icon-set-01-p0082": {
+    "name": "Webcam",
+    "displayName": "Webcam",
+    "description": "Round webcam with a lens inside and a flat oval base.",
+    "tags": [
+      "webcam",
+      "camera",
+      "video-call",
+      "meeting",
+      "video"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Webcam"
+    }
+  },
+  "new-icon-set-01-p0083": {
+    "name": "WebcamSquare",
+    "displayName": "Webcam square",
+    "description": "Square webcam with a round lens on a T-shaped stand.",
+    "tags": [
+      "webcam",
+      "camera",
+      "video-call",
+      "meeting",
+      "video"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Webcam"
+    }
+  },
+  "new-icon-set-01-p0084": {
+    "name": "WebcamRound",
+    "displayName": "Webcam round",
+    "description": "Round webcam with a lens and a curved, rounded base.",
+    "tags": [
+      "webcam",
+      "camera",
+      "video-call",
+      "meeting",
+      "video"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Webcam"
+    }
+  },
+  "new-icon-set-01-p0085": {
+    "name": "WebcamWide",
+    "displayName": "Webcam wide",
+    "description": "Wide oval webcam with a lens, resting on a flat base.",
+    "tags": [
+      "webcam",
+      "camera",
+      "video-call",
+      "meeting",
+      "video",
+      "clip-on"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Webcam"
+    }
+  },
+  "new-icon-set-01-p0086": {
+    "name": "WebcamRingWide",
+    "displayName": "Webcam ring wide",
+    "description": "Wide webcam on a stand with sound arcs on both sides of the lens.",
+    "tags": [
+      "webcam",
+      "camera",
+      "video-call",
+      "meeting",
+      "video",
+      "conference",
+      "microphone"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Conference camera"
+    }
+  },
+  "new-icon-set-01-p0087": {
+    "name": "WebcamOff",
+    "displayName": "Webcam off",
+    "description": "Round webcam with a slash through it.",
+    "tags": [
+      "webcam",
+      "camera",
+      "video-call",
+      "meeting",
+      "disabled",
+      "camera-off",
+      "privacy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Webcam off"
+    }
+  },
+  "new-icon-set-01-p0088": {
+    "name": "WebcamOffSquare",
+    "displayName": "Webcam off square",
+    "description": "Square webcam on a stand with a slash through it.",
+    "tags": [
+      "webcam",
+      "camera",
+      "video-call",
+      "meeting",
+      "disabled",
+      "camera-off",
+      "privacy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Webcam off"
+    }
+  },
+  "new-icon-set-01-p0089": {
+    "name": "CameraSyncOrbit",
+    "displayName": "Camera sync orbit",
+    "description": "Small camera inside two curved arrows that circle around it.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "switch-camera",
+      "rotate",
+      "flip",
+      "sync"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Switch camera"
+    }
+  },
+  "new-icon-set-01-p0090": {
+    "name": "CameraSync",
+    "displayName": "Camera sync",
+    "description": "Camera body with two curved arrows inside.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "switch-camera",
+      "rotate",
+      "flip",
+      "sync"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Switch camera"
+    }
+  },
+  "new-icon-set-01-p0091": {
+    "name": "WalletPocket",
+    "displayName": "Wallet pocket",
+    "description": "Rounded square wallet with a card peeking out of a front pocket.",
+    "tags": [
+      "wallet",
+      "money",
+      "payment",
+      "finance",
+      "card-holder",
+      "cards"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wallet"
+    }
+  },
+  "new-icon-set-01-p0092": {
+    "name": "Wallet",
+    "displayName": "Wallet",
+    "description": "Wallet with a flap rising to the top right and a small round clasp.",
+    "tags": [
+      "wallet",
+      "money",
+      "payment",
+      "finance",
+      "purse"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wallet"
+    }
+  },
+  "new-icon-set-01-p0093": {
+    "name": "WalletTab",
+    "displayName": "Wallet tab",
+    "description": "Wallet with a rounded tab on the right side and a flap at the top.",
+    "tags": [
+      "wallet",
+      "money",
+      "payment",
+      "finance",
+      "purse"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wallet"
+    }
+  },
+  "new-icon-set-01-p0094": {
+    "name": "Gift",
+    "displayName": "Gift",
+    "description": "Gift box with a lid, a ribbon down the middle and a bow on top.",
+    "tags": [
+      "gift",
+      "present",
+      "box",
+      "reward",
+      "birthday",
+      "surprise"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gift"
+    }
+  },
+  "new-icon-set-01-p0095": {
+    "name": "GiftRibbon",
+    "displayName": "Gift ribbon",
+    "description": "Gift box with a lid, a wide double-line ribbon and a bow on top.",
+    "tags": [
+      "gift",
+      "present",
+      "box",
+      "reward",
+      "birthday",
+      "surprise"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gift"
+    }
+  },
+  "new-icon-set-01-p0096": {
+    "name": "HandGift",
+    "displayName": "Hand gift",
+    "description": "Open hand holding a gift box.",
+    "tags": [
+      "hand",
+      "give",
+      "offer",
+      "gift",
+      "present",
+      "reward",
+      "giveaway"
+    ],
+    "categories": [
+      "shopping",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Give gift"
+    }
+  },
+  "new-icon-set-01-p0097": {
+    "name": "GiftStriped",
+    "displayName": "Gift striped",
+    "description": "Gift box with diagonal stripes and a bow on top.",
+    "tags": [
+      "gift",
+      "present",
+      "box",
+      "reward",
+      "birthday",
+      "surprise",
+      "wrapped"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gift"
+    }
+  },
+  "new-icon-set-01-p0098": {
+    "name": "PiggyBankCoin",
+    "displayName": "Piggy bank coin",
+    "description": "Piggy bank with a coin dropping into its back.",
+    "tags": [
+      "piggy-bank",
+      "savings",
+      "money",
+      "finance",
+      "coin",
+      "deposit"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Savings"
+    }
+  },
+  "new-icon-set-01-p0099": {
+    "name": "PiggyBankCrack",
+    "displayName": "Piggy bank crack",
+    "description": "Piggy bank with a zigzag crack across its body.",
+    "tags": [
+      "piggy-bank",
+      "savings",
+      "money",
+      "finance",
+      "broken",
+      "loss",
+      "bankrupt"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Broken savings"
+    }
+  },
+  "new-icon-set-01-p0100": {
+    "name": "PiggyBank",
+    "displayName": "Piggy bank",
+    "description": "Piggy bank seen from the side.",
+    "tags": [
+      "piggy-bank",
+      "savings",
+      "money",
+      "finance",
+      "symbol"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Savings"
+    }
+  },
+  "new-icon-set-01-p0101": {
+    "name": "Handshake",
+    "displayName": "Handshake",
+    "description": "Two hands clasped in a handshake.",
+    "tags": [
+      "handshake",
+      "deal",
+      "agreement",
+      "partnership",
+      "symbol"
+    ],
+    "categories": [
+      "business",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Handshake"
+    }
+  },
+  "new-icon-set-01-p0102": {
+    "name": "HandshakeBare",
+    "displayName": "Handshake bare",
+    "description": "Simple handshake drawn with two hooked lines.",
+    "tags": [
+      "handshake",
+      "deal",
+      "agreement",
+      "partnership",
+      "symbol"
+    ],
+    "categories": [
+      "business",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Handshake"
+    }
+  },
+  "new-icon-set-01-p0103": {
+    "name": "TicketSlim",
+    "displayName": "Ticket slim",
+    "description": "Narrow tilted ticket with notches near both ends and small tear marks.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "tilted"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ticket"
+    }
+  },
+  "new-icon-set-01-p0104": {
+    "name": "TicketTilted",
+    "displayName": "Ticket tilted",
+    "description": "Wide tilted ticket with notches on the long sides and a dashed tear line.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "perforated"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ticket"
+    }
+  },
+  "new-icon-set-01-p0105": {
+    "name": "TicketStubDashed",
+    "displayName": "Ticket stub dashed",
+    "description": "Ticket with half-circle notches on both ends and a dashed tear line near the left.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "stub",
+      "perforated"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ticket"
+    }
+  },
+  "new-icon-set-01-p0106": {
+    "name": "TicketStubDashedSide",
+    "displayName": "Ticket stub dashed side",
+    "description": "Long ticket with notches on the top and bottom edges and a dashed tear line.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "stub",
+      "perforated"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ticket"
+    }
+  },
+  "new-icon-set-01-p0107": {
+    "name": "TicketScalloped",
+    "displayName": "Ticket scalloped",
+    "description": "Ticket with scooped-out corners and two short vertical lines.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "admit-one",
+      "pass"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ticket"
+    }
+  },
+  "new-icon-set-01-p0108": {
+    "name": "Fox",
+    "displayName": "Fox",
+    "description": "Fox head seen from the front, with two tall ears and a small triangular nose.",
+    "tags": [
+      "fox",
+      "animal",
+      "head",
+      "face",
+      "wild",
+      "mascot"
+    ],
+    "categories": [
+      "nature"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Fox"
+    }
+  },
+  "new-icon-set-01-p0109": {
+    "name": "TicketStubSide",
+    "displayName": "Ticket stub side",
+    "description": "Ticket with notches on the top and bottom edges, a line dividing off the stub and a notch on the right end.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "stub"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ticket"
+    }
+  },
+  "new-icon-set-01-p0110": {
+    "name": "TicketCheckTilted",
+    "displayName": "Ticket check tilted",
+    "description": "Wide tilted ticket with a dashed tear line and a check mark at the top right.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "valid",
+      "confirmed"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Valid ticket"
+    }
+  },
+  "new-icon-set-01-p0111": {
+    "name": "TicketXTilted",
+    "displayName": "Ticket X tilted",
+    "description": "Wide tilted ticket with a dashed tear line and an X at the top right.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "cancel",
+      "invalid"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel ticket"
+    }
+  },
+  "new-icon-set-01-p0112": {
+    "name": "TicketPlusSlim",
+    "displayName": "Ticket plus slim",
+    "description": "Narrow tilted ticket with a plus sign at the top right.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "add",
+      "new",
+      "tilted"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add ticket"
+    }
+  },
+  "new-icon-set-01-p0113": {
+    "name": "TicketXSlim",
+    "displayName": "Ticket X slim",
+    "description": "Narrow tilted ticket with an X at the top right.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "cancel",
+      "invalid",
+      "tilted"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel ticket"
+    }
+  },
+  "new-icon-set-01-p0114": {
+    "name": "TicketMinusSlim",
+    "displayName": "Ticket minus slim",
+    "description": "Narrow tilted ticket with a minus sign at the top right.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "remove",
+      "tilted"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove ticket"
+    }
+  },
+  "new-icon-set-01-p0115": {
+    "name": "TicketSlashSlim",
+    "displayName": "Ticket slash slim",
+    "description": "Narrow tilted ticket with a slash at the top right.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "discount",
+      "promo",
+      "tilted"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount ticket"
+    }
+  },
+  "new-icon-set-01-p0116": {
+    "name": "TicketCheckSide",
+    "displayName": "Ticket check side",
+    "description": "Ticket with notches on the top, bottom and right edges and a check mark in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "valid",
+      "confirmed"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Valid ticket"
+    }
+  },
+  "new-icon-set-01-p0117": {
+    "name": "TicketXSide",
+    "displayName": "Ticket X side",
+    "description": "Ticket with notches on the top, bottom and right edges and an X in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "cancel",
+      "invalid"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel ticket"
+    }
+  },
+  "new-icon-set-01-p0118": {
+    "name": "TicketPlusSide",
+    "displayName": "Ticket plus side",
+    "description": "Ticket with notches on the top, bottom and right edges and a plus sign in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add ticket"
+    }
+  },
+  "new-icon-set-01-p0119": {
+    "name": "TicketMinusSide",
+    "displayName": "Ticket minus side",
+    "description": "Ticket with notches on the top, bottom and right edges and a minus sign in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "remove"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove ticket"
+    }
+  },
+  "new-icon-set-01-p0120": {
+    "name": "TicketSlashSide",
+    "displayName": "Ticket slash side",
+    "description": "Ticket with notches on the top, bottom and right edges and a slash in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "discount",
+      "promo"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount ticket"
+    }
+  },
+  "new-icon-set-01-p0121": {
+    "name": "TicketStack",
+    "displayName": "Ticket stack",
+    "description": "Notched ticket with a dashed tear line in front of a second ticket.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "tickets",
+      "multiple",
+      "pass"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tickets"
+    }
+  },
+  "new-icon-set-01-p0122": {
+    "name": "TicketStackSlim",
+    "displayName": "Ticket stack slim",
+    "description": "Narrow tilted ticket with the edge of a second ticket behind it.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "tickets",
+      "multiple",
+      "tilted"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tickets"
+    }
+  },
+  "new-icon-set-01-p0123": {
+    "name": "TicketSlash",
+    "displayName": "Ticket slash",
+    "description": "Ticket with half-circle notches on both ends and a slash in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "discount",
+      "promo"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount ticket"
+    }
+  },
+  "new-icon-set-01-p0124": {
+    "name": "TicketX",
+    "displayName": "Ticket X",
+    "description": "Ticket with half-circle notches on both ends and an X in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "cancel",
+      "invalid"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel ticket"
+    }
+  },
+  "new-icon-set-01-p0125": {
+    "name": "TicketPlus",
+    "displayName": "Ticket plus",
+    "description": "Ticket with half-circle notches on both ends and a plus sign in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add ticket"
+    }
+  },
+  "new-icon-set-01-p0126": {
+    "name": "TicketMinus",
+    "displayName": "Ticket minus",
+    "description": "Ticket with half-circle notches on both ends and a minus sign in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "remove"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove ticket"
+    }
+  },
+  "new-icon-set-01-p0127": {
+    "name": "TicketCheck",
+    "displayName": "Ticket check",
+    "description": "Ticket with half-circle notches on both ends and a check mark in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "valid",
+      "confirmed"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Valid ticket"
+    }
+  },
+  "new-icon-set-01-p0128": {
+    "name": "TicketFolded",
+    "displayName": "Ticket folded",
+    "description": "Folded ticket with a dashed tear line, its back flap rising behind.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "boarding-pass",
+      "pass"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ticket"
+    }
+  },
+  "new-icon-set-01-p0129": {
+    "name": "TicketCheckFolded",
+    "displayName": "Ticket check folded",
+    "description": "Folded ticket with a dashed tear line and a check mark.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "boarding-pass",
+      "valid",
+      "confirmed"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Valid ticket"
+    }
+  },
+  "new-icon-set-01-p0130": {
+    "name": "Percent",
+    "displayName": "Percent",
+    "description": "Percent sign: a diagonal line with a small circle on each side.",
+    "tags": [
+      "percent",
+      "discount",
+      "sale",
+      "offer",
+      "symbol"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Percent"
+    }
+  },
+  "new-icon-set-01-p0131": {
+    "name": "PercentCircle",
+    "displayName": "Percent circle",
+    "description": "Percent sign inside a circle.",
+    "tags": [
+      "percent",
+      "discount",
+      "sale",
+      "offer",
+      "symbol"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount"
+    }
+  },
+  "new-icon-set-01-p0132": {
+    "name": "PercentSquare",
+    "displayName": "Percent square",
+    "description": "Percent sign inside a rounded square.",
+    "tags": [
+      "percent",
+      "discount",
+      "sale",
+      "offer",
+      "symbol"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount"
+    }
+  },
+  "new-icon-set-01-p0133": {
+    "name": "PercentDiamond",
+    "displayName": "Percent diamond",
+    "description": "Percent sign inside a rounded diamond.",
+    "tags": [
+      "percent",
+      "discount",
+      "sale",
+      "offer",
+      "symbol"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount"
+    }
+  },
+  "new-icon-set-01-p0134": {
+    "name": "BadgePercentBumpy",
+    "displayName": "Badge percent bumpy",
+    "description": "Bumpy flower-shaped badge with a percent sign inside.",
+    "tags": [
+      "badge",
+      "seal",
+      "sticker",
+      "label",
+      "percent",
+      "discount",
+      "sale",
+      "promo"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount badge"
+    }
+  },
+  "new-icon-set-01-p0135": {
+    "name": "CartRail",
+    "displayName": "Cart rail",
+    "description": "Shopping cart with a curved bottom rail and two small wheels.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cart"
+    }
+  },
+  "new-icon-set-01-p0136": {
+    "name": "Cart",
+    "displayName": "Cart",
+    "description": "Shopping cart with a handle, a trapezoid basket and two round wheels.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cart"
+    }
+  },
+  "new-icon-set-01-p0137": {
+    "name": "CartGrid",
+    "displayName": "Cart grid",
+    "description": "Shopping cart whose basket is divided into a grid.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout",
+      "wire"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cart"
+    }
+  },
+  "new-icon-set-01-p0138": {
+    "name": "CartArrowDown",
+    "displayName": "Cart arrow down",
+    "description": "Shopping cart with an arrow pointing down into the basket.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout",
+      "add-to-cart",
+      "download"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to cart"
+    }
+  },
+  "new-icon-set-01-p0139": {
+    "name": "CartCheck",
+    "displayName": "Cart check",
+    "description": "Shopping cart with a check mark in the basket.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout",
+      "added",
+      "done",
+      "purchased"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Added to cart"
+    }
+  },
+  "new-icon-set-01-p0140": {
+    "name": "CartPlus",
+    "displayName": "Cart plus",
+    "description": "Shopping cart with a plus sign in the basket.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout",
+      "add-to-cart",
+      "add"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to cart"
+    }
+  },
+  "new-icon-set-01-p0141": {
+    "name": "CartMinus",
+    "displayName": "Cart minus",
+    "description": "Shopping cart with a minus sign in the basket.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout",
+      "remove-from-cart",
+      "remove"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from cart"
+    }
+  },
+  "new-icon-set-01-p0142": {
+    "name": "CartMinusRail",
+    "displayName": "Cart minus rail",
+    "description": "Railed shopping cart with a minus sign at the top right.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout",
+      "remove-from-cart",
+      "remove"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from cart"
+    }
+  },
+  "new-icon-set-01-p0143": {
+    "name": "CartPlusRail",
+    "displayName": "Cart plus rail",
+    "description": "Railed shopping cart with a plus sign at the top right.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout",
+      "add-to-cart",
+      "add"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to cart"
+    }
+  },
+  "new-icon-set-01-p0144": {
+    "name": "CreditCard",
+    "displayName": "Credit card",
+    "description": "Credit card with a stripe across the top.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "symbol"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Credit card"
+    }
+  },
+  "new-icon-set-01-p0145": {
+    "name": "CreditCardDashes",
+    "displayName": "Credit card dashes",
+    "description": "Credit card with a stripe at the top and three dashes for the number.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "number"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Credit card"
+    }
+  },
+  "new-icon-set-01-p0146": {
+    "name": "CreditCardChipDetailed",
+    "displayName": "Credit card chip detailed",
+    "description": "Credit card with a detailed chip at the top left and three dashes for the number.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "chip",
+      "number"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Credit card"
+    }
+  },
+  "new-icon-set-01-p0147": {
+    "name": "WalletCards",
+    "displayName": "Wallet cards",
+    "description": "Wallet pocket with two cards sticking out of the top.",
+    "tags": [
+      "wallet",
+      "money",
+      "payment",
+      "finance",
+      "cards",
+      "card-holder",
+      "credit-card"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Card wallet"
+    }
+  },
+  "new-icon-set-01-p0148": {
+    "name": "CreditCardCheck",
+    "displayName": "Credit card check",
+    "description": "Credit card with a stripe and a check mark at the bottom right corner.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "approved",
+      "paid",
+      "verified"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Payment approved"
+    }
+  },
+  "new-icon-set-01-p0149": {
+    "name": "CreditCardPlus",
+    "displayName": "Credit card plus",
+    "description": "Credit card with a stripe and a plus sign at the bottom right corner.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "add-card",
+      "add"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add card"
+    }
+  },
+  "new-icon-set-01-p0150": {
+    "name": "CreditCardMinus",
+    "displayName": "Credit card minus",
+    "description": "Credit card with a stripe and a minus sign at the bottom right corner.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "remove-card",
+      "remove"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove card"
+    }
+  },
+  "new-icon-set-01-p0151": {
+    "name": "CreditCardX",
+    "displayName": "Credit card X",
+    "description": "Credit card with a stripe and an X at the bottom right corner.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "declined",
+      "failed",
+      "remove"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Payment declined"
+    }
+  },
+  "new-icon-set-01-p0152": {
+    "name": "WalletPocketLines",
+    "displayName": "Wallet pocket lines",
+    "description": "Rounded square wallet with two lines at the top above a front pocket.",
+    "tags": [
+      "wallet",
+      "money",
+      "payment",
+      "finance",
+      "card-holder",
+      "cards"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wallet"
+    }
+  },
+  "new-icon-set-01-p0153": {
+    "name": "CreditCardSignal",
+    "displayName": "Credit card signal",
+    "description": "Credit card held against a bracket-shaped reader with signal arcs between them.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "contactless",
+      "tap-to-pay",
+      "nfc",
+      "terminal"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Contactless payment"
+    }
+  },
+  "new-icon-set-01-p0154": {
+    "name": "HandBanknote",
+    "displayName": "Hand banknote",
+    "description": "Open hand holding a banknote.",
+    "tags": [
+      "hand",
+      "give",
+      "offer",
+      "banknote",
+      "money",
+      "cash",
+      "payment",
+      "salary"
+    ],
+    "categories": [
+      "business",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pay cash"
+    }
+  },
+  "new-icon-set-01-p0155": {
+    "name": "Banknote",
+    "displayName": "Banknote",
+    "description": "Banknote with curved corner ornaments and an oval in the middle.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "symbol"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-01-p0156": {
+    "name": "BanknoteDots",
+    "displayName": "Banknote dots",
+    "description": "Plain banknote with an oval in the middle between two dots.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "symbol"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-01-p0157": {
+    "name": "CreditCardBack",
+    "displayName": "Credit card back",
+    "description": "Credit card with a stripe near the bottom and a short pill at the top right.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "back",
+      "signature"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Credit card"
+    }
+  },
+  "new-icon-set-01-p0158": {
+    "name": "CreditCardChip",
+    "displayName": "Credit card chip",
+    "description": "Credit card with a chip at the top left and three dashes for the number.",
+    "tags": [
+      "credit-card",
+      "card",
+      "payment",
+      "bank",
+      "chip",
+      "number"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Credit card"
+    }
+  },
+  "new-icon-set-01-p0159": {
+    "name": "ReceiptListRoll",
+    "displayName": "Receipt list roll",
+    "description": "Receipt hanging from a bar, with a zigzag bottom edge and three bulleted lines.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "list",
+      "order",
+      "printer"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0160": {
+    "name": "WalletTabRound",
+    "displayName": "Wallet tab round",
+    "description": "Rounded wallet with a tab and a round clasp on the right side.",
+    "tags": [
+      "wallet",
+      "money",
+      "payment",
+      "finance",
+      "purse"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wallet"
+    }
+  },
+  "new-icon-set-01-p0161": {
+    "name": "WalletCash",
+    "displayName": "Wallet cash",
+    "description": "Rounded wallet with a tab and two bills sticking out of the top.",
+    "tags": [
+      "wallet",
+      "money",
+      "payment",
+      "finance",
+      "cash",
+      "bills",
+      "purse"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wallet with cash"
+    }
+  },
+  "new-icon-set-01-p0162": {
+    "name": "BanknoteTen",
+    "displayName": "Banknote ten",
+    "description": "Banknote with corner ornaments, a 0 in the middle and a 1 in two corners.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "ten",
+      "value"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-01-p0163": {
+    "name": "BanknoteDollar",
+    "displayName": "Banknote dollar",
+    "description": "Banknote with corner ornaments and a dollar sign in the middle.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "dollar"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dollar bill"
+    }
+  },
+  "new-icon-set-01-p0164": {
+    "name": "TicketSlashTall",
+    "displayName": "Ticket slash tall",
+    "description": "Tall ticket with half-circle notches on both ends and a slash in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "discount",
+      "promo"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount ticket"
+    }
+  },
+  "new-icon-set-01-p0165": {
+    "name": "TicketCheckTall",
+    "displayName": "Ticket check tall",
+    "description": "Tall ticket with half-circle notches on both ends and a check mark in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "valid",
+      "confirmed"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Valid ticket"
+    }
+  },
+  "new-icon-set-01-p0166": {
+    "name": "TicketMinusTall",
+    "displayName": "Ticket minus tall",
+    "description": "Tall ticket with half-circle notches on both ends and a minus sign in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "remove"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove ticket"
+    }
+  },
+  "new-icon-set-01-p0167": {
+    "name": "TicketPlusTall",
+    "displayName": "Ticket plus tall",
+    "description": "Tall ticket with half-circle notches on both ends and a plus sign in the middle.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add ticket"
+    }
+  },
+  "new-icon-set-01-p0168": {
+    "name": "ScanBeam",
+    "displayName": "Scan beam",
+    "description": "Four corner brackets with a horizontal line across the middle.",
+    "tags": [
+      "scan",
+      "barcode",
+      "scanner",
+      "reader",
+      "qr",
+      "scanning"
+    ],
+    "categories": [
+      "shopping",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan"
+    }
+  },
+  "new-icon-set-01-p0169": {
+    "name": "ReceiptListWavy",
+    "displayName": "Receipt list wavy",
+    "description": "Receipt with a small wavy bottom edge and three bulleted lines.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "list",
+      "order"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0170": {
+    "name": "ReceiptList",
+    "displayName": "Receipt list",
+    "description": "Receipt with a zigzag bottom edge and three bulleted lines.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "list",
+      "order"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0171": {
+    "name": "BadgeSlashJagged",
+    "displayName": "Badge slash jagged",
+    "description": "Jagged badge with a slash inside.",
+    "tags": [
+      "badge",
+      "seal",
+      "sticker",
+      "label",
+      "discount",
+      "sale",
+      "promo"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount badge"
+    }
+  },
+  "new-icon-set-01-p0172": {
+    "name": "BadgePercentJagged",
+    "displayName": "Badge percent jagged",
+    "description": "Jagged badge with a percent sign inside.",
+    "tags": [
+      "badge",
+      "seal",
+      "sticker",
+      "label",
+      "percent",
+      "discount",
+      "sale",
+      "promo"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount badge"
+    }
+  },
+  "new-icon-set-01-p0173": {
+    "name": "SlashCircle",
+    "displayName": "Slash circle",
+    "description": "Circle with a short diagonal slash in the middle.",
+    "tags": [
+      "slash",
+      "discount",
+      "divide",
+      "sale",
+      "circle"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Discount"
+    }
+  },
+  "new-icon-set-01-p0174": {
+    "name": "CoinStackDouble",
+    "displayName": "Coin stack double",
+    "description": "Two stacks of coins side by side, the right one partly behind.",
+    "tags": [
+      "coin",
+      "money",
+      "currency",
+      "cash",
+      "coins",
+      "savings",
+      "stack"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Coins"
+    }
+  },
+  "new-icon-set-01-p0175": {
+    "name": "CoinDollarBare",
+    "displayName": "Coin dollar bare",
+    "description": "Coin drawn as a circle with an S-shaped dollar sign without its vertical bar.",
+    "tags": [
+      "coin",
+      "money",
+      "currency",
+      "cash",
+      "dollar",
+      "payment"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Coin"
+    }
+  },
+  "new-icon-set-01-p0176": {
+    "name": "Printer",
+    "displayName": "Printer",
+    "description": "Printer with a sheet going in at the top and out at the bottom.",
+    "tags": [
+      "printer",
+      "print",
+      "paper",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Printer"
+    }
+  },
+  "new-icon-set-01-p0177": {
+    "name": "PrinterFile",
+    "displayName": "Printer file",
+    "description": "Printer with a page with a folded corner coming out of the top.",
+    "tags": [
+      "printer",
+      "print",
+      "paper",
+      "document",
+      "print-file"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Print document"
+    }
+  },
+  "new-icon-set-01-p0178": {
+    "name": "CameraCompact",
+    "displayName": "Camera compact",
+    "description": "Compact camera with a shutter button on top and a round lens at the right.",
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "photography",
+      "capture",
+      "point-and-shoot"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera"
+    }
+  },
+  "new-icon-set-01-p0179": {
+    "name": "BanknoteStack",
+    "displayName": "Banknote stack",
+    "description": "Banknote with corner ornaments in front of a second bill offset behind it.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "bills",
+      "stack"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknotes"
+    }
+  },
+  "new-icon-set-01-p0180": {
+    "name": "BanknoteStackFlat",
+    "displayName": "Banknote stack flat",
+    "description": "Banknote with corner ornaments above two lines for more bills.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "bills",
+      "stack",
+      "pile"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknotes"
+    }
+  },
+  "new-icon-set-01-p0181": {
+    "name": "TicketStub",
+    "displayName": "Ticket stub",
+    "description": "Ticket with half-circle notches on both ends and a solid line dividing off the stub.",
+    "tags": [
+      "ticket",
+      "coupon",
+      "voucher",
+      "event",
+      "admission",
+      "stub"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ticket"
+    }
+  },
+  "new-icon-set-01-p0182": {
+    "name": "GiftBow",
+    "displayName": "Gift bow",
+    "description": "Gift box with a lid, a ribbon and a big bow with pointed loops.",
+    "tags": [
+      "gift",
+      "present",
+      "box",
+      "reward",
+      "birthday",
+      "surprise"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gift"
+    }
+  },
+  "new-icon-set-01-p0183": {
+    "name": "ReceiptDollarWavy",
+    "displayName": "Receipt dollar wavy",
+    "description": "Receipt with a small wavy bottom edge and a dollar sign in the middle.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "dollar",
+      "usd",
+      "currency"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0184": {
+    "name": "ReceiptPoundWavy",
+    "displayName": "Receipt pound wavy",
+    "description": "Receipt with a small wavy bottom edge and a pound sign in the middle.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "pound",
+      "gbp",
+      "sterling",
+      "currency"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0185": {
+    "name": "ReceiptRupeeWavy",
+    "displayName": "Receipt rupee wavy",
+    "description": "Receipt with a small wavy bottom edge and a rupee sign in the middle.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "rupee",
+      "inr",
+      "india",
+      "currency"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0186": {
+    "name": "ReceiptEuroWavy",
+    "displayName": "Receipt euro wavy",
+    "description": "Receipt with a small wavy bottom edge and a euro sign in the middle.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "euro",
+      "eur",
+      "currency"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0187": {
+    "name": "CartSmall",
+    "displayName": "Cart small",
+    "description": "Small shopping cart with a short handle and two dotted wheels.",
+    "tags": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "checkout"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cart"
+    }
+  },
+  "new-icon-set-01-p0188": {
+    "name": "ReceiptYenWavy",
+    "displayName": "Receipt yen wavy",
+    "description": "Receipt with a small wavy bottom edge and a yen sign in the middle.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "yen",
+      "jpy",
+      "yuan",
+      "currency"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0189": {
+    "name": "ReceiptRubleWavy",
+    "displayName": "Receipt ruble wavy",
+    "description": "Receipt with a small wavy bottom edge and a ruble sign in the middle.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "ruble",
+      "rub",
+      "currency"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0190": {
+    "name": "ReceiptCentWavy",
+    "displayName": "Receipt cent wavy",
+    "description": "Receipt with a small wavy bottom edge and a cent sign in the middle.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "cent",
+      "cents",
+      "currency"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0191": {
+    "name": "ReceiptFrancWavy",
+    "displayName": "Receipt franc wavy",
+    "description": "Receipt with a small wavy bottom edge and a franc sign in the middle.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "franc",
+      "chf",
+      "currency"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0192": {
+    "name": "ReceiptLiraWavy",
+    "displayName": "Receipt lira wavy",
+    "description": "Receipt with a small wavy bottom edge and a lira sign in the middle.",
+    "tags": [
+      "receipt",
+      "invoice",
+      "bill",
+      "purchase",
+      "lira",
+      "try",
+      "turkey",
+      "currency"
+    ],
+    "categories": [
+      "shopping",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Receipt"
+    }
+  },
+  "new-icon-set-01-p0193": {
+    "name": "BadgeDollarJagged",
+    "displayName": "Badge dollar jagged",
+    "description": "Jagged badge with a dollar sign inside.",
+    "tags": [
+      "badge",
+      "seal",
+      "sticker",
+      "label",
+      "dollar",
+      "price",
+      "sale",
+      "paid"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Price badge"
+    }
+  },
+  "new-icon-set-01-p0194": {
+    "name": "BadgeDollarBareJagged",
+    "displayName": "Badge dollar bare jagged",
+    "description": "Jagged badge with an S-shaped dollar sign without its vertical bar.",
+    "tags": [
+      "badge",
+      "seal",
+      "sticker",
+      "label",
+      "dollar",
+      "price",
+      "sale",
+      "paid"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Price badge"
+    }
+  },
+  "new-icon-set-01-p0195": {
+    "name": "Moon",
+    "displayName": "Moon",
+    "description": "Crescent moon.",
+    "tags": [
+      "moon",
+      "night",
+      "dark-mode",
+      "sleep",
+      "crescent"
+    ],
+    "categories": [
+      "weather"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Moon"
+    }
+  },
+  "new-icon-set-01-p0196": {
+    "name": "MoonRound",
+    "displayName": "Moon round",
+    "description": "Round crescent moon, almost a full circle.",
+    "tags": [
+      "moon",
+      "night",
+      "dark-mode",
+      "sleep",
+      "crescent"
+    ],
+    "categories": [
+      "weather"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Moon"
+    }
+  },
+  "new-icon-set-01-p0197": {
+    "name": "MoonCircle",
+    "displayName": "Moon circle",
+    "description": "Circle with a crescent cut into its top right, like a moon in shadow.",
+    "tags": [
+      "moon",
+      "night",
+      "dark-mode",
+      "sleep",
+      "eclipse",
+      "phase"
+    ],
+    "categories": [
+      "weather"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Moon"
+    }
+  },
+  "new-icon-set-01-p0198": {
+    "name": "MoonStar",
+    "displayName": "Moon star",
+    "description": "Crescent moon with a small asterisk star at the top right.",
+    "tags": [
+      "moon",
+      "night",
+      "dark-mode",
+      "sleep",
+      "star",
+      "crescent",
+      "ramadan"
+    ],
+    "categories": [
+      "weather"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Night"
+    }
+  },
+  "new-icon-set-01-p0199": {
+    "name": "MoonSun",
+    "displayName": "Moon sun",
+    "description": "Crescent moon in front of a small sun with rays at the top right.",
+    "tags": [
+      "moon",
+      "night",
+      "dark-mode",
+      "sleep",
+      "day-night",
+      "theme",
+      "auto"
+    ],
+    "categories": [
+      "weather",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Theme"
+    }
+  },
+  "new-icon-set-01-p0200": {
+    "name": "SunMoon",
+    "displayName": "Sun moon",
+    "description": "Sun with rays and a crescent moon inside it at the bottom left.",
+    "tags": [
+      "sun",
+      "day",
+      "theme",
+      "light-mode",
+      "day-night",
+      "moon",
+      "auto"
+    ],
+    "categories": [
+      "weather",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Theme"
+    }
+  },
+  "new-icon-set-01-p0201": {
+    "name": "PhonePause",
+    "displayName": "Phone pause",
+    "description": "Telephone handset with two pause bars at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "hold",
+      "on-hold",
+      "paused"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call on hold"
+    }
+  },
+  "new-icon-set-01-p0202": {
+    "name": "PhonePauseSharp",
+    "displayName": "Phone pause sharp",
+    "description": "Angular telephone handset with two pause bars at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "hold",
+      "on-hold",
+      "paused",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Call on hold"
+    }
+  },
+  "new-icon-set-01-p0203": {
+    "name": "PhoneAsterisk",
+    "displayName": "Phone asterisk",
+    "description": "Telephone handset with an asterisk at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "star-key",
+      "keypad",
+      "dial"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone asterisk"
+    }
+  },
+  "new-icon-set-01-p0204": {
+    "name": "PhoneAsteriskSharp",
+    "displayName": "Phone asterisk sharp",
+    "description": "Angular telephone handset with an asterisk at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "star-key",
+      "keypad",
+      "dial",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone asterisk"
+    }
+  },
+  "new-icon-set-01-p0205": {
+    "name": "PhoneHash",
+    "displayName": "Phone hash",
+    "description": "Telephone handset with a hash sign at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "pound-key",
+      "keypad",
+      "dial"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone hash"
+    }
+  },
+  "new-icon-set-01-p0206": {
+    "name": "PhoneHashSharp",
+    "displayName": "Phone hash sharp",
+    "description": "Angular telephone handset with a hash sign at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "pound-key",
+      "keypad",
+      "dial",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone hash"
+    }
+  },
+  "new-icon-set-01-p0207": {
+    "name": "PhoneClock",
+    "displayName": "Phone clock",
+    "description": "Telephone handset with a clock at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "history",
+      "recent",
+      "duration",
+      "time"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Recent calls"
+    }
+  },
+  "new-icon-set-01-p0208": {
+    "name": "PhoneClockSharp",
+    "displayName": "Phone clock sharp",
+    "description": "Angular telephone handset with a clock at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "history",
+      "recent",
+      "duration",
+      "time",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Recent calls"
+    }
+  },
+  "new-icon-set-01-p0209": {
+    "name": "PhoneRays",
+    "displayName": "Phone rays",
+    "description": "Telephone handset with three short rays at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "ringing",
+      "calling",
+      "alert"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone ringing"
+    }
+  },
+  "new-icon-set-01-p0210": {
+    "name": "PhoneRaysSharp",
+    "displayName": "Phone rays sharp",
+    "description": "Angular telephone handset with three short rays at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "ringing",
+      "calling",
+      "alert",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone ringing"
+    }
+  },
+  "new-icon-set-01-p0211": {
+    "name": "PhoneHeart",
+    "displayName": "Phone heart",
+    "description": "Telephone handset with a heart at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "favorite",
+      "love",
+      "favorite-contact"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite call"
+    }
+  },
+  "new-icon-set-01-p0212": {
+    "name": "PhoneHeartSharp",
+    "displayName": "Phone heart sharp",
+    "description": "Angular telephone handset with a heart at the top right.",
+    "tags": [
+      "phone",
+      "call",
+      "telephone",
+      "handset",
+      "favorite",
+      "love",
+      "favorite-contact",
+      "angular"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite call"
+    }
+  },
+  "new-icon-set-01-p0213": {
+    "name": "FlagNotched",
+    "displayName": "Flag notched",
+    "description": "Flag on a pole with a V-shaped notch in its right edge.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "swallowtail"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flag"
+    }
+  },
+  "new-icon-set-01-p0214": {
+    "name": "FlagStand",
+    "displayName": "Flag stand",
+    "description": "Square flag on a pole standing on a flat base.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "stand"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flag"
+    }
+  },
+  "new-icon-set-01-p0215": {
+    "name": "FlagWavy",
+    "displayName": "Flag wavy",
+    "description": "Wavy flag on a pole.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "waving"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flag"
+    }
+  },
+  "new-icon-set-01-p0216": {
+    "name": "FlagOffNotched",
+    "displayName": "Flag off notched",
+    "description": "Notched flag on a pole with a slash through it.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "disabled",
+      "unflag",
+      "off"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove flag"
+    }
+  },
+  "new-icon-set-01-p0217": {
+    "name": "FlagPennantStand",
+    "displayName": "Flag pennant stand",
+    "description": "Triangular pennant flag on a pole standing on a flat base.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "pennant",
+      "golf",
+      "triangle"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flag"
+    }
+  },
+  "new-icon-set-01-p0218": {
+    "name": "FlagOffWavy",
+    "displayName": "Flag off wavy",
+    "description": "Wavy flag on a pole with a slash through it.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "disabled",
+      "unflag",
+      "off"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove flag"
+    }
+  },
+  "new-icon-set-01-p0219": {
+    "name": "FlagPennant",
+    "displayName": "Flag pennant",
+    "description": "Triangular pennant flag on a pole.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "pennant",
+      "triangle"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flag"
+    }
+  },
+  "new-icon-set-01-p0220": {
+    "name": "FlagPennantLeft",
+    "displayName": "Flag pennant left",
+    "description": "Triangular pennant flag pointing left from a pole on the right.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "pennant",
+      "triangle"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flag"
+    }
+  },
+  "new-icon-set-01-p0221": {
+    "name": "FlagLeftNotched",
+    "displayName": "Flag left notched",
+    "description": "Flag pointing left from a pole on the right, with a V-shaped notch.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "swallowtail"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flag"
+    }
+  },
+  "new-icon-set-01-p0222": {
+    "name": "FlagLeftWavy",
+    "displayName": "Flag left wavy",
+    "description": "Wavy flag pointing left from a pole on the right.",
+    "tags": [
+      "flag",
+      "report",
+      "mark",
+      "milestone",
+      "waving"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flag"
+    }
+  },
+  "new-icon-set-01-p0223": {
+    "name": "PaperPlaneUpRight",
+    "displayName": "Paper plane up right",
+    "description": "Paper plane pointing up-right with a fold line through the middle.",
+    "tags": [
+      "paper-plane",
+      "send",
+      "message",
+      "submit",
+      "symbol"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Send"
+    }
+  },
+  "new-icon-set-01-p0224": {
+    "name": "PaperPlaneUpRightBare",
+    "displayName": "Paper plane up right bare",
+    "description": "Paper plane pointing up-right drawn as an outline without a fold line.",
+    "tags": [
+      "paper-plane",
+      "send",
+      "message",
+      "submit",
+      "navigation"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Send"
+    }
+  },
+  "new-icon-set-01-p0225": {
+    "name": "PaperPlane",
+    "displayName": "Paper plane",
+    "description": "Paper plane pointing right with a fold line through the middle.",
+    "tags": [
+      "paper-plane",
+      "send",
+      "message",
+      "submit",
+      "symbol"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Send"
+    }
+  },
+  "new-icon-set-01-p0226": {
+    "name": "PaperPlaneBare",
+    "displayName": "Paper plane bare",
+    "description": "Paper plane pointing right drawn as an outline without a fold line.",
+    "tags": [
+      "paper-plane",
+      "send",
+      "message",
+      "submit",
+      "symbol"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Send"
+    }
+  },
+  "new-icon-set-01-p0227": {
+    "name": "PaperPlaneUpRightNotch",
+    "displayName": "Paper plane up right notch",
+    "description": "Paper plane pointing up-right with a short fold line at the back.",
+    "tags": [
+      "paper-plane",
+      "send",
+      "message",
+      "submit",
+      "symbol"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Send"
+    }
+  },
+  "new-icon-set-01-p0228": {
+    "name": "PaperPlaneNotch",
+    "displayName": "Paper plane notch",
+    "description": "Paper plane pointing right with a short fold line at the back.",
+    "tags": [
+      "paper-plane",
+      "send",
+      "message",
+      "submit",
+      "symbol"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Send"
+    }
+  },
+  "new-icon-set-01-p0229": {
+    "name": "Power",
+    "displayName": "Power",
+    "description": "Power symbol: an open circle with a vertical line at the top.",
+    "tags": [
+      "power",
+      "on-off",
+      "shutdown",
+      "switch",
+      "symbol"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Power"
+    }
+  },
+  "new-icon-set-01-p0230": {
+    "name": "PowerOff",
+    "displayName": "Power off",
+    "description": "Power symbol with a slash through it.",
+    "tags": [
+      "power",
+      "on-off",
+      "shutdown",
+      "switch",
+      "disabled"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Power off"
+    }
+  },
+  "new-icon-set-01-p0231": {
+    "name": "PowerCircle",
+    "displayName": "Power circle",
+    "description": "Power symbol inside a circle.",
+    "tags": [
+      "power",
+      "on-off",
+      "shutdown",
+      "switch",
+      "button"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Power"
+    }
+  },
+  "new-icon-set-01-p0232": {
+    "name": "PowerOffCircle",
+    "displayName": "Power off circle",
+    "description": "Power symbol inside a circle with a slash through it.",
+    "tags": [
+      "power",
+      "on-off",
+      "shutdown",
+      "switch",
+      "disabled",
+      "button"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Power off"
+    }
+  },
+  "new-icon-set-01-p0233": {
+    "name": "PowerSquare",
+    "displayName": "Power square",
+    "description": "Power symbol inside a rounded square.",
+    "tags": [
+      "power",
+      "on-off",
+      "shutdown",
+      "switch",
+      "button"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Power"
+    }
+  },
+  "new-icon-set-01-p0234": {
+    "name": "PowerOffSquare",
+    "displayName": "Power off square",
+    "description": "Power symbol inside a rounded square with a slash through it.",
+    "tags": [
+      "power",
+      "on-off",
+      "shutdown",
+      "switch",
+      "disabled",
+      "button"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Power off"
+    }
+  },
+  "new-icon-set-01-p0235": {
+    "name": "PlugThick",
+    "displayName": "Plug thick",
+    "description": "Electric plug with two outlined rounded prongs and two short legs at the bottom.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Plug"
+    }
+  },
+  "new-icon-set-01-p0236": {
+    "name": "Plug",
+    "displayName": "Plug",
+    "description": "Electric plug with two prongs on top and a cord at the bottom.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Plug"
+    }
+  },
+  "new-icon-set-01-p0237": {
+    "name": "PlugSocket",
+    "displayName": "Plug socket",
+    "description": "Diagonal plug and socket pulled apart.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "unplugged",
+      "disconnect",
+      "connection"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unplugged"
+    }
+  },
+  "new-icon-set-01-p0238": {
+    "name": "PlugThick2",
+    "displayName": "Plug thick 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Plug"
+    },
+    "hold": "same drawing as p0235 (PlugThick) in this file"
+  },
+  "new-icon-set-01-p0239": {
+    "name": "Plug2",
+    "displayName": "Plug 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Plug"
+    },
+    "hold": "same drawing as p0236 (Plug) in this file"
+  },
+  "new-icon-set-01-p0240": {
+    "name": "PlugSocket2",
+    "displayName": "Plug socket 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Plug"
+    },
+    "hold": "same drawing as p0237 (PlugSocket) in this file"
+  },
+  "new-icon-set-01-p0241": {
+    "name": "PlugBoltThick",
+    "displayName": "Plug bolt thick",
+    "description": "Electric plug with outlined prongs and a lightning bolt at the top right.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "charging",
+      "electric"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Charging"
+    }
+  },
+  "new-icon-set-01-p0242": {
+    "name": "PlugBolt",
+    "displayName": "Plug bolt",
+    "description": "Electric plug with two prongs and a lightning bolt at the top right.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "charging",
+      "electric"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Charging"
+    }
+  },
+  "new-icon-set-01-p0243": {
+    "name": "PlugSocketBolt",
+    "displayName": "Plug socket bolt",
+    "description": "Diagonal plug and socket pulled apart with a lightning bolt.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "charging",
+      "electric"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Charging"
+    }
+  },
+  "new-icon-set-01-p0244": {
+    "name": "PlugWide",
+    "displayName": "Plug wide",
+    "description": "Electric plug with a wide top plate, two prongs and a cord.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Plug"
+    }
+  },
+  "new-icon-set-01-p0245": {
+    "name": "PlugCable",
+    "displayName": "Plug cable",
+    "description": "Two plugs joined by a curving cable.",
+    "tags": [
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "cable",
+      "extension",
+      "adapter"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cable"
+    }
+  },
+  "new-icon-set-01-p0246": {
+    "name": "FileWide",
+    "displayName": "File wide",
+    "description": "Square page with a folded top right corner.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "note",
+      "blank"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    }
+  },
+  "new-icon-set-01-p0247": {
+    "name": "FileStackWide",
+    "displayName": "File stack wide",
+    "description": "Two square pages with folded corners, one overlapping the other.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "copy",
+      "duplicate",
+      "files"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy"
+    }
+  },
+  "new-icon-set-01-p0248": {
+    "name": "FileMinusCornerWide",
+    "displayName": "File minus corner wide",
+    "description": "Square page with a folded corner and a minus sign at the bottom left corner.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "minus",
+      "symbol"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "new-icon-set-01-p0249": {
+    "name": "FilePlusCornerWide",
+    "displayName": "File plus corner wide",
+    "description": "Square page with a folded corner and a plus sign at the bottom left corner.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "plus",
+      "symbol"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "new-icon-set-01-p0250": {
+    "name": "FileXCornerWide",
+    "displayName": "File X corner wide",
+    "description": "Square page with a folded corner and an X at the bottom left corner.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "x",
+      "symbol"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "new-icon-set-01-p0251": {
+    "name": "FileCheckCornerWide",
+    "displayName": "File check corner wide",
+    "description": "Square page with a folded corner and a check mark at the bottom left corner.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "check",
+      "symbol"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File approved"
+    }
+  },
+  "new-icon-set-01-p0252": {
+    "name": "FileMinusWide",
+    "displayName": "File minus wide",
+    "description": "Square page with a folded corner and a minus sign in the middle.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "minus",
+      "symbol"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "new-icon-set-01-p0253": {
+    "name": "FilePlusWide",
+    "displayName": "File plus wide",
+    "description": "Square page with a folded corner and a plus sign in the middle.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "plus",
+      "symbol"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "new-icon-set-01-p0254": {
+    "name": "FileXWide",
+    "displayName": "File X wide",
+    "description": "Square page with a folded corner and an X in the middle.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "x",
+      "symbol"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "new-icon-set-01-p0255": {
+    "name": "FileCheckWide",
+    "displayName": "File check wide",
+    "description": "Square page with a folded corner and a check mark in the middle.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "check",
+      "symbol"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File approved"
+    }
+  },
+  "new-icon-set-01-p0256": {
+    "name": "Scissors2",
+    "displayName": "Scissors 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "scissors",
+      "cut",
+      "trim",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scissors"
+    },
+    "hold": "same drawing as p0257 (Scissors), only shifted 2px left"
+  },
+  "new-icon-set-01-p0257": {
+    "name": "Scissors",
+    "displayName": "Scissors",
+    "description": "Open scissors pointing right, two round handles on the left.",
+    "tags": [
+      "scissors",
+      "cut",
+      "trim",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cut"
+    }
+  },
+  "new-icon-set-01-p0258": {
+    "name": "ScissorsUp",
+    "displayName": "Scissors up",
+    "description": "Open scissors pointing up, two round handles at the bottom.",
+    "tags": [
+      "scissors",
+      "cut",
+      "trim",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cut"
+    }
+  },
+  "new-icon-set-01-p0259": {
+    "name": "ScissorsWide",
+    "displayName": "Scissors wide",
+    "description": "Open scissors with wide leaf-shaped blades pointing right.",
+    "tags": [
+      "scissors",
+      "cut",
+      "trim",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cut"
+    }
+  },
+  "new-icon-set-01-p0260": {
+    "name": "ScissorsWide2",
+    "displayName": "Scissors wide 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "scissors",
+      "cut",
+      "trim",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cut"
+    },
+    "hold": "same drawing as p0259 (ScissorsWide) in this file"
+  },
+  "new-icon-set-01-p0261": {
+    "name": "ScissorsClosedWide",
+    "displayName": "Scissors closed wide",
+    "description": "Closed scissors seen from the side: one round handle and a wide leaf-shaped blade.",
+    "tags": [
+      "scissors",
+      "cut",
+      "trim",
+      "closed",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cut"
+    }
+  },
+  "new-icon-set-01-p0262": {
+    "name": "ScissorsClosed",
+    "displayName": "Scissors closed",
+    "description": "Closed scissors seen from the side: one round handle and a thin bent blade.",
+    "tags": [
+      "scissors",
+      "cut",
+      "trim",
+      "closed",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cut"
+    }
+  },
+  "new-icon-set-01-p0263": {
+    "name": "IdCard",
+    "displayName": "Id card",
+    "description": "Horizontal card with a person on the left and three lines on the right.",
+    "tags": [
+      "id-card",
+      "identity",
+      "badge",
+      "profile",
+      "employee",
+      "license"
+    ],
+    "categories": [
+      "people",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "ID card"
+    }
+  },
+  "new-icon-set-01-p0264": {
+    "name": "IdCardClip",
+    "displayName": "Id card clip",
+    "description": "Horizontal ID card with a person and lines, hanging from a clip at the top.",
+    "tags": [
+      "id-card",
+      "identity",
+      "badge",
+      "profile",
+      "employee",
+      "lanyard",
+      "pass",
+      "access"
+    ],
+    "categories": [
+      "people",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "ID badge"
+    }
+  },
+  "new-icon-set-01-p0265": {
+    "name": "IdCardClipTall",
+    "displayName": "Id card clip tall",
+    "description": "Vertical ID card with a person, hanging from a clip at the top.",
+    "tags": [
+      "id-card",
+      "identity",
+      "badge",
+      "profile",
+      "employee",
+      "lanyard",
+      "pass",
+      "access"
+    ],
+    "categories": [
+      "people",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "ID badge"
+    }
+  },
+  "new-icon-set-01-p0266": {
+    "name": "MegaphoneRays",
+    "displayName": "Megaphone rays",
+    "description": "Megaphone with a round speaker and three rays coming out of its wide end.",
+    "tags": [
+      "megaphone",
+      "announcement",
+      "marketing",
+      "loud",
+      "bullhorn",
+      "broadcast",
+      "promote"
+    ],
+    "categories": [
+      "communication",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Announcement"
+    }
+  },
+  "new-icon-set-01-p0267": {
+    "name": "Megaphone",
+    "displayName": "Megaphone",
+    "description": "Megaphone pointing right with a handle below.",
+    "tags": [
+      "megaphone",
+      "announcement",
+      "marketing",
+      "loud",
+      "bullhorn"
+    ],
+    "categories": [
+      "communication",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Announcement"
+    }
+  },
+  "new-icon-set-01-p0268": {
+    "name": "MegaphoneRound",
+    "displayName": "Megaphone round",
+    "description": "Megaphone pointing right with a handle and a rounded cap on its wide end.",
+    "tags": [
+      "megaphone",
+      "announcement",
+      "marketing",
+      "loud",
+      "bullhorn"
+    ],
+    "categories": [
+      "communication",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Announcement"
+    }
+  },
+  "new-icon-set-01-p0269": {
+    "name": "TargetThick",
+    "displayName": "Target thick",
+    "description": "Target with an outer ring, a thick double-line ring and a center dot.",
+    "tags": [
+      "target",
+      "goal",
+      "bullseye",
+      "aim",
+      "rings"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Target"
+    }
+  },
+  "new-icon-set-01-p0270": {
+    "name": "Target",
+    "displayName": "Target",
+    "description": "Target with three rings around a center dot.",
+    "tags": [
+      "target",
+      "goal",
+      "bullseye",
+      "aim",
+      "rings"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Target"
+    }
+  },
+  "new-icon-set-01-p0271": {
+    "name": "TargetArrow",
+    "displayName": "Target arrow",
+    "description": "Target with a dart arrow stuck in the center.",
+    "tags": [
+      "target",
+      "goal",
+      "bullseye",
+      "aim",
+      "dart",
+      "hit",
+      "objective"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Goal"
+    }
+  },
+  "new-icon-set-01-p0272": {
+    "name": "Crosshair",
+    "displayName": "Crosshair",
+    "description": "Circle with four short ticks pointing inward.",
+    "tags": [
+      "crosshair",
+      "aim",
+      "focus",
+      "locate",
+      "reticle"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crosshair"
+    }
+  },
+  "new-icon-set-01-p0273": {
+    "name": "CrosshairDot",
+    "displayName": "Crosshair dot",
+    "description": "Circle with four ticks crossing it and a dot in the center.",
+    "tags": [
+      "crosshair",
+      "aim",
+      "focus",
+      "locate",
+      "reticle",
+      "location"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crosshair"
+    }
+  },
+  "new-icon-set-01-p0274": {
+    "name": "CrosshairRing",
+    "displayName": "Crosshair ring",
+    "description": "Circle with an inner ring and four ticks crossing both.",
+    "tags": [
+      "crosshair",
+      "aim",
+      "focus",
+      "locate",
+      "reticle",
+      "scope"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crosshair"
+    }
+  },
+  "new-icon-set-01-p0275": {
+    "name": "CrosshairPlus",
+    "displayName": "Crosshair plus",
+    "description": "Circle with four ticks pointing inward and a small plus in the center.",
+    "tags": [
+      "crosshair",
+      "aim",
+      "focus",
+      "locate",
+      "reticle",
+      "center"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crosshair"
+    }
+  },
+  "new-icon-set-01-p0276": {
+    "name": "CrosshairCorners",
+    "displayName": "Crosshair corners",
+    "description": "Four corner brackets around a small diamond with lines crossing through it.",
+    "tags": [
+      "crosshair",
+      "aim",
+      "focus",
+      "locate",
+      "reticle"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Focus"
+    }
+  },
+  "new-icon-set-01-p0277": {
+    "name": "Rocket",
+    "displayName": "Rocket",
+    "description": "Rocket flying up-right with a round window, fins and a flame behind.",
+    "tags": [
+      "rocket",
+      "launch",
+      "startup",
+      "boost",
+      "symbol"
+    ],
+    "categories": [
+      "transportation",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Launch"
+    }
+  },
+  "new-icon-set-01-p0278": {
+    "name": "RocketBare",
+    "displayName": "Rocket bare",
+    "description": "Rocket flying up-right without a window, with fins and a flame behind.",
+    "tags": [
+      "rocket",
+      "launch",
+      "startup",
+      "boost",
+      "symbol"
+    ],
+    "categories": [
+      "transportation",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Launch"
+    }
+  },
+  "new-icon-set-01-p0279": {
+    "name": "RocketDetailed",
+    "displayName": "Rocket detailed",
+    "description": "Rocket flying up-right with a window, a nose band, fins and an exhaust trail.",
+    "tags": [
+      "rocket",
+      "launch",
+      "startup",
+      "boost",
+      "symbol"
+    ],
+    "categories": [
+      "transportation",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Launch"
+    }
+  },
+  "new-icon-set-01-p0280": {
+    "name": "RocketUp",
+    "displayName": "Rocket up",
+    "description": "Upright rocket with a pointed nose, a band and two fins.",
+    "tags": [
+      "rocket",
+      "launch",
+      "startup",
+      "boost",
+      "space"
+    ],
+    "categories": [
+      "transportation",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Launch"
+    }
+  },
+  "new-icon-set-01-p0281": {
+    "name": "Calculator",
+    "displayName": "Calculator",
+    "description": "Calculator with a display at the top and a grid of keys.",
+    "tags": [
+      "calculator",
+      "math",
+      "accounting",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "business",
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calculator"
+    }
+  },
+  "new-icon-set-01-p0282": {
+    "name": "Hash",
+    "displayName": "Hash",
+    "description": "Slanted hash sign.",
+    "tags": [
+      "hash",
+      "hashtag",
+      "number",
+      "pound",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hashtag"
+    }
+  },
+  "new-icon-set-01-p0283": {
+    "name": "HashCircle",
+    "displayName": "Hash circle",
+    "description": "Slanted hash sign inside a circle.",
+    "tags": [
+      "hash",
+      "hashtag",
+      "number",
+      "pound",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hashtag"
+    }
+  },
+  "new-icon-set-01-p0284": {
+    "name": "Equals",
+    "displayName": "Equals",
+    "description": "Equals sign: two horizontal lines.",
+    "tags": [
+      "equals",
+      "equal",
+      "math",
+      "same",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Equals"
+    }
+  },
+  "new-icon-set-01-p0285": {
+    "name": "EqualsCircle",
+    "displayName": "Equals circle",
+    "description": "Equals sign inside a circle.",
+    "tags": [
+      "equals",
+      "equal",
+      "math",
+      "same",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Equals"
+    }
+  },
+  "new-icon-set-01-p0286": {
+    "name": "NotEqual",
+    "displayName": "Not equal",
+    "description": "Not-equal sign: two lines with a slash through them.",
+    "tags": [
+      "not-equal",
+      "different",
+      "math",
+      "unequal",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Not equal"
+    }
+  },
+  "new-icon-set-01-p0287": {
+    "name": "NotEqualCircle",
+    "displayName": "Not equal circle",
+    "description": "Not-equal sign inside a circle.",
+    "tags": [
+      "not-equal",
+      "different",
+      "math",
+      "unequal",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Not equal"
+    }
+  },
+  "new-icon-set-01-p0288": {
+    "name": "Approximate",
+    "displayName": "Approximate",
+    "description": "Approximately-equal sign: two wavy lines.",
+    "tags": [
+      "approximate",
+      "almost-equal",
+      "math",
+      "tilde",
+      "waves"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Approximately"
+    }
+  },
+  "new-icon-set-01-p0289": {
+    "name": "ApproximateCircle",
+    "displayName": "Approximate circle",
+    "description": "Approximately-equal sign inside a circle.",
+    "tags": [
+      "approximate",
+      "almost-equal",
+      "math",
+      "tilde",
+      "waves"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Approximately"
+    }
+  },
+  "new-icon-set-01-p0290": {
+    "name": "NotApproximate",
+    "displayName": "Not approximate",
+    "description": "Two wavy lines with a slash through them.",
+    "tags": [
+      "not-approximate",
+      "math",
+      "different",
+      "waves",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Not approximately"
+    }
+  },
+  "new-icon-set-01-p0291": {
+    "name": "NotApproximateCircle",
+    "displayName": "Not approximate circle",
+    "description": "Two wavy lines with a slash, inside a circle.",
+    "tags": [
+      "not-approximate",
+      "math",
+      "different",
+      "waves",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Not approximately"
+    }
+  },
+  "new-icon-set-01-p0292": {
+    "name": "HashSquare",
+    "displayName": "Hash square",
+    "description": "Slanted hash sign inside a rounded square.",
+    "tags": [
+      "hash",
+      "hashtag",
+      "number",
+      "pound",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hashtag"
+    }
+  },
+  "new-icon-set-01-p0293": {
+    "name": "EqualsSquare",
+    "displayName": "Equals square",
+    "description": "Equals sign inside a rounded square.",
+    "tags": [
+      "equals",
+      "equal",
+      "math",
+      "same",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Equals"
+    }
+  },
+  "new-icon-set-01-p0294": {
+    "name": "NotEqualSquare",
+    "displayName": "Not equal square",
+    "description": "Not-equal sign inside a rounded square.",
+    "tags": [
+      "not-equal",
+      "different",
+      "math",
+      "unequal",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Not equal"
+    }
+  },
+  "new-icon-set-01-p0295": {
+    "name": "ApproximateSquare",
+    "displayName": "Approximate square",
+    "description": "Approximately-equal sign inside a rounded square.",
+    "tags": [
+      "approximate",
+      "almost-equal",
+      "math",
+      "tilde",
+      "waves"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Approximately"
+    }
+  },
+  "new-icon-set-01-p0296": {
+    "name": "NotApproximateSquare",
+    "displayName": "Not approximate square",
+    "description": "Two wavy lines with a slash, inside a rounded square.",
+    "tags": [
+      "not-approximate",
+      "math",
+      "different",
+      "waves",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Not approximately"
+    }
+  },
+  "new-icon-set-01-p0297": {
+    "name": "ArrowUpSquareOut",
+    "displayName": "Arrow up square out",
+    "description": "Arrow pointing up out of a rounded square through a gap in its top.",
+    "tags": [
+      "arrow",
+      "export",
+      "move",
+      "up",
+      "share",
+      "upload"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Share"
+    }
+  },
+  "new-icon-set-01-p0298": {
+    "name": "ArrowDownSquareOut",
+    "displayName": "Arrow down square out",
+    "description": "Arrow pointing down out of a rounded square through a gap in its bottom.",
+    "tags": [
+      "arrow",
+      "export",
+      "move",
+      "down",
+      "download"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download"
+    }
+  },
+  "new-icon-set-01-p0299": {
+    "name": "ArrowRightSquareOut",
+    "displayName": "Arrow right square out",
+    "description": "Arrow pointing right out of a rounded square through a gap in its right side.",
+    "tags": [
+      "arrow",
+      "export",
+      "move",
+      "right",
+      "exit",
+      "logout"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Exit"
+    }
+  },
+  "new-icon-set-01-p0300": {
+    "name": "ArrowLeftSquareOut",
+    "displayName": "Arrow left square out",
+    "description": "Arrow pointing left out of a rounded square through a gap in its left side.",
+    "tags": [
+      "arrow",
+      "export",
+      "move",
+      "left",
+      "exit",
+      "back"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Exit"
+    }
+  },
+  "new-icon-set-01-p0301": {
+    "name": "SparkleThree",
+    "displayName": "Sparkle three",
+    "description": "Three small four-pointed sparkles of the same size.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "ai",
+      "shine",
+      "new",
+      "stars"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sparkles"
+    }
+  },
+  "new-icon-set-01-p0302": {
+    "name": "SparkleThreeMedium",
+    "displayName": "Sparkle three medium",
+    "description": "Three four-pointed sparkles, the top left one a bit larger.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "ai",
+      "shine",
+      "new",
+      "stars"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sparkles"
+    }
+  },
+  "new-icon-set-01-p0303": {
+    "name": "SparkleFive",
+    "displayName": "Sparkle five",
+    "description": "Five small four-pointed sparkles scattered.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "ai",
+      "shine",
+      "new",
+      "stars",
+      "glitter"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sparkles"
+    }
+  },
+  "new-icon-set-01-p0304": {
+    "name": "SparkleThreeLarge",
+    "displayName": "Sparkle three large",
+    "description": "One large four-pointed sparkle with two small ones at the bottom right.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "ai",
+      "shine",
+      "new",
+      "stars"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sparkles"
+    }
+  },
+  "new-icon-set-01-p0305": {
+    "name": "SparklePlusDot",
+    "displayName": "Sparkle plus dot",
+    "description": "Curved four-pointed sparkle with a plus at the bottom left and a small ring at the top right.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "ai",
+      "shine",
+      "new",
+      "stars"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sparkle"
+    }
+  },
+  "new-icon-set-01-p0306": {
+    "name": "SparklePlusDouble",
+    "displayName": "Sparkle plus double",
+    "description": "Curved four-pointed sparkle with two small plus signs around it.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "ai",
+      "shine",
+      "new",
+      "stars"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sparkle"
+    }
+  },
+  "new-icon-set-01-p0307": {
+    "name": "SparklePlusDotPointed",
+    "displayName": "Sparkle plus dot pointed",
+    "description": "Long-pointed four-pointed star with a plus at the bottom left and a small ring at the top right.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "ai",
+      "shine",
+      "new",
+      "stars"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sparkle"
+    }
+  },
+  "new-icon-set-01-p0308": {
+    "name": "SparklePointed",
+    "displayName": "Sparkle pointed",
+    "description": "Single four-pointed star with long straight points.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "ai",
+      "shine",
+      "new",
+      "star"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sparkle"
+    }
+  },
+  "new-icon-set-01-p0309": {
+    "name": "SquareSparklePlus",
+    "displayName": "Square sparkle plus",
+    "description": "Open rounded square with a plus inside and a sparkle breaking its top right corner.",
+    "tags": [
+      "frame",
+      "image",
+      "generate",
+      "ai",
+      "sparkle",
+      "add"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Generate image"
+    }
+  },
+  "new-icon-set-01-p0310": {
+    "name": "PencilPlusDot",
+    "displayName": "Pencil plus dot",
+    "description": "Pencil with a plus at the top left and a small ring at the bottom right.",
+    "tags": [
+      "pencil",
+      "edit",
+      "write",
+      "magic",
+      "ai",
+      "sparkle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "AI edit"
+    }
+  },
+  "new-icon-set-01-p0311": {
+    "name": "PencilPlusThree",
+    "displayName": "Pencil plus three",
+    "description": "Slim pencil with three small plus signs around it.",
+    "tags": [
+      "pencil",
+      "edit",
+      "write",
+      "magic",
+      "ai",
+      "sparkle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "AI edit"
+    }
+  },
+  "new-icon-set-01-p0312": {
+    "name": "WandPlusThree",
+    "displayName": "Wand plus three",
+    "description": "Magic wand with three small plus signs around it.",
+    "tags": [
+      "wand",
+      "magic",
+      "ai",
+      "enhance",
+      "sparkle",
+      "magic-wand"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Magic"
+    }
+  },
+  "new-icon-set-01-p0313": {
+    "name": "BroomPlusThree",
+    "displayName": "Broom plus three",
+    "description": "Broom with three small plus signs around it.",
+    "tags": [
+      "broom",
+      "clean",
+      "clear",
+      "sweep",
+      "sparkle",
+      "tidy"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clean up"
+    }
+  },
+  "new-icon-set-01-p0314": {
+    "name": "Brain",
+    "displayName": "Brain",
+    "description": "Brain seen from above, split into two halves.",
+    "tags": [
+      "brain",
+      "mind",
+      "think",
+      "intelligence",
+      "symbol"
+    ],
+    "categories": [
+      "health",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Brain"
+    }
+  },
+  "new-icon-set-01-p0315": {
+    "name": "BrainCircuit",
+    "displayName": "Brain circuit",
+    "description": "Left half of a brain with circuit lines and nodes on the right.",
+    "tags": [
+      "brain",
+      "mind",
+      "think",
+      "intelligence",
+      "ai",
+      "neural",
+      "circuit",
+      "machine-learning"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "AI"
+    }
+  },
+  "new-icon-set-01-p0316": {
+    "name": "BrainSettings",
+    "displayName": "Brain settings",
+    "description": "Brain outline with a gear in the middle.",
+    "tags": [
+      "brain",
+      "mind",
+      "think",
+      "intelligence",
+      "ai",
+      "processing",
+      "gear"
+    ],
+    "categories": [
+      "health",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Thinking"
+    }
+  },
+  "new-icon-set-01-p0317": {
+    "name": "Headphones",
+    "displayName": "Headphones",
+    "description": "Over-ear headphones with a thin band and two pill ear cups.",
+    "tags": [
+      "headphones",
+      "audio",
+      "music",
+      "listen",
+      "headset"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Headphones"
+    }
+  },
+  "new-icon-set-01-p0318": {
+    "name": "HeadphonesPadded",
+    "displayName": "Headphones padded",
+    "description": "Headphones with a padded band and rounded rectangle ear cups.",
+    "tags": [
+      "headphones",
+      "audio",
+      "music",
+      "listen",
+      "headset"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Headphones"
+    }
+  },
+  "new-icon-set-01-p0319": {
+    "name": "HeadphonesRound",
+    "displayName": "Headphones round",
+    "description": "Headphones with a padded band and ear cups with rounded outer edges.",
+    "tags": [
+      "headphones",
+      "audio",
+      "music",
+      "listen",
+      "headset"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Headphones"
+    }
+  },
+  "new-icon-set-01-p0320": {
+    "name": "HeadphonesTilted",
+    "displayName": "Headphones tilted",
+    "description": "Headphones with a padded band and tilted pill ear cups.",
+    "tags": [
+      "headphones",
+      "audio",
+      "music",
+      "listen",
+      "headset"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Headphones"
+    }
+  },
+  "new-icon-set-01-p0321": {
+    "name": "HeadphonesX",
+    "displayName": "Headphones X",
+    "description": "Over-ear headphones with an X between the ear cups.",
+    "tags": [
+      "headphones",
+      "audio",
+      "music",
+      "listen",
+      "no-audio",
+      "disconnected"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "No audio"
+    }
+  },
+  "new-icon-set-01-p0322": {
+    "name": "HeadphonesOff",
+    "displayName": "Headphones off",
+    "description": "Over-ear headphones with a slash through them.",
+    "tags": [
+      "headphones",
+      "audio",
+      "music",
+      "listen",
+      "mute",
+      "disabled"
+    ],
+    "categories": [
+      "media",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Headphones off"
+    }
+  },
+  "new-icon-set-01-p0323": {
+    "name": "Tv",
+    "displayName": "Tv",
+    "description": "Wide screen with two small feet at the bottom corners.",
+    "tags": [
+      "tv",
+      "television",
+      "screen",
+      "display",
+      "symbol"
+    ],
+    "categories": [
+      "devices",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "TV"
+    }
+  },
+  "new-icon-set-01-p0324": {
+    "name": "TvLegs",
+    "displayName": "Tv legs",
+    "description": "Screen standing on two splayed legs.",
+    "tags": [
+      "tv",
+      "television",
+      "screen",
+      "display",
+      "monitor"
+    ],
+    "categories": [
+      "devices",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "TV"
+    }
+  },
+  "new-icon-set-01-p0325": {
+    "name": "Monitor",
+    "displayName": "Monitor",
+    "description": "Computer monitor with a short neck and a base.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Monitor"
+    }
+  },
+  "new-icon-set-01-p0326": {
+    "name": "Tablet",
+    "displayName": "Tablet",
+    "description": "Tablet outline with a short pill at the bottom.",
+    "tags": [
+      "tablet",
+      "ipad",
+      "device",
+      "screen",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tablet"
+    }
+  },
+  "new-icon-set-01-p0327": {
+    "name": "TabletMobile",
+    "displayName": "Tablet mobile",
+    "description": "Tablet with a smartphone in front of it at the bottom left.",
+    "tags": [
+      "tablet",
+      "ipad",
+      "device",
+      "screen",
+      "devices",
+      "responsive",
+      "mobile"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Devices"
+    }
+  },
+  "new-icon-set-01-p0328": {
+    "name": "Gamepad",
+    "displayName": "Gamepad",
+    "description": "Rounded game controller with a d-pad on the left.",
+    "tags": [
+      "gamepad",
+      "controller",
+      "game",
+      "console",
+      "play"
+    ],
+    "categories": [
+      "devices",
+      "sports"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Game controller"
+    }
+  },
+  "new-icon-set-01-p0329": {
+    "name": "Joystick",
+    "displayName": "Joystick",
+    "description": "Joystick with a ball-topped stick on an isometric base.",
+    "tags": [
+      "joystick",
+      "arcade",
+      "game",
+      "controller",
+      "play",
+      "retro"
+    ],
+    "categories": [
+      "devices",
+      "sports"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Joystick"
+    }
+  },
+  "new-icon-set-01-p0330": {
+    "name": "UsbStick",
+    "displayName": "Usb stick",
+    "description": "USB flash drive with a rounded body and a connector with two holes.",
+    "tags": [
+      "usb",
+      "flash-drive",
+      "storage",
+      "thumb-drive",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "USB drive"
+    }
+  },
+  "new-icon-set-01-p0331": {
+    "name": "ComputerTower",
+    "displayName": "Computer tower",
+    "description": "Computer tower with three vent lines and a power dot.",
+    "tags": [
+      "computer",
+      "pc",
+      "tower",
+      "desktop",
+      "case"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Computer"
+    }
+  },
+  "new-icon-set-01-p0332": {
+    "name": "MonitorPause",
+    "displayName": "Monitor pause",
+    "description": "Computer monitor on a stand with two pause bars on the screen.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "pause",
+      "paused"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pause"
+    }
+  },
+  "new-icon-set-01-p0333": {
+    "name": "MonitorPlay",
+    "displayName": "Monitor play",
+    "description": "Computer monitor on a stand with a play triangle on the screen.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "play",
+      "video",
+      "stream"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Play"
+    }
+  },
+  "new-icon-set-01-p0334": {
+    "name": "MonitorArrowUp",
+    "displayName": "Monitor arrow up",
+    "description": "Computer monitor on a stand with an arrow pointing up on the screen.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "upload",
+      "up"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload"
+    }
+  },
+  "new-icon-set-01-p0335": {
+    "name": "MonitorX",
+    "displayName": "Monitor X",
+    "description": "Computer monitor on a stand with an X on the screen.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "close",
+      "error",
+      "disconnected"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Screen error"
+    }
+  },
+  "new-icon-set-01-p0336": {
+    "name": "MonitorArrowDown",
+    "displayName": "Monitor arrow down",
+    "description": "Computer monitor on a stand with an arrow pointing down on the screen.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "download",
+      "down"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download"
+    }
+  },
+  "new-icon-set-01-p0337": {
+    "name": "MonitorCloud",
+    "displayName": "Monitor cloud",
+    "description": "Computer monitor on a stand with a cloud on the screen.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "cloud",
+      "remote",
+      "sync"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cloud computer"
+    }
+  },
+  "new-icon-set-01-p0338": {
+    "name": "MonitorSettings",
+    "displayName": "Monitor settings",
+    "description": "Computer monitor on a stand with a gear breaking its top right corner.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "settings",
+      "gear",
+      "config"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Computer settings"
+    }
+  },
+  "new-icon-set-01-p0339": {
+    "name": "MonitorDot",
+    "displayName": "Monitor dot",
+    "description": "Computer monitor on a stand with a notification dot breaking its top right corner.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "notification",
+      "alert",
+      "badge"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Notification"
+    }
+  },
+  "new-icon-set-01-p0340": {
+    "name": "MonitorStop",
+    "displayName": "Monitor stop",
+    "description": "Computer monitor on a stand with a stop square on the screen.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "stop",
+      "record"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stop"
+    }
+  },
+  "new-icon-set-01-p0341": {
+    "name": "MonitorPulseStand",
+    "displayName": "Monitor pulse stand",
+    "description": "Computer monitor on a stand with a pulse line on the screen.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "pulse",
+      "health",
+      "activity",
+      "heartbeat"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Activity"
+    }
+  },
+  "new-icon-set-01-p0342": {
+    "name": "MonitorArrowUpRight",
+    "displayName": "Monitor arrow up right",
+    "description": "Computer monitor on a stand with an arrow leaving its top right corner.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "external",
+      "share",
+      "cast"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open externally"
+    }
+  },
+  "new-icon-set-01-p0343": {
+    "name": "MonitorXCorner",
+    "displayName": "Monitor X corner",
+    "description": "Computer monitor on a stand with an X breaking its top right corner.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "close",
+      "error",
+      "disconnected"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Screen error"
+    }
+  },
+  "new-icon-set-01-p0344": {
+    "name": "MonitorMobile",
+    "displayName": "Monitor mobile",
+    "description": "Monitor with a smartphone in front of it at the bottom right.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "devices",
+      "responsive",
+      "mobile"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Devices"
+    }
+  },
+  "new-icon-set-01-p0345": {
+    "name": "MonitorOff",
+    "displayName": "Monitor off",
+    "description": "Computer monitor on a stand with a slash through it.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "disabled",
+      "no-display",
+      "off"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Screen off"
+    }
+  },
+  "new-icon-set-01-p0346": {
+    "name": "MonitorVolume",
+    "displayName": "Monitor volume",
+    "description": "Computer monitor on a stand with a speaker with sound arcs on the screen.",
+    "tags": [
+      "monitor",
+      "desktop",
+      "computer",
+      "screen",
+      "sound",
+      "audio",
+      "speaker"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sound"
+    }
+  },
+  "new-icon-set-01-p0347": {
+    "name": "MobileButton2",
+    "displayName": "Mobile button 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mobile phone"
+    },
+    "hold": "same drawing as p0046 (MobileButton) in this file"
+  },
+  "new-icon-set-01-p0348": {
+    "name": "MobileNotch2",
+    "displayName": "Mobile notch 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mobile phone"
+    },
+    "hold": "same drawing as p0045 (MobileNotch) in this file"
+  },
+  "new-icon-set-01-p0349": {
+    "name": "MobileBoltButton",
+    "displayName": "Mobile bolt button",
+    "description": "Smartphone with a pill at the bottom and a lightning bolt on the screen.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "charging",
+      "battery",
+      "power"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone charging"
+    }
+  },
+  "new-icon-set-01-p0350": {
+    "name": "MobileBoltNotch",
+    "displayName": "Mobile bolt notch",
+    "description": "Smartphone with a pill at the top and a lightning bolt on the screen.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "charging",
+      "battery",
+      "power"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone charging"
+    }
+  },
+  "new-icon-set-01-p0351": {
+    "name": "MobileRingButton",
+    "displayName": "Mobile ring button",
+    "description": "Smartphone with a pill at the bottom and sound arcs on its right side.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "ringing",
+      "vibrate",
+      "calling"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone ringing"
+    }
+  },
+  "new-icon-set-01-p0352": {
+    "name": "MobileRingNotch",
+    "displayName": "Mobile ring notch",
+    "description": "Smartphone with a pill at the top and sound arcs on its right side.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "ringing",
+      "vibrate",
+      "calling"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone ringing"
+    }
+  },
+  "new-icon-set-01-p0353": {
+    "name": "MobileUserNotch",
+    "displayName": "Mobile user notch",
+    "description": "Smartphone with a pill at the top and a person at the bottom right.",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "phone",
+      "device",
+      "user",
+      "contact",
+      "account",
+      "profile"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Phone contact"
+    }
+  },
+  "new-icon-set-01-p0354": {
+    "name": "Terminal",
+    "displayName": "Terminal",
+    "description": "Command prompt: a chevron pointing right and an underscore.",
+    "tags": [
+      "terminal",
+      "console",
+      "command-line",
+      "shell",
+      "prompt",
+      "code"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Terminal"
+    }
+  },
+  "new-icon-set-01-p0355": {
+    "name": "FileTerminal",
+    "displayName": "File terminal",
+    "description": "Page with a folded top left corner and a command prompt at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "terminal",
+      "script",
+      "shell",
+      "code"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Script file"
+    }
+  },
+  "new-icon-set-01-p0356": {
+    "name": "FileTerminalCut",
+    "displayName": "File terminal cut",
+    "description": "Page with a cut top left corner and a command prompt at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "terminal",
+      "script",
+      "shell",
+      "code"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Script file"
+    }
+  },
+  "new-icon-set-01-p0357": {
+    "name": "TerminalSquare",
+    "displayName": "Terminal square",
+    "description": "Command prompt inside a rounded square.",
+    "tags": [
+      "terminal",
+      "console",
+      "command-line",
+      "shell",
+      "prompt",
+      "code",
+      "window"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Terminal"
+    }
+  },
+  "new-icon-set-01-p0358": {
+    "name": "GitBranch",
+    "displayName": "Git branch",
+    "description": "Vertical line with a node at the bottom and a curved branch to a node at the top right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "branch"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Branch"
+    }
+  },
+  "new-icon-set-01-p0359": {
+    "name": "GitBranchPlus",
+    "displayName": "Git branch plus",
+    "description": "Git branch with a plus sign at the bottom right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "branch",
+      "new-branch",
+      "add"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "New branch"
+    }
+  },
+  "new-icon-set-01-p0360": {
+    "name": "GitBranchPlus2",
+    "displayName": "Git branch plus 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "symbol"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "New branch"
+    },
+    "hold": "same drawing as p0359 (GitBranchPlus) in this file"
+  },
+  "new-icon-set-01-p0361": {
+    "name": "GitCommit",
+    "displayName": "Git commit",
+    "description": "Vertical line with a node in the middle.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "commit"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Commit"
+    }
+  },
+  "new-icon-set-01-p0362": {
+    "name": "GitCommitHorizontal",
+    "displayName": "Git commit horizontal",
+    "description": "Horizontal line with a node in the middle.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "commit"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Commit"
+    }
+  },
+  "new-icon-set-01-p0363": {
+    "name": "GitCompare",
+    "displayName": "Git compare",
+    "description": "Two branches side by side, each line with a node at one end.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "compare",
+      "diff"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compare"
+    }
+  },
+  "new-icon-set-01-p0364": {
+    "name": "GitPullRequestX",
+    "displayName": "Git pull request X",
+    "description": "Pull request with an X above the left line and a bent line to a node on the right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "pull-request",
+      "closed",
+      "rejected"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Closed pull request"
+    }
+  },
+  "new-icon-set-01-p0365": {
+    "name": "GitMergeBend",
+    "displayName": "Git merge bend",
+    "description": "Node at the top left joined by a bent line to a node at the bottom right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "merge",
+      "path"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Merge"
+    }
+  },
+  "new-icon-set-01-p0366": {
+    "name": "GitCompareArrows",
+    "displayName": "Git compare arrows",
+    "description": "Two nodes joined by two bent lines with arrows going opposite ways.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "compare",
+      "sync",
+      "diff"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Compare"
+    }
+  },
+  "new-icon-set-01-p0367": {
+    "name": "GitFork",
+    "displayName": "Git fork",
+    "description": "Two nodes at the top joined into one node at the bottom.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "fork",
+      "branch"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Fork"
+    }
+  },
+  "new-icon-set-01-p0368": {
+    "name": "GitMerge",
+    "displayName": "Git merge",
+    "description": "Node at the top left with a curved line to a node at the bottom right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "merge"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Merge"
+    }
+  },
+  "new-icon-set-01-p0369": {
+    "name": "GitPullRequest",
+    "displayName": "Git pull request",
+    "description": "Line with a node on the left, and a line with an arrow curving to a node on the right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "pull-request",
+      "review"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pull request"
+    }
+  },
+  "new-icon-set-01-p0370": {
+    "name": "GitPullRequestBare",
+    "displayName": "Git pull request bare",
+    "description": "Line with a node on the left, and a bent line to a node on the right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "pull-request",
+      "review"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pull request"
+    }
+  },
+  "new-icon-set-01-p0371": {
+    "name": "GitPullRequestPlus",
+    "displayName": "Git pull request plus",
+    "description": "Pull request with an arrow on the right and a plus sign at the bottom right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "pull-request",
+      "create",
+      "new",
+      "add"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "New pull request"
+    }
+  },
+  "new-icon-set-01-p0372": {
+    "name": "GitPullRequestPlusBare",
+    "displayName": "Git pull request plus bare",
+    "description": "Line with a node on the left and a bent line ending in a plus sign.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "pull-request",
+      "create",
+      "new",
+      "add"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "New pull request"
+    }
+  },
+  "new-icon-set-01-p0373": {
+    "name": "GitPullRequestDraft",
+    "displayName": "Git pull request draft",
+    "description": "Line with a node on the left and a dashed line above a node on the right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "pull-request",
+      "draft",
+      "wip"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Draft pull request"
+    }
+  },
+  "new-icon-set-01-p0374": {
+    "name": "GitPullRequestClosed",
+    "displayName": "Git pull request closed",
+    "description": "Line with a node on the left and an X above a node on the right.",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "repository",
+      "pull-request",
+      "closed",
+      "rejected"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Closed pull request"
+    }
+  },
+  "new-icon-set-01-p0375": {
+    "name": "Bug",
+    "displayName": "Bug",
+    "description": "Beetle-like bug with antennae, six legs and a line down its back.",
+    "tags": [
+      "bug",
+      "debug",
+      "insect",
+      "error",
+      "beetle"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bug"
+    }
+  },
+  "new-icon-set-01-p0376": {
+    "name": "BugX",
+    "displayName": "Bug X",
+    "description": "Bug with antennae and legs and an X on its body.",
+    "tags": [
+      "bug",
+      "debug",
+      "insect",
+      "error",
+      "fix",
+      "failed"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bug error"
+    }
+  },
+  "new-icon-set-01-p0377": {
+    "name": "BugPlay",
+    "displayName": "Bug play",
+    "description": "Bug with antennae and legs and a play triangle on its body.",
+    "tags": [
+      "bug",
+      "debug",
+      "insect",
+      "error",
+      "run",
+      "test"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Run debugger"
+    }
+  },
+  "new-icon-set-01-p0378": {
+    "name": "Chip",
+    "displayName": "Chip",
+    "description": "Square chip with pins on all four sides and a square core.",
+    "tags": [
+      "chip",
+      "cpu",
+      "processor",
+      "hardware",
+      "microchip"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Processor"
+    }
+  },
+  "new-icon-set-01-p0379": {
+    "name": "ChipLetters",
+    "displayName": "Chip letters",
+    "description": "Square chip with pins on all sides and the letters AI inside.",
+    "tags": [
+      "chip",
+      "cpu",
+      "processor",
+      "hardware",
+      "ai",
+      "artificial-intelligence",
+      "neural"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "AI chip"
+    }
+  },
+  "new-icon-set-01-p0380": {
+    "name": "Memory",
+    "displayName": "Memory",
+    "description": "Vertical memory module with pins on both sides and small marks down the middle.",
+    "tags": [
+      "memory",
+      "ram",
+      "module",
+      "hardware",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Memory"
+    }
+  },
+  "new-icon-set-01-p0381": {
+    "name": "GraphicsCard",
+    "displayName": "Graphics card",
+    "description": "Expansion card with a bracket on the left and connectors along the bottom.",
+    "tags": [
+      "graphics-card",
+      "gpu",
+      "expansion-card",
+      "hardware",
+      "pcie",
+      "video-card"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Graphics card"
+    }
+  },
+  "new-icon-set-01-p0382": {
+    "name": "Binary",
+    "displayName": "Binary",
+    "description": "Digits 1 and 0 on top, 0 and 1 below.",
+    "tags": [
+      "binary",
+      "code",
+      "bits",
+      "data",
+      "digits",
+      "zeros-ones"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Binary"
+    }
+  },
+  "new-icon-set-01-p0383": {
+    "name": "Regex",
+    "displayName": "Regex",
+    "description": "Small square dot at the bottom left and an asterisk at the top right.",
+    "tags": [
+      "regex",
+      "regular-expression",
+      "pattern",
+      "search",
+      "asterisk",
+      "wildcard"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Regex"
+    }
+  },
+  "new-icon-set-01-p0384": {
+    "name": "Variable",
+    "displayName": "Variable",
+    "description": "Italic letter x between round brackets.",
+    "tags": [
+      "variable",
+      "formula",
+      "function",
+      "math",
+      "x",
+      "brackets",
+      "parameter"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Variable"
+    }
+  },
+  "new-icon-set-01-p0385": {
+    "name": "Webhook",
+    "displayName": "Webhook",
+    "description": "Three rings connected in a triangle by curved lines.",
+    "tags": [
+      "webhook",
+      "integration",
+      "api",
+      "connection",
+      "hook",
+      "nodes"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Webhook"
+    }
+  },
+  "new-icon-set-01-p0386": {
+    "name": "WebhookOff",
+    "displayName": "Webhook off",
+    "description": "Webhook symbol with a slash through it.",
+    "tags": [
+      "webhook",
+      "integration",
+      "api",
+      "connection",
+      "disabled",
+      "disconnected",
+      "off"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Webhook off"
+    }
+  },
+  "new-icon-set-01-p0387": {
+    "name": "Router",
+    "displayName": "Router",
+    "description": "Router box with three dots and wifi arcs above it.",
+    "tags": [
+      "router",
+      "wifi",
+      "network",
+      "internet",
+      "modem"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Router"
+    }
+  },
+  "new-icon-set-01-p0388": {
+    "name": "RouterAntenna",
+    "displayName": "Router antenna",
+    "description": "Rounded router with an antenna and signal arcs on both sides.",
+    "tags": [
+      "router",
+      "wifi",
+      "network",
+      "internet",
+      "modem",
+      "antenna",
+      "signal"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Router"
+    }
+  },
+  "new-icon-set-01-p0389": {
+    "name": "Usb",
+    "displayName": "Usb",
+    "description": "USB symbol: a trident with an arrow on top, a circle and a square on its arms.",
+    "tags": [
+      "usb",
+      "connector",
+      "port",
+      "cable",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "USB"
+    }
+  },
+  "new-icon-set-01-p0390": {
+    "name": "UsbPort",
+    "displayName": "Usb port",
+    "description": "Long rounded port with a bar inside: a USB-C connector.",
+    "tags": [
+      "usb-c",
+      "port",
+      "connector",
+      "charging",
+      "type-c",
+      "socket"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "USB-C port"
+    }
+  },
+  "new-icon-set-01-p0391": {
+    "name": "Cable",
+    "displayName": "Cable",
+    "description": "Two audio jack plugs joined by a curving cable.",
+    "tags": [
+      "cable",
+      "audio-jack",
+      "connector",
+      "wire",
+      "jack",
+      "aux",
+      "audio"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cable"
+    }
+  },
+  "new-icon-set-01-p0392": {
+    "name": "Satellite",
+    "displayName": "Satellite",
+    "description": "Satellite with two solar panels and a small dish.",
+    "tags": [
+      "satellite",
+      "space",
+      "orbit",
+      "signal",
+      "gps"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Satellite"
+    }
+  },
+  "new-icon-set-01-p0393": {
+    "name": "SatelliteDish",
+    "displayName": "Satellite dish",
+    "description": "Satellite dish on a tripod with signal arcs at the top right.",
+    "tags": [
+      "satellite-dish",
+      "antenna",
+      "signal",
+      "broadcast",
+      "tv",
+      "receiver"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Satellite dish"
+    }
+  },
+  "new-icon-set-01-p0394": {
+    "name": "SatelliteDishTall",
+    "displayName": "Satellite dish tall",
+    "description": "Satellite dish on a tall pole with a base and a feed horn.",
+    "tags": [
+      "satellite-dish",
+      "antenna",
+      "signal",
+      "broadcast",
+      "observatory",
+      "receiver"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Satellite dish"
+    }
+  },
+  "new-icon-set-01-p0395": {
+    "name": "Radar",
+    "displayName": "Radar",
+    "description": "Concentric circle arcs with a line sweeping from the center.",
+    "tags": [
+      "radar",
+      "scan",
+      "sonar",
+      "detect",
+      "sweep"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Radar"
+    }
+  },
+  "new-icon-set-01-p0396": {
+    "name": "VoicemailBars",
+    "displayName": "Voicemail bars",
+    "description": "Voicemail symbol between a line above and a line below.",
+    "tags": [
+      "voicemail",
+      "message",
+      "tape",
+      "recording",
+      "answering-machine",
+      "cassette",
+      "audio"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Voicemail"
+    }
+  },
+  "new-icon-set-01-p0397": {
+    "name": "RssHigh",
+    "displayName": "Rss high",
+    "description": "Dot with three arcs rising around it to the top right.",
+    "tags": [
+      "rss",
+      "feed",
+      "subscribe",
+      "podcast",
+      "symbol"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "RSS feed"
+    }
+  },
+  "new-icon-set-01-p0398": {
+    "name": "Rss",
+    "displayName": "Rss",
+    "description": "Dot with two arcs rising around it to the top right.",
+    "tags": [
+      "rss",
+      "feed",
+      "subscribe",
+      "podcast",
+      "symbol"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "RSS feed"
+    }
+  },
+  "new-icon-set-01-p0399": {
+    "name": "Contactless",
+    "displayName": "Contactless",
+    "description": "Four arcs growing to the right.",
+    "tags": [
+      "contactless",
+      "nfc",
+      "tap",
+      "wireless",
+      "payment",
+      "signal"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Contactless"
+    }
+  },
+  "new-icon-set-01-p0400": {
+    "name": "ContactlessCard",
+    "displayName": "Contactless card",
+    "description": "Small upright card with two arcs to its right.",
+    "tags": [
+      "contactless",
+      "nfc",
+      "tap",
+      "wireless",
+      "payment",
+      "card",
+      "tap-to-pay"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Contactless payment"
+    }
+  },
+  "new-icon-set-01-p0401": {
+    "name": "DatabaseDense",
+    "displayName": "Database dense",
+    "description": "Database cylinder with three bands.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "cylinder"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Database"
+    }
+  },
+  "new-icon-set-01-p0402": {
+    "name": "Database",
+    "displayName": "Database",
+    "description": "Database cylinder with two bands.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "cylinder"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Database"
+    }
+  },
+  "new-icon-set-01-p0403": {
+    "name": "DatabaseBolt",
+    "displayName": "Database bolt",
+    "description": "Database cylinder with a lightning bolt at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "fast",
+      "cache",
+      "power"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Fast database"
+    }
+  },
+  "new-icon-set-01-p0404": {
+    "name": "DatabaseRefresh",
+    "displayName": "Database refresh",
+    "description": "Database cylinder with a curved arrow at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "restore",
+      "backup",
+      "undo"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Restore database"
+    }
+  },
+  "new-icon-set-01-p0405": {
+    "name": "DatabaseSearch",
+    "displayName": "Database search",
+    "description": "Database cylinder with a magnifier at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "query",
+      "find",
+      "lookup"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search database"
+    }
+  },
+  "new-icon-set-01-p0406": {
+    "name": "DatabaseCheck",
+    "displayName": "Database check",
+    "description": "Database cylinder with a check mark at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "verified",
+      "synced",
+      "done"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Database OK"
+    }
+  },
+  "new-icon-set-01-p0407": {
+    "name": "DatabasePlus",
+    "displayName": "Database plus",
+    "description": "Database cylinder with a plus sign at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "add",
+      "new",
+      "create"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add database"
+    }
+  },
+  "new-icon-set-01-p0408": {
+    "name": "DatabaseMinus",
+    "displayName": "Database minus",
+    "description": "Database cylinder with a minus sign at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "remove"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove database"
+    }
+  },
+  "new-icon-set-01-p0409": {
+    "name": "DatabaseX",
+    "displayName": "Database X",
+    "description": "Database cylinder with an X at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "delete",
+      "error",
+      "remove"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete database"
+    }
+  },
+  "new-icon-set-01-p0410": {
+    "name": "DatabaseX2",
+    "displayName": "Database X 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "symbol"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete database"
+    },
+    "hold": "same drawing as p0409 (DatabaseX) in this file"
+  },
+  "new-icon-set-01-p0411": {
+    "name": "DatabaseArrowDown",
+    "displayName": "Database arrow down",
+    "description": "Database cylinder with an arrow pointing down at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "import",
+      "download"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Import data"
+    }
+  },
+  "new-icon-set-01-p0412": {
+    "name": "DatabaseArrowUp",
+    "displayName": "Database arrow up",
+    "description": "Database cylinder with an arrow pointing up at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "export",
+      "upload"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Export data"
+    }
+  },
+  "new-icon-set-01-p0413": {
+    "name": "DatabaseArrowRight",
+    "displayName": "Database arrow right",
+    "description": "Database cylinder with an arrow pointing right at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "export",
+      "send"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Export data"
+    }
+  },
+  "new-icon-set-01-p0414": {
+    "name": "DatabaseArrowLeft",
+    "displayName": "Database arrow left",
+    "description": "Database cylinder with an arrow pointing left at the bottom right.",
+    "tags": [
+      "database",
+      "storage",
+      "data",
+      "server",
+      "import",
+      "receive"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Import data"
+    }
+  },
+  "new-icon-set-01-p0415": {
+    "name": "FileDatabase",
+    "displayName": "File database",
+    "description": "Page with a folded top left corner and a database cylinder at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "database",
+      "data",
+      "sql"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Database file"
+    }
+  },
+  "new-icon-set-01-p0416": {
+    "name": "FileDatabaseCut",
+    "displayName": "File database cut",
+    "description": "Page with a cut top left corner and a database cylinder at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "database",
+      "data",
+      "sql"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Database file"
+    }
+  },
+  "new-icon-set-01-p0417": {
+    "name": "FileSettings2",
+    "displayName": "File settings 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File settings"
+    },
+    "hold": "near copy of library FileSettings (file-settings.svg): same page and gear, gear a bit smaller"
+  },
+  "new-icon-set-01-p0418": {
+    "name": "FileSettingsCutLeft",
+    "displayName": "File settings cut left",
+    "description": "Page with a cut top left corner and a gear at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "settings",
+      "gear",
+      "config"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File settings"
+    }
+  },
+  "new-icon-set-01-p0419": {
+    "name": "Server",
+    "displayName": "Server",
+    "description": "Two stacked server units, each with a short light line.",
+    "tags": [
+      "server",
+      "hosting",
+      "rack",
+      "data-center",
+      "symbol"
+    ],
+    "categories": [
+      "development",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Server"
+    }
+  },
+  "new-icon-set-01-p0420": {
+    "name": "ServerBars",
+    "displayName": "Server bars",
+    "description": "Wide rounded box with three vertical bars on its right half.",
+    "tags": [
+      "server",
+      "hosting",
+      "rack",
+      "data-center",
+      "drive"
+    ],
+    "categories": [
+      "development",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Server"
+    }
+  },
+  "new-icon-set-01-p0421": {
+    "name": "ServerSettings",
+    "displayName": "Server settings",
+    "description": "Two server units split apart with a gear between them.",
+    "tags": [
+      "server",
+      "hosting",
+      "rack",
+      "data-center",
+      "settings",
+      "gear",
+      "config"
+    ],
+    "categories": [
+      "development",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Server settings"
+    }
+  },
+  "new-icon-set-01-p0422": {
+    "name": "ServerBan",
+    "displayName": "Server ban",
+    "description": "Two server units split apart with a ban sign between them.",
+    "tags": [
+      "server",
+      "hosting",
+      "rack",
+      "data-center",
+      "blocked",
+      "disabled",
+      "offline"
+    ],
+    "categories": [
+      "development",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Server blocked"
+    }
+  },
+  "new-icon-set-01-p0423": {
+    "name": "ServerPlusCircle",
+    "displayName": "Server plus circle",
+    "description": "Two server units split apart with a plus in a circle between them.",
+    "tags": [
+      "server",
+      "hosting",
+      "rack",
+      "data-center",
+      "add",
+      "new",
+      "create"
+    ],
+    "categories": [
+      "development",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add server"
+    }
+  },
+  "new-icon-set-01-p0424": {
+    "name": "ServerBolt",
+    "displayName": "Server bolt",
+    "description": "Two server units split apart with a lightning bolt between them.",
+    "tags": [
+      "server",
+      "hosting",
+      "rack",
+      "data-center",
+      "power",
+      "fast",
+      "electric"
+    ],
+    "categories": [
+      "development",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Server power"
+    }
+  }
+}

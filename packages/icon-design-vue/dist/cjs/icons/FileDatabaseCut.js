@@ -1,0 +1,40 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const FileDatabaseCut = defineComponent({
+  name: 'FileDatabaseCut',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M19 7L19 4C19 2.895 18.105 2 17 2L8.984 2C8.355 2 7.75 2.25 7.305 2.695L3.695 6.305C3.25 6.75 3 7.355 3 7.984L3 20C3 21.105 3.895 22 5 22L8 22"}),
+          h('path', {"d":"M11 12C11 10.895 13.238 10 16 10C18.762 10 21 10.895 21 12C21 13.105 18.762 14 16 14C13.238 14 11 13.105 11 12Z"}),
+          h('path', {"d":"M21 12L21 16C21 17.105 18.762 18 16 18C13.238 18 11 17.105 11 16L11 12"}),
+          h('path', {"d":"M21 16L21 20C21 21.105 18.762 22 16 22C13.238 22 11 21.105 11 20L11 16"})
+        ]
+      );
+  }
+});
+
+module.exports = FileDatabaseCut;
+module.exports.FileDatabaseCut = FileDatabaseCut;
+module.exports.default = FileDatabaseCut;

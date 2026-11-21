@@ -1,0 +1,35 @@
+{
+  "name": "MonitorVolume",
+  "displayName": "Monitor volume",
+  "description": "Computer monitor on a stand with a speaker with sound arcs on the screen.",
+  "tags": [
+    "monitor",
+    "desktop",
+    "computer",
+    "screen",
+    "sound",
+    "audio",
+    "speaker"
+  ],
+  "categories": [
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Sound"
+  },
+  "filename": "monitor-volume",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

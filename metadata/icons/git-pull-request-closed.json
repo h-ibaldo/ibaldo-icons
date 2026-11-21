@@ -1,0 +1,35 @@
+{
+  "name": "GitPullRequestClosed",
+  "displayName": "Git pull request closed",
+  "description": "Line with a node on the left and an X above a node on the right.",
+  "tags": [
+    "git",
+    "version-control",
+    "code",
+    "repository",
+    "pull-request",
+    "closed",
+    "rejected"
+  ],
+  "categories": [
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Closed pull request"
+  },
+  "filename": "git-pull-request-closed",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

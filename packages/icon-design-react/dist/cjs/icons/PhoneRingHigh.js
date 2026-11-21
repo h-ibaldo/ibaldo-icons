@@ -1,0 +1,36 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+
+const PhoneRingHigh = forwardRef(function PhoneRingHigh(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M6.457 19.336L4.637 17.512C3.578 16.453 2.777 15.16 2.305 13.738C1.848 12.367 2.012 10.863 2.758 9.621L3.184 8.906C3.531 8.328 4.16 7.973 4.84 7.973C5.508 7.973 6.133 8.305 6.504 8.863L7.535 10.41C8.203 11.414 7.84 12.773 6.766 13.309L5.91 13.738C6.844 15.609 8.363 17.129 10.234 18.063L10.66 17.207C11.199 16.129 12.559 15.77 13.559 16.438L15.109 17.469C15.664 17.84 16 18.465 16 19.133C16 19.813 15.645 20.438 15.063 20.789L14.352 21.215C13.109 21.961 11.605 22.125 10.234 21.668C8.813 21.195 7.52 20.395 6.457 19.336Z","key":"0"}),
+    createElement('path', {"d":"M11 10C12.656 10 14 11.344 14 13","key":"1"}),
+    createElement('path', {"d":"M11 6C14.867 6 18 9.133 18 13","key":"2"}),
+    createElement('path', {"d":"M11 2C17.074 2 22 6.926 22 13","key":"3"})
+  );
+});
+
+PhoneRingHigh.displayName = 'PhoneRingHigh';
+
+module.exports = PhoneRingHigh;
+module.exports.PhoneRingHigh = PhoneRingHigh;
+module.exports.default = PhoneRingHigh;
