@@ -132,6 +132,30 @@ import Play from '@ibaldo/icons-react/icons/Play';</code></pre>
 
     <p class="mb-4">Both approaches are tree-shakeable. Named imports are preferred.</p>
 
+    <h2 id="mcp" class="font-semibold mb-2 mt-8">AI agents (MCP)</h2>
+
+    <p class="mb-4">Ibaldo Icons has a hosted MCP server, so AI agents like Claude and Cursor can search the library and get the exact icon instead of guessing names. Nothing to install, no key. It is read-only.</p>
+
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>https://ibald.ooo/icons/mcp</code></pre>
+
+    <p class="mb-4">Claude Code:</p>
+
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>claude mcp add --transport http ibaldo-icons https://ibald.ooo/icons/mcp</code></pre>
+
+    <p class="mb-4">Claude.ai and Claude Desktop: Settings → Connectors → Add custom connector, then paste the URL.</p>
+
+    <p class="mb-4">Cursor: add it to <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">.cursor/mcp.json</code>.</p>
+
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>&#123;
+  "mcpServers": &#123;
+    "ibaldo-icons": &#123; "url": "https://ibald.ooo/icons/mcp" &#125;
+  &#125;
+&#125;</code></pre>
+
+    <p class="mb-4">Tools: <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">search_icons</code> finds icons from plain words, <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">get_icon</code> returns the SVG or the import code for each package, <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">list_variants</code> lists every version of one icon family (all bells, for example), and <code class="text-lg bg-gray-100 px-1.5 py-0.5 rounded">list_categories</code> lists the categories. Old icon names still work and point to the current name.</p>
+
+    <p class="mb-4">Try asking: “Add a notification bell with a clock to the header, using Ibaldo Icons.”</p>
+
     <h2 class="font-semibold mb-2 mt-8">NPM</h2>
 
     <p class="mb-4">
