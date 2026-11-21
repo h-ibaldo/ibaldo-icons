@@ -421,6 +421,14 @@
   $: filteredIcons, size, typeof window !== 'undefined' && onScrollOrResize();
 
   $: totalIcons = allIcons.length;
+  // How many icons the search box searches: all of them, or only those in the
+  // selected categories (an icon in two selected categories counts once)
+  $: searchableCount = selectedCategories.length
+    ? allIcons.filter((icon) => {
+        const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
+        return iconCats.some((c) => selectedCategories.includes(c));
+      }).length
+    : totalIcons;
   $: categoryCounts = allIcons.reduce((counts, icon) => {
     for (const c of icon.categories || []) counts[c] = (counts[c] || 0) + 1;
     return counts;
@@ -699,7 +707,7 @@
   {/if}
 </div>
 
-<ActionsBar bind:search bind:size bind:weight bind:color={iconColor} bind:selectedCategories {totalIcons} {categories} {categoryCounts} />
+<ActionsBar bind:search bind:size bind:weight bind:color={iconColor} bind:selectedCategories {totalIcons} {searchableCount} {categories} {categoryCounts} />
 <div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden mobile-content" id="main-content" tabindex="-1">
 
   <div class="mb-8">

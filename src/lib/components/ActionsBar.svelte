@@ -17,6 +17,8 @@
     export let size = 48;
     export let weight = 1;
     export let totalIcons = 0;
+    // Icons the search covers: the selected categories, or all icons
+    export let searchableCount = 0;
     export let categories = [];
     // Several categories can be selected; an icon shows if it is in any of them
     export let selectedCategories = [];
@@ -724,7 +726,7 @@
                 id="icon-search"
                 bind:this={searchInput}
                 type="text"
-                placeholder={totalIcons > 0 ? `Search ${totalIcons.toLocaleString('en-US')} icons...` : 'Search icons...'}
+                placeholder={(searchableCount || totalIcons) > 0 ? `Search ${(searchableCount || totalIcons).toLocaleString('en-US')} icons...` : 'Search icons...'}
                 bind:value={search}
                 onkeydown={(e) => { if (e.key === 'Escape') closeSearch(); }}
                 class="search-input"
