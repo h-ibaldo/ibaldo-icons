@@ -20,7 +20,7 @@
 
     <p class="mb-8">
         Missing an icon? Ask for it in public.<br>
-        Requests are posts on X, and the most-liked ones get drawn first.
+        Requests are posts on X.
     </p>
 
     <h2 class="mb-2 font-semibold">How it works</h2>
@@ -28,7 +28,7 @@
     <ol class="list-decimal list-inside mb-8">
         <li>Follow <a class="hover:text-indigo-500 underline" href="https://x.com/{HANDLE}" target="_blank" rel="noopener">@{HANDLE}</a> on X</li>
         <li>Post your request with <span class="font-semibold">#{HASHTAG}</span> (the button below writes it for you)</li>
-        <li>When it ships, you get a reply with the icon and your name in the credits</li>
+        <li>When it ships, you get a reply with the icon</li>
     </ol>
 
     <form class="request-form mb-8" on:submit|preventDefault={() => window.open(postUrl, '_blank', 'noopener')}>
