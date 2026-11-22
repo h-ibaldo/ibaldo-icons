@@ -1,5 +1,5 @@
 <script>
-    import CircleCrescent from '$icons/CircleCrescent.svelte';
+    import MoonRound from '$icons/MoonRound.svelte';
     import Sun from '$icons/Sun.svelte';
     import X from '$icons/X.svelte';
     import { onMount } from 'svelte';
@@ -336,7 +336,7 @@
                 <Sun size={18} aria-hidden="true" />
             {:else}
                 <!-- moon -->
-                <CircleCrescent size={18} aria-hidden="true" />
+                <MoonRound size={18} aria-hidden="true" />
             {/if}
         </button>
 
@@ -423,7 +423,7 @@
             {#if $theme === 'dark'}
                 <Sun size={18} aria-hidden="true" /> Light mode
             {:else}
-                <CircleCrescent size={18} aria-hidden="true" /> Dark mode
+                <MoonRound size={18} aria-hidden="true" /> Dark mode
             {/if}
         </button>
     </nav>
