@@ -1,0 +1,6725 @@
+{
+  "new-icon-set-02-p0001": {
+    "name": "FileMusic",
+    "displayName": "File music",
+    "description": "Page with a folded top right corner and a music note at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "music",
+      "audio",
+      "song",
+      "mp3"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Audio file"
+    }
+  },
+  "new-icon-set-02-p0002": {
+    "name": "FileMusicCut",
+    "displayName": "File music cut",
+    "description": "Page with a cut top right corner and a music note at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "music",
+      "audio",
+      "song",
+      "mp3"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Audio file"
+    }
+  },
+  "new-icon-set-02-p0003": {
+    "name": "FileMusicDouble",
+    "displayName": "File music double",
+    "description": "Page with a folded top right corner and a double music note at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "music",
+      "audio",
+      "song",
+      "playlist"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Audio file"
+    }
+  },
+  "new-icon-set-02-p0004": {
+    "name": "FileMusicDoubleCut",
+    "displayName": "File music double cut",
+    "description": "Page with a cut top right corner and a double music note at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "music",
+      "audio",
+      "song",
+      "playlist"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Audio file"
+    }
+  },
+  "new-icon-set-02-p0005": {
+    "name": "FileVideo",
+    "displayName": "File video",
+    "description": "Page with a folded top right corner and a video camera at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "video",
+      "movie",
+      "mp4",
+      "recording"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Video file"
+    }
+  },
+  "new-icon-set-02-p0006": {
+    "name": "FileVideoCut",
+    "displayName": "File video cut",
+    "description": "Page with a cut top right corner and a video camera at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "video",
+      "movie",
+      "mp4",
+      "recording"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Video file"
+    }
+  },
+  "new-icon-set-02-p0007": {
+    "name": "FileFilm",
+    "displayName": "File film",
+    "description": "Page with a folded top right corner and a film strip at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "film",
+      "video",
+      "movie",
+      "reel"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Video file"
+    }
+  },
+  "new-icon-set-02-p0008": {
+    "name": "FileFilmCut",
+    "displayName": "File film cut",
+    "description": "Page with a cut top right corner and a film strip at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "film",
+      "video",
+      "movie",
+      "reel"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Video file"
+    }
+  },
+  "new-icon-set-02-p0009": {
+    "name": "FileGrid",
+    "displayName": "File grid",
+    "description": "Page with a folded top right corner and a 3×2 grid at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "spreadsheet",
+      "sheet",
+      "excel",
+      "csv",
+      "cells"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spreadsheet"
+    }
+  },
+  "new-icon-set-02-p0010": {
+    "name": "FileGridCut",
+    "displayName": "File grid cut",
+    "description": "Page with a cut top right corner and a 3×2 grid at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "spreadsheet",
+      "sheet",
+      "excel",
+      "csv",
+      "cells"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spreadsheet"
+    }
+  },
+  "new-icon-set-02-p0011": {
+    "name": "FileTable",
+    "displayName": "File table",
+    "description": "Page with a folded top right corner and a 2×2 table at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "table",
+      "spreadsheet",
+      "data",
+      "cells"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Table file"
+    }
+  },
+  "new-icon-set-02-p0012": {
+    "name": "FileTableCut",
+    "displayName": "File table cut",
+    "description": "Page with a cut top right corner and a 2×2 table at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "table",
+      "spreadsheet",
+      "data",
+      "cells"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Table file"
+    }
+  },
+  "new-icon-set-02-p0013": {
+    "name": "FileLetters",
+    "displayName": "File letters",
+    "description": "Page with a folded top right corner and a letter T at the bottom.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "text",
+      "type",
+      "font",
+      "txt"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "new-icon-set-02-p0014": {
+    "name": "FileLettersCut",
+    "displayName": "File letters cut",
+    "description": "Page with a cut top right corner and a letter T at the bottom.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "text",
+      "type",
+      "font",
+      "txt"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "new-icon-set-02-p0015": {
+    "name": "FileChartAxis",
+    "displayName": "File chart axis",
+    "description": "Page with a folded top right corner and a line chart with axes at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "chart",
+      "report",
+      "analytics",
+      "graph"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Chart file"
+    }
+  },
+  "new-icon-set-02-p0016": {
+    "name": "FileChartAxisCut",
+    "displayName": "File chart axis cut",
+    "description": "Page with a cut top right corner and a line chart with axes at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "chart",
+      "report",
+      "analytics",
+      "graph"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Chart file"
+    }
+  },
+  "new-icon-set-02-p0017": {
+    "name": "FileChartBarCorner",
+    "displayName": "File chart bar corner",
+    "description": "Page with a folded top right corner and three bars breaking its bottom right corner.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "chart",
+      "report",
+      "analytics",
+      "stats"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Chart file"
+    }
+  },
+  "new-icon-set-02-p0018": {
+    "name": "FileChartBarCornerCut",
+    "displayName": "File chart bar corner cut",
+    "description": "Page with a cut top right corner and three bars breaking its bottom right corner.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "chart",
+      "report",
+      "analytics",
+      "stats"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Chart file"
+    }
+  },
+  "new-icon-set-02-p0019": {
+    "name": "FileZip",
+    "displayName": "File zip",
+    "description": "Page with a folded top right corner and a zipper down the middle.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "zip",
+      "archive",
+      "compressed",
+      "rar"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Archive"
+    }
+  },
+  "new-icon-set-02-p0020": {
+    "name": "FileZipCut",
+    "displayName": "File zip cut",
+    "description": "Page with a cut top right corner and a zipper down the middle.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "zip",
+      "archive",
+      "compressed",
+      "rar"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Archive"
+    }
+  },
+  "new-icon-set-02-p0021": {
+    "name": "FileKey",
+    "displayName": "File key",
+    "description": "Page with a folded top right corner and a key at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "key",
+      "password",
+      "private",
+      "secret"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Key file"
+    }
+  },
+  "new-icon-set-02-p0022": {
+    "name": "FileKeyCut",
+    "displayName": "File key cut",
+    "description": "Page with a cut top right corner and a key at the bottom right.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "key",
+      "password",
+      "private",
+      "secret"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Key file"
+    }
+  },
+  "new-icon-set-02-p0023": {
+    "name": "FolderLock",
+    "displayName": "Folder lock",
+    "description": "Folder with a padlock at the bottom right.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "locked",
+      "private",
+      "secure"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked folder"
+    }
+  },
+  "new-icon-set-02-p0024": {
+    "name": "FolderClockCorner",
+    "displayName": "Folder clock corner",
+    "description": "Folder with a clock over its bottom right corner.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "recent",
+      "history",
+      "time"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Recent folder"
+    }
+  },
+  "new-icon-set-02-p0025": {
+    "name": "FolderArrowLeft",
+    "displayName": "Folder arrow left",
+    "description": "Folder with an arrow pointing left coming in through its right side.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "import",
+      "input",
+      "move-in"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move into folder"
+    }
+  },
+  "new-icon-set-02-p0026": {
+    "name": "FolderArrowRight",
+    "displayName": "Folder arrow right",
+    "description": "Folder with an arrow pointing right going out through its right side.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "export",
+      "output",
+      "move-out"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move out of folder"
+    }
+  },
+  "new-icon-set-02-p0027": {
+    "name": "FolderArrowUp",
+    "displayName": "Folder arrow up",
+    "description": "Folder with an arrow pointing up through its bottom.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "upload",
+      "up"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload folder"
+    }
+  },
+  "new-icon-set-02-p0028": {
+    "name": "FolderArrowDown",
+    "displayName": "Folder arrow down",
+    "description": "Folder with an arrow pointing down through its bottom.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "download",
+      "down"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download folder"
+    }
+  },
+  "new-icon-set-02-p0029": {
+    "name": "UserWide",
+    "displayName": "User wide",
+    "description": "Person: a round head above wide rounded shoulders.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "symbol"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User"
+    }
+  },
+  "new-icon-set-02-p0030": {
+    "name": "User",
+    "displayName": "User",
+    "description": "Person: a round head above narrow rounded shoulders.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "symbol"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User"
+    }
+  },
+  "new-icon-set-02-p0031": {
+    "name": "UserSquareWide",
+    "displayName": "User square wide",
+    "description": "Person with wide shoulders inside a rounded square.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "avatar",
+      "contact"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User"
+    }
+  },
+  "new-icon-set-02-p0032": {
+    "name": "UserCircleWide",
+    "displayName": "User circle wide",
+    "description": "Person with wide shoulders inside a circle.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "avatar",
+      "contact"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User"
+    }
+  },
+  "new-icon-set-02-p0033": {
+    "name": "UserSquare",
+    "displayName": "User square",
+    "description": "Person with narrow shoulders inside a rounded square.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "avatar",
+      "contact"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User"
+    }
+  },
+  "new-icon-set-02-p0034": {
+    "name": "UserCircle",
+    "displayName": "User circle",
+    "description": "Person with narrow shoulders inside a circle.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "avatar",
+      "contact"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User"
+    }
+  },
+  "new-icon-set-02-p0035": {
+    "name": "UserCheckWide",
+    "displayName": "User check wide",
+    "description": "Person with wide shoulders and a check mark at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "verified",
+      "approved",
+      "confirmed"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User verified"
+    }
+  },
+  "new-icon-set-02-p0036": {
+    "name": "UserCheck",
+    "displayName": "User check",
+    "description": "Person with narrow shoulders and a check mark at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "verified",
+      "approved",
+      "confirmed"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User verified"
+    }
+  },
+  "new-icon-set-02-p0037": {
+    "name": "UserPlusWide",
+    "displayName": "User plus wide",
+    "description": "Person with wide shoulders and a plus sign at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "add",
+      "invite",
+      "new"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add user"
+    }
+  },
+  "new-icon-set-02-p0038": {
+    "name": "UserPlus",
+    "displayName": "User plus",
+    "description": "Person with narrow shoulders and a plus sign at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "add",
+      "invite",
+      "new"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add user"
+    }
+  },
+  "new-icon-set-02-p0039": {
+    "name": "UserMinusWide",
+    "displayName": "User minus wide",
+    "description": "Person with wide shoulders and a minus sign at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "remove",
+      "delete"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove user"
+    }
+  },
+  "new-icon-set-02-p0040": {
+    "name": "UserMinus",
+    "displayName": "User minus",
+    "description": "Person with narrow shoulders and a minus sign at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "remove",
+      "delete"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove user"
+    }
+  },
+  "new-icon-set-02-p0041": {
+    "name": "UserXWide",
+    "displayName": "User X wide",
+    "description": "Person with wide shoulders and an X at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "remove",
+      "block",
+      "delete"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove user"
+    }
+  },
+  "new-icon-set-02-p0042": {
+    "name": "UserX",
+    "displayName": "User X",
+    "description": "Person with narrow shoulders and an X at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "remove",
+      "block",
+      "delete"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove user"
+    }
+  },
+  "new-icon-set-02-p0043": {
+    "name": "UserClockWide",
+    "displayName": "User clock wide",
+    "description": "Person with wide shoulders and a clock at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "pending",
+      "waiting",
+      "history"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pending user"
+    }
+  },
+  "new-icon-set-02-p0044": {
+    "name": "UserClock",
+    "displayName": "User clock",
+    "description": "Person with narrow shoulders and a clock at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "pending",
+      "waiting",
+      "history"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pending user"
+    }
+  },
+  "new-icon-set-02-p0045": {
+    "name": "UserArrowLeftWide",
+    "displayName": "User arrow left wide",
+    "description": "Person with wide shoulders and an arrow pointing left at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "incoming",
+      "import"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User in"
+    }
+  },
+  "new-icon-set-02-p0046": {
+    "name": "UserArrowLeft",
+    "displayName": "User arrow left",
+    "description": "Person with narrow shoulders and an arrow pointing left at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "incoming",
+      "import"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User in"
+    }
+  },
+  "new-icon-set-02-p0047": {
+    "name": "UserArrowRightWide",
+    "displayName": "User arrow right wide",
+    "description": "Person with wide shoulders and an arrow pointing right at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "outgoing",
+      "share"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User out"
+    }
+  },
+  "new-icon-set-02-p0048": {
+    "name": "UserArrowRight",
+    "displayName": "User arrow right",
+    "description": "Person with narrow shoulders and an arrow pointing right at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "outgoing",
+      "share"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User out"
+    }
+  },
+  "new-icon-set-02-p0049": {
+    "name": "UserArrowRightCenterWide",
+    "displayName": "User arrow right center wide",
+    "description": "Person with wide shoulders and an arrow pointing right across the shoulders.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "login",
+      "enter"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User in"
+    }
+  },
+  "new-icon-set-02-p0050": {
+    "name": "UserArrowRightCenter",
+    "displayName": "User arrow right center",
+    "description": "Person with narrow shoulders and an arrow pointing right across the shoulders.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "login",
+      "enter"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User in"
+    }
+  },
+  "new-icon-set-02-p0051": {
+    "name": "UserArrowLeftCenterWide",
+    "displayName": "User arrow left center wide",
+    "description": "Person with wide shoulders and an arrow pointing left across the shoulders.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "logout",
+      "leave"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User out"
+    }
+  },
+  "new-icon-set-02-p0052": {
+    "name": "UserArrowLeftCenter",
+    "displayName": "User arrow left center",
+    "description": "Person with narrow shoulders and an arrow pointing left across the shoulders.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "logout",
+      "leave"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User out"
+    }
+  },
+  "new-icon-set-02-p0053": {
+    "name": "UserArrowUpWide",
+    "displayName": "User arrow up wide",
+    "description": "Person with wide shoulders and an arrow pointing up through the shoulders.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "upload",
+      "promote"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User up"
+    }
+  },
+  "new-icon-set-02-p0054": {
+    "name": "UserArrowDown",
+    "displayName": "User arrow down",
+    "description": "Person with narrow shoulders and an arrow pointing down through the shoulders.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "download",
+      "demote"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User down"
+    }
+  },
+  "new-icon-set-02-p0055": {
+    "name": "UserCheckWide2",
+    "displayName": "User check wide 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "symbol"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User verified"
+    },
+    "hold": "same drawing as p0035 (UserCheckWide) in this file"
+  },
+  "new-icon-set-02-p0056": {
+    "name": "UserCheck2",
+    "displayName": "User check 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "symbol"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User verified"
+    },
+    "hold": "same drawing as p0036 (UserCheck) in this file"
+  },
+  "new-icon-set-02-p0057": {
+    "name": "FolderKey",
+    "displayName": "Folder key",
+    "description": "Folder with a key at the bottom right.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "key",
+      "password",
+      "private"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Folder key"
+    }
+  },
+  "new-icon-set-02-p0058": {
+    "name": "FolderSearch",
+    "displayName": "Folder search",
+    "description": "Folder with a magnifier at the bottom right.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "search",
+      "find",
+      "browse"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search folder"
+    }
+  },
+  "new-icon-set-02-p0059": {
+    "name": "FolderGit",
+    "displayName": "Folder git",
+    "description": "Folder with a git branch at the bottom right.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "git",
+      "repository",
+      "code",
+      "branch"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Repository"
+    }
+  },
+  "new-icon-set-02-p0060": {
+    "name": "FolderHeart",
+    "displayName": "Folder heart",
+    "description": "Folder with a heart at the bottom right.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "favorite",
+      "love",
+      "liked"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite folder"
+    }
+  },
+  "new-icon-set-02-p0061": {
+    "name": "FolderSync",
+    "displayName": "Folder sync",
+    "description": "Folder with two curved arrows at the bottom right.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "sync",
+      "refresh",
+      "backup"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync folder"
+    }
+  },
+  "new-icon-set-02-p0062": {
+    "name": "FolderTree",
+    "displayName": "Folder tree",
+    "description": "Small folder at the top left with lines branching to two folders below.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "tree",
+      "structure",
+      "hierarchy",
+      "subfolders"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Folder tree"
+    }
+  },
+  "new-icon-set-02-p0063": {
+    "name": "FolderUser",
+    "displayName": "Folder user",
+    "description": "Folder with a person at the bottom right.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "user",
+      "shared",
+      "personal",
+      "home"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User folder"
+    }
+  },
+  "new-icon-set-02-p0064": {
+    "name": "FolderClock",
+    "displayName": "Folder clock",
+    "description": "Folder with a clock at the bottom right.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "recent",
+      "history",
+      "time"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Recent folder"
+    }
+  },
+  "new-icon-set-02-p0065": {
+    "name": "FolderArrowRightCorner",
+    "displayName": "Folder arrow right corner",
+    "description": "Folder with an arrow pointing right at its bottom right corner.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "export",
+      "output",
+      "move"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move folder"
+    }
+  },
+  "new-icon-set-02-p0066": {
+    "name": "FolderArrowLeftCorner",
+    "displayName": "Folder arrow left corner",
+    "description": "Folder with an arrow pointing left at its bottom right corner.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "import",
+      "input",
+      "move"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move folder"
+    }
+  },
+  "new-icon-set-02-p0067": {
+    "name": "FolderArrowUpCorner",
+    "displayName": "Folder arrow up corner",
+    "description": "Folder with an arrow pointing up at its bottom right corner.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "upload",
+      "up"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload folder"
+    }
+  },
+  "new-icon-set-02-p0068": {
+    "name": "FolderArrowDownCorner",
+    "displayName": "Folder arrow down corner",
+    "description": "Folder with an arrow pointing down at its bottom right corner.",
+    "tags": [
+      "folder",
+      "directory",
+      "files",
+      "download",
+      "down"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download folder"
+    }
+  },
+  "new-icon-set-02-p0069": {
+    "name": "UserSettingsWide",
+    "displayName": "User settings wide",
+    "description": "Person with wide shoulders and a gear at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "settings",
+      "preferences"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User settings"
+    }
+  },
+  "new-icon-set-02-p0070": {
+    "name": "UserSettings",
+    "displayName": "User settings",
+    "description": "Person with narrow shoulders and a gear at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "settings",
+      "preferences"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User settings"
+    }
+  },
+  "new-icon-set-02-p0071": {
+    "name": "UserEditWide",
+    "displayName": "User edit wide",
+    "description": "Person with wide shoulders and a pencil at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "edit",
+      "change"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit user"
+    }
+  },
+  "new-icon-set-02-p0072": {
+    "name": "UserEdit",
+    "displayName": "User edit",
+    "description": "Person with narrow shoulders and a pencil at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "edit",
+      "change"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit user"
+    }
+  },
+  "new-icon-set-02-p0073": {
+    "name": "UserSearchWide",
+    "displayName": "User search wide",
+    "description": "Person with wide shoulders and a magnifier at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "search",
+      "find",
+      "lookup"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Find user"
+    }
+  },
+  "new-icon-set-02-p0074": {
+    "name": "UserSearch",
+    "displayName": "User search",
+    "description": "Person with narrow shoulders and a magnifier at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "search",
+      "find",
+      "lookup"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Find user"
+    }
+  },
+  "new-icon-set-02-p0075": {
+    "name": "UserStarWide",
+    "displayName": "User star wide",
+    "description": "Person with wide shoulders and a star at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "favorite",
+      "vip",
+      "starred"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite user"
+    }
+  },
+  "new-icon-set-02-p0076": {
+    "name": "UserStar",
+    "displayName": "User star",
+    "description": "Person with narrow shoulders and a star at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "favorite",
+      "vip",
+      "starred"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite user"
+    }
+  },
+  "new-icon-set-02-p0077": {
+    "name": "UserLockWide",
+    "displayName": "User lock wide",
+    "description": "Person with wide shoulders and a padlock at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "locked",
+      "private",
+      "secure"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked user"
+    }
+  },
+  "new-icon-set-02-p0078": {
+    "name": "UserLock",
+    "displayName": "User lock",
+    "description": "Person with narrow shoulders and a padlock at the bottom right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "locked",
+      "private",
+      "secure"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked user"
+    }
+  },
+  "new-icon-set-02-p0079": {
+    "name": "UserGroup",
+    "displayName": "User group",
+    "description": "Person in the middle with the outlines of two more people on the sides.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "team",
+      "group",
+      "users",
+      "people"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Group"
+    }
+  },
+  "new-icon-set-02-p0080": {
+    "name": "UserGroupContour",
+    "displayName": "User group contour",
+    "description": "Three people drawn as one continuous overlapping outline.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "team",
+      "group",
+      "users",
+      "people"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Group"
+    }
+  },
+  "new-icon-set-02-p0081": {
+    "name": "UserStack",
+    "displayName": "User stack",
+    "description": "Three overlapping people, one in front of two.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "team",
+      "group",
+      "users",
+      "people"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Group"
+    }
+  },
+  "new-icon-set-02-p0082": {
+    "name": "UserThree",
+    "displayName": "User three",
+    "description": "Three separate small people, two on top and one below.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "team",
+      "group",
+      "users",
+      "people"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Group"
+    }
+  },
+  "new-icon-set-02-p0083": {
+    "name": "RouterLock",
+    "displayName": "Router lock",
+    "description": "Router box with a diagonal antenna, a padlock and a small signal ray.",
+    "tags": [
+      "router",
+      "wifi",
+      "network",
+      "modem",
+      "lock",
+      "secure",
+      "password",
+      "wifi-lock"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Secure router"
+    }
+  },
+  "new-icon-set-02-p0084": {
+    "name": "RouterAntennaLock",
+    "displayName": "Router antenna lock",
+    "description": "Rounded router with an antenna and a padlock above it.",
+    "tags": [
+      "router",
+      "wifi",
+      "network",
+      "modem",
+      "lock",
+      "secure",
+      "password",
+      "wifi-lock"
+    ],
+    "categories": [
+      "devices",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Secure router"
+    }
+  },
+  "new-icon-set-02-p0085": {
+    "name": "BookCheck",
+    "displayName": "Book check",
+    "description": "Book with a check mark on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "done",
+      "read",
+      "finished"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Book read"
+    }
+  },
+  "new-icon-set-02-p0086": {
+    "name": "BookCheckCurved",
+    "displayName": "Book check curved",
+    "description": "Book with a curved spine and pages, and a check mark on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "done",
+      "read",
+      "finished"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Book read"
+    }
+  },
+  "new-icon-set-02-p0087": {
+    "name": "BookPlus",
+    "displayName": "Book plus",
+    "description": "Book with a plus sign on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add book"
+    }
+  },
+  "new-icon-set-02-p0088": {
+    "name": "BookPlusCurved",
+    "displayName": "Book plus curved",
+    "description": "Book with a curved spine and pages, and a plus sign on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add book"
+    }
+  },
+  "new-icon-set-02-p0089": {
+    "name": "BookMinus",
+    "displayName": "Book minus",
+    "description": "Book with a minus sign on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "remove"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove book"
+    }
+  },
+  "new-icon-set-02-p0090": {
+    "name": "BookMinusCurved",
+    "displayName": "Book minus curved",
+    "description": "Book with a curved spine and pages, and a minus sign on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "remove"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove book"
+    }
+  },
+  "new-icon-set-02-p0091": {
+    "name": "BookX",
+    "displayName": "Book X",
+    "description": "Book with an X on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "remove",
+      "delete"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove book"
+    }
+  },
+  "new-icon-set-02-p0092": {
+    "name": "BookXCurved",
+    "displayName": "Book X curved",
+    "description": "Book with a curved spine and pages, and an X on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "remove",
+      "delete"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove book"
+    }
+  },
+  "new-icon-set-02-p0093": {
+    "name": "BookAlert",
+    "displayName": "Book alert",
+    "description": "Book with an exclamation mark on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "alert",
+      "warning",
+      "important"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Book alert"
+    }
+  },
+  "new-icon-set-02-p0094": {
+    "name": "BookAlertCurved",
+    "displayName": "Book alert curved",
+    "description": "Book with a curved spine and pages, and a short vertical line at the top of the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "alert",
+      "warning",
+      "important"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Book alert"
+    }
+  },
+  "new-icon-set-02-p0095": {
+    "name": "BookLock",
+    "displayName": "Book lock",
+    "description": "Book with a padlock on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "locked",
+      "private"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked book"
+    }
+  },
+  "new-icon-set-02-p0096": {
+    "name": "BookLockCurved",
+    "displayName": "Book lock curved",
+    "description": "Book with a curved spine and pages, and a padlock on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "locked",
+      "private"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked book"
+    }
+  },
+  "new-icon-set-02-p0097": {
+    "name": "BookKey",
+    "displayName": "Book key",
+    "description": "Book with a key on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "key",
+      "password",
+      "access"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Book key"
+    }
+  },
+  "new-icon-set-02-p0098": {
+    "name": "BookKeyCurved",
+    "displayName": "Book key curved",
+    "description": "Book with a curved spine and pages, and a key on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "key",
+      "password",
+      "access"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Book key"
+    }
+  },
+  "new-icon-set-02-p0099": {
+    "name": "BookSearch",
+    "displayName": "Book search",
+    "description": "Book with a magnifier on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "search",
+      "find",
+      "lookup"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search books"
+    }
+  },
+  "new-icon-set-02-p0100": {
+    "name": "BookSearchCurved",
+    "displayName": "Book search curved",
+    "description": "Book with a curved spine and pages, and a magnifier on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "search",
+      "find",
+      "lookup"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search books"
+    }
+  },
+  "new-icon-set-02-p0101": {
+    "name": "BookNote",
+    "displayName": "Book note",
+    "description": "Book with a sticky note with a curled corner over the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "note",
+      "sticky-note",
+      "copy"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Book note"
+    }
+  },
+  "new-icon-set-02-p0102": {
+    "name": "BookNoteCurved",
+    "displayName": "Book note curved",
+    "description": "Book with a curved spine and pages, and a sticky note with a curled corner over the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "note",
+      "sticky-note",
+      "copy"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Book note"
+    }
+  },
+  "new-icon-set-02-p0103": {
+    "name": "BookHeadphones",
+    "displayName": "Book headphones",
+    "description": "Book with headphones on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "audiobook",
+      "listen",
+      "audio"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Audiobook"
+    }
+  },
+  "new-icon-set-02-p0104": {
+    "name": "BookHeadphonesCurved",
+    "displayName": "Book headphones curved",
+    "description": "Book with a curved spine and pages, and headphones on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "audiobook",
+      "listen",
+      "audio"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Audiobook"
+    }
+  },
+  "new-icon-set-02-p0105": {
+    "name": "BookArrowUp",
+    "displayName": "Book arrow up",
+    "description": "Book with an arrow pointing up on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "upload",
+      "up"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload book"
+    }
+  },
+  "new-icon-set-02-p0106": {
+    "name": "BookArrowUpCurved",
+    "displayName": "Book arrow up curved",
+    "description": "Book with a curved spine and pages, and an arrow pointing up on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "upload",
+      "up"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload book"
+    }
+  },
+  "new-icon-set-02-p0107": {
+    "name": "BookArrowDown",
+    "displayName": "Book arrow down",
+    "description": "Book with an arrow pointing down on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "download",
+      "down"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download book"
+    }
+  },
+  "new-icon-set-02-p0108": {
+    "name": "BookArrowDownCurved",
+    "displayName": "Book arrow down curved",
+    "description": "Book with a curved spine and pages, and an arrow pointing down on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "download",
+      "down"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download book"
+    }
+  },
+  "new-icon-set-02-p0109": {
+    "name": "BookArrowLeft",
+    "displayName": "Book arrow left",
+    "description": "Book with an arrow pointing left on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "back",
+      "return"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Return book"
+    }
+  },
+  "new-icon-set-02-p0110": {
+    "name": "BookArrowLeftCurved",
+    "displayName": "Book arrow left curved",
+    "description": "Book with a curved spine and pages, and an arrow pointing left on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "back",
+      "return"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Return book"
+    }
+  },
+  "new-icon-set-02-p0111": {
+    "name": "BookArrowRight",
+    "displayName": "Book arrow right",
+    "description": "Book with an arrow pointing right on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "next",
+      "lend"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Lend book"
+    }
+  },
+  "new-icon-set-02-p0112": {
+    "name": "BookArrowRightCurved",
+    "displayName": "Book arrow right curved",
+    "description": "Book with a curved spine and pages, and an arrow pointing right on the cover.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "next",
+      "lend"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Lend book"
+    }
+  },
+  "new-icon-set-02-p0113": {
+    "name": "BookStackOverlap",
+    "displayName": "Book stack overlap",
+    "description": "Book with the edge of a second book overlapping its top right.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "manual",
+      "books",
+      "copy"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Books"
+    }
+  },
+  "new-icon-set-02-p0114": {
+    "name": "ListChevronLeft",
+    "displayName": "List chevron left",
+    "description": "Three lines with a chevron pointing left beside the middle one.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "indent-decrease",
+      "outdent"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Decrease indent"
+    }
+  },
+  "new-icon-set-02-p0115": {
+    "name": "ListChevronRight",
+    "displayName": "List chevron right",
+    "description": "Three lines with a chevron pointing right beside the middle one.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "indent-increase",
+      "indent"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Increase indent"
+    }
+  },
+  "new-icon-set-02-p0116": {
+    "name": "ListChevronUpDown",
+    "displayName": "List chevron up down",
+    "description": "Three lines with a chevron up at the top and a chevron down at the bottom.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "expand",
+      "unfold"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Expand list"
+    }
+  },
+  "new-icon-set-02-p0117": {
+    "name": "ListChevronDownUp",
+    "displayName": "List chevron down up",
+    "description": "Three lines with chevrons pointing toward the middle.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "collapse",
+      "fold"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Collapse list"
+    }
+  },
+  "new-icon-set-02-p0118": {
+    "name": "FilterLinesShort",
+    "displayName": "Filter lines short",
+    "description": "Three centered lines getting shorter from top to bottom.",
+    "tags": [
+      "filter",
+      "lines",
+      "sort",
+      "refine",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Filter"
+    }
+  },
+  "new-icon-set-02-p0119": {
+    "name": "FilterLinesPlus",
+    "displayName": "Filter lines plus",
+    "description": "Three lines getting shorter with a plus at the top right.",
+    "tags": [
+      "filter",
+      "lines",
+      "sort",
+      "refine",
+      "add-filter",
+      "plus"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add filter"
+    }
+  },
+  "new-icon-set-02-p0120": {
+    "name": "MenuDescendingWide",
+    "displayName": "Menu descending wide",
+    "description": "Three wide left-aligned lines getting shorter from top to bottom.",
+    "tags": [
+      "lines",
+      "text",
+      "list",
+      "align",
+      "sort",
+      "text-align-left"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Menu"
+    }
+  },
+  "new-icon-set-02-p0121": {
+    "name": "MenuDescendingRight",
+    "displayName": "Menu descending right",
+    "description": "Three right-aligned lines getting shorter from top to bottom.",
+    "tags": [
+      "lines",
+      "text",
+      "list",
+      "align",
+      "sort",
+      "text-align-right"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Menu"
+    }
+  },
+  "new-icon-set-02-p0122": {
+    "name": "FilterLinesSplit",
+    "displayName": "Filter lines split",
+    "description": "Three centered lines getting shorter, the top one split in two.",
+    "tags": [
+      "filter",
+      "lines",
+      "sort",
+      "refine",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Filter"
+    }
+  },
+  "new-icon-set-02-p0123": {
+    "name": "ListTree",
+    "displayName": "List tree",
+    "description": "Three lines joined on the left by a branching tree line.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "tree",
+      "hierarchy",
+      "nested"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tree list"
+    }
+  },
+  "new-icon-set-02-p0124": {
+    "name": "ListArrowBendUp",
+    "displayName": "List arrow bend up",
+    "description": "Three lines with an arrow bending up from the right end of the bottom line.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "list-start",
+      "move-up",
+      "wrap"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move to top"
+    }
+  },
+  "new-icon-set-02-p0125": {
+    "name": "ListArrowBendDownLeft",
+    "displayName": "List arrow bend down left",
+    "description": "Three lines with an arrow bending down and left back to the bottom line.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "list-end",
+      "wrap-text",
+      "return"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wrap text"
+    }
+  },
+  "new-icon-set-02-p0126": {
+    "name": "ListPlus",
+    "displayName": "List plus",
+    "description": "Three lines with a plus sign at the end of the middle line.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "add",
+      "new-item"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to list"
+    }
+  },
+  "new-icon-set-02-p0127": {
+    "name": "MenuSplit",
+    "displayName": "Menu split",
+    "description": "Three lines, the middle one split in two.",
+    "tags": [
+      "lines",
+      "text",
+      "list",
+      "align",
+      "separator"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Menu"
+    }
+  },
+  "new-icon-set-02-p0128": {
+    "name": "ListX",
+    "displayName": "List X",
+    "description": "Three lines with an X at the end of the middle line.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "remove",
+      "clear"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove from list"
+    }
+  },
+  "new-icon-set-02-p0129": {
+    "name": "ListRefresh",
+    "displayName": "List refresh",
+    "description": "Three lines with a curved arrow at the bottom right.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "refresh",
+      "restart",
+      "reload"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Refresh list"
+    }
+  },
+  "new-icon-set-02-p0130": {
+    "name": "ListSync",
+    "displayName": "List sync",
+    "description": "Three lines with two curved arrows at the bottom right.",
+    "tags": [
+      "list",
+      "lines",
+      "items",
+      "sync",
+      "update"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync list"
+    }
+  },
+  "new-icon-set-02-p0131": {
+    "name": "MapPinWide",
+    "displayName": "Map pin wide",
+    "description": "Wide rounded map pin with a large ring inside.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location"
+    }
+  },
+  "new-icon-set-02-p0132": {
+    "name": "MapPinNarrow",
+    "displayName": "Map pin narrow",
+    "description": "Narrow teardrop map pin with a small ring inside.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location"
+    }
+  },
+  "new-icon-set-02-p0133": {
+    "name": "MapPin",
+    "displayName": "Map pin",
+    "description": "Map pin with a small ring inside.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location"
+    }
+  },
+  "new-icon-set-02-p0134": {
+    "name": "MapPinDot",
+    "displayName": "Map pin dot",
+    "description": "Map pin with a dot inside.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location"
+    }
+  },
+  "new-icon-set-02-p0135": {
+    "name": "MapPinRing",
+    "displayName": "Map pin ring",
+    "description": "Map pin with a large ring inside.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location"
+    }
+  },
+  "new-icon-set-02-p0136": {
+    "name": "MapPinNeedle",
+    "displayName": "Map pin needle",
+    "description": "Round pin head on a straight needle.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "needle"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location"
+    }
+  },
+  "new-icon-set-02-p0137": {
+    "name": "MapPinNeedleDot",
+    "displayName": "Map pin needle dot",
+    "description": "Round pin head with a dot on a straight needle.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "needle"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location"
+    }
+  },
+  "new-icon-set-02-p0138": {
+    "name": "MapPinPlus",
+    "displayName": "Map pin plus",
+    "description": "Map pin with a plus sign inside.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "plus"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add location"
+    }
+  },
+  "new-icon-set-02-p0139": {
+    "name": "MapPinMinus",
+    "displayName": "Map pin minus",
+    "description": "Map pin with a minus sign inside.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "minus"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove location"
+    }
+  },
+  "new-icon-set-02-p0140": {
+    "name": "MapPinCheck",
+    "displayName": "Map pin check",
+    "description": "Map pin with a check mark inside.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "check"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location confirmed"
+    }
+  },
+  "new-icon-set-02-p0141": {
+    "name": "MapPinX",
+    "displayName": "Map pin X",
+    "description": "Map pin with an X inside.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "x"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove location"
+    }
+  },
+  "new-icon-set-02-p0142": {
+    "name": "MapPinSearch",
+    "displayName": "Map pin search",
+    "description": "Map pin with a magnifier breaking its right side.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "search",
+      "find-place"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search location"
+    }
+  },
+  "new-icon-set-02-p0143": {
+    "name": "Pushpin",
+    "displayName": "Pushpin",
+    "description": "Diagonal pushpin with a long needle.",
+    "tags": [
+      "pushpin",
+      "pin",
+      "thumbtack",
+      "attach",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pin"
+    }
+  },
+  "new-icon-set-02-p0144": {
+    "name": "MapPinBase",
+    "displayName": "Map pin base",
+    "description": "Map pin with a ring standing on a short base line.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "here",
+      "ground"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location"
+    }
+  },
+  "new-icon-set-02-p0145": {
+    "name": "PushpinVertical",
+    "displayName": "Pushpin vertical",
+    "description": "Upright pushpin with a needle pointing down.",
+    "tags": [
+      "pushpin",
+      "pin",
+      "thumbtack",
+      "attach",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pin"
+    }
+  },
+  "new-icon-set-02-p0146": {
+    "name": "MapPinHouse",
+    "displayName": "Map pin house",
+    "description": "Map pin with a ring and a small house at the bottom right.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "home",
+      "address"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Home location"
+    }
+  },
+  "new-icon-set-02-p0147": {
+    "name": "MapPinPlusCorner",
+    "displayName": "Map pin plus corner",
+    "description": "Map pin with a ring and a plus sign at the bottom right corner.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "plus"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add location"
+    }
+  },
+  "new-icon-set-02-p0148": {
+    "name": "MapPinMinusCorner",
+    "displayName": "Map pin minus corner",
+    "description": "Map pin with a ring and a minus sign at the bottom right corner.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "minus"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove location"
+    }
+  },
+  "new-icon-set-02-p0149": {
+    "name": "MapPinCheckCorner",
+    "displayName": "Map pin check corner",
+    "description": "Map pin with a ring and a check mark at the bottom right corner.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "check"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location confirmed"
+    }
+  },
+  "new-icon-set-02-p0150": {
+    "name": "MapPinXCorner",
+    "displayName": "Map pin X corner",
+    "description": "Map pin with a ring and an X at the bottom right corner.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "x"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove location"
+    }
+  },
+  "new-icon-set-02-p0151": {
+    "name": "MapPinOff",
+    "displayName": "Map pin off",
+    "description": "Map pin with a slash through it.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "disabled",
+      "off"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Location off"
+    }
+  },
+  "new-icon-set-02-p0152": {
+    "name": "PushpinOff",
+    "displayName": "Pushpin off",
+    "description": "Diagonal pushpin with a slash through it.",
+    "tags": [
+      "pushpin",
+      "pin",
+      "thumbtack",
+      "attach",
+      "unpin",
+      "off"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unpin"
+    }
+  },
+  "new-icon-set-02-p0153": {
+    "name": "PushpinOffVertical",
+    "displayName": "Pushpin off vertical",
+    "description": "Upright pushpin with a slash through it.",
+    "tags": [
+      "pushpin",
+      "pin",
+      "thumbtack",
+      "attach",
+      "unpin",
+      "off"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unpin"
+    }
+  },
+  "new-icon-set-02-p0154": {
+    "name": "MapPinEdit",
+    "displayName": "Map pin edit",
+    "description": "Map pin with a ring and a pencil at the bottom right.",
+    "tags": [
+      "map-pin",
+      "location",
+      "place",
+      "marker",
+      "map",
+      "edit",
+      "change-address"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit location"
+    }
+  },
+  "new-icon-set-02-p0155": {
+    "name": "TrendUp",
+    "displayName": "Trend up",
+    "description": "Zigzag line rising to an arrow at the top right.",
+    "tags": [
+      "trend",
+      "chart",
+      "stocks",
+      "growth",
+      "analytics",
+      "trending-up",
+      "increase"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trending up"
+    }
+  },
+  "new-icon-set-02-p0156": {
+    "name": "TrendDown",
+    "displayName": "Trend down",
+    "description": "Zigzag line falling to an arrow at the bottom right.",
+    "tags": [
+      "trend",
+      "chart",
+      "stocks",
+      "growth",
+      "analytics",
+      "trending-down",
+      "decrease"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trending down"
+    }
+  },
+  "new-icon-set-02-p0157": {
+    "name": "TrendUpDown",
+    "displayName": "Trend up down",
+    "description": "Zigzag line rising to an arrow, with a second arrow branching down-right.",
+    "tags": [
+      "trend",
+      "chart",
+      "stocks",
+      "growth",
+      "analytics",
+      "volatile",
+      "up-down"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trend"
+    }
+  },
+  "new-icon-set-02-p0158": {
+    "name": "TrendDownSmall",
+    "displayName": "Trend down small",
+    "description": "Small zigzag line falling to an arrow at the bottom right.",
+    "tags": [
+      "trend",
+      "chart",
+      "stocks",
+      "growth",
+      "analytics",
+      "trending-down",
+      "decrease"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trending down"
+    }
+  },
+  "new-icon-set-02-p0159": {
+    "name": "TrendUpDownSmall",
+    "displayName": "Trend up down small",
+    "description": "Small zigzag line rising to an arrow, with a second arrow branching down-right.",
+    "tags": [
+      "trend",
+      "chart",
+      "stocks",
+      "growth",
+      "analytics",
+      "volatile",
+      "up-down"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Trend"
+    }
+  },
+  "new-icon-set-02-p0160": {
+    "name": "ChartArea",
+    "displayName": "Chart area",
+    "description": "Area chart: a filled zigzag shape on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "area"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Area chart"
+    }
+  },
+  "new-icon-set-02-p0161": {
+    "name": "ChartAxisGrid",
+    "displayName": "Chart axis grid",
+    "description": "Two axes with a vertical and a horizontal line crossing inside.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "grid",
+      "axes",
+      "quadrant"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Chart grid"
+    }
+  },
+  "new-icon-set-02-p0162": {
+    "name": "RadarBroken",
+    "displayName": "Radar broken",
+    "description": "Radar with broken rings and a sweep line from the center.",
+    "tags": [
+      "radar",
+      "scan",
+      "sonar",
+      "detect",
+      "sweep"
+    ],
+    "categories": [
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Radar"
+    }
+  },
+  "new-icon-set-02-p0163": {
+    "name": "ChartRadar",
+    "displayName": "Chart radar",
+    "description": "Radar chart: a pentagon web with a filled shape inside.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "spider",
+      "web"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Radar chart"
+    }
+  },
+  "new-icon-set-02-p0164": {
+    "name": "ChartGantt",
+    "displayName": "Chart gantt",
+    "description": "Gantt chart: three staggered lines on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "gantt",
+      "timeline",
+      "schedule"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gantt chart"
+    }
+  },
+  "new-icon-set-02-p0165": {
+    "name": "ChartGanttBare",
+    "displayName": "Chart gantt bare",
+    "description": "Three staggered horizontal lines without axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "gantt",
+      "timeline",
+      "schedule"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gantt chart"
+    }
+  },
+  "new-icon-set-02-p0166": {
+    "name": "ChartGanttSquare",
+    "displayName": "Chart gantt square",
+    "description": "Three staggered lines inside a rounded square.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "gantt",
+      "timeline",
+      "schedule"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gantt chart"
+    }
+  },
+  "new-icon-set-02-p0167": {
+    "name": "ChartPieSlice",
+    "displayName": "Chart pie slice",
+    "description": "Pie chart with a quarter slice pulled out at the top right.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "pie",
+      "share"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pie chart"
+    }
+  },
+  "new-icon-set-02-p0168": {
+    "name": "ChartSankey",
+    "displayName": "Chart sankey",
+    "description": "Sankey chart: two bars joined by curved flowing bands.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "flow",
+      "sankey"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flow chart"
+    }
+  },
+  "new-icon-set-02-p0169": {
+    "name": "ChartDotsAxis",
+    "displayName": "Chart dots axis",
+    "description": "Line with three dots on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "scatter",
+      "points"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Line chart"
+    }
+  },
+  "new-icon-set-02-p0170": {
+    "name": "ChartSplineAxis",
+    "displayName": "Chart spline axis",
+    "description": "Smooth wave curve on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "spline",
+      "curve"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spline chart"
+    }
+  },
+  "new-icon-set-02-p0171": {
+    "name": "NodesHub",
+    "displayName": "Nodes hub",
+    "description": "Center node with five lines going out to small nodes.",
+    "tags": [
+      "nodes",
+      "network",
+      "connection",
+      "graph",
+      "hub"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Network"
+    }
+  },
+  "new-icon-set-02-p0172": {
+    "name": "NodesRing",
+    "displayName": "Nodes ring",
+    "description": "Three large nodes joined in a ring by curved lines.",
+    "tags": [
+      "nodes",
+      "network",
+      "connection",
+      "graph",
+      "ring",
+      "cycle"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Network"
+    }
+  },
+  "new-icon-set-02-p0173": {
+    "name": "ChartBellAxis",
+    "displayName": "Chart bell axis",
+    "description": "Bell curve on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "bell-curve",
+      "distribution",
+      "normal"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bell curve"
+    }
+  },
+  "new-icon-set-02-p0174": {
+    "name": "Hierarchy",
+    "displayName": "Hierarchy",
+    "description": "Box at the top branching down to two boxes.",
+    "tags": [
+      "hierarchy",
+      "org-chart",
+      "tree",
+      "structure",
+      "sitemap"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hierarchy"
+    }
+  },
+  "new-icon-set-02-p0175": {
+    "name": "UserDouble",
+    "displayName": "User double",
+    "description": "Person in front with a second person partly behind on the right.",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "users",
+      "pair",
+      "people",
+      "team"
+    ],
+    "categories": [
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Users"
+    }
+  },
+  "new-icon-set-02-p0176": {
+    "name": "LayoutTopLeft",
+    "displayName": "Layout top left",
+    "description": "Rounded square with a header row and a left column below it.",
+    "tags": [
+      "layout",
+      "grid",
+      "dashboard",
+      "template",
+      "panels"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layout"
+    }
+  },
+  "new-icon-set-02-p0177": {
+    "name": "SquareThree",
+    "displayName": "Square three",
+    "description": "Three small squares scattered.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "blocks",
+      "shapes"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Squares"
+    }
+  },
+  "new-icon-set-02-p0178": {
+    "name": "SquareDoubleArrowRight",
+    "displayName": "Square double arrow right",
+    "description": "Two squares side by side above an arrow pointing right.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "arrange",
+      "move"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move right"
+    }
+  },
+  "new-icon-set-02-p0179": {
+    "name": "SquareDoubleArrowLeft",
+    "displayName": "Square double arrow left",
+    "description": "Two squares side by side above an arrow pointing left.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "arrange",
+      "move"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move left"
+    }
+  },
+  "new-icon-set-02-p0180": {
+    "name": "SquareDoubleArrowDown",
+    "displayName": "Square double arrow down",
+    "description": "Two stacked squares beside an arrow pointing down.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "arrange",
+      "move"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move down"
+    }
+  },
+  "new-icon-set-02-p0181": {
+    "name": "SquareDoubleArrowUp",
+    "displayName": "Square double arrow up",
+    "description": "Two stacked squares beside an arrow pointing up.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "arrange",
+      "move"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move up"
+    }
+  },
+  "new-icon-set-02-p0182": {
+    "name": "SplitLeftRight",
+    "displayName": "Split left right",
+    "description": "Two bracket halves pulled apart left and right with a dashed line between.",
+    "tags": [
+      "split",
+      "divide",
+      "separate",
+      "layout",
+      "vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Split"
+    }
+  },
+  "new-icon-set-02-p0183": {
+    "name": "SplitUpDown",
+    "displayName": "Split up down",
+    "description": "Two bracket halves pulled apart up and down with a dashed line between.",
+    "tags": [
+      "split",
+      "divide",
+      "separate",
+      "layout",
+      "horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Split"
+    }
+  },
+  "new-icon-set-02-p0184": {
+    "name": "TableColumnsSettings",
+    "displayName": "Table columns settings",
+    "description": "Three-column box with a gear at the bottom right.",
+    "tags": [
+      "table",
+      "columns",
+      "grid",
+      "layout",
+      "settings",
+      "gear",
+      "config"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Column settings"
+    }
+  },
+  "new-icon-set-02-p0185": {
+    "name": "SquareSplitDashedLeft",
+    "displayName": "Square split dashed left",
+    "description": "Rounded square with a dashed vertical line left of center.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "dashed",
+      "divider"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Split"
+    }
+  },
+  "new-icon-set-02-p0186": {
+    "name": "SquareRoundCorner",
+    "displayName": "Square round corner",
+    "description": "Square with one large rounded corner at the top right.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "corner",
+      "radius"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Corner radius"
+    }
+  },
+  "new-icon-set-02-p0187": {
+    "name": "SquareSplitDashedRight",
+    "displayName": "Square split dashed right",
+    "description": "Rounded square with a dashed vertical line right of center.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "dashed",
+      "divider"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Split"
+    }
+  },
+  "new-icon-set-02-p0188": {
+    "name": "SquareDashed",
+    "displayName": "Square dashed",
+    "description": "Rounded square with a dashed outline.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "dashed",
+      "selection"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Selection"
+    }
+  },
+  "new-icon-set-02-p0189": {
+    "name": "SquareSplitDashedBottom",
+    "displayName": "Square split dashed bottom",
+    "description": "Rounded square with a dashed horizontal line below center.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "dashed",
+      "divider"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Split"
+    }
+  },
+  "new-icon-set-02-p0190": {
+    "name": "SquareColumnsThreeDashed",
+    "displayName": "Square columns three dashed",
+    "description": "Rounded square split into three columns by dashed lines.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "dashed",
+      "columns"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Columns"
+    }
+  },
+  "new-icon-set-02-p0191": {
+    "name": "SquareRowsThreeDashed",
+    "displayName": "Square rows three dashed",
+    "description": "Rounded square split into three rows by dashed lines.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "dashed",
+      "rows"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Rows"
+    }
+  },
+  "new-icon-set-02-p0192": {
+    "name": "SquareDashedX",
+    "displayName": "Square dashed X",
+    "description": "Dashed rounded square with an X in the middle.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "dashed",
+      "remove",
+      "clear"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clear selection"
+    }
+  },
+  "new-icon-set-02-p0193": {
+    "name": "SquareDashedXCorner",
+    "displayName": "Square dashed X corner",
+    "description": "Dashed rounded square with an X at the bottom right corner.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "dashed",
+      "remove",
+      "clear"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clear selection"
+    }
+  },
+  "new-icon-set-02-p0194": {
+    "name": "AlignSquareFrame",
+    "displayName": "Align square frame",
+    "description": "Small square with a bar on each of its four sides.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "center",
+      "frame"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align center"
+    }
+  },
+  "new-icon-set-02-p0195": {
+    "name": "AlignSquareBottom",
+    "displayName": "Align square bottom",
+    "description": "Small square sitting above a line.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "bottom"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align bottom"
+    }
+  },
+  "new-icon-set-02-p0196": {
+    "name": "AlignSquareTop",
+    "displayName": "Align square top",
+    "description": "Small square hanging below a line.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "top"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align top"
+    }
+  },
+  "new-icon-set-02-p0197": {
+    "name": "AlignSquareLeft",
+    "displayName": "Align square left",
+    "description": "Small square to the right of a vertical line.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "left"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align left"
+    }
+  },
+  "new-icon-set-02-p0198": {
+    "name": "AlignSquareRight",
+    "displayName": "Align square right",
+    "description": "Small square to the left of a vertical line.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "right"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align right"
+    }
+  },
+  "new-icon-set-02-p0199": {
+    "name": "AlignSquareCenterHorizontal",
+    "displayName": "Align square center horizontal",
+    "description": "Small square between two vertical lines.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "center",
+      "horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Center horizontally"
+    }
+  },
+  "new-icon-set-02-p0200": {
+    "name": "AlignSquareCenterVertical",
+    "displayName": "Align square center vertical",
+    "description": "Small square between two horizontal lines.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "center",
+      "vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Center vertically"
+    }
+  },
+  "new-icon-set-02-p0201": {
+    "name": "SquareInsetDashed",
+    "displayName": "Square inset dashed",
+    "description": "Rounded square with a dashed inner square.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "inset",
+      "padding"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Padding"
+    }
+  },
+  "new-icon-set-02-p0202": {
+    "name": "PanelBottomDash",
+    "displayName": "Panel bottom dash",
+    "description": "Rounded square with a short line near the bottom.",
+    "tags": [
+      "panel",
+      "layout",
+      "side",
+      "window",
+      "edge"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Panel"
+    }
+  },
+  "new-icon-set-02-p0203": {
+    "name": "PanelTopDash",
+    "displayName": "Panel top dash",
+    "description": "Rounded square with a short line near the top.",
+    "tags": [
+      "panel",
+      "layout",
+      "side",
+      "window",
+      "edge"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Panel"
+    }
+  },
+  "new-icon-set-02-p0204": {
+    "name": "PanelLeftDash",
+    "displayName": "Panel left dash",
+    "description": "Rounded square with a short line near the left side.",
+    "tags": [
+      "panel",
+      "layout",
+      "side",
+      "window",
+      "edge"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Panel"
+    }
+  },
+  "new-icon-set-02-p0205": {
+    "name": "PanelRightDash",
+    "displayName": "Panel right dash",
+    "description": "Rounded square with a short line near the right side.",
+    "tags": [
+      "panel",
+      "layout",
+      "side",
+      "window",
+      "edge"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Panel"
+    }
+  },
+  "new-icon-set-02-p0206": {
+    "name": "PanelTopBottomDash",
+    "displayName": "Panel top bottom dash",
+    "description": "Rounded square with short lines near the top and bottom.",
+    "tags": [
+      "panel",
+      "layout",
+      "side",
+      "window",
+      "edge"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Panel"
+    }
+  },
+  "new-icon-set-02-p0207": {
+    "name": "PanelLeftRightDash",
+    "displayName": "Panel left right dash",
+    "description": "Rounded square with short lines near both sides.",
+    "tags": [
+      "panel",
+      "layout",
+      "side",
+      "window",
+      "edge"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Panel"
+    }
+  },
+  "new-icon-set-02-p0208": {
+    "name": "AlignLeftBars",
+    "displayName": "Align left bars",
+    "description": "Two short lines and two long bars, all aligned to the left.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "left",
+      "text"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align left"
+    }
+  },
+  "new-icon-set-02-p0209": {
+    "name": "DockDash",
+    "displayName": "Dock dash",
+    "description": "Wide rectangle with a short line at the bottom center.",
+    "tags": [
+      "dock",
+      "window",
+      "screen",
+      "taskbar",
+      "minimize"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dock"
+    }
+  },
+  "new-icon-set-02-p0210": {
+    "name": "DockBar",
+    "displayName": "Dock bar",
+    "description": "Wide rectangle with a long line along the bottom.",
+    "tags": [
+      "dock",
+      "window",
+      "screen",
+      "taskbar",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dock"
+    }
+  },
+  "new-icon-set-02-p0211": {
+    "name": "DockCorner",
+    "displayName": "Dock corner",
+    "description": "Wide rectangle with a corner mark at the bottom right.",
+    "tags": [
+      "dock",
+      "window",
+      "screen",
+      "taskbar",
+      "picture-in-picture"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dock"
+    }
+  },
+  "new-icon-set-02-p0212": {
+    "name": "DockCornerOff",
+    "displayName": "Dock corner off",
+    "description": "Wide rectangle with a corner mark and a slash through it.",
+    "tags": [
+      "dock",
+      "window",
+      "screen",
+      "taskbar",
+      "off",
+      "disabled"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dock off"
+    }
+  },
+  "new-icon-set-02-p0213": {
+    "name": "LayoutListLines",
+    "displayName": "Layout list lines",
+    "description": "Two squares on the left, each with two lines beside it.",
+    "tags": [
+      "layout",
+      "grid",
+      "dashboard",
+      "template",
+      "list",
+      "media-list"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List layout"
+    }
+  },
+  "new-icon-set-02-p0214": {
+    "name": "LayoutPanelTopUneven",
+    "displayName": "Layout panel top uneven",
+    "description": "Wide box on top with a wide and a narrow box below.",
+    "tags": [
+      "layout",
+      "grid",
+      "dashboard",
+      "template",
+      "panels"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layout"
+    }
+  },
+  "new-icon-set-02-p0215": {
+    "name": "LayoutPanelTop",
+    "displayName": "Layout panel top",
+    "description": "Wide box on top with two equal boxes below.",
+    "tags": [
+      "layout",
+      "grid",
+      "dashboard",
+      "template",
+      "panels"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layout"
+    }
+  },
+  "new-icon-set-02-p0216": {
+    "name": "LayoutPanelLeft",
+    "displayName": "Layout panel left",
+    "description": "Tall box on the left with two boxes stacked on the right.",
+    "tags": [
+      "layout",
+      "grid",
+      "dashboard",
+      "template",
+      "panels"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layout"
+    }
+  },
+  "new-icon-set-02-p0217": {
+    "name": "GridCircle",
+    "displayName": "Grid circle",
+    "description": "Four circles in a 2×2 grid.",
+    "tags": [
+      "grid",
+      "layout",
+      "apps",
+      "tiles",
+      "dots"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Grid"
+    }
+  },
+  "new-icon-set-02-p0218": {
+    "name": "GridPlus",
+    "displayName": "Grid plus",
+    "description": "Three squares in a 2×2 grid with a plus in the fourth spot.",
+    "tags": [
+      "grid",
+      "layout",
+      "apps",
+      "tiles",
+      "add"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to grid"
+    }
+  },
+  "new-icon-set-02-p0219": {
+    "name": "LayoutBlocks",
+    "displayName": "Layout blocks",
+    "description": "Three joined squares with a fourth square split off at the top right.",
+    "tags": [
+      "layout",
+      "grid",
+      "dashboard",
+      "template",
+      "blocks",
+      "add-on",
+      "modules"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Blocks"
+    }
+  },
+  "new-icon-set-02-p0220": {
+    "name": "ArrowCornersOut",
+    "displayName": "Arrow corners out",
+    "description": "Four arrows pointing out to the corners.",
+    "tags": [
+      "arrow",
+      "resize",
+      "expand",
+      "scale",
+      "maximize",
+      "fullscreen"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Maximize"
+    }
+  },
+  "new-icon-set-02-p0221": {
+    "name": "ArrowDiagonalOut",
+    "displayName": "Arrow diagonal out",
+    "description": "Two arrows pointing out to the top right and bottom left.",
+    "tags": [
+      "arrow",
+      "resize",
+      "expand",
+      "scale",
+      "maximize"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Expand"
+    }
+  },
+  "new-icon-set-02-p0222": {
+    "name": "ArrowDiagonalOutLeft",
+    "displayName": "Arrow diagonal out left",
+    "description": "Two arrows pointing out to the top left and bottom right.",
+    "tags": [
+      "arrow",
+      "resize",
+      "expand",
+      "scale",
+      "maximize"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Expand"
+    }
+  },
+  "new-icon-set-02-p0223": {
+    "name": "SidebarChevronLeft",
+    "displayName": "Sidebar chevron left",
+    "description": "Rounded square with a left column and a chevron pointing left.",
+    "tags": [
+      "sidebar",
+      "panel",
+      "layout",
+      "navigation",
+      "collapse",
+      "close-panel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Collapse sidebar"
+    }
+  },
+  "new-icon-set-02-p0224": {
+    "name": "SidebarChevronRight",
+    "displayName": "Sidebar chevron right",
+    "description": "Rounded square with a right column and a chevron pointing right.",
+    "tags": [
+      "sidebar",
+      "panel",
+      "layout",
+      "navigation",
+      "collapse",
+      "close-panel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Collapse sidebar"
+    }
+  },
+  "new-icon-set-02-p0225": {
+    "name": "SidebarLeftBare",
+    "displayName": "Sidebar left bare",
+    "description": "Rounded square with a vertical divider near the left.",
+    "tags": [
+      "sidebar",
+      "panel",
+      "layout",
+      "navigation",
+      "panel-left"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sidebar"
+    }
+  },
+  "new-icon-set-02-p0226": {
+    "name": "SidebarRightBare",
+    "displayName": "Sidebar right bare",
+    "description": "Rounded square with a vertical divider near the right.",
+    "tags": [
+      "sidebar",
+      "panel",
+      "layout",
+      "navigation",
+      "panel-right"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sidebar"
+    }
+  },
+  "new-icon-set-02-p0227": {
+    "name": "FullscreenCorners",
+    "displayName": "Fullscreen corners",
+    "description": "Four sharp corner brackets pointing out.",
+    "tags": [
+      "fullscreen",
+      "expand",
+      "corners",
+      "focus",
+      "maximize"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Fullscreen"
+    }
+  },
+  "new-icon-set-02-p0228": {
+    "name": "ArrowDiagonalIn",
+    "displayName": "Arrow diagonal in",
+    "description": "Two arrows pointing in from the top right and bottom left.",
+    "tags": [
+      "arrow",
+      "resize",
+      "expand",
+      "scale",
+      "minimize",
+      "shrink"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Shrink"
+    }
+  },
+  "new-icon-set-02-p0229": {
+    "name": "ArrowDiagonalInLeft",
+    "displayName": "Arrow diagonal in left",
+    "description": "Two arrows pointing in from the top left and bottom right.",
+    "tags": [
+      "arrow",
+      "resize",
+      "expand",
+      "scale",
+      "minimize",
+      "shrink"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Shrink"
+    }
+  },
+  "new-icon-set-02-p0230": {
+    "name": "Circle2",
+    "displayName": "Circle 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "circle",
+      "shape",
+      "round",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Circle"
+    },
+    "hold": "same as library CheckboxCircle (plain circle)"
+  },
+  "new-icon-set-02-p0231": {
+    "name": "LayerStackOpenTwo",
+    "displayName": "Layer stack open two",
+    "description": "Two layers: a diamond on top of an open chevron.",
+    "tags": [
+      "layers",
+      "stack",
+      "levels",
+      "design",
+      "two"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "new-icon-set-02-p0232": {
+    "name": "LayerStackTwo",
+    "displayName": "Layer stack two",
+    "description": "Two closed diamond layers, one on top of the other.",
+    "tags": [
+      "layers",
+      "stack",
+      "levels",
+      "design",
+      "two"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Layers"
+    }
+  },
+  "new-icon-set-02-p0233": {
+    "name": "ScanSquare",
+    "displayName": "Scan square",
+    "description": "Four corner brackets around a small rectangle.",
+    "tags": [
+      "scan",
+      "scanner",
+      "focus",
+      "frame",
+      "object"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan"
+    }
+  },
+  "new-icon-set-02-p0234": {
+    "name": "ScanSquareStack",
+    "displayName": "Scan square stack",
+    "description": "Four corner brackets around two overlapping squares.",
+    "tags": [
+      "scan",
+      "scanner",
+      "focus",
+      "frame",
+      "group",
+      "objects"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan"
+    }
+  },
+  "new-icon-set-02-p0235": {
+    "name": "LayerStackOpenPlus",
+    "displayName": "Layer stack open plus",
+    "description": "Three open layers with a plus at the bottom right.",
+    "tags": [
+      "layers",
+      "stack",
+      "levels",
+      "design",
+      "add"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add layer"
+    }
+  },
+  "new-icon-set-02-p0236": {
+    "name": "Ruler",
+    "displayName": "Ruler",
+    "description": "Horizontal ruler with tick marks.",
+    "tags": [
+      "ruler",
+      "measure",
+      "length",
+      "size",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ruler"
+    }
+  },
+  "new-icon-set-02-p0237": {
+    "name": "RulerMeasure",
+    "displayName": "Ruler measure",
+    "description": "Ruler with a dimension line above it.",
+    "tags": [
+      "ruler",
+      "measure",
+      "length",
+      "size",
+      "dimension",
+      "width"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Measure"
+    }
+  },
+  "new-icon-set-02-p0238": {
+    "name": "RulerTilted",
+    "displayName": "Ruler tilted",
+    "description": "Tilted ruler with tick marks.",
+    "tags": [
+      "ruler",
+      "measure",
+      "length",
+      "size",
+      "symbol"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ruler"
+    }
+  },
+  "new-icon-set-02-p0239": {
+    "name": "GridNine",
+    "displayName": "Grid nine",
+    "description": "Rounded square divided into a 3×3 grid.",
+    "tags": [
+      "grid",
+      "layout",
+      "apps",
+      "tiles",
+      "3x3",
+      "table"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Grid"
+    }
+  },
+  "new-icon-set-02-p0240": {
+    "name": "GalleryTop",
+    "displayName": "Gallery top",
+    "description": "Wide rounded rectangle with two lines above it.",
+    "tags": [
+      "gallery",
+      "carousel",
+      "cards",
+      "slides",
+      "stack",
+      "vertical"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gallery"
+    }
+  },
+  "new-icon-set-02-p0241": {
+    "name": "FunnelPlus",
+    "displayName": "Funnel plus",
+    "description": "Funnel with a plus sign at the top right.",
+    "tags": [
+      "funnel",
+      "filter",
+      "refine",
+      "plus",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add filter"
+    }
+  },
+  "new-icon-set-02-p0242": {
+    "name": "FunnelMinus",
+    "displayName": "Funnel minus",
+    "description": "Funnel with a minus sign at the top right.",
+    "tags": [
+      "funnel",
+      "filter",
+      "refine",
+      "minus",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove filter"
+    }
+  },
+  "new-icon-set-02-p0243": {
+    "name": "FunnelX",
+    "displayName": "Funnel X",
+    "description": "Funnel with an X at the top right.",
+    "tags": [
+      "funnel",
+      "filter",
+      "refine",
+      "x",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clear filter"
+    }
+  },
+  "new-icon-set-02-p0244": {
+    "name": "FullscreenCornersIn",
+    "displayName": "Fullscreen corners in",
+    "description": "Four corner marks pointing in.",
+    "tags": [
+      "fullscreen",
+      "expand",
+      "corners",
+      "focus",
+      "minimize",
+      "exit-fullscreen"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Exit fullscreen"
+    }
+  },
+  "new-icon-set-02-p0245": {
+    "name": "SquareColumnsThree",
+    "displayName": "Square columns three",
+    "description": "Rounded square split into three columns.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "columns",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Columns"
+    }
+  },
+  "new-icon-set-02-p0246": {
+    "name": "SquareRowsThree",
+    "displayName": "Square rows three",
+    "description": "Rounded square split into three rows.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "rows",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Rows"
+    }
+  },
+  "new-icon-set-02-p0247": {
+    "name": "GalleryLeft",
+    "displayName": "Gallery left",
+    "description": "Tall rounded rectangle with two lines to its left.",
+    "tags": [
+      "gallery",
+      "carousel",
+      "cards",
+      "slides",
+      "stack",
+      "horizontal"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gallery"
+    }
+  },
+  "new-icon-set-02-p0248": {
+    "name": "SquareRowsTwo",
+    "displayName": "Square rows two",
+    "description": "Rounded square split into top and bottom halves.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "rows",
+      "halves"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Rows"
+    }
+  },
+  "new-icon-set-02-p0249": {
+    "name": "SquareColumnsTwo",
+    "displayName": "Square columns two",
+    "description": "Rounded square split into left and right halves.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "columns",
+      "halves"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Columns"
+    }
+  },
+  "new-icon-set-02-p0250": {
+    "name": "TablePlus",
+    "displayName": "Table plus",
+    "description": "Square table split into four cells with a plus replacing the bottom right cell.",
+    "tags": [
+      "table",
+      "cells",
+      "grid",
+      "spreadsheet",
+      "add",
+      "cell",
+      "row"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add cell"
+    }
+  },
+  "new-icon-set-02-p0251": {
+    "name": "SortDownWideNarrow",
+    "displayName": "Sort down wide narrow",
+    "description": "Arrow pointing down beside three lines getting shorter downward.",
+    "tags": [
+      "sort",
+      "order",
+      "arrange",
+      "list",
+      "descending",
+      "arrow-down-wide-narrow"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sort descending"
+    }
+  },
+  "new-icon-set-02-p0252": {
+    "name": "SortUpWideNarrow",
+    "displayName": "Sort up wide narrow",
+    "description": "Arrow pointing up beside three lines getting shorter downward.",
+    "tags": [
+      "sort",
+      "order",
+      "arrange",
+      "list",
+      "ascending",
+      "arrow-up-wide-narrow"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sort ascending"
+    }
+  },
+  "new-icon-set-02-p0253": {
+    "name": "SortUpNarrowWide",
+    "displayName": "Sort up narrow wide",
+    "description": "Arrow pointing up beside three lines getting longer downward.",
+    "tags": [
+      "sort",
+      "order",
+      "arrange",
+      "list",
+      "ascending",
+      "arrow-up-narrow-wide"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sort ascending"
+    }
+  },
+  "new-icon-set-02-p0254": {
+    "name": "SortDownNarrowWide",
+    "displayName": "Sort down narrow wide",
+    "description": "Arrow pointing down beside three lines getting longer downward.",
+    "tags": [
+      "sort",
+      "order",
+      "arrange",
+      "list",
+      "descending",
+      "arrow-down-narrow-wide"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sort descending"
+    }
+  },
+  "new-icon-set-02-p0255": {
+    "name": "SquareLinesLeft2",
+    "displayName": "Square lines left 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text"
+    },
+    "hold": "same as library SquareLinesLeft"
+  },
+  "new-icon-set-02-p0256": {
+    "name": "FormInputCursorTall",
+    "displayName": "Form input cursor tall",
+    "description": "Tall I-beam text cursor through the left end of an input box.",
+    "tags": [
+      "input",
+      "text-field",
+      "cursor",
+      "form",
+      "text-cursor-input",
+      "caret"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text input"
+    }
+  },
+  "new-icon-set-02-p0257": {
+    "name": "ArrowCornersIn",
+    "displayName": "Arrow corners in",
+    "description": "Four arrows pointing in from the corners.",
+    "tags": [
+      "arrow",
+      "resize",
+      "expand",
+      "scale",
+      "minimize",
+      "shrink",
+      "exit-fullscreen"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Minimize"
+    }
+  },
+  "new-icon-set-02-p0258": {
+    "name": "ChartCandlestickTwoAxis",
+    "displayName": "Chart candlestick two axis",
+    "description": "Two candlesticks on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "candlestick",
+      "stocks",
+      "trading"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Candlestick chart"
+    }
+  },
+  "new-icon-set-02-p0259": {
+    "name": "ChartBarAxisTwo",
+    "displayName": "Chart bar axis two",
+    "description": "Two vertical bars on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "columns",
+      "bar"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bar chart"
+    }
+  },
+  "new-icon-set-02-p0260": {
+    "name": "ChartBarHorizontalAxisTwo",
+    "displayName": "Chart bar horizontal axis two",
+    "description": "Two horizontal bars on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "bar",
+      "horizontal"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bar chart"
+    }
+  },
+  "new-icon-set-02-p0261": {
+    "name": "ChartBarStackedAxis",
+    "displayName": "Chart bar stacked axis",
+    "description": "Two stacked vertical bars on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "stacked",
+      "columns"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stacked chart"
+    }
+  },
+  "new-icon-set-02-p0262": {
+    "name": "ChartBarHorizontalStackedAxis",
+    "displayName": "Chart bar horizontal stacked axis",
+    "description": "Two stacked horizontal bars on two axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "stacked",
+      "horizontal"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stacked chart"
+    }
+  },
+  "new-icon-set-02-p0263": {
+    "name": "PencilRuler",
+    "displayName": "Pencil ruler",
+    "description": "Pencil and ruler crossed in an X.",
+    "tags": [
+      "pencil",
+      "ruler",
+      "design",
+      "draw",
+      "tools",
+      "pencil-ruler"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Design tools"
+    }
+  },
+  "new-icon-set-02-p0264": {
+    "name": "PencilRulerRound",
+    "displayName": "Pencil ruler round",
+    "description": "Pencil with a rounded top crossed with a ruler.",
+    "tags": [
+      "pencil",
+      "ruler",
+      "design",
+      "draw",
+      "tools",
+      "pencil-ruler"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Design tools"
+    }
+  },
+  "new-icon-set-02-p0265": {
+    "name": "SquareSplitTop",
+    "displayName": "Square split top",
+    "description": "Rounded square with a band across the top.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "header",
+      "panel-top"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Top panel"
+    }
+  },
+  "new-icon-set-02-p0266": {
+    "name": "SquareSplitBottom",
+    "displayName": "Square split bottom",
+    "description": "Rounded square with a band across the bottom.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "footer",
+      "panel-bottom"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bottom panel"
+    }
+  },
+  "new-icon-set-02-p0267": {
+    "name": "SquareSplitLeft",
+    "displayName": "Square split left",
+    "description": "Rounded square with a column on the left.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "panel-left",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Left panel"
+    }
+  },
+  "new-icon-set-02-p0268": {
+    "name": "SquareSplitRight",
+    "displayName": "Square split right",
+    "description": "Rounded square with a column on the right.",
+    "tags": [
+      "square",
+      "layout",
+      "shape",
+      "panel-right",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Right panel"
+    }
+  },
+  "new-icon-set-02-p0269": {
+    "name": "ChartCandlestickTwo",
+    "displayName": "Chart candlestick two",
+    "description": "Two candlesticks without axes.",
+    "tags": [
+      "chart",
+      "graph",
+      "analytics",
+      "data",
+      "candlestick",
+      "stocks",
+      "trading"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Candlestick chart"
+    }
+  },
+  "new-icon-set-02-p0270": {
+    "name": "AlignBottom",
+    "displayName": "Align bottom",
+    "description": "Tall and short bar standing on a bottom line.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "bottom",
+      "align-end-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align bottom"
+    }
+  },
+  "new-icon-set-02-p0271": {
+    "name": "AlignTop",
+    "displayName": "Align top",
+    "description": "Tall and short bar hanging from a top line.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "top",
+      "align-start-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align top"
+    }
+  },
+  "new-icon-set-02-p0272": {
+    "name": "DistributeLeft",
+    "displayName": "Distribute left",
+    "description": "Two vertical lines, each with a bar on its right side.",
+    "tags": [
+      "distribute",
+      "align",
+      "spacing",
+      "layout",
+      "align-horizontal-distribute-start"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Distribute left"
+    }
+  },
+  "new-icon-set-02-p0273": {
+    "name": "DistributeRight",
+    "displayName": "Distribute right",
+    "description": "Two vertical lines, each with a bar on its left side.",
+    "tags": [
+      "distribute",
+      "align",
+      "spacing",
+      "layout",
+      "align-horizontal-distribute-end"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Distribute right"
+    }
+  },
+  "new-icon-set-02-p0274": {
+    "name": "DistributeTop",
+    "displayName": "Distribute top",
+    "description": "Two horizontal lines, each with a bar hanging below it.",
+    "tags": [
+      "distribute",
+      "align",
+      "spacing",
+      "layout",
+      "align-vertical-distribute-start"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Distribute top"
+    }
+  },
+  "new-icon-set-02-p0275": {
+    "name": "DistributeBottom",
+    "displayName": "Distribute bottom",
+    "description": "Two horizontal lines, each with a bar standing on it.",
+    "tags": [
+      "distribute",
+      "align",
+      "spacing",
+      "layout",
+      "align-vertical-distribute-end"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Distribute bottom"
+    }
+  },
+  "new-icon-set-02-p0276": {
+    "name": "JustifyBetweenHorizontal",
+    "displayName": "Justify between horizontal",
+    "description": "A vertical line between a tall bar and a short bar.",
+    "tags": [
+      "justify",
+      "align",
+      "spacing",
+      "layout",
+      "align-horizontal-space-between"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Space between"
+    }
+  },
+  "new-icon-set-02-p0277": {
+    "name": "JustifyRight",
+    "displayName": "Justify right",
+    "description": "Tall bar and short bar in a row against a line on the right.",
+    "tags": [
+      "justify",
+      "align",
+      "spacing",
+      "layout",
+      "align-horizontal-justify-end"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Justify right"
+    }
+  },
+  "new-icon-set-02-p0278": {
+    "name": "JustifyCenter",
+    "displayName": "Justify center",
+    "description": "One bar between two vertical lines.",
+    "tags": [
+      "justify",
+      "align",
+      "spacing",
+      "layout",
+      "align-horizontal-justify-center"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Justify center"
+    }
+  },
+  "new-icon-set-02-p0279": {
+    "name": "AlignLeft2",
+    "displayName": "Align left 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align left"
+    },
+    "hold": "near copy of library AlignLeft (same drawing, a bit smaller)"
+  },
+  "new-icon-set-02-p0280": {
+    "name": "AlignRight2",
+    "displayName": "Align right 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align right"
+    },
+    "hold": "near copy of library AlignRight (same drawing, a bit smaller)"
+  },
+  "new-icon-set-02-p0281": {
+    "name": "AlignCenterHorizontalSplit",
+    "displayName": "Align center horizontal split",
+    "description": "Two vertical bars split above and below a horizontal line.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "center",
+      "align-vertical-justify-center"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align middle"
+    }
+  },
+  "new-icon-set-02-p0282": {
+    "name": "AlignCenterVerticalSplit",
+    "displayName": "Align center vertical split",
+    "description": "Two horizontal bars split left and right of a vertical line.",
+    "tags": [
+      "align",
+      "alignment",
+      "layout",
+      "arrange",
+      "center",
+      "align-horizontal-justify-center"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align center"
+    }
+  },
+  "new-icon-set-02-p0283": {
+    "name": "DistributeCenterVertical",
+    "displayName": "Distribute center vertical",
+    "description": "Two horizontal bars, each crossed by a short centered line.",
+    "tags": [
+      "distribute",
+      "align",
+      "spacing",
+      "layout",
+      "align-vertical-distribute-center"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Distribute center"
+    }
+  },
+  "new-icon-set-02-p0284": {
+    "name": "JustifyBetweenVertical",
+    "displayName": "Justify between vertical",
+    "description": "A horizontal line between a short bar above and a wide bar below.",
+    "tags": [
+      "justify",
+      "align",
+      "spacing",
+      "layout",
+      "align-vertical-space-between"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Space between"
+    }
+  },
+  "new-icon-set-02-p0285": {
+    "name": "JustifyBottom",
+    "displayName": "Justify bottom",
+    "description": "Two bars stacked on a bottom line.",
+    "tags": [
+      "justify",
+      "align",
+      "spacing",
+      "layout",
+      "align-vertical-justify-end"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Justify bottom"
+    }
+  },
+  "new-icon-set-02-p0286": {
+    "name": "JustifyLeft",
+    "displayName": "Justify left",
+    "description": "Tall bar and short bar in a row against a line on the left.",
+    "tags": [
+      "justify",
+      "align",
+      "spacing",
+      "layout",
+      "align-horizontal-justify-start"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Justify left"
+    }
+  },
+  "new-icon-set-02-p0287": {
+    "name": "JustifyTop",
+    "displayName": "Justify top",
+    "description": "Two bars stacked under a top line.",
+    "tags": [
+      "justify",
+      "align",
+      "spacing",
+      "layout",
+      "align-vertical-justify-start"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Justify top"
+    }
+  },
+  "new-icon-set-02-p0288": {
+    "name": "JustifyRightFlipped",
+    "displayName": "Justify right flipped",
+    "description": "Short bar and tall bar in a row against a line on the right.",
+    "tags": [
+      "justify",
+      "align",
+      "spacing",
+      "layout",
+      "align-horizontal-justify-end"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Justify right"
+    }
+  },
+  "new-icon-set-02-p0289": {
+    "name": "DistributeTop2",
+    "displayName": "Distribute top 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "distribute",
+      "align",
+      "spacing",
+      "layout",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Distribute top"
+    },
+    "hold": "same drawing as p0274 (DistributeTop) in this file"
+  },
+  "new-icon-set-02-p0290": {
+    "name": "DistributeBottom2",
+    "displayName": "Distribute bottom 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "distribute",
+      "align",
+      "spacing",
+      "layout",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Distribute bottom"
+    },
+    "hold": "same drawing as p0275 (DistributeBottom) in this file"
+  },
+  "new-icon-set-02-p0291": {
+    "name": "DistributeLeftRight",
+    "displayName": "Distribute left right",
+    "description": "Two vertical lines with bars facing each other between them.",
+    "tags": [
+      "distribute",
+      "align",
+      "spacing",
+      "layout",
+      "align-horizontal-space-around"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Distribute"
+    }
+  },
+  "new-icon-set-02-p0292": {
+    "name": "DistributeTopBottom",
+    "displayName": "Distribute top bottom",
+    "description": "Two horizontal lines with bars facing each other between them.",
+    "tags": [
+      "distribute",
+      "align",
+      "spacing",
+      "layout",
+      "align-vertical-space-around"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Distribute"
+    }
+  },
+  "new-icon-set-02-p0293": {
+    "name": "FlipVerticalDashed",
+    "displayName": "Flip vertical dashed",
+    "description": "Two triangles pointing up and down away from a dashed horizontal line.",
+    "tags": [
+      "flip",
+      "mirror",
+      "reflect",
+      "symmetry",
+      "flip-vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flip"
+    }
+  },
+  "new-icon-set-02-p0294": {
+    "name": "FlipHorizontalDashed",
+    "displayName": "Flip horizontal dashed",
+    "description": "Two triangles pointing left and right away from a dashed vertical line.",
+    "tags": [
+      "flip",
+      "mirror",
+      "reflect",
+      "symmetry",
+      "flip-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flip"
+    }
+  },
+  "new-icon-set-02-p0295": {
+    "name": "FlipVerticalInDashed",
+    "displayName": "Flip vertical in dashed",
+    "description": "Two triangles pointing toward a dashed horizontal line.",
+    "tags": [
+      "flip",
+      "mirror",
+      "reflect",
+      "symmetry",
+      "flip-vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flip"
+    }
+  },
+  "new-icon-set-02-p0296": {
+    "name": "FlipHorizontalInDashed",
+    "displayName": "Flip horizontal in dashed",
+    "description": "Two triangles pointing toward a dashed vertical line.",
+    "tags": [
+      "flip",
+      "mirror",
+      "reflect",
+      "symmetry",
+      "flip-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flip"
+    }
+  },
+  "new-icon-set-02-p0297": {
+    "name": "FlipVerticalIn",
+    "displayName": "Flip vertical in",
+    "description": "Two triangles pointing toward a solid horizontal line.",
+    "tags": [
+      "flip",
+      "mirror",
+      "reflect",
+      "symmetry",
+      "flip-vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flip"
+    }
+  },
+  "new-icon-set-02-p0298": {
+    "name": "FlipHorizontalIn",
+    "displayName": "Flip horizontal in",
+    "description": "Two triangles pointing toward a solid vertical line.",
+    "tags": [
+      "flip",
+      "mirror",
+      "reflect",
+      "symmetry",
+      "flip-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flip"
+    }
+  },
+  "new-icon-set-02-p0299": {
+    "name": "FlipVertical",
+    "displayName": "Flip vertical",
+    "description": "Two triangles pointing up and down away from a solid horizontal line.",
+    "tags": [
+      "flip",
+      "mirror",
+      "reflect",
+      "symmetry",
+      "flip-vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flip"
+    }
+  },
+  "new-icon-set-02-p0300": {
+    "name": "FlipHorizontal",
+    "displayName": "Flip horizontal",
+    "description": "Two triangles pointing left and right away from a solid vertical line.",
+    "tags": [
+      "flip",
+      "mirror",
+      "reflect",
+      "symmetry",
+      "flip-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Flip"
+    }
+  },
+  "new-icon-set-02-p0301": {
+    "name": "StarMinus",
+    "displayName": "Star minus",
+    "description": "Star with a minus sign at the top right.",
+    "tags": [
+      "star",
+      "favorite",
+      "rating",
+      "bookmark",
+      "remove",
+      "unfavorite"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove favorite"
+    }
+  },
+  "new-icon-set-02-p0302": {
+    "name": "StarX",
+    "displayName": "Star X",
+    "description": "Star with an X at the top right.",
+    "tags": [
+      "star",
+      "favorite",
+      "rating",
+      "bookmark",
+      "remove",
+      "unfavorite"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove favorite"
+    }
+  },
+  "new-icon-set-02-p0303": {
+    "name": "StarHalf",
+    "displayName": "Star half",
+    "description": "Left half of a star.",
+    "tags": [
+      "star",
+      "favorite",
+      "rating",
+      "bookmark",
+      "half"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Half star"
+    }
+  },
+  "new-icon-set-02-p0304": {
+    "name": "StarCheck",
+    "displayName": "Star check",
+    "description": "Star with a check mark at the top right.",
+    "tags": [
+      "star",
+      "favorite",
+      "rating",
+      "bookmark",
+      "favorited",
+      "done"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorited"
+    }
+  },
+  "new-icon-set-02-p0305": {
+    "name": "HeartBroken",
+    "displayName": "Heart broken",
+    "description": "Heart with a zigzag crack down the middle.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "broken",
+      "breakup",
+      "sad"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Broken heart"
+    }
+  },
+  "new-icon-set-02-p0306": {
+    "name": "HeartBrokenAngular",
+    "displayName": "Heart broken angular",
+    "description": "Angular heart with a zigzag crack down the middle.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "broken",
+      "breakup",
+      "sad"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Broken heart"
+    }
+  },
+  "new-icon-set-02-p0307": {
+    "name": "HeartBrokenWide",
+    "displayName": "Heart broken wide",
+    "description": "Wide heart with a zigzag crack down the middle.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "broken",
+      "breakup",
+      "sad"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Broken heart"
+    }
+  },
+  "new-icon-set-02-p0308": {
+    "name": "HeartX",
+    "displayName": "Heart X",
+    "description": "Heart with an X at the bottom right.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "unlike",
+      "remove"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unlike"
+    }
+  },
+  "new-icon-set-02-p0309": {
+    "name": "HeartXAngular",
+    "displayName": "Heart X angular",
+    "description": "Angular heart with an X at the bottom right.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "unlike",
+      "remove"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unlike"
+    }
+  },
+  "new-icon-set-02-p0310": {
+    "name": "HeartXWide",
+    "displayName": "Heart X wide",
+    "description": "Wide heart with an X at the bottom right.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "unlike",
+      "remove"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unlike"
+    }
+  },
+  "new-icon-set-02-p0311": {
+    "name": "HeartCheck",
+    "displayName": "Heart check",
+    "description": "Heart with a check mark at the bottom right.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "liked",
+      "done"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Liked"
+    }
+  },
+  "new-icon-set-02-p0312": {
+    "name": "HeartCheckAngular",
+    "displayName": "Heart check angular",
+    "description": "Angular heart with a check mark at the bottom right.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "liked",
+      "done"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Liked"
+    }
+  },
+  "new-icon-set-02-p0313": {
+    "name": "HeartCheckWide",
+    "displayName": "Heart check wide",
+    "description": "Wide heart with a check mark at the bottom right.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "liked",
+      "done"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Liked"
+    }
+  },
+  "new-icon-set-02-p0314": {
+    "name": "HeartHandshake",
+    "displayName": "Heart handshake",
+    "description": "Heart with two hands clasped inside.",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "handshake",
+      "charity",
+      "care",
+      "support"
+    ],
+    "categories": [
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Charity"
+    }
+  },
+  "new-icon-set-02-p0315": {
+    "name": "ImagePlus",
+    "displayName": "Image plus",
+    "description": "Picture frame with hills and a sun and a plus at the top right.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "add",
+      "upload"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add image"
+    }
+  },
+  "new-icon-set-02-p0316": {
+    "name": "ImageMinus",
+    "displayName": "Image minus",
+    "description": "Picture frame with hills and a sun and a minus at the top right.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "remove"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove image"
+    }
+  },
+  "new-icon-set-02-p0317": {
+    "name": "ImagePlay",
+    "displayName": "Image play",
+    "description": "Picture frame with hills and a sun and a play triangle at the top right.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "video",
+      "animated",
+      "gif"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Play media"
+    }
+  },
+  "new-icon-set-02-p0318": {
+    "name": "BoxPlus",
+    "displayName": "Box plus",
+    "description": "Taped box in perspective with a plus sign at the bottom right.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "plus"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add package"
+    }
+  },
+  "new-icon-set-02-p0319": {
+    "name": "BoxMinus",
+    "displayName": "Box minus",
+    "description": "Taped box in perspective with a minus sign at the bottom right.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "minus"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove package"
+    }
+  },
+  "new-icon-set-02-p0320": {
+    "name": "BoxX",
+    "displayName": "Box X",
+    "description": "Taped box in perspective with an X at the bottom right.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "x"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel package"
+    }
+  },
+  "new-icon-set-02-p0321": {
+    "name": "BoxCheck",
+    "displayName": "Box check",
+    "description": "Taped box in perspective with a check mark at the bottom right.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "check"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Package delivered"
+    }
+  },
+  "new-icon-set-02-p0322": {
+    "name": "BoxFrontPlus",
+    "displayName": "Box front plus",
+    "description": "Box seen from the front with a plus sign on it.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "plus"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add package"
+    }
+  },
+  "new-icon-set-02-p0323": {
+    "name": "BoxFrontMinus",
+    "displayName": "Box front minus",
+    "description": "Box seen from the front with a minus sign on it.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "minus"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove package"
+    }
+  },
+  "new-icon-set-02-p0324": {
+    "name": "BoxFrontX",
+    "displayName": "Box front X",
+    "description": "Box seen from the front with an X on it.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "x"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel package"
+    }
+  },
+  "new-icon-set-02-p0325": {
+    "name": "BoxFrontCheck",
+    "displayName": "Box front check",
+    "description": "Box seen from the front with a check mark on it.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "check"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Package delivered"
+    }
+  },
+  "new-icon-set-02-p0326": {
+    "name": "BoxSearch",
+    "displayName": "Box search",
+    "description": "Taped box in perspective with a magnifier at the bottom right.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "search",
+      "track",
+      "find"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Track package"
+    }
+  },
+  "new-icon-set-02-p0327": {
+    "name": "BoxFrontSearch",
+    "displayName": "Box front search",
+    "description": "Box seen from the front with a magnifier on it.",
+    "tags": [
+      "box",
+      "package",
+      "parcel",
+      "shipping",
+      "search",
+      "track",
+      "find"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Track package"
+    }
+  },
+  "new-icon-set-02-p0328": {
+    "name": "LayerStackOpenMinus",
+    "displayName": "Layer stack open minus",
+    "description": "Three open layers with a minus at the bottom right.",
+    "tags": [
+      "layers",
+      "stack",
+      "levels",
+      "design",
+      "remove"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove layer"
+    }
+  },
+  "new-icon-set-02-p0329": {
+    "name": "LayerStackOpenArrowUp",
+    "displayName": "Layer stack open arrow up",
+    "description": "Three open layers with an arrow pointing up at the bottom right.",
+    "tags": [
+      "layers",
+      "stack",
+      "levels",
+      "design",
+      "bring-forward",
+      "up"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bring forward"
+    }
+  },
+  "new-icon-set-02-p0330": {
+    "name": "LayerStackOpenArrowDown",
+    "displayName": "Layer stack open arrow down",
+    "description": "Three open layers with an arrow pointing down at the bottom right.",
+    "tags": [
+      "layers",
+      "stack",
+      "levels",
+      "design",
+      "send-backward",
+      "down"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Send backward"
+    }
+  },
+  "new-icon-set-02-p0331": {
+    "name": "BatteryAlert",
+    "displayName": "Battery alert",
+    "description": "Battery with a short vertical line in the middle.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "alert",
+      "warning",
+      "low"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery alert"
+    }
+  },
+  "new-icon-set-02-p0332": {
+    "name": "BatteryAlertBoxy",
+    "displayName": "Battery alert boxy",
+    "description": "Boxy battery with a short vertical line in the middle.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "alert",
+      "warning",
+      "low"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery alert"
+    }
+  },
+  "new-icon-set-02-p0333": {
+    "name": "BatteryPlus",
+    "displayName": "Battery plus",
+    "description": "Battery with a plus sign inside.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "charging",
+      "add"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery charging"
+    }
+  },
+  "new-icon-set-02-p0334": {
+    "name": "BatteryPlusBoxy",
+    "displayName": "Battery plus boxy",
+    "description": "Boxy battery with a plus sign inside.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "charging",
+      "add"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery charging"
+    }
+  },
+  "new-icon-set-02-p0335": {
+    "name": "Scan",
+    "displayName": "Scan",
+    "description": "Four rounded corner brackets.",
+    "tags": [
+      "scan",
+      "scanner",
+      "focus",
+      "frame",
+      "symbol"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan"
+    }
+  },
+  "new-icon-set-02-p0336": {
+    "name": "ScanQrCode",
+    "displayName": "Scan qr code",
+    "description": "Four corner brackets around a QR code.",
+    "tags": [
+      "scan",
+      "scanner",
+      "focus",
+      "frame",
+      "qr",
+      "code"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan QR code"
+    }
+  },
+  "new-icon-set-02-p0337": {
+    "name": "ScanSearch",
+    "displayName": "Scan search",
+    "description": "Four corner brackets around a magnifier.",
+    "tags": [
+      "scan",
+      "scanner",
+      "focus",
+      "frame",
+      "search",
+      "lens",
+      "find"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Visual search"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "FormInputCursorTall",
+  "displayName": "Form input cursor tall",
+  "description": "Tall I-beam text cursor through the left end of an input box.",
+  "tags": [
+    "input",
+    "text-field",
+    "cursor",
+    "form",
+    "text-cursor-input",
+    "caret"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Text input"
+  },
+  "filename": "form-input-cursor-tall",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

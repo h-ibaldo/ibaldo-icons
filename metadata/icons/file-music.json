@@ -1,0 +1,35 @@
+{
+  "name": "FileMusic",
+  "displayName": "File music",
+  "description": "Page with a folded top right corner and a music note at the bottom right.",
+  "tags": [
+    "file",
+    "document",
+    "page",
+    "music",
+    "audio",
+    "song",
+    "mp3"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Audio file"
+  },
+  "filename": "file-music",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

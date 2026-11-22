@@ -1,0 +1,33 @@
+{
+  "name": "SidebarRightBare",
+  "displayName": "Sidebar right bare",
+  "description": "Rounded square with a vertical divider near the right.",
+  "tags": [
+    "sidebar",
+    "panel",
+    "layout",
+    "navigation",
+    "panel-right"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Sidebar"
+  },
+  "filename": "sidebar-right-bare",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

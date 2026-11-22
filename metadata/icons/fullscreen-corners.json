@@ -1,0 +1,33 @@
+{
+  "name": "FullscreenCorners",
+  "displayName": "Fullscreen corners",
+  "description": "Four sharp corner brackets pointing out.",
+  "tags": [
+    "fullscreen",
+    "expand",
+    "corners",
+    "focus",
+    "maximize"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Fullscreen"
+  },
+  "filename": "fullscreen-corners",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

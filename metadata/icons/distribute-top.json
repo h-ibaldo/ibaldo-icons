@@ -1,0 +1,33 @@
+{
+  "name": "DistributeTop",
+  "displayName": "Distribute top",
+  "description": "Two horizontal lines, each with a bar hanging below it.",
+  "tags": [
+    "distribute",
+    "align",
+    "spacing",
+    "layout",
+    "align-vertical-distribute-start"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Distribute top"
+  },
+  "filename": "distribute-top",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

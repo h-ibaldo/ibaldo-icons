@@ -1,0 +1,33 @@
+{
+  "name": "JustifyBetweenVertical",
+  "displayName": "Justify between vertical",
+  "description": "A horizontal line between a short bar above and a wide bar below.",
+  "tags": [
+    "justify",
+    "align",
+    "spacing",
+    "layout",
+    "align-vertical-space-between"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Space between"
+  },
+  "filename": "justify-between-vertical",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

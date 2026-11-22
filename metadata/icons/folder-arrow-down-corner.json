@@ -1,0 +1,33 @@
+{
+  "name": "FolderArrowDownCorner",
+  "displayName": "Folder arrow down corner",
+  "description": "Folder with an arrow pointing down at its bottom right corner.",
+  "tags": [
+    "folder",
+    "directory",
+    "files",
+    "download",
+    "down"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Download folder"
+  },
+  "filename": "folder-arrow-down-corner",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

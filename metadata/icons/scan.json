@@ -1,0 +1,33 @@
+{
+  "name": "Scan",
+  "displayName": "Scan",
+  "description": "Four rounded corner brackets.",
+  "tags": [
+    "scan",
+    "scanner",
+    "focus",
+    "frame",
+    "symbol"
+  ],
+  "categories": [
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Scan"
+  },
+  "filename": "scan",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

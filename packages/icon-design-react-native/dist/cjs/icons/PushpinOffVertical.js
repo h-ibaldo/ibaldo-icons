@@ -1,0 +1,36 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const PushpinOffVertical = forwardRef(function PushpinOffVertical(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M3 4L21 20","key":"0"}),
+    createElement(Path, {"d":"M12 16L12 22","key":"1"}),
+    createElement(Path, {"d":"M7 2L17 2L17 3.09C17 3.684 16.824 4.262 16.496 4.754L15 7L15 11L17.801 13.102C18.555 13.668 19 14.555 19 15.5L19 16L5 16L5 15.5C5 14.555 5.445 13.668 6.199 13.102L9 11L9 7L7.504 4.754C7.176 4.262 7 3.684 7 3.09Z","key":"2"})
+  );
+});
+
+PushpinOffVertical.displayName = 'PushpinOffVertical';
+
+module.exports = PushpinOffVertical;
+module.exports.PushpinOffVertical = PushpinOffVertical;
+module.exports.default = PushpinOffVertical;

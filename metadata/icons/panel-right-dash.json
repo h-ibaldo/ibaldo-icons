@@ -1,0 +1,33 @@
+{
+  "name": "PanelRightDash",
+  "displayName": "Panel right dash",
+  "description": "Rounded square with a short line near the right side.",
+  "tags": [
+    "panel",
+    "layout",
+    "side",
+    "window",
+    "edge"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Panel"
+  },
+  "filename": "panel-right-dash",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

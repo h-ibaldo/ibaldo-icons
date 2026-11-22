@@ -1,0 +1,36 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const JustifyBetweenHorizontal = forwardRef(function JustifyBetweenHorizontal(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M12 2L12 22","key":"0"}),
+    createElement(Path, {"d":"M17 8L21 8C21.551 8 22 8.449 22 9L22 15C22 15.551 21.551 16 21 16L17 16C16.449 16 16 15.551 16 15L16 9C16 8.449 16.449 8 17 8Z","key":"1"}),
+    createElement(Path, {"d":"M3 6L7 6C7.551 6 8 6.449 8 7L8 17C8 17.551 7.551 18 7 18L3 18C2.449 18 2 17.551 2 17L2 7C2 6.449 2.449 6 3 6Z","key":"2"})
+  );
+});
+
+JustifyBetweenHorizontal.displayName = 'JustifyBetweenHorizontal';
+
+module.exports = JustifyBetweenHorizontal;
+module.exports.JustifyBetweenHorizontal = JustifyBetweenHorizontal;
+module.exports.default = JustifyBetweenHorizontal;
