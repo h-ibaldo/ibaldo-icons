@@ -18,8 +18,8 @@
 </div>
 
 <footer class="site-footer mt-40 pb-16 px-4 flex flex-col items-center text-center">
-	<p class="font-semibold text-black">Designed by Henrique Ibaldo</p>
-	<nav class="mt-3 flex gap-6 text-gray-500" aria-label="Legal">
+	<p class="text-black">Designed by Henrique Ibaldo</p>
+	<nav class="footer-links mt-12 flex gap-6 text-gray-500" aria-label="Legal">
 		<a href="{base}/license" class="hover:text-gray-900">License</a>
 		<a href="{base}/privacy" class="hover:text-gray-900">Privacy</a>
 		<a href="{base}/terms" class="hover:text-gray-900">Terms</a>
@@ -42,6 +42,9 @@
 	.site-footer {
 		font-size: 0.8rem;
 		line-height: 1.6;
+	}
+	.footer-links {
+		font-size: 0.7rem;
 	}
 
 	.skip-link:focus {
