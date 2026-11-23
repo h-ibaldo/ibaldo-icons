@@ -11,7 +11,7 @@
 
     <h1 class="text-2xl font-semibold mb-4">Services</h1>
 
-    <p class="mb-4">Ibaldo Icons is designed by Henrique Ibaldo.</p>
+    <p class="mb-4">Ibaldo Icons is designed by <a class="hover:text-indigo-500 underline" href="https://www.ibald.ooo">Henrique Ibaldo</a>.</p>
     <p class="mb-12">The same care is available for your product.</p>
 
     <h2 class="font-semibold mb-2">Icon design</h2>
