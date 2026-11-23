@@ -64,6 +64,7 @@ Lock   Open          Check                           Corner       Narrow  → Lo
   `Sparkles` (three small plus marks around the object: `WandSparkles`, `PencilSparkles`, `BroomSparkles`).
 - Check the dots before naming: a slash with two dots is `Percent`, an S with ticks is `Dollar`, a stroke with a dot is `Alert`.
   VectorCraft files lose their dots in the PDF export; run `scripts/import-vectorcraft-dots.js` after `import-clean-svg.js` and before `import-apply-batch.js`.
+  After `npm run build:icons:all`, run `scripts/check-vectorcraft-dots.js` before committing: it must report 0 mismatches.
 - Containers and shapes: `Circle`, `Square`, `Octagon`, `Hexagon`, `Triangle`, `Diamond`, `Pentagon`.
   Outline: `Dashed`, `Dotted`. Fill: `Striped`, `Dotted`, `Filled`.
 - Directions: `Up`, `Down`, `Left`, `Right`, `UpDown`, `LeftRight`, `UpRight`, `UpLeft`, `DownRight`, `DownLeft`,
