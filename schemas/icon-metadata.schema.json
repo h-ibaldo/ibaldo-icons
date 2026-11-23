@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://ibald.ooo/icons/schemas/icon-metadata.json",
+  "$id": "https://icons.ibald.ooo/schemas/icon-metadata.json",
   "title": "Icon Metadata Schema",
   "description": "Metadata structure for Ibaldo Icons",
   "type": "object",

@@ -1,6 +1,6 @@
 # @ibaldo/icons-vue (Ibaldo Icons)
 
-Vue 3 components for [Ibaldo Icons](https://ibald.ooo/icons) — A line-based icon library with variations, not conclusions.
+Vue 3 components for [Ibaldo Icons](https://icons.ibald.ooo) — A line-based icon library with variations, not conclusions.
 
 ## Installation
 

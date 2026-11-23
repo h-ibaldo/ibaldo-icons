@@ -136,11 +136,11 @@ import Play from '@ibaldo/icons-react/icons/Play';</code></pre>
 
     <p class="mb-4">Ibaldo Icons has a hosted MCP server, so AI agents like Claude and Cursor can search the library and get the exact icon instead of guessing names. Nothing to install, no key. It is read-only.</p>
 
-    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>https://ibald.ooo/icons/mcp</code></pre>
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>https://icons.ibald.ooo/mcp</code></pre>
 
     <p class="mb-4">Claude Code:</p>
 
-    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>claude mcp add --transport http ibaldo-icons https://ibald.ooo/icons/mcp</code></pre>
+    <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>claude mcp add --transport http ibaldo-icons https://icons.ibald.ooo/mcp</code></pre>
 
     <p class="mb-4">Claude.ai and Claude Desktop: Settings → Connectors → Add custom connector, then paste the URL.</p>
 
@@ -148,7 +148,7 @@ import Play from '@ibaldo/icons-react/icons/Play';</code></pre>
 
     <pre class="text-base bg-gray-100 p-4 overflow-x-auto mb-4 leading-relaxed"><code>&#123;
   "mcpServers": &#123;
-    "ibaldo-icons": &#123; "url": "https://ibald.ooo/icons/mcp" &#125;
+    "ibaldo-icons": &#123; "url": "https://icons.ibald.ooo/mcp" &#125;
   &#125;
 &#125;</code></pre>
 

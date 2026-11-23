@@ -3,7 +3,7 @@
     // decide what gets drawn first.
     const HANDLE = 'ibaldo';
     const HASHTAG = 'ibaldoicons';
-    const SITE = 'https://ibald.ooo/icons';
+    const SITE = 'https://icons.ibald.ooo';
 
     let concept = '';
 

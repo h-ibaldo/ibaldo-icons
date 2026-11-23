@@ -1,6 +1,6 @@
 # @ibaldo/icons-svelte (Ibaldo Icons)
 
-Svelte components for [Ibaldo Icons](https://ibald.ooo/icons) — A line-based icon library with variations, not conclusions.
+Svelte components for [Ibaldo Icons](https://icons.ibald.ooo) — A line-based icon library with variations, not conclusions.
 
 ## Installation
 
