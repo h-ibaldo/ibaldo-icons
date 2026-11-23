@@ -26,7 +26,7 @@ const WandSparkles = forwardRef(function WandSparkles(
     createElement(Path, {"d":"M16.5 19L16.5 22","key":"4"}),
     createElement(Path, {"d":"M18 20.5L15 20.5","key":"5"}),
     createElement(Path, {"d":"M18.816 2.816L20.23 4.23C20.66 4.66 20.672 5.352 20.258 5.789L5.789 21.16C5.359 21.621 4.629 21.629 4.184 21.184L2.77 19.77C2.34 19.34 2.328 18.648 2.742 18.211L17.211 2.84C17.641 2.379 18.371 2.371 18.816 2.816Z","key":"6"}),
-    createElement(Path, {"d":"M13 7L16 10","key":"7"})
+    createElement(Path, {"d":"M13.152 7.152L16.152 10.152","key":"7"})
   );
 });
 
