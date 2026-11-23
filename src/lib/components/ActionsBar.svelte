@@ -350,7 +350,7 @@
         border: none;
         outline: none;
         color: white;
-        font-size: 14px;
+        font-size: 0.8rem;
         padding: 0 0.75rem 0 0.25rem;
     }
     .search-input::placeholder { color: rgba(255, 255, 255, 0.6); }
@@ -678,6 +678,7 @@
         .search-bar { padding-top: 0.5rem; padding-bottom: 1.5rem; }
         .search-input { height: 2.5rem; }
         .search-input { font-size: 16px; } /* no zoom on focus */
+        .search-input::placeholder { font-size: 0.8rem; }
         .shortcut { display: none; }
         .pills { padding: 8px 1rem; }
 

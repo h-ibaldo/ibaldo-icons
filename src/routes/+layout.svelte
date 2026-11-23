@@ -17,10 +17,13 @@
     {@render children()}
 </div>
 
-<footer class="mt-20 pb-8 px-4 sm:px-14 text-start leading-[2] w-100 flex items-center justify-start text-xs text-gray-600">
-	<p>
-		Designed by Henrique Ibaldo · <a href="{base}/license" class="hover:text-gray-900 underline">License</a> · <a href="{base}/privacy" class="hover:text-gray-900 underline">Privacy</a> · <a href="{base}/terms" class="hover:text-gray-900 underline">Terms</a>
-	</p>
+<footer class="site-footer mt-40 pb-16 px-4 flex flex-col items-center text-center">
+	<p class="font-semibold text-black">Designed by Henrique Ibaldo</p>
+	<nav class="mt-3 flex gap-6 text-gray-500" aria-label="Legal">
+		<a href="{base}/license" class="hover:text-gray-900">License</a>
+		<a href="{base}/privacy" class="hover:text-gray-900">Privacy</a>
+		<a href="{base}/terms" class="hover:text-gray-900">Terms</a>
+	</nav>
 </footer>
 </div>
 
@@ -34,6 +37,11 @@
 		padding: 8px;
 		text-decoration: none;
 		z-index: 100;
+	}
+
+	.site-footer {
+		font-size: 0.8rem;
+		line-height: 1.6;
 	}
 
 	.skip-link:focus {

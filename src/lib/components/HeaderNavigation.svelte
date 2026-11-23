@@ -311,12 +311,12 @@
 </style>
 
 <header class="flex justify-between items-center px-4 py-3 z-10 header-navigation">
-    <h1 class="text-sm font-semibold">
+    <h1 class="text-[0.8rem] font-semibold">
         <a href="{base}/" class="text-inherit no-underline hover:opacity-80">Ibaldo Icons</a>
     </h1>
 
     <p
-        class="absolute left-1/2 -translate-x-1/2 text-sm text-gray-400 pointer-events-none transition-opacity duration-300"
+        class="absolute left-1/2 -translate-x-1/2 text-[0.8rem] text-gray-400 pointer-events-none transition-opacity duration-300"
         class:opacity-0={isScrolled}
         aria-hidden={isScrolled}
     >{iconCountLabel}</p>
@@ -340,7 +340,7 @@
             {/if}
         </button>
 
-        <nav class="space-x-4 text-sm desktop-only nav-links font-normal {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
+        <nav class="space-x-4 text-[0.8rem] desktop-only nav-links font-normal {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
             <a href="{base}/" class="{linkClass('/')}">Icons</a>
             <a href="{base}/about" class="{linkClass('/about')}">About</a>
             <a href="{base}/packages" class="{linkClass('/packages')}">Packages</a>
