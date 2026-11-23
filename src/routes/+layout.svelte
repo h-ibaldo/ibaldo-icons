@@ -17,7 +17,7 @@
     {@render children()}
 </div>
 
-<footer class="site-footer mt-40 pb-4 px-4 flex flex-col items-center text-center">
+<footer class="site-footer pb-4 px-4 flex flex-col items-center text-center">
 	<p class="text-black">Designed by <a href="https://www.ibald.ooo" class="underline hover:text-indigo-500">Henrique Ibaldo</a></p>
 	<nav class="footer-links mt-12 flex gap-6 text-gray-500" aria-label="Legal">
 		<a href="{base}/license" class="hover:text-gray-900">License</a>
