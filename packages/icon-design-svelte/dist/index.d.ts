@@ -3377,9 +3377,9 @@ export { default as FileStackPaperclipCut } from './icons/FileStackPaperclipCut.
 export { default as FileStackPaperclipPlain } from './icons/FileStackPaperclipPlain.svelte';
 export { default as FileStackPlain } from './icons/FileStackPlain.svelte';
 export { default as FileStackWide } from './icons/FileStackWide.svelte';
-export { default as FileStamp } from './icons/FileStamp.svelte';
-export { default as FileStampCut } from './icons/FileStampCut.svelte';
-export { default as FileStampPlain } from './icons/FileStampPlain.svelte';
+export { default as FileBrush } from './icons/FileBrush.svelte';
+export { default as FileBrushCut } from './icons/FileBrushCut.svelte';
+export { default as FileBrushPlain } from './icons/FileBrushPlain.svelte';
 export { default as FileStar } from './icons/FileStar.svelte';
 export { default as FileStarCut } from './icons/FileStarCut.svelte';
 export { default as FileStarPlain } from './icons/FileStarPlain.svelte';
@@ -8345,6 +8345,12 @@ export { default as FaceIdRecognition2 } from './icons/ScanFaceRound.svelte';
 export { default as FaqBubbles } from './icons/FaqChat.svelte';
 /** @deprecated Renamed to `ListStarBullets`. This old name will be removed in the next major version. */
 export { default as FeaturesListStars } from './icons/ListStarBullets.svelte';
+/** @deprecated Renamed to `FileBrush`. This old name will be removed in the next major version. */
+export { default as FileStamp } from './icons/FileBrush.svelte';
+/** @deprecated Renamed to `FileBrushCut`. This old name will be removed in the next major version. */
+export { default as FileStampCut } from './icons/FileBrushCut.svelte';
+/** @deprecated Renamed to `FileBrushPlain`. This old name will be removed in the next major version. */
+export { default as FileStampPlain } from './icons/FileBrushPlain.svelte';
 /** @deprecated Renamed to `Fingerprint`. This old name will be removed in the next major version. */
 export { default as Fingerprint1 } from './icons/Fingerprint.svelte';
 /** @deprecated Renamed to `FingerprintDashed`. This old name will be removed in the next major version. */

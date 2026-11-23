@@ -5125,7 +5125,6 @@
   "FileCheckCorner": "file-check-corner.svg",
   "FileCast": "file-cast.svg",
   "FileCastCorner": "file-cast-corner.svg",
-  "FileStamp": "file-stamp.svg",
   "FileNetwork": "file-network.svg",
   "FileNetworkDots": "file-network-dots.svg",
   "FileArrowDownCorner": "file-arrow-down-corner.svg",
@@ -5190,7 +5189,6 @@
   "FileCheckCornerCut": "file-check-corner-cut.svg",
   "FileCastCut": "file-cast-cut.svg",
   "FileCastCornerCut": "file-cast-corner-cut.svg",
-  "FileStampCut": "file-stamp-cut.svg",
   "FileNetworkCut": "file-network-cut.svg",
   "FileNetworkDotsCut": "file-network-dots-cut.svg",
   "FileArrowDownCornerCut": "file-arrow-down-corner-cut.svg",
@@ -5254,7 +5252,6 @@
   "FileCheckCornerPlain": "file-check-corner-plain.svg",
   "FileCastPlain": "file-cast-plain.svg",
   "FileCastCornerPlain": "file-cast-corner-plain.svg",
-  "FileStampPlain": "file-stamp-plain.svg",
   "FileNetworkPlain": "file-network-plain.svg",
   "FileNetworkDotsPlain": "file-network-dots-plain.svg",
   "FileArrowDownCornerPlain": "file-arrow-down-corner-plain.svg",
@@ -6151,5 +6148,8 @@
   "GalleryThumbnails": "gallery-thumbnails.svg",
   "TableCellsSplit": "table-cells-split.svg",
   "ScanBarcode": "scan-barcode.svg",
-  "ScanLetters": "scan-letters.svg"
+  "ScanLetters": "scan-letters.svg",
+  "FileBrush": "file-stamp.svg",
+  "FileBrushPlain": "file-stamp-plain.svg",
+  "FileBrushCut": "file-stamp-cut.svg"
 }

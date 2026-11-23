@@ -38,8 +38,8 @@
     "/icons/chunks/chunk-12-3e51511f.json",
     "/icons/chunks/chunk-13-840ca88b.json",
     "/icons/chunks/chunk-14-1364af5f.json",
-    "/icons/chunks/chunk-15-ba9a23eb.json",
-    "/icons/chunks/chunk-16-6f0604ea.json",
+    "/icons/chunks/chunk-15-4f5ff4a2.json",
+    "/icons/chunks/chunk-16-7f76963a.json",
     "/icons/chunks/chunk-17-e0460915.json",
     "/icons/chunks/chunk-18-35044309.json",
     "/icons/chunks/chunk-19-66b4bbd3.json",
@@ -77656,6 +77656,86 @@
         "chunk": 15
       },
       {
+        "name": "FileBrush",
+        "displayName": "File brush",
+        "path": "/icons/optimized/file-stamp.svg",
+        "filename": "file-stamp.svg",
+        "category": "optimized",
+        "categories": [
+          "files",
+          "business"
+        ],
+        "aliases": [
+          "FileStamp"
+        ],
+        "tags": [
+          "file",
+          "brush",
+          "paint",
+          "design",
+          "artwork",
+          "edit",
+          "creative"
+        ],
+        "description": "File page with a small folded corner and a paint brush at the bottom left.",
+        "searchText": "filebrush file brush filestamp file brush paint design artwork edit creative file page with a small folded corner and a paint brush at the bottom left. files business",
+        "chunk": 15
+      },
+      {
+        "name": "FileBrushCut",
+        "displayName": "File brush cut",
+        "path": "/icons/optimized/file-stamp-cut.svg",
+        "filename": "file-stamp-cut.svg",
+        "category": "optimized",
+        "categories": [
+          "files",
+          "business"
+        ],
+        "aliases": [
+          "FileStampCut"
+        ],
+        "tags": [
+          "file",
+          "brush",
+          "paint",
+          "design",
+          "artwork",
+          "edit",
+          "creative",
+          "cut-corner"
+        ],
+        "description": "File page with a cut corner and a paint brush at the bottom left.",
+        "searchText": "filebrushcut file brush cut filestampcut file brush paint design artwork edit creative cut-corner file page with a cut corner and a paint brush at the bottom left. files business",
+        "chunk": 15
+      },
+      {
+        "name": "FileBrushPlain",
+        "displayName": "File brush plain",
+        "path": "/icons/optimized/file-stamp-plain.svg",
+        "filename": "file-stamp-plain.svg",
+        "category": "optimized",
+        "categories": [
+          "files",
+          "business"
+        ],
+        "aliases": [
+          "FileStampPlain"
+        ],
+        "tags": [
+          "file",
+          "brush",
+          "paint",
+          "design",
+          "artwork",
+          "edit",
+          "creative",
+          "plain"
+        ],
+        "description": "Plain rounded rectangle page with a paint brush at the bottom left.",
+        "searchText": "filebrushplain file brush plain filestampplain file brush paint design artwork edit creative plain plain rounded rectangle page with a paint brush at the bottom left. files business",
+        "chunk": 15
+      },
+      {
         "name": "FileCast",
         "displayName": "File cast",
         "path": "/icons/optimized/file-cast.svg",
@@ -80118,7 +80198,7 @@
         ],
         "description": "File page with a cut corner standing on a stem over a horizontal bar.",
         "searchText": "filenetworkcut file network cut file network shared server drive lan cut-corner file page with a cut corner standing on a stem over a horizontal bar. files",
-        "chunk": 15
+        "chunk": 16
       },
       {
         "name": "FileNetworkDots",
@@ -80139,7 +80219,7 @@
         ],
         "description": "File page with a small folded corner standing on a stem over a bar with dots at both ends.",
         "searchText": "filenetworkdots file network dots file network shared server connection lan file page with a small folded corner standing on a stem over a bar with dots at both ends. files",
-        "chunk": 15
+        "chunk": 16
       },
       {
         "name": "FileNetworkDotsCut",
@@ -80161,7 +80241,7 @@
         ],
         "description": "File page with a cut corner standing on a stem over a bar with dots at both ends.",
         "searchText": "filenetworkdotscut file network dots cut file network shared server connection lan cut-corner file page with a cut corner standing on a stem over a bar with dots at both ends. files",
-        "chunk": 15
+        "chunk": 16
       },
       {
         "name": "FileNetworkDotsPlain",
@@ -81247,74 +81327,6 @@
         ],
         "description": "Two square pages with folded corners, one overlapping the other.",
         "searchText": "filestackwide file stack wide file document page copy duplicate files two square pages with folded corners, one overlapping the other. files",
-        "chunk": 16
-      },
-      {
-        "name": "FileStamp",
-        "displayName": "File stamp",
-        "path": "/icons/optimized/file-stamp.svg",
-        "filename": "file-stamp.svg",
-        "category": "optimized",
-        "categories": [
-          "files",
-          "business"
-        ],
-        "tags": [
-          "file",
-          "stamp",
-          "approve",
-          "seal",
-          "certify",
-          "official"
-        ],
-        "description": "File page with a small folded corner with a rubber stamp at the bottom left.",
-        "searchText": "filestamp file stamp file stamp approve seal certify official file page with a small folded corner with a rubber stamp at the bottom left. files business",
-        "chunk": 16
-      },
-      {
-        "name": "FileStampCut",
-        "displayName": "File stamp cut",
-        "path": "/icons/optimized/file-stamp-cut.svg",
-        "filename": "file-stamp-cut.svg",
-        "category": "optimized",
-        "categories": [
-          "files",
-          "business"
-        ],
-        "tags": [
-          "file",
-          "stamp",
-          "approve",
-          "seal",
-          "certify",
-          "official",
-          "cut-corner"
-        ],
-        "description": "File page with a cut corner with a rubber stamp at the bottom left.",
-        "searchText": "filestampcut file stamp cut file stamp approve seal certify official cut-corner file page with a cut corner with a rubber stamp at the bottom left. files business",
-        "chunk": 16
-      },
-      {
-        "name": "FileStampPlain",
-        "displayName": "File stamp plain",
-        "path": "/icons/optimized/file-stamp-plain.svg",
-        "filename": "file-stamp-plain.svg",
-        "category": "optimized",
-        "categories": [
-          "files",
-          "business"
-        ],
-        "tags": [
-          "file",
-          "stamp",
-          "approve",
-          "seal",
-          "certify",
-          "official",
-          "plain"
-        ],
-        "description": "Plain rounded rectangle page with a rubber stamp at the bottom left.",
-        "searchText": "filestampplain file stamp plain file stamp approve seal certify official plain plain rounded rectangle page with a rubber stamp at the bottom left. files business",
         "chunk": 16
       },
       {

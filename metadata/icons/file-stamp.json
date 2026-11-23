@@ -1,14 +1,15 @@
 {
-  "name": "FileStamp",
-  "displayName": "File stamp",
-  "description": "File page with a small folded corner with a rubber stamp at the bottom left.",
+  "name": "FileBrush",
+  "displayName": "File brush",
+  "description": "File page with a small folded corner and a paint brush at the bottom left.",
   "tags": [
     "file",
-    "stamp",
-    "approve",
-    "seal",
-    "certify",
-    "official"
+    "brush",
+    "paint",
+    "design",
+    "artwork",
+    "edit",
+    "creative"
   ],
   "categories": [
     "files",
@@ -16,7 +17,7 @@
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "Stamped file"
+    "suggestedLabel": "Design file"
   },
   "filename": "file-stamp",
   "technical": {
@@ -31,5 +32,8 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-18T22:36:35.080Z"
+  "updatedAt": "2026-11-23T20:43:28.284Z",
+  "aliases": [
+    "FileStamp"
+  ]
 }

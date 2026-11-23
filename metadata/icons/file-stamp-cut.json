@@ -1,14 +1,15 @@
 {
-  "name": "FileStampCut",
-  "displayName": "File stamp cut",
-  "description": "File page with a cut corner with a rubber stamp at the bottom left.",
+  "name": "FileBrushCut",
+  "displayName": "File brush cut",
+  "description": "File page with a cut corner and a paint brush at the bottom left.",
   "tags": [
     "file",
-    "stamp",
-    "approve",
-    "seal",
-    "certify",
-    "official",
+    "brush",
+    "paint",
+    "design",
+    "artwork",
+    "edit",
+    "creative",
     "cut-corner"
   ],
   "categories": [
@@ -17,7 +18,7 @@
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "Stamped file"
+    "suggestedLabel": "Design file"
   },
   "filename": "file-stamp-cut",
   "technical": {
@@ -32,5 +33,8 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-18T22:36:35.080Z"
+  "updatedAt": "2026-11-23T20:43:28.284Z",
+  "aliases": [
+    "FileStampCut"
+  ]
 }

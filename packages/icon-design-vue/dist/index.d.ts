@@ -3377,9 +3377,9 @@ export { FileStackPaperclipCut } from './icons/FileStackPaperclipCut';
 export { FileStackPaperclipPlain } from './icons/FileStackPaperclipPlain';
 export { FileStackPlain } from './icons/FileStackPlain';
 export { FileStackWide } from './icons/FileStackWide';
-export { FileStamp } from './icons/FileStamp';
-export { FileStampCut } from './icons/FileStampCut';
-export { FileStampPlain } from './icons/FileStampPlain';
+export { FileBrush } from './icons/FileBrush';
+export { FileBrushCut } from './icons/FileBrushCut';
+export { FileBrushPlain } from './icons/FileBrushPlain';
 export { FileStar } from './icons/FileStar';
 export { FileStarCut } from './icons/FileStarCut';
 export { FileStarPlain } from './icons/FileStarPlain';
@@ -8345,6 +8345,12 @@ export declare const FaceIdRecognition2: typeof import('./icons/ScanFaceRound').
 export declare const FaqBubbles: typeof import('./icons/FaqChat').FaqChat;
 /** @deprecated Renamed to `ListStarBullets`. This old name will be removed in the next major version. */
 export declare const FeaturesListStars: typeof import('./icons/ListStarBullets').ListStarBullets;
+/** @deprecated Renamed to `FileBrush`. This old name will be removed in the next major version. */
+export declare const FileStamp: typeof import('./icons/FileBrush').FileBrush;
+/** @deprecated Renamed to `FileBrushCut`. This old name will be removed in the next major version. */
+export declare const FileStampCut: typeof import('./icons/FileBrushCut').FileBrushCut;
+/** @deprecated Renamed to `FileBrushPlain`. This old name will be removed in the next major version. */
+export declare const FileStampPlain: typeof import('./icons/FileBrushPlain').FileBrushPlain;
 /** @deprecated Renamed to `Fingerprint`. This old name will be removed in the next major version. */
 export declare const Fingerprint1: typeof import('./icons/Fingerprint').Fingerprint;
 /** @deprecated Renamed to `FingerprintDashed`. This old name will be removed in the next major version. */

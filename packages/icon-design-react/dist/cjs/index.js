@@ -3379,9 +3379,9 @@ const FileStackPaperclipCut = require('./icons/FileStackPaperclipCut.js');
 const FileStackPaperclipPlain = require('./icons/FileStackPaperclipPlain.js');
 const FileStackPlain = require('./icons/FileStackPlain.js');
 const FileStackWide = require('./icons/FileStackWide.js');
-const FileStamp = require('./icons/FileStamp.js');
-const FileStampCut = require('./icons/FileStampCut.js');
-const FileStampPlain = require('./icons/FileStampPlain.js');
+const FileBrush = require('./icons/FileBrush.js');
+const FileBrushCut = require('./icons/FileBrushCut.js');
+const FileBrushPlain = require('./icons/FileBrushPlain.js');
 const FileStar = require('./icons/FileStar.js');
 const FileStarCut = require('./icons/FileStarCut.js');
 const FileStarPlain = require('./icons/FileStarPlain.js');
@@ -9534,9 +9534,9 @@ module.exports = {
   FileStackPaperclipPlain: FileStackPaperclipPlain.default || FileStackPaperclipPlain,
   FileStackPlain: FileStackPlain.default || FileStackPlain,
   FileStackWide: FileStackWide.default || FileStackWide,
-  FileStamp: FileStamp.default || FileStamp,
-  FileStampCut: FileStampCut.default || FileStampCut,
-  FileStampPlain: FileStampPlain.default || FileStampPlain,
+  FileBrush: FileBrush.default || FileBrush,
+  FileBrushCut: FileBrushCut.default || FileBrushCut,
+  FileBrushPlain: FileBrushPlain.default || FileBrushPlain,
   FileStar: FileStar.default || FileStar,
   FileStarCut: FileStarCut.default || FileStarCut,
   FileStarPlain: FileStarPlain.default || FileStarPlain,
@@ -13405,6 +13405,9 @@ module.exports = {
   FaceIdRecognition2: ScanFaceRound.default || ScanFaceRound,
   FaqBubbles: FaqChat.default || FaqChat,
   FeaturesListStars: ListStarBullets.default || ListStarBullets,
+  FileStamp: FileBrush.default || FileBrush,
+  FileStampCut: FileBrushCut.default || FileBrushCut,
+  FileStampPlain: FileBrushPlain.default || FileBrushPlain,
   Fingerprint1: Fingerprint.default || Fingerprint,
   Fingerprint2: FingerprintDashed.default || FingerprintDashed,
   Fingerprint3: FingerprintSpiral.default || FingerprintSpiral,
