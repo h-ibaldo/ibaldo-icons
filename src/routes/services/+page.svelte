@@ -22,7 +22,7 @@
     <p class="mb-12">Interfaces for web and mobile products: flows, screens, design systems and prototypes, from first sketch to final handoff.</p>
 
     <h2 class="font-semibold mb-2">Frontend</h2>
-    <p class="mb-12">The design, built. Production-ready interfaces in Svelte, React and Tailwind, matched to the design down to the pixel.</p>
+    <p class="mb-12">The design, built. Production-ready interfaces for web and mobile, matched to the design down to the pixel, in the stack you already use.</p>
 
     <h2 class="font-semibold mb-2">Contact</h2>
     <p class="mb-4">Tell me about your project.</p>
