@@ -887,6 +887,10 @@ const BellXWide = require('./icons/BellXWide.js');
 const BellXCircleWide = require('./icons/BellXCircleWide.js');
 const BellSnoozeWide = require('./icons/BellSnoozeWide.js');
 const BellRingWide = require('./icons/BellRingWide.js');
+const BetweenHorizontalEnd = require('./icons/BetweenHorizontalEnd.js');
+const BetweenHorizontalStart = require('./icons/BetweenHorizontalStart.js');
+const BetweenVerticalEnd = require('./icons/BetweenVerticalEnd.js');
+const BetweenVerticalStart = require('./icons/BetweenVerticalStart.js');
 const Binary = require('./icons/Binary.js');
 const BinocularsShort = require('./icons/BinocularsShort.js');
 const BinocularsEyecups = require('./icons/BinocularsEyecups.js');
@@ -1190,6 +1194,8 @@ const WindowTrafficLightPlain = require('./icons/WindowTrafficLightPlain.js');
 const WindowSquare = require('./icons/WindowSquare.js');
 const BrowserContent = require('./icons/BrowserContent.js');
 const BrowserSidebar = require('./icons/BrowserSidebar.js');
+const Brush = require('./icons/Brush.js');
+const BrushThick = require('./icons/BrushThick.js');
 const Bug = require('./icons/Bug.js');
 const BugOff = require('./icons/BugOff.js');
 const BugPlay = require('./icons/BugPlay.js');
@@ -3118,6 +3124,8 @@ const DownloadDotted = require('./icons/DownloadDotted.js');
 const DownloadDottedFlat = require('./icons/DownloadDottedFlat.js');
 const DownloadTrayStep = require('./icons/DownloadTrayStep.js');
 const DownloadTriangle = require('./icons/DownloadTriangle.js');
+const DraftingCompass = require('./icons/DraftingCompass.js');
+const DraftingCompassArc = require('./icons/DraftingCompassArc.js');
 const DragCursor = require('./icons/DragCursor.js');
 const DragHand = require('./icons/DragHand.js');
 const DragCursorCenter = require('./icons/DragCursorCenter.js');
@@ -3151,6 +3159,9 @@ const MailOpenUploadWide = require('./icons/MailOpenUploadWide.js');
 const Equals = require('./icons/Equals.js');
 const EqualsCircle = require('./icons/EqualsCircle.js');
 const EqualsSquare = require('./icons/EqualsSquare.js');
+const Eraser = require('./icons/Eraser.js');
+const EraserBare = require('./icons/EraserBare.js');
+const EraserRound = require('./icons/EraserRound.js');
 const Ethernet = require('./icons/Ethernet.js');
 const EyeOffShine = require('./icons/EyeOffShine.js');
 const EyeOffLargeShine = require('./icons/EyeOffLargeShine.js');
@@ -3550,6 +3561,7 @@ const FormUserDrop = require('./icons/FormUserDrop.js');
 const FormUserTooltip = require('./icons/FormUserTooltip.js');
 const Forward = require('./icons/Forward.js');
 const TicketVertical = require('./icons/TicketVertical.js');
+const Frame = require('./icons/Frame.js');
 const FullscreenCorners = require('./icons/FullscreenCorners.js');
 const FullscreenCornersIn = require('./icons/FullscreenCornersIn.js');
 const Funnel = require('./icons/Funnel.js');
@@ -3786,6 +3798,8 @@ const HeartXWide = require('./icons/HeartXWide.js');
 const SidebarMenuArrowLeft = require('./icons/SidebarMenuArrowLeft.js');
 const SidebarArrowRight = require('./icons/SidebarArrowRight.js');
 const Hierarchy = require('./icons/Hierarchy.js');
+const Highlighter = require('./icons/Highlighter.js');
+const HighlighterBare = require('./icons/HighlighterBare.js');
 const Hourglass = require('./icons/Hourglass.js');
 const HourglassCircle = require('./icons/HourglassCircle.js');
 const HourglassCircleCurved = require('./icons/HourglassCircleCurved.js');
@@ -3909,6 +3923,9 @@ const KeypadGrid = require('./icons/KeypadGrid.js');
 const KeypadJoined = require('./icons/KeypadJoined.js');
 const TranslateSquare = require('./icons/TranslateSquare.js');
 const TranslateChat = require('./icons/TranslateChat.js');
+const Lasso = require('./icons/Lasso.js');
+const LassoPointer = require('./icons/LassoPointer.js');
+const LassoWide = require('./icons/LassoWide.js');
 const LayerStackOpenArrowDown = require('./icons/LayerStackOpenArrowDown.js');
 const LayerStackOpenArrowUp = require('./icons/LayerStackOpenArrowUp.js');
 const LayerStackOpenMinus = require('./icons/LayerStackOpenMinus.js');
@@ -4319,6 +4336,11 @@ const SearchOneToOneB = require('./icons/SearchOneToOneB.js');
 const SearchExpandB = require('./icons/SearchExpandB.js');
 const SearchOneToOneC = require('./icons/SearchOneToOneC.js');
 const SearchExpandC = require('./icons/SearchExpandC.js');
+const Magnet = require('./icons/Magnet.js');
+const MagnetBolt = require('./icons/MagnetBolt.js');
+const MagnetRight = require('./icons/MagnetRight.js');
+const MagnetRightBolt = require('./icons/MagnetRightBolt.js');
+const MagnetRightSpark = require('./icons/MagnetRightSpark.js');
 const MailCheck = require('./icons/MailCheck.js');
 const MailCheckFolds = require('./icons/MailCheckFolds.js');
 const MailCheckRounded = require('./icons/MailCheckRounded.js');
@@ -4392,6 +4414,7 @@ const MedalStarBanner = require('./icons/MedalStarBanner.js');
 const MedalStrap = require('./icons/MedalStrap.js');
 const MedalStripe = require('./icons/MedalStripe.js');
 const Megaphone = require('./icons/Megaphone.js');
+const MegaphoneHandle = require('./icons/MegaphoneHandle.js');
 const MegaphoneRays = require('./icons/MegaphoneRays.js');
 const MegaphoneRound = require('./icons/MegaphoneRound.js');
 const Memory = require('./icons/Memory.js');
@@ -4664,6 +4687,15 @@ const BrowserDollarSearch = require('./icons/BrowserDollarSearch.js');
 const BrowserDollarSearchDots = require('./icons/BrowserDollarSearchDots.js');
 const BrowserDollarSearchDots2 = require('./icons/BrowserDollarSearchDots2.js');
 const DollarSearch = require('./icons/DollarSearch.js');
+const PaintBucket = require('./icons/PaintBucket.js');
+const PaintBucketDrip = require('./icons/PaintBucketDrip.js');
+const PaintCanSpill = require('./icons/PaintCanSpill.js');
+const PaintRoller = require('./icons/PaintRoller.js');
+const Paintbrush = require('./icons/Paintbrush.js');
+const PaintbrushStroke = require('./icons/PaintbrushStroke.js');
+const PaintbrushVertical = require('./icons/PaintbrushVertical.js');
+const PaintbrushVerticalCurl = require('./icons/PaintbrushVerticalCurl.js');
+const PaintbrushVerticalDipped = require('./icons/PaintbrushVerticalDipped.js');
 const PanelBottomDash = require('./icons/PanelBottomDash.js');
 const PanelLeftDash = require('./icons/PanelLeftDash.js');
 const PanelLeftRightDash = require('./icons/PanelLeftRightDash.js');
@@ -4764,6 +4796,9 @@ const Pause = require('./icons/Pause.js');
 const PauseCircle = require('./icons/PauseCircle.js');
 const PauseSquare = require('./icons/PauseSquare.js');
 const PauseThick = require('./icons/PauseThick.js');
+const PenTool = require('./icons/PenTool.js');
+const PenToolBezier = require('./icons/PenToolBezier.js');
+const PenToolVertical = require('./icons/PenToolVertical.js');
 const Pencil = require('./icons/Pencil.js');
 const PencilPlain = require('./icons/PencilPlain.js');
 const PencilTip = require('./icons/PencilTip.js');
@@ -4860,6 +4895,12 @@ const PictureInPictureX = require('./icons/PictureInPictureX.js');
 const PiggyBank = require('./icons/PiggyBank.js');
 const PiggyBankCoin = require('./icons/PiggyBankCoin.js');
 const PiggyBankCrack = require('./icons/PiggyBankCrack.js');
+const Pilcrow = require('./icons/Pilcrow.js');
+const PilcrowArrowLeft = require('./icons/PilcrowArrowLeft.js');
+const PilcrowArrowRight = require('./icons/PilcrowArrowRight.js');
+const PilcrowSquare = require('./icons/PilcrowSquare.js');
+const Pipette = require('./icons/Pipette.js');
+const PipetteDrop = require('./icons/PipetteDrop.js');
 const Pyramid = require('./icons/Pyramid.js');
 const PyramidArrowUp = require('./icons/PyramidArrowUp.js');
 const Plaque = require('./icons/Plaque.js');
@@ -4961,6 +5002,7 @@ const SpinnerRays = require('./icons/SpinnerRays.js');
 const SpinnerRaysShort = require('./icons/SpinnerRaysShort.js');
 const SpinnerRaysFade = require('./icons/SpinnerRaysFade.js');
 const SpinnerRaysDotted = require('./icons/SpinnerRaysDotted.js');
+const Proportions = require('./icons/Proportions.js');
 const PulseSquare = require('./icons/PulseSquare.js');
 const Pushpin = require('./icons/Pushpin.js');
 const PushpinOff = require('./icons/PushpinOff.js');
@@ -4982,6 +5024,8 @@ const QuestionSquareStack = require('./icons/QuestionSquareStack.js');
 const QuestionSquareStackOverlap = require('./icons/QuestionSquareStackOverlap.js');
 const QuestionSquareStackLeft = require('./icons/QuestionSquareStackLeft.js');
 const QuestionAnswerOverlap = require('./icons/QuestionAnswerOverlap.js');
+const Quote = require('./icons/Quote.js');
+const QuoteOpen = require('./icons/QuoteOpen.js');
 const Radar = require('./icons/Radar.js');
 const RadarBroken = require('./icons/RadarBroken.js');
 const ReceiptCentWavy = require('./icons/ReceiptCentWavy.js');
@@ -5081,6 +5125,8 @@ const SaveSearchLarge = require('./icons/SaveSearchLarge.js');
 const ListStar = require('./icons/ListStar.js');
 const SearchDownload = require('./icons/SearchDownload.js');
 const SearchDownloadLong = require('./icons/SearchDownloadLong.js');
+const Scaling = require('./icons/Scaling.js');
+const Scalpel = require('./icons/Scalpel.js');
 const Scan = require('./icons/Scan.js');
 const ScanBarcode = require('./icons/ScanBarcode.js');
 const ScanBeam = require('./icons/ScanBeam.js');
@@ -5150,6 +5196,10 @@ const SelfieCamera = require('./icons/SelfieCamera.js');
 const SelfieButton = require('./icons/SelfieButton.js');
 const SelfieNotch = require('./icons/SelfieNotch.js');
 const SelfieSquare = require('./icons/SelfieSquare.js');
+const SeparatorHorizontal = require('./icons/SeparatorHorizontal.js');
+const SeparatorHorizontalIn = require('./icons/SeparatorHorizontalIn.js');
+const SeparatorVertical = require('./icons/SeparatorVertical.js');
+const SeparatorVerticalIn = require('./icons/SeparatorVerticalIn.js');
 const SquareStack = require('./icons/SquareStack.js');
 const Server = require('./icons/Server.js');
 const ServerBan = require('./icons/ServerBan.js');
@@ -5191,6 +5241,7 @@ const AntennaSides = require('./icons/AntennaSides.js');
 const AntennaTop = require('./icons/AntennaTop.js');
 const SignalArcs = require('./icons/SignalArcs.js');
 const SignalArcsDot = require('./icons/SignalArcsDot.js');
+const Signature = require('./icons/Signature.js');
 const Siren = require('./icons/Siren.js');
 const SirenFlat = require('./icons/SirenFlat.js');
 const SkipBack = require('./icons/SkipBack.js');
@@ -5213,6 +5264,7 @@ const Skip = require('./icons/Skip.js');
 const SkipX = require('./icons/SkipX.js');
 const SkipCircles = require('./icons/SkipCircles.js');
 const PercentCircleDot = require('./icons/PercentCircleDot.js');
+const Slice = require('./icons/Slice.js');
 const SliderPointer = require('./icons/SliderPointer.js');
 const SliderPointerTrack = require('./icons/SliderPointerTrack.js');
 const Slider = require('./icons/Slider.js');
@@ -5223,6 +5275,7 @@ const SortOneTwoDown = require('./icons/SortOneTwoDown.js');
 const SortTwoOneDown = require('./icons/SortTwoOneDown.js');
 const SortUpNarrowWide = require('./icons/SortUpNarrowWide.js');
 const SortUpWideNarrow = require('./icons/SortUpWideNarrow.js');
+const Space = require('./icons/Space.js');
 const SparkleFive = require('./icons/SparkleFive.js');
 const SparklePlusDot = require('./icons/SparklePlusDot.js');
 const SparklePlusDotPointed = require('./icons/SparklePlusDotPointed.js');
@@ -5231,8 +5284,15 @@ const SparklePointed = require('./icons/SparklePointed.js');
 const SparkleThree = require('./icons/SparkleThree.js');
 const SparkleThreeLarge = require('./icons/SparkleThreeLarge.js');
 const SparkleThreeMedium = require('./icons/SparkleThreeMedium.js');
+const SpellCheck = require('./icons/SpellCheck.js');
+const SpellCheckWavy = require('./icons/SpellCheckWavy.js');
+const Spline = require('./icons/Spline.js');
+const SplinePointer = require('./icons/SplinePointer.js');
 const SplitLeftRight = require('./icons/SplitLeftRight.js');
 const SplitUpDown = require('./icons/SplitUpDown.js');
+const SprayCan = require('./icons/SprayCan.js');
+const SprayCanBare = require('./icons/SprayCanBare.js');
+const SprayCanLines = require('./icons/SprayCanLines.js');
 const ArrowDownSquare = require('./icons/ArrowDownSquare.js');
 const ArrowDownLeftSquare = require('./icons/ArrowDownLeftSquare.js');
 const ArrowDownRightSquare = require('./icons/ArrowDownRightSquare.js');
@@ -5259,6 +5319,12 @@ const SquareEditPlus = require('./icons/SquareEditPlus.js');
 const SquareEditX = require('./icons/SquareEditX.js');
 const SquareInsetDashed = require('./icons/SquareInsetDashed.js');
 const SquareLinesLeft = require('./icons/SquareLinesLeft.js');
+const SquarePaddingBottom = require('./icons/SquarePaddingBottom.js');
+const SquarePaddingHorizontal = require('./icons/SquarePaddingHorizontal.js');
+const SquarePaddingLeft = require('./icons/SquarePaddingLeft.js');
+const SquarePaddingRight = require('./icons/SquarePaddingRight.js');
+const SquarePaddingTop = require('./icons/SquarePaddingTop.js');
+const SquarePaddingVertical = require('./icons/SquarePaddingVertical.js');
 const SquarePlusLinkClip = require('./icons/SquarePlusLinkClip.js');
 const SquarePlusLinkSlanted = require('./icons/SquarePlusLinkSlanted.js');
 const SquareRoundCorner = require('./icons/SquareRoundCorner.js');
@@ -5296,8 +5362,13 @@ const SquareStackSquare = require('./icons/SquareStackSquare.js');
 const SquareStackSquareDashed = require('./icons/SquareStackSquareDashed.js');
 const SquareStackX = require('./icons/SquareStackX.js');
 const SquareThree = require('./icons/SquareThree.js');
+const SquaresExclude = require('./icons/SquaresExclude.js');
 const Grid = require('./icons/Grid.js');
 const GridRounded = require('./icons/GridRounded.js');
+const SquaresIntersect = require('./icons/SquaresIntersect.js');
+const SquaresSubtract = require('./icons/SquaresSubtract.js');
+const SquaresUnite = require('./icons/SquaresUnite.js');
+const Stamp = require('./icons/Stamp.js');
 const StarCheck = require('./icons/StarCheck.js');
 const Star = require('./icons/Star.js');
 const StarStriped = require('./icons/StarStriped.js');
@@ -5399,9 +5470,12 @@ const StopwatchXBare = require('./icons/StopwatchXBare.js');
 const StopwatchXDetached = require('./icons/StopwatchXDetached.js');
 const StopwatchXKnob = require('./icons/StopwatchXKnob.js');
 const StopwatchXTick = require('./icons/StopwatchXTick.js');
+const StretchHorizontal = require('./icons/StretchHorizontal.js');
+const StretchVertical = require('./icons/StretchVertical.js');
 const Submit = require('./icons/Submit.js');
 const SubmitOpen = require('./icons/SubmitOpen.js');
 const SubmitSquare = require('./icons/SubmitSquare.js');
+const Subscript = require('./icons/Subscript.js');
 const SunStar = require('./icons/SunStar.js');
 const SunScalloped = require('./icons/SunScalloped.js');
 const SunSpiky = require('./icons/SunSpiky.js');
@@ -5453,6 +5527,7 @@ const SunStarStripedSettings = require('./icons/SunStarStripedSettings.js');
 const SunStarHalfSettings = require('./icons/SunStarHalfSettings.js');
 const SunStarSettings = require('./icons/SunStarSettings.js');
 const SunMoon = require('./icons/SunMoon.js');
+const Superscript = require('./icons/Superscript.js');
 const SwitchRockerOff = require('./icons/SwitchRockerOff.js');
 const SwitchRockerOffPerspective = require('./icons/SwitchRockerOffPerspective.js');
 const SwitchRockerOn = require('./icons/SwitchRockerOn.js');
@@ -5647,10 +5722,12 @@ const Text3DSquare = require('./icons/Text3DSquare.js');
 const Text3DSquareSmall = require('./icons/Text3DSquareSmall.js');
 const Text3DSync = require('./icons/Text3DSync.js');
 const Text3DSyncChevron = require('./icons/Text3DSyncChevron.js');
+const TextA = require('./icons/TextA.js');
 const TextACircle = require('./icons/TextACircle.js');
 const TextACircleRound = require('./icons/TextACircleRound.js');
 const TextASquare = require('./icons/TextASquare.js');
 const TextASquareRound = require('./icons/TextASquareRound.js');
+const TextAa = require('./icons/TextAa.js');
 const TextAaSquare = require('./icons/TextAaSquare.js');
 const TextAaSquareBoxy = require('./icons/TextAaSquareBoxy.js');
 const TextAaSquareLarge = require('./icons/TextAaSquareLarge.js');
@@ -5662,15 +5739,102 @@ const TextAdsMobile = require('./icons/TextAdsMobile.js');
 const TextAlignCenter = require('./icons/TextAlignCenter.js');
 const TextAlignCenterLarge = require('./icons/TextAlignCenterLarge.js');
 const TextAlignJustify = require('./icons/TextAlignJustify.js');
+const TextAlignJustifyCenter = require('./icons/TextAlignJustifyCenter.js');
 const TextAlignJustifyLarge = require('./icons/TextAlignJustifyLarge.js');
+const TextAlignJustifyLeft = require('./icons/TextAlignJustifyLeft.js');
+const TextAlignJustifyRight = require('./icons/TextAlignJustifyRight.js');
 const TextAlignLeft = require('./icons/TextAlignLeft.js');
 const TextAlignLeftLarge = require('./icons/TextAlignLeftLarge.js');
 const TextAlignRight = require('./icons/TextAlignRight.js');
 const TextAlignRightLarge = require('./icons/TextAlignRightLarge.js');
 const TextAppCircle = require('./icons/TextAppCircle.js');
+const TextB = require('./icons/TextB.js');
+const TextBCircle = require('./icons/TextBCircle.js');
 const TextBold = require('./icons/TextBold.js');
 const TextBoldSharp = require('./icons/TextBoldSharp.js');
 const TextBoldSquare = require('./icons/TextBoldSquare.js');
+const TextC = require('./icons/TextC.js');
+const TextCSquare = require('./icons/TextCSquare.js');
+const TextCaseLower = require('./icons/TextCaseLower.js');
+const TextCaseUpper = require('./icons/TextCaseUpper.js');
+const TextCursor = require('./icons/TextCursor.js');
+const TextCursorNarrow = require('./icons/TextCursorNarrow.js');
+const TextD = require('./icons/TextD.js');
+const TextDCircle = require('./icons/TextDCircle.js');
+const TextDSquare = require('./icons/TextDSquare.js');
+const TextE = require('./icons/TextE.js');
+const TextECircle = require('./icons/TextECircle.js');
+const TextESquare = require('./icons/TextESquare.js');
+const TextF = require('./icons/TextF.js');
+const TextFCircle = require('./icons/TextFCircle.js');
+const TextFSquare = require('./icons/TextFSquare.js');
+const TextG = require('./icons/TextG.js');
+const TextGCircle = require('./icons/TextGCircle.js');
+const TextGSquare = require('./icons/TextGSquare.js');
+const TextH = require('./icons/TextH.js');
+const TextHCircle = require('./icons/TextHCircle.js');
+const TextHSquare = require('./icons/TextHSquare.js');
+const TextHollow = require('./icons/TextHollow.js');
+const TextI = require('./icons/TextI.js');
+const TextICircle = require('./icons/TextICircle.js');
+const TextISquare = require('./icons/TextISquare.js');
+const TextInitial = require('./icons/TextInitial.js');
+const TextItalicX = require('./icons/TextItalicX.js');
+const TextJ = require('./icons/TextJ.js');
+const TextJCircle = require('./icons/TextJCircle.js');
+const TextJSquare = require('./icons/TextJSquare.js');
+const TextK = require('./icons/TextK.js');
+const TextKCircle = require('./icons/TextKCircle.js');
+const TextKSquare = require('./icons/TextKSquare.js');
+const TextL = require('./icons/TextL.js');
+const TextLCircle = require('./icons/TextLCircle.js');
+const TextLSquare = require('./icons/TextLSquare.js');
+const TextLeading = require('./icons/TextLeading.js');
+const TextLetterSpacing = require('./icons/TextLetterSpacing.js');
+const TextLigature = require('./icons/TextLigature.js');
+const TextM = require('./icons/TextM.js');
+const TextMCircle = require('./icons/TextMCircle.js');
+const TextMSquare = require('./icons/TextMSquare.js');
+const TextN = require('./icons/TextN.js');
+const TextNCircle = require('./icons/TextNCircle.js');
+const TextNSquare = require('./icons/TextNSquare.js');
+const TextO = require('./icons/TextO.js');
+const TextP = require('./icons/TextP.js');
+const TextPCircle = require('./icons/TextPCircle.js');
+const TextPSquare = require('./icons/TextPSquare.js');
+const TextQ = require('./icons/TextQ.js');
+const TextQCircle = require('./icons/TextQCircle.js');
+const TextQSquare = require('./icons/TextQSquare.js');
+const TextQuote = require('./icons/TextQuote.js');
+const TextR = require('./icons/TextR.js');
+const TextRCircle = require('./icons/TextRCircle.js');
+const TextRSquare = require('./icons/TextRSquare.js');
+const TextS = require('./icons/TextS.js');
+const TextSCircle = require('./icons/TextSCircle.js');
+const TextSSquare = require('./icons/TextSSquare.js');
+const TextSearch = require('./icons/TextSearch.js');
+const TextT = require('./icons/TextT.js');
+const TextTCircle = require('./icons/TextTCircle.js');
+const TextTSquare = require('./icons/TextTSquare.js');
+const TextU = require('./icons/TextU.js');
+const TextUCircle = require('./icons/TextUCircle.js');
+const TextUSquare = require('./icons/TextUSquare.js');
+const TextV = require('./icons/TextV.js');
+const TextVCircle = require('./icons/TextVCircle.js');
+const TextVSquare = require('./icons/TextVSquare.js');
+const TextW = require('./icons/TextW.js');
+const TextWCircle = require('./icons/TextWCircle.js');
+const TextWSquare = require('./icons/TextWSquare.js');
+const TextWholeWord = require('./icons/TextWholeWord.js');
+const TextX = require('./icons/TextX.js');
+const TextXCircle = require('./icons/TextXCircle.js');
+const TextXSquare = require('./icons/TextXSquare.js');
+const TextY = require('./icons/TextY.js');
+const TextYCircle = require('./icons/TextYCircle.js');
+const TextYSquare = require('./icons/TextYSquare.js');
+const TextZ = require('./icons/TextZ.js');
+const TextZCircle = require('./icons/TextZCircle.js');
+const TextZSquare = require('./icons/TextZSquare.js');
 const SwatchFan = require('./icons/SwatchFan.js');
 const SwatchStackWide = require('./icons/SwatchStackWide.js');
 const SwatchStack = require('./icons/SwatchStack.js');
@@ -5915,7 +6079,10 @@ const UserThree = require('./icons/UserThree.js');
 const UserWide = require('./icons/UserWide.js');
 const UserX = require('./icons/UserX.js');
 const UserXWide = require('./icons/UserXWide.js');
+const UtilityKnife = require('./icons/UtilityKnife.js');
 const Variable = require('./icons/Variable.js');
+const VectorPolygon = require('./icons/VectorPolygon.js');
+const VectorSquare = require('./icons/VectorSquare.js');
 const Video = require('./icons/Video.js');
 const VideoCircle = require('./icons/VideoCircle.js');
 const VideoCircleLarge = require('./icons/VideoCircleLarge.js');
@@ -7042,6 +7209,10 @@ module.exports = {
   BellXCircleWide: BellXCircleWide.default || BellXCircleWide,
   BellSnoozeWide: BellSnoozeWide.default || BellSnoozeWide,
   BellRingWide: BellRingWide.default || BellRingWide,
+  BetweenHorizontalEnd: BetweenHorizontalEnd.default || BetweenHorizontalEnd,
+  BetweenHorizontalStart: BetweenHorizontalStart.default || BetweenHorizontalStart,
+  BetweenVerticalEnd: BetweenVerticalEnd.default || BetweenVerticalEnd,
+  BetweenVerticalStart: BetweenVerticalStart.default || BetweenVerticalStart,
   Binary: Binary.default || Binary,
   BinocularsShort: BinocularsShort.default || BinocularsShort,
   BinocularsEyecups: BinocularsEyecups.default || BinocularsEyecups,
@@ -7345,6 +7516,8 @@ module.exports = {
   WindowSquare: WindowSquare.default || WindowSquare,
   BrowserContent: BrowserContent.default || BrowserContent,
   BrowserSidebar: BrowserSidebar.default || BrowserSidebar,
+  Brush: Brush.default || Brush,
+  BrushThick: BrushThick.default || BrushThick,
   Bug: Bug.default || Bug,
   BugOff: BugOff.default || BugOff,
   BugPlay: BugPlay.default || BugPlay,
@@ -9273,6 +9446,8 @@ module.exports = {
   DownloadDottedFlat: DownloadDottedFlat.default || DownloadDottedFlat,
   DownloadTrayStep: DownloadTrayStep.default || DownloadTrayStep,
   DownloadTriangle: DownloadTriangle.default || DownloadTriangle,
+  DraftingCompass: DraftingCompass.default || DraftingCompass,
+  DraftingCompassArc: DraftingCompassArc.default || DraftingCompassArc,
   DragCursor: DragCursor.default || DragCursor,
   DragHand: DragHand.default || DragHand,
   DragCursorCenter: DragCursorCenter.default || DragCursorCenter,
@@ -9306,6 +9481,9 @@ module.exports = {
   Equals: Equals.default || Equals,
   EqualsCircle: EqualsCircle.default || EqualsCircle,
   EqualsSquare: EqualsSquare.default || EqualsSquare,
+  Eraser: Eraser.default || Eraser,
+  EraserBare: EraserBare.default || EraserBare,
+  EraserRound: EraserRound.default || EraserRound,
   Ethernet: Ethernet.default || Ethernet,
   EyeOffShine: EyeOffShine.default || EyeOffShine,
   EyeOffLargeShine: EyeOffLargeShine.default || EyeOffLargeShine,
@@ -9705,6 +9883,7 @@ module.exports = {
   FormUserTooltip: FormUserTooltip.default || FormUserTooltip,
   Forward: Forward.default || Forward,
   TicketVertical: TicketVertical.default || TicketVertical,
+  Frame: Frame.default || Frame,
   FullscreenCorners: FullscreenCorners.default || FullscreenCorners,
   FullscreenCornersIn: FullscreenCornersIn.default || FullscreenCornersIn,
   Funnel: Funnel.default || Funnel,
@@ -9941,6 +10120,8 @@ module.exports = {
   SidebarMenuArrowLeft: SidebarMenuArrowLeft.default || SidebarMenuArrowLeft,
   SidebarArrowRight: SidebarArrowRight.default || SidebarArrowRight,
   Hierarchy: Hierarchy.default || Hierarchy,
+  Highlighter: Highlighter.default || Highlighter,
+  HighlighterBare: HighlighterBare.default || HighlighterBare,
   Hourglass: Hourglass.default || Hourglass,
   HourglassCircle: HourglassCircle.default || HourglassCircle,
   HourglassCircleCurved: HourglassCircleCurved.default || HourglassCircleCurved,
@@ -10064,6 +10245,9 @@ module.exports = {
   KeypadJoined: KeypadJoined.default || KeypadJoined,
   TranslateSquare: TranslateSquare.default || TranslateSquare,
   TranslateChat: TranslateChat.default || TranslateChat,
+  Lasso: Lasso.default || Lasso,
+  LassoPointer: LassoPointer.default || LassoPointer,
+  LassoWide: LassoWide.default || LassoWide,
   LayerStackOpenArrowDown: LayerStackOpenArrowDown.default || LayerStackOpenArrowDown,
   LayerStackOpenArrowUp: LayerStackOpenArrowUp.default || LayerStackOpenArrowUp,
   LayerStackOpenMinus: LayerStackOpenMinus.default || LayerStackOpenMinus,
@@ -10474,6 +10658,11 @@ module.exports = {
   SearchExpandB: SearchExpandB.default || SearchExpandB,
   SearchOneToOneC: SearchOneToOneC.default || SearchOneToOneC,
   SearchExpandC: SearchExpandC.default || SearchExpandC,
+  Magnet: Magnet.default || Magnet,
+  MagnetBolt: MagnetBolt.default || MagnetBolt,
+  MagnetRight: MagnetRight.default || MagnetRight,
+  MagnetRightBolt: MagnetRightBolt.default || MagnetRightBolt,
+  MagnetRightSpark: MagnetRightSpark.default || MagnetRightSpark,
   MailCheck: MailCheck.default || MailCheck,
   MailCheckFolds: MailCheckFolds.default || MailCheckFolds,
   MailCheckRounded: MailCheckRounded.default || MailCheckRounded,
@@ -10547,6 +10736,7 @@ module.exports = {
   MedalStrap: MedalStrap.default || MedalStrap,
   MedalStripe: MedalStripe.default || MedalStripe,
   Megaphone: Megaphone.default || Megaphone,
+  MegaphoneHandle: MegaphoneHandle.default || MegaphoneHandle,
   MegaphoneRays: MegaphoneRays.default || MegaphoneRays,
   MegaphoneRound: MegaphoneRound.default || MegaphoneRound,
   Memory: Memory.default || Memory,
@@ -10819,6 +11009,15 @@ module.exports = {
   BrowserDollarSearchDots: BrowserDollarSearchDots.default || BrowserDollarSearchDots,
   BrowserDollarSearchDots2: BrowserDollarSearchDots2.default || BrowserDollarSearchDots2,
   DollarSearch: DollarSearch.default || DollarSearch,
+  PaintBucket: PaintBucket.default || PaintBucket,
+  PaintBucketDrip: PaintBucketDrip.default || PaintBucketDrip,
+  PaintCanSpill: PaintCanSpill.default || PaintCanSpill,
+  PaintRoller: PaintRoller.default || PaintRoller,
+  Paintbrush: Paintbrush.default || Paintbrush,
+  PaintbrushStroke: PaintbrushStroke.default || PaintbrushStroke,
+  PaintbrushVertical: PaintbrushVertical.default || PaintbrushVertical,
+  PaintbrushVerticalCurl: PaintbrushVerticalCurl.default || PaintbrushVerticalCurl,
+  PaintbrushVerticalDipped: PaintbrushVerticalDipped.default || PaintbrushVerticalDipped,
   PanelBottomDash: PanelBottomDash.default || PanelBottomDash,
   PanelLeftDash: PanelLeftDash.default || PanelLeftDash,
   PanelLeftRightDash: PanelLeftRightDash.default || PanelLeftRightDash,
@@ -10919,6 +11118,9 @@ module.exports = {
   PauseCircle: PauseCircle.default || PauseCircle,
   PauseSquare: PauseSquare.default || PauseSquare,
   PauseThick: PauseThick.default || PauseThick,
+  PenTool: PenTool.default || PenTool,
+  PenToolBezier: PenToolBezier.default || PenToolBezier,
+  PenToolVertical: PenToolVertical.default || PenToolVertical,
   Pencil: Pencil.default || Pencil,
   PencilPlain: PencilPlain.default || PencilPlain,
   PencilTip: PencilTip.default || PencilTip,
@@ -11015,6 +11217,12 @@ module.exports = {
   PiggyBank: PiggyBank.default || PiggyBank,
   PiggyBankCoin: PiggyBankCoin.default || PiggyBankCoin,
   PiggyBankCrack: PiggyBankCrack.default || PiggyBankCrack,
+  Pilcrow: Pilcrow.default || Pilcrow,
+  PilcrowArrowLeft: PilcrowArrowLeft.default || PilcrowArrowLeft,
+  PilcrowArrowRight: PilcrowArrowRight.default || PilcrowArrowRight,
+  PilcrowSquare: PilcrowSquare.default || PilcrowSquare,
+  Pipette: Pipette.default || Pipette,
+  PipetteDrop: PipetteDrop.default || PipetteDrop,
   Pyramid: Pyramid.default || Pyramid,
   PyramidArrowUp: PyramidArrowUp.default || PyramidArrowUp,
   Plaque: Plaque.default || Plaque,
@@ -11116,6 +11324,7 @@ module.exports = {
   SpinnerRaysShort: SpinnerRaysShort.default || SpinnerRaysShort,
   SpinnerRaysFade: SpinnerRaysFade.default || SpinnerRaysFade,
   SpinnerRaysDotted: SpinnerRaysDotted.default || SpinnerRaysDotted,
+  Proportions: Proportions.default || Proportions,
   PulseSquare: PulseSquare.default || PulseSquare,
   Pushpin: Pushpin.default || Pushpin,
   PushpinOff: PushpinOff.default || PushpinOff,
@@ -11137,6 +11346,8 @@ module.exports = {
   QuestionSquareStackOverlap: QuestionSquareStackOverlap.default || QuestionSquareStackOverlap,
   QuestionSquareStackLeft: QuestionSquareStackLeft.default || QuestionSquareStackLeft,
   QuestionAnswerOverlap: QuestionAnswerOverlap.default || QuestionAnswerOverlap,
+  Quote: Quote.default || Quote,
+  QuoteOpen: QuoteOpen.default || QuoteOpen,
   Radar: Radar.default || Radar,
   RadarBroken: RadarBroken.default || RadarBroken,
   ReceiptCentWavy: ReceiptCentWavy.default || ReceiptCentWavy,
@@ -11236,6 +11447,8 @@ module.exports = {
   ListStar: ListStar.default || ListStar,
   SearchDownload: SearchDownload.default || SearchDownload,
   SearchDownloadLong: SearchDownloadLong.default || SearchDownloadLong,
+  Scaling: Scaling.default || Scaling,
+  Scalpel: Scalpel.default || Scalpel,
   Scan: Scan.default || Scan,
   ScanBarcode: ScanBarcode.default || ScanBarcode,
   ScanBeam: ScanBeam.default || ScanBeam,
@@ -11305,6 +11518,10 @@ module.exports = {
   SelfieButton: SelfieButton.default || SelfieButton,
   SelfieNotch: SelfieNotch.default || SelfieNotch,
   SelfieSquare: SelfieSquare.default || SelfieSquare,
+  SeparatorHorizontal: SeparatorHorizontal.default || SeparatorHorizontal,
+  SeparatorHorizontalIn: SeparatorHorizontalIn.default || SeparatorHorizontalIn,
+  SeparatorVertical: SeparatorVertical.default || SeparatorVertical,
+  SeparatorVerticalIn: SeparatorVerticalIn.default || SeparatorVerticalIn,
   SquareStack: SquareStack.default || SquareStack,
   Server: Server.default || Server,
   ServerBan: ServerBan.default || ServerBan,
@@ -11346,6 +11563,7 @@ module.exports = {
   AntennaTop: AntennaTop.default || AntennaTop,
   SignalArcs: SignalArcs.default || SignalArcs,
   SignalArcsDot: SignalArcsDot.default || SignalArcsDot,
+  Signature: Signature.default || Signature,
   Siren: Siren.default || Siren,
   SirenFlat: SirenFlat.default || SirenFlat,
   SkipBack: SkipBack.default || SkipBack,
@@ -11368,6 +11586,7 @@ module.exports = {
   SkipX: SkipX.default || SkipX,
   SkipCircles: SkipCircles.default || SkipCircles,
   PercentCircleDot: PercentCircleDot.default || PercentCircleDot,
+  Slice: Slice.default || Slice,
   SliderPointer: SliderPointer.default || SliderPointer,
   SliderPointerTrack: SliderPointerTrack.default || SliderPointerTrack,
   Slider: Slider.default || Slider,
@@ -11378,6 +11597,7 @@ module.exports = {
   SortTwoOneDown: SortTwoOneDown.default || SortTwoOneDown,
   SortUpNarrowWide: SortUpNarrowWide.default || SortUpNarrowWide,
   SortUpWideNarrow: SortUpWideNarrow.default || SortUpWideNarrow,
+  Space: Space.default || Space,
   SparkleFive: SparkleFive.default || SparkleFive,
   SparklePlusDot: SparklePlusDot.default || SparklePlusDot,
   SparklePlusDotPointed: SparklePlusDotPointed.default || SparklePlusDotPointed,
@@ -11386,8 +11606,15 @@ module.exports = {
   SparkleThree: SparkleThree.default || SparkleThree,
   SparkleThreeLarge: SparkleThreeLarge.default || SparkleThreeLarge,
   SparkleThreeMedium: SparkleThreeMedium.default || SparkleThreeMedium,
+  SpellCheck: SpellCheck.default || SpellCheck,
+  SpellCheckWavy: SpellCheckWavy.default || SpellCheckWavy,
+  Spline: Spline.default || Spline,
+  SplinePointer: SplinePointer.default || SplinePointer,
   SplitLeftRight: SplitLeftRight.default || SplitLeftRight,
   SplitUpDown: SplitUpDown.default || SplitUpDown,
+  SprayCan: SprayCan.default || SprayCan,
+  SprayCanBare: SprayCanBare.default || SprayCanBare,
+  SprayCanLines: SprayCanLines.default || SprayCanLines,
   ArrowDownSquare: ArrowDownSquare.default || ArrowDownSquare,
   ArrowDownLeftSquare: ArrowDownLeftSquare.default || ArrowDownLeftSquare,
   ArrowDownRightSquare: ArrowDownRightSquare.default || ArrowDownRightSquare,
@@ -11414,6 +11641,12 @@ module.exports = {
   SquareEditX: SquareEditX.default || SquareEditX,
   SquareInsetDashed: SquareInsetDashed.default || SquareInsetDashed,
   SquareLinesLeft: SquareLinesLeft.default || SquareLinesLeft,
+  SquarePaddingBottom: SquarePaddingBottom.default || SquarePaddingBottom,
+  SquarePaddingHorizontal: SquarePaddingHorizontal.default || SquarePaddingHorizontal,
+  SquarePaddingLeft: SquarePaddingLeft.default || SquarePaddingLeft,
+  SquarePaddingRight: SquarePaddingRight.default || SquarePaddingRight,
+  SquarePaddingTop: SquarePaddingTop.default || SquarePaddingTop,
+  SquarePaddingVertical: SquarePaddingVertical.default || SquarePaddingVertical,
   SquarePlusLinkClip: SquarePlusLinkClip.default || SquarePlusLinkClip,
   SquarePlusLinkSlanted: SquarePlusLinkSlanted.default || SquarePlusLinkSlanted,
   SquareRoundCorner: SquareRoundCorner.default || SquareRoundCorner,
@@ -11451,8 +11684,13 @@ module.exports = {
   SquareStackSquareDashed: SquareStackSquareDashed.default || SquareStackSquareDashed,
   SquareStackX: SquareStackX.default || SquareStackX,
   SquareThree: SquareThree.default || SquareThree,
+  SquaresExclude: SquaresExclude.default || SquaresExclude,
   Grid: Grid.default || Grid,
   GridRounded: GridRounded.default || GridRounded,
+  SquaresIntersect: SquaresIntersect.default || SquaresIntersect,
+  SquaresSubtract: SquaresSubtract.default || SquaresSubtract,
+  SquaresUnite: SquaresUnite.default || SquaresUnite,
+  Stamp: Stamp.default || Stamp,
   StarCheck: StarCheck.default || StarCheck,
   Star: Star.default || Star,
   StarStriped: StarStriped.default || StarStriped,
@@ -11554,9 +11792,12 @@ module.exports = {
   StopwatchXDetached: StopwatchXDetached.default || StopwatchXDetached,
   StopwatchXKnob: StopwatchXKnob.default || StopwatchXKnob,
   StopwatchXTick: StopwatchXTick.default || StopwatchXTick,
+  StretchHorizontal: StretchHorizontal.default || StretchHorizontal,
+  StretchVertical: StretchVertical.default || StretchVertical,
   Submit: Submit.default || Submit,
   SubmitOpen: SubmitOpen.default || SubmitOpen,
   SubmitSquare: SubmitSquare.default || SubmitSquare,
+  Subscript: Subscript.default || Subscript,
   SunStar: SunStar.default || SunStar,
   SunScalloped: SunScalloped.default || SunScalloped,
   SunSpiky: SunSpiky.default || SunSpiky,
@@ -11608,6 +11849,7 @@ module.exports = {
   SunStarHalfSettings: SunStarHalfSettings.default || SunStarHalfSettings,
   SunStarSettings: SunStarSettings.default || SunStarSettings,
   SunMoon: SunMoon.default || SunMoon,
+  Superscript: Superscript.default || Superscript,
   SwitchRockerOff: SwitchRockerOff.default || SwitchRockerOff,
   SwitchRockerOffPerspective: SwitchRockerOffPerspective.default || SwitchRockerOffPerspective,
   SwitchRockerOn: SwitchRockerOn.default || SwitchRockerOn,
@@ -11802,10 +12044,12 @@ module.exports = {
   Text3DSquareSmall: Text3DSquareSmall.default || Text3DSquareSmall,
   Text3DSync: Text3DSync.default || Text3DSync,
   Text3DSyncChevron: Text3DSyncChevron.default || Text3DSyncChevron,
+  TextA: TextA.default || TextA,
   TextACircle: TextACircle.default || TextACircle,
   TextACircleRound: TextACircleRound.default || TextACircleRound,
   TextASquare: TextASquare.default || TextASquare,
   TextASquareRound: TextASquareRound.default || TextASquareRound,
+  TextAa: TextAa.default || TextAa,
   TextAaSquare: TextAaSquare.default || TextAaSquare,
   TextAaSquareBoxy: TextAaSquareBoxy.default || TextAaSquareBoxy,
   TextAaSquareLarge: TextAaSquareLarge.default || TextAaSquareLarge,
@@ -11817,15 +12061,102 @@ module.exports = {
   TextAlignCenter: TextAlignCenter.default || TextAlignCenter,
   TextAlignCenterLarge: TextAlignCenterLarge.default || TextAlignCenterLarge,
   TextAlignJustify: TextAlignJustify.default || TextAlignJustify,
+  TextAlignJustifyCenter: TextAlignJustifyCenter.default || TextAlignJustifyCenter,
   TextAlignJustifyLarge: TextAlignJustifyLarge.default || TextAlignJustifyLarge,
+  TextAlignJustifyLeft: TextAlignJustifyLeft.default || TextAlignJustifyLeft,
+  TextAlignJustifyRight: TextAlignJustifyRight.default || TextAlignJustifyRight,
   TextAlignLeft: TextAlignLeft.default || TextAlignLeft,
   TextAlignLeftLarge: TextAlignLeftLarge.default || TextAlignLeftLarge,
   TextAlignRight: TextAlignRight.default || TextAlignRight,
   TextAlignRightLarge: TextAlignRightLarge.default || TextAlignRightLarge,
   TextAppCircle: TextAppCircle.default || TextAppCircle,
+  TextB: TextB.default || TextB,
+  TextBCircle: TextBCircle.default || TextBCircle,
   TextBold: TextBold.default || TextBold,
   TextBoldSharp: TextBoldSharp.default || TextBoldSharp,
   TextBoldSquare: TextBoldSquare.default || TextBoldSquare,
+  TextC: TextC.default || TextC,
+  TextCSquare: TextCSquare.default || TextCSquare,
+  TextCaseLower: TextCaseLower.default || TextCaseLower,
+  TextCaseUpper: TextCaseUpper.default || TextCaseUpper,
+  TextCursor: TextCursor.default || TextCursor,
+  TextCursorNarrow: TextCursorNarrow.default || TextCursorNarrow,
+  TextD: TextD.default || TextD,
+  TextDCircle: TextDCircle.default || TextDCircle,
+  TextDSquare: TextDSquare.default || TextDSquare,
+  TextE: TextE.default || TextE,
+  TextECircle: TextECircle.default || TextECircle,
+  TextESquare: TextESquare.default || TextESquare,
+  TextF: TextF.default || TextF,
+  TextFCircle: TextFCircle.default || TextFCircle,
+  TextFSquare: TextFSquare.default || TextFSquare,
+  TextG: TextG.default || TextG,
+  TextGCircle: TextGCircle.default || TextGCircle,
+  TextGSquare: TextGSquare.default || TextGSquare,
+  TextH: TextH.default || TextH,
+  TextHCircle: TextHCircle.default || TextHCircle,
+  TextHSquare: TextHSquare.default || TextHSquare,
+  TextHollow: TextHollow.default || TextHollow,
+  TextI: TextI.default || TextI,
+  TextICircle: TextICircle.default || TextICircle,
+  TextISquare: TextISquare.default || TextISquare,
+  TextInitial: TextInitial.default || TextInitial,
+  TextItalicX: TextItalicX.default || TextItalicX,
+  TextJ: TextJ.default || TextJ,
+  TextJCircle: TextJCircle.default || TextJCircle,
+  TextJSquare: TextJSquare.default || TextJSquare,
+  TextK: TextK.default || TextK,
+  TextKCircle: TextKCircle.default || TextKCircle,
+  TextKSquare: TextKSquare.default || TextKSquare,
+  TextL: TextL.default || TextL,
+  TextLCircle: TextLCircle.default || TextLCircle,
+  TextLSquare: TextLSquare.default || TextLSquare,
+  TextLeading: TextLeading.default || TextLeading,
+  TextLetterSpacing: TextLetterSpacing.default || TextLetterSpacing,
+  TextLigature: TextLigature.default || TextLigature,
+  TextM: TextM.default || TextM,
+  TextMCircle: TextMCircle.default || TextMCircle,
+  TextMSquare: TextMSquare.default || TextMSquare,
+  TextN: TextN.default || TextN,
+  TextNCircle: TextNCircle.default || TextNCircle,
+  TextNSquare: TextNSquare.default || TextNSquare,
+  TextO: TextO.default || TextO,
+  TextP: TextP.default || TextP,
+  TextPCircle: TextPCircle.default || TextPCircle,
+  TextPSquare: TextPSquare.default || TextPSquare,
+  TextQ: TextQ.default || TextQ,
+  TextQCircle: TextQCircle.default || TextQCircle,
+  TextQSquare: TextQSquare.default || TextQSquare,
+  TextQuote: TextQuote.default || TextQuote,
+  TextR: TextR.default || TextR,
+  TextRCircle: TextRCircle.default || TextRCircle,
+  TextRSquare: TextRSquare.default || TextRSquare,
+  TextS: TextS.default || TextS,
+  TextSCircle: TextSCircle.default || TextSCircle,
+  TextSSquare: TextSSquare.default || TextSSquare,
+  TextSearch: TextSearch.default || TextSearch,
+  TextT: TextT.default || TextT,
+  TextTCircle: TextTCircle.default || TextTCircle,
+  TextTSquare: TextTSquare.default || TextTSquare,
+  TextU: TextU.default || TextU,
+  TextUCircle: TextUCircle.default || TextUCircle,
+  TextUSquare: TextUSquare.default || TextUSquare,
+  TextV: TextV.default || TextV,
+  TextVCircle: TextVCircle.default || TextVCircle,
+  TextVSquare: TextVSquare.default || TextVSquare,
+  TextW: TextW.default || TextW,
+  TextWCircle: TextWCircle.default || TextWCircle,
+  TextWSquare: TextWSquare.default || TextWSquare,
+  TextWholeWord: TextWholeWord.default || TextWholeWord,
+  TextX: TextX.default || TextX,
+  TextXCircle: TextXCircle.default || TextXCircle,
+  TextXSquare: TextXSquare.default || TextXSquare,
+  TextY: TextY.default || TextY,
+  TextYCircle: TextYCircle.default || TextYCircle,
+  TextYSquare: TextYSquare.default || TextYSquare,
+  TextZ: TextZ.default || TextZ,
+  TextZCircle: TextZCircle.default || TextZCircle,
+  TextZSquare: TextZSquare.default || TextZSquare,
   SwatchFan: SwatchFan.default || SwatchFan,
   SwatchStackWide: SwatchStackWide.default || SwatchStackWide,
   SwatchStack: SwatchStack.default || SwatchStack,
@@ -12070,7 +12401,10 @@ module.exports = {
   UserWide: UserWide.default || UserWide,
   UserX: UserX.default || UserX,
   UserXWide: UserXWide.default || UserXWide,
+  UtilityKnife: UtilityKnife.default || UtilityKnife,
   Variable: Variable.default || Variable,
+  VectorPolygon: VectorPolygon.default || VectorPolygon,
+  VectorSquare: VectorSquare.default || VectorSquare,
   Video: Video.default || Video,
   VideoCircle: VideoCircle.default || VideoCircle,
   VideoCircleLarge: VideoCircleLarge.default || VideoCircleLarge,

@@ -9,7 +9,9 @@
     "data",
     "candlestick",
     "stocks",
-    "trading"
+    "trading",
+    "align-horizontal-distribute-center",
+    "distribute"
   ],
   "categories": [
     "business"
@@ -31,5 +33,5 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-22T22:39:17.360Z"
+  "updatedAt": "2026-11-23T22:46:35.000Z"
 }

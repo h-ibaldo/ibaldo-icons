@@ -8,7 +8,8 @@
     "rights",
     "legal",
     "trademark",
-    "c"
+    "c",
+    "circle-letter-c"
   ],
   "categories": [
     "business"
@@ -30,5 +31,5 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T22:12:54.156Z"
+  "updatedAt": "2026-11-23T22:46:35.000Z"
 }

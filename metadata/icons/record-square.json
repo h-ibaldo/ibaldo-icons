@@ -11,7 +11,8 @@
     "audio",
     "media",
     "square",
-    "button"
+    "button",
+    "square-letter-o"
   ],
   "categories": [
     "media"
@@ -33,5 +34,5 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T16:04:08.263Z"
+  "updatedAt": "2026-11-23T22:46:35.000Z"
 }

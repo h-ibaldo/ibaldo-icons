@@ -1,0 +1,33 @@
+{
+  "name": "PaintbrushVerticalCurl",
+  "displayName": "Paintbrush vertical curl",
+  "description": "Flat house paintbrush upright, with curled paint on the bristles.",
+  "tags": [
+    "paintbrush",
+    "paint",
+    "brush",
+    "vertical",
+    "paintbrush-vertical"
+  ],
+  "categories": [
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Paintbrush"
+  },
+  "filename": "paintbrush-vertical-curl",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T22:46:25.332Z"
+}

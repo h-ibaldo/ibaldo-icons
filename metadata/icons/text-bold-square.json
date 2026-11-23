@@ -11,7 +11,8 @@
     "square",
     "rounded-square",
     "editor",
-    "letter-b"
+    "letter-b",
+    "square-letter-b"
   ],
   "categories": [
     "interface"
@@ -33,5 +34,5 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T22:13:28.627Z"
+  "updatedAt": "2026-11-23T22:46:35.000Z"
 }

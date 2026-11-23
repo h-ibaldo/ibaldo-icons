@@ -1,0 +1,34 @@
+{
+  "name": "TextAlignJustifyCenter",
+  "displayName": "Text align justify center",
+  "description": "Two full lines and a short last line in the center.",
+  "tags": [
+    "align",
+    "justify",
+    "text",
+    "paragraph",
+    "center",
+    "text-align-justify-center"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Justify"
+  },
+  "filename": "text-align-justify-center",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T22:46:25.332Z"
+}

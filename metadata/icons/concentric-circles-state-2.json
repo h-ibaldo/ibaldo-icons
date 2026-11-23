@@ -10,7 +10,8 @@
     "nested",
     "rings",
     "level",
-    "large"
+    "large",
+    "circle-letter-o"
   ],
   "categories": [
     "interface"
@@ -36,5 +37,5 @@
     "ConcentricCirclesState2"
   ],
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-17T15:32:50.935Z"
+  "updatedAt": "2026-11-23T22:46:35.000Z"
 }

@@ -1,0 +1,35 @@
+{
+  "name": "TextXCircle",
+  "displayName": "Text X circle",
+  "description": "Capital letter X in a circle.",
+  "tags": [
+    "letter",
+    "text",
+    "character",
+    "alphabet",
+    "circle",
+    "x",
+    "circle-letter-x"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Letter X"
+  },
+  "filename": "text-x-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T22:46:25.332Z"
+}
