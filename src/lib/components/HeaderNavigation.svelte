@@ -345,6 +345,7 @@
             <a href="{base}/about" class="{linkClass('/about')}">About</a>
             <a href="{base}/packages" class="{linkClass('/packages')}">Packages</a>
             <a href="{base}/request-icon" class="{linkClass('/request-icon')}">Request icon</a>
+            <a href="{base}/services" class="{linkClass('/services')}">Services</a>
         </nav>
         
         <button
@@ -418,6 +419,7 @@
         <a href="{base}/packages" class="{linkClass('/packages')} self-start" on:click={closeDrawer}>Packages</a>
         <a href="{base}/license" class="{linkClass('/license')} self-start" on:click={closeDrawer}>License</a>
         <a href="{base}/request-icon" class="{linkClass('/request-icon')} self-start" on:click={closeDrawer}>Request icon</a>
+        <a href="{base}/services" class="{linkClass('/services')} self-start" on:click={closeDrawer}>Services</a>
         <!-- Theme control (the header toggle hides while scrolled) -->
         <button type="button" class="drawer-theme text-indigo-500 hover:text-indigo-600 self-start" on:click={toggleTheme}>
             {#if $theme === 'dark'}
