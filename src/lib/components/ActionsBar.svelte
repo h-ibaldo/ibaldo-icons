@@ -547,8 +547,8 @@
     .range-input::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
-        width: 12px;
-        height: 12px;
+        width: 35px;
+        height: 35px;
         background: #0900FF;
         border: 1px solid white;
         cursor: pointer;
@@ -560,8 +560,8 @@
     }
 
     .range-input::-moz-range-thumb {
-        width: 12px;
-        height: 12px;
+        width: 35px;
+        height: 35px;
         background: #0900FF;
         border: none;
         cursor: pointer;
@@ -585,16 +585,16 @@
     
     /* Enhanced focus state: larger thumb with white ring for better visibility */
     .range-input:focus-visible::-webkit-slider-thumb {
-        width: 16px;
-        height: 16px;
+        width: 35px;
+        height: 35px;
         background: #0900FF;
         border: 2px solid white;
         box-shadow: 0 0 0 2px #0900FF;
     }
     
     .range-input:focus-visible::-moz-range-thumb {
-        width: 16px;
-        height: 16px;
+        width: 35px;
+        height: 35px;
         background: #0900FF;
         border: 2px solid white;
         box-shadow: 0 0 0 2px #0900FF;
