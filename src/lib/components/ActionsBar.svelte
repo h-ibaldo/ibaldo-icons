@@ -547,8 +547,8 @@
     .range-input::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
-        width: 24px;
-        height: 24px;
+        width: 22px;
+        height: 22px;
         background: #0900FF;
         border: 1px solid white;
         cursor: pointer;
@@ -560,8 +560,8 @@
     }
 
     .range-input::-moz-range-thumb {
-        width: 24px;
-        height: 24px;
+        width: 22px;
+        height: 22px;
         background: #0900FF;
         border: none;
         cursor: pointer;
@@ -585,16 +585,16 @@
     
     /* Enhanced focus state: larger thumb with white ring for better visibility */
     .range-input:focus-visible::-webkit-slider-thumb {
-        width: 24px;
-        height: 24px;
+        width: 22px;
+        height: 22px;
         background: #0900FF;
         border: 2px solid white;
         box-shadow: 0 0 0 2px #0900FF;
     }
     
     .range-input:focus-visible::-moz-range-thumb {
-        width: 24px;
-        height: 24px;
+        width: 22px;
+        height: 22px;
         background: #0900FF;
         border: 2px solid white;
         box-shadow: 0 0 0 2px #0900FF;
@@ -605,8 +605,8 @@
     /* Flat color with a constant light border */
     .swatch {
         display: block;
-        width: 23px;
-        height: 23px;
+        width: 22px;
+        height: 22px;
         border: 1px solid #cbd5e1;
     }
     .color-panel { padding: 0.75rem 0.75rem 0; }
@@ -625,7 +625,7 @@
     .check { border-radius: var(--r-xs); }
     .pill { border-radius: var(--r-full); padding-left: 0.7rem; padding-right: 0.45rem; }
     .pills .text-button { border-radius: var(--r-full); }
-    .swatch { border-radius: var(--r-sm); }
+    .swatch { border-radius: var(--r-xs); }
 
     .sr-only {
         position: absolute;
