@@ -1,0 +1,36 @@
+{
+  "name": "Wifi",
+  "displayName": "Wifi",
+  "description": "Wi-Fi symbol: a dot with three arcs above it.",
+  "tags": [
+    "wifi",
+    "wireless",
+    "internet",
+    "network",
+    "connection",
+    "wifi-high",
+    "signal",
+    "full"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Wi-Fi"
+  },
+  "filename": "wifi",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:45:45.682Z"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "BanknoteArrowRight",
+  "displayName": "Banknote arrow right",
+  "description": "Banknote with corner ornaments and a 0 in the middle, and an arrow pointing right at the bottom right.",
+  "tags": [
+    "banknote",
+    "money",
+    "cash",
+    "bill",
+    "payment",
+    "arrow",
+    "right",
+    "banknote-arrow-right"
+  ],
+  "categories": [
+    "business",
+    "shopping"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Banknote"
+  },
+  "filename": "banknote-arrow-right",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:45:45.682Z"
+}
