@@ -1,20 +1,20 @@
 {
-  "name": "DockBar",
-  "displayName": "Dock bar",
-  "description": "Wide rectangle with a long line along the bottom.",
+  "name": "KeyboardBare",
+  "displayName": "Keyboard bare",
+  "description": "Keyboard: wide rounded rectangle with two rows of key dots and a space bar, no keys beside the space bar.",
   "tags": [
-    "dock",
-    "window",
-    "screen",
-    "taskbar",
-    "symbol"
+    "keyboard",
+    "keys",
+    "typing",
+    "input",
+    "type"
   ],
   "categories": [
-    "interface"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "Dock"
+    "suggestedLabel": "Keyboard"
   },
   "filename": "dock-bar",
   "technical": {
@@ -29,5 +29,8 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-22T22:39:17.360Z"
+  "updatedAt": "2026-11-23T01:14:24.000Z",
+  "aliases": [
+    "DockBar"
+  ]
 }

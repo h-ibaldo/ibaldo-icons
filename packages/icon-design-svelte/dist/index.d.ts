@@ -724,7 +724,7 @@ export { default as AwardRound } from './icons/AwardRound.svelte';
 export { default as AwardSquare } from './icons/AwardSquare.svelte';
 export { default as BackspaceCheckRound } from './icons/BackspaceCheckRound.svelte';
 export { default as BackspaceRound } from './icons/BackspaceRound.svelte';
-export { default as BadgeDollarBareJagged } from './icons/BadgeDollarBareJagged.svelte';
+export { default as BadgeDollarJaggedSharp } from './icons/BadgeDollarJaggedSharp.svelte';
 export { default as BadgeDollarJagged } from './icons/BadgeDollarJagged.svelte';
 export { default as BadgeJagged } from './icons/BadgeJagged.svelte';
 export { default as BadgePercentBumpy } from './icons/BadgePercentBumpy.svelte';
@@ -745,7 +745,7 @@ export { default as BadgeQuestionBumpy } from './icons/BadgeQuestionBumpy.svelte
 export { default as BadgeQuestionWavy } from './icons/BadgeQuestionWavy.svelte';
 export { default as BadgeQuestionNotched } from './icons/BadgeQuestionNotched.svelte';
 export { default as BadgeQuestionPointed } from './icons/BadgeQuestionPointed.svelte';
-export { default as BadgeSlashJagged } from './icons/BadgeSlashJagged.svelte';
+export { default as BadgePercentJaggedRound } from './icons/BadgePercentJaggedRound.svelte';
 export { default as BadgeStarJagged } from './icons/BadgeStarJagged.svelte';
 export { default as Ban } from './icons/Ban.svelte';
 export { default as BanCircle } from './icons/BanCircle.svelte';
@@ -755,7 +755,7 @@ export { default as BanknoteDollar } from './icons/BanknoteDollar.svelte';
 export { default as BanknoteDots } from './icons/BanknoteDots.svelte';
 export { default as BanknoteStack } from './icons/BanknoteStack.svelte';
 export { default as BanknoteStackFlat } from './icons/BanknoteStackFlat.svelte';
-export { default as BanknoteTen } from './icons/BanknoteTen.svelte';
+export { default as BanknoteOne } from './icons/BanknoteOne.svelte';
 export { default as BatteryAlert } from './icons/BatteryAlert.svelte';
 export { default as BatteryAlertBoxy } from './icons/BatteryAlertBoxy.svelte';
 export { default as BatteryBolt } from './icons/BatteryBolt.svelte';
@@ -1132,7 +1132,7 @@ export { default as BriefcaseSide } from './icons/BriefcaseSide.svelte';
 export { default as BriefcasePocket } from './icons/BriefcasePocket.svelte';
 export { default as BriefcaseFlapClasps } from './icons/BriefcaseFlapClasps.svelte';
 export { default as BriefcaseFlapLatch } from './icons/BriefcaseFlapLatch.svelte';
-export { default as BroomPlusThree } from './icons/BroomPlusThree.svelte';
+export { default as BroomSparkles } from './icons/BroomSparkles.svelte';
 export { default as Browser } from './icons/Browser.svelte';
 export { default as WindowPlain2 } from './icons/WindowPlain2.svelte';
 export { default as BrowserDownload } from './icons/BrowserDownload.svelte';
@@ -1381,7 +1381,7 @@ export { default as ChartTrendUpSquareMinus } from './icons/ChartTrendUpSquareMi
 export { default as ChartTrendUpSquarePlus } from './icons/ChartTrendUpSquarePlus.svelte';
 export { default as ChartTrendUpSquareDot } from './icons/ChartTrendUpSquareDot.svelte';
 export { default as ChartTrendUpSquareX } from './icons/ChartTrendUpSquareX.svelte';
-export { default as ChartAxisGrid } from './icons/ChartAxisGrid.svelte';
+export { default as ChartQuadrant } from './icons/ChartQuadrant.svelte';
 export { default as ChartBarAxisTwo } from './icons/ChartBarAxisTwo.svelte';
 export { default as ChartBarHorizontalAxisTwo } from './icons/ChartBarHorizontalAxisTwo.svelte';
 export { default as ChartBarHorizontalStackedAxis } from './icons/ChartBarHorizontalStackedAxis.svelte';
@@ -2817,7 +2817,7 @@ export { default as CodeSlashSquareLarge } from './icons/CodeSlashSquareLarge.sv
 export { default as CodeSquare } from './icons/CodeSquare.svelte';
 export { default as CodeX } from './icons/CodeX.svelte';
 export { default as CodeXSmall } from './icons/CodeXSmall.svelte';
-export { default as CoinDollarBare } from './icons/CoinDollarBare.svelte';
+export { default as CoinDollar } from './icons/CoinDollar.svelte';
 export { default as CoinStackDouble } from './icons/CoinStackDouble.svelte';
 export { default as Command } from './icons/Command.svelte';
 export { default as CommandCircle } from './icons/CommandCircle.svelte';
@@ -3009,10 +3009,10 @@ export { default as DivideHollow } from './icons/DivideHollow.svelte';
 export { default as DivideSquare } from './icons/DivideSquare.svelte';
 export { default as DivideSquareCompact } from './icons/DivideSquareCompact.svelte';
 export { default as NoEntry } from './icons/NoEntry.svelte';
-export { default as DockBar } from './icons/DockBar.svelte';
-export { default as DockCorner } from './icons/DockCorner.svelte';
-export { default as DockCornerOff } from './icons/DockCornerOff.svelte';
-export { default as DockDash } from './icons/DockDash.svelte';
+export { default as KeyboardBare } from './icons/KeyboardBare.svelte';
+export { default as KeyboardEnter } from './icons/KeyboardEnter.svelte';
+export { default as KeyboardOff } from './icons/KeyboardOff.svelte';
+export { default as Keyboard } from './icons/Keyboard.svelte';
 export { default as DocumentChecklist } from './icons/DocumentChecklist.svelte';
 export { default as DocumentChecklistCheck } from './icons/DocumentChecklistCheck.svelte';
 export { default as DocumentChecklistClock } from './icons/DocumentChecklistClock.svelte';
@@ -3056,6 +3056,7 @@ export { default as DoorSquare } from './icons/DoorSquare.svelte';
 export { default as DoorSquareArrowIn } from './icons/DoorSquareArrowIn.svelte';
 export { default as DoorSquareX } from './icons/DoorSquareX.svelte';
 export { default as DoorSquareArrowOut } from './icons/DoorSquareArrowOut.svelte';
+export { default as DotsCircle } from './icons/DotsCircle.svelte';
 export { default as Download } from './icons/Download.svelte';
 export { default as DownloadFlat } from './icons/DownloadFlat.svelte';
 export { default as DownloadBox } from './icons/DownloadBox.svelte';
@@ -3508,7 +3509,7 @@ export { default as FormRadio } from './icons/FormRadio.svelte';
 export { default as FormUserDrop } from './icons/FormUserDrop.svelte';
 export { default as FormUserTooltip } from './icons/FormUserTooltip.svelte';
 export { default as Forward } from './icons/Forward.svelte';
-export { default as Fox } from './icons/Fox.svelte';
+export { default as TicketVertical } from './icons/TicketVertical.svelte';
 export { default as FullscreenCorners } from './icons/FullscreenCorners.svelte';
 export { default as FullscreenCornersIn } from './icons/FullscreenCornersIn.svelte';
 export { default as Funnel } from './icons/Funnel.svelte';
@@ -3620,7 +3621,7 @@ export { default as GitPullRequestClosed } from './icons/GitPullRequestClosed.sv
 export { default as GitPullRequestDraft } from './icons/GitPullRequestDraft.svelte';
 export { default as GitPullRequestPlus } from './icons/GitPullRequestPlus.svelte';
 export { default as GitPullRequestPlusBare } from './icons/GitPullRequestPlusBare.svelte';
-export { default as GitPullRequestX } from './icons/GitPullRequestX.svelte';
+export { default as GitConflict } from './icons/GitConflict.svelte';
 export { default as Globe } from './icons/Globe.svelte';
 export { default as GlobeArrowUpRight } from './icons/GlobeArrowUpRight.svelte';
 export { default as GlobeCursor } from './icons/GlobeCursor.svelte';
@@ -4707,7 +4708,7 @@ export { default as PencilBlunt } from './icons/PencilBlunt.svelte';
 export { default as PencilDetailed } from './icons/PencilDetailed.svelte';
 export { default as PencilAngular } from './icons/PencilAngular.svelte';
 export { default as PencilPlusDot } from './icons/PencilPlusDot.svelte';
-export { default as PencilPlusThree } from './icons/PencilPlusThree.svelte';
+export { default as PencilSparkles } from './icons/PencilSparkles.svelte';
 export { default as PencilRuler } from './icons/PencilRuler.svelte';
 export { default as PencilRulerRound } from './icons/PencilRulerRound.svelte';
 export { default as PencilUnderline } from './icons/PencilUnderline.svelte';
@@ -5044,8 +5045,10 @@ export { default as ScanWindowBare } from './icons/ScanWindowBare.svelte';
 export { default as Scissors } from './icons/Scissors.svelte';
 export { default as ScissorsClosed } from './icons/ScissorsClosed.svelte';
 export { default as ScissorsClosedWide } from './icons/ScissorsClosedWide.svelte';
+export { default as ScissorsDotted } from './icons/ScissorsDotted.svelte';
 export { default as ScissorsUp } from './icons/ScissorsUp.svelte';
 export { default as ScissorsWide } from './icons/ScissorsWide.svelte';
+export { default as ScissorsWideDotted } from './icons/ScissorsWideDotted.svelte';
 export { default as ScreenshotPlus } from './icons/ScreenshotPlus.svelte';
 export { default as ScreenshotAreaPlus } from './icons/ScreenshotAreaPlus.svelte';
 export { default as ScreenshotCamera } from './icons/ScreenshotCamera.svelte';
@@ -5141,7 +5144,7 @@ export { default as SkipForwardThick } from './icons/SkipForwardThick.svelte';
 export { default as Skip } from './icons/Skip.svelte';
 export { default as SkipX } from './icons/SkipX.svelte';
 export { default as SkipCircles } from './icons/SkipCircles.svelte';
-export { default as SlashCircle } from './icons/SlashCircle.svelte';
+export { default as PercentCircleDot } from './icons/PercentCircleDot.svelte';
 export { default as SliderPointer } from './icons/SliderPointer.svelte';
 export { default as SliderPointerTrack } from './icons/SliderPointerTrack.svelte';
 export { default as Slider } from './icons/Slider.svelte';
@@ -5616,10 +5619,10 @@ export { default as TicketPlusSide } from './icons/TicketPlusSide.svelte';
 export { default as TicketPlusSlim } from './icons/TicketPlusSlim.svelte';
 export { default as TicketPlusTall } from './icons/TicketPlusTall.svelte';
 export { default as TicketScalloped } from './icons/TicketScalloped.svelte';
-export { default as TicketSlash } from './icons/TicketSlash.svelte';
-export { default as TicketSlashSide } from './icons/TicketSlashSide.svelte';
-export { default as TicketSlashSlim } from './icons/TicketSlashSlim.svelte';
-export { default as TicketSlashTall } from './icons/TicketSlashTall.svelte';
+export { default as TicketPercent } from './icons/TicketPercent.svelte';
+export { default as TicketPercentSide } from './icons/TicketPercentSide.svelte';
+export { default as TicketPercentSlim } from './icons/TicketPercentSlim.svelte';
+export { default as TicketPercentTall } from './icons/TicketPercentTall.svelte';
 export { default as TicketSlim } from './icons/TicketSlim.svelte';
 export { default as TicketStack } from './icons/TicketStack.svelte';
 export { default as TicketStackSlim } from './icons/TicketStackSlim.svelte';
@@ -5908,7 +5911,7 @@ export { default as WalletTab } from './icons/WalletTab.svelte';
 export { default as WalletTabRound } from './icons/WalletTabRound.svelte';
 export { default as ImageDashed } from './icons/ImageDashed.svelte';
 export { default as ImageCorners } from './icons/ImageCorners.svelte';
-export { default as WandPlusThree } from './icons/WandPlusThree.svelte';
+export { default as WandSparkles } from './icons/WandSparkles.svelte';
 export { default as AlertCircle } from './icons/AlertCircle.svelte';
 export { default as AlertCircleSmall } from './icons/AlertCircleSmall.svelte';
 export { default as AlertSquare } from './icons/AlertSquare.svelte';
@@ -6710,6 +6713,8 @@ export { default as BadgeCheck5 } from './icons/BadgeCheckWavy.svelte';
 export { default as BadgeCheck6 } from './icons/BadgeCheckNotched.svelte';
 /** @deprecated Renamed to `BadgeCheckPointed`. This old name will be removed in the next major version. */
 export { default as BadgeCheck7 } from './icons/BadgeCheckPointed.svelte';
+/** @deprecated Renamed to `BadgeDollarJaggedSharp`. This old name will be removed in the next major version. */
+export { default as BadgeDollarBareJagged } from './icons/BadgeDollarJaggedSharp.svelte';
 /** @deprecated Renamed to `BadgeQuestionPointed`. This old name will be removed in the next major version. */
 export { default as BadgeRosetteQuestion } from './icons/BadgeQuestionPointed.svelte';
 /** @deprecated Renamed to `BadgeQuestionJagged`. This old name will be removed in the next major version. */
@@ -6724,6 +6729,10 @@ export { default as BadgeRosetteQuestionUnverified4 } from './icons/BadgeQuestio
 export { default as BadgeRosetteQuestionUnverified5 } from './icons/BadgeQuestionWavy.svelte';
 /** @deprecated Renamed to `BadgeQuestionNotched`. This old name will be removed in the next major version. */
 export { default as BadgeRosetteQuestionUnverified6 } from './icons/BadgeQuestionNotched.svelte';
+/** @deprecated Renamed to `BadgePercentJaggedRound`. This old name will be removed in the next major version. */
+export { default as BadgeSlashJagged } from './icons/BadgePercentJaggedRound.svelte';
+/** @deprecated Renamed to `BanknoteOne`. This old name will be removed in the next major version. */
+export { default as BanknoteTen } from './icons/BanknoteOne.svelte';
 /** @deprecated Renamed to `BellRim`. This old name will be removed in the next major version. */
 export { default as Bell1 } from './icons/BellRim.svelte';
 /** @deprecated Renamed to `BellTiltedRim`. This old name will be removed in the next major version. */
@@ -7170,6 +7179,8 @@ export { default as BriefcasePlus } from './icons/BriefcaseSide.svelte';
 export { default as BriefcaseRemove } from './icons/BriefcaseCorners.svelte';
 /** @deprecated Renamed to `BriefcaseSatchel`. This old name will be removed in the next major version. */
 export { default as BriefcaseSearch } from './icons/BriefcaseSatchel.svelte';
+/** @deprecated Renamed to `BroomSparkles`. This old name will be removed in the next major version. */
+export { default as BroomPlusThree } from './icons/BroomSparkles.svelte';
 /** @deprecated Renamed to `Browser`. This old name will be removed in the next major version. */
 export { default as BrowserWindow1 } from './icons/Browser.svelte';
 /** @deprecated Renamed to `WindowPlain2`. This old name will be removed in the next major version. */
@@ -7340,6 +7351,8 @@ export { default as ChartArrowUpRectangleMinus } from './icons/ChartTrendUpSquar
 export { default as ChartArrowUpRectanglePlus } from './icons/ChartTrendUpSquarePlus.svelte';
 /** @deprecated Renamed to `ChartTrendUpSquareX`. This old name will be removed in the next major version. */
 export { default as ChartArrowUpRectangleX } from './icons/ChartTrendUpSquareX.svelte';
+/** @deprecated Renamed to `ChartQuadrant`. This old name will be removed in the next major version. */
+export { default as ChartAxisGrid } from './icons/ChartQuadrant.svelte';
 /** @deprecated Renamed to `ChartCandlestick`. This old name will be removed in the next major version. */
 export { default as ChartCandlestick1 } from './icons/ChartCandlestick.svelte';
 /** @deprecated Renamed to `ChartDonut`. This old name will be removed in the next major version. */
@@ -7974,6 +7987,8 @@ export { default as CloudUpload2 } from './icons/CloudUploadLarge.svelte';
 export { default as CloudUpload3 } from './icons/CloudUploadBase.svelte';
 /** @deprecated Renamed to `CloudEye`. This old name will be removed in the next major version. */
 export { default as CloudView } from './icons/CloudEye.svelte';
+/** @deprecated Renamed to `CoinDollar`. This old name will be removed in the next major version. */
+export { default as CoinDollarBare } from './icons/CoinDollar.svelte';
 /** @deprecated Renamed to `MonitorArrowRight`. This old name will be removed in the next major version. */
 export { default as ComputerDesktopLogout } from './icons/MonitorArrowRight.svelte';
 /** @deprecated Renamed to `CircleConcentricXL`. This old name will be removed in the next major version. */
@@ -8088,6 +8103,14 @@ export { default as DislikeHand2 } from './icons/HandThumbDownFingers.svelte';
 export { default as DislikeHand3 } from './icons/HandThumbDownCuff.svelte';
 /** @deprecated Renamed to `HandThumbDownSleeve`. This old name will be removed in the next major version. */
 export { default as DislikeHand4 } from './icons/HandThumbDownSleeve.svelte';
+/** @deprecated Renamed to `KeyboardBare`. This old name will be removed in the next major version. */
+export { default as DockBar } from './icons/KeyboardBare.svelte';
+/** @deprecated Renamed to `KeyboardEnter`. This old name will be removed in the next major version. */
+export { default as DockCorner } from './icons/KeyboardEnter.svelte';
+/** @deprecated Renamed to `KeyboardOff`. This old name will be removed in the next major version. */
+export { default as DockCornerOff } from './icons/KeyboardOff.svelte';
+/** @deprecated Renamed to `Keyboard`. This old name will be removed in the next major version. */
+export { default as DockDash } from './icons/Keyboard.svelte';
 /** @deprecated Renamed to `DomainGlobe`. This old name will be removed in the next major version. */
 export { default as DomainNameGlobe1 } from './icons/DomainGlobe.svelte';
 /** @deprecated Renamed to `DomainGlobeCenter`. This old name will be removed in the next major version. */
@@ -8388,6 +8411,8 @@ export { default as FormRadiusUnchecked2 } from './icons/FormRadio.svelte';
 export { default as FormUsernameTooltipDrop } from './icons/FormUserDrop.svelte';
 /** @deprecated Renamed to `FormUserTooltip`. This old name will be removed in the next major version. */
 export { default as FormUsernameTooltipSquare } from './icons/FormUserTooltip.svelte';
+/** @deprecated Renamed to `TicketVertical`. This old name will be removed in the next major version. */
+export { default as Fox } from './icons/TicketVertical.svelte';
 /** @deprecated Renamed to `Funnel`. This old name will be removed in the next major version. */
 export { default as FunnelFilter1 } from './icons/Funnel.svelte';
 /** @deprecated Renamed to `FunnelRim`. This old name will be removed in the next major version. */
@@ -8448,6 +8473,8 @@ export { default as GeometricFormsDiversity } from './icons/ShapeMix.svelte';
 export { default as GeometricFormsInconsistency } from './icons/ShapeUneven.svelte';
 /** @deprecated Renamed to `CircleGridMarks`. This old name will be removed in the next major version. */
 export { default as GeometricFormsVariation } from './icons/CircleGridMarks.svelte';
+/** @deprecated Renamed to `GitConflict`. This old name will be removed in the next major version. */
+export { default as GitPullRequestX } from './icons/GitConflict.svelte';
 /** @deprecated Renamed to `ProgressBarMultipleDottedSharp`. This old name will be removed in the next major version. */
 export { default as GraphHorizontalBarsDots } from './icons/ProgressBarMultipleDottedSharp.svelte';
 /** @deprecated Renamed to `ProgressBarMultipleDottedJoined`. This old name will be removed in the next major version. */
@@ -9358,6 +9385,8 @@ export { default as PencilEdit5 } from './icons/PencilBlunt.svelte';
 export { default as PencilEdit6 } from './icons/PencilDetailed.svelte';
 /** @deprecated Renamed to `PencilAngular`. This old name will be removed in the next major version. */
 export { default as PencilEdit7 } from './icons/PencilAngular.svelte';
+/** @deprecated Renamed to `PencilSparkles`. This old name will be removed in the next major version. */
+export { default as PencilPlusThree } from './icons/PencilSparkles.svelte';
 /** @deprecated Renamed to `PencilUnderline`. This old name will be removed in the next major version. */
 export { default as PencilTracing1 } from './icons/PencilUnderline.svelte';
 /** @deprecated Renamed to `PencilUnderlinePlain`. This old name will be removed in the next major version. */
@@ -9714,6 +9743,8 @@ export { default as SkipLineOver1 } from './icons/Skip.svelte';
 export { default as SkipLineOver2 } from './icons/SkipX.svelte';
 /** @deprecated Renamed to `SkipCircles`. This old name will be removed in the next major version. */
 export { default as SkipLineOver3 } from './icons/SkipCircles.svelte';
+/** @deprecated Renamed to `PercentCircleDot`. This old name will be removed in the next major version. */
+export { default as SlashCircle } from './icons/PercentCircleDot.svelte';
 /** @deprecated Renamed to `SliderPointerTrack`. This old name will be removed in the next major version. */
 export { default as SliderLevel2 } from './icons/SliderPointerTrack.svelte';
 /** @deprecated Renamed to `Slider`. This old name will be removed in the next major version. */
@@ -10130,6 +10161,14 @@ export { default as ThemesColorPalette } from './icons/SwatchFan.svelte';
 export { default as ThemesRectanglesFilled } from './icons/SwatchStackWide.svelte';
 /** @deprecated Renamed to `SwatchStack`. This old name will be removed in the next major version. */
 export { default as ThemesSquaresFilled } from './icons/SwatchStack.svelte';
+/** @deprecated Renamed to `TicketPercent`. This old name will be removed in the next major version. */
+export { default as TicketSlash } from './icons/TicketPercent.svelte';
+/** @deprecated Renamed to `TicketPercentSide`. This old name will be removed in the next major version. */
+export { default as TicketSlashSide } from './icons/TicketPercentSide.svelte';
+/** @deprecated Renamed to `TicketPercentSlim`. This old name will be removed in the next major version. */
+export { default as TicketSlashSlim } from './icons/TicketPercentSlim.svelte';
+/** @deprecated Renamed to `TicketPercentTall`. This old name will be removed in the next major version. */
+export { default as TicketSlashTall } from './icons/TicketPercentTall.svelte';
 /** @deprecated Renamed to `MenuListColumnsSquare`. This old name will be removed in the next major version. */
 export { default as ToolbarMoreDetails } from './icons/MenuListColumnsSquare.svelte';
 /** @deprecated Renamed to `ToolbarBottom`. This old name will be removed in the next major version. */
@@ -10556,6 +10595,8 @@ export { default as VRHeadsetPerson2 } from './icons/VrHeadsetUserSmall.svelte';
 export { default as WallpaperPictureDashed } from './icons/ImageDashed.svelte';
 /** @deprecated Renamed to `ImageCorners`. This old name will be removed in the next major version. */
 export { default as WallpaperPictureFramed } from './icons/ImageCorners.svelte';
+/** @deprecated Renamed to `WandSparkles`. This old name will be removed in the next major version. */
+export { default as WandPlusThree } from './icons/WandSparkles.svelte';
 /** @deprecated Renamed to `Triangle`. This old name will be removed in the next major version. */
 export { default as Warning1 } from './icons/Triangle.svelte';
 /** @deprecated Renamed to `TriangleWide`. This old name will be removed in the next major version. */

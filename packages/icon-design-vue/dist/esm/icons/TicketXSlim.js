@@ -28,7 +28,8 @@ const TicketXSlim = defineComponent({
           h('path', {"d":"M6 12L7 11"}),
           h('path', {"d":"M11 7L12 6"}),
           h('path', {"d":"M18 6L22 2"}),
-          h('path', {"d":"M18 2L22 6"})
+          h('path', {"d":"M18 2L22 6"}),
+          h('path', {"d":"M9 9L9 9"})
         ]
       );
   }

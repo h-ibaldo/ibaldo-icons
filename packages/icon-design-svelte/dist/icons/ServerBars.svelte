@@ -27,4 +27,6 @@
   <path d="M10 8L10 16"/>
   <path d="M14 8L14 16"/>
   <path d="M18 8L18 16"/>
+  <path d="M6 16L6 16"/>
+  <path d="M6 13L6 13"/>
 </svg>

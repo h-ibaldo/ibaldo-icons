@@ -1,14 +1,14 @@
 {
-  "name": "BanknoteTen",
-  "displayName": "Banknote ten",
+  "name": "BanknoteOne",
+  "displayName": "Banknote one",
   "description": "Banknote with corner ornaments, a 0 in the middle and a 1 in two corners.",
   "tags": [
     "banknote",
     "money",
     "cash",
     "bill",
-    "ten",
-    "value"
+    "value",
+    "one"
   ],
   "categories": [
     "business",
@@ -31,5 +31,8 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-21T04:07:58.429Z"
+  "updatedAt": "2026-11-23T01:14:24.000Z",
+  "aliases": [
+    "BanknoteTen"
+  ]
 }

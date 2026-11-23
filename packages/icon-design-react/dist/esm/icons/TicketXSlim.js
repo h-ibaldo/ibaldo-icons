@@ -24,7 +24,8 @@ const TicketXSlim = forwardRef(function TicketXSlim(
     createElement('path', {"d":"M6 12L7 11","key":"1"}),
     createElement('path', {"d":"M11 7L12 6","key":"2"}),
     createElement('path', {"d":"M18 6L22 2","key":"3"}),
-    createElement('path', {"d":"M18 2L22 6","key":"4"})
+    createElement('path', {"d":"M18 2L22 6","key":"4"}),
+    createElement('path', {"d":"M9 9L9 9","key":"5"})
   );
 });
 

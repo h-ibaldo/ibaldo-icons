@@ -1,7 +1,7 @@
 {
   "name": "BookAlertCurved",
   "displayName": "Book alert curved",
-  "description": "Book with a curved spine and pages, and a short vertical line at the top of the cover.",
+  "description": "Book with a curved spine and pages, and an exclamation mark on the cover.",
   "tags": [
     "book",
     "reading",
@@ -9,7 +9,8 @@
     "manual",
     "alert",
     "warning",
-    "important"
+    "important",
+    "exclamation"
   ],
   "categories": [
     "education"
@@ -31,5 +32,5 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-22T22:39:17.360Z"
+  "updatedAt": "2026-11-23T01:14:24.000Z"
 }

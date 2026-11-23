@@ -4598,24 +4598,25 @@
     }
   },
   "new-icon-set-02-p0230": {
-    "name": "Circle2",
-    "displayName": "Circle 2",
-    "description": "Duplicate drawing kept out of the import.",
+    "name": "DotsCircle",
+    "displayName": "Dots circle",
+    "description": "Circle with three dots in a row inside.",
     "tags": [
+      "more",
+      "ellipsis",
+      "menu",
+      "options",
+      "dots",
       "circle",
-      "shape",
-      "round",
-      "symbol",
-      "sign"
+      "circle-ellipsis"
     ],
     "categories": [
       "interface"
     ],
     "accessibility": {
       "role": "informative",
-      "suggestedLabel": "Circle"
-    },
-    "hold": "same as library CheckboxCircle (plain circle)"
+      "suggestedLabel": "More options"
+    }
   },
   "new-icon-set-02-p0231": {
     "name": "LayerStackOpenTwo",

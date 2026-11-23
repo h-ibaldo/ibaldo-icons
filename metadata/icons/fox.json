@@ -1,21 +1,21 @@
 {
-  "name": "Fox",
-  "displayName": "Fox",
-  "description": "Fox head seen from the front, with two tall ears and a small triangular nose.",
+  "name": "TicketVertical",
+  "displayName": "Ticket vertical",
+  "description": "Tall vertical ticket with a V-shaped notch at the top and a pointed bottom with a small triangle.",
   "tags": [
-    "fox",
-    "animal",
-    "head",
-    "face",
-    "wild",
-    "mascot"
+    "ticket",
+    "coupon",
+    "voucher",
+    "admission",
+    "stub",
+    "vertical"
   ],
   "categories": [
-    "nature"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "Fox"
+    "suggestedLabel": "Ticket"
   },
   "filename": "fox",
   "technical": {
@@ -30,5 +30,8 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-21T04:07:58.429Z"
+  "updatedAt": "2026-11-23T01:14:24.000Z",
+  "aliases": [
+    "Fox"
+  ]
 }

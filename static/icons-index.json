@@ -13,7 +13,6 @@
     "interface",
     "location",
     "media",
-    "nature",
     "people",
     "security",
     "shopping",
@@ -27,34 +26,34 @@
     "/icons/chunks/chunk-0-e656b141.json",
     "/icons/chunks/chunk-1-9222e789.json",
     "/icons/chunks/chunk-2-aed3b869.json",
-    "/icons/chunks/chunk-3-f8dbd678.json",
-    "/icons/chunks/chunk-4-5ad1dce8.json",
+    "/icons/chunks/chunk-3-63519e9e.json",
+    "/icons/chunks/chunk-4-5f2768d2.json",
     "/icons/chunks/chunk-5-66f55ae9.json",
-    "/icons/chunks/chunk-6-32b4daec.json",
+    "/icons/chunks/chunk-6-0a4c3adc.json",
     "/icons/chunks/chunk-7-8ed50376.json",
     "/icons/chunks/chunk-8-7b0c9e8c.json",
     "/icons/chunks/chunk-9-d43d1a2f.json",
     "/icons/chunks/chunk-10-f00cdd9b.json",
     "/icons/chunks/chunk-11-f06566d8.json",
     "/icons/chunks/chunk-12-0795e3d4.json",
-    "/icons/chunks/chunk-13-d930ae20.json",
-    "/icons/chunks/chunk-14-9ce825bb.json",
-    "/icons/chunks/chunk-15-a7cd7157.json",
-    "/icons/chunks/chunk-16-4b63e80b.json",
-    "/icons/chunks/chunk-17-4ecf7493.json",
-    "/icons/chunks/chunk-18-6f97493a.json",
+    "/icons/chunks/chunk-13-bf65fc9e.json",
+    "/icons/chunks/chunk-14-ac910842.json",
+    "/icons/chunks/chunk-15-c063c39a.json",
+    "/icons/chunks/chunk-16-4dc9f0b4.json",
+    "/icons/chunks/chunk-17-68f247e6.json",
+    "/icons/chunks/chunk-18-8d8b37b4.json",
     "/icons/chunks/chunk-19-d6b23ab2.json",
     "/icons/chunks/chunk-20-f97d4693.json",
     "/icons/chunks/chunk-21-35554005.json",
-    "/icons/chunks/chunk-22-220f7155.json",
-    "/icons/chunks/chunk-23-0ab49546.json",
-    "/icons/chunks/chunk-24-58847602.json",
-    "/icons/chunks/chunk-25-be10c871.json",
-    "/icons/chunks/chunk-26-d8291fb5.json",
-    "/icons/chunks/chunk-27-d2717e1e.json",
-    "/icons/chunks/chunk-28-f9b9dd65.json",
-    "/icons/chunks/chunk-29-f0fda289.json",
-    "/icons/chunks/chunk-30-1d02635f.json"
+    "/icons/chunks/chunk-22-54b676bd.json",
+    "/icons/chunks/chunk-23-7af62173.json",
+    "/icons/chunks/chunk-24-31f02eb1.json",
+    "/icons/chunks/chunk-25-aa31c652.json",
+    "/icons/chunks/chunk-26-626a3ea2.json",
+    "/icons/chunks/chunk-27-1345b77b.json",
+    "/icons/chunks/chunk-28-bffed1cf.json",
+    "/icons/chunks/chunk-29-b0490fb1.json",
+    "/icons/chunks/chunk-30-eac655b1.json"
   ],
   "icons": {
     "optimized": [
@@ -15436,29 +15435,6 @@
         "chunk": 3
       },
       {
-        "name": "BadgeDollarBareJagged",
-        "displayName": "Badge dollar bare jagged",
-        "path": "/icons/optimized/badge-dollar-bare-jagged.svg",
-        "filename": "badge-dollar-bare-jagged.svg",
-        "category": "optimized",
-        "categories": [
-          "shopping"
-        ],
-        "tags": [
-          "badge",
-          "seal",
-          "sticker",
-          "label",
-          "dollar",
-          "price",
-          "sale",
-          "paid"
-        ],
-        "description": "Jagged badge with an S-shaped dollar sign without its vertical bar.",
-        "searchText": "badgedollarbarejagged badge dollar bare jagged badge seal sticker label dollar price sale paid jagged badge with an s-shaped dollar sign without its vertical bar. shopping",
-        "chunk": 3
-      },
-      {
         "name": "BadgeDollarJagged",
         "displayName": "Badge dollar jagged",
         "path": "/icons/optimized/badge-dollar-jagged.svg",
@@ -15479,6 +15455,33 @@
         ],
         "description": "Jagged badge with a dollar sign inside.",
         "searchText": "badgedollarjagged badge dollar jagged badge seal sticker label dollar price sale paid jagged badge with a dollar sign inside. shopping",
+        "chunk": 3
+      },
+      {
+        "name": "BadgeDollarJaggedSharp",
+        "displayName": "Badge dollar jagged sharp",
+        "path": "/icons/optimized/badge-dollar-bare-jagged.svg",
+        "filename": "badge-dollar-bare-jagged.svg",
+        "category": "optimized",
+        "categories": [
+          "shopping"
+        ],
+        "aliases": [
+          "BadgeDollarBareJagged"
+        ],
+        "tags": [
+          "badge",
+          "seal",
+          "sticker",
+          "label",
+          "dollar",
+          "price",
+          "sale",
+          "paid",
+          "badge-dollar-sign"
+        ],
+        "description": "Badge with ten sharp points and a dollar sign inside: an S with short ticks above and below.",
+        "searchText": "badgedollarjaggedsharp badge dollar jagged sharp badgedollarbarejagged badge seal sticker label dollar price sale paid badge-dollar-sign badge with ten sharp points and a dollar sign inside: an s with short ticks above and below. shopping",
         "chunk": 3
       },
       {
@@ -15547,6 +15550,33 @@
         ],
         "description": "Jagged badge with a percent sign inside.",
         "searchText": "badgepercentjagged badge percent jagged badge seal sticker label percent discount sale promo jagged badge with a percent sign inside. shopping",
+        "chunk": 3
+      },
+      {
+        "name": "BadgePercentJaggedRound",
+        "displayName": "Badge percent jagged round",
+        "path": "/icons/optimized/badge-slash-jagged.svg",
+        "filename": "badge-slash-jagged.svg",
+        "category": "optimized",
+        "categories": [
+          "shopping"
+        ],
+        "aliases": [
+          "BadgeSlashJagged"
+        ],
+        "tags": [
+          "badge",
+          "seal",
+          "sticker",
+          "label",
+          "discount",
+          "sale",
+          "promo",
+          "percent",
+          "badge-percent"
+        ],
+        "description": "Badge with many small rounded points and a percent sign inside.",
+        "searchText": "badgepercentjaggedround badge percent jagged round badgeslashjagged badge seal sticker label discount sale promo percent badge-percent badge with many small rounded points and a percent sign inside. shopping",
         "chunk": 3
       },
       {
@@ -15732,28 +15762,6 @@
         ],
         "description": "A fifth variant of the rosette badge with question mark, providing additional design options for unverified status indication.",
         "searchText": "badgequestionwavy badge question wavy badgerosettequestionunverified5 badge rosette mark unverified question uncertain verification wavy a fifth variant of the rosette badge with question mark, providing additional design options for unverified status indication. social",
-        "chunk": 3
-      },
-      {
-        "name": "BadgeSlashJagged",
-        "displayName": "Badge slash jagged",
-        "path": "/icons/optimized/badge-slash-jagged.svg",
-        "filename": "badge-slash-jagged.svg",
-        "category": "optimized",
-        "categories": [
-          "shopping"
-        ],
-        "tags": [
-          "badge",
-          "seal",
-          "sticker",
-          "label",
-          "discount",
-          "sale",
-          "promo"
-        ],
-        "description": "Jagged badge with a slash inside.",
-        "searchText": "badgeslashjagged badge slash jagged badge seal sticker label discount sale promo jagged badge with a slash inside. shopping",
         "chunk": 3
       },
       {
@@ -16114,6 +16122,31 @@
         "chunk": 3
       },
       {
+        "name": "BanknoteOne",
+        "displayName": "Banknote one",
+        "path": "/icons/optimized/banknote-ten.svg",
+        "filename": "banknote-ten.svg",
+        "category": "optimized",
+        "categories": [
+          "business",
+          "shopping"
+        ],
+        "aliases": [
+          "BanknoteTen"
+        ],
+        "tags": [
+          "banknote",
+          "money",
+          "cash",
+          "bill",
+          "value",
+          "one"
+        ],
+        "description": "Banknote with corner ornaments, a 0 in the middle and a 1 in two corners.",
+        "searchText": "banknoteone banknote one banknoteten banknote money cash bill value one banknote with corner ornaments, a 0 in the middle and a 1 in two corners. business shopping",
+        "chunk": 3
+      },
+      {
         "name": "BanknoteSearch",
         "displayName": "Banknote search",
         "path": "/icons/optimized/paid-search-lupe-dollar-bill-1.svg",
@@ -16213,28 +16246,6 @@
         ],
         "description": "Banknote with corner ornaments above two lines for more bills.",
         "searchText": "banknotestackflat banknote stack flat banknote money cash bill bills stack pile banknote with corner ornaments above two lines for more bills. business shopping",
-        "chunk": 3
-      },
-      {
-        "name": "BanknoteTen",
-        "displayName": "Banknote ten",
-        "path": "/icons/optimized/banknote-ten.svg",
-        "filename": "banknote-ten.svg",
-        "category": "optimized",
-        "categories": [
-          "business",
-          "shopping"
-        ],
-        "tags": [
-          "banknote",
-          "money",
-          "cash",
-          "bill",
-          "ten",
-          "value"
-        ],
-        "description": "Banknote with corner ornaments, a 0 in the middle and a 1 in two corners.",
-        "searchText": "banknoteten banknote ten banknote money cash bill ten value banknote with corner ornaments, a 0 in the middle and a 1 in two corners. business shopping",
         "chunk": 3
       },
       {
@@ -16351,10 +16362,12 @@
           "energy",
           "alert",
           "warning",
-          "low"
+          "low",
+          "exclamation",
+          "battery-warning"
         ],
-        "description": "Battery with a short vertical line in the middle.",
-        "searchText": "batteryalert battery alert battery power charge energy alert warning low battery with a short vertical line in the middle. devices",
+        "description": "Battery with an exclamation mark in the middle.",
+        "searchText": "batteryalert battery alert battery power charge energy alert warning low exclamation battery-warning battery with an exclamation mark in the middle. devices",
         "chunk": 3
       },
       {
@@ -16373,10 +16386,12 @@
           "energy",
           "alert",
           "warning",
-          "low"
+          "low",
+          "exclamation",
+          "battery-warning"
         ],
-        "description": "Boxy battery with a short vertical line in the middle.",
-        "searchText": "batteryalertboxy battery alert boxy battery power charge energy alert warning low boxy battery with a short vertical line in the middle. devices",
+        "description": "Boxy battery with an exclamation mark in the middle.",
+        "searchText": "batteryalertboxy battery alert boxy battery power charge energy alert warning low exclamation battery-warning boxy battery with an exclamation mark in the middle. devices",
         "chunk": 3
       },
       {
@@ -20806,10 +20821,11 @@
           "manual",
           "alert",
           "warning",
-          "important"
+          "important",
+          "exclamation"
         ],
-        "description": "Book with a curved spine and pages, and a short vertical line at the top of the cover.",
-        "searchText": "bookalertcurved book alert curved book reading library manual alert warning important book with a curved spine and pages, and a short vertical line at the top of the cover. education",
+        "description": "Book with a curved spine and pages, and an exclamation mark on the cover.",
+        "searchText": "bookalertcurved book alert curved book reading library manual alert warning important exclamation book with a curved spine and pages, and an exclamation mark on the cover. education",
         "chunk": 4
       },
       {
@@ -23812,8 +23828,8 @@
           "sticky-note",
           "copy"
         ],
-        "description": "Book with a sticky note with a curled corner over the cover.",
-        "searchText": "booknote book note book reading library manual note sticky-note copy book with a sticky note with a curled corner over the cover. education",
+        "description": "Book with a sticky note with a curled corner and a dot over the cover.",
+        "searchText": "booknote book note book reading library manual note sticky-note copy book with a sticky note with a curled corner and a dot over the cover. education",
         "chunk": 4
       },
       {
@@ -23834,8 +23850,8 @@
           "sticky-note",
           "copy"
         ],
-        "description": "Book with a curved spine and pages, and a sticky note with a curled corner over the cover.",
-        "searchText": "booknotecurved book note curved book reading library manual note sticky-note copy book with a curved spine and pages, and a sticky note with a curled corner over the cover. education",
+        "description": "Book with a curved spine and pages, and a sticky note with a curled corner and a dot over the cover.",
+        "searchText": "booknotecurved book note curved book reading library manual note sticky-note copy book with a curved spine and pages, and a sticky note with a curled corner and a dot over the cover. education",
         "chunk": 4
       },
       {
@@ -26012,13 +26028,16 @@
         "chunk": 5
       },
       {
-        "name": "BroomPlusThree",
-        "displayName": "Broom plus three",
+        "name": "BroomSparkles",
+        "displayName": "Broom sparkles",
         "path": "/icons/optimized/broom-plus-three.svg",
         "filename": "broom-plus-three.svg",
         "category": "optimized",
         "categories": [
           "interface"
+        ],
+        "aliases": [
+          "BroomPlusThree"
         ],
         "tags": [
           "broom",
@@ -26026,10 +26045,11 @@
           "clear",
           "sweep",
           "sparkle",
-          "tidy"
+          "tidy",
+          "sparkles"
         ],
-        "description": "Broom with three small plus signs around it.",
-        "searchText": "broomplusthree broom plus three broom clean clear sweep sparkle tidy broom with three small plus signs around it. interface",
+        "description": "Broom with three small plus-shaped sparkles around it.",
+        "searchText": "broomsparkles broom sparkles broomplusthree broom clean clear sweep sparkle tidy sparkles broom with three small plus-shaped sparkles around it. interface",
         "chunk": 5
       },
       {
@@ -31865,28 +31885,6 @@
         "chunk": 6
       },
       {
-        "name": "ChartAxisGrid",
-        "displayName": "Chart axis grid",
-        "path": "/icons/optimized/chart-axis-grid.svg",
-        "filename": "chart-axis-grid.svg",
-        "category": "optimized",
-        "categories": [
-          "business"
-        ],
-        "tags": [
-          "chart",
-          "graph",
-          "analytics",
-          "data",
-          "grid",
-          "axes",
-          "quadrant"
-        ],
-        "description": "Two axes with a vertical and a horizontal line crossing inside.",
-        "searchText": "chartaxisgrid chart axis grid chart graph analytics data grid axes quadrant two axes with a vertical and a horizontal line crossing inside. business",
-        "chunk": 6
-      },
-      {
         "name": "ChartBar",
         "displayName": "Chart bar",
         "path": "/icons/optimized/chart-vertical-columns-5.svg",
@@ -34768,6 +34766,33 @@
         ],
         "description": "Pie chart with a quarter slice pulled out at the top right.",
         "searchText": "chartpieslice chart pie slice chart graph analytics data pie share pie chart with a quarter slice pulled out at the top right. business",
+        "chunk": 6
+      },
+      {
+        "name": "ChartQuadrant",
+        "displayName": "Chart quadrant",
+        "path": "/icons/optimized/chart-axis-grid.svg",
+        "filename": "chart-axis-grid.svg",
+        "category": "optimized",
+        "categories": [
+          "business"
+        ],
+        "aliases": [
+          "ChartAxisGrid"
+        ],
+        "tags": [
+          "chart",
+          "graph",
+          "analytics",
+          "data",
+          "axes",
+          "quadrant",
+          "chart-quadrant",
+          "scatter",
+          "matrix"
+        ],
+        "description": "Two axes with a vertical and a horizontal line crossing inside, and a dot in each of the four quadrants.",
+        "searchText": "chartquadrant chart quadrant chartaxisgrid chart graph analytics data axes quadrant chart-quadrant scatter matrix two axes with a vertical and a horizontal line crossing inside, and a dot in each of the four quadrants. business",
         "chunk": 6
       },
       {
@@ -68777,13 +68802,16 @@
         "chunk": 13
       },
       {
-        "name": "CoinDollarBare",
-        "displayName": "Coin dollar bare",
+        "name": "CoinDollar",
+        "displayName": "Coin dollar",
         "path": "/icons/optimized/coin-dollar-bare.svg",
         "filename": "coin-dollar-bare.svg",
         "category": "optimized",
         "categories": [
           "business"
+        ],
+        "aliases": [
+          "CoinDollarBare"
         ],
         "tags": [
           "coin",
@@ -68791,10 +68819,11 @@
           "currency",
           "cash",
           "dollar",
-          "payment"
+          "payment",
+          "circle-dollar-sign"
         ],
-        "description": "Coin drawn as a circle with an S-shaped dollar sign without its vertical bar.",
-        "searchText": "coindollarbare coin dollar bare coin money currency cash dollar payment coin drawn as a circle with an s-shaped dollar sign without its vertical bar. business",
+        "description": "Coin drawn as a circle with a dollar sign: an S with short ticks above and below.",
+        "searchText": "coindollar coin dollar coindollarbare coin money currency cash dollar payment circle-dollar-sign coin drawn as a circle with a dollar sign: an s with short ticks above and below. business",
         "chunk": 13
       },
       {
@@ -72535,26 +72564,6 @@
         "chunk": 14
       },
       {
-        "name": "DockBar",
-        "displayName": "Dock bar",
-        "path": "/icons/optimized/dock-bar.svg",
-        "filename": "dock-bar.svg",
-        "category": "optimized",
-        "categories": [
-          "interface"
-        ],
-        "tags": [
-          "dock",
-          "window",
-          "screen",
-          "taskbar",
-          "symbol"
-        ],
-        "description": "Wide rectangle with a long line along the bottom.",
-        "searchText": "dockbar dock bar dock window screen taskbar symbol wide rectangle with a long line along the bottom. interface",
-        "chunk": 14
-      },
-      {
         "name": "DockBottom",
         "displayName": "Dock bottom",
         "path": "/icons/optimized/window-docking-bottom-docking.svg",
@@ -72577,67 +72586,6 @@
         ],
         "description": "A window docking icon indicating bottom edge docking position",
         "searchText": "dockbottom dock bottom windowdockingbottom dock window docking bottom align position anchor a window docking icon indicating bottom edge docking position interface",
-        "chunk": 14
-      },
-      {
-        "name": "DockCorner",
-        "displayName": "Dock corner",
-        "path": "/icons/optimized/dock-corner.svg",
-        "filename": "dock-corner.svg",
-        "category": "optimized",
-        "categories": [
-          "interface"
-        ],
-        "tags": [
-          "dock",
-          "window",
-          "screen",
-          "taskbar",
-          "picture-in-picture"
-        ],
-        "description": "Wide rectangle with a corner mark at the bottom right.",
-        "searchText": "dockcorner dock corner dock window screen taskbar picture-in-picture wide rectangle with a corner mark at the bottom right. interface",
-        "chunk": 14
-      },
-      {
-        "name": "DockCornerOff",
-        "displayName": "Dock corner off",
-        "path": "/icons/optimized/dock-corner-off.svg",
-        "filename": "dock-corner-off.svg",
-        "category": "optimized",
-        "categories": [
-          "interface"
-        ],
-        "tags": [
-          "dock",
-          "window",
-          "screen",
-          "taskbar",
-          "off",
-          "disabled"
-        ],
-        "description": "Wide rectangle with a corner mark and a slash through it.",
-        "searchText": "dockcorneroff dock corner off dock window screen taskbar off disabled wide rectangle with a corner mark and a slash through it. interface",
-        "chunk": 14
-      },
-      {
-        "name": "DockDash",
-        "displayName": "Dock dash",
-        "path": "/icons/optimized/dock-dash.svg",
-        "filename": "dock-dash.svg",
-        "category": "optimized",
-        "categories": [
-          "interface"
-        ],
-        "tags": [
-          "dock",
-          "window",
-          "screen",
-          "taskbar",
-          "minimize"
-        ],
-        "description": "Wide rectangle with a short line at the bottom center.",
-        "searchText": "dockdash dock dash dock window screen taskbar minimize wide rectangle with a short line at the bottom center. interface",
         "chunk": 14
       },
       {
@@ -73998,6 +73946,28 @@
         ],
         "description": "Door with X symbol indicating forbidden access or login denial. Used to show restricted access, blocked entry, or authentication failure.",
         "searchText": "doorxbare door x bare door1x door enter login forbidden close delete remove blocked denied restricted access error door with x symbol indicating forbidden access or login denial. used to show restricted access, blocked entry, or authentication failure. security",
+        "chunk": 14
+      },
+      {
+        "name": "DotsCircle",
+        "displayName": "Dots circle",
+        "path": "/icons/optimized/dots-circle.svg",
+        "filename": "dots-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "interface"
+        ],
+        "tags": [
+          "more",
+          "ellipsis",
+          "menu",
+          "options",
+          "dots",
+          "circle",
+          "circle-ellipsis"
+        ],
+        "description": "Circle with three dots in a row inside.",
+        "searchText": "dotscircle dots circle more ellipsis menu options dots circle circle-ellipsis circle with three dots in a row inside. interface",
         "chunk": 14
       },
       {
@@ -75609,7 +75579,7 @@
         ],
         "description": "An eye icon with a crossed bar indicating hidden or concealed visibility",
         "searchText": "eyeofflargepupil eye off large pupil eyehidecrossed6 eye hide crossed bar disabled mute visibility secret obscure concealed privacy off an eye icon with a crossed bar indicating hidden or concealed visibility interface security",
-        "chunk": 15
+        "chunk": 14
       },
       {
         "name": "EyeOffLargeShine",
@@ -75640,7 +75610,7 @@
         ],
         "description": "An eye icon with a crossed bar indicating hidden or concealed visibility",
         "searchText": "eyeofflargeshine eye off large shine eyehidecrossed2 eye hide crossed bar disabled mute visibility secret obscure concealed privacy off an eye icon with a crossed bar indicating hidden or concealed visibility interface security",
-        "chunk": 15
+        "chunk": 14
       },
       {
         "name": "EyeOffLidded",
@@ -75671,7 +75641,7 @@
         ],
         "description": "An eye icon with a crossed bar indicating hidden or concealed visibility",
         "searchText": "eyeofflidded eye off lidded eyehidecrossed3 eye hide crossed bar disabled mute visibility secret obscure concealed privacy off an eye icon with a crossed bar indicating hidden or concealed visibility interface security",
-        "chunk": 15
+        "chunk": 14
       },
       {
         "name": "EyeOffPupil",
@@ -80068,7 +80038,7 @@
         ],
         "description": "Two stacked pages with folded corners and angle brackets over the front page.",
         "searchText": "filestackbrackets file stack brackets brackets files file document page code source developer two stacked pages with folded corners and angle brackets over the front page. files development",
-        "chunk": 16
+        "chunk": 15
       },
       {
         "name": "FileStackCode",
@@ -80092,7 +80062,7 @@
         ],
         "description": "Two stacked pages with folded corners and a code sign over the front page.",
         "searchText": "filestackcode file stack code files multiple file document page code source developer two stacked pages with folded corners and a code sign over the front page. files development",
-        "chunk": 16
+        "chunk": 15
       },
       {
         "name": "FileStackCut",
@@ -80114,7 +80084,7 @@
         ],
         "description": "File page with a cut corner with an L-shaped page edge behind it.",
         "searchText": "filestackcut file stack cut file copy duplicate stack files pages cut-corner file page with a cut corner with an l-shaped page edge behind it. files",
-        "chunk": 16
+        "chunk": 15
       },
       {
         "name": "FileStackLines",
@@ -84626,27 +84596,6 @@
         "chunk": 16
       },
       {
-        "name": "Fox",
-        "displayName": "Fox",
-        "path": "/icons/optimized/fox.svg",
-        "filename": "fox.svg",
-        "category": "optimized",
-        "categories": [
-          "nature"
-        ],
-        "tags": [
-          "fox",
-          "animal",
-          "head",
-          "face",
-          "wild",
-          "mascot"
-        ],
-        "description": "Fox head seen from the front, with two tall ears and a small triangular nose.",
-        "searchText": "fox fox fox animal head face wild mascot fox head seen from the front, with two tall ears and a small triangular nose. nature",
-        "chunk": 16
-      },
-      {
         "name": "Fullscreen",
         "displayName": "Fullscreen",
         "path": "/icons/optimized/window-control-full-screen-chevron.svg",
@@ -84765,7 +84714,7 @@
         ],
         "description": "A page view icon displaying full page content layout without margins or cropping",
         "searchText": "fullscreensquare fullscreen square pageviewfull fullscreen page view full layout display document complete viewport square a page view icon displaying full page content layout without margins or cropping interface",
-        "chunk": 17
+        "chunk": 16
       },
       {
         "name": "FullscreenSquareSharp",
@@ -84794,7 +84743,7 @@
         ],
         "description": "A page view icon representing full screen page display mode for immersive viewing",
         "searchText": "fullscreensquaresharp fullscreen square sharp pageviewfullscreen fullscreen page view full screen layout display maximize immersive square sharp a page view icon representing full screen page display mode for immersive viewing interface",
-        "chunk": 17
+        "chunk": 16
       },
       {
         "name": "FullscreenTriangles",
@@ -84822,7 +84771,7 @@
         ],
         "description": "A window control icon for expanding to full screen using triangle directional indicators",
         "searchText": "fullscreentriangles fullscreen triangles windowcontrolfullscreen2 fullscreen window control full screen full-screen expand triangles maximize interface a window control icon for expanding to full screen using triangle directional indicators interface",
-        "chunk": 17
+        "chunk": 16
       },
       {
         "name": "Funnel",
@@ -84848,7 +84797,7 @@
         ],
         "description": "A funnel icon representing filter functionality, first variant style",
         "searchText": "funnel funnel funnelfilter1 funnel filter refine search sort data interface control a funnel icon representing filter functionality, first variant style interface",
-        "chunk": 17
+        "chunk": 16
       },
       {
         "name": "FunnelCoin",
@@ -85128,10 +85077,11 @@
           "controller",
           "game",
           "console",
-          "play"
+          "play",
+          "buttons"
         ],
-        "description": "Rounded game controller with a d-pad on the left.",
-        "searchText": "gamepad gamepad gamepad controller game console play rounded game controller with a d-pad on the left. devices sports",
+        "description": "Rounded game controller with a d-pad on the left and four buttons on the right.",
+        "searchText": "gamepad gamepad gamepad controller game console play buttons rounded game controller with a d-pad on the left and four buttons on the right. devices sports",
         "chunk": 17
       },
       {
@@ -87541,6 +87491,31 @@
         "chunk": 17
       },
       {
+        "name": "GitConflict",
+        "displayName": "Git conflict",
+        "path": "/icons/optimized/git-pull-request-x.svg",
+        "filename": "git-pull-request-x.svg",
+        "category": "optimized",
+        "categories": [
+          "development"
+        ],
+        "aliases": [
+          "GitPullRequestX"
+        ],
+        "tags": [
+          "git",
+          "version-control",
+          "code",
+          "repository",
+          "conflict",
+          "merge",
+          "git-merge-conflict"
+        ],
+        "description": "Two branch lines with an X above the left one and a bent line to a node on the right: a merge conflict.",
+        "searchText": "gitconflict git conflict gitpullrequestx git version-control code repository conflict merge git-merge-conflict two branch lines with an x above the left one and a bent line to a node on the right: a merge conflict. development",
+        "chunk": 17
+      },
+      {
         "name": "GitFork",
         "displayName": "Git fork",
         "path": "/icons/optimized/git-fork.svg",
@@ -87732,28 +87707,6 @@
         ],
         "description": "Line with a node on the left and a bent line ending in a plus sign.",
         "searchText": "gitpullrequestplusbare git pull request plus bare git version-control code repository pull-request create new add line with a node on the left and a bent line ending in a plus sign. development",
-        "chunk": 17
-      },
-      {
-        "name": "GitPullRequestX",
-        "displayName": "Git pull request x",
-        "path": "/icons/optimized/git-pull-request-x.svg",
-        "filename": "git-pull-request-x.svg",
-        "category": "optimized",
-        "categories": [
-          "development"
-        ],
-        "tags": [
-          "git",
-          "version-control",
-          "code",
-          "repository",
-          "pull-request",
-          "closed",
-          "rejected"
-        ],
-        "description": "Pull request with an X above the left line and a bent line to a node on the right.",
-        "searchText": "gitpullrequestx git pull request x git version-control code repository pull-request closed rejected pull request with an x above the left line and a bent line to a node on the right. development",
         "chunk": 17
       },
       {
@@ -89846,7 +89799,7 @@
         ],
         "description": "A hand with two fingers performing a double tap gesture interaction",
         "searchText": "handtapdoubletwofingers hand tap double two fingers handtwofingerdoubletap hand touch two-fingers double-tap gesture interaction multitouch tap double two fingers a hand with two fingers performing a double tap gesture interaction devices interface",
-        "chunk": 18
+        "chunk": 17
       },
       {
         "name": "HandTapOne",
@@ -89874,7 +89827,7 @@
         ],
         "description": "A numbered single-finger tap gesture icon indicating the first tap in a sequence",
         "searchText": "handtapone hand tap one handtouchtapone hand touch finger single tap one gesture numbered sequence a numbered single-finger tap gesture icon indicating the first tap in a sequence devices interface",
-        "chunk": 18
+        "chunk": 17
       },
       {
         "name": "HandTapOneTwoFingers",
@@ -89905,7 +89858,7 @@
         ],
         "description": "A hand with two fingers performing a single tap gesture, marked as variant 1",
         "searchText": "handtaponetwofingers hand tap one two fingers handtwofingersingletap1 hand touch single number two-fingers single-tap gesture interaction tap one two fingers a hand with two fingers performing a single tap gesture, marked as variant 1 devices interface",
-        "chunk": 18
+        "chunk": 17
       },
       {
         "name": "HandTapSquare",
@@ -89934,7 +89887,7 @@
         ],
         "description": "A single-finger tap gesture icon enclosed in a square frame",
         "searchText": "handtapsquare hand tap square handtouchtapsquare hand touch one finger squared tap single square gesture framed a single-finger tap gesture icon enclosed in a square frame devices interface",
-        "chunk": 18
+        "chunk": 17
       },
       {
         "name": "HandTapTwo",
@@ -93454,6 +93407,101 @@
         ],
         "description": "A key icon representing password security and authentication access.",
         "searchText": "keyblocktoothed key block toothed key6 key password security authentication access lock credential block toothed a key icon representing password security and authentication access. security",
+        "chunk": 18
+      },
+      {
+        "name": "Keyboard",
+        "displayName": "Keyboard",
+        "path": "/icons/optimized/dock-dash.svg",
+        "filename": "dock-dash.svg",
+        "category": "optimized",
+        "categories": [
+          "devices"
+        ],
+        "aliases": [
+          "DockDash"
+        ],
+        "tags": [
+          "keyboard",
+          "keys",
+          "typing",
+          "input",
+          "type"
+        ],
+        "description": "Keyboard: wide rounded rectangle with two rows of key dots, a space bar and a key on each side of it.",
+        "searchText": "keyboard keyboard dockdash keyboard keys typing input type keyboard: wide rounded rectangle with two rows of key dots, a space bar and a key on each side of it. devices",
+        "chunk": 18
+      },
+      {
+        "name": "KeyboardBare",
+        "displayName": "Keyboard bare",
+        "path": "/icons/optimized/dock-bar.svg",
+        "filename": "dock-bar.svg",
+        "category": "optimized",
+        "categories": [
+          "devices"
+        ],
+        "aliases": [
+          "DockBar"
+        ],
+        "tags": [
+          "keyboard",
+          "keys",
+          "typing",
+          "input",
+          "type"
+        ],
+        "description": "Keyboard: wide rounded rectangle with two rows of key dots and a space bar, no keys beside the space bar.",
+        "searchText": "keyboardbare keyboard bare dockbar keyboard keys typing input type keyboard: wide rounded rectangle with two rows of key dots and a space bar, no keys beside the space bar. devices",
+        "chunk": 18
+      },
+      {
+        "name": "KeyboardEnter",
+        "displayName": "Keyboard enter",
+        "path": "/icons/optimized/dock-corner.svg",
+        "filename": "dock-corner.svg",
+        "category": "optimized",
+        "categories": [
+          "devices"
+        ],
+        "aliases": [
+          "DockCorner"
+        ],
+        "tags": [
+          "keyboard",
+          "keys",
+          "typing",
+          "input",
+          "enter",
+          "return"
+        ],
+        "description": "Keyboard: wide rounded rectangle with key dots, a space bar and a tall enter key on the right.",
+        "searchText": "keyboardenter keyboard enter dockcorner keyboard keys typing input enter return keyboard: wide rounded rectangle with key dots, a space bar and a tall enter key on the right. devices",
+        "chunk": 18
+      },
+      {
+        "name": "KeyboardOff",
+        "displayName": "Keyboard off",
+        "path": "/icons/optimized/dock-corner-off.svg",
+        "filename": "dock-corner-off.svg",
+        "category": "optimized",
+        "categories": [
+          "devices"
+        ],
+        "aliases": [
+          "DockCornerOff"
+        ],
+        "tags": [
+          "off",
+          "disabled",
+          "keyboard",
+          "keys",
+          "typing",
+          "input",
+          "keyboard-off"
+        ],
+        "description": "Keyboard with key dots and a space bar, with a slash through it.",
+        "searchText": "keyboardoff keyboard off dockcorneroff off disabled keyboard keys typing input keyboard-off keyboard with key dots and a space bar, with a slash through it. devices",
         "chunk": 18
       },
       {
@@ -113434,27 +113482,6 @@
         "chunk": 22
       },
       {
-        "name": "PencilPlusThree",
-        "displayName": "Pencil plus three",
-        "path": "/icons/optimized/pencil-plus-three.svg",
-        "filename": "pencil-plus-three.svg",
-        "category": "optimized",
-        "categories": [
-          "interface"
-        ],
-        "tags": [
-          "pencil",
-          "edit",
-          "write",
-          "magic",
-          "ai",
-          "sparkle"
-        ],
-        "description": "Slim pencil with three small plus signs around it.",
-        "searchText": "pencilplusthree pencil plus three pencil edit write magic ai sparkle slim pencil with three small plus signs around it. interface",
-        "chunk": 22
-      },
-      {
         "name": "PencilRuler",
         "displayName": "Pencil ruler",
         "path": "/icons/optimized/pencil-ruler.svg",
@@ -113494,6 +113521,31 @@
         ],
         "description": "Pencil with a rounded top crossed with a ruler.",
         "searchText": "pencilrulerround pencil ruler round pencil ruler design draw tools pencil-ruler pencil with a rounded top crossed with a ruler. education",
+        "chunk": 22
+      },
+      {
+        "name": "PencilSparkles",
+        "displayName": "Pencil sparkles",
+        "path": "/icons/optimized/pencil-plus-three.svg",
+        "filename": "pencil-plus-three.svg",
+        "category": "optimized",
+        "categories": [
+          "interface"
+        ],
+        "aliases": [
+          "PencilPlusThree"
+        ],
+        "tags": [
+          "pencil",
+          "edit",
+          "write",
+          "magic",
+          "ai",
+          "sparkle",
+          "sparkles"
+        ],
+        "description": "Slim pencil with three small plus-shaped sparkles around it.",
+        "searchText": "pencilsparkles pencil sparkles pencilplusthree pencil edit write magic ai sparkle sparkles slim pencil with three small plus-shaped sparkles around it. interface",
         "chunk": 22
       },
       {
@@ -113786,6 +113838,29 @@
         ],
         "description": "Percent sign inside a circle.",
         "searchText": "percentcircle percent circle percent discount sale offer symbol percent sign inside a circle. shopping business",
+        "chunk": 22
+      },
+      {
+        "name": "PercentCircleDot",
+        "displayName": "Percent circle dot",
+        "path": "/icons/optimized/slash-circle.svg",
+        "filename": "slash-circle.svg",
+        "category": "optimized",
+        "categories": [
+          "shopping"
+        ],
+        "aliases": [
+          "SlashCircle"
+        ],
+        "tags": [
+          "discount",
+          "sale",
+          "circle",
+          "percent",
+          "circle-percent"
+        ],
+        "description": "Circle with a percent sign inside, drawn as a diagonal slash with two solid dots.",
+        "searchText": "percentcircledot percent circle dot slashcircle discount sale circle percent circle-percent circle with a percent sign inside, drawn as a diagonal slash with two solid dots. shopping",
         "chunk": 22
       },
       {
@@ -114101,7 +114176,7 @@
         ],
         "description": "Angular telephone handset with an arrow pointing up-right beside it.",
         "searchText": "phonearrowuprightsharp phone arrow up right sharp phone call telephone handset outgoing angular angular telephone handset with an arrow pointing up-right beside it. communication",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "PhoneAsterisk",
@@ -115426,8 +115501,8 @@
           "finance",
           "symbol"
         ],
-        "description": "Piggy bank seen from the side.",
-        "searchText": "piggybank piggy bank piggy-bank savings money finance symbol piggy bank seen from the side. business",
+        "description": "Piggy bank seen from the side, with an eye.",
+        "searchText": "piggybank piggy bank piggy-bank savings money finance symbol piggy bank seen from the side, with an eye. business",
         "chunk": 23
       },
       {
@@ -115447,8 +115522,8 @@
           "coin",
           "deposit"
         ],
-        "description": "Piggy bank with a coin dropping into its back.",
-        "searchText": "piggybankcoin piggy bank coin piggy-bank savings money finance coin deposit piggy bank with a coin dropping into its back. business",
+        "description": "Piggy bank with an eye and a coin dropping into its back.",
+        "searchText": "piggybankcoin piggy bank coin piggy-bank savings money finance coin deposit piggy bank with an eye and a coin dropping into its back. business",
         "chunk": 23
       },
       {
@@ -118832,8 +118907,8 @@
           "detect",
           "sweep"
         ],
-        "description": "Radar with broken rings and a sweep line from the center.",
-        "searchText": "radarbroken radar broken radar scan sonar detect sweep radar with broken rings and a sweep line from the center. location",
+        "description": "Radar with broken rings, a sweep line from the center and two dots for detected targets.",
+        "searchText": "radarbroken radar broken radar scan sonar detect sweep radar with broken rings, a sweep line from the center and two dots for detected targets. location",
         "chunk": 23
       },
       {
@@ -118943,7 +119018,7 @@
         ],
         "description": "Receipt with a small wavy bottom edge and a cent sign in the middle.",
         "searchText": "receiptcentwavy receipt cent wavy receipt invoice bill purchase cent cents currency receipt with a small wavy bottom edge and a cent sign in the middle. shopping business",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "ReceiptDollar",
@@ -121791,10 +121866,12 @@
           "cut",
           "trim",
           "closed",
-          "symbol"
+          "symbol",
+          "dotted",
+          "cut-line"
         ],
-        "description": "Closed scissors seen from the side: one round handle and a thin bent blade.",
-        "searchText": "scissorsclosed scissors closed scissors cut trim closed symbol closed scissors seen from the side: one round handle and a thin bent blade. education",
+        "description": "Closed scissors seen from the side, one round handle and a thin bent blade, over a dotted cut line.",
+        "searchText": "scissorsclosed scissors closed scissors cut trim closed symbol dotted cut-line closed scissors seen from the side, one round handle and a thin bent blade, over a dotted cut line. education",
         "chunk": 24
       },
       {
@@ -121811,10 +121888,34 @@
           "cut",
           "trim",
           "closed",
-          "symbol"
+          "symbol",
+          "dotted",
+          "cut-line"
         ],
-        "description": "Closed scissors seen from the side: one round handle and a wide leaf-shaped blade.",
-        "searchText": "scissorsclosedwide scissors closed wide scissors cut trim closed symbol closed scissors seen from the side: one round handle and a wide leaf-shaped blade. education",
+        "description": "Closed scissors seen from the side, one round handle and a wide leaf-shaped blade, over a dotted cut line.",
+        "searchText": "scissorsclosedwide scissors closed wide scissors cut trim closed symbol dotted cut-line closed scissors seen from the side, one round handle and a wide leaf-shaped blade, over a dotted cut line. education",
+        "chunk": 24
+      },
+      {
+        "name": "ScissorsDotted",
+        "displayName": "Scissors dotted",
+        "path": "/icons/optimized/scissors-dotted.svg",
+        "filename": "scissors-dotted.svg",
+        "category": "optimized",
+        "categories": [
+          "education"
+        ],
+        "tags": [
+          "scissors",
+          "cut",
+          "trim",
+          "dotted",
+          "cut-line",
+          "coupon",
+          "scissors-line-dashed"
+        ],
+        "description": "Open scissors pointing right, two round handles on the left, cutting along a dotted line.",
+        "searchText": "scissorsdotted scissors dotted scissors cut trim dotted cut-line coupon scissors-line-dashed open scissors pointing right, two round handles on the left, cutting along a dotted line. education",
         "chunk": 24
       },
       {
@@ -121855,6 +121956,28 @@
         ],
         "description": "Open scissors with wide leaf-shaped blades pointing right.",
         "searchText": "scissorswide scissors wide scissors cut trim symbol sign open scissors with wide leaf-shaped blades pointing right. education",
+        "chunk": 24
+      },
+      {
+        "name": "ScissorsWideDotted",
+        "displayName": "Scissors wide dotted",
+        "path": "/icons/optimized/scissors-wide-dotted.svg",
+        "filename": "scissors-wide-dotted.svg",
+        "category": "optimized",
+        "categories": [
+          "education"
+        ],
+        "tags": [
+          "scissors",
+          "cut",
+          "trim",
+          "dotted",
+          "cut-line",
+          "coupon",
+          "scissors-line-dashed"
+        ],
+        "description": "Open scissors with wide leaf-shaped blades pointing right, cutting along a dotted line.",
+        "searchText": "scissorswidedotted scissors wide dotted scissors cut trim dotted cut-line coupon scissors-line-dashed open scissors with wide leaf-shaped blades pointing right, cutting along a dotted line. education",
         "chunk": 24
       },
       {
@@ -123779,8 +123902,8 @@
           "data-center",
           "drive"
         ],
-        "description": "Wide rounded box with three vertical bars on its right half.",
-        "searchText": "serverbars server bars server hosting rack data-center drive wide rounded box with three vertical bars on its right half. development devices",
+        "description": "Wide rounded box with two dots on the left and three vertical bars on its right half.",
+        "searchText": "serverbars server bars server hosting rack data-center drive wide rounded box with two dots on the left and three vertical bars on its right half. development devices",
         "chunk": 24
       },
       {
@@ -123827,7 +123950,7 @@
         ],
         "description": "Two server units split apart with a plus in a circle between them.",
         "searchText": "serverpluscircle server plus circle server hosting rack data-center add new create two server units split apart with a plus in a circle between them. development devices",
-        "chunk": 24
+        "chunk": 25
       },
       {
         "name": "ServerSettings",
@@ -123850,7 +123973,7 @@
         ],
         "description": "Two server units split apart with a gear between them.",
         "searchText": "serversettings server settings server hosting rack data-center settings gear config two server units split apart with a gear between them. development devices",
-        "chunk": 24
+        "chunk": 25
       },
       {
         "name": "ShapeMix",
@@ -123877,7 +124000,7 @@
         ],
         "description": "A geometric forms icon representing diversity and varied shapes in composition",
         "searchText": "shapemix shape mix geometricformsdiversity shape geometric forms diversity shapes variation composition abstract mix a geometric forms icon representing diversity and varied shapes in composition interface",
-        "chunk": 24
+        "chunk": 25
       },
       {
         "name": "ShapeNested",
@@ -124960,26 +125083,6 @@
         ],
         "description": "A skip or bypass icon with a line passing over objects, second variant",
         "searchText": "skipx skip x skiplineover2 skip over objects close delete remove bypass navigation forward pass a skip or bypass icon with a line passing over objects, second variant arrows",
-        "chunk": 25
-      },
-      {
-        "name": "SlashCircle",
-        "displayName": "Slash circle",
-        "path": "/icons/optimized/slash-circle.svg",
-        "filename": "slash-circle.svg",
-        "category": "optimized",
-        "categories": [
-          "shopping"
-        ],
-        "tags": [
-          "slash",
-          "discount",
-          "divide",
-          "sale",
-          "circle"
-        ],
-        "description": "Circle with a short diagonal slash in the middle.",
-        "searchText": "slashcircle slash circle slash discount divide sale circle circle with a short diagonal slash in the middle. shopping",
         "chunk": 25
       },
       {
@@ -128524,7 +128627,7 @@
         ],
         "description": "Stopwatch with only a crown on top and a minus sign on the dial.",
         "searchText": "stopwatchminusbare stopwatch minus bare stopwatch timer time chronometer minus remove bare stopwatch with only a crown on top and a minus sign on the dial. time",
-        "chunk": 25
+        "chunk": 26
       },
       {
         "name": "StopwatchMinusDetached",
@@ -128546,7 +128649,7 @@
         ],
         "description": "Stopwatch with a floating top bar and a detached tick on the right and a minus sign on the dial.",
         "searchText": "stopwatchminusdetached stopwatch minus detached stopwatch timer time chronometer minus remove detached stopwatch with a floating top bar and a detached tick on the right and a minus sign on the dial. time",
-        "chunk": 25
+        "chunk": 26
       },
       {
         "name": "StopwatchMinusKnob",
@@ -132691,8 +132794,8 @@
           "responsive",
           "mobile"
         ],
-        "description": "Tablet with a smartphone in front of it at the bottom left.",
-        "searchText": "tabletmobile tablet mobile tablet ipad device screen devices responsive mobile tablet with a smartphone in front of it at the bottom left. devices",
+        "description": "Tablet with a smartphone in front of it at the bottom left; the phone has a home button dot.",
+        "searchText": "tabletmobile tablet mobile tablet ipad device screen devices responsive mobile tablet with a smartphone in front of it at the bottom left; the phone has a home button dot. devices",
         "chunk": 26
       },
       {
@@ -133721,7 +133824,7 @@
         ],
         "description": "A tab interface icon with a simple X symbol for quick closure or removal",
         "searchText": "tabxcenterstriped tab x center striped tab4x tab clear close delete remove dismiss center striped a tab interface icon with a simple x symbol for quick closure or removal interface",
-        "chunk": 26
+        "chunk": 27
       },
       {
         "name": "TabXCircle",
@@ -133746,7 +133849,7 @@
         ],
         "description": "A tab interface icon with an X symbol inside a circle for closing tabs",
         "searchText": "tabxcircle tab x circle tabclosecircle tab clear close delete remove circle interface a tab interface icon with an x symbol inside a circle for closing tabs interface",
-        "chunk": 26
+        "chunk": 27
       },
       {
         "name": "TabXCircleSharp",
@@ -135930,8 +136033,8 @@
           "remove",
           "tilted"
         ],
-        "description": "Narrow tilted ticket with a minus sign at the top right.",
-        "searchText": "ticketminusslim ticket minus slim ticket coupon voucher event admission remove tilted narrow tilted ticket with a minus sign at the top right. shopping",
+        "description": "Narrow tilted ticket with a perforated tear line and a minus sign at the top right.",
+        "searchText": "ticketminusslim ticket minus slim ticket coupon voucher event admission remove tilted narrow tilted ticket with a perforated tear line and a minus sign at the top right. shopping",
         "chunk": 27
       },
       {
@@ -135953,6 +136056,115 @@
         ],
         "description": "Tall ticket with half-circle notches on both ends and a minus sign in the middle.",
         "searchText": "ticketminustall ticket minus tall ticket coupon voucher event admission remove tall ticket with half-circle notches on both ends and a minus sign in the middle. shopping",
+        "chunk": 27
+      },
+      {
+        "name": "TicketPercent",
+        "displayName": "Ticket percent",
+        "path": "/icons/optimized/ticket-slash.svg",
+        "filename": "ticket-slash.svg",
+        "category": "optimized",
+        "categories": [
+          "shopping"
+        ],
+        "aliases": [
+          "TicketSlash"
+        ],
+        "tags": [
+          "ticket",
+          "coupon",
+          "voucher",
+          "event",
+          "admission",
+          "discount",
+          "promo",
+          "percent",
+          "ticket-percent"
+        ],
+        "description": "Ticket with half-circle notches on both ends and a percent sign in the middle.",
+        "searchText": "ticketpercent ticket percent ticketslash ticket coupon voucher event admission discount promo percent ticket-percent ticket with half-circle notches on both ends and a percent sign in the middle. shopping",
+        "chunk": 27
+      },
+      {
+        "name": "TicketPercentSide",
+        "displayName": "Ticket percent side",
+        "path": "/icons/optimized/ticket-slash-side.svg",
+        "filename": "ticket-slash-side.svg",
+        "category": "optimized",
+        "categories": [
+          "shopping"
+        ],
+        "aliases": [
+          "TicketSlashSide"
+        ],
+        "tags": [
+          "ticket",
+          "coupon",
+          "voucher",
+          "event",
+          "admission",
+          "discount",
+          "promo",
+          "percent",
+          "ticket-percent"
+        ],
+        "description": "Ticket with notches on the top, bottom and right edges and a percent sign in the middle.",
+        "searchText": "ticketpercentside ticket percent side ticketslashside ticket coupon voucher event admission discount promo percent ticket-percent ticket with notches on the top, bottom and right edges and a percent sign in the middle. shopping",
+        "chunk": 27
+      },
+      {
+        "name": "TicketPercentSlim",
+        "displayName": "Ticket percent slim",
+        "path": "/icons/optimized/ticket-slash-slim.svg",
+        "filename": "ticket-slash-slim.svg",
+        "category": "optimized",
+        "categories": [
+          "shopping"
+        ],
+        "aliases": [
+          "TicketSlashSlim"
+        ],
+        "tags": [
+          "ticket",
+          "coupon",
+          "voucher",
+          "event",
+          "admission",
+          "discount",
+          "promo",
+          "tilted",
+          "percent",
+          "ticket-percent"
+        ],
+        "description": "Narrow tilted ticket with perforation dots and a percent sign at the top right.",
+        "searchText": "ticketpercentslim ticket percent slim ticketslashslim ticket coupon voucher event admission discount promo tilted percent ticket-percent narrow tilted ticket with perforation dots and a percent sign at the top right. shopping",
+        "chunk": 27
+      },
+      {
+        "name": "TicketPercentTall",
+        "displayName": "Ticket percent tall",
+        "path": "/icons/optimized/ticket-slash-tall.svg",
+        "filename": "ticket-slash-tall.svg",
+        "category": "optimized",
+        "categories": [
+          "shopping"
+        ],
+        "aliases": [
+          "TicketSlashTall"
+        ],
+        "tags": [
+          "ticket",
+          "coupon",
+          "voucher",
+          "event",
+          "admission",
+          "discount",
+          "promo",
+          "percent",
+          "ticket-percent"
+        ],
+        "description": "Tall ticket with half-circle notches on both ends and a percent sign in the middle.",
+        "searchText": "ticketpercenttall ticket percent tall ticketslashtall ticket coupon voucher event admission discount promo percent ticket-percent tall ticket with half-circle notches on both ends and a percent sign in the middle. shopping",
         "chunk": 27
       },
       {
@@ -136018,8 +136230,8 @@
           "new",
           "tilted"
         ],
-        "description": "Narrow tilted ticket with a plus sign at the top right.",
-        "searchText": "ticketplusslim ticket plus slim ticket coupon voucher event admission add new tilted narrow tilted ticket with a plus sign at the top right. shopping",
+        "description": "Narrow tilted ticket with a perforated tear line and a plus sign at the top right.",
+        "searchText": "ticketplusslim ticket plus slim ticket coupon voucher event admission add new tilted narrow tilted ticket with a perforated tear line and a plus sign at the top right. shopping",
         "chunk": 27
       },
       {
@@ -136067,95 +136279,6 @@
         "chunk": 27
       },
       {
-        "name": "TicketSlash",
-        "displayName": "Ticket slash",
-        "path": "/icons/optimized/ticket-slash.svg",
-        "filename": "ticket-slash.svg",
-        "category": "optimized",
-        "categories": [
-          "shopping"
-        ],
-        "tags": [
-          "ticket",
-          "coupon",
-          "voucher",
-          "event",
-          "admission",
-          "discount",
-          "promo"
-        ],
-        "description": "Ticket with half-circle notches on both ends and a slash in the middle.",
-        "searchText": "ticketslash ticket slash ticket coupon voucher event admission discount promo ticket with half-circle notches on both ends and a slash in the middle. shopping",
-        "chunk": 27
-      },
-      {
-        "name": "TicketSlashSide",
-        "displayName": "Ticket slash side",
-        "path": "/icons/optimized/ticket-slash-side.svg",
-        "filename": "ticket-slash-side.svg",
-        "category": "optimized",
-        "categories": [
-          "shopping"
-        ],
-        "tags": [
-          "ticket",
-          "coupon",
-          "voucher",
-          "event",
-          "admission",
-          "discount",
-          "promo"
-        ],
-        "description": "Ticket with notches on the top, bottom and right edges and a slash in the middle.",
-        "searchText": "ticketslashside ticket slash side ticket coupon voucher event admission discount promo ticket with notches on the top, bottom and right edges and a slash in the middle. shopping",
-        "chunk": 27
-      },
-      {
-        "name": "TicketSlashSlim",
-        "displayName": "Ticket slash slim",
-        "path": "/icons/optimized/ticket-slash-slim.svg",
-        "filename": "ticket-slash-slim.svg",
-        "category": "optimized",
-        "categories": [
-          "shopping"
-        ],
-        "tags": [
-          "ticket",
-          "coupon",
-          "voucher",
-          "event",
-          "admission",
-          "discount",
-          "promo",
-          "tilted"
-        ],
-        "description": "Narrow tilted ticket with a slash at the top right.",
-        "searchText": "ticketslashslim ticket slash slim ticket coupon voucher event admission discount promo tilted narrow tilted ticket with a slash at the top right. shopping",
-        "chunk": 27
-      },
-      {
-        "name": "TicketSlashTall",
-        "displayName": "Ticket slash tall",
-        "path": "/icons/optimized/ticket-slash-tall.svg",
-        "filename": "ticket-slash-tall.svg",
-        "category": "optimized",
-        "categories": [
-          "shopping"
-        ],
-        "tags": [
-          "ticket",
-          "coupon",
-          "voucher",
-          "event",
-          "admission",
-          "discount",
-          "promo"
-        ],
-        "description": "Tall ticket with half-circle notches on both ends and a slash in the middle.",
-        "searchText": "ticketslashtall ticket slash tall ticket coupon voucher event admission discount promo tall ticket with half-circle notches on both ends and a slash in the middle. shopping",
-        "chunk": 27
-      },
-      {
         "name": "TicketSlim",
         "displayName": "Ticket slim",
         "path": "/icons/optimized/ticket-slim.svg",
@@ -136172,8 +136295,8 @@
           "admission",
           "tilted"
         ],
-        "description": "Narrow tilted ticket with notches near both ends and small tear marks.",
-        "searchText": "ticketslim ticket slim ticket coupon voucher event admission tilted narrow tilted ticket with notches near both ends and small tear marks. shopping",
+        "description": "Narrow tilted ticket with notches near both ends and a perforated tear line.",
+        "searchText": "ticketslim ticket slim ticket coupon voucher event admission tilted narrow tilted ticket with notches near both ends and a perforated tear line. shopping",
         "chunk": 27
       },
       {
@@ -136218,8 +136341,8 @@
           "multiple",
           "tilted"
         ],
-        "description": "Narrow tilted ticket with the edge of a second ticket behind it.",
-        "searchText": "ticketstackslim ticket stack slim ticket coupon voucher event admission tickets multiple tilted narrow tilted ticket with the edge of a second ticket behind it. shopping",
+        "description": "Narrow tilted ticket with a perforated tear line and the edge of a second ticket behind it.",
+        "searchText": "ticketstackslim ticket stack slim ticket coupon voucher event admission tickets multiple tilted narrow tilted ticket with a perforated tear line and the edge of a second ticket behind it. shopping",
         "chunk": 27
       },
       {
@@ -136330,6 +136453,30 @@
         "chunk": 27
       },
       {
+        "name": "TicketVertical",
+        "displayName": "Ticket vertical",
+        "path": "/icons/optimized/fox.svg",
+        "filename": "fox.svg",
+        "category": "optimized",
+        "categories": [
+          "shopping"
+        ],
+        "aliases": [
+          "Fox"
+        ],
+        "tags": [
+          "ticket",
+          "coupon",
+          "voucher",
+          "admission",
+          "stub",
+          "vertical"
+        ],
+        "description": "Tall vertical ticket with a V-shaped notch at the top and a pointed bottom with a small triangle.",
+        "searchText": "ticketvertical ticket vertical fox ticket coupon voucher admission stub vertical tall vertical ticket with a v-shaped notch at the top and a pointed bottom with a small triangle. shopping",
+        "chunk": 27
+      },
+      {
         "name": "TicketX",
         "displayName": "Ticket x",
         "path": "/icons/optimized/ticket-x.svg",
@@ -136392,8 +136539,8 @@
           "invalid",
           "tilted"
         ],
-        "description": "Narrow tilted ticket with an X at the top right.",
-        "searchText": "ticketxslim ticket x slim ticket coupon voucher event admission cancel invalid tilted narrow tilted ticket with an x at the top right. shopping",
+        "description": "Narrow tilted ticket with a perforated tear line and an X at the top right.",
+        "searchText": "ticketxslim ticket x slim ticket coupon voucher event admission cancel invalid tilted narrow tilted ticket with a perforated tear line and an x at the top right. shopping",
         "chunk": 27
       },
       {
@@ -138639,7 +138786,7 @@
         ],
         "description": "A trash can icon variant for delete or removal operations",
         "searchText": "trashnarrow trash narrow trashdelete2 trash delete remove bin discard disposal waste narrow a trash can icon variant for delete or removal operations files",
-        "chunk": 27
+        "chunk": 28
       },
       {
         "name": "TrashNotch",
@@ -138665,7 +138812,7 @@
         ],
         "description": "A trash bin icon for delete and removal actions",
         "searchText": "trashnotch trash notch trash6 trash delete remove bin waste discard garbage notch a trash bin icon for delete and removal actions files",
-        "chunk": 27
+        "chunk": 28
       },
       {
         "name": "TrashRecycleNotch",
@@ -138691,7 +138838,7 @@
         ],
         "description": "A trash bin icon combined with a recycle symbol for sustainable disposal",
         "searchText": "trashrecyclenotch trash recycle notch trashrecycle1 trash delete recycle bin waste recycling eco-friendly notch a trash bin icon combined with a recycle symbol for sustainable disposal files",
-        "chunk": 27
+        "chunk": 28
       },
       {
         "name": "TrashRecycleRoundNotch",
@@ -143216,13 +143363,16 @@
         "chunk": 28
       },
       {
-        "name": "WandPlusThree",
-        "displayName": "Wand plus three",
+        "name": "WandSparkles",
+        "displayName": "Wand sparkles",
         "path": "/icons/optimized/wand-plus-three.svg",
         "filename": "wand-plus-three.svg",
         "category": "optimized",
         "categories": [
           "interface"
+        ],
+        "aliases": [
+          "WandPlusThree"
         ],
         "tags": [
           "wand",
@@ -143230,10 +143380,12 @@
           "ai",
           "enhance",
           "sparkle",
-          "magic-wand"
+          "magic-wand",
+          "sparkles",
+          "wand-sparkles"
         ],
-        "description": "Magic wand with three small plus signs around it.",
-        "searchText": "wandplusthree wand plus three wand magic ai enhance sparkle magic-wand magic wand with three small plus signs around it. interface",
+        "description": "Magic wand with three small plus-shaped sparkles around it.",
+        "searchText": "wandsparkles wand sparkles wandplusthree wand magic ai enhance sparkle magic-wand sparkles wand-sparkles magic wand with three small plus-shaped sparkles around it. interface",
         "chunk": 28
       },
       {
@@ -143424,7 +143576,7 @@
         ],
         "description": "A warning exclamation triangle icon indicating high-risk or critical alert level",
         "searchText": "warningrays warning rays warninghighrisk warning exclamation triangle high risk high-risk critical danger alert rays a warning exclamation triangle icon indicating high-risk or critical alert level interface",
-        "chunk": 28
+        "chunk": 29
       },
       {
         "name": "WarningRound",
@@ -143449,7 +143601,7 @@
         ],
         "description": "An alternative triangular warning icon with exclamation mark for varied alert applications",
         "searchText": "warninground warning round warningtrianglealt warning exclamation triangle alert caution alternative round an alternative triangular warning icon with exclamation mark for varied alert applications interface",
-        "chunk": 28
+        "chunk": 29
       },
       {
         "name": "WarningSmall",
@@ -143474,7 +143626,7 @@
         ],
         "description": "A third variant of the triangle warning icon with exclamation mark for flexible warning scenarios",
         "searchText": "warningsmall warning small warningtrianglealt3 warning exclamation triangle alert caution notice small a third variant of the triangle warning icon with exclamation mark for flexible warning scenarios interface",
-        "chunk": 28
+        "chunk": 29
       },
       {
         "name": "WarningWide",
@@ -148835,7 +148987,7 @@
         ],
         "description": "An alternate application window icon with levels indicating settings or adjustment functionality",
         "searchText": "windowsliderstwo window sliders two applicationwindowlevels2 window application levels settings adjustment controls sliders two an alternate application window icon with levels indicating settings or adjustment functionality devices interface",
-        "chunk": 29
+        "chunk": 30
       },
       {
         "name": "WindowSlidersTwoPlain",
@@ -148863,7 +149015,7 @@
         ],
         "description": "A fourth variant of an application window icon displaying levels for settings or configuration controls",
         "searchText": "windowsliderstwoplain window sliders two plain applicationwindowlevels4 window application levels settings adjustment controls sliders two plain a fourth variant of an application window icon displaying levels for settings or configuration controls devices interface",
-        "chunk": 29
+        "chunk": 30
       },
       {
         "name": "WindowSpinnerDots",
@@ -148889,7 +149041,7 @@
         ],
         "description": "Window with three dots in the title bar and a ring of eight dots in the middle.",
         "searchText": "windowspinnerdots window spinner dots window app interface dialog loading spinner progress wait more pending dots window with three dots in the title bar and a ring of eight dots in the middle. interface",
-        "chunk": 29
+        "chunk": 30
       },
       {
         "name": "WindowSpinnerDotsArc",

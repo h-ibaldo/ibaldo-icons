@@ -1,7 +1,7 @@
 {
   "name": "BatteryAlertBoxy",
   "displayName": "Battery alert boxy",
-  "description": "Boxy battery with a short vertical line in the middle.",
+  "description": "Boxy battery with an exclamation mark in the middle.",
   "tags": [
     "battery",
     "power",
@@ -9,7 +9,9 @@
     "energy",
     "alert",
     "warning",
-    "low"
+    "low",
+    "exclamation",
+    "battery-warning"
   ],
   "categories": [
     "devices"
@@ -31,5 +33,5 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-22T22:39:17.360Z"
+  "updatedAt": "2026-11-23T01:14:24.000Z"
 }

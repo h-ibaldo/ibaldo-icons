@@ -724,7 +724,7 @@ export { AwardRound } from './icons/AwardRound';
 export { AwardSquare } from './icons/AwardSquare';
 export { BackspaceCheckRound } from './icons/BackspaceCheckRound';
 export { BackspaceRound } from './icons/BackspaceRound';
-export { BadgeDollarBareJagged } from './icons/BadgeDollarBareJagged';
+export { BadgeDollarJaggedSharp } from './icons/BadgeDollarJaggedSharp';
 export { BadgeDollarJagged } from './icons/BadgeDollarJagged';
 export { BadgeJagged } from './icons/BadgeJagged';
 export { BadgePercentBumpy } from './icons/BadgePercentBumpy';
@@ -745,7 +745,7 @@ export { BadgeQuestionBumpy } from './icons/BadgeQuestionBumpy';
 export { BadgeQuestionWavy } from './icons/BadgeQuestionWavy';
 export { BadgeQuestionNotched } from './icons/BadgeQuestionNotched';
 export { BadgeQuestionPointed } from './icons/BadgeQuestionPointed';
-export { BadgeSlashJagged } from './icons/BadgeSlashJagged';
+export { BadgePercentJaggedRound } from './icons/BadgePercentJaggedRound';
 export { BadgeStarJagged } from './icons/BadgeStarJagged';
 export { Ban } from './icons/Ban';
 export { BanCircle } from './icons/BanCircle';
@@ -755,7 +755,7 @@ export { BanknoteDollar } from './icons/BanknoteDollar';
 export { BanknoteDots } from './icons/BanknoteDots';
 export { BanknoteStack } from './icons/BanknoteStack';
 export { BanknoteStackFlat } from './icons/BanknoteStackFlat';
-export { BanknoteTen } from './icons/BanknoteTen';
+export { BanknoteOne } from './icons/BanknoteOne';
 export { BatteryAlert } from './icons/BatteryAlert';
 export { BatteryAlertBoxy } from './icons/BatteryAlertBoxy';
 export { BatteryBolt } from './icons/BatteryBolt';
@@ -1132,7 +1132,7 @@ export { BriefcaseSide } from './icons/BriefcaseSide';
 export { BriefcasePocket } from './icons/BriefcasePocket';
 export { BriefcaseFlapClasps } from './icons/BriefcaseFlapClasps';
 export { BriefcaseFlapLatch } from './icons/BriefcaseFlapLatch';
-export { BroomPlusThree } from './icons/BroomPlusThree';
+export { BroomSparkles } from './icons/BroomSparkles';
 export { Browser } from './icons/Browser';
 export { WindowPlain2 } from './icons/WindowPlain2';
 export { BrowserDownload } from './icons/BrowserDownload';
@@ -1381,7 +1381,7 @@ export { ChartTrendUpSquareMinus } from './icons/ChartTrendUpSquareMinus';
 export { ChartTrendUpSquarePlus } from './icons/ChartTrendUpSquarePlus';
 export { ChartTrendUpSquareDot } from './icons/ChartTrendUpSquareDot';
 export { ChartTrendUpSquareX } from './icons/ChartTrendUpSquareX';
-export { ChartAxisGrid } from './icons/ChartAxisGrid';
+export { ChartQuadrant } from './icons/ChartQuadrant';
 export { ChartBarAxisTwo } from './icons/ChartBarAxisTwo';
 export { ChartBarHorizontalAxisTwo } from './icons/ChartBarHorizontalAxisTwo';
 export { ChartBarHorizontalStackedAxis } from './icons/ChartBarHorizontalStackedAxis';
@@ -2817,7 +2817,7 @@ export { CodeSlashSquareLarge } from './icons/CodeSlashSquareLarge';
 export { CodeSquare } from './icons/CodeSquare';
 export { CodeX } from './icons/CodeX';
 export { CodeXSmall } from './icons/CodeXSmall';
-export { CoinDollarBare } from './icons/CoinDollarBare';
+export { CoinDollar } from './icons/CoinDollar';
 export { CoinStackDouble } from './icons/CoinStackDouble';
 export { Command } from './icons/Command';
 export { CommandCircle } from './icons/CommandCircle';
@@ -3009,10 +3009,10 @@ export { DivideHollow } from './icons/DivideHollow';
 export { DivideSquare } from './icons/DivideSquare';
 export { DivideSquareCompact } from './icons/DivideSquareCompact';
 export { NoEntry } from './icons/NoEntry';
-export { DockBar } from './icons/DockBar';
-export { DockCorner } from './icons/DockCorner';
-export { DockCornerOff } from './icons/DockCornerOff';
-export { DockDash } from './icons/DockDash';
+export { KeyboardBare } from './icons/KeyboardBare';
+export { KeyboardEnter } from './icons/KeyboardEnter';
+export { KeyboardOff } from './icons/KeyboardOff';
+export { Keyboard } from './icons/Keyboard';
 export { DocumentChecklist } from './icons/DocumentChecklist';
 export { DocumentChecklistCheck } from './icons/DocumentChecklistCheck';
 export { DocumentChecklistClock } from './icons/DocumentChecklistClock';
@@ -3056,6 +3056,7 @@ export { DoorSquare } from './icons/DoorSquare';
 export { DoorSquareArrowIn } from './icons/DoorSquareArrowIn';
 export { DoorSquareX } from './icons/DoorSquareX';
 export { DoorSquareArrowOut } from './icons/DoorSquareArrowOut';
+export { DotsCircle } from './icons/DotsCircle';
 export { Download } from './icons/Download';
 export { DownloadFlat } from './icons/DownloadFlat';
 export { DownloadBox } from './icons/DownloadBox';
@@ -3508,7 +3509,7 @@ export { FormRadio } from './icons/FormRadio';
 export { FormUserDrop } from './icons/FormUserDrop';
 export { FormUserTooltip } from './icons/FormUserTooltip';
 export { Forward } from './icons/Forward';
-export { Fox } from './icons/Fox';
+export { TicketVertical } from './icons/TicketVertical';
 export { FullscreenCorners } from './icons/FullscreenCorners';
 export { FullscreenCornersIn } from './icons/FullscreenCornersIn';
 export { Funnel } from './icons/Funnel';
@@ -3620,7 +3621,7 @@ export { GitPullRequestClosed } from './icons/GitPullRequestClosed';
 export { GitPullRequestDraft } from './icons/GitPullRequestDraft';
 export { GitPullRequestPlus } from './icons/GitPullRequestPlus';
 export { GitPullRequestPlusBare } from './icons/GitPullRequestPlusBare';
-export { GitPullRequestX } from './icons/GitPullRequestX';
+export { GitConflict } from './icons/GitConflict';
 export { Globe } from './icons/Globe';
 export { GlobeArrowUpRight } from './icons/GlobeArrowUpRight';
 export { GlobeCursor } from './icons/GlobeCursor';
@@ -4707,7 +4708,7 @@ export { PencilBlunt } from './icons/PencilBlunt';
 export { PencilDetailed } from './icons/PencilDetailed';
 export { PencilAngular } from './icons/PencilAngular';
 export { PencilPlusDot } from './icons/PencilPlusDot';
-export { PencilPlusThree } from './icons/PencilPlusThree';
+export { PencilSparkles } from './icons/PencilSparkles';
 export { PencilRuler } from './icons/PencilRuler';
 export { PencilRulerRound } from './icons/PencilRulerRound';
 export { PencilUnderline } from './icons/PencilUnderline';
@@ -5044,8 +5045,10 @@ export { ScanWindowBare } from './icons/ScanWindowBare';
 export { Scissors } from './icons/Scissors';
 export { ScissorsClosed } from './icons/ScissorsClosed';
 export { ScissorsClosedWide } from './icons/ScissorsClosedWide';
+export { ScissorsDotted } from './icons/ScissorsDotted';
 export { ScissorsUp } from './icons/ScissorsUp';
 export { ScissorsWide } from './icons/ScissorsWide';
+export { ScissorsWideDotted } from './icons/ScissorsWideDotted';
 export { ScreenshotPlus } from './icons/ScreenshotPlus';
 export { ScreenshotAreaPlus } from './icons/ScreenshotAreaPlus';
 export { ScreenshotCamera } from './icons/ScreenshotCamera';
@@ -5141,7 +5144,7 @@ export { SkipForwardThick } from './icons/SkipForwardThick';
 export { Skip } from './icons/Skip';
 export { SkipX } from './icons/SkipX';
 export { SkipCircles } from './icons/SkipCircles';
-export { SlashCircle } from './icons/SlashCircle';
+export { PercentCircleDot } from './icons/PercentCircleDot';
 export { SliderPointer } from './icons/SliderPointer';
 export { SliderPointerTrack } from './icons/SliderPointerTrack';
 export { Slider } from './icons/Slider';
@@ -5616,10 +5619,10 @@ export { TicketPlusSide } from './icons/TicketPlusSide';
 export { TicketPlusSlim } from './icons/TicketPlusSlim';
 export { TicketPlusTall } from './icons/TicketPlusTall';
 export { TicketScalloped } from './icons/TicketScalloped';
-export { TicketSlash } from './icons/TicketSlash';
-export { TicketSlashSide } from './icons/TicketSlashSide';
-export { TicketSlashSlim } from './icons/TicketSlashSlim';
-export { TicketSlashTall } from './icons/TicketSlashTall';
+export { TicketPercent } from './icons/TicketPercent';
+export { TicketPercentSide } from './icons/TicketPercentSide';
+export { TicketPercentSlim } from './icons/TicketPercentSlim';
+export { TicketPercentTall } from './icons/TicketPercentTall';
 export { TicketSlim } from './icons/TicketSlim';
 export { TicketStack } from './icons/TicketStack';
 export { TicketStackSlim } from './icons/TicketStackSlim';
@@ -5908,7 +5911,7 @@ export { WalletTab } from './icons/WalletTab';
 export { WalletTabRound } from './icons/WalletTabRound';
 export { ImageDashed } from './icons/ImageDashed';
 export { ImageCorners } from './icons/ImageCorners';
-export { WandPlusThree } from './icons/WandPlusThree';
+export { WandSparkles } from './icons/WandSparkles';
 export { AlertCircle } from './icons/AlertCircle';
 export { AlertCircleSmall } from './icons/AlertCircleSmall';
 export { AlertSquare } from './icons/AlertSquare';
@@ -6710,6 +6713,8 @@ export declare const BadgeCheck5: typeof import('./icons/BadgeCheckWavy').BadgeC
 export declare const BadgeCheck6: typeof import('./icons/BadgeCheckNotched').BadgeCheckNotched;
 /** @deprecated Renamed to `BadgeCheckPointed`. This old name will be removed in the next major version. */
 export declare const BadgeCheck7: typeof import('./icons/BadgeCheckPointed').BadgeCheckPointed;
+/** @deprecated Renamed to `BadgeDollarJaggedSharp`. This old name will be removed in the next major version. */
+export declare const BadgeDollarBareJagged: typeof import('./icons/BadgeDollarJaggedSharp').BadgeDollarJaggedSharp;
 /** @deprecated Renamed to `BadgeQuestionPointed`. This old name will be removed in the next major version. */
 export declare const BadgeRosetteQuestion: typeof import('./icons/BadgeQuestionPointed').BadgeQuestionPointed;
 /** @deprecated Renamed to `BadgeQuestionJagged`. This old name will be removed in the next major version. */
@@ -6724,6 +6729,10 @@ export declare const BadgeRosetteQuestionUnverified4: typeof import('./icons/Bad
 export declare const BadgeRosetteQuestionUnverified5: typeof import('./icons/BadgeQuestionWavy').BadgeQuestionWavy;
 /** @deprecated Renamed to `BadgeQuestionNotched`. This old name will be removed in the next major version. */
 export declare const BadgeRosetteQuestionUnverified6: typeof import('./icons/BadgeQuestionNotched').BadgeQuestionNotched;
+/** @deprecated Renamed to `BadgePercentJaggedRound`. This old name will be removed in the next major version. */
+export declare const BadgeSlashJagged: typeof import('./icons/BadgePercentJaggedRound').BadgePercentJaggedRound;
+/** @deprecated Renamed to `BanknoteOne`. This old name will be removed in the next major version. */
+export declare const BanknoteTen: typeof import('./icons/BanknoteOne').BanknoteOne;
 /** @deprecated Renamed to `BellRim`. This old name will be removed in the next major version. */
 export declare const Bell1: typeof import('./icons/BellRim').BellRim;
 /** @deprecated Renamed to `BellTiltedRim`. This old name will be removed in the next major version. */
@@ -7170,6 +7179,8 @@ export declare const BriefcasePlus: typeof import('./icons/BriefcaseSide').Brief
 export declare const BriefcaseRemove: typeof import('./icons/BriefcaseCorners').BriefcaseCorners;
 /** @deprecated Renamed to `BriefcaseSatchel`. This old name will be removed in the next major version. */
 export declare const BriefcaseSearch: typeof import('./icons/BriefcaseSatchel').BriefcaseSatchel;
+/** @deprecated Renamed to `BroomSparkles`. This old name will be removed in the next major version. */
+export declare const BroomPlusThree: typeof import('./icons/BroomSparkles').BroomSparkles;
 /** @deprecated Renamed to `Browser`. This old name will be removed in the next major version. */
 export declare const BrowserWindow1: typeof import('./icons/Browser').Browser;
 /** @deprecated Renamed to `WindowPlain2`. This old name will be removed in the next major version. */
@@ -7340,6 +7351,8 @@ export declare const ChartArrowUpRectangleMinus: typeof import('./icons/ChartTre
 export declare const ChartArrowUpRectanglePlus: typeof import('./icons/ChartTrendUpSquarePlus').ChartTrendUpSquarePlus;
 /** @deprecated Renamed to `ChartTrendUpSquareX`. This old name will be removed in the next major version. */
 export declare const ChartArrowUpRectangleX: typeof import('./icons/ChartTrendUpSquareX').ChartTrendUpSquareX;
+/** @deprecated Renamed to `ChartQuadrant`. This old name will be removed in the next major version. */
+export declare const ChartAxisGrid: typeof import('./icons/ChartQuadrant').ChartQuadrant;
 /** @deprecated Renamed to `ChartCandlestick`. This old name will be removed in the next major version. */
 export declare const ChartCandlestick1: typeof import('./icons/ChartCandlestick').ChartCandlestick;
 /** @deprecated Renamed to `ChartDonut`. This old name will be removed in the next major version. */
@@ -7974,6 +7987,8 @@ export declare const CloudUpload2: typeof import('./icons/CloudUploadLarge').Clo
 export declare const CloudUpload3: typeof import('./icons/CloudUploadBase').CloudUploadBase;
 /** @deprecated Renamed to `CloudEye`. This old name will be removed in the next major version. */
 export declare const CloudView: typeof import('./icons/CloudEye').CloudEye;
+/** @deprecated Renamed to `CoinDollar`. This old name will be removed in the next major version. */
+export declare const CoinDollarBare: typeof import('./icons/CoinDollar').CoinDollar;
 /** @deprecated Renamed to `MonitorArrowRight`. This old name will be removed in the next major version. */
 export declare const ComputerDesktopLogout: typeof import('./icons/MonitorArrowRight').MonitorArrowRight;
 /** @deprecated Renamed to `CircleConcentricXL`. This old name will be removed in the next major version. */
@@ -8088,6 +8103,14 @@ export declare const DislikeHand2: typeof import('./icons/HandThumbDownFingers')
 export declare const DislikeHand3: typeof import('./icons/HandThumbDownCuff').HandThumbDownCuff;
 /** @deprecated Renamed to `HandThumbDownSleeve`. This old name will be removed in the next major version. */
 export declare const DislikeHand4: typeof import('./icons/HandThumbDownSleeve').HandThumbDownSleeve;
+/** @deprecated Renamed to `KeyboardBare`. This old name will be removed in the next major version. */
+export declare const DockBar: typeof import('./icons/KeyboardBare').KeyboardBare;
+/** @deprecated Renamed to `KeyboardEnter`. This old name will be removed in the next major version. */
+export declare const DockCorner: typeof import('./icons/KeyboardEnter').KeyboardEnter;
+/** @deprecated Renamed to `KeyboardOff`. This old name will be removed in the next major version. */
+export declare const DockCornerOff: typeof import('./icons/KeyboardOff').KeyboardOff;
+/** @deprecated Renamed to `Keyboard`. This old name will be removed in the next major version. */
+export declare const DockDash: typeof import('./icons/Keyboard').Keyboard;
 /** @deprecated Renamed to `DomainGlobe`. This old name will be removed in the next major version. */
 export declare const DomainNameGlobe1: typeof import('./icons/DomainGlobe').DomainGlobe;
 /** @deprecated Renamed to `DomainGlobeCenter`. This old name will be removed in the next major version. */
@@ -8388,6 +8411,8 @@ export declare const FormRadiusUnchecked2: typeof import('./icons/FormRadio').Fo
 export declare const FormUsernameTooltipDrop: typeof import('./icons/FormUserDrop').FormUserDrop;
 /** @deprecated Renamed to `FormUserTooltip`. This old name will be removed in the next major version. */
 export declare const FormUsernameTooltipSquare: typeof import('./icons/FormUserTooltip').FormUserTooltip;
+/** @deprecated Renamed to `TicketVertical`. This old name will be removed in the next major version. */
+export declare const Fox: typeof import('./icons/TicketVertical').TicketVertical;
 /** @deprecated Renamed to `Funnel`. This old name will be removed in the next major version. */
 export declare const FunnelFilter1: typeof import('./icons/Funnel').Funnel;
 /** @deprecated Renamed to `FunnelRim`. This old name will be removed in the next major version. */
@@ -8448,6 +8473,8 @@ export declare const GeometricFormsDiversity: typeof import('./icons/ShapeMix').
 export declare const GeometricFormsInconsistency: typeof import('./icons/ShapeUneven').ShapeUneven;
 /** @deprecated Renamed to `CircleGridMarks`. This old name will be removed in the next major version. */
 export declare const GeometricFormsVariation: typeof import('./icons/CircleGridMarks').CircleGridMarks;
+/** @deprecated Renamed to `GitConflict`. This old name will be removed in the next major version. */
+export declare const GitPullRequestX: typeof import('./icons/GitConflict').GitConflict;
 /** @deprecated Renamed to `ProgressBarMultipleDottedSharp`. This old name will be removed in the next major version. */
 export declare const GraphHorizontalBarsDots: typeof import('./icons/ProgressBarMultipleDottedSharp').ProgressBarMultipleDottedSharp;
 /** @deprecated Renamed to `ProgressBarMultipleDottedJoined`. This old name will be removed in the next major version. */
@@ -9358,6 +9385,8 @@ export declare const PencilEdit5: typeof import('./icons/PencilBlunt').PencilBlu
 export declare const PencilEdit6: typeof import('./icons/PencilDetailed').PencilDetailed;
 /** @deprecated Renamed to `PencilAngular`. This old name will be removed in the next major version. */
 export declare const PencilEdit7: typeof import('./icons/PencilAngular').PencilAngular;
+/** @deprecated Renamed to `PencilSparkles`. This old name will be removed in the next major version. */
+export declare const PencilPlusThree: typeof import('./icons/PencilSparkles').PencilSparkles;
 /** @deprecated Renamed to `PencilUnderline`. This old name will be removed in the next major version. */
 export declare const PencilTracing1: typeof import('./icons/PencilUnderline').PencilUnderline;
 /** @deprecated Renamed to `PencilUnderlinePlain`. This old name will be removed in the next major version. */
@@ -9714,6 +9743,8 @@ export declare const SkipLineOver1: typeof import('./icons/Skip').Skip;
 export declare const SkipLineOver2: typeof import('./icons/SkipX').SkipX;
 /** @deprecated Renamed to `SkipCircles`. This old name will be removed in the next major version. */
 export declare const SkipLineOver3: typeof import('./icons/SkipCircles').SkipCircles;
+/** @deprecated Renamed to `PercentCircleDot`. This old name will be removed in the next major version. */
+export declare const SlashCircle: typeof import('./icons/PercentCircleDot').PercentCircleDot;
 /** @deprecated Renamed to `SliderPointerTrack`. This old name will be removed in the next major version. */
 export declare const SliderLevel2: typeof import('./icons/SliderPointerTrack').SliderPointerTrack;
 /** @deprecated Renamed to `Slider`. This old name will be removed in the next major version. */
@@ -10130,6 +10161,14 @@ export declare const ThemesColorPalette: typeof import('./icons/SwatchFan').Swat
 export declare const ThemesRectanglesFilled: typeof import('./icons/SwatchStackWide').SwatchStackWide;
 /** @deprecated Renamed to `SwatchStack`. This old name will be removed in the next major version. */
 export declare const ThemesSquaresFilled: typeof import('./icons/SwatchStack').SwatchStack;
+/** @deprecated Renamed to `TicketPercent`. This old name will be removed in the next major version. */
+export declare const TicketSlash: typeof import('./icons/TicketPercent').TicketPercent;
+/** @deprecated Renamed to `TicketPercentSide`. This old name will be removed in the next major version. */
+export declare const TicketSlashSide: typeof import('./icons/TicketPercentSide').TicketPercentSide;
+/** @deprecated Renamed to `TicketPercentSlim`. This old name will be removed in the next major version. */
+export declare const TicketSlashSlim: typeof import('./icons/TicketPercentSlim').TicketPercentSlim;
+/** @deprecated Renamed to `TicketPercentTall`. This old name will be removed in the next major version. */
+export declare const TicketSlashTall: typeof import('./icons/TicketPercentTall').TicketPercentTall;
 /** @deprecated Renamed to `MenuListColumnsSquare`. This old name will be removed in the next major version. */
 export declare const ToolbarMoreDetails: typeof import('./icons/MenuListColumnsSquare').MenuListColumnsSquare;
 /** @deprecated Renamed to `ToolbarBottom`. This old name will be removed in the next major version. */
@@ -10556,6 +10595,8 @@ export declare const VRHeadsetPerson2: typeof import('./icons/VrHeadsetUserSmall
 export declare const WallpaperPictureDashed: typeof import('./icons/ImageDashed').ImageDashed;
 /** @deprecated Renamed to `ImageCorners`. This old name will be removed in the next major version. */
 export declare const WallpaperPictureFramed: typeof import('./icons/ImageCorners').ImageCorners;
+/** @deprecated Renamed to `WandSparkles`. This old name will be removed in the next major version. */
+export declare const WandPlusThree: typeof import('./icons/WandSparkles').WandSparkles;
 /** @deprecated Renamed to `Triangle`. This old name will be removed in the next major version. */
 export declare const Warning1: typeof import('./icons/Triangle').Triangle;
 /** @deprecated Renamed to `TriangleWide`. This old name will be removed in the next major version. */

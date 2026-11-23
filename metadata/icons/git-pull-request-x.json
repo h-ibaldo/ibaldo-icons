@@ -1,22 +1,22 @@
 {
-  "name": "GitPullRequestX",
-  "displayName": "Git pull request X",
-  "description": "Pull request with an X above the left line and a bent line to a node on the right.",
+  "name": "GitConflict",
+  "displayName": "Git conflict",
+  "description": "Two branch lines with an X above the left one and a bent line to a node on the right: a merge conflict.",
   "tags": [
     "git",
     "version-control",
     "code",
     "repository",
-    "pull-request",
-    "closed",
-    "rejected"
+    "conflict",
+    "merge",
+    "git-merge-conflict"
   ],
   "categories": [
     "development"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "Closed pull request"
+    "suggestedLabel": "Merge conflict"
   },
   "filename": "git-pull-request-x",
   "technical": {
@@ -31,5 +31,8 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-21T04:07:58.429Z"
+  "updatedAt": "2026-11-23T01:14:24.000Z",
+  "aliases": [
+    "GitPullRequestX"
+  ]
 }

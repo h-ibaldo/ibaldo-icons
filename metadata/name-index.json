@@ -6072,5 +6072,8 @@
   "BatteryPlusBoxy": "battery-plus-boxy.svg",
   "Scan": "scan.svg",
   "ScanQrCode": "scan-qr-code.svg",
-  "ScanSearch": "scan-search.svg"
+  "ScanSearch": "scan-search.svg",
+  "ScissorsDotted": "scissors-dotted.svg",
+  "ScissorsWideDotted": "scissors-wide-dotted.svg",
+  "DotsCircle": "dots-circle.svg"
 }

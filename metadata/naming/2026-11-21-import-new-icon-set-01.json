@@ -5275,24 +5275,25 @@
     }
   },
   "new-icon-set-01-p0256": {
-    "name": "Scissors2",
-    "displayName": "Scissors 2",
-    "description": "Duplicate drawing kept out of the import.",
+    "name": "ScissorsDotted",
+    "displayName": "Scissors dotted",
+    "description": "Open scissors pointing right, two round handles on the left, cutting along a dotted line.",
     "tags": [
       "scissors",
       "cut",
       "trim",
-      "symbol",
-      "sign"
+      "dotted",
+      "cut-line",
+      "coupon",
+      "scissors-line-dashed"
     ],
     "categories": [
       "education"
     ],
     "accessibility": {
       "role": "informative",
-      "suggestedLabel": "Scissors"
-    },
-    "hold": "same drawing as p0257 (Scissors), only shifted 2px left"
+      "suggestedLabel": "Cut here"
+    }
   },
   "new-icon-set-01-p0257": {
     "name": "Scissors",
@@ -5352,24 +5353,25 @@
     }
   },
   "new-icon-set-01-p0260": {
-    "name": "ScissorsWide2",
-    "displayName": "Scissors wide 2",
-    "description": "Duplicate drawing kept out of the import.",
+    "name": "ScissorsWideDotted",
+    "displayName": "Scissors wide dotted",
+    "description": "Open scissors with wide leaf-shaped blades pointing right, cutting along a dotted line.",
     "tags": [
       "scissors",
       "cut",
       "trim",
-      "symbol",
-      "sign"
+      "dotted",
+      "cut-line",
+      "coupon",
+      "scissors-line-dashed"
     ],
     "categories": [
       "education"
     ],
     "accessibility": {
       "role": "informative",
-      "suggestedLabel": "Cut"
-    },
-    "hold": "same drawing as p0259 (ScissorsWide) in this file"
+      "suggestedLabel": "Cut here"
+    }
   },
   "new-icon-set-01-p0261": {
     "name": "ScissorsClosedWide",

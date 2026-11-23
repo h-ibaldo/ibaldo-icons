@@ -1,7 +1,7 @@
 {
   "name": "TicketSlim",
   "displayName": "Ticket slim",
-  "description": "Narrow tilted ticket with notches near both ends and small tear marks.",
+  "description": "Narrow tilted ticket with notches near both ends and a perforated tear line.",
   "tags": [
     "ticket",
     "coupon",
@@ -30,5 +30,5 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-21T04:07:58.429Z"
+  "updatedAt": "2026-11-23T01:14:24.000Z"
 }

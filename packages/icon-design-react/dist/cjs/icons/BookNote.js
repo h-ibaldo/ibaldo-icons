@@ -28,7 +28,8 @@ const BookNote = forwardRef(function BookNote(
     createElement('path', {"d":"M4 5L4 19","key":"3"}),
     createElement('path', {"d":"M21 10.949C21 12.082 20.082 13 18.949 13","key":"4"}),
     createElement('path', {"d":"M18.789 13L12.211 13C10.988 13 10 12.012 10 10.789L10 4.211C10 2.988 10.988 2 12.211 2L18.789 2C20.012 2 21 2.988 21 4.211L21 10.789C21 12.012 20.012 13 18.789 13Z","key":"5"}),
-    createElement('path', {"d":"M15 13C15 9.688 17.688 7 21 7","key":"6"})
+    createElement('path', {"d":"M15 13C15 9.688 17.688 7 21 7","key":"6"}),
+    createElement('path', {"d":"M14 6L14 6","key":"7"})
   );
 });
 

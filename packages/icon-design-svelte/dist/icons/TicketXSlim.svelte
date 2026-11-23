@@ -28,4 +28,5 @@
   <path d="M11 7L12 6"/>
   <path d="M18 6L22 2"/>
   <path d="M18 2L22 6"/>
+  <path d="M9 9L9 9"/>
 </svg>

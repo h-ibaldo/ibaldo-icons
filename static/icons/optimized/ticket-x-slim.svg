@@ -4,4 +4,5 @@
   <path d="M11 7L12 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M18 6L22 2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M18 2L22 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9 9L9 9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>

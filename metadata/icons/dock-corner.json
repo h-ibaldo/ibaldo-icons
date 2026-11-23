@@ -1,20 +1,21 @@
 {
-  "name": "DockCorner",
-  "displayName": "Dock corner",
-  "description": "Wide rectangle with a corner mark at the bottom right.",
+  "name": "KeyboardEnter",
+  "displayName": "Keyboard enter",
+  "description": "Keyboard: wide rounded rectangle with key dots, a space bar and a tall enter key on the right.",
   "tags": [
-    "dock",
-    "window",
-    "screen",
-    "taskbar",
-    "picture-in-picture"
+    "keyboard",
+    "keys",
+    "typing",
+    "input",
+    "enter",
+    "return"
   ],
   "categories": [
-    "interface"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "Dock"
+    "suggestedLabel": "Keyboard"
   },
   "filename": "dock-corner",
   "technical": {
@@ -29,5 +30,8 @@
   "version": "1.0.0",
   "deprecated": false,
   "namedBy": "claude-code",
-  "updatedAt": "2026-11-22T22:39:17.360Z"
+  "updatedAt": "2026-11-23T01:14:24.000Z",
+  "aliases": [
+    "DockCorner"
+  ]
 }
