@@ -3548,5 +3548,107 @@
       "role": "informative",
       "suggestedLabel": "Whole word"
     }
+  },
+  "new-icon-set-04-p0177": {
+    "name": "Broom",
+    "displayName": "Broom",
+    "description": "Upright broom: a handle on top of a flared head with bristle lines.",
+    "tags": [
+      "broom",
+      "clean",
+      "sweep",
+      "brush",
+      "tidy",
+      "brush-cleaning"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clean"
+    }
+  },
+  "new-icon-set-04-p0178": {
+    "name": "Palette",
+    "displayName": "Palette",
+    "description": "Painter's palette with five round paint dots and a thumb hole.",
+    "tags": [
+      "palette",
+      "paint",
+      "color",
+      "art",
+      "design",
+      "theme"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Colors"
+    }
+  },
+  "new-icon-set-04-p0179": {
+    "name": "SwatchBook",
+    "displayName": "Swatch book",
+    "description": "Swatch book: color cards fanned out from one corner, with a dot on the front card.",
+    "tags": [
+      "swatch",
+      "swatches",
+      "color",
+      "palette",
+      "samples",
+      "swatch-book"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Color swatches"
+    }
+  },
+  "new-icon-set-04-p0180": {
+    "name": "TextPSquareOff",
+    "displayName": "Text P square off",
+    "description": "Capital letter P in a rounded square, with a slash through it.",
+    "tags": [
+      "letter",
+      "text",
+      "parking",
+      "p",
+      "off",
+      "no-parking",
+      "square-letter-p-off"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "No parking"
+    }
+  },
+  "new-icon-set-04-p0181": {
+    "name": "TextPCircleOff",
+    "displayName": "Text P circle off",
+    "description": "Capital letter P in a circle, with a slash through it.",
+    "tags": [
+      "letter",
+      "text",
+      "parking",
+      "p",
+      "off",
+      "no-parking",
+      "circle-letter-p-off"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "No parking"
+    }
   }
 }

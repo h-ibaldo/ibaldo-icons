@@ -28,33 +28,33 @@
     "/icons/chunks/chunk-2-aed3b869.json",
     "/icons/chunks/chunk-3-778cc3c5.json",
     "/icons/chunks/chunk-4-c4b323a6.json",
-    "/icons/chunks/chunk-5-d23bccac.json",
-    "/icons/chunks/chunk-6-97628552.json",
-    "/icons/chunks/chunk-7-1d50997b.json",
-    "/icons/chunks/chunk-8-8e131bd7.json",
-    "/icons/chunks/chunk-9-01ba9a52.json",
-    "/icons/chunks/chunk-10-a12a259d.json",
-    "/icons/chunks/chunk-11-a14ef3a4.json",
-    "/icons/chunks/chunk-12-b1ee276e.json",
-    "/icons/chunks/chunk-13-f5eedcf8.json",
-    "/icons/chunks/chunk-14-ccbfb941.json",
-    "/icons/chunks/chunk-15-63edc3e7.json",
-    "/icons/chunks/chunk-16-dadf6af2.json",
-    "/icons/chunks/chunk-17-a177cc87.json",
-    "/icons/chunks/chunk-18-d7197261.json",
-    "/icons/chunks/chunk-19-2ef3a6c2.json",
-    "/icons/chunks/chunk-20-b5d73e4c.json",
-    "/icons/chunks/chunk-21-e4190ed3.json",
-    "/icons/chunks/chunk-22-8727edd6.json",
-    "/icons/chunks/chunk-23-d5082e4d.json",
-    "/icons/chunks/chunk-24-75e5a25a.json",
-    "/icons/chunks/chunk-25-349efe70.json",
-    "/icons/chunks/chunk-26-ec227519.json",
-    "/icons/chunks/chunk-27-c496a903.json",
-    "/icons/chunks/chunk-28-e684c471.json",
-    "/icons/chunks/chunk-29-84002438.json",
-    "/icons/chunks/chunk-30-f0d33f0a.json",
-    "/icons/chunks/chunk-31-8900f99f.json"
+    "/icons/chunks/chunk-5-86585607.json",
+    "/icons/chunks/chunk-6-d7a85308.json",
+    "/icons/chunks/chunk-7-0ed7eced.json",
+    "/icons/chunks/chunk-8-6dc17f7d.json",
+    "/icons/chunks/chunk-9-21872491.json",
+    "/icons/chunks/chunk-10-db5ae927.json",
+    "/icons/chunks/chunk-11-6dea59af.json",
+    "/icons/chunks/chunk-12-a5bf662b.json",
+    "/icons/chunks/chunk-13-fc75ba88.json",
+    "/icons/chunks/chunk-14-05e53cde.json",
+    "/icons/chunks/chunk-15-a5a5e3b4.json",
+    "/icons/chunks/chunk-16-57577e2a.json",
+    "/icons/chunks/chunk-17-b5914290.json",
+    "/icons/chunks/chunk-18-981b34b6.json",
+    "/icons/chunks/chunk-19-b833f2e6.json",
+    "/icons/chunks/chunk-20-7193888b.json",
+    "/icons/chunks/chunk-21-00129cd9.json",
+    "/icons/chunks/chunk-22-30ee7f9a.json",
+    "/icons/chunks/chunk-23-b1840549.json",
+    "/icons/chunks/chunk-24-7e062416.json",
+    "/icons/chunks/chunk-25-136e9636.json",
+    "/icons/chunks/chunk-26-5861bd74.json",
+    "/icons/chunks/chunk-27-713fd3a9.json",
+    "/icons/chunks/chunk-28-06197aef.json",
+    "/icons/chunks/chunk-29-91386f1a.json",
+    "/icons/chunks/chunk-30-b4c171ef.json",
+    "/icons/chunks/chunk-31-6b2894ad.json"
   ],
   "icons": {
     "optimized": [
@@ -26669,6 +26669,27 @@
         "chunk": 5
       },
       {
+        "name": "Broom",
+        "displayName": "Broom",
+        "path": "/icons/optimized/broom.svg",
+        "filename": "broom.svg",
+        "category": "optimized",
+        "categories": [
+          "interface"
+        ],
+        "tags": [
+          "broom",
+          "clean",
+          "sweep",
+          "brush",
+          "tidy",
+          "brush-cleaning"
+        ],
+        "description": "Upright broom: a handle on top of a flared head with bristle lines.",
+        "searchText": "broom broom broom clean sweep brush tidy brush-cleaning upright broom: a handle on top of a flared head with bristle lines. interface",
+        "chunk": 5
+      },
+      {
         "name": "BroomSparkles",
         "displayName": "Broom sparkles",
         "path": "/icons/optimized/broom-plus-three.svg",
@@ -30300,7 +30321,7 @@
         ],
         "description": "Calendar with text lines and a pencil inside.",
         "searchText": "calendaredittext calendar edit text calendar date schedule event notes write edit pencil day calendar with text lines and a pencil inside. time",
-        "chunk": 5
+        "chunk": 6
       },
       {
         "name": "CalendarEye",
@@ -35414,7 +35435,7 @@
         ],
         "description": "Line chart with notification dot indicating new data, alerts, or updates available. Used for real-time analytics notifications or data status indicators.",
         "searchText": "chartlinesquaredot chart line square dot chartlinesquare2dot chart unread badge notification alert dot update new status indicator square line chart with notification dot indicating new data, alerts, or updates available. used for real-time analytics notifications or data status indicators. business",
-        "chunk": 6
+        "chunk": 7
       },
       {
         "name": "ChartLineSquareMinus",
@@ -40478,7 +40499,7 @@
         ],
         "description": "Rounded-rectangle speech bubble with a detached slanted stroke as its tail, with an arrow pointing right inside.",
         "searchText": "chatforwardbroken chat forward broken chat message forward arrow share send speech-bubble square broken comment rounded-rectangle speech bubble with a detached slanted stroke as its tail, with an arrow pointing right inside. communication",
-        "chunk": 7
+        "chunk": 8
       },
       {
         "name": "ChatForwardCorner",
@@ -45489,7 +45510,7 @@
         ],
         "description": "Rounded-rectangle speech bubble with a centered V-shaped tail, with a double reply arrow inside.",
         "searchText": "chatreplyalltooltip chat reply all tooltip chat message reply-all reply respond arrow speech-bubble square tooltip comment rounded-rectangle speech bubble with a centered v-shaped tail, with a double reply arrow inside. communication",
-        "chunk": 8
+        "chunk": 9
       },
       {
         "name": "ChatReplyAllWide",
@@ -50626,7 +50647,7 @@
         ],
         "description": "Two rounded-rectangle speech bubbles facing each other, with notched tails, with a padlock at the corner where the outline breaks.",
         "searchText": "chatstacklockcornernotch chat stack lock corner notch chat message lock private secure encrypted conversation chat-stack square comment two rounded-rectangle speech bubbles facing each other, with notched tails, with a padlock at the corner where the outline breaks. communication security",
-        "chunk": 9
+        "chunk": 10
       },
       {
         "name": "ChatStackLockCornerSlant",
@@ -55707,7 +55728,7 @@
         ],
         "description": "Circular speech bubble with a sharp pointed tail at the bottom left, with two text lines inside.",
         "searchText": "chattextsharp chat text sharp chat message text lines sms note speech-bubble round sharp comment circular speech bubble with a sharp pointed tail at the bottom left, with two text lines inside. communication",
-        "chunk": 10
+        "chunk": 11
       },
       {
         "name": "ChatTextSide",
@@ -60771,7 +60792,7 @@
         ],
         "description": "Large chevron pointing right inside a circle.",
         "searchText": "chevronrightcirclelarge chevron right circle large chevron caret right east forward circle button navigation large large chevron pointing right inside a circle. arrows interface",
-        "chunk": 11
+        "chunk": 12
       },
       {
         "name": "ChevronRightLeftStaggeredCircle",
@@ -65503,7 +65524,7 @@
         ],
         "description": "A cloud icon with up and down arrows representing cloud synchronization",
         "searchText": "cloudarrowupdown cloud arrow up down cloudarrowsync cloud arrow up down sync synchronize transfer a cloud icon with up and down arrows representing cloud synchronization files devices",
-        "chunk": 12
+        "chunk": 13
       },
       {
         "name": "CloudArrowUpDownRound",
@@ -70707,7 +70728,7 @@
         ],
         "description": "Credit card with a detailed chip at the top left and three dashes for the number.",
         "searchText": "creditcardchipdetailed credit card chip detailed credit-card card payment bank chip number credit card with a detailed chip at the top left and three dashes for the number. shopping business",
-        "chunk": 13
+        "chunk": 14
       },
       {
         "name": "CreditCardDashes",
@@ -75557,7 +75578,7 @@
         ],
         "description": "A second stacked square variant of the download arrow icon with grouped container representation",
         "searchText": "downloadsquarestackopen download square stack open downloadarrowsquarestacktwo download arrow down squares group stack multiple square open a second stacked square variant of the download arrow icon with grouped container representation files arrows",
-        "chunk": 14
+        "chunk": 15
       },
       {
         "name": "DownloadSquareStackOpen2",
@@ -80179,7 +80200,7 @@
         ],
         "description": "File page with a small folded corner with a minus sign at the bottom right corner.",
         "searchText": "fileminuscorner file minus corner file minus remove subtract corner file page with a small folded corner with a minus sign at the bottom right corner. files",
-        "chunk": 15
+        "chunk": 16
       },
       {
         "name": "FileMinusCornerCut",
@@ -84674,7 +84695,7 @@
         ],
         "description": "A folder icon with an X mark inside a circle, indicating a closed or unavailable folder.",
         "searchText": "folderxcircle folder x circle folder close delete remove circle unavailable a folder icon with an x mark inside a circle, indicating a closed or unavailable folder. files",
-        "chunk": 16
+        "chunk": 17
       },
       {
         "name": "FontPlus",
@@ -89608,7 +89629,7 @@
         ],
         "description": "A stop hand gesture icon within a circle indicating privacy or restricted access variant two",
         "searchText": "handfistcircle hand fist circle handstopprivatecircle2 hand stop private circle restriction gesture access-control fist a stop hand gesture icon within a circle indicating privacy or restricted access variant two devices interface",
-        "chunk": 17
+        "chunk": 18
       },
       {
         "name": "HandGift",
@@ -94657,7 +94678,7 @@
         ],
         "description": "A key icon representing password security and authentication access.",
         "searchText": "keyblocksmooth key block smooth key2 key password security authentication access lock credential block smooth a key icon representing password security and authentication access. security",
-        "chunk": 18
+        "chunk": 19
       },
       {
         "name": "KeyBlockToothed",
@@ -99616,7 +99637,7 @@
         ],
         "description": "Two round interlocking loops side by side, with two dots inside a circle at the bottom right.",
         "searchText": "linkdotscircleround link dots circle round link chain url hyperlink dots more options menu circle two round interlocking loops side by side, with two dots inside a circle at the bottom right. communication",
-        "chunk": 19
+        "chunk": 20
       },
       {
         "name": "LinkDotsCircleSlanted",
@@ -104362,7 +104383,7 @@
         ],
         "description": "An alternate lock icon with checkmark and open state, showing verified unlocked access",
         "searchText": "lockopencheckcornerround lock open check corner round lock5checkopenalt lock checked done success verified check open security unlock corner round an alternate lock icon with checkmark and open state, showing verified unlocked access security",
-        "chunk": 20
+        "chunk": 21
       },
       {
         "name": "LockOpenCheckNarrow",
@@ -109277,7 +109298,7 @@
         ],
         "description": "Smartphone with a pill at the bottom and sound arcs on its right side.",
         "searchText": "mobileringbutton mobile ring button mobile smartphone phone device ringing vibrate calling smartphone with a pill at the bottom and sound arcs on its right side. devices",
-        "chunk": 21
+        "chunk": 22
       },
       {
         "name": "MobileRingNotch",
@@ -112818,6 +112839,27 @@
         "chunk": 22
       },
       {
+        "name": "Palette",
+        "displayName": "Palette",
+        "path": "/icons/optimized/palette.svg",
+        "filename": "palette.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "palette",
+          "paint",
+          "color",
+          "art",
+          "design",
+          "theme"
+        ],
+        "description": "Painter's palette with five round paint dots and a thumb hole.",
+        "searchText": "palette palette palette paint color art design theme painter's palette with five round paint dots and a thumb hole. media",
+        "chunk": 22
+      },
+      {
         "name": "PaneArrowRight",
         "displayName": "Pane arrow right",
         "path": "/icons/optimized/open-pane-rectangle-arrow-right-3.svg",
@@ -114051,7 +114093,7 @@
         ],
         "description": "Short round paperclip inside a circle with an X in the gap at the lower right.",
         "searchText": "paperclipcirclexshort paperclip circle x short paperclip attachment attach clip circle x remove delete short short round paperclip inside a circle with an x in the gap at the lower right. files communication",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "PaperclipCurl",
@@ -114075,7 +114117,7 @@
         ],
         "description": "Small open paperclip curl.",
         "searchText": "paperclipcurl paperclip curl paperclip attachment attach clip file curl open office small open paperclip curl. files communication",
-        "chunk": 22
+        "chunk": 23
       },
       {
         "name": "PaperclipFlipped",
@@ -118679,7 +118721,7 @@
         ],
         "description": "Straight arrow pointer with a clock at its top right.",
         "searchText": "pointerclockstraight pointer clock straight busy loading pointer cursor arrow mouse select click clock time wait straight arrow pointer with a clock at its top right. interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "PointerCrosshair",
@@ -118703,7 +118745,7 @@
         ],
         "description": "Tilted arrow pointer with a circle crossed by a plus at its bottom right.",
         "searchText": "pointercrosshair pointer crosshair crosshair target add pointer cursor arrow mouse select click tilted arrow pointer with a circle crossed by a plus at its bottom right. interface",
-        "chunk": 23
+        "chunk": 24
       },
       {
         "name": "PointerDotsCircleStraight",
@@ -123637,7 +123679,7 @@
         ],
         "description": "Scan corners around four vertical barcode bars.",
         "searchText": "scanbarcode scan barcode scan scanner focus frame barcode product scan-barcode scan corners around four vertical barcode bars. devices",
-        "chunk": 24
+        "chunk": 25
       },
       {
         "name": "ScanBeam",
@@ -123659,7 +123701,7 @@
         ],
         "description": "Four corner brackets with a horizontal line across the middle.",
         "searchText": "scanbeam scan beam scan barcode scanner reader qr scanning four corner brackets with a horizontal line across the middle. shopping devices",
-        "chunk": 24
+        "chunk": 25
       },
       {
         "name": "ScanEye",
@@ -128509,7 +128551,7 @@
         ],
         "description": "Two bracket halves pulled apart left and right with a dashed line between.",
         "searchText": "splitleftright split left right split divide separate layout vertical two bracket halves pulled apart left and right with a dashed line between. interface",
-        "chunk": 25
+        "chunk": 26
       },
       {
         "name": "SplitUpDown",
@@ -128529,7 +128571,7 @@
         ],
         "description": "Two bracket halves pulled apart up and down with a dashed line between.",
         "searchText": "splitupdown split up down split divide separate layout horizontal two bracket halves pulled apart up and down with a dashed line between. interface",
-        "chunk": 25
+        "chunk": 26
       },
       {
         "name": "SprayCan",
@@ -133124,7 +133166,7 @@
         ],
         "description": "A sun brightness control icon in variant 2C style, for brightness level control interfaces",
         "searchText": "sundottedbig sun dotted big sunbrightness2c sun brightness light control adjustment dotted big a sun brightness control icon in variant 2c style, for brightness level control interfaces weather interface",
-        "chunk": 26
+        "chunk": 27
       },
       {
         "name": "SunDottedDense",
@@ -133150,7 +133192,7 @@
         ],
         "description": "A sun brightness control icon in variant 1C style, representing adjustable light intensity",
         "searchText": "sundotteddense sun dotted dense sunbrightness1c sun brightness light control adjustment dotted dense a sun brightness control icon in variant 1c style, representing adjustable light intensity weather interface",
-        "chunk": 26
+        "chunk": 27
       },
       {
         "name": "SunDottedLarge",
@@ -134383,6 +134425,27 @@
         ],
         "description": "Customer support icon representing help desk services and customer assistance. Used to indicate support channels, help sections, or contact options.",
         "searchText": "supportprofile support profile customersupport1 support customer help service assistance contact helpdesk profile customer support icon representing help desk services and customer assistance. used to indicate support channels, help sections, or contact options. communication people",
+        "chunk": 27
+      },
+      {
+        "name": "SwatchBook",
+        "displayName": "Swatch book",
+        "path": "/icons/optimized/swatch-book.svg",
+        "filename": "swatch-book.svg",
+        "category": "optimized",
+        "categories": [
+          "media"
+        ],
+        "tags": [
+          "swatch",
+          "swatches",
+          "color",
+          "palette",
+          "samples",
+          "swatch-book"
+        ],
+        "description": "Swatch book: color cards fanned out from one corner, with a dot on the front card.",
+        "searchText": "swatchbook swatch book swatch swatches color palette samples swatch-book swatch book: color cards fanned out from one corner, with a dot on the front card. media",
         "chunk": 27
       },
       {
@@ -138283,7 +138346,7 @@
         ],
         "description": "Command prompt inside a rounded square.",
         "searchText": "terminalsquare terminal square terminal console command-line shell prompt code window command prompt inside a rounded square. development",
-        "chunk": 27
+        "chunk": 28
       },
       {
         "name": "Text2DSquare",
@@ -138306,7 +138369,7 @@
         ],
         "description": "Letters 2D inside a rounded square.",
         "searchText": "text2dsquare text 2d square 2d two-dimensional flat view letters text square format letters 2d inside a rounded square. media",
-        "chunk": 27
+        "chunk": 28
       },
       {
         "name": "Text2DSquareSmall",
@@ -138329,7 +138392,7 @@
         ],
         "description": "Smaller bold letters 2D inside a rounded square.",
         "searchText": "text2dsquaresmall text 2d square small 2d two-dimensional flat view letters text square format smaller bold letters 2d inside a rounded square. media",
-        "chunk": 27
+        "chunk": 28
       },
       {
         "name": "Text3DHexagon",
@@ -140190,6 +140253,28 @@
         "chunk": 28
       },
       {
+        "name": "TextPCircleOff",
+        "displayName": "Text p circle off",
+        "path": "/icons/optimized/text-p-circle-off.svg",
+        "filename": "text-p-circle-off.svg",
+        "category": "optimized",
+        "categories": [
+          "interface"
+        ],
+        "tags": [
+          "letter",
+          "text",
+          "parking",
+          "p",
+          "off",
+          "no-parking",
+          "circle-letter-p-off"
+        ],
+        "description": "Capital letter P in a circle, with a slash through it.",
+        "searchText": "textpcircleoff text p circle off letter text parking p off no-parking circle-letter-p-off capital letter p in a circle, with a slash through it. interface",
+        "chunk": 28
+      },
+      {
         "name": "TextPSquare",
         "displayName": "Text p square",
         "path": "/icons/optimized/text-p-square.svg",
@@ -140209,6 +140294,28 @@
         ],
         "description": "Capital letter P in a rounded square.",
         "searchText": "textpsquare text p square letter text character alphabet square p square-letter-p capital letter p in a rounded square. interface",
+        "chunk": 28
+      },
+      {
+        "name": "TextPSquareOff",
+        "displayName": "Text p square off",
+        "path": "/icons/optimized/text-p-square-off.svg",
+        "filename": "text-p-square-off.svg",
+        "category": "optimized",
+        "categories": [
+          "interface"
+        ],
+        "tags": [
+          "letter",
+          "text",
+          "parking",
+          "p",
+          "off",
+          "no-parking",
+          "square-letter-p-off"
+        ],
+        "description": "Capital letter P in a rounded square, with a slash through it.",
+        "searchText": "textpsquareoff text p square off letter text parking p off no-parking square-letter-p-off capital letter p in a rounded square, with a slash through it. interface",
         "chunk": 28
       },
       {
@@ -142868,7 +142975,7 @@
         ],
         "description": "A touch screen icon demonstrating an upward swipe gesture for scrolling or navigating upward on a mobile device.",
         "searchText": "touchswipeup touch swipe up touchscreenswipeup touch screen swipe up gesture interaction mobile navigation scroll a touch screen icon demonstrating an upward swipe gesture for scrolling or navigating upward on a mobile device. devices interface",
-        "chunk": 28
+        "chunk": 29
       },
       {
         "name": "TouchSwipeUpGap",
@@ -142897,7 +143004,7 @@
         ],
         "description": "A second variant of the touch screen upward swipe icon with alternative styling for scrolling or navigation upward.",
         "searchText": "touchswipeupgap touch swipe up gap touchscreenswipeup2 touch screen swipe up gesture interaction mobile navigation scroll gap a second variant of the touch screen upward swipe icon with alternative styling for scrolling or navigation upward. devices interface",
-        "chunk": 28
+        "chunk": 29
       },
       {
         "name": "TouchSwipeUpSquare",
@@ -142926,7 +143033,7 @@
         ],
         "description": "A touch screen icon showing an upward swipe gesture within a square frame for vertical scrolling or navigation.",
         "searchText": "touchswipeupsquare touch swipe up square touchscreenswipeupsquare touch screen swipe up square gesture interaction mobile navigation scroll a touch screen icon showing an upward swipe gesture within a square frame for vertical scrolling or navigation. devices interface",
-        "chunk": 28
+        "chunk": 29
       },
       {
         "name": "TouchSwipeUpTwoFingers",
@@ -142955,7 +143062,7 @@
         ],
         "description": "A two-finger touch screen swipe gesture pointing upward, typically used for scrolling or app switcher actions.",
         "searchText": "touchswipeuptwofingers touch swipe up two fingers touchscreenswipeup1 touch screen two-fingers swipe up gesture multi-touch scrolling two fingers a two-finger touch screen swipe gesture pointing upward, typically used for scrolling or app switcher actions. devices interface",
-        "chunk": 28
+        "chunk": 29
       },
       {
         "name": "TouchSwipeUpTwoFingersGap",
@@ -142985,7 +143092,7 @@
         ],
         "description": "A two-finger touch screen swipe gesture pointing upward with variant styling for app navigation.",
         "searchText": "touchswipeuptwofingersgap touch swipe up two fingers gap touchscreenswipeup22 touch screen two-fingers swipe up gesture multi-touch scrolling two fingers gap a two-finger touch screen swipe gesture pointing upward with variant styling for app navigation. devices interface",
-        "chunk": 28
+        "chunk": 29
       },
       {
         "name": "TouchTap",
@@ -147734,7 +147841,7 @@
         ],
         "description": "Speaker cone with three sound arcs.",
         "searchText": "volumehigh volume high volume loud high max sound speaker audio speaker cone with three sound arcs. media",
-        "chunk": 29
+        "chunk": 30
       },
       {
         "name": "VolumeHighOff",
@@ -147756,7 +147863,7 @@
         ],
         "description": "Speaker cone with three sound arcs, crossed by a diagonal slash.",
         "searchText": "volumehighoff volume high off mute muted sound-off silent volume speaker audio speaker cone with three sound arcs, crossed by a diagonal slash. media",
-        "chunk": 29
+        "chunk": 30
       },
       {
         "name": "VolumeHighOffWide",
@@ -147778,7 +147885,7 @@
         ],
         "description": "Speaker cone with three sound arcs, a small inner arc and wider outer arcs, crossed by a diagonal slash.",
         "searchText": "volumehighoffwide volume high off wide mute muted sound-off silent volume speaker audio speaker cone with three sound arcs, a small inner arc and wider outer arcs, crossed by a diagonal slash. media",
-        "chunk": 29
+        "chunk": 30
       },
       {
         "name": "VolumeHighWide",
@@ -147800,7 +147907,7 @@
         ],
         "description": "Speaker cone with three sound arcs, a small inner arc and wider outer arcs.",
         "searchText": "volumehighwide volume high wide volume loud high max sound speaker audio speaker cone with three sound arcs, a small inner arc and wider outer arcs. media",
-        "chunk": 29
+        "chunk": 30
       },
       {
         "name": "VolumeLow",
@@ -147822,7 +147929,7 @@
         ],
         "description": "Speaker cone with one sound arc.",
         "searchText": "volumelow volume low volume low quiet soft sound speaker audio speaker cone with one sound arc. media",
-        "chunk": 29
+        "chunk": 30
       },
       {
         "name": "VolumeLowWide",
@@ -153015,7 +153122,7 @@
         ],
         "description": "A page view icon displaying overlapping windows with non-hidden views visible, representing layered window management.",
         "searchText": "windowoverlapright window overlap right pageviewoverlappingshow window page view overlapping windows show non hidden views page-view overlapping-windows non-hidden a page view icon displaying overlapping windows with non-hidden views visible, representing layered window management. devices interface",
-        "chunk": 30
+        "chunk": 31
       },
       {
         "name": "WindowOverlapRightDotted",
@@ -153046,7 +153153,7 @@
         ],
         "description": "A page view icon showing overlapping windows with non-hidden views displayed, variant 1",
         "searchText": "windowoverlaprightdotted window overlap right dotted pageviewoverlappingshow1 window page view overlapping windows show non hidden views non-hidden layer overlap a page view icon showing overlapping windows with non-hidden views displayed, variant 1 devices interface",
-        "chunk": 30
+        "chunk": 31
       },
       {
         "name": "WindowOverlapRightDottedBack",
@@ -153077,7 +153184,7 @@
         ],
         "description": "A page view icon showing overlapping windows with non-hidden views displayed, variant 2",
         "searchText": "windowoverlaprightdottedback window overlap right dotted back pageviewoverlappingshow2 window page view overlapping windows show non hidden views non-hidden layer overlap a page view icon showing overlapping windows with non-hidden views displayed, variant 2 devices interface",
-        "chunk": 30
+        "chunk": 31
       },
       {
         "name": "WindowOverlapRightList",
@@ -153108,7 +153215,7 @@
         ],
         "description": "A page view icon displaying static overlapping windows, representing a fixed multi-layer window layout.",
         "searchText": "windowoverlaprightlist window overlap right list pageviewoverlappingstatic window page view overlapping windows static views page-view overlapping-windows layers window-management interface a page view icon displaying static overlapping windows, representing a fixed multi-layer window layout. devices interface",
-        "chunk": 30
+        "chunk": 31
       },
       {
         "name": "WindowPassword",
@@ -153135,7 +153242,7 @@
         ],
         "description": "Application window with key icon representing password-protected or secure software. Used to indicate applications that require authentication or have security features.",
         "searchText": "windowpassword window password applicationwindow1key5 window application key protected password secure authentication login application window with key icon representing password-protected or secure software. used to indicate applications that require authentication or have security features. devices interface",
-        "chunk": 30
+        "chunk": 31
       },
       {
         "name": "WindowPasswordBare",

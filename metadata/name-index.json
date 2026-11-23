@@ -6318,5 +6318,10 @@
   "TextQuote": "text-quote.svg",
   "TextSearch": "text-search.svg",
   "TextHollow": "text-hollow.svg",
-  "TextWholeWord": "text-whole-word.svg"
+  "TextWholeWord": "text-whole-word.svg",
+  "Broom": "broom.svg",
+  "Palette": "palette.svg",
+  "SwatchBook": "swatch-book.svg",
+  "TextPSquareOff": "text-p-square-off.svg",
+  "TextPCircleOff": "text-p-circle-off.svg"
 }

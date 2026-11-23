@@ -1161,6 +1161,7 @@ const BriefcaseSide = require('./icons/BriefcaseSide.js');
 const BriefcasePocket = require('./icons/BriefcasePocket.js');
 const BriefcaseFlapClasps = require('./icons/BriefcaseFlapClasps.js');
 const BriefcaseFlapLatch = require('./icons/BriefcaseFlapLatch.js');
+const Broom = require('./icons/Broom.js');
 const BroomSparkles = require('./icons/BroomSparkles.js');
 const Browser = require('./icons/Browser.js');
 const WindowPlain2 = require('./icons/WindowPlain2.js');
@@ -4696,6 +4697,7 @@ const PaintbrushStroke = require('./icons/PaintbrushStroke.js');
 const PaintbrushVertical = require('./icons/PaintbrushVertical.js');
 const PaintbrushVerticalCurl = require('./icons/PaintbrushVerticalCurl.js');
 const PaintbrushVerticalDipped = require('./icons/PaintbrushVerticalDipped.js');
+const Palette = require('./icons/Palette.js');
 const PanelBottomDash = require('./icons/PanelBottomDash.js');
 const PanelLeftDash = require('./icons/PanelLeftDash.js');
 const PanelLeftRightDash = require('./icons/PanelLeftRightDash.js');
@@ -5528,6 +5530,7 @@ const SunStarHalfSettings = require('./icons/SunStarHalfSettings.js');
 const SunStarSettings = require('./icons/SunStarSettings.js');
 const SunMoon = require('./icons/SunMoon.js');
 const Superscript = require('./icons/Superscript.js');
+const SwatchBook = require('./icons/SwatchBook.js');
 const SwitchRockerOff = require('./icons/SwitchRockerOff.js');
 const SwitchRockerOffPerspective = require('./icons/SwitchRockerOffPerspective.js');
 const SwitchRockerOn = require('./icons/SwitchRockerOn.js');
@@ -5801,7 +5804,9 @@ const TextNSquare = require('./icons/TextNSquare.js');
 const TextO = require('./icons/TextO.js');
 const TextP = require('./icons/TextP.js');
 const TextPCircle = require('./icons/TextPCircle.js');
+const TextPCircleOff = require('./icons/TextPCircleOff.js');
 const TextPSquare = require('./icons/TextPSquare.js');
+const TextPSquareOff = require('./icons/TextPSquareOff.js');
 const TextQ = require('./icons/TextQ.js');
 const TextQCircle = require('./icons/TextQCircle.js');
 const TextQSquare = require('./icons/TextQSquare.js');
@@ -7483,6 +7488,7 @@ module.exports = {
   BriefcasePocket: BriefcasePocket.default || BriefcasePocket,
   BriefcaseFlapClasps: BriefcaseFlapClasps.default || BriefcaseFlapClasps,
   BriefcaseFlapLatch: BriefcaseFlapLatch.default || BriefcaseFlapLatch,
+  Broom: Broom.default || Broom,
   BroomSparkles: BroomSparkles.default || BroomSparkles,
   Browser: Browser.default || Browser,
   WindowPlain2: WindowPlain2.default || WindowPlain2,
@@ -11018,6 +11024,7 @@ module.exports = {
   PaintbrushVertical: PaintbrushVertical.default || PaintbrushVertical,
   PaintbrushVerticalCurl: PaintbrushVerticalCurl.default || PaintbrushVerticalCurl,
   PaintbrushVerticalDipped: PaintbrushVerticalDipped.default || PaintbrushVerticalDipped,
+  Palette: Palette.default || Palette,
   PanelBottomDash: PanelBottomDash.default || PanelBottomDash,
   PanelLeftDash: PanelLeftDash.default || PanelLeftDash,
   PanelLeftRightDash: PanelLeftRightDash.default || PanelLeftRightDash,
@@ -11850,6 +11857,7 @@ module.exports = {
   SunStarSettings: SunStarSettings.default || SunStarSettings,
   SunMoon: SunMoon.default || SunMoon,
   Superscript: Superscript.default || Superscript,
+  SwatchBook: SwatchBook.default || SwatchBook,
   SwitchRockerOff: SwitchRockerOff.default || SwitchRockerOff,
   SwitchRockerOffPerspective: SwitchRockerOffPerspective.default || SwitchRockerOffPerspective,
   SwitchRockerOn: SwitchRockerOn.default || SwitchRockerOn,
@@ -12123,7 +12131,9 @@ module.exports = {
   TextO: TextO.default || TextO,
   TextP: TextP.default || TextP,
   TextPCircle: TextPCircle.default || TextPCircle,
+  TextPCircleOff: TextPCircleOff.default || TextPCircleOff,
   TextPSquare: TextPSquare.default || TextPSquare,
+  TextPSquareOff: TextPSquareOff.default || TextPSquareOff,
   TextQ: TextQ.default || TextQ,
   TextQCircle: TextQCircle.default || TextQCircle,
   TextQSquare: TextQSquare.default || TextQSquare,
