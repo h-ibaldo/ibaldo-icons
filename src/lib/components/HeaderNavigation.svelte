@@ -401,8 +401,8 @@
     tabindex="-1"
     on:keydown={handleDrawerKeydown}
 >
-    <div class="flex justify-between items-center mb-8">
-        <h2 id="drawer-title" class="text-xs font-">Menu</h2>
+    <div class="flex justify-end items-center mb-8">
+        <h2 id="drawer-title" class="sr-only">Menu</h2>
         <button
             bind:this={closeButton}
             on:click={closeDrawer}
