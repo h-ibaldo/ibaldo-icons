@@ -1,7 +1,8 @@
 {
-  "name": "ClosePaneArrowLeft2",
+  "name": "SidebarArrowLeftRows",
   "description": "A rectangle pane with a left-pointing arrow indicating closing or collapsing a panel (variant 2)",
   "tags": [
+    "sidebar",
     "close",
     "pane",
     "rectangle",
@@ -9,11 +10,11 @@
     "left",
     "collapse",
     "panel",
-    "close-left"
+    "close-left",
+    "rows"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sidebar arrow left rows",
+  "aliases": [
+    "ClosePaneArrowLeft2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

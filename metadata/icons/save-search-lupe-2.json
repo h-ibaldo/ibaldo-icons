@@ -1,18 +1,19 @@
 {
-  "name": "SaveSearch2",
+  "name": "SearchDownloadLong",
   "description": "A variant save search icon with magnifying glass in an alternative design style",
   "tags": [
-    "save",
     "search",
-    "magnifying glass",
+    "save",
     "lupe",
+    "magnifying-glass",
     "find",
     "query",
-    "storage"
+    "storage",
+    "download",
+    "long"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search download long",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z",
+  "aliases": [
+    "SaveSearchLongHandle"
+  ]
 }

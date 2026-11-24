@@ -1,0 +1,38 @@
+{
+  "name": "BanknoteOne",
+  "displayName": "Banknote one",
+  "description": "Banknote with corner ornaments, a 0 in the middle and a 1 in two corners.",
+  "tags": [
+    "banknote",
+    "money",
+    "cash",
+    "bill",
+    "value",
+    "one"
+  ],
+  "categories": [
+    "business",
+    "shopping"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Banknote"
+  },
+  "filename": "banknote-ten",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:14:24.000Z",
+  "aliases": [
+    "BanknoteTen"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "CameraOff",
+  "displayName": "Camera off",
+  "description": "Camera with a slash through it, its outline broken around the slash.",
+  "tags": [
+    "camera",
+    "photo",
+    "picture",
+    "photography",
+    "disabled",
+    "no-photos",
+    "off"
+  ],
+  "categories": [
+    "media",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Camera off"
+  },
+  "filename": "camera-off",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

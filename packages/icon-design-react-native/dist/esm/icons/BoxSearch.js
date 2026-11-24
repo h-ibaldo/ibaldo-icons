@@ -1,0 +1,35 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const BoxSearch = forwardRef(function BoxSearch(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M21 17.5C21 19.434 19.434 21 17.5 21C15.566 21 14 19.434 14 17.5C14 15.566 15.566 14 17.5 14C19.434 14 21 15.566 21 17.5Z","key":"0"}),
+    createElement(Path, {"d":"M19.973 19.973L22 22","key":"1"}),
+    createElement(Path, {"d":"M7 4.5L17 9.5","key":"2"}),
+    createElement(Path, {"d":"M2 7L12 12L22 7","key":"3"}),
+    createElement(Path, {"d":"M12 14L12 12","key":"4"}),
+    createElement(Path, {"d":"M12 22L12 21","key":"5"}),
+    createElement(Path, {"d":"M12 22L2 17L2 7L12 2L22 7L22 12","key":"6"})
+  );
+});
+
+BoxSearch.displayName = 'BoxSearch';
+
+export default BoxSearch;
+export { BoxSearch };

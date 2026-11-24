@@ -1,5 +1,5 @@
 {
-  "name": "SunGearSettings2",
+  "name": "SunStarHalfSettings",
   "description": "A sun icon with dual gear settings controls, representing advanced light adjustment options",
   "tags": [
     "sun",
@@ -9,11 +9,12 @@
     "control",
     "light",
     "adjustment",
-    "2"
+    "star",
+    "half"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun star half settings",
+  "aliases": [
+    "SunGearSettings2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

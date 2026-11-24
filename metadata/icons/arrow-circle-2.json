@@ -1,5 +1,5 @@
 {
-  "name": "ArrowCircle2",
+  "name": "ArrowClockwise",
   "description": "A curved arrow within a circle, representing rotation, refresh, or cyclical movement actions.",
   "tags": [
     "arrow",
@@ -8,10 +8,10 @@
     "refresh",
     "cycle",
     "curved",
-    "direction"
+    "direction",
+    "clockwise"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow clockwise",
+  "aliases": [
+    "ArrowCircle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

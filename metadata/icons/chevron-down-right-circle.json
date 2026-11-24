@@ -1,0 +1,35 @@
+{
+  "name": "ChevronDownRightCircle",
+  "displayName": "Chevron down right circle",
+  "description": "Corner chevron pointing down and to the right inside a circle.",
+  "tags": [
+    "chevron",
+    "caret",
+    "downright",
+    "navigation",
+    "circle",
+    "button"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Chevron down right"
+  },
+  "filename": "chevron-down-right-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

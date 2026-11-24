@@ -1,20 +1,19 @@
 {
-  "name": "PlaqueCategory2",
+  "name": "PlaqueTight",
   "description": "A plaque or badge icon representing the second category classification or organizational grouping",
   "tags": [
     "plaque",
     "category",
-    "2",
     "badge",
     "classification",
     "group",
     "tag",
     "label",
     "folder",
-    "organize"
+    "organize",
+    "tight"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Plaque tight",
+  "aliases": [
+    "PlaqueCategory2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

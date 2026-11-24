@@ -1,22 +1,25 @@
 {
-  "name": "User17",
-  "description": "A user person icon variant 17 representing individual profile or account identity",
+  "name": "AvatarFaceLongBraids",
+  "description": "Face with eyes and long braided hair drawn in dashed lines.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "people",
-    "avatar",
-    "identity"
+    "person",
+    "face",
+    "hairstyle",
+    "braids",
+    "locs",
+    "long-hair",
+    "textured-hair"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-17",
   "technical": {
@@ -29,5 +32,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, long braids",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceLongBraids"
+  ],
+  "featured": true
 }

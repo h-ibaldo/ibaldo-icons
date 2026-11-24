@@ -1,21 +1,22 @@
 {
-  "name": "ChartLineSquare3Minus",
-  "displayName": "Chart line square 3 minus",
+  "name": "ChartLinePeakSquareMinus",
+  "displayName": "Chart line peak square minus",
   "originalTitle": "Chart Line Square 3 Negative Remove Minus Delete",
   "description": "Alternative line chart with minus sign for data removal or negative indicators. Used for deleting charts, removing datasets, or showing declining metrics.",
   "tags": [
     "chart",
-    "minus",
+    "negative",
     "remove",
     "delete",
-    "negative",
     "subtract",
+    "minus",
     "data",
-    "decline"
+    "decline",
+    "peak",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.753Z"
+  "generatedAt": "2026-02-15T00:53:19.753Z",
+  "aliases": [
+    "ChartLineSquare3Minus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

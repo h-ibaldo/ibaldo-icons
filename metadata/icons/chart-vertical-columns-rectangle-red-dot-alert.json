@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsRectangleDot",
-  "displayName": "Chart vertical columns rectangle dot",
+  "name": "ChartBarSquareDot",
+  "displayName": "Chart bar square dot",
   "originalTitle": "Chart Vertical Columns Rectangle Red Dot Alert",
   "description": "Column chart with red alert dot indicating critical data points or system warnings. Used to draw attention to important metrics or data anomalies in business dashboards.",
   "tags": [
     "chart",
-    "column",
+    "vertical",
+    "columns",
+    "rectangle",
     "alert",
+    "unread",
+    "badge",
+    "column",
     "critical",
     "warning",
     "attention",
-    "data",
-    "monitoring"
+    "data"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.758Z"
+  "generatedAt": "2026-02-15T00:53:19.758Z",
+  "aliases": [
+    "ChartVerticalColumnsRectangleDot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

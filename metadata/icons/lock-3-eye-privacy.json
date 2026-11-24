@@ -1,19 +1,19 @@
 {
-  "name": "Lock3Eye",
+  "name": "LockEyeNarrow",
   "description": "A lock icon with an eye symbol, indicating privacy visibility or secure viewing permissions",
   "tags": [
     "lock",
-    "eye",
     "privacy",
+    "eye",
     "security",
     "visibility",
     "view",
     "protection",
-    "hidden"
+    "hidden",
+    "narrow"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock eye narrow",
+  "aliases": [
+    "Lock3Eye"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

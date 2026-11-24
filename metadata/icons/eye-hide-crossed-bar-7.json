@@ -1,15 +1,17 @@
 {
-  "name": "EyeHideCrossed",
+  "name": "EyeOff",
   "description": "An eye icon with a crossed-out bar indicating hidden or disabled visibility",
   "tags": [
     "eye",
     "hide",
     "crossed",
     "bar",
-    "visibility",
     "disabled",
+    "mute",
+    "visibility",
     "privacy",
-    "concealed"
+    "concealed",
+    "off"
   ],
   "categories": [
     "interface",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Eye off",
+  "aliases": [
+    "EyeHideCrossed"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

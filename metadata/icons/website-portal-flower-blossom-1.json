@@ -1,19 +1,21 @@
 {
-  "name": "WebsitePortalBlossom",
+  "name": "BrowserFlowerPointed",
   "description": "A website portal icon featuring a flower blossom representing nature, gardening, or wellness services",
   "tags": [
+    "browser",
     "website",
     "portal",
-    "flower",
     "blossom",
+    "flower",
     "nature",
     "gardening",
     "wellness",
-    "botanical"
+    "botanical",
+    "pointed"
   ],
   "categories": [
-    "interface",
-    "nature"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser flower pointed",
+  "aliases": [
+    "WebsitePortalBlossom"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

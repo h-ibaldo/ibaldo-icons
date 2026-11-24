@@ -1,22 +1,23 @@
 {
-  "name": "@primor/icons-react",
+  "name": "@ibaldo/icons-react",
   "version": "0.1.15",
-  "description": "React components for Primor Icons - A line-based icon library with variations, not conclusions",
+  "description": "React components for Ibaldo Icons - A line-based icon library with variations, not conclusions",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/cjs/index.js"
     },
     "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
       "import": "./dist/esm/icons/*.js",
-      "require": "./dist/cjs/icons/*.js",
-      "types": "./dist/icons/*.d.ts"
-    }
+      "require": "./dist/cjs/icons/*.js"
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -34,7 +35,7 @@
     "icons",
     "react",
     "svg",
-    "primor-icons",
+    "ibaldo-icons",
     "ui",
     "components"
   ],

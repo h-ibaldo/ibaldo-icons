@@ -1,18 +1,20 @@
 {
-  "name": "Cloud1Checked",
+  "name": "CloudCheck",
   "description": "A cloud icon with a checked or completed status indicator for cloud task accomplishment",
   "tags": [
     "cloud",
     "checked",
+    "done",
+    "success",
+    "verified",
     "checkmark",
     "complete",
-    "done",
     "accomplished",
     "finished",
-    "success"
+    "check"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud check",
+  "aliases": [
+    "Cloud1Checked"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

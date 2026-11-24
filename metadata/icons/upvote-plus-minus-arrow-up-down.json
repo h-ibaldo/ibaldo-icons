@@ -1,20 +1,22 @@
 {
-  "name": "UpvotePlusMinus",
+  "name": "VoteArrowsPlusMinus",
   "description": "An upvote icon combining plus and minus symbols with directional arrows for increment or decrement actions",
   "tags": [
+    "vote",
     "upvote",
-    "plus",
-    "minus",
     "arrow",
     "up",
     "down",
-    "positive",
-    "negative",
-    "increment"
+    "add",
+    "create",
+    "remove",
+    "subtract",
+    "plus",
+    "minus",
+    "positive"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "social"
   ],
   "accessibility": {
     "role": "interactive",
@@ -31,5 +33,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vote arrows plus minus",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

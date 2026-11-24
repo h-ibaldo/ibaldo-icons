@@ -1,16 +1,18 @@
 {
-  "name": "Bookmarks2",
+  "name": "BookmarkStackEdge",
   "description": "A bookmarks icon displaying two saved items or favorites",
   "tags": [
+    "bookmark",
     "bookmarks",
     "favorites",
     "save",
     "collection",
     "double",
-    "two"
+    "two",
+    "stack",
+    "edge"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark stack edge",
+  "aliases": [
+    "Bookmarks2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

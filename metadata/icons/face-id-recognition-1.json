@@ -1,20 +1,18 @@
 {
-  "name": "FaceIdRecognition1",
+  "name": "ScanFace",
   "description": "A face icon with ID recognition features in first variant style for biometric authentication",
   "tags": [
-    "face",
+    "scan",
     "id",
     "recognition",
+    "face",
     "biometric",
     "authentication",
     "facial",
-    "scan",
     "security"
   ],
   "categories": [
-    "interface",
-    "security",
-    "devices"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scan face",
+  "aliases": [
+    "FaceIdRecognition1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

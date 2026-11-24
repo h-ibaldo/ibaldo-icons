@@ -1,0 +1,6359 @@
+{
+  "old-icon-set-6-a-r01-c001": {
+    "name": "File2",
+    "displayName": "File 2",
+    "description": "File page with a small folded corner and nothing on it.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "blank",
+      "new"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    },
+    "hold": "≈ File (file.svg): identical drawing, already in the library"
+  },
+  "old-icon-set-6-a-r01-c002": {
+    "name": "FileLines",
+    "displayName": "File lines",
+    "description": "File page with a small folded corner with two centered text lines.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "notes",
+      "page"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "old-icon-set-6-a-r01-c004": {
+    "name": "FileLock",
+    "displayName": "File lock",
+    "description": "File page with a small folded corner with a padlock at the bottom left.",
+    "tags": [
+      "file",
+      "lock",
+      "locked",
+      "secure",
+      "private",
+      "protected"
+    ],
+    "categories": [
+      "files",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked file"
+    }
+  },
+  "old-icon-set-6-a-r01-c005": {
+    "name": "FilePlus",
+    "displayName": "File plus",
+    "description": "File page with a small folded corner with a plus sign in the middle.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "document"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "old-icon-set-6-a-r01-c006": {
+    "name": "FileMinus",
+    "displayName": "File minus",
+    "description": "File page with a small folded corner with a minus sign in the middle.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "document"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "old-icon-set-6-a-r01-c007": {
+    "name": "FileX",
+    "displayName": "File X",
+    "description": "File page with a small folded corner with an X in the middle.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "close",
+      "cancel",
+      "error"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "old-icon-set-6-a-r01-c008": {
+    "name": "FileCheck",
+    "displayName": "File check",
+    "description": "File page with a small folded corner with a check mark in the middle.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "complete"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    }
+  },
+  "old-icon-set-6-a-r01-c009": {
+    "name": "FileEdit",
+    "displayName": "File edit",
+    "description": "File page with a small folded corner with a pencil breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "modify"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r01-c011": {
+    "name": "FileEditDetailed",
+    "displayName": "File edit detailed",
+    "description": "File page with a small folded corner with a large pencil with an eraser band breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "eraser"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r01-c012": {
+    "name": "FileEditCorner",
+    "displayName": "File edit corner",
+    "description": "File page with a small folded corner with a small pencil at the bottom right corner.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "rename",
+      "modify",
+      "corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r01-c013": {
+    "name": "FileEditLeft",
+    "displayName": "File edit left",
+    "description": "File page with a small folded corner with a pencil crossing the bottom left side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "modify",
+      "left"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r01-c014": {
+    "name": "FileLinesEdit",
+    "displayName": "File lines edit",
+    "description": "File page with a small folded corner with text lines and a pencil breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "text",
+      "write",
+      "notes"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit document"
+    }
+  },
+  "old-icon-set-6-a-r01-c015": {
+    "name": "FileLinesEditCorner",
+    "displayName": "File lines edit corner",
+    "description": "File page with a small folded corner with text lines and a small pencil at the bottom right corner.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "text",
+      "notes",
+      "corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit document"
+    }
+  },
+  "old-icon-set-6-a-r01-c016": {
+    "name": "FileSearch",
+    "displayName": "File search",
+    "description": "File page with a small folded corner with a magnifier at the bottom right.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "find",
+      "lookup",
+      "zoom"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search file"
+    }
+  },
+  "old-icon-set-6-a-r01-c017": {
+    "name": "FileLinesSearch",
+    "displayName": "File lines search",
+    "description": "File page with a small folded corner with text lines and a magnifier at the bottom right.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "text",
+      "find",
+      "review"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search document"
+    }
+  },
+  "old-icon-set-6-a-r01-c018": {
+    "name": "FileArticle",
+    "displayName": "File article",
+    "description": "File page with a small folded corner with an image block and text lines like an article.",
+    "tags": [
+      "file",
+      "article",
+      "news",
+      "post",
+      "blog",
+      "text",
+      "image"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Article"
+    }
+  },
+  "old-icon-set-6-a-r01-c020": {
+    "name": "FileLinesDashed",
+    "displayName": "File lines dashed",
+    "description": "File page with a small folded corner with text lines broken into short and long dashes.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "list",
+      "data"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "old-icon-set-6-a-r01-c021": {
+    "name": "FileLinesLeft",
+    "displayName": "File lines left",
+    "description": "File page with a small folded corner with left-aligned text lines of different lengths.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "notes",
+      "paragraph"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "old-icon-set-6-a-r01-c022": {
+    "name": "FilePlusCorner",
+    "displayName": "File plus corner",
+    "description": "File page with a small folded corner with a plus sign at the bottom right corner.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "old-icon-set-6-a-r01-c023": {
+    "name": "FileMinusCorner",
+    "displayName": "File minus corner",
+    "description": "File page with a small folded corner with a minus sign at the bottom right corner.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "old-icon-set-6-a-r01-c024": {
+    "name": "FileXCorner",
+    "displayName": "File X corner",
+    "description": "File page with a small folded corner with an X at the bottom right corner.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "close",
+      "cancel",
+      "corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "old-icon-set-6-a-r01-c025": {
+    "name": "FileCheckCorner",
+    "displayName": "File check corner",
+    "description": "File page with a small folded corner with a check mark at the bottom right corner.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    }
+  },
+  "old-icon-set-6-a-r01-c026": {
+    "name": "FileCast",
+    "displayName": "File cast",
+    "description": "File page with a small folded corner with cast arcs at the bottom left.",
+    "tags": [
+      "file",
+      "cast",
+      "stream",
+      "broadcast",
+      "wireless",
+      "share"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cast file"
+    }
+  },
+  "old-icon-set-6-a-r01-c027": {
+    "name": "FileCastCorner",
+    "displayName": "File cast corner",
+    "description": "File page with a small folded corner with signal arcs at the bottom right corner.",
+    "tags": [
+      "file",
+      "cast",
+      "wireless",
+      "signal",
+      "stream",
+      "corner"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cast file"
+    }
+  },
+  "old-icon-set-6-a-r01-c028": {
+    "name": "FileStamp",
+    "displayName": "File stamp",
+    "description": "File page with a small folded corner with a rubber stamp at the bottom left.",
+    "tags": [
+      "file",
+      "stamp",
+      "approve",
+      "seal",
+      "certify",
+      "official"
+    ],
+    "categories": [
+      "files",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stamped file"
+    }
+  },
+  "old-icon-set-6-a-r01-c029": {
+    "name": "FileNetwork",
+    "displayName": "File network",
+    "description": "File page with a small folded corner standing on a stem over a horizontal bar.",
+    "tags": [
+      "file",
+      "network",
+      "shared",
+      "server",
+      "drive",
+      "lan"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Network file"
+    }
+  },
+  "old-icon-set-6-a-r01-c030": {
+    "name": "FileNetworkDots",
+    "displayName": "File network dots",
+    "description": "File page with a small folded corner standing on a stem over a bar with dots at both ends.",
+    "tags": [
+      "file",
+      "network",
+      "shared",
+      "server",
+      "connection",
+      "lan"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Network file"
+    }
+  },
+  "old-icon-set-6-a-r01-c031": {
+    "name": "FileArrowDownCorner",
+    "displayName": "File arrow down corner",
+    "description": "File page with a small folded corner with an arrow pointing down at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "down",
+      "download",
+      "save",
+      "corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download file"
+    }
+  },
+  "old-icon-set-6-a-r01-c032": {
+    "name": "FileArrowUpCorner",
+    "displayName": "File arrow up corner",
+    "description": "File page with a small folded corner with an arrow pointing up at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "up",
+      "upload",
+      "send",
+      "corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload file"
+    }
+  },
+  "old-icon-set-6-a-r01-c033": {
+    "name": "FileArrowDown",
+    "displayName": "File arrow down",
+    "description": "File page with a small folded corner with an arrow pointing down through a gap in the bottom edge.",
+    "tags": [
+      "file",
+      "arrow",
+      "down",
+      "download",
+      "save",
+      "export"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download file"
+    }
+  },
+  "old-icon-set-6-a-r01-c034": {
+    "name": "FileArrowUp",
+    "displayName": "File arrow up",
+    "description": "File page with a small folded corner with an arrow pointing up through a gap in the bottom edge.",
+    "tags": [
+      "file",
+      "arrow",
+      "up",
+      "upload",
+      "import",
+      "send"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload file"
+    }
+  },
+  "old-icon-set-6-a-r01-c035": {
+    "name": "FileArrowIn",
+    "displayName": "File arrow in",
+    "description": "File page with a small folded corner with an arrow entering through a gap in the left side.",
+    "tags": [
+      "file",
+      "arrow",
+      "in",
+      "import",
+      "right",
+      "move"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Import file"
+    }
+  },
+  "old-icon-set-6-a-r01-c036": {
+    "name": "FileArrowOut",
+    "displayName": "File arrow out",
+    "description": "File page with a small folded corner with an arrow leaving at the bottom right.",
+    "tags": [
+      "file",
+      "arrow",
+      "out",
+      "export",
+      "right",
+      "move"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Export file"
+    }
+  },
+  "old-icon-set-6-a-r01-c037": {
+    "name": "FileArrowUpRightCorner",
+    "displayName": "File arrow up right corner",
+    "description": "File page with a small folded corner with a diagonal arrow pointing up right at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "up-right",
+      "open",
+      "external",
+      "export"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open file"
+    }
+  },
+  "old-icon-set-6-a-r01-c038": {
+    "name": "FileArrowBend",
+    "displayName": "File arrow bend",
+    "description": "File page with a small folded corner with a bold curved arrow bending up to the right.",
+    "tags": [
+      "file",
+      "arrow",
+      "share",
+      "forward",
+      "send",
+      "curved"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Share file"
+    }
+  },
+  "old-icon-set-6-a-r01-c039": {
+    "name": "FilePlusCircle",
+    "displayName": "File plus circle",
+    "description": "File page with a small folded corner with a plus sign in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "old-icon-set-6-a-r01-c040": {
+    "name": "FileMinusCircle",
+    "displayName": "File minus circle",
+    "description": "File page with a small folded corner with a minus sign in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "old-icon-set-6-a-r01-c041": {
+    "name": "FileXCircle",
+    "displayName": "File X circle",
+    "description": "File page with a small folded corner with an X in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "cancel",
+      "error",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "old-icon-set-6-a-r01-c042": {
+    "name": "FileCheckCircle",
+    "displayName": "File check circle",
+    "description": "File page with a small folded corner with a check mark in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "circle"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    }
+  },
+  "old-icon-set-6-a-r01-c043": {
+    "name": "FileWink",
+    "displayName": "File wink",
+    "description": "File page with a small folded corner with a winking smiling face.",
+    "tags": [
+      "file",
+      "face",
+      "wink",
+      "smile",
+      "happy",
+      "friendly"
+    ],
+    "categories": [
+      "files",
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Happy file"
+    }
+  },
+  "old-icon-set-6-a-r01-c044": {
+    "name": "FileUser",
+    "displayName": "File user",
+    "description": "File page with a small folded corner with a person at the bottom left.",
+    "tags": [
+      "file",
+      "user",
+      "person",
+      "profile",
+      "owner",
+      "account"
+    ],
+    "categories": [
+      "files",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User file"
+    }
+  },
+  "old-icon-set-6-a-r01-c045": {
+    "name": "FileUserDouble",
+    "displayName": "File user double",
+    "description": "File page with a small folded corner with two people at the bottom left.",
+    "tags": [
+      "file",
+      "users",
+      "people",
+      "group",
+      "shared",
+      "team"
+    ],
+    "categories": [
+      "files",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Shared file"
+    }
+  },
+  "old-icon-set-6-a-r01-c046": {
+    "name": "FileArrowUturnRight",
+    "displayName": "File arrow uturn right",
+    "description": "File page with a small folded corner with an arrow curving out to the right at the bottom.",
+    "tags": [
+      "file",
+      "arrow",
+      "uturn",
+      "redirect",
+      "export",
+      "move"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move file"
+    }
+  },
+  "old-icon-set-6-a-r01-c047": {
+    "name": "FileChartBar",
+    "displayName": "File chart bar",
+    "description": "File page with a small folded corner with three vertical bars of a bar chart.",
+    "tags": [
+      "file",
+      "chart",
+      "bar-chart",
+      "report",
+      "statistics",
+      "analytics"
+    ],
+    "categories": [
+      "files",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Report file"
+    }
+  },
+  "old-icon-set-6-a-r01-c048": {
+    "name": "FilePushpin",
+    "displayName": "File pushpin",
+    "description": "File page with a small folded corner with a pushpin at the bottom left.",
+    "tags": [
+      "file",
+      "pin",
+      "pushpin",
+      "pinned",
+      "attach",
+      "keep"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pinned file"
+    }
+  },
+  "old-icon-set-6-a-r01-c049": {
+    "name": "FileMail",
+    "displayName": "File mail",
+    "description": "File page with a small folded corner with an envelope at the bottom right.",
+    "tags": [
+      "file",
+      "mail",
+      "envelope",
+      "email",
+      "send",
+      "attachment"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail file"
+    }
+  },
+  "old-icon-set-6-a-r01-c050": {
+    "name": "FileImage",
+    "displayName": "File image",
+    "description": "File page with a small folded corner with a sun and mountain line touching the edges.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "jpg",
+      "png"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    }
+  },
+  "old-icon-set-6-a-r01-c051": {
+    "name": "FileImageInset",
+    "displayName": "File image inset",
+    "description": "File page with a small folded corner with a small sun dot and a mountain line set inside.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "jpg",
+      "inset"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    }
+  },
+  "old-icon-set-6-a-r01-c052": {
+    "name": "FileImageCorner",
+    "displayName": "File image corner",
+    "description": "File page with a small folded corner with a sun and two mountains sticking out at the bottom left.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "mountains",
+      "corner"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    }
+  },
+  "old-icon-set-6-a-r01-c053": {
+    "name": "FileBan",
+    "displayName": "File ban",
+    "description": "File page with a small folded corner with a ban circle at the bottom right.",
+    "tags": [
+      "file",
+      "ban",
+      "blocked",
+      "forbidden",
+      "restricted",
+      "denied"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Blocked file"
+    }
+  },
+  "old-icon-set-6-a-r01-c054": {
+    "name": "FileStackOverlap",
+    "displayName": "File stack overlap",
+    "description": "File page with a small folded corner with a second identical page overlapping it.",
+    "tags": [
+      "file",
+      "copy",
+      "duplicate",
+      "stack",
+      "clone",
+      "files"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Duplicate file"
+    }
+  },
+  "old-icon-set-6-a-r01-c055": {
+    "name": "FileStack",
+    "displayName": "File stack",
+    "description": "File page with a small folded corner with an L-shaped page edge behind it.",
+    "tags": [
+      "file",
+      "copy",
+      "duplicate",
+      "stack",
+      "files",
+      "pages"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy file"
+    }
+  },
+  "old-icon-set-6-a-r01-c056": {
+    "name": "FileStackLines",
+    "displayName": "File stack lines",
+    "description": "File page with a small folded corner with text lines and an L-shaped page edge behind it.",
+    "tags": [
+      "file",
+      "copy",
+      "duplicate",
+      "stack",
+      "text",
+      "documents"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy document"
+    }
+  },
+  "old-icon-set-6-a-r01-c057": {
+    "name": "FileStar",
+    "displayName": "File star",
+    "description": "File page with a small folded corner with a star at the bottom right.",
+    "tags": [
+      "file",
+      "star",
+      "favorite",
+      "starred",
+      "important",
+      "bookmark"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite file"
+    }
+  },
+  "old-icon-set-6-a-r01-c058": {
+    "name": "FileSettings",
+    "displayName": "File settings",
+    "description": "File page with a small folded corner with a gear at the bottom right.",
+    "tags": [
+      "file",
+      "settings",
+      "gear",
+      "config",
+      "preferences",
+      "options"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File settings"
+    }
+  },
+  "old-icon-set-6-a-r01-c059": {
+    "name": "FileFilter",
+    "displayName": "File filter",
+    "description": "File page with a small folded corner with a funnel at the bottom right.",
+    "tags": [
+      "file",
+      "filter",
+      "funnel",
+      "sort",
+      "refine",
+      "query"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Filter files"
+    }
+  },
+  "old-icon-set-6-a-r01-c060": {
+    "name": "FileSync",
+    "displayName": "File sync",
+    "description": "File page with a small folded corner with two curved arrows at the bottom right.",
+    "tags": [
+      "file",
+      "sync",
+      "synchronize",
+      "update",
+      "refresh",
+      "backup"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync file"
+    }
+  },
+  "old-icon-set-6-a-r01-c061": {
+    "name": "FileRefresh",
+    "displayName": "File refresh",
+    "description": "File page with a small folded corner with one curved arrow at the bottom right.",
+    "tags": [
+      "file",
+      "refresh",
+      "reload",
+      "update",
+      "restore",
+      "history"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Refresh file"
+    }
+  },
+  "old-icon-set-6-a-r01-c062": {
+    "name": "FileEye",
+    "displayName": "File eye",
+    "description": "File page with a small folded corner with an eye at the bottom right.",
+    "tags": [
+      "file",
+      "eye",
+      "view",
+      "preview",
+      "visible",
+      "watch"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "View file"
+    }
+  },
+  "old-icon-set-6-a-r01-c063": {
+    "name": "FilePaperclip",
+    "displayName": "File paperclip",
+    "description": "File page with a small folded corner with a diagonal paperclip at the bottom right.",
+    "tags": [
+      "file",
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "document"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached file"
+    }
+  },
+  "old-icon-set-6-a-r01-c064": {
+    "name": "FilePaperclipHorizontal",
+    "displayName": "File paperclip horizontal",
+    "description": "File page with a small folded corner with a horizontal paperclip at the bottom right.",
+    "tags": [
+      "file",
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "horizontal"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached file"
+    }
+  },
+  "old-icon-set-6-a-r01-c065": {
+    "name": "FileStackPaperclip",
+    "displayName": "File stack paperclip",
+    "description": "File page with a small folded corner with a page edge behind and a paperclip at the bottom right.",
+    "tags": [
+      "file",
+      "paperclip",
+      "attachments",
+      "stack",
+      "files",
+      "attach"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached files"
+    }
+  },
+  "old-icon-set-6-a-r01-c066": {
+    "name": "FileWarning",
+    "displayName": "File warning",
+    "description": "File page with a small folded corner with a warning triangle at the bottom right.",
+    "tags": [
+      "file",
+      "warning",
+      "alert",
+      "error",
+      "caution",
+      "problem"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File warning"
+    }
+  },
+  "old-icon-set-6-a-r01-c067": {
+    "name": "FileTriangle",
+    "displayName": "File triangle",
+    "description": "File page with a small folded corner with an empty triangle at the bottom right.",
+    "tags": [
+      "file",
+      "triangle",
+      "shape",
+      "vector",
+      "graphic",
+      "design"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Shape file"
+    }
+  },
+  "old-icon-set-6-a-r02-c001": {
+    "name": "FileCut",
+    "displayName": "File cut",
+    "description": "File page with a cut corner with nothing on it.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "blank",
+      "new",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    }
+  },
+  "old-icon-set-6-a-r02-c002": {
+    "name": "FileLinesCut",
+    "displayName": "File lines cut",
+    "description": "File page with a cut corner with two centered text lines.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "notes",
+      "page",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "old-icon-set-6-a-r02-c004": {
+    "name": "FileLockCut",
+    "displayName": "File lock cut",
+    "description": "File page with a cut corner with a padlock at the bottom left.",
+    "tags": [
+      "file",
+      "lock",
+      "locked",
+      "secure",
+      "private",
+      "protected",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked file"
+    }
+  },
+  "old-icon-set-6-a-r02-c005": {
+    "name": "FilePlusCut",
+    "displayName": "File plus cut",
+    "description": "File page with a cut corner with a plus sign in the middle.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "document",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "old-icon-set-6-a-r02-c006": {
+    "name": "FileMinusCut",
+    "displayName": "File minus cut",
+    "description": "File page with a cut corner with a minus sign in the middle.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "document",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "old-icon-set-6-a-r02-c007": {
+    "name": "FileXCut",
+    "displayName": "File X cut",
+    "description": "File page with a cut corner with an X in the middle.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "close",
+      "cancel",
+      "error",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "old-icon-set-6-a-r02-c008": {
+    "name": "FileCheckCut",
+    "displayName": "File check cut",
+    "description": "File page with a cut corner with a check mark in the middle.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "complete",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    }
+  },
+  "old-icon-set-6-a-r02-c009": {
+    "name": "FileEditCut",
+    "displayName": "File edit cut",
+    "description": "File page with a cut corner with a pencil breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "modify",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r02-c011": {
+    "name": "FileEditDetailedCut",
+    "displayName": "File edit detailed cut",
+    "description": "File page with a cut corner with a large pencil with an eraser band breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "eraser",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r02-c012": {
+    "name": "FileEditCornerCut",
+    "displayName": "File edit corner cut",
+    "description": "File page with a cut corner with a small pencil at the bottom right corner.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "rename",
+      "modify",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r02-c013": {
+    "name": "FileEditLeftCut",
+    "displayName": "File edit left cut",
+    "description": "File page with a cut corner with a pencil crossing the bottom left side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "modify",
+      "left",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r02-c014": {
+    "name": "FileLinesEditCut",
+    "displayName": "File lines edit cut",
+    "description": "File page with a cut corner with text lines and a pencil breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "text",
+      "write",
+      "notes",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit document"
+    }
+  },
+  "old-icon-set-6-a-r02-c015": {
+    "name": "FileLinesEditCornerCut",
+    "displayName": "File lines edit corner cut",
+    "description": "File page with a cut corner with text lines and a small pencil at the bottom right corner.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "text",
+      "notes",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit document"
+    }
+  },
+  "old-icon-set-6-a-r02-c016": {
+    "name": "FileSearchCut",
+    "displayName": "File search cut",
+    "description": "File page with a cut corner with a magnifier at the bottom right.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "find",
+      "lookup",
+      "zoom",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search file"
+    }
+  },
+  "old-icon-set-6-a-r02-c017": {
+    "name": "FileLinesSearchCut",
+    "displayName": "File lines search cut",
+    "description": "File page with a cut corner with text lines and a magnifier at the bottom right.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "text",
+      "find",
+      "review",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search document"
+    }
+  },
+  "old-icon-set-6-a-r02-c018": {
+    "name": "FileArticleCut",
+    "displayName": "File article cut",
+    "description": "File page with a cut corner with an image block and text lines like an article.",
+    "tags": [
+      "file",
+      "article",
+      "news",
+      "post",
+      "blog",
+      "text",
+      "image",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Article"
+    }
+  },
+  "old-icon-set-6-a-r02-c019": {
+    "name": "FileUnlockCut",
+    "displayName": "File unlock cut",
+    "description": "File page with a cut corner with an open padlock at the bottom left.",
+    "tags": [
+      "file",
+      "unlock",
+      "unlocked",
+      "open",
+      "public",
+      "access",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unlocked file"
+    }
+  },
+  "old-icon-set-6-a-r02-c020": {
+    "name": "FileLinesDashedCut",
+    "displayName": "File lines dashed cut",
+    "description": "File page with a cut corner with text lines broken into short and long dashes.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "list",
+      "data",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "old-icon-set-6-a-r02-c021": {
+    "name": "FileLinesLeftCut",
+    "displayName": "File lines left cut",
+    "description": "File page with a cut corner with left-aligned text lines of different lengths.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "notes",
+      "paragraph",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "old-icon-set-6-a-r02-c022": {
+    "name": "FilePlusCornerCut",
+    "displayName": "File plus corner cut",
+    "description": "File page with a cut corner with a plus sign at the bottom right corner.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "old-icon-set-6-a-r02-c023": {
+    "name": "FileMinusCornerCut",
+    "displayName": "File minus corner cut",
+    "description": "File page with a cut corner with a minus sign at the bottom right corner.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "old-icon-set-6-a-r02-c024": {
+    "name": "FileXCornerCut",
+    "displayName": "File X corner cut",
+    "description": "File page with a cut corner with an X at the bottom right corner.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "close",
+      "cancel",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "old-icon-set-6-a-r02-c025": {
+    "name": "FileCheckCornerCut",
+    "displayName": "File check corner cut",
+    "description": "File page with a cut corner with a check mark at the bottom right corner.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    }
+  },
+  "old-icon-set-6-a-r02-c026": {
+    "name": "FileCastCut",
+    "displayName": "File cast cut",
+    "description": "File page with a cut corner with cast arcs at the bottom left.",
+    "tags": [
+      "file",
+      "cast",
+      "stream",
+      "broadcast",
+      "wireless",
+      "share",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cast file"
+    }
+  },
+  "old-icon-set-6-a-r02-c027": {
+    "name": "FileCastCornerCut",
+    "displayName": "File cast corner cut",
+    "description": "File page with a cut corner with signal arcs at the bottom right corner.",
+    "tags": [
+      "file",
+      "cast",
+      "wireless",
+      "signal",
+      "stream",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cast file"
+    }
+  },
+  "old-icon-set-6-a-r02-c028": {
+    "name": "FileStampCut",
+    "displayName": "File stamp cut",
+    "description": "File page with a cut corner with a rubber stamp at the bottom left.",
+    "tags": [
+      "file",
+      "stamp",
+      "approve",
+      "seal",
+      "certify",
+      "official",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stamped file"
+    }
+  },
+  "old-icon-set-6-a-r02-c029": {
+    "name": "FileNetworkCut",
+    "displayName": "File network cut",
+    "description": "File page with a cut corner standing on a stem over a horizontal bar.",
+    "tags": [
+      "file",
+      "network",
+      "shared",
+      "server",
+      "drive",
+      "lan",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Network file"
+    }
+  },
+  "old-icon-set-6-a-r02-c030": {
+    "name": "FileNetworkDotsCut",
+    "displayName": "File network dots cut",
+    "description": "File page with a cut corner standing on a stem over a bar with dots at both ends.",
+    "tags": [
+      "file",
+      "network",
+      "shared",
+      "server",
+      "connection",
+      "lan",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Network file"
+    }
+  },
+  "old-icon-set-6-a-r02-c031": {
+    "name": "FileArrowDownCornerCut",
+    "displayName": "File arrow down corner cut",
+    "description": "File page with a cut corner with an arrow pointing down at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "down",
+      "download",
+      "save",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download file"
+    }
+  },
+  "old-icon-set-6-a-r02-c032": {
+    "name": "FileArrowUpCornerCut",
+    "displayName": "File arrow up corner cut",
+    "description": "File page with a cut corner with an arrow pointing up at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "up",
+      "upload",
+      "send",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload file"
+    }
+  },
+  "old-icon-set-6-a-r02-c033": {
+    "name": "FileArrowDownCut",
+    "displayName": "File arrow down cut",
+    "description": "File page with a cut corner with an arrow pointing down through a gap in the bottom edge.",
+    "tags": [
+      "file",
+      "arrow",
+      "down",
+      "download",
+      "save",
+      "export",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download file"
+    }
+  },
+  "old-icon-set-6-a-r02-c034": {
+    "name": "FileArrowUpCut",
+    "displayName": "File arrow up cut",
+    "description": "File page with a cut corner with an arrow pointing up through a gap in the bottom edge.",
+    "tags": [
+      "file",
+      "arrow",
+      "up",
+      "upload",
+      "import",
+      "send",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload file"
+    }
+  },
+  "old-icon-set-6-a-r02-c035": {
+    "name": "FileArrowInCut",
+    "displayName": "File arrow in cut",
+    "description": "File page with a cut corner with an arrow entering through a gap in the left side.",
+    "tags": [
+      "file",
+      "arrow",
+      "in",
+      "import",
+      "right",
+      "move",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Import file"
+    }
+  },
+  "old-icon-set-6-a-r02-c036": {
+    "name": "FileArrowOutCut",
+    "displayName": "File arrow out cut",
+    "description": "File page with a cut corner with an arrow leaving at the bottom right.",
+    "tags": [
+      "file",
+      "arrow",
+      "out",
+      "export",
+      "right",
+      "move",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Export file"
+    }
+  },
+  "old-icon-set-6-a-r02-c037": {
+    "name": "FileArrowUpRightCornerCut",
+    "displayName": "File arrow up right corner cut",
+    "description": "File page with a cut corner with a diagonal arrow pointing up right at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "up-right",
+      "open",
+      "external",
+      "export",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open file"
+    }
+  },
+  "old-icon-set-6-a-r02-c038": {
+    "name": "FileArrowBendCut",
+    "displayName": "File arrow bend cut",
+    "description": "File page with a cut corner with a bold curved arrow bending up to the right.",
+    "tags": [
+      "file",
+      "arrow",
+      "share",
+      "forward",
+      "send",
+      "curved",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Share file"
+    }
+  },
+  "old-icon-set-6-a-r02-c039": {
+    "name": "FilePlusCircleCut",
+    "displayName": "File plus circle cut",
+    "description": "File page with a cut corner with a plus sign in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "circle",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "old-icon-set-6-a-r02-c040": {
+    "name": "FileMinusCircleCut",
+    "displayName": "File minus circle cut",
+    "description": "File page with a cut corner with a minus sign in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "circle",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "old-icon-set-6-a-r02-c041": {
+    "name": "FileXCircleCut",
+    "displayName": "File X circle cut",
+    "description": "File page with a cut corner with an X in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "cancel",
+      "error",
+      "circle",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "old-icon-set-6-a-r02-c042": {
+    "name": "FileCheckCircleCut",
+    "displayName": "File check circle cut",
+    "description": "File page with a cut corner with a check mark in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "circle",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    }
+  },
+  "old-icon-set-6-a-r02-c043": {
+    "name": "FileWinkCut",
+    "displayName": "File wink cut",
+    "description": "File page with a cut corner with a winking smiling face.",
+    "tags": [
+      "file",
+      "face",
+      "wink",
+      "smile",
+      "happy",
+      "friendly",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Happy file"
+    }
+  },
+  "old-icon-set-6-a-r02-c044": {
+    "name": "FileUserCut",
+    "displayName": "File user cut",
+    "description": "File page with a cut corner with a person at the bottom left.",
+    "tags": [
+      "file",
+      "user",
+      "person",
+      "profile",
+      "owner",
+      "account",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User file"
+    }
+  },
+  "old-icon-set-6-a-r02-c045": {
+    "name": "FileUserDoubleCut",
+    "displayName": "File user double cut",
+    "description": "File page with a cut corner with two people at the bottom left.",
+    "tags": [
+      "file",
+      "users",
+      "people",
+      "group",
+      "shared",
+      "team",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Shared file"
+    }
+  },
+  "old-icon-set-6-a-r02-c046": {
+    "name": "FileArrowUturnRightCut",
+    "displayName": "File arrow uturn right cut",
+    "description": "File page with a cut corner with an arrow curving out to the right at the bottom.",
+    "tags": [
+      "file",
+      "arrow",
+      "uturn",
+      "redirect",
+      "export",
+      "move",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move file"
+    }
+  },
+  "old-icon-set-6-a-r02-c047": {
+    "name": "FileChartBarCut",
+    "displayName": "File chart bar cut",
+    "description": "File page with a cut corner with three vertical bars of a bar chart.",
+    "tags": [
+      "file",
+      "chart",
+      "bar-chart",
+      "report",
+      "statistics",
+      "analytics",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Report file"
+    }
+  },
+  "old-icon-set-6-a-r02-c048": {
+    "name": "FilePushpinCut",
+    "displayName": "File pushpin cut",
+    "description": "File page with a cut corner with a pushpin at the bottom left.",
+    "tags": [
+      "file",
+      "pin",
+      "pushpin",
+      "pinned",
+      "attach",
+      "keep",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pinned file"
+    }
+  },
+  "old-icon-set-6-a-r02-c049": {
+    "name": "FileMailCut",
+    "displayName": "File mail cut",
+    "description": "File page with a cut corner with an envelope at the bottom right.",
+    "tags": [
+      "file",
+      "mail",
+      "envelope",
+      "email",
+      "send",
+      "attachment",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail file"
+    }
+  },
+  "old-icon-set-6-a-r02-c050": {
+    "name": "FileImageCut",
+    "displayName": "File image cut",
+    "description": "File page with a cut corner with a sun and mountain line touching the edges.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "jpg",
+      "png",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    }
+  },
+  "old-icon-set-6-a-r02-c051": {
+    "name": "FileImageInsetCut",
+    "displayName": "File image inset cut",
+    "description": "File page with a cut corner with a small sun dot and a mountain line set inside.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "jpg",
+      "inset",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    }
+  },
+  "old-icon-set-6-a-r02-c052": {
+    "name": "FileImageCornerCut",
+    "displayName": "File image corner cut",
+    "description": "File page with a cut corner with a sun and two mountains sticking out at the bottom left.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "mountains",
+      "corner",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    }
+  },
+  "old-icon-set-6-a-r02-c053": {
+    "name": "FileBanCut",
+    "displayName": "File ban cut",
+    "description": "File page with a cut corner with a ban circle at the bottom right.",
+    "tags": [
+      "file",
+      "ban",
+      "blocked",
+      "forbidden",
+      "restricted",
+      "denied",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Blocked file"
+    }
+  },
+  "old-icon-set-6-a-r02-c054": {
+    "name": "FileStackOverlapCut",
+    "displayName": "File stack overlap cut",
+    "description": "File page with a cut corner with a second identical page overlapping it.",
+    "tags": [
+      "file",
+      "copy",
+      "duplicate",
+      "stack",
+      "clone",
+      "files",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Duplicate file"
+    }
+  },
+  "old-icon-set-6-a-r02-c055": {
+    "name": "FileStackCut",
+    "displayName": "File stack cut",
+    "description": "File page with a cut corner with an L-shaped page edge behind it.",
+    "tags": [
+      "file",
+      "copy",
+      "duplicate",
+      "stack",
+      "files",
+      "pages",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy file"
+    }
+  },
+  "old-icon-set-6-a-r02-c056": {
+    "name": "FileStackLinesCut",
+    "displayName": "File stack lines cut",
+    "description": "File page with a cut corner with text lines and an L-shaped page edge behind it.",
+    "tags": [
+      "file",
+      "copy",
+      "duplicate",
+      "stack",
+      "text",
+      "documents",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy document"
+    }
+  },
+  "old-icon-set-6-a-r02-c057": {
+    "name": "FileStarCut",
+    "displayName": "File star cut",
+    "description": "File page with a cut corner with a star at the bottom right.",
+    "tags": [
+      "file",
+      "star",
+      "favorite",
+      "starred",
+      "important",
+      "bookmark",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite file"
+    }
+  },
+  "old-icon-set-6-a-r02-c058": {
+    "name": "FileSettingsCut",
+    "displayName": "File settings cut",
+    "description": "File page with a cut corner with a gear at the bottom right.",
+    "tags": [
+      "file",
+      "settings",
+      "gear",
+      "config",
+      "preferences",
+      "options",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File settings"
+    }
+  },
+  "old-icon-set-6-a-r02-c059": {
+    "name": "FileFilterCut",
+    "displayName": "File filter cut",
+    "description": "File page with a cut corner with a funnel at the bottom right.",
+    "tags": [
+      "file",
+      "filter",
+      "funnel",
+      "sort",
+      "refine",
+      "query",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Filter files"
+    }
+  },
+  "old-icon-set-6-a-r02-c060": {
+    "name": "FileSyncCut",
+    "displayName": "File sync cut",
+    "description": "File page with a cut corner with two curved arrows at the bottom right.",
+    "tags": [
+      "file",
+      "sync",
+      "synchronize",
+      "update",
+      "refresh",
+      "backup",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync file"
+    }
+  },
+  "old-icon-set-6-a-r02-c061": {
+    "name": "FileRefreshCut",
+    "displayName": "File refresh cut",
+    "description": "File page with a cut corner with one curved arrow at the bottom right.",
+    "tags": [
+      "file",
+      "refresh",
+      "reload",
+      "update",
+      "restore",
+      "history",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Refresh file"
+    }
+  },
+  "old-icon-set-6-a-r02-c062": {
+    "name": "FileEyeCut",
+    "displayName": "File eye cut",
+    "description": "File page with a cut corner with an eye at the bottom right.",
+    "tags": [
+      "file",
+      "eye",
+      "view",
+      "preview",
+      "visible",
+      "watch",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "View file"
+    }
+  },
+  "old-icon-set-6-a-r02-c063": {
+    "name": "FilePaperclipCut",
+    "displayName": "File paperclip cut",
+    "description": "File page with a cut corner with a diagonal paperclip at the bottom right.",
+    "tags": [
+      "file",
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "document",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached file"
+    }
+  },
+  "old-icon-set-6-a-r02-c064": {
+    "name": "FilePaperclipHorizontalCut",
+    "displayName": "File paperclip horizontal cut",
+    "description": "File page with a cut corner with a horizontal paperclip at the bottom right.",
+    "tags": [
+      "file",
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "horizontal",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached file"
+    }
+  },
+  "old-icon-set-6-a-r02-c065": {
+    "name": "FileStackPaperclipCut",
+    "displayName": "File stack paperclip cut",
+    "description": "File page with a cut corner with a page edge behind and a paperclip at the bottom right.",
+    "tags": [
+      "file",
+      "paperclip",
+      "attachments",
+      "stack",
+      "files",
+      "attach",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached files"
+    }
+  },
+  "old-icon-set-6-a-r02-c066": {
+    "name": "FileWarningCut",
+    "displayName": "File warning cut",
+    "description": "File page with a cut corner with a warning triangle at the bottom right.",
+    "tags": [
+      "file",
+      "warning",
+      "alert",
+      "error",
+      "caution",
+      "problem",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File warning"
+    }
+  },
+  "old-icon-set-6-a-r02-c067": {
+    "name": "FileTriangleCut",
+    "displayName": "File triangle cut",
+    "description": "File page with a cut corner with an empty triangle at the bottom right.",
+    "tags": [
+      "file",
+      "triangle",
+      "shape",
+      "vector",
+      "graphic",
+      "design",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Shape file"
+    }
+  },
+  "old-icon-set-6-a-r03-c001": {
+    "name": "FilePlain",
+    "displayName": "File plain",
+    "description": "Plain rounded rectangle page with nothing on it.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "blank",
+      "new",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    }
+  },
+  "old-icon-set-6-a-r03-c002": {
+    "name": "FileLinesPlain",
+    "displayName": "File lines plain",
+    "description": "Plain rounded rectangle page with two centered text lines.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "notes",
+      "page",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "old-icon-set-6-a-r03-c004": {
+    "name": "FileLockPlain",
+    "displayName": "File lock plain",
+    "description": "Plain rounded rectangle page with a padlock at the bottom left.",
+    "tags": [
+      "file",
+      "lock",
+      "locked",
+      "secure",
+      "private",
+      "protected",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked file"
+    }
+  },
+  "old-icon-set-6-a-r03-c005": {
+    "name": "FilePlusPlain",
+    "displayName": "File plus plain",
+    "description": "Plain rounded rectangle page with a plus sign in the middle.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "document",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "old-icon-set-6-a-r03-c006": {
+    "name": "FileMinusPlain",
+    "displayName": "File minus plain",
+    "description": "Plain rounded rectangle page with a minus sign in the middle.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "document",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "old-icon-set-6-a-r03-c007": {
+    "name": "FileXPlain",
+    "displayName": "File X plain",
+    "description": "Plain rounded rectangle page with an X in the middle.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "close",
+      "cancel",
+      "error",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "old-icon-set-6-a-r03-c008": {
+    "name": "FileCheckPlain",
+    "displayName": "File check plain",
+    "description": "Plain rounded rectangle page with a check mark in the middle.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "complete",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    }
+  },
+  "old-icon-set-6-a-r03-c009": {
+    "name": "FileEditPlain",
+    "displayName": "File edit plain",
+    "description": "Plain rounded rectangle page with a pencil breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "modify",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r03-c011": {
+    "name": "FileEditDetailedPlain",
+    "displayName": "File edit detailed plain",
+    "description": "Plain rounded rectangle page with a large pencil with an eraser band breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "eraser",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r03-c012": {
+    "name": "FileEditCornerPlain",
+    "displayName": "File edit corner plain",
+    "description": "Plain rounded rectangle page with a small pencil at the bottom right corner.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "rename",
+      "modify",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r03-c013": {
+    "name": "FileEditLeftPlain",
+    "displayName": "File edit left plain",
+    "description": "Plain rounded rectangle page with a pencil crossing the bottom left side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "modify",
+      "left",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    }
+  },
+  "old-icon-set-6-a-r03-c014": {
+    "name": "FileLinesEditPlain",
+    "displayName": "File lines edit plain",
+    "description": "Plain rounded rectangle page with text lines and a pencil breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "text",
+      "write",
+      "notes",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit document"
+    }
+  },
+  "old-icon-set-6-a-r03-c015": {
+    "name": "FileLinesEditCornerPlain",
+    "displayName": "File lines edit corner plain",
+    "description": "Plain rounded rectangle page with text lines and a small pencil at the bottom right corner.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "text",
+      "notes",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit document"
+    }
+  },
+  "old-icon-set-6-a-r03-c016": {
+    "name": "FileSearchPlain",
+    "displayName": "File search plain",
+    "description": "Plain rounded rectangle page with a magnifier at the bottom right.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "find",
+      "lookup",
+      "zoom",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search file"
+    }
+  },
+  "old-icon-set-6-a-r03-c017": {
+    "name": "FileLinesSearchPlain",
+    "displayName": "File lines search plain",
+    "description": "Plain rounded rectangle page with text lines and a magnifier at the bottom right.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "text",
+      "find",
+      "review",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search document"
+    }
+  },
+  "old-icon-set-6-a-r03-c018": {
+    "name": "FileArticlePlain",
+    "displayName": "File article plain",
+    "description": "Plain rounded rectangle page with an image block and text lines like an article.",
+    "tags": [
+      "file",
+      "article",
+      "news",
+      "post",
+      "blog",
+      "text",
+      "image",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Article"
+    }
+  },
+  "old-icon-set-6-a-r03-c020": {
+    "name": "FileLinesDashedPlain",
+    "displayName": "File lines dashed plain",
+    "description": "Plain rounded rectangle page with text lines broken into short and long dashes.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "list",
+      "data",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "old-icon-set-6-a-r03-c021": {
+    "name": "FileLinesLeftPlain",
+    "displayName": "File lines left plain",
+    "description": "Plain rounded rectangle page with left-aligned text lines of different lengths.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "notes",
+      "paragraph",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    }
+  },
+  "old-icon-set-6-a-r03-c022": {
+    "name": "FilePlusCornerPlain",
+    "displayName": "File plus corner plain",
+    "description": "Plain rounded rectangle page with a plus sign at the bottom right corner.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "old-icon-set-6-a-r03-c023": {
+    "name": "FileMinusCornerPlain",
+    "displayName": "File minus corner plain",
+    "description": "Plain rounded rectangle page with a minus sign at the bottom right corner.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "old-icon-set-6-a-r03-c024": {
+    "name": "FileXCornerPlain",
+    "displayName": "File X corner plain",
+    "description": "Plain rounded rectangle page with an X at the bottom right corner.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "close",
+      "cancel",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "old-icon-set-6-a-r03-c025": {
+    "name": "FileCheckCornerPlain",
+    "displayName": "File check corner plain",
+    "description": "Plain rounded rectangle page with a check mark at the bottom right corner.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    }
+  },
+  "old-icon-set-6-a-r03-c026": {
+    "name": "FileCastPlain",
+    "displayName": "File cast plain",
+    "description": "Plain rounded rectangle page with cast arcs at the bottom left.",
+    "tags": [
+      "file",
+      "cast",
+      "stream",
+      "broadcast",
+      "wireless",
+      "share",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cast file"
+    }
+  },
+  "old-icon-set-6-a-r03-c027": {
+    "name": "FileCastCornerPlain",
+    "displayName": "File cast corner plain",
+    "description": "Plain rounded rectangle page with signal arcs at the bottom right corner.",
+    "tags": [
+      "file",
+      "cast",
+      "wireless",
+      "signal",
+      "stream",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cast file"
+    }
+  },
+  "old-icon-set-6-a-r03-c028": {
+    "name": "FileStampPlain",
+    "displayName": "File stamp plain",
+    "description": "Plain rounded rectangle page with a rubber stamp at the bottom left.",
+    "tags": [
+      "file",
+      "stamp",
+      "approve",
+      "seal",
+      "certify",
+      "official",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stamped file"
+    }
+  },
+  "old-icon-set-6-a-r03-c029": {
+    "name": "FileNetworkPlain",
+    "displayName": "File network plain",
+    "description": "Plain rounded rectangle page standing on a stem over a horizontal bar.",
+    "tags": [
+      "file",
+      "network",
+      "shared",
+      "server",
+      "drive",
+      "lan",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Network file"
+    }
+  },
+  "old-icon-set-6-a-r03-c030": {
+    "name": "FileNetworkDotsPlain",
+    "displayName": "File network dots plain",
+    "description": "Plain rounded rectangle page standing on a stem over a bar with dots at both ends.",
+    "tags": [
+      "file",
+      "network",
+      "shared",
+      "server",
+      "connection",
+      "lan",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Network file"
+    }
+  },
+  "old-icon-set-6-a-r03-c031": {
+    "name": "FileArrowDownCornerPlain",
+    "displayName": "File arrow down corner plain",
+    "description": "Plain rounded rectangle page with an arrow pointing down at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "down",
+      "download",
+      "save",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download file"
+    }
+  },
+  "old-icon-set-6-a-r03-c032": {
+    "name": "FileArrowUpCornerPlain",
+    "displayName": "File arrow up corner plain",
+    "description": "Plain rounded rectangle page with an arrow pointing up at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "up",
+      "upload",
+      "send",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload file"
+    }
+  },
+  "old-icon-set-6-a-r03-c033": {
+    "name": "FileArrowDownPlain",
+    "displayName": "File arrow down plain",
+    "description": "Plain rounded rectangle page with an arrow pointing down through a gap in the bottom edge.",
+    "tags": [
+      "file",
+      "arrow",
+      "down",
+      "download",
+      "save",
+      "export",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download file"
+    }
+  },
+  "old-icon-set-6-a-r03-c034": {
+    "name": "FileArrowUpPlain",
+    "displayName": "File arrow up plain",
+    "description": "Plain rounded rectangle page with an arrow pointing up through a gap in the bottom edge.",
+    "tags": [
+      "file",
+      "arrow",
+      "up",
+      "upload",
+      "import",
+      "send",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload file"
+    }
+  },
+  "old-icon-set-6-a-r03-c035": {
+    "name": "FileArrowInPlain",
+    "displayName": "File arrow in plain",
+    "description": "Plain rounded rectangle page with an arrow entering through a gap in the left side.",
+    "tags": [
+      "file",
+      "arrow",
+      "in",
+      "import",
+      "right",
+      "move",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Import file"
+    }
+  },
+  "old-icon-set-6-a-r03-c036": {
+    "name": "FileArrowOutPlain",
+    "displayName": "File arrow out plain",
+    "description": "Plain rounded rectangle page with an arrow leaving at the bottom right.",
+    "tags": [
+      "file",
+      "arrow",
+      "out",
+      "export",
+      "right",
+      "move",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Export file"
+    }
+  },
+  "old-icon-set-6-a-r03-c037": {
+    "name": "FileArrowUpRightCornerPlain",
+    "displayName": "File arrow up right corner plain",
+    "description": "Plain rounded rectangle page with a diagonal arrow pointing up right at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "up-right",
+      "open",
+      "external",
+      "export",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open file"
+    }
+  },
+  "old-icon-set-6-a-r03-c038": {
+    "name": "FileArrowBendPlain",
+    "displayName": "File arrow bend plain",
+    "description": "Plain rounded rectangle page with a bold curved arrow bending up to the right.",
+    "tags": [
+      "file",
+      "arrow",
+      "share",
+      "forward",
+      "send",
+      "curved",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Share file"
+    }
+  },
+  "old-icon-set-6-a-r03-c039": {
+    "name": "FilePlusCirclePlain",
+    "displayName": "File plus circle plain",
+    "description": "Plain rounded rectangle page with a plus sign in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "circle",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    }
+  },
+  "old-icon-set-6-a-r03-c040": {
+    "name": "FileMinusCirclePlain",
+    "displayName": "File minus circle plain",
+    "description": "Plain rounded rectangle page with a minus sign in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "circle",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    }
+  },
+  "old-icon-set-6-a-r03-c041": {
+    "name": "FileXCirclePlain",
+    "displayName": "File X circle plain",
+    "description": "Plain rounded rectangle page with an X in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "cancel",
+      "error",
+      "circle",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    }
+  },
+  "old-icon-set-6-a-r03-c042": {
+    "name": "FileCheckCirclePlain",
+    "displayName": "File check circle plain",
+    "description": "Plain rounded rectangle page with a check mark in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "circle",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    }
+  },
+  "old-icon-set-6-a-r03-c043": {
+    "name": "FileWinkPlain",
+    "displayName": "File wink plain",
+    "description": "Plain rounded rectangle page with a winking smiling face.",
+    "tags": [
+      "file",
+      "face",
+      "wink",
+      "smile",
+      "happy",
+      "friendly",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Happy file"
+    }
+  },
+  "old-icon-set-6-a-r03-c044": {
+    "name": "FileUserPlain",
+    "displayName": "File user plain",
+    "description": "Plain rounded rectangle page with a person at the bottom left.",
+    "tags": [
+      "file",
+      "user",
+      "person",
+      "profile",
+      "owner",
+      "account",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User file"
+    }
+  },
+  "old-icon-set-6-a-r03-c045": {
+    "name": "FileUserDoublePlain",
+    "displayName": "File user double plain",
+    "description": "Plain rounded rectangle page with two people at the bottom left.",
+    "tags": [
+      "file",
+      "users",
+      "people",
+      "group",
+      "shared",
+      "team",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Shared file"
+    }
+  },
+  "old-icon-set-6-a-r03-c046": {
+    "name": "FileArrowUturnRightPlain",
+    "displayName": "File arrow uturn right plain",
+    "description": "Plain rounded rectangle page with an arrow curving out to the right at the bottom.",
+    "tags": [
+      "file",
+      "arrow",
+      "uturn",
+      "redirect",
+      "export",
+      "move",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move file"
+    }
+  },
+  "old-icon-set-6-a-r03-c047": {
+    "name": "FileChartBarPlain",
+    "displayName": "File chart bar plain",
+    "description": "Plain rounded rectangle page with three vertical bars of a bar chart.",
+    "tags": [
+      "file",
+      "chart",
+      "bar-chart",
+      "report",
+      "statistics",
+      "analytics",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Report file"
+    }
+  },
+  "old-icon-set-6-a-r03-c048": {
+    "name": "FilePushpinPlain",
+    "displayName": "File pushpin plain",
+    "description": "Plain rounded rectangle page with a pushpin at the bottom left.",
+    "tags": [
+      "file",
+      "pin",
+      "pushpin",
+      "pinned",
+      "attach",
+      "keep",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pinned file"
+    }
+  },
+  "old-icon-set-6-a-r03-c049": {
+    "name": "FileMailPlain",
+    "displayName": "File mail plain",
+    "description": "Plain rounded rectangle page with an envelope at the bottom right.",
+    "tags": [
+      "file",
+      "mail",
+      "envelope",
+      "email",
+      "send",
+      "attachment",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail file"
+    }
+  },
+  "old-icon-set-6-a-r03-c050": {
+    "name": "FileImagePlain",
+    "displayName": "File image plain",
+    "description": "Plain rounded rectangle page with a sun and mountain line touching the edges.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "jpg",
+      "png",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    }
+  },
+  "old-icon-set-6-a-r03-c051": {
+    "name": "FileImageInsetPlain",
+    "displayName": "File image inset plain",
+    "description": "Plain rounded rectangle page with a small sun dot and a mountain line set inside.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "jpg",
+      "inset",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    }
+  },
+  "old-icon-set-6-a-r03-c052": {
+    "name": "FileImageCornerPlain",
+    "displayName": "File image corner plain",
+    "description": "Plain rounded rectangle page with a sun and two mountains sticking out at the bottom left.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "mountains",
+      "corner",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    }
+  },
+  "old-icon-set-6-a-r03-c053": {
+    "name": "FileBanPlain",
+    "displayName": "File ban plain",
+    "description": "Plain rounded rectangle page with a ban circle at the bottom right.",
+    "tags": [
+      "file",
+      "ban",
+      "blocked",
+      "forbidden",
+      "restricted",
+      "denied",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Blocked file"
+    }
+  },
+  "old-icon-set-6-a-r03-c054": {
+    "name": "FileStackOverlapPlain",
+    "displayName": "File stack overlap plain",
+    "description": "Plain rounded rectangle page with a second identical page overlapping it.",
+    "tags": [
+      "file",
+      "copy",
+      "duplicate",
+      "stack",
+      "clone",
+      "files",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Duplicate file"
+    }
+  },
+  "old-icon-set-6-a-r03-c055": {
+    "name": "FileStackPlain",
+    "displayName": "File stack plain",
+    "description": "Plain rounded rectangle page with an L-shaped page edge behind it.",
+    "tags": [
+      "file",
+      "copy",
+      "duplicate",
+      "stack",
+      "files",
+      "pages",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy file"
+    }
+  },
+  "old-icon-set-6-a-r03-c056": {
+    "name": "FileStackLinesPlain",
+    "displayName": "File stack lines plain",
+    "description": "Plain rounded rectangle page with text lines and an L-shaped page edge behind it.",
+    "tags": [
+      "file",
+      "copy",
+      "duplicate",
+      "stack",
+      "text",
+      "documents",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy document"
+    }
+  },
+  "old-icon-set-6-a-r03-c057": {
+    "name": "FileStarPlain",
+    "displayName": "File star plain",
+    "description": "Plain rounded rectangle page with a star at the bottom right.",
+    "tags": [
+      "file",
+      "star",
+      "favorite",
+      "starred",
+      "important",
+      "bookmark",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite file"
+    }
+  },
+  "old-icon-set-6-a-r03-c058": {
+    "name": "FileSettingsPlain",
+    "displayName": "File settings plain",
+    "description": "Plain rounded rectangle page with a gear at the bottom right.",
+    "tags": [
+      "file",
+      "settings",
+      "gear",
+      "config",
+      "preferences",
+      "options",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File settings"
+    }
+  },
+  "old-icon-set-6-a-r03-c059": {
+    "name": "FileFilterPlain",
+    "displayName": "File filter plain",
+    "description": "Plain rounded rectangle page with a funnel at the bottom right.",
+    "tags": [
+      "file",
+      "filter",
+      "funnel",
+      "sort",
+      "refine",
+      "query",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Filter files"
+    }
+  },
+  "old-icon-set-6-a-r03-c060": {
+    "name": "FileSyncPlain",
+    "displayName": "File sync plain",
+    "description": "Plain rounded rectangle page with two curved arrows at the bottom right.",
+    "tags": [
+      "file",
+      "sync",
+      "synchronize",
+      "update",
+      "refresh",
+      "backup",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync file"
+    }
+  },
+  "old-icon-set-6-a-r03-c061": {
+    "name": "FileRefreshPlain",
+    "displayName": "File refresh plain",
+    "description": "Plain rounded rectangle page with one curved arrow at the bottom right.",
+    "tags": [
+      "file",
+      "refresh",
+      "reload",
+      "update",
+      "restore",
+      "history",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Refresh file"
+    }
+  },
+  "old-icon-set-6-a-r03-c062": {
+    "name": "FileEyePlain",
+    "displayName": "File eye plain",
+    "description": "Plain rounded rectangle page with an eye at the bottom right.",
+    "tags": [
+      "file",
+      "eye",
+      "view",
+      "preview",
+      "visible",
+      "watch",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "View file"
+    }
+  },
+  "old-icon-set-6-a-r03-c063": {
+    "name": "FilePaperclipPlain",
+    "displayName": "File paperclip plain",
+    "description": "Plain rounded rectangle page with a diagonal paperclip at the bottom right.",
+    "tags": [
+      "file",
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "document",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached file"
+    }
+  },
+  "old-icon-set-6-a-r03-c064": {
+    "name": "FilePaperclipHorizontalPlain",
+    "displayName": "File paperclip horizontal plain",
+    "description": "Plain rounded rectangle page with a horizontal paperclip at the bottom right.",
+    "tags": [
+      "file",
+      "paperclip",
+      "attachment",
+      "attach",
+      "clip",
+      "horizontal",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached file"
+    }
+  },
+  "old-icon-set-6-a-r03-c065": {
+    "name": "FileStackPaperclipPlain",
+    "displayName": "File stack paperclip plain",
+    "description": "Plain rounded rectangle page with a page edge behind and a paperclip at the bottom right.",
+    "tags": [
+      "file",
+      "paperclip",
+      "attachments",
+      "stack",
+      "files",
+      "attach",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Attached files"
+    }
+  },
+  "old-icon-set-6-a-r03-c066": {
+    "name": "FileWarningPlain",
+    "displayName": "File warning plain",
+    "description": "Plain rounded rectangle page with a warning triangle at the bottom right.",
+    "tags": [
+      "file",
+      "warning",
+      "alert",
+      "error",
+      "caution",
+      "problem",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File warning"
+    }
+  },
+  "old-icon-set-6-a-r03-c067": {
+    "name": "FileTrianglePlain",
+    "displayName": "File triangle plain",
+    "description": "Plain rounded rectangle page with an empty triangle at the bottom right.",
+    "tags": [
+      "file",
+      "triangle",
+      "shape",
+      "vector",
+      "graphic",
+      "design",
+      "plain"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Shape file"
+    }
+  },
+  "old-icon-set-6-a-r04-c001": {
+    "name": "SquareRounded",
+    "displayName": "Square rounded",
+    "description": "Empty rounded square outline.",
+    "tags": [
+      "square",
+      "shape",
+      "box",
+      "frame",
+      "empty",
+      "rounded"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Square"
+    }
+  },
+  "old-icon-set-6-a-r04-c003": {
+    "name": "SquareLinesLeft",
+    "displayName": "Square lines left",
+    "description": "Rounded square with three left-aligned text lines, the last one short.",
+    "tags": [
+      "text",
+      "lines",
+      "paragraph",
+      "note",
+      "align-left",
+      "square"
+    ],
+    "categories": [
+      "files",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text"
+    }
+  },
+  "old-icon-set-6-a-r05-c001": {
+    "name": "CropMarksSquare",
+    "displayName": "Crop marks square",
+    "description": "Rounded square inside four corner crop marks.",
+    "tags": [
+      "crop",
+      "crop-marks",
+      "frame",
+      "focus",
+      "select",
+      "square"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crop frame"
+    }
+  },
+  "old-icon-set-6-a-r05-c002": {
+    "name": "CropMarksTwoLines",
+    "displayName": "Crop marks two lines",
+    "description": "Tall rounded rectangle with two short lines inside four corner crop marks.",
+    "tags": [
+      "crop",
+      "crop-marks",
+      "frame",
+      "focus",
+      "component",
+      "lines"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crop frame"
+    }
+  },
+  "old-icon-set-6-a-r05-c003": {
+    "name": "CropMarksThreeLines",
+    "displayName": "Crop marks three lines",
+    "description": "Tall rounded rectangle with three short lines inside four corner crop marks.",
+    "tags": [
+      "crop",
+      "crop-marks",
+      "frame",
+      "focus",
+      "component",
+      "lines"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Crop frame"
+    }
+  },
+  "old-icon-set-6-a-r05-c005": {
+    "name": "ScanFile",
+    "displayName": "Scan file",
+    "description": "Small file page with a folded corner inside four rounded scan corners.",
+    "tags": [
+      "scan",
+      "file",
+      "document",
+      "scanner",
+      "capture",
+      "ocr"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan file"
+    }
+  },
+  "old-icon-set-6-a-r05-c006": {
+    "name": "ScanFileLarge",
+    "displayName": "Scan file large",
+    "description": "Large file page with a folded corner inside four rounded scan corners.",
+    "tags": [
+      "scan",
+      "file",
+      "document",
+      "scanner",
+      "capture",
+      "ocr"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan file"
+    }
+  },
+  "old-icon-set-6-a-r05-c007": {
+    "name": "ScanFileBeam",
+    "displayName": "Scan file beam",
+    "description": "File page cut by a horizontal scan beam inside four rounded scan corners.",
+    "tags": [
+      "scan",
+      "file",
+      "document",
+      "scanner",
+      "beam",
+      "scanning"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan file"
+    }
+  },
+  "old-icon-set-6-a-r05-c008": {
+    "name": "ScanFileSlot",
+    "displayName": "Scan file slot",
+    "description": "File page with text lines sliding through a horizontal slot above a tray.",
+    "tags": [
+      "scan",
+      "file",
+      "scanner",
+      "printer",
+      "feed",
+      "document"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan file"
+    }
+  },
+  "old-icon-set-6-a-r05-c009": {
+    "name": "ScanFileSlotPlain",
+    "displayName": "Scan file slot plain",
+    "description": "Plain page with text lines sliding through a horizontal slot above a tray.",
+    "tags": [
+      "scan",
+      "page",
+      "scanner",
+      "printer",
+      "feed",
+      "plain"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan page"
+    }
+  },
+  "old-icon-set-6-a-r05-c010": {
+    "name": "FileJoinedArrowDiagonal",
+    "displayName": "File joined arrow diagonal",
+    "description": "File page and square joined into one outline with a diagonal double arrow between them.",
+    "tags": [
+      "file",
+      "convert",
+      "transform",
+      "resize",
+      "merge",
+      "arrow"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Convert file"
+    }
+  },
+  "old-icon-set-6-a-r05-c011": {
+    "name": "FileJoinedDots",
+    "displayName": "File joined dots",
+    "description": "File page and square joined into one outline with two diagonal dots between them.",
+    "tags": [
+      "file",
+      "convert",
+      "merge",
+      "combine",
+      "join",
+      "dots"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Merge files"
+    }
+  },
+  "old-icon-set-6-a-r05-c013": {
+    "name": "FileJoinedArrowDiagonalCut",
+    "displayName": "File joined arrow diagonal cut",
+    "description": "Cut-corner page and square joined into one outline with a diagonal double arrow between them.",
+    "tags": [
+      "file",
+      "convert",
+      "transform",
+      "resize",
+      "arrow",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Convert file"
+    }
+  },
+  "old-icon-set-6-a-r05-c014": {
+    "name": "FileJoinedDotsCut",
+    "displayName": "File joined dots cut",
+    "description": "Cut-corner page and square joined into one outline with two diagonal dots between them.",
+    "tags": [
+      "file",
+      "merge",
+      "combine",
+      "join",
+      "dots",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Merge files"
+    }
+  },
+  "old-icon-set-6-a-r05-c015": {
+    "name": "FileJoinedCodeCut",
+    "displayName": "File joined code cut",
+    "description": "Cut-corner page and square joined into one outline with two chevrons and dots between them.",
+    "tags": [
+      "file",
+      "code",
+      "chevrons",
+      "convert",
+      "development",
+      "cut-corner"
+    ],
+    "categories": [
+      "files",
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code file"
+    }
+  },
+  "old-icon-set-6-a-r05-c016": {
+    "name": "TrayLinesTall",
+    "displayName": "Tray lines tall",
+    "description": "Open tray with four stacked lines rising above its rim.",
+    "tags": [
+      "tray",
+      "inbox",
+      "documents",
+      "stack",
+      "archive",
+      "lines"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Inbox"
+    }
+  },
+  "old-icon-set-6-a-r05-c017": {
+    "name": "TrayLines",
+    "displayName": "Tray lines",
+    "description": "Open tray with three stacked lines inside.",
+    "tags": [
+      "tray",
+      "inbox",
+      "documents",
+      "stack",
+      "archive",
+      "lines"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Inbox"
+    }
+  },
+  "old-icon-set-6-a-r05-c018": {
+    "name": "DownloadTrayStep",
+    "displayName": "Download tray step",
+    "description": "Arrow pointing down into a flat tray with a stepped bottom.",
+    "tags": [
+      "download",
+      "tray",
+      "arrow",
+      "save",
+      "inbox",
+      "receive"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download"
+    }
+  },
+  "old-icon-set-6-a-r05-c019": {
+    "name": "UploadTrayStep",
+    "displayName": "Upload tray step",
+    "description": "Arrow pointing up out of a flat tray with a stepped bottom.",
+    "tags": [
+      "upload",
+      "tray",
+      "arrow",
+      "send",
+      "outbox",
+      "share"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload"
+    }
+  },
+  "old-icon-set-6-a-r05-c020": {
+    "name": "Ear",
+    "displayName": "Ear",
+    "description": "Ear seen from the side.",
+    "tags": [
+      "ear",
+      "hearing",
+      "listen",
+      "audio",
+      "sound",
+      "body"
+    ],
+    "categories": [
+      "accessibility",
+      "health"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ear"
+    }
+  },
+  "old-icon-set-6-a-r05-c021": {
+    "name": "EarRingLeft",
+    "displayName": "Ear ring left",
+    "description": "Ear with two sound arcs in front of it on the left.",
+    "tags": [
+      "ear",
+      "hearing",
+      "listen",
+      "sound",
+      "audio",
+      "waves"
+    ],
+    "categories": [
+      "accessibility",
+      "health"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Listening"
+    }
+  },
+  "old-icon-set-6-a-r05-c022": {
+    "name": "EarRingRight",
+    "displayName": "Ear ring right",
+    "description": "Ear with two sound arcs behind it on the right.",
+    "tags": [
+      "ear",
+      "hearing",
+      "listen",
+      "sound",
+      "audio",
+      "waves"
+    ],
+    "categories": [
+      "accessibility",
+      "health"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Listening"
+    }
+  },
+  "old-icon-set-6-a-r05-c023": {
+    "name": "EarPulse",
+    "displayName": "Ear pulse",
+    "description": "Ear with a zigzag pulse line in front of it.",
+    "tags": [
+      "ear",
+      "hearing",
+      "noise",
+      "tinnitus",
+      "sound",
+      "pulse"
+    ],
+    "categories": [
+      "accessibility",
+      "health"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hearing"
+    }
+  },
+  "old-icon-set-6-a-r05-c024": {
+    "name": "Globe",
+    "displayName": "Globe",
+    "description": "Globe with one meridian and the equator.",
+    "tags": [
+      "globe",
+      "world",
+      "earth",
+      "internet",
+      "web",
+      "language"
+    ],
+    "categories": [
+      "communication",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Globe"
+    }
+  },
+  "old-icon-set-6-a-r05-c025": {
+    "name": "GlobeGrid",
+    "displayName": "Globe grid",
+    "description": "Globe with one meridian and three straight latitude lines.",
+    "tags": [
+      "globe",
+      "world",
+      "earth",
+      "internet",
+      "web",
+      "grid"
+    ],
+    "categories": [
+      "communication",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Globe"
+    }
+  },
+  "old-icon-set-6-a-r05-c026": {
+    "name": "GlobeTilted",
+    "displayName": "Globe tilted",
+    "description": "Tilted globe with one meridian and the equator.",
+    "tags": [
+      "globe",
+      "world",
+      "earth",
+      "internet",
+      "web",
+      "tilted"
+    ],
+    "categories": [
+      "communication",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Globe"
+    }
+  },
+  "old-icon-set-6-a-r05-c027": {
+    "name": "GlobeGridTilted",
+    "displayName": "Globe grid tilted",
+    "description": "Tilted globe with one meridian and three latitude lines.",
+    "tags": [
+      "globe",
+      "world",
+      "earth",
+      "internet",
+      "grid",
+      "tilted"
+    ],
+    "categories": [
+      "communication",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Globe"
+    }
+  },
+  "old-icon-set-6-a-r05-c028": {
+    "name": "GlobeArrowUpRight",
+    "displayName": "Globe arrow up right",
+    "description": "Globe with an arrow pointing up right into a gap at the bottom left.",
+    "tags": [
+      "globe",
+      "world",
+      "arrow",
+      "travel",
+      "go-to-website",
+      "international"
+    ],
+    "categories": [
+      "communication",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Go to website"
+    }
+  },
+  "old-icon-set-6-a-r05-c029": {
+    "name": "GlobeGridArrowUpRight",
+    "displayName": "Globe grid arrow up right",
+    "description": "Gridded globe with an arrow pointing up right into a gap at the bottom left.",
+    "tags": [
+      "globe",
+      "world",
+      "arrow",
+      "grid",
+      "go-to-website",
+      "international"
+    ],
+    "categories": [
+      "communication",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Go to website"
+    }
+  },
+  "old-icon-set-6-a-r05-c030": {
+    "name": "GlobeDots",
+    "displayName": "Globe dots",
+    "description": "Globe with a gap on the right filled by three dots.",
+    "tags": [
+      "globe",
+      "world",
+      "internet",
+      "loading",
+      "connecting",
+      "dots"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Connecting"
+    }
+  },
+  "old-icon-set-6-a-r05-c031": {
+    "name": "GlobeGridDots",
+    "displayName": "Globe grid dots",
+    "description": "Gridded globe with a gap on the right filled by three dots.",
+    "tags": [
+      "globe",
+      "world",
+      "internet",
+      "loading",
+      "grid",
+      "dots"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Connecting"
+    }
+  },
+  "old-icon-set-6-a-r05-c032": {
+    "name": "GlobeGridCurved",
+    "displayName": "Globe grid curved",
+    "description": "Globe with one meridian and curved latitude lines.",
+    "tags": [
+      "globe",
+      "world",
+      "earth",
+      "internet",
+      "grid",
+      "curved"
+    ],
+    "categories": [
+      "communication",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Globe"
+    }
+  },
+  "old-icon-set-6-a-r05-c033": {
+    "name": "GlobeGridCurvedTilted",
+    "displayName": "Globe grid curved tilted",
+    "description": "Tilted globe with curved meridians and latitude lines.",
+    "tags": [
+      "globe",
+      "world",
+      "earth",
+      "internet",
+      "grid",
+      "tilted"
+    ],
+    "categories": [
+      "communication",
+      "location"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Globe"
+    }
+  },
+  "old-icon-set-6-a-r05-c034": {
+    "name": "ScanGlobe",
+    "displayName": "Scan globe",
+    "description": "Globe inside four rounded scan corners.",
+    "tags": [
+      "scan",
+      "globe",
+      "world",
+      "website",
+      "internet",
+      "capture"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan website"
+    }
+  },
+  "old-icon-set-6-a-r05-c035": {
+    "name": "SquareEditX",
+    "displayName": "Square edit X",
+    "description": "Open square with an X inside and a pencil breaking out of the bottom right.",
+    "tags": [
+      "edit",
+      "pencil",
+      "x",
+      "clear",
+      "delete",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Edit"
+    }
+  },
+  "old-icon-set-6-a-r06-c001": {
+    "name": "SquareEditCheck",
+    "displayName": "Square edit check",
+    "description": "Open square with a check mark inside and a pencil breaking out of the bottom right.",
+    "tags": [
+      "edit",
+      "pencil",
+      "check",
+      "approve",
+      "done",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Edit"
+    }
+  },
+  "old-icon-set-6-a-r06-c002": {
+    "name": "SquareEditPlus",
+    "displayName": "Square edit plus",
+    "description": "Open square with a plus sign inside and a pencil breaking out of the bottom right.",
+    "tags": [
+      "edit",
+      "pencil",
+      "plus",
+      "add",
+      "create",
+      "square"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Edit"
+    }
+  },
+  "old-icon-set-6-a-r06-c003": {
+    "name": "SquareEditMinus",
+    "displayName": "Square edit minus",
+    "description": "Open square with a minus sign inside and a pencil breaking out of the bottom right.",
+    "tags": [
+      "edit",
+      "pencil",
+      "minus",
+      "remove",
+      "square",
+      "modify"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Edit"
+    }
+  },
+  "old-icon-set-6-b-r01-c001": {
+    "name": "FileFold",
+    "displayName": "File fold",
+    "description": "File page with a large rounded folded corner with nothing on it.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "blank",
+      "new",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c002": {
+    "name": "FileLinesFold",
+    "displayName": "File lines fold",
+    "description": "File page with a large rounded folded corner with two centered text lines.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "notes",
+      "page",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c004": {
+    "name": "FileLockFold",
+    "displayName": "File lock fold",
+    "description": "File page with a large rounded folded corner with a padlock at the bottom left.",
+    "tags": [
+      "file",
+      "lock",
+      "locked",
+      "secure",
+      "private",
+      "protected",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "security"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c005": {
+    "name": "FilePlusFold",
+    "displayName": "File plus fold",
+    "description": "File page with a large rounded folded corner with a plus sign in the middle.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "document",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c006": {
+    "name": "FileMinusFold",
+    "displayName": "File minus fold",
+    "description": "File page with a large rounded folded corner with a minus sign in the middle.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "document",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c007": {
+    "name": "FileXFold",
+    "displayName": "File X fold",
+    "description": "File page with a large rounded folded corner with an X in the middle.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "close",
+      "cancel",
+      "error",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c008": {
+    "name": "FileCheckFold",
+    "displayName": "File check fold",
+    "description": "File page with a large rounded folded corner with a check mark in the middle.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "complete",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c009": {
+    "name": "FileEditFold",
+    "displayName": "File edit fold",
+    "description": "File page with a large rounded folded corner with a pencil breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "modify",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c010": {
+    "name": "FileEditCornerFold",
+    "displayName": "File edit corner fold",
+    "description": "File page with a large rounded folded corner with a small pencil at the bottom right corner.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "rename",
+      "modify",
+      "corner",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c011": {
+    "name": "FileEditLeftFold",
+    "displayName": "File edit left fold",
+    "description": "File page with a large rounded folded corner with a pencil crossing the bottom left side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "modify",
+      "left",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c012": {
+    "name": "FileLinesEditFold",
+    "displayName": "File lines edit fold",
+    "description": "File page with a large rounded folded corner with text lines and a pencil breaking out of the right side.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "text",
+      "write",
+      "notes",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit document"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c013": {
+    "name": "FileLinesEditCornerFold",
+    "displayName": "File lines edit corner fold",
+    "description": "File page with a large rounded folded corner with text lines and a small pencil at the bottom right corner.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "text",
+      "notes",
+      "corner",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit document"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c014": {
+    "name": "FileSearchFold",
+    "displayName": "File search fold",
+    "description": "File page with a large rounded folded corner with a magnifier at the bottom right.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "find",
+      "lookup",
+      "zoom",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c015": {
+    "name": "FileLinesSearchFold",
+    "displayName": "File lines search fold",
+    "description": "File page with a large rounded folded corner with text lines and a magnifier at the bottom right.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "text",
+      "find",
+      "review",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search document"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c017": {
+    "name": "FileLinesDashedFold",
+    "displayName": "File lines dashed fold",
+    "description": "File page with a large rounded folded corner with text lines broken into short and long dashes.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "list",
+      "data",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c018": {
+    "name": "FileLinesLeftFold",
+    "displayName": "File lines left fold",
+    "description": "File page with a large rounded folded corner with left-aligned text lines of different lengths.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "notes",
+      "paragraph",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c019": {
+    "name": "FilePlusCornerFold",
+    "displayName": "File plus corner fold",
+    "description": "File page with a large rounded folded corner with a plus sign at the bottom right corner.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "corner",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c020": {
+    "name": "FileMinusCornerFold",
+    "displayName": "File minus corner fold",
+    "description": "File page with a large rounded folded corner with a minus sign at the bottom right corner.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "corner",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c021": {
+    "name": "FileXCornerFold",
+    "displayName": "File X corner fold",
+    "description": "File page with a large rounded folded corner with an X at the bottom right corner.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "close",
+      "cancel",
+      "corner",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c022": {
+    "name": "FileCheckCornerFold",
+    "displayName": "File check corner fold",
+    "description": "File page with a large rounded folded corner with a check mark at the bottom right corner.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "corner",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c023": {
+    "name": "FileCastFold",
+    "displayName": "File cast fold",
+    "description": "File page with a large rounded folded corner with cast arcs at the bottom left.",
+    "tags": [
+      "file",
+      "cast",
+      "stream",
+      "broadcast",
+      "wireless",
+      "share",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cast file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c024": {
+    "name": "FileCastCornerFold",
+    "displayName": "File cast corner fold",
+    "description": "File page with a large rounded folded corner with signal arcs at the bottom right corner.",
+    "tags": [
+      "file",
+      "cast",
+      "wireless",
+      "signal",
+      "stream",
+      "corner",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cast file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c025": {
+    "name": "FileStampFold",
+    "displayName": "File stamp fold",
+    "description": "File page with a large rounded folded corner with a rubber stamp at the bottom left.",
+    "tags": [
+      "file",
+      "stamp",
+      "approve",
+      "seal",
+      "certify",
+      "official",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stamped file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c028": {
+    "name": "FileArrowDownCornerFold",
+    "displayName": "File arrow down corner fold",
+    "description": "File page with a large rounded folded corner with an arrow pointing down at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "down",
+      "download",
+      "save",
+      "corner",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c029": {
+    "name": "FileArrowUpCornerFold",
+    "displayName": "File arrow up corner fold",
+    "description": "File page with a large rounded folded corner with an arrow pointing up at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "up",
+      "upload",
+      "send",
+      "corner",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c030": {
+    "name": "FileArrowDownFold",
+    "displayName": "File arrow down fold",
+    "description": "File page with a large rounded folded corner with an arrow pointing down through a gap in the bottom edge.",
+    "tags": [
+      "file",
+      "arrow",
+      "down",
+      "download",
+      "save",
+      "export",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c031": {
+    "name": "FileArrowUpFold",
+    "displayName": "File arrow up fold",
+    "description": "File page with a large rounded folded corner with an arrow pointing up through a gap in the bottom edge.",
+    "tags": [
+      "file",
+      "arrow",
+      "up",
+      "upload",
+      "import",
+      "send",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c032": {
+    "name": "FileArrowInFold",
+    "displayName": "File arrow in fold",
+    "description": "File page with a large rounded folded corner with an arrow entering through a gap in the left side.",
+    "tags": [
+      "file",
+      "arrow",
+      "in",
+      "import",
+      "right",
+      "move",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Import file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c033": {
+    "name": "FileArrowOutFold",
+    "displayName": "File arrow out fold",
+    "description": "File page with a large rounded folded corner with an arrow leaving at the bottom right.",
+    "tags": [
+      "file",
+      "arrow",
+      "out",
+      "export",
+      "right",
+      "move",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Export file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c034": {
+    "name": "FileArrowUpRightCornerFold",
+    "displayName": "File arrow up right corner fold",
+    "description": "File page with a large rounded folded corner with a diagonal arrow pointing up right at the bottom right corner.",
+    "tags": [
+      "file",
+      "arrow",
+      "up-right",
+      "open",
+      "external",
+      "export",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c035": {
+    "name": "FilePlusCircleFold",
+    "displayName": "File plus circle fold",
+    "description": "File page with a large rounded folded corner with a plus sign in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "create",
+      "circle",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c036": {
+    "name": "FileMinusCircleFold",
+    "displayName": "File minus circle fold",
+    "description": "File page with a large rounded folded corner with a minus sign in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "subtract",
+      "circle",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c037": {
+    "name": "FileXCircleFold",
+    "displayName": "File X circle fold",
+    "description": "File page with a large rounded folded corner with an X in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "x",
+      "delete",
+      "cancel",
+      "error",
+      "circle",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c038": {
+    "name": "FileCheckCircleFold",
+    "displayName": "File check circle fold",
+    "description": "File page with a large rounded folded corner with a check mark in a circle at the bottom right.",
+    "tags": [
+      "file",
+      "check",
+      "done",
+      "approved",
+      "verified",
+      "circle",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File done"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c039": {
+    "name": "FileWinkFold",
+    "displayName": "File wink fold",
+    "description": "File page with a large rounded folded corner with a winking smiling face.",
+    "tags": [
+      "file",
+      "face",
+      "wink",
+      "smile",
+      "happy",
+      "friendly",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "social"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Happy file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c040": {
+    "name": "FileUserFold",
+    "displayName": "File user fold",
+    "description": "File page with a large rounded folded corner with a person at the bottom left.",
+    "tags": [
+      "file",
+      "user",
+      "person",
+      "profile",
+      "owner",
+      "account",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "User file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c041": {
+    "name": "FileUserDoubleFold",
+    "displayName": "File user double fold",
+    "description": "File page with a large rounded folded corner with two people at the bottom left.",
+    "tags": [
+      "file",
+      "users",
+      "people",
+      "group",
+      "shared",
+      "team",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "people"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Shared file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c042": {
+    "name": "FileArrowUturnRightFold",
+    "displayName": "File arrow uturn right fold",
+    "description": "File page with a large rounded folded corner with an arrow curving out to the right at the bottom.",
+    "tags": [
+      "file",
+      "arrow",
+      "uturn",
+      "redirect",
+      "export",
+      "move",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Move file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c043": {
+    "name": "FileChartBarFold",
+    "displayName": "File chart bar fold",
+    "description": "File page with a large rounded folded corner with three vertical bars of a bar chart.",
+    "tags": [
+      "file",
+      "chart",
+      "bar-chart",
+      "report",
+      "statistics",
+      "analytics",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Report file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c044": {
+    "name": "FilePushpinFold",
+    "displayName": "File pushpin fold",
+    "description": "File page with a large rounded folded corner with a pushpin at the bottom left.",
+    "tags": [
+      "file",
+      "pin",
+      "pushpin",
+      "pinned",
+      "attach",
+      "keep",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pinned file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c045": {
+    "name": "FileMailFold",
+    "displayName": "File mail fold",
+    "description": "File page with a large rounded folded corner with an envelope at the bottom right.",
+    "tags": [
+      "file",
+      "mail",
+      "envelope",
+      "email",
+      "send",
+      "attachment",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c046": {
+    "name": "FileImageFold",
+    "displayName": "File image fold",
+    "description": "File page with a large rounded folded corner with a sun and mountain line touching the edges.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "jpg",
+      "png",
+      "fold"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c047": {
+    "name": "FileBanFold",
+    "displayName": "File ban fold",
+    "description": "File page with a large rounded folded corner with a ban circle at the bottom right.",
+    "tags": [
+      "file",
+      "ban",
+      "blocked",
+      "forbidden",
+      "restricted",
+      "denied",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Blocked file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c051": {
+    "name": "FileStarFold",
+    "displayName": "File star fold",
+    "description": "File page with a large rounded folded corner with a star at the bottom right.",
+    "tags": [
+      "file",
+      "star",
+      "favorite",
+      "starred",
+      "important",
+      "bookmark",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Favorite file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c052": {
+    "name": "FileSettingsFold",
+    "displayName": "File settings fold",
+    "description": "File page with a large rounded folded corner with a gear at the bottom right.",
+    "tags": [
+      "file",
+      "settings",
+      "gear",
+      "config",
+      "preferences",
+      "options",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File settings"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c053": {
+    "name": "FileFilterFold",
+    "displayName": "File filter fold",
+    "description": "File page with a large rounded folded corner with a funnel at the bottom right.",
+    "tags": [
+      "file",
+      "filter",
+      "funnel",
+      "sort",
+      "refine",
+      "query",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Filter files"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c054": {
+    "name": "FileSyncFold",
+    "displayName": "File sync fold",
+    "description": "File page with a large rounded folded corner with two curved arrows at the bottom right.",
+    "tags": [
+      "file",
+      "sync",
+      "synchronize",
+      "update",
+      "refresh",
+      "backup",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c055": {
+    "name": "FileRefreshFold",
+    "displayName": "File refresh fold",
+    "description": "File page with a large rounded folded corner with one curved arrow at the bottom right.",
+    "tags": [
+      "file",
+      "refresh",
+      "reload",
+      "update",
+      "restore",
+      "history",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Refresh file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-b-r01-c064": {
+    "name": "FileEditCut2",
+    "displayName": "File edit cut 2",
+    "description": "File page with a cut corner and a pencil breaking out of the right side, shifted one unit.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "cut-corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y-6-x573": {
+    "name": "FileImageCornerOpen",
+    "displayName": "File image corner open",
+    "description": "File page with a small folded corner, a sun and an open mountain line sticking out at the bottom left.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "mountain",
+      "corner"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y1209-x426": {
+    "name": "FileStackOpen",
+    "displayName": "File stack open",
+    "description": "Two folded-corner page outlines, one behind the other, open at the bottom.",
+    "tags": [
+      "file",
+      "stack",
+      "copy",
+      "pages",
+      "draft"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Files"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y1249-x462": {
+    "name": "FileFold2",
+    "displayName": "File fold 2",
+    "description": "File page with a large folded corner and tight corners.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "blank",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y1249-x502": {
+    "name": "FileLinesFold2",
+    "displayName": "File lines fold 2",
+    "description": "File page with a large folded corner, tight corners and two text lines.",
+    "tags": [
+      "file",
+      "document",
+      "text",
+      "lines",
+      "fold"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y1603-x-853": {
+    "name": "FileLinesSearch2",
+    "displayName": "File lines search 2",
+    "description": "File page with text lines and a magnifier, tighter corners.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "text",
+      "find"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search document"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y1603-x-893": {
+    "name": "FileSearch2",
+    "displayName": "File search 2",
+    "description": "File page with a magnifier, tighter corners.",
+    "tags": [
+      "file",
+      "search",
+      "magnifier",
+      "find",
+      "lookup"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y1603-x-974": {
+    "name": "FileLinesEdit2",
+    "displayName": "File lines edit 2",
+    "description": "File page with text lines and a pencil, tighter corners.",
+    "tags": [
+      "file",
+      "edit",
+      "pencil",
+      "text",
+      "write"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit document"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y1605-x-694": {
+    "name": "FilePlusCorner2",
+    "displayName": "File plus corner 2",
+    "description": "File page with a plus sign at the bottom right corner, shifted.",
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "new",
+      "corner"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y3-x675": {
+    "name": "FileImageCornerTriangle",
+    "displayName": "File image corner triangle",
+    "description": "File page with a small folded corner, a sun, a triangle and a slanted line sticking out at the bottom left.",
+    "tags": [
+      "file",
+      "image",
+      "picture",
+      "photo",
+      "triangle",
+      "corner"
+    ],
+    "categories": [
+      "files",
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image file"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y590-x406": {
+    "name": "MenuSquareDraft",
+    "displayName": "Menu square draft",
+    "description": "Rounded square with three equal centered lines.",
+    "tags": [
+      "menu",
+      "list",
+      "lines",
+      "square",
+      "hamburger"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Menu"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y590-x450": {
+    "name": "SquareLinesLeft2",
+    "displayName": "Square lines left 2",
+    "description": "Rounded square with three left-aligned text lines, the last one short.",
+    "tags": [
+      "text",
+      "lines",
+      "paragraph",
+      "note",
+      "square"
+    ],
+    "categories": [
+      "files",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y62-x328": {
+    "name": "ImageFramelessDraft",
+    "displayName": "Image frameless draft",
+    "description": "Sun above two mountains with no frame.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "mountains",
+      "landscape"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y63-x108": {
+    "name": "ImageWideDraft",
+    "displayName": "Image wide draft",
+    "description": "Wide picture frame with a small sun and a wavy hill line.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "landscape"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y63-x152": {
+    "name": "ImageInset",
+    "displayName": "Image inset",
+    "description": "Square picture frame with a sun and a zigzag mountain line set inside, not touching the frame.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "mountain",
+      "inset"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y63-x196": {
+    "name": "ImageHillsDraft",
+    "displayName": "Image hills draft",
+    "description": "Square picture frame with a mountain line and no sun.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "landscape"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y63-x20": {
+    "name": "ImageDraft",
+    "displayName": "Image draft",
+    "description": "Square picture frame with a sun and a mountain line touching the sides.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "landscape"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y63-x240": {
+    "name": "ImagePeaksDraft",
+    "displayName": "Image peaks draft",
+    "description": "Square picture frame with a sun and two sharp peaks.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "landscape"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y63-x284": {
+    "name": "ImageSunRightDraft",
+    "displayName": "Image sun right draft",
+    "description": "Square picture frame with a sun on the right and a mountain line.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "landscape"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y63-x372": {
+    "name": "ImageFrameBrokenDraft",
+    "displayName": "Image frame broken draft",
+    "description": "Picture frame open at the bottom with a sun and two mountains.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "landscape"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y63-x416": {
+    "name": "ImageCurveDraft",
+    "displayName": "Image curve draft",
+    "description": "Square picture frame with a sun and one large curve.",
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "gallery",
+      "landscape"
+    ],
+    "categories": [
+      "media",
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Image"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  },
+  "old-icon-set-6-z-y63-x64": {
+    "name": "DocumentDraft",
+    "displayName": "Document draft",
+    "description": "Rectangle page with four equal text lines.",
+    "tags": [
+      "document",
+      "page",
+      "text",
+      "lines",
+      "file"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Document"
+    },
+    "hold": "rascunho (fora da grade principal)"
+  }
+}

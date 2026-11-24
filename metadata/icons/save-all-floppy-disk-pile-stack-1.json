@@ -1,5 +1,5 @@
 {
-  "name": "SaveAllFloppyStack",
+  "name": "SaveStack",
   "description": "A save all icon showing a stack or pile of floppy disks for batch saving",
   "tags": [
     "save",
@@ -12,7 +12,6 @@
     "backup"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save stack",
+  "aliases": [
+    "SaveAllFloppyStack"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

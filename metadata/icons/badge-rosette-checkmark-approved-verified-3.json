@@ -1,20 +1,24 @@
 {
-  "name": "BadgeCheck3",
-  "displayName": "Badge check 3",
+  "name": "BadgeCheckPetal",
+  "displayName": "Badge check petal",
   "originalTitle": "Badge Rosette Checkmark Approved Verified 3",
   "description": "Third variation of verified badge with checkmark for certification display. Used for trust indicators, approval status, or quality marks.",
   "tags": [
     "badge",
-    "verified",
+    "rosette",
     "checkmark",
     "approved",
+    "verified",
+    "done",
+    "success",
     "certified",
     "trust",
-    "quality"
+    "quality",
+    "check",
+    "petal"
   ],
   "categories": [
-    "interface",
-    "business"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.738Z"
+  "generatedAt": "2026-02-15T00:53:19.738Z",
+  "aliases": [
+    "BadgeCheck3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

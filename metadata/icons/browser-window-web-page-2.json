@@ -1,5 +1,5 @@
 {
-  "name": "BrowserWindowWeb2",
+  "name": "BrowserSidebar",
   "description": "A second variant of browser window with web page display and internet content features",
   "tags": [
     "browser",
@@ -8,11 +8,11 @@
     "page",
     "content",
     "internet",
-    "variant"
+    "sidebar"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser sidebar",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z",
+  "aliases": [
+    "BrowserWindowSidebar"
+  ]
 }

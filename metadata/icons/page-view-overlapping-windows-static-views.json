@@ -1,16 +1,22 @@
 {
-  "name": "PageViewOverlappingStatic",
+  "name": "WindowOverlapRightList",
   "description": "A page view icon displaying static overlapping windows, representing a fixed multi-layer window layout.",
   "tags": [
-    "page view",
-    "overlapping windows",
+    "window",
+    "page",
+    "view",
+    "overlapping",
+    "windows",
     "static",
     "views",
+    "page-view",
+    "overlapping-windows",
     "layers",
-    "window management",
+    "window-management",
     "interface"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window overlap right list",
+  "aliases": [
+    "PageViewOverlappingStatic"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

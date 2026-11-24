@@ -1,0 +1,33 @@
+{
+  "name": "LayerStackOpenMinus",
+  "displayName": "Layer stack open minus",
+  "description": "Three open layers with a minus at the bottom right.",
+  "tags": [
+    "layers",
+    "stack",
+    "levels",
+    "design",
+    "remove"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Remove layer"
+  },
+  "filename": "layer-stack-open-minus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

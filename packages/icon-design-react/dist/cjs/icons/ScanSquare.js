@@ -1,0 +1,37 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+
+const ScanSquare = forwardRef(function ScanSquare(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M22 17L22 20C22 21.105 21.105 22 20 22L17 22","key":"0"}),
+    createElement('path', {"d":"M2 7L2 4C2 2.895 2.895 2 4 2L7 2","key":"1"}),
+    createElement('path', {"d":"M17 2L20 2C21.105 2 22 2.895 22 4L22 7","key":"2"}),
+    createElement('path', {"d":"M7 22L4 22C2.895 22 2 21.105 2 20L2 17","key":"3"}),
+    createElement('path', {"d":"M8 8L16 8C16.551 8 17 8.449 17 9L17 15C17 15.551 16.551 16 16 16L8 16C7.449 16 7 15.551 7 15L7 9C7 8.449 7.449 8 8 8Z","key":"4"})
+  );
+});
+
+ScanSquare.displayName = 'ScanSquare';
+
+module.exports = ScanSquare;
+module.exports.ScanSquare = ScanSquare;
+module.exports.default = ScanSquare;

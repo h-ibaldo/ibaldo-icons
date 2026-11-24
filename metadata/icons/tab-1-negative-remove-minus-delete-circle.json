@@ -1,12 +1,13 @@
 {
-  "name": "TabRemoveCircle",
+  "name": "TabMinusCircle",
   "description": "A tab icon with a remove or delete action indicator displayed in a circle",
   "tags": [
     "tab",
+    "negative",
     "remove",
     "delete",
+    "subtract",
     "minus",
-    "negative",
     "circle",
     "close",
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab minus circle",
+  "aliases": [
+    "TabRemoveCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

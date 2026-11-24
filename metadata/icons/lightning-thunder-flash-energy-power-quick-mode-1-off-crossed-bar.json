@@ -1,7 +1,8 @@
 {
-  "name": "LightningQuickModeOff",
+  "name": "BoltOff",
   "description": "A lightning thunder flash energy power quick mode icon with off state crossed bar indicator",
   "tags": [
+    "bolt",
     "lightning",
     "thunder",
     "flash",
@@ -9,13 +10,12 @@
     "power",
     "quick",
     "mode",
-    "off",
     "crossed",
-    "disabled"
+    "bar",
+    "disabled",
+    "mute"
   ],
   "categories": [
-    "interface",
-    "time",
     "devices"
   ],
   "accessibility": {
@@ -33,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bolt off",
+  "aliases": [
+    "LightningQuickModeOff"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,0 +1,36 @@
+{
+  "name": "PlusSquareDot",
+  "displayName": "Plus square dot",
+  "description": "Plus in a rounded square open at the top right, with a small ring in the gap.",
+  "tags": [
+    "plus",
+    "add",
+    "new",
+    "create",
+    "square",
+    "widget",
+    "notification",
+    "dot"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Add"
+  },
+  "filename": "plus-square-dot",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

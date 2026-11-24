@@ -1,14 +1,14 @@
 {
-  "name": "Tab4Close",
+  "name": "TabXStriped",
   "description": "A tab interface icon with an X symbol for closing or removing the tab",
   "tags": [
     "tab",
-    "close",
-    "x",
     "clear",
+    "close",
     "delete",
     "remove",
-    "exit"
+    "exit",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab X striped",
+  "aliases": [
+    "Tab4Close"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

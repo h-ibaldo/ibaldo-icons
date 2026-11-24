@@ -1,14 +1,14 @@
 {
-  "name": "SwitchButtonOn",
+  "name": "SwitchRockerOn",
   "description": "A toggle switch button in the on position, representing an enabled or active state.",
   "tags": [
     "switch",
     "button",
-    "on",
     "toggle",
     "enabled",
     "active",
-    "state"
+    "state",
+    "rocker"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch rocker on",
+  "aliases": [
+    "SwitchButtonOn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

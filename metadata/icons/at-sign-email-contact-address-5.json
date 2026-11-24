@@ -1,17 +1,19 @@
 {
-  "name": "AtSign5",
-  "displayName": "At sign 5",
+  "name": "AtBoxy",
+  "displayName": "At boxy",
   "originalTitle": "At Sign Email Contact Address 5",
   "description": "Standard at symbol representing email addresses and electronic communication. Used for email input fields, contact information, and messaging features.",
   "tags": [
-    "email",
     "at",
+    "sign",
+    "email",
     "contact",
     "address",
     "communication",
     "message",
     "electronic",
-    "mail"
+    "mail",
+    "boxy"
   ],
   "categories": [
     "communication"
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.765Z"
+  "generatedAt": "2026-02-15T00:53:19.765Z",
+  "aliases": [
+    "AtSign5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

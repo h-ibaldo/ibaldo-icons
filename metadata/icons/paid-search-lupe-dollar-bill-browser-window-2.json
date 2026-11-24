@@ -1,21 +1,21 @@
 {
-  "name": "PaidSearchDollarWindow2",
+  "name": "BrowserDollarSearchDots",
   "description": "A variant paid search browser window icon with magnifying glass and dollar bill for digital marketing tracking.",
   "tags": [
+    "browser",
     "paid",
-    "search",
     "lupe",
+    "bill",
+    "window",
+    "search",
     "magnifying",
     "glass",
     "dollar",
-    "bill",
-    "browser",
-    "window",
-    "variant"
+    "dots"
   ],
   "categories": [
-    "business",
-    "devices"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser dollar search dots",
+  "aliases": [
+    "PaidSearchDollarWindow2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

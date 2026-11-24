@@ -1,0 +1,35 @@
+{
+  "name": "FileChartBarCorner",
+  "displayName": "File chart bar corner",
+  "description": "Page with a folded top right corner and three bars breaking its bottom right corner.",
+  "tags": [
+    "file",
+    "document",
+    "page",
+    "chart",
+    "report",
+    "analytics",
+    "stats"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Chart file"
+  },
+  "filename": "file-chart-bar-corner",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

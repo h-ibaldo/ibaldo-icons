@@ -1,16 +1,19 @@
 {
-  "name": "Bookmark3Check",
+  "name": "BookmarkCheckRound",
   "description": "A bookmark icon with a checkmark indicating a checked or verified item",
   "tags": [
     "bookmark",
+    "done",
+    "success",
+    "verified",
     "check",
     "checkmark",
-    "verified",
     "marked",
-    "confirmed"
+    "confirmed",
+    "round"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark check round",
+  "aliases": [
+    "Bookmark3Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

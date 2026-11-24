@@ -1,20 +1,19 @@
 {
-  "name": "QuestionMarkSquareStack1",
+  "name": "QuestionSquareStack",
   "description": "A stacked question mark square icon representing multiple help questions or FAQ items",
   "tags": [
     "question",
     "mark",
-    "square",
     "help",
     "questions",
+    "square",
     "stack",
     "multiple",
-    "FAQ",
+    "faq",
     "layer"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Question square stack",
+  "aliases": [
+    "QuestionMarkSquareStack1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

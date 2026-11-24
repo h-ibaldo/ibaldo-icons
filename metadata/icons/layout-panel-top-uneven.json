@@ -1,0 +1,33 @@
+{
+  "name": "LayoutPanelTopUneven",
+  "displayName": "Layout panel top uneven",
+  "description": "Wide box on top with a wide and a narrow box below.",
+  "tags": [
+    "layout",
+    "grid",
+    "dashboard",
+    "template",
+    "panels"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Layout"
+  },
+  "filename": "layout-panel-top-uneven",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow2InternetExplorer",
-  "displayName": "Application window 2 internet explorer",
+  "name": "WindowLetterEBare",
+  "displayName": "Window letter E bare",
   "originalTitle": "Application Window 2 Internet Explorer",
   "description": "Application window representing Internet Explorer web browser. Used to indicate web browsing applications or legacy browser compatibility.",
   "tags": [
-    "application",
     "window",
-    "browser",
+    "application",
     "internet",
     "explorer",
+    "browser",
     "web",
     "microsoft",
-    "legacy"
+    "legacy",
+    "letter",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.773Z"
+  "generatedAt": "2026-02-15T00:53:19.773Z",
+  "aliases": [
+    "ApplicationWindow2InternetExplorer"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

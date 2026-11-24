@@ -1,19 +1,21 @@
 {
-  "name": "Lock3Keyhole2",
+  "name": "LockKeyholeDotNarrow",
   "description": "A lock icon variant with a keyhole detail, representing key-based security mechanism",
   "tags": [
     "lock",
+    "unread",
+    "badge",
     "keyhole",
     "security",
     "key",
     "access",
     "unlock",
-    "variant",
-    "protection"
+    "protection",
+    "dot",
+    "narrow"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock keyhole dot narrow",
+  "aliases": [
+    "Lock3Keyhole2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

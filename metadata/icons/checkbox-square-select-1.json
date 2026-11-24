@@ -1,17 +1,21 @@
 {
-  "name": "CheckboxSquareSelect1",
-  "displayName": "Checkbox square select 1",
+  "name": "CheckSquareOpenCircle",
+  "displayName": "Check square open circle",
   "originalTitle": "Checkbox Square Select 1",
   "description": "Square checkbox in selected state, first variant. Represents a checked option in multi-selection forms and lists.",
   "tags": [
+    "check",
     "checkbox",
+    "select",
+    "done",
+    "success",
+    "verified",
     "square",
     "selected",
     "checked",
     "form",
     "input",
-    "multi",
-    "select"
+    "multi"
   ],
   "categories": [
     "interface"
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.794Z"
+  "generatedAt": "2026-02-15T00:53:19.794Z",
+  "aliases": [
+    "CheckboxSquareSelect1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

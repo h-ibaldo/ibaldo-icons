@@ -1,19 +1,21 @@
 {
-  "name": "HandTouchTap",
+  "name": "HandTapDouble",
   "description": "A one-finger hand touch gesture performing a single tap interaction",
   "tags": [
     "hand",
     "touch",
+    "one",
+    "finger",
     "tap",
     "gesture",
-    "finger",
     "interaction",
     "mobile",
-    "click"
+    "click",
+    "double"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand tap double",
+  "aliases": [
+    "HandTouchTap"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

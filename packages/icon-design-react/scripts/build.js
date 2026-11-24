@@ -9,174 +9,112 @@ const fs = require('fs');
 const path = require('path');
 
 // Paths
-const PROJECT_ROOT = path.resolve(__dirname, '../../..');
-const SRC_ICONS_DIR = path.join(PROJECT_ROOT, 'src', 'icons', 'raw'); // New icons
-const STATIC_ICONS_DIR = path.join(PROJECT_ROOT, 'static', 'icons'); // Legacy icons
-const OPTIMIZED_ICONS_DIR = path.join(STATIC_ICONS_DIR, 'optimized'); // Processed new icons
 const DIST_DIR = path.resolve(__dirname, '../dist');
 const ESM_DIR = path.join(DIST_DIR, 'esm');
 const CJS_DIR = path.join(DIST_DIR, 'cjs');
 const ESM_ICONS_DIR = path.join(ESM_DIR, 'icons');
 const CJS_ICONS_DIR = path.join(CJS_DIR, 'icons');
 
-// Convert kebab-case to PascalCase for component names
-function toPascalCase(str) {
-  return str
-    .replace(/^[0-9]+[-_]?/, '') // Remove leading numbers
-    .split(/[-_\s]+/)
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-    .join('');
+// Paint attributes set once on the root <svg>. Children must not repeat
+// them, otherwise the `color` and `strokeWidth` props would be ignored.
+const INHERITED_ATTRS = new Set(['fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin']);
+
+const kebabToCamel = (s) => s.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+
+/**
+ * Parse the inside of an <svg> into a tree of { tag, attrs, children }.
+ * Icons only use simple shapes (path, line, circle, g, ...) with no text
+ * content, so a small tag parser is enough.
+ */
+function parseChildren(inner) {
+  const root = { children: [] };
+  const stack = [root];
+  const tagRe = /<(\/?)([a-zA-Z][\w:-]*)([^>]*?)(\/?)>/g;
+  let m;
+  while ((m = tagRe.exec(inner))) {
+    const [, closing, tag, rawAttrs, selfClosing] = m;
+    if (closing) {
+      stack.pop();
+      continue;
+    }
+    const attrs = {};
+    for (const [, name, value] of rawAttrs.matchAll(/([a-zA-Z][\w:-]*)="([^"]*)"/g)) {
+      if (INHERITED_ATTRS.has(name) || name === 'id' || name.startsWith('data-')) continue;
+      attrs[kebabToCamel(name)] = value;
+    }
+    const node = { tag, attrs, children: [] };
+    stack[stack.length - 1].children.push(node);
+    if (!selfClosing) stack.push(node);
+  }
+  return root.children;
 }
 
-// Convert filename to valid component name
-function toComponentName(filename) {
-  const name = filename.replace('.svg', '');
-  let pascalName = toPascalCase(name);
-  
-  // Ensure it starts with a letter (prepend 'Icon' if it starts with number)
-  if (/^[0-9]/.test(pascalName)) {
-    pascalName = 'Icon' + pascalName;
-  }
-  
-  // Handle empty or invalid names
-  if (!pascalName || pascalName.length === 0) {
-    pascalName = 'Icon';
-  }
-  
-  return pascalName;
-}
-
-// Parse SVG and extract inner content and attributes
 function parseSVG(svgContent) {
-  // Remove XML declaration if present
-  svgContent = svgContent.replace(/<\?xml[^>]*\?>/gi, '').trim();
-  
-  // Extract SVG tag attributes
-  const svgMatch = svgContent.match(/<svg([^>]*)>([\s\S]*)<\/svg>/i);
-  if (!svgMatch) {
-    console.warn('Could not parse SVG');
-    return null;
-  }
-  
-  const attributes = svgMatch[1];
-  let innerContent = svgMatch[2].trim();
-  
-  // Extract viewBox
-  const viewBoxMatch = attributes.match(/viewBox=["']([^"']*)["']/i);
-  const viewBox = viewBoxMatch ? viewBoxMatch[1] : '0 0 24 24';
-  
-  // Convert SVG attributes to JSX (camelCase)
-  innerContent = innerContent
-    // Convert stroke-linecap to strokeLinecap
-    .replace(/stroke-linecap=/g, 'strokeLinecap=')
-    // Convert stroke-linejoin to strokeLinejoin  
-    .replace(/stroke-linejoin=/g, 'strokeLinejoin=')
-    // Convert stroke-width to strokeWidth
-    .replace(/stroke-width=/g, 'strokeWidth=')
-    // Convert fill-rule to fillRule
-    .replace(/fill-rule=/g, 'fillRule=')
-    // Convert clip-rule to clipRule
-    .replace(/clip-rule=/g, 'clipRule=')
-    // Convert clip-path to clipPath
-    .replace(/clip-path=/g, 'clipPath=')
-    // Convert data-name to dataName (or remove it)
-    .replace(/\s*data-name="[^"]*"/g, '')
-    // Remove id attributes (they can cause conflicts)
-    .replace(/\s*id="[^"]*"/g, '')
-    // Replace stroke="currentColor" - keep it for color inheritance
-    // Replace fill="none" - keep it
-    // Self-closing tags need to be valid JSX (they already are in SVG)
-    ;
-  
-  return {
-    viewBox,
-    innerContent
-  };
+  const match = svgContent.replace(/<\?xml[^>]*\?>/gi, '').match(/<svg([^>]*)>([\s\S]*)<\/svg>/i);
+  if (!match) return null;
+  const viewBox = (match[1].match(/viewBox=["']([^"']*)["']/i) || [])[1] || '0 0 24 24';
+  return { viewBox, children: parseChildren(match[2]) };
 }
 
-// Generate React component code (ESM)
-function generateESMComponent(componentName, svgData) {
-  return `import { forwardRef } from 'react';
+// Emit plain JavaScript: nested createElement calls, no JSX
+function emitChildren(nodes, indent) {
+  return nodes
+    .map((n, i) => {
+      const props = JSON.stringify({ ...n.attrs, key: String(i) });
+      const kids = n.children.length ? `,\n${emitChildren(n.children, indent + '  ')}` : '';
+      return `${indent}createElement('${n.tag}', ${props}${kids})`;
+    })
+    .join(',\n');
+}
 
-const ${componentName} = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  <svg
-    ref={ref}
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="${svgData.viewBox}"
-    fill="none"
-    stroke={color}
-    strokeWidth={strokeWidth}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className={\`icon-design \${className}\`.trim()}
-    {...props}
-  >
-    ${svgData.innerContent}
-  </svg>
-));
+function componentBody(componentName, svgData) {
+  return `const ${componentName} = forwardRef(function ${componentName}(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '${svgData.viewBox}',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+${emitChildren(svgData.children, '    ')}
+  );
+});
 
 ${componentName}.displayName = '${componentName}';
+`;
+}
 
+function generateESMComponent(componentName, svgData) {
+  return `import { createElement, forwardRef } from 'react';
+
+${componentBody(componentName, svgData)}
 export default ${componentName};
 export { ${componentName} };
 `;
 }
 
-// Generate React component code (CJS)
 function generateCJSComponent(componentName, svgData) {
-  return `"use strict";
+  return `'use strict';
 
-const { forwardRef } = require('react');
+const { createElement, forwardRef } = require('react');
 
-const ${componentName} = forwardRef(({
-  color = 'currentColor',
-  size = 24,
-  strokeWidth = 1.5,
-  className = '',
-  ...props
-}, ref) => (
-  React.createElement('svg', {
-    ref,
-    xmlns: "http://www.w3.org/2000/svg",
-    width: size,
-    height: size,
-    viewBox: "${svgData.viewBox}",
-    fill: "none",
-    stroke: color,
-    strokeWidth,
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    className: \`icon-design \${className}\`.trim(),
-    ...props
-  }, ${generateCJSChildren(svgData.innerContent)})
-));
-
-${componentName}.displayName = '${componentName}';
-
+${componentBody(componentName, svgData)}
 module.exports = ${componentName};
 module.exports.${componentName} = ${componentName};
 module.exports.default = ${componentName};
 `;
-}
-
-// Convert JSX children to React.createElement calls for CJS
-function generateCJSChildren(innerContent) {
-  // For simplicity, we'll use dangerouslySetInnerHTML for CJS
-  // This is a common pattern for icon libraries
-  const escaped = innerContent
-    .replace(/\\/g, '\\\\')
-    .replace(/`/g, '\\`')
-    .replace(/\$/g, '\\$');
-  
-  return `React.createElement('g', { dangerouslySetInnerHTML: { __html: \`${escaped}\` } })`;
 }
 
 // Generate TypeScript declaration
@@ -197,24 +135,6 @@ export { ${componentName} };
 `;
 }
 
-// Recursively get all SVG files
-function getAllSVGFiles(dir, files = []) {
-  const items = fs.readdirSync(dir);
-  
-  for (const item of items) {
-    const fullPath = path.join(dir, item);
-    const stat = fs.statSync(fullPath);
-    
-    if (stat.isDirectory()) {
-      getAllSVGFiles(fullPath, files);
-    } else if (item.endsWith('.svg')) {
-      files.push(fullPath);
-    }
-  }
-  
-  return files;
-}
-
 // Main build function
 async function build() {
   console.log('🎨 Building @icon-design/react...\n');
@@ -228,62 +148,19 @@ async function build() {
   fs.mkdirSync(CJS_ICONS_DIR, { recursive: true });
   fs.mkdirSync(path.join(DIST_DIR, 'icons'), { recursive: true });
 
-  // Get SVG files from multiple sources
-  const svgFiles = [];
-  let srcIconsCount = 0;
-  let optimizedIconsCount = 0;
+  // Names come from metadata/icons/ via the shared module, so the package
+  // uses exactly the same names as the website (see NAMING-GUIDE.md).
+  const { loadIconNames } = require('../../../scripts/utils/icon-names.cjs');
+  const { icons, aliases } = loadIconNames();
+  console.log(`📁 Found ${icons.length} icons in static/icons/optimized/\n`);
 
-  // 1. New icons from src/icons/raw/ (direct source)
-  if (fs.existsSync(SRC_ICONS_DIR)) {
-    const srcIcons = getAllSVGFiles(SRC_ICONS_DIR);
-    svgFiles.push(...srcIcons);
-    srcIconsCount = srcIcons.length;
-    console.log(`📁 Found ${srcIcons.length} icons in src/icons/raw/`);
-  }
-
-  // 2. Processed new icons from static/icons/optimized/
-  if (fs.existsSync(OPTIMIZED_ICONS_DIR)) {
-    const optimizedIcons = getAllSVGFiles(OPTIMIZED_ICONS_DIR);
-    svgFiles.push(...optimizedIcons);
-    optimizedIconsCount = optimizedIcons.length;
-    console.log(`📁 Found ${optimizedIcons.length} icons in static/icons/optimized/`);
-  }
-
-  // 3. Legacy icons from static/icons/ (excluding optimized and test folders)
-  if (fs.existsSync(STATIC_ICONS_DIR)) {
-    const legacyDirs = fs.readdirSync(STATIC_ICONS_DIR)
-      .filter(item => {
-        const fullPath = path.join(STATIC_ICONS_DIR, item);
-        return fs.statSync(fullPath).isDirectory() &&
-               item !== 'optimized' &&
-               !item.startsWith('test-') &&
-               !item.startsWith('.');
-      });
-
-    for (const dir of legacyDirs) {
-      const legacyIcons = getAllSVGFiles(path.join(STATIC_ICONS_DIR, dir));
-      svgFiles.push(...legacyIcons);
-    }
-    console.log(`📁 Found ${svgFiles.length - srcIconsCount - optimizedIconsCount} legacy icons`);
-  }
-
-  console.log(`📁 Total: ${svgFiles.length} SVG files\n`);
-  
   const components = [];
-  const componentNameCounts = {};
-  
-  for (const svgPath of svgFiles) {
+
+  for (const icon of icons) {
+    const svgPath = icon.file;
     const filename = path.basename(svgPath);
-    let componentName = toComponentName(filename);
-    
-    // Handle duplicate component names by adding a suffix
-    if (componentNameCounts[componentName]) {
-      componentNameCounts[componentName]++;
-      componentName = `${componentName}${componentNameCounts[componentName]}`;
-    } else {
-      componentNameCounts[componentName] = 1;
-    }
-    
+    const componentName = icon.name;
+
     // Read and parse SVG
     const svgContent = fs.readFileSync(svgPath, 'utf-8');
     const svgData = parseSVG(svgContent);
@@ -338,11 +215,22 @@ async function build() {
   console.log('📦 Generating index files...\n');
   
   // ESM index
+  // Old names (metadata "aliases") stay exported for one major version,
+  // pointing to the renamed component. See NAMING-GUIDE.md, "Renaming".
+  const built = new Set(components.map(c => c.name));
+  const liveAliases = aliases.filter(a => built.has(a.name));
+  const deprecatedDoc = (a) => `/** @deprecated Renamed to \`${a.name}\`. This old name will be removed in the next major version. */`;
+
   const esmIndex = components
-    .map(c => `export { default as ${c.name}, ${c.name} } from './icons/${c.name}.js';`)
+    .map(c => `export { ${c.name} } from './icons/${c.name}.js';`)
+    .concat(liveAliases.map(a => `export { ${a.name} as ${a.alias} } from './icons/${a.name}.js';`))
     .join('\n');
   
   fs.writeFileSync(path.join(ESM_DIR, 'index.js'), esmIndex);
+
+  // The package itself is CommonJS; mark dist/esm as ES modules so Node
+  // (not only bundlers) can import it.
+  fs.writeFileSync(path.join(ESM_DIR, 'package.json'), JSON.stringify({ type: 'module' }, null, 2) + '\n');
   
   // CJS index
   const cjsIndex = `"use strict";
@@ -351,6 +239,7 @@ ${components.map(c => `const ${c.name} = require('./icons/${c.name}.js');`).join
 
 module.exports = {
 ${components.map(c => `  ${c.name}: ${c.name}.default || ${c.name},`).join('\n')}
+${liveAliases.map(a => `  ${a.alias}: ${a.name}.default || ${a.name},`).join('\n')}
 };
 `;
   
@@ -358,29 +247,30 @@ ${components.map(c => `  ${c.name}: ${c.name}.default || ${c.name},`).join('\n')
   
   // TypeScript index declaration
   const dtsIndex = components
-    .map(c => `export { default as ${c.name}, ${c.name} } from './icons/${c.name}';`)
+    .map(c => `export { ${c.name} } from './icons/${c.name}';`)
+    .concat(liveAliases.map(a => `${deprecatedDoc(a)}\nexport declare const ${a.alias}: typeof import('./icons/${a.name}').${a.name};`))
     .join('\n');
   
   fs.writeFileSync(path.join(DIST_DIR, 'index.d.ts'), dtsIndex);
   
   // Generate icons index declaration
   const iconsDtsIndex = components
-    .map(c => `export { default as ${c.name}, ${c.name} } from './${c.name}';`)
+    .map(c => `export { ${c.name} } from './${c.name}';`)
     .join('\n');
   
   fs.writeFileSync(path.join(dtsIconsDir, 'index.d.ts'), iconsDtsIndex);
   
-  console.log(`✅ Built ${components.length} React components`);
+  console.log(`✅ Built ${components.length} React components (+ ${liveAliases.length} deprecated aliases)`);
   console.log(`   📂 ESM: dist/esm/`);
   console.log(`   📂 CJS: dist/cjs/`);
   console.log(`   📂 Types: dist/*.d.ts\n`);
   
   // Print some example usage
   console.log('📖 Example usage:\n');
-  console.log('   import { UserHead1 } from "@icon-design/react";');
+  console.log('   import { AvatarFaceTopKnot } from "@ibaldo/icons-react";');
   console.log('   // or');
-  console.log('   import UserHead1 from "@icon-design/react/icons/UserHead1";\n');
-  console.log('   <UserHead1 size={32} color="#333" strokeWidth={2} />\n');
+  console.log('   import AvatarFaceTopKnot from "@ibaldo/icons-react/icons/AvatarFaceTopKnot";\n');
+  console.log('   <AvatarFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
 }
 
 build().catch(console.error);

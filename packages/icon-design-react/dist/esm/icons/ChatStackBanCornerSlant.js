@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+
+const ChatStackBanCornerSlant = forwardRef(function ChatStackBanCornerSlant(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M22 14L22 5C22 3.344 20.656 2 19 2L15 2","key":"0"}),
+    createElement('path', {"d":"M2 14L2 15C2 16.656 3.344 18 5 18L7 18L7 22L13 18L15 18C16.656 18 18 16.656 18 15L18 10.234C18 8.863 17.227 7.613 16 7","key":"1"}),
+    createElement('path', {"d":"M12 7C12 9.762 9.762 12 7 12C4.238 12 2 9.762 2 7C2 4.238 4.238 2 7 2C9.762 2 12 4.238 12 7Z","key":"2"}),
+    createElement('path', {"d":"M10.535 3.465L3.465 10.535","key":"3"})
+  );
+});
+
+ChatStackBanCornerSlant.displayName = 'ChatStackBanCornerSlant';
+
+export default ChatStackBanCornerSlant;
+export { ChatStackBanCornerSlant };

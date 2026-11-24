@@ -1,19 +1,18 @@
 {
-  "name": "MobileSocialNetwork",
+  "name": "MobileHeart",
   "description": "A mobile device screen showing social network or social media interface",
   "tags": [
     "mobile",
     "social",
     "network",
-    "social media",
+    "social-media",
     "phone",
     "communication",
-    "app"
+    "app",
+    "heart"
   ],
   "categories": [
-    "communication",
-    "devices",
-    "social"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mobile heart",
+  "aliases": [
+    "MobileSocialNetwork"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

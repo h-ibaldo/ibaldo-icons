@@ -1,19 +1,19 @@
 {
-  "name": "InstallUpdateUp2",
+  "name": "GearUploadAngled",
   "description": "An installation or update icon with a gear and upward arrow indicating upload in variant 2",
   "tags": [
-    "install",
-    "update",
     "gear",
+    "install",
+    "updates",
     "arrow",
     "up",
+    "update",
     "upload",
     "settings",
-    "configuration"
+    "configuration",
+    "angled"
   ],
   "categories": [
-    "interface",
-    "arrows",
     "development"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear upload angled",
+  "aliases": [
+    "InstallUpdateUp2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

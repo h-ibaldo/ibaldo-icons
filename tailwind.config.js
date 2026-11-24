@@ -4,12 +4,24 @@ import typography from '@tailwindcss/typography';
 
 /** @type {import('tailwindcss').Config} */
 export default {
+	darkMode: 'class',
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Geist', 'sans-serif'],
+				sans: ['Pirilampo', 'sans-serif'],
+			},
+            fontSize: {
+                xs: ['0.65rem', { lineHeight: '1rem' }],
+                sm: ['0.8rem', { lineHeight: '1.25rem' }],
+                base: ['1rem', { lineHeight: '1.5rem' }],
+            },
+			fontWeight: {
+				// Pirilampo is variable (300-700): 350 is a "book" weight for large text
+				book: '350',
+				semibold: '500',
+				bold: '600',
 			},
 			colors: {
 				indigo: {

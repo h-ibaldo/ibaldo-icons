@@ -1,0 +1,49 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const WindowSpinnerDots = defineComponent({
+  name: 'WindowSpinnerDots',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M20 22L4 22C2.895 22 2 21.105 2 20L2 4C2 2.895 2.895 2 4 2L20 2C21.105 2 22 2.895 22 4L22 20C22 21.105 21.105 22 20 22Z"}),
+          h('path', {"d":"M2 8L22 8"}),
+          h('path', {"d":"M5 5L5 5"}),
+          h('path', {"d":"M8 5L8 5"}),
+          h('path', {"d":"M11 5L11 5"}),
+          h('path', {"d":"M8 15L8 15"}),
+          h('path', {"d":"M16 15L16 15"}),
+          h('path', {"d":"M12 11L12 11"}),
+          h('path', {"d":"M12 19L12 19"}),
+          h('path', {"d":"M9.172 17.828L9.172 17.828"}),
+          h('path', {"d":"M14.828 12.172L14.828 12.172"}),
+          h('path', {"d":"M9.172 12.172L9.172 12.172"}),
+          h('path', {"d":"M14.828 17.828L14.828 17.828"})
+        ]
+      );
+  }
+});
+
+module.exports = WindowSpinnerDots;
+module.exports.WindowSpinnerDots = WindowSpinnerDots;
+module.exports.default = WindowSpinnerDots;

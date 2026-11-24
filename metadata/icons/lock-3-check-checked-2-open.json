@@ -1,20 +1,22 @@
 {
-  "name": "Lock3Check2Open",
+  "name": "LockOpenCheckCornerNarrow",
   "description": "A lock icon variant with a checkmark and open state, indicating unlocked verified security",
   "tags": [
     "lock",
-    "check",
     "checked",
+    "done",
+    "success",
+    "verified",
+    "check",
     "open",
     "security",
-    "verified",
     "unlock",
-    "variant",
-    "access"
+    "access",
+    "corner",
+    "narrow"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open check corner narrow",
+  "aliases": [
+    "Lock3Check2Open"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

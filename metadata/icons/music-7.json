@@ -1,5 +1,5 @@
 {
-  "name": "Music7",
+  "name": "MusicNoteFlagWaveLarge",
   "description": "A music icon with variant 7 styling for audio and sound representation",
   "tags": [
     "music",
@@ -7,7 +7,9 @@
     "sound",
     "note",
     "track",
-    "variant 7"
+    "flag",
+    "wave",
+    "large"
   ],
   "categories": [
     "media"
@@ -27,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Music note flag wave large",
+  "aliases": [
+    "Music7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

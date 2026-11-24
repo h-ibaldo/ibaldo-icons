@@ -1,17 +1,17 @@
 {
-  "name": "ClockClose",
+  "name": "ClockX",
   "description": "A clock icon with an X or close symbol for dismissing time-related items",
   "tags": [
     "clock",
     "close",
-    "x",
+    "delete",
+    "remove",
     "time",
     "dismiss",
     "cancel"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock X",
+  "aliases": [
+    "ClockClose"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

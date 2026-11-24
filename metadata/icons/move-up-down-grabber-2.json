@@ -1,18 +1,18 @@
 {
-  "name": "MoveUpDown2",
+  "name": "MoveUpDownChevron",
   "description": "A second grabber variant showing vertical movement with alternative visual styling",
   "tags": [
     "move",
+    "grabber",
     "up",
     "down",
-    "grabber",
     "drag",
     "vertical",
     "reorder",
-    "variant"
+    "chevron"
   ],
   "categories": [
-    "interface"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Move up down chevron",
+  "aliases": [
+    "MoveUpDown2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,0 +1,37 @@
+{
+  "name": "CompassMinus",
+  "displayName": "Compass minus",
+  "description": "Diamond compass needle in a circle, with a minus at the top left corner.",
+  "tags": [
+    "compass",
+    "navigation",
+    "direction",
+    "explore",
+    "travel",
+    "orientation",
+    "minus",
+    "remove",
+    "subtract"
+  ],
+  "categories": [
+    "location"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Compass"
+  },
+  "filename": "compass-minus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

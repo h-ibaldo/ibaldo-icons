@@ -1,22 +1,24 @@
 {
-  "name": "User19",
-  "description": "A user person icon variant 19 representing individual profile or account identity",
+  "name": "AvatarFaceTexturedPonytail",
+  "description": "Face with eyes and textured hair on top and a long ponytail.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "people",
-    "avatar",
-    "identity"
+    "person",
+    "face",
+    "hairstyle",
+    "textured-hair",
+    "ponytail",
+    "coily"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-19",
   "technical": {
@@ -29,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, textured ponytail",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceTexturedPonytail"
+  ],
+  "featured": true
 }

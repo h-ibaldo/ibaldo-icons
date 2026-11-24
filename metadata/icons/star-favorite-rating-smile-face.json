@@ -1,5 +1,5 @@
 {
-  "name": "StarSmileFace",
+  "name": "StarHappy",
   "description": "A star with a smiley face icon combining favorite rating with positive feedback",
   "tags": [
     "star",
@@ -12,8 +12,7 @@
     "satisfaction"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Star happy",
+  "aliases": [
+    "StarSmileFace"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

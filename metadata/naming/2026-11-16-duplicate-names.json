@@ -1,0 +1,10 @@
+{
+  "3d-touch": { "name": "ForceTouch", "displayName": "Force touch" },
+  "bookmark-1-one": { "name": "BookmarkNumberOne", "displayName": "Bookmark number one" },
+  "browser-window-web-page-2": { "name": "BrowserWindowSidebar", "displayName": "Browser window sidebar" },
+  "chart-line-increase-1": { "name": "ChartLineRising", "displayName": "Chart line rising" },
+  "chart-line-increase-2": { "name": "ChartLineVolatile", "displayName": "Chart line volatile" },
+  "cloud-3-upload-3": { "name": "Cloud3UploadOpen", "displayName": "Cloud 3 upload open" },
+  "save-search-lupe-2": { "name": "SaveSearchLongHandle", "displayName": "Save search long handle" },
+  "upvote-plus-minus-arrow-up-down": { "name": "VoteArrowsPlusMinus", "displayName": "Vote arrows plus minus" }
+}

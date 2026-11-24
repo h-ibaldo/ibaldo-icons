@@ -1,17 +1,16 @@
 {
-  "name": "DesktopIcons",
+  "name": "ScreenTaskbar",
   "description": "A desktop icons representation showing multiple application or file shortcuts on a computer screen",
   "tags": [
+    "screen",
     "desktop",
     "icons",
     "shortcuts",
     "applications",
     "files",
-    "screen"
+    "taskbar"
   ],
   "categories": [
-    "interface",
-    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screen taskbar",
+  "aliases": [
+    "DesktopIcons"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

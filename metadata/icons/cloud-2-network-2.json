@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Network2",
+  "name": "CloudNetworkDotsTall",
   "description": "A cloud icon with network connections in an alternate style for cloud infrastructure",
   "tags": [
     "cloud",
@@ -8,12 +8,13 @@
     "connectivity",
     "nodes",
     "link",
-    "distributed"
+    "distributed",
+    "dots",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "development",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud network dots tall",
+  "aliases": [
+    "Cloud2Network2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

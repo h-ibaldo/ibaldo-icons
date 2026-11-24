@@ -1,10 +1,14 @@
 {
-  "name": "ApplicationWindowsThemesDotted1",
-  "displayName": "Application windows themes dotted 1",
+  "name": "WindowStackDotted",
+  "displayName": "Window stack dotted",
   "originalTitle": "Application Windows Change Themes Dotted 1",
   "description": "Application theme customization icon showing window appearance options. Represents theme switching, interface customization, or visual preference settings.",
   "tags": [
+    "window",
     "application",
+    "windows",
+    "change",
+    "themes",
     "theme",
     "customization",
     "appearance",
@@ -14,8 +18,8 @@
     "preferences"
   ],
   "categories": [
-    "interface",
-    "development"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.803Z"
+  "generatedAt": "2026-02-15T00:53:19.803Z",
+  "aliases": [
+    "ApplicationWindowsThemesDotted1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

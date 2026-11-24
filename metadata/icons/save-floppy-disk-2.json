@@ -1,16 +1,17 @@
 {
-  "name": "SaveDisk2",
+  "name": "SaveLabel",
   "description": "A variant floppy disk save icon with alternative styling or detail level",
   "tags": [
     "save",
-    "floppy disk",
+    "floppy",
+    "disk",
+    "floppy-disk",
     "storage",
     "backup",
     "data",
-    "variant"
+    "label"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save label",
+  "aliases": [
+    "SaveDisk2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

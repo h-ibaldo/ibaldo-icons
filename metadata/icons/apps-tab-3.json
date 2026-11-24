@@ -1,20 +1,23 @@
 {
-  "name": "AppsTab3",
-  "displayName": "Apps tab 3",
+  "name": "LayerStackOpen",
+  "displayName": "Layer stack open",
   "originalTitle": "Apps Tab 3",
   "description": "Third variation of application tab for multi-section navigation and app organization. Used in complex tabbed interfaces and workspace management.",
   "tags": [
+    "layer",
+    "apps",
     "tab",
     "navigation",
     "interface",
-    "apps",
     "switch",
     "panel",
     "section",
-    "organize"
+    "organize",
+    "stack",
+    "open"
   ],
   "categories": [
-    "interface"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.777Z"
+  "generatedAt": "2026-02-15T00:53:19.777Z",
+  "aliases": [
+    "AppsTab3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

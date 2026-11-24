@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsLinesCircleCheck",
-  "displayName": "Chart vertical columns lines circle check",
+  "name": "ChartBarCircleCheckThin",
+  "displayName": "Chart bar circle check thin",
   "originalTitle": "Chart Vertical Columns Lines Circle Check Checked",
   "description": "Combined column and line chart with check mark showing validated or successful data analysis. Used to represent confirmed analytics results or completed chart processing.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
-    "lines",
+    "checked",
+    "done",
+    "success",
+    "verified",
     "check",
     "validated",
-    "success",
     "analytics",
-    "complete"
+    "complete",
+    "bar"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.756Z"
+  "generatedAt": "2026-02-15T00:53:19.756Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesCircleCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

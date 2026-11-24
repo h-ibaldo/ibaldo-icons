@@ -1,0 +1,40 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const DatabaseRefresh = forwardRef(function DatabaseRefresh(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M2 7C2 4.789 5.582 3 10 3C14.418 3 18 4.789 18 7C18 9.211 14.418 11 10 11C5.582 11 2 9.211 2 7Z","key":"0"}),
+    createElement(Path, {"d":"M18 7L18 11","key":"1"}),
+    createElement(Path, {"d":"M2 17L2 7","key":"2"}),
+    createElement(Path, {"d":"M15.145 13L15.145 16.43L18.57 16.43","key":"3"}),
+    createElement(Path, {"d":"M15.34 16.43C15.809 15.098 17.078 14.145 18.57 14.145C20.465 14.145 22 15.68 22 17.57C22 19.465 20.465 21 18.57 21C17.555 21 16.645 20.559 16.016 19.855","key":"4"}),
+    createElement(Path, {"d":"M12 15.875C11.359 15.957 10.691 16 10 16C5.582 16 2 14.211 2 12","key":"5"}),
+    createElement(Path, {"d":"M12 20.875C11.359 20.957 10.691 21 10 21C5.582 21 2 19.211 2 17","key":"6"})
+  );
+});
+
+DatabaseRefresh.displayName = 'DatabaseRefresh';
+
+module.exports = DatabaseRefresh;
+module.exports.DatabaseRefresh = DatabaseRefresh;
+module.exports.default = DatabaseRefresh;

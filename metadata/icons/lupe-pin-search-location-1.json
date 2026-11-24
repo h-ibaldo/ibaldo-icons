@@ -1,11 +1,11 @@
 {
-  "name": "LupePinLocation",
+  "name": "SearchPin",
   "description": "A search icon combined with a location pin indicating location-based search functionality.",
   "tags": [
-    "lupe",
-    "pin",
     "search",
+    "lupe",
     "location",
+    "pin",
     "find",
     "map",
     "navigate",
@@ -14,9 +14,7 @@
     "geo"
   ],
   "categories": [
-    "interface",
-    "location",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search pin",
+  "aliases": [
+    "LupePinLocation"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,14 +1,17 @@
 {
-  "name": "SwitchPositionOn2",
+  "name": "SwitchDialOnHandle",
   "description": "A two-position switch icon in the on state, variant 2",
   "tags": [
     "switch",
+    "two",
+    "position",
     "two-position",
-    "on",
     "state",
     "toggle",
     "active",
-    "enabled"
+    "enabled",
+    "dial",
+    "handle"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch dial on handle",
+  "aliases": [
+    "SwitchPositionOn2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "CloudView",
+  "name": "CloudEye",
   "description": "A cloud icon with an eye symbol indicating cloud visibility or monitoring",
   "tags": [
     "cloud",
@@ -11,7 +11,7 @@
     "observe"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud eye",
+  "aliases": [
+    "CloudView"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

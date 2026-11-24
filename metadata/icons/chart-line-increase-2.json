@@ -1,6 +1,6 @@
 {
-  "name": "ChartLineIncrease2",
-  "displayName": "Chart line increase 2",
+  "name": "ChartLineUpAxisJagged",
+  "displayName": "Chart line up axis jagged",
   "originalTitle": "Chart Line Increase 2",
   "description": "Alternative upward trending chart showing significant data growth. Used for representing major increases or substantial metric improvements.",
   "tags": [
@@ -11,11 +11,13 @@
     "surge",
     "rising",
     "positive",
-    "gain"
+    "gain",
+    "up",
+    "axis",
+    "jagged"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.752Z"
+  "generatedAt": "2026-02-15T00:53:19.752Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z",
+  "aliases": [
+    "ChartLineVolatile"
+  ]
 }

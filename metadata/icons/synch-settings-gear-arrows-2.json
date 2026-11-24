@@ -1,19 +1,19 @@
 {
-  "name": "SynchSettingsArrows2",
+  "name": "GearSyncLarge",
   "description": "A synchronization and settings icon featuring gear and bidirectional arrows for configuration updates",
   "tags": [
-    "sync",
-    "synch",
-    "synchronize",
-    "settings",
     "gear",
+    "synch",
+    "settings",
     "arrows",
+    "synchronize",
+    "sync",
     "refresh",
     "configuration",
-    "update"
+    "update",
+    "large"
   ],
   "categories": [
-    "interface",
     "development"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear sync large",
+  "aliases": [
+    "SynchSettingsArrows2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

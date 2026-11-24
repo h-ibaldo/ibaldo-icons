@@ -1,18 +1,17 @@
 {
-  "name": "ShoppingBag4",
+  "name": "BagRound",
   "description": "A fourth variant of a shopping bag icon for commercial and retail shopping operations",
   "tags": [
-    "shopping",
     "bag",
+    "shopping",
     "cart",
     "purchase",
     "retail",
     "commerce",
-    "variant4"
+    "round"
   ],
   "categories": [
-    "shopping",
-    "interface"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bag round",
+  "aliases": [
+    "ShoppingBag4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

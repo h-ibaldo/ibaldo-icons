@@ -1,0 +1,5425 @@
+{
+  "bell-1-notification-alarm-alert": {
+    "name": "BellRim",
+    "displayName": "Bell rim",
+    "aliases": [
+      "Bell1"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "reminder",
+      "notify",
+      "sound",
+      "rim"
+    ]
+  },
+  "bell-1-notification-alarm-alert-angle": {
+    "name": "BellTiltedRim",
+    "displayName": "Bell tilted rim",
+    "aliases": [
+      "Bell1Angle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "angle",
+      "tilted",
+      "notify",
+      "message",
+      "rim"
+    ]
+  },
+  "bell-1-notification-alarm-alert-check-checked": {
+    "name": "BellCheckCircleRim",
+    "displayName": "Bell check circle rim",
+    "aliases": [
+      "Bell1Check"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "confirmed",
+      "read",
+      "acknowledged"
+    ]
+  },
+  "bell-1-notification-alarm-alert-clock": {
+    "name": "BellClockRim",
+    "displayName": "Bell clock rim",
+    "aliases": [
+      "Bell1Clock"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "clock",
+      "scheduled",
+      "reminder",
+      "time",
+      "timer",
+      "rim"
+    ]
+  },
+  "bell-1-notification-alarm-alert-red-dot": {
+    "name": "BellDotRim",
+    "displayName": "Bell dot rim",
+    "aliases": [
+      "Bell1Dot"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "unread",
+      "badge",
+      "new",
+      "dot",
+      "activity",
+      "rim"
+    ]
+  },
+  "bell-1-notification-alarm-alert-silent-off-disabled-bar": {
+    "name": "BellOffRim",
+    "displayName": "Bell off rim",
+    "aliases": [
+      "Bell1Silent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disabled",
+      "bar",
+      "mute",
+      "muted",
+      "off",
+      "quiet",
+      "do-not-disturb"
+    ]
+  },
+  "bell-1-notification-alarm-alert-sounding-1": {
+    "name": "BellRingLinesRim",
+    "displayName": "Bell ring lines rim",
+    "aliases": [
+      "Bell1Sounding1"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sounding",
+      "ringing",
+      "active",
+      "waves",
+      "ring",
+      "rim"
+    ]
+  },
+  "bell-1-notification-alarm-alert-x-close-delete-remove-circle": {
+    "name": "BellXCircleRim",
+    "displayName": "Bell X circle rim",
+    "aliases": [
+      "Bell1XCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "clear",
+      "cancel",
+      "circle",
+      "rim"
+    ]
+  },
+  "bell-1-notification-alarm-sounding-alert-2": {
+    "name": "BellRingRim",
+    "displayName": "Bell ring rim",
+    "aliases": [
+      "Bell1Sounding2"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "sounding",
+      "alert",
+      "ringing",
+      "active",
+      "motion",
+      "ring",
+      "rim"
+    ]
+  },
+  "bell-2-notification-alarm-alert": {
+    "name": "Bell",
+    "displayName": "Bell",
+    "aliases": [
+      "Bell2"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "reminder",
+      "notify",
+      "sound",
+      "message"
+    ]
+  },
+  "bell-2-notification-alarm-alert-angle": {
+    "name": "BellTilted",
+    "displayName": "Bell tilted",
+    "aliases": [
+      "Bell2Angle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "angle",
+      "tilted",
+      "notify"
+    ]
+  },
+  "bell-2-notification-alarm-alert-check-checked": {
+    "name": "BellCheck",
+    "displayName": "Bell check",
+    "aliases": [
+      "Bell2Check"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "enabled",
+      "confirmed",
+      "acknowledged"
+    ]
+  },
+  "bell-2-notification-alarm-alert-check-checked-circle": {
+    "name": "BellCheckCircle",
+    "displayName": "Bell check circle",
+    "aliases": [
+      "Bell2CheckCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "confirmed",
+      "acknowledged",
+      "enabled"
+    ]
+  },
+  "bell-2-notification-alarm-alert-circle": {
+    "name": "BellCircle",
+    "displayName": "Bell circle",
+    "aliases": [
+      "Bell2Circle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "circle",
+      "button",
+      "enclosed",
+      "interface"
+    ]
+  },
+  "bell-2-notification-alarm-alert-circle-silent-off-disable-bar": {
+    "name": "BellCircleOff",
+    "displayName": "Bell circle off",
+    "aliases": [
+      "Bell2CircleSilent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disable",
+      "bar",
+      "disabled",
+      "mute",
+      "muted",
+      "off",
+      "quiet"
+    ]
+  },
+  "bell-2-notification-alarm-alert-clock": {
+    "name": "BellClock",
+    "displayName": "Bell clock",
+    "aliases": [
+      "Bell2Clock"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "clock",
+      "scheduled",
+      "timer",
+      "reminder",
+      "time"
+    ]
+  },
+  "bell-2-notification-alarm-alert-exclamation": {
+    "name": "BellAlert",
+    "displayName": "Bell alert",
+    "aliases": [
+      "Bell2Exclamation"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "exclamation",
+      "error",
+      "attention",
+      "urgent",
+      "important",
+      "priority",
+      "warning",
+      "critical",
+      "alert"
+    ]
+  },
+  "bell-2-notification-alarm-alert-octagon": {
+    "name": "BellOctagon",
+    "displayName": "Bell octagon",
+    "aliases": [
+      "Bell2Octagon"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "octagon",
+      "shape",
+      "button",
+      "interface"
+    ]
+  },
+  "bell-2-notification-alarm-alert-octagon-silent-off-disable-bar": {
+    "name": "BellOctagonOff",
+    "displayName": "Bell octagon off",
+    "aliases": [
+      "Bell2OctagonSilent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disable",
+      "bar",
+      "disabled",
+      "mute",
+      "blocked",
+      "octagon",
+      "restricted"
+    ]
+  },
+  "bell-2-notification-alarm-alert-positive-add-plus": {
+    "name": "BellPlus",
+    "displayName": "Bell plus",
+    "aliases": [
+      "Bell2Plus"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "subscribe",
+      "enable"
+    ]
+  },
+  "bell-2-notification-alarm-alert-red-dot": {
+    "name": "BellDot",
+    "displayName": "Bell dot",
+    "aliases": [
+      "Bell2Dot"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "unread",
+      "badge",
+      "new",
+      "dot",
+      "indicator",
+      "count"
+    ]
+  },
+  "bell-2-notification-alarm-alert-silent-off-disabled-bar": {
+    "name": "BellOff",
+    "displayName": "Bell off",
+    "aliases": [
+      "Bell2Silent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disabled",
+      "bar",
+      "mute",
+      "muted",
+      "off",
+      "quiet",
+      "no-sound"
+    ]
+  },
+  "bell-2-notification-alarm-alert-sounding-1": {
+    "name": "BellRingLines",
+    "displayName": "Bell ring lines",
+    "aliases": [
+      "Bell2Sounding1"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sounding",
+      "ringing",
+      "active",
+      "sound",
+      "ring"
+    ]
+  },
+  "bell-2-notification-alarm-alert-square": {
+    "name": "BellSquare",
+    "displayName": "Bell square",
+    "aliases": [
+      "Bell2Square"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "square",
+      "modern",
+      "geometric",
+      "reminder",
+      "notify"
+    ]
+  },
+  "bell-2-notification-alarm-alert-square-red-dot": {
+    "name": "BellSquareDot",
+    "displayName": "Bell square dot",
+    "aliases": [
+      "Bell2SquareDot"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "unread",
+      "badge",
+      "indicator",
+      "new",
+      "count",
+      "square",
+      "dot"
+    ]
+  },
+  "bell-2-notification-alarm-alert-square-silent-off-disable-bar": {
+    "name": "BellSquareOff",
+    "displayName": "Bell square off",
+    "aliases": [
+      "Bell2SquareSilent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disable",
+      "bar",
+      "disabled",
+      "mute",
+      "muted",
+      "square",
+      "off"
+    ]
+  },
+  "bell-2-notification-alarm-alert-x-close-delete-remove": {
+    "name": "BellX",
+    "displayName": "Bell X",
+    "aliases": [
+      "Bell2X"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "clear"
+    ]
+  },
+  "bell-2-notification-alarm-alert-x-close-delete-remove-circle": {
+    "name": "BellXCircle",
+    "displayName": "Bell X circle",
+    "aliases": [
+      "Bell2XCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "clear",
+      "cancel",
+      "circle"
+    ]
+  },
+  "bell-2-notification-alarm-alert-z-": {
+    "name": "BellSnooze",
+    "displayName": "Bell snooze",
+    "aliases": [
+      "Bell2Z"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sleep",
+      "snooze",
+      "pause",
+      "postpone",
+      "quiet",
+      "rest"
+    ]
+  },
+  "bell-2-notification-alarm-sounding-alert-2": {
+    "name": "BellRing",
+    "displayName": "Bell ring",
+    "aliases": [
+      "Bell2Sounding2"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "sounding",
+      "alert",
+      "ringing",
+      "active",
+      "motion",
+      "animated",
+      "ring"
+    ]
+  },
+  "bell-3-notification-alarm-alert": {
+    "name": "BellKnob",
+    "displayName": "Bell knob",
+    "aliases": [
+      "Bell3"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "reminder",
+      "notify",
+      "sound",
+      "message",
+      "knob"
+    ]
+  },
+  "bell-3-notification-alarm-alert-angle": {
+    "name": "BellTiltedKnob",
+    "displayName": "Bell tilted knob",
+    "aliases": [
+      "Bell3Angle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "angle",
+      "angled",
+      "tilted",
+      "perspective",
+      "notify",
+      "knob"
+    ]
+  },
+  "bell-3-notification-alarm-alert-check-checked": {
+    "name": "BellCheckKnob",
+    "displayName": "Bell check knob",
+    "aliases": [
+      "Bell3Check"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "acknowledged",
+      "read",
+      "confirmed"
+    ]
+  },
+  "bell-3-notification-alarm-alert-check-checked-circle": {
+    "name": "BellCheckCircleKnob",
+    "displayName": "Bell check circle knob",
+    "aliases": [
+      "Bell3CheckCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "confirmed",
+      "acknowledged",
+      "read"
+    ]
+  },
+  "bell-3-notification-alarm-alert-clock": {
+    "name": "BellClockKnob",
+    "displayName": "Bell clock knob",
+    "aliases": [
+      "Bell3Clock"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "clock",
+      "scheduled",
+      "timer",
+      "reminder",
+      "time",
+      "knob"
+    ]
+  },
+  "bell-3-notification-alarm-alert-exclamation": {
+    "name": "BellAlertKnob",
+    "displayName": "Bell alert knob",
+    "aliases": [
+      "Bell3Exclamation"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "exclamation",
+      "error",
+      "attention",
+      "urgent",
+      "important",
+      "warning",
+      "priority",
+      "critical",
+      "alert"
+    ]
+  },
+  "bell-3-notification-alarm-alert-positive-add-plus": {
+    "name": "BellPlusKnob",
+    "displayName": "Bell plus knob",
+    "aliases": [
+      "Bell3Plus"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "subscribe",
+      "enable",
+      "knob"
+    ]
+  },
+  "bell-3-notification-alarm-alert-red-dot": {
+    "name": "BellDotKnob",
+    "displayName": "Bell dot knob",
+    "aliases": [
+      "Bell3Dot"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "unread",
+      "badge",
+      "active",
+      "pending",
+      "indicator",
+      "dot",
+      "knob"
+    ]
+  },
+  "bell-3-notification-alarm-alert-silent-off-disabled-bar": {
+    "name": "BellOffKnob",
+    "displayName": "Bell off knob",
+    "aliases": [
+      "Bell3Silent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disabled",
+      "bar",
+      "mute",
+      "muted",
+      "off",
+      "quiet",
+      "blocked"
+    ]
+  },
+  "bell-3-notification-alarm-alert-sounding-1": {
+    "name": "BellRingLinesKnob",
+    "displayName": "Bell ring lines knob",
+    "aliases": [
+      "Bell3Sounding1"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sounding",
+      "ringing",
+      "active",
+      "motion",
+      "animated",
+      "ring",
+      "knob"
+    ]
+  },
+  "bell-3-notification-alarm-alert-x-close-delete-remove": {
+    "name": "BellXKnob",
+    "displayName": "Bell X knob",
+    "aliases": [
+      "Bell3X"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "cancel",
+      "dismiss",
+      "clear",
+      "knob"
+    ]
+  },
+  "bell-3-notification-alarm-alert-x-close-delete-remove-circle": {
+    "name": "BellXCircleKnob",
+    "displayName": "Bell X circle knob",
+    "aliases": [
+      "Bell3XCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "clear",
+      "circle",
+      "knob"
+    ]
+  },
+  "bell-3-notification-alarm-alert-z-": {
+    "name": "BellSnoozeKnob",
+    "displayName": "Bell snooze knob",
+    "aliases": [
+      "Bell3Z"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sleep",
+      "snooze",
+      "quiet",
+      "pause",
+      "rest",
+      "dormant",
+      "knob"
+    ]
+  },
+  "bell-3-notification-alarm-sounding-alert-2": {
+    "name": "BellRingKnob",
+    "displayName": "Bell ring knob",
+    "aliases": [
+      "Bell3Sounding2"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "sounding",
+      "alert",
+      "ringing",
+      "urgent",
+      "active",
+      "priority",
+      "ring",
+      "knob"
+    ]
+  },
+  "bell-4-notification-alarm-alert": {
+    "name": "BellFlat",
+    "displayName": "Bell flat",
+    "aliases": [
+      "Bell4"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "reminder",
+      "notify",
+      "sound",
+      "message",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-alert-angle": {
+    "name": "BellTiltedFlat",
+    "displayName": "Bell tilted flat",
+    "aliases": [
+      "Bell4Angle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "angle",
+      "angled",
+      "tilted",
+      "reminder",
+      "notify",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-alert-check-checked": {
+    "name": "BellCheckFlat",
+    "displayName": "Bell check flat",
+    "aliases": [
+      "Bell4Check"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "acknowledged",
+      "completed",
+      "reviewed",
+      "confirmed"
+    ]
+  },
+  "bell-4-notification-alarm-alert-check-checked-circle": {
+    "name": "BellCheckCircleFlat",
+    "displayName": "Bell check circle flat",
+    "aliases": [
+      "Bell4CheckCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "confirmed",
+      "acknowledged",
+      "read",
+      "processed"
+    ]
+  },
+  "bell-4-notification-alarm-alert-clock": {
+    "name": "BellClockFlat",
+    "displayName": "Bell clock flat",
+    "aliases": [
+      "Bell4Clock"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "scheduled",
+      "timer",
+      "reminder",
+      "appointment",
+      "clock",
+      "time",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-alert-exclamation": {
+    "name": "BellAlertFlat",
+    "displayName": "Bell alert flat",
+    "aliases": [
+      "Bell4Exclamation"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "exclamation",
+      "error",
+      "attention",
+      "urgent",
+      "important",
+      "priority",
+      "warning",
+      "critical",
+      "alert"
+    ]
+  },
+  "bell-4-notification-alarm-alert-positive-add-plus": {
+    "name": "BellPlusFlat",
+    "displayName": "Bell plus flat",
+    "aliases": [
+      "Bell4Plus"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "setup",
+      "enable",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-alert-red-dot": {
+    "name": "BellDotFlat",
+    "displayName": "Bell dot flat",
+    "aliases": [
+      "Bell4Dot"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "unread",
+      "badge",
+      "active",
+      "indicator",
+      "dot",
+      "new",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-alert-silent-off-disabled-bar": {
+    "name": "BellOffFlat",
+    "displayName": "Bell off flat",
+    "aliases": [
+      "Bell4Silent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disabled",
+      "bar",
+      "mute",
+      "muted",
+      "off",
+      "quiet",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-alert-sounding-1": {
+    "name": "BellRingLinesFlat",
+    "displayName": "Bell ring lines flat",
+    "aliases": [
+      "Bell4Sounding1"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sounding",
+      "ringing",
+      "active",
+      "animated",
+      "motion",
+      "ring",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-alert-x-close-delete-remove": {
+    "name": "BellXFlat",
+    "displayName": "Bell X flat",
+    "aliases": [
+      "Bell4X"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "cancel",
+      "dismiss",
+      "clear",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-alert-x-close-delete-remove-circle": {
+    "name": "BellXCircleFlat",
+    "displayName": "Bell X circle flat",
+    "aliases": [
+      "Bell4XCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "clear",
+      "cancel",
+      "circle",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-alert-z-": {
+    "name": "BellSnoozeFlat",
+    "displayName": "Bell snooze flat",
+    "aliases": [
+      "Bell4Z"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sleep",
+      "snooze",
+      "quiet",
+      "pause",
+      "rest",
+      "delay",
+      "flat"
+    ]
+  },
+  "bell-4-notification-alarm-sounding-alert-2": {
+    "name": "BellRingFlat",
+    "displayName": "Bell ring flat",
+    "aliases": [
+      "Bell4Sounding2"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "sounding",
+      "alert",
+      "ringing",
+      "animated",
+      "active",
+      "motion",
+      "ring",
+      "flat"
+    ]
+  },
+  "bell-5-notification-alarm-alert": {
+    "name": "BellDash",
+    "displayName": "Bell dash",
+    "aliases": [
+      "Bell5"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "reminder",
+      "notify",
+      "sound",
+      "standard",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-angle": {
+    "name": "BellTiltedDash",
+    "displayName": "Bell tilted dash",
+    "aliases": [
+      "Bell5Angle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "angle",
+      "angled",
+      "tilted",
+      "distinctive",
+      "emphasis",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-check-checked": {
+    "name": "BellCheckDash",
+    "displayName": "Bell check dash",
+    "aliases": [
+      "Bell5Check"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "enabled",
+      "confirmed",
+      "valid"
+    ]
+  },
+  "bell-5-notification-alarm-alert-check-checked-circle": {
+    "name": "BellCheckCircleDash",
+    "displayName": "Bell check circle dash",
+    "aliases": [
+      "Bell5CheckCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "confirmed",
+      "acknowledged",
+      "enabled"
+    ]
+  },
+  "bell-5-notification-alarm-alert-circle": {
+    "name": "BellCircleDash",
+    "displayName": "Bell circle dash",
+    "aliases": [
+      "Bell5Circle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "circle",
+      "enclosed",
+      "button",
+      "prominent",
+      "interface",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-circle-silent-off-disable-bar": {
+    "name": "BellCircleOffDash",
+    "displayName": "Bell circle off dash",
+    "aliases": [
+      "Bell5CircleSilent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disable",
+      "bar",
+      "disabled",
+      "mute",
+      "muted",
+      "off",
+      "circle"
+    ]
+  },
+  "bell-5-notification-alarm-alert-clock": {
+    "name": "BellClockDash",
+    "displayName": "Bell clock dash",
+    "aliases": [
+      "Bell5Clock"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "clock",
+      "scheduled",
+      "timer",
+      "reminder",
+      "time",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-exclamation": {
+    "name": "BellAlertDash",
+    "displayName": "Bell alert dash",
+    "aliases": [
+      "Bell5Exclamation"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "exclamation",
+      "error",
+      "attention",
+      "urgent",
+      "important",
+      "critical",
+      "priority",
+      "warning",
+      "alert"
+    ]
+  },
+  "bell-5-notification-alarm-alert-octagon": {
+    "name": "BellOctagonDash",
+    "displayName": "Bell octagon dash",
+    "aliases": [
+      "Bell5Octagon"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "octagon",
+      "warning",
+      "important",
+      "critical",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-octagon-silent-off-disable-bar": {
+    "name": "BellOctagonOffDash",
+    "displayName": "Bell octagon off dash",
+    "aliases": [
+      "Bell5OctagonSilent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disable",
+      "bar",
+      "disabled",
+      "mute",
+      "muted",
+      "octagon",
+      "warning"
+    ]
+  },
+  "bell-5-notification-alarm-alert-positive-add-plus": {
+    "name": "BellPlusDash",
+    "displayName": "Bell plus dash",
+    "aliases": [
+      "Bell5Plus"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "subscribe",
+      "enable",
+      "new",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-red-dot": {
+    "name": "BellDotDash",
+    "displayName": "Bell dot dash",
+    "aliases": [
+      "Bell5Dot"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "unread",
+      "badge",
+      "new",
+      "dot",
+      "indicator",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-silent-off-disabled-bar": {
+    "name": "BellOffDash",
+    "displayName": "Bell off dash",
+    "aliases": [
+      "Bell5Silent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disabled",
+      "bar",
+      "mute",
+      "muted",
+      "off",
+      "strike",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-sounding-1": {
+    "name": "BellRingLinesDash",
+    "displayName": "Bell ring lines dash",
+    "aliases": [
+      "Bell5Sounding1"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sounding",
+      "ringing",
+      "active",
+      "waves",
+      "audio",
+      "ring",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-square": {
+    "name": "BellSquareDash",
+    "displayName": "Bell square dash",
+    "aliases": [
+      "Bell5Square"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "square",
+      "reminder",
+      "geometric",
+      "modern",
+      "clean",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-square-red-dot": {
+    "name": "BellSquareDotDash",
+    "displayName": "Bell square dot dash",
+    "aliases": [
+      "Bell5SquareDot"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "unread",
+      "badge",
+      "square",
+      "dot",
+      "new",
+      "indicator",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-square-silent-off-disable-bar": {
+    "name": "BellSquareOffDash",
+    "displayName": "Bell square off dash",
+    "aliases": [
+      "Bell5SquareSilent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disable",
+      "bar",
+      "disabled",
+      "mute",
+      "square",
+      "muted",
+      "off"
+    ]
+  },
+  "bell-5-notification-alarm-alert-x-close-delete-remove": {
+    "name": "BellXDash",
+    "displayName": "Bell X dash",
+    "aliases": [
+      "Bell5X"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "disable",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-x-close-delete-remove-circle": {
+    "name": "BellXCircleDash",
+    "displayName": "Bell X circle dash",
+    "aliases": [
+      "Bell5XCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "unsubscribe",
+      "circle",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-alert-z-": {
+    "name": "BellSnoozeDash",
+    "displayName": "Bell snooze dash",
+    "aliases": [
+      "Bell5Z"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sleep",
+      "snooze",
+      "quiet",
+      "pause",
+      "rest",
+      "zzz",
+      "dash"
+    ]
+  },
+  "bell-5-notification-alarm-sounding-alert-2": {
+    "name": "BellRingDash",
+    "displayName": "Bell ring dash",
+    "aliases": [
+      "Bell5Sounding2"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "sounding",
+      "alert",
+      "ringing",
+      "active",
+      "waves",
+      "loud",
+      "emphasis",
+      "ring",
+      "dash"
+    ]
+  },
+  "bell-6-notification-alarm-alert": {
+    "name": "BellWide",
+    "displayName": "Bell wide",
+    "aliases": [
+      "Bell6"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "reminder",
+      "notify",
+      "message",
+      "sound",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-alert-angle": {
+    "name": "BellTiltedWide",
+    "displayName": "Bell tilted wide",
+    "aliases": [
+      "Bell6Angle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "angle",
+      "angled",
+      "tilted",
+      "dynamic",
+      "modern",
+      "diagonal",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-alert-check-checked": {
+    "name": "BellCheckWide",
+    "displayName": "Bell check wide",
+    "aliases": [
+      "Bell6Check"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "completed",
+      "read",
+      "acknowledged"
+    ]
+  },
+  "bell-6-notification-alarm-alert-check-checked-circle": {
+    "name": "BellCheckCircleWide",
+    "displayName": "Bell check circle wide",
+    "aliases": [
+      "Bell6CheckCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "confirmed",
+      "acknowledged",
+      "complete"
+    ]
+  },
+  "bell-6-notification-alarm-alert-clock": {
+    "name": "BellClockWide",
+    "displayName": "Bell clock wide",
+    "aliases": [
+      "Bell6Clock"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "clock",
+      "scheduled",
+      "reminder",
+      "time",
+      "appointment",
+      "timer",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-alert-exclamation": {
+    "name": "BellAlertWide",
+    "displayName": "Bell alert wide",
+    "aliases": [
+      "Bell6Exclamation"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "exclamation",
+      "error",
+      "attention",
+      "urgent",
+      "important",
+      "warning",
+      "priority",
+      "alert",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-alert-positive-add-plus": {
+    "name": "BellPlusWide",
+    "displayName": "Bell plus wide",
+    "aliases": [
+      "Bell6Plus"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "positive",
+      "add",
+      "create",
+      "enable",
+      "subscribe",
+      "new",
+      "plus",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-alert-red-dot": {
+    "name": "BellDotWide",
+    "displayName": "Bell dot wide",
+    "aliases": [
+      "Bell6Dot"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "unread",
+      "badge",
+      "new",
+      "pending",
+      "indicator",
+      "dot",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-alert-silent-off-disabled-bar": {
+    "name": "BellOffWide",
+    "displayName": "Bell off wide",
+    "aliases": [
+      "Bell6Silent"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "silent",
+      "disabled",
+      "bar",
+      "mute",
+      "muted",
+      "off",
+      "quiet",
+      "blocked"
+    ]
+  },
+  "bell-6-notification-alarm-alert-sounding-1": {
+    "name": "BellRingLinesWide",
+    "displayName": "Bell ring lines wide",
+    "aliases": [
+      "Bell6Sounding1"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sounding",
+      "ringing",
+      "active",
+      "motion",
+      "vibrating",
+      "ring",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-alert-x-close-delete-remove": {
+    "name": "BellXWide",
+    "displayName": "Bell X wide",
+    "aliases": [
+      "Bell6X"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "turn-off",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-alert-x-close-delete-remove-circle": {
+    "name": "BellXCircleWide",
+    "displayName": "Bell X circle wide",
+    "aliases": [
+      "Bell6XCircle"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "clear",
+      "circle",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-alert-z-": {
+    "name": "BellSnoozeWide",
+    "displayName": "Bell snooze wide",
+    "aliases": [
+      "Bell6Z"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "sleep",
+      "quiet",
+      "do-not-disturb",
+      "paused",
+      "snooze",
+      "rest",
+      "wide"
+    ]
+  },
+  "bell-6-notification-alarm-sounding-alert-2": {
+    "name": "BellRingWide",
+    "displayName": "Bell ring wide",
+    "aliases": [
+      "Bell6Sounding2"
+    ],
+    "categories": [
+      "communication",
+      "interface"
+    ],
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "sounding",
+      "alert",
+      "ringing",
+      "active",
+      "motion",
+      "urgent",
+      "vibrating",
+      "ring",
+      "wide"
+    ]
+  },
+  "cloud-1": {
+    "name": "Cloud",
+    "displayName": "Cloud",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "storage",
+      "computing",
+      "network",
+      "data",
+      "weather"
+    ]
+  },
+  "cloud-1-add": {
+    "name": "CloudPlus",
+    "displayName": "Cloud plus",
+    "aliases": [
+      "CloudAdd"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "add",
+      "create",
+      "plus",
+      "upload",
+      "storage"
+    ]
+  },
+  "cloud-1-alert": {
+    "name": "CloudTriangle",
+    "displayName": "Cloud triangle",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "alert",
+      "warning",
+      "caution",
+      "notification",
+      "triangle"
+    ]
+  },
+  "cloud-1-alert-sign": {
+    "name": "CloudWarning",
+    "displayName": "Cloud warning",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "alert",
+      "sign",
+      "warning",
+      "notification"
+    ]
+  },
+  "cloud-1-arrow-right": {
+    "name": "CloudArrowRight",
+    "displayName": "Cloud arrow right",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "right",
+      "upload",
+      "download",
+      "transfer"
+    ]
+  },
+  "cloud-1-arrow-up": {
+    "name": "CloudArrowUp",
+    "displayName": "Cloud arrow up",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "up",
+      "upload",
+      "transfer",
+      "storage"
+    ]
+  },
+  "cloud-1-arrow-up-down": {
+    "name": "CloudArrowUpDown",
+    "displayName": "Cloud arrow up down",
+    "aliases": [
+      "CloudArrowSync"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "up",
+      "down",
+      "sync",
+      "synchronize",
+      "transfer"
+    ]
+  },
+  "cloud-1-bar-slash": {
+    "name": "CloudOff",
+    "displayName": "Cloud off",
+    "aliases": [
+      "Cloud1BarSlash"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "bar",
+      "slash",
+      "disabled",
+      "mute",
+      "blocked",
+      "prohibited",
+      "restricted",
+      "deny",
+      "off"
+    ]
+  },
+  "cloud-1-box": {
+    "name": "CloudSquare",
+    "displayName": "Cloud square",
+    "aliases": [
+      "Cloud1Box"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "box",
+      "storage",
+      "container",
+      "data",
+      "file",
+      "package",
+      "square"
+    ]
+  },
+  "cloud-1-box-arrow-right": {
+    "name": "CloudSquareArrowRight",
+    "displayName": "Cloud square arrow right",
+    "aliases": [
+      "Cloud1BoxArrowRight"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "box",
+      "arrow",
+      "right",
+      "upload",
+      "export",
+      "send",
+      "transfer",
+      "square"
+    ]
+  },
+  "cloud-1-box-transmission": {
+    "name": "CloudSquareSignal",
+    "displayName": "Cloud square signal",
+    "aliases": [
+      "Cloud1BoxTransmission"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "box",
+      "transmission",
+      "sync",
+      "broadcast",
+      "signal",
+      "share",
+      "wireless",
+      "square"
+    ]
+  },
+  "cloud-1-bulb": {
+    "name": "CloudLightbulb",
+    "displayName": "Cloud lightbulb",
+    "aliases": [
+      "Cloud1Bulb"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "bulb",
+      "lightbulb",
+      "idea",
+      "insight",
+      "smart",
+      "innovation",
+      "solution"
+    ]
+  },
+  "cloud-1-check": {
+    "name": "CloudCheckCorner",
+    "displayName": "Cloud check corner",
+    "aliases": [
+      "Cloud1Check"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "validated",
+      "approved",
+      "confirm",
+      "corner"
+    ]
+  },
+  "cloud-1-checked": {
+    "name": "CloudCheck",
+    "displayName": "Cloud check",
+    "aliases": [
+      "Cloud1Checked"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "checkmark",
+      "complete",
+      "accomplished",
+      "finished",
+      "check"
+    ]
+  },
+  "cloud-1-download-1": {
+    "name": "CloudDownload",
+    "displayName": "Cloud download",
+    "aliases": [
+      "Cloud1Download1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "receive",
+      "retrieve",
+      "fetch",
+      "get",
+      "pull"
+    ]
+  },
+  "cloud-1-download-2": {
+    "name": "CloudDownloadLarge",
+    "displayName": "Cloud download large",
+    "aliases": [
+      "Cloud1Download2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "receive",
+      "retrieve",
+      "fetch",
+      "get",
+      "pull",
+      "large"
+    ]
+  },
+  "cloud-1-envelope": {
+    "name": "CloudMail",
+    "displayName": "Cloud mail",
+    "aliases": [
+      "Cloud1Envelope"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "envelope",
+      "email",
+      "message",
+      "mail",
+      "communication",
+      "send",
+      "contact"
+    ]
+  },
+  "cloud-1-exclamation": {
+    "name": "CloudAlert",
+    "displayName": "Cloud alert",
+    "aliases": [
+      "CloudAlert2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "exclamation",
+      "error",
+      "attention",
+      "alert",
+      "warning",
+      "notification"
+    ]
+  },
+  "cloud-1-folder": {
+    "name": "CloudFolder",
+    "displayName": "Cloud folder",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "folder",
+      "storage",
+      "files",
+      "cloud-storage",
+      "directory",
+      "data"
+    ]
+  },
+  "cloud-1-gear-settings": {
+    "name": "CloudSettings",
+    "displayName": "Cloud settings",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "gear",
+      "settings",
+      "configuration",
+      "preferences",
+      "cloud-settings",
+      "admin"
+    ]
+  },
+  "cloud-1-link-1": {
+    "name": "CloudLink",
+    "displayName": "Cloud link",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "link",
+      "sharing",
+      "connection",
+      "url",
+      "hyperlink",
+      "reference"
+    ]
+  },
+  "cloud-1-link-2": {
+    "name": "CloudLinkDiagonal",
+    "displayName": "Cloud link diagonal",
+    "aliases": [
+      "CloudLinkAlt"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "link",
+      "sharing",
+      "connection",
+      "connectivity",
+      "diagonal"
+    ]
+  },
+  "cloud-1-link-3": {
+    "name": "CloudLinkVertical",
+    "displayName": "Cloud link vertical",
+    "aliases": [
+      "CloudLinkVariant"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "link",
+      "sharing",
+      "connection",
+      "style",
+      "option",
+      "vertical"
+    ]
+  },
+  "cloud-1-lock": {
+    "name": "CloudLock",
+    "displayName": "Cloud lock",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "lock",
+      "security",
+      "encryption",
+      "protected",
+      "privacy",
+      "safe"
+    ]
+  },
+  "cloud-1-minus-1": {
+    "name": "CloudMinusCorner",
+    "displayName": "Cloud minus corner",
+    "aliases": [
+      "CloudRemove"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "decrease",
+      "elimination",
+      "corner"
+    ]
+  },
+  "cloud-1-minus-2": {
+    "name": "CloudMinus",
+    "displayName": "Cloud minus",
+    "aliases": [
+      "CloudRemoveAlt"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "remove",
+      "subtract",
+      "minus",
+      "delete"
+    ]
+  },
+  "cloud-1-music-1": {
+    "name": "CloudMusic",
+    "displayName": "Cloud music",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "music",
+      "audio",
+      "sound",
+      "streaming",
+      "media",
+      "entertainment"
+    ]
+  },
+  "cloud-1-music-2": {
+    "name": "CloudMusicDouble",
+    "displayName": "Cloud music double",
+    "aliases": [
+      "CloudMusic2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "music",
+      "audio",
+      "streaming",
+      "storage",
+      "media",
+      "sound",
+      "double"
+    ]
+  },
+  "cloud-1-network-1": {
+    "name": "CloudNetwork",
+    "displayName": "Cloud network",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "network",
+      "connectivity",
+      "internet",
+      "connection",
+      "infrastructure"
+    ]
+  },
+  "cloud-1-network-2": {
+    "name": "CloudNetworkDots",
+    "displayName": "Cloud network dots",
+    "aliases": [
+      "CloudNetworkSecond"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "network",
+      "connectivity",
+      "nodes",
+      "infrastructure",
+      "distributed",
+      "connection",
+      "dots"
+    ]
+  },
+  "cloud-1-network-3": {
+    "name": "CloudNetworkNode",
+    "displayName": "Cloud network node",
+    "aliases": [
+      "CloudNetworkThird"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "network",
+      "data",
+      "routing",
+      "connection",
+      "infrastructure",
+      "service",
+      "node"
+    ]
+  },
+  "cloud-1-positive": {
+    "name": "CloudPlusCorner",
+    "displayName": "Cloud plus corner",
+    "aliases": [
+      "CloudAdd2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "upload",
+      "storage",
+      "corner"
+    ]
+  },
+  "cloud-1-printer": {
+    "name": "CloudPrinter",
+    "displayName": "Cloud printer",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "printer",
+      "print",
+      "network",
+      "device",
+      "output",
+      "connectivity"
+    ]
+  },
+  "cloud-1-receive": {
+    "name": "CloudArrowDown",
+    "displayName": "Cloud arrow down",
+    "aliases": [
+      "CloudReceive"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "receive",
+      "download",
+      "transfer",
+      "storage",
+      "input",
+      "arrow",
+      "down"
+    ]
+  },
+  "cloud-1-refresh-1": {
+    "name": "CloudRefresh",
+    "displayName": "Cloud refresh",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "refresh",
+      "sync",
+      "synchronize",
+      "update",
+      "reload",
+      "storage"
+    ]
+  },
+  "cloud-1-refresh-2": {
+    "name": "CloudRefreshCorner",
+    "displayName": "Cloud refresh corner",
+    "aliases": [
+      "CloudRefreshSecond"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "refresh",
+      "sync",
+      "synchronize",
+      "circular",
+      "update",
+      "reload",
+      "corner"
+    ]
+  },
+  "cloud-1-sad": {
+    "name": "CloudSad",
+    "displayName": "Cloud sad",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "sad",
+      "error",
+      "offline",
+      "failure",
+      "problem",
+      "status"
+    ]
+  },
+  "cloud-1-send": {
+    "name": "CloudSend",
+    "displayName": "Cloud send",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "send",
+      "upload",
+      "share",
+      "transmission",
+      "file",
+      "network",
+      "data",
+      "storage"
+    ]
+  },
+  "cloud-1-slash": {
+    "name": "CloudBan",
+    "displayName": "Cloud ban",
+    "aliases": [
+      "CloudSlash"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "slash",
+      "forbidden",
+      "blocked",
+      "offline",
+      "unavailable",
+      "disabled",
+      "no",
+      "disconnect",
+      "error",
+      "ban"
+    ]
+  },
+  "cloud-1-smile": {
+    "name": "CloudHappy",
+    "displayName": "Cloud happy",
+    "aliases": [
+      "CloudSmile"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "smile",
+      "happy",
+      "positive",
+      "status",
+      "satisfied",
+      "success",
+      "feedback",
+      "mood"
+    ]
+  },
+  "cloud-1-synchronize-1": {
+    "name": "CloudSync",
+    "displayName": "Cloud sync",
+    "aliases": [
+      "CloudSynchronize1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "synchronize",
+      "sync",
+      "refresh",
+      "update",
+      "bidirectional",
+      "arrow",
+      "data",
+      "network"
+    ]
+  },
+  "cloud-1-synchronize-2": {
+    "name": "CloudSyncCorner",
+    "displayName": "Cloud sync corner",
+    "aliases": [
+      "CloudSynchronize2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "synchronize",
+      "sync",
+      "refresh",
+      "update",
+      "bidirectional",
+      "arrow",
+      "data",
+      "network",
+      "corner"
+    ]
+  },
+  "cloud-1-transfer": {
+    "name": "CloudTransfer",
+    "displayName": "Cloud transfer",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "transfer",
+      "move",
+      "exchange",
+      "swap",
+      "bidirectional",
+      "file",
+      "data",
+      "network"
+    ]
+  },
+  "cloud-1-unlock": {
+    "name": "CloudUnlock",
+    "displayName": "Cloud unlock",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "unlock",
+      "security",
+      "access",
+      "authentication",
+      "password",
+      "secure",
+      "open",
+      "permission"
+    ]
+  },
+  "cloud-1-upload-1": {
+    "name": "CloudUpload",
+    "displayName": "Cloud upload",
+    "aliases": [
+      "CloudUpload1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "send",
+      "transfer",
+      "arrow",
+      "file",
+      "data",
+      "network",
+      "storage"
+    ]
+  },
+  "cloud-1-upload-2": {
+    "name": "CloudUploadLarge",
+    "displayName": "Cloud upload large",
+    "aliases": [
+      "CloudUpload2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "send",
+      "transfer",
+      "arrow",
+      "file",
+      "data",
+      "network",
+      "storage",
+      "large"
+    ]
+  },
+  "cloud-1-upload-3": {
+    "name": "CloudUploadBase",
+    "displayName": "Cloud upload base",
+    "aliases": [
+      "CloudUpload3"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "send",
+      "transfer",
+      "arrow",
+      "file",
+      "data",
+      "network",
+      "storage",
+      "base"
+    ]
+  },
+  "cloud-1-view-eye": {
+    "name": "CloudEye",
+    "displayName": "Cloud eye",
+    "aliases": [
+      "CloudView"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "view",
+      "eye",
+      "watch",
+      "monitor",
+      "visibility",
+      "observe"
+    ]
+  },
+  "cloud-1-x-1": {
+    "name": "CloudXCorner",
+    "displayName": "Cloud X corner",
+    "aliases": [
+      "CloudClose1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "corner"
+    ]
+  },
+  "cloud-1-x-2": {
+    "name": "CloudX",
+    "displayName": "Cloud X",
+    "aliases": [
+      "CloudClose2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "close",
+      "delete",
+      "remove",
+      "dismiss"
+    ]
+  },
+  "cloud-2": {
+    "name": "CloudTall",
+    "displayName": "Cloud tall",
+    "aliases": [
+      "Cloud2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "storage",
+      "service",
+      "weather",
+      "sky",
+      "tall"
+    ]
+  },
+  "cloud-2-add": {
+    "name": "CloudPlusTall",
+    "displayName": "Cloud plus tall",
+    "aliases": [
+      "CloudAdd3"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "add",
+      "create",
+      "plus",
+      "upload",
+      "new",
+      "storage",
+      "tall"
+    ]
+  },
+  "cloud-2-alert": {
+    "name": "CloudTriangleTall",
+    "displayName": "Cloud triangle tall",
+    "aliases": [
+      "CloudAlert4"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "alert",
+      "warning",
+      "notification",
+      "error",
+      "attention",
+      "caution",
+      "triangle",
+      "tall"
+    ]
+  },
+  "cloud-2-alert-sign": {
+    "name": "CloudWarningTall",
+    "displayName": "Cloud warning tall",
+    "aliases": [
+      "CloudAlert3"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "alert",
+      "sign",
+      "warning",
+      "notification",
+      "caution",
+      "issue",
+      "tall"
+    ]
+  },
+  "cloud-2-arrow-right-in": {
+    "name": "CloudArrowRightTall",
+    "displayName": "Cloud arrow right tall",
+    "aliases": [
+      "CloudArrowRight2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "right",
+      "download",
+      "transfer",
+      "import",
+      "tall"
+    ]
+  },
+  "cloud-2-arrow-transfer": {
+    "name": "CloudTransferTall",
+    "displayName": "Cloud transfer tall",
+    "aliases": [
+      "CloudArrowTransfer"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "transfer",
+      "sync",
+      "exchange",
+      "bidirectional",
+      "data",
+      "tall"
+    ]
+  },
+  "cloud-2-arrow-up": {
+    "name": "CloudArrowUpTall",
+    "displayName": "Cloud arrow up tall",
+    "aliases": [
+      "Cloud2Upload"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "up",
+      "sync",
+      "transfer",
+      "storage",
+      "tall"
+    ]
+  },
+  "cloud-2-arrow-up-down": {
+    "name": "CloudArrowUpDownTall",
+    "displayName": "Cloud arrow up down tall",
+    "aliases": [
+      "CloudArrowVertical"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "up",
+      "down",
+      "upload",
+      "download",
+      "sync",
+      "vertical",
+      "tall"
+    ]
+  },
+  "cloud-2-bar-slash": {
+    "name": "CloudOffTall",
+    "displayName": "Cloud off tall",
+    "aliases": [
+      "Cloud2Restricted"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "bar",
+      "slash",
+      "disabled",
+      "mute",
+      "restricted",
+      "blocked",
+      "deny",
+      "unavailable",
+      "off",
+      "tall"
+    ]
+  },
+  "cloud-2-box-arrow-right": {
+    "name": "CloudSquareArrowRightTall",
+    "displayName": "Cloud square arrow right tall",
+    "aliases": [
+      "Cloud2BoxRight"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "box",
+      "arrow",
+      "right",
+      "export",
+      "send",
+      "transfer",
+      "square",
+      "tall"
+    ]
+  },
+  "cloud-2-box-square": {
+    "name": "CloudSquareTall",
+    "displayName": "Cloud square tall",
+    "aliases": [
+      "Cloud2Box"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "box",
+      "square",
+      "storage",
+      "container",
+      "backup",
+      "save",
+      "tall"
+    ]
+  },
+  "cloud-2-box-transmission": {
+    "name": "CloudSquareSignalTall",
+    "displayName": "Cloud square signal tall",
+    "aliases": [
+      "Cloud2Transmission"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "box",
+      "transmission",
+      "network",
+      "connectivity",
+      "broadcast",
+      "signal",
+      "communication",
+      "square",
+      "tall"
+    ]
+  },
+  "cloud-2-bulb": {
+    "name": "CloudLightbulbTall",
+    "displayName": "Cloud lightbulb tall",
+    "aliases": [
+      "Cloud2Lightbulb"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "bulb",
+      "lightbulb",
+      "idea",
+      "innovation",
+      "smart",
+      "intelligence",
+      "tall"
+    ]
+  },
+  "cloud-2-check": {
+    "name": "CloudCheckCornerTall",
+    "displayName": "Cloud check corner tall",
+    "aliases": [
+      "Cloud2Check"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "complete",
+      "confirmed",
+      "corner",
+      "tall"
+    ]
+  },
+  "cloud-2-checked": {
+    "name": "CloudCheckTall",
+    "displayName": "Cloud check tall",
+    "aliases": [
+      "Cloud2Checked"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "completed",
+      "selected",
+      "approved",
+      "tall"
+    ]
+  },
+  "cloud-2-download-1": {
+    "name": "CloudDownloadTall",
+    "displayName": "Cloud download tall",
+    "aliases": [
+      "Cloud2Download"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "down",
+      "retrieve",
+      "save",
+      "transfer",
+      "tall"
+    ]
+  },
+  "cloud-2-download-2": {
+    "name": "CloudDownloadLargeTall",
+    "displayName": "Cloud download large tall",
+    "aliases": [
+      "Cloud2DownloadAlt"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "down",
+      "retrieve",
+      "large",
+      "tall"
+    ]
+  },
+  "cloud-2-envelope": {
+    "name": "CloudMailTall",
+    "displayName": "Cloud mail tall",
+    "aliases": [
+      "Cloud2Envelope"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "envelope",
+      "email",
+      "message",
+      "storage",
+      "communication",
+      "mail",
+      "tall"
+    ]
+  },
+  "cloud-2-exclamation": {
+    "name": "CloudAlertTall",
+    "displayName": "Cloud alert tall",
+    "aliases": [
+      "Cloud2Exclamation"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "exclamation",
+      "error",
+      "attention",
+      "alert",
+      "warning",
+      "notification",
+      "caution",
+      "tall"
+    ]
+  },
+  "cloud-2-folder": {
+    "name": "CloudFolderTall",
+    "displayName": "Cloud folder tall",
+    "aliases": [
+      "Cloud2Folder"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "folder",
+      "storage",
+      "files",
+      "document",
+      "directory",
+      "backup",
+      "tall"
+    ]
+  },
+  "cloud-2-forbidden": {
+    "name": "CloudBanTall",
+    "displayName": "Cloud ban tall",
+    "aliases": [
+      "Cloud2Forbidden"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "forbidden",
+      "blocked",
+      "restricted",
+      "denied",
+      "prohibition",
+      "access",
+      "ban",
+      "tall"
+    ]
+  },
+  "cloud-2-gear": {
+    "name": "CloudSettingsTall",
+    "displayName": "Cloud settings tall",
+    "aliases": [
+      "Cloud2Gear"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "gear",
+      "settings",
+      "configuration",
+      "management",
+      "admin",
+      "tools",
+      "tall"
+    ]
+  },
+  "cloud-2-happy": {
+    "name": "CloudHappyTall",
+    "displayName": "Cloud happy tall",
+    "aliases": [
+      "Cloud2Happy"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "happy",
+      "smile",
+      "face",
+      "positive",
+      "success",
+      "satisfied",
+      "tall"
+    ]
+  },
+  "cloud-2-link-A": {
+    "name": "CloudLinkTall",
+    "displayName": "Cloud link tall",
+    "aliases": [
+      "Cloud2LinkA"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "link",
+      "chain",
+      "connection",
+      "connectivity",
+      "sharing",
+      "integration",
+      "tall"
+    ]
+  },
+  "cloud-2-link-B": {
+    "name": "CloudLinkDiagonalTall",
+    "displayName": "Cloud link diagonal tall",
+    "aliases": [
+      "Cloud2LinkB"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "link",
+      "chain",
+      "connection",
+      "connectivity",
+      "sharing",
+      "integration",
+      "diagonal",
+      "tall"
+    ]
+  },
+  "cloud-2-link-C": {
+    "name": "CloudLinkVerticalTall",
+    "displayName": "Cloud link vertical tall",
+    "aliases": [
+      "Cloud2LinkC"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "link",
+      "chain",
+      "connection",
+      "connectivity",
+      "sharing",
+      "integration",
+      "vertical",
+      "tall"
+    ]
+  },
+  "cloud-2-lock": {
+    "name": "CloudLockTall",
+    "displayName": "Cloud lock tall",
+    "aliases": [
+      "Cloud2Lock"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "lock",
+      "security",
+      "encryption",
+      "secure",
+      "protected",
+      "privacy",
+      "tall"
+    ]
+  },
+  "cloud-2-minus-1": {
+    "name": "CloudMinusCornerTall",
+    "displayName": "Cloud minus corner tall",
+    "aliases": [
+      "Cloud2Minus1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "storage",
+      "decrease",
+      "corner",
+      "tall"
+    ]
+  },
+  "cloud-2-minus-2": {
+    "name": "CloudMinusTall",
+    "displayName": "Cloud minus tall",
+    "aliases": [
+      "Cloud2Minus2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "storage",
+      "decrease",
+      "tall"
+    ]
+  },
+  "cloud-2-music-1": {
+    "name": "CloudMusicTall",
+    "displayName": "Cloud music tall",
+    "aliases": [
+      "Cloud2Music1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "music",
+      "audio",
+      "streaming",
+      "media",
+      "song",
+      "sound",
+      "tall"
+    ]
+  },
+  "cloud-2-music-2": {
+    "name": "CloudMusicDoubleTall",
+    "displayName": "Cloud music double tall",
+    "aliases": [
+      "Cloud2Music2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "music",
+      "audio",
+      "streaming",
+      "media",
+      "song",
+      "sound",
+      "double",
+      "tall"
+    ]
+  },
+  "cloud-2-network-1": {
+    "name": "CloudNetworkTall",
+    "displayName": "Cloud network tall",
+    "aliases": [
+      "Cloud2Network1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "network",
+      "connection",
+      "connectivity",
+      "nodes",
+      "link",
+      "distributed",
+      "tall"
+    ]
+  },
+  "cloud-2-network-2": {
+    "name": "CloudNetworkDotsTall",
+    "displayName": "Cloud network dots tall",
+    "aliases": [
+      "Cloud2Network2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "network",
+      "connection",
+      "connectivity",
+      "nodes",
+      "link",
+      "distributed",
+      "dots",
+      "tall"
+    ]
+  },
+  "cloud-2-network-3": {
+    "name": "CloudNetworkNodeTall",
+    "displayName": "Cloud network node tall",
+    "aliases": [
+      "Cloud2Network3"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "network",
+      "connection",
+      "connectivity",
+      "nodes",
+      "link",
+      "distributed",
+      "node",
+      "tall"
+    ]
+  },
+  "cloud-2-plus": {
+    "name": "CloudPlusCornerTall",
+    "displayName": "Cloud plus corner tall",
+    "aliases": [
+      "Cloud2Plus"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "add",
+      "create",
+      "plus",
+      "upload",
+      "storage",
+      "increase",
+      "expand",
+      "corner",
+      "tall"
+    ]
+  },
+  "cloud-2-printer": {
+    "name": "CloudPrinterTall",
+    "displayName": "Cloud printer tall",
+    "aliases": [
+      "Cloud2Printer"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "printer",
+      "print",
+      "device",
+      "printing",
+      "output",
+      "service",
+      "tall"
+    ]
+  },
+  "cloud-2-receive": {
+    "name": "CloudArrowDownTall",
+    "displayName": "Cloud arrow down tall",
+    "aliases": [
+      "Cloud2Receive"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "receive",
+      "download",
+      "transfer",
+      "arrow",
+      "incoming",
+      "down",
+      "tall"
+    ]
+  },
+  "cloud-2-refresh-1": {
+    "name": "CloudRefreshTall",
+    "displayName": "Cloud refresh tall",
+    "aliases": [
+      "Cloud2Refresh1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "refresh",
+      "reload",
+      "sync",
+      "update",
+      "data",
+      "storage",
+      "tall"
+    ]
+  },
+  "cloud-2-refresh-2": {
+    "name": "CloudRefreshCornerTall",
+    "displayName": "Cloud refresh corner tall",
+    "aliases": [
+      "Cloud2Refresh2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "refresh",
+      "reload",
+      "sync",
+      "update",
+      "data",
+      "storage",
+      "corner",
+      "tall"
+    ]
+  },
+  "cloud-2-sad": {
+    "name": "CloudSadTall",
+    "displayName": "Cloud sad tall",
+    "aliases": [
+      "Cloud2Sad"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "sad",
+      "error",
+      "offline",
+      "down",
+      "unhappy",
+      "failure",
+      "status",
+      "tall"
+    ]
+  },
+  "cloud-2-send": {
+    "name": "CloudSendTall",
+    "displayName": "Cloud send tall",
+    "aliases": [
+      "Cloud2Send"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "send",
+      "share",
+      "transmit",
+      "communication",
+      "data",
+      "export",
+      "tall"
+    ]
+  },
+  "cloud-2-synchronize-1": {
+    "name": "CloudSyncTall",
+    "displayName": "Cloud sync tall",
+    "aliases": [
+      "Cloud2Synchronize1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "synchronize",
+      "sync",
+      "backup",
+      "update",
+      "data",
+      "storage",
+      "tall"
+    ]
+  },
+  "cloud-2-synchronize-2": {
+    "name": "CloudSyncCornerTall",
+    "displayName": "Cloud sync corner tall",
+    "aliases": [
+      "Cloud2Synchronize2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "synchronize",
+      "sync",
+      "backup",
+      "update",
+      "data",
+      "storage",
+      "corner",
+      "tall"
+    ]
+  },
+  "cloud-2-unlock": {
+    "name": "CloudUnlockTall",
+    "displayName": "Cloud unlock tall",
+    "aliases": [
+      "Cloud2Unlock"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "unlock",
+      "security",
+      "access",
+      "authentication",
+      "lock",
+      "open",
+      "tall"
+    ]
+  },
+  "cloud-2-upload-1": {
+    "name": "CloudUploadBaseTall",
+    "displayName": "Cloud upload base tall",
+    "aliases": [
+      "Cloud2Upload1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "data",
+      "storage",
+      "transfer",
+      "file",
+      "base",
+      "tall"
+    ]
+  },
+  "cloud-2-upload-2": {
+    "name": "CloudUploadTall",
+    "displayName": "Cloud upload tall",
+    "aliases": [
+      "Cloud2Upload2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "data",
+      "storage",
+      "transfer",
+      "file",
+      "tall"
+    ]
+  },
+  "cloud-2-upload-3": {
+    "name": "CloudUploadLargeTall",
+    "displayName": "Cloud upload large tall",
+    "aliases": [
+      "Cloud2Upload3"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "data",
+      "storage",
+      "transfer",
+      "file",
+      "large",
+      "tall"
+    ]
+  },
+  "cloud-2-view": {
+    "name": "CloudEyeTall",
+    "displayName": "Cloud eye tall",
+    "aliases": [
+      "Cloud2View"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "view",
+      "eye",
+      "visibility",
+      "monitor",
+      "watch",
+      "observe",
+      "tall"
+    ]
+  },
+  "cloud-2-x-1": {
+    "name": "CloudXCornerTall",
+    "displayName": "Cloud X corner tall",
+    "aliases": [
+      "Cloud2Close"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "exit",
+      "corner",
+      "tall"
+    ]
+  },
+  "cloud-2-x-2": {
+    "name": "CloudXTall",
+    "displayName": "Cloud X tall",
+    "aliases": [
+      "Cloud2CloseAlt"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "exit",
+      "tall"
+    ]
+  },
+  "cloud-3": {
+    "name": "CloudRound",
+    "displayName": "Cloud round",
+    "aliases": [
+      "Cloud3"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "storage",
+      "weather",
+      "sky",
+      "data",
+      "backup",
+      "round"
+    ]
+  },
+  "cloud-3-arrow-down": {
+    "name": "CloudArrowDownRound",
+    "displayName": "Cloud arrow down round",
+    "aliases": [
+      "Cloud3Download"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "down",
+      "download",
+      "receive",
+      "import",
+      "round"
+    ]
+  },
+  "cloud-3-arrow-right": {
+    "name": "CloudArrowRightRound",
+    "displayName": "Cloud arrow right round",
+    "aliases": [
+      "Cloud3Upload"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "right",
+      "upload",
+      "send",
+      "export",
+      "round"
+    ]
+  },
+  "cloud-3-arrow-up": {
+    "name": "CloudArrowUpRound",
+    "displayName": "Cloud arrow up round",
+    "aliases": [
+      "Cloud3UploadAlt"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "up",
+      "upload",
+      "send",
+      "export",
+      "transfer",
+      "round"
+    ]
+  },
+  "cloud-3-arrow-up-down": {
+    "name": "CloudArrowUpDownRound",
+    "displayName": "Cloud arrow up down round",
+    "aliases": [
+      "Cloud3Sync"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "arrow",
+      "up",
+      "down",
+      "sync",
+      "synchronize",
+      "bidirectional",
+      "round"
+    ]
+  },
+  "cloud-3-box": {
+    "name": "CloudSquareRound",
+    "displayName": "Cloud square round",
+    "aliases": [
+      "Cloud3Box"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "box",
+      "storage",
+      "container",
+      "data",
+      "upload",
+      "save",
+      "square",
+      "round"
+    ]
+  },
+  "cloud-3-box-arrow-right": {
+    "name": "CloudSquareArrowRightRound",
+    "displayName": "Cloud square arrow right round",
+    "aliases": [
+      "Cloud3BoxUpload"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "box",
+      "arrow",
+      "right",
+      "upload",
+      "send",
+      "package",
+      "transmission",
+      "square",
+      "round"
+    ]
+  },
+  "cloud-3-box-transmission": {
+    "name": "CloudSquareSignalRound",
+    "displayName": "Cloud square signal round",
+    "aliases": [
+      "Cloud3BoxTransmit"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "box",
+      "transmission",
+      "transfer",
+      "send",
+      "network",
+      "data",
+      "square",
+      "signal",
+      "round"
+    ]
+  },
+  "cloud-3-bulb": {
+    "name": "CloudLightbulbRound",
+    "displayName": "Cloud lightbulb round",
+    "aliases": [
+      "Cloud3Bulb"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "bulb",
+      "idea",
+      "innovation",
+      "intelligence",
+      "smart",
+      "inspiration",
+      "lightbulb",
+      "round"
+    ]
+  },
+  "cloud-3-check": {
+    "name": "CloudCheckCornerRound",
+    "displayName": "Cloud check corner round",
+    "aliases": [
+      "Cloud3Check"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "verify",
+      "confirmed",
+      "approved",
+      "corner",
+      "round"
+    ]
+  },
+  "cloud-3-checked": {
+    "name": "CloudCheckRound",
+    "displayName": "Cloud check round",
+    "aliases": [
+      "Cloud3Checked"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "checked",
+      "done",
+      "success",
+      "verified",
+      "checkmark",
+      "complete",
+      "status",
+      "check",
+      "round"
+    ]
+  },
+  "cloud-3-download-1": {
+    "name": "CloudDownloadRound",
+    "displayName": "Cloud download round",
+    "aliases": [
+      "Cloud3Download2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "retrieve",
+      "fetch",
+      "transfer",
+      "file",
+      "round"
+    ]
+  },
+  "cloud-3-download-2": {
+    "name": "CloudDownloadLargeRound",
+    "displayName": "Cloud download large round",
+    "aliases": [
+      "Cloud3DownloadAlt"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "retrieve",
+      "fetch",
+      "transfer",
+      "file",
+      "alternative",
+      "large",
+      "round"
+    ]
+  },
+  "cloud-3-envelope": {
+    "name": "CloudMailRound",
+    "displayName": "Cloud mail round",
+    "aliases": [
+      "Cloud3Envelope"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "envelope",
+      "email",
+      "message",
+      "communication",
+      "mail",
+      "contact",
+      "round"
+    ]
+  },
+  "cloud-3-exclamation": {
+    "name": "CloudAlertRound",
+    "displayName": "Cloud alert round",
+    "aliases": [
+      "Cloud3Exclamation"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "exclamation",
+      "error",
+      "attention",
+      "alert",
+      "warning",
+      "notification",
+      "important",
+      "round"
+    ]
+  },
+  "cloud-3-folder": {
+    "name": "CloudFolderRound",
+    "displayName": "Cloud folder round",
+    "aliases": [
+      "Cloud3Folder"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "folder",
+      "file",
+      "directory",
+      "storage",
+      "organization",
+      "documents",
+      "round"
+    ]
+  },
+  "cloud-3-gear-1": {
+    "name": "CloudSettingsRound",
+    "displayName": "Cloud settings round",
+    "aliases": [
+      "Cloud3Gear"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "gear",
+      "settings",
+      "configuration",
+      "management",
+      "control",
+      "options",
+      "round"
+    ]
+  },
+  "cloud-3-happy": {
+    "name": "CloudHappyRound",
+    "displayName": "Cloud happy round",
+    "aliases": [
+      "Cloud3Happy"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "happy",
+      "smile",
+      "face",
+      "positive",
+      "cheerful",
+      "storage",
+      "emotion",
+      "round"
+    ]
+  },
+  "cloud-3-link-1": {
+    "name": "CloudLinkRound",
+    "displayName": "Cloud link round",
+    "aliases": [
+      "Cloud3Link1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "link",
+      "connect",
+      "share",
+      "chain",
+      "connectivity",
+      "cloud-link",
+      "connection",
+      "round"
+    ]
+  },
+  "cloud-3-link-2": {
+    "name": "CloudLinkDiagonalRound",
+    "displayName": "Cloud link diagonal round",
+    "aliases": [
+      "Cloud3Link2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "link",
+      "connect",
+      "share",
+      "chain",
+      "connectivity",
+      "network",
+      "diagonal",
+      "round"
+    ]
+  },
+  "cloud-3-link-3": {
+    "name": "CloudLinkVerticalRound",
+    "displayName": "Cloud link vertical round",
+    "aliases": [
+      "Cloud3Link3"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "link",
+      "network",
+      "connect",
+      "integrate",
+      "chain",
+      "connectivity",
+      "vertical",
+      "round"
+    ]
+  },
+  "cloud-3-lock": {
+    "name": "CloudLockRound",
+    "displayName": "Cloud lock round",
+    "aliases": [
+      "Cloud3Lock"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "lock",
+      "secure",
+      "security",
+      "encryption",
+      "protected",
+      "privacy",
+      "safety",
+      "round"
+    ]
+  },
+  "cloud-3-minus-1": {
+    "name": "CloudMinusRound",
+    "displayName": "Cloud minus round",
+    "aliases": [
+      "Cloud3Minus1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "decrease",
+      "reduce",
+      "negative",
+      "round"
+    ]
+  },
+  "cloud-3-minus-2": {
+    "name": "CloudMinusCornerRound",
+    "displayName": "Cloud minus corner round",
+    "aliases": [
+      "Cloud3Minus29"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "remove",
+      "subtract",
+      "minus",
+      "delete",
+      "decrease",
+      "reduce",
+      "corner",
+      "round"
+    ]
+  },
+  "cloud-3-music-1": {
+    "name": "CloudMusicRound",
+    "displayName": "Cloud music round",
+    "aliases": [
+      "Cloud3Music1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "music",
+      "audio",
+      "note",
+      "streaming",
+      "media",
+      "sound",
+      "entertainment",
+      "round"
+    ]
+  },
+  "cloud-3-music-2": {
+    "name": "CloudMusicDoubleRound",
+    "displayName": "Cloud music double round",
+    "aliases": [
+      "Cloud3Music2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "music",
+      "audio",
+      "note",
+      "streaming",
+      "media",
+      "sound",
+      "double",
+      "round"
+    ]
+  },
+  "cloud-3-network-1": {
+    "name": "CloudNetworkRound",
+    "displayName": "Cloud network round",
+    "aliases": [
+      "Cloud3Network1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "network",
+      "connect",
+      "node",
+      "infrastructure",
+      "distributed",
+      "system",
+      "topology",
+      "round"
+    ]
+  },
+  "cloud-3-network-2": {
+    "name": "CloudNetworkDotsRound",
+    "displayName": "Cloud network dots round",
+    "aliases": [
+      "Cloud3Network"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "network",
+      "connectivity",
+      "internet",
+      "distributed",
+      "cloud-computing",
+      "connection",
+      "dots",
+      "round"
+    ]
+  },
+  "cloud-3-network-3": {
+    "name": "CloudNetworkNodeRound",
+    "displayName": "Cloud network node round",
+    "aliases": [
+      "Cloud3NetworkMulti"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "network",
+      "multi-network",
+      "connectivity",
+      "infrastructure",
+      "distributed",
+      "connections",
+      "node",
+      "round"
+    ]
+  },
+  "cloud-3-plus-1": {
+    "name": "CloudPlusRound",
+    "displayName": "Cloud plus round",
+    "aliases": [
+      "Cloud3Plus"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "add",
+      "create",
+      "plus",
+      "expand",
+      "storage",
+      "upload",
+      "round"
+    ]
+  },
+  "cloud-3-plus-2": {
+    "name": "CloudPlusCornerRound",
+    "displayName": "Cloud plus corner round",
+    "aliases": [
+      "Cloud3PlusAlt"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "add",
+      "create",
+      "plus",
+      "expand",
+      "capacity",
+      "storage",
+      "corner",
+      "round"
+    ]
+  },
+  "cloud-3-printer": {
+    "name": "CloudPrinterRound",
+    "displayName": "Cloud printer round",
+    "aliases": [
+      "Cloud3Printer"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "printer",
+      "print",
+      "printing",
+      "cloud-print",
+      "remote",
+      "device",
+      "round"
+    ]
+  },
+  "cloud-3-refresh-1": {
+    "name": "CloudRefreshRound",
+    "displayName": "Cloud refresh round",
+    "aliases": [
+      "Cloud3Refresh"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "refresh",
+      "sync",
+      "synchronization",
+      "update",
+      "reload",
+      "restore",
+      "round"
+    ]
+  },
+  "cloud-3-refresh-2": {
+    "name": "CloudRefreshCornerRound",
+    "displayName": "Cloud refresh corner round",
+    "aliases": [
+      "Cloud3RefreshAlt"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "refresh",
+      "sync",
+      "synchronize",
+      "update",
+      "reload",
+      "restore",
+      "corner",
+      "round"
+    ]
+  },
+  "cloud-3-sad": {
+    "name": "CloudSadRound",
+    "displayName": "Cloud sad round",
+    "aliases": [
+      "Cloud3Sad"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "sad",
+      "error",
+      "failed",
+      "failure",
+      "offline",
+      "disconnected",
+      "round"
+    ]
+  },
+  "cloud-3-send": {
+    "name": "CloudSendRound",
+    "displayName": "Cloud send round",
+    "aliases": [
+      "Cloud3Send"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "send",
+      "upload",
+      "share",
+      "transfer",
+      "export",
+      "submit",
+      "round"
+    ]
+  },
+  "cloud-3-slash-1": {
+    "name": "CloudBanRound",
+    "displayName": "Cloud ban round",
+    "aliases": [
+      "Cloud3Slash"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "slash",
+      "forbidden",
+      "blocked",
+      "disabled",
+      "unavailable",
+      "offline",
+      "restricted",
+      "ban",
+      "round"
+    ]
+  },
+  "cloud-3-slash-2": {
+    "name": "CloudOffRound",
+    "displayName": "Cloud off round",
+    "aliases": [
+      "Cloud3Slash2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "slash",
+      "disabled",
+      "mute",
+      "blocked",
+      "unavailable",
+      "offline",
+      "error",
+      "prohibited",
+      "off",
+      "round"
+    ]
+  },
+  "cloud-3-synchronize-1": {
+    "name": "CloudSyncRound",
+    "displayName": "Cloud sync round",
+    "aliases": [
+      "Cloud3Sync2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "synchronize",
+      "sync",
+      "refresh",
+      "update",
+      "realtime",
+      "transfer",
+      "data",
+      "round"
+    ]
+  },
+  "cloud-3-synchronize-2": {
+    "name": "CloudSyncCornerRound",
+    "displayName": "Cloud sync corner round",
+    "aliases": [
+      "Cloud3SyncAlt"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "synchronize",
+      "sync",
+      "refresh",
+      "update",
+      "transfer",
+      "corner",
+      "round"
+    ]
+  },
+  "cloud-3-transfer": {
+    "name": "CloudTransferRound",
+    "displayName": "Cloud transfer round",
+    "aliases": [
+      "Cloud3Transfer"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "transfer",
+      "exchange",
+      "bidirectional",
+      "arrows",
+      "sync",
+      "data",
+      "movement",
+      "round"
+    ]
+  },
+  "cloud-3-unlock": {
+    "name": "CloudUnlockRound",
+    "displayName": "Cloud unlock round",
+    "aliases": [
+      "Cloud3Unlock"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "unlock",
+      "security",
+      "unsecured",
+      "access",
+      "open",
+      "protection",
+      "lock",
+      "round"
+    ]
+  },
+  "cloud-3-upload-1": {
+    "name": "CloudUploadBaseRound",
+    "displayName": "Cloud upload base round",
+    "aliases": [
+      "Cloud3Upload3"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "transfer",
+      "send",
+      "file",
+      "data",
+      "storage",
+      "base",
+      "round"
+    ]
+  },
+  "cloud-3-upload-2": {
+    "name": "CloudUploadRound",
+    "displayName": "Cloud upload round",
+    "aliases": [
+      "Cloud3UploadAlt2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "transfer",
+      "file",
+      "data",
+      "round"
+    ]
+  },
+  "cloud-3-upload-3": {
+    "name": "CloudUploadLargeRound",
+    "displayName": "Cloud upload large round",
+    "aliases": [
+      "Cloud3UploadOpen"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "second",
+      "transfer",
+      "file",
+      "large",
+      "round"
+    ]
+  },
+  "cloud-3-view-eye": {
+    "name": "CloudEyeRound",
+    "displayName": "Cloud eye round",
+    "aliases": [
+      "Cloud3View"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "view",
+      "eye",
+      "see",
+      "access",
+      "visibility",
+      "preview",
+      "observe",
+      "round"
+    ]
+  },
+  "cloud-3-warning-1": {
+    "name": "CloudTriangleRound",
+    "displayName": "Cloud triangle round",
+    "aliases": [
+      "Cloud3Warning"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "warning",
+      "alert",
+      "caution",
+      "issue",
+      "problem",
+      "notification",
+      "triangle",
+      "round"
+    ]
+  },
+  "cloud-3-warning-2": {
+    "name": "CloudWarningRound",
+    "displayName": "Cloud warning round",
+    "aliases": [
+      "Cloud3Warning2"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "warning",
+      "alert",
+      "caution",
+      "notification",
+      "danger",
+      "status",
+      "round"
+    ]
+  },
+  "cloud-3-x-1": {
+    "name": "CloudXCornerRound",
+    "displayName": "Cloud X corner round",
+    "aliases": [
+      "Cloud3Close"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "cancel",
+      "corner",
+      "round"
+    ]
+  },
+  "cloud-3-x-2": {
+    "name": "CloudXRound",
+    "displayName": "Cloud X round",
+    "aliases": [
+      "Cloud3X"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "close",
+      "delete",
+      "remove",
+      "cancel",
+      "dismiss",
+      "round"
+    ]
+  },
+  "cloud-lupe-search-1": {
+    "name": "CloudSearch",
+    "displayName": "Cloud search",
+    "aliases": [
+      "CloudSearch1"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "lupe",
+      "search",
+      "magnifying",
+      "glass",
+      "find",
+      "cloud-search"
+    ]
+  },
+  "cloud-lupe-search-2": {
+    "name": "CloudSearchRight",
+    "displayName": "Cloud search right",
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "lupe",
+      "search",
+      "magnifying",
+      "glass",
+      "find",
+      "cloud-search",
+      "right"
+    ]
+  },
+  "cloud-lupe-search-3": {
+    "name": "CloudSearch2",
+    "displayName": "Cloud search2",
+    "aliases": [
+      "CloudSearch3"
+    ],
+    "categories": [
+      "files",
+      "devices"
+    ],
+    "tags": [
+      "cloud",
+      "lupe",
+      "search",
+      "magnifying",
+      "glass",
+      "find",
+      "cloud-search"
+    ]
+  }
+}

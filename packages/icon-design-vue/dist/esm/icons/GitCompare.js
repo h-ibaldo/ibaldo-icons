@@ -1,0 +1,39 @@
+import { defineComponent, h } from 'vue';
+
+const GitCompare = defineComponent({
+  name: 'GitCompare',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M5 3C6.656 3 8 4.344 8 6C8 7.656 6.656 9 5 9C3.344 9 2 7.656 2 6C2 4.344 3.344 3 5 3Z"}),
+          h('path', {"d":"M19 3C20.656 3 22 4.344 22 6C22 7.656 20.656 9 19 9C17.344 9 16 7.656 16 6C16 4.344 17.344 3 19 3Z"}),
+          h('path', {"d":"M5 15C6.656 15 8 16.344 8 18C8 19.656 6.656 21 5 21C3.344 21 2 19.656 2 18C2 16.344 3.344 15 5 15Z"}),
+          h('path', {"d":"M5 9L5 15"}),
+          h('path', {"d":"M12 3L12 21"}),
+          h('path', {"d":"M19 9L19 9.836C19 11.727 17.793 13.402 16 14"})
+        ]
+      );
+  }
+});
+
+export default GitCompare;
+export { GitCompare };

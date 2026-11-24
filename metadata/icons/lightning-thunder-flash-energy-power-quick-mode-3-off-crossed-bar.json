@@ -1,7 +1,8 @@
 {
-  "name": "LightningQuickMode3Off",
+  "name": "BoltOffWide",
   "description": "A lightning bolt icon with a crossed bar representing another quick mode disabled state.",
   "tags": [
+    "bolt",
     "lightning",
     "thunder",
     "flash",
@@ -9,12 +10,12 @@
     "power",
     "quick",
     "mode",
-    "off",
+    "crossed",
+    "bar",
     "disabled",
-    "crossed"
+    "mute"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -32,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bolt off wide",
+  "aliases": [
+    "LightningQuickMode3Off"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

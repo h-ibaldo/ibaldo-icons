@@ -1,15 +1,16 @@
 {
-  "name": "Box8",
+  "name": "BoxTapeArrowUp",
   "description": "A box icon variant numbered 8, suitable for container, package, or storage representations in professional interfaces.",
   "tags": [
     "box",
     "container",
     "package",
     "storage",
-    "variant8"
+    "tape",
+    "arrow",
+    "up"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Box tape arrow up",
+  "aliases": [
+    "Box8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

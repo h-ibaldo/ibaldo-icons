@@ -1,21 +1,23 @@
 {
-  "name": "AtSign2Dots",
-  "displayName": "At sign 2 dots",
+  "name": "AtDots",
+  "displayName": "At dots",
   "originalTitle": "At Sign Email Contact Address 2 Dots Settings Menu",
   "description": "Email contact symbol with settings dots for email configuration and contact management. Used for email preferences, contact settings, or address book management.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "settings",
-    "menu",
     "contact",
     "address",
+    "settings",
+    "menu",
     "configure",
     "preferences",
-    "manage"
+    "manage",
+    "dots"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.778Z"
+  "generatedAt": "2026-02-15T00:53:19.778Z",
+  "aliases": [
+    "AtSign2Dots"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

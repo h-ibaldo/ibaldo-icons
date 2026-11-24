@@ -1,0 +1,36 @@
+{
+  "name": "BookAlertCurved",
+  "displayName": "Book alert curved",
+  "description": "Book with a curved spine and pages, and an exclamation mark on the cover.",
+  "tags": [
+    "book",
+    "reading",
+    "library",
+    "manual",
+    "alert",
+    "warning",
+    "important",
+    "exclamation"
+  ],
+  "categories": [
+    "education"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Book alert"
+  },
+  "filename": "book-alert-curved",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:14:24.000Z"
+}

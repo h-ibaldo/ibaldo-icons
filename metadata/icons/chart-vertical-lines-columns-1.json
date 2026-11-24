@@ -1,21 +1,22 @@
 {
-  "name": "ChartVerticalLinesColumns1",
-  "displayName": "Chart vertical lines columns 1",
+  "name": "ChartBarThin",
+  "displayName": "Chart bar thin",
   "originalTitle": "Chart Vertical Lines Columns 1",
   "description": "Combination chart featuring both vertical lines and columns for multi-dimensional data visualization. Used for displaying multiple data series with different measurement scales.",
   "tags": [
     "chart",
-    "combination",
-    "lines",
+    "vertical",
     "columns",
+    "combination",
     "multi-series",
     "data",
     "visualization",
-    "analytics"
+    "analytics",
+    "bar",
+    "thin"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.759Z"
+  "generatedAt": "2026-02-15T00:53:19.759Z",
+  "aliases": [
+    "ChartVerticalLinesColumns1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

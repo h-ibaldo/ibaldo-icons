@@ -1,0 +1,36 @@
+{
+  "name": "OptionsCheckAsterisk",
+  "displayName": "Options check asterisk",
+  "description": "Small circled check behind a larger circle with an asterisk.",
+  "tags": [
+    "options",
+    "choice",
+    "states",
+    "select",
+    "check",
+    "asterisk",
+    "required",
+    "star"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Required option"
+  },
+  "filename": "options-check-asterisk",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

@@ -1,0 +1,36 @@
+import { defineComponent, h } from 'vue';
+
+const BackspaceCompactSmall = defineComponent({
+  name: 'BackspaceCompactSmall',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M20.066798314908738,19.000000000448381h-12.042401496102684c-.605486311487766,0-1.178376379437395-.274299335983414-1.55802236839736-.745979944521423l-4.024396828022873-5c-.589303508790181-.732163767607744-.589303508790181-1.7758763433485,0-2.508040110958973l4.024396828022873-5c.379645988959965-.471680608538009.952536056909594-.745979944519604,1.55802236839736-.745979944519604h12.042401496102684c1.104569499657373,0,2,.895430500338989,2,2v10c0,1.104569499661011-.895430500342627,2-2,2Z"}),
+          h('line', {"x1":"15.999999990888682","y1":"10.000000000448381","x2":"11.999999990888682","y2":"14.000000000448381"}),
+          h('line', {"x1":"11.999999990786819","y1":"10.000000000538421","x2":"15.999999990968718","y2":"14.00000000035925"})
+        ]
+      );
+  }
+});
+
+export default BackspaceCompactSmall;
+export { BackspaceCompactSmall };

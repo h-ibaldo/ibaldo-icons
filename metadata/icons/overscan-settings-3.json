@@ -1,5 +1,5 @@
 {
-  "name": "OverscanSettings3",
+  "name": "OverscanLeftRight",
   "description": "A third overscan settings variant showing display adjustment controls with distinct styling",
   "tags": [
     "overscan",
@@ -8,11 +8,11 @@
     "adjustment",
     "borders",
     "calibration",
-    "variant"
+    "left",
+    "right"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Overscan left right",
+  "aliases": [
+    "OverscanSettings3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

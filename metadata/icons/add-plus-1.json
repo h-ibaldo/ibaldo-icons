@@ -1,11 +1,11 @@
 {
-  "name": "Add1",
-  "displayName": "Add 1",
+  "name": "Plus",
+  "displayName": "Plus",
   "originalTitle": "Add Plus 1",
   "description": "Plus icon for adding new items or content. Used in forms, lists, and creation workflows.",
   "tags": [
-    "add",
     "plus",
+    "add",
     "create",
     "new",
     "insert",
@@ -31,5 +31,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.765Z"
+  "generatedAt": "2026-02-15T00:53:19.765Z",
+  "aliases": [
+    "Add1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,0 +1,35 @@
+{
+  "name": "FileCheckPlain",
+  "displayName": "File check plain",
+  "description": "Plain rounded rectangle page with a check mark in the middle.",
+  "tags": [
+    "file",
+    "check",
+    "done",
+    "approved",
+    "verified",
+    "complete",
+    "plain"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "File done"
+  },
+  "filename": "file-check-plain",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:36:35.080Z"
+}

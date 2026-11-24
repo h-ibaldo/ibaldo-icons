@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsLinesSquare",
-  "displayName": "Chart vertical columns lines square",
+  "name": "ChartBarSquareThin",
+  "displayName": "Chart bar square thin",
   "originalTitle": "Chart Vertical Columns Lines Square",
   "description": "Basic vertical column chart in square format for displaying comparative data. Used for visualizing categorical data, sales figures, or performance metrics.",
   "tags": [
     "chart",
+    "vertical",
+    "columns",
     "column",
     "graph",
     "data",
     "visualization",
     "analytics",
     "statistics",
-    "business"
+    "business",
+    "bar",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.758Z"
+  "generatedAt": "2026-02-15T00:53:19.758Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

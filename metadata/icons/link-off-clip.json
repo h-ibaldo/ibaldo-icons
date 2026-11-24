@@ -1,0 +1,36 @@
+{
+  "name": "LinkOffClip",
+  "displayName": "Link off clip",
+  "description": "Diagonal capsule split in two halves around a center bar crossed by a diagonal slash.",
+  "tags": [
+    "link",
+    "chain",
+    "url",
+    "hyperlink",
+    "off",
+    "unlink",
+    "disabled",
+    "disconnect"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Unlink"
+  },
+  "filename": "link-off-clip",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

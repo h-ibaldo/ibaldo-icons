@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsCircleDotted",
-  "displayName": "Chart vertical columns circle dotted",
+  "name": "ChartBarCircleDotted",
+  "displayName": "Chart bar circle dotted",
   "originalTitle": "Chart Vertical Columns Circle Dotted Logged In Progress",
   "description": "Vertical column chart with a dotted circle indicator showing data processing or chart generation in progress. Used to represent loading analytics or pending chart updates.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
-    "analytics",
+    "logged",
     "progress",
+    "analytics",
     "loading",
     "pending",
     "processing",
-    "data"
+    "data",
+    "bar",
+    "circle"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.756Z"
+  "generatedAt": "2026-02-15T00:53:19.756Z",
+  "aliases": [
+    "ChartVerticalColumnsCircleDotted"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

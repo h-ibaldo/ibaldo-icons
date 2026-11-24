@@ -1,18 +1,22 @@
 {
-  "name": "Cloud2Restricted",
+  "name": "CloudOffTall",
   "description": "A cloud icon with a slash or prohibition symbol indicating blocked or restricted access",
   "tags": [
     "cloud",
     "bar",
     "slash",
+    "disabled",
+    "mute",
     "restricted",
     "blocked",
     "deny",
-    "unavailable"
+    "unavailable",
+    "off",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "security"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud off tall",
+  "aliases": [
+    "Cloud2Restricted"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

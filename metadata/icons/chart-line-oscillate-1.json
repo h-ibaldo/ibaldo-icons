@@ -1,21 +1,21 @@
 {
-  "name": "ChartLineOscillate1",
-  "displayName": "Chart line oscillate 1",
+  "name": "ChartLinePeakAxis",
+  "displayName": "Chart line peak axis",
   "originalTitle": "Chart Line Oscillate 1",
   "description": "Oscillating line chart icon representing fluctuating data or wave patterns. Used for displaying variable metrics, signal analysis, or trending data with ups and downs.",
   "tags": [
     "chart",
-    "line",
     "oscillate",
     "wave",
     "data",
     "analytics",
     "fluctuation",
-    "trend"
+    "trend",
+    "peak",
+    "axis"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.752Z"
+  "generatedAt": "2026-02-15T00:53:19.752Z",
+  "aliases": [
+    "ChartLineOscillate1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

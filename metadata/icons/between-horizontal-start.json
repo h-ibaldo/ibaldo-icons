@@ -1,0 +1,34 @@
+{
+  "name": "BetweenHorizontalStart",
+  "displayName": "Between horizontal start",
+  "description": "Two stacked boxes with a chevron pointing right on their left side: insert between rows.",
+  "tags": [
+    "between",
+    "insert",
+    "rows",
+    "chevron",
+    "layout",
+    "between-horizontal-start"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Insert between"
+  },
+  "filename": "between-horizontal-start",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T22:46:25.332Z"
+}

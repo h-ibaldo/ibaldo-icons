@@ -1,0 +1,36 @@
+{
+  "name": "ArrowUpRightCircleJoined",
+  "displayName": "Arrow up right circle joined",
+  "description": "Circle whose line curls inward into an arrow pointing up and to the right.",
+  "tags": [
+    "arrow",
+    "diagonal",
+    "up-right",
+    "circle",
+    "joined",
+    "continuous",
+    "loop",
+    "return"
+  ],
+  "categories": [
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Arrow up right"
+  },
+  "filename": "arrow-up-right-circle-joined",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

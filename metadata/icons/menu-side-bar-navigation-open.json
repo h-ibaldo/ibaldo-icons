@@ -1,13 +1,17 @@
 {
-  "name": "MenuSideBarOpen",
+  "name": "MenuPanelChevronRight",
   "description": "A sidebar menu navigation icon in an open or expanded state",
   "tags": [
     "menu",
-    "sidebar",
+    "side",
+    "bar",
     "navigation",
     "open",
+    "sidebar",
     "expanded",
-    "panel"
+    "panel",
+    "chevron",
+    "right"
   ],
   "categories": [
     "interface"
@@ -27,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu panel chevron right",
+  "aliases": [
+    "MenuSideBarOpen"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

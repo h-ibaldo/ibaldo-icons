@@ -1,7 +1,8 @@
 {
-  "name": "GraphHorizontalBarsStripesAlt",
+  "name": "ProgressBarMultipleStripedJoined",
   "description": "An alternative horizontal bar graph with striped fill pattern for task analytics display",
   "tags": [
+    "progress",
     "graph",
     "horizontal",
     "bars",
@@ -10,10 +11,11 @@
     "stripes",
     "pattern",
     "chart",
-    "alternative"
+    "alternative",
+    "bar",
+    "multiple"
   ],
   "categories": [
-    "business",
     "interface"
   ],
   "accessibility": {
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress bar multiple striped joined",
+  "aliases": [
+    "GraphHorizontalBarsStripesAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

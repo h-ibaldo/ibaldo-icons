@@ -1,21 +1,22 @@
 {
-  "name": "ApplicationWindow2Chart1",
-  "displayName": "Application window 2 chart 1",
+  "name": "WindowChartBare",
+  "displayName": "Window chart bare",
   "originalTitle": "Application Window 2 Chart Analytics 1",
   "description": "Application window with chart icon representing analytics and data visualization features. Used for dashboards, reporting tools, or statistical analysis applications.",
   "tags": [
     "window",
     "application",
-    "chart",
     "analytics",
+    "chart",
     "data",
     "visualization",
     "dashboard",
-    "statistics"
+    "statistics",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.771Z"
+  "generatedAt": "2026-02-15T00:53:19.771Z",
+  "aliases": [
+    "ApplicationWindow2Chart1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

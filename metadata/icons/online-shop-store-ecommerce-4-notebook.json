@@ -1,19 +1,20 @@
 {
-  "name": "OnlineShopNotebookAlt",
+  "name": "LaptopStoreFlat",
   "description": "An alternative online shop icon shown on a notebook device, representing e-commerce on portable screens",
   "tags": [
+    "laptop",
     "online",
     "shop",
-    "store",
     "ecommerce",
     "notebook",
+    "store",
     "tablet",
     "shopping",
     "mobile",
-    "retail"
+    "retail",
+    "flat"
   ],
   "categories": [
-    "shopping",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop store flat",
+  "aliases": [
+    "OnlineShopNotebookAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,20 @@
 {
-  "name": "HandTwoFingerSpread1",
+  "name": "HandSpread",
   "description": "A hand with two fingers spreading apart in an expansion gesture, variant 1",
   "tags": [
     "hand",
     "touch",
-    "two fingers",
+    "two",
+    "fingers",
+    "two-fingers",
     "spread",
     "gesture",
     "expand",
-    "interaction",
-    "variant"
+    "interaction"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand spread",
+  "aliases": [
+    "HandTwoFingerSpread1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

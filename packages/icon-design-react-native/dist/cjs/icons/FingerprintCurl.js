@@ -1,0 +1,39 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const FingerprintCurl = forwardRef(function FingerprintCurl(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M18,16.999999999996362c-3.313708498799315,0-6-2.686291501197957-6-6","key":"0"}),
+    createElement(Path, {"d":"M4,11c0-4.418277998400299,3.581722001599701-8,8-8s8,3.581722001599701,8,8","key":"1"}),
+    createElement(Path, {"d":"M17.5,20.499999999996362c-5.246705123099673,0-9.5-4.253294876896689-9.5-9.499999999996362","key":"2"}),
+    createElement(Path, {"d":"M16,10.999999999996362c0,1.104569499602803.895430500400835,2,2,2s2-.895430500397197,2-2","key":"3"}),
+    createElement(Path, {"d":"M16,10.999999999996362c0-2.20916748046875-1.790832519529431-4-4-4s-4,1.79083251953125-4,4","key":"4"}),
+    createElement(Path, {"d":"M4,10.999999999996362c0,4.02178955078125,1.827697753909888,7.61541748046875,4.696166992189319,10","key":"5"})
+  );
+});
+
+FingerprintCurl.displayName = 'FingerprintCurl';
+
+module.exports = FingerprintCurl;
+module.exports.FingerprintCurl = FingerprintCurl;
+module.exports.default = FingerprintCurl;

@@ -1,21 +1,22 @@
 {
-  "name": "AtSign2Equal",
-  "displayName": "At sign 2 equal",
+  "name": "AtEqual",
+  "displayName": "At equal",
   "originalTitle": "At Sign Email Contact Address 2 Equal",
   "description": "Email address symbol with equals sign indicating email comparison, matching contacts, or address equality functions. Used for contact matching, duplicate detection, or email comparison features.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "equal",
     "compare",
     "match",
-    "contact",
-    "address",
     "duplicate",
     "similar"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.778Z"
+  "generatedAt": "2026-02-15T00:53:19.778Z",
+  "aliases": [
+    "AtSign2Equal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

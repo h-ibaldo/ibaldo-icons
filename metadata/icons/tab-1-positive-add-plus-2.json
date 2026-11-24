@@ -1,14 +1,13 @@
 {
-  "name": "TabAddPlus2",
+  "name": "TabPlus",
   "description": "A second variant of a tab icon with a plus symbol to create a new tab",
   "tags": [
     "tab",
-    "add",
-    "plus",
     "positive",
-    "new",
+    "add",
     "create",
-    "variant",
+    "plus",
+    "new",
     "interface"
   ],
   "categories": [
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab plus",
+  "aliases": [
+    "TabAddPlus2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

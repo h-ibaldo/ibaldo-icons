@@ -1,5 +1,5 @@
 {
-  "name": "SwitchThreePositionsThird",
+  "name": "SwitchDialRight",
   "description": "A three-position switch icon indicating the third position state",
   "tags": [
     "switch",
@@ -8,7 +8,9 @@
     "third",
     "toggle",
     "state",
-    "selector"
+    "selector",
+    "dial",
+    "right"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch dial right",
+  "aliases": [
+    "SwitchThreePositionsThird"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

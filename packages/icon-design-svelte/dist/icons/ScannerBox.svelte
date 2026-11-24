@@ -1,0 +1,31 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <polygon points="1.999999981189831 10.999996564258254 1.999999981189831 16.999996564258254 17.999999981189831 7.999996564258254 17.999999981189831 1.999996564258254 1.999999981189831 10.999996564258254"/>
+  <path d="M1.999999981189831,16.999996564258254h20v3c0,1.103830048988002-.896169951011998,2-2,2H3.999999981189831c-1.103830048988,0-2-.896169951011998-2-2v-3h0Z"/>
+  <line x1="17.999999981189831" y1="18.999996564258254" x2="17.999999981189831" y2="16.999996564258254"/>
+  <line x1="14.999999981189831" y1="10.999996564258254" x2="14.999999981189831" y2="16.999996564258254"/>
+  <polyline points="1.999999981189831 16.999996564258254 21.999999981189831 16.999996564258254 21.999999981189831 10.999996564258254 12.666686992899486 10.999996564258254"/>
+</svg>

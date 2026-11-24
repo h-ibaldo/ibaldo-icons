@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Upload3",
+  "name": "CloudUploadBaseRound",
   "description": "A cloud icon with an upload arrow indicating uploading files or data to cloud storage",
   "tags": [
     "cloud",
@@ -9,12 +9,13 @@
     "send",
     "file",
     "data",
-    "storage"
+    "storage",
+    "base",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "arrows"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud upload base round",
+  "aliases": [
+    "Cloud3Upload3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

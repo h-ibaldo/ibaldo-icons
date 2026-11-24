@@ -1,17 +1,16 @@
 {
-  "name": "BookmarkTwo",
+  "name": "BookmarkTwoCorner",
   "description": "A bookmark icon displaying the number two to indicate second items or quantity",
   "tags": [
     "bookmark",
     "number",
     "two",
-    "2",
     "count",
     "badge",
-    "quantity"
+    "quantity",
+    "corner"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +28,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark two corner",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

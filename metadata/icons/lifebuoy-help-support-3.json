@@ -1,5 +1,5 @@
 {
-  "name": "LifebuoyHelp3",
+  "name": "LifebuoyRope",
   "description": "A lifebuoy support icon indicating help and customer support services with third variant styling.",
   "tags": [
     "lifebuoy",
@@ -8,13 +8,11 @@
     "assistance",
     "rescue",
     "aid",
-    "customer service",
-    "variant 3"
+    "customer-service",
+    "rope"
   ],
   "categories": [
-    "interface",
-    "communication",
-    "business"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lifebuoy rope",
+  "aliases": [
+    "LifebuoyHelp3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

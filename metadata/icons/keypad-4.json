@@ -1,18 +1,17 @@
 {
-  "name": "Keypad4",
+  "name": "KeypadGrid",
   "description": "A numeric keypad icon displaying the number 4",
   "tags": [
     "keypad",
-    "4",
     "number",
     "numeric",
     "keyboard",
     "input",
     "dial",
-    "interface"
+    "interface",
+    "grid"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Keypad grid",
+  "aliases": [
+    "Keypad4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

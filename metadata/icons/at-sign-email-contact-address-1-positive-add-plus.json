@@ -1,20 +1,23 @@
 {
-  "name": "AtSign1Plus",
-  "displayName": "At sign 1 plus",
+  "name": "AtPlusCurved",
+  "displayName": "At plus curved",
   "originalTitle": "At Sign Email Contact Address 1 Positive Add Plus",
   "description": "At symbol with plus sign for adding email addresses. Used to add new contacts, create email accounts, or expand contact lists.",
   "tags": [
     "at",
+    "sign",
     "email",
-    "add",
-    "plus",
     "contact",
+    "address",
+    "positive",
+    "add",
+    "create",
+    "plus",
     "new",
-    "create"
+    "curved"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.761Z"
+  "generatedAt": "2026-02-15T00:53:19.761Z",
+  "aliases": [
+    "AtSign1Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,21 +1,24 @@
 {
-  "name": "AtSign4Settings",
-  "displayName": "At sign 4 settings",
+  "name": "AtDotsTall",
+  "displayName": "At dots tall",
   "originalTitle": "At Sign Email Contact Address 4 Dots Settings Menu",
   "description": "Email address with settings menu dots for email configuration and options. Used to access email settings, preferences, or additional actions.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "settings",
     "menu",
     "options",
     "configure",
     "at-sign",
-    "contact",
-    "preferences"
+    "preferences",
+    "dots"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.763Z"
+  "generatedAt": "2026-02-15T00:53:19.763Z",
+  "aliases": [
+    "AtSign4Settings"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

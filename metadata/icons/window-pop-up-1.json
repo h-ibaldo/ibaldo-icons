@@ -1,16 +1,19 @@
 {
-  "name": "WindowPopUp1",
+  "name": "WindowModalTitled",
   "description": "A pop-up window icon displaying a single floating dialog box interface",
   "tags": [
     "window",
+    "pop",
+    "up",
     "pop-up",
     "dialog",
     "floating",
     "modal",
     "interface",
-    "variant1"
+    "titled"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window modal titled",
+  "aliases": [
+    "WindowPopUp1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

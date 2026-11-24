@@ -1,0 +1,36 @@
+{
+  "name": "ArrowDownFromDotCircle",
+  "displayName": "Arrow down from dot circle",
+  "description": "Arrow pointing down from a small ring set in a gap of a circle.",
+  "tags": [
+    "arrow",
+    "down",
+    "south",
+    "circle",
+    "dot",
+    "origin",
+    "start",
+    "from"
+  ],
+  "categories": [
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Arrow down"
+  },
+  "filename": "arrow-down-from-dot-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

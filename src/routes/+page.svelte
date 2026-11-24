@@ -1,29 +1,45 @@
 <script>
-  import { onMount, afterUpdate } from 'svelte';
+  import { onMount } from 'svelte';
+  import { base } from '$app/paths';
   import ActionsBar from '$lib/components/ActionsBar.svelte';
+  import IconDetail from '$lib/components/IconDetail.svelte';
+  import { theme } from '$lib/theme.js';
 
   let iconsByCategory = {};
   let allIcons = [];
   let categories = [];
   let loadingCategory = false;
   let loadingCategories = true;
-  let size = 24;
+  let size = 48;
   let weight = 1.5;
+  // Icon color ('' = default ink); the grid's `color` drives currentColor
+  let iconColor = '';
   let currentCategory = '';
-  let selectedCategory = '';
+  let selectedCategories = [];
   let search = '';
   let svgCache = {};
+  // SVG bundles (see scripts/generate-icons-index.js): chunk index -> URL,
+  // and one promise per bundle so each is fetched once.
+  let chunkUrls = [];
+  const chunkLoads = new Map();
+  // Bumped when SVGs arrive, so only the rendered cells update
+  let svgTick = 0;
 
   // Cache for normalized SVGs (processed once on load, never re-processed)
   let normalizedSvgCache = new WeakMap();
 
   // Mobile optimization: detect mobile and adjust behavior
   let isMobile = false;
-  let renderedIconsCount = 0;
-  let loadingMoreIcons = false;
 
-  // Passive event listeners for better scroll performance
-  let scrollTimeout;
+  // Virtualized grid: only the rows near the viewport are in the DOM.
+  // The wrapper keeps the full height with padding, so the scrollbar is real.
+  const BUFFER_ROWS = 4;
+  let gridWrapper;
+  let gridEl;
+  let cols = 6;
+  let rowHeight = 140;
+  let startRow = 0;
+  let endRow = 12;
 
   // Normalize SVG once on load: remove width/height, prepare for CSS control
   // This is the key to Lucide's smooth performance - process once, control via CSS
@@ -93,13 +109,51 @@
   // Load SVG for an icon if not already loaded
   async function ensureSVGLoaded(icon) {
     if (icon.svg) return; // Already loaded
+    if (Number.isInteger(icon.chunk) && chunkUrls[icon.chunk]) {
+      await loadChunk(icon.chunk);
+      if (icon.svg) return;
+    }
     if (!icon.path) return;
-    
     try {
-      const svg = await loadSVG(icon.path);
-      icon.svg = svg;
+      icon.svg = await loadSVG(icon.path);
+      svgTick++;
     } catch (error) {
       console.error(`Error loading SVG for ${icon.name}:`, error);
+    }
+  }
+
+  // Fetch one SVG bundle and hand each SVG to its icon
+  function loadChunk(n) {
+    if (chunkLoads.has(n)) return chunkLoads.get(n);
+    const promise = fetch(chunkUrls[n])
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to fetch ${chunkUrls[n]}`);
+        return res.json();
+      })
+      .then((bundle) => {
+        for (const icon of allIcons) {
+          if (icon.chunk === n && !icon.svg && bundle[icon.filename]) icon.svg = bundle[icon.filename];
+        }
+        svgTick++;
+      })
+      .catch((error) => {
+        chunkLoads.delete(n); // allow a retry
+        console.error(error);
+      });
+    chunkLoads.set(n, promise);
+    return promise;
+  }
+
+  // Load the bundles of the icons being rendered, plus the next one
+  function loadChunksFor(icons) {
+    if (!chunkUrls.length) return;
+    const needed = new Set();
+    for (const icon of icons) if (!icon.svg && Number.isInteger(icon.chunk)) needed.add(icon.chunk);
+    for (const n of needed) loadChunk(n);
+    const last = icons.length ? icons[icons.length - 1].chunk : undefined;
+    if (Number.isInteger(last) && last + 1 < chunkUrls.length) {
+      const idle = window.requestIdleCallback || ((fn) => setTimeout(fn, 200));
+      idle(() => loadChunk(last + 1));
     }
   }
 
@@ -109,6 +163,8 @@
     
     const svgString = icon.svg;
     let processed = svgString;
+    // Downloaded SVGs carry the chosen color instead of currentColor
+    if (iconColor) processed = processed.replace(/currentColor/g, iconColor);
     
     // Update width and height
     processed = processed.replace(/(<svg[^>]*\s)width=["']\d+["']/gi, `$1width="${targetSize}"`);
@@ -152,9 +208,10 @@
   async function loadCategories() {
     try {
         // Load the index directly from static folder (no API needed)
-        const res = await fetch('/icons-index.json?v=12');
+        const res = await fetch(`${base}/icons-index.json?v=12`);
         if (!res.ok) throw new Error('Failed to fetch index');
         const index = await res.json();
+        chunkUrls = (index.chunks || []).map((u) => base + u);
         // Load all icons from folder-based structure
         allIcons = [];
         const allFolderKeys = Object.keys(index.icons || {});
@@ -180,24 +237,12 @@
         categories = [...catSet].sort();
 
         // Sort all icons alphabetically by name after merging categories
-        allIcons.sort((a, b) => a.name.localeCompare(b.name));
+        allIcons.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || a.name.localeCompare(b.name));
 
         console.log(`Loaded ${allIcons.length} total icons, ${categories.length} semantic categories`);
 
-        // Preload first batch of icons
-        const preloadCount = isMobile ? 20 : 50;
-        const preloadBatch = allIcons.slice(0, preloadCount);
-        const preloadPromises = preloadBatch.map(async (icon) => {
-          const svg = await loadSVG(icon.path);
-          icon.svg = svg;
-        });
-
-        // Wait for preloads to complete and trigger reactivity
-        Promise.all(preloadPromises).then(() => {
-          allIcons = [...allIcons];
-        }).catch(err => {
-          console.error('Error preloading icons:', err);
-        });
+        // The first bundle covers the first screens; start it right away
+        if (chunkUrls.length) loadChunk(0);
 
     } catch (error) {
         console.error('Error loading categories:', error);
@@ -223,148 +268,77 @@
     }
   }
 
-  async function loadCategory(category) {
-    if (!category) return;
+  // Clicking an icon opens its detail sheet (copy code / SVG, download SVG / PNG).
+  // The open icon is in the URL (?icon=Name) so the link can be shared.
+  let selectedIcon = null;
 
-    try {
-        loadingCategory = true;
-
-        // Load the index directly from static folder (no API needed)
-        const res = await fetch('/icons-index.json?v=12');
-        if (!res.ok) throw new Error('Failed to fetch index');
-        const index = await res.json();
-        
-        const iconList = index.icons?.[category] || [];
-        console.log(`Loaded ${iconList.length} icons for category: ${category}`);
-        
-        // Store icons without SVG content initially (lazy loading)
-        // Only load SVG content when icons become visible
-        iconsByCategory[category] = iconList.map(icon => ({ ...icon, svg: null }));
-
-        // Mobile optimization: smaller preload batch for mobile devices
-        const preloadCount = isMobile ? 20 : 50;
-        const preloadBatch = iconList.slice(0, preloadCount);
-        const preloadPromises = preloadBatch.map(async (icon) => {
-          const svg = await loadSVG(icon.path);
-          const iconObj = iconsByCategory[category].find(i => i.path === icon.path);
-          if (iconObj) iconObj.svg = svg;
-        });
-
-        // Wait for preloads to complete and trigger reactivity
-        Promise.all(preloadPromises).then(() => {
-          iconsByCategory = { ...iconsByCategory };
-        }).catch(err => {
-          console.error('Error preloading icons:', err);
-        });
-        
-    } catch (error) {
-        console.error(`Error loading ${category} icons:`, error);
-    } finally {
-        loadingCategory = false;
-    }
-  }
-
-  let observer;
-  
-  // Handle icon download (used by both click and keyboard)
-  async function handleIconDownload(icon) {
+  async function selectIcon(icon) {
     await ensureSVGLoaded(icon);
-    iconsByCategory = { ...iconsByCategory };
-    const processedSVG = processSVGForDownload(icon, size, weight);
-    downloadSVG(processedSVG, icon.filename || `${icon.name.toLowerCase().replace(/\s+/g, '-')}.svg`);
+    selectedIcon = icon;
+    svgTick++;
+    const url = new URL(window.location.href);
+    url.searchParams.set('icon', icon.name);
+    history.replaceState(history.state, '', url);
   }
-  
-  // Action for lazy loading icons
-  function lazyLoadIcon(node, icon) {
-    node.__icon = icon;
-    if (observer) {
-      // Check if element is already visible before observing
-      // This handles cases where icons are filtered and become visible immediately
-      const rect = node.getBoundingClientRect();
-      const isVisible = rect.top < window.innerHeight + 50 && rect.bottom > -50;
-      
-      if (isVisible && icon && !icon.svg) {
-        // Load immediately if already visible
-        ensureSVGLoaded(icon).then(() => {
-          allIcons = [...allIcons];
-        });
-      } else {
-        // Otherwise observe for when it becomes visible
-        observer.observe(node);
-      }
-    }
-    return {
-      destroy() {
-        if (observer) {
-          observer.unobserve(node);
-        }
-      }
-    };
+
+  function closeDetail() {
+    selectedIcon = null;
+    const url = new URL(window.location.href);
+    url.searchParams.delete('icon');
+    history.replaceState(history.state, '', url);
   }
-  
-  onMount(async () => {
+
+  // Read the grid's real column count and row height (they change with the
+  // breakpoints and on mobile), then work out which rows are near the viewport.
+  function measureGrid() {
+    if (!gridEl) return;
+    const style = getComputedStyle(gridEl);
+    const columns = style.gridTemplateColumns.split(' ').filter(Boolean).length;
+    if (columns) cols = columns;
+    const item = gridEl.querySelector('.icon-item');
+    const gap = parseFloat(style.rowGap) || 0;
+    if (item && item.offsetHeight) rowHeight = item.offsetHeight + gap;
+  }
+
+  function updateVisibleRows() {
+    if (!gridWrapper) return;
+    const top = gridWrapper.getBoundingClientRect().top; // viewport-relative
+    const first = Math.floor(-top / rowHeight) - BUFFER_ROWS;
+    const last = Math.ceil((window.innerHeight - top) / rowHeight) + BUFFER_ROWS;
+    const nextStart = Math.max(0, first);
+    const nextEnd = Math.max(nextStart + 1, last);
+    if (nextStart !== startRow) startRow = nextStart;
+    if (nextEnd !== endRow) endRow = nextEnd;
+  }
+
+  let frameRequested = false;
+  function onScrollOrResize() {
+    if (frameRequested) return;
+    frameRequested = true;
+    requestAnimationFrame(() => {
+      frameRequested = false;
+      measureGrid();
+      updateVisibleRows();
+    });
+  }
+
+  onMount(() => {
     // Detect mobile device once on mount (no resize listener needed)
     isMobile = window.innerWidth <= 768;
 
-    // Set up Intersection Observer for lazy loading
-    // Mobile optimization: smaller root margin for better performance
-    observer = new IntersectionObserver((entries) => {
-      // Batch SVG loads to prevent blocking
-      const iconsToLoad = [];
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const iconElement = entry.target;
-          const icon = iconElement.__icon;
-          if (icon && !icon.svg) {
-            iconsToLoad.push(icon);
-          }
-          observer.unobserve(iconElement);
-        }
-      });
-
-      // Load icons in small batches to prevent blocking scrolling
-      if (iconsToLoad.length > 0) {
-        loadingMoreIcons = true;
-        const batchSize = isMobile ? 5 : 10;
-        let currentBatch = 0;
-
-        const loadNextBatch = () => {
-          const start = currentBatch * batchSize;
-          const batch = iconsToLoad.slice(start, start + batchSize);
-
-          if (batch.length > 0) {
-            Promise.all(batch.map(icon => ensureSVGLoaded(icon))).then(() => {
-              allIcons = [...allIcons];
-              currentBatch++;
-              if (currentBatch * batchSize < iconsToLoad.length) {
-                // Use requestIdleCallback if available, otherwise setTimeout
-                if ('requestIdleCallback' in window) {
-                  requestIdleCallback(() => loadNextBatch(), { timeout: 100 });
-                } else {
-                  setTimeout(loadNextBatch, 16); // ~60fps
-                }
-              } else {
-                loadingMoreIcons = false;
-              }
-            });
-          } else {
-            loadingMoreIcons = false;
-          }
-        };
-
-        loadNextBatch();
-      }
-    }, {
-      rootMargin: isMobile ? '100px' : '50px' // Load earlier on mobile for smoother scrolling
+    window.addEventListener('scroll', onScrollOrResize, { passive: true });
+    window.addEventListener('resize', onScrollOrResize, { passive: true });
+    loadCategories().then(() => {
+      onScrollOrResize();
+      // Open the icon named in the URL, if any
+      const name = new URL(window.location.href).searchParams.get('icon');
+      const icon = name && allIcons.find((i) => i.name === name);
+      if (icon) selectIcon(icon);
     });
 
-    await loadCategories();
-    // All icons are loaded at once, no need for category navigation
-
     return () => {
-      if (observer) {
-        observer.disconnect();
-      }
+      window.removeEventListener('scroll', onScrollOrResize);
+      window.removeEventListener('resize', onScrollOrResize);
     };
   });
 
@@ -372,65 +346,94 @@
   $: currentIcons = allIcons;
 
   // Filter icons based on category and search
-  $: filteredIcons = currentIcons.filter(icon => {
-    if (selectedCategory) {
-      const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
-      if (!iconCats.includes(selectedCategory)) return false;
-    }
-    if (!search) return true;
+  // Search: an icon matches when every word of the query is in its search
+  // text (name, aliases, tags, description, categories) or the whole query
+  // is in its name. Results are ranked so the icons NAMED after the query come
+  // first: exact name, name starts with it, name contains it, alias or display
+  // name, exact tag, partial tag, and last description only. Inside a rank
+  // the order stays alphabetical (Array.sort is stable).
+  function searchRank(icon, words, joined) {
+    const name = icon.name.toLowerCase();
+    if (name === joined) return 0;
+    if (name.startsWith(joined)) return 1;
+    if (name.includes(joined)) return 2;
+    if ((icon.aliases || []).some((a) => a.toLowerCase().includes(joined)) ||
+        (icon.displayName || '').toLowerCase().includes(words.join(' '))) return 3;
+    const tags = (icon.tags || []).map((t) => t.toLowerCase());
+    if (words.every((w) => tags.includes(w))) return 4;
+    if (words.every((w) => tags.some((t) => t.includes(w)))) return 5;
+    return 6;
+  }
 
-    const searchLower = search.toLowerCase();
+  function matchesSearch(icon, words, joined) {
+    const text = icon.searchText || [icon.name, icon.displayName, ...(icon.tags || []), icon.description || ''].join(' ').toLowerCase();
+    return icon.name.toLowerCase().includes(joined) || words.every((w) => text.includes(w));
+  }
 
-    // Use pre-computed searchText if available (includes name, displayName, tags, description)
-    if (icon.searchText) {
-      return icon.searchText.includes(searchLower);
-    }
+  $: filteredIcons = (() => {
+    // Several categories: an icon shows if it is in any of them
+    const inCategory = selectedCategories.length
+      ? currentIcons.filter((icon) => {
+          const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
+          return iconCats.some((c) => selectedCategories.includes(c));
+        })
+      : currentIcons;
+    const words = search.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    if (!words.length) return inCategory;
+    const joined = words.join('');
+    return inCategory
+      .filter((icon) => matchesSearch(icon, words, joined))
+      .map((icon) => ({ icon, rank: searchRank(icon, words, joined) }))
+      .sort((x, y) => x.rank - y.rank)
+      .map((x) => x.icon);
+  })();
 
-    // Fallback to basic search
-    return icon.name.toLowerCase().includes(searchLower) ||
-           (icon.displayName && icon.displayName.toLowerCase().includes(searchLower)) ||
-           (icon.tags && icon.tags.some(tag => tag.toLowerCase().includes(searchLower))) ||
-           (icon.description && icon.description.toLowerCase().includes(searchLower));
-  });
+  // Virtual window over the filtered icons. The hero text takes the first
+  // two cells of row 0 when there is no search.
+  $: filtering = !!search || selectedCategories.length > 0;
+  // The hero text sits in the middle of the second row, only when nothing is
+  // filtered: 2 cells with an even column count (cols 4-5 of 8), 3 with an
+  // odd one (cols 2-4 of 5), so it is always centered on the page.
+  const HERO = { path: '__hero__', hero: true };
+  $: heroSpan = cols % 2 ? 3 : 2;
+  $: heroSlot = filtering ? -1 : cols + (cols - heroSpan) / 2;
+  $: heroSlots = heroSlot >= 0 ? heroSpan : 0;
+  $: totalRows = Math.ceil((filteredIcons.length + heroSlots) / cols);
+  $: firstRow = Math.min(startRow, Math.max(0, totalRows - 1));
+  $: lastRow = Math.min(totalRows, Math.max(endRow, firstRow + 1));
 
-  // Track previous search to detect changes
-  let previousSearch = '';
-  let previousFilteredLength = 0;
+  // Items for grid cells [a, b), with the hero (n cells) inserted at slot h
+  function sliceSlots(list, a, b, h, n) {
+    if (h < 0) return list.slice(a, b);
+    const out = list.slice(a, Math.max(a, Math.min(b, h)));
+    if (a <= h && b > h) out.push(HERO);
+    const start = Math.max(a, h + n) - n;
+    const end = b - n;
+    if (end > start) out.push(...list.slice(start, end));
+    return out;
+  }
+  $: visibleItems = sliceSlots(filteredIcons, firstRow * cols, lastRow * cols, heroSlot, heroSpan);
+  $: visibleIcons = visibleItems.filter((item) => item !== HERO);
+  $: padTop = firstRow * rowHeight;
+  $: padBottom = Math.max(0, (totalRows - lastRow) * rowHeight);
+  $: loadChunksFor(visibleIcons);
 
-  // When filtered icons change (e.g., due to search), preload first batch
-  afterUpdate(() => {
-    // Check if search changed or filtered icons changed
-    if (search !== previousSearch || filteredIcons.length !== previousFilteredLength) {
-      previousSearch = search;
-      previousFilteredLength = filteredIcons.length;
-
-      // Mobile optimization: smaller preload batch for search results
-      const preloadCount = isMobile ? 15 : 50;
-
-      // Load first batch of filtered icons that don't have SVG loaded yet
-      // This ensures icons are ready when they become visible
-      const iconsToLoad = filteredIcons
-        .filter(icon => !icon.svg && icon.path)
-        .slice(0, preloadCount);
-
-      if (iconsToLoad.length > 0) {
-        // Use requestIdleCallback to avoid blocking UI on mobile
-        const loadIcons = () => {
-          Promise.all(iconsToLoad.map(icon => ensureSVGLoaded(icon))).then(() => {
-            allIcons = [...allIcons];
-          });
-        };
-
-        if (isMobile && 'requestIdleCallback' in window) {
-          requestIdleCallback(loadIcons, { timeout: 200 });
-        } else {
-          setTimeout(loadIcons, 0);
-        }
-      }
-    }
-  });
+  // A new filter can change the grid's height: re-measure after it renders
+  $: filteredIcons, size, typeof window !== 'undefined' && onScrollOrResize();
 
   $: totalIcons = allIcons.length;
+  // How many icons the search box searches: all of them, or only those in the
+  // selected categories (an icon in two selected categories counts once)
+  $: searchableCount = selectedCategories.length
+    ? allIcons.filter((icon) => {
+        const iconCats = Array.isArray(icon.categories) ? icon.categories : (icon.category ? [icon.category] : []);
+        return iconCats.some((c) => selectedCategories.includes(c));
+      }).length
+    : totalIcons;
+  $: categoryCounts = allIcons.reduce((counts, icon) => {
+    for (const c of icon.categories || []) counts[c] = (counts[c] || 0) + 1;
+    return counts;
+  }, {});
 </script>
 
 <style>
@@ -462,9 +465,7 @@
     justify-content: center;
     position: relative;
     cursor: pointer;
-    /* CSS containment for performance - isolates layout/style/paint calculations */
-    contain: layout style paint;
-    /* Content visibility - skip rendering off-screen icons */
+    contain: layout style;
     content-visibility: auto;
     contain-intrinsic-size: 100px 100px;
   }
@@ -523,16 +524,19 @@
 
   /* Mobile-specific optimizations */
   @media (max-width: 768px) {
-    .icon-container {
-      /* Stronger containment on mobile */
-      contain: strict;
-    }
-
     .icon-skeleton-frame {
       animation-duration: 1s;
     }
   }
   
+  /* Hover / press / open-in-sheet backgrounds (CSS, so they follow the theme) */
+  .icon-container:hover { background-color: #f1f5f9; }
+  .icon-container:active { background-color: #cbd5e1; }
+  .icon-container.selected { background-color: #e2e8f0; }
+  :global(html.dark) .icon-container:hover { background-color: rgb(30 41 59); }
+  :global(html.dark) .icon-container:active { background-color: rgb(51 65 85); }
+  :global(html.dark) .icon-container.selected { background-color: rgb(30 41 59); }
+
   /* Visible focus indicator for keyboard navigation */
   .icon-container:focus-visible {
     outline: 3px solid #0900FF;
@@ -704,35 +708,39 @@
   {/if}
 </div>
 
-<ActionsBar bind:search bind:size bind:weight bind:selectedCategory {totalIcons} {categories} />
+<ActionsBar bind:search bind:size bind:weight bind:color={iconColor} bind:selectedCategories {totalIcons} {searchableCount} {categories} {categoryCounts} />
 <div class="pb-4 pt-12 sm:px-14 w-full max-w-full overflow-hidden mobile-content" id="main-content" tabindex="-1">
 
   <div class="mb-8">
       {#if currentIcons.length > 0}
-          {#if filteredIcons.length === 0 && search}
+          {#if filteredIcons.length === 0 && filtering}
             <div class="flex items-center justify-center py-16">
-              <p class="text-gray-600 text-sm">No icons found for "{search}"</p>
+              <p class="text-gray-600 text-sm">
+                No icons found{search ? ` for "${search}"` : ''}{selectedCategories.length ? ` in ${selectedCategories.join(', ')}` : ''}
+              </p>
             </div>
           {:else}
+              <div bind:this={gridWrapper} style="padding-top: {padTop}px; padding-bottom: {padBottom}px;">
               <div
+                  bind:this={gridEl}
                   class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12 gap-y-10 sm:gap-x-4 justify-items-center"
                   role="list"
                   aria-label="Icon grid"
-                  style="--icon-size: {size}px; --stroke-width: {weight}px;"
+                  style="--icon-size: {size}px; --stroke-width: {weight}px;{iconColor ? ` color: ${iconColor};` : ''}"
               >
                   <!-- Hero text block - responsive column spans -->
-                  {#if !search}
-                  <div class="hero-text-cols row-span-1 sm:row-span-1 flex items-center justify-center sm:p-4 text-grid-cell">
-                    <p class="text-xs font-normal leading-relaxed text-black text-start">
-                        <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="/about">
-                            The most complete, accessible,<br>inclusive and diverse icon library.
-                        </a>
-                    </p>
-                  </div>
-                  {/if}
 
-                  {#each filteredIcons as icon, index (icon.path)}
-                      {#if index === 8 && !search}
+                  {#each visibleItems as icon, index (icon.path)}
+                    {#if icon === HERO}
+                      <div class="hero-text-cols flex items-center justify-center text-center sm:p-4 text-grid-cell" style="grid-column: span {heroSpan};">
+                        <p class="text-sm font-normal leading-relaxed text-black text-center">
+                          <a class="text-inherit hover:text-indigo-500 transition-all duration-200 ease-in-out" href="{base}/about">
+                            Icons made with conviction. <br>Multiple designs per concept. <br>For designers who refuse to settle.
+                          </a>
+                        </p>
+                      </div>
+                    {:else}
+                      {#if index === 8 && !search && false}
                         <!-- Attribution text - positioned based on grid columns -->
                         <!-- 4 col: 2,4-4,4 | 6 col: 5,3-6,3 | 8 col: 7,3-8,3 | 12 col: 10,4-11,4 -->
                         <div class="col-span-2 row-span-2 col-start-3 row-start-4
@@ -747,24 +755,24 @@
                         </div>
                       {/if}
                       <div class="flex flex-col items-center icon-item" role="listitem">
-                          <div 
-                              class="icon-container rounded-lg p-1 transition-colors hover:bg-slate-100 active:bg-slate-300" 
-                              use:lazyLoadIcon={icon}
-                              on:click={() => handleIconDownload(icon)}
+                          <div
+                              class="icon-container rounded-lg p-1 {selectedIcon === icon ? 'selected' : ''}"
+                              on:click={() => selectIcon(icon)}
                               role="button"
                               tabindex="0"
-                              aria-label="Download {icon.name} icon"
+                              aria-label="{icon.name} icon"
+                              aria-pressed={selectedIcon === icon}
                               on:keydown={(e) => {
                                 if (e.key === 'Enter' || e.key === ' ') {
                                   e.preventDefault();
-                                  handleIconDownload(icon);
+                                  selectIcon(icon);
                                 }
                               }}
                           >
                               <div
                                   class="icon-wrapper"
                               >
-                                  {#if icon.svg}
+                                  {#if svgTick >= 0 && icon.svg}
                                       {@html getNormalizedSVG(icon)}
                                   {:else}
                                       <div class="icon-skeleton" aria-hidden="true">
@@ -796,9 +804,15 @@
                           </div>
                           <div class="icon-tooltip" aria-hidden="true">{icon.displayName || icon.name}</div>
                       </div>
+                    {/if}
                   {/each}
+              </div>
               </div>
               {/if}
       {/if}
   </div>
 </div>
+
+{#if selectedIcon}
+  <IconDetail icon={selectedIcon} {size} {weight} color={iconColor} defaultInk={$theme === 'dark' ? '#F8FAFC' : '#000000'} onClose={closeDetail} />
+{/if}

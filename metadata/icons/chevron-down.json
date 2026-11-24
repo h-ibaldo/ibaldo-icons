@@ -1,0 +1,36 @@
+{
+  "name": "ChevronDown",
+  "displayName": "Chevron down",
+  "description": "Chevron pointing down.",
+  "tags": [
+    "chevron",
+    "caret",
+    "down",
+    "south",
+    "navigation",
+    "expand",
+    "collapse"
+  ],
+  "categories": [
+    "arrows",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Chevron down"
+  },
+  "filename": "chevron-down",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:31:48.514Z"
+}

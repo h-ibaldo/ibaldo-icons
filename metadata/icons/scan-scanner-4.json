@@ -1,16 +1,15 @@
 {
-  "name": "Scanner4",
+  "name": "ScannerBox",
   "description": "A scanner icon in its fourth variant style for document and image scanning operations.",
   "tags": [
-    "scan",
     "scanner",
+    "scan",
     "document",
     "imaging",
     "capture",
-    "variant4"
+    "box"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scanner box",
+  "aliases": [
+    "Scanner4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

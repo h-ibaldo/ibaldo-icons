@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsRectangleX",
-  "displayName": "Chart vertical columns rectangle x",
+  "name": "ChartBarSquareX",
+  "displayName": "Chart bar square X",
   "originalTitle": "Chart Vertical Columns Rectangle X Delete Error",
   "description": "Column chart with X indicator for deletion or error states. Used for removing chart data or indicating chart processing errors in analytics applications.",
   "tags": [
     "chart",
-    "column",
+    "vertical",
+    "columns",
+    "rectangle",
     "delete",
     "error",
+    "close",
     "remove",
+    "column",
     "cancel",
     "data",
     "management"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.759Z"
+  "generatedAt": "2026-02-15T00:53:19.759Z",
+  "aliases": [
+    "ChartVerticalColumnsRectangleX"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

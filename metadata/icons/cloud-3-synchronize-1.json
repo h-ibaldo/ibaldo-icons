@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Sync2",
+  "name": "CloudSyncRound",
   "description": "A cloud icon with a synchronize symbol indicating cloud data synchronization or real-time updates",
   "tags": [
     "cloud",
@@ -9,12 +9,12 @@
     "update",
     "realtime",
     "transfer",
-    "data"
+    "data",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud sync round",
+  "aliases": [
+    "Cloud3Sync2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,18 +1,20 @@
 {
-  "name": "PageViewContent",
+  "name": "LayoutListDotted",
   "description": "An icon representing a page view focused on content display and reading",
   "tags": [
+    "layout",
     "page",
     "view",
     "content",
     "display",
     "read",
     "document",
-    "article"
+    "article",
+    "list",
+    "dotted"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout list dotted",
+  "aliases": [
+    "PageViewContent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

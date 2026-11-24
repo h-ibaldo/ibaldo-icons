@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Network1",
+  "name": "CloudNetworkRound",
   "description": "A cloud icon with network nodes or connections representing cloud networking, distributed systems, or cloud infrastructure",
   "tags": [
     "cloud",
@@ -9,11 +9,12 @@
     "infrastructure",
     "distributed",
     "system",
-    "topology"
+    "topology",
+    "round"
   ],
   "categories": [
-    "interface",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud network round",
+  "aliases": [
+    "Cloud3Network1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

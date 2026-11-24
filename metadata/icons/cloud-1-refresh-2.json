@@ -1,5 +1,5 @@
 {
-  "name": "CloudRefreshSecond",
+  "name": "CloudRefreshCorner",
   "description": "A cloud icon with an alternate refresh indicator showing cloud synchronization with circular arrows",
   "tags": [
     "cloud",
@@ -8,10 +8,12 @@
     "synchronize",
     "circular",
     "update",
-    "reload"
+    "reload",
+    "corner"
   ],
   "categories": [
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud refresh corner",
+  "aliases": [
+    "CloudRefreshSecond"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

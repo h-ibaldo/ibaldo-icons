@@ -1,21 +1,23 @@
 {
-  "name": "AtSign2One",
-  "displayName": "At sign 2 one",
+  "name": "AtOne",
+  "displayName": "At one",
   "originalTitle": "At Sign Email Contact Address 2 Number One 1",
   "description": "Email address symbol with number one indicating primary email, first contact, or priority email address. Used for primary contacts, main email addresses, or priority messaging.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "number",
     "primary",
     "first",
     "priority",
     "main",
-    "contact",
-    "address",
-    "number"
+    "one"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.778Z"
+  "generatedAt": "2026-02-15T00:53:19.778Z",
+  "aliases": [
+    "AtSign2One"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

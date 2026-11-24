@@ -1,5 +1,5 @@
 {
-  "name": "Folder15",
+  "name": "FolderSide",
   "description": "A folder icon variant 15 representing file storage and document organization.",
   "tags": [
     "folder",
@@ -9,11 +9,10 @@
     "documents",
     "organize",
     "archive",
-    "15"
+    "side"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder side",
+  "aliases": [
+    "Folder15"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

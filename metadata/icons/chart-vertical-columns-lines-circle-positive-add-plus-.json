@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsLinesCirclePlus",
-  "displayName": "Chart vertical columns lines circle plus",
+  "name": "ChartBarCirclePlusThin",
+  "displayName": "Chart bar circle plus thin",
   "originalTitle": "Chart Vertical Columns Lines Circle Positive Add Plus",
   "description": "Combined column and line chart with plus indicator for adding data points or expanding chart elements. Used to represent data addition or chart enhancement functionality.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
-    "lines",
-    "plus",
+    "positive",
     "add",
+    "create",
+    "plus",
     "expand",
     "enhance",
-    "analytics"
+    "analytics",
+    "bar",
+    "circle"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.756Z"
+  "generatedAt": "2026-02-15T00:53:19.756Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesCirclePlus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

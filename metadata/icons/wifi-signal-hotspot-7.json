@@ -1,20 +1,21 @@
 {
-  "name": "WifiSignal7",
+  "name": "HotspotSidesStem",
   "description": "A wifi signal strength icon displaying seven bars for superior network connectivity status",
   "tags": [
+    "hotspot",
     "wifi",
     "signal",
-    "hotspot",
     "connection",
     "network",
     "bars",
     "strength",
     "superior",
-    "wireless"
+    "wireless",
+    "sides",
+    "stem"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hotspot sides stem",
+  "aliases": [
+    "WifiSignal7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

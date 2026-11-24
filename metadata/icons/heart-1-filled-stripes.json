@@ -1,5 +1,5 @@
 {
-  "name": "Heart1Striped",
+  "name": "HeartStripedAngular",
   "description": "A filled heart icon with horizontal stripe pattern, representing affection with a textured design variant.",
   "tags": [
     "heart",
@@ -7,10 +7,11 @@
     "stripes",
     "pattern",
     "love",
-    "favorite"
+    "favorite",
+    "striped",
+    "angular"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Heart striped angular",
+  "aliases": [
+    "Heart1Striped"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

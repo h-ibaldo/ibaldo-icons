@@ -1,17 +1,17 @@
 {
-  "name": "Cloud2",
+  "name": "CloudTall",
   "description": "A basic cloud icon representing cloud services or cloud storage",
   "tags": [
     "cloud",
     "storage",
     "service",
     "weather",
-    "sky"
+    "sky",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "weather"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud tall",
+  "aliases": [
+    "Cloud2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

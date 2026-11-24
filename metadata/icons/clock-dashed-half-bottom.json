@@ -1,0 +1,35 @@
+{
+  "name": "ClockDashedHalfBottom",
+  "displayName": "Clock dashed half bottom",
+  "description": "Clock face with hands pointing to twelve and four, outlined with dashes on the left and along the bottom and a solid right side.",
+  "tags": [
+    "clock",
+    "time",
+    "hour",
+    "dashed",
+    "progress",
+    "loading",
+    "in-progress"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Time progress"
+  },
+  "filename": "clock-dashed-half-bottom",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

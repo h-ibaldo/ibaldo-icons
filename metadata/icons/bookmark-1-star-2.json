@@ -1,16 +1,15 @@
 {
-  "name": "BookmarkStar2",
+  "name": "BookmarkStar",
   "description": "A bookmark icon with a double star indicating favorite or important saved content",
   "tags": [
     "bookmark",
     "star",
     "favorite",
-    "favorite",
-    "rating"
+    "rating",
+    "icon-ui"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark star",
+  "aliases": [
+    "BookmarkStar2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

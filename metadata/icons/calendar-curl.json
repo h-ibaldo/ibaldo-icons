@@ -1,0 +1,35 @@
+{
+  "name": "CalendarCurl",
+  "displayName": "Calendar curl",
+  "description": "Calendar whose bottom page curls up at the right like a scroll.",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "event",
+    "page",
+    "tear-off",
+    "day"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Calendar"
+  },
+  "filename": "calendar-curl",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

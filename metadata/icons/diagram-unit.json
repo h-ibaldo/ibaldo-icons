@@ -1,21 +1,21 @@
 {
-  "name": "DiagramUnit",
-  "displayName": "Diagram unit",
+  "name": "DiagramGrid",
+  "displayName": "Diagram grid",
   "originalTitle": "Diagram Unit",
   "description": "Single unit or component diagram representing an individual element. Used to show basic building blocks or standalone components in system architecture.",
   "tags": [
+    "diagram",
     "unit",
     "component",
     "element",
     "block",
     "module",
-    "diagram",
     "basic",
-    "single"
+    "single",
+    "grid"
   ],
   "categories": [
-    "development",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.760Z"
+  "generatedAt": "2026-02-15T00:53:19.760Z",
+  "aliases": [
+    "DiagramUnit"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

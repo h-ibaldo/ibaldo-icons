@@ -1,14 +1,16 @@
 {
-  "name": "PopUp7",
+  "name": "PopoverListUp",
   "description": "A pop-up window icon representing the seventh variant of modal dialog display",
   "tags": [
+    "popover",
+    "pop",
     "pop-up",
     "modal",
     "dialog",
     "window",
     "interface",
-    "variant",
-    "7"
+    "list",
+    "up"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Popover list up",
+  "aliases": [
+    "PopUp7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

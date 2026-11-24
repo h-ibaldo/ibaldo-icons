@@ -1,15 +1,16 @@
 {
-  "name": "TabAddCircle",
+  "name": "TabPlusCircleStep",
   "description": "A tab interface icon with a plus symbol within a circle indicating addition or new tab creation.",
   "tags": [
     "tab",
     "positive",
     "add",
+    "create",
     "plus",
     "circle",
-    "create",
     "new",
-    "insert"
+    "insert",
+    "step"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab plus circle step",
+  "aliases": [
+    "TabAddCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

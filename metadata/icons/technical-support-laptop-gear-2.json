@@ -1,14 +1,16 @@
 {
-  "name": "TechnicalSupportLaptopGear22",
+  "name": "LaptopSettingsFlat",
   "description": "An icon representing technical support laptop gear 2",
   "tags": [
+    "laptop",
     "technical",
     "support",
-    "laptop",
-    "gear"
+    "gear",
+    "settings",
+    "flat"
   ],
   "categories": [
-    "interface"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -25,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop settings flat",
+  "aliases": [
+    "TechnicalSupportLaptopGear22"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

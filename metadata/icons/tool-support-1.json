@@ -1,7 +1,8 @@
 {
-  "name": "ToolSupport1",
+  "name": "Wrench",
   "description": "A tool icon for support functionality in the first variant style",
   "tags": [
+    "wrench",
     "tool",
     "support",
     "help",
@@ -9,8 +10,7 @@
     "service"
   ],
   "categories": [
-    "business",
-    "interface"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Wrench",
+  "aliases": [
+    "ToolSupport1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

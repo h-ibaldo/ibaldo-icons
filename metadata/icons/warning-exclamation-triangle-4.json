@@ -1,5 +1,5 @@
 {
-  "name": "WarningTriangleAlt3",
+  "name": "WarningSmall",
   "description": "A third variant of the triangle warning icon with exclamation mark for flexible warning scenarios",
   "tags": [
     "warning",
@@ -8,11 +8,10 @@
     "alert",
     "caution",
     "notice",
-    "variant"
+    "small"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Warning small",
+  "aliases": [
+    "WarningTriangleAlt3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "RotateScreen3",
+  "name": "RotateScreenBezel",
   "description": "A third style variant of the screen rotation icon indicating display orientation change.",
   "tags": [
     "rotate",
@@ -7,11 +7,11 @@
     "orientation",
     "landscape",
     "display",
-    "device"
+    "device",
+    "bezel"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Rotate screen bezel",
+  "aliases": [
+    "RotateScreen3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,17 @@
 {
-  "name": "WindowDockingHorizontal",
+  "name": "DockHorizontal",
   "description": "A window docking icon for horizontal docking orientation and side-by-side arrangement",
   "tags": [
+    "dock",
     "window",
     "docking",
     "horizontal",
-    "dock",
-    "side by side",
+    "side-by-side",
     "layout",
     "arrange"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Dock horizontal",
+  "aliases": [
+    "WindowDockingHorizontal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

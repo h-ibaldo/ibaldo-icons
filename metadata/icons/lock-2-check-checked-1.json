@@ -1,19 +1,19 @@
 {
-  "name": "Lock2Check",
+  "name": "LockCheck",
   "description": "A variant 2 lock icon with a checkmark indicating verified secure or authenticated status",
   "tags": [
     "lock",
-    "check",
     "checked",
-    "secure",
+    "done",
+    "success",
     "verified",
-    "variant",
+    "check",
+    "secure",
     "checkmark",
     "approved"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock check",
+  "aliases": [
+    "Lock2Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

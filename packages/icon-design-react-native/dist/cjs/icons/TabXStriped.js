@@ -1,0 +1,38 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Line, Path } = RNSvg;
+
+const TabXStriped = forwardRef(function TabXStriped(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M13.050537104490104,21.997565477288845H4.050537104500108c-1.104569499670106,0-2-.895430500338989-2-2V3.997565477288845c0-1.104569499661011.895430500329894-2,2-2h2c.62951460666045,0,1.222291235999364.296388314666729,1.59999999998945.799999999999272l2.100000000010368,2.799999999999272c.188854381990495.251805842668546.485242696659952.400000000001455.800000000000182.400000000001455h9.5c1.104569499660101,0,2,.895430500338989,2,2v5","key":"0"}),
+    createElement(Path, {"d":"M6.050537104500108,1.997565477288845h6c.62951460666045,0,1.222291235999364.296388314666729,1.59999999998945.799999999999272l2.40000000001055,3.200000000000728","key":"1"}),
+    createElement(Path, {"d":"M12.050537104500108,1.997565477288845h6c.62951460666045,0,1.222291235999364.296388314666729,1.59999999998945.799999999999272l1.800000000000182,2.400000000001455c.389466384410298.519288512537059.600000000010368,1.150889359323628.600000000010368,1.799999999999272v1","key":"2"}),
+    createElement(Line, {"x1":"17.050537104500108","y1":"16.997565477288845","x2":"22.050537104500108","y2":"21.997565477288845","key":"3"}),
+    createElement(Line, {"x1":"22.050537104500108","y1":"16.997565477288845","x2":"17.050537104500108","y2":"21.997565477288845","key":"4"})
+  );
+});
+
+TabXStriped.displayName = 'TabXStriped';
+
+module.exports = TabXStriped;
+module.exports.TabXStriped = TabXStriped;
+module.exports.default = TabXStriped;

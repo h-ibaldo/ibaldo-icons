@@ -1,17 +1,21 @@
 {
-  "name": "CheckMarkDouble1",
-  "displayName": "Check mark double 1",
+  "name": "CheckDoubleJoined",
+  "displayName": "Check double joined",
   "originalTitle": "Check Mark Double Verified 1",
   "description": "Double check mark symbol indicating verified or premium status. Represents enhanced verification, premium accounts, or double-confirmed actions.",
   "tags": [
     "check",
-    "double",
+    "mark",
     "verified",
+    "done",
+    "success",
+    "double",
     "premium",
     "confirmed",
     "validated",
     "authenticated",
-    "trusted"
+    "trusted",
+    "joined"
   ],
   "categories": [
     "interface"
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.791Z"
+  "generatedAt": "2026-02-15T00:53:19.791Z",
+  "aliases": [
+    "CheckMarkDouble1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

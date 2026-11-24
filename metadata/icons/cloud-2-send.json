@@ -1,5 +1,5 @@
 {
-  "name": "Cloud2Send",
+  "name": "CloudSendTall",
   "description": "A cloud icon with a send or share symbol representing cloud-based data transmission or sharing.",
   "tags": [
     "cloud",
@@ -8,11 +8,11 @@
     "transmit",
     "communication",
     "data",
-    "export"
+    "export",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "communication",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud send tall",
+  "aliases": [
+    "Cloud2Send"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

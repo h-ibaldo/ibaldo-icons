@@ -1,21 +1,24 @@
 {
-  "name": "BadgeCheck7",
-  "displayName": "Badge check 7",
+  "name": "BadgeCheckPointed",
+  "displayName": "Badge check pointed",
   "originalTitle": "Badge Rosette Checkmark Approved Verified 7",
   "description": "Premium verification badge with checkmark for high-quality or elite status indicators. Used for top-tier accounts or products.",
   "tags": [
     "badge",
+    "rosette",
     "checkmark",
+    "approved",
+    "verified",
+    "done",
+    "success",
     "premium",
     "elite",
-    "verified",
     "high-quality",
     "top-tier",
     "exclusive"
   ],
   "categories": [
-    "interface",
-    "business"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.739Z"
+  "generatedAt": "2026-02-15T00:53:19.739Z",
+  "aliases": [
+    "BadgeCheck7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

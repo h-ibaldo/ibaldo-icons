@@ -1,13 +1,12 @@
 {
-  "name": "Scroll1",
+  "name": "Scroll",
   "description": "A scroll icon representing the first variant for scrolling or document content.",
   "tags": [
     "scroll",
     "document",
     "content",
     "page",
-    "parchment",
-    "variant1"
+    "parchment"
   ],
   "categories": [
     "interface"
@@ -27,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scroll",
+  "aliases": [
+    "Scroll1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

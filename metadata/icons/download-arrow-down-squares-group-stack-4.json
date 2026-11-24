@@ -1,5 +1,5 @@
 {
-  "name": "DownloadArrowSquareStackThree",
+  "name": "DownloadSquareStackOpen2",
   "description": "A third stacked square variant of the download arrow icon with enhanced grouped container representation",
   "tags": [
     "download",
@@ -9,10 +9,11 @@
     "group",
     "stack",
     "multiple",
-    "variant"
+    "square"
   ],
   "categories": [
-    "interface"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download square stack open2",
+  "aliases": [
+    "DownloadArrowSquareStackThree"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

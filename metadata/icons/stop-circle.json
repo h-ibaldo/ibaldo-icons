@@ -1,0 +1,37 @@
+{
+  "name": "StopCircle",
+  "displayName": "Stop circle",
+  "description": "Square stop symbol inside a circle.",
+  "tags": [
+    "stop",
+    "end",
+    "halt",
+    "player",
+    "video",
+    "audio",
+    "media",
+    "circle",
+    "round"
+  ],
+  "categories": [
+    "media"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Stop"
+  },
+  "filename": "stop-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T16:04:08.263Z"
+}

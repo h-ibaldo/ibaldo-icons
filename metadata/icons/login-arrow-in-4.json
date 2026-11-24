@@ -1,19 +1,18 @@
 {
-  "name": "LoginArrowIn4",
+  "name": "LoginSquare",
   "description": "A fourth variant of login with inward arrow for diverse authentication or session entry contexts",
   "tags": [
     "login",
     "arrow",
-    "in",
-    "sign in",
+    "sign-in",
     "enter",
-    "variant",
     "access",
-    "authentication"
+    "authentication",
+    "square"
   ],
   "categories": [
-    "interface",
-    "security"
+    "security",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Login square",
+  "aliases": [
+    "LoginArrowIn4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

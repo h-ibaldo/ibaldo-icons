@@ -1,5 +1,5 @@
 {
-  "name": "TrashDelete1",
+  "name": "TrashLid",
   "description": "A basic trash can icon representing delete or removal functionality",
   "tags": [
     "trash",
@@ -8,10 +8,10 @@
     "bin",
     "discard",
     "disposal",
-    "waste"
+    "waste",
+    "lid"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash lid",
+  "aliases": [
+    "TrashDelete1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

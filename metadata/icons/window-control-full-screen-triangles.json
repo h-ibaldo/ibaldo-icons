@@ -1,19 +1,20 @@
 {
-  "name": "WindowControlFullscreen2",
+  "name": "FullscreenTriangles",
   "description": "A window control icon for expanding to full screen using triangle directional indicators",
   "tags": [
+    "fullscreen",
     "window",
     "control",
-    "full screen",
-    "fullscreen",
+    "full",
+    "screen",
+    "full-screen",
     "expand",
     "triangles",
     "maximize",
     "interface"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Fullscreen triangles",
+  "aliases": [
+    "WindowControlFullscreen2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

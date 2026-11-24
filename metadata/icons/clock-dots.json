@@ -1,5 +1,5 @@
 {
-  "name": "ClockDots",
+  "name": "ClockDotted",
   "description": "A clock icon with dots or ellipsis representing loading, timing, or pending time-based operations",
   "tags": [
     "clock",
@@ -8,11 +8,11 @@
     "time",
     "loading",
     "pending",
-    "process"
+    "process",
+    "dotted"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock dotted",
+  "aliases": [
+    "ClockDots"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

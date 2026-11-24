@@ -1,18 +1,21 @@
 {
-  "name": "TranslationLanguagesArrows1",
+  "name": "TranslateSync",
   "description": "A translation icon with directional arrows representing language conversion and bidirectional exchange.",
   "tags": [
+    "translate",
     "translation",
     "languages",
     "arrows",
+    "synchronize",
     "exchange",
     "bilingual",
     "conversion",
-    "communication"
+    "communication",
+    "sync"
   ],
   "categories": [
     "communication",
-    "interface"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Translate sync",
+  "aliases": [
+    "TranslationLanguagesArrows1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

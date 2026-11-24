@@ -1,10 +1,10 @@
 {
-  "name": "WallpaperPictureDashed",
+  "name": "ImageDashed",
   "description": "A wallpaper or picture icon with a dashed border outline for image selection or gallery display",
   "tags": [
+    "image",
     "wallpaper",
     "picture",
-    "image",
     "dashed",
     "border",
     "outline",
@@ -12,7 +12,6 @@
     "frame"
   ],
   "categories": [
-    "interface",
     "media",
     "files"
   ],
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Image dashed",
+  "aliases": [
+    "WallpaperPictureDashed"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

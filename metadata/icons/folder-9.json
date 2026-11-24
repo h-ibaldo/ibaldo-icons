@@ -1,5 +1,5 @@
 {
-  "name": "Folder9",
+  "name": "FolderInner",
   "description": "A folder icon in variant 9 style for file and directory organization.",
   "tags": [
     "folder",
@@ -7,11 +7,10 @@
     "file",
     "storage",
     "organization",
-    "variant9"
+    "inner"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder inner",
+  "aliases": [
+    "Folder9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

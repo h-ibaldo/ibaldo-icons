@@ -1,0 +1,37 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+
+const RocketBare = forwardRef(function RocketBare(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M2 20.461L2 22L3.539 22C4.969 22 6.203 20.992 6.48 19.59L7 17L4.41 17.52C3.008 17.797 2 19.031 2 20.461Z","key":"0"}),
+    createElement('path', {"d":"M12 18L16.074 14.48C19.254 11.59 21.293 7.656 21.824 3.395L22 2L20.605 2.176C16.344 2.707 12.41 4.746 9.52 7.926L6 12Z","key":"1"}),
+    createElement('path', {"d":"M12 6L18 12","key":"2"}),
+    createElement('path', {"d":"M17 14L18 18L13 22L12 18","key":"3"}),
+    createElement('path', {"d":"M10 7L6 6L2 11L6 12","key":"4"})
+  );
+});
+
+RocketBare.displayName = 'RocketBare';
+
+module.exports = RocketBare;
+module.exports.RocketBare = RocketBare;
+module.exports.default = RocketBare;

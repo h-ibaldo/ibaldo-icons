@@ -1,5 +1,5 @@
 {
-  "name": "RotateScreen4",
+  "name": "RotateScreenSpeaker",
   "description": "A fourth style variant of the screen rotation icon for device display orientation control.",
   "tags": [
     "rotate",
@@ -7,11 +7,11 @@
     "orientation",
     "landscape",
     "display",
-    "device"
+    "device",
+    "speaker"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Rotate screen speaker",
+  "aliases": [
+    "RotateScreen4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

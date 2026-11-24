@@ -1,0 +1,36 @@
+{
+  "name": "RecordOffCircle",
+  "displayName": "Record off circle",
+  "description": "Record dot crossed by a diagonal slash inside a circle.",
+  "tags": [
+    "record",
+    "recording-off",
+    "stop-recording",
+    "no-recording",
+    "disabled",
+    "media",
+    "circle",
+    "round"
+  ],
+  "categories": [
+    "media"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Recording off"
+  },
+  "filename": "record-off-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T16:04:08.263Z"
+}

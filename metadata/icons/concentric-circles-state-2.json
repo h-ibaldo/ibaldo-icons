@@ -1,19 +1,20 @@
 {
-  "name": "ConcentricCirclesState2",
+  "name": "CircleConcentricLarge",
   "description": "A concentric circles icon representing the second state in a multi-state progression indicator",
   "tags": [
-    "concentric",
+    "circle",
     "circles",
     "state",
+    "concentric",
     "progression",
-    "2",
     "nested",
     "rings",
-    "level"
+    "level",
+    "large",
+    "circle-letter-o"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Circle concentric large",
+  "aliases": [
+    "ConcentricCirclesState2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T22:46:35.000Z"
 }

@@ -1,0 +1,3654 @@
+{
+  "new-icon-set-04-p0001": {
+    "name": "BetweenHorizontalEnd",
+    "displayName": "Between horizontal end",
+    "description": "Two stacked boxes with a chevron pointing left on their right side: insert between rows.",
+    "tags": [
+      "between",
+      "insert",
+      "rows",
+      "chevron",
+      "layout",
+      "between-horizontal-end"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Insert between"
+    }
+  },
+  "new-icon-set-04-p0002": {
+    "name": "BetweenHorizontalStart",
+    "displayName": "Between horizontal start",
+    "description": "Two stacked boxes with a chevron pointing right on their left side: insert between rows.",
+    "tags": [
+      "between",
+      "insert",
+      "rows",
+      "chevron",
+      "layout",
+      "between-horizontal-start"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Insert between"
+    }
+  },
+  "new-icon-set-04-p0003": {
+    "name": "ChartCandlestickTwo2",
+    "displayName": "Chart candlestick two 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "align",
+      "distribute",
+      "design",
+      "tool",
+      "editing"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Align"
+    },
+    "hold": "same drawing as library ChartCandlestickTwo"
+  },
+  "new-icon-set-04-p0004": {
+    "name": "BetweenVerticalStart",
+    "displayName": "Between vertical start",
+    "description": "Two side-by-side boxes with a chevron pointing down above them: insert between columns.",
+    "tags": [
+      "between",
+      "insert",
+      "columns",
+      "chevron",
+      "layout",
+      "between-vertical-start"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Insert between"
+    }
+  },
+  "new-icon-set-04-p0005": {
+    "name": "BetweenVerticalEnd",
+    "displayName": "Between vertical end",
+    "description": "Two side-by-side boxes with a chevron pointing up below them: insert between columns.",
+    "tags": [
+      "between",
+      "insert",
+      "columns",
+      "chevron",
+      "layout",
+      "between-vertical-end"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Insert between"
+    }
+  },
+  "new-icon-set-04-p0006": {
+    "name": "Bar",
+    "displayName": "Bar",
+    "description": "Unclear drawing kept out of the import.",
+    "tags": [
+      "bar",
+      "design",
+      "tool",
+      "editing",
+      "symbol"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bar"
+    },
+    "hold": "a lone small bar: unclear what it is, ask Henrique"
+  },
+  "new-icon-set-04-p0007": {
+    "name": "Brush",
+    "displayName": "Brush",
+    "description": "Round artist brush, diagonal, with a pointed tip.",
+    "tags": [
+      "brush",
+      "paint",
+      "art",
+      "draw",
+      "design"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Brush"
+    }
+  },
+  "new-icon-set-04-p0008": {
+    "name": "MegaphoneHandle",
+    "displayName": "Megaphone handle",
+    "description": "Megaphone pointing right with a handle below it.",
+    "tags": [
+      "megaphone",
+      "announce",
+      "marketing",
+      "loud",
+      "broadcast"
+    ],
+    "categories": [
+      "communication",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Announcement"
+    }
+  },
+  "new-icon-set-04-p0009": {
+    "name": "BrushThick",
+    "displayName": "Brush thick",
+    "description": "Round artist brush with a thick handle, diagonal, with a pointed tip.",
+    "tags": [
+      "brush",
+      "paint",
+      "art",
+      "draw",
+      "thick"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Brush"
+    }
+  },
+  "new-icon-set-04-p0010": {
+    "name": "PaintbrushVertical",
+    "displayName": "Paintbrush vertical",
+    "description": "Flat house paintbrush upright, with bristle lines.",
+    "tags": [
+      "paintbrush",
+      "paint",
+      "brush",
+      "decorate",
+      "vertical",
+      "paintbrush-vertical"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paintbrush"
+    }
+  },
+  "new-icon-set-04-p0011": {
+    "name": "PaintbrushVerticalDipped",
+    "displayName": "Paintbrush vertical dipped",
+    "description": "Flat house paintbrush upright, with a slanted paint line across the bristles.",
+    "tags": [
+      "paintbrush",
+      "paint",
+      "brush",
+      "dipped",
+      "vertical",
+      "paintbrush-vertical"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paintbrush"
+    }
+  },
+  "new-icon-set-04-p0012": {
+    "name": "PaintbrushVerticalCurl",
+    "displayName": "Paintbrush vertical curl",
+    "description": "Flat house paintbrush upright, with curled paint on the bristles.",
+    "tags": [
+      "paintbrush",
+      "paint",
+      "brush",
+      "vertical",
+      "paintbrush-vertical"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paintbrush"
+    }
+  },
+  "new-icon-set-04-p0013": {
+    "name": "Paintbrush",
+    "displayName": "Paintbrush",
+    "description": "Flat house paintbrush, diagonal, with a band across the bristles.",
+    "tags": [
+      "paintbrush",
+      "paint",
+      "brush",
+      "decorate",
+      "design"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paintbrush"
+    }
+  },
+  "new-icon-set-04-p0014": {
+    "name": "PaintbrushStroke",
+    "displayName": "Paintbrush stroke",
+    "description": "Flat house paintbrush, diagonal, with a curved paint stroke on the bristles.",
+    "tags": [
+      "paintbrush",
+      "paint",
+      "brush",
+      "stroke",
+      "design"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paintbrush"
+    }
+  },
+  "new-icon-set-04-p0015": {
+    "name": "DraftingCompass",
+    "displayName": "Drafting compass",
+    "description": "Drafting compass with two legs and a cross bar.",
+    "tags": [
+      "compass",
+      "drafting",
+      "geometry",
+      "draw",
+      "circle",
+      "divider",
+      "drafting-compass"
+    ],
+    "categories": [
+      "media",
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Drafting compass"
+    }
+  },
+  "new-icon-set-04-p0016": {
+    "name": "DraftingCompassArc",
+    "displayName": "Drafting compass arc",
+    "description": "Drafting compass with two legs and an arc between them.",
+    "tags": [
+      "compass",
+      "drafting",
+      "geometry",
+      "draw",
+      "arc",
+      "divider",
+      "drafting-compass"
+    ],
+    "categories": [
+      "media",
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Drafting compass"
+    }
+  },
+  "new-icon-set-04-p0017": {
+    "name": "EraserBare",
+    "displayName": "Eraser bare",
+    "description": "Rounded eraser block tilted on a line, without a band.",
+    "tags": [
+      "eraser",
+      "erase",
+      "delete",
+      "rubber",
+      "clear"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Eraser"
+    }
+  },
+  "new-icon-set-04-p0018": {
+    "name": "Eraser",
+    "displayName": "Eraser",
+    "description": "Eraser block tilted on a line, with a band across it.",
+    "tags": [
+      "eraser",
+      "erase",
+      "delete",
+      "rubber",
+      "clear"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Eraser"
+    }
+  },
+  "new-icon-set-04-p0019": {
+    "name": "EraserRound",
+    "displayName": "Eraser round",
+    "description": "Eraser block with rounded corners tilted above a line, with a band across it.",
+    "tags": [
+      "eraser",
+      "erase",
+      "delete",
+      "rubber",
+      "clear",
+      "round"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Eraser"
+    }
+  },
+  "new-icon-set-04-p0020": {
+    "name": "Frame",
+    "displayName": "Frame",
+    "description": "Two vertical and two horizontal lines crossing like a hash: a frame tool.",
+    "tags": [
+      "frame",
+      "artboard",
+      "crop",
+      "board",
+      "grid"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Frame"
+    }
+  },
+  "new-icon-set-04-p0021": {
+    "name": "Highlighter",
+    "displayName": "Highlighter",
+    "description": "Highlighter marker with a chisel tip over a stroke line.",
+    "tags": [
+      "highlighter",
+      "marker",
+      "highlight",
+      "text",
+      "pen"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Highlighter"
+    }
+  },
+  "new-icon-set-04-p0022": {
+    "name": "HighlighterBare",
+    "displayName": "Highlighter bare",
+    "description": "Highlighter marker with a chisel tip, without the stroke line.",
+    "tags": [
+      "highlighter",
+      "marker",
+      "highlight",
+      "pen",
+      "design"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Highlighter"
+    }
+  },
+  "new-icon-set-04-p0023": {
+    "name": "Highlighter2",
+    "displayName": "Highlighter 2",
+    "description": "Unclear drawing kept out of the import.",
+    "tags": [
+      "highlighter",
+      "design",
+      "tool",
+      "editing",
+      "symbol"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Highlighter"
+    },
+    "hold": "looks unfinished (broken marker outline): ask Henrique"
+  },
+  "new-icon-set-04-p0024": {
+    "name": "Lasso",
+    "displayName": "Lasso",
+    "description": "Lasso: loose loop with a knot and a short tail.",
+    "tags": [
+      "lasso",
+      "select",
+      "selection",
+      "rope",
+      "design"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Lasso"
+    }
+  },
+  "new-icon-set-04-p0025": {
+    "name": "LassoWide",
+    "displayName": "Lasso wide",
+    "description": "Wide flat lasso loop with a knot and a long curly tail.",
+    "tags": [
+      "lasso",
+      "select",
+      "selection",
+      "rope",
+      "wide"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Lasso"
+    }
+  },
+  "new-icon-set-04-p0026": {
+    "name": "LassoPointer",
+    "displayName": "Lasso pointer",
+    "description": "Lasso loop with a knot and a pointer at the right: lasso selection.",
+    "tags": [
+      "lasso",
+      "select",
+      "selection",
+      "pointer",
+      "lasso-select"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Lasso select"
+    }
+  },
+  "new-icon-set-04-p0027": {
+    "name": "Magnet",
+    "displayName": "Magnet",
+    "description": "Horseshoe magnet, diagonal, with bands at the tips.",
+    "tags": [
+      "magnet",
+      "magnetic",
+      "attract",
+      "snap",
+      "design"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Magnet"
+    }
+  },
+  "new-icon-set-04-p0028": {
+    "name": "MagnetBolt",
+    "displayName": "Magnet bolt",
+    "description": "Horseshoe magnet, diagonal, with a small bolt by the tips.",
+    "tags": [
+      "magnet",
+      "magnetic",
+      "attract",
+      "snap",
+      "bolt"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Magnet"
+    }
+  },
+  "new-icon-set-04-p0029": {
+    "name": "MagnetRight",
+    "displayName": "Magnet right",
+    "description": "Horseshoe magnet opening to the right, with bands at the tips.",
+    "tags": [
+      "magnet",
+      "magnetic",
+      "attract",
+      "snap",
+      "design"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Magnet"
+    }
+  },
+  "new-icon-set-04-p0036": {
+    "name": "MagnetRightSpark",
+    "displayName": "Magnet right spark",
+    "description": "Horseshoe magnet opening to the right, with a zigzag spark between the tips.",
+    "tags": [
+      "magnet",
+      "magnetic",
+      "attract",
+      "spark",
+      "field"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Magnet"
+    }
+  },
+  "new-icon-set-04-p0037": {
+    "name": "MagnetRightBolt",
+    "displayName": "Magnet right bolt",
+    "description": "Horseshoe magnet opening to the right, with a small bolt outside the tips.",
+    "tags": [
+      "magnet",
+      "magnetic",
+      "attract",
+      "snap",
+      "bolt"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Magnet"
+    }
+  },
+  "new-icon-set-04-p0030": {
+    "name": "SquarePaddingBottom",
+    "displayName": "Square padding bottom",
+    "description": "Rounded square with long inner a line at the bottom: padding.",
+    "tags": [
+      "padding",
+      "spacing",
+      "inset",
+      "layout",
+      "square",
+      "square-padding-bottom"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Padding"
+    }
+  },
+  "new-icon-set-04-p0031": {
+    "name": "SquarePaddingTop",
+    "displayName": "Square padding top",
+    "description": "Rounded square with long inner a line at the top: padding.",
+    "tags": [
+      "padding",
+      "spacing",
+      "inset",
+      "layout",
+      "square",
+      "square-padding-top"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Padding"
+    }
+  },
+  "new-icon-set-04-p0032": {
+    "name": "SquarePaddingLeft",
+    "displayName": "Square padding left",
+    "description": "Rounded square with long inner a line at the left: padding.",
+    "tags": [
+      "padding",
+      "spacing",
+      "inset",
+      "layout",
+      "square",
+      "square-padding-left"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Padding"
+    }
+  },
+  "new-icon-set-04-p0033": {
+    "name": "SquarePaddingRight",
+    "displayName": "Square padding right",
+    "description": "Rounded square with long inner a line at the right: padding.",
+    "tags": [
+      "padding",
+      "spacing",
+      "inset",
+      "layout",
+      "square",
+      "square-padding-right"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Padding"
+    }
+  },
+  "new-icon-set-04-p0034": {
+    "name": "SquarePaddingVertical",
+    "displayName": "Square padding vertical",
+    "description": "Rounded square with long inner lines at the top and bottom: padding.",
+    "tags": [
+      "padding",
+      "spacing",
+      "inset",
+      "layout",
+      "square",
+      "square-padding-vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Padding"
+    }
+  },
+  "new-icon-set-04-p0035": {
+    "name": "SquarePaddingHorizontal",
+    "displayName": "Square padding horizontal",
+    "description": "Rounded square with long inner lines at the left and right: padding.",
+    "tags": [
+      "padding",
+      "spacing",
+      "inset",
+      "layout",
+      "square",
+      "square-padding-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Padding"
+    }
+  },
+  "new-icon-set-04-p0038": {
+    "name": "PaintBucket",
+    "displayName": "Paint bucket",
+    "description": "Tipped paint bucket pouring, with a drop below.",
+    "tags": [
+      "paint",
+      "bucket",
+      "fill",
+      "color",
+      "pour",
+      "paint-bucket"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Fill"
+    }
+  },
+  "new-icon-set-04-p0039": {
+    "name": "PaintBucketDrip",
+    "displayName": "Paint bucket drip",
+    "description": "Upright paint bucket with a handle and paint dripping over the edge.",
+    "tags": [
+      "paint",
+      "bucket",
+      "fill",
+      "color",
+      "drip",
+      "paint-bucket"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paint"
+    }
+  },
+  "new-icon-set-04-p0040": {
+    "name": "PaintCanSpill",
+    "displayName": "Paint can spill",
+    "description": "Round paint can tipped over with paint spilling out.",
+    "tags": [
+      "paint",
+      "can",
+      "spill",
+      "color",
+      "pour",
+      "paint-bucket"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paint"
+    }
+  },
+  "new-icon-set-04-p0041": {
+    "name": "PaintRoller",
+    "displayName": "Paint roller",
+    "description": "Paint roller with a bent handle.",
+    "tags": [
+      "paint",
+      "roller",
+      "decorate",
+      "wall",
+      "color",
+      "paint-roller"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paint roller"
+    }
+  },
+  "new-icon-set-04-p0042": {
+    "name": "PenTool",
+    "displayName": "Pen tool",
+    "description": "Fountain pen nib, diagonal, with a dot: vector pen tool.",
+    "tags": [
+      "pen",
+      "nib",
+      "vector",
+      "bezier",
+      "draw",
+      "pen-tool"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pen tool"
+    }
+  },
+  "new-icon-set-04-p0043": {
+    "name": "PenToolBezier",
+    "displayName": "Pen tool bezier",
+    "description": "Upright pen nib under a curve with handle points: bezier pen tool.",
+    "tags": [
+      "pen",
+      "nib",
+      "vector",
+      "bezier",
+      "curve",
+      "anchor",
+      "pen-tool"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pen tool"
+    }
+  },
+  "new-icon-set-04-p0044": {
+    "name": "PenToolVertical",
+    "displayName": "Pen tool vertical",
+    "description": "Fountain pen nib, upright, with a dot.",
+    "tags": [
+      "pen",
+      "nib",
+      "vector",
+      "draw",
+      "vertical",
+      "pen-tool"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pen tool"
+    }
+  },
+  "new-icon-set-04-p0045": {
+    "name": "Pipette",
+    "displayName": "Pipette",
+    "description": "Eyedropper, diagonal.",
+    "tags": [
+      "pipette",
+      "eyedropper",
+      "color",
+      "picker",
+      "dropper"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Color picker"
+    }
+  },
+  "new-icon-set-04-p0046": {
+    "name": "PipetteDrop",
+    "displayName": "Pipette drop",
+    "description": "Eyedropper, diagonal, with a drop at the tip.",
+    "tags": [
+      "pipette",
+      "eyedropper",
+      "color",
+      "picker",
+      "drop"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Color picker"
+    }
+  },
+  "new-icon-set-04-p0047": {
+    "name": "Proportions",
+    "displayName": "Proportions",
+    "description": "Rounded rectangle with nested rectangles in a corner: proportions.",
+    "tags": [
+      "proportions",
+      "ratio",
+      "aspect",
+      "resize",
+      "layout"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Proportions"
+    }
+  },
+  "new-icon-set-04-p0048": {
+    "name": "Scaling",
+    "displayName": "Scaling",
+    "description": "Square open at the top right with a two-way diagonal arrow: scaling.",
+    "tags": [
+      "scaling",
+      "scale",
+      "resize",
+      "arrow",
+      "expand"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scale"
+    }
+  },
+  "new-icon-set-04-p0049": {
+    "name": "SeparatorHorizontal",
+    "displayName": "Separator horizontal",
+    "description": "Horizontal line with a chevron pointing up above it and one pointing down below it.",
+    "tags": [
+      "separator",
+      "divider",
+      "split",
+      "chevron",
+      "expand",
+      "separator-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Separator"
+    }
+  },
+  "new-icon-set-04-p0050": {
+    "name": "SeparatorHorizontalIn",
+    "displayName": "Separator horizontal in",
+    "description": "Horizontal line with chevrons above and below pointing in toward it.",
+    "tags": [
+      "separator",
+      "divider",
+      "collapse",
+      "chevron",
+      "in",
+      "separator-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Separator"
+    }
+  },
+  "new-icon-set-04-p0051": {
+    "name": "SeparatorVertical",
+    "displayName": "Separator vertical",
+    "description": "Vertical line with a chevron pointing left on its left and one pointing right on its right.",
+    "tags": [
+      "separator",
+      "divider",
+      "split",
+      "chevron",
+      "expand",
+      "separator-vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Separator"
+    }
+  },
+  "new-icon-set-04-p0052": {
+    "name": "SeparatorVerticalIn",
+    "displayName": "Separator vertical in",
+    "description": "Vertical line with chevrons on both sides pointing in toward it.",
+    "tags": [
+      "separator",
+      "divider",
+      "collapse",
+      "chevron",
+      "in",
+      "separator-vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Separator"
+    }
+  },
+  "new-icon-set-04-p0053": {
+    "name": "Slice",
+    "displayName": "Slice",
+    "description": "Knife blade, diagonal, with two parallel cut lines: slice tool.",
+    "tags": [
+      "slice",
+      "knife",
+      "cut",
+      "blade",
+      "design"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Slice"
+    }
+  },
+  "new-icon-set-04-p0054": {
+    "name": "UtilityKnife",
+    "displayName": "Utility knife",
+    "description": "Utility knife (box cutter), diagonal, with a slider on the handle.",
+    "tags": [
+      "knife",
+      "cutter",
+      "box-cutter",
+      "cut",
+      "blade",
+      "slice"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cut"
+    }
+  },
+  "new-icon-set-04-p0055": {
+    "name": "Scalpel",
+    "displayName": "Scalpel",
+    "description": "Scalpel, diagonal, with a curved blade.",
+    "tags": [
+      "scalpel",
+      "knife",
+      "cut",
+      "blade",
+      "craft",
+      "slice"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cut"
+    }
+  },
+  "new-icon-set-04-p0056": {
+    "name": "SplinePointer",
+    "displayName": "Spline pointer",
+    "description": "Curve between two end circles with a pointer at the right.",
+    "tags": [
+      "spline",
+      "curve",
+      "path",
+      "bezier",
+      "pointer",
+      "spline-pointer"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spline"
+    }
+  },
+  "new-icon-set-04-p0057": {
+    "name": "Spline",
+    "displayName": "Spline",
+    "description": "Curve between two end circles.",
+    "tags": [
+      "spline",
+      "curve",
+      "path",
+      "bezier",
+      "node"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spline"
+    }
+  },
+  "new-icon-set-04-p0058": {
+    "name": "SprayCanLines",
+    "displayName": "Spray can lines",
+    "description": "Spray can with three spray lines.",
+    "tags": [
+      "spray",
+      "can",
+      "paint",
+      "graffiti",
+      "aerosol",
+      "spray-can"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spray"
+    }
+  },
+  "new-icon-set-04-p0059": {
+    "name": "SprayCan",
+    "displayName": "Spray can",
+    "description": "Spray can with a cloud of spray dots.",
+    "tags": [
+      "spray",
+      "can",
+      "paint",
+      "graffiti",
+      "aerosol",
+      "dots",
+      "spray-can"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spray"
+    }
+  },
+  "new-icon-set-04-p0060": {
+    "name": "SprayCanBare",
+    "displayName": "Spray can bare",
+    "description": "Upright spray can with a cap and a label, without spray.",
+    "tags": [
+      "spray",
+      "can",
+      "paint",
+      "aerosol",
+      "bottle",
+      "spray-can"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spray can"
+    }
+  },
+  "new-icon-set-04-p0061": {
+    "name": "SquaresIntersect",
+    "displayName": "Squares intersect",
+    "description": "Two overlapping dashed squares with their overlap drawn solid.",
+    "tags": [
+      "squares",
+      "boolean",
+      "intersect",
+      "overlap",
+      "shape",
+      "squares-intersect"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Intersect"
+    }
+  },
+  "new-icon-set-04-p0062": {
+    "name": "SquaresUnite",
+    "displayName": "Squares unite",
+    "description": "Two overlapping squares merged into one outline.",
+    "tags": [
+      "squares",
+      "boolean",
+      "unite",
+      "union",
+      "merge",
+      "shape",
+      "squares-unite"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unite"
+    }
+  },
+  "new-icon-set-04-p0063": {
+    "name": "SquaresSubtract",
+    "displayName": "Squares subtract",
+    "description": "Back square solid and the front square dashed.",
+    "tags": [
+      "squares",
+      "boolean",
+      "subtract",
+      "minus",
+      "shape",
+      "squares-subtract"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Subtract"
+    }
+  },
+  "new-icon-set-04-p0064": {
+    "name": "SquaresExclude",
+    "displayName": "Squares exclude",
+    "description": "Two overlapping squares with the overlap cut out of both.",
+    "tags": [
+      "squares",
+      "boolean",
+      "exclude",
+      "difference",
+      "shape",
+      "squares-exclude"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Exclude"
+    }
+  },
+  "new-icon-set-04-p0065": {
+    "name": "Stamp",
+    "displayName": "Stamp",
+    "description": "Rubber stamp with a round handle on a base line.",
+    "tags": [
+      "stamp",
+      "approve",
+      "seal",
+      "rubber",
+      "mark"
+    ],
+    "categories": [
+      "media",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stamp"
+    }
+  },
+  "new-icon-set-04-p0066": {
+    "name": "StretchHorizontal",
+    "displayName": "Stretch horizontal",
+    "description": "Two wide stacked rounded bars.",
+    "tags": [
+      "stretch",
+      "horizontal",
+      "fill",
+      "width",
+      "layout",
+      "stretch-horizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stretch"
+    }
+  },
+  "new-icon-set-04-p0067": {
+    "name": "StretchVertical",
+    "displayName": "Stretch vertical",
+    "description": "Two tall side-by-side rounded bars.",
+    "tags": [
+      "stretch",
+      "vertical",
+      "fill",
+      "height",
+      "layout",
+      "stretch-vertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stretch"
+    }
+  },
+  "new-icon-set-04-p0068": {
+    "name": "VectorSquare",
+    "displayName": "Vector square",
+    "description": "Square path with a circle node at each corner.",
+    "tags": [
+      "vector",
+      "path",
+      "node",
+      "anchor",
+      "shape",
+      "square",
+      "vector-square"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Vector"
+    }
+  },
+  "new-icon-set-04-p0069": {
+    "name": "VectorPolygon",
+    "displayName": "Vector polygon",
+    "description": "Four-sided polygon path with a circle node at each corner.",
+    "tags": [
+      "vector",
+      "path",
+      "node",
+      "anchor",
+      "shape",
+      "polygon",
+      "vector-polygon"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Vector"
+    }
+  },
+  "new-icon-set-04-p0070": {
+    "name": "TextA",
+    "displayName": "Text A",
+    "description": "Capital letter A, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "a",
+      "letter-a"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter A"
+    }
+  },
+  "new-icon-set-04-p0071": {
+    "name": "TextB",
+    "displayName": "Text B",
+    "description": "Capital letter B, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "b",
+      "letter-b"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter B"
+    }
+  },
+  "new-icon-set-04-p0072": {
+    "name": "TextC",
+    "displayName": "Text C",
+    "description": "Capital letter C, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "c",
+      "letter-c"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter C"
+    }
+  },
+  "new-icon-set-04-p0073": {
+    "name": "TextD",
+    "displayName": "Text D",
+    "description": "Capital letter D, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "d",
+      "letter-d"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter D"
+    }
+  },
+  "new-icon-set-04-p0074": {
+    "name": "TextE",
+    "displayName": "Text E",
+    "description": "Capital letter E, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "e",
+      "letter-e"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter E"
+    }
+  },
+  "new-icon-set-04-p0075": {
+    "name": "TextF",
+    "displayName": "Text F",
+    "description": "Capital letter F, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "f",
+      "letter-f"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter F"
+    }
+  },
+  "new-icon-set-04-p0076": {
+    "name": "TextG",
+    "displayName": "Text G",
+    "description": "Capital letter G, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "g",
+      "letter-g"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter G"
+    }
+  },
+  "new-icon-set-04-p0077": {
+    "name": "TextH",
+    "displayName": "Text H",
+    "description": "Capital letter H, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "h",
+      "letter-h"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter H"
+    }
+  },
+  "new-icon-set-04-p0078": {
+    "name": "TextI",
+    "displayName": "Text I",
+    "description": "Capital letter I, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "i",
+      "letter-i"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter I"
+    }
+  },
+  "new-icon-set-04-p0079": {
+    "name": "TextJ",
+    "displayName": "Text J",
+    "description": "Capital letter J, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "j",
+      "letter-j"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter J"
+    }
+  },
+  "new-icon-set-04-p0080": {
+    "name": "TextK",
+    "displayName": "Text K",
+    "description": "Capital letter K, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "k",
+      "letter-k"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter K"
+    }
+  },
+  "new-icon-set-04-p0081": {
+    "name": "TextL",
+    "displayName": "Text L",
+    "description": "Capital letter L, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "l",
+      "letter-l"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter L"
+    }
+  },
+  "new-icon-set-04-p0082": {
+    "name": "TextM",
+    "displayName": "Text M",
+    "description": "Capital letter M, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "m",
+      "letter-m"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter M"
+    }
+  },
+  "new-icon-set-04-p0083": {
+    "name": "TextN",
+    "displayName": "Text N",
+    "description": "Capital letter N, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "n",
+      "letter-n"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter N"
+    }
+  },
+  "new-icon-set-04-p0084": {
+    "name": "TextO",
+    "displayName": "Text O",
+    "description": "Capital letter O, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "o",
+      "letter-o"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter O"
+    }
+  },
+  "new-icon-set-04-p0085": {
+    "name": "TextP",
+    "displayName": "Text P",
+    "description": "Capital letter P, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "p",
+      "letter-p"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter P"
+    }
+  },
+  "new-icon-set-04-p0086": {
+    "name": "TextQ",
+    "displayName": "Text Q",
+    "description": "Capital letter Q, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "q",
+      "letter-q"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter Q"
+    }
+  },
+  "new-icon-set-04-p0087": {
+    "name": "TextR",
+    "displayName": "Text R",
+    "description": "Capital letter R, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "r",
+      "letter-r"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter R"
+    }
+  },
+  "new-icon-set-04-p0088": {
+    "name": "TextS",
+    "displayName": "Text S",
+    "description": "Capital letter S, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "s",
+      "letter-s"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter S"
+    }
+  },
+  "new-icon-set-04-p0089": {
+    "name": "TextT",
+    "displayName": "Text T",
+    "description": "Capital letter T, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "t",
+      "letter-t"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter T"
+    }
+  },
+  "new-icon-set-04-p0090": {
+    "name": "TextU",
+    "displayName": "Text U",
+    "description": "Capital letter U, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "u",
+      "letter-u"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter U"
+    }
+  },
+  "new-icon-set-04-p0091": {
+    "name": "TextV",
+    "displayName": "Text V",
+    "description": "Capital letter V, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "v",
+      "letter-v"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter V"
+    }
+  },
+  "new-icon-set-04-p0092": {
+    "name": "TextX",
+    "displayName": "Text X",
+    "description": "Capital letter X, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "x",
+      "letter-x"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter X"
+    }
+  },
+  "new-icon-set-04-p0093": {
+    "name": "TextY",
+    "displayName": "Text Y",
+    "description": "Capital letter Y, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "y",
+      "letter-y"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter Y"
+    }
+  },
+  "new-icon-set-04-p0094": {
+    "name": "TextZ",
+    "displayName": "Text Z",
+    "description": "Capital letter Z, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "z",
+      "letter-z"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter Z"
+    }
+  },
+  "new-icon-set-04-p0095": {
+    "name": "TextW",
+    "displayName": "Text W",
+    "description": "Capital letter W, no frame.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "w",
+      "letter-w"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter W"
+    }
+  },
+  "new-icon-set-04-p0096": {
+    "name": "TextACircle2",
+    "displayName": "Text A circle 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "a",
+      "circle-letter-a"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter A"
+    },
+    "hold": "near copy of library TextACircle (same A in a circle)"
+  },
+  "new-icon-set-04-p0122": {
+    "name": "TextASquare2",
+    "displayName": "Text A square 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "a",
+      "square-letter-a"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter A"
+    },
+    "hold": "near copy of library TextASquare (same A in a square)"
+  },
+  "new-icon-set-04-p0097": {
+    "name": "TextBCircle",
+    "displayName": "Text B circle",
+    "description": "Capital letter B in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "b",
+      "circle-letter-b"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter B"
+    }
+  },
+  "new-icon-set-04-p0123": {
+    "name": "TextBSquare2",
+    "displayName": "Text B square 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "b",
+      "square-letter-b"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter B"
+    },
+    "hold": "near copy of library TextBoldSquare (same B, square corners a bit tighter)"
+  },
+  "new-icon-set-04-p0098": {
+    "name": "TextCCircle2",
+    "displayName": "Text C circle 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "c",
+      "circle-letter-c"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter C"
+    },
+    "hold": "same drawing as library Copyright (C in a circle)"
+  },
+  "new-icon-set-04-p0124": {
+    "name": "TextCSquare",
+    "displayName": "Text C square",
+    "description": "Capital letter C in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "c",
+      "square-letter-c"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter C"
+    }
+  },
+  "new-icon-set-04-p0099": {
+    "name": "TextDCircle",
+    "displayName": "Text D circle",
+    "description": "Capital letter D in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "d",
+      "circle-letter-d"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter D"
+    }
+  },
+  "new-icon-set-04-p0125": {
+    "name": "TextDSquare",
+    "displayName": "Text D square",
+    "description": "Capital letter D in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "d",
+      "square-letter-d"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter D"
+    }
+  },
+  "new-icon-set-04-p0100": {
+    "name": "TextECircle",
+    "displayName": "Text E circle",
+    "description": "Capital letter E in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "e",
+      "circle-letter-e"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter E"
+    }
+  },
+  "new-icon-set-04-p0126": {
+    "name": "TextESquare",
+    "displayName": "Text E square",
+    "description": "Capital letter E in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "e",
+      "square-letter-e"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter E"
+    }
+  },
+  "new-icon-set-04-p0101": {
+    "name": "TextFCircle",
+    "displayName": "Text F circle",
+    "description": "Capital letter F in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "f",
+      "circle-letter-f"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter F"
+    }
+  },
+  "new-icon-set-04-p0127": {
+    "name": "TextFSquare",
+    "displayName": "Text F square",
+    "description": "Capital letter F in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "f",
+      "square-letter-f"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter F"
+    }
+  },
+  "new-icon-set-04-p0102": {
+    "name": "TextGCircle",
+    "displayName": "Text G circle",
+    "description": "Capital letter G in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "g",
+      "circle-letter-g"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter G"
+    }
+  },
+  "new-icon-set-04-p0128": {
+    "name": "TextGSquare",
+    "displayName": "Text G square",
+    "description": "Capital letter G in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "g",
+      "square-letter-g"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter G"
+    }
+  },
+  "new-icon-set-04-p0103": {
+    "name": "TextHCircle",
+    "displayName": "Text H circle",
+    "description": "Capital letter H in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "h",
+      "circle-letter-h"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter H"
+    }
+  },
+  "new-icon-set-04-p0129": {
+    "name": "TextHSquare",
+    "displayName": "Text H square",
+    "description": "Capital letter H in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "h",
+      "square-letter-h"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter H"
+    }
+  },
+  "new-icon-set-04-p0104": {
+    "name": "TextICircle",
+    "displayName": "Text I circle",
+    "description": "Capital letter I in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "i",
+      "circle-letter-i"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter I"
+    }
+  },
+  "new-icon-set-04-p0130": {
+    "name": "TextISquare",
+    "displayName": "Text I square",
+    "description": "Capital letter I in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "i",
+      "square-letter-i"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter I"
+    }
+  },
+  "new-icon-set-04-p0105": {
+    "name": "TextJCircle",
+    "displayName": "Text J circle",
+    "description": "Capital letter J in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "j",
+      "circle-letter-j"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter J"
+    }
+  },
+  "new-icon-set-04-p0131": {
+    "name": "TextJSquare",
+    "displayName": "Text J square",
+    "description": "Capital letter J in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "j",
+      "square-letter-j"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter J"
+    }
+  },
+  "new-icon-set-04-p0106": {
+    "name": "TextKCircle",
+    "displayName": "Text K circle",
+    "description": "Capital letter K in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "k",
+      "circle-letter-k"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter K"
+    }
+  },
+  "new-icon-set-04-p0132": {
+    "name": "TextKSquare",
+    "displayName": "Text K square",
+    "description": "Capital letter K in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "k",
+      "square-letter-k"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter K"
+    }
+  },
+  "new-icon-set-04-p0107": {
+    "name": "TextLCircle",
+    "displayName": "Text L circle",
+    "description": "Capital letter L in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "l",
+      "circle-letter-l"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter L"
+    }
+  },
+  "new-icon-set-04-p0133": {
+    "name": "TextLSquare",
+    "displayName": "Text L square",
+    "description": "Capital letter L in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "l",
+      "square-letter-l"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter L"
+    }
+  },
+  "new-icon-set-04-p0108": {
+    "name": "TextMCircle",
+    "displayName": "Text M circle",
+    "description": "Capital letter M in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "m",
+      "circle-letter-m"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter M"
+    }
+  },
+  "new-icon-set-04-p0134": {
+    "name": "TextMSquare",
+    "displayName": "Text M square",
+    "description": "Capital letter M in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "m",
+      "square-letter-m"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter M"
+    }
+  },
+  "new-icon-set-04-p0109": {
+    "name": "TextNCircle",
+    "displayName": "Text N circle",
+    "description": "Capital letter N in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "n",
+      "circle-letter-n"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter N"
+    }
+  },
+  "new-icon-set-04-p0135": {
+    "name": "TextNSquare",
+    "displayName": "Text N square",
+    "description": "Capital letter N in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "n",
+      "square-letter-n"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter N"
+    }
+  },
+  "new-icon-set-04-p0110": {
+    "name": "TextOCircle2",
+    "displayName": "Text O circle 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "o",
+      "circle-letter-o"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter O"
+    },
+    "hold": "same drawing as library CircleConcentricLarge (circle in a circle)"
+  },
+  "new-icon-set-04-p0136": {
+    "name": "TextOSquare2",
+    "displayName": "Text O square 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "o",
+      "square-letter-o"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter O"
+    },
+    "hold": "same drawing as library RecordSquare (circle in a square)"
+  },
+  "new-icon-set-04-p0111": {
+    "name": "TextPCircle",
+    "displayName": "Text P circle",
+    "description": "Capital letter P in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "p",
+      "circle-letter-p"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter P"
+    }
+  },
+  "new-icon-set-04-p0137": {
+    "name": "TextPSquare",
+    "displayName": "Text P square",
+    "description": "Capital letter P in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "p",
+      "square-letter-p"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter P"
+    }
+  },
+  "new-icon-set-04-p0112": {
+    "name": "TextQCircle",
+    "displayName": "Text Q circle",
+    "description": "Capital letter Q in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "q",
+      "circle-letter-q"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter Q"
+    }
+  },
+  "new-icon-set-04-p0138": {
+    "name": "TextQSquare",
+    "displayName": "Text Q square",
+    "description": "Capital letter Q in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "q",
+      "square-letter-q"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter Q"
+    }
+  },
+  "new-icon-set-04-p0113": {
+    "name": "TextRCircle",
+    "displayName": "Text R circle",
+    "description": "Capital letter R in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "r",
+      "circle-letter-r"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter R"
+    }
+  },
+  "new-icon-set-04-p0139": {
+    "name": "TextRSquare",
+    "displayName": "Text R square",
+    "description": "Capital letter R in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "r",
+      "square-letter-r"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter R"
+    }
+  },
+  "new-icon-set-04-p0114": {
+    "name": "TextSCircle",
+    "displayName": "Text S circle",
+    "description": "Capital letter S in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "s",
+      "circle-letter-s"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter S"
+    }
+  },
+  "new-icon-set-04-p0140": {
+    "name": "TextSSquare",
+    "displayName": "Text S square",
+    "description": "Capital letter S in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "s",
+      "square-letter-s"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter S"
+    }
+  },
+  "new-icon-set-04-p0115": {
+    "name": "TextTCircle",
+    "displayName": "Text T circle",
+    "description": "Capital letter T in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "t",
+      "circle-letter-t"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter T"
+    }
+  },
+  "new-icon-set-04-p0141": {
+    "name": "TextTSquare",
+    "displayName": "Text T square",
+    "description": "Capital letter T in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "t",
+      "square-letter-t"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter T"
+    }
+  },
+  "new-icon-set-04-p0116": {
+    "name": "TextUCircle",
+    "displayName": "Text U circle",
+    "description": "Capital letter U in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "u",
+      "circle-letter-u"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter U"
+    }
+  },
+  "new-icon-set-04-p0142": {
+    "name": "TextUSquare",
+    "displayName": "Text U square",
+    "description": "Capital letter U in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "u",
+      "square-letter-u"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter U"
+    }
+  },
+  "new-icon-set-04-p0117": {
+    "name": "TextVCircle",
+    "displayName": "Text V circle",
+    "description": "Capital letter V in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "v",
+      "circle-letter-v"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter V"
+    }
+  },
+  "new-icon-set-04-p0143": {
+    "name": "TextVSquare",
+    "displayName": "Text V square",
+    "description": "Capital letter V in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "v",
+      "square-letter-v"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter V"
+    }
+  },
+  "new-icon-set-04-p0118": {
+    "name": "TextXCircle",
+    "displayName": "Text X circle",
+    "description": "Capital letter X in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "x",
+      "circle-letter-x"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter X"
+    }
+  },
+  "new-icon-set-04-p0144": {
+    "name": "TextXSquare",
+    "displayName": "Text X square",
+    "description": "Capital letter X in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "x",
+      "square-letter-x"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter X"
+    }
+  },
+  "new-icon-set-04-p0119": {
+    "name": "TextYCircle",
+    "displayName": "Text Y circle",
+    "description": "Capital letter Y in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "y",
+      "circle-letter-y"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter Y"
+    }
+  },
+  "new-icon-set-04-p0145": {
+    "name": "TextYSquare",
+    "displayName": "Text Y square",
+    "description": "Capital letter Y in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "y",
+      "square-letter-y"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter Y"
+    }
+  },
+  "new-icon-set-04-p0120": {
+    "name": "TextWCircle",
+    "displayName": "Text W circle",
+    "description": "Capital letter W in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "w",
+      "circle-letter-w"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter W"
+    }
+  },
+  "new-icon-set-04-p0146": {
+    "name": "TextWSquare",
+    "displayName": "Text W square",
+    "description": "Capital letter W in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "w",
+      "square-letter-w"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter W"
+    }
+  },
+  "new-icon-set-04-p0121": {
+    "name": "TextZCircle",
+    "displayName": "Text Z circle",
+    "description": "Capital letter Z in a circle.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "circle",
+      "z",
+      "circle-letter-z"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter Z"
+    }
+  },
+  "new-icon-set-04-p0147": {
+    "name": "TextZSquare",
+    "displayName": "Text Z square",
+    "description": "Capital letter Z in a rounded square.",
+    "tags": [
+      "letter",
+      "text",
+      "character",
+      "alphabet",
+      "square",
+      "z",
+      "square-letter-z"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter Z"
+    }
+  },
+  "new-icon-set-04-p0148": {
+    "name": "TextLetterSpacing",
+    "displayName": "Text letter spacing",
+    "description": "Letter A between two vertical lines: letter spacing.",
+    "tags": [
+      "letter-spacing",
+      "tracking",
+      "kerning",
+      "text",
+      "spacing"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Letter spacing"
+    }
+  },
+  "new-icon-set-04-p0149": {
+    "name": "TextLeading",
+    "displayName": "Text leading",
+    "description": "Letter A between two horizontal lines: line height.",
+    "tags": [
+      "line-height",
+      "leading",
+      "text",
+      "spacing",
+      "design"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Line height"
+    }
+  },
+  "new-icon-set-04-p0150": {
+    "name": "TextAa",
+    "displayName": "Text aa",
+    "description": "Big capital A next to a small a.",
+    "tags": [
+      "font-size",
+      "text",
+      "case",
+      "size",
+      "aa",
+      "a-large-small"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text size"
+    }
+  },
+  "new-icon-set-04-p0151": {
+    "name": "TextCaseLower",
+    "displayName": "Text case lower",
+    "description": "Lowercase letters ab.",
+    "tags": [
+      "lowercase",
+      "case",
+      "text",
+      "letters",
+      "case-lower"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Lowercase"
+    }
+  },
+  "new-icon-set-04-p0152": {
+    "name": "TextCaseUpper",
+    "displayName": "Text case upper",
+    "description": "Uppercase letters AB.",
+    "tags": [
+      "uppercase",
+      "case",
+      "text",
+      "letters",
+      "caps",
+      "case-upper"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Uppercase"
+    }
+  },
+  "new-icon-set-04-p0153": {
+    "name": "TextLigature",
+    "displayName": "Text ligature",
+    "description": "Joined fi ligature glyph.",
+    "tags": [
+      "ligature",
+      "typography",
+      "font",
+      "text",
+      "glyph"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Ligature"
+    }
+  },
+  "new-icon-set-04-p0154": {
+    "name": "Pilcrow",
+    "displayName": "Pilcrow",
+    "description": "Paragraph mark ¶.",
+    "tags": [
+      "pilcrow",
+      "paragraph",
+      "text",
+      "formatting",
+      "mark"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paragraph"
+    }
+  },
+  "new-icon-set-04-p0155": {
+    "name": "PilcrowSquare",
+    "displayName": "Pilcrow square",
+    "description": "Paragraph mark ¶ in a rounded square.",
+    "tags": [
+      "pilcrow",
+      "paragraph",
+      "text",
+      "formatting",
+      "square",
+      "square-pilcrow"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Paragraph"
+    }
+  },
+  "new-icon-set-04-p0156": {
+    "name": "PilcrowArrowLeft",
+    "displayName": "Pilcrow arrow left",
+    "description": "Paragraph mark ¶ above an arrow pointing left.",
+    "tags": [
+      "pilcrow",
+      "paragraph",
+      "text",
+      "direction",
+      "rtl",
+      "pilcrow-left"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Right to left"
+    }
+  },
+  "new-icon-set-04-p0157": {
+    "name": "PilcrowArrowRight",
+    "displayName": "Pilcrow arrow right",
+    "description": "Paragraph mark ¶ above an arrow pointing right.",
+    "tags": [
+      "pilcrow",
+      "paragraph",
+      "text",
+      "direction",
+      "ltr",
+      "pilcrow-right"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Left to right"
+    }
+  },
+  "new-icon-set-04-p0158": {
+    "name": "Quote",
+    "displayName": "Quote",
+    "description": "Two closing quote marks, no bubble.",
+    "tags": [
+      "quote",
+      "quotation",
+      "citation",
+      "text",
+      "blockquote"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quote"
+    }
+  },
+  "new-icon-set-04-p0159": {
+    "name": "QuoteOpen",
+    "displayName": "Quote open",
+    "description": "Two opening quote marks, no bubble.",
+    "tags": [
+      "quote",
+      "quotation",
+      "citation",
+      "text",
+      "open"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Quote"
+    }
+  },
+  "new-icon-set-04-p0160": {
+    "name": "TextItalicX",
+    "displayName": "Text italic X",
+    "description": "Italic letter T with a small X: remove formatting.",
+    "tags": [
+      "remove-formatting",
+      "clear",
+      "formatting",
+      "italic",
+      "text"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clear formatting"
+    }
+  },
+  "new-icon-set-04-p0161": {
+    "name": "Signature",
+    "displayName": "Signature",
+    "description": "Handwritten signature scribble on a line.",
+    "tags": [
+      "signature",
+      "sign",
+      "handwriting",
+      "autograph",
+      "contract"
+    ],
+    "categories": [
+      "interface",
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Signature"
+    }
+  },
+  "new-icon-set-04-p0162": {
+    "name": "Space",
+    "displayName": "Space",
+    "description": "Open bracket shape: space bar.",
+    "tags": [
+      "space",
+      "spacebar",
+      "whitespace",
+      "keyboard",
+      "text"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Space"
+    }
+  },
+  "new-icon-set-04-p0163": {
+    "name": "SpellCheck",
+    "displayName": "Spell check",
+    "description": "Letter A with a check.",
+    "tags": [
+      "spell-check",
+      "spelling",
+      "grammar",
+      "text",
+      "check"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spell check"
+    }
+  },
+  "new-icon-set-04-p0164": {
+    "name": "SpellCheckWavy",
+    "displayName": "Spell check wavy",
+    "description": "Letter A with a wavy underline.",
+    "tags": [
+      "spell-check",
+      "spelling",
+      "grammar",
+      "text",
+      "wavy",
+      "spell-check-2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Spell check"
+    }
+  },
+  "new-icon-set-04-p0165": {
+    "name": "Subscript",
+    "displayName": "Subscript",
+    "description": "Letter X with a small 2 below to the right.",
+    "tags": [
+      "subscript",
+      "text",
+      "formula",
+      "index",
+      "design"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Subscript"
+    }
+  },
+  "new-icon-set-04-p0166": {
+    "name": "Superscript",
+    "displayName": "Superscript",
+    "description": "Letter X with a small 2 above to the right.",
+    "tags": [
+      "superscript",
+      "text",
+      "formula",
+      "exponent",
+      "power"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Superscript"
+    }
+  },
+  "new-icon-set-04-p0167": {
+    "name": "TextAlignJustifyLeft",
+    "displayName": "Text align justify left",
+    "description": "Two full lines and a short last line on the left.",
+    "tags": [
+      "align",
+      "justify",
+      "text",
+      "paragraph",
+      "left",
+      "text-align-justify-start"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Justify"
+    }
+  },
+  "new-icon-set-04-p0168": {
+    "name": "TextAlignJustifyCenter",
+    "displayName": "Text align justify center",
+    "description": "Two full lines and a short last line in the center.",
+    "tags": [
+      "align",
+      "justify",
+      "text",
+      "paragraph",
+      "center",
+      "text-align-justify-center"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Justify"
+    }
+  },
+  "new-icon-set-04-p0169": {
+    "name": "TextAlignJustifyRight",
+    "displayName": "Text align justify right",
+    "description": "Two full lines and a short last line on the right.",
+    "tags": [
+      "align",
+      "justify",
+      "text",
+      "paragraph",
+      "right",
+      "text-align-justify-end"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Justify"
+    }
+  },
+  "new-icon-set-04-p0170": {
+    "name": "TextCursor",
+    "displayName": "Text cursor",
+    "description": "I-beam text cursor.",
+    "tags": [
+      "cursor",
+      "text",
+      "caret",
+      "i-beam",
+      "input",
+      "text-cursor"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text cursor"
+    }
+  },
+  "new-icon-set-04-p0171": {
+    "name": "TextCursorNarrow",
+    "displayName": "Text cursor narrow",
+    "description": "Narrow I-beam text cursor.",
+    "tags": [
+      "cursor",
+      "text",
+      "caret",
+      "i-beam",
+      "input",
+      "text-cursor"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text cursor"
+    }
+  },
+  "new-icon-set-04-p0172": {
+    "name": "TextInitial",
+    "displayName": "Text initial",
+    "description": "Drop-cap letter A beside text lines.",
+    "tags": [
+      "drop-cap",
+      "initial",
+      "text",
+      "typography",
+      "paragraph",
+      "text-initial"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Drop cap"
+    }
+  },
+  "new-icon-set-04-p0173": {
+    "name": "TextQuote",
+    "displayName": "Text quote",
+    "description": "Text lines with a quote bar at the left.",
+    "tags": [
+      "quote",
+      "blockquote",
+      "text",
+      "citation",
+      "lines",
+      "text-quote"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Block quote"
+    }
+  },
+  "new-icon-set-04-p0174": {
+    "name": "TextSearch",
+    "displayName": "Text search",
+    "description": "Text lines with a magnifier.",
+    "tags": [
+      "search",
+      "find",
+      "text",
+      "lines",
+      "magnifier",
+      "text-search"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Search text"
+    }
+  },
+  "new-icon-set-04-p0175": {
+    "name": "TextHollow",
+    "displayName": "Text hollow",
+    "description": "Hollow letter T drawn as an outline.",
+    "tags": [
+      "type",
+      "font",
+      "text",
+      "outline",
+      "letter",
+      "type-outline"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Text"
+    }
+  },
+  "new-icon-set-04-p0176": {
+    "name": "TextWholeWord",
+    "displayName": "Text whole word",
+    "description": "Letters ab over a bracket underline: whole word.",
+    "tags": [
+      "whole-word",
+      "match",
+      "search",
+      "text",
+      "word"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Whole word"
+    }
+  },
+  "new-icon-set-04-p0177": {
+    "name": "Broom",
+    "displayName": "Broom",
+    "description": "Upright broom: a handle on top of a flared head with bristle lines.",
+    "tags": [
+      "broom",
+      "clean",
+      "sweep",
+      "brush",
+      "tidy",
+      "brush-cleaning"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clean"
+    }
+  },
+  "new-icon-set-04-p0178": {
+    "name": "Palette",
+    "displayName": "Palette",
+    "description": "Painter's palette with five round paint dots and a thumb hole.",
+    "tags": [
+      "palette",
+      "paint",
+      "color",
+      "art",
+      "design",
+      "theme"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Colors"
+    }
+  },
+  "new-icon-set-04-p0179": {
+    "name": "SwatchBook",
+    "displayName": "Swatch book",
+    "description": "Swatch book: color cards fanned out from one corner, with a dot on the front card.",
+    "tags": [
+      "swatch",
+      "swatches",
+      "color",
+      "palette",
+      "samples",
+      "swatch-book"
+    ],
+    "categories": [
+      "media"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Color swatches"
+    }
+  },
+  "new-icon-set-04-p0180": {
+    "name": "TextPSquareOff",
+    "displayName": "Text P square off",
+    "description": "Capital letter P in a rounded square, with a slash through it.",
+    "tags": [
+      "letter",
+      "text",
+      "parking",
+      "p",
+      "off",
+      "no-parking",
+      "square-letter-p-off"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "No parking"
+    }
+  },
+  "new-icon-set-04-p0181": {
+    "name": "TextPCircleOff",
+    "displayName": "Text P circle off",
+    "description": "Capital letter P in a circle, with a slash through it.",
+    "tags": [
+      "letter",
+      "text",
+      "parking",
+      "p",
+      "off",
+      "no-parking",
+      "circle-letter-p-off"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "No parking"
+    }
+  }
+}

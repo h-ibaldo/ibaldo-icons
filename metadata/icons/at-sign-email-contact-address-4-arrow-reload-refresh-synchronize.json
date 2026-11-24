@@ -1,21 +1,24 @@
 {
-  "name": "AtSign4ArrowSync",
-  "displayName": "At sign 4 arrow sync",
+  "name": "AtSyncTall",
+  "displayName": "At sync tall",
   "originalTitle": "At Sign Email Contact Address 4 Arrow Reload Refresh Synchronize",
   "description": "Email address with sync arrows for synchronizing email across devices or accounts. Used for email sync operations and data synchronization.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "sync",
-    "synchronize",
-    "refresh",
-    "update",
-    "at-sign",
     "contact",
-    "arrows"
+    "address",
+    "arrow",
+    "reload",
+    "refresh",
+    "synchronize",
+    "sync",
+    "update",
+    "at-sign"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.762Z"
+  "generatedAt": "2026-02-15T00:53:19.762Z",
+  "aliases": [
+    "AtSign4ArrowSync"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,0 +1,39 @@
+{
+  "name": "SunCircleSplitSparseTilted",
+  "displayName": "Sun circle split sparse tilted",
+  "description": "Small sun with six rays inside a ring split into three rotated arcs.",
+  "tags": [
+    "brightness",
+    "sun",
+    "light",
+    "display",
+    "auto",
+    "loading",
+    "circle",
+    "round",
+    "tilted",
+    "auto-brightness"
+  ],
+  "categories": [
+    "interface",
+    "weather"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Brightness"
+  },
+  "filename": "sun-circle-split-sparse-tilted",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

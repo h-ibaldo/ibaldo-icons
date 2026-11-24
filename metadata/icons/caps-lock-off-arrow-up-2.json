@@ -1,18 +1,20 @@
 {
-  "name": "CapsLockOffArrowUp2",
+  "name": "CapsLockOffFlat",
   "description": "A variant caps lock off indicator with an upward arrow displaying keyboard input state",
   "tags": [
-    "caps lock",
-    "off",
+    "caps",
     "arrow",
     "up",
+    "disabled",
+    "mute",
+    "caps-lock",
+    "off",
     "keyboard",
     "input",
-    "disabled",
-    "variant"
+    "lock",
+    "flat"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Caps lock off flat",
+  "aliases": [
+    "CapsLockOffArrowUp2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

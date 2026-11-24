@@ -1,18 +1,17 @@
 {
-  "name": "TrashArrowUpRestore6",
+  "name": "TrashArrowUp",
   "description": "A trash icon with an upward arrow showing restoration or recovery functionality",
   "tags": [
     "trash",
+    "restore",
     "arrow",
     "up",
-    "restore",
     "recover",
     "undo",
     "delete",
     "recovery"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash arrow up",
+  "aliases": [
+    "TrashArrowUpRestore6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

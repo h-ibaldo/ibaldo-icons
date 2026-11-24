@@ -1,5 +1,5 @@
 {
-  "name": "Keypad2",
+  "name": "KeypadRounded",
   "description": "A numeric keypad input interface icon for entering numbers and codes in variant 2",
   "tags": [
     "keypad",
@@ -9,10 +9,10 @@
     "keyboard",
     "code",
     "dial",
-    "entry"
+    "entry",
+    "rounded"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Keypad rounded",
+  "aliases": [
+    "Keypad2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,17 +1,16 @@
 {
-  "name": "SaveFolderDown",
+  "name": "FolderOpenDownload",
   "description": "A folder save icon with a downward line indicating download or save-to-folder functionality",
   "tags": [
-    "save",
     "folder",
-    "download",
-    "line",
+    "save",
     "down",
+    "download",
     "storage",
-    "files"
+    "files",
+    "open"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder open download",
+  "aliases": [
+    "SaveFolderDown"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

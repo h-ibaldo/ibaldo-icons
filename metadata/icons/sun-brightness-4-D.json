@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightness4D",
+  "name": "SunSpokeHuge",
   "description": "A sun brightness control icon representing the fourth brightness level with variant D styling",
   "tags": [
     "sun",
@@ -9,11 +9,12 @@
     "display",
     "light",
     "intensity",
-    "variant"
+    "spoke",
+    "huge"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun spoke huge",
+  "aliases": [
+    "SunBrightness4D"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

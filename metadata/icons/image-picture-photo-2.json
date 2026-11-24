@@ -1,16 +1,16 @@
 {
-  "name": "ImagePhoto2",
+  "name": "ImageWide",
   "description": "An image or picture icon in an alternate variant style for representing photos or visual content.",
   "tags": [
     "image",
     "picture",
     "photo",
     "visual",
-    "variant"
+    "wide"
   ],
   "categories": [
-    "files",
-    "media"
+    "media",
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Image wide",
+  "aliases": [
+    "ImagePhoto2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

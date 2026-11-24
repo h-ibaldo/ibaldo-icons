@@ -1,9 +1,10 @@
 {
-  "name": "DesktopDownload1",
-  "displayName": "Desktop download 1",
+  "name": "ScreenDownloadDotsTall",
+  "displayName": "Screen download dots tall",
   "originalTitle": "Desktop Download 1",
   "description": "Desktop download icon showing file download to computer. Used to indicate desktop app downloads or file saving to local machine.",
   "tags": [
+    "screen",
     "desktop",
     "download",
     "computer",
@@ -11,11 +12,12 @@
     "file",
     "install",
     "local",
-    "pc"
+    "pc",
+    "dots",
+    "tall"
   ],
   "categories": [
-    "devices",
-    "files"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.798Z"
+  "generatedAt": "2026-02-15T00:53:19.798Z",
+  "aliases": [
+    "DesktopDownload1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

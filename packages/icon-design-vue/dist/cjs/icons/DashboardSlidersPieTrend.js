@@ -1,0 +1,44 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const DashboardSlidersPieTrend = defineComponent({
+  name: 'DashboardSlidersPieTrend',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M22 7C22 4.238 19.762 2 17 2C14.238 2 12 4.238 12 7C12 9.762 14.238 12 17 12C19.762 12 22 9.762 22 7Z"}),
+          h('path', {"d":"M17 2L17 7L22 7"}),
+          h('path', {"d":"M2 14L2 22L21 22"}),
+          h('path', {"d":"M5 19L10 15L15 19L21 15"}),
+          h('path', {"d":"M2 4L9 4"}),
+          h('path', {"d":"M2 9L9 9"}),
+          h('path', {"d":"M5 4C5 3.445 4.555 3 4 3C3.445 3 3 3.445 3 4C3 4.555 3.445 5 4 5C4.555 5 5 4.555 5 4Z"}),
+          h('path', {"d":"M8 9C8 8.445 7.555 8 7 8C6.445 8 6 8.445 6 9C6 9.555 6.445 10 7 10C7.555 10 8 9.555 8 9Z"})
+        ]
+      );
+  }
+});
+
+module.exports = DashboardSlidersPieTrend;
+module.exports.DashboardSlidersPieTrend = DashboardSlidersPieTrend;
+module.exports.default = DashboardSlidersPieTrend;

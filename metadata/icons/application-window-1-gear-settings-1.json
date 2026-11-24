@@ -1,19 +1,21 @@
 {
-  "name": "ApplicationWindow1Settings3",
-  "displayName": "Application window 1 settings 3",
+  "name": "WindowSettingsCenter",
+  "displayName": "Window settings center",
   "originalTitle": "Application Window 1 Gear Settings 1",
   "description": "Application window with gear icon representing settings or configuration panels. Used to indicate system preferences or application configuration interfaces.",
   "tags": [
-    "application",
     "window",
-    "settings",
+    "application",
     "gear",
+    "settings",
     "configuration",
     "preferences",
     "options",
-    "control"
+    "control",
+    "center"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.768Z"
+  "generatedAt": "2026-02-15T00:53:19.768Z",
+  "aliases": [
+    "ApplicationWindow1Settings3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

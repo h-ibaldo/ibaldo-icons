@@ -1,17 +1,20 @@
 {
-  "name": "TranslationSquares",
+  "name": "TranslateSquareStack",
   "description": "A translation icon with square shapes representing different language blocks or text segments",
   "tags": [
+    "translate",
     "translation",
     "languages",
     "squares",
-    "text blocks",
+    "text-blocks",
     "multilingual",
-    "language conversion"
+    "language-conversion",
+    "square",
+    "stack"
   ],
   "categories": [
     "communication",
-    "interface"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Translate square stack",
+  "aliases": [
+    "TranslationSquares"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

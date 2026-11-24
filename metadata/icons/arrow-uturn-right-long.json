@@ -1,0 +1,35 @@
+{
+  "name": "ArrowUturnRightLong",
+  "displayName": "Arrow uturn right long",
+  "description": "U-turn arrow, head pointing right at the top, curving down on the left with a long tail.",
+  "tags": [
+    "arrow",
+    "u-turn",
+    "uturn",
+    "right",
+    "redo",
+    "forward",
+    "return"
+  ],
+  "categories": [
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "U-turn right"
+  },
+  "filename": "arrow-uturn-right-long",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

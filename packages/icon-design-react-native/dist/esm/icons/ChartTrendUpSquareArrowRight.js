@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Path, Polyline } from 'react-native-svg';
+
+const ChartTrendUpSquareArrowRight = forwardRef(function ChartTrendUpSquareArrowRight(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M1.949462884870627,9.000000001378794l.000000000722139,8c.000000000250111,2.761423749150708,2.238576251289487,4.999999999799911,5.0000000004502,4.999999999548891l10-.000000000898581c2.761423749149799-.000000000251021,4.999999999799911-2.238576251300401,4.9999999995498-5.000000000451109l-.0000000009004-10c-.000000000240107-2.76142374914707-2.238576251289487-4.999999999799911-5.0000000004502-4.999999999548891l-4.99999999910051.000000000542059","key":"0"}),
+    createElement(Polyline, {"points":"5.949462885141656 6.000000000480213 7.949462885141656 4.000000000480213 5.949462885141656 2.000000000480213","key":"1"}),
+    createElement(Line, {"x1":"1.949462885141656","y1":"4.000000000480213","x2":"7.949462885141656","y2":"4.000000000480213","key":"2"}),
+    createElement(Polyline, {"points":"6.949462885141656 15.000000000480213 9.949462885141656 12.000000000480213 11.949462885141656 14.000000000480213 16.949462885141656 9.000000000480213","key":"3"}),
+    createElement(Polyline, {"points":"16.949462885141656 12.000000000480213 16.949462885141656 9.000000000480213 13.949462885141656 9.000000000480213","key":"4"})
+  );
+});
+
+ChartTrendUpSquareArrowRight.displayName = 'ChartTrendUpSquareArrowRight';
+
+export default ChartTrendUpSquareArrowRight;
+export { ChartTrendUpSquareArrowRight };

@@ -1,18 +1,19 @@
 {
-  "name": "BrowserWindowUpload2",
+  "name": "WindowUploadPlain",
   "description": "A browser window icon with an upward arrow showing an alternative upload state or style.",
   "tags": [
-    "browser",
     "window",
+    "browser",
     "arrow",
     "up",
     "upload",
     "file",
-    "transfer"
+    "transfer",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window upload plain",
+  "aliases": [
+    "BrowserWindowUpload2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

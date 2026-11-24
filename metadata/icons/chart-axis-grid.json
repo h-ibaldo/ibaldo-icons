@@ -1,0 +1,40 @@
+{
+  "name": "ChartQuadrant",
+  "displayName": "Chart quadrant",
+  "description": "Two axes with a vertical and a horizontal line crossing inside, and a dot in each of the four quadrants.",
+  "tags": [
+    "chart",
+    "graph",
+    "analytics",
+    "data",
+    "axes",
+    "quadrant",
+    "chart-quadrant",
+    "scatter",
+    "matrix"
+  ],
+  "categories": [
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Quadrant chart"
+  },
+  "filename": "chart-axis-grid",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:14:24.000Z",
+  "aliases": [
+    "ChartAxisGrid"
+  ]
+}

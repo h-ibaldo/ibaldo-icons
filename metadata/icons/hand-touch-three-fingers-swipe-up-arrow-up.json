@@ -1,19 +1,21 @@
 {
-  "name": "HandTouchThreeSwipeUp",
+  "name": "HandSwipeUpThreeFingers",
   "description": "A three-finger upward swipe gesture icon with an up arrow indicating upward directional movement",
   "tags": [
     "hand",
     "touch",
-    "three fingers",
+    "arrow",
+    "three-fingers",
     "swipe",
     "up",
-    "arrow",
     "gesture",
-    "directional"
+    "directional",
+    "three",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand swipe up three fingers",
+  "aliases": [
+    "HandTouchThreeSwipeUp"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

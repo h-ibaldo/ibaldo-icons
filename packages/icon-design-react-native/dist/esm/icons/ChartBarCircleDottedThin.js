@@ -1,0 +1,37 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Path } from 'react-native-svg';
+
+const ChartBarCircleDottedThin = forwardRef(function ChartBarCircleDottedThin(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Line, {"x1":"7.974731440099276","y1":"15.000000003885361","x2":"7.974731440099276","y2":"12.000000003885361","key":"0"}),
+    createElement(Line, {"x1":"11.974731440099276","y1":"15.000000003885361","x2":"11.974731440099276","y2":"8.000000003885361","key":"1"}),
+    createElement(Line, {"x1":"15.974731440099276","y1":"15.000000003885361","x2":"15.974731440099276","y2":"10.000000003885361","key":"2"}),
+    createElement(Path, {"d":"M4.903686518229733,19.071044925767637c1.809631347659888,1.809631347648974,4.309631347659888,2.928955078117724,7.071044921869543,2.928955078117724,5.522827148450233,0,10-4.477172851558862,10-10,0-5.522888183590112-4.477172851549767-10-10-10","key":"3"}),
+    createElement(Line, {"x1":"1.984731440099495","y1":"12.000000003885361","x2":"1.974731440099276","y2":"12.000000003885361","strokeDasharray":".5 3.5","key":"4"}),
+    createElement(Line, {"x1":"4.91366362808003","y1":"4.928932192175125","x2":"4.903663628079812","y2":"4.928932192175125","strokeDasharray":".5 3.5","key":"5"}),
+    createElement(Line, {"x1":"2.729326399890851","y1":"15.786486177305051","x2":"2.719326399890633","y2":"15.786486177305051","strokeDasharray":".5 3.5","key":"6"}),
+    createElement(Line, {"x1":"2.729326399890851","y1":"8.213513830454758","x2":"2.719326399890633","y2":"8.213513830454758","strokeDasharray":".5 3.5","key":"7"}),
+    createElement(Line, {"x1":"8.117621823439549","y1":"2.777990287304419","x2":"8.107621823439331","y2":"2.777990287304419","strokeDasharray":".5 3.5","key":"8"})
+  );
+});
+
+ChartBarCircleDottedThin.displayName = 'ChartBarCircleDottedThin';
+
+export default ChartBarCircleDottedThin;
+export { ChartBarCircleDottedThin };

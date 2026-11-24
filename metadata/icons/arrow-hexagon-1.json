@@ -1,5 +1,5 @@
 {
-  "name": "ArrowHexagon1",
+  "name": "ArrowCounterclockwiseHexagon",
   "description": "A directional arrow enclosed within a hexagon shape, representing navigation or movement in a defined geometric context.",
   "tags": [
     "arrow",
@@ -8,10 +8,10 @@
     "navigation",
     "movement",
     "geometric",
-    "shape"
+    "shape",
+    "counterclockwise"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow counterclockwise hexagon",
+  "aliases": [
+    "ArrowHexagon1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

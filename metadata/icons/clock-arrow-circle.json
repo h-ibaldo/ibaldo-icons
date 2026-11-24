@@ -1,5 +1,5 @@
 {
-  "name": "ClockArrowCircle",
+  "name": "ClockRefresh",
   "description": "A clock icon with a circular arrow indicating time refresh or history",
   "tags": [
     "clock",
@@ -12,9 +12,7 @@
     "synchronize"
   ],
   "categories": [
-    "time",
-    "interface",
-    "arrows"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock refresh",
+  "aliases": [
+    "ClockArrowCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

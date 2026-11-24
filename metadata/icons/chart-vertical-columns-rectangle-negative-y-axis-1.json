@@ -1,12 +1,16 @@
 {
-  "name": "ChartVerticalColumnsRectangleNegative1",
-  "displayName": "Chart vertical columns rectangle negative 1",
+  "name": "ChartBarDownPeakSquare",
+  "displayName": "Chart bar down peak square",
   "originalTitle": "Chart Vertical Columns Rectangle Negative Y Axis 1",
   "description": "Column chart displaying negative values below the y-axis baseline in rectangular format. Used for showing losses, deficits, or below-average performance metrics.",
   "tags": [
     "chart",
-    "column",
+    "vertical",
+    "columns",
+    "rectangle",
     "negative",
+    "axis",
+    "column",
     "deficit",
     "loss",
     "data",
@@ -14,8 +18,7 @@
     "performance"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.758Z"
+  "generatedAt": "2026-02-15T00:53:19.758Z",
+  "aliases": [
+    "ChartVerticalColumnsRectangleNegative1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Heart3Dotted",
+  "name": "HeartDotted",
   "description": "A filled heart icon with dotted pattern texture representing love or favorites in a decorative style.",
   "tags": [
     "heart",
@@ -7,10 +7,10 @@
     "dots",
     "pattern",
     "love",
-    "favorite"
+    "favorite",
+    "dotted"
   ],
   "categories": [
-    "interface",
     "social"
   ],
   "accessibility": {
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Heart dotted",
+  "aliases": [
+    "Heart3Dotted"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

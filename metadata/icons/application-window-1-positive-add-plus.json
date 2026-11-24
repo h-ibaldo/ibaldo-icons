@@ -1,19 +1,20 @@
 {
-  "name": "ApplicationWindowAdd",
+  "name": "WindowPlusCircle",
   "description": "An application window with an add or plus action for creating new content",
   "tags": [
-    "application",
     "window",
-    "add",
-    "plus",
+    "application",
     "positive",
+    "add",
     "create",
+    "plus",
     "new",
-    "action"
+    "action",
+    "circle"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window plus circle",
+  "aliases": [
+    "ApplicationWindowAdd"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

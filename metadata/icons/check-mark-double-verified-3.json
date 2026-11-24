@@ -1,21 +1,23 @@
 {
-  "name": "CheckMarkDouble3",
-  "displayName": "Check mark double 3",
+  "name": "CheckDouble2",
+  "displayName": "Check double2",
   "originalTitle": "Check Mark Double Verified 3",
   "description": "Double checkmark icon indicating verification, confirmation, or completed status. Commonly used to show that something has been verified or approved.",
   "tags": [
-    "checkmark",
+    "check",
+    "mark",
     "double",
     "verified",
+    "done",
+    "success",
+    "checkmark",
     "confirmation",
     "approved",
     "complete",
-    "success",
     "validation"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.792Z"
+  "generatedAt": "2026-02-15T00:53:19.792Z",
+  "aliases": [
+    "CheckMarkDouble3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

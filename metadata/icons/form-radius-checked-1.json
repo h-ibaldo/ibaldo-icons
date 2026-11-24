@@ -1,15 +1,19 @@
 {
-  "name": "FormRadiusChecked1",
+  "name": "FormRadioDotLong",
   "description": "A form rounded radius checkbox icon with checked state for selection confirmation",
   "tags": [
     "form",
     "radius",
-    "rounded",
     "checked",
+    "unread",
+    "badge",
+    "rounded",
     "checkbox",
     "select",
     "checkmark",
-    "variant1"
+    "radio",
+    "dot",
+    "long"
   ],
   "categories": [
     "interface"
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form radio dot long",
+  "aliases": [
+    "FormRadiusChecked1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

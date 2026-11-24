@@ -1,0 +1,38 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const LinkPlusBracket = forwardRef(function LinkPlusBracket(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M9 12L7 12C4.238 12 2 9.762 2 7C2 4.238 4.238 2 7 2L9 2","key":"0"}),
+    createElement(Path, {"d":"M15 2L17 2C19.762 2 22 4.238 22 7C22 9.762 19.762 12 17 12L15 12","key":"1"}),
+    createElement(Path, {"d":"M8 7L16 7","key":"2"}),
+    createElement(Path, {"d":"M19 16L19 22","key":"3"}),
+    createElement(Path, {"d":"M22 19L16 19","key":"4"})
+  );
+});
+
+LinkPlusBracket.displayName = 'LinkPlusBracket';
+
+module.exports = LinkPlusBracket;
+module.exports.LinkPlusBracket = LinkPlusBracket;
+module.exports.default = LinkPlusBracket;

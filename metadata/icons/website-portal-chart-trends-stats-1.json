@@ -1,19 +1,20 @@
 {
-  "name": "WebsitePortalTrends1",
+  "name": "BrowserChart",
   "description": "A website portal icon displaying chart and trend statistics for analytics and performance data visualization.",
   "tags": [
+    "browser",
     "website",
     "portal",
-    "chart",
     "trends",
     "stats",
+    "chart",
     "analytics",
     "data",
     "growth"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser chart",
+  "aliases": [
+    "WebsitePortalTrends1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

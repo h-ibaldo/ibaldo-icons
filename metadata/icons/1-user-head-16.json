@@ -1,22 +1,24 @@
 {
-  "name": "UserHead16",
-  "description": "A user profile head icon with variant 16 styling for personal identification",
+  "name": "AvatarHeadCurly",
+  "description": "Head outline with no face details and voluminous curly hair.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "identity"
+    "person",
+    "head",
+    "hairstyle",
+    "curly-hair",
+    "curls",
+    "volume"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-16",
   "technical": {
@@ -29,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar head, curly",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserHeadCurly"
+  ],
+  "featured": true
 }

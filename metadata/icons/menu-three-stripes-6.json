@@ -1,14 +1,14 @@
 {
-  "name": "MenuThreeStripes6",
+  "name": "MenuTight",
   "description": "A hamburger menu icon with three horizontal stripes in a sixth design variant",
   "tags": [
     "menu",
-    "hamburger",
     "three",
     "stripes",
+    "hamburger",
     "navigation",
-    "lines",
-    "interface"
+    "interface",
+    "tight"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu tight",
+  "aliases": [
+    "MenuThreeStripes6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

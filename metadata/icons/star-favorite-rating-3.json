@@ -1,5 +1,5 @@
 {
-  "name": "StarRating3",
+  "name": "StarRound",
   "description": "A three-star favorite rating icon for displaying user ratings and reviews",
   "tags": [
     "star",
@@ -7,12 +7,11 @@
     "rating",
     "review",
     "score",
-    "3-star",
-    "quality"
+    "quality",
+    "round"
   ],
   "categories": [
-    "interface",
-    "business"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Star round",
+  "aliases": [
+    "StarRating3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

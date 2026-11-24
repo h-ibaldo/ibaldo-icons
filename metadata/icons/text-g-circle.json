@@ -1,0 +1,35 @@
+{
+  "name": "TextGCircle",
+  "displayName": "Text G circle",
+  "description": "Capital letter G in a circle.",
+  "tags": [
+    "letter",
+    "text",
+    "character",
+    "alphabet",
+    "circle",
+    "g",
+    "circle-letter-g"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Letter G"
+  },
+  "filename": "text-g-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T22:46:25.332Z"
+}

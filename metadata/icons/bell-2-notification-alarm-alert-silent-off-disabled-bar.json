@@ -1,21 +1,25 @@
 {
-  "name": "Bell2Silent",
-  "displayName": "Bell 2 silent",
+  "name": "BellOff",
+  "displayName": "Bell off",
   "originalTitle": "Bell 2 Notification Alarm Alert Silent Off Disabled Bar",
   "description": "Muted notification bell icon indicating notifications are disabled or silenced. Used to show when alerts and sounds are turned off.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "silent",
-    "muted",
     "disabled",
+    "bar",
+    "mute",
+    "muted",
     "off",
     "quiet",
-    "no sound"
+    "no-sound"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.782Z"
+  "generatedAt": "2026-02-15T00:53:19.782Z",
+  "aliases": [
+    "Bell2Silent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

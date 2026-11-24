@@ -1,0 +1,34 @@
+{
+  "name": "LayerStackOpenArrowDown",
+  "displayName": "Layer stack open arrow down",
+  "description": "Three open layers with an arrow pointing down at the bottom right.",
+  "tags": [
+    "layers",
+    "stack",
+    "levels",
+    "design",
+    "send-backward",
+    "down"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Send backward"
+  },
+  "filename": "layer-stack-open-arrow-down",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

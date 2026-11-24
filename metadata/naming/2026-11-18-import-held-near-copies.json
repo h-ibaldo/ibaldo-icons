@@ -1,0 +1,69 @@
+{
+  "messaging-bubbles-p0396": {
+    "name": "ChatClockTooltip2",
+    "displayName": "Chat clock tooltip 2",
+    "description": "Rounded-rectangle speech bubble with a centered V tail and a clock at the corner where the outline breaks.",
+    "tags": [
+      "chat",
+      "message",
+      "clock",
+      "pending",
+      "scheduled",
+      "time",
+      "speech-bubble",
+      "square",
+      "broken",
+      "comment"
+    ],
+    "categories": [
+      "communication",
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Message pending"
+    }
+  },
+  "old-icon-set-1-p0611": {
+    "name": "ArrowCounterclockwiseChevron2",
+    "displayName": "Arrow counterclockwise chevron2",
+    "description": "Circle open at the top left, ending in a chevron arrowhead pointing left.",
+    "tags": [
+      "arrow",
+      "counterclockwise",
+      "undo",
+      "history",
+      "restore",
+      "back",
+      "rotate"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Undo"
+    }
+  },
+  "old-icon-set-1-p0525": {
+    "name": "ClipboardLinkTilted2",
+    "displayName": "Clipboard link tilted2",
+    "description": "Clipboard with a split capsule link at the bottom right.",
+    "tags": [
+      "clipboard",
+      "link",
+      "copy",
+      "url",
+      "paste",
+      "chain"
+    ],
+    "categories": [
+      "files",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copy link"
+    }
+  }
+}

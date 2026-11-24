@@ -1,21 +1,24 @@
 {
-  "name": "Bell2SquareDot",
-  "displayName": "Bell 2 square dot",
+  "name": "BellSquareDot",
+  "displayName": "Bell square dot",
   "originalTitle": "Bell 2 Notification Alarm Alert Square Red Dot",
   "description": "Notification bell with red indicator dot showing unread alerts. Used to display notification count or new message indicator.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "unread",
     "badge",
     "indicator",
-    "alert",
     "new",
-    "count"
+    "count",
+    "square",
+    "dot"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.782Z"
+  "generatedAt": "2026-02-15T00:53:19.782Z",
+  "aliases": [
+    "Bell2SquareDot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

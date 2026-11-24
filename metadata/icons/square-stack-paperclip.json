@@ -1,0 +1,35 @@
+{
+  "name": "SquareStackPaperclip",
+  "displayName": "Square stack paperclip",
+  "description": "Two stacked squares with a horizontal paperclip on the front one.",
+  "tags": [
+    "square",
+    "stack",
+    "copy",
+    "files",
+    "paperclip",
+    "attachment",
+    "attach"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Attachments"
+  },
+  "filename": "square-stack-paperclip",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

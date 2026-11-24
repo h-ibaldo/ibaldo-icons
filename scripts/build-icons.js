@@ -6,24 +6,19 @@
  * Orchestrates the complete icon processing pipeline:
  * 1. Scan for new/changed icons in src/icons/raw/
  * 2. Optimize SVGs (safe mode)
- * 3. Generate AI metadata
- * 4. Copy to static/icons/optimized/
+ * 3. Copy to static/icons/optimized/
+ * 4. Report icons that still need a name (see NAMING-GUIDE.md)
  * 5. Build React package
  * 6. Build Svelte package
  * 7. Generate icons-index.json
  */
 
-import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { exec } from 'child_process';
 import { promisify } from 'util';
 import { optimizeSVGSafe } from './optimize-svg-safe.js';
-import { processInBatches, saveMetadata } from './ai-generate-metadata.js';
-
-// Load environment variables from .env file
-dotenv.config();
 
 const execAsync = promisify(exec);
 
@@ -104,15 +99,14 @@ function getIconsToProcess(svgPaths, forceAll = false) {
 
 /**
  * Optimize and copy icons to static/icons/optimized/
- * @param {Array} metadataResults - Results from metadata generation
+ * @param {string[]} svgPaths - Raw SVG paths
  */
-function optimizeAndCopyIcons(metadataResults) {
+function optimizeAndCopyIcons(svgPaths) {
   console.log('\n📦 Optimizing and copying icons...');
 
   let copiedCount = 0;
 
-  for (const result of metadataResults) {
-    const { path: svgPath, metadata } = result;
+  for (const svgPath of svgPaths) {
 
     // Read original SVG
     const svgContent = fs.readFileSync(svgPath, 'utf8');
@@ -126,7 +120,7 @@ function optimizeAndCopyIcons(metadataResults) {
     }
 
     // Write optimized SVG directly into optimized/ (no category subfolders)
-    const outputPath = path.join(OPTIMIZED_DIR, `${metadata.filename}.svg`);
+    const outputPath = path.join(OPTIMIZED_DIR, path.basename(svgPath));
     fs.writeFileSync(outputPath, optimized, 'utf8');
 
     copiedCount++;
@@ -148,6 +142,40 @@ async function buildReactPackage() {
     console.log('✅ React package built');
   } catch (error) {
     console.error('❌ React package build failed:', error.message);
+    throw error;
+  }
+}
+
+/**
+ * Build React Native package
+ */
+async function buildReactNativePackage() {
+  console.log('\n📱 Building React Native package...');
+
+  try {
+    await execAsync('npm run build', {
+      cwd: path.join(projectRoot, 'packages', 'icon-design-react-native')
+    });
+    console.log('✅ React Native package built');
+  } catch (error) {
+    console.error('❌ React Native package build failed:', error.message);
+    throw error;
+  }
+}
+
+/**
+ * Build Vue package
+ */
+async function buildVuePackage() {
+  console.log('\n🟢 Building Vue package...');
+
+  try {
+    await execAsync('npm run build', {
+      cwd: path.join(projectRoot, 'packages', 'icon-design-vue')
+    });
+    console.log('✅ Vue package built');
+  } catch (error) {
+    console.error('❌ Vue package build failed:', error.message);
     throw error;
   }
 }
@@ -176,13 +204,9 @@ async function generateIconsIndex() {
   console.log('\n📋 Generating icons index...');
 
   try {
-    // Use algorithm naming for regular builds (fast, no API calls)
-    // Run `npm run generate:index:full` manually for AI naming + metadata
-    await execAsync('NAMING_STRATEGY=algorithm GENERATE_METADATA=false node scripts/generate-icons-index.js', {
-      cwd: projectRoot
-    });
-    console.log('✅ Icons index generated (using fast algorithm naming)');
-    console.log('💡 Tip: Run `npm run generate:index:full` for AI naming + metadata');
+    // Names come from metadata/icons/ (no AI calls during builds)
+    await execAsync('node scripts/generate-icons-index.js', { cwd: projectRoot });
+    console.log('✅ Icons index generated');
   } catch (error) {
     console.error('❌ Icons index generation failed:', error.message);
     throw error;
@@ -225,19 +249,19 @@ async function main() {
 
   console.log(`${toProcess.length} icon(s) need processing`);
 
-  // Step 3: Generate metadata with AI
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.warn('\n⚠️  ANTHROPIC_API_KEY not set - using fallback metadata generation');
-    console.warn('   For AI-powered metadata, set ANTHROPIC_API_KEY in your environment');
+  // Step 3: Optimize and copy to static
+  optimizeAndCopyIcons(toProcess);
+
+  // Step 4: Icons without metadata still build (with a name derived from the
+  // filename), but they should be named properly before release.
+  const unnamed = toProcess.filter(
+    (p) => !fs.existsSync(path.join(METADATA_DIR, `${path.basename(p, '.svg')}.json`))
+  );
+  if (unnamed.length > 0) {
+    console.warn(`\n⚠️  ${unnamed.length} icon(s) have no metadata yet:`);
+    unnamed.slice(0, 20).forEach((p) => console.warn(`   - ${path.basename(p)}`));
+    console.warn('   Name them following NAMING-GUIDE.md, then run: npm run name:apply <batch.json>');
   }
-
-  const metadataResults = await processInBatches(toProcess);
-
-  // Step 4: Save metadata
-  saveMetadata(metadataResults);
-
-  // Step 5: Optimize and copy to static
-  optimizeAndCopyIcons(metadataResults);
 
   // Step 6: Build packages
   console.log('\n📦 Building framework packages...');
@@ -245,7 +269,9 @@ async function main() {
   try {
     await Promise.all([
       buildReactPackage(),
-      buildSveltePackage()
+      buildSveltePackage(),
+      buildVuePackage(),
+      buildReactNativePackage()
     ]);
   } catch (error) {
     console.error('\n❌ Package builds failed');
@@ -266,6 +292,8 @@ async function main() {
   console.log(`  📄 Metadata: metadata/icons/`);
   console.log(`  ⚛️  React: packages/icon-design-react/dist/`);
   console.log(`  🔶 Svelte: packages/icon-design-svelte/dist/`);
+  console.log(`  🟢 Vue: packages/icon-design-vue/dist/`);
+  console.log(`  📱 React Native: packages/icon-design-react-native/dist/`);
   console.log(`  📋 Index: static/icons-index.json`);
   console.log('\n' + '='.repeat(60) + '\n');
 }

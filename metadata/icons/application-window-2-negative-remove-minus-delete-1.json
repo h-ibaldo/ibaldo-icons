@@ -1,18 +1,20 @@
 {
-  "name": "ApplicationWindowRemove1",
+  "name": "WindowMinus",
   "description": "An application window icon with a negative or remove symbol for deletion operations",
   "tags": [
-    "application",
     "window",
+    "application",
     "negative",
     "remove",
-    "minus",
     "delete",
+    "subtract",
+    "minus",
     "close",
     "interface",
     "action"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window minus",
+  "aliases": [
+    "ApplicationWindowRemove1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

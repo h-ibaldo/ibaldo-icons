@@ -1,14 +1,17 @@
 {
-  "name": "SwitchKnobButton3",
+  "name": "SwitchKnobUpLeftHandle",
   "description": "A third rotary knob-style switch button variant for controls and adjustable settings.",
   "tags": [
     "switch",
-    "knob",
     "button",
+    "knob",
     "rotary",
     "control",
     "adjustment",
-    "design"
+    "design",
+    "up",
+    "left",
+    "handle"
   ],
   "categories": [
     "interface"
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch knob up left handle",
+  "aliases": [
+    "SwitchKnobButton3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

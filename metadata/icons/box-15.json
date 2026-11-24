@@ -1,5 +1,5 @@
 {
-  "name": "Box15",
+  "name": "BoxLabel",
   "description": "A box or container icon in its fifteenth design variant",
   "tags": [
     "box",
@@ -8,11 +8,10 @@
     "storage",
     "cargo",
     "shipping",
-    "variant"
+    "label"
   ],
   "categories": [
-    "interface",
-    "shopping"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Box label",
+  "aliases": [
+    "Box15"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

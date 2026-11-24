@@ -1,5 +1,5 @@
 {
-  "name": "HandCursorPointer5",
+  "name": "HandPointerFingersRound2",
   "description": "A specialized hand pointer cursor variant for comprehensive cursor icon library coverage and design flexibility.",
   "tags": [
     "hand",
@@ -8,11 +8,12 @@
     "click",
     "interactive",
     "touch",
-    "gesture"
+    "gesture",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand pointer fingers round2",
+  "aliases": [
+    "HandCursorPointer5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

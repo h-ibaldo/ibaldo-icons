@@ -1,0 +1,35 @@
+{
+  "name": "PhoneMusic",
+  "displayName": "Phone music",
+  "description": "Telephone handset with a music note at the top right.",
+  "tags": [
+    "phone",
+    "call",
+    "telephone",
+    "handset",
+    "ringtone",
+    "hold-music",
+    "sound"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Ringtone"
+  },
+  "filename": "phone-music",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

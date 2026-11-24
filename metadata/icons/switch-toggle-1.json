@@ -1,13 +1,14 @@
 {
-  "name": "SwitchToggle1",
+  "name": "SwitchLeverCup",
   "description": "A toggle switch icon in the first variant style",
   "tags": [
     "switch",
     "toggle",
     "control",
-    "variant",
     "state",
-    "interface"
+    "interface",
+    "lever",
+    "cup"
   ],
   "categories": [
     "interface"
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch lever cup",
+  "aliases": [
+    "SwitchToggle1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

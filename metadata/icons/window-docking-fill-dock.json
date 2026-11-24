@@ -1,18 +1,16 @@
 {
-  "name": "WindowDockingFill",
+  "name": "DockFill",
   "description": "A window docking icon with filled representation for dock panel filling",
   "tags": [
+    "dock",
     "window",
     "docking",
     "fill",
-    "dock",
     "panel",
-    "solid",
     "complete"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Dock fill",
+  "aliases": [
+    "WindowDockingFill"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

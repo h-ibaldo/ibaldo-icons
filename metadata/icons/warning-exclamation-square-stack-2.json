@@ -1,18 +1,19 @@
 {
-  "name": "WarningSquareStackAlt",
+  "name": "AlertSquareStackOverlap",
   "description": "An alternative stacked warning icon displaying multiple exclamation marks for emphasis on compound alerts",
   "tags": [
+    "alert",
     "warning",
     "exclamation",
+    "error",
+    "attention",
     "square",
     "stack",
-    "alert",
     "multiple",
-    "variant"
+    "overlap"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Alert square stack overlap",
+  "aliases": [
+    "WarningSquareStackAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

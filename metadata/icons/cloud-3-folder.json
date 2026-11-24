@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Folder",
+  "name": "CloudFolderRound",
   "description": "A cloud icon with a folder indicating cloud file management or cloud directory storage",
   "tags": [
     "cloud",
@@ -8,12 +8,12 @@
     "directory",
     "storage",
     "organization",
-    "documents"
+    "documents",
+    "round"
   ],
   "categories": [
-    "interface",
     "files",
-    "business"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud folder round",
+  "aliases": [
+    "Cloud3Folder"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

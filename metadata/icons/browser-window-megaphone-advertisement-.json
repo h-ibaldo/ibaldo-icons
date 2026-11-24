@@ -1,18 +1,19 @@
 {
-  "name": "BrowserWindowAnnouncement",
+  "name": "BrowserMegaphoneBare",
   "description": "A browser window icon featuring a megaphone for advertisement and promotional messaging",
   "tags": [
     "browser",
     "window",
-    "megaphone",
     "advertisement",
+    "megaphone",
     "announcement",
     "promotion",
-    "broadcast"
+    "broadcast",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser megaphone bare",
+  "aliases": [
+    "BrowserWindowAnnouncement"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

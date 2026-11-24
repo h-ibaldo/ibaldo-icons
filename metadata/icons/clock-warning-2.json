@@ -1,5 +1,5 @@
 {
-  "name": "ClockWarningAlt",
+  "name": "ClockTriangle",
   "description": "An alternative clock icon with warning symbol for time-based notifications",
   "tags": [
     "clock",
@@ -7,11 +7,10 @@
     "alert",
     "time",
     "caution",
-    "variant"
+    "triangle"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock triangle",
+  "aliases": [
+    "ClockWarningAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

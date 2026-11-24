@@ -1,18 +1,18 @@
 {
-  "name": "SearchWindowLupe2",
+  "name": "WindowSearchDots",
   "description": "A search icon with magnifying glass for searching within an application window in its second variant.",
   "tags": [
-    "search",
-    "application",
     "window",
+    "application",
     "lupe",
-    "magnifying glass",
+    "search",
+    "magnifying-glass",
     "find",
-    "variant2"
+    "dots"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window search dots",
+  "aliases": [
+    "SearchWindowLupe2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

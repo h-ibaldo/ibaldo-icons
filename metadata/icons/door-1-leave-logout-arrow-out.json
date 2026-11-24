@@ -1,21 +1,21 @@
 {
-  "name": "Door1ArrowOut",
-  "displayName": "Door 1 arrow out",
+  "name": "DoorArrowOutBare",
+  "displayName": "Door arrow out bare",
   "originalTitle": "Door 1 Leave Logout Arrow Out",
   "description": "Door with outward arrow representing logout or exit functionality. Used for sign out actions and leaving applications or rooms.",
   "tags": [
     "door",
+    "leave",
     "logout",
     "exit",
-    "leave",
-    "sign out",
+    "sign-out",
     "arrow",
     "out",
-    "departure"
+    "departure",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "business"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.800Z"
+  "generatedAt": "2026-02-15T00:53:19.800Z",
+  "aliases": [
+    "Door1ArrowOut"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

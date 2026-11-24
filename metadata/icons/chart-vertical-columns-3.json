@@ -1,21 +1,23 @@
 {
-  "name": "ChartVerticalColumns3",
-  "displayName": "Chart vertical columns 3",
+  "name": "ChartBarPeakJoined",
+  "displayName": "Chart bar peak joined",
   "originalTitle": "Chart Vertical Columns 3",
   "description": "Third variation of vertical column chart for displaying categorical data. Used in business intelligence and data presentation applications.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
     "bars",
-    "vertical",
     "categorical",
     "data",
     "business",
-    "analysis"
+    "analysis",
+    "bar",
+    "peak",
+    "joined"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.755Z"
+  "generatedAt": "2026-02-15T00:53:19.755Z",
+  "aliases": [
+    "ChartVerticalColumns3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

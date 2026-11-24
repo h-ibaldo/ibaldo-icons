@@ -1,9 +1,9 @@
 {
-  "name": "BrowserWindow2",
+  "name": "WindowPlain2",
   "description": "A browser window icon representing web application or internet interface - variant 2",
   "tags": [
-    "browser",
     "window",
+    "browser",
     "web",
     "internet",
     "application",
@@ -12,8 +12,8 @@
     "interface"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window plain2",
+  "aliases": [
+    "BrowserWindow2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

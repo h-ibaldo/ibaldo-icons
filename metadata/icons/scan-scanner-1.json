@@ -1,17 +1,16 @@
 {
-  "name": "Scan1",
+  "name": "ScannerPaper",
   "description": "A scanner icon for the first variant of document scanning and digitization",
   "tags": [
-    "scan",
     "scanner",
+    "scan",
     "document",
     "digitize",
     "capture",
-    "variant1"
+    "paper"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scanner paper",
+  "aliases": [
+    "Scan1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

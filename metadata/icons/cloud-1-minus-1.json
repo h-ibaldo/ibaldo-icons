@@ -1,18 +1,19 @@
 {
-  "name": "CloudRemove",
+  "name": "CloudMinusCorner",
   "description": "A cloud icon with a minus symbol for removing or deleting cloud items and files",
   "tags": [
     "cloud",
-    "minus",
     "remove",
-    "delete",
     "subtract",
+    "minus",
+    "delete",
     "decrease",
-    "elimination"
+    "elimination",
+    "corner"
   ],
   "categories": [
-    "interface",
-    "files"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud minus corner",
+  "aliases": [
+    "CloudRemove"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

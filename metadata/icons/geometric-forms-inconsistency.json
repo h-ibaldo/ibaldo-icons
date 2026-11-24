@@ -1,14 +1,16 @@
 {
-  "name": "GeometricFormsInconsistency",
+  "name": "ShapeUneven",
   "description": "A geometric forms icon illustrating inconsistency and misaligned shapes",
   "tags": [
+    "shape",
     "geometric",
     "forms",
     "inconsistency",
     "irregular",
     "mismatch",
     "asymmetry",
-    "shapes"
+    "shapes",
+    "uneven"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Shape uneven",
+  "aliases": [
+    "GeometricFormsInconsistency"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

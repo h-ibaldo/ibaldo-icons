@@ -1,12 +1,12 @@
 {
-  "name": "Information5",
+  "name": "InfoScript",
   "description": "An information icon in an alternate variant style for displaying help or details.",
   "tags": [
-    "information",
     "info",
+    "information",
     "help",
     "details",
-    "variant"
+    "script"
   ],
   "categories": [
     "interface"
@@ -26,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Info script",
+  "aliases": [
+    "Information5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

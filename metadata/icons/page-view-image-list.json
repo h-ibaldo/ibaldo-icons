@@ -1,12 +1,12 @@
 {
-  "name": "PageViewImageList",
+  "name": "LayoutListImage",
   "description": "A page view icon displaying images in a vertical list format with minimal details",
   "tags": [
+    "layout",
     "page",
     "view",
     "image",
     "list",
-    "layout",
     "vertical",
     "gallery",
     "images"
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout list image",
+  "aliases": [
+    "PageViewImageList"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

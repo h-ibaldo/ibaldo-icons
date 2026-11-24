@@ -1,5 +1,5 @@
 {
-  "name": "TouchScreenSwipeUp",
+  "name": "TouchSwipeUp",
   "description": "A touch screen icon demonstrating an upward swipe gesture for scrolling or navigating upward on a mobile device.",
   "tags": [
     "touch",
@@ -13,8 +13,8 @@
     "scroll"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Touch swipe up",
+  "aliases": [
+    "TouchScreenSwipeUp"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

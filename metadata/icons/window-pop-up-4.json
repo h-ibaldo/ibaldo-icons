@@ -1,14 +1,16 @@
 {
-  "name": "WindowPopUp4",
+  "name": "PopoverWindow",
   "description": "A pop-up window icon variant representing a floating dialog box interface element",
   "tags": [
+    "popover",
+    "pop",
+    "up",
     "window",
     "pop-up",
     "dialog",
     "floating",
     "modal",
-    "interface",
-    "variant4"
+    "interface"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Popover window",
+  "aliases": [
+    "WindowPopUp4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

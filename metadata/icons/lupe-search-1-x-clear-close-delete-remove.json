@@ -1,10 +1,9 @@
 {
-  "name": "LupeClose",
+  "name": "SearchX",
   "description": "A magnifying glass search icon with an X symbol for clearing or closing search functionality",
   "tags": [
-    "lupe",
     "search",
-    "x",
+    "lupe",
     "clear",
     "close",
     "delete",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search X",
+  "aliases": [
+    "LupeClose"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,24 @@
 {
-  "name": "Bell4Clock",
-  "displayName": "Bell 4 clock",
+  "name": "BellClockFlat",
+  "displayName": "Bell clock flat",
   "originalTitle": "Bell 4 Notification Alarm Alert Clock",
   "description": "Notification bell with clock symbol for scheduled alerts or time-based notifications. Used for reminders, appointments, or timed notifications.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "scheduled",
     "timer",
     "reminder",
     "appointment",
     "clock",
-    "time"
+    "time",
+    "flat"
   ],
   "categories": [
-    "interface",
-    "time"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.785Z"
+  "generatedAt": "2026-02-15T00:53:19.785Z",
+  "aliases": [
+    "Bell4Clock"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

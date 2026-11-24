@@ -1,19 +1,19 @@
 {
-  "name": "LevelsAdjustDashboard7",
+  "name": "AdjustPairBlock",
   "description": "A levels adjustment icon for dashboard controls with seven variants for fine-tuned system or media settings.",
   "tags": [
-    "levels",
     "adjust",
+    "levels",
     "dashboard",
     "settings",
     "controls",
     "slider",
     "equalizer",
-    "variant 7"
+    "pair",
+    "block"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Adjust pair block",
+  "aliases": [
+    "LevelsAdjustDashboard7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

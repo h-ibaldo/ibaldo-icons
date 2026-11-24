@@ -1,0 +1,37 @@
+{
+  "name": "SkipForwardThick",
+  "displayName": "Skip forward thick",
+  "description": "Triangle pointing right against a vertical bar, with the bars drawn as thick outlined bars.",
+  "tags": [
+    "skip",
+    "next",
+    "next-track",
+    "forward",
+    "playlist",
+    "player",
+    "media",
+    "bold",
+    "thick"
+  ],
+  "categories": [
+    "media"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Next track"
+  },
+  "filename": "skip-forward-thick",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T16:04:08.263Z"
+}

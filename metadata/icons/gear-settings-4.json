@@ -1,5 +1,5 @@
 {
-  "name": "GearSettings4",
+  "name": "GearWavy",
   "description": "A fourth variant gear settings icon with unique styling for configuration and preferences controls.",
   "tags": [
     "gear",
@@ -8,10 +8,10 @@
     "preferences",
     "control",
     "options",
-    "variant"
+    "wavy"
   ],
   "categories": [
-    "interface"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear wavy",
+  "aliases": [
+    "GearSettings4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

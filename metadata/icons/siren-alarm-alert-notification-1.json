@@ -1,5 +1,5 @@
 {
-  "name": "SirenAlert",
+  "name": "Siren",
   "description": "A siren icon indicating an alarm, alert, or notification signal",
   "tags": [
     "siren",
@@ -11,9 +11,7 @@
     "sound"
   ],
   "categories": [
-    "interface",
-    "communication",
-    "time"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Siren",
+  "aliases": [
+    "SirenAlert"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

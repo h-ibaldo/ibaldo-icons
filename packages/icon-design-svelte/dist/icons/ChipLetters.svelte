@@ -1,0 +1,48 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <path d="M6 4L18 4C19.105 4 20 4.895 20 6L20 18C20 19.105 19.105 20 18 20L6 20C4.895 20 4 19.105 4 18L4 6C4 4.895 4.895 4 6 4Z"/>
+  <path d="M9 4L9 2"/>
+  <path d="M9 22L9 20"/>
+  <path d="M12 4L12 2"/>
+  <path d="M12 22L12 20"/>
+  <path d="M15 4L15 2"/>
+  <path d="M15 22L15 20"/>
+  <path d="M9 4L9 2"/>
+  <path d="M20 9L22 9"/>
+  <path d="M9 22L9 20"/>
+  <path d="M2 9L4 9"/>
+  <path d="M12 4L12 2"/>
+  <path d="M20 12L22 12"/>
+  <path d="M12 22L12 20"/>
+  <path d="M2 12L4 12"/>
+  <path d="M15 4L15 2"/>
+  <path d="M20 15L22 15"/>
+  <path d="M15 22L15 20"/>
+  <path d="M2 15L4 15"/>
+  <path d="M16 8L16 15"/>
+  <path d="M8 13L13 13"/>
+  <path d="M8 15L8 10.5C8 9.121 9.121 8 10.5 8C11.879 8 13 9.121 13 10.5L13 15"/>
+</svg>

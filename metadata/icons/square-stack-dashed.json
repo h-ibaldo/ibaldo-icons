@@ -1,0 +1,37 @@
+{
+  "name": "SquareStackDashed",
+  "displayName": "Square stack dashed",
+  "description": "Square in front of a dashed copy of itself.",
+  "tags": [
+    "duplicate",
+    "layer",
+    "ghost",
+    "layers",
+    "arrange",
+    "stack",
+    "squares",
+    "overlap",
+    "dashed"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Layers"
+  },
+  "filename": "square-stack-dashed",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

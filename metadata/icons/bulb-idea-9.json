@@ -1,7 +1,8 @@
 {
-  "name": "Bulb9",
+  "name": "LightbulbFilamentAngledRound2",
   "description": "A light bulb icon representing ideas and innovation in variant 9 style",
   "tags": [
+    "lightbulb",
     "bulb",
     "idea",
     "light",
@@ -9,11 +10,11 @@
     "creativity",
     "solution",
     "inspiration",
-    "variant9"
+    "filament",
+    "angled"
   ],
   "categories": [
-    "interface",
-    "development"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lightbulb filament angled round2",
+  "aliases": [
+    "Bulb9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "SaveAllFloppyStack2",
+  "name": "SaveLabelStack",
   "description": "A second variant of the save all floppy disk stack icon with alternative styling",
   "tags": [
     "save",
@@ -10,10 +10,9 @@
     "stack",
     "storage",
     "backup",
-    "variant"
+    "label"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save label stack",
+  "aliases": [
+    "SaveAllFloppyStack2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

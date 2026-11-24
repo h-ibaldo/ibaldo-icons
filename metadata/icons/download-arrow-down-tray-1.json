@@ -1,5 +1,5 @@
 {
-  "name": "DownloadArrowTray",
+  "name": "DownloadTraySquare",
   "description": "A download arrow icon pointing downward into a tray or inbox container, representing file downloads to a destination",
   "tags": [
     "download",
@@ -8,10 +8,12 @@
     "tray",
     "inbox",
     "destination",
-    "file"
+    "file",
+    "square"
   ],
   "categories": [
-    "interface"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download tray square",
+  "aliases": [
+    "DownloadArrowTray"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,0 +1,40 @@
+{
+  "name": "FileBrushCut",
+  "displayName": "File brush cut",
+  "description": "File page with a cut corner and a paint brush at the bottom left.",
+  "tags": [
+    "file",
+    "brush",
+    "paint",
+    "design",
+    "artwork",
+    "edit",
+    "creative",
+    "cut-corner"
+  ],
+  "categories": [
+    "files",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Design file"
+  },
+  "filename": "file-stamp-cut",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T20:43:28.284Z",
+  "aliases": [
+    "FileStampCut"
+  ]
+}

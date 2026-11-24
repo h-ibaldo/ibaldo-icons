@@ -1,22 +1,24 @@
 {
-  "name": "UserPerson10",
-  "description": "A user person icon representing a full-body individual profile, variant 10",
+  "name": "AvatarFaceCurlyBob",
+  "description": "Face with eyes and a short curly bob.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "avatar",
-    "full body",
-    "variant 10"
+    "person",
+    "face",
+    "hairstyle",
+    "bob",
+    "curly-hair",
+    "curls"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User person icon"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-10",
   "technical": {
@@ -29,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, curly bob",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceCurlyBob"
+  ],
+  "featured": true
 }

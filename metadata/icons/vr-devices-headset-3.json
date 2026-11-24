@@ -1,19 +1,17 @@
 {
-  "name": "VRHeadset3",
+  "name": "VrHeadsetGoggles",
   "description": "A third virtual reality headset icon variant for diverse VR device and immersive technology applications.",
   "tags": [
     "vr",
-    "virtual reality",
-    "headset",
     "devices",
+    "virtual-reality",
+    "headset",
     "technology",
     "immersive",
-    "variant",
-    "3d"
+    "goggles"
   ],
   "categories": [
-    "devices",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Vr headset goggles",
+  "aliases": [
+    "VRHeadset3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

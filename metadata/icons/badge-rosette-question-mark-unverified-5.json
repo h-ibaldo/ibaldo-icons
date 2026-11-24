@@ -1,19 +1,18 @@
 {
-  "name": "BadgeRosetteQuestionUnverified5",
+  "name": "BadgeQuestionWavy",
   "description": "A fifth variant of the rosette badge with question mark, providing additional design options for unverified status indication.",
   "tags": [
     "badge",
     "rosette",
-    "question",
     "mark",
     "unverified",
+    "question",
     "uncertain",
-    "variant",
-    "verification"
+    "verification",
+    "wavy"
   ],
   "categories": [
-    "interface",
-    "security"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Badge question wavy",
+  "aliases": [
+    "BadgeRosetteQuestionUnverified5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

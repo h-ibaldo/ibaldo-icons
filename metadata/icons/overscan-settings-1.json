@@ -1,5 +1,5 @@
 {
-  "name": "OverscanSettings1",
+  "name": "Overscan",
   "description": "An overscan or display adjustment settings icon showing borders with control indicators",
   "tags": [
     "overscan",
@@ -10,8 +10,7 @@
     "calibration"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Overscan",
+  "aliases": [
+    "OverscanSettings1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

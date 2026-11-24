@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow2Pdf",
-  "displayName": "Application window 2 pdf",
+  "name": "WindowPdfBare",
+  "displayName": "Window pdf bare",
   "originalTitle": "Application Window 2 Pdf",
   "description": "Application window representing PDF document viewer or editor. Used to indicate PDF files, document readers, or portable document format applications.",
   "tags": [
@@ -11,10 +11,11 @@
     "portable",
     "format",
     "reader",
-    "viewer"
+    "viewer",
+    "bare"
   ],
   "categories": [
-    "files",
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.775Z"
+  "generatedAt": "2026-02-15T00:53:19.775Z",
+  "aliases": [
+    "ApplicationWindow2Pdf"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

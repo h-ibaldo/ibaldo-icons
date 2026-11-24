@@ -1,0 +1,32 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <rect x="5.050537117662316" y="1.998782732995096" width="14" height="20" rx="2" ry="2"/>
+  <line x1="5.050537117662316" y1="4.998782732995096" x2="19.050537117662316" y2="4.998782732995096"/>
+  <line x1="5.050537117662316" y1="18.998782732995096" x2="19.050537117662316" y2="18.998782732995096"/>
+  <polyline points="8.050537117662316 8.998782732995096 10.050537117662316 8.998782732995096 11.050537117662316 12.998782732995096 14.050537117662316 12.998782732995096 15.050537117662316 9.998782732995096 10.550537117662316 9.998782732995096"/>
+  <line x1="11.050537117662316" y1="14.998782732995096" x2="11.050537117662316" y2="14.998782732995096"/>
+  <line x1="14.050537117662316" y1="14.998782732995096" x2="14.050537117662316" y2="14.998782732995096"/>
+</svg>

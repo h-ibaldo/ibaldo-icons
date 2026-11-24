@@ -1,0 +1,32 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Path, Polyline } from 'react-native-svg';
+
+const ClockFunnel = forwardRef(function ClockFunnel(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M2,14.999999999898137h8v1.000000000010914c0,.629514606669545-.296388314669457,1.222291235999364-.800000000000182,1.599999999998545l-3.199999999999818,2.400000000001455-3.199999999999818-2.40000000001055c-.503611685330725-.377708763999181-.800000000000182-.970485393330819-.800000000000182-1.600000000000364v-1Z","key":"0"}),
+    createElement(Line, {"x1":"6","y1":"19.999999999909051","x2":"6","y2":"21.999999999909051","key":"1"}),
+    createElement(Polyline, {"points":"12 6.999999999909051 12 11.999999999909051 17 11.999999999909051","key":"2"}),
+    createElement(Path, {"d":"M11,21.949462890528594c.328918457030341.032958984380457.662414550780341.050537109380457,1,.050537109380457,5.522827148440228,0,10-4.477172851560681,10-10,0-5.522827148441138-4.477172851559772-10-10-10C6.814758300780341,1.999999999909051,2.552368164059772,5.946777343659051,2.050476074219659,10.999999999909051","key":"3"})
+  );
+});
+
+ClockFunnel.displayName = 'ClockFunnel';
+
+export default ClockFunnel;
+export { ClockFunnel };

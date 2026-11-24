@@ -1,7 +1,8 @@
 {
-  "name": "FaceID3",
+  "name": "ScanEye",
   "description": "A face identification biometric recognition icon, variant 3, for facial authentication and security verification",
   "tags": [
+    "scan",
     "face",
     "id",
     "recognition",
@@ -10,11 +11,10 @@
     "security",
     "facial",
     "verification",
-    "variant 3"
+    "eye"
   ],
   "categories": [
-    "security",
-    "devices"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Scan eye",
+  "aliases": [
+    "FaceID3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

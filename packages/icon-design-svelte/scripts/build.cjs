@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Build script for @icon-design/svelte
+ * Build script for @ibaldo/icons-svelte
  * Converts SVG icons to Svelte components with tree-shaking support
  */
 
@@ -62,7 +62,10 @@ function parseSVG(svgContent) {
   // Clean up inner content - remove data-name and id attributes
   innerContent = innerContent
     .replace(/\s*data-name="[^"]*"/g, '')
-    .replace(/\s*id="[^"]*"/g, '');
+    .replace(/\s*id="[^"]*"/g, '')
+    // Paint is set once on the root <svg>; repeating it on children would
+    // make the color and strokeWidth props do nothing.
+    .replace(/\s*(fill|stroke|stroke-width|stroke-linecap|stroke-linejoin)="[^"]*"/g, '');
   
   return {
     viewBox,
@@ -138,7 +141,7 @@ function getAllSVGFiles(dir, files = []) {
 
 // Main build function
 async function build() {
-  console.log('🎨 Building @icon-design/svelte...\n');
+  console.log('🎨 Building @ibaldo/icons-svelte...\n');
   
   // Clean and create directories
   if (fs.existsSync(DIST_DIR)) {
@@ -147,25 +150,19 @@ async function build() {
   
   fs.mkdirSync(ICONS_DIST_DIR, { recursive: true });
   
-  // Get all SVG files
-  const svgFiles = getAllSVGFiles(ICONS_DIR);
-  console.log(`📁 Found ${svgFiles.length} SVG files\n`);
-  
+  // Names come from metadata/icons/ via the shared module, so the package
+  // uses exactly the same names as the website (see NAMING-GUIDE.md).
+  const { loadIconNames } = require('../../../scripts/utils/icon-names.cjs');
+  const { icons, aliases } = loadIconNames();
+  console.log(`📁 Found ${icons.length} icons in static/icons/optimized/\n`);
+
   const components = [];
-  const componentNameCounts = {};
-  
-  for (const svgPath of svgFiles) {
+
+  for (const icon of icons) {
+    const svgPath = icon.file;
     const filename = path.basename(svgPath);
-    let componentName = toComponentName(filename);
-    
-    // Handle duplicate component names by adding a suffix
-    if (componentNameCounts[componentName]) {
-      componentNameCounts[componentName]++;
-      componentName = `${componentName}${componentNameCounts[componentName]}`;
-    } else {
-      componentNameCounts[componentName] = 1;
-    }
-    
+    const componentName = icon.name;
+
     // Read and parse SVG
     const svgContent = fs.readFileSync(svgPath, 'utf-8');
     const svgData = parseSVG(svgContent);
@@ -200,9 +197,15 @@ async function build() {
   // Generate main index file
   console.log('📦 Generating index files...\n');
   
+  // Old names (metadata "aliases") stay exported for one major version,
+  // pointing to the renamed component. See NAMING-GUIDE.md, "Renaming".
+  const built = new Set(components.map(c => c.name));
+  const liveAliases = aliases.filter(a => built.has(a.name));
+
   // Index.js - re-exports all components
   const indexJs = components
     .map(c => `export { default as ${c.name} } from './icons/${c.name}.svelte';`)
+    .concat(liveAliases.map(a => `export { default as ${a.alias} } from './icons/${a.name}.svelte';`))
     .join('\n');
   
   fs.writeFileSync(path.join(DIST_DIR, 'index.js'), indexJs);
@@ -210,20 +213,21 @@ async function build() {
   // Index.d.ts - TypeScript declarations
   const indexDts = components
     .map(c => `export { default as ${c.name} } from './icons/${c.name}.svelte';`)
+    .concat(liveAliases.map(a => `/** @deprecated Renamed to \`${a.name}\`. This old name will be removed in the next major version. */\nexport { default as ${a.alias} } from './icons/${a.name}.svelte';`))
     .join('\n');
   
   fs.writeFileSync(path.join(DIST_DIR, 'index.d.ts'), indexDts);
   
-  console.log(`✅ Built ${components.length} Svelte components`);
+  console.log(`✅ Built ${components.length} Svelte components (+ ${liveAliases.length} deprecated aliases)`);
   console.log(`   📂 Components: dist/icons/`);
   console.log(`   📂 Types: dist/*.d.ts\n`);
   
   // Print some example usage
   console.log('📖 Example usage:\n');
-  console.log('   import { UserHead1 } from "@icon-design/svelte";');
+  console.log('   import { AvatarFaceTopKnot } from "@ibaldo/icons-svelte";');
   console.log('   // or');
-  console.log('   import UserHead1 from "@icon-design/svelte/icons/UserHead1.svelte";\n');
-  console.log('   <UserHead1 size={32} color="#333" strokeWidth={2} />\n');
+  console.log('   import AvatarFaceTopKnot from "@ibaldo/icons-svelte/icons/AvatarFaceTopKnot.svelte";\n');
+  console.log('   <AvatarFaceTopKnot size={32} color="#333" strokeWidth={2} />\n');
 }
 
 build().catch(console.error);

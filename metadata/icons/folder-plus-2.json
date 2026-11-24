@@ -1,15 +1,15 @@
 {
-  "name": "FolderPlus2",
+  "name": "FolderPlusCenter",
   "description": "A folder icon with a plus symbol variant, representing folder creation or addition functionality.",
   "tags": [
     "folder",
-    "plus",
     "add",
     "create",
-    "new"
+    "plus",
+    "new",
+    "center"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder plus center",
+  "aliases": [
+    "FolderPlus2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

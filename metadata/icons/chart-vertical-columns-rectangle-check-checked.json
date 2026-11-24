@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumnsRectangleCheck",
-  "displayName": "Chart vertical columns rectangle check",
+  "name": "ChartBarSquareCheck",
+  "displayName": "Chart bar square check",
   "originalTitle": "Chart Vertical Columns Rectangle Check Checked",
   "description": "Column chart with checkmark indicating successful data processing or validated chart information. Used to show completed analytics tasks or verified data.",
   "tags": [
     "chart",
-    "column",
-    "check",
+    "vertical",
+    "columns",
+    "rectangle",
+    "checked",
+    "done",
     "success",
     "verified",
+    "column",
+    "check",
     "complete",
-    "data",
-    "analytics"
+    "data"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.758Z"
+  "generatedAt": "2026-02-15T00:53:19.758Z",
+  "aliases": [
+    "ChartVerticalColumnsRectangleCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

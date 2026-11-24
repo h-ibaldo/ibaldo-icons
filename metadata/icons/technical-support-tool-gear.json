@@ -1,20 +1,21 @@
 {
-  "name": "TechnicalSupportGear",
+  "name": "GearWrench",
   "description": "A technical support tool icon featuring a gear, symbolizing maintenance, configuration, and system administration",
   "tags": [
-    "technical support",
-    "tool",
     "gear",
+    "technical",
+    "support",
+    "tool",
+    "technical-support",
     "maintenance",
     "configuration",
     "settings",
     "system",
-    "administration"
+    "administration",
+    "wrench"
   ],
   "categories": [
-    "interface",
-    "development",
-    "business"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear wrench",
+  "aliases": [
+    "TechnicalSupportGear"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

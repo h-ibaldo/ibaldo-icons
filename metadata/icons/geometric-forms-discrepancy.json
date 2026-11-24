@@ -1,18 +1,19 @@
 {
-  "name": "GeometricFormsDiscrepancy",
+  "name": "ShapeNested",
   "description": "A geometric forms icon representing discrepancy and inconsistency in shapes and patterns.",
   "tags": [
+    "shape",
     "geometric",
     "forms",
     "discrepancy",
     "inconsistency",
     "variance",
     "shapes",
-    "abstract"
+    "abstract",
+    "nested"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Shape nested",
+  "aliases": [
+    "GeometricFormsDiscrepancy"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

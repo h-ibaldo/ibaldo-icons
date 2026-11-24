@@ -1,13 +1,17 @@
 {
-  "name": "CheckboxCircle2",
-  "displayName": "Checkbox circle 2",
+  "name": "CheckCircleOpen2",
+  "displayName": "Check circle open2",
   "originalTitle": "Checkbox Checked Circle Rounded 2",
   "description": "Alternative circular checkbox design in checked state. Provides visual variety for form elements and selection controls in user interfaces.",
   "tags": [
+    "check",
     "checkbox",
     "checked",
-    "circle",
     "rounded",
+    "done",
+    "success",
+    "verified",
+    "circle",
     "form",
     "selection",
     "control",
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.792Z"
+  "generatedAt": "2026-02-15T00:53:19.792Z",
+  "aliases": [
+    "CheckboxCircle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

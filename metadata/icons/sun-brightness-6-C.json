@@ -1,5 +1,5 @@
 {
-  "name": "SunBrightness6C",
+  "name": "SunDottedRadiantLarge",
   "description": "A sun brightness control icon variant 6C for adjusting display illumination levels",
   "tags": [
     "sun",
@@ -9,11 +9,13 @@
     "display",
     "control",
     "adjustment",
-    "variant"
+    "dotted",
+    "radiant",
+    "large"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun dotted radiant large",
+  "aliases": [
+    "SunBrightness6C"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

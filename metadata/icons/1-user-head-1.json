@@ -1,25 +1,26 @@
 {
-  "name": "User1",
-  "displayName": "User 1",
+  "name": "AvatarHeadLongCenterPart",
+  "displayName": "Avatar head, long center part",
   "originalTitle": "1 User Head 1",
-  "description": "Single user profile icon representing an individual person or account. Used for user profiles, account settings, and personal identification.",
+  "description": "Head outline with no face details and long straight hair parted in the center.",
   "tags": [
     "user",
-    "profile",
-    "person",
-    "account",
-    "individual",
     "avatar",
+    "profile",
+    "account",
+    "person",
     "head",
-    "single"
+    "hairstyle",
+    "long-hair",
+    "straight-hair",
+    "center-part"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-1",
   "technical": {
@@ -33,5 +34,11 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.765Z"
+  "generatedAt": "2026-02-15T00:53:19.765Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:34:27.643Z",
+  "aliases": [
+    "UserHeadLongCenterPart"
+  ],
+  "featured": true
 }

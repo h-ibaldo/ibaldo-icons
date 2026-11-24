@@ -1,5 +1,5 @@
 {
-  "name": "Sun5",
+  "name": "SunPointedShort",
   "description": "A stylized sun icon for weather and daytime interface applications",
   "tags": [
     "sun",
@@ -9,7 +9,9 @@
     "light",
     "solar",
     "clear",
-    "style"
+    "style",
+    "pointed",
+    "short"
   ],
   "categories": [
     "weather",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun pointed short",
+  "aliases": [
+    "Sun5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

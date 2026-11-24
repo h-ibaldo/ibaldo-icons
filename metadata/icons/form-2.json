@@ -1,17 +1,17 @@
 {
-  "name": "Form2",
+  "name": "FormCentered",
   "description": "A form icon representing a document or input template for data entry",
   "tags": [
     "form",
     "document",
     "input",
     "template",
-    "data entry",
-    "survey"
+    "data-entry",
+    "survey",
+    "centered"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form centered",
+  "aliases": [
+    "Form2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

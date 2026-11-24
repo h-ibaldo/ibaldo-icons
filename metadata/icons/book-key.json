@@ -1,0 +1,35 @@
+{
+  "name": "BookKey",
+  "displayName": "Book key",
+  "description": "Book with a key on the cover.",
+  "tags": [
+    "book",
+    "reading",
+    "library",
+    "manual",
+    "key",
+    "password",
+    "access"
+  ],
+  "categories": [
+    "education"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Book key"
+  },
+  "filename": "book-key",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

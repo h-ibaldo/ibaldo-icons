@@ -1,5 +1,5 @@
 {
-  "name": "Lock5Locked",
+  "name": "LockRound",
   "description": "A locked lock icon in closed secure state, indicating active security protection",
   "tags": [
     "lock",
@@ -8,11 +8,11 @@
     "closed",
     "protect",
     "secure",
-    "active"
+    "active",
+    "round"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock round",
+  "aliases": [
+    "Lock5Locked"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,20 +1,20 @@
 {
-  "name": "ApplicationWindow1Rosette3",
-  "displayName": "Application window 1 rosette 3",
+  "name": "WindowAward",
+  "displayName": "Window award",
   "originalTitle": "Application Window 1 Rosette Medal 3",
   "description": "Application window with rosette medal display. Represents award systems, certification programs, or achievement tracking interfaces.",
   "tags": [
     "window",
+    "application",
     "rosette",
     "medal",
     "award",
     "achievement",
-    "application",
     "certification"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.737Z"
+  "generatedAt": "2026-02-15T00:53:19.737Z",
+  "aliases": [
+    "ApplicationWindow1Rosette3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

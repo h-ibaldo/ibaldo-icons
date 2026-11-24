@@ -1,15 +1,15 @@
-# @primor/icons-react (Primor Icons)
+# @ibaldo/icons-react (Ibaldo Icons)
 
-React components for [Primor Icons](https://primoricons.com) — A line-based icon library with variations, not conclusions.
+React components for [Ibaldo Icons](https://icons.ibald.ooo) — A line-based icon library with variations, not conclusions.
 
 ## Installation
 
 ```bash
-npm install @primor/icons-react
+npm install @ibaldo/icons-react
 # or
-yarn add @primor/icons-react
+yarn add @ibaldo/icons-react
 # or
-pnpm add @primor/icons-react
+pnpm add @ibaldo/icons-react
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ pnpm add @primor/icons-react
 ### Import individual icons (recommended for tree-shaking)
 
 ```jsx
-import { UserHead1, AddPlus1, Settings } from '@primor/icons-react';
+import { UserHead1, AddPlus1, Settings } from '@ibaldo/icons-react';
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
 ### Import from specific path
 
 ```jsx
-import UserHead1 from '@primor/icons-react/icons/UserHead1';
+import UserHead1 from '@ibaldo/icons-react/icons/UserHead1';
 ```
 
 ## Props
@@ -79,7 +79,7 @@ All other props are passed to the underlying `<svg>` element.
 
 ```jsx
 import { useRef } from 'react';
-import { UserHead1 } from '@primor/icons-react';
+import { UserHead1 } from '@ibaldo/icons-react';
 
 function App() {
   const iconRef = useRef(null);
@@ -97,7 +97,7 @@ function App() {
 
 > Icons are opinions. Choose variations, not conclusions.
 
-Primor Icons offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
+Ibaldo Icons offers multiple interpretations of the same concept rather than a single "correct" form. This is especially intentional in human-related symbols, where plurality, inclusion, and representation matter.
 
 ## License
 

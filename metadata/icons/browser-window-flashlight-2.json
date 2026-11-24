@@ -1,5 +1,5 @@
 {
-  "name": "BrowserWindowFlashlight2",
+  "name": "BrowserFlashlight",
   "description": "A browser window icon with a flashlight showing an alternative design or lighting state.",
   "tags": [
     "browser",
@@ -12,7 +12,7 @@
     "illuminate"
   ],
   "categories": [
-    "interface",
+    "devices",
     "development"
   ],
   "accessibility": {
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser flashlight",
+  "aliases": [
+    "BrowserWindowFlashlight2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3NetworkMulti",
+  "name": "CloudNetworkNodeRound",
   "description": "A cloud icon with multiple network connections representing advanced cloud networking infrastructure.",
   "tags": [
     "cloud",
@@ -8,12 +8,13 @@
     "connectivity",
     "infrastructure",
     "distributed",
-    "connections"
+    "connections",
+    "node",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud network node round",
+  "aliases": [
+    "Cloud3NetworkMulti"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

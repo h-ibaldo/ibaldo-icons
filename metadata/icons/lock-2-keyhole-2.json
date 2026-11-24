@@ -1,18 +1,19 @@
 {
-  "name": "LockKeyholeAlt",
+  "name": "LockKeyholeDot",
   "description": "An alternative lock icon with prominent keyhole design for security representation.",
   "tags": [
     "lock",
+    "unread",
+    "badge",
     "keyhole",
     "security",
     "access",
     "protection",
     "key",
-    "variant"
+    "dot"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock keyhole dot",
+  "aliases": [
+    "LockKeyholeAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

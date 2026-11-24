@@ -1,7 +1,10 @@
 {
-  "name": "PopUp1",
+  "name": "Popover",
   "description": "A basic pop-up window icon representing first variant modal or dialog interface",
   "tags": [
+    "popover",
+    "pop",
+    "up",
     "pop-up",
     "popup",
     "modal",
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Popover",
+  "aliases": [
+    "PopUp1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

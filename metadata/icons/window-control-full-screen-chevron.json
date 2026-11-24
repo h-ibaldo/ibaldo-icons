@@ -1,17 +1,18 @@
 {
-  "name": "WindowControlFullscreen",
+  "name": "Fullscreen",
   "description": "A window control icon with a chevron symbol for fullscreen expansion",
   "tags": [
+    "fullscreen",
     "window",
     "control",
-    "full-screen",
-    "fullscreen",
+    "full",
+    "screen",
     "chevron",
+    "full-screen",
     "expand"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Fullscreen",
+  "aliases": [
+    "WindowControlFullscreen"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

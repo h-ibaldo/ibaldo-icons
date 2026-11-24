@@ -1,6 +1,6 @@
 {
-  "name": "CheckboxUncheckedSquare1",
-  "displayName": "Checkbox unchecked square 1",
+  "name": "CheckboxCompact",
+  "displayName": "Checkbox compact",
   "originalTitle": "Checkbox Unchecked Square 1",
   "description": "Empty square checkbox in unchecked state. Used in forms and lists to indicate selectable options that are not currently selected.",
   "tags": [
@@ -10,7 +10,8 @@
     "form",
     "selection",
     "input",
-    "empty"
+    "empty",
+    "compact"
   ],
   "categories": [
     "interface"
@@ -31,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.795Z"
+  "generatedAt": "2026-02-15T00:53:19.795Z",
+  "aliases": [
+    "CheckboxUncheckedSquare1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

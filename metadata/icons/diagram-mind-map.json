@@ -4,18 +4,19 @@
   "originalTitle": "Diagram Mind Map",
   "description": "Mind map diagram with central node and radiating branches. Used for brainstorming, idea organization, and visual thinking processes.",
   "tags": [
+    "diagram",
     "mindmap",
     "brainstorm",
     "ideas",
     "thinking",
     "creativity",
     "planning",
-    "diagram",
-    "branches"
+    "branches",
+    "mind",
+    "map"
   ],
   "categories": [
-    "business",
-    "education"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,7 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.760Z"
+  "generatedAt": "2026-02-15T00:53:19.760Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

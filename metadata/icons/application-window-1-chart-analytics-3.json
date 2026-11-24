@@ -1,19 +1,20 @@
 {
-  "name": "ApplicationWindow1Chart6",
-  "displayName": "Application window 1 chart 6",
+  "name": "WindowChartArrow",
+  "displayName": "Window chart arrow",
   "originalTitle": "Application Window 1 Chart Analytics 3",
   "description": "Third variation of application window showing analytics chart. Represents data visualization tools or business intelligence software.",
   "tags": [
     "window",
-    "chart",
+    "application",
     "analytics",
+    "chart",
     "graph",
     "data",
-    "application",
-    "visualization"
+    "visualization",
+    "arrow"
   ],
   "categories": [
-    "business",
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.737Z"
+  "generatedAt": "2026-02-15T00:53:19.737Z",
+  "aliases": [
+    "ApplicationWindow1Chart6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

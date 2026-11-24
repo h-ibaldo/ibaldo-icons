@@ -1,7 +1,8 @@
 {
-  "name": "ArrowsFourCircleProcess",
+  "name": "ArrowCycle",
   "description": "Four directional arrows in a circle representing a cyclical workflow, process, or refresh action",
   "tags": [
+    "arrow",
     "arrows",
     "four",
     "circle",
@@ -13,8 +14,7 @@
     "rotation"
   ],
   "categories": [
-    "interface",
-    "business"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow cycle",
+  "aliases": [
+    "ArrowsFourCircleProcess"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

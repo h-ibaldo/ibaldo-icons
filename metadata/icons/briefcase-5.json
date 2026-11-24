@@ -1,5 +1,5 @@
 {
-  "name": "Briefcase5",
+  "name": "BriefcaseBeltSlot",
   "description": "A professional briefcase icon in variant style 5, representing business documents and work materials",
   "tags": [
     "briefcase",
@@ -7,11 +7,11 @@
     "work",
     "documents",
     "professional",
-    "variant5"
+    "belt",
+    "slot"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase belt slot",
+  "aliases": [
+    "Briefcase5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

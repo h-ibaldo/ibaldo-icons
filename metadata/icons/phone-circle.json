@@ -1,0 +1,33 @@
+{
+  "name": "PhoneCircle",
+  "displayName": "Phone circle",
+  "description": "Telephone handset inside a circle.",
+  "tags": [
+    "phone",
+    "call",
+    "telephone",
+    "handset",
+    "contact"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Phone"
+  },
+  "filename": "phone-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

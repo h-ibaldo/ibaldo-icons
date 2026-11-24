@@ -1,4 +1,4 @@
-# Primor Icons - Automated Icon Processing System
+# Ibaldo Icons - Automated Icon Processing System
 
 Professional icon library with AI-powered metadata generation and automated component building.
 
@@ -238,6 +238,30 @@ function MediaPlayer() {
 </div>
 ```
 
+### AI agents (MCP)
+
+Ibaldo Icons has a hosted, read-only MCP server. AI agents (Claude, Cursor and others) can search the library and get the exact icon, instead of guessing names. Nothing to install, no API key.
+
+URL: `https://icons.ibald.ooo/mcp`
+
+- **Claude Code:** `claude mcp add --transport http ibaldo-icons https://icons.ibald.ooo/mcp`
+- **Claude.ai / Claude Desktop:** Settings → Connectors → Add custom connector → paste the URL.
+- **Cursor:** add to `.cursor/mcp.json`:
+  ```json
+  { "mcpServers": { "ibaldo-icons": { "url": "https://icons.ibald.ooo/mcp" } } }
+  ```
+
+Tools:
+
+| Tool | What it does |
+|---|---|
+| `search_icons({ query, limit?, category? })` | Ranked matches from plain words ("notification bell clock"), with family, tags, why it matched, and the import line. Old names resolve to the current name. |
+| `get_icon({ name, format? })` | SVG markup (default), or import + usage for `react`, `svelte`, `vue`, `react-native`. Unknown names get 3 suggestions. |
+| `list_variants({ family })` | Every icon in one family (e.g. `Bell`, `AvatarFace`) with the parts of each name (badge, container, style). |
+| `list_categories()` | Categories with icon counts. |
+
+The server is a SvelteKit route (`src/routes/mcp/+server.js`, logic in `src/lib/server/mcp/core.js`): stateless Streamable HTTP, no sessions, no AI calls. The icon data is bundled into the server function at build time. Test it with `node scripts/test-mcp.js` (direct) or `node scripts/test-mcp.js http://localhost:5173/mcp` (against a running site).
+
 ---
 
 ## 📊 Performance
@@ -272,7 +296,7 @@ This project is not currently accepting external contributions.
 
 ## 📄 License
 
-MIT - See [LICENSE](./LICENSE) for details.
+MIT — see [LICENSE](./LICENSE).
 
 ---
 
@@ -281,7 +305,7 @@ MIT - See [LICENSE](./LICENSE) for details.
 - **Total Icons:** 2,441
 - **Categories:** AI-determined (interface, media, arrows, etc.)
 - **Packages:** React, Svelte
-- **Website:** primoricons.com
+- **Website:** icons.ibald.ooo
 
 ---
 

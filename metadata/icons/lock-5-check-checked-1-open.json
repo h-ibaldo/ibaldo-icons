@@ -1,19 +1,21 @@
 {
-  "name": "Lock5CheckOpen",
+  "name": "LockOpenCheckRound",
   "description": "A lock icon with a checkmark and open state, indicating verified security access",
   "tags": [
     "lock",
-    "check",
     "checked",
+    "done",
+    "success",
+    "verified",
+    "check",
     "open",
     "security",
-    "verified",
     "access",
-    "unlock"
+    "unlock",
+    "round"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open check round",
+  "aliases": [
+    "Lock5CheckOpen"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

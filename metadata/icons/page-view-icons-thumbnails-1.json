@@ -1,7 +1,8 @@
 {
-  "name": "PageViewIconsThumbnails1",
+  "name": "LayoutGridLabels",
   "description": "A page view icon showing icons as small preview thumbnails in a grid layout",
   "tags": [
+    "layout",
     "page",
     "view",
     "icons",
@@ -10,7 +11,7 @@
     "grid",
     "gallery",
     "small",
-    "variant1"
+    "labels"
   ],
   "categories": [
     "interface"
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout grid labels",
+  "aliases": [
+    "PageViewIconsThumbnails1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,17 +1,17 @@
 {
-  "name": "ApplicationWindowClose22",
+  "name": "WindowXCenter",
   "description": "An alternate variant of an application window icon with an X or close symbol",
   "tags": [
-    "application",
     "window",
-    "x",
+    "application",
     "close",
     "delete",
     "remove",
     "interface",
-    "variant"
+    "center"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window X center",
+  "aliases": [
+    "ApplicationWindowClose22"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

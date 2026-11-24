@@ -1,17 +1,18 @@
 {
-  "name": "Bookmarks2X",
+  "name": "BookmarkStackXEdge",
   "description": "A bookmarks icon with two items and a close or remove action",
   "tags": [
+    "bookmark",
     "bookmarks",
+    "close",
+    "delete",
+    "remove",
     "favorites",
     "save",
-    "close",
-    "x",
-    "remove",
-    "delete"
+    "stack",
+    "edge"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark stack X edge",
+  "aliases": [
+    "Bookmarks2X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

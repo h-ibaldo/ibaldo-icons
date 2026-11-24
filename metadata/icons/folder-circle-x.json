@@ -3,15 +3,13 @@
   "description": "A folder icon with an X mark inside a circle, indicating a closed or unavailable folder.",
   "tags": [
     "folder",
-    "circle",
-    "x",
     "close",
     "delete",
     "remove",
+    "circle",
     "unavailable"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +27,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder X circle",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

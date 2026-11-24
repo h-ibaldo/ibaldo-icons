@@ -1,20 +1,20 @@
 {
-  "name": "XArrowBack2",
+  "name": "XUndoWide",
   "description": "A close icon combined with a back arrow for undo or navigation on second variant",
   "tags": [
-    "x",
-    "close",
     "arrow",
     "back",
     "delete",
     "undelete",
+    "close",
+    "remove",
     "undo",
     "revert",
-    "navigate"
+    "navigate",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "X undo wide",
+  "aliases": [
+    "XArrowBack2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

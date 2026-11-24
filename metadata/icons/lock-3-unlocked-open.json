@@ -1,5 +1,5 @@
 {
-  "name": "Lock3Open",
+  "name": "LockOpenNarrow",
   "description": "An unlocked padlock icon indicating an open or accessible state",
   "tags": [
     "lock",
@@ -8,11 +8,11 @@
     "security",
     "access",
     "padlock",
-    "unsecured"
+    "unsecured",
+    "narrow"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open narrow",
+  "aliases": [
+    "Lock3Open"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

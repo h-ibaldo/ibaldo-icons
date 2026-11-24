@@ -1,5 +1,5 @@
 {
-  "name": "Sun4",
+  "name": "SunPointedLong",
   "description": "A sun icon with minimal styling for weather and brightness indication",
   "tags": [
     "sun",
@@ -9,7 +9,9 @@
     "light",
     "solar",
     "clear",
-    "minimal"
+    "minimal",
+    "pointed",
+    "long"
   ],
   "categories": [
     "weather",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun pointed long",
+  "aliases": [
+    "Sun4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

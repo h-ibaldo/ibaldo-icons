@@ -1,19 +1,22 @@
 {
-  "name": "ApplicationWindowCheck2",
+  "name": "WindowCheckCenter",
   "description": "An application window icon with a checkmark indicating successful completion or approval",
   "tags": [
-    "application",
     "window",
-    "check",
+    "application",
     "mark",
-    "checkmark",
-    "verified",
-    "approved",
+    "done",
     "success",
+    "verified",
+    "check",
+    "checkmark",
+    "approved",
     "confirmation",
-    "interface"
+    "interface",
+    "center"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -31,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window check center",
+  "aliases": [
+    "ApplicationWindowCheck2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

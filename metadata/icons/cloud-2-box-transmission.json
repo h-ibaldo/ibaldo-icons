@@ -1,18 +1,21 @@
 {
-  "name": "Cloud2Transmission",
+  "name": "CloudSquareSignalTall",
   "description": "A cloud icon with transmission waves indicating cloud connectivity or network communication",
   "tags": [
     "cloud",
+    "box",
     "transmission",
     "network",
     "connectivity",
     "broadcast",
     "signal",
-    "communication"
+    "communication",
+    "square",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud square signal tall",
+  "aliases": [
+    "Cloud2Transmission"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

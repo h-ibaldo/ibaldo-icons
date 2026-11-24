@@ -1,0 +1,35 @@
+{
+  "name": "PhoneUnlock",
+  "displayName": "Phone unlock",
+  "description": "Telephone handset with an open padlock at the top right.",
+  "tags": [
+    "phone",
+    "call",
+    "telephone",
+    "handset",
+    "unlocked",
+    "open",
+    "public"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Unlocked call"
+  },
+  "filename": "phone-unlock",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

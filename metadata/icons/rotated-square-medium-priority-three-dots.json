@@ -1,13 +1,18 @@
 {
-  "name": "RotatedSquareMedium",
+  "name": "DotsDiamond",
   "description": "A rotated square icon with medium priority and three dots indicating moderate importance tasks",
   "tags": [
+    "dots",
     "rotated",
     "square",
-    "medium priority",
-    "three dots",
+    "medium",
+    "priority",
+    "three",
+    "medium-priority",
+    "three-dots",
     "ellipsis",
-    "moderate"
+    "moderate",
+    "diamond"
   ],
   "categories": [
     "interface"
@@ -27,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Dots diamond",
+  "aliases": [
+    "RotatedSquareMedium"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

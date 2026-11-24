@@ -1,17 +1,20 @@
 {
-  "name": "TrashDelete52",
+  "name": "TrashSyncDetached",
   "description": "A trash bin icon for deletion and recycling operations with visual emphasis",
   "tags": [
     "trash",
     "delete",
     "recycle",
+    "synchronize",
     "remove",
     "bin",
     "waste",
-    "discard"
+    "discard",
+    "sync",
+    "detached"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash sync detached",
+  "aliases": [
+    "TrashDelete52"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

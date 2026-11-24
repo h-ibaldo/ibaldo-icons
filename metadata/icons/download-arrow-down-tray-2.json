@@ -1,5 +1,5 @@
 {
-  "name": "DownloadArrowTrayAlt",
+  "name": "DownloadTray",
   "description": "An alternative variant of the download arrow icon into a tray, with a different style or presentation",
   "tags": [
     "download",
@@ -7,11 +7,11 @@
     "down",
     "tray",
     "inbox",
-    "destination",
-    "variant"
+    "destination"
   ],
   "categories": [
-    "interface"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download tray",
+  "aliases": [
+    "DownloadArrowTrayAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

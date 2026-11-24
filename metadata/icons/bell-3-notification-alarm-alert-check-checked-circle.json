@@ -1,21 +1,25 @@
 {
-  "name": "Bell3CheckCircle",
-  "displayName": "Bell 3 check circle",
+  "name": "BellCheckCircleKnob",
+  "displayName": "Bell check circle knob",
   "originalTitle": "Bell 3 Notification Alarm Alert Check Checked Circle",
   "description": "Notification bell with checkmark in circle indicating confirmed or acknowledged alerts. Shows successful notification delivery or read status.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
+    "checked",
+    "done",
+    "success",
+    "verified",
     "check",
     "confirmed",
     "acknowledged",
-    "read",
-    "success",
-    "verified"
+    "read"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.783Z"
+  "generatedAt": "2026-02-15T00:53:19.783Z",
+  "aliases": [
+    "Bell3CheckCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

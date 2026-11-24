@@ -1,19 +1,18 @@
 {
-  "name": "HandStopPrivateCircle1",
+  "name": "HandStopCircle",
   "description": "A stop hand gesture icon within a circle indicating privacy or restricted access variant one",
   "tags": [
     "hand",
-    "stop",
     "private",
+    "stop",
     "circle",
-    "variant1",
     "restriction",
     "gesture",
-    "access control"
+    "access-control"
   ],
   "categories": [
-    "interface",
-    "accessibility"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand stop circle",
+  "aliases": [
+    "HandStopPrivateCircle1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

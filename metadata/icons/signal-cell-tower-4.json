@@ -1,19 +1,21 @@
 {
-  "name": "SignalCellTower4",
+  "name": "AntennaTop",
   "description": "A cell tower signal icon showing the fourth strength level variant of cellular network connectivity.",
   "tags": [
+    "antenna",
     "signal",
-    "cell tower",
+    "cell",
+    "tower",
+    "cell-tower",
     "network",
     "connectivity",
-    "4",
     "strength",
     "wireless",
-    "reception"
+    "reception",
+    "top"
   ],
   "categories": [
-    "devices",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Antenna top",
+  "aliases": [
+    "SignalCellTower4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

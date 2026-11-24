@@ -1,21 +1,24 @@
 {
-  "name": "ChartArrowUpRectangleMinus",
-  "displayName": "Chart arrow up rectangle minus",
+  "name": "ChartTrendUpSquareMinus",
+  "displayName": "Chart trend up square minus",
   "originalTitle": "Chart Arrow Up Rectangle Negative Remove Minus Delete",
   "description": "Rectangular growth chart with upward arrow and minus symbol for data removal or negative adjustments. Used for deleting chart data or corrections.",
   "tags": [
     "chart",
-    "rectangle",
     "arrow",
-    "up",
-    "minus",
+    "rectangle",
+    "negative",
     "remove",
     "delete",
-    "correction"
+    "subtract",
+    "up",
+    "minus",
+    "correction",
+    "trend",
+    "square"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.741Z"
+  "generatedAt": "2026-02-15T00:53:19.741Z",
+  "aliases": [
+    "ChartArrowUpRectangleMinus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

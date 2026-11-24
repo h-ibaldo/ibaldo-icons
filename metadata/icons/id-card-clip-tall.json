@@ -1,0 +1,37 @@
+{
+  "name": "IdCardClipTall",
+  "displayName": "Id card clip tall",
+  "description": "Vertical ID card with a person, hanging from a clip at the top.",
+  "tags": [
+    "id-card",
+    "identity",
+    "badge",
+    "profile",
+    "employee",
+    "lanyard",
+    "pass",
+    "access"
+  ],
+  "categories": [
+    "people",
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "ID badge"
+  },
+  "filename": "id-card-clip-tall",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

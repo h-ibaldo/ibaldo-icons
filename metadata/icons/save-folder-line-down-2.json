@@ -1,18 +1,17 @@
 {
-  "name": "SaveFolderDown2",
+  "name": "FolderOpenDownloadCenter",
   "description": "A variant folder save icon with downward line indicating alternative save-to-folder styling",
   "tags": [
-    "save",
     "folder",
-    "download",
-    "line",
+    "save",
     "down",
+    "download",
     "storage",
     "files",
-    "variant"
+    "open",
+    "center"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder open download center",
+  "aliases": [
+    "SaveFolderDown2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

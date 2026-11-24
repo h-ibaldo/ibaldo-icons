@@ -1,19 +1,23 @@
 {
-  "name": "PageViewOverlappingShow1",
+  "name": "WindowOverlapRightDotted",
   "description": "A page view icon showing overlapping windows with non-hidden views displayed, variant 1",
   "tags": [
+    "window",
     "page",
     "view",
     "overlapping",
     "windows",
     "show",
-    "non-hidden",
+    "non",
+    "hidden",
     "views",
-    "layer"
+    "non-hidden",
+    "layer",
+    "overlap"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window overlap right dotted",
+  "aliases": [
+    "PageViewOverlappingShow1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

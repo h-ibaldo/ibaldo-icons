@@ -1,20 +1,23 @@
 {
-  "name": "HandTouchOneFingerUndo",
+  "name": "HandRefresh",
   "description": "A hand gesture icon showing one finger with a circular arrow indicating undo or return functionality",
   "tags": [
     "hand",
     "touch",
-    "one finger",
+    "one",
+    "finger",
     "circular",
     "arrow",
     "return",
     "undo",
+    "one-finger",
     "gesture",
-    "action"
+    "action",
+    "refresh"
   ],
   "categories": [
-    "interface",
-    "gestures"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand refresh",
+  "aliases": [
+    "HandTouchOneFingerUndo"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

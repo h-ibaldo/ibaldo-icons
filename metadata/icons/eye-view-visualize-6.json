@@ -1,5 +1,5 @@
 {
-  "name": "EyeView6",
+  "name": "EyeLargeShine",
   "description": "An eye icon representing viewing or visualization in sixth variant style",
   "tags": [
     "eye",
@@ -8,10 +8,13 @@
     "visibility",
     "watch",
     "see",
-    "observe"
+    "observe",
+    "large",
+    "shine"
   ],
   "categories": [
-    "interface"
+    "interface",
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Eye large shine",
+  "aliases": [
+    "EyeView6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

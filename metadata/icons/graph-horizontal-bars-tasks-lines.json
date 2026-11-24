@@ -1,19 +1,20 @@
 {
-  "name": "GraphHorizontalBarsLines",
+  "name": "ChartBarHorizontalSquareThin",
   "description": "A horizontal bar graph with line pattern representation for task progress tracking",
   "tags": [
+    "chart",
     "graph",
-    "horizontal",
     "bars",
     "tasks",
-    "lines",
-    "chart",
+    "horizontal",
     "progress",
-    "analytics"
+    "analytics",
+    "bar",
+    "square",
+    "thin"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Chart bar horizontal square thin",
+  "aliases": [
+    "GraphHorizontalBarsLines"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

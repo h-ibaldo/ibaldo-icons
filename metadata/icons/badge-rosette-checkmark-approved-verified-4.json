@@ -1,21 +1,24 @@
 {
-  "name": "BadgeCheck4",
-  "displayName": "Badge check 4",
+  "name": "BadgeCheckBumpy",
+  "displayName": "Badge check bumpy",
   "originalTitle": "Badge Rosette Checkmark Approved Verified 4",
   "description": "Badge with checkmark indicating approval, verification, or certified status. Used to show validated accounts, approved content, or quality assurance.",
   "tags": [
     "badge",
+    "rosette",
     "checkmark",
     "approved",
     "verified",
+    "done",
+    "success",
     "certified",
     "validation",
     "quality",
-    "trust"
+    "trust",
+    "check"
   ],
   "categories": [
-    "interface",
-    "business"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.738Z"
+  "generatedAt": "2026-02-15T00:53:19.738Z",
+  "aliases": [
+    "BadgeCheck4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

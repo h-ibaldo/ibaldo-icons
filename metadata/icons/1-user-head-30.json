@@ -1,22 +1,23 @@
 {
-  "name": "UserHead30",
-  "description": "A user head profile icon representing a person, variant 30 of the user head series",
+  "name": "AvatarHeadCrewCut",
+  "description": "Head outline with no face details and a short crew cut with a small step at the crown.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "people"
+    "person",
+    "head",
+    "hairstyle",
+    "crew-cut",
+    "short-hair"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-30",
   "technical": {
@@ -29,5 +30,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar head, crew cut",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserHeadCrewCut"
+  ],
+  "featured": true
 }

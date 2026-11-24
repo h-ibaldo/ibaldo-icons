@@ -1,18 +1,20 @@
 {
-  "name": "Lock5Keyhole2",
+  "name": "LockKeyholeDotRound",
   "description": "An alternate lock icon with keyhole variant, showing traditional key-based security",
   "tags": [
     "lock",
+    "unread",
+    "badge",
     "keyhole",
     "security",
     "key",
     "access",
     "unlock",
-    "variant"
+    "dot",
+    "round"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock keyhole dot round",
+  "aliases": [
+    "Lock5Keyhole2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

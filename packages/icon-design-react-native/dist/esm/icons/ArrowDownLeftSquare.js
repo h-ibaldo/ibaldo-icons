@@ -1,0 +1,31 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Polyline, Rect } from 'react-native-svg';
+
+const ArrowDownLeftSquare = forwardRef(function ArrowDownLeftSquare(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Rect, {"x":"2.025268567788771","y":"1.998782735923669","width":"20","height":"20","rx":"1.999999999990905","ry":"1.999999999990905","key":"0"}),
+    createElement(Polyline, {"points":"14.025268566489103 14.998782735836357 9.025268566489103 14.998782736058274 9.025268566269006 9.998782736058274","key":"1"}),
+    createElement(Line, {"x1":"15.025268566218074","y1":"8.998782735789064","x2":"9.025268566489103","y2":"14.998782736058274","key":"2"})
+  );
+});
+
+ArrowDownLeftSquare.displayName = 'ArrowDownLeftSquare';
+
+export default ArrowDownLeftSquare;
+export { ArrowDownLeftSquare };

@@ -1,5 +1,5 @@
 {
-  "name": "Folder14",
+  "name": "FolderStackEdge",
   "description": "A folder icon variant 14 for file and directory organization in storage systems",
   "tags": [
     "folder",
@@ -9,11 +9,11 @@
     "documents",
     "organization",
     "container",
-    "variant 14"
+    "stack",
+    "edge"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder stack edge",
+  "aliases": [
+    "Folder14"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

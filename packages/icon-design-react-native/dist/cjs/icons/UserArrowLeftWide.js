@@ -1,0 +1,38 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const UserArrowLeftWide = forwardRef(function UserArrowLeftWide(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M21 19L14 19","key":"0"}),
+    createElement(Path, {"d":"M17 16L14 19L17 22","key":"1"}),
+    createElement(Path, {"d":"M6 6C6 3.789 7.789 2 10 2C12.211 2 14 3.789 14 6C14 8.211 12.211 10 10 10C7.789 10 6 8.211 6 6Z","key":"2"}),
+    createElement(Path, {"d":"M3 22L3 17C3 13.133 6.133 10 10 10","key":"3"}),
+    createElement(Path, {"d":"M15.293 12.418C14.008 10.938 12.113 10 10 10","key":"4"})
+  );
+});
+
+UserArrowLeftWide.displayName = 'UserArrowLeftWide';
+
+module.exports = UserArrowLeftWide;
+module.exports.UserArrowLeftWide = UserArrowLeftWide;
+module.exports.default = UserArrowLeftWide;

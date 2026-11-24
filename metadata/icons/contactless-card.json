@@ -1,0 +1,35 @@
+{
+  "name": "ContactlessCard",
+  "displayName": "Contactless card",
+  "description": "Small upright card with two arcs to its right.",
+  "tags": [
+    "contactless",
+    "nfc",
+    "tap",
+    "wireless",
+    "payment",
+    "card",
+    "tap-to-pay"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Contactless payment"
+  },
+  "filename": "contactless-card",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

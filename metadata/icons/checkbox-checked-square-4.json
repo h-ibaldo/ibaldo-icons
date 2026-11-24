@@ -1,17 +1,21 @@
 {
-  "name": "CheckboxSquare4",
-  "displayName": "Checkbox square 4",
+  "name": "CheckSquareOpen",
+  "displayName": "Check square open",
   "originalTitle": "Checkbox Checked Square 4",
   "description": "Fourth square checkbox variant in checked state. Completes the collection of square checkbox designs for comprehensive interface systems.",
   "tags": [
+    "check",
     "checkbox",
     "checked",
+    "done",
+    "success",
+    "verified",
     "square",
-    "variant",
     "collection",
     "comprehensive",
     "system",
-    "interface"
+    "interface",
+    "open"
   ],
   "categories": [
     "interface"
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.793Z"
+  "generatedAt": "2026-02-15T00:53:19.793Z",
+  "aliases": [
+    "CheckboxSquare4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

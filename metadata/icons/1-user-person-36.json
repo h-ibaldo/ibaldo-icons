@@ -1,22 +1,24 @@
 {
-  "name": "UserPerson36",
-  "description": "A user profile icon representing a single person in variant 36 style",
+  "name": "AvatarFaceTopKnot",
+  "description": "Face with eyes and hair pulled up into a top-knot bun.",
   "tags": [
     "user",
-    "person",
-    "profile",
     "avatar",
+    "profile",
     "account",
-    "people",
-    "identity"
+    "person",
+    "face",
+    "hairstyle",
+    "top-knot",
+    "bun",
+    "updo"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-36",
   "technical": {
@@ -29,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, top knot",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceTopKnot"
+  ],
+  "featured": true
 }

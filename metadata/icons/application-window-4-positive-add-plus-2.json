@@ -1,17 +1,19 @@
 {
-  "name": "ApplicationWindowPlus2",
+  "name": "WindowPlusCenterPlain",
   "description": "An alternate application window icon with a plus symbol for adding or creating new items",
   "tags": [
-    "application",
     "window",
+    "application",
     "positive",
     "add",
-    "plus",
     "create",
-    "variant",
-    "interface"
+    "plus",
+    "interface",
+    "center",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window plus center plain",
+  "aliases": [
+    "ApplicationWindowPlus2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

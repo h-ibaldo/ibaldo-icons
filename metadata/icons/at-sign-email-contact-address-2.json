@@ -1,20 +1,21 @@
 {
-  "name": "AtSign2",
-  "displayName": "At sign 2",
+  "name": "At",
+  "displayName": "At",
   "originalTitle": "At Sign Email Contact Address 2",
   "description": "Standard at symbol representing email addresses and contact information. Used for email input fields and contact forms.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "at-sign",
     "contact",
     "address",
+    "at-sign",
     "communication",
     "mail",
     "symbol"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.778Z"
+  "generatedAt": "2026-02-15T00:53:19.778Z",
+  "aliases": [
+    "AtSign2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

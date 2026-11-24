@@ -1,18 +1,19 @@
 {
-  "name": "Toolbox3",
+  "name": "TagStack",
   "description": "A third toolbox icon variant offering alternative visual representation for tool collection and storage.",
   "tags": [
+    "tag",
     "toolbox",
     "tools",
     "container",
     "equipment",
     "construction",
     "repair",
-    "maintenance"
+    "maintenance",
+    "stack"
   ],
   "categories": [
-    "interface",
-    "business"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tag stack",
+  "aliases": [
+    "Toolbox3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

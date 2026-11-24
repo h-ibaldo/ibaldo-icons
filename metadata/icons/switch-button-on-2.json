@@ -1,14 +1,14 @@
 {
-  "name": "SwitchButtonOn2",
+  "name": "SwitchRockerOnPerspective",
   "description": "An alternate design of a toggle switch button in the on position with a different visual style.",
   "tags": [
     "switch",
     "button",
-    "on",
     "toggle",
     "enabled",
     "active",
-    "variant"
+    "rocker",
+    "perspective"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch rocker on perspective",
+  "aliases": [
+    "SwitchButtonOn2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

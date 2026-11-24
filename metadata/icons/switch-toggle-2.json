@@ -1,13 +1,15 @@
 {
-  "name": "SwitchToggle2",
+  "name": "SwitchLeverCupStem",
   "description": "A toggle switch icon in the second variant style",
   "tags": [
     "switch",
     "toggle",
     "control",
-    "variant",
     "state",
-    "interface"
+    "interface",
+    "lever",
+    "cup",
+    "stem"
   ],
   "categories": [
     "interface"
@@ -27,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch lever cup stem",
+  "aliases": [
+    "SwitchToggle2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

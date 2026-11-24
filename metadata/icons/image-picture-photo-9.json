@@ -1,5 +1,5 @@
 {
-  "name": "Image9",
+  "name": "ImageMountain",
   "description": "A picture photo icon variant 9 depicting image and photographic material",
   "tags": [
     "image",
@@ -8,11 +8,11 @@
     "visual",
     "media",
     "gallery",
-    "variant9"
+    "mountain"
   ],
   "categories": [
-    "interface",
-    "media"
+    "media",
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Image mountain",
+  "aliases": [
+    "Image9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

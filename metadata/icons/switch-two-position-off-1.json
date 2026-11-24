@@ -1,14 +1,18 @@
 {
-  "name": "SwitchPositionOff1",
+  "name": "SwitchDialOff",
   "description": "A two-position switch icon in the off state, variant 1",
   "tags": [
     "switch",
+    "two",
+    "position",
+    "disabled",
+    "mute",
     "two-position",
     "off",
     "state",
     "toggle",
     "inactive",
-    "disabled"
+    "dial"
   ],
   "categories": [
     "interface"
@@ -28,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch dial off",
+  "aliases": [
+    "SwitchPositionOff1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

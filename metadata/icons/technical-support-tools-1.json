@@ -1,20 +1,22 @@
 {
-  "name": "TechnicalSupportTools",
+  "name": "WrenchScrewdriverDouble",
   "description": "A technical support icon displaying multiple tools, representing a comprehensive toolkit for troubleshooting and repairs",
   "tags": [
-    "technical support",
+    "wrench",
+    "technical",
+    "support",
     "tools",
+    "technical-support",
     "equipment",
     "troubleshooting",
     "repair",
     "maintenance",
     "utility",
-    "service"
+    "service",
+    "screwdriver"
   ],
   "categories": [
-    "interface",
-    "development",
-    "business"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Wrench screwdriver double",
+  "aliases": [
+    "TechnicalSupportTools"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

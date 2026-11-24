@@ -1,17 +1,20 @@
 {
-  "name": "ArrowsRepeat2Slash",
+  "name": "ArrowRepeatVerticalOff",
   "description": "A dual-arrow repeat icon with a diagonal slash indicating cancellation or disabled refresh functionality",
   "tags": [
+    "arrow",
     "arrows",
+    "slash",
+    "disabled",
+    "mute",
     "repeat",
     "refresh",
-    "slash",
     "cancel",
-    "disabled",
-    "rotate"
+    "rotate",
+    "vertical",
+    "off"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow repeat vertical off",
+  "aliases": [
+    "ArrowsRepeat2Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

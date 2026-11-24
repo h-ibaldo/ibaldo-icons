@@ -1,14 +1,16 @@
 {
-  "name": "MenuDots3",
+  "name": "DotsVertical",
   "description": "A menu icon with three dots arranged vertically for additional options, variant 3",
   "tags": [
-    "menu",
-    "three dots",
     "dots",
+    "menu",
+    "three",
+    "three-dots",
     "more",
     "options",
     "ellipsis",
-    "navigation"
+    "navigation",
+    "vertical"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Dots vertical",
+  "aliases": [
+    "MenuDots3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

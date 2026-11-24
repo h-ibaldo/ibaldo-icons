@@ -1,16 +1,16 @@
 {
-  "name": "Selfie2",
+  "name": "SelfieBezel",
   "description": "A second variant of a selfie camera icon representing self-portrait photography",
   "tags": [
     "selfie",
     "camera",
     "self-portrait",
     "photo",
-    "variant2"
+    "bezel"
   ],
   "categories": [
-    "devices",
-    "media"
+    "media",
+    "people"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Selfie bezel",
+  "aliases": [
+    "Selfie2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

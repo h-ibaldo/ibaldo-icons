@@ -1,10 +1,12 @@
 {
-  "name": "BrowserWindowBulbCta1",
+  "name": "BrowserLightbulb",
   "description": "A browser window icon with a lightbulb representing a call-to-action prompt or suggestion.",
   "tags": [
     "browser",
     "window",
     "bulb",
+    "call",
+    "action",
     "lightbulb",
     "call-to-action",
     "cta",
@@ -12,8 +14,8 @@
     "suggestion"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser lightbulb",
+  "aliases": [
+    "BrowserWindowBulbCta1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

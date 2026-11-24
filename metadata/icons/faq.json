@@ -3,7 +3,7 @@
   "description": "A frequently asked questions icon representing help documentation, support resources, or informational assistance",
   "tags": [
     "faq",
-    "frequently asked questions",
+    "frequently-asked-questions",
     "help",
     "support",
     "information",
@@ -11,9 +11,7 @@
     "documentation"
   ],
   "categories": [
-    "interface",
-    "business",
-    "education"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +28,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Faq",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

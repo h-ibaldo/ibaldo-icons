@@ -1,5 +1,5 @@
 {
-  "name": "HandCursorPointer4",
+  "name": "HandPointerFingersRound",
   "description": "A distinct hand pointer cursor variation representing click actions or interactive element selection.",
   "tags": [
     "hand",
@@ -8,11 +8,13 @@
     "click",
     "interactive",
     "touch",
-    "gesture"
+    "gesture",
+    "fingers",
+    "round"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand pointer fingers round",
+  "aliases": [
+    "HandCursorPointer4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

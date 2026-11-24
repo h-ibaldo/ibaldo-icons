@@ -1,17 +1,19 @@
 {
-  "name": "CloudAdd2",
+  "name": "CloudPlusCorner",
   "description": "A cloud icon with a plus symbol indicating cloud upload or adding cloud-based content",
   "tags": [
     "cloud",
+    "positive",
     "add",
+    "create",
     "plus",
     "upload",
     "storage",
-    "create",
-    "positive"
+    "corner"
   ],
   "categories": [
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud plus corner",
+  "aliases": [
+    "CloudAdd2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

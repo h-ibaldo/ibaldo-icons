@@ -1,0 +1,39 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Line, Path, Polyline, Rect } = RNSvg;
+
+const ScannerRefresh = forwardRef(function ScannerRefresh(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Polyline, {"points":"1.999999981189831 1.999996564258254 1.999999981189831 4.999996564254616 4.999999981189831 4.999996564254616","key":"0"}),
+    createElement(Path, {"d":"M3.385253887439831,8.999996564258254c.699035644529431.61737060546875,1.607360839840112,1,2.61474609375,1,2.209167480459655,0,4-1.7908935546875,4-4,0-2.20916748046875-1.790832519540345-4-4-4-1.861694335939319,0-3.412475585939319,1.27777099609375-3.858581542970569,3","key":"1"}),
+    createElement(Rect, {"x":"1.999999981189831","y":"12.999996564258254","width":"20","height":"6","key":"2"}),
+    createElement(Path, {"d":"M20.999999981189831,18.999996564258254v2c0,.552284749828686-.503679656449094,1-1.125,1H4.124999981189831c-.621320343560001,0-1.125-.447715250171314-1.125-1v-2","key":"3"}),
+    createElement(Line, {"x1":"4.999999981189831","y1":"15.999996564258254","x2":"5.999999981189831","y2":"15.999996564258254","key":"4"}),
+    createElement(Line, {"x1":"21.999999981189831","y1":"12.999996564258254","x2":"12.999999981189831","y2":"6.812496564258254","key":"5"})
+  );
+});
+
+ScannerRefresh.displayName = 'ScannerRefresh';
+
+module.exports = ScannerRefresh;
+module.exports.ScannerRefresh = ScannerRefresh;
+module.exports.default = ScannerRefresh;

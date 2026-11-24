@@ -1,0 +1,38 @@
+{
+  "name": "ListUserSmallDash",
+  "displayName": "List user small dash",
+  "description": "Dash-bullet list with a small person at the bottom right.",
+  "tags": [
+    "list",
+    "items",
+    "lines",
+    "menu",
+    "contacts",
+    "members",
+    "user",
+    "person",
+    "assign",
+    "small"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "User list"
+  },
+  "filename": "list-user-small-dash",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

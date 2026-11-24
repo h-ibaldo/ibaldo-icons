@@ -1,21 +1,23 @@
 {
-  "name": "Bell1Dot",
-  "displayName": "Bell 1 dot",
+  "name": "BellDotRim",
+  "displayName": "Bell dot rim",
   "originalTitle": "Bell 1 Notification Alarm Alert Red Dot",
   "description": "Notification bell with red dot indicator showing unread notifications or alerts. Used to display notification count or new activity.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "unread",
+    "badge",
     "new",
     "dot",
-    "badge",
-    "alert",
-    "activity"
+    "activity",
+    "rim"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.780Z"
+  "generatedAt": "2026-02-15T00:53:19.780Z",
+  "aliases": [
+    "Bell1Dot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

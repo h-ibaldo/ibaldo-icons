@@ -1,21 +1,25 @@
 {
-  "name": "Bell6Check",
-  "displayName": "Bell 6 check",
+  "name": "BellCheckWide",
+  "displayName": "Bell check wide",
   "originalTitle": "Bell 6 Notification Alarm Alert Check Checked",
   "description": "Notification bell with a check mark overlay, representing completed or acknowledged alerts. Used to indicate that notifications have been read or processed.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
+    "checked",
+    "done",
+    "success",
+    "verified",
     "check",
     "completed",
     "read",
-    "acknowledged",
-    "done",
-    "processed"
+    "acknowledged"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.789Z"
+  "generatedAt": "2026-02-15T00:53:19.789Z",
+  "aliases": [
+    "Bell6Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

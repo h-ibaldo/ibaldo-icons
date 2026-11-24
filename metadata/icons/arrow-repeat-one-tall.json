@@ -1,0 +1,36 @@
+{
+  "name": "ArrowRepeatOneTall",
+  "displayName": "Arrow repeat one tall",
+  "description": "Two arrows forming a tall loop with rounded corners, the top one pointing right and the bottom one left, with the digit 1 inside.",
+  "tags": [
+    "repeat-one",
+    "repeat",
+    "loop",
+    "single",
+    "track",
+    "playlist",
+    "media"
+  ],
+  "categories": [
+    "media",
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Repeat one"
+  },
+  "filename": "arrow-repeat-one-tall",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T16:04:08.263Z"
+}

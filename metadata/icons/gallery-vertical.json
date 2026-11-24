@@ -1,0 +1,35 @@
+{
+  "name": "GalleryVertical",
+  "displayName": "Gallery vertical",
+  "description": "Rounded card with a horizontal line above and below.",
+  "tags": [
+    "gallery",
+    "carousel",
+    "cards",
+    "slides",
+    "vertical",
+    "gallery-vertical"
+  ],
+  "categories": [
+    "media",
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Gallery"
+  },
+  "filename": "gallery-vertical",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:45:45.682Z"
+}

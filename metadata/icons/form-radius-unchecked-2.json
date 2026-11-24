@@ -1,11 +1,11 @@
 {
-  "name": "FormRadiusUnchecked2",
+  "name": "FormRadio",
   "description": "A rounded form radio button in unchecked state, second variant style",
   "tags": [
     "form",
-    "radio",
-    "unchecked",
     "radius",
+    "unchecked",
+    "radio",
     "rounded",
     "input",
     "selection",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form radio",
+  "aliases": [
+    "FormRadiusUnchecked2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

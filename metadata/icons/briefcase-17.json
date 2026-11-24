@@ -1,17 +1,16 @@
 {
-  "name": "BriefcaseClose",
+  "name": "BriefcasePocket",
   "description": "A briefcase icon with an X or close symbol representing closing or dismissing the briefcase",
   "tags": [
     "briefcase",
     "close",
-    "x",
     "dismiss",
     "business",
-    "cancel"
+    "cancel",
+    "pocket"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase pocket",
+  "aliases": [
+    "BriefcaseClose"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

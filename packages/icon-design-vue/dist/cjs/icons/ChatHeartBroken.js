@@ -1,0 +1,38 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const ChatHeartBroken = defineComponent({
+  name: 'ChatHeartBroken',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M12 22L15 18L19 18C20.656 18 22 16.656 22 15L22 5C22 3.344 20.656 2 19 2L5 2C3.344 2 2 3.344 2 5L2 15C2 16.656 3.344 18 5 18L9 18"}),
+          h('path', {"d":"M11.293 13.414L8.5 10.621C7.672 9.793 7.672 8.449 8.5 7.621C9.328 6.793 10.672 6.793 11.5 7.621L12 8.121L12.5 7.621C13.328 6.793 14.672 6.793 15.5 7.621C16.328 8.449 16.328 9.793 15.5 10.621L12.707 13.414C12.316 13.805 11.684 13.805 11.293 13.414Z"})
+        ]
+      );
+  }
+});
+
+module.exports = ChatHeartBroken;
+module.exports.ChatHeartBroken = ChatHeartBroken;
+module.exports.default = ChatHeartBroken;

@@ -1,0 +1,34 @@
+import { createElement, forwardRef } from 'react';
+
+const TabCheckCircle = forwardRef(function TabCheckCircle(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('g', {"key":"0"},
+      createElement('circle', {"cx":"17.0252685320811","cy":"16.99877930112325","r":"5","key":"0"}),
+      createElement('polyline', {"points":"15.5252685320811 16.998779298696718 16.5252685320811 17.998779303549782 18.5252685320811 15.998779298696718","key":"1"})),
+    createElement('path', {"d":"M8.0252685320811,1.99877930112325h8.558125457548158c.91135116633086,0,1.773289868131542.414269157099625,2.342606428321233,1.125914857337193l2.441874542459118,3.052343178074807c.425551315509438.531939144388161.657393571671491,1.192870657007006.657393571671491,1.874085142662807v.947656821925193","key":"1"}),
+    createElement('path', {"d":"M10.0252685320811,21.99877930112325h-6c-1.104569499661011,0-2-.895430500338989-2-2V3.99877930112325c0-1.104569499661011.895430500338989-2,2-2h3.558125457548158c.91135116633086,0,1.773289868131542.414269157099625,2.342606428321233,1.125914857333555l2.198536228270314,2.748170285329252c.569316560189691.711645700237568,1.431255261988554,1.125914857337193,2.342606428319414,1.125914857337193h5.558125457540882c1.104569499668287,0,2,.895430500338989,2,2v1","key":"2"})
+  );
+});
+
+TabCheckCircle.displayName = 'TabCheckCircle';
+
+export default TabCheckCircle;
+export { TabCheckCircle };

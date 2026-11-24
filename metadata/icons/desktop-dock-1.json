@@ -1,16 +1,15 @@
 {
-  "name": "DesktopDock1",
+  "name": "ScreenDock",
   "description": "A desktop dock icon showing the first variant of an application launcher or taskbar element",
   "tags": [
+    "screen",
     "desktop",
     "dock",
     "taskbar",
     "launcher",
-    "application",
-    "variant1"
+    "application"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screen dock",
+  "aliases": [
+    "DesktopDock1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

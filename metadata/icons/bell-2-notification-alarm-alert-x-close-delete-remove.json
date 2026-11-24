@@ -1,21 +1,23 @@
 {
-  "name": "Bell2X",
-  "displayName": "Bell 2 x",
+  "name": "BellX",
+  "displayName": "Bell X",
   "originalTitle": "Bell 2 Notification Alarm Alert X Close Delete Remove",
   "description": "Notification bell with X symbol for removing or canceling alerts. Used to dismiss notifications or disable alerts.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
+    "close",
     "delete",
     "remove",
     "dismiss",
     "cancel",
-    "close",
     "clear"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.783Z"
+  "generatedAt": "2026-02-15T00:53:19.783Z",
+  "aliases": [
+    "Bell2X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

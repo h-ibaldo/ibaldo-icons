@@ -1,0 +1,39 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <path d="M20 22L4 22C2.895 22 2 21.105 2 20L2 4C2 2.895 2.895 2 4 2L20 2C21.105 2 22 2.895 22 4L22 20C22 21.105 21.105 22 20 22Z"/>
+  <path d="M2 8L22 8"/>
+  <path d="M5 5L5 5"/>
+  <path d="M8 5L8 5"/>
+  <path d="M11 5L11 5"/>
+  <path d="M15 15C15 13.344 13.656 12 12 12C10.344 12 9 13.344 9 15C9 16.656 10.344 18 12 18C13.656 18 15 16.656 15 15Z"/>
+  <path d="M12 11L12 12"/>
+  <path d="M12 18L12 19"/>
+  <path d="M8.535 13L9.402 13.5"/>
+  <path d="M14.598 16.5L15.465 17"/>
+  <path d="M8.535 17L9.402 16.5"/>
+  <path d="M14.598 13.5L15.465 13"/>
+  <path d="M2 17L4 15L2 13"/>
+</svg>

@@ -1,0 +1,36 @@
+{
+  "name": "MobileUserNotch",
+  "displayName": "Mobile user notch",
+  "description": "Smartphone with a pill at the top and a person at the bottom right.",
+  "tags": [
+    "mobile",
+    "smartphone",
+    "phone",
+    "device",
+    "user",
+    "contact",
+    "account",
+    "profile"
+  ],
+  "categories": [
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Phone contact"
+  },
+  "filename": "mobile-user-notch",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

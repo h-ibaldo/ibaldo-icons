@@ -1,21 +1,20 @@
 {
-  "name": "FaqBubbles",
+  "name": "FaqChat",
   "description": "A frequently asked questions icon using speech bubbles to represent help dialogue, support conversations, or Q&A functionality",
   "tags": [
     "faq",
-    "frequently asked questions",
     "speech",
     "bubbles",
+    "frequently-asked-questions",
     "help",
     "support",
     "dialogue",
     "conversation",
-    "communication"
+    "communication",
+    "chat"
   ],
   "categories": [
-    "communication",
-    "interface",
-    "business"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Faq chat",
+  "aliases": [
+    "FaqBubbles"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

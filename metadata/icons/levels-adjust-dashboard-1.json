@@ -1,19 +1,20 @@
 {
-  "name": "LevelsAdjust",
+  "name": "AdjustPairVertical",
   "description": "A levels adjustment control icon for dashboard and audio/video settings",
   "tags": [
-    "levels",
     "adjust",
+    "levels",
     "dashboard",
     "control",
     "slider",
     "equalizer",
     "volume",
-    "settings"
+    "settings",
+    "pair",
+    "vertical"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Adjust pair vertical",
+  "aliases": [
+    "LevelsAdjust"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

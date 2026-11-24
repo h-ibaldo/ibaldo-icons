@@ -1,19 +1,20 @@
 {
-  "name": "TechnicalSupportPersonHeadsetVar5",
+  "name": "UserHeadsetLong",
   "description": "A fifth variant of support person with headset icon for technical assistance representation",
   "tags": [
-    "technical support",
+    "user",
+    "technical",
+    "support",
     "person",
     "head",
+    "technical-support",
     "headset",
-    "support representative",
-    "customer service",
-    "communication"
+    "support-representative",
+    "customer-service",
+    "communication",
+    "long"
   ],
   "categories": [
-    "interface",
-    "business",
-    "communication",
     "people"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User headset long",
+  "aliases": [
+    "TechnicalSupportPersonHeadsetVar5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

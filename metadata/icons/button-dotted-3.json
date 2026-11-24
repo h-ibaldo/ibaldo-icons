@@ -1,6 +1,6 @@
 {
-  "name": "ButtonDotted3",
-  "displayName": "Button dotted 3",
+  "name": "ButtonPillDots",
+  "displayName": "Button pill dots",
   "originalTitle": "Button Dotted 3",
   "description": "Third variation of dotted button design for interface consistency. Used for creating visual button hierarchies with dotted patterns.",
   "tags": [
@@ -11,7 +11,9 @@
     "pattern",
     "ui",
     "interface",
-    "secondary"
+    "secondary",
+    "pill",
+    "dots"
   ],
   "categories": [
     "interface"
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.791Z"
+  "generatedAt": "2026-02-15T00:53:19.791Z",
+  "aliases": [
+    "ButtonDotted3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

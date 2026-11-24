@@ -1,19 +1,18 @@
 {
-  "name": "Lock4Close",
+  "name": "LockXWide",
   "description": "A locked padlock with a close action icon for removing or dismissing secure access",
   "tags": [
     "lock",
     "close",
     "delete",
     "remove",
-    "x",
     "security",
     "padlock",
-    "locked"
+    "locked",
+    "wide"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock X wide",
+  "aliases": [
+    "Lock4Close"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,0 +1,35 @@
+{
+  "name": "TextPCircle",
+  "displayName": "Text P circle",
+  "description": "Capital letter P in a circle.",
+  "tags": [
+    "letter",
+    "text",
+    "character",
+    "alphabet",
+    "circle",
+    "p",
+    "circle-letter-p"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Letter P"
+  },
+  "filename": "text-p-circle",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T22:46:25.332Z"
+}

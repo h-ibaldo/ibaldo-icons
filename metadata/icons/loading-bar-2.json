@@ -1,10 +1,10 @@
 {
-  "name": "LoadingBar2",
+  "name": "ProgressBar",
   "description": "A loading progress bar indicator showing intermediate progress",
   "tags": [
+    "progress",
     "loading",
     "bar",
-    "progress",
     "indicator",
     "wait",
     "processing",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress bar",
+  "aliases": [
+    "LoadingBar2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

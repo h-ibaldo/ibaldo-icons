@@ -1,21 +1,22 @@
 {
-  "name": "Poll4Horizontal",
+  "name": "PollHorizontalPlusMinus",
   "description": "A horizontal bar chart or poll icon representing the fourth variant style for survey data visualization",
   "tags": [
     "poll",
-    "4",
+    "add",
+    "create",
+    "remove",
+    "subtract",
     "horizontal",
     "bar",
     "chart",
     "survey",
     "analytics",
     "data",
-    "graph",
-    "statistics"
+    "graph"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Poll horizontal plus minus",
+  "aliases": [
+    "Poll4Horizontal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

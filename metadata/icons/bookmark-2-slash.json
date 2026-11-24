@@ -1,17 +1,20 @@
 {
-  "name": "Bookmark2Slash",
+  "name": "BookmarkOffCurl",
   "description": "A bookmark icon with a slash mark indicating a disabled or inactive bookmark state",
   "tags": [
     "bookmark",
     "slash",
     "disabled",
+    "mute",
     "inactive",
     "cancel",
     "blocked",
-    "forbidden"
+    "forbidden",
+    "off",
+    "curl"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark off curl",
+  "aliases": [
+    "Bookmark2Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

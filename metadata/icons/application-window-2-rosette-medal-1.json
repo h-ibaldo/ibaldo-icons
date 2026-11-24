@@ -1,6 +1,6 @@
 {
-  "name": "ApplicationWindow2Rosette1",
-  "displayName": "Application window 2 rosette 1",
+  "name": "WindowMedalBare",
+  "displayName": "Window medal bare",
   "originalTitle": "Application Window 2 Rosette Medal 1",
   "description": "Application window with rosette medal icon representing achievement or award software. Used to indicate recognition apps, certification programs, or achievement tracking.",
   "tags": [
@@ -11,11 +11,12 @@
     "award",
     "achievement",
     "recognition",
-    "certificate"
+    "certificate",
+    "bare"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.775Z"
+  "generatedAt": "2026-02-15T00:53:19.775Z",
+  "aliases": [
+    "ApplicationWindow2Rosette1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

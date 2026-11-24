@@ -1,5 +1,5 @@
 {
-  "name": "SunGearSettings1",
+  "name": "SunStarStripedSettings",
   "description": "A sun icon with gear settings controls, representing light and display preferences configuration",
   "tags": [
     "sun",
@@ -9,11 +9,12 @@
     "control",
     "light",
     "adjustment",
-    "1"
+    "star",
+    "striped"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "weather",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun star striped settings",
+  "aliases": [
+    "SunGearSettings1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

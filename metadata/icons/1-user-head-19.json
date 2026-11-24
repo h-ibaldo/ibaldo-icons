@@ -1,22 +1,25 @@
 {
-  "name": "UserHead19",
-  "description": "A user profile head icon with variant 19 styling for personal identification",
+  "name": "AvatarHeadLongBraids",
+  "description": "Head outline with no face details and long braided hair drawn in dashed lines.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "identity"
+    "person",
+    "head",
+    "hairstyle",
+    "braids",
+    "locs",
+    "long-hair",
+    "textured-hair"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-19",
   "technical": {
@@ -29,5 +32,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar head, long braids",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserHeadLongBraids"
+  ],
+  "featured": true
 }

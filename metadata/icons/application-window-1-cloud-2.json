@@ -1,11 +1,11 @@
 {
-  "name": "ApplicationWindow1Cloud2",
-  "displayName": "Application window 1 cloud 2",
+  "name": "WindowCloud2",
+  "displayName": "Window cloud2",
   "originalTitle": "Application Window 1 Cloud 2",
   "description": "Alternative cloud application window icon for cloud-based services and online software platforms. Represents web applications or cloud storage interfaces.",
   "tags": [
-    "application",
     "window",
+    "application",
     "cloud",
     "web",
     "online",
@@ -14,8 +14,8 @@
     "interface"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.767Z"
+  "generatedAt": "2026-02-15T00:53:19.767Z",
+  "aliases": [
+    "ApplicationWindow1Cloud2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

@@ -1,16 +1,19 @@
 {
-  "name": "ArrowsSquared1",
+  "name": "ArrowRepeatVerticalCompact",
   "description": "A single square-style arrow icon for indicating direction, navigation, or geometric movement",
   "tags": [
+    "arrow",
     "arrows",
     "squared",
     "direction",
     "navigation",
     "movement",
-    "geometric"
+    "geometric",
+    "repeat",
+    "vertical",
+    "compact"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow repeat vertical compact",
+  "aliases": [
+    "ArrowsSquared1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,0 +1,37 @@
+{
+  "name": "BanknotePlus",
+  "displayName": "Banknote plus",
+  "description": "Banknote with corner ornaments and a 0 in the middle, and a plus at the bottom right.",
+  "tags": [
+    "banknote",
+    "money",
+    "cash",
+    "bill",
+    "payment",
+    "plus",
+    "add",
+    "new"
+  ],
+  "categories": [
+    "business",
+    "shopping"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Banknote"
+  },
+  "filename": "banknote-plus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:45:45.682Z"
+}

@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://primoricons.com/schemas/icon-metadata.json",
+  "$id": "https://icons.ibald.ooo/schemas/icon-metadata.json",
   "title": "Icon Metadata Schema",
-  "description": "Metadata structure for Primor Icons",
+  "description": "Metadata structure for Ibaldo Icons",
   "type": "object",
   "required": ["name", "filename", "description", "tags", "categories"],
   "properties": {
@@ -176,6 +176,11 @@
     "deprecated": {
       "type": "boolean",
       "description": "Whether this icon is deprecated",
+      "default": false
+    },
+    "featured": {
+      "type": "boolean",
+      "description": "Show this icon at the top of the homepage (e.g. the avatars)",
       "default": false
     },
     "replacedBy": {

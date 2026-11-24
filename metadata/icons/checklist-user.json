@@ -1,0 +1,37 @@
+{
+  "name": "ChecklistUser",
+  "displayName": "Checklist user",
+  "description": "Checklist with a person at the bottom right.",
+  "tags": [
+    "checklist",
+    "list",
+    "tasks",
+    "todo",
+    "assign",
+    "assignee",
+    "user",
+    "person",
+    "check"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Assigned tasks"
+  },
+  "filename": "checklist-user",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

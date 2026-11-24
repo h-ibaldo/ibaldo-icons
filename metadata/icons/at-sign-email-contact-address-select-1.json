@@ -1,21 +1,23 @@
 {
-  "name": "AtSignSelect1",
-  "displayName": "At sign select 1",
+  "name": "AtCorners",
+  "displayName": "At corners",
   "originalTitle": "At Sign Email Contact Address Select 1",
   "description": "At symbol with selection indicator for choosing email addresses from a list. Used in email selection interfaces or contact pickers.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "select",
     "choose",
-    "contact",
     "picker",
     "list",
-    "address",
-    "option"
+    "option",
+    "corners"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.765Z"
+  "generatedAt": "2026-02-15T00:53:19.765Z",
+  "aliases": [
+    "AtSignSelect1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

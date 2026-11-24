@@ -1,0 +1,36 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const ChartSankey = forwardRef(function ChartSankey(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M21 12C15 12 10 16 3 16C2.449 16 2 16.449 2 17L2 21C2 21.551 2.449 22 3 22C10 22 15 18 21 18C21.551 18 22 17.551 22 17L22 13C22 12.449 21.551 12 21 12Z","key":"0"}),
+    createElement(Path, {"d":"M13.195 13.715C10.07 11 6.836 8 3 8C2.449 8 2 7.551 2 7L2 3C2 2.449 2.449 2 3 2C10 2 15 12 21 12","key":"1"}),
+    createElement(Path, {"d":"M3 2L21 2C21.551 2 22 2.449 22 3L22 7C22 7.551 21.551 8 21 8L13.527 8","key":"2"})
+  );
+});
+
+ChartSankey.displayName = 'ChartSankey';
+
+module.exports = ChartSankey;
+module.exports.ChartSankey = ChartSankey;
+module.exports.default = ChartSankey;

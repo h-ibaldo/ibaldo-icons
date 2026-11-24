@@ -11,7 +11,8 @@
     "storage"
   ],
   "categories": [
-    "interface"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud refresh",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

@@ -1,12 +1,16 @@
 {
-  "name": "ChartVerticalColumnsLinesSquareDot",
-  "displayName": "Chart vertical columns lines square dot",
+  "name": "ChartBarSquareDotThin",
+  "displayName": "Chart bar square dot thin",
   "originalTitle": "Chart Vertical Columns Lines Square Red Dot Alert",
   "description": "Column chart with alert indicator showing data anomalies or important notifications. Used to highlight critical data points or system alerts in analytics dashboards.",
   "tags": [
     "chart",
-    "column",
+    "vertical",
+    "columns",
     "alert",
+    "unread",
+    "badge",
+    "column",
     "warning",
     "notification",
     "data",
@@ -14,8 +18,7 @@
     "attention"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.757Z"
+  "generatedAt": "2026-02-15T00:53:19.757Z",
+  "aliases": [
+    "ChartVerticalColumnsLinesSquareDot"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

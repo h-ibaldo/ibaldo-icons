@@ -1,0 +1,35 @@
+{
+  "name": "CameraBox",
+  "displayName": "Camera box",
+  "description": "Rounded box camera with a lens at the right and a small flash at the top left.",
+  "tags": [
+    "camera",
+    "photo",
+    "picture",
+    "photography",
+    "capture",
+    "compact"
+  ],
+  "categories": [
+    "media",
+    "devices"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Camera"
+  },
+  "filename": "camera-box",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

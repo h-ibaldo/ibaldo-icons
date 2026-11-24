@@ -1,21 +1,24 @@
 {
-  "name": "AtSign4One",
-  "displayName": "At sign 4 one",
+  "name": "AtOneTall",
+  "displayName": "At one tall",
   "originalTitle": "At Sign Email Contact Address 4 Number One 1",
   "description": "Email address with number one indicating primary email or first priority contact. Used to designate main or primary email address.",
   "tags": [
+    "at",
+    "sign",
     "email",
+    "contact",
+    "address",
+    "number",
     "primary",
     "main",
     "first",
     "number-one",
     "at-sign",
-    "contact",
     "priority"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.763Z"
+  "generatedAt": "2026-02-15T00:53:19.763Z",
+  "aliases": [
+    "AtSign4One"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

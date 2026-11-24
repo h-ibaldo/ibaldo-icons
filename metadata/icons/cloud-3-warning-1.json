@@ -1,18 +1,19 @@
 {
-  "name": "Cloud3Warning",
+  "name": "CloudTriangleRound",
   "description": "A cloud icon with a warning symbol indicating cloud service alerts or potential issues",
   "tags": [
     "cloud",
     "warning",
     "alert",
     "caution",
-    "alert",
     "issue",
     "problem",
-    "notification"
+    "notification",
+    "triangle",
+    "round"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud triangle round",
+  "aliases": [
+    "Cloud3Warning"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

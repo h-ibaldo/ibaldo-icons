@@ -1,20 +1,22 @@
 {
-  "name": "Lock3CheckOpen",
+  "name": "LockOpenCheckNarrow",
   "description": "A lock icon with a checkmark and open state, indicating verified and unlocked security status",
   "tags": [
     "lock",
-    "check",
     "checked",
+    "done",
+    "success",
+    "verified",
+    "check",
     "open",
     "security",
-    "verified",
     "unlock",
     "access",
-    "approval"
+    "approval",
+    "narrow"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open check narrow",
+  "aliases": [
+    "Lock3CheckOpen"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

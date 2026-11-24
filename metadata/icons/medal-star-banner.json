@@ -1,0 +1,38 @@
+{
+  "name": "MedalStarBanner",
+  "displayName": "Medal star banner",
+  "description": "Star-shaped medal hanging from a pointed banner.",
+  "tags": [
+    "medal",
+    "award",
+    "prize",
+    "winner",
+    "achievement",
+    "star",
+    "military",
+    "honor",
+    "banner"
+  ],
+  "categories": [
+    "social",
+    "sports"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Star medal"
+  },
+  "filename": "medal-star-banner",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

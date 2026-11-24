@@ -1,17 +1,20 @@
 {
-  "name": "PageViewPictureInPicture1",
+  "name": "PictureInPictureTop",
   "description": "A page view icon with picture-in-picture layout variant 1, showing a main content area with an embedded secondary window.",
   "tags": [
-    "page view",
-    "picture in picture",
-    "PiP",
-    "embedded window",
-    "secondary view",
+    "picture",
+    "page",
+    "view",
+    "page-view",
+    "picture-in-picture",
+    "pip",
+    "embedded-window",
+    "secondary-view",
     "layout",
-    "media"
+    "media",
+    "top"
   ],
   "categories": [
-    "interface",
     "media"
   ],
   "accessibility": {
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Picture in picture top",
+  "aliases": [
+    "PageViewPictureInPicture1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

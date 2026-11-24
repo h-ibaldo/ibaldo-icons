@@ -1,5 +1,5 @@
 {
-  "name": "Folder13",
+  "name": "FolderAjarFlat",
   "description": "A folder icon variant 13 for file and directory organization in storage systems",
   "tags": [
     "folder",
@@ -9,11 +9,11 @@
     "documents",
     "organization",
     "container",
-    "variant 13"
+    "ajar",
+    "flat"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder ajar flat",
+  "aliases": [
+    "Folder13"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

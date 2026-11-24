@@ -1,17 +1,16 @@
 {
-  "name": "BookmarkPageTwo",
+  "name": "BookmarkPageSquare",
   "description": "A bookmark icon with a page two indicator for marking multiple document locations",
   "tags": [
     "bookmark",
     "page",
-    "2",
     "two",
     "flag",
     "save",
-    "document"
+    "document",
+    "square"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark page square",
+  "aliases": [
+    "BookmarkPageTwo"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

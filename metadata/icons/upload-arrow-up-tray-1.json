@@ -1,5 +1,5 @@
 {
-  "name": "UploadTray1",
+  "name": "UploadTraySquare",
   "description": "An upload icon with an upward arrow and a tray shape representing file transfer or submission",
   "tags": [
     "upload",
@@ -8,11 +8,12 @@
     "tray",
     "files",
     "transfer",
-    "submission"
+    "submission",
+    "square"
   ],
   "categories": [
-    "interface",
-    "files"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload tray square",
+  "aliases": [
+    "UploadTray1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

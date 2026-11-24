@@ -1,0 +1,31 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const VideoReelsLarge = forwardRef(function VideoReelsLarge(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M13.113 21L3.887 21C3.398 21 3 20.602 3 20.113L3 11.992C3 11.504 3.398 11.105 3.887 11.105L13.113 11.105C13.602 11.105 14 11.504 14 11.992L14 20.113C14 20.602 13.602 21 13.113 21Z","key":"0"}),
+    createElement(Path, {"d":"M14 15.301L20.469 11.258C21.137 10.844 22 11.32 22 12.105L22 20C22 20.785 21.137 21.262 20.469 20.848L14 16.801Z","key":"1"}),
+    createElement(Path, {"d":"M11.75 2.105C10.82 2.105 9.855 2.5 9.141 3.129C8.773 3.449 8.227 3.449 7.859 3.129C7.145 2.5 6.18 2.105 5.25 2.105C3.453 2.105 2 3.559 2 5.355C2 7.148 3.453 8.605 5.25 8.605C6.18 8.605 7.145 8.211 7.859 7.582C8.227 7.262 8.773 7.262 9.141 7.582C9.855 8.211 10.82 8.605 11.75 8.605C13.547 8.605 15 7.148 15 5.355C15 3.559 13.547 2.105 11.75 2.105Z","key":"2"})
+  );
+});
+
+VideoReelsLarge.displayName = 'VideoReelsLarge';
+
+export default VideoReelsLarge;
+export { VideoReelsLarge };

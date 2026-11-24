@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+
+const LinkEditNotched = forwardRef(function LinkEditNotched(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, className = '', ...props },
+  ref
+) {
+  return createElement(
+    'svg',
+    {
+      ref,
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      className: ('icon-design ' + className).trim(),
+      ...props
+    },
+    createElement('path', {"d":"M7 14L14 7","key":"0"}),
+    createElement('path', {"d":"M14.516 10.484C15.242 10.379 15.941 10.059 16.5 9.5L17.965 8.035C19.344 6.656 19.344 4.418 17.965 3.035C16.582 1.656 14.344 1.656 12.965 3.035L11.5 4.5C10.117 5.883 10.117 8.121 11.5 9.5","key":"1"}),
+    createElement('path', {"d":"M9.5 11.5C8.117 10.117 5.883 10.117 4.5 11.5L3.035 12.965C1.656 14.344 1.656 16.586 3.035 17.965C4.414 19.344 6.656 19.344 8.035 17.965L9.5 16.5C10.059 15.941 10.379 15.238 10.484 14.516","key":"2"}),
+    createElement('path', {"d":"M21.242 13.586C20.461 12.805 19.195 12.805 18.414 13.586L13 19L13 22L16 22L21.414 16.586C22.195 15.805 22.195 14.539 21.414 13.758Z","key":"3"})
+  );
+});
+
+LinkEditNotched.displayName = 'LinkEditNotched';
+
+export default LinkEditNotched;
+export { LinkEditNotched };

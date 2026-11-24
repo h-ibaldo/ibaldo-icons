@@ -1,17 +1,19 @@
 {
-  "name": "PageViewAll",
+  "name": "WindowGrid",
   "description": "An icon representing a page view option showing all content or full page display",
   "tags": [
+    "window",
     "page",
     "view",
     "all",
     "display",
     "layout",
-    "content"
+    "content",
+    "grid"
   ],
   "categories": [
-    "interface",
-    "files"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window grid",
+  "aliases": [
+    "PageViewAll"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

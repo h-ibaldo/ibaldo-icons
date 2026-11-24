@@ -1,15 +1,15 @@
 {
-  "name": "Box16",
+  "name": "BoxOpenSpread",
   "description": "A box icon variant numbered 16, suitable for container, package, or storage representations in professional interfaces.",
   "tags": [
     "box",
     "container",
     "package",
     "storage",
-    "variant16"
+    "open",
+    "spread"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Box open spread",
+  "aliases": [
+    "Box16"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,10 +1,10 @@
 {
-  "name": "SystemDiagnosticClipboard",
+  "name": "ClipboardPulse",
   "description": "A system diagnostic icon with a clipboard and pulse indicator for monitoring health status",
   "tags": [
+    "clipboard",
     "system",
     "diagnostic",
-    "clipboard",
     "pulse",
     "monitor",
     "health",
@@ -12,9 +12,7 @@
     "status"
   ],
   "categories": [
-    "interface",
-    "health",
-    "business"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clipboard pulse",
+  "aliases": [
+    "SystemDiagnosticClipboard"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

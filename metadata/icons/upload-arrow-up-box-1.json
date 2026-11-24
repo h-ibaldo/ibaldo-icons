@@ -1,5 +1,5 @@
 {
-  "name": "UploadArrowBox1",
+  "name": "UploadBox",
   "description": "An upload icon with an upward arrow inside a box shape indicating file container upload",
   "tags": [
     "upload",
@@ -11,7 +11,7 @@
     "transfer"
   ],
   "categories": [
-    "interface",
+    "files",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload box",
+  "aliases": [
+    "UploadArrowBox1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

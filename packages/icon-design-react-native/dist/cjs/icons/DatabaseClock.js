@@ -1,0 +1,38 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path } = RNSvg;
+
+const DatabaseClock = forwardRef(function DatabaseClock(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M21 17C21 19.762 18.762 22 16 22C13.238 22 11 19.762 11 17C11 14.238 13.238 12 16 12C18.762 12 21 14.238 21 17Z","key":"0"}),
+    createElement(Path, {"d":"M16 15L16 17L18 17","key":"1"}),
+    createElement(Path, {"d":"M3 8L18 8","key":"2"}),
+    createElement(Path, {"d":"M3 14L12 14","key":"3"}),
+    createElement(Path, {"d":"M18 12.422L18 5C18 3.344 16.656 2 15 2L6 2C4.344 2 3 3.344 3 5L3 17C3 18.656 4.344 20 6 20L12.023 20","key":"4"})
+  );
+});
+
+DatabaseClock.displayName = 'DatabaseClock';
+
+module.exports = DatabaseClock;
+module.exports.DatabaseClock = DatabaseClock;
+module.exports.default = DatabaseClock;

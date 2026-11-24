@@ -1,18 +1,18 @@
 {
-  "name": "AnimatedDiamondMoving2",
+  "name": "DiamondMotionDotted",
   "description": "Second variant of an animated diamond shape with movement for dynamic state transitions",
   "tags": [
-    "animated",
     "diamond",
+    "animated",
     "moving",
     "loading",
     "progress",
     "motion",
-    "activity"
+    "activity",
+    "dotted"
   ],
   "categories": [
-    "interface",
-    "time"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Diamond motion dotted",
+  "aliases": [
+    "AnimatedDiamondMoving2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,21 @@
 {
-  "name": "Door3",
-  "displayName": "Door 3",
+  "name": "DoorOpen",
+  "displayName": "Door open",
   "originalTitle": "Door 3 Enter Login",
   "description": "Simple door icon representing entry or login functionality. Used for access points and authentication interfaces.",
   "tags": [
     "door",
-    "login",
     "enter",
+    "login",
     "access",
     "entry",
-    "sign in",
+    "sign-in",
     "authentication",
-    "portal"
+    "portal",
+    "open"
   ],
   "categories": [
-    "interface",
-    "business"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.801Z"
+  "generatedAt": "2026-02-15T00:53:19.801Z",
+  "aliases": [
+    "Door3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

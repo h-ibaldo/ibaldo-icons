@@ -1,22 +1,24 @@
 {
-  "name": "UserPerson5",
-  "description": "A user profile icon representing a single person in variant 5 style",
+  "name": "AvatarFaceWavyBob",
+  "description": "Face with eyes and a short wavy bob parted in the center.",
   "tags": [
     "user",
-    "person",
-    "profile",
     "avatar",
+    "profile",
     "account",
-    "people",
-    "identity"
+    "person",
+    "face",
+    "hairstyle",
+    "bob",
+    "wavy-hair",
+    "short-hair"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-5",
   "technical": {
@@ -29,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, wavy bob",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceWavyBob"
+  ],
+  "featured": true
 }

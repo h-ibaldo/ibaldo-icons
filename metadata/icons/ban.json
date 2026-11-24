@@ -1,0 +1,36 @@
+{
+  "name": "Ban",
+  "displayName": "Ban",
+  "description": "Circle crossed by a diagonal slash.",
+  "tags": [
+    "no-entry",
+    "ban",
+    "forbidden",
+    "blocked",
+    "prohibited",
+    "not-allowed",
+    "stop"
+  ],
+  "categories": [
+    "interface",
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Not allowed"
+  },
+  "filename": "ban",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

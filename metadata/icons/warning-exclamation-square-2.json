@@ -1,18 +1,19 @@
 {
-  "name": "WarningSquareAlt",
+  "name": "AlertSquareSmall",
   "description": "An alternative warning icon with an exclamation mark in a square shape for varied alert scenarios",
   "tags": [
+    "alert",
     "warning",
     "exclamation",
+    "error",
+    "attention",
     "square",
-    "alert",
     "caution",
-    "variant",
-    "alternative"
+    "alternative",
+    "small"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Alert square small",
+  "aliases": [
+    "WarningSquareAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

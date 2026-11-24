@@ -1,5 +1,5 @@
 {
-  "name": "Cloud1Box",
+  "name": "CloudSquare",
   "description": "A cloud icon combined with a box representing cloud storage or data container",
   "tags": [
     "cloud",
@@ -8,10 +8,10 @@
     "container",
     "data",
     "file",
-    "package"
+    "package",
+    "square"
   ],
   "categories": [
-    "interface",
     "files",
     "devices"
   ],
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud square",
+  "aliases": [
+    "Cloud1Box"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

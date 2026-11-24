@@ -1,0 +1,35 @@
+{
+  "name": "ImagePlay",
+  "displayName": "Image play",
+  "description": "Picture frame with hills and a sun and a play triangle at the top right.",
+  "tags": [
+    "image",
+    "picture",
+    "photo",
+    "gallery",
+    "video",
+    "animated",
+    "gif"
+  ],
+  "categories": [
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Play media"
+  },
+  "filename": "image-play",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

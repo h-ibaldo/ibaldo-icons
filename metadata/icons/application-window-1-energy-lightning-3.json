@@ -1,21 +1,23 @@
 {
-  "name": "ApplicationWindow1Lightning4",
-  "displayName": "Application window 1 lightning 4",
+  "name": "WindowBoltWide",
+  "displayName": "Window bolt wide",
   "originalTitle": "Application Window 1 Energy Lightning 3",
   "description": "Third variation of lightning application window for high-speed or energy management software. Represents applications with enhanced performance features.",
   "tags": [
-    "application",
     "window",
+    "application",
+    "energy",
     "lightning",
     "performance",
-    "energy",
     "management",
     "speed",
-    "power"
+    "power",
+    "bolt",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.768Z"
+  "generatedAt": "2026-02-15T00:53:19.768Z",
+  "aliases": [
+    "ApplicationWindow1Lightning4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

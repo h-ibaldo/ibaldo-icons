@@ -1,0 +1,36 @@
+{
+  "name": "ArrowUturnDownFlippedCircleX",
+  "displayName": "Arrow uturn down flipped circle x",
+  "description": "U-turn arrow pointing down inside a circle, with an X at the open bottom-right corner.",
+  "tags": [
+    "arrow",
+    "u-turn",
+    "undo",
+    "revert",
+    "cancel",
+    "failed",
+    "x",
+    "circle"
+  ],
+  "categories": [
+    "arrows"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Undo failed"
+  },
+  "filename": "arrow-uturn-down-flipped-circle-x",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

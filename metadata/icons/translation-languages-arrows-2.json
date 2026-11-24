@@ -1,18 +1,22 @@
 {
-  "name": "TranslationLanguagesArrows2",
+  "name": "TranslateSyncCode",
   "description": "A translation icon with directional arrows in variant style for language conversion and multilingual support.",
   "tags": [
+    "translate",
     "translation",
     "languages",
     "arrows",
+    "synchronize",
     "exchange",
     "bilingual",
     "conversion",
-    "communication"
+    "communication",
+    "sync",
+    "code"
   ],
   "categories": [
     "communication",
-    "interface"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Translate sync code",
+  "aliases": [
+    "TranslationLanguagesArrows2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

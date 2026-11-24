@@ -1,21 +1,24 @@
 {
-  "name": "Bell3Plus",
-  "displayName": "Bell 3 plus",
+  "name": "BellPlusKnob",
+  "displayName": "Bell plus knob",
   "originalTitle": "Bell 3 Notification Alarm Alert Positive Add Plus",
   "description": "Notification bell with plus symbol indicating the ability to add new notifications or enable notification settings. Used for creating alerts or subscribing to notifications.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
     "alert",
+    "positive",
     "add",
-    "plus",
     "create",
+    "plus",
     "subscribe",
-    "enable"
+    "enable",
+    "knob"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.784Z"
+  "generatedAt": "2026-02-15T00:53:19.784Z",
+  "aliases": [
+    "Bell3Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

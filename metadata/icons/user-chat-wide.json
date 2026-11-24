@@ -1,0 +1,36 @@
+{
+  "name": "UserChatWide",
+  "displayName": "User chat wide",
+  "description": "Person outline with two wide speech bubbles above, tails pointing down toward the head.",
+  "tags": [
+    "user",
+    "chat",
+    "person",
+    "conversation",
+    "talk",
+    "discussion",
+    "speaking"
+  ],
+  "categories": [
+    "communication",
+    "people"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Person chatting"
+  },
+  "filename": "user-chat-wide",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

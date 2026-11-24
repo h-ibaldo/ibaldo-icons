@@ -1,14 +1,14 @@
 {
-  "name": "XDelete4",
+  "name": "XTiny",
   "description": "A basic close or delete icon with an X symbol in variant 4 style",
   "tags": [
-    "x",
     "delete",
     "close",
     "remove",
     "dismiss",
     "cancel",
-    "exit"
+    "exit",
+    "tiny"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "X tiny",
+  "aliases": [
+    "XDelete4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

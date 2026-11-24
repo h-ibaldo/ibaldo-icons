@@ -1,17 +1,18 @@
 {
-  "name": "ApplicationWindowClose12",
+  "name": "WindowXPlain",
   "description": "An application window icon with an X symbol indicating the ability to close or dismiss the window",
   "tags": [
-    "application",
     "window",
+    "application",
     "close",
-    "x",
     "delete",
     "remove",
     "dismiss",
-    "interface"
+    "interface",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window X plain",
+  "aliases": [
+    "ApplicationWindowClose12"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

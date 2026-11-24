@@ -1,0 +1,34 @@
+{
+  "name": "Percent",
+  "displayName": "Percent",
+  "description": "Percent sign: a diagonal line with a small circle on each side.",
+  "tags": [
+    "percent",
+    "discount",
+    "sale",
+    "offer",
+    "symbol"
+  ],
+  "categories": [
+    "shopping",
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Percent"
+  },
+  "filename": "percent",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

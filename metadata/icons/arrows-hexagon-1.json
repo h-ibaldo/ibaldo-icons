@@ -1,17 +1,19 @@
 {
-  "name": "ArrowsHexagon1",
+  "name": "ArrowSyncHexagon",
   "description": "Directional arrows arranged in a hexagonal pattern indicating radial or multi-directional movement",
   "tags": [
+    "arrow",
     "arrows",
+    "synchronize",
     "hexagon",
     "direction",
     "radial",
     "multi-directional",
     "geometric",
-    "expand"
+    "expand",
+    "sync"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync hexagon",
+  "aliases": [
+    "ArrowsHexagon1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

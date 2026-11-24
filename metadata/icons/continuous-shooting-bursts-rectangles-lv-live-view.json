@@ -1,20 +1,22 @@
 {
-  "name": "ContinuousShootingBurstLiveView",
+  "name": "BurstLV",
   "description": "A continuous shooting burst icon with rectangles indicating live view mode during rapid-fire photography",
   "tags": [
+    "burst",
     "continuous",
     "shooting",
-    "burst",
+    "bursts",
     "rectangles",
-    "live view",
-    "LV",
+    "lv",
+    "live",
+    "view",
+    "live-view",
     "preview",
     "camera",
     "mode"
   ],
   "categories": [
-    "media",
-    "devices"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Burst L V",
+  "aliases": [
+    "ContinuousShootingBurstLiveView"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

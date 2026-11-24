@@ -1,0 +1,36 @@
+{
+  "name": "StopwatchFastTick",
+  "displayName": "Stopwatch fast tick",
+  "description": "Stopwatch with a crown and side tick, speed lines on the left.",
+  "tags": [
+    "stopwatch",
+    "timer",
+    "time",
+    "chronometer",
+    "fast",
+    "speed",
+    "quick",
+    "express"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Fast"
+  },
+  "filename": "stopwatch-fast-tick",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

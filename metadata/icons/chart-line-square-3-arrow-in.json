@@ -1,6 +1,6 @@
 {
-  "name": "ChartLineSquare3ArrowIn",
-  "displayName": "Chart line square 3 arrow in",
+  "name": "ChartLinePeakSquareArrowRight",
+  "displayName": "Chart line peak square arrow right",
   "originalTitle": "Chart Line Square 3 Arrow In",
   "description": "Alternative line chart with import arrow for data input functionality. Used for importing analytics data or adding datasets to reporting systems.",
   "tags": [
@@ -11,11 +11,13 @@
     "input",
     "analytics",
     "upload",
-    "add"
+    "add",
+    "peak",
+    "square",
+    "right"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.753Z"
+  "generatedAt": "2026-02-15T00:53:19.753Z",
+  "aliases": [
+    "ChartLineSquare3ArrowIn"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

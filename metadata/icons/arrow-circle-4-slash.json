@@ -1,18 +1,20 @@
 {
-  "name": "ArrowCircle4Slash",
+  "name": "ArrowCounterclockwiseOff",
   "description": "An arrow icon in a circle with a slash overlay, indicating a disabled or prohibited directional movement.",
   "tags": [
     "arrow",
     "circle",
     "slash",
     "disabled",
+    "mute",
     "restricted",
     "prohibited",
     "blocked",
-    "negative"
+    "negative",
+    "counterclockwise",
+    "off"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow counterclockwise off",
+  "aliases": [
+    "ArrowCircle4Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

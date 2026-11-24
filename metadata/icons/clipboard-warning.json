@@ -1,0 +1,36 @@
+{
+  "name": "ClipboardWarning",
+  "displayName": "Clipboard warning",
+  "description": "Clipboard with a warning triangle holding an exclamation mark.",
+  "tags": [
+    "clipboard",
+    "paste",
+    "notes",
+    "document",
+    "warning",
+    "alert",
+    "error",
+    "triangle"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Clipboard warning"
+  },
+  "filename": "clipboard-warning",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

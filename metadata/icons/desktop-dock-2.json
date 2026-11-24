@@ -1,16 +1,16 @@
 {
-  "name": "DesktopDock2",
+  "name": "ScreenDockDots",
   "description": "A desktop dock icon showing the second variant of an application launcher or taskbar element",
   "tags": [
+    "screen",
     "desktop",
     "dock",
     "taskbar",
     "launcher",
     "application",
-    "variant2"
+    "dots"
   ],
   "categories": [
-    "interface",
     "devices"
   ],
   "accessibility": {
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screen dock dots",
+  "aliases": [
+    "DesktopDock2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

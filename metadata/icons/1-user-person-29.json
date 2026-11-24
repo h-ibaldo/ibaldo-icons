@@ -1,23 +1,23 @@
 {
-  "name": "User29",
-  "description": "A user or person icon representing an individual profile or account, variant 29",
+  "name": "AvatarFaceBowlCut",
+  "description": "Face with eyes and a rounded bowl cut.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "people",
-    "avatar",
-    "identity",
-    "individual"
+    "person",
+    "face",
+    "hairstyle",
+    "bowl-cut",
+    "short-hair"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-29",
   "technical": {
@@ -30,5 +30,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, bowl cut",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceBowlCut"
+  ],
+  "featured": true
 }

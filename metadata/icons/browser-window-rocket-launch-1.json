@@ -1,17 +1,17 @@
 {
-  "name": "BrowserWindowLaunch",
+  "name": "BrowserRocket",
   "description": "A browser window icon with a rocket symbol representing launch, deployment, or start actions",
   "tags": [
     "browser",
     "window",
-    "rocket",
     "launch",
+    "rocket",
     "deploy",
     "start",
     "action"
   ],
   "categories": [
-    "interface",
+    "devices",
     "development"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser rocket",
+  "aliases": [
+    "BrowserWindowLaunch"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

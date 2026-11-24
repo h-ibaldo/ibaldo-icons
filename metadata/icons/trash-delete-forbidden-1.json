@@ -1,19 +1,18 @@
 {
-  "name": "TrashForbidden1",
+  "name": "TrashBan",
   "description": "A trash bin icon with a forbidden or prohibited indicator",
   "tags": [
     "trash",
     "delete",
     "forbidden",
-    "prohibited",
     "blocked",
+    "prohibited",
     "disable",
     "restricted",
-    "variant 1"
+    "ban"
   ],
   "categories": [
-    "interface",
-    "security"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash ban",
+  "aliases": [
+    "TrashForbidden1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

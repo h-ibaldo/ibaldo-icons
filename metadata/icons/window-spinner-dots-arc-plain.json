@@ -1,0 +1,39 @@
+{
+  "name": "WindowSpinnerDotsArcPlain",
+  "displayName": "Window spinner dots arc plain",
+  "description": "Window with a plain title bar and an open arc of five dots in the middle.",
+  "tags": [
+    "window",
+    "app",
+    "interface",
+    "dialog",
+    "loading",
+    "spinner",
+    "progress",
+    "wait",
+    "more",
+    "pending",
+    "dots"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Loading window"
+  },
+  "filename": "window-spinner-dots-arc-plain",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

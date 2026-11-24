@@ -1,5 +1,5 @@
 {
-  "name": "RotateScreen5",
+  "name": "RotateScreenTabLeft",
   "description": "A screen rotation icon indicating the fifth variant of device orientation change",
   "tags": [
     "rotate",
@@ -7,11 +7,11 @@
     "orientation",
     "device",
     "refresh",
-    "variant5"
+    "tab",
+    "left"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Rotate screen tab left",
+  "aliases": [
+    "RotateScreen5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

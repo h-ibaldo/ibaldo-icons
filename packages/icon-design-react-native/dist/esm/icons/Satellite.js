@@ -1,0 +1,34 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const Satellite = forwardRef(function Satellite(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M18.219 13.563L21.398 16.742C21.789 17.133 21.789 17.766 21.398 18.156L19.277 20.277C18.887 20.668 18.254 20.668 17.863 20.277L14.684 17.098C13.707 16.121 13.707 14.535 14.684 13.563C15.656 12.586 17.242 12.586 18.219 13.563Z","key":"0"}),
+    createElement(Path, {"d":"M6.902 9.316L3.723 6.137C3.332 5.746 3.332 5.113 3.723 4.723L5.844 2.602C6.234 2.211 6.867 2.211 7.258 2.602L10.441 5.781C11.414 6.758 11.414 8.34 10.441 9.316C9.465 10.293 7.879 10.293 6.902 9.316Z","key":"1"}),
+    createElement(Path, {"d":"M15.035 7.551L16.449 8.965C16.84 9.355 16.84 9.988 16.449 10.379L11.5 15.328C11.109 15.719 10.477 15.719 10.086 15.328L8.672 13.914C8.281 13.523 8.281 12.891 8.672 12.5L13.621 7.551C14.012 7.16 14.645 7.16 15.035 7.551Z","key":"2"}),
+    createElement(Path, {"d":"M2.309 16.035C3.871 14.473 6.402 14.473 7.965 16.035C9.527 17.598 9.527 20.129 7.965 21.691Z","key":"3"}),
+    createElement(Path, {"d":"M5.137 18.863L3.723 20.277","key":"4"}),
+    createElement(Path, {"d":"M17.156 6.844L15.742 8.258","key":"5"})
+  );
+});
+
+Satellite.displayName = 'Satellite';
+
+export default Satellite;
+export { Satellite };

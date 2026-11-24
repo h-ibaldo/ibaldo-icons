@@ -1,5 +1,5 @@
 {
-  "name": "BriefcaseCheck",
+  "name": "BriefcaseStraps",
   "description": "A briefcase icon with a checkmark indicating completion, approval, or verified business documents",
   "tags": [
     "briefcase",
@@ -7,11 +7,11 @@
     "checkmark",
     "verified",
     "approved",
-    "business"
+    "business",
+    "straps"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase straps",
+  "aliases": [
+    "BriefcaseCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

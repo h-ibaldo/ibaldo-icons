@@ -1,17 +1,19 @@
 {
-  "name": "CheckMark3",
-  "displayName": "Check mark 3",
+  "name": "CheckTall",
+  "displayName": "Check tall",
   "originalTitle": "Check Mark 3",
   "description": "Third variation of check mark icon for success and completion indicators. Used in forms, lists, and status displays for positive confirmation.",
   "tags": [
     "check",
+    "mark",
+    "done",
+    "success",
+    "verified",
     "checkmark",
     "tick",
     "complete",
-    "success",
     "approved",
-    "done",
-    "verified"
+    "tall"
   ],
   "categories": [
     "interface"
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.791Z"
+  "generatedAt": "2026-02-15T00:53:19.791Z",
+  "aliases": [
+    "CheckMark3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

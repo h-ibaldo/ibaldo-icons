@@ -1,0 +1,30 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <polyline points="15 5.999999999887223 15 8.999999999887223 18 8.999999999887223"/>
+  <rect x="2" y="12.999999999887223" width="12" height="8.698292868270073" rx="1" ry="1"/>
+  <path d="M2.325256347659888,13.271057128797111l4.983572877110419,4.766210860851061c.386606835400016.369744707919381.995734715059371.369744707919381,1.382341550470301,0l4.983572877099505-4.766210860851061"/>
+  <path d="M18,15.317382812387223c2.36279296875-1.124267578128638,4-3.526611328128638,4-6.3173828125,0-3.865966796878638-3.133972167970569-7-7-7-3.865966796869543,0-7,3.134033203121362-7,7"/>
+</svg>

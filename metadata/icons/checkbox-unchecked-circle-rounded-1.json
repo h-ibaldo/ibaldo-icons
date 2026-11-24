@@ -1,17 +1,19 @@
 {
-  "name": "CheckboxUncheckedCircle1",
-  "displayName": "Checkbox unchecked circle 1",
+  "name": "CheckboxCircleCompact",
+  "displayName": "Checkbox circle compact",
   "originalTitle": "Checkbox Unchecked Circle Rounded 1",
   "description": "Circular checkbox in unchecked state, first variant. Represents an unselected option that can be clicked to enable or select.",
   "tags": [
     "checkbox",
     "unchecked",
+    "rounded",
     "circle",
     "unselected",
     "form",
     "input",
     "empty",
-    "option"
+    "option",
+    "compact"
   ],
   "categories": [
     "interface"
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.795Z"
+  "generatedAt": "2026-02-15T00:53:19.795Z",
+  "aliases": [
+    "CheckboxUncheckedCircle1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

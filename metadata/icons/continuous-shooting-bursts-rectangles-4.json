@@ -1,19 +1,20 @@
 {
-  "name": "ContinuousShootingBurst4",
+  "name": "BurstSkewedOpen",
   "description": "A continuous shooting burst icon with rectangles representing the fourth variant of rapid-fire photography",
   "tags": [
+    "burst",
     "continuous",
     "shooting",
-    "burst",
+    "bursts",
     "rectangles",
-    "4",
     "rapid",
     "photography",
-    "camera"
+    "camera",
+    "skewed",
+    "open"
   ],
   "categories": [
-    "media",
-    "devices"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Burst skewed open",
+  "aliases": [
+    "ContinuousShootingBurst4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

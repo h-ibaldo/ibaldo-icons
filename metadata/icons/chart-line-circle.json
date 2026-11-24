@@ -1,6 +1,6 @@
 {
-  "name": "ChartLineCircle",
-  "displayName": "Chart line circle",
+  "name": "ChartLineWideCircle",
+  "displayName": "Chart line wide circle",
   "originalTitle": "Chart Line Circle",
   "description": "Circular line chart icon representing cyclical data or rounded analytics visualization. Used for dashboard metrics and data trends.",
   "tags": [
@@ -11,11 +11,12 @@
     "dashboard",
     "metrics",
     "trends",
-    "visualization"
+    "visualization",
+    "wide",
+    "circle"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,7 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.751Z"
+  "generatedAt": "2026-02-15T00:53:19.751Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

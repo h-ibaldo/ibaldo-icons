@@ -1,14 +1,18 @@
 {
-  "name": "PageViewTiles2",
+  "name": "LayoutTilesEmpty",
   "description": "A page view icon displaying tile layout variant 2, showing an alternative arrangement of tiled content in a grid format.",
   "tags": [
-    "page view",
+    "layout",
+    "page",
+    "view",
+    "page-view",
     "tiles",
-    "grid layout",
-    "grid view",
+    "grid-layout",
+    "grid-view",
     "mosaic",
-    "tile arrangement",
-    "interface"
+    "tile-arrangement",
+    "interface",
+    "empty"
   ],
   "categories": [
     "interface"
@@ -28,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout tiles empty",
+  "aliases": [
+    "PageViewTiles2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

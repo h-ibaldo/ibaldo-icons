@@ -1,9 +1,10 @@
 {
-  "name": "DislikeHand4",
-  "displayName": "Dislike hand 4",
+  "name": "HandThumbDownSleeve",
+  "displayName": "Hand thumb down sleeve",
   "originalTitle": "Dislike Hand 4",
   "description": "Fourth style of dislike hand icon for rating and feedback systems. Used to indicate negative preference or unfavorable response.",
   "tags": [
+    "hand",
     "dislike",
     "thumbs",
     "down",
@@ -11,11 +12,12 @@
     "preference",
     "rating",
     "unfavorable",
-    "hand"
+    "thumb",
+    "sleeve"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.799Z"
+  "generatedAt": "2026-02-15T00:53:19.799Z",
+  "aliases": [
+    "DislikeHand4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

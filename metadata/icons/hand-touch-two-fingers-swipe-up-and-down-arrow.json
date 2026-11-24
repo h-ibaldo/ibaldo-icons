@@ -1,21 +1,23 @@
 {
-  "name": "HandTwoFingersSwipeVertical",
+  "name": "HandSwipeUpDownTwoFingers",
   "description": "A hand gesture icon showing two fingers swiping up and down with vertical directional arrows",
   "tags": [
     "hand",
     "touch",
-    "two fingers",
+    "arrow",
+    "two-fingers",
     "swipe",
     "up",
     "down",
-    "arrow",
     "vertical",
     "gesture",
-    "interaction"
+    "interaction",
+    "two",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand swipe up down two fingers",
+  "aliases": [
+    "HandTwoFingersSwipeVertical"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

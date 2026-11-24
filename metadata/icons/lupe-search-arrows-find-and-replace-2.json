@@ -1,19 +1,21 @@
 {
-  "name": "LupeSearchReplace2",
+  "name": "SearchSyncDottedB",
   "description": "A search icon with arrows indicating find-and-replace operations within text or documents.",
   "tags": [
     "search",
-    "find",
-    "replace",
     "lupe",
     "arrows",
-    "magnifying glass",
+    "find",
+    "replace",
+    "synchronize",
+    "magnifying-glass",
     "locate",
-    "exchange"
+    "exchange",
+    "sync",
+    "dotted"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search sync dotted B",
+  "aliases": [
+    "LupeSearchReplace2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,24 @@
 {
-  "name": "CheckMarkDoubleSquare",
-  "displayName": "Check mark double square",
+  "name": "CheckDoubleSquare",
+  "displayName": "Check double square",
   "originalTitle": "Check Mark Double Verified Square",
   "description": "Square-contained double checkmark for verification and approval indicators. Used in forms, lists, and status displays to show verified or completed items.",
   "tags": [
+    "check",
+    "mark",
+    "verified",
+    "done",
+    "success",
     "checkmark",
     "double",
     "square",
-    "verified",
     "approval",
     "complete",
     "form",
     "status"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.792Z"
+  "generatedAt": "2026-02-15T00:53:19.792Z",
+  "aliases": [
+    "CheckMarkDoubleSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

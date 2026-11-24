@@ -1,5 +1,5 @@
 {
-  "name": "Newspaper5",
+  "name": "NewspaperCard",
   "description": "A newspaper icon variant 5 displaying news content and media information",
   "tags": [
     "newspaper",
@@ -10,10 +10,10 @@
     "article",
     "information",
     "reading",
-    "journal"
+    "journal",
+    "card"
   ],
   "categories": [
-    "media",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Newspaper card",
+  "aliases": [
+    "Newspaper5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

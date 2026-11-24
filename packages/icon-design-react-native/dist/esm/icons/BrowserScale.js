@@ -1,0 +1,38 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Line, Path, Polyline } from 'react-native-svg';
+
+const BrowserScale = forwardRef(function BrowserScale(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M22,9.999999999998181V3.999999999998181c0-1.104569499661011-.895430500338989-2-2-2H4c-1.104569499670106,0-2,.895430500338989-2,2v16c0,1.104569499664649.895430500329894,2,2,2h2.000000003630703","key":"0"}),
+    createElement(Line, {"x1":"5.035268549516331","y1":"4.998782739598028","x2":"5.025268549516113","y2":"4.998782739598028","key":"1"}),
+    createElement(Line, {"x1":"8.035268549516331","y1":"4.998782739598028","x2":"8.025268549516113","y2":"4.998782739598028","key":"2"}),
+    createElement(Line, {"x1":"19.000000003630703","y1":"4.999999999998181","x2":"11.000000003630703","y2":"4.999999999998181","key":"3"}),
+    createElement(Line, {"x1":"2.000000003630703","y1":"7.999999999998181","x2":"22.000000003630703","y2":"7.999999999998181","key":"4"}),
+    createElement(Path, {"d":"M18.025268549516113,16.998782739598028c0,1.104569499602803.895430500400835,2,2,2s2-.895430500397197,2-2l-2-4-2,4Z","key":"5"}),
+    createElement(Path, {"d":"M6.025268549516113,16.998782739598028c0,1.104569499602803.895430500400835,2,2,2s2-.895430500397197,2-2l-2-4-2,4Z","key":"6"}),
+    createElement(Line, {"x1":"10.025268549516113","y1":"21.998782739598028","x2":"18.025268549516113","y2":"21.998782739598028","key":"7"}),
+    createElement(Line, {"x1":"14.025268549516113","y1":"11.998782739601666","x2":"14.025268549516113","y2":"21.998782739598028","key":"8"}),
+    createElement(Polyline, {"points":"8.025268549516113 12.998782739598028 14.025268549516113 11.998782739601666 20.025268549516113 12.998782739598028","key":"9"})
+  );
+});
+
+BrowserScale.displayName = 'BrowserScale';
+
+export default BrowserScale;
+export { BrowserScale };

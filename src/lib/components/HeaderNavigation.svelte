@@ -1,5 +1,20 @@
 <script>
+    import MoonRound from '$icons/MoonRound.svelte';
+    import Sun from '$icons/Sun.svelte';
+    import X from '$icons/X.svelte';
     import { onMount } from 'svelte';
+    import { page } from '$app/stores';
+    import { base } from '$app/paths';
+    import { theme, toggleTheme } from '$lib/theme.js';
+    import { ICON_COUNT } from '$lib/icon-count.js';
+
+    // Current page: black text with a 1px black underline; others stay blue
+    const LINK = 'text-indigo-500 hover:text-indigo-600';
+    const ACTIVE = 'text-black border-b border-black';
+    $: path = $page.url.pathname.slice(base.length) || "/";
+    $: linkClass = (href) => (href === '/' ? path === '/' : path.startsWith(href)) ? ACTIVE : LINK;
+
+    const iconCountLabel = `${ICON_COUNT.toLocaleString('en-US')} icons`;
 
     let isDrawerOpen = false;
     let isMobile = false;
@@ -172,6 +187,42 @@
         min-height: 3rem;
     }
 
+    .theme-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.75rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    /* Collapses with the nav links when the page scrolls: leaves after the
+       links and comes back before them */
+    .theme-toggle {
+        transform: translate3d(0, 0, 0);
+        transition: transform 0.4s ease 0.8s, opacity 0.3s ease 0.9s;
+    }
+    .theme-toggle.hide {
+        opacity: 0;
+        pointer-events: none;
+        transform: translate3d(50px, 0, 0);
+        transition-delay: 0.5s, 0.5s;
+    }
+    .drawer-theme {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 1rem;
+        background: none;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+    }
+    :global(html.dark) .drawer { background: rgb(15 23 42); color: rgb(226 232 240); }
+
     .nav-links {
         transition: opacity 0.3s ease, visibility 0.3s ease;
         overflow: visible;
@@ -260,18 +311,41 @@
 </style>
 
 <header class="flex justify-between items-center px-4 py-3 z-10 header-navigation">
-    <h1 class="text-sm font-medium">
-        <a href="/" class="text-inherit no-underline hover:opacity-80">Primor Icons</a>
+    <h1 class="text-[0.8rem] font-semibold">
+        <a href="{base}/" class="text-inherit no-underline hover:opacity-80">Ibaldo Icons</a>
     </h1>
 
-    <div class="flex items-center overflow-hidden">
+    <p
+        class="absolute left-1/2 -translate-x-1/2 text-[0.8rem] text-gray-400 pointer-events-none transition-opacity duration-300"
+        class:opacity-0={isScrolled}
+        aria-hidden={isScrolled}
+    >{iconCountLabel}</p>
 
-        <nav class="space-x-4 text-sm desktop-only nav-links {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
-            <a href="/" class="text-indigo-500 hover:text-indigo-600">Icons</a>
-            <a href="/about" class="text-indigo-500 hover:text-indigo-600">About</a>
-            <a href="/packages" class="text-indigo-500 hover:text-indigo-600">Packages</a>
-            <a href="/license" class="text-indigo-500 hover:text-indigo-600">License</a>
-            <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600">Request icon</a>
+    <div class="flex items-center overflow-hidden">
+        <!-- Light / dark theme -->
+        <button
+            type="button"
+            class="theme-toggle text-indigo-500 hover:text-indigo-600 {isScrolled ? 'hide' : ''}"
+            on:click={toggleTheme}
+            tabindex={isScrolled ? -1 : 0}
+            aria-label={$theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+            title={$theme === 'dark' ? 'Light mode' : 'Dark mode'}
+        >
+            {#if $theme === 'dark'}
+                <!-- sun -->
+                <Sun size={18} aria-hidden="true" />
+            {:else}
+                <!-- moon -->
+                <MoonRound size={18} aria-hidden="true" />
+            {/if}
+        </button>
+
+        <nav class="space-x-4 text-[0.8rem] desktop-only nav-links font-normal {isScrolled ? 'hide' : ''}" aria-label="Main navigation">
+            <a href="{base}/" class="{linkClass('/')}">Icons</a>
+            <a href="{base}/about" class="{linkClass('/about')}">About</a>
+            <a href="{base}/packages" class="{linkClass('/packages')}">Packages</a>
+            <a href="{base}/request-icon" class="{linkClass('/request-icon')}">Request icon</a>
+            <a href="{base}/services" class="{linkClass('/services')}">Services</a>
         </nav>
         
         <button
@@ -336,17 +410,23 @@
             aria-label="Close menu"
         >
 
-            <svg id="uuid-05f3fc17-1443-46b8-a507-dad0f9bf96a9" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <line x1="5.999999991059667" y1="18.000000000626642" x2="17.999999990510332" y2="6.000000001168701" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-            <line x1="17.999999990250217" y1="18.000000000894943" x2="5.999999991330697" y2="6.0000000009004" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-            </svg>
+            <X size={24} aria-hidden="true" />
         </button>
     </div>
     <nav class="flex flex-col space-y-4 text-md" aria-label="Mobile navigation">
-        <a href="/" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Icons</a>
-        <a href="/about" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>About</a>
-        <a href="/packages" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Packages</a>
-        <a href="/license" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>License</a>
-        <a href="/request-icon" class="text-indigo-500 hover:text-indigo-600" on:click={closeDrawer}>Request icon</a>
+        <a href="{base}/" class="{linkClass('/')} self-start" on:click={closeDrawer}>Icons</a>
+        <a href="{base}/about" class="{linkClass('/about')} self-start" on:click={closeDrawer}>About</a>
+        <a href="{base}/packages" class="{linkClass('/packages')} self-start" on:click={closeDrawer}>Packages</a>
+        <a href="{base}/license" class="{linkClass('/license')} self-start" on:click={closeDrawer}>License</a>
+        <a href="{base}/request-icon" class="{linkClass('/request-icon')} self-start" on:click={closeDrawer}>Request icon</a>
+        <a href="{base}/services" class="{linkClass('/services')} self-start" on:click={closeDrawer}>Services</a>
+        <!-- Theme control (the header toggle hides while scrolled) -->
+        <button type="button" class="drawer-theme text-indigo-500 hover:text-indigo-600 self-start" on:click={toggleTheme}>
+            {#if $theme === 'dark'}
+                <Sun size={18} aria-hidden="true" /> Light mode
+            {:else}
+                <MoonRound size={18} aria-hidden="true" /> Dark mode
+            {/if}
+        </button>
     </nav>
 </div>

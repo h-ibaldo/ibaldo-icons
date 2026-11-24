@@ -1,0 +1,36 @@
+{
+  "name": "FileArrowDownWide",
+  "displayName": "File arrow down wide",
+  "description": "Square page with a folded corner and an arrow pointing down inside.",
+  "tags": [
+    "file",
+    "document",
+    "page",
+    "arrow",
+    "down",
+    "download",
+    "wide",
+    "file-down"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Download file"
+  },
+  "filename": "file-arrow-down-wide",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:45:45.682Z"
+}

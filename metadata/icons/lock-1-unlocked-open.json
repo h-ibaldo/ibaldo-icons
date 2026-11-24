@@ -1,5 +1,5 @@
 {
-  "name": "LockUnlockedOpen",
+  "name": "LockOpenSharp",
   "description": "An unlocked or open lock icon indicating an unsecured, accessible, or unlocked state",
   "tags": [
     "lock",
@@ -8,11 +8,11 @@
     "unsecure",
     "accessible",
     "unprotected",
-    "unlatch"
+    "unlatch",
+    "sharp"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock open sharp",
+  "aliases": [
+    "LockUnlockedOpen"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

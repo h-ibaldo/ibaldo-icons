@@ -1,20 +1,21 @@
 {
-  "name": "TechnicalSupportToolsAlt",
+  "name": "WrenchScrewdriver",
   "description": "An alternative technical support tools icon variant showing different tool arrangements for system support and repair",
   "tags": [
-    "technical support",
+    "wrench",
+    "technical",
+    "support",
     "tools",
+    "technical-support",
     "equipment",
     "troubleshooting",
     "repair",
     "maintenance",
-    "variant",
-    "service"
+    "service",
+    "screwdriver"
   ],
   "categories": [
-    "interface",
-    "development",
-    "business"
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Wrench screwdriver",
+  "aliases": [
+    "TechnicalSupportToolsAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

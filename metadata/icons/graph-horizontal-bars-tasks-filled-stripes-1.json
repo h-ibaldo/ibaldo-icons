@@ -1,7 +1,8 @@
 {
-  "name": "GraphHorizontalBarsStripes",
+  "name": "ProgressBarMultipleSegmentedSharp",
   "description": "A horizontal bar graph with striped fill pattern representing task progress and analytics",
   "tags": [
+    "progress",
     "graph",
     "horizontal",
     "bars",
@@ -10,10 +11,11 @@
     "stripes",
     "pattern",
     "chart",
-    "progress"
+    "bar",
+    "multiple",
+    "segmented"
   ],
   "categories": [
-    "business",
     "interface"
   ],
   "accessibility": {
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress bar multiple segmented sharp",
+  "aliases": [
+    "GraphHorizontalBarsStripes"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

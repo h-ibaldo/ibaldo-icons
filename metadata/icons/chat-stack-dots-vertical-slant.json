@@ -1,0 +1,40 @@
+{
+  "name": "ChatStackDotsVerticalSlant",
+  "displayName": "Chat stack dots vertical slant",
+  "description": "Speech bubble with a slanted tail and the outline of a second bubble behind it, with three vertical dots at the edge.",
+  "tags": [
+    "chat",
+    "message",
+    "dots",
+    "kebab",
+    "more",
+    "options",
+    "menu",
+    "conversation",
+    "chat-stack",
+    "square",
+    "slanted",
+    "comment"
+  ],
+  "categories": [
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Chat options"
+  },
+  "filename": "chat-stack-dots-vertical-slant",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

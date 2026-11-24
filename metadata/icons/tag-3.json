@@ -1,15 +1,16 @@
 {
-  "name": "Tag3",
+  "name": "TagRounded",
   "description": "A tag icon in the third variant style for marking and classification",
   "tags": [
     "tag",
     "label",
     "mark",
     "classify",
-    "organize"
+    "organize",
+    "rounded"
   ],
   "categories": [
-    "interface"
+    "shopping"
   ],
   "accessibility": {
     "role": "informative",
@@ -26,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tag rounded",
+  "aliases": [
+    "Tag3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

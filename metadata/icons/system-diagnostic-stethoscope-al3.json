@@ -1,19 +1,18 @@
 {
-  "name": "SystemDiagnosticStethoscopeList",
+  "name": "StethoscopeRound",
   "description": "A system diagnostic icon combining stethoscope and list elements for detailed health reporting",
   "tags": [
+    "stethoscope",
     "system",
     "diagnostic",
-    "stethoscope",
     "list",
     "health",
     "report",
-    "checklist"
+    "checklist",
+    "round"
   ],
   "categories": [
-    "interface",
-    "health",
-    "business"
+    "health"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Stethoscope round",
+  "aliases": [
+    "SystemDiagnosticStethoscopeList"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

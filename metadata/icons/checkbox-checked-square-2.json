@@ -1,11 +1,15 @@
 {
-  "name": "CheckboxSquare2",
-  "displayName": "Checkbox square 2",
+  "name": "CheckSquareCompact",
+  "displayName": "Check square compact",
   "originalTitle": "Checkbox Checked Square 2",
   "description": "Alternative square checkbox design in checked state. Provides visual variety while maintaining the familiar square checkbox format.",
   "tags": [
+    "check",
     "checkbox",
     "checked",
+    "done",
+    "success",
+    "verified",
     "square",
     "alternative",
     "familiar",
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.793Z"
+  "generatedAt": "2026-02-15T00:53:19.793Z",
+  "aliases": [
+    "CheckboxSquare2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

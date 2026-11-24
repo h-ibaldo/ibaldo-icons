@@ -1,5 +1,5 @@
 {
-  "name": "Sun3",
+  "name": "SunPointed",
   "description": "A simplified sun icon representing clear skies and sunny conditions",
   "tags": [
     "sun",
@@ -9,7 +9,8 @@
     "light",
     "solar",
     "clear",
-    "simple"
+    "simple",
+    "pointed"
   ],
   "categories": [
     "weather",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sun pointed",
+  "aliases": [
+    "Sun3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

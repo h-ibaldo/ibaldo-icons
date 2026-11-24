@@ -1,0 +1,35 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Path, Polyline } = RNSvg;
+
+const MusicSixteenthRound = forwardRef(function MusicSixteenthRound(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M22,9.999999999998181v4l-3.000003000061042.000000000009095c-1.656852592597716,0-2.999996999938958,1.343144407332147-2.999996999938958,2.999996999940777v.000006000111171c0,1.656852592608629,1.343144407341242,2.999996999938958,2.999996999938958,2.999996999938958h.000006000122085c1.656852592597716,0,2.999996999938958-1.343144407341242,2.999996999938958-2.999996999938958V1.999999999998181l-14,3v14.000003000061042c0,1.656852592597716-1.343144407340333,2.999996999938958-2.999996999939867,2.999996999938958h-.000006000120266c-1.656852592599535,0-2.999996999939867-1.343144407341242-2.999996999939867-2.999996999938958v-.000006000002031c0-1.656852592648647,1.343144407410364-2.999997000009898,2.999997000059921-2.999996999938958l3.000002999940079.000000000120053v-4.000000000240107","key":"0"}),
+    createElement(Polyline, {"points":"22 9.999999999998181 22 6.999999999998181 8 9.999999999998181 8 11.999999999998181","key":"1"})
+  );
+});
+
+MusicSixteenthRound.displayName = 'MusicSixteenthRound';
+
+module.exports = MusicSixteenthRound;
+module.exports.MusicSixteenthRound = MusicSixteenthRound;
+module.exports.default = MusicSixteenthRound;

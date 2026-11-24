@@ -1,19 +1,18 @@
 {
-  "name": "SystemDiagnosticStethoscope",
+  "name": "StethoscopeSquare",
   "description": "A system diagnostic icon featuring a stethoscope symbol for health and performance assessment",
   "tags": [
+    "stethoscope",
     "system",
     "diagnostic",
-    "stethoscope",
     "health",
     "monitor",
     "check",
-    "assessment"
+    "assessment",
+    "square"
   ],
   "categories": [
-    "interface",
-    "health",
-    "development"
+    "health"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Stethoscope square",
+  "aliases": [
+    "SystemDiagnosticStethoscope"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

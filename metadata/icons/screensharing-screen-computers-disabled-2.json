@@ -1,19 +1,22 @@
 {
-  "name": "ScreensharingDisabled2",
+  "name": "ScreenShareXDouble",
   "description": "An alternate variant of the screensharing icon with computers showing a disabled sharing status",
   "tags": [
-    "screensharing",
     "screen",
+    "screensharing",
     "computers",
     "disabled",
+    "close",
+    "delete",
+    "remove",
     "off",
     "inactive",
-    "variant"
+    "share",
+    "double"
   ],
   "categories": [
-    "interface",
-    "communication",
-    "devices"
+    "devices",
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Screen share X double",
+  "aliases": [
+    "ScreensharingDisabled2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

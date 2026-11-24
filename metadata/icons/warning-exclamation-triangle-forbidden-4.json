@@ -1,18 +1,21 @@
 {
-  "name": "WarningForbidden4",
+  "name": "WarningOffSmall",
   "description": "A warning exclamation triangle icon with a forbidden or prohibition indicator, variant 4",
   "tags": [
     "warning",
     "exclamation",
     "triangle",
     "forbidden",
+    "disabled",
+    "mute",
     "prohibited",
     "alert",
-    "restriction"
+    "restriction",
+    "off",
+    "small"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Warning off small",
+  "aliases": [
+    "WarningForbidden4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

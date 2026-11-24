@@ -1,19 +1,18 @@
 {
-  "name": "ContinuousShootingBurst1",
+  "name": "Burst",
   "description": "A continuous shooting burst icon with rectangles representing the first variant of rapid-fire photography",
   "tags": [
+    "burst",
     "continuous",
     "shooting",
-    "burst",
+    "bursts",
     "rectangles",
-    "1",
     "rapid",
     "photography",
     "camera"
   ],
   "categories": [
-    "media",
-    "devices"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Burst",
+  "aliases": [
+    "ContinuousShootingBurst1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

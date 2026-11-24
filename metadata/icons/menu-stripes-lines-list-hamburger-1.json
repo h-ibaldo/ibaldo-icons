@@ -1,14 +1,14 @@
 {
-  "name": "MenuHamburger1",
+  "name": "MenuCompact",
   "description": "A hamburger menu icon with three horizontal stripes for navigation, variant 1",
   "tags": [
     "menu",
-    "hamburger",
     "stripes",
-    "lines",
     "list",
+    "hamburger",
     "navigation",
-    "interface"
+    "interface",
+    "compact"
   ],
   "categories": [
     "interface"
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu compact",
+  "aliases": [
+    "MenuHamburger1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

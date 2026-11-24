@@ -1,17 +1,21 @@
 {
-  "name": "ArrowsSquared1Slash",
+  "name": "ArrowRepeatVerticalCompactOff",
   "description": "A square-style single arrow icon with a diagonal slash indicating disabled or cancelled direction",
   "tags": [
+    "arrow",
     "arrows",
     "squared",
     "slash",
-    "cancel",
     "disabled",
+    "mute",
+    "cancel",
     "direction",
-    "movement"
+    "movement",
+    "repeat",
+    "vertical",
+    "compact"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow repeat vertical compact off",
+  "aliases": [
+    "ArrowsSquared1Slash"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

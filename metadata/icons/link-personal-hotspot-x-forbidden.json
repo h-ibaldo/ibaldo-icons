@@ -1,19 +1,21 @@
 {
-  "name": "LinkPersonalHotspotX",
+  "name": "LinkX",
   "description": "A personal hotspot link icon with an X indicating a forbidden or prohibited connection state",
   "tags": [
     "link",
-    "personal hotspot",
-    "x",
+    "personal",
+    "hotspot",
     "forbidden",
+    "close",
+    "delete",
+    "remove",
+    "personal-hotspot",
     "prohibited",
     "blocked",
     "disabled",
-    "not allowed"
+    "not-allowed"
   ],
   "categories": [
-    "interface",
-    "devices",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Link X",
+  "aliases": [
+    "LinkPersonalHotspotX"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

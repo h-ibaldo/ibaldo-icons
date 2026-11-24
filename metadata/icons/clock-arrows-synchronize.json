@@ -1,5 +1,5 @@
 {
-  "name": "ClockSynchronize",
+  "name": "ClockSync",
   "description": "A clock icon with synchronization arrows indicating time sync or refresh functionality",
   "tags": [
     "clock",
@@ -12,9 +12,7 @@
     "update"
   ],
   "categories": [
-    "time",
-    "interface",
-    "arrows"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock sync",
+  "aliases": [
+    "ClockSynchronize"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

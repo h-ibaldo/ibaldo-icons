@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const ChatStackDollarCornerFacing = forwardRef(function ChatStackDollarCornerFacing(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M13 2L4 2C2.895 2 2 2.895 2 4L2 17L7 13L14 13","key":"0"}),
+    createElement(Path, {"d":"M22 14L22 22L17 18L10 18C8.895 18 8 17.105 8 16","key":"1"}),
+    createElement(Path, {"d":"M21 3.184L20.449 3C19.82 2.789 19.16 2.684 18.5 2.684C17.395 2.684 16.5 3.578 16.5 4.684C16.5 5.789 17.395 6.684 18.5 6.684L19.5 6.684C20.605 6.684 21.5 7.578 21.5 8.684C21.5 9.789 20.605 10.684 19.5 10.684C18.84 10.684 18.18 10.578 17.551 10.367L17 10.184","key":"2"}),
+    createElement(Path, {"d":"M19 1.684L19 2.684","key":"3"}),
+    createElement(Path, {"d":"M19 10.684L19 11.684","key":"4"})
+  );
+});
+
+ChatStackDollarCornerFacing.displayName = 'ChatStackDollarCornerFacing';
+
+export default ChatStackDollarCornerFacing;
+export { ChatStackDollarCornerFacing };

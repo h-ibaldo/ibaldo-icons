@@ -1,18 +1,18 @@
 {
-  "name": "ToolbarShowBottomPanel",
+  "name": "PanelBottom",
   "description": "A toolbar icon for showing or revealing the bottom panel in an application interface",
   "tags": [
+    "panel",
     "toolbar",
     "show",
+    "pannel",
     "bottom",
-    "panel",
     "reveal",
     "display",
     "ui"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Panel bottom",
+  "aliases": [
+    "ToolbarShowBottomPanel"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

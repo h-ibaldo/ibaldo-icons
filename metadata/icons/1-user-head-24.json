@@ -1,23 +1,24 @@
 {
-  "name": "UserHead24",
-  "description": "A user profile head icon representing a person, variant 24 in the user head series",
+  "name": "AvatarHeadSpaceBuns",
+  "description": "Head outline with no face details and two space buns on top.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "face",
-    "variant 24"
+    "person",
+    "head",
+    "hairstyle",
+    "space-buns",
+    "buns",
+    "updo"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-24",
   "technical": {
@@ -30,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar head, space buns",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserHeadSpaceBuns"
+  ],
+  "featured": true
 }

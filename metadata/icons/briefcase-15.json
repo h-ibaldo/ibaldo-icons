@@ -1,17 +1,17 @@
 {
-  "name": "BriefcaseSearch",
+  "name": "BriefcaseSatchel",
   "description": "A briefcase icon combined with a search or magnifying glass for finding business documents or items",
   "tags": [
     "briefcase",
     "search",
     "find",
-    "magnifying glass",
+    "magnifying-glass",
     "business",
-    "lookup"
+    "lookup",
+    "satchel"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase satchel",
+  "aliases": [
+    "BriefcaseSearch"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,17 +1,18 @@
 {
-  "name": "ArrowsSynchronize",
+  "name": "ArrowSyncNodes",
   "description": "Circular arrows icon indicating synchronization, refresh, or reload functionality",
   "tags": [
+    "arrow",
     "arrows",
     "circles",
     "synchronize",
     "refresh",
     "sync",
     "reload",
-    "circular"
+    "circular",
+    "nodes"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync nodes",
+  "aliases": [
+    "ArrowsSynchronize"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

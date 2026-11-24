@@ -1,0 +1,38 @@
+{
+  "name": "SquareStackLockDashed",
+  "displayName": "Square stack lock dashed",
+  "description": "Square with a padlock in front of a dashed copy of itself.",
+  "tags": [
+    "lock-layer",
+    "layers",
+    "arrange",
+    "stack",
+    "squares",
+    "overlap",
+    "lock",
+    "locked",
+    "secure",
+    "dashed"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Layers"
+  },
+  "filename": "square-stack-lock-dashed",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

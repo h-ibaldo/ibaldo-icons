@@ -1,19 +1,18 @@
 {
-  "name": "LoginArrowIn2",
+  "name": "LoginWide",
   "description": "A second variant of login with inward arrow for account entry or authentication interface",
   "tags": [
     "login",
     "arrow",
-    "in",
-    "sign in",
+    "sign-in",
     "enter",
-    "variant",
     "access",
-    "authentication"
+    "authentication",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "security"
+    "security",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Login wide",
+  "aliases": [
+    "LoginArrowIn2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

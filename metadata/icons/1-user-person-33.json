@@ -1,23 +1,24 @@
 {
-  "name": "User33",
-  "description": "A user or person icon representing an individual profile or account, variant 33",
+  "name": "AvatarFaceAfro",
+  "description": "Face with eyes and a round afro.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "people",
-    "avatar",
-    "identity",
-    "individual"
+    "person",
+    "face",
+    "hairstyle",
+    "afro",
+    "curly-hair",
+    "volume"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-33",
   "technical": {
@@ -30,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, afro",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceAfro"
+  ],
+  "featured": true
 }

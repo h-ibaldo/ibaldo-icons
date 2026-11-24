@@ -1,16 +1,15 @@
 {
-  "name": "BookmarkSquared",
+  "name": "BookmarkSquare",
   "description": "A square-shaped bookmark icon for alternative bookmark styling",
   "tags": [
     "bookmark",
     "squared",
     "square",
     "shape",
-    "variant"
+    "icon-ui"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark square",
+  "aliases": [
+    "BookmarkSquared"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

@@ -1,7 +1,8 @@
 {
-  "name": "GraphHorizontalBarsDots",
+  "name": "ProgressBarMultipleDottedSharp",
   "description": "A horizontal bar graph with filled dots representing task progress indicators",
   "tags": [
+    "progress",
     "graph",
     "horizontal",
     "bars",
@@ -9,10 +10,12 @@
     "filled",
     "dots",
     "chart",
-    "progress"
+    "bar",
+    "multiple",
+    "dotted",
+    "sharp"
   ],
   "categories": [
-    "business",
     "interface"
   ],
   "accessibility": {
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Progress bar multiple dotted sharp",
+  "aliases": [
+    "GraphHorizontalBarsDots"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,0 +1,36 @@
+{
+  "name": "ClockCounterclockwiseBottom",
+  "displayName": "Clock counterclockwise bottom",
+  "description": "Clock face whose outline is a counterclockwise arrow ending at the lower right.",
+  "tags": [
+    "clock",
+    "time",
+    "hour",
+    "counterclockwise",
+    "arrow",
+    "history",
+    "back",
+    "past"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "History"
+  },
+  "filename": "clock-counterclockwise-bottom",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

@@ -1,18 +1,19 @@
 {
-  "name": "Bookmark1FoldedRemove",
+  "name": "BookmarkMinusRolled",
   "description": "A folded bookmark icon with a minus symbol for removing or unsaving marked pages.",
   "tags": [
     "bookmark",
     "folded",
     "remove",
+    "subtract",
     "delete",
     "minus",
     "unsave",
     "mark",
-    "negative"
+    "negative",
+    "rolled"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark minus rolled",
+  "aliases": [
+    "Bookmark1FoldedRemove"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

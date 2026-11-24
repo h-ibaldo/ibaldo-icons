@@ -1,17 +1,18 @@
 {
-  "name": "ChartLineIncrease2",
-  "displayName": "Chart line increase 2",
+  "name": "ChartTrendUp",
+  "displayName": "Chart trend up",
   "originalTitle": "Chart Line Arrow Up Increase 2",
   "description": "Alternative line chart design with upward trend indication. Used for showing growth patterns and positive data movements.",
   "tags": [
-    "line",
     "chart",
+    "arrow",
     "increase",
     "growth",
     "trend",
     "pattern",
     "data",
-    "analytics"
+    "analytics",
+    "up"
   ],
   "categories": [
     "business"
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.750Z"
+  "generatedAt": "2026-02-15T00:53:19.750Z",
+  "aliases": [
+    "ChartLineIncrease2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,15 +1,17 @@
 {
-  "name": "PageViewListDetails",
+  "name": "LayoutListSymbolsDashed",
   "description": "A page view icon showing a list with detailed information for each item",
   "tags": [
+    "layout",
     "page",
     "view",
-    "list",
     "details",
+    "list",
     "information",
-    "layout",
     "detailed",
-    "items"
+    "items",
+    "symbols",
+    "dashed"
   ],
   "categories": [
     "interface"
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout list symbols dashed",
+  "aliases": [
+    "PageViewListDetails"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

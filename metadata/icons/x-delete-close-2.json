@@ -1,8 +1,7 @@
 {
-  "name": "XDelete2",
+  "name": "X",
   "description": "A close or delete icon for removing or dismissing elements on second variant",
   "tags": [
-    "x",
     "delete",
     "close",
     "remove",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "X",
+  "aliases": [
+    "XDelete2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

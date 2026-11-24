@@ -3,16 +3,15 @@
   "description": "A clock icon with a minus symbol, indicating time reduction, removal, or scheduled decrements.",
   "tags": [
     "clock",
+    "remove",
+    "subtract",
     "minus",
     "time",
-    "remove",
     "reduce",
-    "subtract",
     "schedule"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +28,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock minus",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

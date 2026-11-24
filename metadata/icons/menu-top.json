@@ -1,5 +1,5 @@
 {
-  "name": "MenuTop",
+  "name": "MenuPentagon",
   "description": "A menu icon positioned at the top with simplified horizontal line representation",
   "tags": [
     "menu",
@@ -7,7 +7,7 @@
     "navigation",
     "header",
     "interface",
-    "line"
+    "pentagon"
   ],
   "categories": [
     "interface"
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Menu pentagon",
+  "aliases": [
+    "MenuTop"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

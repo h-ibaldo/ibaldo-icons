@@ -1,19 +1,17 @@
 {
-  "name": "AssistiveTechnologyWheelchairSquare3",
+  "name": "WheelchairSquare3",
   "description": "Another variant of the assistive technology wheelchair icon in square format, providing design flexibility for accessibility implementations.",
   "tags": [
+    "wheelchair",
     "assistive",
     "technology",
-    "wheelchair",
     "square",
-    "variant",
     "accessibility",
     "mobility",
     "inclusive"
   ],
   "categories": [
-    "accessibility",
-    "interface"
+    "accessibility"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Wheelchair square3",
+  "aliases": [
+    "AssistiveTechnologyWheelchairSquare3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

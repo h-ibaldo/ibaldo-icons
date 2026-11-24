@@ -1,21 +1,25 @@
 {
-  "name": "Bell5Silent",
-  "displayName": "Bell 5 silent",
+  "name": "BellOffDash",
+  "displayName": "Bell off dash",
   "originalTitle": "Bell 5 Notification Alarm Alert Silent Off Disabled Bar",
   "description": "Notification bell with strike-through bar indicating silenced or disabled notifications. Used to show notifications are currently muted or turned off.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
     "silent",
-    "muted",
     "disabled",
+    "bar",
+    "mute",
+    "muted",
     "off",
     "strike",
-    "bar"
+    "dash"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.787Z"
+  "generatedAt": "2026-02-15T00:53:19.787Z",
+  "aliases": [
+    "Bell5Silent"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

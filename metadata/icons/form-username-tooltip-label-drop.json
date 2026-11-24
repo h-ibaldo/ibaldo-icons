@@ -1,5 +1,5 @@
 {
-  "name": "FormUsernameTooltipDrop",
+  "name": "FormUserDrop",
   "description": "A form username input field with a dropdown tooltip or label indicator",
   "tags": [
     "form",
@@ -10,7 +10,8 @@
     "input",
     "field",
     "user",
-    "information"
+    "information",
+    "drop"
   ],
   "categories": [
     "interface"
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form user drop",
+  "aliases": [
+    "FormUsernameTooltipDrop"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

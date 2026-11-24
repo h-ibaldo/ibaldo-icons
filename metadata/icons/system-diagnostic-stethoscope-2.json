@@ -1,19 +1,17 @@
 {
-  "name": "SystemDiagnosticStethoscopeAlt",
+  "name": "Stethoscope",
   "description": "An alternative system diagnostic icon with stethoscope design for health monitoring",
   "tags": [
+    "stethoscope",
     "system",
     "diagnostic",
-    "stethoscope",
     "health",
     "monitor",
     "alternative",
     "check"
   ],
   "categories": [
-    "interface",
-    "health",
-    "development"
+    "health"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Stethoscope",
+  "aliases": [
+    "SystemDiagnosticStethoscopeAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,17 +1,19 @@
 {
-  "name": "PageViewClose2",
+  "name": "WindowListXCircle",
   "description": "A variant page view icon with an X close button in an alternate style.",
   "tags": [
+    "window",
     "page",
     "view",
     "close",
-    "x",
     "delete",
     "remove",
     "dismiss",
-    "variant"
+    "list",
+    "circle"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window list X circle",
+  "aliases": [
+    "PageViewClose2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

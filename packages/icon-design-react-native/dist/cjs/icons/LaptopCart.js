@@ -1,0 +1,40 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Line, Path } = RNSvg;
+
+const LaptopCart = forwardRef(function LaptopCart(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M22.000000003161404,20.301558373901571v1.69722436226948H2.000000003161404v-1.69722436226948c0-.197424985479302.058438027481316-.390432678937941.167949705660249-.554700196218619l1.832050294339751-2.748075441511901h16l1.832050294340661,2.748075441511901c.109511678190756.164267517280678.167949705659339.357275210739317.167949705659339.554700196218619Z","key":"0"}),
+    createElement(Path, {"d":"M4.000000003161404,16.998782736171052V6.998782736171052c0-.552284749828686.447715250171314-1,1-1h2","key":"1"}),
+    createElement(Path, {"d":"M8.000000003161404,1.998782736171052h1.340603842021665c.400028108568222,0,.761566238068554.238396853557788.919145030018626.606080701421888l2.740251127959709,6.393919298578112h7l2-5h-11","key":"2"}),
+    createElement(Path, {"d":"M20.000000003161404,11.998782736171052h-8.065741454098315c-.399347692221454,0-.637543390401333-.445072733251436-.416025147160326-.777350098112947l1.481766601258641-2.222649901887053","key":"3"}),
+    createElement(Line, {"x1":"18.000000003161404","y1":"11.998782736171052","x2":"18.000000003161404","y2":"12.998782736171052","key":"4"}),
+    createElement(Line, {"x1":"13.000000003161404","y1":"11.998782736171052","x2":"13.000000003161404","y2":"12.998782736171052","key":"5"}),
+    createElement(Line, {"x1":"20.000000003161404","y1":"16.998782736171052","x2":"20.000000003161404","y2":"15.998782736171052","key":"6"})
+  );
+});
+
+LaptopCart.displayName = 'LaptopCart';
+
+module.exports = LaptopCart;
+module.exports.LaptopCart = LaptopCart;
+module.exports.default = LaptopCart;

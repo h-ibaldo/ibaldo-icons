@@ -1,0 +1,39 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const FileEditDetailedPlain = defineComponent({
+  name: 'FileEditDetailedPlain',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M21.707 7.879L19.121 5.293C18.731 4.902 18.098 4.902 17.707 5.293L9 14L9 18L13 18L21.707 9.293C22.098 8.902 22.098 8.269 21.707 7.879Z"}),
+          h('path', {"d":"M16 2L4 2C2.895 2 2 2.895 2 4L2 20C2 21.105 2.895 22 4 22L16 22C17.105 22 18 21.105 18 20L18 18"}),
+          h('path', {"d":"M15.5 7.5L19.5 11.5"})
+        ]
+      );
+  }
+});
+
+module.exports = FileEditDetailedPlain;
+module.exports.FileEditDetailedPlain = FileEditDetailedPlain;
+module.exports.default = FileEditDetailedPlain;

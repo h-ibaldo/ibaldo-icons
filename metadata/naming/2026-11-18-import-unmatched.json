@@ -1,0 +1,2547 @@
+{
+  "old-icon-set-1-p0066": {
+    "name": "AnchorBare",
+    "displayName": "Anchor bare",
+    "description": "Anchor with a ring on top and plain curved arms, without a crossbar.",
+    "tags": [
+      "anchor",
+      "ship",
+      "boat",
+      "marine",
+      "harbor",
+      "port",
+      "nautical"
+    ],
+    "categories": [
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Anchor"
+    }
+  },
+  "old-icon-set-1-p0067": {
+    "name": "AnchorBarbed",
+    "displayName": "Anchor barbed",
+    "description": "Anchor with a ring on top and curved arms ending in small barbs, without a crossbar.",
+    "tags": [
+      "anchor",
+      "ship",
+      "boat",
+      "marine",
+      "harbor",
+      "port",
+      "nautical",
+      "barbed"
+    ],
+    "categories": [
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Anchor"
+    }
+  },
+  "old-icon-set-1-p0069": {
+    "name": "SquareDot",
+    "displayName": "Square dot",
+    "description": "Rounded square open at the top right, with a small ring in the gap.",
+    "tags": [
+      "square",
+      "app",
+      "notification",
+      "dot",
+      "badge",
+      "unread",
+      "widget"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Notification"
+    }
+  },
+  "old-icon-set-1-p0070": {
+    "name": "ArrowUpCircleLarge",
+    "displayName": "Arrow up circle large",
+    "description": "Large arrow pointing up inside a circle.",
+    "tags": [
+      "arrow",
+      "up",
+      "north",
+      "circle",
+      "round",
+      "button",
+      "large"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up"
+    }
+  },
+  "old-icon-set-1-p0071": {
+    "name": "ArrowDownCircleLarge",
+    "displayName": "Arrow down circle large",
+    "description": "Large arrow pointing down inside a circle.",
+    "tags": [
+      "arrow",
+      "down",
+      "south",
+      "circle",
+      "round",
+      "button",
+      "large"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down"
+    }
+  },
+  "old-icon-set-1-p0072": {
+    "name": "ArrowLeftCircleLarge",
+    "displayName": "Arrow left circle large",
+    "description": "Large arrow pointing left inside a circle.",
+    "tags": [
+      "arrow",
+      "left",
+      "west",
+      "back",
+      "circle",
+      "round",
+      "button",
+      "large"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow left"
+    }
+  },
+  "old-icon-set-1-p0073": {
+    "name": "ArrowRightCircleLarge",
+    "displayName": "Arrow right circle large",
+    "description": "Large arrow pointing right inside a circle.",
+    "tags": [
+      "arrow",
+      "right",
+      "east",
+      "forward",
+      "circle",
+      "round",
+      "button",
+      "large"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow right"
+    }
+  },
+  "old-icon-set-1-p0074": {
+    "name": "ArrowUpLeftCircleLarge",
+    "displayName": "Arrow up left circle large",
+    "description": "Large arrow pointing up left inside a circle.",
+    "tags": [
+      "arrow",
+      "up-left",
+      "diagonal",
+      "northwest",
+      "circle",
+      "round",
+      "button",
+      "large"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up left"
+    }
+  },
+  "old-icon-set-1-p0075": {
+    "name": "ArrowUpRightCircleLarge",
+    "displayName": "Arrow up right circle large",
+    "description": "Large arrow pointing up right inside a circle.",
+    "tags": [
+      "arrow",
+      "up-right",
+      "diagonal",
+      "northeast",
+      "circle",
+      "round",
+      "button",
+      "large"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up right"
+    }
+  },
+  "old-icon-set-1-p0076": {
+    "name": "ArrowDownLeftCircleLarge",
+    "displayName": "Arrow down left circle large",
+    "description": "Large arrow pointing down left inside a circle.",
+    "tags": [
+      "arrow",
+      "down-left",
+      "diagonal",
+      "southwest",
+      "circle",
+      "round",
+      "button",
+      "large"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down left"
+    }
+  },
+  "old-icon-set-1-p0077": {
+    "name": "ArrowDownRightCircleLarge",
+    "displayName": "Arrow down right circle large",
+    "description": "Large arrow pointing down right inside a circle.",
+    "tags": [
+      "arrow",
+      "down-right",
+      "diagonal",
+      "southeast",
+      "circle",
+      "round",
+      "button",
+      "large"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down right"
+    }
+  },
+  "old-icon-set-1-p0090": {
+    "name": "ChevronUpCircleLarge",
+    "displayName": "Chevron up circle large",
+    "description": "Large chevron pointing up inside a circle.",
+    "tags": [
+      "chevron",
+      "caret",
+      "up",
+      "north",
+      "circle",
+      "button",
+      "navigation",
+      "large"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron up"
+    }
+  },
+  "old-icon-set-1-p0091": {
+    "name": "ChevronDownCircleLarge",
+    "displayName": "Chevron down circle large",
+    "description": "Large chevron pointing down inside a circle.",
+    "tags": [
+      "chevron",
+      "caret",
+      "down",
+      "south",
+      "circle",
+      "button",
+      "navigation",
+      "large"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron down"
+    }
+  },
+  "old-icon-set-1-p0092": {
+    "name": "ChevronRightCircleLarge",
+    "displayName": "Chevron right circle large",
+    "description": "Large chevron pointing right inside a circle.",
+    "tags": [
+      "chevron",
+      "caret",
+      "right",
+      "east",
+      "forward",
+      "circle",
+      "button",
+      "navigation",
+      "large"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron right"
+    }
+  },
+  "old-icon-set-1-p0093": {
+    "name": "ChevronLeftCircleLarge",
+    "displayName": "Chevron left circle large",
+    "description": "Large chevron pointing left inside a circle.",
+    "tags": [
+      "chevron",
+      "caret",
+      "left",
+      "west",
+      "back",
+      "circle",
+      "button",
+      "navigation",
+      "large"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron left"
+    }
+  },
+  "old-icon-set-1-p0094": {
+    "name": "ChevronUpLeftCircleLarge",
+    "displayName": "Chevron up left circle large",
+    "description": "Large corner chevron pointing up left inside a circle.",
+    "tags": [
+      "chevron",
+      "corner",
+      "up-left",
+      "diagonal",
+      "northwest",
+      "circle",
+      "button",
+      "navigation",
+      "large"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron up left"
+    }
+  },
+  "old-icon-set-1-p0095": {
+    "name": "ChevronUpRightCircleLarge",
+    "displayName": "Chevron up right circle large",
+    "description": "Large corner chevron pointing up right inside a circle.",
+    "tags": [
+      "chevron",
+      "corner",
+      "up-right",
+      "diagonal",
+      "northeast",
+      "circle",
+      "button",
+      "navigation",
+      "large"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron up right"
+    }
+  },
+  "old-icon-set-1-p0096": {
+    "name": "ChevronDownRightCircleLarge",
+    "displayName": "Chevron down right circle large",
+    "description": "Large corner chevron pointing down right inside a circle.",
+    "tags": [
+      "chevron",
+      "corner",
+      "down-right",
+      "diagonal",
+      "southeast",
+      "circle",
+      "button",
+      "navigation",
+      "large"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron down right"
+    }
+  },
+  "old-icon-set-1-p0097": {
+    "name": "ChevronDownLeftCircleLarge",
+    "displayName": "Chevron down left circle large",
+    "description": "Large corner chevron pointing down left inside a circle.",
+    "tags": [
+      "chevron",
+      "corner",
+      "down-left",
+      "diagonal",
+      "southwest",
+      "circle",
+      "button",
+      "navigation",
+      "large"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron down left"
+    }
+  },
+  "old-icon-set-1-p0177": {
+    "name": "ChevronUp",
+    "displayName": "Chevron up",
+    "description": "Chevron pointing up.",
+    "tags": [
+      "chevron",
+      "caret",
+      "up",
+      "north",
+      "navigation",
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron up"
+    }
+  },
+  "old-icon-set-1-p0186": {
+    "name": "ChevronDown",
+    "displayName": "Chevron down",
+    "description": "Chevron pointing down.",
+    "tags": [
+      "chevron",
+      "caret",
+      "down",
+      "south",
+      "navigation",
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron down"
+    }
+  },
+  "old-icon-set-1-p0187": {
+    "name": "ChevronRight",
+    "displayName": "Chevron right",
+    "description": "Chevron pointing right.",
+    "tags": [
+      "chevron",
+      "caret",
+      "right",
+      "east",
+      "forward",
+      "navigation",
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron right"
+    }
+  },
+  "old-icon-set-1-p0188": {
+    "name": "ChevronLeft",
+    "displayName": "Chevron left",
+    "description": "Chevron pointing left.",
+    "tags": [
+      "chevron",
+      "caret",
+      "left",
+      "west",
+      "back",
+      "navigation",
+      "expand",
+      "collapse"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron left"
+    }
+  },
+  "old-icon-set-1-p0189": {
+    "name": "ChevronUpLeft",
+    "displayName": "Chevron up left",
+    "description": "Corner chevron pointing up left, drawn as two straight lines at a right angle.",
+    "tags": [
+      "chevron",
+      "corner",
+      "bracket",
+      "up-left",
+      "diagonal",
+      "northwest",
+      "navigation"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron up left"
+    }
+  },
+  "old-icon-set-1-p0190": {
+    "name": "ChevronUpRight",
+    "displayName": "Chevron up right",
+    "description": "Corner chevron pointing up right, drawn as two straight lines at a right angle.",
+    "tags": [
+      "chevron",
+      "corner",
+      "bracket",
+      "up-right",
+      "diagonal",
+      "northeast",
+      "navigation"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron up right"
+    }
+  },
+  "old-icon-set-1-p0191": {
+    "name": "ChevronDownLeft",
+    "displayName": "Chevron down left",
+    "description": "Corner chevron pointing down left, drawn as two straight lines at a right angle.",
+    "tags": [
+      "chevron",
+      "corner",
+      "bracket",
+      "down-left",
+      "diagonal",
+      "southwest",
+      "navigation"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron down left"
+    }
+  },
+  "old-icon-set-1-p0192": {
+    "name": "ChevronDownRight",
+    "displayName": "Chevron down right",
+    "description": "Corner chevron pointing down right, drawn as two straight lines at a right angle.",
+    "tags": [
+      "chevron",
+      "corner",
+      "bracket",
+      "down-right",
+      "diagonal",
+      "southeast",
+      "navigation"
+    ],
+    "categories": [
+      "arrows",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "interactive",
+      "suggestedLabel": "Chevron down right"
+    }
+  },
+  "old-icon-set-1-p0201": {
+    "name": "ArrowUp",
+    "displayName": "Arrow up",
+    "description": "Arrow pointing up with a wide arrowhead.",
+    "tags": [
+      "arrow",
+      "up",
+      "north",
+      "direction",
+      "navigation",
+      "move"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up"
+    }
+  },
+  "old-icon-set-1-p0210": {
+    "name": "ArrowDown",
+    "displayName": "Arrow down",
+    "description": "Arrow pointing down with a wide arrowhead.",
+    "tags": [
+      "arrow",
+      "down",
+      "south",
+      "direction",
+      "navigation",
+      "move"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down"
+    }
+  },
+  "old-icon-set-1-p0211": {
+    "name": "ArrowRight",
+    "displayName": "Arrow right",
+    "description": "Arrow pointing right with a wide arrowhead.",
+    "tags": [
+      "arrow",
+      "right",
+      "east",
+      "forward",
+      "direction",
+      "navigation",
+      "move"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow right"
+    }
+  },
+  "old-icon-set-1-p0212": {
+    "name": "ArrowLeft",
+    "displayName": "Arrow left",
+    "description": "Arrow pointing left with a wide arrowhead.",
+    "tags": [
+      "arrow",
+      "left",
+      "west",
+      "back",
+      "direction",
+      "navigation",
+      "move"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow left"
+    }
+  },
+  "old-icon-set-1-p0213": {
+    "name": "ArrowUpLeft",
+    "displayName": "Arrow up left",
+    "description": "Arrow pointing up left with a wide arrowhead.",
+    "tags": [
+      "arrow",
+      "up-left",
+      "diagonal",
+      "northwest",
+      "direction",
+      "navigation",
+      "move"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up left"
+    }
+  },
+  "old-icon-set-1-p0214": {
+    "name": "ArrowUpRight",
+    "displayName": "Arrow up right",
+    "description": "Arrow pointing up right with a wide arrowhead.",
+    "tags": [
+      "arrow",
+      "up-right",
+      "diagonal",
+      "northeast",
+      "direction",
+      "navigation",
+      "move"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up right"
+    }
+  },
+  "old-icon-set-1-p0215": {
+    "name": "ArrowDownLeft",
+    "displayName": "Arrow down left",
+    "description": "Arrow pointing down left with a wide arrowhead.",
+    "tags": [
+      "arrow",
+      "down-left",
+      "diagonal",
+      "southwest",
+      "direction",
+      "navigation",
+      "move"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down left"
+    }
+  },
+  "old-icon-set-1-p0216": {
+    "name": "ArrowDownRight",
+    "displayName": "Arrow down right",
+    "description": "Arrow pointing down right with a wide arrowhead.",
+    "tags": [
+      "arrow",
+      "down-right",
+      "diagonal",
+      "southeast",
+      "direction",
+      "navigation",
+      "move"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down right"
+    }
+  },
+  "old-icon-set-1-p0217": {
+    "name": "ArrowUpNarrow",
+    "displayName": "Arrow up narrow",
+    "description": "Arrow pointing up with a narrow arrowhead.",
+    "tags": [
+      "arrow",
+      "up",
+      "north",
+      "direction",
+      "navigation",
+      "narrow"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up"
+    }
+  },
+  "old-icon-set-1-p0225": {
+    "name": "ArrowUpSlim",
+    "displayName": "Arrow up slim",
+    "description": "Arrow pointing up with a small arrowhead.",
+    "tags": [
+      "arrow",
+      "up",
+      "north",
+      "direction",
+      "navigation",
+      "slim",
+      "thin"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up"
+    }
+  },
+  "old-icon-set-1-p0218": {
+    "name": "ArrowDownNarrow",
+    "displayName": "Arrow down narrow",
+    "description": "Arrow pointing down with a narrow arrowhead.",
+    "tags": [
+      "arrow",
+      "down",
+      "south",
+      "direction",
+      "navigation",
+      "narrow"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down"
+    }
+  },
+  "old-icon-set-1-p0226": {
+    "name": "ArrowDownSlim",
+    "displayName": "Arrow down slim",
+    "description": "Arrow pointing down with a small arrowhead.",
+    "tags": [
+      "arrow",
+      "down",
+      "south",
+      "direction",
+      "navigation",
+      "slim",
+      "thin"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down"
+    }
+  },
+  "old-icon-set-1-p0219": {
+    "name": "ArrowLeftNarrow",
+    "displayName": "Arrow left narrow",
+    "description": "Arrow pointing left with a narrow arrowhead.",
+    "tags": [
+      "arrow",
+      "left",
+      "west",
+      "back",
+      "direction",
+      "navigation",
+      "narrow"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow left"
+    }
+  },
+  "old-icon-set-1-p0227": {
+    "name": "ArrowLeftSlim",
+    "displayName": "Arrow left slim",
+    "description": "Arrow pointing left with a small arrowhead.",
+    "tags": [
+      "arrow",
+      "left",
+      "west",
+      "back",
+      "direction",
+      "navigation",
+      "slim",
+      "thin"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow left"
+    }
+  },
+  "old-icon-set-1-p0220": {
+    "name": "ArrowRightNarrow",
+    "displayName": "Arrow right narrow",
+    "description": "Arrow pointing right with a narrow arrowhead.",
+    "tags": [
+      "arrow",
+      "right",
+      "east",
+      "forward",
+      "direction",
+      "navigation",
+      "narrow"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow right"
+    }
+  },
+  "old-icon-set-1-p0228": {
+    "name": "ArrowRightSlim",
+    "displayName": "Arrow right slim",
+    "description": "Arrow pointing right with a small arrowhead.",
+    "tags": [
+      "arrow",
+      "right",
+      "east",
+      "forward",
+      "direction",
+      "navigation",
+      "slim",
+      "thin"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow right"
+    }
+  },
+  "old-icon-set-1-p0221": {
+    "name": "ArrowUpLeftNarrow",
+    "displayName": "Arrow up left narrow",
+    "description": "Arrow pointing up left with a narrow arrowhead.",
+    "tags": [
+      "arrow",
+      "up-left",
+      "diagonal",
+      "northwest",
+      "direction",
+      "navigation",
+      "narrow"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up left"
+    }
+  },
+  "old-icon-set-1-p0229": {
+    "name": "ArrowUpLeftSlim",
+    "displayName": "Arrow up left slim",
+    "description": "Arrow pointing up left with a small arrowhead.",
+    "tags": [
+      "arrow",
+      "up-left",
+      "diagonal",
+      "northwest",
+      "direction",
+      "navigation",
+      "slim",
+      "thin"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up left"
+    }
+  },
+  "old-icon-set-1-p0222": {
+    "name": "ArrowUpRightNarrow",
+    "displayName": "Arrow up right narrow",
+    "description": "Arrow pointing up right with a narrow arrowhead.",
+    "tags": [
+      "arrow",
+      "up-right",
+      "diagonal",
+      "northeast",
+      "direction",
+      "navigation",
+      "narrow"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up right"
+    }
+  },
+  "old-icon-set-1-p0230": {
+    "name": "ArrowUpRightSlim",
+    "displayName": "Arrow up right slim",
+    "description": "Arrow pointing up right with a small arrowhead.",
+    "tags": [
+      "arrow",
+      "up-right",
+      "diagonal",
+      "northeast",
+      "direction",
+      "navigation",
+      "slim",
+      "thin"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up right"
+    }
+  },
+  "old-icon-set-1-p0223": {
+    "name": "ArrowDownLeftNarrow",
+    "displayName": "Arrow down left narrow",
+    "description": "Arrow pointing down left with a narrow arrowhead.",
+    "tags": [
+      "arrow",
+      "down-left",
+      "diagonal",
+      "southwest",
+      "direction",
+      "navigation",
+      "narrow"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down left"
+    }
+  },
+  "old-icon-set-1-p0231": {
+    "name": "ArrowDownLeftSlim",
+    "displayName": "Arrow down left slim",
+    "description": "Arrow pointing down left with a small arrowhead.",
+    "tags": [
+      "arrow",
+      "down-left",
+      "diagonal",
+      "southwest",
+      "direction",
+      "navigation",
+      "slim",
+      "thin"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down left"
+    }
+  },
+  "old-icon-set-1-p0224": {
+    "name": "ArrowDownRightNarrow",
+    "displayName": "Arrow down right narrow",
+    "description": "Arrow pointing down right with a narrow arrowhead.",
+    "tags": [
+      "arrow",
+      "down-right",
+      "diagonal",
+      "southeast",
+      "direction",
+      "navigation",
+      "narrow"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down right"
+    }
+  },
+  "old-icon-set-1-p0232": {
+    "name": "ArrowDownRightSlim",
+    "displayName": "Arrow down right slim",
+    "description": "Arrow pointing down right with a small arrowhead.",
+    "tags": [
+      "arrow",
+      "down-right",
+      "diagonal",
+      "southeast",
+      "direction",
+      "navigation",
+      "slim",
+      "thin"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down right"
+    }
+  },
+  "old-icon-set-1-p0257": {
+    "name": "ArrowUpFromBar",
+    "displayName": "Arrow up from bar",
+    "description": "Arrow pointing up from a horizontal bar.",
+    "tags": [
+      "arrow",
+      "up",
+      "bar",
+      "from",
+      "bottom",
+      "upload",
+      "raise"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up"
+    }
+  },
+  "old-icon-set-1-p0352": {
+    "name": "LinkCompact",
+    "displayName": "Link compact",
+    "description": "Diagonal chain of two rounded hooks joined by a short bar.",
+    "tags": [
+      "link",
+      "chain",
+      "url",
+      "hyperlink",
+      "connect",
+      "attach",
+      "web"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Link"
+    }
+  },
+  "old-icon-set-1-p0403": {
+    "name": "LinkBrokenDoubleApartCompact",
+    "displayName": "Link broken double apart compact",
+    "description": "Two rounded diagonal hooks pulled apart without the middle bar, with rays at two corners.",
+    "tags": [
+      "link",
+      "chain",
+      "url",
+      "hyperlink",
+      "broken",
+      "unlink",
+      "disconnect",
+      "break"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Broken link"
+    }
+  },
+  "old-icon-set-1-p0415": {
+    "name": "LinkBrokenDoubleBracketLarge",
+    "displayName": "Link broken double bracket large",
+    "description": "Two large rounded brackets pulled apart, with rays above and below the gap.",
+    "tags": [
+      "link",
+      "chain",
+      "url",
+      "hyperlink",
+      "broken",
+      "unlink",
+      "disconnect",
+      "break",
+      "large"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Broken link"
+    }
+  },
+  "old-icon-set-1-p0559": {
+    "name": "ArrowUpLeftSquareOpen",
+    "displayName": "Arrow up left square open",
+    "description": "Arrow pointing up left from the center into the open corner of a rounded square.",
+    "tags": [
+      "arrow",
+      "up-left",
+      "diagonal",
+      "square",
+      "open",
+      "expand",
+      "external",
+      "maximize"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up left"
+    }
+  },
+  "old-icon-set-1-p0560": {
+    "name": "ArrowUpRightSquareOpen",
+    "displayName": "Arrow up right square open",
+    "description": "Arrow pointing up right from the center into the open corner of a rounded square.",
+    "tags": [
+      "arrow",
+      "up-right",
+      "diagonal",
+      "square",
+      "open",
+      "expand",
+      "external",
+      "maximize"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up right"
+    }
+  },
+  "old-icon-set-1-p0561": {
+    "name": "ArrowDownLeftSquareOpen",
+    "displayName": "Arrow down left square open",
+    "description": "Arrow pointing down left from the center into the open corner of a rounded square.",
+    "tags": [
+      "arrow",
+      "down-left",
+      "diagonal",
+      "square",
+      "open",
+      "expand",
+      "external",
+      "maximize"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down left"
+    }
+  },
+  "old-icon-set-1-p0562": {
+    "name": "ArrowDownRightSquareOpen",
+    "displayName": "Arrow down right square open",
+    "description": "Arrow pointing down right from the center into the open corner of a rounded square.",
+    "tags": [
+      "arrow",
+      "down-right",
+      "diagonal",
+      "square",
+      "open",
+      "expand",
+      "external",
+      "maximize"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down right"
+    }
+  },
+  "old-icon-set-1-p0563": {
+    "name": "ArrowDownRightSquareIn",
+    "displayName": "Arrow down right square in",
+    "description": "Arrow pointing down right that enters a rounded square through its open corner.",
+    "tags": [
+      "arrow",
+      "down-right",
+      "diagonal",
+      "square",
+      "in",
+      "enter",
+      "import",
+      "collapse"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down right"
+    }
+  },
+  "old-icon-set-1-p0564": {
+    "name": "ArrowDownLeftSquareIn",
+    "displayName": "Arrow down left square in",
+    "description": "Arrow pointing down left that enters a rounded square through its open corner.",
+    "tags": [
+      "arrow",
+      "down-left",
+      "diagonal",
+      "square",
+      "in",
+      "enter",
+      "import",
+      "collapse"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow down left"
+    }
+  },
+  "old-icon-set-1-p0565": {
+    "name": "ArrowUpRightSquareIn",
+    "displayName": "Arrow up right square in",
+    "description": "Arrow pointing up right that enters a rounded square through its open corner.",
+    "tags": [
+      "arrow",
+      "up-right",
+      "diagonal",
+      "square",
+      "in",
+      "enter",
+      "import",
+      "collapse"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up right"
+    }
+  },
+  "old-icon-set-1-p0566": {
+    "name": "ArrowUpLeftSquareIn",
+    "displayName": "Arrow up left square in",
+    "description": "Arrow pointing up left that enters a rounded square through its open corner.",
+    "tags": [
+      "arrow",
+      "up-left",
+      "diagonal",
+      "square",
+      "in",
+      "enter",
+      "import",
+      "collapse"
+    ],
+    "categories": [
+      "arrows"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Arrow up left"
+    }
+  },
+  "old-icon-set-1-p0633": {
+    "name": "BatteryEmptyBoxy",
+    "displayName": "Battery empty boxy",
+    "description": "Boxy battery outline with nothing inside.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "empty",
+      "level",
+      "dead",
+      "boxy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery empty"
+    }
+  },
+  "old-icon-set-1-p0634": {
+    "name": "BatteryFullBoxy",
+    "displayName": "Battery full boxy",
+    "description": "Boxy battery outline filled with three bars.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "full",
+      "high",
+      "level",
+      "charged",
+      "boxy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery full"
+    }
+  },
+  "old-icon-set-1-p0635": {
+    "name": "BatteryMediumBoxy",
+    "displayName": "Battery medium boxy",
+    "description": "Boxy battery outline with two bars.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "medium",
+      "half",
+      "level",
+      "boxy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery medium"
+    }
+  },
+  "old-icon-set-1-p0636": {
+    "name": "BatteryLowBoxy",
+    "displayName": "Battery low boxy",
+    "description": "Boxy battery outline with one bar.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "low",
+      "level",
+      "weak",
+      "boxy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery low"
+    }
+  },
+  "old-icon-set-1-p0637": {
+    "name": "BatteryBoltBoxy",
+    "displayName": "Battery bolt boxy",
+    "description": "Boxy battery outline with a lightning bolt inside.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "bolt",
+      "charging",
+      "lightning",
+      "boxy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery charging"
+    }
+  },
+  "old-icon-set-1-p0639": {
+    "name": "BatteryPlugBoxy",
+    "displayName": "Battery plug boxy",
+    "description": "Boxy battery outline with a plug inside.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "plug",
+      "charging",
+      "plugged-in",
+      "outlet",
+      "boxy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery charging"
+    }
+  },
+  "old-icon-set-1-p0640": {
+    "name": "BatteryTriangleBoxy",
+    "displayName": "Battery triangle boxy",
+    "description": "Boxy battery outline with a small right triangle in the lower left.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "triangle",
+      "level",
+      "saver",
+      "low-power",
+      "boxy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery level"
+    }
+  },
+  "old-icon-set-1-p0641": {
+    "name": "BatteryMinusPlusBoxy",
+    "displayName": "Battery minus plus boxy",
+    "description": "Boxy battery outline with a minus and a plus sign inside.",
+    "tags": [
+      "battery",
+      "power",
+      "charge",
+      "energy",
+      "minus",
+      "plus",
+      "polarity",
+      "terminals",
+      "electric",
+      "boxy"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Battery"
+    }
+  },
+  "old-icon-set-2-p0035": {
+    "name": "BookCurved",
+    "displayName": "Book curved",
+    "description": "Closed book with a curved spine corner and the page edge along the bottom.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "ebook",
+      "closed",
+      "education",
+      "curved"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Book"
+    }
+  },
+  "old-icon-set-2-p0036": {
+    "name": "BookOpenRound",
+    "displayName": "Book open round",
+    "description": "Open book with rounded pages arching at the top and bottom of the spine.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "ebook",
+      "open",
+      "pages",
+      "education",
+      "round"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open book"
+    }
+  },
+  "old-icon-set-2-p0037": {
+    "name": "BookOpenBare",
+    "displayName": "Book open bare",
+    "description": "Open book drawn as one wavy outline, without a spine line.",
+    "tags": [
+      "book",
+      "reading",
+      "library",
+      "ebook",
+      "open",
+      "pages",
+      "education",
+      "wavy"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Open book"
+    }
+  },
+  "old-icon-set-2-p0052": {
+    "name": "BookBookmarkRibbonCurved",
+    "displayName": "Book bookmark ribbon curved",
+    "description": "Closed book with a spine, a curved bottom corner and a ribbon bookmark hanging below.",
+    "tags": [
+      "book",
+      "bookmark",
+      "ribbon",
+      "reading",
+      "saved",
+      "library",
+      "education",
+      "curved"
+    ],
+    "categories": [
+      "education"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bookmarked book"
+    }
+  },
+  "old-icon-set-2-p0122": {
+    "name": "TagRound",
+    "displayName": "Tag round",
+    "description": "Rounded diagonal tag with a hole near its tip.",
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "price-tag",
+      "sale",
+      "shopping",
+      "round"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Tag"
+    }
+  },
+  "old-icon-set-2-p0194": {
+    "name": "BriefcaseFlapLatch",
+    "displayName": "Briefcase flap latch",
+    "description": "Briefcase with a flap across the front and a short latch line in the middle.",
+    "tags": [
+      "briefcase",
+      "work",
+      "job",
+      "business",
+      "portfolio",
+      "bag",
+      "flap",
+      "latch"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Briefcase"
+    }
+  },
+  "old-icon-set-2-p0195": {
+    "name": "BriefcaseFlapClasps",
+    "displayName": "Briefcase flap clasps",
+    "description": "Briefcase with a rounded flap across the front and two short clasp lines.",
+    "tags": [
+      "briefcase",
+      "work",
+      "job",
+      "business",
+      "portfolio",
+      "bag",
+      "flap",
+      "clasps"
+    ],
+    "categories": [
+      "business"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Briefcase"
+    }
+  },
+  "old-icon-set-2-p0347": {
+    "name": "ListCircleXTop",
+    "displayName": "List circle x top",
+    "description": "Three list lines with an X bullet on top and two ring bullets below.",
+    "tags": [
+      "list",
+      "items",
+      "bullets",
+      "x",
+      "remove",
+      "options",
+      "checklist"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List"
+    }
+  },
+  "old-icon-set-2-p0352": {
+    "name": "ListDash",
+    "displayName": "List dash",
+    "description": "Three list lines with short dash bullets.",
+    "tags": [
+      "list",
+      "items",
+      "lines",
+      "menu",
+      "bullets",
+      "dash",
+      "unordered"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "List"
+    }
+  },
+  "old-icon-set-2-p0430": {
+    "name": "CalendarOneHeader",
+    "displayName": "Calendar one header",
+    "description": "Calendar with a header line and the digit 1 below it.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "one",
+      "first",
+      "day"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Date"
+    }
+  },
+  "old-icon-set-2-p0529": {
+    "name": "VideoLarge",
+    "displayName": "Video large",
+    "description": "Large video camera with a square body and a triangular lens.",
+    "tags": [
+      "video",
+      "camera",
+      "video-call",
+      "recording",
+      "meeting",
+      "large"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Video"
+    }
+  },
+  "old-icon-set-2-p0531": {
+    "name": "VideoReelsLarge",
+    "displayName": "Video reels large",
+    "description": "Video camera with a square body, a triangular lens and two film reels on top.",
+    "tags": [
+      "video",
+      "camera",
+      "movie-camera",
+      "film",
+      "movie",
+      "cinema",
+      "reels",
+      "recording",
+      "large"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Movie camera"
+    }
+  },
+  "old-icon-set-2-p0532": {
+    "name": "VideoJoined",
+    "displayName": "Video joined",
+    "description": "Video camera drawn as one outline, with the lens joined to the body.",
+    "tags": [
+      "video",
+      "camera",
+      "video-call",
+      "recording",
+      "meeting",
+      "joined"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Video"
+    }
+  },
+  "old-icon-set-2-p0533": {
+    "name": "VideoOffJoined",
+    "displayName": "Video off joined",
+    "description": "Video camera drawn as one outline with the lens joined to the body, crossed by a diagonal slash.",
+    "tags": [
+      "video",
+      "camera",
+      "camera-off",
+      "no-video",
+      "disabled",
+      "off",
+      "video-call",
+      "joined"
+    ],
+    "categories": [
+      "media",
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Camera off"
+    }
+  },
+  "old-icon-set-4-p0001": {
+    "name": "Clipboard",
+    "displayName": "Clipboard",
+    "description": "Clipboard with a clip at the top and nothing on the board.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "empty",
+      "board"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clipboard"
+    }
+  },
+  "old-icon-set-4-p0005": {
+    "name": "ClipboardPlusCenter",
+    "displayName": "Clipboard plus center",
+    "description": "Clipboard with a plus sign in the middle.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "plus",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add to clipboard"
+    }
+  },
+  "old-icon-set-4-p0007": {
+    "name": "ClipboardXCenter",
+    "displayName": "Clipboard x center",
+    "description": "Clipboard with an X in the middle.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "x",
+      "remove",
+      "delete",
+      "clear"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Clear clipboard"
+    }
+  },
+  "old-icon-set-4-p0008": {
+    "name": "ClipboardCheckCenter",
+    "displayName": "Clipboard check center",
+    "description": "Clipboard with a check mark in the middle.",
+    "tags": [
+      "clipboard",
+      "paste",
+      "notes",
+      "document",
+      "check",
+      "done",
+      "copied",
+      "approved"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Copied"
+    }
+  },
+  "old-icon-set-4-p0190": {
+    "name": "ClockPlusTop",
+    "displayName": "Clock plus top",
+    "description": "Clock whose rim opens at the top right for a plus sign.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "watch",
+      "plus",
+      "add",
+      "new",
+      "schedule",
+      "top"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add time"
+    }
+  },
+  "old-icon-set-4-p0191": {
+    "name": "ClockMinusTop",
+    "displayName": "Clock minus top",
+    "description": "Clock whose rim opens at the top right for a minus sign.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "watch",
+      "minus",
+      "remove",
+      "less",
+      "top"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove time"
+    }
+  },
+  "old-icon-set-4-p0192": {
+    "name": "ClockXTop",
+    "displayName": "Clock x top",
+    "description": "Clock whose rim opens at the top right for an X.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "watch",
+      "x",
+      "cancel",
+      "remove",
+      "delete",
+      "top"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel time"
+    }
+  },
+  "old-icon-set-4-p0193": {
+    "name": "ClockCheckTop",
+    "displayName": "Clock check top",
+    "description": "Clock whose rim opens at the top right for a check mark.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "watch",
+      "check",
+      "done",
+      "on-time",
+      "confirmed",
+      "top"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time confirmed"
+    }
+  },
+  "old-icon-set-4-p0194": {
+    "name": "ClockSnoozeTop",
+    "displayName": "Clock snooze top",
+    "description": "Clock whose rim opens at the top right for a letter Z.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "watch",
+      "snooze",
+      "sleep",
+      "later",
+      "z",
+      "top"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Snooze"
+    }
+  },
+  "old-icon-set-4-p0195": {
+    "name": "ClockPauseTop",
+    "displayName": "Clock pause top",
+    "description": "Clock whose rim opens at the top right for two pause bars.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "watch",
+      "pause",
+      "hold",
+      "stop",
+      "top"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pause"
+    }
+  },
+  "old-icon-set-4-p0196": {
+    "name": "ClockDottedTop",
+    "displayName": "Clock dotted top",
+    "description": "Clock whose rim opens at the top right for a vertical row of dots.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "watch",
+      "dotted",
+      "pending",
+      "waiting",
+      "history",
+      "top"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pending"
+    }
+  },
+  "old-icon-set-4-p0197": {
+    "name": "ClockBanTop",
+    "displayName": "Clock ban top",
+    "description": "Clock with a ban sign overlapping its top right.",
+    "tags": [
+      "clock",
+      "time",
+      "hour",
+      "ban",
+      "blocked",
+      "forbidden",
+      "no-time",
+      "top"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time blocked"
+    }
+  },
+  "old-icon-set-4-p0314": {
+    "name": "StopwatchTick",
+    "displayName": "Stopwatch tick",
+    "description": "Stopwatch with a crown and a short tick on the right.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "tick",
+      "speed"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stopwatch"
+    }
+  },
+  "old-icon-set-4-p0324": {
+    "name": "StopwatchClockwiseTick",
+    "displayName": "Stopwatch clockwise tick",
+    "description": "Stopwatch with a crown and a tick, its dial ring turning into a clockwise arrow.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "clockwise",
+      "restart",
+      "reset",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Restart timer"
+    }
+  },
+  "old-icon-set-4-p0325": {
+    "name": "StopwatchDottedTick",
+    "displayName": "Stopwatch dotted tick",
+    "description": "Stopwatch with a crown and a tick, part of its dial ring dotted.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "dotted",
+      "progress",
+      "countdown",
+      "tick"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Timer"
+    }
+  },
+  "old-icon-set-4-p0328": {
+    "name": "StopwatchBare",
+    "displayName": "Stopwatch bare",
+    "description": "Stopwatch with only a crown on top, no side buttons.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "time",
+      "chronometer",
+      "bare",
+      "speed"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Stopwatch"
+    }
+  },
+  "old-icon-set-4-p0373": {
+    "name": "HourglassRound",
+    "displayName": "Hourglass round",
+    "description": "Hourglass with rounded corners and a curved waist.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "round"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Hourglass"
+    }
+  },
+  "old-icon-set-4-p0374": {
+    "name": "HourglassSandRound",
+    "displayName": "Hourglass sand round",
+    "description": "Hourglass with rounded corners and sand settled at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "done",
+      "time-up",
+      "round"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Time up"
+    }
+  },
+  "old-icon-set-4-p0375": {
+    "name": "HourglassSandFallingRound",
+    "displayName": "Hourglass sand falling round",
+    "description": "Hourglass with rounded corners, a falling grain and sand at the bottom.",
+    "tags": [
+      "hourglass",
+      "sand-timer",
+      "time",
+      "wait",
+      "loading",
+      "sand",
+      "falling",
+      "round"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Waiting"
+    }
+  },
+  "old-icon-set-5-p0154": {
+    "name": "Brackets",
+    "displayName": "Brackets",
+    "description": "Two angle brackets facing apart, without a slash.",
+    "tags": [
+      "brackets",
+      "angle-brackets",
+      "code",
+      "markup",
+      "html",
+      "developer",
+      "programming"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Code"
+    }
+  },
+  "old-icon-set-5-p0249": {
+    "name": "PointerPlusCircle",
+    "displayName": "Pointer plus circle",
+    "description": "Tilted arrow pointer with a plus sign in a circle at its bottom right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "plus",
+      "add",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Add"
+    }
+  },
+  "old-icon-set-5-p0250": {
+    "name": "PointerMinusCircle",
+    "displayName": "Pointer minus circle",
+    "description": "Tilted arrow pointer with a minus sign in a circle at its bottom right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "minus",
+      "remove",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove"
+    }
+  },
+  "old-icon-set-5-p0252": {
+    "name": "PointerXCircle",
+    "displayName": "Pointer x circle",
+    "description": "Tilted arrow pointer with an X in a circle at its bottom right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "x",
+      "cancel",
+      "close",
+      "circle"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Cancel"
+    }
+  },
+  "old-icon-set-5-p0253": {
+    "name": "PointerClock",
+    "displayName": "Pointer clock",
+    "description": "Tilted arrow pointer with a clock at its bottom right.",
+    "tags": [
+      "pointer",
+      "cursor",
+      "arrow",
+      "mouse",
+      "select",
+      "click",
+      "clock",
+      "time",
+      "wait",
+      "busy"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Pointer waiting"
+    }
+  },
+  "old-icon-set-5-p0334": {
+    "name": "GaugeTicksDenseDrop",
+    "displayName": "Gauge ticks dense drop",
+    "description": "Circle with eight tick marks and an upright drop-shaped needle in the center.",
+    "tags": [
+      "gauge",
+      "meter",
+      "dashboard",
+      "speedometer",
+      "ticks",
+      "drop",
+      "pressure",
+      "dial",
+      "performance"
+    ],
+    "categories": [
+      "interface",
+      "transportation"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gauge"
+    }
+  },
+  "old-icon-set-6-p0001": {
+    "name": "File",
+    "displayName": "File",
+    "description": "Blank page with a folded top-right corner.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "paper",
+      "blank",
+      "new"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    }
+  },
+  "messaging-bubbles-p0065": {
+    "name": "ChatBoxy",
+    "displayName": "Chat boxy",
+    "description": "Rounded-square speech bubble with a tail at the bottom-left corner.",
+    "tags": [
+      "chat",
+      "message",
+      "comment",
+      "speech-bubble",
+      "conversation",
+      "square",
+      "boxy"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Chat"
+    }
+  },
+  "messaging-bubbles-p0072": {
+    "name": "ChatTypingBoxy",
+    "displayName": "Chat typing boxy",
+    "description": "Rounded-square speech bubble with a tail at the bottom-left corner, with three dots inside.",
+    "tags": [
+      "chat",
+      "message",
+      "typing",
+      "dots",
+      "waiting",
+      "speech-bubble",
+      "square",
+      "boxy",
+      "comment"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Typing"
+    }
+  },
+  "messaging-bubbles-p0088": {
+    "name": "ChatArrowRightOutBoxy",
+    "displayName": "Chat arrow right out boxy",
+    "description": "Rounded-square speech bubble open at the top right, with an arrow leaving through the gap to the right.",
+    "tags": [
+      "chat",
+      "message",
+      "arrow",
+      "forward",
+      "share",
+      "send",
+      "speech-bubble",
+      "boxy",
+      "out"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Share message"
+    }
+  },
+  "messaging-bubbles-p0136": {
+    "name": "ChatTypingTooltip",
+    "displayName": "Chat typing tooltip",
+    "description": "Rounded-rectangle speech bubble with a centered V-shaped tail, with three dots inside.",
+    "tags": [
+      "chat",
+      "message",
+      "typing",
+      "dots",
+      "waiting",
+      "speech-bubble",
+      "tooltip",
+      "comment"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Typing"
+    }
+  },
+  "messaging-bubbles-p0521": {
+    "name": "ChatStackLayered",
+    "displayName": "Chat stack layered",
+    "description": "Two overlapping rounded-square speech bubbles, the back one complete.",
+    "tags": [
+      "chat",
+      "message",
+      "conversation",
+      "chat-stack",
+      "messages",
+      "square",
+      "layered",
+      "comment"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Conversation"
+    }
+  }
+}

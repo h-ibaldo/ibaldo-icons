@@ -1,0 +1,38 @@
+{
+  "name": "PaperclipCircleArrowRight",
+  "displayName": "Paperclip circle arrow right",
+  "description": "Paperclip inside a circle with an arrow pointing right into the gap at the top left.",
+  "tags": [
+    "paperclip",
+    "attachment",
+    "attach",
+    "clip",
+    "circle",
+    "arrow",
+    "right",
+    "forward",
+    "send"
+  ],
+  "categories": [
+    "files",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Forward attachment"
+  },
+  "filename": "paperclip-circle-arrow-right",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

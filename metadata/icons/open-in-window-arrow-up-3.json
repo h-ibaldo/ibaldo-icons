@@ -1,9 +1,9 @@
 {
-  "name": "OpenInWindowUp",
+  "name": "WindowArrowUp",
   "description": "An icon showing opening content in a new window with an upward directional arrow",
   "tags": [
-    "open",
     "window",
+    "open",
     "arrow",
     "up",
     "external",
@@ -11,8 +11,8 @@
     "navigation"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window arrow up",
+  "aliases": [
+    "OpenInWindowUp"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

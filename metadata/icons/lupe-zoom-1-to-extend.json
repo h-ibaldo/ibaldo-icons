@@ -1,19 +1,19 @@
 {
-  "name": "LupeZoomExtend",
+  "name": "SearchExpand",
   "description": "A magnifying glass icon indicating extended zoom or zoom to fit functionality",
   "tags": [
+    "search",
     "lupe",
     "zoom",
     "extend",
-    "magnifying glass",
+    "magnifying-glass",
     "fit",
     "expand",
     "magnify",
-    "zoom out"
+    "zoom-out"
   ],
   "categories": [
-    "interface",
-    "development"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search expand",
+  "aliases": [
+    "LupeZoomExtend"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

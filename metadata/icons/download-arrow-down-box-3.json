@@ -1,5 +1,5 @@
 {
-  "name": "DownloadBox3",
+  "name": "DownloadSquareNotch",
   "description": "A third variant of download arrow icon pointing downward into a box",
   "tags": [
     "download",
@@ -9,12 +9,12 @@
     "file",
     "transfer",
     "container",
-    "variant"
+    "square",
+    "notch"
   ],
   "categories": [
-    "arrows",
-    "interface",
-    "files"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download square notch",
+  "aliases": [
+    "DownloadBox3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

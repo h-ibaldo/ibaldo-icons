@@ -1,7 +1,8 @@
 {
-  "name": "ArrowsRepeat1",
+  "name": "ArrowRepeat",
   "description": "A repeat rotation arrows icon indicating refresh, reload, or cyclical action functionality",
   "tags": [
+    "arrow",
     "arrows",
     "repeat",
     "refresh",
@@ -11,7 +12,6 @@
     "circular"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow repeat",
+  "aliases": [
+    "ArrowsRepeat1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

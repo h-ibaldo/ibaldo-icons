@@ -1,19 +1,20 @@
 {
-  "name": "TechnicalSupportPersonHeadset",
+  "name": "UserHeadsetSpiky",
   "description": "A person's head wearing a headset representing a technical support representative",
   "tags": [
-    "technical support",
+    "user",
+    "technical",
+    "support",
     "person",
     "head",
+    "technical-support",
     "headset",
-    "customer service",
-    "support agent",
-    "communication"
+    "customer-service",
+    "support-agent",
+    "communication",
+    "spiky"
   ],
   "categories": [
-    "interface",
-    "business",
-    "communication",
     "people"
   ],
   "accessibility": {
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "User headset spiky",
+  "aliases": [
+    "TechnicalSupportPersonHeadset"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,21 +1,21 @@
 {
-  "name": "DiagramHierarchy4",
-  "displayName": "Diagram hierarchy 4",
+  "name": "DiagramTreeLarge",
+  "displayName": "Diagram tree large",
   "originalTitle": "Diagram Hierarchy 4",
   "description": "Advanced hierarchical structure with extensive branching. Used to show comprehensive organizational charts or complex decision trees with multiple pathways.",
   "tags": [
+    "diagram",
     "hierarchy",
     "organization",
     "structure",
     "tree",
     "management",
     "levels",
-    "diagram",
-    "branching"
+    "branching",
+    "large"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.760Z"
+  "generatedAt": "2026-02-15T00:53:19.760Z",
+  "aliases": [
+    "DiagramHierarchy4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

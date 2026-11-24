@@ -1,5 +1,5 @@
 {
-  "name": "CloudArrowVertical",
+  "name": "CloudArrowUpDownTall",
   "description": "A cloud icon with vertical arrows for uploading and downloading to cloud",
   "tags": [
     "cloud",
@@ -9,11 +9,11 @@
     "upload",
     "download",
     "sync",
-    "vertical"
+    "vertical",
+    "tall"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow up down tall",
+  "aliases": [
+    "CloudArrowVertical"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

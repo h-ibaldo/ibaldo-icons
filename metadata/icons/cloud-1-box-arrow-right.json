@@ -1,5 +1,5 @@
 {
-  "name": "Cloud1BoxArrowRight",
+  "name": "CloudSquareArrowRight",
   "description": "A cloud icon with a box and rightward arrow representing cloud upload or export functionality",
   "tags": [
     "cloud",
@@ -9,11 +9,11 @@
     "upload",
     "export",
     "send",
-    "transfer"
+    "transfer",
+    "square"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud square arrow right",
+  "aliases": [
+    "Cloud1BoxArrowRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

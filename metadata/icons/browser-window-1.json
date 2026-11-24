@@ -1,5 +1,5 @@
 {
-  "name": "BrowserWindow1",
+  "name": "Browser",
   "description": "A browser window icon representing web application or internet interface - variant 1",
   "tags": [
     "browser",
@@ -12,8 +12,8 @@
     "interface"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser",
+  "aliases": [
+    "BrowserWindow1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

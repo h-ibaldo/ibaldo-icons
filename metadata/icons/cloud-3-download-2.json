@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3DownloadAlt",
+  "name": "CloudDownloadLargeRound",
   "description": "An alternative cloud download icon with a different arrow or download indicator style",
   "tags": [
     "cloud",
@@ -9,12 +9,13 @@
     "fetch",
     "transfer",
     "file",
-    "alternative"
+    "alternative",
+    "large",
+    "round"
   ],
   "categories": [
-    "interface",
     "files",
-    "arrows"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud download large round",
+  "aliases": [
+    "Cloud3DownloadAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

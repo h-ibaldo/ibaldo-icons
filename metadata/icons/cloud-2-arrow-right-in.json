@@ -1,5 +1,5 @@
 {
-  "name": "CloudArrowRight2",
+  "name": "CloudArrowRightTall",
   "description": "A cloud icon with a right arrow indicating cloud download or incoming transfer",
   "tags": [
     "cloud",
@@ -8,11 +8,10 @@
     "download",
     "transfer",
     "import",
-    "in"
+    "tall"
   ],
   "categories": [
-    "interface",
-    "arrows",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud arrow right tall",
+  "aliases": [
+    "CloudArrowRight2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

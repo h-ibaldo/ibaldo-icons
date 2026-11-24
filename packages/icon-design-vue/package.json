@@ -1,0 +1,49 @@
+{
+  "name": "@ibaldo/icons-vue",
+  "version": "0.1.15",
+  "description": "Vue 3 components for Ibaldo Icons - A line-based icon library with variations, not conclusions",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/esm/icons/*.js",
+      "require": "./dist/cjs/icons/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h-ibaldo/primor-icons.git",
+    "directory": "packages/icon-design-vue"
+  },
+  "keywords": [
+    "icons",
+    "vue",
+    "vue3",
+    "nuxt",
+    "svg",
+    "ibaldo-icons",
+    "ui",
+    "components"
+  ],
+  "author": "Henrique Ibaldo",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  }
+}

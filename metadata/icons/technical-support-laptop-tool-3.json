@@ -1,19 +1,21 @@
 {
-  "name": "TechnicalSupportToolVariant",
+  "name": "LaptopWrenchFlat",
   "description": "A variant laptop with tool icon for technical support and IT assistance services",
   "tags": [
-    "technical support",
     "laptop",
+    "technical",
+    "support",
     "tool",
+    "technical-support",
     "repair",
     "maintenance",
-    "IT support",
-    "help"
+    "it-support",
+    "help",
+    "wrench",
+    "flat"
   ],
   "categories": [
-    "interface",
-    "business",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Laptop wrench flat",
+  "aliases": [
+    "TechnicalSupportToolVariant"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

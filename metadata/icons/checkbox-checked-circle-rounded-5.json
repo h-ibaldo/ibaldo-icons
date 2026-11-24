@@ -1,13 +1,17 @@
 {
-  "name": "CheckboxCircle5",
-  "displayName": "Checkbox circle 5",
+  "name": "CheckCircleOpenJoined",
+  "displayName": "Check circle open joined",
   "originalTitle": "Checkbox Checked Circle Rounded 5",
   "description": "Fifth variation of rounded circular checkbox in checked state. Suitable for creating cohesive form designs and selection components.",
   "tags": [
+    "check",
     "checkbox",
     "checked",
-    "circle",
     "rounded",
+    "done",
+    "success",
+    "verified",
+    "circle",
     "form",
     "selection",
     "component",
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.793Z"
+  "generatedAt": "2026-02-15T00:53:19.793Z",
+  "aliases": [
+    "CheckboxCircle5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

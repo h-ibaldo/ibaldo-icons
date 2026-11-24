@@ -1,20 +1,21 @@
 {
-  "name": "ChecklistSingle4",
-  "displayName": "Checklist single 4",
+  "name": "ChecklistSquareTop",
+  "displayName": "Checklist square top",
   "originalTitle": "Checklist Single Choice 4",
   "description": "Single choice checklist item with radio button selection. Used for forms where only one option can be selected from a group.",
   "tags": [
     "checklist",
-    "radio",
     "single",
     "choice",
+    "radio",
     "selection",
     "form",
-    "option"
+    "option",
+    "square",
+    "top"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.796Z"
+  "generatedAt": "2026-02-15T00:53:19.796Z",
+  "aliases": [
+    "ChecklistSingle4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,21 @@
 {
-  "name": "Cloud3Slash2",
+  "name": "CloudOffRound",
   "description": "A cloud icon with a slash indicating disabled, blocked, or unavailable cloud services",
   "tags": [
     "cloud",
     "slash",
     "disabled",
+    "mute",
     "blocked",
     "unavailable",
     "offline",
     "error",
-    "prohibited"
+    "prohibited",
+    "off",
+    "round"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud off round",
+  "aliases": [
+    "Cloud3Slash2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

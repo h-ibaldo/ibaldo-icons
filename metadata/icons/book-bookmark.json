@@ -1,5 +1,5 @@
 {
-  "name": "BookBookmark",
+  "name": "BookBookmarkUnderline",
   "description": "A book with a bookmark, representing a saved page or reading progress marker",
   "tags": [
     "book",
@@ -8,10 +8,10 @@
     "marker",
     "read",
     "literature",
-    "save"
+    "save",
+    "underline"
   ],
   "categories": [
-    "interface",
     "education"
   ],
   "accessibility": {
@@ -29,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Book bookmark underline",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

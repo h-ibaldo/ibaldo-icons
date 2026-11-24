@@ -1,5 +1,5 @@
 {
-  "name": "Music1",
+  "name": "MusicSixteenth",
   "description": "A music note icon representing the first variant style for audio, songs, and music-related features.",
   "tags": [
     "music",
@@ -8,11 +8,11 @@
     "audio",
     "sound",
     "media",
-    "entertainment"
+    "entertainment",
+    "sixteenth"
   ],
   "categories": [
-    "media",
-    "interface"
+    "media"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Music sixteenth",
+  "aliases": [
+    "Music1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

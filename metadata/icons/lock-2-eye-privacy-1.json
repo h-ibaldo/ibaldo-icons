@@ -3,16 +3,15 @@
   "description": "A lock icon with an eye symbol representing privacy protection and visibility control.",
   "tags": [
     "lock",
-    "eye",
     "privacy",
+    "eye",
     "protection",
     "security",
     "visibility",
     "hidden"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock eye",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

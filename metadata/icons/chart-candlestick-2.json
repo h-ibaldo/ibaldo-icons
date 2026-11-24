@@ -1,9 +1,10 @@
 {
   "name": "ChartCandlestick2",
-  "displayName": "Chart candlestick 2",
+  "displayName": "Chart candlestick2",
   "originalTitle": "Chart Candlestick 2",
   "description": "Alternative candlestick chart design for financial market data. Used for stock trading and investment analysis interfaces.",
   "tags": [
+    "chart",
     "candlestick",
     "trading",
     "finance",
@@ -32,5 +33,7 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.743Z"
+  "generatedAt": "2026-02-15T00:53:19.743Z",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

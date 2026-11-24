@@ -1,0 +1,37 @@
+{
+  "name": "GaugeTeardropArch",
+  "displayName": "Gauge teardrop arch",
+  "description": "Dial open at the bottom with short dash ticks and an upright teardrop needle.",
+  "tags": [
+    "needle",
+    "ticks",
+    "gauge",
+    "speedometer",
+    "dashboard",
+    "meter",
+    "performance",
+    "speed"
+  ],
+  "categories": [
+    "interface",
+    "transportation"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Gauge"
+  },
+  "filename": "gauge-teardrop-arch",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

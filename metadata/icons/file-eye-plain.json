@@ -1,0 +1,35 @@
+{
+  "name": "FileEyePlain",
+  "displayName": "File eye plain",
+  "description": "Plain rounded rectangle page with an eye at the bottom right.",
+  "tags": [
+    "file",
+    "eye",
+    "view",
+    "preview",
+    "visible",
+    "watch",
+    "plain"
+  ],
+  "categories": [
+    "files"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "View file"
+  },
+  "filename": "file-eye-plain",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T22:36:35.080Z"
+}

@@ -1,15 +1,17 @@
 {
-  "name": "Tab4RemoveCircle",
+  "name": "TabMinusCircleStriped",
   "description": "A tab interface icon with a remove or negative symbol inside a circle",
   "tags": [
     "tab",
+    "negative",
     "remove",
     "delete",
-    "negative",
+    "subtract",
     "minus",
     "circle",
     "dismiss",
-    "action"
+    "action",
+    "striped"
   ],
   "categories": [
     "interface"
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab minus circle striped",
+  "aliases": [
+    "Tab4RemoveCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,17 +1,17 @@
 {
-  "name": "ToolbarStart",
+  "name": "StartMenu",
   "description": "A toolbar icon representing the start or beginning action, typically used to initiate processes or operations",
   "tags": [
-    "toolbar",
     "start",
+    "toolbar",
     "play",
     "begin",
     "launch",
-    "action"
+    "action",
+    "menu"
   ],
   "categories": [
-    "interface",
-    "development"
+    "arrows"
   ],
   "accessibility": {
     "role": "interactive",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Start menu",
+  "aliases": [
+    "ToolbarStart"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,18 +1,18 @@
 {
-  "name": "SaveSearch2",
+  "name": "SearchDownload",
   "description": "A basic save search icon with a magnifying glass for finding and storing search results",
   "tags": [
-    "save",
     "search",
-    "magnifying glass",
+    "save",
     "lupe",
+    "magnifying-glass",
     "find",
     "query",
-    "storage"
+    "storage",
+    "download"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search download",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

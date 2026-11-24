@@ -1,22 +1,24 @@
 {
-  "name": "UserPerson16",
-  "description": "A user person icon representing a full-body individual profile, variant 16",
+  "name": "AvatarFaceLongTextured",
+  "description": "Face with eyes and long hair with textured strands on top.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "avatar",
-    "full body",
-    "variant 16"
+    "person",
+    "face",
+    "hairstyle",
+    "long-hair",
+    "textured-hair",
+    "coily"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User person icon"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-16",
   "technical": {
@@ -29,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, long textured",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceLongTextured"
+  ],
+  "featured": true
 }

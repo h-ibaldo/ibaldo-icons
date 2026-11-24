@@ -1,23 +1,24 @@
 {
-  "name": "UserHead22",
-  "description": "A user profile head icon representing a person, variant 22 in the user head series",
+  "name": "AvatarHeadTexturedPuffs",
+  "description": "Head outline with no face details and two textured puffs with a center part.",
   "tags": [
     "user",
-    "head",
-    "profile",
-    "person",
     "avatar",
+    "profile",
     "account",
-    "face",
-    "variant 22"
+    "person",
+    "head",
+    "hairstyle",
+    "textured-hair",
+    "puffs",
+    "pigtails"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-head-22",
   "technical": {
@@ -30,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar head, textured puffs",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserHeadTexturedPuffs"
+  ],
+  "featured": true
 }

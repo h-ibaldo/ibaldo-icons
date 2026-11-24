@@ -1,5 +1,5 @@
 {
-  "name": "PresentationKeynoteFile",
+  "name": "PresentationFile",
   "description": "A presentation keynote file icon indicating a slidshow or presentation document",
   "tags": [
     "presentation",
@@ -10,7 +10,6 @@
     "slides"
   ],
   "categories": [
-    "files",
     "business"
   ],
   "accessibility": {
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Presentation file",
+  "aliases": [
+    "PresentationKeynoteFile"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

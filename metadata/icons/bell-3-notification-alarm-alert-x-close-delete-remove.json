@@ -1,21 +1,24 @@
 {
-  "name": "Bell3X",
-  "displayName": "Bell 3 x",
+  "name": "BellXKnob",
+  "displayName": "Bell X knob",
   "originalTitle": "Bell 3 Notification Alarm Alert X Close Delete Remove",
   "description": "Notification bell with X symbol for removing or canceling notifications. Used to dismiss alerts or turn off notification settings.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
+    "close",
+    "delete",
     "remove",
     "cancel",
     "dismiss",
-    "delete",
-    "close",
-    "clear"
+    "clear",
+    "knob"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.784Z"
+  "generatedAt": "2026-02-15T00:53:19.784Z",
+  "aliases": [
+    "Bell3X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

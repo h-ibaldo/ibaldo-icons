@@ -1,0 +1,35 @@
+{
+  "name": "GitBranchPlus",
+  "displayName": "Git branch plus",
+  "description": "Git branch with a plus sign at the bottom right.",
+  "tags": [
+    "git",
+    "version-control",
+    "code",
+    "repository",
+    "branch",
+    "new-branch",
+    "add"
+  ],
+  "categories": [
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "New branch"
+  },
+  "filename": "git-branch-plus",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-21T04:07:58.429Z"
+}

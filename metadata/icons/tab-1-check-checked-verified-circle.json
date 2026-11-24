@@ -1,11 +1,13 @@
 {
-  "name": "TabCheckVerifiedCircle",
+  "name": "TabCheckCircle",
   "description": "A tab icon with a checkmark inside a circle indicating verified or confirmed status",
   "tags": [
     "tab",
-    "check",
     "checked",
     "verified",
+    "done",
+    "success",
+    "check",
     "circle",
     "confirmation",
     "approved",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab check circle",
+  "aliases": [
+    "TabCheckVerifiedCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

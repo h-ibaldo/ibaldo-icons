@@ -1,20 +1,21 @@
 {
-  "name": "ArrowsPointerMove2",
-  "displayName": "Arrows pointer move 2",
+  "name": "MoveHandChevron",
+  "displayName": "Move hand chevron",
   "originalTitle": "Arrows Pointer Move 2",
   "description": "Alternative move cursor icon for dragging and repositioning interface elements. Indicates interactive moveable content.",
   "tags": [
     "move",
+    "arrows",
+    "pointer",
     "drag",
     "cursor",
-    "pointer",
     "reposition",
-    "arrows",
-    "grab"
+    "grab",
+    "hand",
+    "chevron"
   ],
   "categories": [
-    "arrows",
-    "interface"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.736Z"
+  "generatedAt": "2026-02-15T00:53:19.736Z",
+  "aliases": [
+    "ArrowsPointerMove2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

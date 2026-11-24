@@ -1,5 +1,5 @@
 {
-  "name": "Briefcase4",
+  "name": "BriefcaseBeltBroken",
   "description": "A professional briefcase icon in variant style 4, representing business documents and work materials",
   "tags": [
     "briefcase",
@@ -7,11 +7,11 @@
     "work",
     "documents",
     "professional",
-    "variant4"
+    "belt",
+    "broken"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase belt broken",
+  "aliases": [
+    "Briefcase4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

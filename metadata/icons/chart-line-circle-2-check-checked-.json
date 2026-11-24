@@ -1,21 +1,24 @@
 {
-  "name": "ChartLineCircle2Check",
-  "displayName": "Chart line circle 2 check",
+  "name": "ChartLineCircleCheck",
+  "displayName": "Chart line circle check",
   "originalTitle": "Chart Line Circle 2 Check Checked",
   "description": "Line chart with checkmark icon indicating successful data analysis or completed metrics tracking. Used to show positive chart results or validated analytics.",
   "tags": [
     "chart",
-    "analytics",
+    "checked",
+    "done",
     "success",
+    "verified",
+    "analytics",
     "checkmark",
     "data",
     "metrics",
     "validation",
-    "complete"
+    "complete",
+    "circle"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.750Z"
+  "generatedAt": "2026-02-15T00:53:19.750Z",
+  "aliases": [
+    "ChartLineCircle2Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

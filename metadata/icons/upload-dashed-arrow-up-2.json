@@ -1,5 +1,5 @@
 {
-  "name": "UploadDashed2",
+  "name": "UploadDottedFlat",
   "description": "An upload icon with a dashed upward arrow representing file transfer or drag-and-drop upload functionality",
   "tags": [
     "upload",
@@ -8,11 +8,13 @@
     "up",
     "drag-drop",
     "files",
-    "transfer"
+    "transfer",
+    "dotted",
+    "flat"
   ],
   "categories": [
-    "interface",
-    "files"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Upload dotted flat",
+  "aliases": [
+    "UploadDashed2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

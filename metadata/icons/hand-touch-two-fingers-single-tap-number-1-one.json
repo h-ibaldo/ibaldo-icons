@@ -1,19 +1,23 @@
 {
-  "name": "HandTwoFingerSingleTap1",
+  "name": "HandTapOneTwoFingers",
   "description": "A hand with two fingers performing a single tap gesture, marked as variant 1",
   "tags": [
     "hand",
     "touch",
-    "two fingers",
-    "single tap",
+    "single",
+    "number",
+    "two-fingers",
+    "single-tap",
     "gesture",
     "interaction",
-    "number 1",
-    "variant"
+    "tap",
+    "one",
+    "two",
+    "fingers"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hand tap one two fingers",
+  "aliases": [
+    "HandTwoFingerSingleTap1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

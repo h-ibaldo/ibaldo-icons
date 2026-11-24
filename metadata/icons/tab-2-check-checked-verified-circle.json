@@ -1,15 +1,18 @@
 {
-  "name": "TabCheck2",
+  "name": "TabCheckCircleStep",
   "description": "A tab interface icon with a checkmark indicating verified or completed status within a circle.",
   "tags": [
     "tab",
-    "check",
     "checked",
     "verified",
+    "done",
+    "success",
+    "check",
     "circle",
     "confirm",
     "complete",
-    "approval"
+    "approval",
+    "step"
   ],
   "categories": [
     "interface"
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab check circle step",
+  "aliases": [
+    "TabCheck2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

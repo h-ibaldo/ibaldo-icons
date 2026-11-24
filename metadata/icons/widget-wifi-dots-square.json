@@ -1,0 +1,40 @@
+{
+  "name": "WidgetWifiDotsSquare",
+  "displayName": "Widget wifi dots square",
+  "description": "Rounded square with signal arcs at the top right and a small window panel with three dots at the bottom left.",
+  "tags": [
+    "widget",
+    "app",
+    "panel",
+    "layout",
+    "wireless",
+    "wifi",
+    "dots",
+    "more",
+    "pending",
+    "square",
+    "rounded-square",
+    "card"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Wireless widget"
+  },
+  "filename": "widget-wifi-dots-square",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

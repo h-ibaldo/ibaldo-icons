@@ -1,5 +1,5 @@
 {
-  "name": "Folder3",
+  "name": "FolderTabFront",
   "description": "A folder icon variant 3 used for file organization and storage.",
   "tags": [
     "folder",
@@ -9,11 +9,11 @@
     "documents",
     "organize",
     "archive",
-    "3"
+    "tab",
+    "front"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder tab front",
+  "aliases": [
+    "Folder3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,14 +1,15 @@
 {
-  "name": "SwitchKnobButton2",
+  "name": "SwitchKnobUpRight",
   "description": "An alternate rotary knob-style switch button design with a different visual appearance.",
   "tags": [
     "switch",
-    "knob",
     "button",
+    "knob",
     "rotary",
     "control",
     "adjustment",
-    "variant"
+    "up",
+    "right"
   ],
   "categories": [
     "interface"
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Switch knob up right",
+  "aliases": [
+    "SwitchKnobButton2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

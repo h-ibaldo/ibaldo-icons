@@ -1,0 +1,38 @@
+{
+  "name": "GitConflict",
+  "displayName": "Git conflict",
+  "description": "Two branch lines with an X above the left one and a bent line to a node on the right: a merge conflict.",
+  "tags": [
+    "git",
+    "version-control",
+    "code",
+    "repository",
+    "conflict",
+    "merge",
+    "git-merge-conflict"
+  ],
+  "categories": [
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Merge conflict"
+  },
+  "filename": "git-pull-request-x",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:14:24.000Z",
+  "aliases": [
+    "GitPullRequestX"
+  ]
+}

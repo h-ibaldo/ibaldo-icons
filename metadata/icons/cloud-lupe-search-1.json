@@ -1,18 +1,18 @@
 {
-  "name": "CloudSearch1",
+  "name": "CloudSearch",
   "description": "A cloud icon with a magnifying glass search symbol for cloud-based search functionality (variant 1)",
   "tags": [
     "cloud",
-    "search",
     "lupe",
+    "search",
     "magnifying",
     "glass",
     "find",
     "cloud-search"
   ],
   "categories": [
-    "interface",
-    "development"
+    "files",
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud search",
+  "aliases": [
+    "CloudSearch1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

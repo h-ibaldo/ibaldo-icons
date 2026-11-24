@@ -1,0 +1,38 @@
+{
+  "name": "CodeMinusSmall",
+  "displayName": "Code minus small",
+  "description": "Short curly braces around a minus sign.",
+  "tags": [
+    "code",
+    "braces",
+    "curly-brackets",
+    "programming",
+    "remove-code",
+    "snippet",
+    "remove",
+    "minus",
+    "small",
+    "developer"
+  ],
+  "categories": [
+    "development"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Remove code"
+  },
+  "filename": "code-minus-small",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

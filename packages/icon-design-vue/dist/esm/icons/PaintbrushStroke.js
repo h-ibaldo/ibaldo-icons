@@ -1,0 +1,36 @@
+import { defineComponent, h } from 'vue';
+
+const PaintbrushStroke = defineComponent({
+  name: 'PaintbrushStroke',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M8 9L5.723 11.277C3.574 13.426 3.293 16.813 5.063 19.285C6.277 20.988 8.242 22 10.336 22L15 22L14.16 20.906C13.152 19.59 13.273 17.727 14.449 16.551L15 16"}),
+          h('path', {"d":"M19 2C20.656 2 22 3.344 22 5C22 6.656 20.656 8 19 8L16 11L19 14L16 17L7 8L10 5L13 8L16 5C16 3.344 17.344 2 19 2Z"}),
+          h('path', {"d":"M3.98 14.691C6.898 14.406 7.586 15.332 9 17C10.309 18.543 11.82 19.008 13.492 18.59"})
+        ]
+      );
+  }
+});
+
+export default PaintbrushStroke;
+export { PaintbrushStroke };

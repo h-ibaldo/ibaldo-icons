@@ -1,19 +1,20 @@
 {
-  "name": "PageViewExtraLargeCompact",
+  "name": "LayoutLargeFlowerFramed",
   "description": "A page view icon representing extra large icons in a more compact arrangement",
   "tags": [
+    "layout",
     "page",
     "view",
     "extra",
-    "large",
     "icons",
+    "large",
     "compact",
     "dense",
-    "layout"
+    "flower",
+    "framed"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout large flower framed",
+  "aliases": [
+    "PageViewExtraLargeCompact"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

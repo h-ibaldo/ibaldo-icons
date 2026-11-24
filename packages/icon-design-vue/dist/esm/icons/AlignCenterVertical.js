@@ -1,0 +1,38 @@
+import { defineComponent, h } from 'vue';
+
+const AlignCenterVertical = defineComponent({
+  name: 'AlignCenterVertical',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M12 14L12 10.094"}),
+          h('path', {"d":"M12 5L12 2"}),
+          h('path', {"d":"M12 22L12 19.094"}),
+          h('path', {"d":"M20 6.094L20 9C20 9.605 19.512 10.094 18.906 10.094L5.094 10.094C4.488 10.094 4 9.605 4 9L4 6.094C4 5.488 4.488 5 5.094 5L18.906 5C19.512 5 20 5.488 20 6.094Z"}),
+          h('path', {"d":"M17.094 15.191L17.094 18C17.094 18.605 16.605 19.094 16 19.094L8 19.094C7.395 19.094 6.906 18.605 6.906 18L6.906 15.191C6.906 14.586 7.395 14.094 8 14.094L16 14.094C16.605 14.094 17.094 14.586 17.094 15.191Z"})
+        ]
+      );
+  }
+});
+
+export default AlignCenterVertical;
+export { AlignCenterVertical };

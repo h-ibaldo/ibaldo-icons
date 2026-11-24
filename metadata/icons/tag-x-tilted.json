@@ -1,0 +1,37 @@
+{
+  "name": "TagXTilted",
+  "displayName": "Tag x tilted",
+  "description": "Tilted price tag with an X at the bottom right.",
+  "tags": [
+    "tag",
+    "label",
+    "price",
+    "price-tag",
+    "close",
+    "cancel",
+    "delete",
+    "tilted",
+    "shopping"
+  ],
+  "categories": [
+    "shopping"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Delete tag"
+  },
+  "filename": "tag-x-tilted",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

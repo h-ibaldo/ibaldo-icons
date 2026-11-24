@@ -1,5 +1,5 @@
 {
-  "name": "Folder18",
+  "name": "FolderOpen2",
   "description": "A folder icon variant 18 indicating file organization and storage.",
   "tags": [
     "folder",
@@ -8,12 +8,10 @@
     "directory",
     "documents",
     "organize",
-    "archive",
-    "18"
+    "archive"
   ],
   "categories": [
-    "files",
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Folder open2",
+  "aliases": [
+    "Folder18"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

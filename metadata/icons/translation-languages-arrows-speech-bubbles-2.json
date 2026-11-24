@@ -1,19 +1,23 @@
 {
-  "name": "TranslationArrowsSpeech",
+  "name": "TranslateChatStack",
   "description": "A translation icon with directional arrows and speech bubbles indicating language exchange and communication",
   "tags": [
+    "translate",
     "translation",
     "languages",
     "arrows",
-    "speech bubbles",
+    "speech",
+    "bubbles",
+    "speech-bubbles",
     "communication",
     "bilingual",
     "exchange",
-    "dialogue"
+    "dialogue",
+    "chat"
   ],
   "categories": [
     "communication",
-    "interface"
+    "education"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Translate chat stack",
+  "aliases": [
+    "TranslationArrowsSpeech"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,20 +1,20 @@
 {
-  "name": "AgendaContacts7",
+  "name": "AddressBookSpine",
   "description": "An agenda contacts icon representing the seventh variant for organizing contact directories and people",
   "tags": [
+    "address",
     "agenda",
     "contacts",
-    "7",
     "organizer",
     "people",
     "directory",
     "management",
-    "contact list"
+    "contact-list",
+    "book",
+    "spine"
   ],
   "categories": [
-    "interface",
-    "business",
-    "people"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Address book spine",
+  "aliases": [
+    "AgendaContacts7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

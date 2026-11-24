@@ -1,8 +1,13 @@
 <script>
 	import '../app.css';
+	import { base } from '$app/paths';
 	import HeaderNavigation from '$lib/components/HeaderNavigation.svelte';
 	let { children } = $props();
 </script>
+
+<svelte:head>
+	<link rel="stylesheet" href="https://use.typekit.net/kmw8mks.css">
+</svelte:head>
 <div class="min-h-screen flex flex-col justify-between">
 <div>
     <!-- Skip to main content link for keyboard users -->
@@ -12,10 +17,13 @@
     {@render children()}
 </div>
 
-<footer class="mt-20 pb-8 px-4 sm:px-14 text-start leading-[2] w-100 flex items-center justify-start text-xs text-gray-600">
-	<p>
-		Designed by Henrique Ibaldo · MIT License · <a href="/privacy" class="hover:text-gray-900 underline">Privacy</a> · <a href="/terms" class="hover:text-gray-900 underline">Terms</a>
-	</p>
+<footer class="site-footer mt-12 pb-4 px-4 flex flex-col items-center text-center">
+	<p class="text-black">Designed by <a href="https://www.ibald.ooo" class="underline hover:text-indigo-500">Henrique Ibaldo</a></p>
+	<nav class="footer-links mt-12 flex gap-6 text-gray-500" aria-label="Legal">
+		<a href="{base}/license" class="hover:text-gray-900">License</a>
+		<a href="{base}/privacy" class="hover:text-gray-900">Privacy</a>
+		<a href="{base}/terms" class="hover:text-gray-900">Terms</a>
+	</nav>
 </footer>
 </div>
 
@@ -29,6 +37,14 @@
 		padding: 8px;
 		text-decoration: none;
 		z-index: 100;
+	}
+
+	.site-footer {
+		font-size: 0.8rem;
+		line-height: 1.6;
+	}
+	.footer-links {
+		font-size: 0.7rem;
 	}
 
 	.skip-link:focus {

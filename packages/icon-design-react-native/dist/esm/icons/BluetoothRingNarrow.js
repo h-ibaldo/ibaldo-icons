@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const BluetoothRingNarrow = forwardRef(function BluetoothRingNarrow(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M8 2L13 7L8 12L3 7","key":"0"}),
+    createElement(Path, {"d":"M3 17L8 12L13 17L8 22","key":"1"}),
+    createElement(Path, {"d":"M8 2L8 22","key":"2"}),
+    createElement(Path, {"d":"M16.281 15.281C17.316 14.559 18 13.359 18 12C18 10.641 17.316 9.441 16.281 8.719","key":"3"}),
+    createElement(Path, {"d":"M19.133 18.133C20.883 16.664 22 14.465 22 12C22 9.535 20.883 7.336 19.133 5.867","key":"4"})
+  );
+});
+
+BluetoothRingNarrow.displayName = 'BluetoothRingNarrow';
+
+export default BluetoothRingNarrow;
+export { BluetoothRingNarrow };

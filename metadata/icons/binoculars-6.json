@@ -1,5 +1,5 @@
 {
-  "name": "Binoculars6",
+  "name": "BinocularsCompact",
   "description": "A binoculars icon in the sixth design variant for viewing, observation, and reconnaissance tasks.",
   "tags": [
     "binoculars",
@@ -10,12 +10,10 @@
     "magnify",
     "vision",
     "surveillance",
-    "variant",
-    "6"
+    "compact"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Binoculars compact",
+  "aliases": [
+    "Binoculars6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

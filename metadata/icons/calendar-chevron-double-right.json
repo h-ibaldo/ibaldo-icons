@@ -1,0 +1,36 @@
+{
+  "name": "CalendarChevronDoubleRight",
+  "displayName": "Calendar chevron double right",
+  "description": "Calendar with a header line and a double chevron pointing right at the bottom right corner.",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "event",
+    "chevron",
+    "next",
+    "forward",
+    "calendar-chevrons-right"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Next"
+  },
+  "filename": "calendar-chevron-double-right",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T01:45:45.682Z"
+}

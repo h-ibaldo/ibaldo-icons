@@ -1,0 +1,2080 @@
+{
+  "new-icon-set-03-p0001": {
+    "name": "Wifi",
+    "displayName": "Wifi",
+    "description": "Wi-Fi symbol: a dot with three arcs above it.",
+    "tags": [
+      "wifi",
+      "wireless",
+      "internet",
+      "network",
+      "connection",
+      "wifi-high",
+      "signal",
+      "full"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wi-Fi"
+    }
+  },
+  "new-icon-set-03-p0002": {
+    "name": "WifiSettings",
+    "displayName": "Wifi settings",
+    "description": "Wi-Fi symbol with a gear at the top right.",
+    "tags": [
+      "wifi",
+      "wireless",
+      "internet",
+      "network",
+      "connection",
+      "settings",
+      "gear",
+      "cog",
+      "wifi-cog"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wi-Fi settings"
+    }
+  },
+  "new-icon-set-03-p0003": {
+    "name": "WifiZero",
+    "displayName": "Wifi zero",
+    "description": "Wi-Fi symbol with no arcs: only the dot.",
+    "tags": [
+      "wifi",
+      "wireless",
+      "internet",
+      "network",
+      "connection",
+      "no-signal",
+      "empty",
+      "zero",
+      "wifi-zero"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "No Wi-Fi signal"
+    }
+  },
+  "new-icon-set-03-p0004": {
+    "name": "WifiLow",
+    "displayName": "Wifi low",
+    "description": "Wi-Fi symbol with one arc above the dot.",
+    "tags": [
+      "wifi",
+      "wireless",
+      "internet",
+      "network",
+      "connection",
+      "low",
+      "weak",
+      "signal",
+      "wifi-low"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Weak Wi-Fi"
+    }
+  },
+  "new-icon-set-03-p0005": {
+    "name": "WifiMedium",
+    "displayName": "Wifi medium",
+    "description": "Wi-Fi symbol with two arcs above the dot.",
+    "tags": [
+      "wifi",
+      "wireless",
+      "internet",
+      "network",
+      "connection",
+      "medium",
+      "signal",
+      "wifi-high"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Wi-Fi"
+    }
+  },
+  "new-icon-set-03-p0006": {
+    "name": "WifiLock",
+    "displayName": "Wifi lock",
+    "description": "Wi-Fi symbol with a padlock at the top right.",
+    "tags": [
+      "wifi",
+      "wireless",
+      "internet",
+      "network",
+      "connection",
+      "lock",
+      "secure",
+      "password",
+      "wifi-lock"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Locked Wi-Fi"
+    }
+  },
+  "new-icon-set-03-p0007": {
+    "name": "WifiEdit",
+    "displayName": "Wifi edit",
+    "description": "Wi-Fi symbol with a pencil at the top right.",
+    "tags": [
+      "wifi",
+      "wireless",
+      "internet",
+      "network",
+      "connection",
+      "edit",
+      "pencil",
+      "write",
+      "wifi-pen"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Edit Wi-Fi"
+    }
+  },
+  "new-icon-set-03-p0008": {
+    "name": "WifiSync",
+    "displayName": "Wifi sync",
+    "description": "Wi-Fi symbol with two curved sync arrows at the top right.",
+    "tags": [
+      "wifi",
+      "wireless",
+      "internet",
+      "network",
+      "connection",
+      "sync",
+      "refresh",
+      "arrows",
+      "wifi-sync"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Sync Wi-Fi"
+    }
+  },
+  "new-icon-set-03-p0009": {
+    "name": "CalendarOne2",
+    "displayName": "Calendar one 2",
+    "description": "Near copy kept out of the import.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "one"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    },
+    "hold": "near copy of library CalendarOne: same calendar, the 1 drawn with a longer flag"
+  },
+  "new-icon-set-03-p0010": {
+    "name": "CalendarOneBar2",
+    "displayName": "Calendar one bar 2",
+    "description": "Near copy kept out of the import.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "one"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    },
+    "hold": "near copy of library CalendarOneBar: same calendar, the 1 drawn with a longer flag"
+  },
+  "new-icon-set-03-p0011": {
+    "name": "CalendarOneHeader2",
+    "displayName": "Calendar one header 2",
+    "description": "Near copy kept out of the import.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "one"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    },
+    "hold": "near copy of library CalendarOneHeader: same calendar, the 1 drawn with a longer flag"
+  },
+  "new-icon-set-03-p0012": {
+    "name": "CalendarOneSlot2",
+    "displayName": "Calendar one slot 2",
+    "description": "Near copy kept out of the import.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "one"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    },
+    "hold": "near copy of library CalendarOneSlot: same calendar, the 1 drawn with a longer flag"
+  },
+  "new-icon-set-03-p0013": {
+    "name": "CalendarOne3",
+    "displayName": "Calendar one 3",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "one"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    },
+    "hold": "same drawing as p0009 in this file"
+  },
+  "new-icon-set-03-p0014": {
+    "name": "CalendarOneBar3",
+    "displayName": "Calendar one bar 3",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "one"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    },
+    "hold": "same drawing as p0010 in this file"
+  },
+  "new-icon-set-03-p0015": {
+    "name": "CalendarOneHeader3",
+    "displayName": "Calendar one header 3",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "one"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    },
+    "hold": "same drawing as p0011 in this file"
+  },
+  "new-icon-set-03-p0016": {
+    "name": "CalendarOneSlot3",
+    "displayName": "Calendar one slot 3",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "one"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    },
+    "hold": "same drawing as p0012 in this file"
+  },
+  "new-icon-set-03-p0017": {
+    "name": "CalendarBarsDots",
+    "displayName": "Calendar bars dots",
+    "description": "Calendar with a header line and two rows below, each a bar and a dot.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "range",
+      "dots",
+      "bars",
+      "days",
+      "calendar-range"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Date range"
+    }
+  },
+  "new-icon-set-03-p0018": {
+    "name": "CalendarArrowRight",
+    "displayName": "Calendar arrow right",
+    "description": "Calendar with a header line and an arrow pointing right at the bottom right corner, cutting the frame.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "arrow",
+      "right",
+      "calendar-arrow-right"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    }
+  },
+  "new-icon-set-03-p0019": {
+    "name": "CalendarArrowLeft",
+    "displayName": "Calendar arrow left",
+    "description": "Calendar with a header line and an arrow pointing left at the bottom right corner, cutting the frame.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "arrow",
+      "left",
+      "calendar-arrow-left"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    }
+  },
+  "new-icon-set-03-p0020": {
+    "name": "CalendarArrowUp",
+    "displayName": "Calendar arrow up",
+    "description": "Calendar with a header line and an arrow pointing up at the bottom right corner, cutting the frame.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "arrow",
+      "up",
+      "calendar-arrow-up"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    }
+  },
+  "new-icon-set-03-p0021": {
+    "name": "CalendarArrowDown",
+    "displayName": "Calendar arrow down",
+    "description": "Calendar with a header line and an arrow pointing down at the bottom right corner, cutting the frame.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "arrow",
+      "down",
+      "calendar-arrow-down"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar"
+    }
+  },
+  "new-icon-set-03-p0022": {
+    "name": "CalendarOff",
+    "displayName": "Calendar off",
+    "description": "Calendar with a header line and a slash through it.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "off",
+      "disabled",
+      "slash",
+      "calendar-off"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar off"
+    }
+  },
+  "new-icon-set-03-p0023": {
+    "name": "CalendarSettingsHeader",
+    "displayName": "Calendar settings header",
+    "description": "Calendar with a header line and a gear at the bottom right corner, cutting the frame.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "settings",
+      "gear",
+      "cog",
+      "calendar-cog"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Calendar settings"
+    }
+  },
+  "new-icon-set-03-p0024": {
+    "name": "CalendarChevronDoubleRight",
+    "displayName": "Calendar chevron double right",
+    "description": "Calendar with a header line and a double chevron pointing right at the bottom right corner.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "chevron",
+      "next",
+      "forward",
+      "calendar-chevrons-right"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Next"
+    }
+  },
+  "new-icon-set-03-p0025": {
+    "name": "CalendarChevronDoubleLeft",
+    "displayName": "Calendar chevron double left",
+    "description": "Calendar with a header line and a double chevron pointing left at the bottom right corner.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "event",
+      "chevron",
+      "previous",
+      "back",
+      "calendar-chevrons-left"
+    ],
+    "categories": [
+      "time"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Previous"
+    }
+  },
+  "new-icon-set-03-p0026": {
+    "name": "MailPlus",
+    "displayName": "Mail plus",
+    "description": "Envelope with a plus at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "plus",
+      "add",
+      "new",
+      "mail-plus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "New mail"
+    }
+  },
+  "new-icon-set-03-p0027": {
+    "name": "MailPlusFolds",
+    "displayName": "Mail plus folds",
+    "description": "Envelope with fold lines from all four corners, a plus at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "plus",
+      "add",
+      "new",
+      "folds",
+      "mail-plus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "New mail"
+    }
+  },
+  "new-icon-set-03-p0028": {
+    "name": "MailPlusRounded",
+    "displayName": "Mail plus rounded",
+    "description": "Rounded envelope with a small flap, a plus at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "plus",
+      "add",
+      "new",
+      "rounded",
+      "mail-plus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "New mail"
+    }
+  },
+  "new-icon-set-03-p0029": {
+    "name": "MailMinus",
+    "displayName": "Mail minus",
+    "description": "Envelope with a minus at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "minus",
+      "remove",
+      "mail-minus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove mail"
+    }
+  },
+  "new-icon-set-03-p0030": {
+    "name": "MailMinusFolds",
+    "displayName": "Mail minus folds",
+    "description": "Envelope with fold lines from all four corners, a minus at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "minus",
+      "remove",
+      "folds",
+      "mail-minus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove mail"
+    }
+  },
+  "new-icon-set-03-p0034": {
+    "name": "MailMinusRounded",
+    "displayName": "Mail minus rounded",
+    "description": "Rounded envelope with a small flap, a minus at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "minus",
+      "remove",
+      "rounded",
+      "mail-minus"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Remove mail"
+    }
+  },
+  "new-icon-set-03-p0032": {
+    "name": "MailX",
+    "displayName": "Mail X",
+    "description": "Envelope with an X at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "x",
+      "remove",
+      "cancel",
+      "delete",
+      "mail-x"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete mail"
+    }
+  },
+  "new-icon-set-03-p0033": {
+    "name": "MailXFolds",
+    "displayName": "Mail X folds",
+    "description": "Envelope with fold lines from all four corners, an X at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "x",
+      "remove",
+      "cancel",
+      "delete",
+      "folds",
+      "mail-x"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete mail"
+    }
+  },
+  "new-icon-set-03-p0031": {
+    "name": "MailXRounded",
+    "displayName": "Mail X rounded",
+    "description": "Rounded envelope with a small flap, an X at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "x",
+      "remove",
+      "cancel",
+      "delete",
+      "rounded",
+      "mail-x"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Delete mail"
+    }
+  },
+  "new-icon-set-03-p0035": {
+    "name": "MailCheck",
+    "displayName": "Mail check",
+    "description": "Envelope with a check at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "check",
+      "done",
+      "verified",
+      "mail-check"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail sent"
+    }
+  },
+  "new-icon-set-03-p0036": {
+    "name": "MailCheckFolds",
+    "displayName": "Mail check folds",
+    "description": "Envelope with fold lines from all four corners, a check at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "check",
+      "done",
+      "verified",
+      "folds",
+      "mail-check"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail sent"
+    }
+  },
+  "new-icon-set-03-p0037": {
+    "name": "MailCheckRounded",
+    "displayName": "Mail check rounded",
+    "description": "Rounded envelope with a small flap, a check at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "check",
+      "done",
+      "verified",
+      "rounded",
+      "mail-check"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Mail sent"
+    }
+  },
+  "new-icon-set-03-p0038": {
+    "name": "MailEdit",
+    "displayName": "Mail edit",
+    "description": "Envelope with a pencil at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "edit",
+      "pencil",
+      "write",
+      "mail-pen"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Write mail"
+    }
+  },
+  "new-icon-set-03-p0039": {
+    "name": "MailEditFolds",
+    "displayName": "Mail edit folds",
+    "description": "Envelope with fold lines from all four corners, a pencil at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "edit",
+      "pencil",
+      "write",
+      "folds",
+      "mail-pen"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Write mail"
+    }
+  },
+  "new-icon-set-03-p0040": {
+    "name": "MailEditRounded",
+    "displayName": "Mail edit rounded",
+    "description": "Rounded envelope with a small flap, a pencil at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "edit",
+      "pencil",
+      "write",
+      "rounded",
+      "mail-pen"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Write mail"
+    }
+  },
+  "new-icon-set-03-p0041": {
+    "name": "MailClock",
+    "displayName": "Mail clock",
+    "description": "Envelope with a small clock at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "clock",
+      "time",
+      "scheduled",
+      "later",
+      "mail-clock"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scheduled mail"
+    }
+  },
+  "new-icon-set-03-p0042": {
+    "name": "MailClockFolds",
+    "displayName": "Mail clock folds",
+    "description": "Envelope with fold lines from all four corners, a small clock at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "clock",
+      "time",
+      "scheduled",
+      "later",
+      "folds",
+      "mail-clock"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scheduled mail"
+    }
+  },
+  "new-icon-set-03-p0043": {
+    "name": "MailClockRounded",
+    "displayName": "Mail clock rounded",
+    "description": "Rounded envelope with a small flap, a small clock at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "clock",
+      "time",
+      "scheduled",
+      "later",
+      "rounded",
+      "mail-clock"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scheduled mail"
+    }
+  },
+  "new-icon-set-03-p0044": {
+    "name": "MailDot",
+    "displayName": "Mail dot",
+    "description": "Envelope with a dot at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "dot",
+      "unread",
+      "notification",
+      "mail-dot"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unread mail"
+    }
+  },
+  "new-icon-set-03-p0045": {
+    "name": "MailDotFolds",
+    "displayName": "Mail dot folds",
+    "description": "Envelope with fold lines from all four corners, a dot at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "dot",
+      "unread",
+      "notification",
+      "folds",
+      "mail-dot"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unread mail"
+    }
+  },
+  "new-icon-set-03-p0046": {
+    "name": "MailDotRounded",
+    "displayName": "Mail dot rounded",
+    "description": "Rounded envelope with a small flap, a dot at the bottom right.",
+    "tags": [
+      "mail",
+      "envelope",
+      "email",
+      "message",
+      "dot",
+      "unread",
+      "notification",
+      "rounded",
+      "mail-dot"
+    ],
+    "categories": [
+      "communication"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Unread mail"
+    }
+  },
+  "new-icon-set-03-p0047": {
+    "name": "BanknoteArrowRight",
+    "displayName": "Banknote arrow right",
+    "description": "Banknote with corner ornaments and a 0 in the middle, and an arrow pointing right at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "arrow",
+      "right",
+      "banknote-arrow-right"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0049": {
+    "name": "BanknoteArrowLeft",
+    "displayName": "Banknote arrow left",
+    "description": "Banknote with corner ornaments and a 0 in the middle, and an arrow pointing left at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "arrow",
+      "left",
+      "banknote-arrow-left"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0051": {
+    "name": "BanknoteArrowUp",
+    "displayName": "Banknote arrow up",
+    "description": "Banknote with corner ornaments and a 0 in the middle, and an arrow pointing up at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "arrow",
+      "up",
+      "banknote-arrow-up"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0053": {
+    "name": "BanknoteArrowDown",
+    "displayName": "Banknote arrow down",
+    "description": "Banknote with corner ornaments and a 0 in the middle, and an arrow pointing down at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "arrow",
+      "down",
+      "banknote-arrow-down"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0048": {
+    "name": "BanknoteDollarArrowRight",
+    "displayName": "Banknote dollar arrow right",
+    "description": "Banknote with corner ornaments and a dollar sign, and an arrow pointing right at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "arrow",
+      "right",
+      "dollar",
+      "banknote-arrow-right"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0050": {
+    "name": "BanknoteDollarArrowLeft",
+    "displayName": "Banknote dollar arrow left",
+    "description": "Banknote with corner ornaments and a dollar sign, and an arrow pointing left at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "arrow",
+      "left",
+      "dollar",
+      "banknote-arrow-left"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0052": {
+    "name": "BanknoteDollarArrowUp",
+    "displayName": "Banknote dollar arrow up",
+    "description": "Banknote with corner ornaments and a dollar sign, and an arrow pointing up at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "arrow",
+      "up",
+      "dollar",
+      "banknote-arrow-up"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0054": {
+    "name": "BanknoteDollarArrowDown",
+    "displayName": "Banknote dollar arrow down",
+    "description": "Banknote with corner ornaments and a dollar sign, and an arrow pointing down at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "arrow",
+      "down",
+      "dollar",
+      "banknote-arrow-down"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0061": {
+    "name": "BanknoteArrowRight2",
+    "displayName": "Banknote arrow right 2",
+    "description": "Near copy kept out of the import.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    },
+    "hold": "same idea as p0047 (BanknoteArrowRight): bill 1px smaller, arrow 1px lower"
+  },
+  "new-icon-set-03-p0062": {
+    "name": "BanknoteDollarArrowRight2",
+    "displayName": "Banknote dollar arrow right 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    },
+    "hold": "same drawing as p0048 (BanknoteDollarArrowRight) in this file"
+  },
+  "new-icon-set-03-p0057": {
+    "name": "BanknotePlus",
+    "displayName": "Banknote plus",
+    "description": "Banknote with corner ornaments and a 0 in the middle, and a plus at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "plus",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0059": {
+    "name": "BanknoteMinus",
+    "displayName": "Banknote minus",
+    "description": "Banknote with corner ornaments and a 0 in the middle, and a minus at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "minus",
+      "remove"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0063": {
+    "name": "BanknoteX",
+    "displayName": "Banknote X",
+    "description": "Banknote with corner ornaments and a 0 in the middle, and an X at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "x",
+      "remove",
+      "cancel",
+      "delete",
+      "banknote-x"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0065": {
+    "name": "BanknoteCheck",
+    "displayName": "Banknote check",
+    "description": "Banknote with corner ornaments and a 0 in the middle, and a check at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "check",
+      "done",
+      "verified",
+      "banknote-check"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0058": {
+    "name": "BanknoteDollarPlus",
+    "displayName": "Banknote dollar plus",
+    "description": "Banknote with corner ornaments and a dollar sign, and a plus at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "plus",
+      "add",
+      "new",
+      "dollar"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0060": {
+    "name": "BanknoteDollarMinus",
+    "displayName": "Banknote dollar minus",
+    "description": "Banknote with corner ornaments and a dollar sign, and a minus at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "minus",
+      "remove",
+      "dollar"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0064": {
+    "name": "BanknoteDollarX",
+    "displayName": "Banknote dollar X",
+    "description": "Banknote with corner ornaments and a dollar sign, and an X at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "x",
+      "remove",
+      "cancel",
+      "delete",
+      "dollar",
+      "banknote-x"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0066": {
+    "name": "BanknoteDollarCheck",
+    "displayName": "Banknote dollar check",
+    "description": "Banknote with corner ornaments and a dollar sign, and a check at the bottom right.",
+    "tags": [
+      "banknote",
+      "money",
+      "cash",
+      "bill",
+      "payment",
+      "check",
+      "done",
+      "verified",
+      "dollar",
+      "banknote-check"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Banknote"
+    }
+  },
+  "new-icon-set-03-p0055": {
+    "name": "DollarShort",
+    "displayName": "Dollar short",
+    "description": "Dollar sign: an S with short ticks above and below.",
+    "tags": [
+      "dollar",
+      "money",
+      "currency",
+      "price",
+      "usd",
+      "symbol",
+      "sign",
+      "ticks",
+      "dollar-sign"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dollar"
+    }
+  },
+  "new-icon-set-03-p0056": {
+    "name": "Dollar",
+    "displayName": "Dollar",
+    "description": "Dollar sign: an S with a vertical line through it.",
+    "tags": [
+      "dollar",
+      "money",
+      "currency",
+      "price",
+      "usd",
+      "symbol",
+      "sign",
+      "dollar-sign"
+    ],
+    "categories": [
+      "business",
+      "shopping"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Dollar"
+    }
+  },
+  "new-icon-set-03-p0067": {
+    "name": "PrinterX",
+    "displayName": "Printer X",
+    "description": "Printer with an X at the bottom right.",
+    "tags": [
+      "printer",
+      "print",
+      "paper",
+      "x",
+      "remove",
+      "cancel",
+      "delete",
+      "error",
+      "printer-x"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Print error"
+    }
+  },
+  "new-icon-set-03-p0068": {
+    "name": "PrinterCheck",
+    "displayName": "Printer check",
+    "description": "Printer with a check at the bottom right.",
+    "tags": [
+      "printer",
+      "print",
+      "paper",
+      "check",
+      "done",
+      "verified",
+      "printer-check"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Printed"
+    }
+  },
+  "new-icon-set-03-p0069": {
+    "name": "FileWide2",
+    "displayName": "File wide 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    },
+    "hold": "same as library FileWide"
+  },
+  "new-icon-set-03-p0070": {
+    "name": "FileStackWide2",
+    "displayName": "File stack wide 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    },
+    "hold": "same as library FileStackWide"
+  },
+  "new-icon-set-03-p0071": {
+    "name": "FileXWide2",
+    "displayName": "File X wide 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    },
+    "hold": "same as library FileXWide"
+  },
+  "new-icon-set-03-p0072": {
+    "name": "FileCheckWide2",
+    "displayName": "File check wide 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    },
+    "hold": "same as library FileCheckWide"
+  },
+  "new-icon-set-03-p0073": {
+    "name": "FilePlusWide2",
+    "displayName": "File plus wide 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    },
+    "hold": "same as library FilePlusWide"
+  },
+  "new-icon-set-03-p0074": {
+    "name": "FileMinusWide2",
+    "displayName": "File minus wide 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "symbol",
+      "sign"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File"
+    },
+    "hold": "same as library FileMinusWide"
+  },
+  "new-icon-set-03-p0075": {
+    "name": "FileOffWide",
+    "displayName": "File off wide",
+    "description": "Square page with a folded corner and a slash through it.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "off",
+      "disabled",
+      "slash",
+      "wide",
+      "file-x"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "File off"
+    }
+  },
+  "new-icon-set-03-p0076": {
+    "name": "FileArrowUpWide",
+    "displayName": "File arrow up wide",
+    "description": "Square page with a folded corner and an arrow pointing up inside.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "arrow",
+      "up",
+      "upload",
+      "wide",
+      "file-up"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Upload file"
+    }
+  },
+  "new-icon-set-03-p0077": {
+    "name": "FileArrowDownWide",
+    "displayName": "File arrow down wide",
+    "description": "Square page with a folded corner and an arrow pointing down inside.",
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "arrow",
+      "down",
+      "download",
+      "wide",
+      "file-down"
+    ],
+    "categories": [
+      "files"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Download file"
+    }
+  },
+  "new-icon-set-03-p0078": {
+    "name": "Bot",
+    "displayName": "Bot",
+    "description": "Robot head with an antenna, two eyes and side ears.",
+    "tags": [
+      "bot",
+      "robot",
+      "ai",
+      "assistant",
+      "automation",
+      "head",
+      "face"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bot"
+    }
+  },
+  "new-icon-set-03-p0079": {
+    "name": "BotChat",
+    "displayName": "Bot chat",
+    "description": "Robot face with a smile inside a chat bubble, with an antenna.",
+    "tags": [
+      "bot",
+      "robot",
+      "ai",
+      "assistant",
+      "automation",
+      "chat",
+      "message",
+      "chatbot",
+      "bot-message-square"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Chatbot"
+    }
+  },
+  "new-icon-set-03-p0080": {
+    "name": "BotVisor",
+    "displayName": "Bot visor",
+    "description": "Round robot head with an antenna and a pill-shaped visor with two eyes.",
+    "tags": [
+      "bot",
+      "robot",
+      "ai",
+      "assistant",
+      "automation",
+      "head",
+      "visor"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bot"
+    }
+  },
+  "new-icon-set-03-p0081": {
+    "name": "BotX",
+    "displayName": "Bot X",
+    "description": "Robot head with an antenna and two eyes, with an X at the bottom right.",
+    "tags": [
+      "bot",
+      "robot",
+      "ai",
+      "assistant",
+      "automation",
+      "x",
+      "remove",
+      "cancel",
+      "delete"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bot"
+    }
+  },
+  "new-icon-set-03-p0082": {
+    "name": "BotPlus",
+    "displayName": "Bot plus",
+    "description": "Robot head with an antenna and two eyes, with a plus at the bottom right.",
+    "tags": [
+      "bot",
+      "robot",
+      "ai",
+      "assistant",
+      "automation",
+      "plus",
+      "add",
+      "new"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bot"
+    }
+  },
+  "new-icon-set-03-p0083": {
+    "name": "BotMinus",
+    "displayName": "Bot minus",
+    "description": "Robot head with an antenna and two eyes, with a minus at the bottom right.",
+    "tags": [
+      "bot",
+      "robot",
+      "ai",
+      "assistant",
+      "automation",
+      "minus",
+      "remove"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bot"
+    }
+  },
+  "new-icon-set-03-p0084": {
+    "name": "BotCheck",
+    "displayName": "Bot check",
+    "description": "Robot head with an antenna and two eyes, with a check at the bottom right.",
+    "tags": [
+      "bot",
+      "robot",
+      "ai",
+      "assistant",
+      "automation",
+      "check",
+      "done",
+      "verified"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Bot"
+    }
+  },
+  "new-icon-set-03-p0085": {
+    "name": "BugOff",
+    "displayName": "Bug off",
+    "description": "Bug with a slash through it.",
+    "tags": [
+      "bug",
+      "debug",
+      "insect",
+      "error",
+      "off",
+      "disabled",
+      "slash",
+      "fixed",
+      "no-bugs",
+      "bug-off"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "No bugs"
+    }
+  },
+  "new-icon-set-03-p0086": {
+    "name": "GitConflict2",
+    "displayName": "Git conflict 2",
+    "description": "Near copy kept out of the import.",
+    "tags": [
+      "bug",
+      "debug",
+      "insect",
+      "error",
+      "symbol"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Merge conflict"
+    },
+    "hold": "near copy of library GitConflict (git-pull-request-x): same layout, smaller X"
+  },
+  "new-icon-set-03-p0087": {
+    "name": "ServerBars2",
+    "displayName": "Server bars 2",
+    "description": "Duplicate drawing kept out of the import.",
+    "tags": [
+      "bug",
+      "debug",
+      "insect",
+      "error",
+      "symbol"
+    ],
+    "categories": [
+      "development"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Server"
+    },
+    "hold": "same as library ServerBars"
+  },
+  "new-icon-set-03-p0088": {
+    "name": "TableCellsMerge",
+    "displayName": "Table cells merge",
+    "description": "Rounded table with three rows: the top and bottom rows split in two cells, the middle row one merged cell.",
+    "tags": [
+      "table",
+      "cells",
+      "grid",
+      "spreadsheet",
+      "merge",
+      "table-cells-merge"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Merge cells"
+    }
+  },
+  "new-icon-set-03-p0089": {
+    "name": "GalleryHorizontal",
+    "displayName": "Gallery horizontal",
+    "description": "Rounded card with a vertical line on each side.",
+    "tags": [
+      "gallery",
+      "carousel",
+      "cards",
+      "slides",
+      "horizontal",
+      "gallery-horizontal"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gallery"
+    }
+  },
+  "new-icon-set-03-p0090": {
+    "name": "GalleryVertical",
+    "displayName": "Gallery vertical",
+    "description": "Rounded card with a horizontal line above and below.",
+    "tags": [
+      "gallery",
+      "carousel",
+      "cards",
+      "slides",
+      "vertical",
+      "gallery-vertical"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gallery"
+    }
+  },
+  "new-icon-set-03-p0091": {
+    "name": "GalleryThumbnails",
+    "displayName": "Gallery thumbnails",
+    "description": "Rounded card above a row of four short dashes.",
+    "tags": [
+      "gallery",
+      "carousel",
+      "cards",
+      "slides",
+      "thumbnails",
+      "gallery-thumbnails"
+    ],
+    "categories": [
+      "media",
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Gallery"
+    }
+  },
+  "new-icon-set-03-p0092": {
+    "name": "TableCellsSplit",
+    "displayName": "Table cells split",
+    "description": "Rounded table with three rows: the middle row split in two cells.",
+    "tags": [
+      "table",
+      "cells",
+      "grid",
+      "spreadsheet",
+      "split",
+      "table-cells-split"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Split cells"
+    }
+  },
+  "new-icon-set-03-p0093": {
+    "name": "ScanBarcode",
+    "displayName": "Scan barcode",
+    "description": "Scan corners around four vertical barcode bars.",
+    "tags": [
+      "scan",
+      "scanner",
+      "focus",
+      "frame",
+      "barcode",
+      "product",
+      "scan-barcode"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan barcode"
+    }
+  },
+  "new-icon-set-03-p0094": {
+    "name": "ScanLetters",
+    "displayName": "Scan letters",
+    "description": "Scan corners around a letter T.",
+    "tags": [
+      "scan",
+      "scanner",
+      "focus",
+      "frame",
+      "text",
+      "letters",
+      "ocr",
+      "scan-text"
+    ],
+    "categories": [
+      "devices"
+    ],
+    "accessibility": {
+      "role": "informative",
+      "suggestedLabel": "Scan text"
+    }
+  }
+}

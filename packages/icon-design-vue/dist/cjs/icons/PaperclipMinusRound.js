@@ -1,0 +1,38 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const PaperclipMinusRound = defineComponent({
+  name: 'PaperclipMinusRound',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M15 7L9.828 12.172C8.723 13.277 8.723 15.066 9.828 16.172C10.934 17.277 12.723 17.277 13.828 16.172L19.551 10.449C21.484 8.516 21.484 5.383 19.551 3.449C17.617 1.516 14.484 1.516 12.551 3.449L6.07 9.93C3.309 12.691 3.309 17.168 6.07 19.93C8.832 22.691 13.309 22.691 16.07 19.93L22 14"}),
+          h('path', {"d":"M2 3L7 3"})
+        ]
+      );
+  }
+});
+
+module.exports = PaperclipMinusRound;
+module.exports.PaperclipMinusRound = PaperclipMinusRound;
+module.exports.default = PaperclipMinusRound;

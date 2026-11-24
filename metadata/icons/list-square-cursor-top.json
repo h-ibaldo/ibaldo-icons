@@ -1,0 +1,35 @@
+{
+  "name": "ListSquareCursorTop",
+  "displayName": "List square cursor top",
+  "description": "Lines aligned right in a rounded square with a cursor breaking its top left corner.",
+  "tags": [
+    "cursor",
+    "select",
+    "click",
+    "square",
+    "list",
+    "text",
+    "lines"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Select item"
+  },
+  "filename": "list-square-cursor-top",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:12:54.156Z"
+}

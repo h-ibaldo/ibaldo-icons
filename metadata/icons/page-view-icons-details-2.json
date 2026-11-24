@@ -1,16 +1,16 @@
 {
-  "name": "PageViewIconsDetails2",
+  "name": "LayoutListDashed",
   "description": "An alternative page view icon presenting icons alongside detailed metadata",
   "tags": [
+    "layout",
     "page",
     "view",
     "icons",
     "details",
     "information",
     "list",
-    "layout",
     "detailed",
-    "variant2"
+    "dashed"
   ],
   "categories": [
     "interface"
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Layout list dashed",
+  "aliases": [
+    "PageViewIconsDetails2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

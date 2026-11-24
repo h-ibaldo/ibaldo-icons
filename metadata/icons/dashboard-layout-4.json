@@ -1,6 +1,6 @@
 {
-  "name": "DashboardLayout4",
-  "displayName": "Dashboard layout 4",
+  "name": "DashboardChart",
+  "displayName": "Dashboard chart",
   "originalTitle": "Dashboard Layout 4",
   "description": "Fourth dashboard layout option with unique panel configuration. Used for advanced dashboard customization and layout preferences.",
   "tags": [
@@ -11,10 +11,10 @@
     "admin",
     "analytics",
     "custom",
-    "overview"
+    "overview",
+    "chart"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -33,5 +33,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.798Z"
+  "generatedAt": "2026-02-15T00:53:19.798Z",
+  "aliases": [
+    "DashboardLayout4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

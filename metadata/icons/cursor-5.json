@@ -1,5 +1,5 @@
 {
-  "name": "Cursor5",
+  "name": "CursorStraight2",
   "description": "A pointer cursor icon in the fifth design variation, representing standard mouse interaction elements.",
   "tags": [
     "cursor",
@@ -7,12 +7,10 @@
     "mouse",
     "click",
     "interaction",
-    "control",
-    "variant"
+    "control"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "decorative",
@@ -29,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cursor straight2",
+  "aliases": [
+    "Cursor5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

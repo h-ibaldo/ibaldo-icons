@@ -1,18 +1,17 @@
 {
-  "name": "BookmarkCircleClose",
+  "name": "BookmarkXCircle",
   "description": "A bookmark icon within a circle with an X symbol for closing or dismissing bookmark selections",
   "tags": [
     "bookmark",
-    "circle",
-    "x",
     "close",
-    "dismiss",
+    "delete",
     "remove",
+    "circle",
+    "dismiss",
     "exit",
     "cancel"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark X circle",
+  "aliases": [
+    "BookmarkCircleClose"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

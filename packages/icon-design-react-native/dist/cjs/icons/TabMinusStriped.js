@@ -1,0 +1,37 @@
+'use strict';
+
+const { createElement, forwardRef } = require('react');
+const RNSvg = require('react-native-svg');
+const Svg = RNSvg.default || RNSvg.Svg;
+const { Line, Path } = RNSvg;
+
+const TabMinusStriped = forwardRef(function TabMinusStriped(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M12,21.999999999998181l-8,.000000000000909c-1.104569499670106,0-2-.895430500338989-2-2V3.999999999999091c0-1.104569499661011.895430500329894-2,2-2h2c.62951460666045,0,1.222291236000274.296388314665819,1.59999999998945.799999999999272l2.100000000010368,2.799999999998363c.188854381990495.251805842669455.485242696659952.400000000002365.800000000000182.400000000002365h9.5c1.104569499660101,0,2,.895430500338989,2,2v6","key":"0"}),
+    createElement(Path, {"d":"M6,1.999999999999091h6c.62951460666045,0,1.222291236000274.296388314665819,1.59999999998945.799999999999272l2.40000000001055,3.200000000000728","key":"1"}),
+    createElement(Path, {"d":"M12,1.999999999999091h6c.62951460666045,0,1.222291236000274.296388314665819,1.59999999998945.799999999999272l1.800000000001091,2.400000000001455c.389466384409388.51928851253615.600000000009459,1.150889359323628.600000000009459,1.799999999999272v1","key":"2"}),
+    createElement(Line, {"x1":"16","y1":"18.999999999995453","x2":"22","y2":"18.999999999995453","key":"3"})
+  );
+});
+
+TabMinusStriped.displayName = 'TabMinusStriped';
+
+module.exports = TabMinusStriped;
+module.exports.TabMinusStriped = TabMinusStriped;
+module.exports.default = TabMinusStriped;

@@ -1,21 +1,24 @@
 {
-  "name": "AtSign5Alert",
-  "displayName": "At sign 5 alert",
+  "name": "AtAlertBoxy",
+  "displayName": "At alert boxy",
   "originalTitle": "At Sign Email Contact Address 5 Alert Exclamation",
   "description": "Email address with alert exclamation mark indicating email warnings or important notifications. Used to show email errors or urgent messages.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "alert",
-    "warning",
+    "contact",
+    "address",
     "exclamation",
     "error",
+    "attention",
+    "alert",
+    "warning",
     "at-sign",
-    "contact",
     "urgent"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.763Z"
+  "generatedAt": "2026-02-15T00:53:19.763Z",
+  "aliases": [
+    "AtSign5Alert"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

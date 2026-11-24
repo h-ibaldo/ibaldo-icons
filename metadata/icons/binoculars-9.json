@@ -1,5 +1,5 @@
 {
-  "name": "Binoculars9",
+  "name": "BinocularsOpera",
   "description": "A binoculars icon in variant 9 style for viewing, magnification, or observation purposes",
   "tags": [
     "binoculars",
@@ -8,11 +8,11 @@
     "observation",
     "search",
     "zoom",
-    "inspect"
+    "inspect",
+    "opera"
   ],
   "categories": [
-    "interface",
-    "location"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Binoculars opera",
+  "aliases": [
+    "Binoculars9"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

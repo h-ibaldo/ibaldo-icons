@@ -1,15 +1,16 @@
 {
-  "name": "MinusSquare2",
+  "name": "MinusSquareCompact",
   "description": "A second variant of the minus sign within a square container with alternative styling",
   "tags": [
     "minus",
     "sign",
     "negative",
-    "square",
     "remove",
+    "subtract",
+    "square",
     "delete",
     "decrease",
-    "variant"
+    "compact"
   ],
   "categories": [
     "interface"
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Minus square compact",
+  "aliases": [
+    "MinusSquare2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

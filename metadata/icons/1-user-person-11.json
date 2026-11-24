@@ -1,22 +1,24 @@
 {
-  "name": "UserPerson11",
-  "description": "A user person icon representing a full-body individual profile, variant 11",
+  "name": "AvatarFacePompadour",
+  "description": "Face with eyes and short hair with a tall swept-back pompadour.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "avatar",
-    "full body",
-    "variant 11"
+    "person",
+    "face",
+    "hairstyle",
+    "short-hair",
+    "pompadour",
+    "quiff"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User person icon"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-11",
   "technical": {
@@ -29,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, pompadour",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFacePompadour"
+  ],
+  "featured": true
 }

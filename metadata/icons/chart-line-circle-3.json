@@ -1,6 +1,6 @@
 {
-  "name": "ChartLineCircle3",
-  "displayName": "Chart line circle 3",
+  "name": "ChartLinePeakCircle",
+  "displayName": "Chart line peak circle",
   "originalTitle": "Chart Line Circle 3",
   "description": "Advanced line chart icon for complex data visualization and detailed analytics. Used for comprehensive business reporting and trend analysis.",
   "tags": [
@@ -11,11 +11,12 @@
     "trends",
     "business",
     "reporting",
-    "statistics"
+    "statistics",
+    "peak",
+    "circle"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.751Z"
+  "generatedAt": "2026-02-15T00:53:19.751Z",
+  "aliases": [
+    "ChartLineCircle3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

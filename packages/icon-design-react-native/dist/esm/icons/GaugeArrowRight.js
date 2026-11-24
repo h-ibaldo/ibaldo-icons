@@ -1,0 +1,33 @@
+import { createElement, forwardRef } from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+const GaugeArrowRight = forwardRef(function GaugeArrowRight(
+  { color = 'currentColor', size = 24, strokeWidth = 1.5, ...props },
+  ref
+) {
+  return createElement(
+    Svg,
+    {
+      ref,
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth,
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      ...props
+    },
+    createElement(Path, {"d":"M16 8L12 12","key":"0"}),
+    createElement(Path, {"d":"M11 12C11 11.445 11.445 11 12 11C12.555 11 13 11.445 13 12C13 12.555 12.555 13 12 13C11.445 13 11 12.555 11 12Z","key":"1"}),
+    createElement(Path, {"d":"M2 19L10 19","key":"2"}),
+    createElement(Path, {"d":"M7 16L10 19L7 22","key":"3"}),
+    createElement(Path, {"d":"M13 21.949C18.055 21.445 22 17.184 22 12C22 6.477 17.523 2 12 2C6.477 2 2 6.477 2 12C2 13.047 2.16 14.055 2.461 15","key":"4"})
+  );
+});
+
+GaugeArrowRight.displayName = 'GaugeArrowRight';
+
+export default GaugeArrowRight;
+export { GaugeArrowRight };

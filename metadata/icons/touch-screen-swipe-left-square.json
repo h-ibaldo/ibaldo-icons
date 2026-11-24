@@ -1,5 +1,5 @@
 {
-  "name": "TouchScreenSwipeLeftSquare",
+  "name": "TouchSwipeLeftSquare",
   "description": "A touch screen icon displaying a left swipe gesture within a square frame, indicating leftward navigation or interaction.",
   "tags": [
     "touch",
@@ -13,8 +13,8 @@
     "navigation"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Touch swipe left square",
+  "aliases": [
+    "TouchScreenSwipeLeftSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

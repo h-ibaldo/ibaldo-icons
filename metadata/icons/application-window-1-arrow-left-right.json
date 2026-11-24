@@ -1,20 +1,24 @@
 {
-  "name": "ApplicationWindow1ArrowLeftRight",
-  "displayName": "Application window 1 arrow left right",
+  "name": "WindowArrowLeftRight",
+  "displayName": "Window arrow left right",
   "originalTitle": "Application Window 1 Arrow Left Right",
   "description": "Application window with horizontal arrows indicating resizing or movement. Used for window management and layout controls.",
   "tags": [
     "window",
+    "application",
     "resize",
     "arrows",
     "move",
     "adjust",
     "horizontal",
-    "expand"
+    "expand",
+    "arrow",
+    "left",
+    "right"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.766Z"
+  "generatedAt": "2026-02-15T00:53:19.766Z",
+  "aliases": [
+    "ApplicationWindow1ArrowLeftRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

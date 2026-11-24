@@ -1,18 +1,19 @@
 {
-  "name": "TrashArrowUpRestoreAlt",
+  "name": "TrashArrowUpNarrow",
   "description": "An alternative trash restore icon variant with upward arrow showing recovery options for deleted files",
   "tags": [
     "trash",
-    "arrow up",
     "restore",
+    "arrow-up",
     "recover",
     "undo",
     "delete",
     "recycle",
-    "variant"
+    "arrow",
+    "up",
+    "narrow"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash arrow up narrow",
+  "aliases": [
+    "TrashArrowUpRestoreAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

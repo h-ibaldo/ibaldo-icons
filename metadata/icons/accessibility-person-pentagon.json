@@ -1,5 +1,5 @@
 {
-  "name": "AccessibilityPersonPentagon",
+  "name": "AccessibilityPentagon",
   "description": "An accessibility icon featuring a person silhouette enclosed in a pentagon shape, representing inclusive user support",
   "tags": [
     "accessibility",
@@ -12,8 +12,7 @@
     "geometric"
   ],
   "categories": [
-    "accessibility",
-    "people"
+    "accessibility"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Accessibility pentagon",
+  "aliases": [
+    "AccessibilityPersonPentagon"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

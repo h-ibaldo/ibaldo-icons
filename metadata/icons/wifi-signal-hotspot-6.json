@@ -1,20 +1,21 @@
 {
-  "name": "WifiSignal6",
+  "name": "HotspotStemLarge",
   "description": "A wifi signal strength icon showing six bars representing maximum network signal quality",
   "tags": [
+    "hotspot",
     "wifi",
     "signal",
-    "hotspot",
     "connection",
     "network",
     "bars",
     "strength",
     "maximum",
-    "wireless"
+    "wireless",
+    "stem",
+    "large"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Hotspot stem large",
+  "aliases": [
+    "WifiSignal6"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

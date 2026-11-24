@@ -1,5 +1,5 @@
 {
-  "name": "Lock3Locked",
+  "name": "LockNarrow",
   "description": "A lock icon in secured locked state, representing active security protection and access restriction",
   "tags": [
     "lock",
@@ -9,11 +9,11 @@
     "restricted",
     "secure",
     "closed",
-    "access"
+    "access",
+    "narrow"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock narrow",
+  "aliases": [
+    "Lock3Locked"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

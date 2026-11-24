@@ -1,16 +1,19 @@
 {
-  "name": "ApplicationWindowLevels4",
+  "name": "WindowSlidersTwoPlain",
   "description": "A fourth variant of an application window icon displaying levels for settings or configuration controls",
   "tags": [
-    "application",
     "window",
+    "application",
     "levels",
     "settings",
     "adjustment",
     "controls",
-    "variant"
+    "sliders",
+    "two",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window sliders two plain",
+  "aliases": [
+    "ApplicationWindowLevels4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

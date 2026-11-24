@@ -1,10 +1,10 @@
 {
-  "name": "FormDropdownSelect2",
+  "name": "FormDropdown",
   "description": "A dropdown select form control icon in the second style variant, representing an expandable selection field.",
   "tags": [
     "form",
-    "dropdown",
     "select",
+    "dropdown",
     "menu",
     "selection",
     "expand",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form dropdown",
+  "aliases": [
+    "FormDropdownSelect2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

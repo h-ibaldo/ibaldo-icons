@@ -1,16 +1,22 @@
 {
-  "name": "PageViewOverlappingStatic1",
+  "name": "WindowOverlapLeftDotted",
   "description": "A page view icon showing overlapping windows at static view level 1, representing the first hierarchical layer of window depth.",
   "tags": [
-    "page view",
-    "overlapping windows",
+    "window",
+    "page",
+    "view",
+    "overlapping",
+    "windows",
     "static",
-    "view level",
+    "level",
+    "page-view",
+    "overlapping-windows",
+    "view-level",
     "hierarchy",
-    "depth 1",
     "layers"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -28,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window overlap left dotted",
+  "aliases": [
+    "PageViewOverlappingStatic1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

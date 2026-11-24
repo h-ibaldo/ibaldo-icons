@@ -1,20 +1,20 @@
 {
-  "name": "AgendaContacts8",
+  "name": "AddressBookTabs",
   "description": "An agenda contacts icon representing the eighth variant for managing contact information and directories",
   "tags": [
+    "address",
     "agenda",
     "contacts",
-    "8",
     "organizer",
     "people",
     "directory",
     "management",
-    "contact list"
+    "contact-list",
+    "book",
+    "tabs"
   ],
   "categories": [
-    "interface",
-    "business",
-    "people"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Address book tabs",
+  "aliases": [
+    "AgendaContacts8"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

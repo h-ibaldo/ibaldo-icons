@@ -1,18 +1,20 @@
 {
-  "name": "Lock5CheckAlt",
+  "name": "LockCheckCornerRound",
   "description": "An alternate lock icon with checkmark variant, indicating secondary verified security state",
   "tags": [
     "lock",
-    "check",
     "checked",
-    "security",
+    "done",
+    "success",
     "verified",
-    "variant",
-    "confirm"
+    "check",
+    "security",
+    "confirm",
+    "corner",
+    "round"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock check corner round",
+  "aliases": [
+    "Lock5CheckAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

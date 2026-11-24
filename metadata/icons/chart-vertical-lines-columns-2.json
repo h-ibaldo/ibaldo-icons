@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalLinesColumns2",
-  "displayName": "Chart vertical lines columns 2",
+  "name": "ChartBarMixedThin",
+  "displayName": "Chart bar mixed thin",
   "originalTitle": "Chart Vertical Lines Columns 2",
   "description": "Two-column vertical bar chart icon for displaying comparative data. Used to represent simple data visualization with two data points or categories.",
   "tags": [
     "chart",
+    "vertical",
+    "columns",
     "graph",
     "data",
     "analytics",
-    "columns",
     "bars",
     "statistics",
-    "visualization"
+    "visualization",
+    "bar",
+    "mixed",
+    "thin"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.759Z"
+  "generatedAt": "2026-02-15T00:53:19.759Z",
+  "aliases": [
+    "ChartVerticalLinesColumns2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

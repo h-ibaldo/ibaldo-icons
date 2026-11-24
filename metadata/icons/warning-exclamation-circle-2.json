@@ -1,18 +1,19 @@
 {
-  "name": "WarningCircle",
+  "name": "AlertCircleSmall",
   "description": "A warning icon with an exclamation mark inside a circle, indicating alerts or caution",
   "tags": [
+    "alert",
     "warning",
     "exclamation",
+    "error",
+    "attention",
     "circle",
-    "alert",
     "caution",
     "notice",
-    "attention"
+    "small"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Alert circle small",
+  "aliases": [
+    "WarningCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,7 +1,8 @@
 {
-  "name": "ArrowsSynchronize2",
+  "name": "ArrowSyncNodesDiagonalAngular",
   "description": "Circular arrows icon indicating synchronization or refresh action with alternate variant styling",
   "tags": [
+    "arrow",
     "arrows",
     "circles",
     "synchronize",
@@ -9,10 +10,11 @@
     "sync",
     "reload",
     "circular",
-    "variant2"
+    "nodes",
+    "diagonal",
+    "angular"
   ],
   "categories": [
-    "interface",
     "arrows"
   ],
   "accessibility": {
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow sync nodes diagonal angular",
+  "aliases": [
+    "ArrowsSynchronize2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

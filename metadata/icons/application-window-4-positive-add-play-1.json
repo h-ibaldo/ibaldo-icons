@@ -1,18 +1,20 @@
 {
-  "name": "AppWindowPlay1",
+  "name": "WindowPlayPlain",
   "description": "An application window icon with a play symbol or plus indicator, showing media playback or add functionality",
   "tags": [
-    "application",
     "window",
-    "play",
+    "application",
+    "positive",
     "add",
+    "play",
     "plus",
     "media",
-    "interface"
+    "interface",
+    "plain"
   ],
   "categories": [
-    "interface",
-    "media"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window play plain",
+  "aliases": [
+    "AppWindowPlay1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

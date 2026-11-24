@@ -1,18 +1,17 @@
 {
-  "name": "SaveDiskMenu",
+  "name": "SaveDotsCircle",
   "description": "A floppy disk save icon with a circle containing dots or menu options for save settings",
   "tags": [
     "save",
     "floppy",
     "disk",
-    "circle",
-    "dots",
     "settings",
     "menu",
+    "circle",
+    "dots",
     "options"
   ],
   "categories": [
-    "interface",
     "files"
   ],
   "accessibility": {
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Save dots circle",
+  "aliases": [
+    "SaveDiskMenu"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

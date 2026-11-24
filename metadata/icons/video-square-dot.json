@@ -1,0 +1,38 @@
+{
+  "name": "VideoSquareDot",
+  "displayName": "Video square dot",
+  "description": "Small video camera inside a rounded square with a dot at the top right corner.",
+  "tags": [
+    "video",
+    "camera",
+    "video-call",
+    "recording",
+    "notification",
+    "live",
+    "square",
+    "rounded-square",
+    "meeting"
+  ],
+  "categories": [
+    "media",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Video"
+  },
+  "filename": "video-square-dot",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

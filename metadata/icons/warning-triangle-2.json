@@ -1,17 +1,17 @@
 {
-  "name": "Warning2",
+  "name": "TriangleWide",
   "description": "A warning triangle icon, variant 2",
   "tags": [
-    "warning",
     "triangle",
+    "warning",
     "alert",
     "caution",
     "danger",
-    "notification"
+    "notification",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "security"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Triangle wide",
+  "aliases": [
+    "Warning2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,19 +1,21 @@
 {
-  "name": "ApplicationWindowCheck",
+  "name": "WindowCheckCircle",
   "description": "An application window with a checkmark indicating successful completion or verification",
   "tags": [
-    "application",
     "window",
-    "check",
+    "application",
     "mark",
-    "verified",
+    "done",
     "success",
+    "verified",
+    "check",
     "approved",
-    "confirmation"
+    "confirmation",
+    "circle"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window check circle",
+  "aliases": [
+    "ApplicationWindowCheck"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

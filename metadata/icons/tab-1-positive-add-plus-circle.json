@@ -1,13 +1,13 @@
 {
-  "name": "TabAddPlusCircle",
+  "name": "TabPlusCircle",
   "description": "A tab icon with a plus symbol inside a circle to add or create a new tab",
   "tags": [
     "tab",
-    "add",
-    "plus",
     "positive",
-    "new",
+    "add",
     "create",
+    "plus",
+    "new",
     "circle",
     "interface"
   ],
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab plus circle",
+  "aliases": [
+    "TabAddPlusCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,0 +1,33 @@
+{
+  "name": "TextWholeWord",
+  "displayName": "Text whole word",
+  "description": "Letters ab over a bracket underline: whole word.",
+  "tags": [
+    "whole-word",
+    "match",
+    "search",
+    "text",
+    "word"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Whole word"
+  },
+  "filename": "text-whole-word",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-23T22:46:25.332Z"
+}

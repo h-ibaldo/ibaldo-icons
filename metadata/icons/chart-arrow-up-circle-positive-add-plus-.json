@@ -1,21 +1,23 @@
 {
-  "name": "ChartArrowUpCirclePlus",
-  "displayName": "Chart arrow up circle plus",
+  "name": "ChartTrendUpCirclePlus",
+  "displayName": "Chart trend up circle plus",
   "originalTitle": "Chart Arrow Up Circle Positive Add Plus",
   "description": "Growth chart with upward arrow and plus symbol for adding new data or positive metrics. Represents data addition or metric enhancement.",
   "tags": [
     "chart",
     "arrow",
+    "positive",
+    "add",
+    "create",
     "up",
     "plus",
-    "add",
-    "positive",
     "analytics",
-    "enhancement"
+    "enhancement",
+    "trend",
+    "circle"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +35,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.740Z"
+  "generatedAt": "2026-02-15T00:53:19.740Z",
+  "aliases": [
+    "ChartArrowUpCirclePlus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

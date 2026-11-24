@@ -1,19 +1,19 @@
 {
-  "name": "Cloud3Plus",
+  "name": "CloudPlusRound",
   "description": "A cloud icon with an add or plus symbol for cloud storage expansion or adding cloud resources.",
   "tags": [
     "cloud",
-    "plus",
     "add",
+    "create",
+    "plus",
     "expand",
     "storage",
     "upload",
-    "create"
+    "round"
   ],
   "categories": [
-    "interface",
     "files",
-    "development"
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud plus round",
+  "aliases": [
+    "Cloud3Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

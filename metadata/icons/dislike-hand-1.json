@@ -1,9 +1,10 @@
 {
-  "name": "DislikeHand1",
-  "displayName": "Dislike hand 1",
+  "name": "HandThumbDown",
+  "displayName": "Hand thumb down",
   "originalTitle": "Dislike Hand 1",
   "description": "Thumbs down hand gesture icon representing dislike or negative feedback. Used for rating systems, feedback forms, or disapproval actions.",
   "tags": [
+    "hand",
     "dislike",
     "thumbs",
     "down",
@@ -11,11 +12,11 @@
     "feedback",
     "rating",
     "disapproval",
-    "hand"
+    "thumb"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.799Z"
+  "generatedAt": "2026-02-15T00:53:19.799Z",
+  "aliases": [
+    "DislikeHand1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

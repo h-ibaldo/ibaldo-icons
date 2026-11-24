@@ -1,21 +1,22 @@
 {
-  "name": "ApplicationWindow1Lightning2",
-  "displayName": "Application window 1 lightning 2",
+  "name": "WindowBolt",
+  "displayName": "Window bolt",
   "originalTitle": "Application Window 1 Energy Lightning 2",
   "description": "Alternative lightning application window icon for representing fast or energy-related software. Indicates quick processing or power management applications.",
   "tags": [
-    "application",
     "window",
+    "application",
+    "energy",
     "lightning",
     "fast",
     "quick",
-    "energy",
     "power",
-    "speed"
+    "speed",
+    "bolt"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.768Z"
+  "generatedAt": "2026-02-15T00:53:19.768Z",
+  "aliases": [
+    "ApplicationWindow1Lightning2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

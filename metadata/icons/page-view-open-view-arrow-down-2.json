@@ -1,18 +1,21 @@
 {
-  "name": "PageViewOpenArrowDown2",
+  "name": "WindowListDownload",
   "description": "A page view icon with an open arrow pointing downward, variant 2",
   "tags": [
+    "window",
     "page",
     "view",
     "open",
     "arrow",
     "down",
     "expand",
-    "dropdown"
+    "dropdown",
+    "list",
+    "download"
   ],
   "categories": [
-    "interface",
-    "arrows"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window list download",
+  "aliases": [
+    "PageViewOpenArrowDown2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

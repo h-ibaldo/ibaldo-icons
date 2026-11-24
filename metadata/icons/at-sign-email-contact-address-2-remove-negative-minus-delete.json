@@ -1,21 +1,24 @@
 {
-  "name": "AtSign2Minus",
-  "displayName": "At sign 2 minus",
+  "name": "AtMinus",
+  "displayName": "At minus",
   "originalTitle": "At Sign Email Contact Address 2 Remove Negative Minus Delete",
   "description": "At symbol with minus sign for removing email addresses or contacts. Used to delete email entries or unsubscribe from mailing lists.",
   "tags": [
+    "at",
+    "sign",
     "email",
-    "remove",
-    "delete",
-    "minus",
     "contact",
     "address",
+    "remove",
+    "negative",
+    "delete",
+    "subtract",
+    "minus",
     "unsubscribe",
     "at-sign"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.778Z"
+  "generatedAt": "2026-02-15T00:53:19.778Z",
+  "aliases": [
+    "AtSign2Minus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,0 +1,35 @@
+{
+  "name": "BadgeJagged",
+  "displayName": "Badge jagged",
+  "description": "Jagged rosette badge with an empty circle in the center.",
+  "tags": [
+    "badge",
+    "rosette",
+    "seal",
+    "award",
+    "quality",
+    "stamp",
+    "verified"
+  ],
+  "categories": [
+    "social"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Badge"
+  },
+  "filename": "badge-jagged",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-18T20:48:48.606Z"
+}

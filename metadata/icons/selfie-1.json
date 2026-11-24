@@ -1,17 +1,16 @@
 {
-  "name": "Selfie1",
+  "name": "Selfie",
   "description": "A selfie camera icon representing self-portrait photography or front-facing camera functionality.",
   "tags": [
     "selfie",
     "camera",
     "self-portrait",
-    "front camera",
-    "photo",
-    "variant1"
+    "front-camera",
+    "photo"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "media",
+    "people"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Selfie",
+  "aliases": [
+    "Selfie1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

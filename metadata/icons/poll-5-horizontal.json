@@ -1,17 +1,21 @@
 {
-  "name": "Poll5Horizontal",
+  "name": "PollHorizontalCheckX",
   "description": "A horizontal poll icon with five survey options or response categories",
   "tags": [
     "poll",
+    "done",
+    "success",
+    "verified",
+    "close",
+    "delete",
+    "remove",
     "horizontal",
     "survey",
     "voting",
     "feedback",
-    "questionnaire",
-    "opinion"
+    "questionnaire"
   ],
   "categories": [
-    "interface",
     "business"
   ],
   "accessibility": {
@@ -29,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Poll horizontal check X",
+  "aliases": [
+    "Poll5Horizontal"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "DownloadDashedArrow",
+  "name": "DownloadDotted",
   "description": "A download icon with a dashed downward arrow, indicating file download with a sketched or incomplete state.",
   "tags": [
     "download",
@@ -8,11 +8,12 @@
     "down",
     "file",
     "incomplete",
-    "sketch"
+    "sketch",
+    "dotted"
   ],
   "categories": [
-    "interface",
-    "files"
+    "files",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Download dotted",
+  "aliases": [
+    "DownloadDashedArrow"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,20 +1,18 @@
 {
-  "name": "LupeSearchDollar",
+  "name": "SearchDollarB",
   "description": "A magnifying glass search icon with a dollar sign for searching financial information or price-related content",
   "tags": [
-    "lupe",
     "search",
-    "dollar",
+    "lupe",
     "sign",
     "money",
     "paid",
+    "dollar",
     "finance",
     "price"
   ],
   "categories": [
-    "interface",
-    "business",
-    "shopping"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Search dollar B",
+  "aliases": [
+    "LupeSearchDollar"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

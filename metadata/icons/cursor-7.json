@@ -1,5 +1,5 @@
 {
-  "name": "Cursor79",
+  "name": "CursorStraightNotched",
   "description": "A cursor pointer icon variant 7 for interface navigation and interaction design",
   "tags": [
     "cursor",
@@ -9,11 +9,11 @@
     "navigation",
     "interaction",
     "mouse",
-    "variant 7"
+    "straight",
+    "notched"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "interface"
   ],
   "accessibility": {
     "role": "decorative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cursor straight notched",
+  "aliases": [
+    "Cursor79"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

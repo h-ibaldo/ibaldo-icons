@@ -1,13 +1,14 @@
 {
-  "name": "EnvelopeSearch3",
+  "name": "MailSearchFolds",
   "description": "An envelope mail icon with a search magnifying glass showing the third variant for email lookup",
   "tags": [
-    "envelope",
-    "search",
     "mail",
+    "envelope",
+    "lupe",
     "email",
-    "magnifying glass",
-    "variant3"
+    "search",
+    "magnifying-glass",
+    "folds"
   ],
   "categories": [
     "communication"
@@ -27,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Mail search folds",
+  "aliases": [
+    "EnvelopeSearch3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

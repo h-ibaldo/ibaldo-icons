@@ -1,0 +1,6258 @@
+{
+  "application-window-1-1": {
+    "name": "Window",
+    "displayName": "Window",
+    "aliases": [
+      "ApplicationWindow1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "app",
+      "software",
+      "interface",
+      "program",
+      "desktop"
+    ]
+  },
+  "application-window-1-2": {
+    "name": "WindowDotsRight",
+    "displayName": "Window dots right",
+    "aliases": [
+      "ApplicationWindow2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "app",
+      "software",
+      "interface",
+      "program",
+      "desktop",
+      "dots",
+      "right"
+    ]
+  },
+  "application-window-1-3": {
+    "name": "WindowPlain",
+    "displayName": "Window plain",
+    "aliases": [
+      "ApplicationWindow3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "app",
+      "software",
+      "interface",
+      "program",
+      "desktop",
+      "plain"
+    ]
+  },
+  "application-window-1-4": {
+    "name": "WindowBare",
+    "displayName": "Window bare",
+    "aliases": [
+      "ApplicationWindow4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "app",
+      "software",
+      "interface",
+      "program",
+      "desktop",
+      "bare"
+    ]
+  },
+  "application-window-1-5": {
+    "name": "WindowTwoDots",
+    "displayName": "Window two dots",
+    "aliases": [
+      "ApplicationWindow5"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "app",
+      "software",
+      "interface",
+      "program",
+      "desktop",
+      "two",
+      "dots"
+    ]
+  },
+  "application-window-1-6": {
+    "name": "WindowTwoDotsRight",
+    "displayName": "Window two dots right",
+    "aliases": [
+      "ApplicationWindow6"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "app",
+      "software",
+      "interface",
+      "program",
+      "desktop",
+      "two",
+      "dots",
+      "right"
+    ]
+  },
+  "application-window-1-arrow-left-right": {
+    "name": "WindowArrowLeftRight",
+    "displayName": "Window arrow left right",
+    "aliases": [
+      "ApplicationWindow1ArrowLeftRight"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "resize",
+      "arrows",
+      "move",
+      "adjust",
+      "horizontal",
+      "expand",
+      "arrow",
+      "left",
+      "right"
+    ]
+  },
+  "application-window-1-bulb-idea-1": {
+    "name": "WindowLightbulbCenter",
+    "displayName": "Window lightbulb center",
+    "aliases": [
+      "ApplicationWindow1Bulb1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "bulb",
+      "idea",
+      "lightbulb",
+      "creative",
+      "innovation",
+      "brainstorm",
+      "inspiration",
+      "center"
+    ]
+  },
+  "application-window-1-bulb-idea-2": {
+    "name": "WindowLightbulb",
+    "displayName": "Window lightbulb",
+    "aliases": [
+      "ApplicationWindow1Bulb2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "bulb",
+      "idea",
+      "lightbulb",
+      "creative",
+      "innovation",
+      "brainstorm",
+      "inspiration"
+    ]
+  },
+  "application-window-1-chart-analytics-1": {
+    "name": "WindowChart",
+    "displayName": "Window chart",
+    "aliases": [
+      "ApplicationWindow1Chart4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "analytics",
+      "chart",
+      "graph",
+      "data",
+      "dashboard"
+    ]
+  },
+  "application-window-1-chart-analytics-2": {
+    "name": "WindowChartZigzag",
+    "displayName": "Window chart zigzag",
+    "aliases": [
+      "ApplicationWindow1Chart5"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "analytics",
+      "chart",
+      "graph",
+      "data",
+      "metrics",
+      "zigzag"
+    ]
+  },
+  "application-window-1-chart-analytics-3": {
+    "name": "WindowChartArrow",
+    "displayName": "Window chart arrow",
+    "aliases": [
+      "ApplicationWindow1Chart6"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "analytics",
+      "chart",
+      "graph",
+      "data",
+      "visualization",
+      "arrow"
+    ]
+  },
+  "application-window-1-check-mark": {
+    "name": "WindowCheckCircle",
+    "displayName": "Window check circle",
+    "aliases": [
+      "ApplicationWindowCheck"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "mark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "approved",
+      "confirmation",
+      "circle"
+    ]
+  },
+  "application-window-1-circle-dots-other-menu": {
+    "name": "WindowDotsCircle",
+    "displayName": "Window dots circle",
+    "aliases": [
+      "ApplicationWindow1CircleDotsMenu"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "other",
+      "menu",
+      "dots",
+      "options",
+      "settings",
+      "more",
+      "context",
+      "circle"
+    ]
+  },
+  "application-window-1-clock": {
+    "name": "WindowClock",
+    "displayName": "Window clock",
+    "aliases": [
+      "ApplicationWindowClock"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "clock",
+      "time",
+      "schedule",
+      "timer",
+      "duration"
+    ]
+  },
+  "application-window-1-cloud-1": {
+    "name": "WindowCloud",
+    "displayName": "Window cloud",
+    "aliases": [
+      "ApplicationWindow1Cloud4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "cloud",
+      "software",
+      "online",
+      "storage",
+      "computing",
+      "saas"
+    ]
+  },
+  "application-window-1-cloud-2": {
+    "name": "WindowCloud2",
+    "displayName": "Window cloud2",
+    "aliases": [
+      "ApplicationWindow1Cloud2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "cloud",
+      "web",
+      "online",
+      "platform",
+      "service",
+      "interface"
+    ]
+  },
+  "application-window-1-cloud-3": {
+    "name": "WindowCloudPuffy",
+    "displayName": "Window cloud puffy",
+    "aliases": [
+      "ApplicationWindow1Cloud3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "cloud",
+      "computing",
+      "online",
+      "service",
+      "software",
+      "platform",
+      "puffy"
+    ]
+  },
+  "application-window-1-color-picker": {
+    "name": "WindowEyedropper",
+    "displayName": "Window eyedropper",
+    "aliases": [
+      "ApplicationWindow1ColorPicker"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "color",
+      "picker",
+      "design",
+      "graphics",
+      "tool",
+      "creative",
+      "eyedropper"
+    ]
+  },
+  "application-window-1-dots-menu": {
+    "name": "WindowDotsVertical",
+    "displayName": "Window dots vertical",
+    "aliases": [
+      "ApplicationWindow1DotsMenu"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "menu",
+      "dots",
+      "options",
+      "settings",
+      "more",
+      "interface",
+      "vertical"
+    ]
+  },
+  "application-window-1-energy-lightning-1": {
+    "name": "WindowBoltCenter",
+    "displayName": "Window bolt center",
+    "aliases": [
+      "ApplicationWindow1Lightning1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "energy",
+      "lightning",
+      "power",
+      "fast",
+      "performance",
+      "speed",
+      "bolt",
+      "center"
+    ]
+  },
+  "application-window-1-energy-lightning-2": {
+    "name": "WindowBolt",
+    "displayName": "Window bolt",
+    "aliases": [
+      "ApplicationWindow1Lightning2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "energy",
+      "lightning",
+      "fast",
+      "quick",
+      "power",
+      "speed",
+      "bolt"
+    ]
+  },
+  "application-window-1-energy-lightning-3": {
+    "name": "WindowBoltWide",
+    "displayName": "Window bolt wide",
+    "aliases": [
+      "ApplicationWindow1Lightning4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "energy",
+      "lightning",
+      "performance",
+      "management",
+      "speed",
+      "power",
+      "bolt",
+      "wide"
+    ]
+  },
+  "application-window-1-gear-settings-1": {
+    "name": "WindowSettingsCenter",
+    "displayName": "Window settings center",
+    "aliases": [
+      "ApplicationWindow1Settings3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "gear",
+      "settings",
+      "configuration",
+      "preferences",
+      "options",
+      "control",
+      "center"
+    ]
+  },
+  "application-window-1-gear-settings-2": {
+    "name": "WindowSettings",
+    "displayName": "Window settings",
+    "aliases": [
+      "ApplicationWindow1Settings4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "gear",
+      "settings",
+      "preferences",
+      "configuration",
+      "system",
+      "control"
+    ]
+  },
+  "application-window-1-heart-favorite-1": {
+    "name": "WindowHeartCenter",
+    "displayName": "Window heart center",
+    "aliases": [
+      "ApplicationWindow1Heart3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "favorite",
+      "heart",
+      "bookmark",
+      "like",
+      "preference",
+      "saved",
+      "center"
+    ]
+  },
+  "application-window-1-heart-favorite-2": {
+    "name": "WindowHeart",
+    "displayName": "Window heart",
+    "aliases": [
+      "ApplicationWindow1Heart4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "favorite",
+      "heart",
+      "saved",
+      "liked",
+      "bookmark",
+      "collection"
+    ]
+  },
+  "application-window-1-internet-explorer": {
+    "name": "WindowLetterE",
+    "displayName": "Window letter E",
+    "aliases": [
+      "ApplicationWindow1InternetExplorer2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "internet",
+      "explorer",
+      "browser",
+      "web",
+      "browsing",
+      "microsoft",
+      "letter"
+    ]
+  },
+  "application-window-1-key-password-protected-1": {
+    "name": "WindowKeyHorizontal",
+    "displayName": "Window key horizontal",
+    "aliases": [
+      "ApplicationWindow1Key1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "password",
+      "protected",
+      "key",
+      "security",
+      "authentication",
+      "secure",
+      "horizontal"
+    ]
+  },
+  "application-window-1-key-password-protected-2": {
+    "name": "WindowKeySkeleton",
+    "displayName": "Window key skeleton",
+    "aliases": [
+      "ApplicationWindow1Key2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "password",
+      "protected",
+      "key",
+      "security",
+      "authentication",
+      "access",
+      "login",
+      "skeleton"
+    ]
+  },
+  "application-window-1-key-password-protected-3": {
+    "name": "WindowKey",
+    "displayName": "Window key",
+    "aliases": [
+      "ApplicationWindow1Key3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "password",
+      "protected",
+      "key",
+      "secure",
+      "authentication",
+      "login"
+    ]
+  },
+  "application-window-1-key-password-protected-4": {
+    "name": "WindowKeyDot",
+    "displayName": "Window key dot",
+    "aliases": [
+      "ApplicationWindow1Key4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "password",
+      "protected",
+      "unread",
+      "badge",
+      "key",
+      "secure",
+      "authentication",
+      "login",
+      "dot"
+    ]
+  },
+  "application-window-1-key-password-protected-5": {
+    "name": "WindowPassword",
+    "displayName": "Window password",
+    "aliases": [
+      "ApplicationWindow1Key5"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "key",
+      "protected",
+      "password",
+      "secure",
+      "authentication",
+      "login"
+    ]
+  },
+  "application-window-1-lupe-search": {
+    "name": "WindowSearch",
+    "displayName": "Window search",
+    "aliases": [
+      "ApplicationWindow1Search"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "lupe",
+      "search",
+      "magnifying",
+      "glass",
+      "find",
+      "lookup",
+      "query"
+    ]
+  },
+  "application-window-1-microsoft-excel": {
+    "name": "WindowLetterX",
+    "displayName": "Window letter X",
+    "aliases": [
+      "ApplicationWindow1Excel"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "microsoft",
+      "excel",
+      "close",
+      "delete",
+      "remove",
+      "spreadsheet",
+      "data",
+      "table",
+      "calculation",
+      "office"
+    ]
+  },
+  "application-window-1-microsoft-word": {
+    "name": "WindowLetterW",
+    "displayName": "Window letter W",
+    "aliases": [
+      "ApplicationWindow1Word"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "microsoft",
+      "word",
+      "document",
+      "text",
+      "writing",
+      "editor",
+      "office",
+      "letter"
+    ]
+  },
+  "application-window-1-music-note-1": {
+    "name": "WindowMusicCenter",
+    "displayName": "Window music center",
+    "aliases": [
+      "ApplicationWindow1Music1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "note",
+      "music",
+      "audio",
+      "sound",
+      "player",
+      "media",
+      "entertainment",
+      "center"
+    ]
+  },
+  "application-window-1-music-note-2": {
+    "name": "WindowMusic",
+    "displayName": "Window music",
+    "aliases": [
+      "ApplicationWindow1Music2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "note",
+      "music",
+      "audio",
+      "sound",
+      "player",
+      "media",
+      "entertainment"
+    ]
+  },
+  "application-window-1-music-note-3": {
+    "name": "WindowMusicDoubleCenter",
+    "displayName": "Window music double center",
+    "aliases": [
+      "ApplicationWindow1MusicNote3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "note",
+      "music",
+      "audio",
+      "sound",
+      "player",
+      "media",
+      "entertainment",
+      "double",
+      "center"
+    ]
+  },
+  "application-window-1-music-note-4": {
+    "name": "WindowMusicDouble",
+    "displayName": "Window music double",
+    "aliases": [
+      "ApplicationWindow1MusicNote4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "note",
+      "music",
+      "audio",
+      "sound",
+      "player",
+      "media",
+      "entertainment",
+      "double"
+    ]
+  },
+  "application-window-1-negative-remove-minus-delete": {
+    "name": "WindowMinusCircle",
+    "displayName": "Window minus circle",
+    "aliases": [
+      "ApplicationWindowRemove"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "close",
+      "action",
+      "circle"
+    ]
+  },
+  "application-window-1-pdf": {
+    "name": "WindowPdf",
+    "displayName": "Window pdf",
+    "aliases": [
+      "ApplicationWindow1Pdf"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "pdf",
+      "document",
+      "file",
+      "viewer",
+      "interface"
+    ]
+  },
+  "application-window-1-positive-add-plus": {
+    "name": "WindowPlusCircle",
+    "displayName": "Window plus circle",
+    "aliases": [
+      "ApplicationWindowAdd"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "action",
+      "circle"
+    ]
+  },
+  "application-window-1-rosette-medal-1": {
+    "name": "WindowMedal",
+    "displayName": "Window medal",
+    "aliases": [
+      "ApplicationWindow1Rosette1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "rosette",
+      "medal",
+      "award",
+      "achievement",
+      "badge",
+      "recognition"
+    ]
+  },
+  "application-window-1-rosette-medal-2": {
+    "name": "WindowSeal",
+    "displayName": "Window seal",
+    "aliases": [
+      "ApplicationWindow1Rosette2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "rosette",
+      "medal",
+      "award",
+      "achievement",
+      "recognition",
+      "trophy",
+      "winner",
+      "success",
+      "seal"
+    ]
+  },
+  "application-window-1-rosette-medal-3": {
+    "name": "WindowAward",
+    "displayName": "Window award",
+    "aliases": [
+      "ApplicationWindow1Rosette3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "rosette",
+      "medal",
+      "award",
+      "achievement",
+      "certification"
+    ]
+  },
+  "application-window-1-rosette-medal-4": {
+    "name": "WindowRosette",
+    "displayName": "Window rosette",
+    "aliases": [
+      "ApplicationWindow1Rosette4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "medal",
+      "award",
+      "achievement",
+      "recognition",
+      "trophy",
+      "winner",
+      "success",
+      "rosette"
+    ]
+  },
+  "application-window-1-shield-1": {
+    "name": "WindowShieldCenter",
+    "displayName": "Window shield center",
+    "aliases": [
+      "ApplicationWindow1Shield1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "shield",
+      "security",
+      "protection",
+      "antivirus",
+      "safety",
+      "defense",
+      "guard",
+      "center"
+    ]
+  },
+  "application-window-1-shield-2": {
+    "name": "WindowShield",
+    "displayName": "Window shield",
+    "aliases": [
+      "ApplicationWindow1Shield2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "shield",
+      "security",
+      "protection",
+      "secure",
+      "safety"
+    ]
+  },
+  "application-window-1-speech-1": {
+    "name": "WindowChat",
+    "displayName": "Window chat",
+    "aliases": [
+      "ApplicationWindow1Speech1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "speech",
+      "chat",
+      "message",
+      "communication",
+      "talk",
+      "conversation",
+      "bubble"
+    ]
+  },
+  "application-window-1-speech-2": {
+    "name": "WindowChatCorner",
+    "displayName": "Window chat corner",
+    "aliases": [
+      "ApplicationWindow1Speech2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "speech",
+      "chat",
+      "message",
+      "communication",
+      "talk",
+      "conversation",
+      "bubble",
+      "corner"
+    ]
+  },
+  "application-window-1-speech-3": {
+    "name": "WindowChatRound",
+    "displayName": "Window chat round",
+    "aliases": [
+      "ApplicationWindow1Speech3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "speech",
+      "chat",
+      "message",
+      "communication",
+      "dialog",
+      "bubble",
+      "round"
+    ]
+  },
+  "application-window-1-star-favourite-1": {
+    "name": "WindowStarCenter",
+    "displayName": "Window star center",
+    "aliases": [
+      "ApplicationWindow1Star1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "favourite",
+      "star",
+      "favorite",
+      "bookmark",
+      "rating",
+      "preferred",
+      "mark",
+      "center"
+    ]
+  },
+  "application-window-1-star-favourite-2": {
+    "name": "WindowStar",
+    "displayName": "Window star",
+    "aliases": [
+      "ApplicationWindow1Star2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "favourite",
+      "star",
+      "favorite",
+      "bookmark",
+      "rating",
+      "preferred",
+      "mark"
+    ]
+  },
+  "application-window-1-tools-1": {
+    "name": "WindowWrench",
+    "displayName": "Window wrench",
+    "aliases": [
+      "ApplicationWindow1Tools1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "tools",
+      "settings",
+      "configuration",
+      "utilities",
+      "preferences",
+      "maintenance",
+      "wrench"
+    ]
+  },
+  "application-window-1-tools-2": {
+    "name": "WindowWrench2",
+    "displayName": "Window wrench2",
+    "aliases": [
+      "ApplicationWindow1Tools2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "tools",
+      "settings",
+      "configuration",
+      "utilities",
+      "preferences",
+      "maintenance"
+    ]
+  },
+  "application-window-1-x-close-delete-remove": {
+    "name": "WindowXCircle",
+    "displayName": "Window X circle",
+    "aliases": [
+      "ApplicationWindowClose3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "close",
+      "delete",
+      "remove",
+      "exit",
+      "dismiss",
+      "circle"
+    ]
+  },
+  "application-window-2-arrow-left-right-sort-1": {
+    "name": "WindowArrowLeftRightBare",
+    "displayName": "Window arrow left right bare",
+    "aliases": [
+      "ApplicationWindow2ArrowLeftRight1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "sort",
+      "arrows",
+      "organize",
+      "reorder",
+      "data",
+      "horizontal",
+      "arrow",
+      "left",
+      "right",
+      "bare"
+    ]
+  },
+  "application-window-2-arrow-left-right-sort-2": {
+    "name": "WindowArrowLeftRightBare2",
+    "displayName": "Window arrow left right bare2",
+    "aliases": [
+      "ApplicationWindow2ArrowLeftRight2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "sort",
+      "arrows",
+      "organize",
+      "reorder",
+      "data",
+      "horizontal",
+      "arrow",
+      "left",
+      "right"
+    ]
+  },
+  "application-window-2-bulb-idea": {
+    "name": "WindowLightbulbBare",
+    "displayName": "Window lightbulb bare",
+    "aliases": [
+      "ApplicationWindow2Bulb"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "bulb",
+      "idea",
+      "innovation",
+      "creativity",
+      "tips",
+      "help",
+      "lightbulb",
+      "bare"
+    ]
+  },
+  "application-window-2-chart-analytics-1": {
+    "name": "WindowChartBare",
+    "displayName": "Window chart bare",
+    "aliases": [
+      "ApplicationWindow2Chart1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "analytics",
+      "chart",
+      "data",
+      "visualization",
+      "dashboard",
+      "statistics",
+      "bare"
+    ]
+  },
+  "application-window-2-chart-analytics-2": {
+    "name": "WindowChartZigzagBare",
+    "displayName": "Window chart zigzag bare",
+    "aliases": [
+      "ApplicationWindow2Chart2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "analytics",
+      "chart",
+      "data",
+      "visualization",
+      "dashboard",
+      "statistics",
+      "zigzag",
+      "bare"
+    ]
+  },
+  "application-window-2-chart-analytics-3": {
+    "name": "WindowChartArrowBare",
+    "displayName": "Window chart arrow bare",
+    "aliases": [
+      "ApplicationWindow2Chart3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "analytics",
+      "chart",
+      "data",
+      "visualization",
+      "dashboard",
+      "statistics",
+      "arrow",
+      "bare"
+    ]
+  },
+  "application-window-2-check-mark-1": {
+    "name": "WindowCheck",
+    "displayName": "Window check",
+    "aliases": [
+      "ApplicationWindow2Check"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "mark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "approved"
+    ]
+  },
+  "application-window-2-check-mark-2": {
+    "name": "WindowCheckCenter",
+    "displayName": "Window check center",
+    "aliases": [
+      "ApplicationWindowCheck2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "mark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "approved",
+      "confirmation",
+      "interface",
+      "center"
+    ]
+  },
+  "application-window-2-circle-dots-other-menu": {
+    "name": "WindowDotsCircleBare",
+    "displayName": "Window dots circle bare",
+    "aliases": [
+      "ApplicationWindow2CircleDots"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "other",
+      "menu",
+      "dots",
+      "options",
+      "more",
+      "overflow",
+      "context",
+      "circle",
+      "bare"
+    ]
+  },
+  "application-window-2-cloud-1": {
+    "name": "WindowCloudCenterBare",
+    "displayName": "Window cloud center bare",
+    "aliases": [
+      "ApplicationWindow2Cloud1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "cloud",
+      "storage",
+      "sync",
+      "online",
+      "remote",
+      "backup",
+      "center",
+      "bare"
+    ]
+  },
+  "application-window-2-cloud-2": {
+    "name": "WindowCloudBare",
+    "displayName": "Window cloud bare",
+    "aliases": [
+      "ApplicationWindow2Cloud2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "cloud",
+      "storage",
+      "sync",
+      "online",
+      "remote",
+      "backup",
+      "bare"
+    ]
+  },
+  "application-window-2-cloud-3": {
+    "name": "WindowCloudBare2",
+    "displayName": "Window cloud bare2",
+    "aliases": [
+      "ApplicationWindow2Cloud3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "cloud",
+      "storage",
+      "sync",
+      "online",
+      "remote",
+      "backup"
+    ]
+  },
+  "application-window-2-cloud-4": {
+    "name": "WindowCloudPuffyBare",
+    "displayName": "Window cloud puffy bare",
+    "aliases": [
+      "ApplicationWindow2Cloud4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "cloud",
+      "storage",
+      "sync",
+      "software",
+      "desktop",
+      "integration",
+      "puffy",
+      "bare"
+    ]
+  },
+  "application-window-2-color-picker": {
+    "name": "WindowEyedropperBare",
+    "displayName": "Window eyedropper bare",
+    "aliases": [
+      "ApplicationWindow2ColorPicker"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "color",
+      "picker",
+      "design",
+      "graphics",
+      "palette",
+      "tool",
+      "eyedropper",
+      "bare"
+    ]
+  },
+  "application-window-2-dots-menu": {
+    "name": "WindowDotsVerticalBare",
+    "displayName": "Window dots vertical bare",
+    "aliases": [
+      "ApplicationWindow2DotsMenu"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "menu",
+      "dots",
+      "options",
+      "more",
+      "actions",
+      "settings",
+      "vertical",
+      "bare"
+    ]
+  },
+  "application-window-2-energy-lightning-1": {
+    "name": "WindowBoltCenterBare",
+    "displayName": "Window bolt center bare",
+    "aliases": [
+      "ApplicationWindow2Lightning1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "energy",
+      "lightning",
+      "power",
+      "performance",
+      "fast",
+      "electric",
+      "bolt",
+      "center",
+      "bare"
+    ]
+  },
+  "application-window-2-energy-lightning-2": {
+    "name": "WindowBoltBare",
+    "displayName": "Window bolt bare",
+    "aliases": [
+      "ApplicationWindow2Lightning2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "energy",
+      "lightning",
+      "power",
+      "electric",
+      "battery",
+      "performance",
+      "bolt",
+      "bare"
+    ]
+  },
+  "application-window-2-energy-lightning-3": {
+    "name": "WindowBoltWideBare",
+    "displayName": "Window bolt wide bare",
+    "aliases": [
+      "ApplicationWindow2Lightning3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "energy",
+      "lightning",
+      "quick",
+      "fast",
+      "power",
+      "speed",
+      "bolt",
+      "wide",
+      "bare"
+    ]
+  },
+  "application-window-2-gear-settings-1": {
+    "name": "WindowSettingsCenterBare",
+    "displayName": "Window settings center bare",
+    "aliases": [
+      "ApplicationWindow2Settings1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "gear",
+      "settings",
+      "configuration",
+      "preferences",
+      "options",
+      "tools",
+      "center",
+      "bare"
+    ]
+  },
+  "application-window-2-gear-settings-2": {
+    "name": "WindowSettingsBare",
+    "displayName": "Window settings bare",
+    "aliases": [
+      "ApplicationWindow2Settings2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "gear",
+      "settings",
+      "system",
+      "admin",
+      "control",
+      "management",
+      "bare"
+    ]
+  },
+  "application-window-2-heart-favorite-1": {
+    "name": "WindowHeartCenterBare",
+    "displayName": "Window heart center bare",
+    "aliases": [
+      "ApplicationWindow2Heart1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "favorite",
+      "heart",
+      "like",
+      "bookmark",
+      "love",
+      "preference",
+      "center",
+      "bare"
+    ]
+  },
+  "application-window-2-heart-favorite-2": {
+    "name": "WindowHeartBare",
+    "displayName": "Window heart bare",
+    "aliases": [
+      "ApplicationWindow2Heart2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "favorite",
+      "heart",
+      "social",
+      "like",
+      "wishlist",
+      "dating",
+      "bare"
+    ]
+  },
+  "application-window-2-internet-explorer": {
+    "name": "WindowLetterEBare",
+    "displayName": "Window letter E bare",
+    "aliases": [
+      "ApplicationWindow2InternetExplorer"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "internet",
+      "explorer",
+      "browser",
+      "web",
+      "microsoft",
+      "legacy",
+      "letter",
+      "bare"
+    ]
+  },
+  "application-window-2-key-password-protected-1": {
+    "name": "WindowKeyHorizontalBare",
+    "displayName": "Window key horizontal bare",
+    "aliases": [
+      "ApplicationWindow2Key1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "password",
+      "protected",
+      "key",
+      "security",
+      "encrypted",
+      "secure",
+      "horizontal",
+      "bare"
+    ]
+  },
+  "application-window-2-key-password-protected-2": {
+    "name": "WindowKeySkeletonBare",
+    "displayName": "Window key skeleton bare",
+    "aliases": [
+      "ApplicationWindow2Key2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "password",
+      "protected",
+      "key",
+      "authentication",
+      "access",
+      "login",
+      "credentials",
+      "security",
+      "skeleton",
+      "bare"
+    ]
+  },
+  "application-window-2-key-password-protected-3": {
+    "name": "WindowKeyDotBare",
+    "displayName": "Window key dot bare",
+    "aliases": [
+      "ApplicationWindow2Key3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "password",
+      "protected",
+      "unread",
+      "badge",
+      "key",
+      "encryption",
+      "privacy",
+      "protection",
+      "secure",
+      "data"
+    ]
+  },
+  "application-window-2-key-password-protected-4": {
+    "name": "WindowPasswordBare",
+    "displayName": "Window password bare",
+    "aliases": [
+      "ApplicationWindow2Key4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "key",
+      "protected",
+      "admin",
+      "management",
+      "privileged",
+      "access",
+      "security",
+      "password",
+      "bare"
+    ]
+  },
+  "application-window-2-key-password-protected-5": {
+    "name": "WindowChatBare",
+    "displayName": "Window chat bare",
+    "aliases": [
+      "ApplicationWindow2Key5"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "key",
+      "password",
+      "protected",
+      "secure",
+      "lock",
+      "security",
+      "chat",
+      "bare"
+    ]
+  },
+  "application-window-2-key-password-protected-6": {
+    "name": "WindowChatCornerBare",
+    "displayName": "Window chat corner bare",
+    "aliases": [
+      "ApplicationWindow2Key6"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "key",
+      "password",
+      "protected",
+      "secure",
+      "lock",
+      "security",
+      "chat",
+      "corner",
+      "bare"
+    ]
+  },
+  "application-window-2-lupe-search": {
+    "name": "WindowSearchBare",
+    "displayName": "Window search bare",
+    "aliases": [
+      "ApplicationWindow2Search"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "lupe",
+      "search",
+      "magnifying",
+      "glass",
+      "find",
+      "lookup",
+      "explore",
+      "bare"
+    ]
+  },
+  "application-window-2-microsoft-excel": {
+    "name": "WindowLetterXBare",
+    "displayName": "Window letter X bare",
+    "aliases": [
+      "ApplicationWindow2Excel"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "microsoft",
+      "excel",
+      "close",
+      "delete",
+      "remove",
+      "spreadsheet",
+      "data",
+      "table",
+      "office",
+      "letter"
+    ]
+  },
+  "application-window-2-microsoft-word": {
+    "name": "WindowLetterWBare",
+    "displayName": "Window letter W bare",
+    "aliases": [
+      "ApplicationWindow2Word"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "microsoft",
+      "word",
+      "document",
+      "text",
+      "editor",
+      "office",
+      "letter",
+      "bare"
+    ]
+  },
+  "application-window-2-music-note-1": {
+    "name": "WindowMusicCenterBare",
+    "displayName": "Window music center bare",
+    "aliases": [
+      "ApplicationWindow2Music1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "note",
+      "music",
+      "audio",
+      "sound",
+      "player",
+      "media",
+      "center",
+      "bare"
+    ]
+  },
+  "application-window-2-music-note-2": {
+    "name": "WindowMusicBare",
+    "displayName": "Window music bare",
+    "aliases": [
+      "ApplicationWindow2Music2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "note",
+      "music",
+      "audio",
+      "sound",
+      "player",
+      "media",
+      "bare"
+    ]
+  },
+  "application-window-2-music-note-3": {
+    "name": "WindowMusicDoubleCenterBare",
+    "displayName": "Window music double center bare",
+    "aliases": [
+      "ApplicationWindow2Music3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "note",
+      "music",
+      "audio",
+      "sound",
+      "player",
+      "media",
+      "double",
+      "center",
+      "bare"
+    ]
+  },
+  "application-window-2-music-note-4": {
+    "name": "WindowMusicDoubleBare",
+    "displayName": "Window music double bare",
+    "aliases": [
+      "ApplicationWindow2Music4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "note",
+      "music",
+      "audio",
+      "sound",
+      "player",
+      "media",
+      "double",
+      "bare"
+    ]
+  },
+  "application-window-2-negative-remove-minus-delete-1": {
+    "name": "WindowMinus",
+    "displayName": "Window minus",
+    "aliases": [
+      "ApplicationWindowRemove1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "close",
+      "interface",
+      "action"
+    ]
+  },
+  "application-window-2-negative-remove-minus-delete-2": {
+    "name": "WindowMinusCenter",
+    "displayName": "Window minus center",
+    "aliases": [
+      "ApplicationWindowRemove2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "interface",
+      "action",
+      "center"
+    ]
+  },
+  "application-window-2-pdf": {
+    "name": "WindowPdfBare",
+    "displayName": "Window pdf bare",
+    "aliases": [
+      "ApplicationWindow2Pdf"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "pdf",
+      "document",
+      "portable",
+      "format",
+      "reader",
+      "viewer",
+      "bare"
+    ]
+  },
+  "application-window-2-play-sign-1": {
+    "name": "WindowPlay",
+    "displayName": "Window play",
+    "aliases": [
+      "ApplicationWindowPlay1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "sign",
+      "play",
+      "media",
+      "playback",
+      "launch",
+      "start",
+      "interface"
+    ]
+  },
+  "application-window-2-play-sign-2": {
+    "name": "WindowPlayCenter",
+    "displayName": "Window play center",
+    "aliases": [
+      "ApplicationWindowPlay2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "sign",
+      "play",
+      "media",
+      "playback",
+      "interface",
+      "center"
+    ]
+  },
+  "application-window-2-positive-add-plus-1": {
+    "name": "WindowPlus",
+    "displayName": "Window plus",
+    "aliases": [
+      "ApplicationWindowAdd1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "interface",
+      "action"
+    ]
+  },
+  "application-window-2-positive-add-plus-2": {
+    "name": "WindowPlusCenter",
+    "displayName": "Window plus center",
+    "aliases": [
+      "ApplicationWindowAdd2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "interface",
+      "center"
+    ]
+  },
+  "application-window-2-rosette-medal-1": {
+    "name": "WindowMedalBare",
+    "displayName": "Window medal bare",
+    "aliases": [
+      "ApplicationWindow2Rosette1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "rosette",
+      "medal",
+      "award",
+      "achievement",
+      "recognition",
+      "certificate",
+      "bare"
+    ]
+  },
+  "application-window-2-rosette-medal-2": {
+    "name": "WindowSealBare",
+    "displayName": "Window seal bare",
+    "aliases": [
+      "ApplicationWindow2Rosette2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "rosette",
+      "medal",
+      "award",
+      "achievement",
+      "recognition",
+      "certificate",
+      "seal",
+      "bare"
+    ]
+  },
+  "application-window-2-rosette-medal-3": {
+    "name": "WindowAwardBare",
+    "displayName": "Window award bare",
+    "aliases": [
+      "ApplicationWindow2Medal3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "rosette",
+      "medal",
+      "award",
+      "achievement",
+      "recognition",
+      "bare"
+    ]
+  },
+  "application-window-2-rosette-medal-4": {
+    "name": "WindowRosetteBare",
+    "displayName": "Window rosette bare",
+    "aliases": [
+      "ApplicationWindow2Medal4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "medal",
+      "rosette",
+      "award",
+      "achievement",
+      "certification",
+      "bare"
+    ]
+  },
+  "application-window-2-shield-1": {
+    "name": "WindowShieldCenterBare",
+    "displayName": "Window shield center bare",
+    "aliases": [
+      "ApplicationWindow2Shield1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "security",
+      "shield",
+      "protection",
+      "secure",
+      "software",
+      "safe",
+      "center",
+      "bare"
+    ]
+  },
+  "application-window-2-shield-2": {
+    "name": "WindowShieldBare",
+    "displayName": "Window shield bare",
+    "aliases": [
+      "ApplicationWindow2Shield2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "protection",
+      "shield",
+      "security",
+      "secure",
+      "interface",
+      "safe",
+      "bare"
+    ]
+  },
+  "application-window-2-speech": {
+    "name": "WindowChatRoundBare",
+    "displayName": "Window chat round bare",
+    "aliases": [
+      "ApplicationWindow2Speech"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "speech",
+      "chat",
+      "message",
+      "communication",
+      "bubble",
+      "talk",
+      "round",
+      "bare"
+    ]
+  },
+  "application-window-2-star-favourite-1": {
+    "name": "WindowStarCenterBare",
+    "displayName": "Window star center bare",
+    "aliases": [
+      "ApplicationWindow2Star1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "favourite",
+      "star",
+      "favorite",
+      "bookmark",
+      "rating",
+      "preferred",
+      "center",
+      "bare"
+    ]
+  },
+  "application-window-2-star-favourite-2": {
+    "name": "WindowStarBare",
+    "displayName": "Window star bare",
+    "aliases": [
+      "ApplicationWindow2Star2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "favourite",
+      "star",
+      "favorite",
+      "bookmark",
+      "rating",
+      "preferred",
+      "bare"
+    ]
+  },
+  "application-window-2-tools": {
+    "name": "WindowWrenchBare",
+    "displayName": "Window wrench bare",
+    "aliases": [
+      "ApplicationWindow2Tools"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "tools",
+      "utility",
+      "settings",
+      "configuration",
+      "maintenance",
+      "system",
+      "wrench",
+      "bare"
+    ]
+  },
+  "application-window-2-x-close-delete-remove-1": {
+    "name": "WindowX",
+    "displayName": "Window X",
+    "aliases": [
+      "ApplicationWindowClose1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "exit",
+      "interface"
+    ]
+  },
+  "application-window-2-x-close-delete-remove-2": {
+    "name": "WindowXCenter",
+    "displayName": "Window X center",
+    "aliases": [
+      "ApplicationWindowClose22"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "close",
+      "delete",
+      "remove",
+      "interface",
+      "center"
+    ]
+  },
+  "application-window-3-check-mark": {
+    "name": "WindowCheckCirclePlain",
+    "displayName": "Window check circle plain",
+    "aliases": [
+      "ApplicationWindowCheck3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "mark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "interface",
+      "circle",
+      "plain"
+    ]
+  },
+  "application-window-3-clock": {
+    "name": "WindowClockPlain",
+    "displayName": "Window clock plain",
+    "aliases": [
+      "AppWindowClock"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "clock",
+      "time",
+      "schedule",
+      "interface",
+      "ui",
+      "plain"
+    ]
+  },
+  "application-window-3-negative-remove-minus-delete": {
+    "name": "WindowMinusCirclePlain",
+    "displayName": "Window minus circle plain",
+    "aliases": [
+      "AppWindowRemove"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "interface",
+      "circle",
+      "plain"
+    ]
+  },
+  "application-window-3-positive-add-plus": {
+    "name": "WindowPlusCirclePlain",
+    "displayName": "Window plus circle plain",
+    "aliases": [
+      "AppWindowAdd"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "interface",
+      "circle",
+      "plain"
+    ]
+  },
+  "application-window-3-x-close-delete-remove": {
+    "name": "WindowXCirclePlain",
+    "displayName": "Window X circle plain",
+    "aliases": [
+      "AppWindowClose"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "close",
+      "delete",
+      "remove",
+      "interface",
+      "circle",
+      "plain"
+    ]
+  },
+  "application-window-4-check-mark-1": {
+    "name": "WindowCheckPlain",
+    "displayName": "Window check plain",
+    "aliases": [
+      "AppWindowCheck1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "mark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "approved",
+      "complete",
+      "interface",
+      "plain"
+    ]
+  },
+  "application-window-4-check-mark-2": {
+    "name": "WindowCheckCenterPlain",
+    "displayName": "Window check center plain",
+    "aliases": [
+      "AppWindowCheck2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "mark",
+      "done",
+      "success",
+      "verified",
+      "check",
+      "checkmark",
+      "complete",
+      "interface",
+      "center",
+      "plain"
+    ]
+  },
+  "application-window-4-negative-remove-minus-delete-1": {
+    "name": "WindowMinusPlain",
+    "displayName": "Window minus plain",
+    "aliases": [
+      "AppWindowRemove1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "interface",
+      "plain"
+    ]
+  },
+  "application-window-4-negative-remove-minus-delete-2": {
+    "name": "WindowMinusCenterPlain",
+    "displayName": "Window minus center plain",
+    "aliases": [
+      "AppWindowRemove2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "negative",
+      "remove",
+      "delete",
+      "subtract",
+      "minus",
+      "interface",
+      "center",
+      "plain"
+    ]
+  },
+  "application-window-4-positive-add-play-1": {
+    "name": "WindowPlayPlain",
+    "displayName": "Window play plain",
+    "aliases": [
+      "AppWindowPlay1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "positive",
+      "add",
+      "play",
+      "plus",
+      "media",
+      "interface",
+      "plain"
+    ]
+  },
+  "application-window-4-positive-add-play-2": {
+    "name": "WindowPlayCenterPlain",
+    "displayName": "Window play center plain",
+    "aliases": [
+      "AppWindowPlay2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "positive",
+      "add",
+      "play",
+      "plus",
+      "media",
+      "interface",
+      "center",
+      "plain"
+    ]
+  },
+  "application-window-4-positive-add-plus-1": {
+    "name": "WindowPlusPlain",
+    "displayName": "Window plus plain",
+    "aliases": [
+      "ApplicationWindowPlus1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "new",
+      "interface",
+      "plain"
+    ]
+  },
+  "application-window-4-positive-add-plus-2": {
+    "name": "WindowPlusCenterPlain",
+    "displayName": "Window plus center plain",
+    "aliases": [
+      "ApplicationWindowPlus2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "positive",
+      "add",
+      "create",
+      "plus",
+      "interface",
+      "center",
+      "plain"
+    ]
+  },
+  "application-window-4-x-close-delete-remove-1": {
+    "name": "WindowXPlain",
+    "displayName": "Window X plain",
+    "aliases": [
+      "ApplicationWindowClose12"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "interface",
+      "plain"
+    ]
+  },
+  "application-window-4-x-close-delete-remove-2": {
+    "name": "WindowXCenterPlain",
+    "displayName": "Window X center plain",
+    "aliases": [
+      "ApplicationWindowClose23"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "close",
+      "delete",
+      "remove",
+      "interface",
+      "center",
+      "plain"
+    ]
+  },
+  "application-window-levels-settings-adjustment-1": {
+    "name": "WindowSliders",
+    "displayName": "Window sliders",
+    "aliases": [
+      "ApplicationWindowLevels1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "levels",
+      "settings",
+      "adjustment",
+      "controls",
+      "interface",
+      "sliders"
+    ]
+  },
+  "application-window-levels-settings-adjustment-2": {
+    "name": "WindowSlidersTwo",
+    "displayName": "Window sliders two",
+    "aliases": [
+      "ApplicationWindowLevels2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "levels",
+      "settings",
+      "adjustment",
+      "controls",
+      "sliders",
+      "two"
+    ]
+  },
+  "application-window-levels-settings-adjustment-3": {
+    "name": "WindowSlidersPlain",
+    "displayName": "Window sliders plain",
+    "aliases": [
+      "ApplicationWindowLevels3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "levels",
+      "settings",
+      "adjustment",
+      "controls",
+      "sliders",
+      "plain"
+    ]
+  },
+  "application-window-levels-settings-adjustment-4": {
+    "name": "WindowSlidersTwoPlain",
+    "displayName": "Window sliders two plain",
+    "aliases": [
+      "ApplicationWindowLevels4"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "levels",
+      "settings",
+      "adjustment",
+      "controls",
+      "sliders",
+      "two",
+      "plain"
+    ]
+  },
+  "application-window-rocket-launch": {
+    "name": "WindowRocket",
+    "displayName": "Window rocket",
+    "aliases": [
+      "ApplicationWindowRocket"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "launch",
+      "rocket",
+      "deploy",
+      "start",
+      "interface"
+    ]
+  },
+  "application-windows-change-themes-dotted": {
+    "name": "WindowStackDottedAll",
+    "displayName": "Window stack dotted all",
+    "aliases": [
+      "ApplicationWindowsThemesDotted"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "windows",
+      "change",
+      "themes",
+      "theme",
+      "switching",
+      "customization",
+      "appearance",
+      "interface",
+      "visual",
+      "options"
+    ]
+  },
+  "application-windows-change-themes-dotted-1": {
+    "name": "WindowStackDotted",
+    "displayName": "Window stack dotted",
+    "aliases": [
+      "ApplicationWindowsThemesDotted1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "windows",
+      "change",
+      "themes",
+      "theme",
+      "customization",
+      "appearance",
+      "settings",
+      "interface",
+      "visual",
+      "preferences"
+    ]
+  },
+  "application-windows-change-themes-stripes": {
+    "name": "WindowStackStripedAll",
+    "displayName": "Window stack striped all",
+    "aliases": [
+      "ApplicationWindowsThemesStripes"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "windows",
+      "change",
+      "themes",
+      "stripes",
+      "customization",
+      "appearance",
+      "settings",
+      "design",
+      "stack",
+      "striped"
+    ]
+  },
+  "application-windows-change-themes-stripes-1": {
+    "name": "WindowStackStriped",
+    "displayName": "Window stack striped",
+    "aliases": [
+      "ApplicationWindowsThemes1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "windows",
+      "change",
+      "themes",
+      "stripes",
+      "theme",
+      "customization",
+      "appearance",
+      "settings",
+      "visual",
+      "preferences"
+    ]
+  },
+  "browser-window-1": {
+    "name": "Browser",
+    "displayName": "Browser",
+    "aliases": [
+      "BrowserWindow1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "web",
+      "internet",
+      "application",
+      "webpage",
+      "navigation",
+      "interface"
+    ]
+  },
+  "browser-window-2": {
+    "name": "WindowPlain2",
+    "displayName": "Window plain2",
+    "aliases": [
+      "BrowserWindow2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "web",
+      "internet",
+      "application",
+      "webpage",
+      "navigation",
+      "interface"
+    ]
+  },
+  "browser-window-arrow-down-download-1": {
+    "name": "BrowserDownload",
+    "displayName": "Browser download",
+    "aliases": [
+      "BrowserWindowDownload1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "arrow",
+      "down",
+      "download",
+      "file",
+      "transfer"
+    ]
+  },
+  "browser-window-arrow-down-download-2": {
+    "name": "WindowDownloadCenterPlain",
+    "displayName": "Window download center plain",
+    "aliases": [
+      "BrowserWindowDownload2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "arrow",
+      "down",
+      "download",
+      "file",
+      "transfer",
+      "center",
+      "plain"
+    ]
+  },
+  "browser-window-arrow-in": {
+    "name": "BrowserArrowUpRight",
+    "displayName": "Browser arrow up right",
+    "aliases": [
+      "BrowserWindowArrowIn"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "arrow",
+      "import",
+      "incoming",
+      "direction",
+      "up",
+      "right"
+    ]
+  },
+  "browser-window-arrow-up-upload-1": {
+    "name": "BrowserUpload",
+    "displayName": "Browser upload",
+    "aliases": [
+      "BrowserWindowUpload1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "arrow",
+      "up",
+      "upload",
+      "file",
+      "transfer"
+    ]
+  },
+  "browser-window-arrow-up-upload-2": {
+    "name": "WindowUploadPlain",
+    "displayName": "Window upload plain",
+    "aliases": [
+      "BrowserWindowUpload2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "arrow",
+      "up",
+      "upload",
+      "file",
+      "transfer",
+      "plain"
+    ]
+  },
+  "browser-window-bulb-call-to-action-1": {
+    "name": "BrowserLightbulb",
+    "displayName": "Browser lightbulb",
+    "aliases": [
+      "BrowserWindowBulbCta1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "bulb",
+      "call",
+      "action",
+      "lightbulb",
+      "call-to-action",
+      "cta",
+      "idea",
+      "suggestion"
+    ]
+  },
+  "browser-window-bulb-call-to-action-2": {
+    "name": "BrowserSunBare",
+    "displayName": "Browser sun bare",
+    "aliases": [
+      "BrowserWindowBulbCta2"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "bulb",
+      "call",
+      "action",
+      "lightbulb",
+      "call-to-action",
+      "cta",
+      "idea",
+      "suggestion",
+      "sun",
+      "bare"
+    ]
+  },
+  "browser-window-flashlight-1": {
+    "name": "BrowserFlashlightOn",
+    "displayName": "Browser flashlight on",
+    "aliases": [
+      "BrowserWindowFlashlight1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "flashlight",
+      "torch",
+      "light",
+      "search",
+      "focus",
+      "illuminate"
+    ]
+  },
+  "browser-window-flashlight-2": {
+    "name": "BrowserFlashlight",
+    "displayName": "Browser flashlight",
+    "aliases": [
+      "BrowserWindowFlashlight2"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "flashlight",
+      "torch",
+      "light",
+      "search",
+      "focus",
+      "illuminate"
+    ]
+  },
+  "browser-window-forbidden-access-dennied-1": {
+    "name": "BrowserBan",
+    "displayName": "Browser ban",
+    "aliases": [
+      "BrowserWindowForbidden1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "forbidden",
+      "access",
+      "dennied",
+      "blocked",
+      "denied",
+      "restriction",
+      "prohibited",
+      "ban"
+    ]
+  },
+  "browser-window-forbidden-access-dennied-2": {
+    "name": "BrowserBanBare",
+    "displayName": "Browser ban bare",
+    "aliases": [
+      "BrowserWindowForbidden"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "forbidden",
+      "access",
+      "dennied",
+      "blocked",
+      "denied",
+      "block",
+      "restrict",
+      "error",
+      "security",
+      "ban"
+    ]
+  },
+  "browser-window-forbidden-access-dennied-3": {
+    "name": "WindowBanPlain",
+    "displayName": "Window ban plain",
+    "aliases": [
+      "BrowserWindowDenied"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "forbidden",
+      "access",
+      "dennied",
+      "blocked",
+      "denied",
+      "reject",
+      "block",
+      "prohibition",
+      "security",
+      "ban"
+    ]
+  },
+  "browser-window-globe-internet-connection-1": {
+    "name": "BrowserGlobeMap",
+    "displayName": "Browser globe map",
+    "aliases": [
+      "BrowserWindowGlobe"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "internet",
+      "connection",
+      "globe",
+      "web",
+      "online",
+      "worldwide",
+      "network",
+      "map"
+    ]
+  },
+  "browser-window-globe-internet-connection-2": {
+    "name": "BrowserGlobe",
+    "displayName": "Browser globe",
+    "aliases": [
+      "BrowserWindowConnection"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "internet",
+      "connection",
+      "globe",
+      "online",
+      "network",
+      "linked",
+      "web"
+    ]
+  },
+  "browser-window-globe-internet-connection-3": {
+    "name": "WindowGlobeMapPlain",
+    "displayName": "Window globe map plain",
+    "aliases": [
+      "BrowserWindowInternet"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "internet",
+      "connection",
+      "globe",
+      "web",
+      "network",
+      "world",
+      "online",
+      "map",
+      "plain"
+    ]
+  },
+  "browser-window-globe-internet-connection-4": {
+    "name": "WindowGlobePlain",
+    "displayName": "Window globe plain",
+    "aliases": [
+      "BrowserWindowWeb"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "internet",
+      "connection",
+      "globe",
+      "web",
+      "network",
+      "online",
+      "worldwide",
+      "plain"
+    ]
+  },
+  "browser-window-internet-speed-fast-1": {
+    "name": "BrowserFast",
+    "displayName": "Browser fast",
+    "aliases": [
+      "BrowserWindowSpeed"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "internet",
+      "speed",
+      "fast",
+      "performance",
+      "connection",
+      "velocity",
+      "quick"
+    ]
+  },
+  "browser-window-internet-speed-fast-2": {
+    "name": "WindowFastPlain",
+    "displayName": "Window fast plain",
+    "aliases": [
+      "BrowserWindowFast"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "internet",
+      "speed",
+      "fast",
+      "performance",
+      "quick",
+      "rapid",
+      "connection",
+      "plain"
+    ]
+  },
+  "browser-window-internet-speed-fast-rabbit": {
+    "name": "BrowserRabbit",
+    "displayName": "Browser rabbit",
+    "aliases": [
+      "BrowserWindowRabbit"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "internet",
+      "speed",
+      "fast",
+      "rabbit",
+      "quick",
+      "rapid",
+      "performance"
+    ]
+  },
+  "browser-window-levels-settings-1": {
+    "name": "BrowserSliders",
+    "displayName": "Browser sliders",
+    "aliases": [
+      "BrowserWindowLevels"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "levels",
+      "settings",
+      "adjustment",
+      "control",
+      "configuration",
+      "internet",
+      "options",
+      "sliders"
+    ]
+  },
+  "browser-window-levels-settings-2": {
+    "name": "BrowserSlidersTwo",
+    "displayName": "Browser sliders two",
+    "aliases": [
+      "BrowserWindowSettings"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "levels",
+      "settings",
+      "preferences",
+      "controls",
+      "adjustment",
+      "sliders",
+      "two"
+    ]
+  },
+  "browser-window-megaphone-advertisement-": {
+    "name": "BrowserMegaphoneBare",
+    "displayName": "Browser megaphone bare",
+    "aliases": [
+      "BrowserWindowAnnouncement"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "advertisement",
+      "megaphone",
+      "announcement",
+      "promotion",
+      "broadcast",
+      "bare"
+    ]
+  },
+  "browser-window-megaphone-advertisement-1": {
+    "name": "BrowserMegaphone",
+    "displayName": "Browser megaphone",
+    "aliases": [
+      "BrowserWindowAnnounce1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "advertisement",
+      "megaphone",
+      "announcement",
+      "promotion"
+    ]
+  },
+  "browser-window-rocket-launch-1": {
+    "name": "BrowserRocket",
+    "displayName": "Browser rocket",
+    "aliases": [
+      "BrowserWindowLaunch"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "launch",
+      "rocket",
+      "deploy",
+      "start",
+      "action"
+    ]
+  },
+  "browser-window-rocket-launch-2": {
+    "name": "WindowRocketPlain",
+    "displayName": "Window rocket plain",
+    "aliases": [
+      "BrowserWindowLaunch2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "launch",
+      "rocket",
+      "deploy",
+      "start",
+      "plain"
+    ]
+  },
+  "browser-window-semaphore-page-restrictions-1": {
+    "name": "BrowserTrafficLight",
+    "displayName": "Browser traffic light",
+    "aliases": [
+      "BrowserWindowRestrictions"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "semaphore",
+      "page",
+      "restrictions",
+      "access",
+      "control",
+      "lock",
+      "traffic",
+      "light"
+    ]
+  },
+  "browser-window-semaphore-page-restrictions-2": {
+    "name": "WindowTrafficLightPlain",
+    "displayName": "Window traffic light plain",
+    "aliases": [
+      "BrowserWindowRestrictions2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "semaphore",
+      "page",
+      "restrictions",
+      "access",
+      "block",
+      "traffic",
+      "light",
+      "plain"
+    ]
+  },
+  "browser-window-square-squared": {
+    "name": "WindowSquare",
+    "displayName": "Window square",
+    "aliases": [
+      "BrowserWindowSquare"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "browser",
+      "squared",
+      "square",
+      "rectangular",
+      "shape",
+      "container"
+    ]
+  },
+  "browser-window-web-page-1": {
+    "name": "BrowserContent",
+    "displayName": "Browser content",
+    "aliases": [
+      "BrowserWindowWeb2"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "web",
+      "page",
+      "content",
+      "internet",
+      "display"
+    ]
+  },
+  "browser-window-web-page-2": {
+    "name": "BrowserSidebar",
+    "displayName": "Browser sidebar",
+    "aliases": [
+      "BrowserWindowSidebar"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "window",
+      "web",
+      "page",
+      "content",
+      "internet",
+      "sidebar"
+    ]
+  },
+  "close-pane-rectangle-arrow-left-1": {
+    "name": "SidebarArrowLeftStriped",
+    "displayName": "Sidebar arrow left striped",
+    "aliases": [
+      "ClosePaneArrowLeft1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "sidebar",
+      "close",
+      "pane",
+      "rectangle",
+      "arrow",
+      "left",
+      "collapse",
+      "panel",
+      "close-left",
+      "striped"
+    ]
+  },
+  "close-pane-rectangle-arrow-left-2": {
+    "name": "SidebarArrowLeftRows",
+    "displayName": "Sidebar arrow left rows",
+    "aliases": [
+      "ClosePaneArrowLeft2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "sidebar",
+      "close",
+      "pane",
+      "rectangle",
+      "arrow",
+      "left",
+      "collapse",
+      "panel",
+      "close-left",
+      "rows"
+    ]
+  },
+  "close-pane-rectangle-arrow-left-3": {
+    "name": "SidebarArrowLeft",
+    "displayName": "Sidebar arrow left",
+    "aliases": [
+      "ClosePaneArrowLeft3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "sidebar",
+      "close",
+      "pane",
+      "rectangle",
+      "arrow",
+      "left",
+      "collapse",
+      "panel",
+      "close-left"
+    ]
+  },
+  "hide-sidepanel-arrow-left": {
+    "name": "SidebarMenuArrowLeft",
+    "displayName": "Sidebar menu arrow left",
+    "aliases": [
+      "HideSidepanelLeft"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "sidebar",
+      "hide",
+      "sidepanel",
+      "side-panel",
+      "arrow",
+      "left",
+      "collapse",
+      "close",
+      "panel",
+      "navigation",
+      "menu"
+    ]
+  },
+  "hide-sidepanel-arrow-right": {
+    "name": "SidebarArrowRight",
+    "displayName": "Sidebar arrow right",
+    "aliases": [
+      "HideSidepanelRight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "sidebar",
+      "hide",
+      "sidepanel",
+      "side-panel",
+      "arrow",
+      "right",
+      "collapse",
+      "close",
+      "panel",
+      "navigation"
+    ]
+  },
+  "open-in-browser-arrow-up-1": {
+    "name": "BrowserArrowUp",
+    "displayName": "Browser arrow up",
+    "aliases": [
+      "OpenInBrowserUp"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "open",
+      "arrow",
+      "up",
+      "external",
+      "launch",
+      "expand",
+      "web"
+    ]
+  },
+  "open-in-browser-arrow-up-2": {
+    "name": "WindowArrowUpPlain",
+    "displayName": "Window arrow up plain",
+    "aliases": [
+      "OpenInBrowserUp2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "open",
+      "browser",
+      "arrow",
+      "up",
+      "external",
+      "link",
+      "navigation",
+      "plain"
+    ]
+  },
+  "open-in-window-arrow-up-3": {
+    "name": "WindowArrowUp",
+    "displayName": "Window arrow up",
+    "aliases": [
+      "OpenInWindowUp"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "open",
+      "arrow",
+      "up",
+      "external",
+      "new",
+      "navigation"
+    ]
+  },
+  "open-pane-rectangle-arrow-right-1": {
+    "name": "PaneArrowRightStriped",
+    "displayName": "Pane arrow right striped",
+    "aliases": [
+      "OpenPaneRight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "pane",
+      "open",
+      "rectangle",
+      "arrow",
+      "right",
+      "panel",
+      "expand",
+      "striped"
+    ]
+  },
+  "open-pane-rectangle-arrow-right-2": {
+    "name": "PaneArrowRightList",
+    "displayName": "Pane arrow right list",
+    "aliases": [
+      "OpenPaneRightAlt"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "pane",
+      "open",
+      "rectangle",
+      "arrow",
+      "right",
+      "panel",
+      "expand",
+      "list"
+    ]
+  },
+  "open-pane-rectangle-arrow-right-3": {
+    "name": "PaneArrowRight",
+    "displayName": "Pane arrow right",
+    "aliases": [
+      "OpenPaneRightBold"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "pane",
+      "open",
+      "rectangle",
+      "arrow",
+      "right",
+      "panel",
+      "expand",
+      "bold"
+    ]
+  },
+  "page-view-all": {
+    "name": "WindowGrid",
+    "displayName": "Window grid",
+    "aliases": [
+      "PageViewAll"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "all",
+      "display",
+      "layout",
+      "content",
+      "grid"
+    ]
+  },
+  "page-view-badge-rousette-new-view-1": {
+    "name": "WindowSeal2",
+    "displayName": "Window seal2",
+    "aliases": [
+      "PageViewBadge"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "badge",
+      "rousette",
+      "new",
+      "notification",
+      "roulette",
+      "indicator"
+    ]
+  },
+  "page-view-badge-rousette-new-view-2": {
+    "name": "WindowSealPlain",
+    "displayName": "Window seal plain",
+    "aliases": [
+      "PageViewBadgeAlt"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "badge",
+      "rousette",
+      "new",
+      "notification",
+      "roulette",
+      "indicator",
+      "seal",
+      "plain"
+    ]
+  },
+  "page-view-collection": {
+    "name": "LayoutGridShapes",
+    "displayName": "Layout grid shapes",
+    "aliases": [
+      "PageViewCollection"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "collection",
+      "multiple",
+      "grid",
+      "content",
+      "shapes"
+    ]
+  },
+  "page-view-content-1": {
+    "name": "LayoutListDotted",
+    "displayName": "Layout list dotted",
+    "aliases": [
+      "PageViewContent"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "content",
+      "display",
+      "read",
+      "document",
+      "article",
+      "list",
+      "dotted"
+    ]
+  },
+  "page-view-content-2": {
+    "name": "LayoutList",
+    "displayName": "Layout list",
+    "aliases": [
+      "PageViewContent2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "content",
+      "display",
+      "grid",
+      "document",
+      "viewport",
+      "list"
+    ]
+  },
+  "page-view-content-list": {
+    "name": "LayoutListSymbols",
+    "displayName": "Layout list symbols",
+    "aliases": [
+      "PageViewList"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "content",
+      "list",
+      "display",
+      "document",
+      "symbols"
+    ]
+  },
+  "page-view-continuous-mode": {
+    "name": "LayoutContinuous",
+    "displayName": "Layout continuous",
+    "aliases": [
+      "PageViewContinuous"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "mode",
+      "continuous",
+      "scroll",
+      "document",
+      "seamless"
+    ]
+  },
+  "page-view-extra-large-icons-1": {
+    "name": "LayoutLargeFlower",
+    "displayName": "Layout large flower",
+    "aliases": [
+      "PageViewExtraLarge"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "extra",
+      "icons",
+      "large",
+      "size",
+      "zoom",
+      "display",
+      "flower"
+    ]
+  },
+  "page-view-extra-large-icons-2": {
+    "name": "LayoutLargeFlowerSharp",
+    "displayName": "Layout large flower sharp",
+    "aliases": [
+      "PageViewExtraLargeAlt"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "extra",
+      "icons",
+      "large",
+      "size",
+      "flower",
+      "sharp"
+    ]
+  },
+  "page-view-extra-large-icons-3": {
+    "name": "LayoutLargeImage",
+    "displayName": "Layout large image",
+    "aliases": [
+      "PageViewExtraLargeGrid"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "extra",
+      "icons",
+      "large",
+      "grid",
+      "size",
+      "image"
+    ]
+  },
+  "page-view-extra-large-icons-4": {
+    "name": "LayoutLargeImageArc",
+    "displayName": "Layout large image arc",
+    "aliases": [
+      "PageViewExtraLargeTile"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "extra",
+      "icons",
+      "large",
+      "tile",
+      "spacing",
+      "image",
+      "arc"
+    ]
+  },
+  "page-view-extra-large-icons-5": {
+    "name": "LayoutLargeFlowerFramed",
+    "displayName": "Layout large flower framed",
+    "aliases": [
+      "PageViewExtraLargeCompact"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "extra",
+      "icons",
+      "large",
+      "compact",
+      "dense",
+      "flower",
+      "framed"
+    ]
+  },
+  "page-view-icons-details-1": {
+    "name": "LayoutListDashedDotted",
+    "displayName": "Layout list dashed dotted",
+    "aliases": [
+      "PageViewIconsDetails1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "icons",
+      "details",
+      "information",
+      "list",
+      "detailed",
+      "dashed",
+      "dotted"
+    ]
+  },
+  "page-view-icons-details-2": {
+    "name": "LayoutListDashed",
+    "displayName": "Layout list dashed",
+    "aliases": [
+      "PageViewIconsDetails2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "icons",
+      "details",
+      "information",
+      "list",
+      "detailed",
+      "dashed"
+    ]
+  },
+  "page-view-icons-thumbnails-1": {
+    "name": "LayoutGridLabels",
+    "displayName": "Layout grid labels",
+    "aliases": [
+      "PageViewIconsThumbnails1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "icons",
+      "thumbnails",
+      "preview",
+      "grid",
+      "gallery",
+      "small",
+      "labels"
+    ]
+  },
+  "page-view-icons-thumbnails-2": {
+    "name": "LayoutGridImage",
+    "displayName": "Layout grid image",
+    "aliases": [
+      "PageViewIconsThumbnails2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "icons",
+      "thumbnails",
+      "preview",
+      "grid",
+      "gallery",
+      "small",
+      "image"
+    ]
+  },
+  "page-view-icons-thumbnails-3": {
+    "name": "LayoutGridMixed",
+    "displayName": "Layout grid mixed",
+    "aliases": [
+      "PageViewIconsThumbnails3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "icons",
+      "thumbnails",
+      "preview",
+      "grid",
+      "gallery",
+      "small",
+      "mixed"
+    ]
+  },
+  "page-view-image-list": {
+    "name": "LayoutListImage",
+    "displayName": "Layout list image",
+    "aliases": [
+      "PageViewImageList"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "image",
+      "list",
+      "vertical",
+      "gallery",
+      "images"
+    ]
+  },
+  "page-view-list-details": {
+    "name": "LayoutListSymbolsDashed",
+    "displayName": "Layout list symbols dashed",
+    "aliases": [
+      "PageViewListDetails"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "details",
+      "list",
+      "information",
+      "detailed",
+      "items",
+      "symbols",
+      "dashed"
+    ]
+  },
+  "page-view-list-thumbnails": {
+    "name": "LayoutListColumns",
+    "displayName": "Layout list columns",
+    "aliases": [
+      "PageViewListThumbnails"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "thumbnails",
+      "list",
+      "preview",
+      "images",
+      "gallery",
+      "columns"
+    ]
+  },
+  "page-view-open-view-arrow-down-1": {
+    "name": "WindowTextDownload",
+    "displayName": "Window text download",
+    "aliases": [
+      "PageViewOpenArrowDown1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "open",
+      "arrow",
+      "down",
+      "expand",
+      "dropdown",
+      "text",
+      "download"
+    ]
+  },
+  "page-view-open-view-arrow-down-2": {
+    "name": "WindowListDownload",
+    "displayName": "Window list download",
+    "aliases": [
+      "PageViewOpenArrowDown2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "open",
+      "arrow",
+      "down",
+      "expand",
+      "dropdown",
+      "list",
+      "download"
+    ]
+  },
+  "page-view-open-view-arrow-down-3": {
+    "name": "WindowDownloadPlain",
+    "displayName": "Window download plain",
+    "aliases": [
+      "PageViewOpenArrowDown3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "open",
+      "arrow",
+      "down",
+      "expand",
+      "dropdown",
+      "download",
+      "plain"
+    ]
+  },
+  "page-view-overlapping-windows-show-non-hidden-views-1": {
+    "name": "WindowOverlapRightDotted",
+    "displayName": "Window overlap right dotted",
+    "aliases": [
+      "PageViewOverlappingShow1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "overlapping",
+      "windows",
+      "show",
+      "non",
+      "hidden",
+      "views",
+      "non-hidden",
+      "layer",
+      "overlap"
+    ]
+  },
+  "page-view-overlapping-windows-show-non-hidden-views-2": {
+    "name": "WindowOverlapRightDottedBack",
+    "displayName": "Window overlap right dotted back",
+    "aliases": [
+      "PageViewOverlappingShow2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "overlapping",
+      "windows",
+      "show",
+      "non",
+      "hidden",
+      "views",
+      "non-hidden",
+      "layer",
+      "overlap"
+    ]
+  },
+  "page-view-overlapping-windows-show-non-hidden-views-3": {
+    "name": "WindowOverlapRight",
+    "displayName": "Window overlap right",
+    "aliases": [
+      "PageViewOverlappingShow"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "overlapping",
+      "windows",
+      "show",
+      "non",
+      "hidden",
+      "views",
+      "page-view",
+      "overlapping-windows",
+      "non-hidden"
+    ]
+  },
+  "page-view-overlapping-windows-static-view-level-1": {
+    "name": "WindowOverlapLeftDotted",
+    "displayName": "Window overlap left dotted",
+    "aliases": [
+      "PageViewOverlappingStatic1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "overlapping",
+      "windows",
+      "static",
+      "level",
+      "page-view",
+      "overlapping-windows",
+      "view-level",
+      "hierarchy",
+      "layers"
+    ]
+  },
+  "page-view-overlapping-windows-static-view-level-2": {
+    "name": "WindowOverlapLeftDottedBack",
+    "displayName": "Window overlap left dotted back",
+    "aliases": [
+      "PageViewOverlappingStatic2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "overlapping",
+      "windows",
+      "static",
+      "level",
+      "page-view",
+      "overlapping-windows",
+      "view-level",
+      "hierarchy",
+      "layers"
+    ]
+  },
+  "page-view-overlapping-windows-static-view-level-3": {
+    "name": "WindowOverlapLeft",
+    "displayName": "Window overlap left",
+    "aliases": [
+      "PageViewOverlappingStatic3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "overlapping",
+      "windows",
+      "static",
+      "level",
+      "page-view",
+      "overlapping-windows",
+      "view-level",
+      "hierarchy",
+      "layers"
+    ]
+  },
+  "page-view-overlapping-windows-static-views": {
+    "name": "WindowOverlapRightList",
+    "displayName": "Window overlap right list",
+    "aliases": [
+      "PageViewOverlappingStatic"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "overlapping",
+      "windows",
+      "static",
+      "views",
+      "page-view",
+      "overlapping-windows",
+      "layers",
+      "window-management",
+      "interface"
+    ]
+  },
+  "page-view-tiles-1": {
+    "name": "LayoutTiles",
+    "displayName": "Layout tiles",
+    "aliases": [
+      "PageViewTiles1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "page-view",
+      "tiles",
+      "grid-layout",
+      "grid-view",
+      "mosaic",
+      "tile-arrangement",
+      "interface"
+    ]
+  },
+  "page-view-tiles-2": {
+    "name": "LayoutTilesEmpty",
+    "displayName": "Layout tiles empty",
+    "aliases": [
+      "PageViewTiles2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "layout",
+      "page",
+      "view",
+      "page-view",
+      "tiles",
+      "grid-layout",
+      "grid-view",
+      "mosaic",
+      "tile-arrangement",
+      "interface",
+      "empty"
+    ]
+  },
+  "page-view-x-close-delete-remove-1": {
+    "name": "WindowTextXCircle",
+    "displayName": "Window text X circle",
+    "aliases": [
+      "PageViewClose1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "interface",
+      "text",
+      "circle"
+    ]
+  },
+  "page-view-x-close-delete-remove-2": {
+    "name": "WindowListXCircle",
+    "displayName": "Window list X circle",
+    "aliases": [
+      "PageViewClose2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "page",
+      "view",
+      "close",
+      "delete",
+      "remove",
+      "dismiss",
+      "list",
+      "circle"
+    ]
+  },
+  "paid-search-lupe-dollar-bill-browser-window-1": {
+    "name": "BrowserDollarSearch",
+    "displayName": "Browser dollar search",
+    "aliases": [
+      "PaidSearchDollarWindow1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "paid",
+      "lupe",
+      "bill",
+      "window",
+      "search",
+      "magnifying",
+      "glass",
+      "dollar",
+      "advertising"
+    ]
+  },
+  "paid-search-lupe-dollar-bill-browser-window-2": {
+    "name": "BrowserDollarSearchDots",
+    "displayName": "Browser dollar search dots",
+    "aliases": [
+      "PaidSearchDollarWindow2"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "paid",
+      "lupe",
+      "bill",
+      "window",
+      "search",
+      "magnifying",
+      "glass",
+      "dollar",
+      "dots"
+    ]
+  },
+  "paid-search-lupe-dollar-bill-browser-window-3": {
+    "name": "BrowserDollarSearchDots2",
+    "displayName": "Browser dollar search dots2",
+    "aliases": [
+      "PaidSearchDollarWindow3"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "paid",
+      "lupe",
+      "bill",
+      "window",
+      "search",
+      "magnifying",
+      "glass",
+      "dollar"
+    ]
+  },
+  "pop-up-1": {
+    "name": "Popover",
+    "displayName": "Popover",
+    "aliases": [
+      "PopUp1"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "up",
+      "pop-up",
+      "popup",
+      "modal",
+      "dialog",
+      "window",
+      "notification",
+      "interface"
+    ]
+  },
+  "pop-up-2": {
+    "name": "PopoverBig",
+    "displayName": "Popover big",
+    "aliases": [
+      "PopUp2"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "up",
+      "pop-up",
+      "popup",
+      "modal",
+      "dialog",
+      "window",
+      "notification",
+      "interface",
+      "big"
+    ]
+  },
+  "pop-up-3": {
+    "name": "PopoverList",
+    "displayName": "Popover list",
+    "aliases": [
+      "PopUp3"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "up",
+      "pop-up",
+      "popup",
+      "modal",
+      "dialog",
+      "window",
+      "notification",
+      "alert",
+      "interface",
+      "list"
+    ]
+  },
+  "pop-up-4": {
+    "name": "PopoverListBig",
+    "displayName": "Popover list big",
+    "aliases": [
+      "PopUp4"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "up",
+      "pop-up",
+      "popup",
+      "modal",
+      "dialog",
+      "window",
+      "notification",
+      "interface",
+      "list",
+      "big"
+    ]
+  },
+  "pop-up-5": {
+    "name": "PopoverUp",
+    "displayName": "Popover up",
+    "aliases": [
+      "PopUp5"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "pop-up",
+      "modal",
+      "dialog",
+      "window",
+      "interface",
+      "up"
+    ]
+  },
+  "pop-up-6": {
+    "name": "PopoverUpBig",
+    "displayName": "Popover up big",
+    "aliases": [
+      "PopUp6"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "pop-up",
+      "modal",
+      "dialog",
+      "window",
+      "interface",
+      "up",
+      "big"
+    ]
+  },
+  "pop-up-7": {
+    "name": "PopoverListUp",
+    "displayName": "Popover list up",
+    "aliases": [
+      "PopUp7"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "pop-up",
+      "modal",
+      "dialog",
+      "window",
+      "interface",
+      "list",
+      "up"
+    ]
+  },
+  "pop-up-8": {
+    "name": "PopoverListUpBig",
+    "displayName": "Popover list up big",
+    "aliases": [
+      "PopUp8"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "pop-up",
+      "modal",
+      "dialog",
+      "window",
+      "interface",
+      "list",
+      "up",
+      "big"
+    ]
+  },
+  "rectangle-arrow-ad-advertising": {
+    "name": "PaneArrowUpRight",
+    "displayName": "Pane arrow up right",
+    "aliases": [
+      "RectangleArrowAdvertising"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "pane",
+      "rectangle",
+      "ad",
+      "advertising",
+      "arrow",
+      "promotion",
+      "banner",
+      "up",
+      "right"
+    ]
+  },
+  "rectangle-arrow-open-in-pop-up-2": {
+    "name": "WindowArrowUpTall",
+    "displayName": "Window arrow up tall",
+    "aliases": [
+      "RectangleArrowOpenPopUp2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "rectangle",
+      "open",
+      "pop",
+      "arrow",
+      "pop-up",
+      "external",
+      "link",
+      "up",
+      "tall"
+    ]
+  },
+  "rectangle-arrow-open-in-pop-up-3": {
+    "name": "WindowStackArrowUpRight",
+    "displayName": "Window stack arrow up right",
+    "aliases": [
+      "RectangleArrowOpenPopUp3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "rectangle",
+      "open",
+      "pop",
+      "arrow",
+      "pop-up",
+      "external",
+      "link",
+      "stack",
+      "up",
+      "right"
+    ]
+  },
+  "search-in-application-window-lupe-1": {
+    "name": "WindowSearchPlain",
+    "displayName": "Window search plain",
+    "aliases": [
+      "SearchWindowLupe1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "lupe",
+      "search",
+      "magnifying-glass",
+      "find",
+      "plain"
+    ]
+  },
+  "search-in-application-window-lupe-2": {
+    "name": "WindowSearchDots",
+    "displayName": "Window search dots",
+    "aliases": [
+      "SearchWindowLupe2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "application",
+      "lupe",
+      "search",
+      "magnifying-glass",
+      "find",
+      "dots"
+    ]
+  },
+  "search-in-browser-lupe-window-1-": {
+    "name": "BrowserSearch",
+    "displayName": "Browser search",
+    "aliases": [
+      "SearchBrowserLupe1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "lupe",
+      "window",
+      "search",
+      "magnifying-glass",
+      "find"
+    ]
+  },
+  "search-in-browser-lupe-window-2": {
+    "name": "BrowserSearchPlain",
+    "displayName": "Browser search plain",
+    "aliases": [
+      "SearchBrowserLupe2"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "lupe",
+      "window",
+      "search",
+      "magnifying-glass",
+      "find",
+      "plain"
+    ]
+  },
+  "sidebar-menu-1": {
+    "name": "WindowMenu",
+    "displayName": "Window menu",
+    "aliases": [
+      "SidebarMenu1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "sidebar",
+      "menu",
+      "navigation",
+      "hamburger",
+      "interface",
+      "layout"
+    ]
+  },
+  "sidebar-menu-2": {
+    "name": "WindowMenuPlain",
+    "displayName": "Window menu plain",
+    "aliases": [
+      "SidebarMenu2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "sidebar",
+      "menu",
+      "navigation",
+      "hamburger",
+      "interface",
+      "layout",
+      "plain"
+    ]
+  },
+  "sidebar-menu-3": {
+    "name": "WindowMenuListPlain",
+    "displayName": "Window menu list plain",
+    "aliases": [
+      "SidebarMenu3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "sidebar",
+      "menu",
+      "navigation",
+      "hamburger",
+      "interface",
+      "toggle",
+      "list",
+      "plain"
+    ]
+  },
+  "sidebar-menu-4": {
+    "name": "SidebarMenu",
+    "displayName": "Sidebar menu",
+    "aliases": [
+      "SidebarMenu4"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "sidebar",
+      "menu",
+      "navigation",
+      "hamburger",
+      "interface",
+      "toggle"
+    ]
+  },
+  "toolbar-navigation-bottom": {
+    "name": "ToolbarBottom",
+    "displayName": "Toolbar bottom",
+    "aliases": [
+      "ToolbarNavigationBottom"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "toolbar",
+      "navigation",
+      "bottom",
+      "position",
+      "align",
+      "layout"
+    ]
+  },
+  "toolbar-navigation-left": {
+    "name": "SidebarLeft",
+    "displayName": "Sidebar left",
+    "aliases": [
+      "ToolbarNavigationLeft"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "sidebar",
+      "toolbar",
+      "navigation",
+      "left",
+      "position",
+      "align",
+      "layout"
+    ]
+  },
+  "toolbar-navigation-right": {
+    "name": "SidebarRight",
+    "displayName": "Sidebar right",
+    "aliases": [
+      "ToolbarNavigationRight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "sidebar",
+      "toolbar",
+      "navigation",
+      "right",
+      "position",
+      "align",
+      "layout"
+    ]
+  },
+  "toolbar-navigation-top": {
+    "name": "ToolbarTop",
+    "displayName": "Toolbar top",
+    "aliases": [
+      "ToolbarNavigationTop"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "toolbar",
+      "navigation",
+      "top",
+      "position",
+      "align",
+      "layout",
+      "header"
+    ]
+  },
+  "toolbar-show-bottom-pannel": {
+    "name": "PanelBottom",
+    "displayName": "Panel bottom",
+    "aliases": [
+      "ToolbarShowBottomPanel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "panel",
+      "toolbar",
+      "show",
+      "pannel",
+      "bottom",
+      "reveal",
+      "display",
+      "ui"
+    ]
+  },
+  "toolbar-show-left-pannel": {
+    "name": "PanelLeft",
+    "displayName": "Panel left",
+    "aliases": [
+      "ToolbarShowLeftPanel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "panel",
+      "toolbar",
+      "show",
+      "pannel",
+      "left",
+      "reveal",
+      "display",
+      "ui",
+      "sidebar"
+    ]
+  },
+  "toolbar-show-right-pannel": {
+    "name": "PanelRight",
+    "displayName": "Panel right",
+    "aliases": [
+      "ToolbarShowRightPanel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "panel",
+      "toolbar",
+      "show",
+      "pannel",
+      "right",
+      "reveal",
+      "display",
+      "ui",
+      "sidebar"
+    ]
+  },
+  "toolbar-show-top-pannel": {
+    "name": "PanelTop",
+    "displayName": "Panel top",
+    "aliases": [
+      "ToolbarShowTopPanel"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "panel",
+      "toolbar",
+      "show",
+      "pannel",
+      "top",
+      "reveal",
+      "display",
+      "ui"
+    ]
+  },
+  "website-portal-chair-armchair-design-furniture-1": {
+    "name": "BrowserArmchair",
+    "displayName": "Browser armchair",
+    "aliases": [
+      "WebsitePortalChair1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "chair",
+      "design",
+      "furniture",
+      "armchair",
+      "interior",
+      "comfort"
+    ]
+  },
+  "website-portal-chair-armchair-design-furniture-2": {
+    "name": "BrowserArmchairRound",
+    "displayName": "Browser armchair round",
+    "aliases": [
+      "WebsitePortalChair2"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "chair",
+      "design",
+      "furniture",
+      "armchair",
+      "interior",
+      "round"
+    ]
+  },
+  "website-portal-chart-arrow-trends-stats": {
+    "name": "BrowserChartArrow",
+    "displayName": "Browser chart arrow",
+    "aliases": [
+      "WebsitePortalChart"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "trends",
+      "stats",
+      "chart",
+      "arrow",
+      "analytics",
+      "growth"
+    ]
+  },
+  "website-portal-chart-trends-stats-1": {
+    "name": "BrowserChart",
+    "displayName": "Browser chart",
+    "aliases": [
+      "WebsitePortalTrends1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "trends",
+      "stats",
+      "chart",
+      "analytics",
+      "data",
+      "growth"
+    ]
+  },
+  "website-portal-chart-trends-stats-2": {
+    "name": "BrowserChartZigzag",
+    "displayName": "Browser chart zigzag",
+    "aliases": [
+      "WebsitePortalTrends2"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "trends",
+      "stats",
+      "chart",
+      "analytics",
+      "data",
+      "zigzag"
+    ]
+  },
+  "website-portal-compass-travel": {
+    "name": "BrowserCompass",
+    "displayName": "Browser compass",
+    "aliases": [
+      "WebsitePortalCompass"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "travel",
+      "compass",
+      "navigation",
+      "direction",
+      "exploration",
+      "location"
+    ]
+  },
+  "website-portal-dating-heart-love-1": {
+    "name": "BrowserHeartCenter",
+    "displayName": "Browser heart center",
+    "aliases": [
+      "WebsitePortalDating"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "dating",
+      "love",
+      "heart",
+      "romance",
+      "relationships",
+      "social",
+      "center"
+    ]
+  },
+  "website-portal-dating-heart-love-2": {
+    "name": "BrowserHeart",
+    "displayName": "Browser heart",
+    "aliases": [
+      "WebsitePortalHeart"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "dating",
+      "love",
+      "heart",
+      "romance",
+      "relationship",
+      "connection"
+    ]
+  },
+  "website-portal-fashion-handbag": {
+    "name": "BrowserHandbag",
+    "displayName": "Browser handbag",
+    "aliases": [
+      "WebsitePortalHandbag"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "fashion",
+      "handbag",
+      "shopping",
+      "style",
+      "accessories",
+      "retail"
+    ]
+  },
+  "website-portal-fashion-shoe": {
+    "name": "BrowserShoe",
+    "displayName": "Browser shoe",
+    "aliases": [
+      "WebsitePortalShoe"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "fashion",
+      "shoe",
+      "footwear",
+      "apparel",
+      "shopping",
+      "retail"
+    ]
+  },
+  "website-portal-finance-money-bill": {
+    "name": "BrowserBanknote",
+    "displayName": "Browser banknote",
+    "aliases": [
+      "WebsitePortalBill"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "finance",
+      "money",
+      "bill",
+      "payment",
+      "transaction",
+      "banking",
+      "banknote"
+    ]
+  },
+  "website-portal-flower-blossom-1": {
+    "name": "BrowserFlowerPointed",
+    "displayName": "Browser flower pointed",
+    "aliases": [
+      "WebsitePortalBlossom"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "blossom",
+      "flower",
+      "nature",
+      "gardening",
+      "wellness",
+      "botanical",
+      "pointed"
+    ]
+  },
+  "website-portal-flower-blossom-2": {
+    "name": "BrowserFlower",
+    "displayName": "Browser flower",
+    "aliases": [
+      "WebsitePortalFlower"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "blossom",
+      "flower",
+      "nature",
+      "gardening",
+      "lifestyle",
+      "botanical"
+    ]
+  },
+  "website-portal-law-scale": {
+    "name": "BrowserScale",
+    "displayName": "Browser scale",
+    "aliases": [
+      "WebsitePortalScale"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "law",
+      "scale",
+      "justice",
+      "legal",
+      "attorney",
+      "court"
+    ]
+  },
+  "website-portal-movies-camera": {
+    "name": "BrowserMovieCamera",
+    "displayName": "Browser movie camera",
+    "aliases": [
+      "WebsitePortalCamera"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "movies",
+      "camera",
+      "video",
+      "film",
+      "entertainment",
+      "production",
+      "movie"
+    ]
+  },
+  "website-portal-movies-film": {
+    "name": "BrowserFilm",
+    "displayName": "Browser film",
+    "aliases": [
+      "WebsitePortalFilm"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "movies",
+      "film",
+      "cinema",
+      "entertainment",
+      "streaming",
+      "video"
+    ]
+  },
+  "website-portal-shield-protection-safe-security": {
+    "name": "BrowserShield",
+    "displayName": "Browser shield",
+    "aliases": [
+      "WebsitePortalShield"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "protection",
+      "safe",
+      "security",
+      "shield",
+      "privacy",
+      "defense"
+    ]
+  },
+  "website-portal-tool-service-1": {
+    "name": "BrowserWrench",
+    "displayName": "Browser wrench",
+    "aliases": [
+      "WebsitePortalTool1"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "tool",
+      "service",
+      "interface",
+      "web",
+      "wrench"
+    ]
+  },
+  "website-portal-tool-service-2": {
+    "name": "BrowserWrench2",
+    "displayName": "Browser wrench2",
+    "aliases": [
+      "WebsitePortalTool2"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "tool",
+      "service",
+      "interface",
+      "web"
+    ]
+  },
+  "website-portal-trash-delete-clear": {
+    "name": "BrowserTrash",
+    "displayName": "Browser trash",
+    "aliases": [
+      "WebsitePortalDelete"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "delete",
+      "clear",
+      "trash",
+      "remove",
+      "bin"
+    ]
+  },
+  "website-portal-triangle-error-warning-alert": {
+    "name": "BrowserTriangle",
+    "displayName": "Browser triangle",
+    "aliases": [
+      "WebsitePortalWarning"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "error",
+      "warning",
+      "alert",
+      "triangle",
+      "caution"
+    ]
+  },
+  "website-portal-weather-sun-cloud": {
+    "name": "BrowserCloudSun",
+    "displayName": "Browser cloud sun",
+    "aliases": [
+      "WebsitePortalWeather"
+    ],
+    "categories": [
+      "devices",
+      "development"
+    ],
+    "tags": [
+      "browser",
+      "website",
+      "portal",
+      "weather",
+      "sun",
+      "cloud",
+      "forecast"
+    ]
+  },
+  "window-advertisement-arrow-in-1": {
+    "name": "WindowArrowUpRight",
+    "displayName": "Window arrow up right",
+    "aliases": [
+      "WindowAdvertisementArrowIn1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "advertisement",
+      "arrow",
+      "direction",
+      "import",
+      "up",
+      "right"
+    ]
+  },
+  "window-advertisement-arrow-in-2": {
+    "name": "WindowArrowUpRightBare",
+    "displayName": "Window arrow up right bare",
+    "aliases": [
+      "WindowAdvertisementArrowIn2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "advertisement",
+      "arrow",
+      "direction",
+      "import",
+      "up",
+      "right",
+      "bare"
+    ]
+  },
+  "window-advertisement-arrow-in-3": {
+    "name": "WindowArrowUpRightPlain",
+    "displayName": "Window arrow up right plain",
+    "aliases": [
+      "WindowAdvertisementArrowIn3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "advertisement",
+      "arrow",
+      "direction",
+      "import",
+      "up",
+      "right",
+      "plain"
+    ]
+  },
+  "window-docking-bottom-docking": {
+    "name": "DockBottom",
+    "displayName": "Dock bottom",
+    "aliases": [
+      "WindowDockingBottom"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "dock",
+      "window",
+      "docking",
+      "bottom",
+      "align",
+      "position",
+      "anchor"
+    ]
+  },
+  "window-docking-fill-dock": {
+    "name": "DockFill",
+    "displayName": "Dock fill",
+    "aliases": [
+      "WindowDockingFill"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "dock",
+      "window",
+      "docking",
+      "fill",
+      "panel",
+      "complete"
+    ]
+  },
+  "window-docking-horizontal-docking": {
+    "name": "DockHorizontal",
+    "displayName": "Dock horizontal",
+    "aliases": [
+      "WindowDockingHorizontal"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "dock",
+      "window",
+      "docking",
+      "horizontal",
+      "side-by-side",
+      "layout",
+      "arrange"
+    ]
+  },
+  "window-docking-left-docking": {
+    "name": "DockLeft",
+    "displayName": "Dock left",
+    "aliases": [
+      "WindowDockingLeft"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "dock",
+      "window",
+      "docking",
+      "left",
+      "align",
+      "position",
+      "side"
+    ]
+  },
+  "window-docking-right-docking": {
+    "name": "DockRight",
+    "displayName": "Dock right",
+    "aliases": [
+      "WindowDockingRight"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "dock",
+      "window",
+      "docking",
+      "right",
+      "align",
+      "position",
+      "side"
+    ]
+  },
+  "window-docking-top-docking": {
+    "name": "DockTop",
+    "displayName": "Dock top",
+    "aliases": [
+      "WindowDockingTop"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "dock",
+      "window",
+      "docking",
+      "top",
+      "alignment",
+      "layout",
+      "organize",
+      "interface"
+    ]
+  },
+  "window-docking-vertical-docking": {
+    "name": "DockVertical",
+    "displayName": "Dock vertical",
+    "aliases": [
+      "WindowDockingVertical"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "dock",
+      "window",
+      "docking",
+      "vertical",
+      "alignment",
+      "layout",
+      "organize",
+      "interface"
+    ]
+  },
+  "window-pop-up-1": {
+    "name": "WindowModalTitled",
+    "displayName": "Window modal titled",
+    "aliases": [
+      "WindowPopUp1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "pop",
+      "up",
+      "pop-up",
+      "dialog",
+      "floating",
+      "modal",
+      "interface",
+      "titled"
+    ]
+  },
+  "window-pop-up-2": {
+    "name": "WindowModalBare",
+    "displayName": "Window modal bare",
+    "aliases": [
+      "WindowPopUp2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "pop",
+      "up",
+      "pop-up",
+      "dialog",
+      "floating",
+      "modal",
+      "interface",
+      "bare"
+    ]
+  },
+  "window-pop-up-3": {
+    "name": "WindowModal",
+    "displayName": "Window modal",
+    "aliases": [
+      "WindowPopUp3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "pop",
+      "up",
+      "pop-up",
+      "dialog",
+      "floating",
+      "modal",
+      "interface"
+    ]
+  },
+  "window-pop-up-4": {
+    "name": "PopoverWindow",
+    "displayName": "Popover window",
+    "aliases": [
+      "WindowPopUp4"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "up",
+      "window",
+      "pop-up",
+      "dialog",
+      "floating",
+      "modal",
+      "interface"
+    ]
+  },
+  "window-pop-up-5": {
+    "name": "PopoverWindowPlain",
+    "displayName": "Popover window plain",
+    "aliases": [
+      "WindowPopUp5"
+    ],
+    "categories": [
+      "interface"
+    ],
+    "tags": [
+      "popover",
+      "pop",
+      "up",
+      "window",
+      "pop-up",
+      "dialog",
+      "floating",
+      "modal",
+      "interface",
+      "plain"
+    ]
+  },
+  "windows-pop-up-1": {
+    "name": "WindowStackShadow",
+    "displayName": "Window stack shadow",
+    "aliases": [
+      "WindowsPopUp1"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "windows",
+      "pop",
+      "up",
+      "pop-up",
+      "multiple",
+      "dialog",
+      "floating",
+      "modal",
+      "interface",
+      "stack",
+      "shadow"
+    ]
+  },
+  "windows-pop-up-2": {
+    "name": "WindowStackShadowBare",
+    "displayName": "Window stack shadow bare",
+    "aliases": [
+      "WindowsPopUp2"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "windows",
+      "pop",
+      "up",
+      "pop-up",
+      "multiple",
+      "dialog",
+      "floating",
+      "modal",
+      "interface",
+      "stack",
+      "shadow"
+    ]
+  },
+  "windows-pop-up-3": {
+    "name": "WindowStack",
+    "displayName": "Window stack",
+    "aliases": [
+      "WindowsPopUp3"
+    ],
+    "categories": [
+      "devices",
+      "interface"
+    ],
+    "tags": [
+      "window",
+      "windows",
+      "pop",
+      "up",
+      "pop-up",
+      "multiple",
+      "dialog",
+      "floating",
+      "modal",
+      "interface",
+      "stack"
+    ]
+  }
+}

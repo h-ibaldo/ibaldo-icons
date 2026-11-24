@@ -1,0 +1,34 @@
+{
+  "name": "SidebarChevronLeft",
+  "displayName": "Sidebar chevron left",
+  "description": "Rounded square with a left column and a chevron pointing left.",
+  "tags": [
+    "sidebar",
+    "panel",
+    "layout",
+    "navigation",
+    "collapse",
+    "close-panel"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Collapse sidebar"
+  },
+  "filename": "sidebar-chevron-left",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

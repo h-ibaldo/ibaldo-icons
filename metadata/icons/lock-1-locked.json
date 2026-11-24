@@ -1,5 +1,5 @@
 {
-  "name": "LockLocked",
+  "name": "LockSharp",
   "description": "A locked lock icon indicating a secured, closed, or inaccessible state",
   "tags": [
     "lock",
@@ -8,11 +8,11 @@
     "closed",
     "protection",
     "restricted",
-    "encrypted"
+    "encrypted",
+    "sharp"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock sharp",
+  "aliases": [
+    "LockLocked"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

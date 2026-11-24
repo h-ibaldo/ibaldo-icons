@@ -1,0 +1,40 @@
+{
+  "name": "ChatStackImageCornerFacing",
+  "displayName": "Chat stack image corner facing",
+  "description": "Two rounded-square speech bubbles facing each other, the back one peeking out at the bottom right, with a picture at the corner where the outline breaks.",
+  "tags": [
+    "chat",
+    "message",
+    "image",
+    "photo",
+    "picture",
+    "media",
+    "attachment",
+    "conversation",
+    "chat-stack",
+    "square",
+    "comment"
+  ],
+  "categories": [
+    "communication",
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Image message"
+  },
+  "filename": "chat-stack-image-corner-facing",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:09:22.595Z"
+}

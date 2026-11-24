@@ -1,19 +1,20 @@
 {
-  "name": "WebsitePortalTrends2",
+  "name": "BrowserChartZigzag",
   "description": "An alternative website portal icon variant with chart trends and statistical representation for data analytics.",
   "tags": [
+    "browser",
     "website",
     "portal",
-    "chart",
     "trends",
     "stats",
+    "chart",
     "analytics",
     "data",
-    "variant"
+    "zigzag"
   ],
   "categories": [
-    "interface",
-    "business"
+    "devices",
+    "development"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Browser chart zigzag",
+  "aliases": [
+    "WebsitePortalTrends2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

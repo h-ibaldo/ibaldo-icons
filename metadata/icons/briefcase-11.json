@@ -1,17 +1,16 @@
 {
-  "name": "BriefcaseFilled",
+  "name": "BriefcaseBelt",
   "description": "A filled or solid briefcase icon representing a loaded or active professional case",
   "tags": [
     "briefcase",
     "filled",
-    "solid",
     "business",
     "case",
-    "work"
+    "work",
+    "belt"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Briefcase belt",
+  "aliases": [
+    "BriefcaseFilled"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

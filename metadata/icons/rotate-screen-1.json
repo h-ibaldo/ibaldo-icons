@@ -1,5 +1,5 @@
 {
-  "name": "RotateScreen1",
+  "name": "RotateScreen",
   "description": "A screen rotation icon indicating the ability to rotate the display to landscape orientation.",
   "tags": [
     "rotate",
@@ -10,8 +10,7 @@
     "device"
   ],
   "categories": [
-    "interface",
-    "devices"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Rotate screen",
+  "aliases": [
+    "RotateScreen1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

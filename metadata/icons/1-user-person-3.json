@@ -1,23 +1,24 @@
 {
-  "name": "User3",
-  "description": "A user or person icon representing an individual profile or account, variant 3",
+  "name": "AvatarFaceLongCenterPart",
+  "description": "Face with eyes and long straight hair parted in the center.",
   "tags": [
     "user",
-    "person",
+    "avatar",
     "profile",
     "account",
-    "people",
-    "avatar",
-    "identity",
-    "individual"
+    "person",
+    "face",
+    "hairstyle",
+    "long-hair",
+    "straight-hair",
+    "center-part"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-3",
   "technical": {
@@ -30,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, long center part",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:34:27.643Z",
+  "aliases": [
+    "UserFaceLongCenterPart"
+  ],
+  "featured": true
 }

@@ -1,5 +1,5 @@
 {
-  "name": "House7",
+  "name": "HouseDoorArchPentagon",
   "description": "A house or home icon with a variant 7 design style for residential property representation.",
   "tags": [
     "house",
@@ -8,10 +8,11 @@
     "property",
     "building",
     "dwelling",
-    "variant 7"
+    "door",
+    "arch",
+    "pentagon"
   ],
   "categories": [
-    "interface",
     "location"
   ],
   "accessibility": {
@@ -29,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "House door arch pentagon",
+  "aliases": [
+    "House7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

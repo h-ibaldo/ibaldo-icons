@@ -1,21 +1,24 @@
 {
-  "name": "ChartVerticalColumns7",
-  "displayName": "Chart vertical columns 7",
+  "name": "ChartBarPeakJoinedAxis",
+  "displayName": "Chart bar peak joined axis",
   "originalTitle": "Chart Vertical Columns 7",
   "description": "Seventh variation of vertical column chart for business reporting and analytics. Used to present numerical data in visual format.",
   "tags": [
     "chart",
+    "vertical",
     "columns",
     "bars",
-    "vertical",
     "reporting",
     "numerical",
     "analytics",
-    "presentation"
+    "presentation",
+    "bar",
+    "peak",
+    "joined",
+    "axis"
   ],
   "categories": [
-    "business",
-    "interface"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.755Z"
+  "generatedAt": "2026-02-15T00:53:19.755Z",
+  "aliases": [
+    "ChartVerticalColumns7"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

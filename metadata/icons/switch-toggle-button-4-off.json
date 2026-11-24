@@ -1,14 +1,16 @@
 {
-  "name": "SwitchToggleOff4",
+  "name": "ToggleOffInset",
   "description": "A toggle switch button in the off position, variant 4 with distinctive appearance.",
   "tags": [
-    "switch",
     "toggle",
+    "switch",
     "button",
-    "off",
     "disabled",
+    "mute",
+    "off",
     "inactive",
-    "control"
+    "control",
+    "inset"
   ],
   "categories": [
     "interface"
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Toggle off inset",
+  "aliases": [
+    "SwitchToggleOff4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

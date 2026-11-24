@@ -1,19 +1,18 @@
 {
-  "name": "LoginArrowIn3",
+  "name": "LoginCircle",
   "description": "A third variant of login with inward arrow depicting secure entry or user authentication",
   "tags": [
     "login",
     "arrow",
-    "in",
-    "sign in",
+    "sign-in",
     "enter",
-    "variant",
     "access",
-    "authentication"
+    "authentication",
+    "circle"
   ],
   "categories": [
-    "interface",
-    "security"
+    "security",
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Login circle",
+  "aliases": [
+    "LoginArrowIn3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

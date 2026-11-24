@@ -1,0 +1,36 @@
+{
+  "name": "VolumeTranslate",
+  "displayName": "Volume translate",
+  "description": "Speaker cone next to the character 文, a translation symbol.",
+  "tags": [
+    "translate",
+    "language",
+    "audio-translation",
+    "dubbing",
+    "speech",
+    "volume",
+    "speaker"
+  ],
+  "categories": [
+    "media",
+    "communication"
+  ],
+  "accessibility": {
+    "role": "interactive",
+    "suggestedLabel": "Audio translation"
+  },
+  "filename": "volume-translate",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T16:04:08.263Z"
+}

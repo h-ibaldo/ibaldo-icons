@@ -1,0 +1,39 @@
+'use strict';
+
+const { defineComponent, h } = require('vue');
+
+const Lasso = defineComponent({
+  name: 'Lasso',
+  props: {
+    size: { type: [Number, String], default: 24 },
+    color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: [Number, String], default: 1.5 }
+  },
+  setup(props) {
+    return () =>
+      h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          width: props.size,
+          height: props.size,
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': props.strokeWidth,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          class: 'icon-design'
+        },
+        [
+          h('path', {"d":"M5 16C5 17.105 5.895 18 7 18C8.105 18 9 17.105 9 16C9 14.895 8.105 14 7 14C5.895 14 5 14.895 5 16Z"}),
+          h('path', {"d":"M5.25 15.031C3.254 13.66 2 11.691 2 9.5C2 5.359 6.477 2 12 2C17.523 2 22 5.359 22 9.5C22 13.641 17.523 17 12 17C10.918 17 9.875 16.871 8.898 16.633"}),
+          h('path', {"d":"M6 18C6 18 6.945 22 11 22C15.055 22 18 20 18 20"})
+        ]
+      );
+  }
+});
+
+module.exports = Lasso;
+module.exports.Lasso = Lasso;
+module.exports.default = Lasso;

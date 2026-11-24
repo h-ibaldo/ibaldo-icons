@@ -1,0 +1,33 @@
+{
+  "name": "JustifyRight",
+  "displayName": "Justify right",
+  "description": "Tall bar and short bar in a row against a line on the right.",
+  "tags": [
+    "justify",
+    "align",
+    "spacing",
+    "layout",
+    "align-horizontal-justify-end"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Justify right"
+  },
+  "filename": "justify-right",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

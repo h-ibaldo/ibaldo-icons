@@ -1,17 +1,22 @@
 {
-  "name": "PageViewOverlappingShow",
+  "name": "WindowOverlapRight",
   "description": "A page view icon displaying overlapping windows with non-hidden views visible, representing layered window management.",
   "tags": [
-    "page view",
-    "overlapping windows",
+    "window",
+    "page",
+    "view",
+    "overlapping",
+    "windows",
     "show",
-    "non-hidden",
+    "non",
+    "hidden",
     "views",
-    "layers",
-    "window management",
-    "interface"
+    "page-view",
+    "overlapping-windows",
+    "non-hidden"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +34,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window overlap right",
+  "aliases": [
+    "PageViewOverlappingShow"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

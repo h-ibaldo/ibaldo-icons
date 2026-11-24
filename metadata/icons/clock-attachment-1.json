@@ -1,5 +1,5 @@
 {
-  "name": "ClockAttachment",
+  "name": "ClockPaperclip",
   "description": "A clock icon with an attachment symbol indicating time-based file or document linking",
   "tags": [
     "clock",
@@ -8,11 +8,11 @@
     "file",
     "link",
     "document",
-    "schedule"
+    "schedule",
+    "paperclip"
   ],
   "categories": [
-    "time",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock paperclip",
+  "aliases": [
+    "ClockAttachment"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

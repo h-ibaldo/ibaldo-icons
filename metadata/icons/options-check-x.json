@@ -1,0 +1,37 @@
+{
+  "name": "OptionsCheckX",
+  "displayName": "Options check x",
+  "description": "Small circled check above a larger circled X.",
+  "tags": [
+    "options",
+    "choice",
+    "states",
+    "select",
+    "check",
+    "x",
+    "yes-no",
+    "approve",
+    "reject"
+  ],
+  "categories": [
+    "interface"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Yes or no"
+  },
+  "filename": "options-check-x",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:11:31.091Z"
+}

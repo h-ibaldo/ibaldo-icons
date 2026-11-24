@@ -1,5 +1,5 @@
 {
-  "name": "Cloud3Send",
+  "name": "CloudSendRound",
   "description": "A cloud icon with a send symbol for uploading files to cloud storage or cloud-based sharing.",
   "tags": [
     "cloud",
@@ -8,12 +8,12 @@
     "share",
     "transfer",
     "export",
-    "submit"
+    "submit",
+    "round"
   ],
   "categories": [
-    "interface",
     "files",
-    "communication"
+    "devices"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud send round",
+  "aliases": [
+    "Cloud3Send"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

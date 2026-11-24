@@ -13,19 +13,6 @@ export const CONFIG = {
     hasFill: false
   },
 
-  ai: {
-    models: {
-      naming: 'claude-haiku-4-5-20251001',
-      metadata: 'claude-haiku-4-5-20251001'
-    },
-    batchSizes: {
-      naming: 20,
-      metadata: 15,
-      general: 10
-    },
-    temperature: 0.3
-  },
-
   svg: {
     defaultSize: 512,
     decimalPrecision: 2

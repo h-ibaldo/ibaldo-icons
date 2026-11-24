@@ -1,21 +1,24 @@
 {
-  "name": "BadgeCheck5",
-  "displayName": "Badge check 5",
+  "name": "BadgeCheckWavy",
+  "displayName": "Badge check wavy",
   "originalTitle": "Badge Rosette Checkmark Approved Verified 5",
   "description": "Verification badge with checkmark for showing approved or authenticated status. Commonly used for premium accounts or certified content.",
   "tags": [
     "badge",
+    "rosette",
     "checkmark",
     "approved",
     "verified",
+    "done",
+    "success",
     "authenticated",
     "premium",
     "certified",
-    "validation"
+    "validation",
+    "check"
   ],
   "categories": [
-    "interface",
-    "business"
+    "social"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +36,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.739Z"
+  "generatedAt": "2026-02-15T00:53:19.739Z",
+  "aliases": [
+    "BadgeCheck5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

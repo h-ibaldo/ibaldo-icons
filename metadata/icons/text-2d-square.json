@@ -1,0 +1,36 @@
+{
+  "name": "Text2DSquare",
+  "displayName": "Text2 d square",
+  "description": "Letters 2D inside a rounded square.",
+  "tags": [
+    "2d",
+    "two-dimensional",
+    "flat",
+    "view",
+    "letters",
+    "text",
+    "square",
+    "format"
+  ],
+  "categories": [
+    "media"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "2D"
+  },
+  "filename": "text-2d-square",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:22:40.919Z"
+}

@@ -1,15 +1,18 @@
 {
-  "name": "TabCheckVerified",
+  "name": "TabCheckCenter",
   "description": "A tab icon with a checkmark indicating verified or confirmed status",
   "tags": [
     "tab",
-    "check",
     "checked",
     "verified",
+    "done",
+    "success",
+    "check",
     "confirmation",
     "approved",
     "validation",
-    "mark"
+    "mark",
+    "center"
   ],
   "categories": [
     "interface"
@@ -29,5 +32,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab check center",
+  "aliases": [
+    "TabCheckVerified"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

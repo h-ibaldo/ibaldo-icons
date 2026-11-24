@@ -1,19 +1,18 @@
 {
-  "name": "LevelsAdjustDash5",
+  "name": "AdjustTick",
   "description": "A fifth variant levels adjustment dashboard icon for control applications",
   "tags": [
-    "levels",
     "adjust",
+    "levels",
     "dashboard",
     "control",
-    "variant",
     "settings",
     "equalizer",
-    "interface"
+    "interface",
+    "tick"
   ],
   "categories": [
-    "interface",
-    "business"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Adjust tick",
+  "aliases": [
+    "LevelsAdjustDash5"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

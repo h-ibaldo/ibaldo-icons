@@ -1,19 +1,19 @@
 {
-  "name": "AgendaContacts0",
+  "name": "AddressBook",
   "description": "An agenda contacts icon displaying a schedule or contact list in variant 0 style",
   "tags": [
+    "address",
     "agenda",
     "contacts",
     "schedule",
     "calendar",
     "people",
     "communication",
-    "address book"
+    "address-book",
+    "book"
   ],
   "categories": [
-    "communication",
-    "people",
-    "time"
+    "business"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Address book",
+  "aliases": [
+    "AgendaContacts0"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

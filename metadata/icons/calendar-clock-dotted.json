@@ -1,0 +1,38 @@
+{
+  "name": "CalendarClockDotted",
+  "displayName": "Calendar clock dotted",
+  "description": "Calendar with dots on the left and a large clock at the bottom right.",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "event",
+    "time",
+    "deadline",
+    "clock",
+    "reminder",
+    "dotted",
+    "day"
+  ],
+  "categories": [
+    "time"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Schedule"
+  },
+  "filename": "calendar-clock-dotted",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

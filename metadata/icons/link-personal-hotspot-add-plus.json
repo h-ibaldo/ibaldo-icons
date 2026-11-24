@@ -1,19 +1,19 @@
 {
-  "name": "LinkPersonalHotspotAdd",
+  "name": "LinkPlus",
   "description": "A personal hotspot link icon with an add action for creating or enabling connections",
   "tags": [
     "link",
-    "personal hotspot",
+    "personal",
+    "hotspot",
     "add",
+    "create",
+    "personal-hotspot",
     "plus",
     "connection",
     "network",
-    "wireless",
-    "create"
+    "wireless"
   ],
   "categories": [
-    "interface",
-    "devices",
     "communication"
   ],
   "accessibility": {
@@ -31,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Link plus",
+  "aliases": [
+    "LinkPersonalHotspotAdd"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

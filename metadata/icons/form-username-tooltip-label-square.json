@@ -1,12 +1,12 @@
 {
-  "name": "FormUsernameTooltipSquare",
+  "name": "FormUserTooltip",
   "description": "A form username input field with a square tooltip or label indicator",
   "tags": [
     "form",
     "username",
-    "tooltip",
     "label",
     "square",
+    "tooltip",
     "input",
     "field",
     "user",
@@ -30,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form user tooltip",
+  "aliases": [
+    "FormUsernameTooltipSquare"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

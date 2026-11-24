@@ -1,16 +1,19 @@
 {
-  "name": "FormRadiusChecked3",
+  "name": "FormRadioCheck",
   "description": "A rounded form radio button in checked state, third variant style",
   "tags": [
     "form",
-    "radio",
-    "checked",
     "radius",
+    "checked",
+    "done",
+    "success",
+    "verified",
+    "radio",
     "rounded",
     "input",
     "selection",
     "button",
-    "variant3"
+    "check"
   ],
   "categories": [
     "interface"
@@ -30,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form radio check",
+  "aliases": [
+    "FormRadiusChecked3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

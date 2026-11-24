@@ -1,15 +1,16 @@
 {
-  "name": "CloudWarning",
+  "name": "CloudTriangle",
   "description": "A cloud icon with a warning indicator for critical cloud service issues",
   "tags": [
     "cloud",
     "alert",
     "warning",
     "caution",
-    "notification"
+    "notification",
+    "triangle"
   ],
   "categories": [
-    "interface",
+    "files",
     "devices"
   ],
   "accessibility": {
@@ -27,5 +28,8 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Cloud triangle",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

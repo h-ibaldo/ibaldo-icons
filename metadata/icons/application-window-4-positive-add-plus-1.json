@@ -1,17 +1,19 @@
 {
-  "name": "ApplicationWindowPlus1",
+  "name": "WindowPlusPlain",
   "description": "An application window icon with a plus symbol indicating the ability to add or create new content",
   "tags": [
-    "application",
     "window",
+    "application",
     "positive",
     "add",
-    "plus",
     "create",
+    "plus",
     "new",
-    "interface"
+    "interface",
+    "plain"
   ],
   "categories": [
+    "devices",
     "interface"
   ],
   "accessibility": {
@@ -29,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Window plus plain",
+  "aliases": [
+    "ApplicationWindowPlus1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

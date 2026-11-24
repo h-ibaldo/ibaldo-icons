@@ -1,19 +1,18 @@
 {
-  "name": "FunnelFilterMail2",
+  "name": "FilterLinesWide",
   "description": "A funnel or filter icon variant with horizontal lines representing mail filtering and sorting options",
   "tags": [
-    "funnel",
     "filter",
+    "funnel",
     "horizontal",
-    "lines",
     "mail",
     "sort",
     "refine",
-    "email"
+    "email",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -30,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Filter lines wide",
+  "aliases": [
+    "FunnelFilterMail2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

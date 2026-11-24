@@ -1,0 +1,33 @@
+<script>
+  /** @type {string} */
+  export let color = 'currentColor';
+  /** @type {number|string} */
+  export let size = 24;
+  /** @type {number|string} */
+  export let strokeWidth = 1.5;
+  /** @type {string} */
+  let className = '';
+  export { className as class };
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon-design {className}"
+  {...$$restProps}
+>
+  <polygon points="11.949462885142566 9.000000000480213 6.949462885144385 13.000000000480213 11.949462885142566 17.000000000480213 16.949462885140747 13.000000000480213 11.949462885142566 9.000000000480213"/>
+  <rect x="1.949462885142566" y="18.000000000480213" width="6" height="4"/>
+  <rect x="15.949462885142566" y="18.000000000480213" width="6" height="4"/>
+  <polyline points="6.949462885142566 13.000000000480213 4.949462885142566 13.000000000480213 4.949462885142566 18.000000000480213"/>
+  <polyline points="16.949462885142566 13.000000000571163 18.949462885029789 13.000000000389264 18.949462885255343 18.000000000389264"/>
+  <line x1="11.949462885142566" y1="6.000000000480213" x2="11.949462885142566" y2="9.000000000480213"/>
+  <rect x="6.949462885142566" y="2.000000000480213" width="10" height="4"/>
+</svg>

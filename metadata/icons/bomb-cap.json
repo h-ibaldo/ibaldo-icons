@@ -1,0 +1,35 @@
+{
+  "name": "BombCap",
+  "displayName": "Bomb cap",
+  "description": "Round bomb with a cap, a curved fuse and a cross-shaped spark.",
+  "tags": [
+    "bomb",
+    "explosive",
+    "danger",
+    "boom",
+    "fuse",
+    "spark",
+    "threat"
+  ],
+  "categories": [
+    "security"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Bomb"
+  },
+  "filename": "bomb-cap",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T22:13:28.627Z"
+}

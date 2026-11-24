@@ -1,13 +1,11 @@
 {
-  "name": "SidebarMenu4",
+  "name": "SidebarMenu",
   "description": "A sidebar menu icon with four horizontal lines representing an expanded collapsible navigation panel variant.",
   "tags": [
     "sidebar",
     "menu",
     "navigation",
     "hamburger",
-    "4",
-    "lines",
     "interface",
     "toggle"
   ],
@@ -29,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sidebar menu",
+  "aliases": [
+    "SidebarMenu4"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

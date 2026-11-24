@@ -1,22 +1,24 @@
 {
-  "name": "UserPerson6",
-  "description": "A user profile icon representing a single person in variant 6 style",
+  "name": "AvatarFaceLongSideBangs",
+  "description": "Face with eyes and long straight hair with short bangs on one side.",
   "tags": [
     "user",
-    "person",
-    "profile",
     "avatar",
+    "profile",
     "account",
-    "people",
-    "identity"
+    "person",
+    "face",
+    "hairstyle",
+    "long-hair",
+    "bangs",
+    "fringe"
   ],
   "categories": [
-    "people",
-    "interface"
+    "people"
   ],
   "accessibility": {
     "role": "informative",
-    "suggestedLabel": "User profile"
+    "suggestedLabel": "User avatar"
   },
   "filename": "1-user-person-6",
   "technical": {
@@ -29,5 +31,12 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Avatar face, long side bangs",
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.394Z",
+  "aliases": [
+    "UserFaceLongSideBangs"
+  ],
+  "featured": true
 }

@@ -1,18 +1,17 @@
 {
-  "name": "TabOpenFolder",
+  "name": "TabFolderOpen",
   "description": "A tab icon with an open folder symbol to represent opening a folder in a new tab",
   "tags": [
     "tab",
+    "new",
     "open",
     "folder",
-    "new",
     "directory",
     "file",
     "interface"
   ],
   "categories": [
-    "interface",
-    "files"
+    "interface"
   ],
   "accessibility": {
     "role": "interactive",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Tab folder open",
+  "aliases": [
+    "TabOpenFolder"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.617Z"
 }

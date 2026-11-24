@@ -1,0 +1,35 @@
+{
+  "name": "ChartBellAxis",
+  "displayName": "Chart bell axis",
+  "description": "Bell curve on two axes.",
+  "tags": [
+    "chart",
+    "graph",
+    "analytics",
+    "data",
+    "bell-curve",
+    "distribution",
+    "normal"
+  ],
+  "categories": [
+    "business"
+  ],
+  "accessibility": {
+    "role": "informative",
+    "suggestedLabel": "Bell curve"
+  },
+  "filename": "chart-bell-axis",
+  "technical": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.5,
+    "hasStroke": true,
+    "hasFill": false
+  },
+  "contributors": [
+    "Henrique Ibaldo"
+  ],
+  "version": "1.0.0",
+  "deprecated": false,
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-22T22:39:17.360Z"
+}

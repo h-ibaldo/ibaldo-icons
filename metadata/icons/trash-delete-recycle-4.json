@@ -1,17 +1,20 @@
 {
-  "name": "TrashDelete42",
+  "name": "TrashSyncNotch",
   "description": "A trash bin icon representing permanent deletion and waste removal actions",
   "tags": [
     "trash",
     "delete",
     "recycle",
+    "synchronize",
     "remove",
     "bin",
     "waste",
-    "discard"
+    "discard",
+    "sync",
+    "notch"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Trash sync notch",
+  "aliases": [
+    "TrashDelete42"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

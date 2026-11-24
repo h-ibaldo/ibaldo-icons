@@ -1,17 +1,15 @@
 {
-  "name": "Information1",
+  "name": "Info",
   "description": "An information icon with a variant 1 design style for displaying help, details, or explanatory content.",
   "tags": [
-    "information",
     "info",
+    "information",
     "help",
     "details",
-    "details",
-    "variant 1"
+    "icon-ui"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +26,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Info",
+  "aliases": [
+    "Information1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

@@ -1,10 +1,11 @@
 {
-  "name": "HideSidepanelRight",
+  "name": "SidebarArrowRight",
   "description": "An arrow pointing right icon indicating the action to hide or collapse a side panel",
   "tags": [
+    "sidebar",
     "hide",
     "sidepanel",
-    "side panel",
+    "side-panel",
     "arrow",
     "right",
     "collapse",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Sidebar arrow right",
+  "aliases": [
+    "HideSidepanelRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }

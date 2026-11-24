@@ -1,20 +1,22 @@
 {
-  "name": "ArrowsFourCircleImprovement",
+  "name": "ArrowCyclePlus",
   "description": "Four directional arrows in a circle with a plus symbol representing cyclical process improvement and enhancement",
   "tags": [
+    "arrow",
     "arrows",
     "four",
     "circle",
     "process",
-    "plus",
     "improvement",
+    "add",
+    "create",
+    "plus",
     "enhancement",
     "cycle",
     "iteration"
   ],
   "categories": [
-    "interface",
-    "business"
+    "arrows"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +33,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Arrow cycle plus",
+  "aliases": [
+    "ArrowsFourCircleImprovement"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

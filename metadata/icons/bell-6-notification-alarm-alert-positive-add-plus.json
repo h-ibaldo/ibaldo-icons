@@ -1,21 +1,25 @@
 {
-  "name": "Bell6Plus",
-  "displayName": "Bell 6 plus",
+  "name": "BellPlusWide",
+  "displayName": "Bell plus wide",
   "originalTitle": "Bell 6 Notification Alarm Alert Positive Add Plus",
   "description": "Notification bell with plus sign, indicating the ability to add new notifications or enable notification features. Used for creating alerts or subscribing to notifications.",
   "tags": [
     "bell",
     "notification",
+    "alarm",
+    "alert",
+    "positive",
     "add",
     "create",
     "enable",
     "subscribe",
     "new",
-    "plus"
+    "plus",
+    "wide"
   ],
   "categories": [
-    "interface",
-    "communication"
+    "communication",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -33,5 +37,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.789Z"
+  "generatedAt": "2026-02-15T00:53:19.789Z",
+  "aliases": [
+    "Bell6Plus"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:48.656Z"
 }

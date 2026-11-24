@@ -1,16 +1,17 @@
 {
-  "name": "FormCheckboxUnchecked3",
+  "name": "FormCheckboxLarge",
   "description": "An unchecked form checkbox icon in the third style variant, showing an unselected or unvalidated form field state.",
   "tags": [
     "form",
-    "checkbox",
     "unchecked",
+    "checkbox",
     "unselected",
     "input",
     "empty",
     "deselected",
     "toggle",
-    "validation"
+    "validation",
+    "large"
   ],
   "categories": [
     "interface"
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Form checkbox large",
+  "aliases": [
+    "FormCheckboxUnchecked3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

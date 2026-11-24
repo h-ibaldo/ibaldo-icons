@@ -1,16 +1,16 @@
 {
-  "name": "Selfie3",
+  "name": "SelfieCamera",
   "description": "A third variant of a selfie camera icon for self-portrait photography applications",
   "tags": [
     "selfie",
     "camera",
     "self-portrait",
     "photo",
-    "variant3"
+    "icon-ui"
   ],
   "categories": [
-    "devices",
-    "media"
+    "media",
+    "people"
   ],
   "accessibility": {
     "role": "informative",
@@ -27,5 +27,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Selfie camera",
+  "aliases": [
+    "Selfie3"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

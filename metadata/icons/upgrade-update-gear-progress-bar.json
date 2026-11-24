@@ -1,18 +1,19 @@
 {
-  "name": "UpgradeProgressBar",
+  "name": "GearProgress",
   "description": "An upgrade icon with a gear and progress bar showing system update or version improvement in progress",
   "tags": [
+    "gear",
     "upgrade",
     "update",
-    "gear",
-    "progress bar",
+    "bar",
+    "progress-bar",
     "settings",
     "installation",
     "loading",
-    "improvement"
+    "improvement",
+    "progress"
   ],
   "categories": [
-    "interface",
     "development"
   ],
   "accessibility": {
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Gear progress",
+  "aliases": [
+    "UpgradeProgressBar"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

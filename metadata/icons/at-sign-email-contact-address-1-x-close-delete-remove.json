@@ -1,20 +1,22 @@
 {
-  "name": "AtSign1X",
-  "displayName": "At sign 1 x",
+  "name": "AtXCurved",
+  "displayName": "At X curved",
   "originalTitle": "At Sign Email Contact Address 1 X Close Delete Remove",
   "description": "At symbol with X mark for closing or deleting email addresses. Used to cancel email operations, close contact forms, or remove email entries.",
   "tags": [
     "at",
+    "sign",
     "email",
+    "contact",
+    "address",
     "close",
     "delete",
     "remove",
     "cancel",
-    "x"
+    "curved"
   ],
   "categories": [
-    "communication",
-    "interface"
+    "communication"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +34,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.761Z"
+  "generatedAt": "2026-02-15T00:53:19.761Z",
+  "aliases": [
+    "AtSign1X"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

@@ -1,18 +1,17 @@
 {
-  "name": "LockEyeAlt",
+  "name": "LockEyeCorner",
   "description": "An alternative lock icon with eye symbol for privacy and visibility management.",
   "tags": [
     "lock",
-    "eye",
     "privacy",
+    "eye",
     "protection",
     "security",
     "visibility",
-    "variant"
+    "corner"
   ],
   "categories": [
-    "security",
-    "interface"
+    "security"
   ],
   "accessibility": {
     "role": "informative",
@@ -29,5 +28,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Lock eye corner",
+  "aliases": [
+    "LockEyeAlt"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.501Z"
 }

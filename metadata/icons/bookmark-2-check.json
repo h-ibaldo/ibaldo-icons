@@ -1,17 +1,19 @@
 {
-  "name": "Bookmark2Check",
+  "name": "BookmarkCheckCurl",
   "description": "A bookmark icon with a checkmark indicating a verified or completed bookmarked item",
   "tags": [
     "bookmark",
+    "done",
+    "success",
+    "verified",
     "check",
     "checkmark",
-    "verified",
     "complete",
     "confirmed",
-    "variant"
+    "curl"
   ],
   "categories": [
-    "interface"
+    "files"
   ],
   "accessibility": {
     "role": "informative",
@@ -28,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Bookmark check curl",
+  "aliases": [
+    "Bookmark2Check"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.068Z"
 }

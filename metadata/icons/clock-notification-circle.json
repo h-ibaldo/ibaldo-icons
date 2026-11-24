@@ -1,19 +1,20 @@
 {
-  "name": "ClockNotificationCircle",
+  "name": "ClockDot",
   "description": "A clock icon with a notification badge in a circle, representing scheduled alerts and timed notifications.",
   "tags": [
     "clock",
     "notification",
-    "alert",
     "circle",
+    "unread",
+    "badge",
+    "alert",
     "time",
     "schedule",
-    "reminder"
+    "reminder",
+    "dot"
   ],
   "categories": [
-    "time",
-    "communication",
-    "interface"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -30,5 +31,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock dot",
+  "aliases": [
+    "ClockNotificationCircle"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

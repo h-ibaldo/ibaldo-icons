@@ -1,12 +1,13 @@
 {
-  "name": "MinusSquare1",
+  "name": "MinusSquare",
   "description": "A minus sign icon within a square container for indicating removal or reduction operations",
   "tags": [
     "minus",
     "sign",
     "negative",
-    "square",
     "remove",
+    "subtract",
+    "square",
     "delete",
     "decrease"
   ],
@@ -28,5 +29,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Minus square",
+  "aliases": [
+    "MinusSquare1"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

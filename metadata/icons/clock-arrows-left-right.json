@@ -1,5 +1,5 @@
 {
-  "name": "ClockArrowsLeftRight",
+  "name": "ClockArrowLeftRight",
   "description": "A clock icon with bidirectional horizontal arrows indicating time navigation or synchronization",
   "tags": [
     "clock",
@@ -9,12 +9,11 @@
     "bidirectional",
     "synchronize",
     "time",
-    "navigation"
+    "navigation",
+    "arrow"
   ],
   "categories": [
-    "time",
-    "interface",
-    "arrows"
+    "time"
   ],
   "accessibility": {
     "role": "informative",
@@ -31,5 +30,11 @@
     "Henrique Ibaldo"
   ],
   "version": "1.0.0",
-  "deprecated": false
+  "deprecated": false,
+  "displayName": "Clock arrow left right",
+  "aliases": [
+    "ClockArrowsLeftRight"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:50.935Z"
 }

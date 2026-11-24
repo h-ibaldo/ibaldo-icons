@@ -1,20 +1,20 @@
 {
-  "name": "ApplicationWindow1Shield2",
-  "displayName": "Application window 1 shield 2",
+  "name": "WindowShield",
+  "displayName": "Window shield",
   "originalTitle": "Application Window 1 Shield 2",
   "description": "Application window with security shield icon. Represents secure applications, protected software, or security-focused interfaces.",
   "tags": [
     "window",
+    "application",
     "shield",
     "security",
     "protection",
     "secure",
-    "application",
     "safety"
   ],
   "categories": [
-    "interface",
-    "security"
+    "devices",
+    "interface"
   ],
   "accessibility": {
     "role": "informative",
@@ -32,5 +32,10 @@
   ],
   "version": "1.0.0",
   "deprecated": false,
-  "generatedAt": "2026-02-15T00:53:19.761Z"
+  "generatedAt": "2026-02-15T00:53:19.761Z",
+  "aliases": [
+    "ApplicationWindow1Shield2"
+  ],
+  "namedBy": "claude-code",
+  "updatedAt": "2026-11-17T15:32:49.112Z"
 }
