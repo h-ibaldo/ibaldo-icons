@@ -289,7 +289,7 @@
         visibility: hidden;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         .mobile-only {
             display: none;
         }
@@ -299,7 +299,7 @@
         }
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 1023px) {
         .desktop-only {
             display: none;
         }
@@ -325,7 +325,7 @@
         <!-- Light / dark theme -->
         <button
             type="button"
-            class="theme-toggle text-indigo-500 hover:text-indigo-600 {isScrolled ? 'hide' : ''}"
+            class="theme-toggle desktop-only text-indigo-500 hover:text-indigo-600 {isScrolled ? 'hide' : ''}"
             on:click={toggleTheme}
             tabindex={isScrolled ? -1 : 0}
             aria-label={$theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
